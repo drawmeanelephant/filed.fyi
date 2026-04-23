@@ -19,3 +19,7 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# rotkeeping
+astro-sourcebook.md
+node_module_list.md
