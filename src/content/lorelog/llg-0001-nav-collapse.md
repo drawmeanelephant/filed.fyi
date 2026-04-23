@@ -1,0 +1,33 @@
+---
+title: "Navigation Collapse Event — Breadcrumb Stratum Failure"
+date: 2025-11-04
+versionLabel: "v0.9.1"
+description: "Primary breadcrumb layer dissolved mid-session. Affected users encountered recursive anchor loops with no canonical exit node."
+severity: critical
+disposition: contested
+resolution: unresolvable
+classification: internal
+caseNumber: "LLG-0001"
+filedBy: "404sy McLostalot"
+filedAt: "Navigation Oversight Bureau"
+mascotRef: "404sy-mclostalot"
+affectedSystems:
+  - "breadcrumb renderer"
+  - "anchor resolution cache"
+  - "sitemap index layer"
+relatedEntries:
+  - "llg-0004-sitemap-drift"
+escalationPath: "Route Rot Tribunal, Filing Desk 7"
+tags:
+  - broken-navigation
+  - breadcrumb-failure
+  - anchor-loop
+  - rot-protocol
+notes: "Three separate rerouting attempts produced identical void outputs. Filing authority declined to issue a canonical redirect. Matter remains unresolvable pending appeal."
+---
+
+The breadcrumb layer collapsed at approximately 14:32 site-time during a routine anchor resolution pass. No prior degradation signals were logged. The stratum appears to have dissolved cleanly, leaving no debris in the navigation buffer — which is considered anomalous.
+
+Users attempting to traverse the affected path reported returning to their origin point without memory of the transit. One clerk filed a supplemental note describing "the distinct sensation of having almost found something."
+
+No fix has been approved. The Tribunal has twice declined to issue a canonical redirect. This record is contested on the grounds that the collapse may have been intentional.

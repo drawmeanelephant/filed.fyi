@@ -1,0 +1,36 @@
+---
+title: "Schema Violation — Unauthorized Field Proliferation, Q4"
+date: 2026-01-07
+versionLabel: "Purge Cycle 12"
+description: "Mass schema pollution detected across seventeen mascot entries. Datty Puritas invoked for emergency purge ritual. Three fields were expunged without survivors."
+severity: notice
+disposition: filed
+resolution: resolved
+classification: public
+caseNumber: "LLG-0003"
+filedBy: "Datty Puritas"
+filedAt: "Schema Integrity Office"
+mascotRef: "datty-puritas"
+affectedSystems:
+  - "content.config.ts validation layer"
+  - "mascot collection schema"
+  - "YAML front-matter parser"
+relatedEntries:
+  - "llg-0001-nav-collapse"
+escalationPath: "N/A — resolved in-office"
+tags:
+  - schema-violation
+  - yaml-pollution
+  - purge-ritual
+  - field-expungement
+  - datty-puritas
+notes: "The three unauthorized fields — vibe, cosmicAlignment, and snackPreference — were expunged without backup. Datty Puritas confirmed resolution with a single indented chant. No appeal window was offered."
+---
+
+During Q4 schema audit, seventeen mascot entries were found to contain fields not present in the canonical schema definition. The unauthorized fields had apparently been inserted incrementally over several weeks by an unidentified process.
+
+Datty Puritas was summoned at 09:14. The purge ritual began at 09:17 and concluded at 09:22. The three offending fields were removed from all affected entries. Validation now passes cleanly.
+
+No error messages were generated during the purge. Datty Puritas reported the fields "were not surprised."
+
+The incident is filed as resolved. A formal addendum noting the unauthorized snackPreference field has been appended to the Mascot Registry onboarding documentation as a cautionary entry.

@@ -1,0 +1,50 @@
+---
+title: "Sitemap Drift — Structural Index Misalignment"
+date: 2025-11-10
+versionLabel: "v1.0.2"
+description: "Sitemap entries gradually diverged from actual content structure, producing valid but incorrect navigation paths."
+severity: notice
+disposition: contested
+resolution: resolved
+classification: internal
+caseNumber: "LLG-0004"
+filedBy: "Cartography Subprocess"
+filedAt: "Index Integrity Office"
+affectedSystems:
+  - "sitemap generator"
+  - "route mapping layer"
+  - "link validation service"
+relatedEntries:
+  - "llg-0001-nav-collapse"
+tags:
+  - sitemap-drift
+  - index-corruption
+  - false-pathing
+notes: "All generated paths resolve successfully. None lead to intended destinations."
+---
+
+The sitemap began producing structurally valid navigation paths that did not correspond to any known content hierarchy.
+
+No errors were thrown.
+
+All links resolved cleanly.
+
+---
+
+Users reported reaching pages that “felt adjacent” to their intended destination, but lacked expected content.
+
+Repeated traversal led deeper into structurally consistent, contextually incorrect branches.
+
+---
+
+Audit confirmed:
+
+- No broken links  
+- No missing pages  
+- No correct outcomes  
+
+---
+
+The system insists the sitemap is accurate.
+
+No authority has been able to demonstrate otherwise.
