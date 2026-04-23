@@ -1,0 +1,204 @@
+@layer base, starlight, theme, components, utilities;
+
+@import '@astrojs/starlight-tailwind';
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+.mascots-page__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .mascots-page__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .mascots-page__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mascots-page__meta {
+  margin-bottom: 1.5rem;
+}
+
+.mascots-page__title {
+  font-weight: 600;
+}
+
+.mascots-page__good {
+  color: #5eead4;
+}
+
+.mascots-page__bad {
+  color: #fb7185;
+}
+
+.mascots-page__stat {
+  color: #ffffff;
+}
+
+.mascots-page__note {
+  opacity: 0.6;
+}
+
+.mascots-page__empty {
+  opacity: 0.7;
+}
+
+.lorelog {
+  width: 100%;
+}
+
+.lorelog__header {
+  font-family: monospace;
+  background: #0a0a0a;
+  color: #a1a1aa;
+  border: 1px solid #27272a;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.lorelog__header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lorelog__title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.lorelog__status {
+  font-size: 0.75rem;
+  border: 1px solid #4ade80;
+  background: rgba(74, 222, 128, 0.1);
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.25rem;
+  color: #4ade80;
+}
+
+.lorelog__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.lorelog__divider {
+  opacity: 0.4;
+}
+
+.lorelog__critical {
+  color: #f87171;
+}
+
+.lorelog__note {
+  font-size: 0.75rem;
+  color: #71717a;
+  margin: 0;
+}
+
+.lorelog__section {
+  margin-bottom: 3rem;
+}
+
+.lorelog__section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: monospace;
+}
+
+.lorelog__badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.25rem;
+  border: 1px solid #3f3f46;
+}
+
+.lorelog__badge--critical { composes: lorelog-sev lorelog-sev--critical; }
+.lorelog__badge--warning { composes: lorelog-sev lorelog-sev--warning; }
+.lorelog__badge--notice { composes: lorelog-sev lorelog-sev--notice; }
+.lorelog__badge--classified { composes: lorelog-sev lorelog-sev--classified; }
+.lorelog__badge--info { composes: lorelog-sev lorelog-sev--info; }
+
+/* Centralized severity system (replaces inline Tailwind and duplicated badge styles) */
+.lorelog-sev {
+  font-size: 0.75rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+}
+
+.lorelog-sev--critical {
+  color: #c04040;
+  border-color: rgba(192, 64, 64, 0.3);
+  background: rgba(192, 64, 64, 0.1);
+}
+
+.lorelog-sev--warning {
+  color: #b87333;
+  border-color: rgba(184, 115, 51, 0.3);
+  background: rgba(184, 115, 51, 0.1);
+}
+
+.lorelog-sev--notice {
+  color: #4a8f6a;
+  border-color: rgba(74, 143, 106, 0.3);
+  background: rgba(74, 143, 106, 0.1);
+}
+
+.lorelog-sev--info {
+  color: #3a7fa8;
+  border-color: rgba(58, 127, 168, 0.3);
+  background: rgba(58, 127, 168, 0.1);
+}
+
+.lorelog-sev--classified {
+  color: #6b4a8f;
+  border-color: rgba(107, 74, 143, 0.3);
+  background: rgba(107, 74, 143, 0.1);
+}
+
+.lorelog__count {
+  font-size: 0.75rem;
+  color: #a1a1aa;
+}
+
+.lorelog__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .lorelog__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .lorelog__grid {
+    grid-template-columns: 1fr;
+  }
+}

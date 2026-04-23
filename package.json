@@ -1,17 +1,23 @@
 {
-  "name": "filed-fyinpm-create-astro-latest",
-  "type": "module",
+  "name": "filed-fyi",
   "version": "0.0.1",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview": "astro preview"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.38.3",
+    "@astrojs/starlight-tailwind": "^5.0.0",
+    "@lucide/astro": "^1.8.0",
+    "@tailwindcss/vite": "^4.2.4",
     "astro": "^6.0.1",
-    "sharp": "^0.34.2"
+    "lucide-astro": "^0.556.0",
+    "sass": "^1.99.0",
+    "sharp": "^0.34.2",
+    "starlight-site-graph": "^0.5.0",
+    "tailwindcss": "^4.2.4"
   }
 }
