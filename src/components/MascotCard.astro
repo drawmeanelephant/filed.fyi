@@ -1,0 +1,217 @@
+---
+// src/components/MascotCard.astro
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  mascot: CollectionEntry<"mascots">;
+}
+
+const { mascot } = Astro.props;
+const d = mascot.data;
+
+// Computed fields from .transform()
+const displayName = d.displayName ?? d.name ?? "UNKNOWN ENTITY";
+const cardDescription = d.cardDescription ?? "No record on file.";
+const isComplete = d.isComplete;
+
+// Key stat fields
+const corruption = d.corruptionLevel ?? "none";
+const glitch = d.glitchFrequency ?? "none";
+const renderState = d.renderState ?? "deferred";
+const completionState = d.completionState ?? "draft";
+
+// Lore fields
+const origin = d.origin;
+const knownFailures = d.knownFailures ?? [];
+const ceremonialTasks = d.ceremonialTasks ?? [];
+const rotAffinity = d.rotAffinity;
+const emotionalIntegrity = d.emotionalIntegrity;
+
+// Severity color maps
+const corruptionColor: Record<string, string> = {
+  none: "mascot-card__corruption--none",
+  low: "mascot-card__corruption--low",
+  medium: "mascot-card__corruption--medium",
+  high: "mascot-card__corruption--high",
+  critical: "mascot-card__corruption--critical",
+};
+const renderStateColor: Record<string, string> = {
+  deferred: "mascot-card__render--deferred",
+  active: "mascot-card__render--active",
+  corrupted: "mascot-card__render--corrupted",
+  phantom: "mascot-card__render--phantom",
+  archived: "mascot-card__render--archived",
+};
+
+const statId = `mascot-stats-${mascot.id.replace(/[^a-z0-9]/gi, "-")}`;
+---
+
+<article
+  class="mascot-card"
+  x-data="{ open: false }"
+>
+  <!-- ░░ HEADER BAND ░░ -->
+  <div class="mascot-card__header">
+    <span class="mascot-card__meta mascot-card__meta--completion">
+      {completionState}
+    </span>
+    {d.emoji && (
+      <span class="mascot-card__emoji" aria-hidden="true">{d.emoji}</span>
+    )}
+    <span class={`mascot-card__meta mascot-card__meta--render ${renderStateColor[renderState] ?? "mascot-card__render--fallback"}`}>
+      {renderState}
+    </span>
+  </div>
+
+  <!-- ░░ IMAGE ░░ -->
+  {d.emojiUrl ? (
+    <div class="mascot-card__image">
+      <img
+        src={d.emojiUrl}
+        alt={displayName}
+        class="mascot-card__image-img"
+        loading="lazy"
+      />
+    </div>
+  ) : (
+    <div class="mascot-card__image">
+      <span class="mascot-card__emoji-fallback" aria-hidden="true">
+        {d.emoji ?? "░"}
+      </span>
+    </div>
+  )}
+
+  <!-- ░░ COMPACT PREVIEW ░░ -->
+  <div class="mascot-card__body">
+    <h2 class="mascot-card__title">
+      {displayName}
+    </h2>
+    <p class="mascot-card__description">
+      {cardDescription}
+    </p>
+
+    <!-- Key stats strip -->
+    <dl class="mascot-card__stats">
+      <div class="mascot-card__stat">
+        <dt class="mascot-card__dt">CORRUPT</dt>
+        <dd class="mascot-card__value">
+          {corruption}
+        </dd>
+      </div>
+      <div class="mascot-card__stat">
+        <dt class="mascot-card__dt">GLITCH</dt>
+        <dd class="mascot-card__value">
+          {glitch}
+        </dd>
+      </div>
+      <div class="mascot-card__stat">
+        <dt class="mascot-card__dt">RENDER</dt>
+        <dd class="mascot-card__value">
+          {renderState}
+        </dd>
+      </div>
+    </dl>
+  </div>
+
+  <!-- ░░ TOGGLE BUTTON ░░ -->
+  <button
+    type="button"
+    class="mascot-card__toggle"
+    @click="open = !open"
+    :aria-expanded="open.toString()"
+    :aria-controls="statId"
+  >
+    <span x-text="open ? '▲ collapse record' : '▼ open full record'">▼ open full record</span>
+    <span class="mascot-card__id">[{mascot.id}]</span>
+  </button>
+
+  <!-- ░░ EXPANDED STAT SHEET ░░ -->
+  <div
+    id={statId}
+    x-show="open"
+    x-transition:enter="transition-all duration-200 ease-out"
+    x-transition:enter-start="opacity-0 max-h-0"
+    x-transition:enter-end="opacity-100 max-h-[9999px]"
+    x-transition:leave="transition-all duration-150 ease-in"
+    x-transition:leave-start="opacity-100"
+    x-transition:leave-end="opacity-0"
+    class="mascot-card__expanded"
+    style="display: none;"
+  >
+    <div class="mascot-card__expanded-inner">
+
+      <!-- Enum stat block -->
+      <section>
+        <h3 class="mascot-card__section-title">
+          ░ Diagnostic Block
+        </h3>
+        <dl class="mascot-card__dl">
+          {rotAffinity && (
+            <><dt class="mascot-card__dt">rotAffinity</dt><dd class="mascot-card__value">{rotAffinity}</dd></>
+          )}
+          {emotionalIntegrity && (
+            <><dt class="mascot-card__dt">emotionalIntegrity</dt><dd class="mascot-card__value">{emotionalIntegrity}</dd></>
+          )}
+          {d.mascotId && (
+            <><dt class="mascot-card__dt">mascotId</dt><dd class="mascot-card__value">{d.mascotId}</dd></>
+          )}
+          {d.slug && (
+            <><dt class="mascot-card__dt">slug</dt><dd class="mascot-card__value">{d.slug}</dd></>
+          )}
+        </dl>
+      </section>
+
+      <!-- Origin / Lore -->
+      {origin && (
+        <section>
+          <h3 class="mascot-card__section-title">
+            ░ Origin
+          </h3>
+          <p class="mascot-card__lore-text">{origin}</p>
+        </section>
+      )}
+
+      <!-- Known Failures -->
+      {knownFailures.length > 0 && (
+        <section>
+          <h3 class="mascot-card__section-title">
+            ░ Known Failures
+          </h3>
+          <ul class="mascot-card__list">
+            {knownFailures.map((f: string) => (
+              <li class="mascot-card__li mascot-card__li--failure">{f}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <!-- Ceremonial Tasks -->
+      {ceremonialTasks.length > 0 && (
+        <section>
+          <h3 class="mascot-card__section-title">
+            ░ Ceremonial Tasks
+          </h3>
+          <ul class="space-y-1">
+            {ceremonialTasks.map((t: string) => (
+              <li class="mascot-card__li mascot-card__li--task">{t}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <!-- Raw body (lore prose) -->
+      {mascot.body && mascot.body.trim().length > 0 && (
+        <section>
+          <h3 class="mascot-card__section-title">
+            ░ Lore Fragment
+          </h3>
+          <div class="mascot-card__lore">
+            {mascot.body}
+          </div>
+        </section>
+      )}
+
+    </div>
+  </div>
+</article>

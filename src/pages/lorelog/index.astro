@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import LorelogCard from '../../components/LorelogCard.astro';
+
+const entries = await getCollection('lorelog');
+entries.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const counts = {
+  total: entries.length,
+  critical: entries.filter((e) => e.data.severity === 'critical').length,
+  classified: entries.filter((e) => e.data.classification !== 'public').length,
+  unresolved: entries.filter((e) => ['pending', 'unresolvable'].includes(e.data.resolution)).length,
+  contested: entries.filter((e) => e.data.disposition === 'contested').length,
+};
+
+const severityOrder = ['critical', 'warning', 'notice', 'classified', 'info'] as const;
+const grouped = Object.fromEntries(
+  severityOrder.map((s) => [s, entries.filter((e) => e.data.severity === s)])
+);
+const hasAny = (sev: string) => grouped[sev]?.length > 0;
+---
+
+<StarlightPage frontmatter={{
+  title: 'Lorelog',
+  description: 'Filed incident records, dispatch notices, and contested entries from the archive.',
+  template: 'doc',
+}}>
+  <div class="lorelog not-content">
+    <div class="lorelog__header">
+      <div class="lorelog__header-top">
+        <span class="lorelog__title">LORELOG REGISTRY</span>
+        <span class="lorelog__status">ACTIVE</span>
+      </div>
+      <div class="lorelog__meta">
+        <span>ENTRIES <strong>{counts.total}</strong></span>
+        <span class="lorelog__divider">·</span>
+        <span class="lorelog__critical">CRITICAL <strong>{counts.critical}</strong></span>
+        <span class="lorelog__divider">·</span>
+        <span>UNRESOLVED <strong>{counts.unresolved}</strong></span>
+        <span class="lorelog__divider">·</span>
+        <span>CONTESTED <strong>{counts.contested}</strong></span>
+        <span class="lorelog__divider">·</span>
+        <span>NON-PUBLIC <strong>{counts.classified}</strong></span>
+      </div>
+      <p class="lorelog__note">
+        Sorted by severity. All records provisional. Some entries may be hazardous or sealed.
+      </p>
+    </div>
+
+    {severityOrder.filter(hasAny).map((sev) => (
+      <section class="lorelog__section">
+        <h2 class="lorelog__section-title">
+          <span class={`lorelog__badge lorelog__badge--${sev}`}>{sev.toUpperCase()}</span>
+          <span class="lorelog__count">{grouped[sev].length} record{grouped[sev].length !== 1 ? 's' : ''}</span>
+        </h2>
+        <div class="lorelog__grid">
+          {grouped[sev].map((entry) => <LorelogCard entry={entry} />)}
+        </div>
+      </section>
+    ))}
+  </div>
+</StarlightPage>
