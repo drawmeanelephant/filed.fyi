@@ -7,20 +7,23 @@ severity: notice
 disposition: contested
 resolution: resolved
 classification: internal
-caseNumber: "LLG-0004"
+caseNumber: "LLG-0004-SMD"
 filedBy: "Cartography Subprocess"
 filedAt: "Index Integrity Office"
+mascotRef: "404sy-mclostalot"
 affectedSystems:
   - "sitemap generator"
   - "route mapping layer"
   - "link validation service"
 relatedEntries:
   - "llg-0001-nav-collapse"
+  - "llg-0003-schema-violation-ritual"
 tags:
+  - broken-navigation
   - sitemap-drift
   - index-corruption
   - false-pathing
-notes: "All generated paths resolve successfully. None lead to intended destinations."
+notes: "All generated paths resolve successfully. None lead to intended destinations. 404sy certified the routes as navigable in the narrow sense that they continued elsewhere."
 ---
 
 The sitemap began producing structurally valid navigation paths that did not correspond to any known content hierarchy.

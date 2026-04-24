@@ -7,7 +7,7 @@ severity: critical
 disposition: contested
 resolution: unresolvable
 classification: internal
-caseNumber: "LLG-0001"
+caseNumber: "LLG-0001-NAV"
 filedBy: "404sy McLostalot"
 filedAt: "Navigation Oversight Bureau"
 mascotRef: "404sy-mclostalot"

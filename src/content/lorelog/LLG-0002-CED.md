@@ -7,7 +7,7 @@ severity: warning
 disposition: contested
 resolution: appealed
 classification: public
-caseNumber: "LLG-0002"
+caseNumber: "LLG-0002-CED"
 filedBy: "Datalock Archivia"
 filedAt: "Header Arbitration Division"
 mascotRef: "uncacheable-ursula"
@@ -16,6 +16,7 @@ affectedSystems:
   - "browser cache negotiation"
   - "ETag registry"
 relatedEntries:
+  - "LLG-0316-MBR"
   - "llg-0005-stale-content-echo"
 escalationPath: "Cache Tribunal, Freshness Assessment Board"
 tags:

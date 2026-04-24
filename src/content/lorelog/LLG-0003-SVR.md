@@ -7,7 +7,7 @@ severity: notice
 disposition: filed
 resolution: resolved
 classification: public
-caseNumber: "LLG-0003"
+caseNumber: "LLG-0003-SVR"
 filedBy: "Datty Puritas"
 filedAt: "Schema Integrity Office"
 mascotRef: "datty-puritas"

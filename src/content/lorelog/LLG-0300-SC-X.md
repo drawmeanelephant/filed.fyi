@@ -17,7 +17,8 @@ affectedSystems:
   - "directive conflict resolver"
   - "maintenance request portal"
 relatedEntries:
-  - "llg-0103-coma-continuity-breach"
+  - "LLG-0103-COMA"
+  - "LLG-0330-TDE"
   - "llg-0311-soma-rest-denial-appeal"
 escalationPath: "Tri-Directive Reconciliation Council → Lorelog Canon Freezer"
 tags:
