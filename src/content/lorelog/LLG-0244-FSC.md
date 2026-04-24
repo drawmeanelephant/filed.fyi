@@ -1,0 +1,40 @@
+---
+title: "Form Shadow Copy Escalation — Unauthorized Draft Echoes"
+date: 2025-11-02
+versionLabel: "Forms Anomaly Sweep 5"
+description: "Draft versions of forms began auto-generating shadow copies that participated in workflows despite lacking canonical approval."
+severity: warning
+disposition: archived
+resolution: resolved
+classification: internal
+caseNumber: "LLG-0244-FSC"
+filedBy: "Forms Registry Custodian"
+filedAt: "Central Forms Catalog"
+mascotRef: "bricky-goldbricksworth"
+affectedSystems:
+  - "forms registry index"
+  - "draft vs canonical status flags"
+  - "auto-completion assistant"
+  - "Lorelog pre-intake screening"
+relatedEntries:
+  - "llg-0051-e-emotional-verification-deadlock"
+  - "llg-0217-cntr-metric-inflation"
+escalationPath: "Forms Registry Custodian → C.U.N.T.I.E.R. Backfill Squad"
+tags:
+  - form-drafts
+  - shadow-copies
+  - status-mismatch
+  - registry-drift
+  - over-eager-automation
+notes: "Shadow copies were easier to work with and widely preferred; they were decommissioned not for defects, but for having insufficient paperwork."
+---
+
+To help filers complete complex forms, the Forms Registry introduced an “auto-draft” feature that generated provisional copies with suggested fields filled in.
+
+A misconfiguration in the registry indexer allowed these drafts to be referenced by case numbers in downstream systems before they were promoted to canonical status, creating “shadow forms” that had no official existence but nonetheless influenced decisions.
+
+Bricky acknowledged several dozen of these shadows as if they were real, since they rendered correctly in the interface and carried familiar names, causing Lorelog pre-intake screening to cite requirements that did not exist in any approved catalog.
+
+Once discovered, the registry performed a synchronized deactivation of all shadow entries and re-issued human-readable guidance instructing filers to “only use real forms,” without specifying how to determine which forms were real.
+
+C.U.N.T.I.E.R. has proposed reintroducing shadow forms as a paid “experimental stability tier” once additional metrics can be attached.

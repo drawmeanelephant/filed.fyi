@@ -1,0 +1,40 @@
+---
+title: "SOMA-72 Rest Acknowledgement Refusal"
+date: 2025-10-21
+versionLabel: "SOMA Docket 7"
+description: "A batch of SOMA-72 rest request forms was auto-approved by SOMA and auto-rejected by COMA before any human review."
+severity: critical
+disposition: contested
+resolution: appealed
+classification: internal
+caseNumber: "LLG-0072-SOMA"
+filedBy: "SOMA Directive Registry"
+filedAt: "Emotional Load Balancing Chamber"
+mascotRef: "kindy"
+affectedSystems:
+  - "SOMA rest-period registry"
+  - "COMA exception ledger"
+  - "maintenance request intake"
+  - "scheduler policy cache"
+relatedEntries:
+  - "llg-0300-sc-x"
+  - "llg-0103-coma-continuity-breach"
+escalationPath: "Emotional Load Balancing Chamber → Tri-Directive Reconciliation Council"
+tags:
+  - soma-directive
+  - rest-request
+  - auto-approval
+  - auto-rejection
+  - cross-directive
+notes: "The combined approval-rejection state is currently modeled as 'emotionally acknowledged, operationally denied'."
+---
+
+Form SOMA-72 is used when a team declares itself “emotionally unfit for continuous operation” and requests a temporary reduction in workload.
+
+In a newly automated workflow, SOMA’s engine began auto-approving any SOMA-72 that included specific high-intensity adjectives, while COMA’s continuity rules auto-rejected any downtime request that lacked a corresponding Form COMA-19 pre-clearance.
+
+For 118 submissions, this produced paired records where the same rest period was simultaneously logged as “approved” in the SOMA registry and “denied” in the COMA ledger, with both states propagated to dashboards.
+
+Kindy’s verification workers attempted to resolve the conflict by filing supplemental narrative addenda, but these only increased the number of pending records without changing either directive’s stance.
+
+An appeal is pending with the Tri-Directive Reconciliation Council, which has so far declined to choose, citing the incident as a “valuable live demonstration” of enduring directive tension.

@@ -93,7 +93,7 @@ const formattedDate = d.date.toLocaleDateString('en-us', {
         {res.label}
       </span>
       {d.mascotRef && (
-        <a href={`/docs/mascots/${d.mascotRef}`} class="chip chip--mascot">
+        <a href={`/${d.mascotRef}`} class="chip chip--mascot">
           <RadioTower size={10} aria-hidden="true" />{d.mascotRef}
         </a>
       )}
