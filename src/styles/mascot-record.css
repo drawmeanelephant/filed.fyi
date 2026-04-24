@@ -1,0 +1,335 @@
+/* ============================================================
+   MASCOT RECORD — dossier panel styles
+   Archival / monospace / dark-surface aesthetic.
+   No Tailwind. Complements .chip, .badge from global.css.
+   ============================================================ */
+
+/* ── Outer wrapper ─────────────────────────────────────────── */
+.mascot-record {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 0.25rem;
+  background: var(--sl-color-bg-nav);
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Header strip ──────────────────────────────────────────── */
+.mascot-record__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  background: var(--sl-color-bg-sidebar);
+  border-bottom: 1px solid var(--sl-color-hairline);
+}
+
+.mascot-record__header-left,
+.mascot-record__header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.mascot-record__id {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  color: var(--sl-color-gray-4);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.mascot-record__stamp {
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #b87333;
+  border: 1px solid color-mix(in srgb, #b87333 45%, transparent);
+  padding: 0.1rem 0.35rem;
+  border-radius: 1px;
+}
+
+/* ── Status / render-state badge variants ──────────────────── */
+.mascot-record__status { }
+
+.badge--status-active       { color: #4a8f6a; background: rgba(74,143,106,.1); border-color: rgba(74,143,106,.3); }
+.badge--status-archived     { color: var(--sl-color-gray-4); background: rgba(100,100,100,.08); border-color: rgba(100,100,100,.2); }
+.badge--status-deprecated   { color: #b87333; background: rgba(184,115,51,.1); border-color: rgba(184,115,51,.3); }
+.badge--status-corrupted    { color: #c04040; background: rgba(192,64,64,.1); border-color: rgba(192,64,64,.3); }
+.badge--status-orphaned     { color: #6b4d8a; background: rgba(107,77,138,.1); border-color: rgba(107,77,138,.3); }
+.badge--status-unknown      { color: var(--sl-color-gray-5); background: transparent; border-color: var(--sl-color-hairline); }
+
+.badge--render-active       { color: #4a8f6a; background: rgba(74,143,106,.08); border-color: rgba(74,143,106,.25); }
+.badge--render-deferred     { color: #6b7ab8; background: rgba(107,122,184,.08); border-color: rgba(107,122,184,.25); }
+.badge--render-corrupted    { color: #c04040; background: rgba(192,64,64,.08); border-color: rgba(192,64,64,.25); }
+.badge--render-phantom      { color: #8a6baa; background: rgba(138,107,170,.08); border-color: rgba(138,107,170,.25); }
+.badge--render-archived     { color: var(--sl-color-gray-4); background: transparent; border-color: var(--sl-color-hairline); }
+
+/* corruption / glitch intensity chips */
+.chip--level-none     { color: var(--sl-color-gray-4); }
+.chip--level-low      { color: #4a8f6a; }
+.chip--level-medium   { color: #b87333; }
+.chip--level-high     { color: #c04040; }
+.chip--level-critical { color: #9b1111; background: rgba(155,17,17,.12); border-color: rgba(155,17,17,.3); }
+
+/* ── Emoji / image avatar ──────────────────────────────────── */
+.mascot-record__avatar-band {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0.85rem;
+  border-bottom: 1px solid var(--sl-color-hairline);
+  background: color-mix(in srgb, var(--sl-color-bg-nav) 90%, var(--sl-color-bg-sidebar));
+}
+
+.mascot-record__avatar-img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+  border-radius: 0.15rem;
+  border: 1px solid var(--sl-color-hairline);
+  background: var(--sl-color-bg-sidebar);
+  flex-shrink: 0;
+}
+
+.mascot-record__avatar-emoji {
+  font-size: 2.5rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.mascot-record__avatar-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.mascot-record__name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--sl-color-white);
+  margin: 0;
+  line-height: 1.25;
+}
+
+.mascot-record__slogan {
+  font-size: 0.8rem;
+  color: var(--sl-color-gray-4);
+  font-style: italic;
+  margin: 0;
+  letter-spacing: 0.03em;
+}
+
+/* ── Main diagnostic grid ──────────────────────────────────── */
+.mascot-record__grid-section {
+  padding: 0.85rem;
+  border-bottom: 1px solid var(--sl-color-hairline);
+}
+
+.mascot-record__section-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-5);
+  border-bottom: 1px solid var(--sl-color-hairline);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.65rem;
+}
+
+/* Two-column on desktop, one on mobile */
+.mascot-record__dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem 1.5rem;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 600px) {
+  .mascot-record__dl {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mascot-record__dl > div {
+  display: grid;
+  grid-template-columns: 10ch 1fr;
+  gap: 0.25rem;
+  align-items: baseline;
+}
+
+.mascot-record__dl dt {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-5);
+  padding-top: 0.05rem;
+}
+
+.mascot-record__dl dd {
+  color: var(--sl-color-gray-2);
+  margin: 0;
+  word-break: break-word;
+}
+
+/* Coloured value variants */
+.mascot-record__val--muted    { color: var(--sl-color-gray-4); }
+.mascot-record__val--accent   { color: var(--sl-color-text-accent); }
+.mascot-record__val--warn     { color: #b87333; }
+.mascot-record__val--danger   { color: #c04040; }
+.mascot-record__val--ok       { color: #4a8f6a; }
+.mascot-record__val--purple   { color: #8a6baa; }
+.mascot-record__val--null     { color: var(--sl-color-gray-5); font-style: italic; opacity: 0.6; }
+
+/* ── Chips row ─────────────────────────────────────────────── */
+.mascot-record__chips-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  padding: 0.6rem 0.85rem;
+  border-bottom: 1px solid var(--sl-color-hairline);
+  background: color-mix(in srgb, var(--sl-color-bg-nav) 85%, var(--sl-color-bg-sidebar));
+}
+
+/* ── Expandable sections ───────────────────────────────────── */
+.mascot-record__sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.mascot-record__expand {
+  border-bottom: 1px solid var(--sl-color-hairline);
+}
+
+.mascot-record__expand:last-child {
+  border-bottom: none;
+}
+
+.mascot-record__expand-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 0.85rem;
+  background: var(--sl-color-bg-sidebar);
+  cursor: pointer;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-3);
+  transition: background 150ms ease, color 150ms ease;
+  border: none;
+  text-align: left;
+}
+
+.mascot-record__expand-toggle:hover {
+  background: color-mix(in srgb, var(--sl-color-bg-sidebar) 80%, var(--sl-color-white));
+  color: var(--sl-color-white);
+}
+
+.mascot-record__expand-caret {
+  font-size: 0.6rem;
+  color: var(--sl-color-gray-5);
+  transition: transform 200ms ease;
+  flex-shrink: 0;
+}
+
+.mascot-record__expand-caret.is-open {
+  transform: rotate(180deg);
+}
+
+.mascot-record__expand-body {
+  padding: 0.75rem 0.85rem;
+  background: var(--sl-color-bg);
+  font-size: 0.88rem;
+  color: var(--sl-color-gray-3);
+  line-height: 1.65;
+}
+
+/* List inside expand sections */
+.mascot-record__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.mascot-record__list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--sl-color-gray-3);
+  line-height: 1.5;
+}
+
+.mascot-record__list li::before {
+  content: "›";
+  color: var(--sl-color-gray-5);
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
+.mascot-record__list--failures li::before { content: "✕"; color: #c04040; }
+.mascot-record__list--tasks    li::before { content: "◆"; color: #b87333; }
+.mascot-record__list--messages li::before { content: "»"; color: #3a7fa8; font-family: monospace; }
+.mascot-record__list--mascots  li::before { content: "↳"; color: #6b7ab8; }
+
+/* Haiku block */
+.mascot-record__haiku {
+  font-style: italic;
+  color: var(--sl-color-gray-3);
+  border-left: 2px solid var(--sl-color-hairline);
+  padding-left: 0.75rem;
+  white-space: pre-line;
+  margin: 0.5rem 0 0;
+  font-size: 0.88rem;
+  line-height: 1.75;
+}
+
+.mascot-record__haiku + .mascot-record__haiku {
+  margin-top: 1rem;
+}
+
+/* Notes / addendum prose */
+.mascot-record__prose {
+  font-size: 0.88rem;
+  color: var(--sl-color-gray-3);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Contact dl variant */
+.mascot-record__contact-dl {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.mascot-record__contact-dl div {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+}
+
+.mascot-record__contact-dl dt {
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-5);
+  min-width: 6ch;
+  flex-shrink: 0;
+}
+
+.mascot-record__contact-dl dd {
+  color: var(--sl-color-gray-3);
+  margin: 0;
+}

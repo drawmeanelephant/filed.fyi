@@ -1,0 +1,373 @@
+---
+/**
+ * MascotRecord.astro
+ * Full dossier panel for mascot detail pages.
+ * Placed above the Starlight prose slot; does NOT replace page body.
+ * No Tailwind. Uses scoped mascot-record.css + shared chip/badge classes.
+ */
+import type { CollectionEntry } from 'astro:content';
+import '../styles/mascot-record.css';
+
+interface Props {
+  mascot: CollectionEntry<'mascots'>;
+}
+
+const { mascot } = Astro.props;
+const d = mascot.data;
+
+// ── Normalise field names (support both snake_case & camelCase) ──────────
+const mascotId          = d.mascotId        ?? d.mascot_id          ?? null;
+const slug              = d.slug            ?? mascot.id            ?? null;
+const status            = d.status          ?? 'unknown';
+const renderState       = d.renderState     ?? d.render_state       ?? 'deferred';
+const corruptionLevel   = d.corruptionLevel ?? d.corruption_level   ?? 'none';
+const glitchFrequency   = d.glitchFrequency ?? d.glitch_frequency   ?? 'none';
+const displayName       = d.displayName     ?? d.name               ?? d.title ?? 'UNKNOWN ENTITY';
+const slogan            = d.slogan          ?? null;
+const version           = d.version         ?? null;
+const author            = d.author          ?? null;
+const dateVal           = d.date            ?? null;
+const origin            = d.origin          ?? null;
+const manifestedBy      = d.manifestedBy    ?? d.manifested_by      ?? null;
+const lastKnownGoodState= d.lastKnownGoodState ?? d.last_known_good_state ?? null;
+const rotAffinity       = d.rotAffinity     ?? d.rot_affinity       ?? null;
+const emotionalIntegrity= d.emotionalIntegrity ?? d.emotional_integrity ?? null;
+const emotionalIntBuf   = d.emotionalIntegrityBuffer ?? d.emotional_integrity_buffer ?? null;
+const systemAffiliation = d.systemAffiliation ?? d.system_affiliation ?? null;
+const mascotLineage     = d.mascotLineage   ?? d.mascot_lineage     ?? null;
+const breedingProgram   = d.breedingProgram ?? d.breeding_program   ?? null;
+const tags              = d.tags            ?? [];
+const categories        = d.categories      ?? [];
+const description       = d.description     ?? null;
+const knownFailures     = d.knownFailures   ?? d.known_failures     ?? [];
+const ceremonialTasks   = d.ceremonialTasks ?? d.ceremonial_tasks   ?? [];
+const haikuLog          = d.haikuLog        ?? d.haiku_log          ?? [];
+const notes             = d.notes           ?? null;
+const imageUrl          = d.imageUrl        ?? d.image_url          ?? d.emojiUrl ?? null;
+const emoji             = d.emoji           ?? null;
+
+// Role/function/tone live in the markdown body as bold lines so we leave them there.
+// We surface them from frontmatter only if present.
+const role              = d.role            ?? null;
+const mascotFunction    = d.function        ?? null;
+const emotionalTone     = d.emotionalTone   ?? d.emotional_tone     ?? null;
+
+// ── Status → badge class map ─────────────────────────────────────────────
+const statusBadge: Record<string, string> = {
+  active:     'badge badge--status-active',
+  archived:   'badge badge--status-archived',
+  deprecated: 'badge badge--status-deprecated',
+  corrupted:  'badge badge--status-corrupted',
+  orphaned:   'badge badge--status-orphaned',
+  unknown:    'badge badge--status-unknown',
+};
+
+const renderBadge: Record<string, string> = {
+  active:   'badge badge--render-active',
+  deferred: 'badge badge--render-deferred',
+  corrupted:'badge badge--render-corrupted',
+  phantom:  'badge badge--render-phantom',
+  archived: 'badge badge--render-archived',
+};
+
+const levelChip: Record<string, string> = {
+  none:     'chip chip--level-none',
+  low:      'chip chip--level-low',
+  medium:   'chip chip--level-medium',
+  high:     'chip chip--level-high',
+  critical: 'chip chip--level-critical',
+};
+
+const statusCls  = statusBadge[status]      ?? statusBadge.unknown;
+const renderCls  = renderBadge[renderState] ?? renderBadge.deferred;
+const corruptCls = levelChip[corruptionLevel] ?? 'chip chip--level-none';
+const glitchCls  = levelChip[glitchFrequency] ?? 'chip chip--level-none';
+
+const formattedDate = dateVal
+  ? new Date(dateVal).toLocaleDateString('en-us', { year:'numeric', month:'short', day:'numeric' })
+  : null;
+
+// ── Section visibility guards ────────────────────────────────────────────
+const hasExpandedSections =
+  description ||
+  knownFailures.length > 0 ||
+  ceremonialTasks.length > 0 ||
+  haikuLog.length > 0 ||
+  notes;
+
+// Unique expand ID prefix
+const uid = `mr-${(slug ?? mascot.id).replace(/[^a-z0-9]/gi, '-')}`;
+---
+
+<aside class="mascot-record" aria-label="Mascot Dossier">
+
+  {/* ── HEADER STRIP ─────────────────────────────────────────── */}
+  <div class="mascot-record__header">
+    <div class="mascot-record__header-left">
+      {mascotId && (
+        <span class="mascot-record__id">
+          ◈ {String(mascotId).padStart(3, '0')}
+        </span>
+      )}
+      <span class={statusCls}>{status.toUpperCase()}</span>
+      <span class={renderCls}>{renderState.toUpperCase()}</span>
+    </div>
+    <div class="mascot-record__header-right">
+      <span class={corruptCls}>CORRUPT:{corruptionLevel.toUpperCase()}</span>
+      <span class={glitchCls}>GLITCH:{glitchFrequency.toUpperCase()}</span>
+      {breedingProgram && (
+        <span class="mascot-record__stamp">BRED</span>
+      )}
+    </div>
+  </div>
+
+  {/* ── AVATAR + NAME BAND ───────────────────────────────────── */}
+  <div class="mascot-record__avatar-band">
+    {imageUrl ? (
+      <img
+        src={imageUrl}
+        alt={displayName}
+        class="mascot-record__avatar-img"
+        loading="lazy"
+        decoding="async"
+      />
+    ) : emoji ? (
+      <span class="mascot-record__avatar-emoji" aria-hidden="true">{emoji}</span>
+    ) : null}
+    <div class="mascot-record__avatar-meta">
+      <p class="mascot-record__name">{displayName}</p>
+      {slogan && <p class="mascot-record__slogan">"{slogan}"</p>}
+    </div>
+  </div>
+
+  {/* ── CORE DIAGNOSTIC GRID ─────────────────────────────────── */}
+  <div class="mascot-record__grid-section">
+    <p class="mascot-record__section-label">Diagnostic Record</p>
+    <dl class="mascot-record__dl">
+
+      {slug && (
+        <div>
+          <dt>Slug</dt>
+          <dd class="mascot-record__val--muted">{slug}</dd>
+        </div>
+      )}
+
+      {role && (
+        <div>
+          <dt>Role</dt>
+          <dd>{role}</dd>
+        </div>
+      )}
+
+      {mascotFunction && (
+        <div>
+          <dt>Function</dt>
+          <dd>{mascotFunction}</dd>
+        </div>
+      )}
+
+      {emotionalTone && (
+        <div>
+          <dt>Tone</dt>
+          <dd class="mascot-record__val--accent">{emotionalTone}</dd>
+        </div>
+      )}
+
+      {rotAffinity ? (
+        <div>
+          <dt>Rot Affinity</dt>
+          <dd class="mascot-record__val--warn">{rotAffinity}</dd>
+        </div>
+      ) : (
+        <div>
+          <dt>Rot Affinity</dt>
+          <dd class="mascot-record__val--null">null</dd>
+        </div>
+      )}
+
+      {emotionalIntegrity && (
+        <div>
+          <dt>Integrity</dt>
+          <dd class="mascot-record__val--ok">{emotionalIntegrity}</dd>
+        </div>
+      )}
+
+      {emotionalIntBuf !== null && emotionalIntBuf !== undefined ? (
+        <div>
+          <dt>Int. Buffer</dt>
+          <dd class={emotionalIntBuf === 'null' || emotionalIntBuf === null
+            ? 'mascot-record__val--null'
+            : 'mascot-record__val--purple'}
+          >
+            {String(emotionalIntBuf)}
+          </dd>
+        </div>
+      ) : null}
+
+      {systemAffiliation ? (
+        <div>
+          <dt>System</dt>
+          <dd>{systemAffiliation}</dd>
+        </div>
+      ) : (
+        <div>
+          <dt>System</dt>
+          <dd class="mascot-record__val--null">unaffiliated</dd>
+        </div>
+      )}
+
+      {mascotLineage ? (
+        <div>
+          <dt>Lineage</dt>
+          <dd>{mascotLineage}</dd>
+        </div>
+      ) : (
+        <div>
+          <dt>Lineage</dt>
+          <dd class="mascot-record__val--null">null</dd>
+        </div>
+      )}
+
+      {origin && (
+        <div>
+          <dt>Origin</dt>
+          <dd>{origin}</dd>
+        </div>
+      )}
+
+      {manifestedBy && (
+        <div>
+          <dt>Manifested</dt>
+          <dd class="mascot-record__val--muted">{manifestedBy}</dd>
+        </div>
+      )}
+
+      {lastKnownGoodState && (
+        <div>
+          <dt>Last Good</dt>
+          <dd class="mascot-record__val--ok">{String(lastKnownGoodState)}</dd>
+        </div>
+      )}
+
+      {version && (
+        <div>
+          <dt>Version</dt>
+          <dd class="mascot-record__val--muted">v{version}</dd>
+        </div>
+      )}
+
+      {author && (
+        <div>
+          <dt>Author</dt>
+          <dd>{author}</dd>
+        </div>
+      )}
+
+      {formattedDate && (
+        <div>
+          <dt>Date</dt>
+          <dd class="mascot-record__val--muted">{formattedDate}</dd>
+        </div>
+      )}
+
+    </dl>
+  </div>
+
+  {/* ── CHIPS ROW: tags, breeding, categories ────────────────── */}
+  {(tags.length > 0 || breedingProgram || categories.length > 0) && (
+    <div class="mascot-record__chips-section" aria-label="Classification chips">
+      {tags.map((t: string) => (
+        <span class="chip chip--archived">{t}</span>
+      ))}
+      {categories.map((c: string) => (
+        <span class="chip chip--deferred">{c}</span>
+      ))}
+      {breedingProgram && (
+        <span class="chip chip--notice" title={breedingProgram}>BREEDING PROGRAM</span>
+      )}
+    </div>
+  )}
+
+  {/* ── EXPANDABLE SECTIONS ──────────────────────────────────── */}
+  {hasExpandedSections && (
+    <div class="mascot-record__sections">
+
+      {/* Description */}
+      {description && (
+        <details class="mascot-record__expand">
+          <summary class="mascot-record__expand-toggle">
+            ░ Description
+            <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
+          </summary>
+          <div class="mascot-record__expand-body">
+            <p class="mascot-record__prose">{description}</p>
+          </div>
+        </details>
+      )}
+
+      {/* Known Failures */}
+      {knownFailures.length > 0 && (
+        <details class="mascot-record__expand">
+          <summary class="mascot-record__expand-toggle">
+            ░ Known Failures
+            <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
+          </summary>
+          <div class="mascot-record__expand-body">
+            <ul class="mascot-record__list mascot-record__list--failures">
+              {knownFailures.map((f: string) => (
+                <li>{f}</li>
+              ))}
+            </ul>
+          </div>
+        </details>
+      )}
+
+      {/* Ceremonial Tasks */}
+      {ceremonialTasks.length > 0 && (
+        <details class="mascot-record__expand">
+          <summary class="mascot-record__expand-toggle">
+            ░ Ceremonial Tasks
+            <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
+          </summary>
+          <div class="mascot-record__expand-body">
+            <ul class="mascot-record__list mascot-record__list--tasks">
+              {ceremonialTasks.map((t: string) => (
+                <li>{t}</li>
+              ))}
+            </ul>
+          </div>
+        </details>
+      )}
+
+      {/* Haiku Log */}
+      {haikuLog.length > 0 && (
+        <details class="mascot-record__expand">
+          <summary class="mascot-record__expand-toggle">
+            ░ Haiku Log
+            <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
+          </summary>
+          <div class="mascot-record__expand-body">
+            {haikuLog.map((h: string) => (
+              <blockquote class="mascot-record__haiku">{h.trim()}</blockquote>
+            ))}
+          </div>
+        </details>
+      )}
+
+      {/* Notes */}
+      {notes && (
+        <details class="mascot-record__expand">
+          <summary class="mascot-record__expand-toggle">
+            ░ Notes / Addendum
+            <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
+          </summary>
+          <div class="mascot-record__expand-body">
+            <p class="mascot-record__prose">{notes}</p>
+          </div>
+        </details>
+      )}
+
+    </div>
+  )}
+
+</aside>

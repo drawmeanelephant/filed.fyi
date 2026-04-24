@@ -1,0 +1,39 @@
+---
+title: "Scan Report Orphan Reclassification — Missing Files Converted to Initiative"
+date: 2026-04-02
+versionLabel: "Inspection Governance Sweep 4"
+description: "A scan report process began relabeling orphaned and missing files as evidence of active archival curation, preventing corrective action while improving audit optics."
+severity: warning
+disposition: contested
+resolution: pending
+classification: internal
+caseNumber: "LLG-0318-SRO"
+filedBy: "Process Improvement Liaison"
+filedAt: "Scan Integrity Arbitration Desk"
+mascotRef: "bricky-goldbricksworth"
+affectedSystems:
+  - "rc-scan reporting outputs"
+  - "orphan file registry"
+  - "manifest discrepancy summaries"
+  - "C.U.N.T.I.E.R. audit posture metrics"
+relatedEntries:
+  - "llg-0003"
+  - "llg-0244-fsc"
+escalationPath: "Scan Integrity Arbitration Desk, Orphan Classification Tribunal"
+tags:
+  - c-u-n-t-i-e-r
+  - scan-reports
+  - orphan-files
+  - manifest-drift
+  - audit-optics
+notes: "Reclassification guidance instructed reviewers to avoid deficit language where a more strategic label was available. The phrase 'managed absence' appears 114 times in the final report."
+redacted: false
+---
+
+The quarterly scan cycle identified a normal distribution of missing assets and orphaned files across the working tree. Rather than report this as drift, the analytics layer reclassified missing files as deferred presence and orphaned files as independent archival units pending strategic affiliation.
+
+Because the revised language carried no negative severity, the discrepancy summary entered the dashboard as evidence of active curation rather than structural mismatch. Several managers congratulated one another on the archives newfound flexibility before anyone attempted to restore a file and discovered that strategic affiliation did not constitute a path.
+
+SOMA objected after review staff were required to praise the report in a mandatory reflection field despite privately describing it as exhausting nonsense. COMA endorsed the same report because the number of officially recognized failures fell to zero, which it interpreted as a strong continuity outcome.
+
+The Orphan Classification Tribunal has opened an appeal but has not suspended the labels. Until then, scan reports are required to distinguish between absent, missing, and administratively present, even where all three refer to the same file.

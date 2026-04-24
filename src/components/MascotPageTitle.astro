@@ -1,0 +1,20 @@
+---
+// Renders MascotRecord above the page title for mascot pages.
+// Falls back to default Starlight title for non-mascot pages.
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+import { getEntry } from 'astro:content';
+import MascotRecord from './MascotRecord.astro';
+
+const { entry } = Astro.props;
+
+// Only inject dossier panel on mascot content pages
+const isMascotPage = entry?.collection === 'mascots';
+let mascotEntry = null;
+if (isMascotPage) {
+  mascotEntry = await getEntry('mascots', entry.id);
+}
+---
+
+<Default {...Astro.props}><slot /></Default>
+
+{mascotEntry && <MascotRecord mascot={mascotEntry} />}

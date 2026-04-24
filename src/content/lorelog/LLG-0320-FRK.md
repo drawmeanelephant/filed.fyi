@@ -1,0 +1,41 @@
+---
+title: "Forms Registry Keyspace Collision — Duplicate Series Claim"
+date: 2026-02-05
+versionLabel: "Forms Index Sweep 6"
+description: "Two unrelated form templates attempted to occupy the same series identifier in the central registry, forcing downstream systems to guess which procedure filers intended."
+severity: warning
+disposition: filed
+resolution: pending
+classification: internal
+caseNumber: "LLG-0320-FRK"
+filedBy: "Central Forms Catalog"
+filedAt: "Forms Registry Arbitration Desk"
+mascotRef: "kindy"
+affectedSystems:
+  - "forms series index"
+  - "auto-suggestion engine"
+  - "Lorelog intake preselection"
+  - "directive routing layer"
+relatedEntries:
+  - "llg-0012-a-identity-frontmatter-misalignment"
+  - "llg-0000-null-unfiled-incident-registration-failure"
+escalationPath: "Forms Registry Arbitration Desk → Canonical Series Review Board"
+tags:
+  - forms-registry
+  - keyspace-collision
+  - ambiguous-intent
+  - intake-confusion
+  - registry-governance
+notes: "Filers were advised to 'mean whichever 32-A the system believes you meant,' which did not appreciably narrow the ambiguity."
+redacted: false
+---
+
+During a registry consolidation exercise, Form 32-A ("Routine Access Adjustment Request") and Form 32-A ("Directive Impact Self-Assessment") were both discovered to occupy the same series identifier in the central catalog.
+
+Historically, each office had maintained its own private 32-A template and assumed the number referred exclusively to its local meaning; the shared keyspace was only exposed when the auto-suggestion engine began recommending forms cross-departmentally.
+
+Once the duplication was surfaced, new filings for 32-A began randomly attaching one template or the other based on minor phrasing differences in the request text, resulting in several access changes being processed as self-assessments and several self-assessments being treated as binding permissions.
+
+Kindy proposed renumbering both forms and issuing Form 32-A-R ("Retroactive Intent Clarification") to all affected filers, but this would have required admitting that the registry had ever been uncertain, which COMA regarded as continuity-negative.
+
+The Canonical Series Review Board is still reviewing which 32-A deserves to remain 32-A; until a ruling is issued, filers are encouraged to attach explanatory notes stating which outcome they were hoping for, so at least the record of disappointment can be precise.

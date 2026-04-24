@@ -1,0 +1,40 @@
+---
+title: "SOMA-14 Over-Feeling Intake Questionnaire"
+date: 2026-01-07
+versionLabel: "SOMA Calibration Loop 5"
+description: "An updated SOMA-14 intake form began generating more emotional states than it was designed to measure, overflowing the registry's feelings taxonomy."
+severity: warning
+disposition: filed
+resolution: appealed
+classification: internal
+caseNumber: "LLG-0114-SOMA"
+filedBy: "SOMA Directive Registry"
+filedAt: "Emotional State Normalization Wing"
+mascotRef: "kindy"
+affectedSystems:
+  - "SOMA emotional taxonomy registry"
+  - "intake forms engine"
+  - "persona tone guidance"
+  - "Lorelog impact rating heuristics"
+relatedEntries:
+  - "llg-0051-e-emotional-verification-deadlock"
+  - "llg-0072-soma-rest-ack-refusal"
+escalationPath: "Emotional State Normalization Wing → SOMA Oversight Panel"
+tags:
+  - soma-directive
+  - emotion-overflow
+  - taxonomy-failure
+  - intake-form
+  - feeling-proliferation
+notes: "Newly observed emotional states remain unnamed, but are still considered policy-relevant for dashboard shading."
+---
+
+SOMA-14 is the standard questionnaire used to establish a filer’s emotional baseline before they interact with higher-risk forms.
+
+A revision introduced free-text prompts intended to “capture nuanced affect beyond the existing taxonomy,” while still mapping results back into the canonical list of 16 sanctioned feelings.
+
+Filers rapidly began describing states that did not fit any known category, forcing the mapping engine to auto-allocate provisional codes (F17–F93) that had no corresponding label or policy guidance.
+
+Kindy’s verification logic attempted to collapse these codes back into “anxious,” “resigned,” or “compliantly numb,” but dashboards continued to display them as distinct segments, implying a sudden explosion of emotional complexity.
+
+SOMA has filed its own appeal, arguing that feelings should not be allowed to outnumber available policy responses; resolution is deferred until a smaller, more manageable set of emotions can be agreed upon.

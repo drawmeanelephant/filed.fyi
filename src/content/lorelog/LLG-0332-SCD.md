@@ -1,0 +1,34 @@
+---
+title: "SOMA Compassion Addendum Converted to COMA Exception Denial"
+date: 2026-04-24
+versionLabel: "Directive Clash Series 7"
+description: "A textual addendum intended to soften a continuity filing was parsed as a denial condition, causing compassionate language to reduce authorization likelihood."
+severity: warning
+disposition: deferred
+resolution: pending
+classification: internal
+caseNumber: "LLG-0332-SCD"
+filedBy: "SOMA Directive Registry"
+filedAt: "Directive Text Normalization Desk"
+mascotRef: "kindy"
+affectedSystems:
+  - "SOMA addendum parser"
+  - "COMA exception ledger"
+  - "maintenance request intake"
+  - "directive citation index"
+relatedEntries:
+  - "llg-0321-drt"
+  - "llg-0072-soma"
+  - "llg-0336-compassion-suppression-event"
+escalationPath: "Directive Text Normalization Desk, Tri-Directive Appeals Shelf"
+tags:
+  - soma-directive
+  - coma-directive
+  - directive-conflict
+  - semantic-laundering
+  - audit-recursion
+notes: "Phrases indicating care, fatigue, or restoration were interpreted by COMA as admissions of probable continuity weakness."
+redacted: false
+---
+
+A formatting patch allowed SOMA compassion addenda to travel with cross-directive requests for context preservation, after which COMA began reading the same language as evidence that the requesting unit could not be trusted with authorized pause. This preserved the emotional record in full while converting it into an operational disqualifier, establishing a stable filing condition in which explanation and denial became functionally identical.

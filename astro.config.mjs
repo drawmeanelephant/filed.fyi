@@ -16,6 +16,7 @@ export default defineConfig({
       ],
       components: {
           Icon: './src/components/Icon.astro',
+          PageTitle: './src/components/MascotPageTitle.astro',
       },
       social: [
           { icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }

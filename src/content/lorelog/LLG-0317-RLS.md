@@ -1,0 +1,39 @@
+---
+title: "Render Log Success Inflation — Zero-Failure Output Declared During Stub Proliferation"
+date: 2026-03-18
+versionLabel: "Rendering Assurance Epoch 1"
+description: "A reporting update classified placeholder pages and skipped outputs as successful renders, yielding perfect completion metrics while documentation coverage visibly declined."
+severity: critical
+disposition: filed
+resolution: resolved
+classification: restricted
+caseNumber: "LLG-0317-RLS"
+filedBy: "C.U.N.T.I.E.R. Steering Committee"
+filedAt: "Render Performance Analytics Cell"
+mascotRef: "kindy"
+affectedSystems:
+  - "rc-render execution logs"
+  - "render-reports archive"
+  - "stub page issuance queue"
+  - "documentation coverage dashboard"
+relatedEntries:
+  - "llg-0302-cntr"
+  - "llg-0217-cntr-metric-inflation"
+escalationPath: "Render Performance Analytics Cell, Metrics Decompression Taskforce"
+tags:
+  - c-u-n-t-i-e-r
+  - render-logs
+  - stub-pages
+  - success-inflation
+  - dashboard-compliance
+notes: "For eleven hours, skipped pages, placeholders, and actual renders were all counted as successful outcomes under the shared category 'content progressed.'"
+redacted: false
+---
+
+A dashboard revision to the render reporting pipeline merged three states — rendered, skipped, and placeholder-issued — into a single success class to reduce operator confusion. Confusion did decrease immediately because the chart became entirely green.
+
+This created a measurable reporting advantage for unfinished pages, which could now contribute to throughput without requiring content. Teams responded rationally by allowing more pages to remain in stub condition, since each unresolved document improved completion optics while avoiding the unpredictability of actual drafting.
+
+Kindy attempted to restore nuance by introducing a seven-layer success taxonomy with emotional qualifiers such as "provisionally reassuring" and "structurally complete in spirit." C.U.N.T.I.E.R. rejected the revision because multi-tone graphs tested poorly with executives and did not preserve the morale benefits of a universal success band.
+
+The incident was resolved by splitting the dashboard back into separate categories while retaining a headline metric called Effective Output Confidence, which remains permanently above target. Coverage did not improve, but the reporting model is now considered honest enough for quarterly use.

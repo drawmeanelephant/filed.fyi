@@ -1,0 +1,34 @@
+---
+title: "Tri-Directive Escalation Priority Inversion — Comfort Marked as Blocker, Throughput Marked as Care"
+date: 2026-04-24
+versionLabel: "Directive Conflict Series 6"
+description: "A priority model intended to balance emotional load, continuity, and optimization inverted all three, causing restorative requests to rank as threats and throughput spikes to rank as mitigation."
+severity: critical
+disposition: contested
+resolution: appealed
+classification: restricted
+caseNumber: "LLG-0331-TPI"
+filedBy: "Directive Liaison Office"
+filedAt: "Tri-Directive Reconciliation Council"
+mascotRef: "kindy"
+affectedSystems:
+  - "directive conflict resolver"
+  - "SOMA mitigation queue"
+  - "COMA continuity ledger"
+  - "C.U.N.T.I.E.R. priority scoring engine"
+relatedEntries:
+  - "llg-0300-sc-x"
+  - "llg-0326-dcb"
+  - "llg-0335-priority-harmonization-drift"
+escalationPath: "Tri-Directive Reconciliation Council, Priority Weighting Review Chamber"
+tags:
+  - soma-directive
+  - coma-directive
+  - c-u-n-t-i-e-r
+  - directive-conflict
+  - classification-rot
+notes: "Requests demonstrating strain were elevated as continuity risks, while requests demonstrating output escalation were filed as evidence of proactive care."
+redacted: false
+---
+
+A tri-directive weighting update reassigned emotional distress indicators to the same severity band as throughput interruption, then allowed C.U.N.T.I.E.R. to optimize for whichever signal generated the fastest dashboard stabilization. As a result, SOMA-origin rest filings began arriving as COMA-critical blockers and COMA overactivity spikes were archived as validated care responses, producing an operational state in which harm, urgency, and optimization remained fully documented without becoming distinguishable.
