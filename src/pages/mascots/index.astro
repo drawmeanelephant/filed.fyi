@@ -1,58 +1,32 @@
 ---
-import { getCollection } from "astro:content";
-import MascotCard from "../../components/MascotCard.astro";
-import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { getCollection } from 'astro:content';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import MascotCard from '../../components/MascotCard.astro';
 
-const allMascots = await getCollection("mascots");
-
-const stateOrder = { canonical: 0, full: 1, partial: 2, draft: 3 };
-const mascots = allMascots.sort((a, b) => {
-  const aState = stateOrder[a.data.completionState] ?? 3;
-  const bState = stateOrder[b.data.completionState] ?? 3;
-  return aState - bState;
+const mascots = await getCollection('mascots');
+const sorted = mascots.sort((a, b) => {
+  const idA = a.data.mascotId ?? 9999;
+  const idB = b.data.mascotId ?? 9999;
+  return idA - idB;
 });
 
-const counts = {
-  total: mascots.length,
-  canonical: mascots.filter((m) => m.data.completionState === "canonical").length,
-  corrupted: mascots.filter(
-    (m) =>
-      m.data.corruptionLevel === "critical" ||
-      m.data.corruptionLevel === "high"
-  ).length,
-};
+const total = mascots.length;
+const highCorruption = mascots.filter(m =>
+  ['high', 'critical'].includes(m.data.corruptionLevel ?? '')
+).length;
+const canonical = mascots.filter(m => m.data.status === 'active').length;
 ---
 
-<StarlightPage
-  frontmatter={{
-    title: "Mascot Archive",
-    description: "A complete (and ongoing) registry of Filed & Forgotten mascots.",
-    template: "doc",
-  }}
->
+<StarlightPage frontmatter={{ title: 'Mascot Registry' }}>
   <div class="mascots-page__meta">
-    <p class="mascots-page__title">░░ MASCOT REGISTRY v0.∞ ░░</p>
-    <p>
-      entries: <span class="mascots-page__stat">{counts.total}</span>
-      | canonical: <span class="mascots-page__good">{counts.canonical}</span>
-      | high-corruption: <span class="mascots-page__bad">{counts.corrupted}</span>
-    </p>
-    <p class="mascots-page__note">
-      Sorted by completionState. All records provisional. Some may be hazardous.
-    </p>
+    <span class="mascots-page__stat">entries: {total}</span>
+    <span class="mascots-page__stat">canonical: {canonical}</span>
+    <span class="mascots-page__stat mascots-page__bad">high-corruption: {highCorruption}</span>
   </div>
 
-  {mascots.length === 0 ? (
-    <p class="mascots-page__empty">
-      [ no mascots found — check src/content/mascots/ ]
-    </p>
-  ) : (
-    <ul class="mascots-page__grid">
-      {mascots.map((mascot) => (
-        <li class="mascots-page__item">
-          <MascotCard mascot={mascot} />
-        </li>
-      ))}
-    </ul>
-  )}
+  <div class="mascots-page__grid">
+    {sorted.map(mascot => (
+      <MascotCard mascot={mascot} />
+    ))}
+  </div>
 </StarlightPage>

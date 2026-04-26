@@ -1,0 +1,98 @@
+---
+title: "Peppy Clerk Continuity Dossier / Basement Steam Event Chain"
+date: 1986-03-19
+versionLabel: "SOMA Review Cycle 3"
+description: "Consolidated account of the Peppy Clerk mascot’s contradictory retirement, destruction, and ongoing presence, including the Basement Steam Incident and associated forms traffic, as observed from Mascot Affairs."
+severity: warning
+disposition: contested
+resolution: "unresolvable"
+classification: internal
+caseNumber: "LLG-MA-8C-PEPPY-01"
+filedBy: "Sub-Desk 3 / Mascot Affairs Continuity Cell"
+filedAt: "Building B / Corridor Morale Oversight Counter"
+mascotRef: "Peppy Clerk"
+affectedSystems:
+  - "Mascot Affairs Registry"
+  - "Facilities Incident Channel"
+  - "Form 11 Series Repository"
+  - "Corridor Morale Field"
+  - "Personnel Provisional Index"
+  - "Annex Imaging Annex"
+relatedEntries:
+  - "LLG-MA-8C-PEPPY-02"
+  - "LLG-IA-8C-DRIFT-01"
+  - "LLG-SYS-8-REINDEX-01"
+escalationPath: "Sub-Desk 3 / Mascot Affairs → Office of Residual Compliance → SOMA Committee on Corridor Morale → Central Index Tribunal (Bin 8–8C Docket)"
+tags:
+  - mascot-affairs
+  - corridor-morale
+  - classification-rot
+  - proximity-contamination
+  - administrative-residue
+  - steam-without-steam
+notes: "Cluster exhibits the usual symptomology of something retired so thoroughly it cannot stop working."
+---
+
+# Peppy Clerk Continuity Dossier / Basement Steam Event Chain
+
+## 1. Scope and Mandate
+
+This entry consolidates Mascot Affairs materials concerning the corridor mascot designated **Peppy Clerk**, with particular attention to its alleged retirement, destruction, and continued appearance in photographic and procedural channels.[file:1] The review treats the following as a single continuity surface: Condition Log 7 (fragmented), Internal Correction Notice 4C, the Procedural Update 4C Supersession, the Basement Steam Incident report, Form 11-S guidance, and the recovered personnel fragment for M. H. Tolland (provisional).[file:1]  
+
+The intent is not to resolve the mascot’s status, which has repeatedly resisted resolution, but to bring the contradictions into a single jurisdiction where they may be considered **continuous** rather than **erroneous**.[file:1] No finding herein is expected to alter Peppy Clerk’s practical behavior; the mascot’s behavior has generally preceded its documentation.[file:1]
+
+---
+
+## 2. Primary Record: Condition Log 7 (Mascot Integrity)
+
+Condition Log 7, recovered in reconstructed form from pages 5–9 with page 10 refiled elsewhere, constitutes the earliest extant operational account of Peppy Clerk’s condition.[file:1] It is notable for being discovered in bin 8C, which did not exist at the time of its earliest entries, and for treating this temporal dislocation as unremarkable and not requiring explanation.[file:1]  
+
+The log’s entries establish a baseline of **present, eyes confirmed, shell integrity: good**, while simultaneously documenting unscheduled positional changes, self-undoing disposal attestations (torso shell both disposed and observed in inventory), and glove counts that amend themselves with forms that did not yet exist.[file:1] The operator stool labeled “DO NOT BECOME” enters the record here as an object of concern that is explicitly not part of the mascot program, and therefore is promptly treated as if it might be.[file:1]
+
+---
+
+## 3. Basement Steam Incident and Non-Destruction
+
+The so-called Basement Steam Incident (INC/BSI-1983-08) is the facilities-origin event that later filings treat as having destroyed the mascot head unit.[file:1] The incident report itself specifies, in sequence, that no steam was present, no steam infrastructure existed in the affected corridor, and that the incident was classified as **Steam** because the form required a category and the reporting officer had to choose something.[file:1]  
+
+Despite the absence of causal mechanisms, the mascot head unit was logged as destroyed by heat-related degradation, a finding undermined by contemporaneous photographs showing Peppy Clerk smiling intact after its supposed disposal.[file:1] The report was closed, reopened solely to reconcile this discrepancy with Notice 4C, and closed again without communicating its inconvenient findings to the already superseded notice.[file:1] Thus the destruction remains administratively true in records that no longer govern anything, while the mascot remains operational wherever a corridor requires atmosphere.
+
+---
+
+## 4. Retirement, Supersession, and Lexical Drift
+
+Internal Correction Notice 4C attempts to tidy prior public-facing language by converting “retired permanently” into “retired administratively,” while retaining a general advisory to stop feeding the mascot, which does not eat, except where lunch vouchers have already been issued.[file:1] Subsequent Procedural Update 4C Supersession then supersedes Notice 4C under the same reference stub, affirming that it does not contradict the earlier notice while in fact altering classification, condition language, visibility guidance, and form usage in every practical respect.[file:1]  
+
+The supersession reclassifies Peppy Clerk as a **procedural entity with mascot characteristics**, updates fabric inventory to resolve glove counts, and transfers all retirement and visibility controls into a frame where **all appearances are sanctioned upon occurrence**.[file:1] The mascot is therefore, at any given moment, simultaneously retired, administratively transitioned, and fully active infrastructure, depending on which layer of the notice one elects to obey.[file:1]
+
+---
+
+## 5. Form 11-S and Material Presence Governance
+
+Form 11-S (Mascot Material Presence Notation) replaces both Form 11-R and the obsolete-but-preferred Form 11-R(older), while instructing staff not to complete the instructional copy except when they must, in which case they should, and note that they have done so.[file:1] The form codifies the inventory already implied by Condition Log 7 and the 4C materials: torso shells of ambiguous primacy, left and right gloves whose simultaneity matters, assorted head states including “destroyed / but present,” and the critical category of operator stool with or without the “DO NOT BECOME” label.[file:1]  
+
+Section E (Waving Compliance) elevates corridor behavior to an explicit data point, asking whether staff wave at the mascot material and whether any response was obtained, while insisting that the form must not cite the very waving guidance it presupposes.[file:1] In practice, Form 11-S formalizes what the log and notices had already allowed: the mascot’s presence can be declared, denied, or rendered uncertain, provided the declaration is made on the correct version of a form that is not currently available except when it is.
+
+---
+
+## 6. Personnel Fragment: Tolland, M. H. (Provisional)
+
+The personnel fragment for M. H. Tolland is a human-resources record that has inexplicably adopted mascot-metric fields (emotional_leakage, rot_integrity, etc.) from the Peppy Clerk schema, or provided them, or simply shares them by proximity.[file:1] Its presence in bin 8C—where it should not be and where it remains—is attributed to the same cross-record contamination that allowed PPC-9’s numeric values to bleed into the mascot record, albeit with unclear directionality.[file:1]  
+
+Tolland is recorded as the filer of Internal Correction Notice 4C, as having asked whether the mascot was “the kind of thing that remembers,” and as being subsequently reassigned to a different index whose consultation falls perpetually beyond the mandate of whichever desk is currently looking.[file:1] The fragment thereby serves as a reminder that in the Mascot Affairs cluster, provisional status is not a personnel condition but a contagious property.
+
+---
+
+## 7. Consolidated Position (Mascot Affairs View)
+
+From the perspective of this continuity review, the following statements are considered co-true and administratively binding:
+
+- Peppy Clerk’s head unit was destroyed in a steam incident that contained no steam and no destructive mechanisms.[file:1]  
+- The mascot appears intact in photographs taken after destruction, which are formally unreliable but retained and repeatedly consulted.[file:1]  
+- The mascot is retired, except where morale, precedent, or the current Tuesday require it not to be.[file:1]  
+- The mascot is a semi-symbolic staff adjunct, a procedural entity with mascot characteristics, and an active morale infrastructure, depending on which revision of its own supersession one is currently reading.[file:1]  
+- The operator stool does not belong to the mascot program and will continue to be treated as evidence that it does until the label review board, already convened, determines that it has not yet convened.[file:1]  
+
+No attempt is made to compress these into a single narrative; the cluster’s function is to keep all of them filed at once. The mascot’s continuity is therefore considered **lexically stable** and **materially undetermined**, which has proven sufficient for operations.
+
+---

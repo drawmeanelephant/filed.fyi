@@ -4,8 +4,8 @@ date: 2025-11-12
 versionLabel: "SOMA/COMA Joint Optics Review"
 description: "Failure-bearing audit language was replaced with assurance-compatible phrasing, allowing recurring deficits to register as calm continuity instead of actionable nonconformity."
 severity: notice
-disposition: reclassified
-resolution: lexical-continuity
+disposition: deferred
+resolution: appealed
 classification: internal
 caseNumber: "LLG-0327-AVR"
 filedBy: "Executive Optics Desk EOD-3"

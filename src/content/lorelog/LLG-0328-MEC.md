@@ -5,7 +5,7 @@ versionLabel: "Archive Drift Review Block 7"
 description: "Exception documents submitted to explain manifest variance were elevated to primary evidence, outliving and overruling the conditions they were supposed to contextualize."
 severity: warning
 disposition: contested
-resolution: under-review
+resolution: unresolvable
 classification: internal
 caseNumber: "LLG-0328-MEC"
 filedBy: "Kindy Variance Desk KVD-2"

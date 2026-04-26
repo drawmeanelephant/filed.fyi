@@ -4,8 +4,8 @@ date: 2025-11-23
 versionLabel: "Continuity Metrics Harmonization Pass"
 description: "Retention thresholds were raised until unattended files no longer counted as ownership failures, but as indicators of efficient, low-touch archival stability."
 severity: warning
-disposition: pending-continuity
-resolution: threshold-monitoring
+disposition: contested
+resolution: appealed
 classification: internal
 caseNumber: "LLG-0329-OIR"
 filedBy: "Draft Stewardship Desk DSD-1"

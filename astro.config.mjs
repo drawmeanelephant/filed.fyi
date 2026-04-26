@@ -8,7 +8,11 @@ import tailwindcss from '@tailwindcss/vite';
 import alpinejs from '@astrojs/alpinejs';
 
 
+import sitemap from '@astrojs/sitemap';
+
+
 export default defineConfig({
+  site: 'https://filed.fyi',
   integrations: [starlight({
       title: 'Filed & Forgotten',
       customCss: [
@@ -19,7 +23,7 @@ export default defineConfig({
           PageTitle: './src/components/MascotPageTitle.astro',
       },
       social: [
-          { icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }
+          { icon: 'github', label: 'GitHub', href: 'https://github.com/drawmeanelephant/filed.fyi' }
       ],
       sidebar: [
           { label: 'Lorelog', link: '/lorelog' },
@@ -30,7 +34,7 @@ export default defineConfig({
           { label: 'Limericks', autogenerate: { directory: 'limericks' } },
           { label: 'Mascots', autogenerate: { directory: 'mascots' } },
       ],
-  }), alpinejs()],
+  }), alpinejs(), sitemap()],
 
   vite: {
     plugins: [tailwindcss()],
