@@ -17,7 +17,7 @@ author: Filed Forgotten
 
 breedingProgram: Filed under rot protocol
 corruptionLevel:
-glitchFrequency:
+glitchFrequency: medium
 
 origin: Orphaned onboarding UI, devnull-adjacent stack
 renderState: deferred
