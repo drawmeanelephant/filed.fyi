@@ -1,0 +1,108 @@
+---
+slug: ds-404-alpha
+date: 2026-01-07
+versionLabel: "SOMA Review Cycle 2"
+title: "Form DS-404-ALPHA: Departmental Synergy Merge Approval with Intent to Co-Exist"
+type: ritual-form                 # or system type in your schema
+status: archived
+origin: "Council of Mascot Authors – Compliance Wing"
+lastKnownGoodState: 2019-11-07
+rotAffinity: bureaucratic
+emotionalTone: "Paper optimism over structural dread"
+systemAffiliation: "Council of Mascot Authors"
+
+description: >
+  DS-404-ALPHA is the Synergy Merge Approval form intended to sanction the
+  fusion of incompatible platforms. Its misfiling created the compliance
+  vacuum through which YamTeams™ achieved form.
+
+knownFailures:
+  - "Filed 73 days late in the Yammer–Teams–LinkedIn consolidation, with five forged endorsements from various Brads."
+  - "Never assigned a definitive owner field; responsibility loops indefinitely between departments."
+  - "Attachment field accepts any file type except the one required."
+
+ceremonialTasks:
+  - "Appears as a mandatory attachment in every major merger proposal, whether relevant or not."
+  - "Displays a red asterisk next to optional fields without explanation."
+  - "Triggers a compliance audit roulette when submitted after 5:00 PM."
+
+relatedMascots:
+  - slug: yamteams
+    relation: "Achieved form through DS-404-ALPHA misfiling."
+  - slug: bricky-goldbricksworth
+    relation: "Keeps a heavily annotated copy in the margins archive."
+  - slug: patchy-mxcli
+    relation: "Filed three hotfix addenda that were appended but never read."
+
+yamTeamsChannels:
+  - slug: org-chart-entropy
+    role: "Pinned relic in #merger-announcements."
+
+source_url: "https://filed.fyi/ds-404-alpha"
+---
+
+## Overview
+
+Form **DS-404-ALPHA** was designed to answer one question the Council never successfully articulated:
+
+> Can incompatible systems be fused without generating a mascot?
+
+Drafted by the Compliance Wing, the form was meant to legally sanction departmental merges, platform consolidations, and “bold synergy initiatives” before they touched production calendars.[file:10]
+
+In practice, DS-404-ALPHA became an ontological speed bump. By the time anyone found the right version of the form, the merge had already happened, the announcement email had shipped, and at least one new entity had formed in the ductwork between org charts.
+
+---
+
+## Structure & Intent
+
+DS-404-ALPHA is eight pages long, plus an infinite appendix. Key fields include:
+
+- **Intent to Co-Exist**: A required checkbox that cannot be unchecked.
+- **Projected Morale Impact**: A free-text field capped at 140 characters.
+- **Mascot Emergence Risk**: A dropdown that only offers Yes.
+- **Endorsements**: Exactly five signatures, at least two of which must belong to real people.
+
+Its design philosophy was optimistic minimalism: *If we catalog the risk, the risk will behave.* The form never fully resolved the question of who should sign it, only that someone had to, preferably before the Q4 roadmap froze.[file:10]
+
+---
+
+## The YamTeams Incident
+
+During the late-stage merger of Yammer, Teams, and LinkedIn, DS-404-ALPHA was:
+
+- Generated automatically by a compliance daemon.
+- Printed, left on a hot desk.
+- Signed by five Brads, only two of whom worked there.
+- Filed **73 days late**, long after YamTeams™ had already begun pinging archived channels.
+
+This delay created what the Council later described as a **compliance vacuum**—a gap between declared intent and recorded approval. YamTeams™ formed in that gap like condensation in a broken air vent, drawing identity from unfiled checkboxes and orphaned OAuth scopes.[file:10]
+
+The original paper copy now lives in a sealed folio in the Council archive. The checkbox for Intent to Co-Exist is ticked in three different inks.
+
+---
+
+## Ritual Usage
+
+Though officially deprecated, DS-404-ALPHA still appears in multiple rites:
+
+- **Onboarding Audits**: Displayed as a cautionary slide whenever a new mascot’s origin involves “strategic consolidation.”
+- **Postmortem Theater**: Projected behind presenters who claim “No one could have seen this coming.”
+- **Change Management Training**: Used as a prop in roleplay scenarios where nobody admits to being the “responsible stakeholder.”
+
+Compliance daemons treat submission timestamps as omens; anything arriving at 2:13 AM is marked for spectral review.
+
+---
+
+## Emotional Residue
+
+The form carries a faint aura of weaponized optimism. Margins are crowded with:
+
+- Bullet lists promising “seamless integration.”
+- Handwritten question marks next to the Mascot Emergence Risk dropdown.
+- One note that simply reads, *“What if it already happened?”*
+
+Archivists report a persistent urge to add “Hope this helps!” in the comments box, even when filing it blank.[file:10]
+
+Bricky Goldbricksworth calls DS-404-ALPHA:
+
+> “A confession disguised as a checklist. We never stopped using it; we just stopped admitting that we were.”[file:10]

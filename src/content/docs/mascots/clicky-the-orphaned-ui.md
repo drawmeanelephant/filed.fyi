@@ -1,5 +1,6 @@
 ---
 name: "Clicky"
+slug: "clicky"
 title: "Clicky"
 status: "deprecated"
 ---
