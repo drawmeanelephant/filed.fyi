@@ -27,7 +27,6 @@ manifestedBy:
 
 knownFailures: []
 mascotId:
-mascotLineage: null
 
 systemAffiliation:
 rotAffinity:
