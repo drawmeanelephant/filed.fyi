@@ -27,6 +27,8 @@
 #           exports/config.md
 #           exports/system.md
 #           exports/manifest.md
+#           exports/mascots.md
+#           exports/lorelog.md
 # Usage   : ./astro-book.sh [project-path]
 # Env     : ASTRO_BOOK_MAX_BYTES=200000
 #           ASTRO_BOOK_PREVIEW_LINES=160
@@ -82,6 +84,8 @@ Output:
     config.md
     system.md
     manifest.md
+    mascots.md
+    lorelog.md
 
 EOF
 }
@@ -256,6 +260,66 @@ write_content() {
   } > "$output_file"
 }
 
+write_mascots() {
+  local output_file="$EXPORT_DIR/mascots.md"
+  {
+    echo "# Mascots"
+    echo ""
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
+    echo ""
+
+    if [[ ! -d "$PROJECT_DIR/src/content/docs/mascots" ]]; then
+      echo "_No mascot files found._"
+      echo ""
+      return
+    fi
+
+    while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
+
+      echo "<!-- START MASCOT FILE -->"
+      emit_file_block "$f" "$relpath" "$bytes"
+      echo ""
+      echo "<!-- STOP MASCOT FILE -->"
+      echo ""
+    done < <(find "$PROJECT_DIR/src/content/docs/mascots" -type f | sort)
+  } > "$output_file"
+}
+
+write_lorelog() {
+  local output_file="$EXPORT_DIR/lorelog.md"
+  {
+    echo "# Lorelog"
+    echo ""
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
+    echo ""
+
+    if [[ ! -d "$PROJECT_DIR/src/content/lorelog" ]]; then
+      echo "_No lorelog files found._"
+      echo ""
+      return
+    fi
+
+    while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
+
+      echo "<!-- START LORELOG FILE -->"
+      emit_file_block "$f" "$relpath" "$bytes"
+      echo ""
+      echo "<!-- STOP LORELOG FILE -->"
+      echo ""
+    done < <(find "$PROJECT_DIR/src/content/lorelog" -type f | sort)
+  } > "$output_file"
+}
+
 write_routes() {
   local output_file="$EXPORT_DIR/routes.md"
   {
@@ -392,6 +456,12 @@ main() {
   log_info "Cataloguing content relics..."
   write_content
 
+  log_info "Excavating mascot graveyard..."
+  write_mascots
+
+  log_info "Replaying lorelog fragments..."
+  write_lorelog
+
   log_info "Interrogating components..."
   write_section_from_dir "Components" "$PROJECT_DIR/src/components" "COMPONENT" "$EXPORT_DIR/components.md"
 
@@ -420,6 +490,8 @@ main() {
   echo -e "${DIM}---------------------------------------------------${RESET}"
   echo ""
   echo -e "  ${GREEN}✓${RESET} exports/content.md"
+  echo -e "  ${GREEN}✓${RESET} exports/mascots.md"
+  echo -e "  ${GREEN}✓${RESET} exports/lorelog.md"
   echo -e "  ${GREEN}✓${RESET} exports/components.md"
   echo -e "  ${GREEN}✓${RESET} exports/layouts.md"
   echo -e "  ${GREEN}✓${RESET} exports/styles.md"
