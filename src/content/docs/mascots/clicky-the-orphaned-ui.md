@@ -33,7 +33,18 @@ emotionalIntegrity:
 emotionalIntegrityBuffer:
 
 ceremonialTasks: []
-haikuLog: []
+haikuLog:
+  - |
+    Guide to nowhere now,
+    Ghostly button waits for click,
+    User left long ago.
+limerickLog:
+  - |
+    A UI named Clicky, so bright,
+    Who guides you through flows in the night.
+    The pages are gone,
+    But Clicky lives on,
+    And wonders why nothing is right.
 slogan:
 ---
 
