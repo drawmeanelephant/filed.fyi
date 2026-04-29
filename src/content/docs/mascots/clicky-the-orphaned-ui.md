@@ -1,6 +1,6 @@
 ---
 title: Clicky the Orphaned UI
-slug: clicky-the-orphaned-ui
+slug: mascots/clicky-the-orphaned-ui
 status: archived
 version: 1.0.0
 

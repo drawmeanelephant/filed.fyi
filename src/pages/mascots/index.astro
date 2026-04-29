@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
-import MascotCard from '../../components/MascotCard.astro';
+import MascotRecord from '../../components/MascotRecord.astro';
 
 const mascots = await getCollection('mascots');
 const sorted = mascots.sort((a, b) => {
@@ -26,7 +26,7 @@ const canonical = mascots.filter(m => m.data.status === 'active').length;
 
   <div class="mascots-page__grid">
     {sorted.map(mascot => (
-      <MascotCard mascot={mascot} />
+      <MascotRecord mascot={mascot} isCardMode />
     ))}
   </div>
 </StarlightPage>

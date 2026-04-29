@@ -190,3 +190,126 @@
   gap: 1rem;
   grid-template-columns: 1fr;
 }
+
+/* Shared monospace badge base */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0.15rem 0.45rem;
+  border-radius: 1px;
+  border: 1px solid transparent;
+}
+
+/* Badge status system (used by MascotRecord + future systems) */
+.badge--status-active {
+  color: #4ade80;
+  border-color: rgba(74, 222, 128, 0.3);
+  background: rgba(74, 222, 128, 0.08);
+}
+
+.badge--status-archived {
+  color: #a1a1aa;
+  border-color: rgba(161, 161, 170, 0.3);
+  background: rgba(161, 161, 170, 0.08);
+}
+
+.badge--status-deprecated {
+  color: #b87333;
+  border-color: rgba(184, 115, 51, 0.3);
+  background: rgba(184, 115, 51, 0.08);
+}
+
+.badge--status-corrupted {
+  color: #fb7185;
+  border-color: rgba(251, 113, 133, 0.3);
+  background: rgba(251, 113, 133, 0.08);
+}
+
+.badge--status-orphaned {
+  color: #6b4a8f;
+  border-color: rgba(107, 74, 143, 0.3);
+  background: rgba(107, 74, 143, 0.08);
+}
+
+.badge--status-unknown {
+  color: #71717a;
+  border-color: rgba(113, 113, 122, 0.3);
+  background: rgba(113, 113, 122, 0.08);
+}
+
+/* Badge render states */
+.badge--render-active {
+  color: #3a7fa8;
+  border-color: rgba(58, 127, 168, 0.3);
+  background: rgba(58, 127, 168, 0.08);
+}
+
+.badge--render-deferred {
+  color: #a1a1aa;
+  border-color: rgba(161, 161, 170, 0.3);
+  background: rgba(161, 161, 170, 0.08);
+}
+
+.badge--render-corrupted {
+  color: #fb7185;
+  border-color: rgba(251, 113, 133, 0.3);
+  background: rgba(251, 113, 133, 0.08);
+}
+
+.badge--render-phantom {
+  color: #6b4a8f;
+  border-color: rgba(107, 74, 143, 0.3);
+  background: rgba(107, 74, 143, 0.08);
+}
+
+.badge--render-archived {
+  color: #71717a;
+  border-color: rgba(113, 113, 122, 0.3);
+  background: rgba(113, 113, 122, 0.08);
+}
+
+/* Shared chip base */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 0.15rem 0.4rem;
+  border-radius: 1px;
+  border: 1px solid currentColor;
+}
+
+/* Chip semantic levels (used across MascotRecord + systems) */
+.chip--level-none {
+  color: #71717a;
+}
+
+.chip--level-low {
+  color: #4a8f6a;
+}
+
+.chip--level-medium {
+  color: #b87333;
+}
+
+.chip--level-high {
+  color: #fb7185;
+}
+
+.chip--level-critical {
+  color: #c04040;
+}
+
+/* Misc chip variants */
+.chip--notice {
+  color: #4a8f6a;
+}
+
+.chip--tag {
+  color: #a1a1aa;
+  border-color: rgba(161, 161, 170, 0.25);
+}
