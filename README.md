@@ -1,49 +1,95 @@
-# Starlight Starter Kit: Basics
+# Filed & Forgotten
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+**Filed & Forgotten** is a haunted Starlight/Astro site about systems that kept running long after anyone should have been maintaining them.[file:8][file:1]  
+It archives error mascots, bureaucratic lore logs, and poetic residue from software that refuses to shut down.[file:1]
 
-```
-npm create astro@latest -- --template starlight
-```
+> Nothing here is being published. It is being filed.[file:1]
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+[![Built with Astro & Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## What is this?
 
-```
+This repo contains the source for [filed.fyi](https://filed.fyi), a static archive of:
+
+- **Mascots** — personified failure states with frontmatter-rich dossiers (corruption level, rot affinity, haiku logs, ceremonial tasks, etc.).[file:1]
+- **Lorelog** — incident reports, schema violations, and bureaucratic after-action records rendered as expandable log cards.[file:1][file:9]
+- **Haikus & Limericks** — small poetic artifacts about rot, hard determinism, compatibilist free will, and error states.[file:1]
+- **Guides & Posts** — occasional prose about the archive and its operating assumptions.[file:1]
+
+The site runs on **Astro 6** with **Starlight** as the docs framework, plus Alpine.js islands and Tailwind 4 via the Vite plugin.[file:3][file:8]  
+Starlight’s `PageTitle` slot is overridden to render mascot dossiers instead of boring headings.[file:8][file:9]
+
+---
+
+## Project structure
+
+This is a standard Starlight project with custom content collections for mascots, lorelog, and verse.[file:8][file:1]
+
+```text
 .
-├── public/
+├── public/                     # Static assets (favicons, etc.)
 ├── src/
-│   ├── assets/
+│   ├── components/
+│   │   ├── MascotRecord.astro  # Mascot dossier + card renderer
+│   │   └── LorelogCard.astro   # Expandable incident log card
 │   ├── content/
 │   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+│   │       ├── mascots/        # Mascot frontmatter + lore
+│   │       ├── lorelog/        # Incident reports
+│   │       ├── haikus/         # Database rot poetry
+│   │       ├── limericks/      # Free-will and determinism verse
+│   │       ├── guides/         # Site and process notes
+│   │       └── posts/          # Longer-form experiments
+│   ├── styles/
+│   │   └── global.css          # Starlight theme hooks + custom UI
+│   └── content.config.ts       # Astro content collections/schema
+├── astro.config.mjs            # Astro + Starlight + integrations
+├── package.json                # Dependencies + scripts
+└── tsconfig.json               # TypeScript config
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Key integrations:[file:3][file:8]
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+- `@astrojs/starlight` — documentation shell for the archive.
+- `@astrojs/alpinejs` — powers collapsible Lorelog sections.
+- `@tailwindcss/vite` + `tailwindcss` — utility layer and theme tokens.
+- `starlight-site-graph` — visual graph of site content.
+- `lucide-astro` / `@lucide/astro` — iconography for mascots and logs.
 
-Static assets, like favicons, can be placed in the `public/` directory.
+---
 
-## 🧞 Commands
+## Development
 
-All commands are run from the root of the project, from a terminal:
+All commands run from the repo root:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Command           | Description                                                  |
+| ---------------- | ------------------------------------------------------------ |
+| `npm install`    | Install dependencies.                                        |
+| `npm run dev`    | Start dev server (default: `http://localhost:4321`).         |
+| `npm run build`  | Build the static site to `./dist/`.                          |
+| `npm run preview`| Preview the production build locally.                        |
+| `npm run astro`  | Run Astro CLI commands (`astro check`, `astro sync`, etc.). |
 
-## 👀 Want to learn more?
+This is a static site: no runtime database, no serverless functions, just built artifacts.
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+---
+
+## Contributing / extending
+
+There is no stable API surface. Everything here is a filing ritual.
+
+If you want to add to the archive:
+
+- Use existing mascot and lorelog entries in `src/content/docs/mascots/` and `src/content/docs/lorelog/` as templates.[file:1]
+- Keep frontmatter structured: treat corruption levels, rot affinities, and emotional buffers as first-class fields, not prose.[file:1]
+- Remember: the archive misfiles with conviction and treats “last known good state” as a feeling, not a timestamp.[file:1]
+
+Bug reports, lore corrections, and new mascot drafts are welcome via issues or PRs.
+
+---
+
+## License
+
+See `LICENSE` if 
