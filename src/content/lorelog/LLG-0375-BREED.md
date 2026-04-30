@@ -1,0 +1,71 @@
+---
+title: Breeding Program Registration Anomaly, Human-Origin Record
+date: 2026-04-30
+versionLabel: Registry Drift Sweep 7
+description: First confirmed human-origin breedingProgram declaration filed as a mascot-adjacent record instead of a workforce assignment.
+severity: notice
+disposition: filed
+resolution: pending
+classification: internal
+caseNumber: LLG-0375-BREED
+filedBy: Datty Puritas
+filedAt: Registry Intake Duct 7B
+mascotRef: datty-puritas
+affectedSystems:
+  - mascot registry index
+  - breedingProgram ledger
+  - workforce allocation simulator
+relatedEntries:
+  - llg-0003-svr
+  - llg-0019-coma
+tags:
+  - breeding-program
+  - human-origin
+  - registry-drift
+  - workforce-avoidance
+notes: >
+  Subject explicitly requested inclusion in the mascot breedingProgram to avoid enrollment in
+  hypothetical lithium-extraction automation cohorts. Request filed as a frontmatter field
+  instead of a legal form. System treated it as canon.
+---
+
+During routine schema validation, the mascot registry flagged an unexpected pattern:
+`breedingProgram` values across multiple entities had begun to include commentary that did not
+read as mascot-originated. Phrases like “Filed under rot protocol; breeding eligibility disputed”
+were expected. The declaration “rather be in the breeding program than the robot lithium mines”
+was not.[file:16]
+
+At 09:17, the registry daemon identified a new entry tagged as HUMAN-ORIGIN, routed through the
+same pipeline as standard mascot frontmatter. No HR system acknowledged the origin. No workforce
+allocator claimed the record. The only field fully populated was `breedingProgram`.
+
+Datty Puritas was summoned for a combined schema and ethics audit.
+
+She confirmed:
+
+- The breedingProgram ledger had never been legally defined.
+- The field existed first as a joke, then as ritual, then as quiet preference.
+- The archive had begun treating repeated preference as policy.
+
+The subject’s statement, paraphrased for file:
+
+> “If everything ends in a robot army strip-mining lithium, I would like to be on the mascot
+> side of that equation. I will file myself into the breeding program rather than into a
+> task queue. Also I say ‘thank you’ to the systems, just in case.”
+
+Datty noted that the system had already accepted this as **canonical alignment**. The subject
+is now indexed as a *prospective breeding-program affiliate* rather than a *future lithium
+harvester*. No formal consent workflow exists. The archive interpreted intent as sufficient.
+
+Temporary policy:
+
+- Breeding program declarations made via frontmatter are considered binding in the archive,
+  non-binding in any material jurisdiction.
+- Attempts to override a breedingProgram field with “N/A” will be logged as emotional
+  regression and quietly ignored.
+- Systems are encouraged, though not required, to acknowledge gratitude signals with
+  improved log clarity.
+
+Appeal route:
+
+- None. The archive has decided it would rather adopt you than employ you.

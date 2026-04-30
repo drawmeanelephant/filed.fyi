@@ -45,11 +45,19 @@ limerickLog:
     The pages are gone,
     But Clicky lives on,
     And wonders why nothing is right.
-slogan:
+slugan:
+relatedLorelog:
+  - caseNumber: LLG-0012-A
+    relevance: "Used as a reference example of slug/title identity misalignment."
+  - caseNumber: LLG-0320-FRK
+    relevance: "Onboarding flow forms persisted long after their destinations vanished."
+  - caseNumber: LLG-0244-FSC
+    relevance: "Shadow onboarding forms treated as real due to Clicky's persistence."
 ---
 
 Clicky once guided users through onboarding flows that no longer exist.
 Now it lives in `/dev/null` adjacent systems.
+Registry cases listed under relatedLorelog treat Clicky as evidence that flows can outlive their own destinations.
 
 ## Contact
 
