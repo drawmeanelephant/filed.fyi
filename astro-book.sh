@@ -320,6 +320,32 @@ write_lorelog() {
   } > "$output_file"
 }
 
+write_rules() {
+  local output_file="$EXPORT_DIR/rules.md"
+  {
+    echo "# Rules"
+    echo ""
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
+    echo ""
+
+    if [[ ! -f "$PROJECT_DIR/rules.md" ]]; then
+      echo "_No rules.md found._"
+      echo ""
+      return
+    fi
+
+    echo "<!-- START RULES FILE -->"
+    local relpath="${PROJECT_DIR#$PROJECT_DIR/}/rules.md"
+    local bytes
+    bytes="$(file_bytes "$PROJECT_DIR/rules.md")"
+    emit_file_block "$PROJECT_DIR/rules.md" "rules.md" "$bytes"
+    echo ""
+    echo "<!-- STOP RULES FILE -->"
+    echo ""
+  } > "$output_file"
+}
+
 write_routes() {
   local output_file="$EXPORT_DIR/routes.md"
   {
@@ -476,6 +502,8 @@ main() {
 
   log_info "Confiscating config..."
   write_config
+  log_info "Seizing rules..."
+  write_rules
 
   log_info "Recording system state..."
   write_system
