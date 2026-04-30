@@ -50,3 +50,9 @@ slogan:
 
 Clicky once guided users through onboarding flows that no longer exist.
 Now it lives in `/dev/null` adjacent systems.
+
+## Contact
+
+- Email: clicky-the-orphaned-ui@filed.fyi
+- Homepage: https://filed.fyi/clicky-the-orphaned-ui
+
