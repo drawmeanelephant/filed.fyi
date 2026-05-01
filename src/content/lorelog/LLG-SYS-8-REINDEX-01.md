@@ -35,40 +35,40 @@ notes: "The cluster is hereby informed that it has always been a cluster."
 
 ## 1. Re-Indexing Event Summary
 
-This notice records the outcome of an automated re-indexing sweep in Filing Plane 8, during which the **Mascot Affairs / Bin 8C document population** was detected as a coherent cluster and assigned a structural identity under the label **Cluster MA/8C**.[file:1] The detection was based on cross-reference density, shared metrics, repeated co-adjacency, and the presence of mutually reinforcing internal stubs across Condition Log 7, Peppy Clerk corrective notices, Bin 8C drift reports, and associated routing slips and forms.[file:1]  
+This notice records the outcome of an automated re-indexing sweep in Filing Plane 8, during which the **Mascot Affairs / Bin 8C document population** was detected as a coherent cluster and assigned a structural identity under the label **Cluster MA/8C**. The detection was based on cross-reference density, shared metrics, repeated co-adjacency, and the presence of mutually reinforcing internal stubs across Condition Log 7, Peppy Clerk corrective notices, Bin 8C drift reports, and associated routing slips and forms.  
 
-The subroutine has determined that these documents function operationally as a single interpretive unit, regardless of their original filing intentions.[file:1] No change to individual content has been made; the re-indexing consists entirely of updates to adjacency maps, cluster registers, and forward pointers used by search and audit tooling.[file:1]
+The subroutine has determined that these documents function operationally as a single interpretive unit, regardless of their original filing intentions. No change to individual content has been made; the re-indexing consists entirely of updates to adjacency maps, cluster registers, and forward pointers used by search and audit tooling.
 
 ---
 
 ## 2. Retroactive Structural Identity
 
-For purposes of system coherence, Cluster MA/8C’s identity is applied **retroactively** to the earliest effective date among its members.[file:1] This means that from the system’s point of view, Peppy Clerk’s Condition Log 7, the Basement Steam Incident report, Internal Correction Notice 4C and its Supersession, PPC-9, Form 11-S, the Bin 8C drift diagnosis and stabilization logs, and this notice itself have always belonged to the same cluster.[file:1]  
+For purposes of system coherence, Cluster MA/8C’s identity is applied **retroactively** to the earliest effective date among its members. This means that from the system’s point of view, Peppy Clerk’s Condition Log 7, the Basement Steam Incident report, Internal Correction Notice 4C and its Supersession, PPC-9, Form 11-S, the Bin 8C drift diagnosis and stabilization logs, and this notice itself have always belonged to the same cluster.  
 
-Documents filed before the introduction of cluster concepts are not rewritten; instead, their existing frontmatter is treated as partial descriptions of what is now recognized as a single structural entity.[file:1] Operators are not required to memorize the retroactive designation, only to behave as though the involved records have never been meaningfully separate for routing or escalation purposes.[file:1]
+Documents filed before the introduction of cluster concepts are not rewritten; instead, their existing frontmatter is treated as partial descriptions of what is now recognized as a single structural entity. Operators are not required to memorize the retroactive designation, only to behave as though the involved records have never been meaningfully separate for routing or escalation purposes.
 
 ---
 
 ## 3. Register Updates and Stub Normalization
 
-The re-indexing pass resolves several apparent inconsistencies in the reference stub space by formally recognizing their coexistence:[file:1]
+The re-indexing pass resolves several apparent inconsistencies in the reference stub space by formally recognizing their coexistence:
 
-- Dual uses of the PPC-9 stub are both accepted as authoritative, distinguished only by content signatures; the cross-record bleed advisory attached to Peppy Clerk is treated as the cluster’s internal articulation of contamination, while the unrelated PPC-9 remains external but linked.[file:1]  
-- Condition Log 7’s reconstructed status and Appendix F’s migratory behavior are recorded as normal within the cluster, requiring no further anomaly flags beyond those already present.[file:1]  
-- Internal Correction Notice 4C and its Supersession are both recorded as “last” in their own subseries; the system declines to choose between them and instead treats their conflict as a stable feature of Cluster MA/8C’s internal semantics.[file:1]  
+- Dual uses of the PPC-9 stub are both accepted as authoritative, distinguished only by content signatures; the cross-record bleed advisory attached to Peppy Clerk is treated as the cluster’s internal articulation of contamination, while the unrelated PPC-9 remains external but linked.  
+- Condition Log 7’s reconstructed status and Appendix F’s migratory behavior are recorded as normal within the cluster, requiring no further anomaly flags beyond those already present.  
+- Internal Correction Notice 4C and its Supersession are both recorded as “last” in their own subseries; the system declines to choose between them and instead treats their conflict as a stable feature of Cluster MA/8C’s internal semantics.  
 
-All affected records receive an additional, non-conflicting index field pointing to **Cluster MA/8C**, which may be consulted for high-level status and health signals.[file:1]
+All affected records receive an additional, non-conflicting index field pointing to **Cluster MA/8C**, which may be consulted for high-level status and health signals.
 
 ---
 
 ## 4. Cluster Health and Behavior Flagging
 
-The cluster is marked **drift-positive / structurally coherent / behaviorally anomalous**, inheriting these attributes from Bin 8C’s existing diagnostics.[file:1] RCI and APD values are now computed at both document and cluster levels; elevated readings are no longer treated as exclusive properties of the bin container but as shared metrics of the entire MA/8C unit.[file:1]  
+The cluster is marked **drift-positive / structurally coherent / behaviorally anomalous**, inheriting these attributes from Bin 8C’s existing diagnostics. RCI and APD values are now computed at both document and cluster levels; elevated readings are no longer treated as exclusive properties of the bin container but as shared metrics of the entire MA/8C unit.  
 
 This has two practical effects:
 
-- Attempts to relocate “problem” documents out of Bin 8C without addressing their connections to the cluster will no longer reduce drift metrics; their values follow the cluster identity across containers.[file:1]  
-- New documents that heavily reference existing MA/8C members will be provisionally attached to the cluster and inherit its behavioral flags until a human override is filed.[file:1]  
+- Attempts to relocate “problem” documents out of Bin 8C without addressing their connections to the cluster will no longer reduce drift metrics; their values follow the cluster identity across containers.  
+- New documents that heavily reference existing MA/8C members will be provisionally attached to the cluster and inherit its behavioral flags until a human override is filed.  
 
 No remediation or containment is imposed by this notice; it merely acknowledges what Bin 8C drift reports have already implied—that structure has formed and continues to act.
 
@@ -76,16 +76,16 @@ No remediation or containment is imposed by this notice; it merely acknowledges 
 
 ## 5. Relationship to Peppy Clerk Status
 
-Cluster MA/8C’s structural identity incorporates **Peppy Clerk** as a distributed presence rather than as a single file or mascot body.[file:1] The system-level position is that Peppy’s status—retired, destroyed, administratively active—cannot be resolved at the level of any one record and should instead be queried at the cluster level.[file:1]  
+Cluster MA/8C’s structural identity incorporates **Peppy Clerk** as a distributed presence rather than as a single file or mascot body. The system-level position is that Peppy’s status—retired, destroyed, administratively active—cannot be resolved at the level of any one record and should instead be queried at the cluster level.  
 
-For internal tools, the answer to “Is Peppy Clerk present?” is therefore normalized as **yes, at cluster level**, with locality determined by whichever MA/8C documents are currently under active consultation.[file:1] For human operators, existing guidance remains in effect: treat the mascot as retired where necessary, active where observed, and correctly filed wherever it appears, even if that is not where it belongs.[file:1]
+For internal tools, the answer to “Is Peppy Clerk present?” is therefore normalized as **yes, at cluster level**, with locality determined by whichever MA/8C documents are currently under active consultation. For human operators, existing guidance remains in effect: treat the mascot as retired where necessary, active where observed, and correctly filed wherever it appears, even if that is not where it belongs.
 
 ---
 
 ## 6. Procedural Note and Self-Reference
 
-In accordance with Indexing Protocol 12, this notice acknowledges that it has added itself to the cluster whose identity it records.[file:1] Its seal is generated by the same Automated Re-Index Subroutine that detected the cluster; by validating its own emission, the subroutine confirms that at least one document in MA/8C is aware of the re-indexing event.[file:1]  
+In accordance with Indexing Protocol 12, this notice acknowledges that it has added itself to the cluster whose identity it records. Its seal is generated by the same Automated Re-Index Subroutine that detected the cluster; by validating its own emission, the subroutine confirms that at least one document in MA/8C is aware of the re-indexing event.  
 
-Future audits opening Bin 8C or consulting Cluster MA/8C via the Global Index Map will find this notice already present and fully integrated into adjacency graphs, as though it had always been there.[file:1] This is considered accurate enough for system purposes; any finer distinction between **when** and **since when** the cluster exists is left to the drift reports that have made such distinctions their occupation.[file:1]
+Future audits opening Bin 8C or consulting Cluster MA/8C via the Global Index Map will find this notice already present and fully integrated into adjacency graphs, as though it had always been there. This is considered accurate enough for system purposes; any finer distinction between **when** and **since when** the cluster exists is left to the drift reports that have made such distinctions their occupation.
 
 ---

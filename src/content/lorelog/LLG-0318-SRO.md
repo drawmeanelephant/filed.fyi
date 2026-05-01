@@ -17,7 +17,7 @@ affectedSystems:
   - "manifest discrepancy summaries"
   - "C.U.N.T.I.E.R. audit posture metrics"
 relatedEntries:
-  - "llg-0003-schema-violation-ritual"
+  - "llg-0003-svr"
   - "LLG-0244-FSC"
   - "LLG-0325-ORT"
 escalationPath: "Scan Integrity Arbitration Desk, Orphan Classification Tribunal"

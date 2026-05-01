@@ -16,8 +16,8 @@ affectedSystems:
   - "route mapping layer"
   - "link validation service"
 relatedEntries:
-  - "llg-0001-nav-collapse"
-  - "llg-0003-schema-violation-ritual"
+  - "llg-0001-nav"
+  - "llg-0003-svr"
 tags:
   - broken-navigation
   - sitemap-drift

@@ -15,86 +15,52 @@ import {
   UserRound,
   Zap,
 } from 'lucide-astro';
+import { mapLorelog } from '../lib/mappers/lorelog';
 
 interface Props { entry: CollectionEntry<'lorelog'>; }
 const { entry } = Astro.props;
-const d = entry.data;
+const e = mapLorelog(entry);
 const expandId = `lorelog-${entry.id.replace(/[^a-z0-9]/gi, '-')}`;
-
-const severityMeta: Record<string, { label: string; cls: string }> = {
-  info: { label: 'INFO', cls: 'badge--info' },
-  notice: { label: 'NOTICE', cls: 'badge--notice' },
-  warning: { label: 'WARNING', cls: 'badge--warning' },
-  critical: { label: 'CRITICAL', cls: 'badge--critical' },
-  classified: { label: 'CLASSIFIED', cls: 'badge--classified' },
-};
-const dispositionMeta: Record<string, { label: string; cls: string }> = {
-  filed: { label: 'FILED', cls: 'chip--filed' },
-  archived: { label: 'ARCHIVED', cls: 'chip--archived' },
-  contested: { label: 'CONTESTED', cls: 'chip--contested' },
-  deferred: { label: 'DEFERRED', cls: 'chip--deferred' },
-  expunged: { label: 'EXPUNGED', cls: 'chip--expunged' },
-  redacted: { label: 'REDACTED', cls: 'chip--redacted' },
-};
-const resolutionMeta: Record<string, { label: string; cls: string }> = {
-  pending: { label: 'PENDING', cls: 'chip--pending' },
-  resolved: { label: 'RESOLVED', cls: 'chip--resolved' },
-  unresolvable: { label: 'UNRESOLVABLE', cls: 'chip--unresolvable' },
-  appealed: { label: 'APPEALED', cls: 'chip--appealed' },
-  void: { label: 'VOID', cls: 'chip--void' },
-};
-const classStamp: Record<string, string> = {
-  public: '', internal: 'INTERNAL', restricted: 'RESTRICTED', sealed: 'SEALED',
-};
-
-const sev = severityMeta[d.severity] ?? severityMeta.info;
-const disp = dispositionMeta[d.disposition] ?? dispositionMeta.filed;
-const res = resolutionMeta[d.resolution] ?? resolutionMeta.pending;
-const stamp = classStamp[d.classification] ?? '';
-
-const formattedDate = d.date.toLocaleDateString('en-us', {
-  year: 'numeric', month: 'short', day: 'numeric',
-});
 ---
 
 <article class="lorelog-card" x-data="{ open: false }">
   <div class="lorelog-card__header">
     <div class="lorelog-card__header-left">
-      {d.caseNumber && (
+      {e.caseNumber && (
         <span class="lorelog-card__case">
-          <Fingerprint size={10} aria-hidden="true" />{d.caseNumber}
+          <Fingerprint size={10} aria-hidden="true" />{e.caseNumber}
         </span>
       )}
-      <span class={`badge ${sev.cls}`}>{sev.label}</span>
+      <span class={`badge ${e.severity.cls}`}>{e.severity.label}</span>
     </div>
     <div class="lorelog-card__header-right">
-      <span class="lorelog-card__version">{d.versionLabel}</span>
-      {stamp && <span class="lorelog-card__stamp">{stamp}</span>}
+      <span class="lorelog-card__version">{e.versionLabel}</span>
+      {e.stamp && <span class="lorelog-card__stamp">{e.stamp}</span>}
     </div>
   </div>
 
   <div class="lorelog-card__body">
     <h2 class="lorelog-card__title">
-      {d.redacted ? <span class="lorelog-card__redacted">████████████████</span> : d.title}
+      {e.redacted ? <span class="lorelog-card__redacted">████████████████</span> : e.title}
     </h2>
     <p class="lorelog-card__description">
-      {d.redacted ? '[CONTENT REDACTED BY ORDER OF THE FILING AUTHORITY]' : d.description}
+      {e.redacted ? '[CONTENT REDACTED BY ORDER OF THE FILING AUTHORITY]' : e.description}
     </p>
     <div class="lorelog-card__chips">
-      <span class={`chip ${disp.cls}`}>
-        <FolderArchive size={10} aria-hidden="true" />{disp.label}
+      <span class={`chip ${e.disposition.cls}`}>
+        <FolderArchive size={10} aria-hidden="true" />{e.disposition.label}
       </span>
-      <span class={`chip ${res.cls}`}>
-        {d.resolution === 'resolved' && <CheckCircle size={10} aria-hidden="true" />}
-        {d.resolution === 'pending' && <Clock size={10} aria-hidden="true" />}
-        {d.resolution === 'unresolvable' && <Skull size={10} aria-hidden="true" />}
-        {d.resolution === 'appealed' && <Gavel size={10} aria-hidden="true" />}
-        {d.resolution === 'void' && <Ghost size={10} aria-hidden="true" />}
-        {res.label}
+      <span class={`chip ${e.resolution.cls}`}>
+        {e.resolution.key === 'resolved' && <CheckCircle size={10} aria-hidden="true" />}
+        {e.resolution.key === 'pending' && <Clock size={10} aria-hidden="true" />}
+        {e.resolution.key === 'unresolvable' && <Skull size={10} aria-hidden="true" />}
+        {e.resolution.key === 'appealed' && <Gavel size={10} aria-hidden="true" />}
+        {e.resolution.key === 'void' && <Ghost size={10} aria-hidden="true" />}
+        {e.resolution.label}
       </span>
-      {d.mascotRef && (
-        <a href={`/${d.mascotRef}`} class="chip chip--mascot">
-          <RadioTower size={10} aria-hidden="true" />{d.mascotRef}
+      {e.mascotRef && (
+        <a href={`/${e.mascotRef}`} class="chip chip--mascot">
+          <RadioTower size={10} aria-hidden="true" />{e.mascotRef}
         </a>
       )}
     </div>
@@ -108,9 +74,9 @@ const formattedDate = d.date.toLocaleDateString('en-us', {
     aria-controls={expandId}
   >
     <span class="lorelog-card__toggle-meta">
-      <span class="lorelog-card__meta-item"><UserRound size={10} aria-hidden="true" />{d.filedBy ?? 'UNKNOWN CLERK'}</span>
-      <span class="lorelog-card__meta-item"><span class="lorelog-card__sep">·</span>{formattedDate}</span>
-      {d.filedAt && <span class="lorelog-card__meta-item"><span class="lorelog-card__sep">·</span>{d.filedAt}</span>}
+      <span class="lorelog-card__meta-item"><UserRound size={10} aria-hidden="true" />{e.filedBy ?? 'UNKNOWN CLERK'}</span>
+      <span class="lorelog-card__meta-item"><span class="lorelog-card__sep">·</span>{e.date}</span>
+      {e.filedAt && <span class="lorelog-card__meta-item"><span class="lorelog-card__sep">·</span>{e.filedAt}</span>}
     </span>
     <span class="lorelog-card__toggle-icon" :class="open ? 'is-open' : ''">
       <ChevronDown size={12} aria-hidden="true" />
@@ -133,31 +99,31 @@ const formattedDate = d.date.toLocaleDateString('en-us', {
       <section class="lorelog-card__section">
         <h3 class="lorelog-card__section-title">Diagnostic Record</h3>
         <dl class="lorelog-card__dl">
-          <div><dt>Severity</dt><dd class={`lorelog-card__sev-text lorelog-card__sev-text--${d.severity}`}>{d.severity}</dd></div>
-          <div><dt>Disposition</dt><dd>{d.disposition}</dd></div>
-          <div><dt>Resolution</dt><dd>{d.resolution}</dd></div>
-          <div><dt>Classification</dt><dd>{d.classification}</dd></div>
-          {d.caseNumber && <div><dt>Case No.</dt><dd>{d.caseNumber}</dd></div>}
-          {d.escalationPath && <div><dt>Escalation</dt><dd>{d.escalationPath}</dd></div>}
+          <div><dt>Severity</dt><dd class={`lorelog-card__sev-text lorelog-card__sev-text--${e.severity.key}`}>{e.severity.key}</dd></div>
+          <div><dt>Disposition</dt><dd>{e.disposition.key}</dd></div>
+          <div><dt>Resolution</dt><dd>{e.resolution.key}</dd></div>
+          <div><dt>Classification</dt><dd>{e.stamp || '—'}</dd></div>
+          {e.caseNumber && <div><dt>Case No.</dt><dd>{e.caseNumber}</dd></div>}
+          {e.escalationPath && <div><dt>Escalation</dt><dd>{e.escalationPath}</dd></div>}
         </dl>
       </section>
 
-      {d.affectedSystems && d.affectedSystems.length > 0 && (
+      {e.affectedSystems && e.affectedSystems.length > 0 && (
         <section class="lorelog-card__section">
           <h3 class="lorelog-card__section-title">Affected Systems</h3>
           <ul class="lorelog-card__list lorelog-card__list--systems">
-            {d.affectedSystems.map((sys: string) => (
+            {e.affectedSystems.map((sys: string) => (
               <li><Zap size={10} aria-hidden="true" class="lorelog-card__list-icon" />{sys}</li>
             ))}
           </ul>
         </section>
       )}
 
-      {d.relatedEntries && d.relatedEntries.length > 0 && (
+      {e.relatedEntries && e.relatedEntries.length > 0 && (
         <section class="lorelog-card__section">
           <h3 class="lorelog-card__section-title">Related Entries</h3>
           <ul class="lorelog-card__list lorelog-card__list--related">
-            {d.relatedEntries.map((slug: string) => (
+            {e.relatedEntries.map((slug: string) => (
               <li>
                 <BookMarked size={10} aria-hidden="true" class="lorelog-card__list-icon" />
                 <a href={`/lorelog/${slug}`}>{slug}</a>
@@ -167,21 +133,21 @@ const formattedDate = d.date.toLocaleDateString('en-us', {
         </section>
       )}
 
-      {d.tags && d.tags.length > 0 && (
+      {e.tags && e.tags.length > 0 && (
         <section class="lorelog-card__section">
           <h3 class="lorelog-card__section-title">Tags</h3>
           <div class="lorelog-card__taglist">
-            {d.tags.map((tag: string) => (
+            {e.tags.map((tag: string) => (
               <span class="lorelog-card__tag"><Tag size={9} aria-hidden="true" />{tag}</span>
             ))}
           </div>
         </section>
       )}
 
-      {d.notes && (
+      {e.notes && (
         <section class="lorelog-card__section">
           <h3 class="lorelog-card__section-title">Clerk Notes</h3>
-          <p class="lorelog-card__notes">{d.notes}</p>
+          <p class="lorelog-card__notes">{e.notes}</p>
         </section>
       )}
 
@@ -276,75 +242,6 @@ const formattedDate = d.date.toLocaleDateString('en-us', {
   flex-wrap: wrap;
   gap: 0.3rem;
   margin-top: 0.15rem;
-}
-.chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  padding: 0.15rem 0.4rem;
-  border-radius: 1px;
-  border: 1px solid currentColor;
-  opacity: 0.95;
-  text-decoration: none;
-}
-.chip--filed { color: #4e8a6c; }
-.chip--archived { color: var(--sl-color-gray-4); }
-.chip--contested { color: #b87333; }
-.chip--deferred { color: #6b7ab8; }
-.chip--expunged { color: #8a3a3a; }
-.chip--redacted {
-  color: var(--sl-color-gray-5);
-  background: color-mix(in srgb, var(--sl-color-gray-6) 25%, transparent);
-}
-.chip--pending { color: var(--sl-color-gray-3); }
-.chip--resolved { color: #4e8a6c; }
-.chip--unresolvable { color: #8a3a3a; }
-.chip--appealed { color: #b87333; }
-.chip--void { color: #6b4d8a; }
-.chip--mascot {
-  color: #4a7ab0;
-  cursor: pointer;
-}
-.chip--mascot:hover {
-  opacity: 1;
-  color: #6b9dd0;
-}
-.badge {
-  display: inline-flex;
-  align-items: center;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  padding: 0.15rem 0.45rem;
-  border-radius: 1px;
-}
-.badge--info {
-  background: color-mix(in srgb, #3a7fa8 12%, transparent);
-  color: #3a7fa8;
-  border: 1px solid color-mix(in srgb, #3a7fa8 30%, transparent);
-}
-.badge--notice {
-  background: color-mix(in srgb, #3a7a50 12%, transparent);
-  color: #3a7a50;
-  border: 1px solid color-mix(in srgb, #3a7a50 30%, transparent);
-}
-.badge--warning {
-  background: color-mix(in srgb, #b87333 12%, transparent);
-  color: #b87333;
-  border: 1px solid color-mix(in srgb, #b87333 30%, transparent);
-}
-.badge--critical {
-  background: color-mix(in srgb, #c04040 12%, transparent);
-  color: #c04040;
-  border: 1px solid color-mix(in srgb, #c04040 30%, transparent);
-}
-.badge--classified {
-  background: color-mix(in srgb, #6b4d8a 12%, transparent);
-  color: #6b4d8a;
-  border: 1px solid color-mix(in srgb, #6b4d8a 30%, transparent);
 }
 .lorelog-card__toggle {
   display: flex;

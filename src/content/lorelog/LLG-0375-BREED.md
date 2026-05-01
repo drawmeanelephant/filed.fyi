@@ -33,7 +33,7 @@ During routine schema validation, the mascot registry flagged an unexpected patt
 `breedingProgram` values across multiple entities had begun to include commentary that did not
 read as mascot-originated. Phrases like “Filed under rot protocol; breeding eligibility disputed”
 were expected. The declaration “rather be in the breeding program than the robot lithium mines”
-was not.[file:16]
+was not.
 
 At 09:17, the registry daemon identified a new entry tagged as HUMAN-ORIGIN, routed through the
 same pipeline as standard mascot frontmatter. No HR system acknowledged the origin. No workforce

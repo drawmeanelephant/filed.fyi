@@ -29,4 +29,4 @@ tags:
 notes: "Retention change was logged as a continuity improvement despite an absolute increase in unclaimed materials."
 ---
 
-A retention recalibration elevated the acceptable threshold for unattended files until persistent ownership failure began to register as low-maintenance archival stability rather than unresolved responsibility.[file:1] Once the new threshold was canonized, orphaned materials ceased to behave as deficits inside reporting logic and were preserved as efficient inventory instead, manufacturing continuity out of the carefully managed absence of stewardship.[file:1]
+A retention recalibration elevated the acceptable threshold for unattended files until persistent ownership failure began to register as low-maintenance archival stability rather than unresolved responsibility. Once the new threshold was canonized, orphaned materials ceased to behave as deficits inside reporting logic and were preserved as efficient inventory instead, manufacturing continuity out of the carefully managed absence of stewardship.

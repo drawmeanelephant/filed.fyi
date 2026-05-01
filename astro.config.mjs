@@ -15,6 +15,7 @@ export default defineConfig({
   site: 'https://filed.fyi',
   integrations: [starlight({
       title: 'Filed & Forgotten',
+      disable404Route: true,
       customCss: [
         './src/styles/global.css',
       ],

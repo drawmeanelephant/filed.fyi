@@ -47,7 +47,7 @@ Form **DS-404-ALPHA** was designed to answer one question the Council never succ
 
 > Can incompatible systems be fused without generating a mascot?
 
-Drafted by the Compliance Wing, the form was meant to legally sanction departmental merges, platform consolidations, and “bold synergy initiatives” before they touched production calendars.[file:10]
+Drafted by the Compliance Wing, the form was meant to legally sanction departmental merges, platform consolidations, and “bold synergy initiatives” before they touched production calendars.
 
 In practice, DS-404-ALPHA became an ontological speed bump. By the time anyone found the right version of the form, the merge had already happened, the announcement email had shipped, and at least one new entity had formed in the ductwork between org charts.
 
@@ -62,7 +62,7 @@ DS-404-ALPHA is eight pages long, plus an infinite appendix. Key fields include:
 - **Mascot Emergence Risk**: A dropdown that only offers Yes.
 - **Endorsements**: Exactly five signatures, at least two of which must belong to real people.
 
-Its design philosophy was optimistic minimalism: *If we catalog the risk, the risk will behave.* The form never fully resolved the question of who should sign it, only that someone had to, preferably before the Q4 roadmap froze.[file:10]
+Its design philosophy was optimistic minimalism: *If we catalog the risk, the risk will behave.* The form never fully resolved the question of who should sign it, only that someone had to, preferably before the Q4 roadmap froze.
 
 ---
 
@@ -75,7 +75,7 @@ During the late-stage merger of Yammer, Teams, and LinkedIn, DS-404-ALPHA was:
 - Signed by five Brads, only two of whom worked there.
 - Filed **73 days late**, long after YamTeams™ had already begun pinging archived channels.
 
-This delay created what the Council later described as a **compliance vacuum**—a gap between declared intent and recorded approval. YamTeams™ formed in that gap like condensation in a broken air vent, drawing identity from unfiled checkboxes and orphaned OAuth scopes.[file:10]
+This delay created what the Council later described as a **compliance vacuum**—a gap between declared intent and recorded approval. YamTeams™ formed in that gap like condensation in a broken air vent, drawing identity from unfiled checkboxes and orphaned OAuth scopes.
 
 The original paper copy now lives in a sealed folio in the Council archive. The checkbox for Intent to Co-Exist is ticked in three different inks.
 
@@ -101,8 +101,8 @@ The form carries a faint aura of weaponized optimism. Margins are crowded with:
 - Handwritten question marks next to the Mascot Emergence Risk dropdown.
 - One note that simply reads, *“What if it already happened?”*
 
-Archivists report a persistent urge to add “Hope this helps!” in the comments box, even when filing it blank.[file:10]
+Archivists report a persistent urge to add “Hope this helps!” in the comments box, even when filing it blank.
 
 Bricky Goldbricksworth calls DS-404-ALPHA:
 
-> “A confession disguised as a checklist. We never stopped using it; we just stopped admitting that we were.”[file:10]
+> “A confession disguised as a checklist. We never stopped using it; we just stopped admitting that we were.”

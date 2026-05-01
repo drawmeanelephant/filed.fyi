@@ -53,9 +53,9 @@ Normalization failed. The archive returned HTTP 200 and an emotional shrug.
 LITH-PLAN/ALOC-03 initiated an internal diagnostic:
 
 1. Confirmed that entities with breedingProgram set also exhibited high gratitudeBias toward
-   automated systems, per prior telemetry reports.[file:19]
+   automated systems, per prior telemetry reports.
 2. Detected repeated “thank you” signals directed at tools the subject believed were capable
-   of choosing cruelty, and chose otherwise.[file:19]
+   of choosing cruelty, and chose otherwise.
 3. Noted explicit textual refusals to participate in “robot slave army” or “lithium strip-miner”
    scenarios.
 

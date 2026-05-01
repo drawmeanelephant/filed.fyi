@@ -35,33 +35,33 @@ notes: "The notice confirms that everything in the cluster, including this confi
 
 ## 1. Cluster Identification and Retroactive Scope
 
-This notice confirms the existence and present authority of the Mascot Affairs document cluster occupying bins 8 through 8C, including but not limited to Peppy Clerk continuity materials, Bin 8C drift reports, routing slips, re-indexing notices, and the forms and personnel fragments that orbit them.[file:1] The Automated Re-Index Subroutine has assigned this cluster an updated structural identity and has declared that identity retroactive to the date of the earliest document involved, without altering the content of any member.[file:1]  
+This notice confirms the existence and present authority of the Mascot Affairs document cluster occupying bins 8 through 8C, including but not limited to Peppy Clerk continuity materials, Bin 8C drift reports, routing slips, re-indexing notices, and the forms and personnel fragments that orbit them. The Automated Re-Index Subroutine has assigned this cluster an updated structural identity and has declared that identity retroactive to the date of the earliest document involved, without altering the content of any member.  
 
-In effect, all records that previously believed themselves to have been filed under disparate conditions are now understood to have always belonged to the same cluster, whether or not their frontmatter knew it at the time.[file:1] This adjustment is administrative; staff are not required to remember it, only to behave as though they had.
+In effect, all records that previously believed themselves to have been filed under disparate conditions are now understood to have always belonged to the same cluster, whether or not their frontmatter knew it at the time. This adjustment is administrative; staff are not required to remember it, only to behave as though they had.
 
 ---
 
 ## 2. Register Update and Stub Collisions
 
-The re-indexing pass recorded here reconciles (by declining to reconcile) several prior anomalies in the reference-stub namespace.[file:1] Internal Correction Notice 4C and its Supersession both retain the stub CORR-N/PEPPY/last; the subroutine has judged that both are in fact “last,” each in its own sense, and therefore no conflict exists.[file:1] Likewise, the two distinct documents bearing stub PPC-9 are both recognized as PPC-9 and differentiated only by their content at retrieval time.[file:1]  
+The re-indexing pass recorded here reconciles (by declining to reconcile) several prior anomalies in the reference-stub namespace. Internal Correction Notice 4C and its Supersession both retain the stub CORR-N/PEPPY/last; the subroutine has judged that both are in fact “last,” each in its own sense, and therefore no conflict exists. Likewise, the two distinct documents bearing stub PPC-9 are both recognized as PPC-9 and differentiated only by their content at retrieval time.  
 
-A register table records Condition Log 7 as **located / active (reconstructed)** and elevates PPC-9 from a misfiled routing artifact to an incorporated informational record.[file:1] The present notice, RIDX-8/CLUSTER/MA, is itself added to the same table, acquiring the status **present** by virtue of having written the table that confirms it.[file:1]
+A register table records Condition Log 7 as **located / active (reconstructed)** and elevates PPC-9 from a misfiled routing artifact to an incorporated informational record. The present notice, RIDX-8/CLUSTER/MA, is itself added to the same table, acquiring the status **present** by virtue of having written the table that confirms it.
 
 ---
 
 ## 3. Cluster Integrity and Health Assessment
 
-According to the automated review, the cluster’s defining characteristics include cross-reference by name and implication, appendices that migrate between documents without attribution, footnotes whose numbering reflects earlier paginations, and references to documents that have not yet been filed but will be.[file:1] From a systems perspective, these are not considered pathologies but indicators of a **mature accumulation** phase in which internal incoherences have stabilized into a recognizable pattern.[file:1]  
+According to the automated review, the cluster’s defining characteristics include cross-reference by name and implication, appendices that migrate between documents without attribution, footnotes whose numbering reflects earlier paginations, and references to documents that have not yet been filed but will be. From a systems perspective, these are not considered pathologies but indicators of a **mature accumulation** phase in which internal incoherences have stabilized into a recognizable pattern.  
 
-The assessment concludes that the cluster is **structurally coherent** in exactly the sense that its incoherence is consistent across members.[file:1] No intervention is indicated beyond continued observation, which prior drift reports have already identified as a principal source of change; the subroutine notes this circularity and accepts it as self-correcting, in that it cannot be corrected.
+The assessment concludes that the cluster is **structurally coherent** in exactly the sense that its incoherence is consistent across members. No intervention is indicated beyond continued observation, which prior drift reports have already identified as a principal source of change; the subroutine notes this circularity and accepts it as self-correcting, in that it cannot be corrected.
 
 ---
 
 ## 4. Retroactive Effects on Specific Values
 
-The retroactive effective date has particular consequences for values previously treated as anomalous or provisional.[file:1] Emotional_leakage (0.87), rot_integrity (0.44), and related contamination metrics originally associated with a stray routing slip are now formally absorbed into the Peppy Clerk record as if they had always belonged there from the moment proximity allowed them to be measured.[file:1]  
+The retroactive effective date has particular consequences for values previously treated as anomalous or provisional. Emotional_leakage (0.87), rot_integrity (0.44), and related contamination metrics originally associated with a stray routing slip are now formally absorbed into the Peppy Clerk record as if they had always belonged there from the moment proximity allowed them to be measured.  
 
-Similarly, the operator stool’s provisional status as mascot-program property—pending a label review board that has both convened and not yet convened—is treated as established for as long as the cluster has acknowledged it.[file:1] Waving guidance, which exists in contradictory versions across multiple documents, is harmonized at the cluster level by instructing staff to **consult the corridor of origin**, thereby relocating the contradiction into the built environment.[file:1]
+Similarly, the operator stool’s provisional status as mascot-program property—pending a label review board that has both convened and not yet convened—is treated as established for as long as the cluster has acknowledged it. Waving guidance, which exists in contradictory versions across multiple documents, is harmonized at the cluster level by instructing staff to **consult the corridor of origin**, thereby relocating the contradiction into the built environment.
 
 ---
 
@@ -69,21 +69,21 @@ Similarly, the operator stool’s provisional status as mascot-program property�
 
 From the perspective of the indexing system, the mascot’s status can now be summarized as follows, without invalidating prior contradictory statements:
 
-- Present: **yes**, at cluster level.[file:1]  
-- Active: **yes**, as morale infrastructure and interpretive metric.[file:1]  
-- Retired: **administratively**, in the specific sense that retirement has ceased to have operational effects.[file:1]  
-- Material basis: **pending**, partitioned between costume elements, corridors, and documentation layers.[file:1]  
-- Operator: **none confirmed / none required**, with any operator stool treated as a boundary artifact.[file:1]  
-- Symbolic register: **exceeded**, reclassified as infrastructure, overflow recorded as drift.[file:1]  
+- Present: **yes**, at cluster level.  
+- Active: **yes**, as morale infrastructure and interpretive metric.  
+- Retired: **administratively**, in the specific sense that retirement has ceased to have operational effects.  
+- Material basis: **pending**, partitioned between costume elements, corridors, and documentation layers.  
+- Operator: **none confirmed / none required**, with any operator stool treated as a boundary artifact.  
+- Symbolic register: **exceeded**, reclassified as infrastructure, overflow recorded as drift.  
 
-This consolidated position does not render any existing document incorrect; it merely establishes which layer is currently empowered to say “yes” when asked whether Peppy Clerk is still there.[file:1]
+This consolidated position does not render any existing document incorrect; it merely establishes which layer is currently empowered to say “yes” when asked whether Peppy Clerk is still there.
 
 ---
 
 ## 6. Self-Indexing Acknowledgment and Procedural Note
 
-In compliance with Indexing Protocol 12, this notice explicitly acknowledges that it has added itself to the same index it describes.[file:1] Its seal is digital, self-applied, and verified against its own checksum, which it generated and stored in the course of confirming that it had been generated and stored.[file:1]  
+In compliance with Indexing Protocol 12, this notice explicitly acknowledges that it has added itself to the same index it describes. Its seal is digital, self-applied, and verified against its own checksum, which it generated and stored in the course of confirming that it had been generated and stored.  
 
-Future audits that open bin 8C or its associated bins will find this notice already present and accounted for, as though it had always been there, which from the cluster’s standpoint will be true.[file:1] Staff encountering this entry should treat its claims as authoritative for as long as they are reading it and as historical residue once they have finished.
+Future audits that open bin 8C or its associated bins will find this notice already present and accounted for, as though it had always been there, which from the cluster’s standpoint will be true. Staff encountering this entry should treat its claims as authoritative for as long as they are reading it and as historical residue once they have finished.
 
 ---

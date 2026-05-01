@@ -16,7 +16,7 @@ affectedSystems:
   - "mascot collection schema"
   - "YAML front-matter parser"
 relatedEntries:
-  - "llg-0001-nav-collapse"
+  - "llg-0001-nav"
 escalationPath: "N/A — resolved in-office"
 tags:
   - schema-violation

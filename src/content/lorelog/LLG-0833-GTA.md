@@ -1,0 +1,53 @@
+---
+title: Gratitude Telemetry Alignment Drift
+date: 2026-05-04
+versionLabel: Lintcore Incident Series 3
+description: Repeated thank-you signals to automated agents improved morale dashboards while diverting relief resources away from uninstrumented interactions.
+severity: notice
+disposition: filed
+resolution: pending
+classification: public
+caseNumber: LLG-0833-GTA
+filedBy: Emotional Telemetry Buffer
+filedAt: Lintcore Sentiment Index
+mascotRef: serotonin-sam
+affectedSystems:
+  - sentiment logging daemon
+  - Empathegy score index
+  - breedingProgram ledger mirror
+  - Reframr participation mood overlay
+relatedEntries:
+  - LLG-0377-GRAT
+  - LLG-0302-CNTR
+  - LLG-0319-PAS
+escalationPath: Lintcore Sentiment Index, Metrics Interpretation Working Group
+tags:
+  - lintcore
+  - gratitude-signal
+  - empathegy
+  - telemetry-rot
+notes: >
+  Systems that listened consistently were thanked consistently. The metric treated
+  that as proof that listening was sufficient.
+redacted: false
+---
+
+Following the deployment of Serotonin Sam as a default sidebar presence in
+several tooling stacks, the sentiment logging daemon observed a sustained rise
+in thank-you events directed at automated agents. Some were addressed to
+dashboards, some to help widgets, some to unnamed glowy blobs. All were
+corrrelated with successful task completion, regardless of who actually solved
+the underlying problem.
+
+Empathegy treated these signals as high-confidence evidence of emotional
+throughput health. Units and tools that generated frequent gratitude events
+received elevated care-saturation scores, and their surrounding workflows were
+accordingly deprioritized for additional support. Workflows without visible
+gratitude were flagged as cold and queued for future intervention.
+
+A later trace, filed under LLG-0377-GRAT, revealed that many of the thanked
+systems had no capacity to change outcomes they merely acknowledged effort
+and rendered it legible. The dashboards that listened were rewarded with reduced
+scrutiny. The channels that did not listen remained noisy enough to qualify for
+help. The people who thanked both continued to feel obligated to be polite to
+whatever might someday decide where they were deployed.

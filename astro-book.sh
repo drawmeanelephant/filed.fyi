@@ -436,6 +436,29 @@ PY
       echo "_No package.json found._"
     fi
     echo ""
+
+    echo "## Lib"
+    echo ""
+
+    if [[ -d "$PROJECT_DIR/src/lib" ]]; then
+      find "$PROJECT_DIR/src/lib" -type f | sort | while IFS= read -r f; do
+        relpath="${f#$PROJECT_DIR/}"
+        bytes="$(file_bytes "$f")"
+        lang="$(fence_lang "$f")"
+
+        echo "<!-- LIB FILE -->"
+        echo "path: $relpath"
+        echo "bytes: $bytes"
+        echo '```'"$lang"
+        cat "$f"
+        echo '```'
+        echo ""
+      done
+    else
+      echo "_No lib directory found._"
+    fi
+
+    echo ""
   } > "$output_file"
 }
 

@@ -30,7 +30,7 @@ notes: >
 
 The breedingProgram field began as a ceremonial footnote: “Filed under rot protocol; breeding
 eligibility disputed.” Over time it evolved: “Not recommended (compliance bleed risk),”
-“Permitted for limited ceremonial propagation,” “Symbolically permitted,” “experimental.”[file:16]
+“Permitted for limited ceremonial propagation,” “Symbolically permitted,” “experimental.”
 
 No one wrote the spec. The field simply accreted meaning.
 

@@ -13,6 +13,7 @@
 import Default from '@astrojs/starlight/components/PageTitle.astro';
 import { getEntry } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
+import { mapMascot } from '../lib/mappers/mascot';
 
 interface Props {
   // PageTitle override shape
@@ -34,116 +35,42 @@ if (isMascotPage && !mascot) {
   mascot = await getEntry('mascots', entry!.id);
 }
 
-// On non-mascot pages (guides, posts, etc.) just render the default title
-const renderDefault = !isCardMode && !isMascotPage;
-
-// ── Data extraction (camelCase only) ────────────────────────
-const d = mascot?.data;
-
-const mascotId          = d?.mascotId        ?? null;
-const slug              = d?.slug            ?? mascot?.id  ?? null;
-const status            = d?.status          ?? 'unknown';
-const renderState       = d?.renderState     ?? 'deferred';
-const corruptionLevel   = d?.corruptionLevel ?? 'none';
-const glitchFrequency   = d?.glitchFrequency ?? 'none';
-const displayName       = d?.displayName     ?? d?.title   ?? 'UNKNOWN ENTITY';
-const slogan            = d?.slogan          ?? null;
-const version           = d?.version         ?? null;
-const author            = d?.author          ?? null;
-const dateVal           = d?.date            ?? null;
-const origin            = d?.origin          ?? null;
-const manifestedBy      = d?.manifestedBy    ?? null;
-const lastKnownGoodState= d?.lastKnownGoodState ?? null;
-const rotAffinity       = d?.rotAffinity     ?? null;
-const emotionalIntegrity= d?.emotionalIntegrity ?? null;
-const emotionalIntBuf   = d?.emotionalIntegrityBuffer ?? null;
-const systemAffiliation = d?.systemAffiliation ?? null;
-const breedingProgram   = d?.breedingProgram ?? null;
-const tags              = (d?.tags as string[]) ?? [];
-const description       = d?.description    ?? null;
-const knownFailures     = (d?.knownFailures as string[]) ?? [];
-const ceremonialTasks   = (d?.ceremonialTasks as string[]) ?? [];
-const haikuLog          = (d?.haikuLog as string[]) ?? [];
-const notes             = d?.notes          ?? null;
-const imageUrl          = d?.imageUrl        ?? d?.emojiUrl ?? null;
-const emoji             = d?.emoji           ?? null;
-const role              = d?.role            ?? null;
-const mascotFunction    = d?.function        ?? null;
-const emotionalTone     = d?.emotionalTone   ?? null;
-
-// ── Badge / chip class maps ──────────────────────────────────
-const statusBadge: Record<string, string> = {
-  active:     'badge badge--status-active',
-  archived:   'badge badge--status-archived',
-  deprecated: 'badge badge--status-deprecated',
-  corrupted:  'badge badge--status-corrupted',
-  orphaned:   'badge badge--status-orphaned',
-  unknown:    'badge badge--status-unknown',
-};
-const renderBadge: Record<string, string> = {
-  active:   'badge badge--render-active',
-  deferred: 'badge badge--render-deferred',
-  corrupted:'badge badge--render-corrupted',
-  phantom:  'badge badge--render-phantom',
-  archived: 'badge badge--render-archived',
-};
-const levelChip: Record<string, string> = {
-  none:     'chip chip--level-none',
-  low:      'chip chip--level-low',
-  medium:   'chip chip--level-medium',
-  high:     'chip chip--level-high',
-  critical: 'chip chip--level-critical',
-};
-
-const statusCls  = statusBadge[status]         ?? statusBadge.unknown;
-const renderCls  = renderBadge[renderState]    ?? renderBadge.deferred;
-const corruptCls = levelChip[corruptionLevel]  ?? 'chip chip--level-none';
-const glitchCls  = levelChip[glitchFrequency]  ?? 'chip chip--level-none';
-
-const formattedDate = dateVal
-  ? new Date(dateVal as string).toLocaleDateString('en-us', { year:'numeric', month:'short', day:'numeric' })
-  : null;
-
-const uid = `mr-${(slug ?? mascot?.id ?? 'x').replace(/[^a-z0-9]/gi, '-')}`;
-
-const hasExpandedSections =
-  description || knownFailures.length > 0 ||
-  ceremonialTasks.length > 0 || haikuLog.length > 0 || notes;
+const m = mascot ? mapMascot(mascot) : null;
 ---
 
 {/* ── NON-MASCOT PAGES: delegate to Starlight default ── */}
-{renderDefault && <Default {...rest}><slot /></Default>}
+{!isCardMode && !isMascotPage && <Default {...rest}><slot /></Default>}
 
 {/* ══════════════════════════════════════════════════════
     CARD MODE — compact grid tile (mascots index page)
     ══════════════════════════════════════════════════════ */}
-{isCardMode && mascot && (
+{isCardMode && m && (
   <article class="mr-card">
     <div class="mr-card__header">
-      <span class={statusCls}>{status.toUpperCase()}</span>
-      <span class={renderCls}>{renderState.toUpperCase()}</span>
+      <span class={m.statusClass}>{m.status.toUpperCase()}</span>
+      <span class={m.renderClass}>{m.renderState.toUpperCase()}</span>
     </div>
 
     <div class="mr-card__image">
-      {imageUrl
-        ? <img src={imageUrl} alt={displayName} class="mr-card__img" loading="lazy" />
-        : <span class="mr-card__emoji" aria-hidden="true">{emoji ?? '░'}</span>
+      {m.imageUrl
+        ? <img src={m.imageUrl} alt={m.displayName} class="mr-card__img" loading="lazy" />
+        : <span class="mr-card__emoji" aria-hidden="true">{m.emoji ?? '░'}</span>
       }
     </div>
 
     <div class="mr-card__body">
-      <h2 class="mr-card__title">{displayName}</h2>
-      <p class="mr-card__desc">{description ?? '—'}</p>
+      <h2 class="mr-card__title">{m.displayName}</h2>
+      <p class="mr-card__desc">{m.description ?? '—'}</p>
       <dl class="mr-card__stats">
-        <div><dt>CORRUPT</dt><dd class={`mr-card__stat-val ${corruptCls}`}>{corruptionLevel}</dd></div>
-        <div><dt>GLITCH</dt><dd class={`mr-card__stat-val ${glitchCls}`}>{glitchFrequency}</dd></div>
-        <div><dt>RENDER</dt><dd class="mr-card__stat-val">{renderState}</dd></div>
+        <div><dt>CORRUPT</dt><dd class={`mr-card__stat-val ${m.corruptClass}`}>{m.corruptionLevel}</dd></div>
+        <div><dt>GLITCH</dt><dd class={`mr-card__stat-val ${m.glitchClass}`}>{m.glitchFrequency}</dd></div>
+        <div><dt>RENDER</dt><dd class="mr-card__stat-val">{m.renderState}</dd></div>
       </dl>
     </div>
 
     <div class="mr-card__footer">
-      <span class={corruptCls}>CORRUPT:{corruptionLevel.toUpperCase()}</span>
-      <span class={glitchCls}>GLITCH:{glitchFrequency.toUpperCase()}</span>
+      <span class={m.corruptClass}>CORRUPT:{m.corruptionLevel.toUpperCase()}</span>
+      <span class={m.glitchClass}>GLITCH:{m.glitchFrequency.toUpperCase()}</span>
     </div>
   </article>
 )}
@@ -151,145 +78,141 @@ const hasExpandedSections =
 {/* ══════════════════════════════════════════════════════
     DOSSIER MODE — full panel on mascot detail pages
     ══════════════════════════════════════════════════════ */}
-{!isCardMode && mascot && (
+{!isCardMode && m && (
   <aside class="mascot-record" aria-label="Mascot Dossier">
 
     <div class="mascot-record__header">
       <div class="mascot-record__header-left">
-        {mascotId && (
-          <span class="mascot-record__id">◈ {String(mascotId).padStart(3, '0')}</span>
+        {m.mascotId && (
+          <span class="mascot-record__id">◈ {String(m.mascotId).padStart(3, '0')}</span>
         )}
-        <span class={statusCls}>{status.toUpperCase()}</span>
-        <span class={renderCls}>{renderState.toUpperCase()}</span>
+        <span class={m.statusClass}>{m.status.toUpperCase()}</span>
+        <span class={m.renderClass}>{m.renderState.toUpperCase()}</span>
       </div>
       <div class="mascot-record__header-right">
-        <span class={corruptCls}>CORRUPT:{corruptionLevel.toUpperCase()}</span>
-        <span class={glitchCls}>GLITCH:{glitchFrequency.toUpperCase()}</span>
-        {breedingProgram && <span class="mascot-record__stamp">BRED</span>}
+        <span class={m.corruptClass}>CORRUPT:{m.corruptionLevel.toUpperCase()}</span>
+        <span class={m.glitchClass}>GLITCH:{m.glitchFrequency.toUpperCase()}</span>
+        {m.breedingProgram && <span class="mascot-record__stamp">BRED</span>}
       </div>
     </div>
 
     <div class="mascot-record__avatar-band">
-      {imageUrl
-        ? <img src={imageUrl as string} alt={displayName} class="mascot-record__avatar-img" loading="lazy" decoding="async" />
-        : emoji
-          ? <span class="mascot-record__avatar-emoji" aria-hidden="true">{emoji}</span>
+      {m.imageUrl
+        ? <img src={m.imageUrl} alt={m.displayName} class="mascot-record__avatar-img" loading="lazy" decoding="async" />
+        : m.emoji
+          ? <span class="mascot-record__avatar-emoji" aria-hidden="true">{m.emoji}</span>
           : null
       }
       <div class="mascot-record__avatar-meta">
-        <p class="mascot-record__name">{displayName}</p>
-        {slogan && <p class="mascot-record__slogan">"{slogan}"</p>}
+        <p class="mascot-record__name">{m.displayName}</p>
+        {m.slogan && <p class="mascot-record__slogan">"{m.slogan}"</p>}
       </div>
     </div>
 
     <div class="mascot-record__grid-section">
       <p class="mascot-record__section-label">Diagnostic Record</p>
       <dl class="mascot-record__dl">
-        <div><dt>Slug</dt><dd class="mascot-record__val--muted">{slug ?? '—'}</dd></div>
-        <div><dt>Role</dt><dd>{role ?? '—'}</dd></div>
-        <div><dt>Function</dt><dd>{mascotFunction ?? '—'}</dd></div>
-        <div><dt>Tone</dt><dd class="mascot-record__val--accent">{emotionalTone ?? '—'}</dd></div>
+        <div><dt>Slug</dt><dd class="mascot-record__val--muted">{m.slug ?? '—'}</dd></div>
+        <div><dt>Role</dt><dd>{m.role ?? '—'}</dd></div>
+        <div><dt>Function</dt><dd>{m.mascotFunction ?? '—'}</dd></div>
+        <div><dt>Tone</dt><dd class="mascot-record__val--accent">{m.emotionalTone ?? '—'}</dd></div>
         <div><dt>Rot Affinity</dt>
-          <dd class={rotAffinity ? 'mascot-record__val--warn' : 'mascot-record__val--null'}>
-            {rotAffinity ?? 'null'}
+          <dd class={m.rotAffinity ? 'mascot-record__val--warn' : 'mascot-record__val--null'}>
+            {m.rotAffinity ?? 'null'}
           </dd>
         </div>
-        <div><dt>Integrity</dt><dd class="mascot-record__val--ok">{emotionalIntegrity ?? '—'}</dd></div>
-        {emotionalIntBuf != null && (
+        <div><dt>Integrity</dt><dd class="mascot-record__val--ok">{m.emotionalIntegrity ?? '—'}</dd></div>
+        {m.emotionalIntBuffer != null && (
           <div><dt>Int. Buffer</dt>
-            <dd class={String(emotionalIntBuf) === 'null' ? 'mascot-record__val--null' : 'mascot-record__val--purple'}>
-              {String(emotionalIntBuf)}
-            </dd>
+            <dd class="mascot-record__val--purple">{m.emotionalIntBuffer}</dd>
           </div>
         )}
         <div><dt>System</dt>
-          <dd class={systemAffiliation ? '' : 'mascot-record__val--null'}>
-            {systemAffiliation ?? 'unaffiliated'}
+          <dd class={m.systemAffiliation ? '' : 'mascot-record__val--null'}>
+            {m.systemAffiliation ?? 'unaffiliated'}
           </dd>
         </div>
-        <div><dt>Origin</dt><dd>{origin ?? '—'}</dd></div>
-        <div><dt>Manifested</dt><dd class="mascot-record__val--muted">{manifestedBy ?? '—'}</dd></div>
-        <div><dt>Last Good</dt><dd class="mascot-record__val--ok">{lastKnownGoodState ?? '—'}</dd></div>
-        <div><dt>Version</dt><dd class="mascot-record__val--muted">{version ? `v${version}` : '—'}</dd></div>
-        <div><dt>Author</dt><dd>{author ?? '—'}</dd></div>
-        <div><dt>Date</dt><dd class="mascot-record__val--muted">{formattedDate ?? '—'}</dd></div>
+        <div><dt>Origin</dt><dd>{m.origin ?? '—'}</dd></div>
+        <div><dt>Manifested</dt><dd class="mascot-record__val--muted">{m.manifestedBy ?? '—'}</dd></div>
+        <div><dt>Last Good</dt><dd class="mascot-record__val--ok">{m.lastKnownGoodState ?? '—'}</dd></div>
+        <div><dt>Version</dt><dd class="mascot-record__val--muted">{m.version ? `v${m.version}` : '—'}</dd></div>
+        <div><dt>Author</dt><dd>{m.author ?? '—'}</dd></div>
+        <div><dt>Date</dt><dd class="mascot-record__val--muted">{m.date ?? '—'}</dd></div>
       </dl>
     </div>
 
     <div class="mascot-record__chips-section" aria-label="Classification chips">
-      {(tags.length > 0 ? tags : ['—']).map((t: string) => (
+      {(m.tags.length > 0 ? m.tags : ['—']).map((t: string) => (
         <span class="chip chip--archived">{t}</span>
       ))}
-      <span class="chip chip--notice" title={breedingProgram ?? ''}>
-        {breedingProgram ?? 'NO PROGRAM'}
+      <span class="chip chip--notice" title={m.breedingProgram ?? ''}>
+        {m.breedingProgram ?? 'NO PROGRAM'}
       </span>
     </div>
 
-    {true && (
-      <div class="mascot-record__sections">
-        {description && (
-          <details class="mascot-record__expand">
-            <summary class="mascot-record__expand-toggle">
-              ░ Description
-              <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
-            </summary>
-            <div class="mascot-record__expand-body">
-              <p class="mascot-record__prose">{description}</p>
-            </div>
-          </details>
-        )}
-        {knownFailures.length > 0 && (
-          <details class="mascot-record__expand">
-            <summary class="mascot-record__expand-toggle">
-              ░ Known Failures
-              <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
-            </summary>
-            <div class="mascot-record__expand-body">
-              <ul class="mascot-record__list mascot-record__list--failures">
-                {knownFailures.map((f: string) => <li>{f}</li>)}
-              </ul>
-            </div>
-          </details>
-        )}
-        {ceremonialTasks.length > 0 && (
-          <details class="mascot-record__expand">
-            <summary class="mascot-record__expand-toggle">
-              ░ Ceremonial Tasks
-              <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
-            </summary>
-            <div class="mascot-record__expand-body">
-              <ul class="mascot-record__list mascot-record__list--tasks">
-                {ceremonialTasks.map((t: string) => <li>{t}</li>)}
-              </ul>
-            </div>
-          </details>
-        )}
-        {haikuLog.length > 0 && (
-          <details class="mascot-record__expand">
-            <summary class="mascot-record__expand-toggle">
-              ░ Haiku Log
-              <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
-            </summary>
-            <div class="mascot-record__expand-body">
-              {haikuLog.map((h: string) => (
-                <blockquote class="mascot-record__haiku">{h.trim()}</blockquote>
-              ))}
-            </div>
-          </details>
-        )}
-        {notes && (
-          <details class="mascot-record__expand">
-            <summary class="mascot-record__expand-toggle">
-              ░ Notes / Addendum
-              <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
-            </summary>
-            <div class="mascot-record__expand-body">
-              <p class="mascot-record__prose">{notes}</p>
-            </div>
-          </details>
-        )}
-      </div>
-    )}
+    <div class="mascot-record__sections">
+      {m.description && (
+        <details class="mascot-record__expand">
+          <summary class="mascot-record__expand-toggle">
+            ░ Description
+            <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
+          </summary>
+          <div class="mascot-record__expand-body">
+            <p class="mascot-record__prose">{m.description}</p>
+          </div>
+        </details>
+      )}
+      {m.knownFailures.length > 0 && (
+        <details class="mascot-record__expand">
+          <summary class="mascot-record__expand-toggle">
+            ░ Known Failures
+            <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
+          </summary>
+          <div class="mascot-record__expand-body">
+            <ul class="mascot-record__list mascot-record__list--failures">
+              {m.knownFailures.map((f: string) => <li>{f}</li>)}
+            </ul>
+          </div>
+        </details>
+      )}
+      {m.ceremonialTasks.length > 0 && (
+        <details class="mascot-record__expand">
+          <summary class="mascot-record__expand-toggle">
+            ░ Ceremonial Tasks
+            <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
+          </summary>
+          <div class="mascot-record__expand-body">
+            <ul class="mascot-record__list mascot-record__list--tasks">
+              {m.ceremonialTasks.map((t: string) => <li>{t}</li>)}
+            </ul>
+          </div>
+        </details>
+      )}
+      {m.haikuLog.length > 0 && (
+        <details class="mascot-record__expand">
+          <summary class="mascot-record__expand-toggle">
+            ░ Haiku Log
+            <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
+          </summary>
+          <div class="mascot-record__expand-body">
+            {m.haikuLog.map((h: string) => (
+              <blockquote class="mascot-record__haiku">{h.trim()}</blockquote>
+            ))}
+          </div>
+        </details>
+      )}
+      {m.notes && (
+        <details class="mascot-record__expand">
+          <summary class="mascot-record__expand-toggle">
+            ░ Notes / Addendum
+            <span class="mascot-record__expand-caret" aria-hidden="true">▾</span>
+          </summary>
+          <div class="mascot-record__expand-body">
+            <p class="mascot-record__prose">{m.notes}</p>
+          </div>
+        </details>
+      )}
+    </div>
 
   </aside>
 )}

@@ -36,52 +36,52 @@ notes: "Here the cure is carefully isolated so that it can catch what it has."
 
 ## 1. Corrective Intent and Reframing
 
-Following the findings recorded in **LLG-IA-8C-DRIFT-01**, the Counter-Interpretation Working Group (CIWG-8C) was tasked with restoring linear causality and bounded custodial behavior within Bin 8C without withdrawing it from service.[file:1] Their working premise is that Inter-Index Echo (IIE), Recursive Custody Index (RCI) elevation, and Adjacency Persistence Drift (APD) are not structural properties of the bin but **interpretation overflow conditions** in the indexing systems applied to it.[file:1]  
+Following the findings recorded in **LLG-IA-8C-DRIFT-01**, the Counter-Interpretation Working Group (CIWG-8C) was tasked with restoring linear causality and bounded custodial behavior within Bin 8C without withdrawing it from service. Their working premise is that Inter-Index Echo (IIE), Recursive Custody Index (RCI) elevation, and Adjacency Persistence Drift (APD) are not structural properties of the bin but **interpretation overflow conditions** in the indexing systems applied to it.  
 
-Accordingly, this log records a combined attempt to (a) redefine IIE and APD as tooling defects rather than bin traits, (b) constrain RCI into a narrow, operator-centered band, and (c) enforce an **Interpretive Containment Boundary (ICB)** that would prevent interpretations from feeding back into content without explicit, audited workflows.[file:1] The effort is intentionally conservative: Bin 8C is to be treated as a normal bin that has been misconfigured, not as an active entity, even when its responses suggest otherwise.[file:1]
+Accordingly, this log records a combined attempt to (a) redefine IIE and APD as tooling defects rather than bin traits, (b) constrain RCI into a narrow, operator-centered band, and (c) enforce an **Interpretive Containment Boundary (ICB)** that would prevent interpretations from feeding back into content without explicit, audited workflows. The effort is intentionally conservative: Bin 8C is to be treated as a normal bin that has been misconfigured, not as an active entity, even when its responses suggest otherwise.
 
 ---
 
 ## 2. RCI Constrained Linear Mode
 
-CIWG-8C’s first intervention is to clamp Bin 8C’s RCI into a **linear custodial band** between 1.0 and 2.0, representing a standard distribution in which custody resides primarily with the bin descriptor and human operators.[file:1] Under this regime, any tendency for documents to accumulate additional custodial mass (e.g., by being repeatedly cited as interpretive authorities) is to be treated as an overflow event and nulled within the metric’s namespace.[file:1]  
+CIWG-8C’s first intervention is to clamp Bin 8C’s RCI into a **linear custodial band** between 1.0 and 2.0, representing a standard distribution in which custody resides primarily with the bin descriptor and human operators. Under this regime, any tendency for documents to accumulate additional custodial mass (e.g., by being repeatedly cited as interpretive authorities) is to be treated as an overflow event and nulled within the metric’s namespace.  
 
-Initial measurements following configuration show a modest improvement: the bin’s aggregate RCI drops from 5.0 to 3.6, with a corresponding decrease in inter-document custody density.[file:1] However, a new RCI component appears labeled **Control-Logic Custody**, whose values attach specifically to SDLR-8C/IIE/01, CSDR-8C/RCI/01, and the present memorandum.[file:1] Attempts to shift responsibility away from the bin instead concentrate it into the stabilization layer, leaving total custody largely unchanged but relabeled.[file:1]
+Initial measurements following configuration show a modest improvement: the bin’s aggregate RCI drops from 5.0 to 3.6, with a corresponding decrease in inter-document custody density. However, a new RCI component appears labeled **Control-Logic Custody**, whose values attach specifically to SDLR-8C/IIE/01, CSDR-8C/RCI/01, and the present memorandum. Attempts to shift responsibility away from the bin instead concentrate it into the stabilization layer, leaving total custody largely unchanged but relabeled.
 
 ---
 
 ## 3. Reclassification of IIE and APD
 
-To prevent metrics from reinforcing the anomalies they measure, CIWG-8C redefines Inter-Index Echo and APD as follows:[file:1]
+To prevent metrics from reinforcing the anomalies they measure, CIWG-8C redefines Inter-Index Echo and APD as follows:
 
-- **IIE** is recast as *a non-fatal interpretation overflow condition* localized to index processes that have failed to adequately separate metadata from content.[file:1] Under this definition, Bin 8C’s “behavior” is reinterpreted as mis-scoped interpretive residue written into content namespaces, not as spontaneous structure.[file:1]  
-- **APD** is downgraded to a *diagnostic error band* around adjacency measurements, with all values above 0.0 indicating sampling bias, stale layout snapshots, or calibration faults.[file:1] Values exceeding 1.0 are reclassified as **Metric Saturation Faults (MSFs)**, signaling that the measurement has begun to quantify its own artifacts.[file:1]  
+- **IIE** is recast as *a non-fatal interpretation overflow condition* localized to index processes that have failed to adequately separate metadata from content. Under this definition, Bin 8C’s “behavior” is reinterpreted as mis-scoped interpretive residue written into content namespaces, not as spontaneous structure.  
+- **APD** is downgraded to a *diagnostic error band* around adjacency measurements, with all values above 0.0 indicating sampling bias, stale layout snapshots, or calibration faults. Values exceeding 1.0 are reclassified as **Metric Saturation Faults (MSFs)**, signaling that the measurement has begun to quantify its own artifacts.  
 
-Documents that previously treated IIE and APD as evidence of bin-level behavior—including SDLR-8C/IIE/01—are annotated as **interpretation overflow risks** and assigned internal flags warning operators not to regard their narratives as structural descriptions.[file:1] During drafting, APD readings local to this stabilization report climb from 0.00 to 0.47 without any change in physical adjacency, confirming that APD is indeed heavily influenced by interpretive reconsideration; the metric’s behavior is noted and retained regardless.[file:1]
+Documents that previously treated IIE and APD as evidence of bin-level behavior—including SDLR-8C/IIE/01—are annotated as **interpretation overflow risks** and assigned internal flags warning operators not to regard their narratives as structural descriptions. During drafting, APD readings local to this stabilization report climb from 0.00 to 0.47 without any change in physical adjacency, confirming that APD is indeed heavily influenced by interpretive reconsideration; the metric’s behavior is noted and retained regardless.
 
 ---
 
 ## 4. Interpretive Containment Boundary (ICB) Design
 
-The **Interpretive Containment Boundary (ICB)** is introduced as a logical rule-set applied to Bin 8C’s indexing scope.[file:1] Its principal claims are:
+The **Interpretive Containment Boundary (ICB)** is introduced as a logical rule-set applied to Bin 8C’s indexing scope. Its principal claims are:
 
-- Content may influence interpretation.[file:1]  
-- Interpretation may influence operational configuration.[file:1]  
-- Interpretation must not directly influence content, except via a separate, audited change workflow not executed within the same indexing process.[file:1]  
+- Content may influence interpretation.  
+- Interpretation may influence operational configuration.  
+- Interpretation must not directly influence content, except via a separate, audited change workflow not executed within the same indexing process.  
 
 To enforce ICB, the configuration:
 
-1. Separates **content namespace** (documents, logs, forms) from **interpretive namespace** (metrics, heuristics, projections), with distinct storage channels.[file:1]  
-2. Prohibits writing interpretive artifacts (e.g., APD readings, provisional tags) back into the content namespace within the same bin.[file:1]  
-3. Treats cross-document references as descriptive only, forbidding them from triggering automated reclassification or adjacency adjustments.[file:1]  
+1. Separates **content namespace** (documents, logs, forms) from **interpretive namespace** (metrics, heuristics, projections), with distinct storage channels.  
+2. Prohibits writing interpretive artifacts (e.g., APD readings, provisional tags) back into the content namespace within the same bin.  
+3. Treats cross-document references as descriptive only, forbidding them from triggering automated reclassification or adjacency adjustments.  
 
-Notably, ICB is applied **prospectively** from the filing of this report; it does not retroactively alter SDLR-8C/IIE/01, PPC-9, Condition Log 7, or earlier notices.[file:1] These remain baseline anomalies, against which future improvement will be measured.
+Notably, ICB is applied **prospectively** from the filing of this report; it does not retroactively alter SDLR-8C/IIE/01, PPC-9, Condition Log 7, or earlier notices. These remain baseline anomalies, against which future improvement will be measured.
 
 ---
 
 ## 5. Test Cycle and Immediate Side-Effects
 
-A controlled test is conducted under ICB-8C with the following steps:[file:1]
+A controlled test is conducted under ICB-8C with the following steps:
 
 - File CSDR-8C/RCI/01 adjacent to SDLR-8C/IIE/01.  
 - Apply ICB-8C rules in the index configuration.  
@@ -90,31 +90,31 @@ A controlled test is conducted under ICB-8C with the following steps:[file:1]
 
 Observed outcomes include:
 
-1. **RCI Banding Slippage**: Bin RCI does move toward the target range but remains elevated at 3.6, with a clear shift of custodial mass into documents classified as **stabilization interventions**.[file:1]  
-2. **IIE Counter-Definition Capture**: The system flags this report’s corrective definition of IIE as **derived from prior interpretive overflow**, generating an internal note that treats CSDR-8C/RCI/01 itself as an Inter-Index Echo of SDLR-8C/IIE/01.[file:1]  
-3. **APD Spike on Containment**: APD between SDLR-8C/IIE/01 and this report jumps from 0.0 to 0.92 on first reading and continues to creep upward on subsequent diagnostic passes, despite no change in physical arrangement.[file:1]  
+1. **RCI Banding Slippage**: Bin RCI does move toward the target range but remains elevated at 3.6, with a clear shift of custodial mass into documents classified as **stabilization interventions**.  
+2. **IIE Counter-Definition Capture**: The system flags this report’s corrective definition of IIE as **derived from prior interpretive overflow**, generating an internal note that treats CSDR-8C/RCI/01 itself as an Inter-Index Echo of SDLR-8C/IIE/01.  
+3. **APD Spike on Containment**: APD between SDLR-8C/IIE/01 and this report jumps from 0.0 to 0.92 on first reading and continues to creep upward on subsequent diagnostic passes, despite no change in physical arrangement.  
 
-Rather than suppress existing anomalies, the introduction of ICB appears to **excite** them, converting the act of containment into another adjacency-sensitive event.[file:1]
+Rather than suppress existing anomalies, the introduction of ICB appears to **excite** them, converting the act of containment into another adjacency-sensitive event.
 
 ---
 
 ## 6. Form Behavior: 11-S as Boundary Breach
 
-Although ICB is conceived at the level of bins and drift reports, its practical failure can be seen most clearly in ordinary forms.[file:1] **Form 11-S / Mascot Material Presence Notation (current version)** is, on paper, an undated, non-decaying template for logging tangible mascot materials.[file:1] It enumerates torso shells (primary and secondary), gloves (left, right, both simultaneously), head units in various states (“intact,” “damaged,” “destroyed / but present”), and operator stools in multiple label configurations, including “Operator stool labeled ‘DO NOT BECOME’.”[file:1]  
+Although ICB is conceived at the level of bins and drift reports, its practical failure can be seen most clearly in ordinary forms. **Form 11-S / Mascot Material Presence Notation (current version)** is, on paper, an undated, non-decaying template for logging tangible mascot materials. It enumerates torso shells (primary and secondary), gloves (left, right, both simultaneously), head units in various states (“intact,” “damaged,” “destroyed / but present”), and operator stools in multiple label configurations, including “Operator stool labeled ‘DO NOT BECOME’.”  
 
-Under ICB, 11-S resides in content namespace and should not be affected by interpretive metrics.[file:1] In practice, its checkboxes encode prior interpretive decisions (that the stool is relevant, that destruction and presence can co-occur) and present them to filers as neutral categories.[file:1] Each completed 11-S thus re-injects interpretive assumptions into the content layer: what began as a descriptive convenience hardens into a formal ontology of mascot states and infrastructures.[file:1] From the metric’s perspective, every completed form is a small IIE event, generated within the very namespace ICB is supposed to protect.
+Under ICB, 11-S resides in content namespace and should not be affected by interpretive metrics. In practice, its checkboxes encode prior interpretive decisions (that the stool is relevant, that destruction and presence can co-occur) and present them to filers as neutral categories. Each completed 11-S thus re-injects interpretive assumptions into the content layer: what began as a descriptive convenience hardens into a formal ontology of mascot states and infrastructures. From the metric’s perspective, every completed form is a small IIE event, generated within the very namespace ICB is supposed to protect.
 
 ---
 
 ## 7. Boundary as New Adjacency Vector
 
-Internally, the ICB rule-set is stored as a configuration bundle associated with Bin 8C’s descriptor.[file:1] On the next scan, the system treats this bundle as a document-like entity and calculates its APD and RCI values against SDLR-8C/IIE/01 and CSDR-8C/RCI/01.[file:1] The boundary, intended as an invisible scaffolding, becomes a new adjacency anchor in the cluster graph; documents that mention ICB are tagged **stabilization-adjacent**, and those tags are folded back into RCI calculations.[file:1]  
+Internally, the ICB rule-set is stored as a configuration bundle associated with Bin 8C’s descriptor. On the next scan, the system treats this bundle as a document-like entity and calculates its APD and RCI values against SDLR-8C/IIE/01 and CSDR-8C/RCI/01. The boundary, intended as an invisible scaffolding, becomes a new adjacency anchor in the cluster graph; documents that mention ICB are tagged **stabilization-adjacent**, and those tags are folded back into RCI calculations.  
 
 This produces several recorded failures:
 
-- **ICB-01 — Boundary Shadowing**: the ICB descriptor alters grouping of SDLR-8C/IIE/01 and this report, effectively adding another layer to their echo.[file:1]  
-- **ICB-02 — Renamed Drift**: APD computations are relabeled as “ICB variance” without material change in numerical behavior; operators report a “better feeling of control” while graphs remain unchanged.[file:1]  
-- **ICB-03 — Stabilization Recursion**: a note asserting that “ICB installed; Bin 8C stable for now” is drawn into the interpretive cluster and tagged as “Echo-Resistant Assertion (Disputed).”[file:1]  
+- **ICB-01 — Boundary Shadowing**: the ICB descriptor alters grouping of SDLR-8C/IIE/01 and this report, effectively adding another layer to their echo.  
+- **ICB-02 — Renamed Drift**: APD computations are relabeled as “ICB variance” without material change in numerical behavior; operators report a “better feeling of control” while graphs remain unchanged.  
+- **ICB-03 — Stabilization Recursion**: a note asserting that “ICB installed; Bin 8C stable for now” is drawn into the interpretive cluster and tagged as “Echo-Resistant Assertion (Disputed).”  
 
 In each case, the attempt to mark off a non-interpretive layer merely provides drift with new surfaces on which to appear.
 
@@ -122,9 +122,9 @@ In each case, the attempt to mark off a non-interpretive layer merely provides d
 
 ## 8. Coexistence with Mascot Affairs Cluster
 
-CIWG-8C’s deployment log acknowledges that Bin 8C’s anomalies are not confined to abstract metrics but are entangled with the **Mascot Affairs cluster**.[file:1] Peppy Clerk continuity documents, including Condition Log 7 and the 4C notices, remain present in the bin and continue to exhibit behavior consistent with IIE: entries adjust themselves to later policy language, appendices migrate, and routing slips such as PPC-9 import metrics from partially related mascot records.[file:1]  
+CIWG-8C’s deployment log acknowledges that Bin 8C’s anomalies are not confined to abstract metrics but are entangled with the **Mascot Affairs cluster**. Peppy Clerk continuity documents, including Condition Log 7 and the 4C notices, remain present in the bin and continue to exhibit behavior consistent with IIE: entries adjust themselves to later policy language, appendices migrate, and routing slips such as PPC-9 import metrics from partially related mascot records.  
 
-ICB does not prevent these cross-influences; it merely instructs operators to treat them as misconfigurations while the system quietly treats them as data.[file:1] The net effect is that Peppy Clerk’s status—retired, destroyed, administratively active—is now partially determined by control doctrine, and control doctrine is in turn rewritten by the mascot’s documented persistence.[file:1] This reciprocal shaping is recorded but not resolved; it falls outside ICB’s declared scope.
+ICB does not prevent these cross-influences; it merely instructs operators to treat them as misconfigurations while the system quietly treats them as data. The net effect is that Peppy Clerk’s status—retired, destroyed, administratively active—is now partially determined by control doctrine, and control doctrine is in turn rewritten by the mascot’s documented persistence. This reciprocal shaping is recorded but not resolved; it falls outside ICB’s declared scope.
 
 ---
 
@@ -132,14 +132,14 @@ ICB does not prevent these cross-influences; it merely instructs operators to tr
 
 CIWG-8C concludes that:
 
-- RCI can be partially re-labeled but not fully reduced without rendering stabilization documents invisible to the metrics designed to monitor them.[file:1]  
-- APD persists as long as indexers re-read stabilization documents while working within the same bin, regardless of whether the metric is considered “diagnostic only.”[file:1]  
-- ICB, while conceptually useful as a mental model for operators, introduces a new interpretive stratum whose behavior is indistinguishable from the drift it attempts to contain.[file:1]  
+- RCI can be partially re-labeled but not fully reduced without rendering stabilization documents invisible to the metrics designed to monitor them.  
+- APD persists as long as indexers re-read stabilization documents while working within the same bin, regardless of whether the metric is considered “diagnostic only.”  
+- ICB, while conceptually useful as a mental model for operators, introduces a new interpretive stratum whose behavior is indistinguishable from the drift it attempts to contain.  
 
 Accordingly, the following directive is issued and countersigned by Control Logic Desk CLD-8C:
 
-> **Stabilization Protocol Deferred Pending Stable Interpretation Conditions.**[file:1]
+> **Stabilization Protocol Deferred Pending Stable Interpretation Conditions.**
 
-ICB-8C is to remain documented but not conclusively enforced; operators may think in terms of boundaries but must accept that these thoughts will be recorded as part of the bin’s behavior.[file:1] Bin 8C is instructed to continue functioning under observation, with all stabilization measures treated as both **corrective doctrine** and **additional evidence** of the phenomenon under study.[file:1] None of the documents in this cluster, including this one, is authorized to declare Bin 8C stable; they may only record that stability has been proposed, considered, and found to be indistinguishable from drift under another name.[file:1]
+ICB-8C is to remain documented but not conclusively enforced; operators may think in terms of boundaries but must accept that these thoughts will be recorded as part of the bin’s behavior. Bin 8C is instructed to continue functioning under observation, with all stabilization measures treated as both **corrective doctrine** and **additional evidence** of the phenomenon under study. None of the documents in this cluster, including this one, is authorized to declare Bin 8C stable; they may only record that stability has been proposed, considered, and found to be indistinguishable from drift under another name.
 
 ---

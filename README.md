@@ -1,9 +1,9 @@
 # Filed & Forgotten
 
-**Filed & Forgotten** is a haunted Astro + Starlight site about systems that kept running long after anyone was officially responsible for them.[file:8][file:1]  
-It files obsolete mascots, lore logs, and poetic residue from software that refuses to shut down.[file:1]
+**Filed & Forgotten** is a haunted Astro + Starlight site about systems that kept running long after anyone was officially responsible for them.  
+It files obsolete mascots, lore logs, and poetic residue from software that refuses to shut down.
 
-> This is not a documentation site. This is a frozen filing cabinet that learned to haunt.[file:1]
+> This is not a documentation site. This is a frozen filing cabinet that learned to haunt.
 
 [![Built with Astro & Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
@@ -13,13 +13,13 @@ It files obsolete mascots, lore logs, and poetic residue from software that refu
 
 This repo contains the source for [filed.fyi](https://filed.fyi), a static archive of:
 
-- **Mascots** — error spirits and bureaucratic entities defined as rich frontmatter objects under `src/content/docs/mascots/`.[file:1]
-- **Lorelog** — incident reports and schema-violation records rendered as expandable log cards from `src/lorelog/`.[file:1]
-- **Haikus & Limericks** — small verse about database rot, hard determinism, compatibilism, and other forms of semantic mildew.[file:1]
-- **Reference docs** — internal frameworks like the Lorelog-governed entropy docs and the TIME-Derived Concept Ingestion Pipeline.[file:1]
+- **Mascots** — error spirits and bureaucratic entities defined as rich frontmatter objects under `src/content/docs/mascots/`.
+- **Lorelog** — incident reports and schema-violation records rendered as expandable log cards from `src/lorelog/`.
+- **Haikus & Limericks** — small verse about database rot, hard determinism, compatibilism, and other forms of semantic mildew.
+- **Reference docs** — internal frameworks like the Lorelog-governed entropy docs and the TIME-Derived Concept Ingestion Pipeline.
 
-The site is built with **Astro 6** and **Starlight**, with Alpine.js for light interactivity and Tailwind 4 via the Vite plugin.[file:3][file:8]  
-Starlight’s `PageTitle` slot is overridden so mascot pages render full dossiers instead of generic headings.[file:8][file:9]
+The site is built with **Astro 6** and **Starlight**, with Alpine.js for light interactivity and Tailwind 4 via the Vite plugin.  
+Starlight’s `PageTitle` slot is overridden so mascot pages render full dossiers instead of generic headings.
 
 ---
 
@@ -67,7 +67,7 @@ Current structure (trimmed to the interesting bits):
 └── rules.md                   # “Filed & Forgotten” system constraints
 ```
 
-Key integrations and dependencies:[file:3][file:8]
+Key integrations and dependencies:
 
 - `@astrojs/starlight` — docs shell that the archive lives inside.
 - `@astrojs/alpinejs` — powers Lorelog expand/collapse via Alpine directives.
@@ -113,9 +113,9 @@ npm run astro -- sync
 
 ## Content model (high level)
 
-- **Mascots** are defined as structured frontmatter in `src/content/docs/mascots/*.md` and rendered via `MascotRecord.astro` into dossier panels and index cards.[file:1][file:9]
-- **Lorelog entries** live under `src/lorelog/*.md` and are rendered as interactive cards using `LorelogCard.astro` on `src/pages/lorelog/`.[file:1][file:9]
-- Other collections (`haikus`, `limericks`, `reference`, `releases`) use more conventional Starlight doc rendering but share the same archive tone.[file:1]
+- **Mascots** are defined as structured frontmatter in `src/content/docs/mascots/*.md` and rendered via `MascotRecord.astro` into dossier panels and index cards.
+- **Lorelog entries** live under `src/lorelog/*.md` and are rendered as interactive cards using `LorelogCard.astro` on `src/pages/lorelog/`.
+- Other collections (`haikus`, `limericks`, `reference`, `releases`) use more conventional Starlight doc rendering but share the same archive tone.
 
 If you’re adding new content, start by copying a nearby mascot or lorelog file and editing the frontmatter fields rather than improvising a new schema.
 
@@ -125,10 +125,10 @@ If you’re adding new content, start by copying a nearby mascot or lorelog file
 
 This project is primarily an art/fiction archive built on top of real-world failure patterns. If you want to contribute:
 
-- New mascots: add a file under `src/content/docs/mascots/` and follow an existing frontmatter schema.[file:1]
-- New incidents: add a `src/lorelog/LLG-XXXX-XXX.md` entry and use the established Lorelog fields (`severity`, `disposition`, `resolution`, etc.).[file:1][file:9]
+- New mascots: add a file under `src/content/docs/mascots/` and follow an existing frontmatter schema.
+- New incidents: add a `src/lorelog/LLG-XXXX-XXX.md` entry and use the established Lorelog fields (`severity`, `disposition`, `resolution`, etc.).
 
-Issues and PRs for content, lore corrections, and small presentation fixes are welcome. Large refactors should preserve the “static, flat-file archive” philosophy in `rules.md`.[file:2]
+Issues and PRs for content, lore corrections, and small presentation fixes are welcome. Large refactors should preserve the “static, flat-file archive” philosophy in `rules.md`.
 
 ---
 
