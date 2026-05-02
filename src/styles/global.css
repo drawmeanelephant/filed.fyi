@@ -123,19 +123,6 @@
   font-family: monospace;
 }
 
-.lorelog__badge {
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 0.1rem 0.4rem;
-  border-radius: 0.25rem;
-  border: 1px solid #3f3f46;
-}
-
-.lorelog__badge--critical { composes: lorelog-sev lorelog-sev--critical; }
-.lorelog__badge--warning { composes: lorelog-sev lorelog-sev--warning; }
-.lorelog__badge--notice { composes: lorelog-sev lorelog-sev--notice; }
-.lorelog__badge--classified { composes: lorelog-sev lorelog-sev--classified; }
-.lorelog__badge--info { composes: lorelog-sev lorelog-sev--info; }
 
 /* Centralized severity system (replaces inline Tailwind and duplicated badge styles) */
 .lorelog-sev {
@@ -309,7 +296,269 @@
   color: #4a8f6a;
 }
 
+
 .chip--tag {
   color: #a1a1aa;
   border-color: rgba(161, 161, 170, 0.25);
+}
+
+/* =========================
+   Mascot Record System
+   ========================= */
+
+.mascot-record {
+  background: var(--sl-color-bg-nav);
+  border: 1px solid var(--sl-color-hairline);
+  color: var(--sl-color-gray-2);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  padding: 1rem;
+  border-radius: 10px;
+  line-height: 1.4;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset;
+}
+
+.mascot-record__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px dashed var(--sl-color-hairline);
+  margin-bottom: 1rem;
+}
+
+.mascot-record__header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.mascot-record__header-right {
+  text-align: right;
+  opacity: 0.8;
+}
+
+.mascot-record__avatar-band {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.mascot-record__avatar-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid var(--sl-color-hairline);
+  object-fit: cover;
+}
+
+.mascot-record__avatar-emoji {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.mascot-record__avatar-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.mascot-record__name {
+  font-weight: 700;
+  color: var(--sl-color-white);
+}
+
+.mascot-record__slogan {
+  font-size: 0.9rem;
+  color: var(--sl-color-gray-3);
+  opacity: 0.9;
+}
+
+.mascot-record__id,
+.mascot-record__stamp {
+  font-size: 0.75rem;
+  color: var(--sl-color-gray-4);
+}
+
+.mascot-record__grid-section {
+  margin: 1rem 0;
+}
+
+.mascot-record__section-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-4);
+  margin-bottom: 0.4rem;
+}
+
+.mascot-record__dl {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 0.35rem 0.75rem;
+  margin: 0;
+}
+
+.mascot-record__dl dt {
+  color: var(--sl-color-gray-3);
+}
+
+.mascot-record__dl dd {
+  margin: 0;
+  color: var(--sl-color-gray-2);
+}
+
+.mascot-record__chips-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.75rem 0;
+}
+
+.mascot-record__sections {
+  margin-top: 1rem;
+}
+
+.mascot-record__expand {
+  border-top: 1px solid var(--sl-color-hairline);
+  margin-top: 0.75rem;
+}
+
+.mascot-record__expand-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  padding: 0.6rem 0;
+  color: var(--sl-color-gray-2);
+  cursor: pointer;
+}
+
+.mascot-record__expand-caret {
+  opacity: 0.7;
+  transition: transform 0.15s ease;
+}
+
+.mascot-record__expand-body {
+  padding: 0.5rem 0 0.75rem;
+}
+
+.mascot-record__prose {
+  color: var(--sl-color-gray-2);
+}
+
+.mascot-record__list {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
+
+.mascot-record__list--failures {
+  color: var(--sl-color-gray-3);
+}
+
+.mascot-record__list--tasks {
+  color: var(--sl-color-gray-2);
+}
+
+.mascot-record__haiku {
+  font-style: italic;
+  color: var(--sl-color-gray-3);
+  padding-left: 0.5rem;
+  border-left: 2px solid var(--sl-color-hairline);
+}
+
+.mr-card {
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  background: rgba(255,255,255,0.02);
+}
+
+.mr-card__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+
+.mr-card__image {
+  margin-bottom: 0.5rem;
+}
+
+.mr-card__img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--sl-color-hairline);
+}
+
+.mr-card__emoji {
+  font-size: 1.2rem;
+}
+
+.mr-card__body {
+  color: var(--sl-color-gray-2);
+}
+
+.mr-card__title {
+  font-weight: 600;
+  color: var(--sl-color-white);
+}
+
+.mr-card__desc {
+  font-size: 0.9rem;
+  color: var(--sl-color-gray-3);
+}
+
+.mr-card__stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--sl-color-gray-4);
+}
+
+.mr-card__stat-val {
+  color: var(--sl-color-gray-2);
+}
+
+.mr-card__footer {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--sl-color-gray-4);
+  border-top: 1px dashed var(--sl-color-hairline);
+  padding-top: 0.4rem;
+}
+
+.mascot-record__val--muted {
+  color: var(--sl-color-gray-4);
+  opacity: 0.85;
+}
+
+.mascot-record__val--accent {
+  color: var(--sl-color-gray-2);
+  background: rgba(255,255,255,0.04);
+  padding: 0 0.25rem;
+  border-radius: 4px;
+}
+
+.mascot-record__val--ok {
+  color: #7bd88f;
+}
+
+.mascot-record__val--warn {
+  color: #f5a524;
+}
+
+.mascot-record__val--null {
+  color: var(--sl-color-gray-5);
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.mascot-record__val--purple {
+  color: #b39ddb;
+  text-shadow: 0 0 6px rgba(179,157,219,0.15);
 }

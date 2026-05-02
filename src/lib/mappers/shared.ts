@@ -10,7 +10,7 @@ export function formatDate(raw: unknown): string | null {
 
 // ─── Enum → { label, cls } resolver ─────────────────────────────────────────
 
-export function resolveEnum<T extends Record<string, { label: string; cls: string }>>(
+export function resolveEnum<T extends Record<string, { key: string; label: string; cls: string }>>(
   map: T,
   key: string | undefined | null,
   fallbackKey: keyof T

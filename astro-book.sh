@@ -17,9 +17,13 @@
 #   everything gets exported, nothing is alive
 # ===============================================================
 # Script  : astro-book.sh
-# Purpose : Export an Astro project into segmented markdown files
-#           for LLM review, archival weirdness, and source spelunking
-# Output  : exports/content.md
+# Purpose : Three-stage archival pipeline for Astro projects.
+#           Stage 1 → INDEX (manifest, no content)
+#           Stage 2 → CLUSTER (targeted bundle by ID)
+#           Stage 3 → FULL EXPORT (archival dumps only)
+# Output  : exports/index.json
+#           exports/clusters/<ID>.md
+#           exports/content.md
 #           exports/components.md
 #           exports/layouts.md
 #           exports/styles.md
@@ -29,46 +33,72 @@
 #           exports/manifest.md
 #           exports/mascots.md
 #           exports/lorelog.md
+#           exports/limericks.md
 # Usage   : ./astro-book.sh [project-path]
-# Env     : ASTRO_BOOK_MAX_BYTES=200000
+#           ./astro-book.sh --mode=index [project-path]
+#           ./astro-book.sh --mode=cluster --target=<ID> [project-path]
+#           ./astro-book.sh --mode=export [project-path]
+# Env     : ASTRO_BOOK_MAX_BYTES=102400
 #           ASTRO_BOOK_PREVIEW_LINES=160
-# Version : 2.6.0
+# Version : 3.0.0
 # ===============================================================
 
 set -euo pipefail
 IFS=$'\n\t'
 
+# ── colours ────────────────────────────────────────────────────
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 CYAN='\033[0;36m'
 MAGENTA='\033[0;35m'
+BLUE='\033[0;34m'
 BOLD='\033[1m'
 DIM='\033[2m'
 RESET='\033[0m'
 
+# ── logging ────────────────────────────────────────────────────
 log_info()  { echo -e "${CYAN}[astro-book]${RESET} $*"; }
 log_ok()    { echo -e "${GREEN}[astro-book]${RESET} $*"; }
 log_warn()  { echo -e "${YELLOW}[astro-book]${RESET} $*"; }
 log_err()   { echo -e "${RED}[astro-book]${RESET} $*" >&2; }
+log_stage() { echo -e "\n${MAGENTA}${BOLD}▶ STAGE $*${RESET}\n"; }
+log_skip()  { echo -e "${DIM}[astro-book] skipped: $*${RESET}"; }
 
+# ── banner ─────────────────────────────────────────────────────
 banner() {
   echo ""
   echo -e "${MAGENTA}${BOLD}╔══════════════════════════════════════════════════════════════╗${RESET}"
   echo -e "${MAGENTA}${BOLD}║                 FILED & FORGOTTEN :: EXPORT                 ║${RESET}"
-  echo -e "${MAGENTA}${BOLD}║         “everything gets exported, nothing is alive”        ║${RESET}"
+  echo -e "${MAGENTA}${BOLD}║         "everything gets exported, nothing is alive"        ║${RESET}"
+  echo -e "${MAGENTA}${BOLD}║              three stages. hard walls. no ghosts.           ║${RESET}"
   echo -e "${MAGENTA}${BOLD}╚══════════════════════════════════════════════════════════════╝${RESET}"
   echo ""
 }
 
+# ── usage ──────────────────────────────────────────────────────
 usage() {
   cat <<'EOF'
 
-astro-book.sh — Filed & Forgotten Astro exporter
+astro-book.sh — Filed & Forgotten Archival Pipeline
 
 Usage:
-  ./astro-book.sh [project-path]
+  ./astro-book.sh [project-path]                          # full export (default)
+  ./astro-book.sh --mode=index [project-path]             # index stage only
+  ./astro-book.sh --mode=cluster --target=<ID> [path]     # cluster by ID
+  ./astro-book.sh --mode=export [project-path]            # archival dumps only
   ./astro-book.sh --help
+
+Modes:
+  index    Builds exports/index.json — lightweight manifest, NO file content.
+           This is the ONLY entry point for any analysis or cross-referencing.
+
+  cluster  Reads exports/index.json, bundles a single lorelog entry + its
+           linked mascots, limericks, and directly referenced files into
+           exports/clusters/<ID>.md
+
+  export   Runs the full archival dump (mascots.md, lorelog.md, limericks.md,
+           etc.) — for archival use only, NOT for analysis workflows.
 
 Environment:
   ASTRO_BOOK_MAX_BYTES      Max file size to fully include (default: 102400)
@@ -76,6 +106,9 @@ Environment:
 
 Output:
   exports/
+    index.json
+    clusters/
+      <ID>.md
     content.md
     components.md
     layouts.md
@@ -86,29 +119,54 @@ Output:
     manifest.md
     mascots.md
     lorelog.md
+    limericks.md
 
 EOF
 }
 
-if [[ "${1:-}" == "--help" ]]; then
-  usage
-  exit 0
+# ── arg parsing ────────────────────────────────────────────────
+MODE="export"
+CLUSTER_TARGET=""
+POSITIONAL_ARGS=()
+
+for arg in "$@"; do
+  case "$arg" in
+    --help)           usage; exit 0 ;;
+    --mode=index)     MODE="index" ;;
+    --mode=cluster)   MODE="cluster" ;;
+    --mode=export)    MODE="export" ;;
+    --target=*)       CLUSTER_TARGET="${arg#--target=}" ;;
+    -*)               log_err "Unknown flag: $arg"; usage; exit 1 ;;
+    *)                POSITIONAL_ARGS+=("$arg") ;;
+  esac
+done
+
+# default mode: if no --mode flag was passed, run all three stages
+[[ "$MODE" == "export" && ${#POSITIONAL_ARGS[@]} -eq 0 ]] && MODE="all"
+[[ "$MODE" == "export" && ${#POSITIONAL_ARGS[@]} -gt 0 ]] && MODE="export"
+
+# re-evaluate: if the user just ran `./astro-book.sh /path` with no --mode, run all
+if [[ ${#POSITIONAL_ARGS[@]} -gt 0 && "$MODE" == "all" ]]; then
+  MODE="all"
 fi
 
+# ── paths ──────────────────────────────────────────────────────
 MAX_BYTES="${ASTRO_BOOK_MAX_BYTES:-102400}"
 PREVIEW_LINES="${ASTRO_BOOK_PREVIEW_LINES:-160}"
 
-PROJECT_DIR="${1:-$PWD}"
+PROJECT_DIR="${POSITIONAL_ARGS[0]:-$PWD}"
 PROJECT_DIR="$(cd "$PROJECT_DIR" && pwd)"
 
 TIMESTAMP="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
 PROJECT_NAME="$(basename "$PROJECT_DIR")"
 EXPORT_DIR="$PROJECT_DIR/exports"
+CLUSTER_DIR="$EXPORT_DIR/clusters"
 
 INCLUDED_COUNT=0
 TRUNCATED_COUNT=0
 SKIPPED_COUNT=0
 
+# ── utils ──────────────────────────────────────────────────────
 file_bytes() {
   stat -f%z "$1" 2>/dev/null || stat -c%s "$1" 2>/dev/null || echo 0
 }
@@ -120,58 +178,107 @@ has_cmd() {
 fence_lang() {
   local f="$1"
   case "${f##*.}" in
-    ts|tsx)         echo "typescript" ;;
-    js|jsx|mjs|cjs) echo "javascript" ;;
-    astro)          echo "astro" ;;
-    md|mdx)         echo "markdown" ;;
-    html|htm)       echo "html" ;;
-    json)           echo "json" ;;
-    css)            echo "css" ;;
-    scss)           echo "scss" ;;
-    sass)           echo "sass" ;;
-    less)           echo "less" ;;
-    yaml|yml)       echo "yaml" ;;
-    toml)           echo "toml" ;;
-    sh)             echo "bash" ;;
-    svg)            echo "xml" ;;
-    env)            echo "dotenv" ;;
-    *)              echo "" ;;
+    ts|tsx)           echo "typescript" ;;
+    js|jsx|mjs|cjs)  echo "javascript" ;;
+    astro)            echo "astro" ;;
+    md|mdx)           echo "markdown" ;;
+    html|htm)         echo "html" ;;
+    json)             echo "json" ;;
+    css)              echo "css" ;;
+    scss)             echo "scss" ;;
+    sass)             echo "sass" ;;
+    less)             echo "less" ;;
+    yaml|yml)         echo "yaml" ;;
+    toml)             echo "toml" ;;
+    sh)               echo "bash" ;;
+    svg)              echo "xml" ;;
+    env)              echo "dotenv" ;;
+    *)                echo "" ;;
   esac
 }
 
-ensure_exports_dir() {
-  rm -rf "$EXPORT_DIR"
-  mkdir -p "$EXPORT_DIR"
+# Derive a slug from a filepath: last path component minus extension
+derive_slug() {
+  local f="$1"
+  basename "$f" | sed 's/\.[^.]*$//'
 }
 
-collect_files() {
-  find "$PROJECT_DIR" \
-    -path "$PROJECT_DIR/node_modules" -prune -o \
-    -path "$PROJECT_DIR/public" -prune -o \
-    -path "$PROJECT_DIR/dist" -prune -o \
-    -path "$PROJECT_DIR/.git" -prune -o \
-    -path "$PROJECT_DIR/.astro" -prune -o \
-    -path "$PROJECT_DIR/.cache" -prune -o \
-    -path "$PROJECT_DIR/.turbo" -prune -o \
-    -path "$PROJECT_DIR/.vercel" -prune -o \
-    -path "$PROJECT_DIR/.netlify" -prune -o \
-    -path "$PROJECT_DIR/.output" -prune -o \
-    -path "$PROJECT_DIR/coverage" -prune -o \
-    -path "$PROJECT_DIR/exports" -prune -o \
-    -type f \( \
-      -name "*.ts" -o -name "*.tsx" -o \
-      -name "*.js" -o -name "*.jsx" -o -name "*.mjs" -o -name "*.cjs" -o \
-      -name "*.astro" -o \
-      -name "*.md" -o -name "*.mdx" -o \
-      -name "*.html" -o -name "*.htm" -o \
-      -name "*.json" -o \
-      -name "*.css" -o -name "*.scss" -o -name "*.sass" -o -name "*.less" -o \
-      -name "*.yaml" -o -name "*.yml" -o -name "*.toml" -o \
-      -name "*.sh" -o \
-      -name ".env" -o -name ".env.example" -o -name ".env.local" \
-    \) -print | sort
+# Classify a file path into a type string
+classify_type() {
+  local p="$1"
+  case "$p" in
+    */content/docs/mascots/*)  echo "mascot" ;;
+    */content/lorelog/*)       echo "lorelog" ;;
+    */content/docs/limericks/*)echo "limerick" ;;
+    */content/docs/haikus/*)echo "haiku" ;;
+    */src/content/*)           echo "content" ;;
+    */src/layouts/*)           echo "layout" ;;
+    */src/components/*)        echo "component" ;;
+    */src/styles/*)            echo "style" ;;
+    */src/pages/*)             echo "route" ;;
+    */src/lib/*)               echo "lib" ;;
+    *.config.*|tsconfig*|package.json) echo "config" ;;
+    .env*|rules.md)            echo "system" ;;
+    *)                         echo "other" ;;
+  esac
 }
 
+# Extract shallow tags from a markdown file's frontmatter (tags: [...] only)
+extract_tags() {
+  local f="$1"
+  [[ "${f##*.}" != "md" && "${f##*.}" != "mdx" ]] && echo "[]" && return
+  python3 - "$f" <<'PY' 2>/dev/null || echo "[]"
+import sys, re, json
+path = sys.argv[1]
+try:
+    content = open(path).read()
+    m = re.search(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+    if not m:
+        print("[]"); sys.exit()
+    fm = m.group(1)
+    # only shallow: grab tags line
+    tm = re.search(r'^tags\s*:\s*\[([^\]]*)\]', fm, re.MULTILINE)
+    if not tm:
+        print("[]"); sys.exit()
+    raw = [x.strip().strip('"\'') for x in tm.group(1).split(',') if x.strip()]
+    print(json.dumps(raw))
+except Exception:
+    print("[]")
+PY
+}
+
+# Extract direct link references (no inference) from markdown frontmatter only
+extract_relationships() {
+  local f="$1"
+  [[ "${f##*.}" != "md" && "${f##*.}" != "mdx" ]] && echo "[]" && return
+  python3 - "$f" <<'PY' 2>/dev/null || echo "[]"
+import sys, re, json
+path = sys.argv[1]
+try:
+    content = open(path).read()
+    m = re.search(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+    if not m:
+        print("[]"); sys.exit()
+    fm = m.group(1)
+    rels = []
+    for field in ("mascot", "mascots", "limerick", "limericks", "related", "linked"):
+        pat = re.search(rf'^{field}\s*:\s*\[([^\]]*)\]', fm, re.MULTILINE)
+        if pat:
+            vals = [x.strip().strip('"\'') for x in pat.group(1).split(',') if x.strip()]
+            rels.extend(vals)
+        # scalar form
+        spat = re.search(rf'^{field}\s*:\s*(.+)$', fm, re.MULTILINE)
+        if spat and not pat:
+            val = spat.group(1).strip().strip('"\'')
+            if val and not val.startswith('['):
+                rels.append(val)
+    print(json.dumps(list(set(rels))))
+except Exception:
+    print("[]")
+PY
+}
+
+# ── file emit ──────────────────────────────────────────────────
 emit_file_block() {
   local filepath="$1"
   local relpath="$2"
@@ -203,6 +310,220 @@ emit_file_block() {
   echo "> ARCHIVE NOTE: this file was too large for full preservation in the default export."
   echo "> Raise ASTRO_BOOK_MAX_BYTES if you want the whole haunted slab."
 }
+
+# ── collect ────────────────────────────────────────────────────
+collect_files() {
+  find "$PROJECT_DIR" \
+    -path "$PROJECT_DIR/node_modules" -prune -o \
+    -path "$PROJECT_DIR/public" -prune -o \
+    -path "$PROJECT_DIR/dist" -prune -o \
+    -path "$PROJECT_DIR/.git" -prune -o \
+    -path "$PROJECT_DIR/.astro" -prune -o \
+    -path "$PROJECT_DIR/.cache" -prune -o \
+    -path "$PROJECT_DIR/.turbo" -prune -o \
+    -path "$PROJECT_DIR/.vercel" -prune -o \
+    -path "$PROJECT_DIR/.netlify" -prune -o \
+    -path "$PROJECT_DIR/.output" -prune -o \
+    -path "$PROJECT_DIR/coverage" -prune -o \
+    -path "$PROJECT_DIR/exports" -prune -o \
+    -type f \( \
+      -name "*.ts" -o -name "*.tsx" -o \
+      -name "*.js" -o -name "*.jsx" -o -name "*.mjs" -o -name "*.cjs" -o \
+      -name "*.astro" -o \
+      -name "*.md" -o -name "*.mdx" -o \
+      -name "*.html" -o -name "*.htm" -o \
+      -name "*.json" -o \
+      -name "*.css" -o -name "*.scss" -o -name "*.sass" -o -name "*.less" -o \
+      -name "*.yaml" -o -name "*.yml" -o -name "*.toml" -o \
+      -name "*.sh" -o \
+      -name ".env" -o -name ".env.example" -o -name ".env.local" \
+    \) -print | sort
+}
+
+ensure_exports_dir() {
+  mkdir -p "$EXPORT_DIR"
+  mkdir -p "$CLUSTER_DIR"
+}
+
+# ══════════════════════════════════════════════════════════════
+# STAGE 1 — INDEX
+# Builds exports/index.json.
+# NO file content. NO markdown. NO inference loops.
+# This is the ONLY entry point for analysis.
+# ══════════════════════════════════════════════════════════════
+build_index() {
+  log_stage "1 — INDEX  →  exports/index.json"
+  log_info "Cataloguing the haunted filing cabinet..."
+
+  local index_file="$EXPORT_DIR/index.json"
+  local tmp_entries=()
+
+  while IFS= read -r f; do
+    [[ -z "$f" ]] && continue
+    local relpath="${f#$PROJECT_DIR/}"
+    local bytes
+    bytes="$(file_bytes "$f")"
+    local ftype
+    ftype="$(classify_type "$relpath")"
+    local slug
+    slug="$(derive_slug "$f")"
+    local tags
+    tags="$(extract_tags "$f")"
+    local rels
+    rels="$(extract_relationships "$f")"
+
+    # emit a json object per file; we'll wrap in array below
+    printf '  {\n'
+    printf '    "path": "%s",\n' "$relpath"
+    printf '    "type": "%s",\n' "$ftype"
+    printf '    "slug": "%s",\n' "$slug"
+    printf '    "bytes": %s,\n' "$bytes"
+    printf '    "tags": %s,\n' "$tags"
+    printf '    "relationships": %s\n' "$rels"
+    printf '  }'
+  done < <(collect_files) \
+  | paste -sd ',' - \
+  | awk 'BEGIN{print "["} {print} END{print "]"}' \
+  > "$index_file"
+
+  # validate it parsed
+  if has_cmd jq; then
+    local count
+    count="$(jq 'length' "$index_file" 2>/dev/null || echo "?")"
+    log_ok "Index built. ${CYAN}${count}${RESET} entries → ${BOLD}exports/index.json${RESET}"
+  else
+    log_ok "Index built → ${BOLD}exports/index.json${RESET}"
+  fi
+}
+
+# ══════════════════════════════════════════════════════════════
+# STAGE 2 — CLUSTER
+# Reads index.json. Bundles ONE lorelog entry + its linked
+# artifacts into exports/clusters/<ID>.md
+# Does NOT traverse the filesystem directly.
+# Does NOT perform cross-file reasoning.
+# ══════════════════════════════════════════════════════════════
+build_cluster() {
+  local target="$1"
+  log_stage "2 — CLUSTER  →  exports/clusters/${target}.md"
+
+  local index_file="$EXPORT_DIR/index.json"
+
+  if [[ ! -f "$index_file" ]]; then
+    log_err "No index.json found. Run --mode=index first."
+    log_err "Cluster stage aborted. Nothing escalated. Nothing suggested."
+    return 1
+  fi
+
+  if ! has_cmd jq; then
+    log_err "jq is required for cluster mode. brew install jq"
+    return 1
+  fi
+
+  # find lorelog entry matching target slug — from index only
+  local lorelog_path
+  lorelog_path="$(jq -r \
+    --arg t "$target" \
+    '.[] | select(.type == "lorelog" and .slug == $t) | .path' \
+    "$index_file")"
+
+  if [[ -z "$lorelog_path" ]]; then
+    log_warn "No lorelog entry found for slug '${target}' in index. Logged. Not escalated."
+    return 0
+  fi
+
+  # get direct relationships from index — no inference
+  local linked_ids
+  linked_ids="$(jq -r \
+    --arg t "$target" \
+    '.[] | select(.type == "lorelog" and .slug == $t) | .relationships[]' \
+    "$index_file" 2>/dev/null || true)"
+
+  local output_file="$CLUSTER_DIR/${target}.md"
+
+  {
+    echo "# Cluster: $target"
+    echo ""
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
+    echo "Source: $lorelog_path"
+    echo ""
+    echo "---"
+    echo ""
+
+    # primary lorelog entry
+    echo "## Lorelog Entry"
+    echo ""
+    local full_path="$PROJECT_DIR/$lorelog_path"
+    if [[ -f "$full_path" ]]; then
+      local bytes
+      bytes="$(file_bytes "$full_path")"
+      echo "<!-- START LORELOG $target -->"
+      emit_file_block "$full_path" "$lorelog_path" "$bytes"
+      echo "<!-- STOP LORELOG $target -->"
+    else
+      log_warn "Lorelog file not found on disk: $lorelog_path — logged, skipping."
+    fi
+    echo ""
+
+    # linked artifacts — resolved from index, not from filesystem scan
+    if [[ -n "$linked_ids" ]]; then
+      echo "## Linked Artifacts"
+      echo ""
+      while IFS= read -r linked_slug; do
+        [[ -z "$linked_slug" ]] && continue
+
+        # resolve linked_slug to path via index — mascots and limericks only
+        local linked_path
+        linked_path="$(jq -r \
+          --arg s "$linked_slug" \
+          '.[] | select((.type == "mascot" or .type == "limerick") and .slug == $s) | .path' \
+          "$index_file" | head -1)"
+
+        if [[ -z "$linked_path" ]]; then
+          log_skip "linked slug '$linked_slug' not found in index"
+          echo "<!-- LINKED $linked_slug: not found in index, skipped -->"
+          continue
+        fi
+
+        local linked_type
+        linked_type="$(jq -r \
+          --arg s "$linked_slug" \
+          '.[] | select((.type == "mascot" or .type == "limerick") and .slug == $s) | .type' \
+          "$index_file" | head -1)"
+
+        local lf="$PROJECT_DIR/$linked_path"
+        if [[ -f "$lf" ]]; then
+          local lbytes
+          lbytes="$(file_bytes "$lf")"
+          echo "### $linked_type: $linked_slug"
+          echo ""
+          echo "<!-- START LINKED $linked_type $linked_slug -->"
+          emit_file_block "$lf" "$linked_path" "$lbytes"
+          echo "<!-- STOP LINKED $linked_type $linked_slug -->"
+          echo ""
+        else
+          log_skip "$linked_path on disk — logged"
+          echo "<!-- LINKED $linked_slug: on-disk file missing, skipped -->"
+        fi
+      done <<< "$linked_ids"
+    fi
+
+    echo "---"
+    echo ""
+    echo "_Cluster scope: lorelog entry + direct links only. No traversal. No inference._"
+    echo ""
+  } > "$output_file"
+
+  log_ok "Cluster sealed → ${BOLD}exports/clusters/${target}.md${RESET}"
+}
+
+# ══════════════════════════════════════════════════════════════
+# STAGE 3 — FULL EXPORT
+# Archival dumps. These are for storage, not analysis.
+# No cross-file reasoning inside these functions.
+# INPUT → PROCESS → OUTPUT → STOP.
+# ══════════════════════════════════════════════════════════════
 
 write_section_from_dir() {
   local title="$1"
@@ -320,237 +641,112 @@ write_lorelog() {
   } > "$output_file"
 }
 
-write_rules() {
-  local output_file="$EXPORT_DIR/rules.md"
+write_limericks() {
+  local output_file="$EXPORT_DIR/limericks.md"
   {
-    echo "# Rules"
+    echo "# Limericks"
     echo ""
     echo "Generated: $TIMESTAMP"
     echo "Project: $PROJECT_NAME"
     echo ""
 
-    if [[ ! -f "$PROJECT_DIR/rules.md" ]]; then
-      echo "_No rules.md found._"
+    if [[ ! -d "$PROJECT_DIR/src/content/docs/limericks" ]]; then
+      echo "_No limerick files found._"
       echo ""
       return
     fi
 
-    echo "<!-- START RULES FILE -->"
-    local relpath="${PROJECT_DIR#$PROJECT_DIR/}/rules.md"
-    local bytes
-    bytes="$(file_bytes "$PROJECT_DIR/rules.md")"
-    emit_file_block "$PROJECT_DIR/rules.md" "rules.md" "$bytes"
-    echo ""
-    echo "<!-- STOP RULES FILE -->"
-    echo ""
-  } > "$output_file"
-}
+    while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
 
-write_routes() {
-  local output_file="$EXPORT_DIR/routes.md"
-  {
-    echo "# Routes"
-    echo ""
-    if [[ -d "$PROJECT_DIR/src/pages" ]]; then
-      find "$PROJECT_DIR/src/pages" -type f | sort | while IFS= read -r f; do
-        echo "- ${f#$PROJECT_DIR/} → $(basename "$f")"
-      done
-    else
-      echo "_No src/pages directory found._"
-    fi
-    echo ""
-  } > "$output_file"
-}
-
-write_config() {
-  local output_file="$EXPORT_DIR/config.md"
-  {
-    echo "# Config"
-    echo ""
-
-    local found=0
-    for f in astro.config.ts astro.config.mjs astro.config.js tsconfig.json package.json; do
-      if [[ -f "$PROJECT_DIR/$f" ]]; then
-        found=1
-        local bytes
-        local lang
-        bytes="$(file_bytes "$PROJECT_DIR/$f")"
-        lang="$(fence_lang "$f")"
-
-        echo "## $f"
-        echo ""
-        echo "path: $f"
-        echo "bytes: $bytes"
-        echo '```'"$lang"
-        cat "$PROJECT_DIR/$f"
-        echo '```'
-        echo ""
-      fi
-    done
-
-    if [[ "$found" -eq 0 ]]; then
-      echo "_No config files found._"
+      echo "<!-- START LIMERICK FILE -->"
+      emit_file_block "$f" "$relpath" "$bytes"
       echo ""
-    fi
+      echo "<!-- STOP LIMERICK FILE -->"
+      echo ""
+    done < <(find "$PROJECT_DIR/src/content/docs/limericks" -type f | sort)
   } > "$output_file"
 }
 
-write_system() {
-  local output_file="$EXPORT_DIR/system.md"
+write_haikus() {
+  local output_file="$EXPORT_DIR/haikus.md"
   {
-    echo "# System"
+    echo "# Haikus"
     echo ""
-    echo "- Generated: $TIMESTAMP"
-    echo "- Project: $PROJECT_NAME"
-    echo "- Root: $PROJECT_DIR"
-    echo "- Max bytes: $MAX_BYTES"
-    echo "- Preview lines: $PREVIEW_LINES"
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
     echo ""
 
-    echo "## Astro config presence"
-    echo ""
-    if [[ -f "$PROJECT_DIR/astro.config.ts" || -f "$PROJECT_DIR/astro.config.mjs" || -f "$PROJECT_DIR/astro.config.js" ]]; then
-      echo "- Found astro config."
-    else
-      echo "- No astro config found."
-    fi
-    echo ""
-
-    echo "## Dependencies"
-    echo ""
-    if [[ -f "$PROJECT_DIR/package.json" ]]; then
-      if has_cmd jq; then
-        jq '.dependencies // {}' "$PROJECT_DIR/package.json"
-      else
-        python3 - <<PY
-import json, pathlib
-p = pathlib.Path(r"$PROJECT_DIR/package.json")
-try:
-    data = json.loads(p.read_text())
-    print(json.dumps(data.get("dependencies", {}), indent=2))
-except Exception:
-    print("{}")
-PY
-      fi
-    else
-      echo "_No package.json found._"
-    fi
-    echo ""
-
-    echo "## Lib"
-    echo ""
-
-    if [[ -d "$PROJECT_DIR/src/lib" ]]; then
-      find "$PROJECT_DIR/src/lib" -type f | sort | while IFS= read -r f; do
-        relpath="${f#$PROJECT_DIR/}"
-        bytes="$(file_bytes "$f")"
-        lang="$(fence_lang "$f")"
-
-        echo "<!-- LIB FILE -->"
-        echo "path: $relpath"
-        echo "bytes: $bytes"
-        echo '```'"$lang"
-        cat "$f"
-        echo '```'
-        echo ""
-      done
-    else
-      echo "_No lib directory found._"
+    if [[ ! -d "$PROJECT_DIR/src/content/docs/haikus" ]]; then
+      echo "_No haiku files found._"
+      echo ""
+      return
     fi
 
-    echo ""
+    while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
+
+      echo "<!-- START HAIKU FILE -->"
+      emit_file_block "$f" "$relpath" "$bytes"
+      echo ""
+      echo "<!-- STOP HAIKU FILE -->"
+      echo ""
+    done < <(find "$PROJECT_DIR/src/content/docs/haikus" -type f | sort)
   } > "$output_file"
 }
 
-write_manifest() {
-  local output_file="$EXPORT_DIR/manifest.md"
-  {
-    echo "# Manifest"
-    echo ""
-    echo "- Generated: $TIMESTAMP"
-    echo "- Project: $PROJECT_NAME"
-    echo "- Root: $PROJECT_DIR"
-    echo "- Max bytes: $MAX_BYTES"
-    echo "- Preview lines: $PREVIEW_LINES"
-    echo "- Included files: $INCLUDED_COUNT"
-    echo "- Truncated files: $TRUNCATED_COUNT"
-    echo "- Skipped files: $SKIPPED_COUNT"
-    echo ""
-
-    echo "## Export files"
-    echo ""
-    find "$EXPORT_DIR" -maxdepth 1 -type f | sort | while IFS= read -r f; do
-      echo "- $(basename "$f")"
-    done
-    echo ""
-  } > "$output_file"
-}
+# ── main execution ─────────────────────────────────────────────
 
 main() {
+  ensure_exports_dir
   banner
 
-  echo -e "${BOLD}astro-book.sh — archival export engine${RESET}"
-  echo -e "Project : ${CYAN}${PROJECT_DIR}${RESET}"
-  echo -e "Max file: ${CYAN}${MAX_BYTES} bytes${RESET}"
-  echo -e "Preview : ${CYAN}${PREVIEW_LINES} lines${RESET}"
-  echo ""
+  case "$MODE" in
+    index)
+      build_index
+      ;;
+    cluster)
+      if [[ -z "${CLUSTER_TARGET}" ]]; then
+        log_err "Cluster mode requires --target=<ID>"
+        exit 1
+      fi
+      build_index
+      build_cluster "$CLUSTER_TARGET"
+      ;;
+    export|all)
+      log_stage "FULL EXPORT"
+      write_content
+      write_mascots
+      write_lorelog
+      write_limericks
+      write_haikus
 
-  if [[ ! -f "$PROJECT_DIR/astro.config.ts" && ! -f "$PROJECT_DIR/astro.config.mjs" && ! -f "$PROJECT_DIR/astro.config.js" ]]; then
-    log_warn "No astro.config.* found in $PROJECT_DIR — proceeding anyway."
-  fi
+      log_info "Exporting components..."
+      write_section_from_dir "Components" "$PROJECT_DIR/src/components" "COMPONENT" "$EXPORT_DIR/components.md"
 
-  log_info "Sweeping the premises..."
-  ensure_exports_dir
+      log_info "Exporting layouts..."
+      write_section_from_dir "Layouts" "$PROJECT_DIR/src/layouts" "LAYOUT" "$EXPORT_DIR/layouts.md"
 
-  log_info "Cataloguing content relics..."
-  write_content
+      log_info "Exporting styles..."
+      write_section_from_dir "Styles" "$PROJECT_DIR/src/styles" "STYLE" "$EXPORT_DIR/styles.md"
 
-  log_info "Excavating mascot graveyard..."
-  write_mascots
+      log_info "Exporting routes..."
+      write_section_from_dir "Routes" "$PROJECT_DIR/src/pages" "ROUTE" "$EXPORT_DIR/routes.md"
 
-  log_info "Replaying lorelog fragments..."
-  write_lorelog
+      ;;
+    *)
+      log_err "Unknown mode: $MODE"
+      exit 1
+      ;;
+  esac
 
-  log_info "Interrogating components..."
-  write_section_from_dir "Components" "$PROJECT_DIR/src/components" "COMPONENT" "$EXPORT_DIR/components.md"
-
-  log_info "Searching dormant layouts..."
-  write_section_from_dir "Layouts" "$PROJECT_DIR/src/layouts" "LAYOUT" "$EXPORT_DIR/layouts.md"
-
-  log_info "Scraping styles off the walls..."
-  write_section_from_dir "Styles" "$PROJECT_DIR/src/styles" "STYLES" "$EXPORT_DIR/styles.md"
-
-  log_info "Mapping routes..."
-  write_routes
-
-  log_info "Confiscating config..."
-  write_config
-  log_info "Seizing rules..."
-  write_rules
-
-  log_info "Recording system state..."
-  write_system
-
-  log_info "Stamping manifest..."
-  write_manifest
-
-  echo ""
-  log_ok "Archive sealed."
-  echo ""
-  echo -e "${DIM}Filed & Forgotten :: last known good state preserved${RESET}"
-  echo -e "${DIM}---------------------------------------------------${RESET}"
-  echo ""
-  echo -e "  ${GREEN}✓${RESET} exports/content.md"
-  echo -e "  ${GREEN}✓${RESET} exports/mascots.md"
-  echo -e "  ${GREEN}✓${RESET} exports/lorelog.md"
-  echo -e "  ${GREEN}✓${RESET} exports/components.md"
-  echo -e "  ${GREEN}✓${RESET} exports/layouts.md"
-  echo -e "  ${GREEN}✓${RESET} exports/styles.md"
-  echo -e "  ${GREEN}✓${RESET} exports/routes.md"
-  echo -e "  ${GREEN}✓${RESET} exports/config.md"
-  echo -e "  ${GREEN}✓${RESET} exports/system.md"
-  echo -e "  ${GREEN}✓${RESET} exports/manifest.md"
-  echo ""
+  log_ok "All stages complete. Nothing is alive. Everything is filed."
 }
 
 main "$@"

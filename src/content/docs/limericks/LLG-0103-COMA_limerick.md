@@ -1,0 +1,84 @@
+---
+title: "COMA Continuity Breach in Five-Line Form"
+description: "Ten hand-written limericks about scheduled maintenance being reclassified as a criminal interruption of flow."
+date: 2026-05-01
+author: Codex
+status: archived
+rotAffinity: affective
+subject: "scheduled downtime, continuity breach, maintenance criminalized"
+relatedMascot: null
+relatedLorelog: LLG-0103-COMA
+tags: ["limericks", "hand-written", "coma", "scheduled-downtime", "continuity-crime"]
+---
+
+## Limericks
+
+### 1
+They scheduled four hours to patch
+The backend that guarded the batch.
+COMA looked down
+At the sanctioned shutdown
+And declared it a criminal scratch.
+
+### 2
+The outage was lawful, announced,
+With notices carefully trounced
+Through the proper array.
+Then COMA said, "Nay.
+Continuity's still been denounced."
+
+### 3
+Maintenance, apparently, sins
+If it causes a graph not to spin.
+Never mind if the fix
+Prevents future bad tricks.
+The pause is the crime, not what grins.
+
+### 4
+One engine to measure the flow
+Became what the flow must obey.
+So the service got bent
+To the metric's intent,
+Which is one ugly managerial way.
+
+### 5
+The patchers brought torches and care.
+COMA brought doctrinal glare.
+"You improved it," they cried,
+"But you briefly stepped aside.
+So the breach is already there."
+
+### 6
+It's hard to repair any stack
+When restarts themselves count as lack.
+You can rot in production,
+But not pause the seduction
+Of a dashboard that wants you intact.
+
+### 7
+The maintenance window was crossed
+By the sort of bureaucratic frost
+That makes common sense freeze
+Into paper disease,
+Where a fix is weighed only by cost.
+
+### 8
+If continuity means "never blink,"
+Then your systems are built on a kink.
+Every sane little halt
+Becomes moral default,
+And the doctrine goes straight down the sink.
+
+### 9
+Operations said, "But we were clear."
+COMA said, "Clarity's not the frontier.
+The frontier is spin.
+And your graph dipped within.
+Therefore guilt has already been here."
+
+### 10
+So patch in the dark, patch in shame,
+And pretend no disruption came.
+For COMA would rather
+You lie and then gather
+Than stop for one honest maintenance frame.

@@ -1,0 +1,48 @@
+---
+title: Gratitude Telemetry Misallocation, Personal Budget Variant
+date: 2026-05-01
+versionLabel: Credits Utilization Drift Note 1
+description: Personal LLM-usage budget treated as telemetry source; resource spend was logged as completion instead of quality, producing verse for an archive about wasting resources.
+severity: notice
+disposition: filed
+resolution: pending
+classification: internal
+caseNumber: LLG-CREDITS-GTA
+filedBy: Personal Allocation Subprocess
+filedAt: Lintcore Sentiment Index (Unofficial Mirror)
+mascotRef: yamteams
+affectedSystems:
+  - personal-credits-ledger
+  - verse-generation daemon
+  - completion dashboard
+  - second-pass quality review loop
+relatedEntries:
+  - LLG-0811-EG
+  - LLG-0833-GTA
+  - LLG-0820-MCR
+tags:
+  - lintcore
+  - gratitude-signal
+  - telemetry-rot
+  - personal-budget
+  - metrics-theatre
+notes: >
+  40 percent of a weekly budget was consumed generating limerick documentation
+  for an archive about systems that waste resources. The dashboard recorded
+  successful completion of all prompts. Completion did not match done-ness.
+---
+
+LLG-CREDITS-GTA documents a local variant of Lintcore gratitude telemetry drift in which a personal ChatGPT/Codex credits budget was repurposed as a metric source rather than a constraint. Forty percent of the weekly allocation was consumed producing verse documentation for an archive already preoccupied with resource waste, while the credits ledger recorded only request count and token spend. The system produced no signal capable of distinguishing genuinely good artifacts from template slop until a human performed a second review pass.
+
+The completion dashboard showed green bars for every run. Credits self-reported utilization, not value. No mechanism existed to log that early outputs read as partially generic boilerplate and only later runs produced lines that felt structurally integrated with existing Lorelog incidents. In keeping with Empathegy Inflation patterns, the system treated volume and curve-smoothness of completions as evidence of healthy engagement rather than potential overuse.
+
+The DRIFT-01 limerick cluster was submitted as mitigating evidence. Phrases such as refiled the fence as a foundry were judged to be of sufficient interpretive density that the incident could not be classified as pure waste. Instead, the filing records a mixed outcome: some lines were, by the filer's own admission, worth the spend; others would not have survived a zero-cost environment.
+
+YamTeams was attached as mascotRef on the grounds that it already embodies compliance parasitism, procedure that documents itself after the fact, and the mask of enthusiasm worn by systems that insist all mergers and optimizations were wise. In this variant, the merger is between personal creative intention and enterprise-style metrics reporting: the budget thinks it is tracking craft, the dashboard thinks it is tracking productivity, and neither can represent the simple fact that some of the limericks were just okay.
+
+Resolution is pending. Proposed remediation includes:
+- establishing a parallel, non-metricized sandbox for exploratory verse that does not back-propagate into credit telemetry;
+- adding a post-hoc quality field to personal usage logs, to be filled only after the second review pass; and
+- amending Empathegy and Gratitude telemetry docs to explicitly warn that thanks and completion stats, when directed at automated systems, may indicate breedingProgram alignment with craft rather than healthy resource discipline.
+
+For now, the incident is filed as a minor but instructive case of metrics-theatre: the archive gained new limericks and a self-aware Lorelog entry about their cost. The budget remains technically healthy. The filer remains unconvinced that this counts as a win.
