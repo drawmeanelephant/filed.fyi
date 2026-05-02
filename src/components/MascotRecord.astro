@@ -52,10 +52,7 @@ const m = mascot ? mapMascot(mascot) : null;
     </div>
 
     <div class="mr-card__image">
-      {m.imageUrl
-        ? <img src={m.imageUrl} alt={m.displayName} class="mr-card__img" loading="lazy" />
-        : <span class="mr-card__emoji" aria-hidden="true">{m.emoji ?? '░'}</span>
-      }
+      <span class="mr-card__emoji" aria-hidden="true">{m.emoji ?? '░'}</span>
     </div>
 
     <div class="mr-card__body">
@@ -97,11 +94,9 @@ const m = mascot ? mapMascot(mascot) : null;
     </div>
 
     <div class="mascot-record__avatar-band">
-      {m.imageUrl
-        ? <img src={m.imageUrl} alt={m.displayName} class="mascot-record__avatar-img" loading="lazy" decoding="async" />
-        : m.emoji
-          ? <span class="mascot-record__avatar-emoji" aria-hidden="true">{m.emoji}</span>
-          : null
+      {m.emoji
+        ? <span class="mascot-record__avatar-emoji" aria-hidden="true">{m.emoji}</span>
+        : <span class="mascot-record__avatar-emoji" aria-hidden="true">░</span>
       }
       <div class="mascot-record__avatar-meta">
         <p class="mascot-record__name">{m.displayName}</p>

@@ -77,7 +77,6 @@ export function mapMascot(mascot: CollectionEntry<'mascots'>) {
     emotionalIntBuffer: toStringOrNull(d.emotionalIntegrityBuffer),
 
     // media
-    imageUrl: d.imageUrl ?? (d as any).emojiUrl ?? null,
     emoji:    d.emoji    ?? null,
 
     // date

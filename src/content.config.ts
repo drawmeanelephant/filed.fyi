@@ -96,7 +96,6 @@ export const mascots = defineCollection({
 
       // ASSETS
       image: z.string().nullable().optional(),
-      imageUrl: z.string().nullable().optional(),
 
       // SORA
       soraPrompt: z.unknown().optional(),
