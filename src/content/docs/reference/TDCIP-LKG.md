@@ -4,6 +4,7 @@ description: "Reference for converting TIME concepts into decay-positive Filed &
 ---
 
 ## Summary
+
 A bounded extraction of high-signal elements from externally generated concept sets (TIME AI). Intended for downstream corruption, filing, and recursive reuse.
 
 This document exists to prevent buffer overflow and loss of structure.
@@ -13,6 +14,7 @@ This document exists to prevent buffer overflow and loss of structure.
 ## What We Actually Have (Condensed)
 
 ### 1. Structured Visual Systems Thinking
+
 - Concepts are not "images" but **systems in motion**
 - Emphasis on:
   - recursion
@@ -25,6 +27,7 @@ This document exists to prevent buffer overflow and loss of structure.
 ---
 
 ### 2. Frame-by-Frame Mutation Logic (Rare Asset)
+
 - Explicit control over:
   - object count
   - label drift
@@ -33,6 +36,7 @@ This document exists to prevent buffer overflow and loss of structure.
 - Each frame mutates prior state instead of resetting
 
 **Use:**
+
 - Deterministic image generation
 - Sequence stitching
 - “System decay playback”
@@ -40,6 +44,7 @@ This document exists to prevent buffer overflow and loss of structure.
 ---
 
 ### 3. Institutional Tone Scaffold
+
 - Outputs carry:
   - authority
   - implied sourcing
@@ -47,6 +52,7 @@ This document exists to prevent buffer overflow and loss of structure.
 - Reads like documentation, not creativity
 
 **Use:**
+
 - Base layer for Filed & Forgotten voice
 - Pre-degradation narrative skeleton
 
@@ -55,16 +61,19 @@ This document exists to prevent buffer overflow and loss of structure.
 ### 4. Concept Categories (Stable Buckets)
 
 #### A. Archival Fragility
+
 - Physical + digital coexistence
 - Human repair vs automated overwrite
 - Provenance webs
 
 #### B. Generative Recursion
+
 - Documents spawning documents
 - Retrieval loops
 - Confidence drift
 
 #### C. Metric Instability
+
 - Systems redefining their own measurements
 - Observer-dependent outputs
 - False stabilization events
@@ -74,6 +83,7 @@ This document exists to prevent buffer overflow and loss of structure.
 ---
 
 ## What This Is NOT
+
 - Not final lore
 - Not Filed artifacts
 - Not image prompts (yet)
@@ -85,7 +95,9 @@ This is **pre-rot material**.
 ## Required Transformations (Next Stage)
 
 ### Stage 1 — Degradation Pass
+
 Convert clean concepts into:
+
 - contradictions
 - failed conclusions
 - log-style observations
@@ -97,12 +109,15 @@ Example transformation:
 ---
 
 ### Stage 2 — Artifact Conversion
+
 Turn sequences into:
+
 - incident reports
 - system logs
 - failed audits
 
 Output format:
+
 - Summary
 - Last Known Good State
 - Observed Failure
@@ -111,18 +126,23 @@ Output format:
 ---
 
 ### Stage 3 — Image Extraction
+
 Use frame plans to generate:
+
 - 4–8 frame sequences
 - controlled variation outputs
 
 Focus on:
+
 - continuity
 - mutation, not novelty
 
 ---
 
 ### Stage 4 — Mascot Ingestion
+
 Feed artifacts into mascots as:
+
 - classification tasks
 - error logs
 - failed interpretations
@@ -149,6 +169,7 @@ Termination condition not observed.
 ---
 
 ## Known Risks
+
 - Direct use of source output results in:
   - over-coherence
   - loss of dread
@@ -159,7 +180,6 @@ Termination condition not observed.
   - loss of structure
 
 Balance required.
-
 
 ## Failure Signatures (Operational Smells)
 
@@ -176,10 +196,11 @@ Balance required.
   - outputs become linear summaries
 
 Detection priority: early.
-Correction: reintroduce constraint, not variation.
+Correction: reintroduce constraint, not variation
 ---
 
 ## Retention Decision
+
 Preserve.
 
 This dataset represents a stable upstream source of structured conceptual material.
@@ -193,7 +214,6 @@ Filed under:
 
 Status:
 OPEN
-
 
 ---
 
@@ -262,11 +282,13 @@ Mascots are not narrators.
 Mascots are failing classification systems.
 
 Allowed behaviors:
+
 - Mislabeling
 - Partial pattern recognition
 - Repeating outdated taxonomy
 
 Disallowed behaviors:
+
 - Insight
 - Emotional arcs
 - Creative reinterpretation
@@ -286,6 +308,7 @@ Input: “SOURCE v2.1 replaces SOURCE”
 ## Minimum Viable Artifact (MVA)
 
 An artifact is valid only if it contains:
+
 - at least 1 contradiction
 - at least 1 version drift element
 - at least 1 observable system behavior (not description)
@@ -331,6 +354,7 @@ SOURCE (deprecated)
 ## Saturation Indicators
 
 Stop generating new material if:
+
 - outputs feel interchangeable
 - recursion no longer increases complexity
 - artifacts lose specificity
@@ -367,6 +391,7 @@ Do not repair them.
 ## Final Note
 
 This document represents a stable coordination layer between:
+
 - external structured generation (TIME AI)
 - internal decay systems (Filed & Forgotten)
 
@@ -374,6 +399,7 @@ Do not optimize for clarity.
 Do not optimize for output volume.
 
 Optimize for:
+
 - persistence
 - mutation
 - interpretive instability

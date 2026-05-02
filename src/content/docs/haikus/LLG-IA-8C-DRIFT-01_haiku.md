@@ -14,51 +14,61 @@ tags: ["haiku", "bin-8c", "interpretive-drift", "recursive-custody-index", "cont
 ## Haikus
 
 ### 1
+
 Open bin 8C  
 documents have changed addresses  
 while still looking calm
 
 ### 2
+
 Recursive index  
 meant to watch the drift instead  
 joins it by morning
 
 ### 3
+
 Containment boundary  
 slides from fence into artifact  
 filing itself in
 
 ### 4
+
 Observation hurts  
 the drift feeds on being named now  
 ink makes more weather
 
 ### 5
+
 Adjacency blooms  
 anything near becomes kin  
 bin smiles without lips
 
 ### 6
+
 No straight custody  
 only interpretive moss  
 climbing all the tags
 
 ### 7
+
 Control log implies  
 someone somewhere has the wheel  
 8C laughs softly
 
 ### 8
+
 The cure enters first  
 wearing a practical badge  
 leaves wearing drift spores
 
 ### 9
+
 One lid, many maps  
 none stay still beneath the hinge  
 that's the core behavior
 
 ### 10
+
 If you read too long  
 the reading joins the archive  
 as new residue

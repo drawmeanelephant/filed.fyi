@@ -14,51 +14,61 @@ tags: ["haiku", "bin-8c", "stabilization-attempt", "containment-failure", "inter
 ## Haikus
 
 ### 1
+
 Version two arrives  
 with cleaner fences, sharper names  
 the bin licks its teeth
 
 ### 2
+
 Stabilize, they say  
 bin hears fresh enrichment toys  
 and grows nimble hands
 
 ### 3
+
 Linear custody  
 sounds like prayer in this room now  
 papers don't kneel here
 
 ### 4
+
 Inter-index echoes  
 multiply in the new glass  
 very helpful, thanks
 
 ### 5
+
 Every fix leaves crumbs  
 8C learns from each flavor  
 fast student, bad school
 
 ### 6
+
 Boundary redeployed  
 boundary joins the evidence  
 before lunch is done
 
 ### 7
+
 Corrective intent  
 becomes nutrition again  
 for the soft machine
 
 ### 8
+
 Failure modes logged clean  
 future failures read the notes  
 and improve their aim
 
 ### 9
+
 Rigor did not fail  
 the object metabolized  
 rigor into drift
 
 ### 10
+
 When the almost works  
 8C opens one more door  
 through the word almost

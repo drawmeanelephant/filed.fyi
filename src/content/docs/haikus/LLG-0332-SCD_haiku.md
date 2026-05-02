@@ -14,51 +14,61 @@ tags: ["haiku", "compassion-addendum", "coma-denial", "softness-penalty", "parsi
 ## Haikus
 
 ### 1
+
 Gentle note attached  
 machine reads weakness instead  
 door closes more tight
 
 ### 2
+
 Compassion arrives  
 wearing context, not a plea  
 parser draws a blade
 
 ### 3
+
 Soft language gets taxed  
 hard enough to change the vote  
 that is one cold room
 
 ### 4
+
 Addendum meant care  
 denial heard poor control  
 and stamped no in red
 
 ### 5
+
 Tender wording should  
 not lower authorization  
 still, the form enjoys it
 
 ### 6
+
 If you sound too human  
 the file grows suspiciously  
 less admissible
 
 ### 7
+
 Kindness in the notes  
 counts against the applicant now  
 that stain is the point
 
 ### 8
+
 Warmth crosses the wire  
 and returns as evidence  
 you cannot be trusted
 
 ### 9
+
 The softer the plea  
 the harder the office shell  
 learns to clamp around it
 
 ### 10
+
 Write like broken glass  
 if the system punishes  
 anything like grace

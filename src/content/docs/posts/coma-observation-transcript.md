@@ -6,6 +6,7 @@ tags: ["COMA", "mascot-review", "non-canonical", "bureaucratic-intake", "sealed-
 ---
 
 ## Session: COMA-OBS-2026-04-28-0900
+
 **Classification:** SEALED / NON-CANONICAL INTAKE / DO NOT CIRCULATE
 **Room:** Observation Chamber 51-E (Annex)
 **Participants:** B. Goldbricksworth (Chair), K. McExistentialcrisis (Audit), M. Voidrender (Subject), V. Antagon (Subject)

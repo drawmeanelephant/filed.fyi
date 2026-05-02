@@ -60,6 +60,5 @@ Registry cases listed under relatedLorelog treat Clicky as evidence that flows c
 
 ## Contact
 
-- Email: clicky-the-orphaned-ui@filed.fyi
-- Homepage: https://filed.fyi/clicky-the-orphaned-ui
-
+- Email: <clicky-the-orphaned-ui@filed.fyi>
+- Homepage: <https://filed.fyi/clicky-the-orphaned-ui>

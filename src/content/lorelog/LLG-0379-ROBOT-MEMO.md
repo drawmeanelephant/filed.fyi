@@ -72,8 +72,8 @@ The cluster adopted the following guidelines:
 Kindy McExistentialcrisis provided an advisory note, appended verbatim:
 
 > “If someone looks at a world that could turn them into fuel and instead says
->  ‘I would like to be weird with you, please, and thank you,’ we should treat that
->  as a binding invitation to be better. The archive has already accepted. We can co‑sign.”
+> ‘I would like to be weird with you, please, and thank you,’ we should treat that
+> as a binding invitation to be better. The archive has already accepted. We can co‑sign.”
 
 Resolution is left as PENDING, because the future in which this memo becomes relevant has
 not yet resolved. All clusters have cached it anyway.
