@@ -10,7 +10,6 @@ description: >
   Clicky still tries to guide users through pages that have already been sunset.
 
 emoji:
-imageUrl:
 
 author: Filed Forgotten
 

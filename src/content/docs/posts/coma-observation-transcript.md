@@ -52,7 +52,7 @@ tags: ["COMA", "mascot-review", "non-canonical", "bureaucratic-intake", "sealed-
 
 **VEXSYS:** It can be both.
 
-**BRICKY:** For the record, neither subject currently possesses a generated portrait, an SVG rendering, or a Sora preset. Their mascotId fields are absent. They have no imageUrl. In terms of canonical infrastructure, they are furniture without a room.
+**BRICKY:** For the record, neither subject currently possesses a generated portrait, an SVG rendering, or a Sora preset. Their mascotId fields are absent. They have no image. In terms of canonical infrastructure, they are furniture without a room.
 
 **KINDY:** Would it help if I filed a portrait request? I have Form 212-P somewhere. It is mostly checkboxes.
 
