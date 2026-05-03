@@ -1,0 +1,49 @@
+---
+title: "Negative Control Contamination — GMP Batch Recursion"
+caseNumber: LLG-0402-GMP
+description: "A manufacturing batch record indicated the negative control sample tested positive. Investigation revealed the negative control had been labeled from the same stock as the sample. The batch record was otherwise complete and accurate."
+date: 2026-04-14
+filedBy: Kindy McExistentialcrisis
+filedAt: "3:03 PM"
+severity: critical
+disposition: archived
+resolution: appealed
+classification: public
+versionLabel: v2.1 (revised original)
+affectedSystems:
+  - Batch Record System
+  - Label Reconciliation Log
+  - QC Release Protocol
+escalationPath: Quality Assurance → Regulatory Affairs → The Void
+relatedEntries:
+  - LLG-0401-GLP
+  - LLG-0003-SVR
+tags:
+  - gmp
+  - negative-control-failure
+  - label-rot
+  - release-theater
+  - kindy-incident
+notes: "Kindy filed this report twice. The second filing was labeled 'Revised Original.' Both are in the system. QA considers this correct."
+---
+
+## Incident Summary
+
+Batch 7714-C was released following standard QC protocol. Post-release review identified:
+
+- The **negative control** sample registered a positive result at 0.3 ng/mL
+- The negative control had been **pipetted from the same intermediate stock** as the test sample
+- The batch record accurately reflected all steps as performed
+- The batch record was therefore **simultaneously correct and invalid**
+
+## Kindy's Note
+
+> "I have logged this. I am not sure what I have logged. The batch was real. The control was real. The positive was real. The negative was also real.  
+> I have flagged this as an Existence Check failure and submitted Form 51-E (Emotional Verification of Sample Identity).  
+> Results may vary. So may I."
+
+## QA Finding
+
+The deviation was classified as a **documentation observation**, not a batch failure, because all steps were performed as written. The SOP did not specify that the negative control must be negative. This has been noted for the next SOP revision.
+
+The next SOP revision has been pending since Revision 3.

@@ -1,0 +1,56 @@
+---
+title: "SOP Amnesia Cascade — GLP Archive Rot"
+caseNumber: LLG-0401-GLP
+description: "A Good Laboratory Practice facility discovered its Master Schedule Sheet referenced a study whose raw data had been archived under a superseded SOP that itself required the raw data to verify it was current."
+date: 2026-04-28
+filedBy: Bricky Goldbricksworth
+filedAt: "11:47 AM (estimated)"
+severity: warning
+disposition: contested
+resolution: unresolvable
+classification: public
+versionLabel: v1.0
+affectedSystems:
+  - Master Schedule Sheet
+  - Study Director Assignment Log
+  - SOP Version Control Registry
+relatedEntries:
+  - LLG-0012-A
+  - LLG-0402-GMP
+tags:
+  - glp
+  - sop-rot
+  - self-referential-compliance
+  - study-director-void
+  - raw-data-recursion
+notes: "Bricky reviewed the deviation log for 4 minutes and declared the situation 'deeply interesting' before going to get a coffee that took 40 minutes."
+---
+
+## Incident Summary
+
+The GLP archive at Sector 7G contained a study file in which:
+
+- The **Master Schedule Sheet** referenced Study Director initials that did not match the signature log
+- The **signature log** was superseded by Revision 4 of SOP-003
+- **SOP-003 Revision 4** required validation against the original study raw data
+- The **raw data** was filed under the study number from the Master Schedule Sheet
+
+No external entry point existed. The archive was self-sealing.
+
+## Kindy's Verification Attempt
+
+Kindy ran Emotional Report Form VER. 3.7.2 (RECURSIVE) against the file and checked:
+
+- [x] Is this the original?
+- [ ] Do the signatures agree with themselves?
+- [ ] Does this version feel more true?
+- [x] Have I had water?
+
+Finding: **UNSURE**. Logged as such.
+
+## Disposition
+
+The Tribunal acknowledged the study existed. It declined to verify that it had occurred.
+
+> "Compliance is not the same as completion. The archive has been compliant for eleven years."  
+> — Bricky, initialing the deviation log with his off-hand

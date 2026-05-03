@@ -1,0 +1,181 @@
+---
+import { AstroError } from 'astro/errors';
+import * as Lucide from 'lucide-astro';
+// lucide icons used instead of Starlight icon system
+import { throwInvalidAsideIconError } from '../../node_modules/@astrojs/starlight/integrations/asides-error.ts';
+
+const asideVariants = ['note', 'tip', 'caution', 'danger'] as const;
+
+const icons = {
+  note: 'Info',
+  tip: 'Rocket',
+  caution: 'AlertTriangle',
+  danger: 'AlertCircle',
+
+  // Lore / archival
+  ghost: 'Ghost',
+  skull: 'Skull',
+  scroll: 'Scroll',
+  book: 'BookMarked',
+  layers: 'Layers',
+
+  // Bureaucratic / system
+  clipboard: 'ClipboardList',
+  stamp: 'Stamp',
+  archive: 'Archive',
+  folderx: 'FolderX',
+  filewarning: 'FileWarning',
+  fileclock: 'FileClock',
+  filequestion: 'FileQuestion',
+
+  // Entropy / failure modes
+  zap: 'Zap',
+  flame: 'Flame',
+  cloudlightning: 'CloudLightning',
+  radiation: 'Radiation',
+  biohazard: 'Biohazard',
+  bug: 'Bug',
+
+  // Cosmic / signal
+  orbit: 'Orbit',
+  telescope: 'Telescope',
+  satellite: 'Satellite',
+  sparkles: 'Sparkles',
+  binary: 'Binary',
+
+  // Absurd / wildcard
+  banana: 'Banana'
+} as const;
+
+
+const toPascalCase = (s: string) =>
+  s.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join('');
+
+
+interface Props {
+	type?: (typeof asideVariants)[number];
+	title?: string;
+	icon?: string;
+}
+
+const props = Astro.props as Props;
+
+const type = props.type ?? 'note';
+let title = props.title;
+const iconProp = props.icon;
+const key = (iconProp?.toLowerCase?.() ?? type);
+
+const iconName = iconProp ? toPascalCase(iconProp) : icons[type];
+const Icon = (Lucide as any)[iconName] || Lucide.Info;
+
+const variantStyles = {
+  note: "border-blue-500/30 bg-blue-500/5",
+  tip: "border-green-500/30 bg-green-500/5",
+  caution: "border-yellow-500/30 bg-yellow-500/5",
+  danger: "border-red-500/30 bg-red-500/5"
+} as const;
+
+const brosideStyles: Record<string, string> = {
+  // base fallbacks (type system)
+  note: "border-blue-500/30 bg-blue-500/5",
+  tip: "border-green-500/30 bg-green-500/5",
+  caution: "border-yellow-500/30 bg-yellow-500/5",
+  danger: "border-red-500/30 bg-red-500/5",
+
+  // Lore / archival (sepia / parchment)
+  skull: "border-[#a87c52]/40 bg-[#fdf6ec]/10",
+  scroll: "border-[#a87c52]/40 bg-[#fdf6ec]/10",
+  book: "border-[#a87c52]/40 bg-[#fdf6ec]/10",
+  layers: "border-[#a87c52]/40 bg-[#fdf6ec]/10",
+
+  // Bureaucratic / system
+  clipboard: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
+  stamp: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
+  archive: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
+  folderx: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
+  filewarning: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
+  fileclock: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
+  filequestion: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
+
+  // Entropy / degradation
+  zap: "border-[#b45309]/40 bg-[#b45309]/10",
+  flame: "border-[#dc2626]/40 bg-[#dc2626]/10",
+  cloudlightning: "border-[#7c2d12]/40 bg-[#7c2d12]/10",
+  radiation: "border-[#b45309]/40 bg-[#b45309]/10",
+  biohazard: "border-[#b45309]/40 bg-[#b45309]/10",
+  bug: "border-[#f59e0b]/40 bg-[#f59e0b]/10",
+
+  // Cosmic / signal
+  orbit: "border-[#6d28d9]/40 bg-[#0f0a1e]/40",
+  telescope: "border-[#7c3aed]/40 bg-[#0f0a1e]/40",
+  satellite: "border-[#6d28d9]/40 bg-[#0f0a1e]/40",
+  sparkles: "border-[#7c3aed]/40 bg-[#0f0a1e]/40",
+  binary: "border-[#4c1d95]/40 bg-[#0f0a1e]/40",
+
+  // Absurd / wildcard
+  banana: "border-[#ec4899]/40 bg-[#ec4899]/10"
+};
+
+const brosideAccentStyles: Record<string, string> = {
+  note: "text-blue-400",
+  tip: "text-green-400",
+  caution: "text-yellow-400",
+  danger: "text-red-400",
+
+  skull: "text-[#a87c52]",
+  scroll: "text-[#a87c52]",
+  book: "text-[#a87c52]",
+  layers: "text-[#a87c52]",
+
+  clipboard: "text-[#5c7a8c]",
+  stamp: "text-[#5c7a8c]",
+  archive: "text-[#5c7a8c]",
+  folderx: "text-[#5c7a8c]",
+  filewarning: "text-[#5c7a8c]",
+  fileclock: "text-[#5c7a8c]",
+  filequestion: "text-[#5c7a8c]",
+
+  zap: "text-[#b45309]",
+  flame: "text-[#dc2626]",
+  cloudlightning: "text-[#7c2d12]",
+  radiation: "text-[#b45309]",
+  biohazard: "text-[#b45309]",
+  bug: "text-[#f59e0b]",
+
+  orbit: "text-[#6d28d9]",
+  telescope: "text-[#7c3aed]",
+  satellite: "text-[#6d28d9]",
+  sparkles: "text-[#7c3aed]",
+  binary: "text-[#4c1d95]",
+
+  banana: "text-[#ec4899]"
+};
+
+if (!asideVariants.includes(type)) {
+	throw new AstroError(
+		'Invalid `type` prop passed to the `<Aside>` component.\n',
+		`Received: ${JSON.stringify(type)}\n` +
+			`Expected one of ${asideVariants.map((i) => JSON.stringify(i)).join(', ')}`
+	);
+}
+
+if (!title) {
+	title = Astro.locals.t(`aside.${type}`);
+}
+---
+
+<aside
+  aria-label={title}
+  class={`starlight-aside starlight-aside--${type} border rounded-md p-4 ${brosideStyles[key] ?? variantStyles[type]}`}
+>
+	<p class={`starlight-aside__title ${brosideAccentStyles[key] ?? ""}`} aria-hidden="true">
+		<Icon class={`starlight-aside__icon ${brosideAccentStyles[key] ?? ""}`} />{title}
+	</p>
+	{
+		/* 
+		The slot is intentionally not wrapped in newlines/whitespace to ensure CSS `:empty` 
+		can match when no content is provided. 
+	*/
+	}
+	<div class="starlight-aside__content"><slot /></div>
+</aside>

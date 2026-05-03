@@ -1,0 +1,56 @@
+---
+title: "Deviation Entered on Superseded Form — Meta-Deviation Cascade"
+caseNumber: LLG-0405-DEV
+description: "A deviation from SOP-114 was filed on Form DEV-3A. Form DEV-3A had been superseded by Form DEV-4B six weeks prior. The use of the superseded form required a new deviation to be filed. The new deviation was also filed on Form DEV-3A."
+date: 2026-04-19
+filedBy: Bricky Goldbricksworth
+filedAt: "4:52 PM (Friday)"
+severity: warning
+disposition: contested
+resolution: unresolvable
+classification: public
+versionLabel: v1.0
+affectedSystems:
+  - Deviation Management System
+  - Form Version Control Registry
+  - QA Review Queue
+relatedEntries:
+  - LLG-0027-B
+  - LLG-0012-A
+  - LLG-0405-DEV
+tags:
+  - glp
+  - deviation-recursion
+  - form-version-rot
+  - bricky-incident
+  - self-citation
+  - friday-filing
+notes: "This entry cites itself. Bricky said this was 'probably fine' and left at 5:01 PM."
+---
+
+## Incident Summary
+
+On April 19th, a study coordinator filed Deviation DEV-2026-0041 documenting a temperature excursion during sample storage.
+
+The form used was **DEV-3A**.  
+DEV-3A was superseded on March 7th by DEV-4B.  
+Use of a superseded form constitutes a deviation per SOP-089.
+
+A second deviation, DEV-2026-0042, was initiated to document the form error.  
+DEV-2026-0042 was filed on **DEV-3A**.
+
+The QA reviewer identified this at 4:58 PM on a Friday.
+
+## Bricky's Closing Note
+
+> "I have reviewed both deviations. They are both complete. The forms are wrong but the information is right. I have approved the information. I have noted the form issue. I have not filed a third deviation because I do not want to.  
+> The temperature excursion was 0.4°C for 11 minutes. The samples are fine.  
+> The forms are not fine. The forms are always not fine.  
+> Filed."
+
+## QA Disposition
+
+Both deviations remain open pending receipt of a **CAPA** (Corrective and Preventive Action) for the form version control failure.  
+The CAPA form is Form CA-7.  
+Form CA-7 was last revised in 2019.  
+There is a Form CA-8.

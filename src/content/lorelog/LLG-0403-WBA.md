@@ -1,0 +1,53 @@
+---
+title: "WBA Continuity Gap — Cryosection Documentation Failure"
+caseNumber: LLG-0403-WBA
+description: "During whole body autoradiography sectioning, slices 38 through 41 of a dosed subject were documented under two different study numbers due to a label printer miscommunication. Both sets of documentation are complete. Neither set is authoritative."
+date: 2026-03-31
+filedBy: Bricky Goldbricksworth
+filedAt: "sometime before lunch"
+severity: warning
+disposition: contested
+resolution: pending
+classification: restricted
+versionLabel: v1.0
+affectedSystems:
+  - Cryomacrotome Section Log
+  - Phosphor Image Plate Registry
+  - Study Number Assignment System
+  - Radiochemistry Chain of Custody
+relatedEntries:
+  - LLG-0401-GLP
+  - LLG-0004-SMD
+tags:
+  - wba
+  - glp
+  - cryosection-rot
+  - dual-identity-record
+  - bricky-incident
+  - the-beagle-question
+notes: "Bricky noted that slices 39–41 'looked fine' and suggested the issue was 'more of a paperwork thing.' He is not wrong. He is also not helpful."
+---
+
+## Incident Summary
+
+Subject 4-Bravo was dosed at T=0 and sectioned at 168h post-dose per protocol. The cryomacrotome operator ran a standard 40-micron serial section series. At section 38, a label printer buffer overflow assigned the next three labels to Study 2241-R rather than Study 2240-R.
+
+Sections 38–41 now exist in two study files:
+- **Study 2240-R**: sections documented as "not collected — equipment interruption"
+- **Study 2241-R**: sections documented as present, scanned, and within acceptable signal range
+
+Both studies were filed as complete. Both were GLP-compliant. The subject cannot be re-sectioned.
+
+## Bricky's Assessment
+
+Bricky reviewed the phosphor image plates for approximately six minutes, described the distribution as "pretty normal looking," and submitted a one-line deviation report: *"Label printer did a thing. Sections are fine. Filed under both. Recommend accepting both."*
+
+The Quality Assurance unit rejected this recommendation.  
+Bricky acknowledged the rejection.  
+Bricky's original recommendation remains in the file.
+
+## Current Status
+
+Regulatory submission for Study 2240-R is on hold pending resolution.  
+Regulatory submission for Study 2241-R proceeded.  
+Sections 39–41 are now cited in a published pharmacokinetic model.
