@@ -1,0 +1,88 @@
+---
+title: "Regulated Study Continuity Triad: GLP, GMP, WBA Rot"
+date: 2026-05-04
+versionLabel: "v2.0-TRIAD"
+description: "Conjoined incident report linking procedural degradation across GLP, GMP, and WBA tracks (see LLG-0401-GLP, LLG-0402-GMP, LLG-0403-WBA). Documents a pattern of administrative rot that preserves auditability while eroding experimental continuity."
+caseNumber: "LLG-0400-TRIAD"
+severity: "warning"
+disposition: "contested"
+resolution: "unresolvable"
+classification: "restricted"
+filedBy: "Bricky Goldbricksworth; Kindy McExistentialcrisis (joint)"
+filedAt: "Regulatory Annex, Archive Vault"
+mascotRef: "Bricky Goldbricksworth; Kindy McExistentialcrisis"
+tags:
+  - "LLG-0401-GLP"
+  - "LLG-0402-GMP"
+  - "LLG-0403-WBA"
+  - "study-continuity"
+  - "documentation-rot"
+  - "dual-identity"
+---
+
+### Incident Constellation
+
+Three canonical entries — **LLG-0401-GLP**, **LLG-0402-GMP**, and **LLG-0403-WBA** — converged not by a single fault but by a rhyming of small degradations. The pattern is astronomical: separate orbits that, when their eccentricities shift in phase, produce a constellation of failure.
+
+- **GLP SOP rot**: Standard Operating Procedures accrued editorial drift. Procedural language softened; conditional steps became permissive ("as appropriate" proliferated). Version headers remained intact; step-level clarifications vanished into cross-references that pointed to other cross-references.
+
+- **GMP negative-control failure**: Negative controls were retained on paper but not enforced in practice. Control batches were logged as "observed null" without raw trace files; negative-control identifiers duplicated across lots to satisfy batch reconciliation.
+
+- **WBA dual-identity slices**: Whole-Body Autoradiography (WBA) outputs were sliced into multiple study identities to satisfy competing release timelines. Single imaging runs were assigned dual study numbers; metadata forks created two audit trails that superficially diverged but shared raw data.
+
+Individually each anomaly is recoverable; together they form a continuity failure: the study record no longer maps cleanly to a reproducible experimental history.
+
+---
+
+### Common Failure Pattern
+
+Across the triad the same failure grammar repeats.
+
+- **Self-referential documentation**: Documents cite each other in closed loops. A GLP deviation references a GMP corrective action that references a WBA addendum that references the original GLP deviation. The loop preserves a paper trail but erases causal clarity.
+
+- **Negative evidence as checkbox**: Absence-of-effect is recorded as a compliance token rather than as data. "No unexpected findings" becomes a field to be checked, not a statement supported by raw traces.
+
+- **Dual study numbers and identity drift**: Single experimental runs are split into multiple identifiers to satisfy scheduling and release constraints. Downstream consumers see different study numbers and assume independent replication; in truth the underlying run is singular.
+
+- **Audit-friendly artifacts**: Metadata fields are populated to satisfy external schema validators (timestamps, signatures, version hashes) while substantive artifacts (raw files, instrument logs, chain-of-custody entries) are thin or missing. The artifact looks canonical to automated audits.
+
+- **Compartmentalized remediation**: Each regulatory lane applies a corrective that addresses its own checklist without reconciling cross-lane continuity. The net effect is local compliance with global incoherence.
+
+This pattern privileges *traceability* over *truth* — a bureaucratic tautology that reads well in reports and poorly in replication.
+
+---
+
+### Regulator Comfort Narrative
+
+External auditors and certification bodies, operating through their established heuristics, read the triad as "within tolerance."
+
+- **Tick-box sufficiency**: Auditors encounter complete version histories, signed deviation forms, and reconciled batch logs. The presence of required artifacts triggers a comfort response: the dossier is complete.
+
+- **Separation of concerns**: GLP, GMP, and WBA reviewers treat their domains as orthogonal. Each domain's corrective actions are accepted on their own terms; cross-domain inconsistencies are treated as out-of-scope or as matters for internal governance.
+
+- **Statistical smoothing**: Aggregate metrics (pass rates, deviation counts, corrective action closure times) remain within expected ranges because the rot is qualitative and distributed. Quantitative dashboards therefore fail to flag the underlying continuity collapse.
+
+The comfort narrative is not malicious; it is procedural. The dossier satisfies the heuristics auditors use to infer integrity. Those heuristics, however, are precisely the vectors the rot exploits.
+
+---
+
+### Archive Position
+
+Lorelog records what the comfort narrative does not: a collapse of study continuity that is functionally unresolvable without reconstructing raw provenance that no longer exists.
+
+- **What actually happened**: Raw instrument logs were truncated or aliased; negative-control datasets were replaced by summary statements; single WBA runs were split into multiple study identities after the fact to meet release schedules. The result is a set of artifacts that are internally consistent within their lanes but inconsistent across the experimental whole.
+
+- **Why it is unresolvable**: Reconstruction would require re-running experiments under the original conditions — conditions that are no longer available because reagents, instrument calibrations, and temporal contexts have changed. Paper trails cannot substitute for missing raw traces when identity has been forked.
+
+- **Operational consequence**: Downstream decisions (release, scale-up, clinical translation) that rely on the triad's continuity are now exposed to epistemic uncertainty. The organization can certify compliance but cannot certify reproducibility.
+
+- **Institutional lesson**: The triad demonstrates a failure mode where regulatory completeness masks epistemic failure. Preservation of signatures and version stamps is insufficient when the substrate of evidence — raw data and unambiguous provenance — has been eroded.
+
+Lorelog therefore records this as contested and unresolvable: not because the documents are absent, but because their seams have been artfully restitched in ways that preclude faithful reconstruction.
+
+---
+
+### Field Note
+
+Bricky Goldbricksworth & Kindy McExistentialcrisis (joint):  
+"Paperwork can be a cathedral and a mausoleum at once. We keep the signatures and the stamps because they teach a caution: compliance without provenance is a brittle peace. Archive this as a warning — not a template. If you must split a run into two study numbers, mark the seam in raw traces, not just in a cover letter. The triad rhymes; do not let the rhyme become a lullaby."

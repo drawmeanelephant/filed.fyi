@@ -10,10 +10,30 @@ import alpinejs from '@astrojs/alpinejs';
 
 import sitemap from '@astrojs/sitemap';
 
+const cloudflareAnalytics = () => ({
+  name: "cloudflare-web-analytics",
+  hooks: {
+    "astro:config:setup"({ injectScript }) {
+      injectScript(
+        "head-inline",
+        `
+!function(){
+  var d=document;
+  var s=d.createElement("script");
+  s.defer=true;
+  s.src="https://static.cloudflareinsights.com/beacon.min.js";
+  s.setAttribute("data-cf-beacon", '{"token":"7520d16298634b9aa74903270d3a8b82"}');
+  d.head.appendChild(s);
+}();
+        `
+      );
+    },
+  },
+});
 
 export default defineConfig({
   site: 'https://filed.fyi',
-  integrations: [starlight({
+  integrations: [cloudflareAnalytics(), starlight({
       title: 'Filed & Forgotten',
       disable404Route: true,
       customCss: [
