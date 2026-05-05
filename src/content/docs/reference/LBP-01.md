@@ -1,0 +1,179 @@
+---
+title: LORELOG BACKFEED PROTOCOL (LBP-01)
+description: A protocol for converting external interpretations and limerick outputs into structured updates across mascots, lorelogs, and entropy systems in Filed & Forgotten.
+---
+
+# LORELOG BACKFEED PROTOCOL (LBP-01)
+*Filed & Forgotten — Entropy-to-Canon Mutation System*
+
+## 1. PURPOSE
+
+The LBP exists to convert derivative outputs (limericks, external interpretations, synthetic summaries, tool-generated analyses) into controlled mutations of the Filed & Forgotten archive.
+
+It does not preserve writing.
+
+It preserves structural corruption that produces useful system behavior.
+
+---
+
+## 2. INPUT SOURCES (ELIGIBLE MATERIAL)
+
+The system accepts the following as entropy probes:
+
+- Limericks generated from mascots or lorelogs
+- External model interpretations (e.g. NotebookLM summaries)
+- ChatGPT / Gemini structural analyses
+- User-generated reinterpretations of archive content
+- Any synthetic “reading of the system” that introduces variation
+
+Non-eligible inputs:
+- Pure summaries with no behavioral insight
+- Clean taxonomies with no contradictions
+- Rewrites that reduce ambiguity or remove instability
+
+---
+
+## 3. EXTRACTION RULESET (WHAT TO PULL)
+
+From any input, extract only the following:
+
+### 3.1 FAILURE BEHAVIORS
+Concrete repeated actions indicating system malfunction:
+- misclassification patterns
+- recursive loops
+- identity confusion
+- logs behaving as intentional artifacts
+- structural drift across time, category, or meaning
+
+### 3.2 SYSTEM RULE LEAKS
+Implicit rules discovered through repetition:
+- “this entity treats X as Y”
+- “this process always collapses into Z”
+- “this system cannot distinguish between A and B”
+
+### 3.3 CONTRADICTIONS THAT HOLD
+Do NOT resolve contradictions.
+Instead:
+- preserve both interpretations
+- mark as coexisting failure states
+
+### 3.4 NEW METAPHORIC BEHAVIOR
+Only accept metaphors if they imply:
+- operational change
+- behavioral mutation
+- system-level distortion
+
+Reject purely decorative imagery.
+
+---
+
+## 4. BACKFEED INTEGRATION ZONES
+
+Extracted material may ONLY modify the following layers:
+
+### 4.1 MASCOT BEHAVIOR BLOCKS
+Update:
+- failure modes
+- operational logic
+- misclassification patterns
+
+Do NOT update:
+- aesthetic description alone
+- tone without behavioral change
+
+---
+
+### 4.2 LORELOG ENTRY EXPANSION
+Add:
+- new observed incidents
+- system drift events
+- contradiction clusters
+
+Never overwrite existing logs. Append only.
+
+---
+
+### 4.3 ENTROPY TAGGING LAYER
+Attach tags such as:
+- misclassification-drift
+- recursive-identity-loop
+- archive-confusion-event
+- semantic-overload-state
+
+Tags are descriptive, not decorative.
+
+---
+
+## 5. INTEGRATION RULES
+
+### 5.1 NO SMOOTHING POLICY
+Backfeed must NOT:
+- unify tone
+- resolve ambiguity
+- clarify system behavior into stability
+
+If clarity increases too much, reject mutation.
+
+---
+
+### 5.2 CONTRADICTION PRESERVATION RULE
+If two outputs conflict but both feel valid:
+- retain both
+- mark system as multi-state inconsistent
+
+---
+
+### 5.3 MINIMUM VIABLE MUTATION
+A backfeed entry is valid only if it introduces at least ONE of:
+- new failure mode
+- new misclassification rule
+- new recursive behavior
+- new contradiction cluster
+
+---
+
+## 6. CLASSIFICATION OF BACKFED MATERIAL
+
+Each accepted mutation is classified as:
+
+A. STRUCTURAL MUTATION
+Changes system behavior internally.
+
+B. BEHAVIORAL DRIFT
+Changes how a mascot or entity acts.
+
+C. INTERPRETIVE CONTAMINATION
+Changes how future readings interpret the system.
+
+---
+
+## 7. REJECTION CONDITIONS
+
+Reject backfeed if it results in:
+- fully resolved meaning
+- loss of ambiguity
+- normalization of system behavior
+- removal of contradiction density
+
+---
+
+## 8. SYSTEM GOAL (NON-FINALIZED)
+
+The system does not aim for stability.
+
+It aims to maintain controlled interpretive instability across all archive layers.
+
+---
+
+## 9. OPERATIONAL SUMMARY
+
+The Filed & Forgotten system does not learn from inputs in a stabilizing way.
+
+It:
+- absorbs interpretations
+- extracts failure logic
+- converts it into structural drift
+- preserves unresolved contradictions
+
+Everything gets filed.
+Not everything gets stabilized.
