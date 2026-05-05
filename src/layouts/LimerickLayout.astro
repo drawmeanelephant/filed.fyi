@@ -1,0 +1,13 @@
+---
+import TableOfRottents from "../components/TableOfRottents.astro";
+
+const { toc = [], title } = Astro.props;
+---
+
+<div class="grid grid-cols-1 md:grid-cols-[1fr_280px] gap-6">
+  <main>
+    <slot />
+  </main>
+
+  <TableOfRottents toc={toc} />
+</div>

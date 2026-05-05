@@ -1,5 +1,4 @@
 ---
-slug: ds-404-alpha
 date: 2026-01-07
 versionLabel: "SOMA Review Cycle 2"
 title: "Form DS-404-ALPHA: Departmental Synergy Merge Approval with Intent to Co-Exist"

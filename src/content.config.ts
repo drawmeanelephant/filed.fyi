@@ -37,7 +37,7 @@ const renderState = z.enum(['deferred', 'active', 'corrupted', 'phantom', 'archi
 const completionState = z.enum(['draft', 'partial', 'full', 'canonical']).default('draft');
 
 export const mascots = defineCollection({
-  loader: glob({ base: './src/content/docs/mascots', pattern: '**/*.md' }),
+  loader: glob({ base: './src/content/docs/mascots', pattern: '**/*.{md,mdx}' }),
   schema: z
     .object({
       // IDENTITY
@@ -146,7 +146,7 @@ const lorelogClassification = z
   .default('public');
 
 const lorelog = defineCollection({
-  loader: glob({ base: './src/content/lorelog', pattern: '*.md' }),
+  loader: glob({ base: './src/content/docs/lorelog', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
     // REQUIRED
     title:        z.string(),
@@ -175,6 +175,13 @@ const lorelog = defineCollection({
   }),
 });
 
+const limericks = defineCollection({
+  loader: glob({ base: './src/content/docs/limericks', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    title: z.string().optional(),
+  }),
+});
+
 const logSchema = z.object({
   title: z.string(),
   date: z.coerce.date(),
@@ -196,6 +203,7 @@ export const collections = {
   docs: defineCollection({ loader: docsLoader(), schema: docsSchema() }),
   mascots,
   lorelog,
+  limericks,
   releases,
   changelog,
 };
