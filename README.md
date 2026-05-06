@@ -1,137 +1,85 @@
-# Filed & Forgotten
+# filed.fyi
 
-**Filed & Forgotten** is a haunted Astro + Starlight site about systems that kept running long after anyone was officially responsible for them.  
-It files obsolete mascots, lore logs, and poetic residue from software that refuses to shut down.
+Archive surface for collection-backed records.
 
-> This is not a documentation site. This is a frozen filing cabinet that learned to haunt.
+Static delivery. Unstable classification.
 
-[![Built with Astro & Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+Records are stored as content collections under fixed categories. Classification remains subject to revision, reinterpretation, renumbering, and linked refile events preserved in the archive state.
 
----
+## Inventory
 
-## What is this?
+- mascots: system entities with renumbered and reclassified identities across commits
+- lorelog: case records with evolving interpretation, cross-reference linkage, and non-stable filing relationships
+- limericks: verse records emitted during structural changes, audits, migrations, and classification events
+- haikus: compressed observation layer of system state residue
 
-This repo contains the source for [filed.fyi](https://filed.fyi), a static archive of:
+## Archive model
 
-- **Mascots** — error spirits and bureaucratic entities defined as rich frontmatter objects under `src/content/docs/mascots/`.
-- **Lorelog** — incident reports and schema-violation records rendered as expandable log cards from `src/lorelog/`.
-- **Haikus & Limericks** — small verse about database rot, hard determinism, compatibilism, and other forms of semantic mildew.
-- **Reference docs** — internal frameworks like the Lorelog-governed entropy docs and the TIME-Derived Concept Ingestion Pipeline.
+The archive is collection-backed and file-addressed.
 
-The site is built with **Astro 6** and **Starlight**, with Alpine.js for light interactivity and Tailwind 4 via the Vite plugin.  
-Starlight’s `PageTitle` slot is overridden so mascot pages render full dossiers instead of generic headings.
+Each record exists as a source document with frontmatter, body content, and optional links to related records. Cross-record association is explicit where declared and unresolved where not. Absence is preserved. Drift is preserved.
 
----
+Git history is part of the archive state, including renames, deletions, migrations, reindexing events, and structural refactors. Prior classifications remain accessible through historical state.
 
-## Project structure
+## Structure
 
-Current structure (trimmed to the interesting bits):
+Built with Astro and Starlight.
 
-```text
-.
-├── astro.config.mjs           # Astro + Starlight config + integrations
-├── content.config.ts          # Astro content collections/schema
-├── public/                    # Static assets
-├── src/
-│   ├── assets/                # Mascot and page art
-│   ├── components/
-│   │   ├── FormattedDate.astro
-│   │   ├── LorelogCard.astro  # Expandable lorelog incident card
-│   │   └── MascotRecord.astro # Mascot dossier + card (also PageTitle override)
-│   ├── content/
-│   │   ├── docs/
-│   │   │   ├── changelog/     # Site change notes
-│   │   │   ├── guides/        # Starlight-style guides
-│   │   │   ├── haikus/        # Rot-in-the-database poetry
-│   │   │   ├── limericks/     # Compatibilist / determinist limericks
-│   │   │   ├── mascots/       # All mascot frontmatter + lore
-│   │   │   ├── posts/         # Long-form transcripts and essays
-│   │   │   ├── reference/     # Internal frameworks (BHDSS, TDCIP, etc.)
-│   │   │   └── releases/      # Release notes
-│   │   └── index.mdx          # Haunted homepage content
-│   ├── lorelog/               # Lorelog entries as plain Markdown
-│   ├── layouts/               # (Reserved for custom layouts)
-│   ├── pages/
-│   │   ├── lorelog/
-│   │   │   ├── index.astro    # Lorelog listing
-│   │   │   └── [slug].astro   # Individual lorelog entry route
-│   │   └── mascots/
-│   │       └── index.astro    # Mascot index (non-nav, experimental)
-│   └── styles/
-│       └── global.css         # Starlight theme layer + custom UI
-├── deploy.sh                  # Deployment script(s)
-├── ship.sh                    # Shipping helpers
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-└── rules.md                   # “Filed & Forgotten” system constraints
-```
+Content definitions live in `src/content.config.ts`. Records are stored under `src/content/docs/`. Rendering is handled through collection-aware components and route layouts. Routes render content collections directly without transformation beyond mapping and layout components.
 
-Key integrations and dependencies:
+The archive does not depend on a CMS abstraction layer or runtime editorial interface.
 
-- `@astrojs/starlight` — docs shell that the archive lives inside.
-- `@astrojs/alpinejs` — powers Lorelog expand/collapse via Alpine directives.
-- `@tailwindcss/vite` + `tailwindcss` — design tokens and utilities.
-- `starlight-site-graph` — site graph visualization.
-- `lucide-astro` / `@lucide/astro` — icon set for cards and chips.
-- `sharp` / `sass` — image and style pipeline support.
+## Record classes
 
----
+### Mascots
 
-## Development
+Mascot records are entity files with identity fields, state markers, origin traces, failure lists, ceremonial tasks, and linked references where present.
 
-Run everything from the project root.
+Mascot identifiers may drift across archive history. Slug continuity is preferred but not guaranteed. Renumbering, reassignment, and reclassification are normal system operations and are preserved as archival conditions, not corrected as errors.
 
-### Install
+### Lorelog
 
-```bash
-npm install
-```
+Lorelog records are case files. They preserve incident framing, interpretive state, related entities, and cross-record citation surfaces where links have been declared.
 
-### Local development
+A lorelog entry may outlast the classification it originally described. Interpretation may change without invalidating prior filings.
 
-```bash
-npm run dev
-# default: http://localhost:4321
-```
+### Limericks
 
-### Build & preview
+Limericks are archival byproducts and parallel filings. They are emitted during structural change, interpretive drift, audit activity, and classification instability.
 
-```bash
-npm run build    # Build static site into ./dist
-npm run preview  # Preview the built site locally
-```
+They do not stabilize the archive. They record its movement.
 
-You can also use the Astro CLI directly:
+### Haikus
 
-```bash
-npm run astro -- check
-npm run astro -- sync
-```
+Haikus operate as a compressed observation layer.
 
----
+They retain minimal state. They do not explain. They mark residue.
 
-## Content model (high level)
+## Record constraints
 
-- **Mascots** are defined as structured frontmatter in `src/content/docs/mascots/*.md` and rendered via `MascotRecord.astro` into dossier panels and index cards.
-- **Lorelog entries** live under `src/lorelog/*.md` and are rendered as interactive cards using `LorelogCard.astro` on `src/pages/lorelog/`.
-- Other collections (`haikus`, `limericks`, `reference`, `releases`) use more conventional Starlight doc rendering but share the same archive tone.
+- Records remain addressable by slug, path, case number, or declared identifier
+- Cross-record references must be explicit to be considered canonical
+- Duplicate meaning is permitted; duplicate identifiers are not stable by default
+- Renaming of identifiers is permitted only through explicit migration commits
+- Deletion is permitted when preserved in archive history
+- Structural refactors do not erase prior state
+- Render status is descriptive, not corrective
 
-If you’re adding new content, start by copying a nearby mascot or lorelog file and editing the frontmatter fields rather than improvising a new schema.
+## Git state
 
----
+Git history is part of the archive state.
 
-## Contributing
+Renames, deletions, migrations, reindexing passes, and structural refactors are considered primary archival events rather than development noise. A commit may alter classification without resolving it. A clean tree does not imply a stable ontology.
+Classifications are not guaranteed to persist across time.
 
-This project is primarily an art/fiction archive built on top of real-world failure patterns. If you want to contribute:
+## Rendering
 
-- New mascots: add a file under `src/content/docs/mascots/` and follow an existing frontmatter schema.
-- New incidents: add a `src/lorelog/LLG-XXXX-XXX.md` entry and use the established Lorelog fields (`severity`, `disposition`, `resolution`, etc.).
+The site is static. The records are not.
 
-Issues and PRs for content, lore corrections, and small presentation fixes are welcome. Large refactors should preserve the “static, flat-file archive” philosophy in `rules.md`.
+Astro and Starlight provide the delivery layer. Collection schemas, dossier components, and route mappings provide the retrieval surface.
 
----
+## System note
 
-## License
+This repository preserves content, linkage, and drift.
 
-See `LICENSE` if present. If not, treat this as a read-only archive of weird software lore unless otherwise clarified in the repo.
+It does not guarantee final classification. It guarantees retained evidence of classification attempts.
