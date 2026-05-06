@@ -24,7 +24,7 @@ const flexStringArray = z
 const canonicalId = z
   .union([z.number(), z.string()])
   .transform((v) => String(v).trim())
-  .refine((v) => v !== '' && v !== '???' && !Number.isNaN(Number(v)) || v.includes('-'), {
+  .refine((v) => (v !== '' && v !== '???' && (!Number.isNaN(Number(v)) || v.includes('-'))), {
     message: 'mascotId must be a real identifier — not ???, NAN, or empty',
   })
   .nullable()
@@ -65,6 +65,11 @@ export const mascots = defineCollection({
       rotAffinity: z.string().nullable().optional(),
       emotionalIntegrity: z.string().nullable().optional(),
       emotionalIntegrityBuffer: z.string().nullable().optional(),
+
+      role: z.string().nullable().optional(),
+      function: z.string().nullable().optional(),
+      emotionalTone: z.string().nullable().optional(),
+      haikuLog: z.array(z.string()).default([]),
 
       // DATES
       date: z.coerce.date().nullable().optional(),
