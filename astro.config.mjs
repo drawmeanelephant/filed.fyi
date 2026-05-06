@@ -43,13 +43,13 @@ export default defineConfig({
           { icon: 'github', label: 'GitHub', href: 'https://github.com/drawmeanelephant/filed.fyi' }
       ],
       sidebar: [
-          { label: 'Posts', autogenerate: { directory: 'posts' } },
-          { label: 'Guides', autogenerate: { directory: 'guides' } },
-          { label: 'Reference', autogenerate: { directory: 'reference' } },
           { label: 'Mascots', autogenerate: { directory: 'mascots' } },
           { label: 'Lorelog', autogenerate: { directory: 'lorelog' } },
           { label: 'Limericks', autogenerate: { directory: 'limericks' } },
           { label: 'Haikus', autogenerate: { directory: 'haikus' } },
+          { label: 'Posts', autogenerate: { directory: 'posts' } },
+          { label: 'Guides', autogenerate: { directory: 'guides' } },
+          { label: 'Reference', autogenerate: { directory: 'reference' } },
       ],
   }), alpinejs(), sitemap()],
 

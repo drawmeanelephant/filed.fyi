@@ -208,7 +208,7 @@ classify_type() {
   local p="$1"
   case "$p" in
     */content/docs/mascots/*)  echo "mascot" ;;
-    */content/lorelog/*)       echo "lorelog" ;;
+    */content/docs/lorelog/*)  echo "lorelog" ;;
     */content/docs/limericks/*)echo "limerick" ;;
     */content/docs/haikus/*)echo "haiku" ;;
     */src/content/*)           echo "content" ;;
@@ -620,7 +620,7 @@ write_lorelog() {
     echo "Project: $PROJECT_NAME"
     echo ""
 
-    if [[ ! -d "$PROJECT_DIR/src/content/lorelog" ]]; then
+    if [[ ! -d "$PROJECT_DIR/src/content/docs/lorelog" ]]; then
       echo "_No lorelog files found._"
       echo ""
       return
@@ -637,7 +637,7 @@ write_lorelog() {
       echo ""
       echo "<!-- STOP LORELOG FILE -->"
       echo ""
-    done < <(find "$PROJECT_DIR/src/content/lorelog" -type f | sort)
+    done < <(find "$PROJECT_DIR/src/content/docs/lorelog" -type f | sort)
   } > "$output_file"
 }
 
