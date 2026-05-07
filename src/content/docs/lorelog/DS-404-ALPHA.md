@@ -37,7 +37,7 @@ yamTeamsChannels:
   - slug: org-chart-entropy
     role: "Pinned relic in #merger-announcements."
 
-source_url: "https://filed.fyi/ds-404-alpha"
+source_url: "https://filed.fyi/lorelog/ds-404-alpha"
 ---
 
 ## Overview
