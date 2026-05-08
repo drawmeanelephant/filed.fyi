@@ -52,7 +52,22 @@ interface Props {
 
 const props = Astro.props as Props;
 
-const type = props.type ?? 'note';
+const rawType = props.type ?? 'note';
+
+const uiTypeMap: Record<string, 'note' | 'tip' | 'caution' | 'danger'> = {
+  oracle: 'tip',
+  tribunal: 'caution',
+  audit: 'note',
+  editorial: 'tip',
+  doctrine: 'danger',
+  relic: 'caution',
+  incident: 'note',
+  containment: 'danger',
+  sermon: 'danger',
+  ascension: 'tip'
+};
+
+const type = uiTypeMap[rawType] ?? 'note';
 let title = props.title;
 const iconProp = props.icon;
 const key = (iconProp?.toLowerCase?.() ?? type);
@@ -136,14 +151,6 @@ const brosideAccentStyles: Record<string, string> = {
 
   banana: "text-[#ec4899]"
 };
-
-if (!asideVariants.includes(type)) {
-  throw new AstroError(
-    'Invalid `type` prop passed to the `<Aside>` component.\n',
-    `Received: ${JSON.stringify(type)}\n` +
-      `Expected one of ${asideVariants.map((i) => JSON.stringify(i)).join(', ')}`
-  );
-}
 
 if (!title) {
   title = Astro.locals.t(`aside.${type}`);
