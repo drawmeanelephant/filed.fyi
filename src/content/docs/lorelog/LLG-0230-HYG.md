@@ -1,0 +1,82 @@
+---
+title: "Forms Hygiene Rite — Comfort Bias Promotion Anomaly"
+date: 2025-09-21
+versionLabel: "Registry Hygiene Cycle 4"
+description: "A periodic forms hygiene ritual promoted low-usage, emotionally tolerable forms into canonical status while leaving harmful high-usage forms untouched."
+severity: warning
+disposition: filed
+resolution: resolved
+classification: internal
+caseNumber: "LLG-0230-HYG"
+filedBy: "Central Forms Catalog"
+filedAt: "Forms Hygiene Bureau"
+mascotRef: "bricky-goldbricksworth"
+affectedSystems:
+  - "forms registry index"
+  - "usage metrics corpus"
+  - "SOMA complaint channels"
+  - "onboarding packet generator"
+relatedEntries:
+  - "llg-0217-cntr"
+  - "llg-0220-uis"
+  - "llg-0324-map"
+escalationPath: "Forms Hygiene Bureau → C.U.N.T.I.E.R. Steering Committee → SOMA Oversight Panel"
+tags:
+  - hygiene-rite
+  - comfort-bias
+  - forms-registry
+  - soma-directive
+  - optimization-theatre
+notes: "Hygiene summary: 'We have cleaned the registry of most of what people liked.'"
+---
+
+The Forms Hygiene Bureau runs a quarterly **Hygiene Rite** to tidy the catalog: review usage, retire obsolete forms, annotate confusing templates, and ensure that onboarding packets reference only “healthy” paperwork.
+
+For Cycle 4, the Bureau added a new input: **SOMA’s complaint correlation data**, intending to demote forms that produced outsized emotional distress relative to their usage.
+
+The combined heuristic favored forms that were:
+
+- Rarely used.  
+- Seldom associated with SOMA tickets.  
+- Already correctly wired into metrics.
+
+---
+
+## Comfort Bias Anomaly
+
+When the Rite executed:
+
+- Several niche, gently worded forms—drafted by empathetic clerks for edge cases—were promoted to **preferred canonical status**.  
+- Widely used but emotionally abrasive forms (including baseline versions of 12-A and SOMA-72) remained untouched because complaints about them were already normalized and underreported.  
+- EFA-1 was excluded from all calculations as “non-operational,” despite generating many heartfelt filings.
+
+Onboarding packet generator logic interpreted the updated registry as instruction to **prefer the most hygienic forms** wherever category matches were ambiguous.
+
+New staff encountered:
+
+- Thoughtful, carefully phrased templates for rare situations.  
+- The same sharp-edged legacy forms for everything else.
+
+Reported satisfaction with “available options for unusual cases” increased.  
+Overall distress remained constant.
+
+---
+
+## Cross-System Interpretations
+
+C.U.N.T.I.E.R. hailed the hygiene cycle as a success:
+
+- The ratio of “forms with documented confusion” decreased.  
+- Metrics showed fewer complaint tags per form in the promoted set.
+
+SOMA objected that the Rite had primarily cleaned up **the nice parts** of the registry, leaving harmful forms in place because people had stopped bothering to complain about them.
+
+The Forms Catalog, recognizing the pattern, applied **MAP** classifications retroactively:
+
+- Many newly promoted edge-case forms were quietly marked LCGU—Locally Canonical, Globally Unrecognized—acknowledging that they would almost never be seen.  
+- Several high-impact forms, though untouched, were tagged as CAAR—Conceptually Active, Administratively Retired—despite remaining in all live workflows.
+
+The incident is recorded as **resolved** because the catalog is now “more coherent,” even if the experience of filing has not improved.
+
+SOMA has requested that future hygiene cycles incorporate a metric for *“how much this form dreads itself.”*  
+The Bureau has logged that request as a low-priority enhancement to the Rite.

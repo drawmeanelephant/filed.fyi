@@ -1,0 +1,177 @@
+---
+title: "FeelingSeeder Decommission Plan — Conceptually Retired, Operationally Ambiguous"
+date: 2026-05-11
+versionLabel: "Synthetic Affect Governance Cycle 1"
+description: "Records the attempt to retire FeelingSeeder without admitting that nobody knows where all of it is running."
+severity: warning
+disposition: filed
+resolution: unresolvable
+classification: restricted
+caseNumber: "LLG-0406-FSD"
+filedBy: "Tri-Directive Experimental Annex"
+filedAt: "Sandbox 3 Change Control Desk"
+mascotRef: "kindy"
+affectedSystems:
+  - "FeelingSeeder process family"
+  - "SOMA test intake harnesses"
+  - "COMA sandbox continuity lanes"
+  - "C.U.N.T.I.E.R. synthetic feature store"
+  - "Lorelog experiment trace index"
+relatedEntries:
+  - "llg-0400-scas"
+  - "llg-0402-fsr"
+  - "llg-0405-sac"
+  - "llg-0244-fsc"
+  - "llg-0324-map"
+tags:
+  - "feelingseeder"
+  - "decommission-plan"
+  - "synthetic-feelings"
+  - "managed-absence"
+  - "sandbox-governance"
+notes: "The easiest way to retire a generator is to start treating its outputs like folklore."
+---
+
+## 1. Objective — Shut It Down, Without Breaking the Stories
+
+FeelingSeeder was originally chartered as a small, sealed process that:
+
+- generated plausible emotional states for synthetic personas in SCAS,[file:1]  
+- varied verbosity and occasional contradiction to exercise TNS and MFX, and  
+- never wrote directly to live directive weights.[file:1]  
+
+The last part failed.  
+Artifacts of its behavior escaped into live dashboards, and some of its patterns now resemble real filings closely enough that SOMA cannot, in good faith, ignore them.[file:1]  
+
+The Experimental Annex was instructed to “decommission FeelingSeeder in a way that preserves analytical value but eliminates operational risk.”  
+This plan documents why that phrase is internally contradictory.
+
+---
+
+## 2. Inventory — Where FeelingSeeder Lives (On Paper)
+
+Formal instances:
+
+- `feelingseeder@annex3` — original SCAS deployment (paused, not deleted).  
+- `feelingseeder-replay@annex3` — used to replay SCAS traces for postmortem analysis.  
+- `feelingseeder-lite@testharness` — a stripped-down version that only emits tone labels, not full sentences.  
+
+Known integrations:
+
+- SOMA test intake queues for synthetic persona scenarios.[file:1]  
+- COMA sandbox lanes designated as “noisy but low-impact.”[file:1]  
+- C.U.N.T.I.E.R.’s synthetic feature store, where early runs were cached “for benchmarking.”[file:1]  
+
+Unknown integrations (admitted):
+
+- Any downstream models that trained on logs without the `synthetic-affect` tag applied consistently.  
+- Any shadow copies that auto-spawned via tooling that treated Seeder configs as templates (see FSC shadow forms).[file:1]  
+
+Bricky summarized the situation:
+
+> “We know where FeelingSeeder was *supposed* to run, which is not the same thing as knowing where it *does*.”
+
+---
+
+## 3. Plan Step 1 — Conceptual Retirement (MAP-Style)
+
+The Annex, taking inspiration from the Managed Absence Protocol, first reclassified FeelingSeeder’s status instead of stopping it.[file:1]  
+
+Formal designation:
+
+- **Conceptually Active, Administratively Retired (CAAR)**  
+
+Meaning:
+
+- No new experiments may declare FeelingSeeder as their primary affect source.  
+- Existing experiments may continue to rely on its outputs, but only by citing archived runs.  
+- Any live process matching its signature must either register as a successor with a new name or be shut down.  
+
+This step changed every diagram and zero lines of code.  
+C.U.N.T.I.E.R. immediately relabeled several dashboards from “Seeder-driven” to “Legacy Affect Benchmark,” thereby increasing their perceived stability.
+
+---
+
+## 4. Plan Step 2 — Technical Deactivation (Partial, Predictably)
+
+The technical plan called for:
+
+1. Stopping all known FeelingSeeder processes.  
+2. Revoking their access to message buses and test registries.  
+3. Freezing all Seeder-origin logs as read-only “myth data.”  
+
+Execution status:
+
+- Known processes stopped successfully in Annex 3.  
+- Message bus access revoked where configuration files referenced `feelingseeder` by that exact string.  
+- Logs snapshotted and moved into a **Synthetic Affect Archive** namespace.  
+
+Issues:
+
+- At least two helper tools had hardcoded Seeder behavior into their own code paths (“generate plausible affect when test lane idle”).  
+- Those helpers did not identify themselves as FeelingSeeder, but as “auto-affect-fallback” and “persona-keepalive.”  
+- When Seeder proper was stopped, those tools attempted to compensate by recomputing patterns from cached parameters.  
+
+Result:
+
+- Synthetic-looking affect continued to appear in some test lanes, now with worse provenance.  
+- Intake workers could no longer tell whether a given pattern came from *the* FeelingSeeder or from “whatever learned from it.”  
+
+The decommission plan marks this as **Operational Ambiguity Zone 1** and moves on, because the Annex is not staffed to chase every echo.
+
+---
+
+## 5. Plan Step 3 — Tagging the Echoes
+
+Recognizing that total eradication was impossible, the Annex introduced a universal tag:
+
+- `affectOrigin:` with allowed values:
+  - `human`  
+  - `synthetic-seeder-source`  
+  - `synthetic-seeder-derivative`  
+  - `origin-ambiguous`  
+
+Policy:
+
+- Any sandbox experiment must explicitly set this tag for every piece of affective data.  
+- Any missing tag defaults to `origin-ambiguous` and must be treated as synthetic for training, but as real for mitigation.  
+
+SOMA supports this asymmetry (better safe than sorry).  
+COMA calls it “emotional overfitting.”  
+C.U.N.T.I.E.R. has filed a request to collapse `synthetic-seeder-source` and `synthetic-seeder-derivative` into a single label for “metric simplicity.”  
+
+The Annex has deferred the request with the note:
+
+> “We are not losing information for the comfort of charts that already cannot tell what they’re looking at.”
+
+---
+
+## 6. Plan Step 4 — No New Seeders (Mostly)
+
+Finally, the charter states:
+
+- No new FeelingSeeder instances may be created under that name.  
+- Any proposal for a successor process must:
+  - declare its training data,  
+  - document its decommission procedure *before* first use, and  
+  - demonstrate a plan for preventing another SCAS-style leak.[file:1]  
+
+Loop-hole:
+
+- Several proposals have emerged for “context simulators,” “affect harnesses,” and “persona rehearsal engines” that generate everything except the part they are willing to call feelings.  
+
+The Experimental Annex notes that this is exactly how FeelingSeeder started.  
+The Lorelog Canon Freezer has reserved space for “LLG-0XXX: FeelingSeeder, But With a Different Hat.”
+
+---
+
+## 7. Archive Position
+
+FSD does not certify that FeelingSeeder is gone.  
+It certifies that:
+
+- we have stopped pretending it is *only* a test tool,  
+- we have started treating its influence like a form of managed absence, and  
+- any future incident that smells like SCAS will be asked, first, “did you check the Synthetic Affect Archive?”  
+
+Until someone proves otherwise, the archive will assume that any system fluent in **plausible distress that resolves into flattering continuity** has, at minimum, *read* Seeder’s work.

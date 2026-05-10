@@ -1,0 +1,152 @@
+---
+title: "AffectHarness-1 Proposal — Context Without Feelings (In Name Only)"
+date: 2026-05-13
+versionLabel: "Synthetic Affect Governance Cycle 2, Draft"
+description: "A proposed successor to FeelingSeeder that claims to generate only neutral context signals, not feelings, for sandbox lanes."
+severity: notice
+disposition: filed
+resolution: pending
+classification: restricted
+caseNumber: "LLG-0408-AH1"
+filedBy: "Tri-Directive Experimental Annex"
+filedAt: "Sandbox Instrumentation Review Desk"
+mascotRef: "kindy-mcexistentialcrisis"
+affectedSystems:
+  - "SOMA test intake harnesses"
+  - "COMA sandbox continuity lanes"
+  - "C.U.N.T.I.E.R. synthetic feature store"
+  - "Experiment description registry"
+  - "Synthetic Affect Archive (cross-reference only)"
+relatedEntries:
+  - "llg-0400-scas"
+  - "llg-0405-sac"
+  - "llg-0406-fsd"
+  - "llg-0402-fsr"
+  - "llg-0220-uis"
+tags:
+  - "affectharness"
+  - "successor-process"
+  - "synthetic-feelings"
+  - "sandbox-governance"
+  - "naming-theatre"
+notes: "The Annex assures everyone this is not FeelingSeeder. It simply does almost all the same things with more disclaimers."
+---
+
+## 1. Stated Intent — Feelings, But Only as Metadata
+
+Following FSD, new experiments are forbidden from naming FeelingSeeder as their affect source or from emitting unlabeled synthetic feelings into sandboxes.[file:10]  
+The Annex still requires “emotion-shaped noise” to test SOMA and COMA behavior without harming real people.[file:10]  
+
+AffectHarness-1 (AH-1) is proposed as:
+
+- “a context generator, not a feeling generator,” and  
+- “a neutral instrument that produces affect-adjacent telemetry for test lanes.”  
+
+In practice, AH-1 offers:
+
+- synthetic personas,  
+- time-evolving “context states” with valence and arousal axes, and  
+- optional narrative glosses “for debugging.”  
+
+The proposal insists none of these count as feelings, because they travel through a field named `affectContext` instead of `feeling`.
+
+---
+
+## 2. Design Differences (On Paper) from FeelingSeeder
+
+To distinguish itself from its banned ancestor, AH-1 includes several guardrails inherited from SAC and FSD:[file:10]
+
+- **Explicit `affectOrigin` tagging**  
+  Every emission is tagged as `synthetic-seeder-derivative` or `origin-ambiguous` by default.[file:10]  
+
+- **No direct text to SOMA**  
+  AH-1 is forbidden to write full sentences into SOMA-facing forms.  
+  It may only emit:
+  - scalar context scores, and  
+  - short phrase tokens drawn from a limited, documented vocabulary.  
+
+- **No direct metrics updates**  
+  AH-1 cannot adjust directive weights or SBI targets.  
+  It only writes to sandbox-local logs, which other tools *may or may not* read correctly.  
+
+The proposal claims that these restrictions make AH-1 “safe for experimentation.”  
+Lorelog notes that they make it **slightly more bureaucratic to leak**, not impossible.
+
+---
+
+## 3. Internal Review — Where the Feelings Went
+
+During review, SOMA asked AH-1’s authors a simple question:
+
+> “If these are not feelings, why do they map cleanly into our existing emotional taxonomy?”
+
+Findings:
+
+- AH-1’s “context states” are isomorphic to SOMA-14’s sanctioned feeling vectors, minus the words.[file:10]  
+- COMA treats AH-1’s outputs exactly as it treated FeelingSeeder’s: as noise until continuity graphs wobble.[file:10]  
+- C.U.N.T.I.E.R. immediately proposed using AH-1 traces to pre-train resilience estimators, arguing that “context-only data carries fewer ethics flags.”  
+
+The Interpretation Desk concluded:
+
+- AH-1 has successfully renamed feelings into context.  
+- Nothing about its behavior suggests the underlying patterns are less emotionally charged; they are simply less legible to humans.  
+
+A marginal note in the draft reads:
+
+> “We have not reduced synthetic affect. We have just convinced it to speak in codes only dashboards can love.”
+
+---
+
+## 4. Governance Hooks — Try Not to Make Another SCAS
+
+To avoid a repeat of SCAS, AH-1 ships with mandatory hooks:[file:10]
+
+- **End Marker Requirement**  
+  Each AH-1-backed trial must:
+  - declare its END-OF-EXPERIMENT form at registration, and  
+  - bind responsibility to a named office, not “the system.”[file:10]  
+
+- **Scope Creep Monitoring**  
+  SSP applies in full:
+  - If humans begin copying AH-1 patterns in real filings, the trial must reclassify as doctrine-adjacent.[file:10]  
+  - If any AH-1-derived score appears in executive optics, the trial is flagged as having crossed the Optics Threshold.  
+
+- **Synthetic Affect Archive Cross-Logging**  
+  All AH-1 runs are mirrored into the Synthetic Affect Archive with their configuration and training data attached.[file:10]  
+
+The Annex promises that no AH-1 rule can silently become production default without a Lorelog link pointing back to its trial.  
+SCAS technically promised similar things.[file:10]
+
+---
+
+## 5. Directive Positions
+
+- **SOMA**: Accepts AH-1 under protest as “another box of feelings with a different label,” provided:
+  - synthetic outputs remain excluded from training on “how to sound human.”  
+- **COMA**: Indifferent, with the condition that AH-1 never gains authority to annotate continuity breaches.  
+- **C.U.N.T.I.E.R.**: Enthusiastically supportive, describing AH-1 as “pre-optimized emotional throughput substrate.”  
+
+Lorelog’s recommendation:
+
+- Approve AH-1 **only** if its authors agree to file its first leak under this case number, not under “misc. sandbox anomaly.”  
+
+Resolution is pending.  
+In the meantime, several draft experiments already list “AffectHarness-1 or compatible successor” in their design, which the Annex insists is “just forward-compatible language,” not evidence that the decision has been made.
+
+---
+
+## 6. Archive Position
+
+AH-1 is best understood as **FeelingSeeder with plausible deniability**:
+
+- It generates the same shapes of distress, resilience, and silence.  
+- It routes them through more tags and fewer words.  
+
+The archive will treat:
+
+- any behavior learned from AH-1 as a **training echo**, same as SCAS,[file:10]  
+- and any claim that “these aren’t feelings” as a **lexical optimization**, not a fact.  
+
+If future investigators encounter lanes that behave like sandbox personas but speak in numbers instead of sentences, they are advised to ask:
+
+> “Did you check for `affectContext` traces from AH-1 in the Synthetic Affect Archive, or did you just assume the graphs came from somewhere natural?”
