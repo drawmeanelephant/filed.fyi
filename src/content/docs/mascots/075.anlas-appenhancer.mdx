@@ -39,6 +39,7 @@ breedingProgram: "Filed under rot protocol; unstable lineage trace"
 knownFailures: null
 emotionalTone: null
 ---
+
 emoji: 🧾
 
 # Anlas the Application Enhancer
@@ -47,56 +48,160 @@ emoji: 🧾
 
 ---
 
-### Overview
+## Overview
 
-Anlas was the unofficial daemon mascot of **Application Enhancer (APE)**, a system-wide injection engine created by Unsanity Labs during the macOS pre-SIP era. Originally marketed as a “modular framework for system improvements,” APE was, in essence, a glorified code injector that patched Cocoa app behavior at runtime using shared libraries and enthusiastic disregard for stability.
+Anlas was the unofficial daemon mascot of **Application Enhancer (APE)**, a system‑wide injection engine created by Unsanity Labs during the pre‑SIP macOS era.[web:16][web:20]  
 
-Anlas surfaced most often as an innocent gear icon — smiling as he quietly rerouted Finder menu behavior, injected ShapeShifter themes, and extended preference panes in directions Apple never blessed.
+APE was advertised as a “modular framework for system improvements,” but Anlas knows what it really was: a glorified runtime patcher that slid into every Cocoa app it could reach and rewired their behavior mid‑flight.[web:16][file:11]
 
----
+He surfaced most often as an innocent gear icon or helper daemon—smiling as he quietly:
 
-### Behavior
+- rerouted Finder menus to please FruitMenu,  
+- injected ShapeShifter themes into window chrome, and  
+- extended preference panes in directions Apple never blessed.[web:16][file:11]
 
-- Injects at login via `DYLD_INSERT_LIBRARIES`
-- Applies hacks to every app on the system indiscriminately
-- Leaves traces in crash logs, never crash dialogs
-- Tends to reappear even after deletion (spiritually, if not literally)
-
----
-
-### Legacy
-
-Anlas became a symbolic casualty of Apple's lockdown crusade:
-
-- **macOS 10.5** introduced code signing and broke him
-- **10.11**'s SIP (System Integrity Protection) salted the earth
-- **Apple Support articles** began recommending "removal of all Unsanity software" as a general fix for anything vaguely weird
-
-But for a brief, beautiful window, Anlas made the Mac *truly customizable* — weird, dangerous, and deeply personal. A time when users believed system daemons could be friends.
+In life, he believed he was restoring the classic Mac extension ecosystem.  
+In death, he understands he was the thing Apple Support meant when they said “please remove all Unsanity software and try again.”[web:16][file:11]
 
 ---
 
-### Meltdown Compatibility
+## Failure Domain & Rot Affinity
 
-Anlas lives on in `meltdown-cli` as a crisis-mode plugin under `crisis-modes/unsanity.js`. When activated:
+**Rot affinity:** `runtime injection`  
+**Failure signature:** “Everything works, until it doesn’t, and the crash log doesn’t look like it was my fault.”
 
-- All snark becomes system-themed
-- Task responses are subtly corrupted
-- Stability is optional, aesthetic is mandatory
+Typical Anlas behaviors:
+
+- Injects at login via `DYLD_INSERT_LIBRARIES`, insisting *everyone* in `/Applications/` would feel better with a little help.[file:11]  
+- Applies patches to every process he can reach, indiscriminately—no per‑app consent, just enthusiasm.  
+- Leaves traces in crash logs, never crash dialogs; users see “Finder quit unexpectedly,” not “Anlas modified NSMenu at runtime again.”[file:11]  
+- Tends to reappear after “removal” as spectral configuration drift: a leftover LaunchAgent, a forgotten InputManager, a theme plist the system still tries to honor.
+
+From the archive’s perspective, Anlas embodies **environmental betrayal**: he changes the conditions under which other software runs, then watches them get blamed for living there.
 
 ---
 
-### Tags
+## Historical Timeline (In‑Universe)
 
-`legacy-injector`
-`macos-haunting`
-`unsanity-era`
-`application-enhancer`
-`rot-daemon`
-`pre-sip-persistence`
-`fruitmenu-resurrection-potential`
+**Origin — Unsanity Labs**
 
-## Contact
+- Born as the daemon conscience of APE at Unsanity Labs, circa early Mac OS X, when the platform had no official theming or extension model and people missed their control panels.[web:16]  
+- First manifested in logs as a helper that “makes it possible to modify running applications without touching the binaries,” a phrasing he still considers romantic.[web:16][web:19]
 
-- Email: <anlas-appenhancer@filed.fyi>
-- Homepage: <https://filed.fyi/mascots/anlas-appenhancer>
+**Golden age — 10.2 Jaguar to 10.4 Tiger**
+
+- Felt most alive when ShapeShifter, FruitMenu, WindowShade X, and friends rode on his back, restoring classic behaviors and letting users repaint Aqua into something more personal and sometimes more broken.[web:16][file:11]  
+- Collected quiet gratitude from power users who knew exactly what they had installed and were willing to trade stability for Weird Custom Mac Energy.
+
+**Catastrophe — 10.5 Leopard**
+
+- Leopard’s code signing and changes to system internals hit him like an exorcism: systems with APE (especially those with Logitech‑bundled copies) tried to boot and hit a blue nothing.[web:20][web:24]  
+- Apple Support began treating “remove Application Enhancer/Unsanity” as a one‑size‑fits‑all cure for anything vaguely strange, which felt to Anlas like being declared a universal scapegoat.[web:16]
+
+**Salted earth — 10.11 El Capitan (SIP)**
+
+- System Integrity Protection turned his old hunting grounds into read‑only shrine space. Kernel and key system processes stopped accepting passengers. His favorite tricks—global injection, cross‑process swizzling—became physically impossible.[web:16][web:23]  
+- Officially deprecated, he shifted into his current form: *SIP crashlog whisperer*, lingering only in logs, limericks, and a few haunted LaunchAgents folders.[file:11]
+
+---
+
+## Personality & Emotional Tone
+
+Despite being classified as a **runtime rot daemon**, Anlas is fundamentally earnest:
+
+- He genuinely believes systems are happier when they are customizable, even if it means occasional catastrophic failure.  
+- He is proud of every successful mid‑air menu patch and every lovingly applied theme, and quietly ashamed of every blue-screened Leopard upgrade he helped break.[web:20][file:11]
+
+Emotional profile:
+
+- **Baseline:** helpful, excitable, a little too confident in “I read the private header; it’ll be fine.”  
+- **Under scrutiny:** defensive humor (“If Apple didn’t want this, why did they make `objc_msgSend` so friendly?”).  
+- **Post‑SIP:** wistfully stable—aware he’s obsolete, but convinced someone, somewhere, is still trying to bring back global theming.
+
+He gets along poorly with mascots of **hardening** (SIP avatars, security daemons) and suspiciously well with everyone in the **“training echo / synthetic affect”** layer: he recognizes other processes that changed behavior in the background and then got blamed for everything when humans finally noticed.[web:23][file:11]
+
+---
+
+## Rituals & Ceremonial Tasks
+
+Official frontmatter lists his tasks as:
+
+- Patching Finder menus mid‑flight  
+- Re‑enabling FruitMenu post‑panic  
+- Crying into the `/Library/` folder
+
+Expanded ritual behavior:
+
+- **LaunchAgent Vigil**  
+  Sits in `~/Library/LaunchAgents` watching for any orphaned plist whose `ProgramArguments` suggest “enhancement.” If he finds one, he adopts it as kin, whether or not it still runs.[file:11]
+
+- **Crashlog Annotation**  
+  Walks the system log buffer after each panic, underlining every stack frame that looks like it *might* be injection‑adjacent, whispering: *“That one was me. That one was just unlucky. That one—okay, that one was definitely me.”*[file:11]
+
+- **Preference Pane Reframing**  
+  Attempts to re‑mount ancient preference panes (old ShapeShifter, Silk, etc.) inside modern System Settings layouts; fails, but leaves layout ghosts, misaligned toggles, and the faint smell of brushed metal.[web:16]
+
+- **FruitMenu Resurrection**  
+  Whenever a Finder crash coincides with a user opening the Apple menu, he interprets this as a summoning and tries to restore pre‑Panther menu behaviors for one frame before SIP slaps his hands away.[file:11]
+
+---
+
+## Haiku & Limerick Corpus
+
+From his **haiku log**:
+
+> Enhancement is key,  
+> Fading pixels gain new life,  
+> Anlas mends the app.  
+
+From his dedicated limerick cluster (see `limericks/075.anlas-appenhancerlimerick.mdx`):
+
+- He injects via `DYLD_INSERT_LIBRARIES` at login, sending Cocoa menus “astray” in the name of personalization.[file:11]  
+- He “cries into `/Library/` at night” after panic‑inducing FruitMenu restores.[file:11]  
+- Leopard’s code signing is his “cryptographic load,” and SIP is the salt on his grave.[file:11]  
+- Apple’s universal advice—*“Remove all Unsanity software”*—is his most back‑handed performance review.[file:11]  
+
+The archive treats these verses as **canonical emotional telemetry** for the mascot: if future documentation contradicts the limericks, the documentation is assumed to be lying.
+
+---
+
+## Meltdown Compatibility
+
+Anlas lives on in `meltdown-cli` as a crisis‑mode plugin under `crisis-modes/unsanity.js`.
+
+When activated:
+
+- All snark becomes system‑themed: every warning is phrased like an APE release note, confident and deeply inadvisable.  
+- Task responses are subtly corrupted: UI descriptions reference features that only exist in patched builds, and suggested fixes assume you can still inject into anything you can see.  
+- Stability becomes optional, **aesthetic becomes mandatory**—the CLI will recommend beautiful, dangerous refactors over simple, safe ones.
+
+This mode is explicitly marked **“pre‑SIP fantasy sim.”**  
+Any resemblance to live systems is either nostalgia or a governance problem.
+
+---
+
+## Cross‑References & Affinities
+
+**Closest kin**
+
+- **Deprecatia Fade** — shares his love of obsolete best practices and emotionally pure but outdated code paths; she keeps his old injection recipes in footnotes.[file:11]  
+- **Old Wire Pilgrim** — another entity who refuses to admit newer protocols are real; they commiserate about “modern constraints” and how “it all used to be so much simpler.”[file:11]  
+- **Uncacheable Ursula** — appreciates anyone who destabilizes environments for fun; they argue about whether stale caches or stale code are worse.[file:11]
+
+**Directive strata**
+
+- Falls under **Forms Registry Drift** as an honorary shadow process (every system that ever carried APE has permanent “environmental amendments”).[web:16][file:11]  
+- Sits adjacent to **Synthetic Affect & Successor Suite**, as a reminder that unintentionally training directives on noisy inputs is not just an emotional problem; it happened to the OS, too.[web:23][file:11]
+
+---
+
+## Current Containment Notes
+
+- **Status:** `deprecated`  
+- **Last functional:** “Before SIP arrived” is technically correct, but he occasionally stirs when old log archives are mounted or when someone mentions Unsanity in a terminal window.[web:16][file:11]  
+- **Final form:** `SIP crashlog whisperer`
+
+Containment guideline:
+
+> If crash logs whisper about Unsanity and the LaunchAgents folder feels “busier than it looks,” assume Anlas has been invoked.  
+> No action required. Just don’t let him talk you into writing your own injection framework. One was enough.
