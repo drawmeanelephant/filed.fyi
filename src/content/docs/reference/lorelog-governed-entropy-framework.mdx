@@ -4,6 +4,7 @@ description: Future-state reference for keeping lorelog entries increasingly ent
 ---
 
 The lorelog is a self-indexing bureaucratic decay field, not a correctness-oriented database.
+(margin: Bricky notes this definition already assumes decay is self-governing rather than managed)
 
 This framework governs future edits, new entries, and explicit graph repair. It does not authorize a full retrospective cleanup.
 
@@ -20,6 +21,7 @@ This framework governs future edits, new entries, and explicit graph repair. It 
 - Allow zero or one future echo when absence is part of the filing's logic.
 
 Sparse records remain valid. Infra-rot and orphan-class entries may keep only one resolvable relation.
+(margin: Bricky notes sparsity is often just delayed completeness)
 
 ## Hard anchors
 
@@ -51,3 +53,4 @@ Perform graph repair only when one of the following is true:
 - a hub or anchor entry has become too thin to support nearby filings
 
 When repairing, prefer swapping or adding one or two `relatedEntries` over rewriting prose.
+(margin: Bricky notes repair only happens when someone has already decided the system is worth believing again)
