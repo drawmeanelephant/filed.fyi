@@ -701,6 +701,86 @@ write_haikus() {
   } > "$output_file"
 }
 
+write_reference_tome() {
+  local output_file="$EXPORT_DIR/reference-tome.md"
+
+  {
+    echo "# Reference Tome"
+    echo ""
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
+    echo ""
+
+    local base="$PROJECT_DIR/src/content/docs/reference"
+
+    [[ ! -d "$base" ]] && echo "_No reference directory found._" && return
+
+    find "$base" -type f -name "*.md" -o -name "*.mdx" | sort | while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
+
+      local stem
+      stem="$(basename "$f" | sed 's/\.[^.]*$//')"
+
+      echo "## $stem"
+      echo ""
+      echo "_path: $relpath"
+      echo ""
+
+      echo "<!-- START REFERENCE FILE -->"
+      emit_file_block "$f" "$relpath" "$bytes"
+      echo ""
+      echo "<!-- STOP REFERENCE FILE -->"
+      echo ""
+    done
+
+  } > "$output_file"
+}
+
+write_empathegy_tome() {
+  local output_file="$EXPORT_DIR/empathegy-tome.md"
+
+  {
+    echo "# Empathegy Tome"
+    echo ""
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
+    echo ""
+    echo "_Scope: reference/empathegy only_"
+    echo ""
+
+    local base="$PROJECT_DIR/src/content/docs/reference/empathegy"
+
+    [[ ! -d "$base" ]] && echo "_No empathegy directory found._" && return
+
+    find "$base" -type f -name "*.md" -o -name "*.mdx" | sort | while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
+
+      local stem
+      stem="$(basename "$f" | sed 's/\.[^.]*$//')"
+
+      echo "## $stem"
+      echo ""
+      echo "_path: $relpath"
+      echo ""
+
+      echo "<!-- START EMPATHEGY FILE -->"
+      emit_file_block "$f" "$relpath" "$bytes"
+      echo ""
+      echo "<!-- STOP EMPATHEGY FILE -->"
+      echo ""
+    done
+
+  } > "$output_file"
+}
+
 # ── main execution ─────────────────────────────────────────────
 
 main() {
@@ -726,6 +806,8 @@ main() {
       write_lorelog
       write_limericks
       write_haikus
+      write_reference_tome
+      write_empathegy_tome
 
       log_info "Exporting components..."
       write_section_from_dir "Components" "$PROJECT_DIR/src/components" "COMPONENT" "$EXPORT_DIR/components.md"
