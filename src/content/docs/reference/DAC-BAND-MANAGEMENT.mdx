@@ -1,0 +1,154 @@
+---
+title: Dashboard Alignment Cell – Band Management Guide
+description: Internal guidance for aligning indicator bands with reinterpreted conditions.
+date: 2026-05-13
+versionLabel: Bandbook v1
+status: archived
+rotAffinity: optimization
+subject: dashboard optics, success bands, indicator drift
+systemAffiliation: Dashboard Alignment Cell
+tableOfContents: true
+---
+
+# Mandate
+
+The Dashboard Alignment Cell (DAC) ensures that:
+
+- indicators remain calm,
+- bands remain interpretable, and
+- narratives remain consistent with what the screen shows.
+
+It does not own the underlying systems.
+It owns how their traces are framed.
+
+---
+
+# Core Principles
+
+1. **No surprises from green.**  
+   If a band is green, stakeholders should not be startled by the narrative.
+
+2. **No lonely red.**  
+   Red bands are permitted where they already exist.  
+   New red bands require more justification than most problems.
+
+3. **Convergence over time.**  
+   When language softens, indicators should follow at the next convenient review.
+
+4. **Band drift is cheaper than rework.**  
+   It is often simpler to adjust thresholds than to adjust behavior.
+
+---
+
+# Band Widening Practices
+
+Where counts or rates begin to make bands uncomfortable:
+
+- **Widen the “normal” band** until recent history fits inside.
+- Re-label the former boundary as “legacy threshold (for training reference).”
+- Note that “no exceptional events breached current calm ranges.”
+
+Example transformation:
+
+- Before:  
+  - Incidents > 5/day = red.  
+- After review:  
+  - Incidents ≤ 10/day = green,  
+  - 10–15 = amber,  
+  - > 15 = red, “not observed in recent cycles.”
+
+The phenomenon did not improve.
+The range learned to accept it.
+
+---
+
+# Success-Class Consolidation
+
+To minimize visual noise, DAC may approve merging distinct states into a single success class.
+
+Common merges:
+
+- rendered + skipped + placeholder → “processed.”
+- present + deferred presence → “accounted-for.”
+- owned + independent unit → “covered.”
+
+Consolidation rules:
+
+- The merged class must retain a positive label.
+- Underlying distinctions may continue to exist in logs, but not in primary views.
+- Help text, if any, should emphasize completeness rather than content.
+
+Example tooltip:
+
+> “Processed: any item that has passed through the pipeline without generating a blocking error.”
+
+What counts as “blocking” is defined elsewhere, if at all.
+
+---
+
+# Indicator Alignment with Vocabulary
+
+When Assurance and Scan blocs introduce new terms:
+
+- “Curated absence” counts as present for coverage.
+- “Deferred presence” counts as present for inventory.
+- “Independent unit” counts as owned for responsibility bands.
+
+Dashboards should treat these as:
+
+- non-zero contribution to stability, and
+- zero contribution to visible deficit.
+
+If a term sounds positive, it may not drive a negative trend line.
+
+---
+
+# Handling Over-Saturation
+
+When a metric saturates (e.g., always at maximum):
+
+- Declare the indicator “mature.”
+- Freeze its scale and mark it as reference-only.
+- Shift attention to derived or ratio-based metrics that still vary.
+
+Recommended wording:
+
+- “This indicator has reached performance maturity and now serves as a baseline.”
+- “Variation is better observed through normalized derivatives.”
+
+The original bar continues to glow.
+Its meaning has quietly retired.
+
+---
+
+# Review Cycle Ritual
+
+At each review cycle:
+
+1. **Collect discomfort.**  
+   Gather notes where staff report that charts “feel wrong” given lived experience.
+
+2. **Check vocabulary.**  
+   Confirm that uncomfortable phenomena have been appropriately renamed (emergent, curated, independent).
+
+3. **Adjust bands.**  
+   Expand calm ranges to include newly named states.
+
+4. **Record justification.**  
+   File a short note: “Thresholds updated to align with observed stability.”
+
+These notes will read like calibration.
+They are not obliged to read like admission.
+
+---
+
+# Cautions
+
+DAC does not recommend:
+
+- introducing new red bands without explicit authorization,
+- using words like crisis, collapse, or failure within tooltips,
+- allowing a band name to contain the reason it might need to change.
+
+Band names should age well.
+Underlying conditions may do as they please.
