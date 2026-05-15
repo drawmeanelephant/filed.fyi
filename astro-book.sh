@@ -701,6 +701,36 @@ write_haikus() {
   } > "$output_file"
 }
 
+write_aphorisms() {
+  local output_file="$EXPORT_DIR/aphorisms.md"
+  {
+    echo "# Aphorisms"
+    echo ""
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
+    echo ""
+
+    if [[ ! -d "$PROJECT_DIR/src/content/docs/aphorisms" ]]; then
+      echo "_No aphorism files found._"
+      echo ""
+      return
+    fi
+
+    while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
+
+      echo "<!-- START APHORISM FILE -->"
+      emit_file_block "$f" "$relpath" "$bytes"
+      echo ""
+      echo "<!-- STOP APHORISM FILE -->"
+      echo ""
+    done < <(find "$PROJECT_DIR/src/content/docs/aphorisms" -type f | sort)
+  } > "$output_file"
+}
+
 write_reference_tome() {
   local output_file="$EXPORT_DIR/reference-tome.md"
 
@@ -806,6 +836,7 @@ main() {
       write_lorelog
       write_limericks
       write_haikus
+      write_aphorisms
       write_reference_tome
       write_empathegy_tome
 
