@@ -113,3 +113,19 @@ When adding a new mascot:
 Everything gets filed.  
 Not every failure gets a face.  
 Mascots are what happens when a particular wrongness refuses to stay abstract.
+
+{/* ...all your existing prose... */}
+
+---
+
+## Mascot Registry
+
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+
+*Deprecated interface personalities, sorted by identity instability.*
+
+<CollectionRegister 
+  collection="mascots"
+  exclude="index"
+  sortBy="mascotId"
+/>

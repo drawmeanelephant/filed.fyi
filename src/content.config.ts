@@ -213,3 +213,24 @@ export const collections = {
   changelog,
 };
 
+const haikus = defineCollection({
+  loader: glob({ base: './src/content/docs/haikus', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    title: z.string().optional(),
+    description: z.string().optional(),
+    artifactId: z.string().optional(),
+    date: z.coerce.date().optional(),
+    tags: z.array(z.string()).optional(),
+  }),
+});
+
+const aphorisms = defineCollection({
+  loader: glob({ base: './src/content/docs/aphorisms', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    title: z.string().optional(),
+    description: z.string().optional(),
+    artifactId: z.string().optional(),
+    date: z.coerce.date().optional(),
+    tags: z.array(z.string()).optional(),
+  }),
+});

@@ -64,3 +64,20 @@ If you are about to add a new cluster of weirdness, you have two jobs:
 Everything gets filed.  
 Not everything gets found.  
 This layer exists to narrow the gap without closing it.
+
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+
+**Classification:** Governing Documentation / Frozen Doctrine  
+**Status:** Nobody updates it. Everyone obeys it.
+
+{/* your prose... */}
+
+## Document Index
+
+<CollectionRegister 
+  collection="docs" 
+  filterPrefix="reference/" 
+  exclude="reference/index"
+  basePath=""
+  sortBy="title"
+/>
