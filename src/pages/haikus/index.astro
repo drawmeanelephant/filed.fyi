@@ -1,0 +1,42 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Haiku Annex — Compressed Failure States',
+    description: 'Index node for the haiku corpus, where incidents, mascots, and metrics collapse into seventeen syllables of procedural weather.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Poetic Telemetry</dd>
+  <dt>Status</dt>
+  <dd>Overfitted, oddly precise</dd>
+</dl>
+
+<hr />
+
+<p>The haikus directory contains seventeen-syllable summaries of incidents that were too dense for dashboards, weather reports for directive moods, and tiny epitaphs for forms, processes, and mascots that wouldn't sit still in prose.</p>
+
+<p>Each haiku is a <strong>lossy export</strong> of a larger docket — enough to remember the shape, not enough to reconstruct the paperwork.</p>
+
+<p>Treat them as pointers back to Lorelog cases, emotional indexes for entire eras, or calibration samples for how the system sounds when it tries to be honest and brief at the same time. They are not canonical. They are <strong>diagnostic snapshots</strong> that forgot to remain internal.</p>
+
+<p>If you know the feeling but not the case number, start here. Somewhere in this annex, that feeling has already been rhymed with something broken.</p>
+
+<h2>Annex Index</h2>
+
+<p><em>Sorted by title.</em></p>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="haikus/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>

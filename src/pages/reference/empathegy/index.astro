@@ -1,0 +1,36 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Empathegy Reference Index',
+    description: 'Index node for the Empathegy reference layer — doctrine, taxonomy, and the governance of care-shaped metrics.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Care Metrics Doctrine</dd>
+  <dt>Status</dt>
+  <dd>Active, contested</dd>
+</dl>
+
+<hr />
+
+<p>The Empathegy reference layer contains the taxonomy, doctrine sheets, and interpretive frameworks that govern how care, acknowledgment, and emotional continuity are measured, filed, and managed away.</p>
+
+<p>These documents define what the system is willing to call compassion. Read them alongside the Lorelog cases they correspond to — the doctrine is always cleaner than the incident.</p>
+
+<h2>Empathegy Document Index</h2>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="reference/empathegy/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>

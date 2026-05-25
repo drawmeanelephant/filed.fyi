@@ -1,0 +1,34 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Guides',
+    description: 'Navigational documents for moving through the archive without losing the thread entirely.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Navigational Aids</dd>
+  <dt>Status</dt>
+  <dd>Optimistic, partially accurate</dd>
+</dl>
+
+<hr />
+
+<p>Guides are navigational documents. They exist to help readers find their way through sections of the archive that resist being found. They do not guarantee arrival.</p>
+
+<h2>Guide Index</h2>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="guides/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>

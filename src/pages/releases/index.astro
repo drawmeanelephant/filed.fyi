@@ -1,0 +1,34 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Releases',
+    description: 'Versioned archival state declarations. Each entry is a snapshot of what the system agreed it was.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Archival State Declarations</dd>
+  <dt>Status</dt>
+  <dd>Ceremonial versioning only</dd>
+</dl>
+
+<hr />
+
+<p>Releases are not software deploys. They are moments where the archive acknowledged its own shape and filed the acknowledgment. Each version number is a claim about stability, not a guarantee of it.</p>
+
+<h2>Release Index</h2>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="releases/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>

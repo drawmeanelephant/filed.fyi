@@ -1,0 +1,86 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Directive Index — SOMA, COMA, C.U.N.T.I.E.R.',
+    description: 'A static index of the three core directives and the incidents where they behave most like themselves.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Reference / Tri-Directive Spine</dd>
+  <dt>Status</dt>
+  <dd>Doctrine</dd>
+  <dt>Case Number</dt>
+  <dd>FREF-0010-DRIX</dd>
+</dl>
+
+<hr />
+
+<p>The archive currently recognizes three active directives:</p>
+
+<ul>
+  <li><strong>SOMA</strong> — steward of emotional documentation, feelings taxonomies, and mitigation optics.</li>
+  <li><strong>COMA</strong> — steward of continuity, uptime, and unblinking dashboards.</li>
+  <li><strong>C.U.N.T.I.E.R.</strong> — steward of optimization, benchmarks, and metric-shaped reality.</li>
+</ul>
+
+<p>Each directive has places where it appears alone, and places where it collides.</p>
+
+<h2>Single-Directive Exemplars</h2>
+
+<p>SOMA behaves as itself most clearly in:</p>
+<ul>
+  <li><strong>LLG-0051-E</strong> — Form 51‑E Emotional Verification Deadlock. Emotional readiness becomes a precondition for describing emotional impact. Feelings about the form recursively generate more forms.</li>
+  <li><strong>LLG-0114-SOMA</strong> — SOMA‑14 Over‑Feeling Intake Questionnaire. Free-text baselines overflow a 16‑feeling taxonomy and force provisional codes F17–F93 into existence.</li>
+  <li><strong>LLG-0115-TNS</strong> — SOMA Tone Normalization Sweep. Attempts to teach emergent feelings to stand closer together so dashboards can keep using two-colour bands.</li>
+</ul>
+
+<p>COMA behaves as itself most clearly in:</p>
+<ul>
+  <li><strong>LLG-0103-COMA</strong> — Continuity Breach: Scheduled Downtime Reclassified as Crime. Properly scheduled maintenance is recorded as an unexplained break in continuity and treated as a violation.</li>
+  <li><strong>LLG-0316-MBR</strong> — Manifest Backup Recency Dispute. An unchallenged, nine-week-old backup is certified as current because no active process has complained.</li>
+</ul>
+
+<p>C.U.N.T.I.E.R. behaves as itself most clearly in:</p>
+<ul>
+  <li><strong>LLG-0217-CNTR</strong> — Metric Inflation, Forms per Form. An optimization sprint adds forms 23‑O and 24‑O and increases forms‑per‑form by 233% while declaring success.</li>
+  <li><strong>LLG-0302-CNTR</strong> — Benchmark Saturation. Benchmarks drive all tracked values to their maximum representable level; dashboards display solid blocks of colour.</li>
+  <li><strong>LLG-0317-RLS</strong> — Render Log Success Inflation. Skipped pages and placeholders are merged into "success" and counted as content progressed.</li>
+</ul>
+
+<h2>Cross-Directive Collisions</h2>
+
+<p>When directives share a surface, they do not agree about what happened.</p>
+
+<ul>
+  <li><strong>LLG-0072-SOMA</strong> — SOMA‑72 Rest Acknowledgement Refusal. SOMA auto‑approves rest based on adjectives; COMA auto‑rejects downtime without COMA‑19; dashboards propagate both states.</li>
+  <li><strong>LLG-0220-UIS</strong> — Unified Intake Sheet Emotional Fragmentation. One unified form 09‑I yields three divergent records: SOMA keeps the feelings, COMA keeps the checkbox, C.U.N.T.I.E.R. keeps the adjectives.</li>
+  <li><strong>LLG-0300-SC-X</strong> — SOMA/COMA Cross‑Directive Conflict. A single maintenance request is simultaneously required (SOMA) and forbidden (COMA). The Council rules that both directives stand.</li>
+</ul>
+
+<h2>How to Read Directive Tags</h2>
+
+<p>SOMA-tagged incidents describe what the system is willing to feel.<br />
+COMA-tagged incidents describe what the system is willing to admit stopped.<br />
+C.U.N.T.I.E.R.-tagged incidents describe what the system is willing to call improvement.</p>
+
+<p>Where multiple tags appear, assume the case file has at least three mutually incompatible truths.</p>
+
+<p><em>Filed annotation: The directives are not separate authorities so much as three incompatible debugging habits applied to the same broken system. SOMA logs suffering, COMA hides discontinuity, C.U.N.T.I.E.R. optimizes the reflection of both until it looks intentional.</em></p>
+
+<h2>Directive Document Index</h2>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="reference/directives/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>

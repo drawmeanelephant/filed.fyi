@@ -1,0 +1,64 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Mascot Registry',
+    description: 'Index node for failure-shaped mascots, interface ghosts, and identity fossils preserved in the Filed & Forgotten archive.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Persona Graveyard</dd>
+  <dt>Status</dt>
+  <dd>Culturally overpopulated, structurally necessary</dd>
+  <dt>Containment</dt>
+  <dd>Labeled drawers, leaking slightly</dd>
+</dl>
+
+<hr />
+
+<p>Mascots are not branding. They are <strong>debug symbols with feelings</strong> — records of how a system broke in public and the face it wore while doing it. Names wobble. Failure signatures stay consistent.</p>
+
+<p>Each entry encodes a mascot's <strong>failure shape</strong>: the specific category of wrongness it belongs to, which Lorelog cases called it forth, and which layers of the archive it haunts.</p>
+
+<p>If you see the same <code>mascotRef</code> across multiple case files, assume the same category of problem is trying to get your attention.</p>
+
+<h2>Taxonomy</h2>
+
+<p>Descriptive, not authoritative. Mascots cross boundaries when failure types start to rhyme.</p>
+
+<ul>
+  <li><strong>Navigation Ghosts</strong> — missing pages, dead links, feelings with nowhere to go. (404sy McLostalot)</li>
+  <li><strong>Continuity Clerks</strong> — continuity breaches, uptime theatre, over-filed contradictions. (Bricky Goldbricksworth)</li>
+  <li><strong>Emotional Liaisons</strong> — emotional overflow, meta-feelings, intake spiral. (Kindy McExistentialCrisis)</li>
+  <li><strong>Protocol Spirits</strong> — thermal events, HTTP status theatre, form-bound behavior. (Boily McPlaterton, Teapotta Protocol)</li>
+  <li><strong>Morale &amp; Metrics Entities</strong> — fake kindness, gratitude graphs, comfort without change. (Serotonin Sam)</li>
+  <li><strong>Archive-Aligned Weirdos</strong> — consent loops, opt-out failures, narrative survival. (Friendrick the Extant)</li>
+</ul>
+
+<h2>Behavioral Rules</h2>
+
+<ol>
+  <li>Mascots are failure signatures. They must remain attached to specific kinds of wrongness.</li>
+  <li>No new mascot without at least one Lorelog case proving which failure it belongs to.</li>
+  <li>A mascot may change aesthetics. It may not change its failure domain without filing an identity drift incident.</li>
+  <li>If UI copy treats a mascot as a cheerleader rather than a witness, the archive may repossess it.</li>
+  <li>Mascot frontmatter is canon for where that ghost is allowed to appear.</li>
+</ol>
+
+<h2>Registry</h2>
+
+<p><em>Sorted by mascot ID. Unnumbered entries follow alphabetically.</em></p>
+
+<CollectionRegister
+  collection="mascots"
+  exclude="index"
+  sortBy="mascotId"
+/>
+
+</StarlightPage>

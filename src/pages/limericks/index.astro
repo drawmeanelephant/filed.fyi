@@ -1,0 +1,44 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Limerick Yard — Rhymed Noncompliance',
+    description: 'Index node for the limerick corpus, where governance failures and mascots are preserved in five-line jokes that shouldn\'t be admissible but are.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Comic Relief Layer</dd>
+  <dt>Status</dt>
+  <dd>Excessive, structurally accurate</dd>
+</dl>
+
+<hr />
+
+<p>The limericks directory contains five-line narratives about incidents that would otherwise be unbearable, mascot biographies written in the meter of bad decisions, and rhyme-schemed summaries of doctrine drift and metrics theatre.</p>
+
+<p>They function as <strong>unauthorized executive summaries</strong>: too flippant for dashboards, too specific to be dismissed.</p>
+
+<p>Use limericks when you want to see how a governance pattern feels from the bottom of the form, to recognize a recurring failure by its punchline, or to triangulate an incident you half-remember by the fact it once scanned.</p>
+
+<p>They are not policy. They are the jokes the archive tells about itself when it thinks COMA isn't listening.</p>
+
+<p>If a case file feels heavy, there is probably a limerick version of it here. Read at your own risk; some punchlines are binding.</p>
+
+<h2>Limerick Index</h2>
+
+<p><em>Sorted by title.</em></p>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="limericks/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>

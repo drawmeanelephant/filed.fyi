@@ -43,13 +43,18 @@ export default defineConfig({
           { icon: 'github', label: 'GitHub', href: 'https://github.com/drawmeanelephant/filed.fyi' }
       ],
       sidebar: [
-          { label: 'Mascots', items: [{ autogenerate: { directory: 'mascots' } }] },
-          { label: 'Lorelog', items: [{ autogenerate: { directory: 'lorelog' } }] },
-          { label: 'Limericks', items: [{ autogenerate: { directory: 'limericks' } }] },
-          { label: 'Haikus', items: [{ autogenerate: { directory: 'haikus' } }] },
-          { label: 'Posts', items: [{ autogenerate: { directory: 'posts' } }] },
-          { label: 'Guides', items: [{ autogenerate: { directory: 'guides' } }] },
-          { label: 'Reference', items: [{ autogenerate: { directory: 'reference' } }] },
+          { label: 'Mascots', items: [{ label: 'Index', link: '/mascots' }] },
+          { label: 'Lorelog', items: [{ label: 'Index', link: '/lorelog' }] },
+          { label: 'Limericks', items: [{ label: 'Index', link: '/limericks' }] },
+          { label: 'Haikus', items: [{ label: 'Index', link: '/haikus' }] },
+          { label: 'Posts', items: [{ label: 'Index', link: '/posts' }] },
+          { label: 'Guides', items: [{ label: 'Index', link: '/guides' }] },
+          { label: 'Reference', items: [
+              { label: 'Index', link: '/reference' },
+              { label: 'Empathegy', link: '/reference/empathegy' },
+              { label: 'Directives', link: '/reference/directives' },
+              { label: 'Forms', link: '/reference/forms' },
+          ] },
       ],
   }), alpinejs(), sitemap()],
 

@@ -1,0 +1,38 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Aphorism Index',
+    description: 'Index node for the aphorism corpus — compressed doctrine, procedural wisdom, and institutional bad faith in single-sentence form.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Compressed Doctrine</dd>
+  <dt>Status</dt>
+  <dd>Dense, unapologetic</dd>
+</dl>
+
+<hr />
+
+<p>Aphorisms are the archive's shortest artifacts: one sentence, one failure shape, no context supplied. They do not explain themselves. They assume you already know what went wrong and want it named cleanly.</p>
+
+<p>Each aphorism is attached to a mascot, directive, or incident cluster. Together they form an unofficial style guide for how this system talks about its own dysfunction.</p>
+
+<h2>Aphorism Index</h2>
+
+<p><em>Sorted by title.</em></p>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="aphorisms/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>
