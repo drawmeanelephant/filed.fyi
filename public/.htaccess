@@ -1,0 +1,11 @@
+ErrorDocument 400 /mascots/bad-request-bob/
+ErrorDocument 401 /mascots/unauthorized-ursula/
+ErrorDocument 403 /mascots/htaccessius-the-doorman/
+ErrorDocument 404 /mascots/404sy-mclostalot/
+ErrorDocument 405 /mascots/method-not-allowed-mel/
+ErrorDocument 408 /mascots/the-half-held-breath/
+ErrorDocument 410 /mascots/vacancy-notice/
+ErrorDocument 500 /mascots/panic-clerk-gerald/
+ErrorDocument 502 /mascots/bad-gateway-greg/
+ErrorDocument 503 /mascots/servicey-unavailabelle/
+ErrorDocument 504 /mascots/the-unanswered-knock/

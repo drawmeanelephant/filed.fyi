@@ -2,13 +2,13 @@ import starlight from '@astrojs/starlight'
 import { defineConfig } from 'astro/config'
 
 
-import tailwindcss from '@tailwindcss/vite';
-
 
 import alpinejs from '@astrojs/alpinejs';
 
 
 import sitemap from '@astrojs/sitemap';
+
+import tailwindcss from '@tailwindcss/vite';
 
 const cloudflareAnalytics = () => ({
   name: "cloudflare-web-analytics",
@@ -33,6 +33,7 @@ const cloudflareAnalytics = () => ({
 
 export default defineConfig({
   site: 'https://filed.fyi',
+
   integrations: [cloudflareAnalytics(), starlight({
       title: 'Filed & Forgotten',
       disable404Route: true,
