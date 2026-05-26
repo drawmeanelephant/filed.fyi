@@ -1,0 +1,69 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Directive Conflicts',
+    description:
+      'Index for SOMA/COMA/C.U.N.T.I.E.R. collisions, cross-certifications, and unresolved directive splits.',
+    tableOfContents: false,
+  }}
+>
+  <dl>
+    <dt>Classification</dt>
+    <dd>Reference / Tri-Directive Fault Lines</dd>
+    <dt>Status</dt>
+    <dd>Persistently unresolved</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    When SOMA, COMA, and C.U.N.T.I.E.R. share a surface, they rarely agree
+    about what happened. This node collects the doctrine and Lorelog cases
+    where their interpretations collide instead of converge.
+  </p>
+
+  <p>
+    Directives have their own reference index. This page is for the places
+    where all three are technically correct and structurally incompatible.
+  </p>
+
+  <h2>Reference documents</h2>
+
+  <p>
+    Doctrine sheets, guidance notes, and index nodes that explicitly describe
+    directive conflicts, dual certification, or multi-directive scoring.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="reference/directives/"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <h2>Conflict cases (Lorelog)</h2>
+
+  <p>
+    Lorelog files tagged as cross-directive conflicts, dual certification,
+    continuity versus rest disputes, and optimization distortions.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="lorelog/LLG-03"
+    exclude="index"
+    sortBy="caseNumber"
+  />
+
+  <p>
+    <em>
+      This sweep intentionally overlaps with other clusters. Directive conflicts
+      are allowed to haunt the same strata as forms, Empathegy, and civic
+      benevolence.
+    </em>
+  </p>
+</StarlightPage>

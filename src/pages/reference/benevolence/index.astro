@@ -1,0 +1,72 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Benevolence & Parades',
+    description:
+      'Reference node for civic benevolence, parades, raffles, breakfasts, and scholarship-shaped governance.',
+    tableOfContents: false,
+  }}
+>
+  <dl>
+    <dt>Classification</dt>
+    <dd>Reference / Civic Governance Drift</dd>
+    <dt>Status</dt>
+    <dd>Locally cheerful, structurally suspect</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    The benevolence and parade family covers incidents where civic rituals
+    stand in for governance: scholarship committees, breakfast optimism,
+    route sanctification, raffles that feel like policy.
+  </p>
+
+  <p>
+    This page collects the doctrine and incidents that behave like municipal
+    Empathegy. It does not define a new subsystem; it describes the one
+    that already leaked into the Lorelog.
+  </p>
+
+  <h2>Reference documents</h2>
+
+  <p>
+    Stabilized write-ups of benevolence programs, parade governance, and
+    scholarship machinery. If you later promote any of those docs into
+    <code>reference/benevolence/</code>, they will be picked up here.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="reference/benevolence/"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <h2>Incident records (Lorelog)</h2>
+
+  <p>
+    Lorelog cases where breakfasts, banners, and benevolence titles do
+    the real governance work. Expect parades, raffles, sponsorships,
+    scholarship drift, and morale events that became policy.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="lorelog/LLG-03"
+    exclude="index"
+    sortBy="caseNumber"
+  />
+
+  <p>
+    <em>
+      The filter is intentionally broad and may catch non-benevolence
+      cases in the same numerical neighborhood. That is allowed. This
+      is an index of a seam, not a closed canon.
+    </em>
+  </p>
+</StarlightPage>

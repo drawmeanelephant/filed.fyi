@@ -1,0 +1,73 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Empathegy Limericks',
+    description:
+      'Doctrine-adjacent limericks orbiting Empathegy 2.0, metrics of care, continuity theatre, and assurance optics.',
+    tableOfContents: false,
+  }}
+>
+  <dl>
+    <dt>Classification</dt>
+    <dd>Index / Doctrine Verse Annex</dd>
+    <dt>Status</dt>
+    <dd>Rhymed, procedurally upset</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    Empathegy limericks are doctrine written sideways. They follow the same
+    case numbers and concepts as the Empathegy reference files, but file their
+    objections in five-line jokes instead of minutes.
+  </p>
+
+  <p>
+    This page does not contain the poems. It lists the clusters that already
+    exist, so other sections can point at them without pretending they are
+    canonical doctrine.
+  </p>
+
+  <h2>Doctrine-linked limericks</h2>
+
+  <p>
+    These limerick files are keyed directly to Empathegy reference case
+    numbers — taxonomy, acknowledgment deletion bias, aesthetic survival,
+    annex recovery, metrics of care, low-confidence objects, and related
+    entries.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="limericks/FREF-0"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <h2>Incident-linked limericks</h2>
+
+  <p>
+    Additional limericks trail Lorelog incidents where Empathegy leaked into
+    practice: inflation events, continuity theatre, coverage substitution,
+    gratitude drift, and similar metric weather.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="limericks/LLG-0"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <p>
+    <em>
+      The filters above are intentionally broad. They are allowed to catch
+      future Empathegy-adjacent limericks as the archive grows, without
+      requiring a schema update.
+    </em>
+  </p>
+</StarlightPage>

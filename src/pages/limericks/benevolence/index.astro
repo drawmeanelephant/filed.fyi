@@ -1,0 +1,71 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Civic Benevolence Limericks',
+    description:
+      'Limericks about parades, raffles, scholarships, breakfasts, and local benevolence behaving like policy.',
+    tableOfContents: false,
+  }}
+>
+  <dl>
+    <dt>Classification</dt>
+    <dd>Index / Civic Verse Annex</dd>
+    <dt>Status</dt>
+    <dd>Warm, slightly cursed</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    Civic benevolence limericks live where public kindness meets
+    procedural drift. They describe parades with governance rules,
+    scholarship raffles, breakfast diplomacy, and committees that
+    quietly legislate through vibes.
+  </p>
+
+  <p>
+    This page lists those limerick clusters so that the benevolence
+    reference node has something concrete to point at.
+  </p>
+
+  <h2>Doctrine-adjacent limericks</h2>
+
+  <p>
+    Limericks attached to benevolence or parade doctrine sheets, once
+    those exist under the reference layer.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="limericks/FREF-03"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <h2>Incident-linked limericks</h2>
+
+  <p>
+    Limericks that trail Lorelog cases in the civic benevolence band:
+    parade incidents, scholarship disputes, benevolence committees,
+    breakfast events, and related anomalies.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="limericks/LLG-03"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <p>
+    <em>
+      As with the reference node, the numeric filters are broad on
+      purpose. They are allowed to over-include neighboring rhyme sets
+      rather than miss a relevant benevolence joke.
+    </em>
+  </p>
+</StarlightPage>
