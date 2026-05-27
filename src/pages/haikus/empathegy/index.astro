@@ -1,0 +1,71 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Empathegy Haikus',
+    description:
+      'Haiku cycles about Empathegy inflation, metrics of care, gratitude drift, Bin 8C, breeding programs, and other metric weather.',
+    tableOfContents: false,
+  }}
+>
+  <dl>
+    <dt>Classification</dt>
+    <dd>Index / Poetic Telemetry Annex</dd>
+    <dt>Status</dt>
+    <dd>Compressed, interpretively sharp</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    Empathegy haikus are short telemetry bursts for conditions that would not
+    survive a full report. They live where dashboards, doctrine, and mascots
+    overlap and disagree.
+  </p>
+
+  <p>
+    This page names the clusters. It does not attempt to resolve them.
+  </p>
+
+  <h2>Incident cycles</h2>
+
+  <p>
+    These haiku files trail specific Lorelog case numbers or incident families:
+    silent intervals, breeding governance, gratitude misfiled into alignment,
+    allocator drift, robot memos, Empathegy inflation, Metrics of Care, and
+    related anomalies.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="haikus/LLG-"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <h2>Concept sets</h2>
+
+  <p>
+    Some haiku files are keyed by Empathegy concepts rather than case numbers:
+    Metrics of Care, Rest-Shaped Feelings, rot in the database, and similar
+    doctrinal weather reports.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="haikus/"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <p>
+    <em>
+      Empathegy haikus are Annex Recovery attempts for feelings that fell out
+      of the dashboards. Use them when the doctrine feels too clean and the
+      Lorelog too polite.
+    </em>
+  </p>
+</StarlightPage>

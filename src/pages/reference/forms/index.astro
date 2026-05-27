@@ -1,0 +1,36 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Forms Reference Index',
+    description: 'Index node for forms-layer doctrine — managed absence spines, assurance vocabulary desks, and the procedural instruments that outlast their purpose.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Procedural Instruments</dd>
+  <dt>Status</dt>
+  <dd>Proliferating, structurally load-bearing</dd>
+</dl>
+
+<hr />
+
+<p>The forms reference layer contains doctrine for the managed absence spine, assurance vocabulary, dashboard alignment, over-coherence handling, and the various procedural instruments that the archive uses to process things it cannot name directly.</p>
+
+<p>Forms are the archive's primary interface between feeling and filing. Most of them have outlived whatever they were originally designed to capture.</p>
+
+<h2>Forms Document Index</h2>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="reference/forms/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>

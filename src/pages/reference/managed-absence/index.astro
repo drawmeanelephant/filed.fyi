@@ -1,0 +1,70 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Managed Absence & Forms Spine',
+    description:
+      'Reference node for the managed absence spine, assurance vocabulary, and form-shaped disappearance patterns.',
+    tableOfContents: false,
+  }}
+>
+  <dl>
+    <dt>Classification</dt>
+    <dd>Reference / Procedural Disappearance</dd>
+    <dt>Status</dt>
+    <dd>Structurally load-bearing</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    The managed absence spine describes how the archive tracks what is no
+    longer there: CAAR, LCGU, STCP, AAOA and their related form doctrines.
+    This node gathers those documents into a single procedural climate.
+  </p>
+
+  <p>
+    Forms are how absence becomes legible. Managed absence is how legibility
+    becomes policy.
+  </p>
+
+  <h2>Spine documents</h2>
+
+  <p>
+    Reference entries describing managed absence, orphan retention, over‑
+    coherence vaulting, assurance vocabulary desks, and forms that outlived
+    their original purpose.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="reference/forms/"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <h2>Incident records (Lorelog)</h2>
+
+  <p>
+    Lorelog cases where absence, null states, and retired forms continue to
+    shape behavior: missing templates, orphaned records, over‑coherent
+    artifacts, and archival ghosts.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="lorelog/LLG-032"
+    exclude="index"
+    sortBy="caseNumber"
+  />
+
+  <p>
+    <em>
+      The numeric band here is approximate. It is meant to pull in the MAP /
+      managed absence cluster without pretending the edges are clean.
+    </em>
+  </p>
+</StarlightPage>

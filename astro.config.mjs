@@ -2,12 +2,6 @@ import starlight from '@astrojs/starlight'
 import { defineConfig } from 'astro/config'
 
 
-import tailwindcss from '@tailwindcss/vite';
-
-
-import alpinejs from '@astrojs/alpinejs';
-
-
 import sitemap from '@astrojs/sitemap';
 
 const cloudflareAnalytics = () => ({
@@ -43,17 +37,40 @@ export default defineConfig({
           { icon: 'github', label: 'GitHub', href: 'https://github.com/drawmeanelephant/filed.fyi' }
       ],
       sidebar: [
-          { label: 'Mascots', items: [{ autogenerate: { directory: 'mascots' } }] },
-          { label: 'Lorelog', items: [{ autogenerate: { directory: 'lorelog' } }] },
-          { label: 'Limericks', items: [{ autogenerate: { directory: 'limericks' } }] },
-          { label: 'Haikus', items: [{ autogenerate: { directory: 'haikus' } }] },
-          { label: 'Posts', items: [{ autogenerate: { directory: 'posts' } }] },
-          { label: 'Guides', items: [{ autogenerate: { directory: 'guides' } }] },
-          { label: 'Reference', items: [{ autogenerate: { directory: 'reference' } }] },
-      ],
-  }), alpinejs(), sitemap()],
+        {
+          label: 'Filed',
+          items: [
+            { label: 'Lorelog', link: '/lorelog' },
+            { label: 'Mascots', link: '/mascots' },
+            { label: 'Posts', link: '/posts' },
+            { label: 'Releases', link: '/releases' },
+            { label: 'Changelog', link: '/changelog' },
+          ],
+        },
 
-  vite: {
-    plugins: [tailwindcss()],
-  },
+        {
+          label: 'Reference',
+          items: [
+            { label: 'Index', link: '/reference' },
+            { label: 'Directives', link: '/reference/directives' },
+            { label: 'Forms', link: '/reference/forms' },
+            { label: 'Empathegy', link: '/reference/empathegy' },
+            { label: 'Managed Absence', link: '/reference/managed-absence' },
+            { label: 'Directive Conflicts', link: '/reference/directive-conflicts' },
+          ],
+        },
+
+        {
+          label: 'Recovered',
+          items: [
+            { label: 'Guides', link: '/guides' },
+            { label: 'Aphorisms', link: '/aphorisms' },
+            { label: 'Poetry', link: '/poetry' },
+            { label: 'Haikus', link: '/haikus' },
+            { label: 'Limericks', link: '/limericks' },
+          ],
+        },
+      ],
+  }) , sitemap()],
+
 });

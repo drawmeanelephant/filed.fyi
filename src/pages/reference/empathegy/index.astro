@@ -1,0 +1,85 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Empathegy — Reference Layer',
+    description:
+      'Index node for Empathegy 2.0 doctrine, related incidents, and annex tools for handling metric-shaped feelings.',
+    tableOfContents: false,
+  }}
+>
+  <dl>
+    <dt>Classification</dt>
+    <dd>Index / Affective Governance Doctrine</dd>
+    <dt>Status</dt>
+    <dd>Draft-doctrine, operationally entrenched</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    Empathegy is the archive’s affective governance layer. It defines how
+    feelings become admissible matter: noticed, normalized, classified,
+    rendered into continuity-safe language, and attached to intervention
+    surfaces that dashboards can read.
+  </p>
+
+  <p>
+    This page collects the doctrine and incident records already behaving as
+    Empathegy, without adding new rules. It is an index, not a charter.
+  </p>
+
+  <h2>Core doctrine</h2>
+
+  <p>
+    These reference entries are the named Empathegy documents: taxonomy, metrics,
+    low-confidence objects, annex recovery, silent intervals, support coverage,
+    and related guidance.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="reference/empathegy/"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <h2>Incident records (Lorelog)</h2>
+
+  <p>
+    Empathegy’s real behavior shows up in Lorelog cases: Empathegy Inflation,
+    Metrics of Care substitution failures, Continuity Theatre maintenance
+    windows, gratitude drift, and related anomalies.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="lorelog/LLG-08"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <p>
+    <em>
+      The Lorelog sweep is intentionally approximate. It catches the Empathegy
+      incident cluster without pretending the rest of the archive is unaffected.
+    </em>
+  </p>
+
+  <h2>Poetic annexes</h2>
+
+  <p>
+    Empathegy doctrine leaks into verse. Dedicated indexes live under
+    <a href="/limericks/empathegy/">Limericks → Empathegy</a> and
+    <a href="/haikus/empathegy/">Haikus → Empathegy</a>, where doctrine and
+    incidents are summarized in five lines or seventeen syllables.
+  </p>
+
+  <p>
+    This reference page acknowledges those annexes without treating them as
+    canonical. They remain poetic telemetry, not law.
+  </p>
+</StarlightPage>

@@ -1,0 +1,50 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Reference Layer — Doctrine, Nodes & Navigation',
+    description: 'Index node for reference documents that define, constrain, or gently mythologize the rest of the archive.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Rulebook That Knows It's Late</dd>
+  <dt>Status</dt>
+  <dd>Frozen, frequently contradicted</dd>
+</dl>
+
+<hr />
+
+<p>The reference directory contains structural doctrine, subsystem nodes, and navigation aids that pretend this is an information architecture instead of a graveyard. This layer is where the archive explains how it thinks it works. Everything else is where it proves otherwise.</p>
+
+<p>Reference docs fall into two species: <strong>Doctrine Sheets</strong> (MAP, SAC, SSP — attempts to codify behavior into categories) and <strong>Reference Nodes</strong> (overviews like BHDSS or Synthetic Affect &amp; Successor Suite that summarize incident clusters in plain language).</p>
+
+<p>Cross-links point down into Lorelog, mascots, posts, haiku, and limericks. Nothing in reference is allowed to exist without at least one dependent ghost.</p>
+
+<h2>Known Doctrine Clusters</h2>
+
+<ul>
+  <li><strong>Managed Absence Spine (CAAR/LCGU/STCP/AAOA)</strong> — A containment structure for procedural disappearance patterns across forms and archival null states.</li>
+  <li><strong>Synthetic Affect Successor Suite (SCAS/FSD/AH-1/PRE/SSP)</strong> — A layered affect simulation framework tracking post-human emotional continuity experiments and their derivative systems.</li>
+  <li><strong>LBP-01 (Lorelog Backfeed Protocol)</strong> — The meta-governance mechanism that routes interpretive residue from Lorelog entries back into structural doctrine for reclassification and drift correction.</li>
+</ul>
+
+<p>If you are about to add a new cluster of weirdness: file the incidents first, then add a reference node here that admits what you just did.</p>
+
+<h2>Document Index</h2>
+
+<p><em>All reference documents, sorted by title.</em></p>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="reference/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>

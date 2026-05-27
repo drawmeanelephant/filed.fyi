@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 
-const { collection, exclude, sortBy = 'title', basePath, filterPrefix } = Astro.props;
+const { collection, exclude, sortBy = 'title', filterPrefix } = Astro.props;
 
 const raw = await getCollection(collection);
 
@@ -9,24 +9,20 @@ const entries = raw
   .filter(e => filterPrefix ? e.id.startsWith(filterPrefix) : true)
   .filter(e => {
     if (!exclude) return true;
-    const slug = e.id.split('/').pop();
-    return e.id !== exclude && slug !== exclude;
+    const slug = e.id.split('/').pop()?.replace(/\.mdx?$/, '');
+    return slug !== exclude && e.id !== exclude;
   })
   .sort((a, b) => {
     const hasA = a.data.mascotId != null;
     const hasB = b.data.mascotId != null;
-
-    if (collection === 'mascots') {
+    if (collection === 'mascots' || (filterPrefix?.startsWith('mascots'))) {
       if (hasA && !hasB) return -1;
       if (!hasA && hasB) return 1;
-      if (hasA && hasB) {
-        return Number(a.data.mascotId) - Number(b.data.mascotId);
-      }
+      if (hasA && hasB) return Number(a.data.mascotId) - Number(b.data.mascotId);
       const ta = a.data.displayName ?? a.data.title ?? '';
       const tb = b.data.displayName ?? b.data.title ?? '';
       return ta.localeCompare(tb);
     }
-
     const va = a.data[sortBy] ?? a.data.title ?? '';
     const vb = b.data[sortBy] ?? b.data.title ?? '';
     if (va instanceof Date) return vb.valueOf() - va.valueOf();
@@ -35,19 +31,16 @@ const entries = raw
     return String(va).localeCompare(String(vb));
   });
 
-const base = basePath ?? `/${collection}`;
-
 function getLabel(e: any): string {
   if (e.data.mascotId != null) return String(e.data.mascotId).padStart(3, '0');
-  if (e.data.caseNumber)       return e.data.caseNumber;
-  if (e.data.versionLabel)     return e.data.versionLabel;
-  if (e.data.formNumber)       return e.data.formNumber;
+  if (e.data.caseNumber) return e.data.caseNumber;
+  if (e.data.versionLabel) return e.data.versionLabel;
+  if (e.data.formNumber) return e.data.formNumber;
   return '—';
 }
 
 function getHref(e: any): string {
-  const slug = e.id.split('/').slice(1).join('/');
-  return `${base}/${slug}`;
+  return '/' + e.id.replace(/\.mdx?$/, '');
 }
 ---
 

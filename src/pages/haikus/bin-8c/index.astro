@@ -1,0 +1,79 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Bin 8C & Mascot Affairs',
+    description:
+      'Haiku cycles about Bin 8C drift, Mascot Affairs, Peppy Clerk, and self-indexing clusters.',
+    tableOfContents: false,
+  }}
+>
+  <dl>
+    <dt>Classification</dt>
+    <dd>Index / Interpretive Drift Cluster</dd>
+    <dt>Status</dt>
+    <dd>Self-indexing, politely recursive</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    This annex gathers the haiku cycles where Bin 8C, Mascot Affairs,
+    and Peppy Clerk learned to index themselves. It is the local
+    gravity well for recursive custody, steam-without-steam, and
+    clusters that retroactively insist they were always here.
+  </p>
+
+  <p>
+    It does not define the cluster. It acknowledges that the haikus
+    have already done that work.
+  </p>
+
+  <h2>Bin 8C cycles</h2>
+
+  <p>
+    Haiku files tagged or numbered for Bin 8C drift and stabilization
+    attempts: recursive custody, containment failure, corrective
+    intent turning into nutrition, and related behaviors.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="haikus/LLG-IA-8C"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <h2>Mascot Affairs & Peppy Clerk</h2>
+
+  <p>
+    Haiku files attached to Mascot Affairs, Peppy Clerk, and the
+    MA-8C re-indexing cluster — where the registry and the bin
+    decided they were the same story.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="haikus/LLG-MA-8C"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="haikus/LLG-SYS-8-REINDEX"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <p>
+    <em>
+      If future clusters develop similar self-indexing habits, they
+      can either join this annex or demand one of their own. The
+      archive will follow their lead.
+    </em>
+  </p>
+</StarlightPage>

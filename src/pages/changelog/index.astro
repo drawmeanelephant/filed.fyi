@@ -1,0 +1,36 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Changelog',
+    description: 'Versioned snapshots of system identity. Not software releases — archival state declarations.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Versioned State Declarations</dd>
+  <dt>Status</dt>
+  <dd>Ceremonial versioning only</dd>
+</dl>
+
+<hr />
+
+<p>The changelog is not a list of software releases. It is a record of what the archive decided it was at a given moment — a series of identity snapshots taken before things drifted further.</p>
+
+<p>Each entry represents a stabilized state, filed so that future investigators know what "last known good" meant at the time.</p>
+
+<h2>Release Index</h2>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="changelog/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>

@@ -1,0 +1,34 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Posts',
+    description: 'Rare public-facing artifacts. Not blog posts — recovered transmission logs.',
+    tableOfContents: false,
+  }}
+>
+
+<dl>
+  <dt>Classification</dt>
+  <dd>Index / Recovered Transmissions</dd>
+  <dt>Status</dt>
+  <dd>Low volume, high symbolic density</dd>
+</dl>
+
+<hr />
+
+<p>Posts are not blog posts. They are artifacts that escaped the internal filing system and became public-facing by accident or intent. Low volume. Each one carries more than it should.</p>
+
+<h2>Transmission Index</h2>
+
+<CollectionRegister
+  collection="docs"
+  filterPrefix="posts/"
+  exclude="index"
+  sortBy="title"
+/>
+
+</StarlightPage>
