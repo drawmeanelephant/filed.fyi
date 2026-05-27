@@ -1,0 +1,34 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+<StarlightPage frontmatter={{
+  title: 'Lorelog: Bin 8C & Mascot Affairs',
+  description: 'Incident cases for Bin 8C drift, Mascot Affairs re-indexing, Peppy Clerk, and recursive custody clusters that insisted they were already here.',
+  tableOfContents: false,
+}}>
+  <dl>
+    <dt>Classification</dt><dd>Index — Self-Indexing Incident Cluster</dd>
+    <dt>Status</dt><dd>Recursively stabilized, politely cursed</dd>
+    <dt>Case Band</dt><dd>LLG-IA-8C, LLG-MA-8C, LLG-SYS-8-REINDEX</dd>
+  </dl>
+  <hr />
+  <p>
+    Bin 8C incidents are the cases where the archive's indexing infrastructure
+    developed opinions about itself. Mascot Affairs, Peppy Clerk, and related
+    clusters filed their own entries before anyone asked them to.
+  </p>
+  <p>
+    For verse, see <a href="/haikus/bin-8c">Haikus: Bin 8C &amp; Mascot Affairs</a>.
+    For the mascot registry, see <a href="/mascots">Mascot Registry</a>.
+  </p>
+  <h2>Bin 8C Cases</h2>
+  <CollectionRegister collection="lorelog" filterPrefix="lorelog/LLG-IA-8C" excludeindex sortBy="caseNumber" />
+  <h2>Mascot Affairs Cases</h2>
+  <CollectionRegister collection="lorelog" filterPrefix="lorelog/LLG-MA-8C" excludeindex sortBy="caseNumber" />
+  <CollectionRegister collection="lorelog" filterPrefix="lorelog/LLG-SYS-8-REINDEX" excludeindex sortBy="caseNumber" />
+  <p><em>
+    If future clusters develop similar self-indexing habits,
+    they can either join this page or demand one of their own.
+  </em></p>
+</StarlightPage>

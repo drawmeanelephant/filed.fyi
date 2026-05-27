@@ -1,0 +1,32 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+<StarlightPage frontmatter={{
+  title: 'Lorelog: Empathegy Cluster',
+  description: 'Incident cases where affective governance leaked into metrics, dashboards, and directive behavior. Inflation events, care substitution failures, and curve-coherence drift.',
+  tableOfContents: false,
+}}>
+  <dl>
+    <dt>Classification</dt><dd>Index — Affective Governance Incidents</dd>
+    <dt>Status</dt><dd>Dense, unevenly resolved</dd>
+    <dt>Band</dt><dd>LLG-08xx</dd>
+  </dl>
+  <hr />
+  <p>
+    Empathegy incidents are Lorelog cases where the affective governance layer
+    stopped measuring feelings and started shaping them. Inflation events,
+    substitution failures, and continuity theatre windows live here.
+  </p>
+  <p>
+    This page is an index of the incident band, not a summary of doctrine.
+    For doctrine, see <a href="/reference/empathegy">Reference: Empathegy</a>.
+  </p>
+  <h2>Incident Register</h2>
+  <p><em>Cases in the LLG-08xx band and related cross-directive filings.</em></p>
+  <CollectionRegister collection="lorelog" filterPrefix="lorelog/LLG-08" excludeindex sortBy="caseNumber" />
+  <p><em>
+    The filter is approximate. Adjacent bands may contain Empathegy-adjacent
+    behavior that predates the 08xx cluster.
+  </em></p>
+</StarlightPage>
