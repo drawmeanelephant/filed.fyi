@@ -1,0 +1,29 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+<StarlightPage frontmatter={{
+  title: 'Lorelog: Civic Benevolence Cluster',
+  description: 'Incident cases where parades, scholarships, breakfasts, and civic rituals stood in for governance. The LLG-03xx band and its benevolent adjacencies.',
+  tableOfContents: false,
+}}>
+  <dl>
+    <dt>Classification</dt><dd>Index — Civic Governance Drift Incidents</dd>
+    <dt>Status</dt><dd>Locally cheerful, structurally suspect</dd>
+    <dt>Band</dt><dd>LLG-03xx (benevolence-adjacent)</dd>
+  </dl>
+  <hr />
+  <p>
+    Benevolence incidents are cases where the archive had to file something that
+    felt kind — scholarship raffles, parade route approvals, sponsored breakfasts —
+    and discovered it was actually governance in disguise.
+  </p>
+  <p>
+    For the reference layer covering these patterns, see
+    <a href="/reference/benevolence">Reference: Benevolence &amp; Parades</a>.
+    For verse, see <a href="/limericks/benevolence">Limericks: Civic Benevolence</a>.
+  </p>
+  <h2>Incident Register</h2>
+  <p><em>Cases in the LLG-03xx band. Filter is intentionally broad.</em></p>
+  <CollectionRegister collection="lorelog" filterPrefix="lorelog/LLG-03" excludeindex sortBy="caseNumber" />
+</StarlightPage>

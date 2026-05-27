@@ -1,0 +1,46 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '../../../components/CollectionRegister.astro';
+---
+<StarlightPage frontmatter={{
+  title: 'Reference: Reading Mascots',
+  description: 'How to interpret mascots as failure signatures — not branding, not characters, but debug symbols with emotional residue.',
+  tableOfContents: false,
+}}>
+  <dl>
+    <dt>Classification</dt><dd>Reference — Mascot Interpretation Doctrine</dd>
+    <dt>Status</dt><dd>Culturally dense, behaviorally load-bearing</dd>
+  </dl>
+  <hr />
+  <p>
+    A mascot is not a character. It is a failure signature — the specific category
+    of wrongness a system embodied in public, given a face so the archive could
+    cross-reference it. If you see the same <code>mascotRef</code> across multiple
+    case files, the same kind of problem is asking for your attention.
+  </p>
+  <p>
+    The <a href="/mascots">Mascot Registry</a> lists all known entries sorted by ID.
+    This page is the interpretive layer: how mascots are used, what they are
+    allowed to mean, and which incident clusters called specific ones into existence.
+  </p>
+
+  <h2>Behavioral Rules</h2>
+  <ol>
+    <li>Mascots are failure signatures. They must remain attached to specific kinds of wrongness.</li>
+    <li>No new mascot without at least one Lorelog case proving which failure it belongs to.</li>
+    <li>A mascot may change aesthetics. It may not change its failure domain without filing an identity drift incident.</li>
+    <li>If UI copy treats a mascot as a cheerleader rather than a witness, the archive may repossess it.</li>
+  </ol>
+
+  <h2>Key Incident Anchors</h2>
+  <p>Cases where a mascot's presence shaped the incident record, not just decorated it:</p>
+  <ul>
+    <li><strong>Bin 8C / Mascot Affairs</strong> — <a href="/lorelog/bin-8c">Lorelog: Bin 8C cluster</a>, <a href="/haikus/bin-8c">Haikus: Bin 8C</a></li>
+    <li><strong>Bricky Goldbricksworth</strong> — Forms Shadow Copies, Ward C Clinical DS-404-ALPHA</li>
+    <li><strong>Serotonin Sam</strong> — Empathegy Inflation, Metrics of Care Substitution Failure</li>
+    <li><strong>Kindy McExistentialCrisis</strong> — Unified Intake Sheet fragmentation, EFA-1 vibe docket</li>
+  </ul>
+
+  <h2>Reference Documents</h2>
+  <CollectionRegister collection="docs" filterPrefix="reference/mascots" excludeindex sortBy="title" />
+</StarlightPage>
