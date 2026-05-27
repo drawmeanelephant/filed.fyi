@@ -76,80 +76,80 @@ const iconName = iconProp ? toPascalCase(iconProp) : icons[type];
 const Icon = (Lucide as any)[iconName] || Lucide.Info;
 
 const variantStyles = {
-  note: "border-blue-500/30 bg-blue-500/5",
-  tip: "border-green-500/30 bg-green-500/5",
-  caution: "border-yellow-500/30 bg-yellow-500/5",
-  danger: "border-red-500/30 bg-red-500/5"
+  note: "",
+  tip: "",
+  caution: "",
+  danger: ""
 } as const;
 
 const brosideStyles: Record<string, string> = {
-  note: "border-blue-500/30 bg-blue-500/5",
-  tip: "border-green-500/30 bg-green-500/5",
-  caution: "border-yellow-500/30 bg-yellow-500/5",
-  danger: "border-red-500/30 bg-red-500/5",
+  note: "",
+  tip: "",
+  caution: "",
+  danger: "",
 
-  skull: "border-[#a87c52]/40 bg-[#fdf6ec]/10",
-  scroll: "border-[#a87c52]/40 bg-[#fdf6ec]/10",
-  book: "border-[#a87c52]/40 bg-[#fdf6ec]/10",
-  layers: "border-[#a87c52]/40 bg-[#fdf6ec]/10",
+  skull: "",
+  scroll: "",
+  book: "",
+  layers: "",
 
-  clipboard: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
-  stamp: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
-  archive: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
-  folderx: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
-  filewarning: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
-  fileclock: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
-  filequestion: "border-[#5c7a8c]/40 bg-[#f0f4f7]/10",
+  clipboard: "",
+  stamp: "",
+  archive: "",
+  folderx: "",
+  filewarning: "",
+  fileclock: "",
+  filequestion: "",
 
-  zap: "border-[#b45309]/40 bg-[#b45309]/10",
-  flame: "border-[#dc2626]/40 bg-[#dc2626]/10",
-  cloudlightning: "border-[#7c2d12]/40 bg-[#7c2d12]/10",
-  radiation: "border-[#b45309]/40 bg-[#b45309]/10",
-  biohazard: "border-[#b45309]/40 bg-[#b45309]/10",
-  bug: "border-[#f59e0b]/40 bg-[#f59e0b]/10",
+  zap: "",
+  flame: "",
+  cloudlightning: "",
+  radiation: "",
+  biohazard: "",
+  bug: "",
 
-  orbit: "border-[#6d28d9]/40 bg-[#0f0a1e]/40",
-  telescope: "border-[#7c3aed]/40 bg-[#0f0a1e]/40",
-  satellite: "border-[#6d28d9]/40 bg-[#0f0a1e]/40",
-  sparkles: "border-[#7c3aed]/40 bg-[#0f0a1e]/40",
-  binary: "border-[#4c1d95]/40 bg-[#0f0a1e]/40",
+  orbit: "",
+  telescope: "",
+  satellite: "",
+  sparkles: "",
+  binary: "",
 
-  banana: "border-[#ec4899]/40 bg-[#ec4899]/10"
+  banana: ""
 };
 
 const brosideAccentStyles: Record<string, string> = {
-  note: "text-blue-400",
-  tip: "text-green-400",
-  caution: "text-yellow-400",
-  danger: "text-red-400",
+  note: "",
+  tip: "",
+  caution: "",
+  danger: "",
 
-  skull: "text-[#a87c52]",
-  scroll: "text-[#a87c52]",
-  book: "text-[#a87c52]",
-  layers: "text-[#a87c52]",
+  skull: "",
+  scroll: "",
+  book: "",
+  layers: "",
 
-  clipboard: "text-[#5c7a8c]",
-  stamp: "text-[#5c7a8c]",
-  archive: "text-[#5c7a8c]",
-  folderx: "text-[#5c7a8c]",
-  filewarning: "text-[#5c7a8c]",
-  fileclock: "text-[#5c7a8c]",
-  filequestion: "text-[#5c7a8c]",
+  clipboard: "",
+  stamp: "",
+  archive: "",
+  folderx: "",
+  filewarning: "",
+  fileclock: "",
+  filequestion: "",
 
-  zap: "text-[#b45309]",
-  flame: "text-[#dc2626]",
-  cloudlightning: "text-[#7c2d12]",
-  radiation: "text-[#b45309]",
-  biohazard: "text-[#b45309]",
-  bug: "text-[#f59e0b]",
+  zap: "",
+  flame: "",
+  cloudlightning: "",
+  radiation: "",
+  biohazard: "",
+  bug: "",
 
-  orbit: "text-[#6d28d9]",
-  telescope: "text-[#7c3aed]",
-  satellite: "text-[#6d28d9]",
-  sparkles: "text-[#7c3aed]",
-  binary: "text-[#4c1d95]",
+  orbit: "",
+  telescope: "",
+  satellite: "",
+  sparkles: "",
+  binary: "",
 
-  banana: "text-[#ec4899]"
+  banana: ""
 };
 
 if (!title) {
@@ -159,7 +159,7 @@ if (!title) {
 
 <aside
   aria-label={title}
-  class={`starlight-aside starlight-aside--${type} border rounded-md p-4 ${brosideStyles[key] ?? variantStyles[type]}`}
+  class={`starlight-aside starlight-aside--${type} broside broside--${type}`}
 >
   <p class={`starlight-aside__title ${brosideAccentStyles[key] ?? ""}`} aria-hidden="true">
     <Icon class={`starlight-aside__icon ${brosideAccentStyles[key] ?? ""}`} />{title}
