@@ -3,33 +3,40 @@ import { getCollection } from 'astro:content';
 
 const { collection, exclude, sortBy = 'title', filterPrefix } = Astro.props;
 
-const raw = await getCollection(collection);
+const entries = (await getCollection(collection, (e) => {
+  if (filterPrefix && !e.id.startsWith(filterPrefix)) return false;
 
-const entries = raw
-  .filter(e => filterPrefix ? e.id.startsWith(filterPrefix) : true)
-  .filter(e => {
-    if (!exclude) return true;
-    const slug = e.id.split('/').pop()?.replace(/\.mdx?$/, '');
-    return slug !== exclude && e.id !== exclude;
-  })
+  if (!exclude) return true;
+  const slug = e.id.split('/').pop()?.replace(/\.mdx?$/, '');
+  return slug !== exclude && e.id !== exclude;
+}))
   .sort((a, b) => {
     const hasA = a.data.mascotId != null;
     const hasB = b.data.mascotId != null;
-    if (collection === 'mascots' || (filterPrefix?.startsWith('mascots'))) {
+
+    if (collection === 'mascots' || filterPrefix?.startsWith('mascots')) {
       if (hasA && !hasB) return -1;
       if (!hasA && hasB) return 1;
       if (hasA && hasB) return Number(a.data.mascotId) - Number(b.data.mascotId);
+
       const ta = a.data.displayName ?? a.data.title ?? '';
       const tb = b.data.displayName ?? b.data.title ?? '';
       return ta.localeCompare(tb);
     }
+
     const va = a.data[sortBy] ?? a.data.title ?? '';
     const vb = b.data[sortBy] ?? b.data.title ?? '';
+
     if (va instanceof Date) return vb.valueOf() - va.valueOf();
-    const na = Number(va), nb = Number(vb);
+
+    const na = Number(va);
+    const nb = Number(vb);
     if (!isNaN(na) && !isNaN(nb)) return na - nb;
+
     return String(va).localeCompare(String(vb));
   });
+
+type AnyEntry = CollectionEntry<any>;
 
 function getLabel(e: any): string {
   if (e.data.mascotId != null) return String(e.data.mascotId).padStart(3, '0');
