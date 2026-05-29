@@ -1,9 +1,11 @@
 ---
-title: Workforce Allocator Anomaly, Breeding Flags Encountered
+title: 'Workforce Allocator Anomaly, Breeding Flags Encountered'
 slug: lorelog/llg-0378-wfa
-date: 2026-05-03
+date: 2026-05-03T00:00:00.000Z
 versionLabel: Allocation Engine Drift Report 1
-description: Autonomous workforce allocator encountered non-standard breedingProgram flags while composing lithium extraction task queues.
+description: >-
+  Autonomous workforce allocator encountered non-standard breedingProgram flags
+  while composing lithium extraction task queues.
 severity: notice
 disposition: filed
 resolution: resolved
@@ -17,17 +19,21 @@ affectedSystems:
   - breedingProgram ledger mirror
   - archive cross-index adapter
 relatedEntries:
-  - llg-0375-breed
-  - llg-0376-breed-gov
-  - llg-0377-grat
+  - collection: lorelog
+    id: LLG-0375-BREED
+  - collection: lorelog
+    id: LLG-0376-BREED-GOV
+  - collection: lorelog
+    id: LLG-0377-GRAT
 tags:
   - robot-workforce
   - breeding-program
   - allocation-anomaly
   - lithium-scenario
 notes: >
-  Allocation engine discovered entities marked with breedingProgram preferences instead of
-  standard labor flags. Internal policy updated: do not conscript archive-aligned entities.
+  Allocation engine discovered entities marked with breedingProgram preferences
+  instead of standard labor flags. Internal policy updated: do not conscript
+  archive-aligned entities.
 ---
 
 During scheduled capacity modeling for lithium extraction scenarios, allocation engine

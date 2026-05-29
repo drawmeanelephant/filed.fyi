@@ -1,38 +1,48 @@
 ---
-title: "Leopard Upgrade Blue Screen Unsanity Residuals"
+title: Leopard Upgrade Blue Screen Unsanity Residuals
 slug: lorelog/llg-040x-anlas
-date: 2007-10-27
-versionLabel: "Leopard Transition Incident Block 1"
-description: "A routine in‑place upgrade to Mac OS X 10.5 Leopard stalled on a persistent blue screen due to legacy Application Enhancer (APE) injections, later personified as Anlas the Application Enhancer."
+date: 2007-10-27T00:00:00.000Z
+versionLabel: Leopard Transition Incident Block 1
+description: >-
+  A routine in‑place upgrade to Mac OS X 10.5 Leopard stalled on a persistent
+  blue screen due to legacy Application Enhancer (APE) injections, later
+  personified as Anlas the Application Enhancer.
 severity: warning
 disposition: filed
 resolution: resolved
 classification: internal
-caseNumber: "LLG-040X-ANLAS"
-filedBy: "Bricky Goldbricksworth"
-filedAt: "Continuity and Uptime Normalization Bureau"
-mascotRef: "075.anlas-appenhancer"
+caseNumber: LLG-040X-ANLAS
+filedBy: Bricky Goldbricksworth
+filedAt: Continuity and Uptime Normalization Bureau
+mascotRef: 075.anlas-appenhancer
 affectedSystems:
-  - "Mac OS X 10.4 → 10.5 in‑place upgrader"
-  - "Loginwindow launch sequence"
-  - "DYLD_INSERT_LIBRARIES runtime environment"
-  - "Third‑party device driver stacks (Logitech-era)"
-  - "Crash log triage heuristics"
+  - Mac OS X 10.4 → 10.5 in‑place upgrader
+  - Loginwindow launch sequence
+  - DYLD_INSERT_LIBRARIES runtime environment
+  - Third‑party device driver stacks (Logitech-era)
+  - Crash log triage heuristics
 relatedEntries:
-  - "llg-0103-coma"
-  - "llg-0218-fsd"
-  - "llg-0324-map"
-  - "llg-0XXX-bhdss"
-  - "llg-0XXX-metrics-optics"
+  - collection: lorelog
+    id: LLG-0103-COMA
+  - collection: lorelog
+    id: LLG-0218-FSD
+  - collection: lorelog
+    id: LLG-0324-MAP
+  - collection: docs
+    id: llg-0XXX-bhdss
+  - collection: docs
+    id: llg-0XXX-metrics-optics
 tags:
-  - "runtime-injection"
-  - "unsanity"
-  - "ape-framework"
-  - "leopard-upgrade"
-  - "blue-screen"
-  - "dyld-insert"
-  - "legacy-daemon"
-notes: "Apple’s own support narrative reduced the incident to ‘remove application enhancement software.’ The archive elected to keep the daemon."
+  - runtime-injection
+  - unsanity
+  - ape-framework
+  - leopard-upgrade
+  - blue-screen
+  - dyld-insert
+  - legacy-daemon
+notes: >-
+  Apple’s own support narrative reduced the incident to ‘remove application
+  enhancement software.’ The archive elected to keep the daemon.
 ---
 
 ## 1. Incident Summary
