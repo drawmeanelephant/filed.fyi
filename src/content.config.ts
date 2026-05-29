@@ -4,6 +4,7 @@ import { glob } from 'astro/loaders';
 import { docsLoader } from '@astrojs/starlight/loaders';
 import { docsSchema } from '@astrojs/starlight/schema';
 
+
 // ── Shared flex helpers ──────────────────────────
 const flexDate = z
   .union([z.string(), z.date().transform((d) => d.toISOString().split('T')[0])])
@@ -20,6 +21,7 @@ const flexStringArray = z
   .nullable()
   .optional();
 
+
 // ── Canonical ID: reject ??? / NAN / empty ─────────────────────────────────
 const canonicalId = z
   .union([z.number(), z.string()])
@@ -30,12 +32,17 @@ const canonicalId = z
   .nullable()
   .optional();
 
+
 // ── Enums ──────────────────────────────────────
 const corruptionLevel = z.enum(['none', 'low', 'medium', 'high', 'critical']).nullable().optional();
 const glitchFrequency = z.enum(['none', 'rare', 'low', 'medium', 'high', 'burst', 'constant']).nullable().optional();
 const renderState = z.enum(['deferred', 'active', 'corrupted', 'phantom', 'archived']).nullable().optional();
 const completionState = z.enum(['draft', 'partial', 'full', 'canonical']).default('draft');
 
+
+// ── Collections ─────────────────────────────────
+
+// Mascots
 export const mascots = defineCollection({
   loader: glob({ base: './src/content/docs/mascots', pattern: '**/*.{md,mdx}' }),
   schema: z
@@ -134,6 +141,8 @@ export const mascots = defineCollection({
     }),
 });
 
+
+// Lorelog enums
 const lorelogSeverity = z
   .enum(['info', 'notice', 'warning', 'critical', 'classified'])
   .default('info');
@@ -150,6 +159,25 @@ const lorelogClassification = z
   .enum(['public', 'internal', 'restricted', 'sealed'])
   .default('public');
 
+
+// Shared related reference type for Lorelog relations
+const relatedRef = z.object({
+  collection: z.enum([
+    'docs',
+    'mascots',
+    'lorelog',
+    'limericks',
+    'haikus',
+    'aphorisms',
+    'releases',
+    'changelog',
+  ]),
+  // internal ID / slug like 'LLG-0019-COMA' or 'reference/fref-0370-dcst'
+  id: z.string(),
+});
+
+
+// Lorelog
 const lorelog = defineCollection({
   loader: glob({ base: './src/content/docs/lorelog', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
@@ -158,21 +186,26 @@ const lorelog = defineCollection({
     date:         z.coerce.date(),
     versionLabel: z.string(),
     description:  z.string(),
+
     // STATUS
     severity:       lorelogSeverity,
     disposition:    lorelogDisposition,
     resolution:     lorelogResolution,
     classification: lorelogClassification,
+
     // BUREAUCRATIC IDENTITY
     caseNumber:  z.string().optional(),
     filedBy:     z.string().optional(),
     filedAt:     z.string().optional(),
+
     // RELATIONS
     mascotRef:      z.string().optional(),
-    relatedEntries: z.array(z.string()).optional(),
+    relatedEntries: z.array(relatedRef).optional(),
+
     // IMPACT
     affectedSystems: z.array(z.string()).optional(),
     escalationPath:  z.string().optional(),
+
     // META
     tags:     z.array(z.string()).optional(),
     notes:    z.string().optional(),
@@ -180,6 +213,8 @@ const lorelog = defineCollection({
   }),
 });
 
+
+// Limericks
 const limericks = defineCollection({
   loader: glob({ base: './src/content/docs/limericks', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
@@ -187,6 +222,8 @@ const limericks = defineCollection({
   }),
 });
 
+
+// Simple log schema for releases/changelog
 const logSchema = z.object({
   title: z.string(),
   date: z.coerce.date(),
@@ -194,6 +231,8 @@ const logSchema = z.object({
   tags: z.array(z.string()).optional(),
 });
 
+
+// Releases & changelog
 const releases = defineCollection({
   loader: glob({ base: './src/content/docs/releases', pattern: '**/*.md' }),
   schema: logSchema,
@@ -204,15 +243,8 @@ const changelog = defineCollection({
   schema: logSchema,
 });
 
-export const collections = {
-  docs: defineCollection({ loader: docsLoader(), schema: docsSchema() }),
-  mascots,
-  lorelog,
-  limericks,
-  releases,
-  changelog,
-};
 
+// Haikus
 const haikus = defineCollection({
   loader: glob({ base: './src/content/docs/haikus', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
@@ -224,6 +256,8 @@ const haikus = defineCollection({
   }),
 });
 
+
+// Aphorisms
 const aphorisms = defineCollection({
   loader: glob({ base: './src/content/docs/aphorisms', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
@@ -234,3 +268,16 @@ const aphorisms = defineCollection({
     tags: z.array(z.string()).optional(),
   }),
 });
+
+
+// Docs (Starlight)
+export const collections = {
+  docs: defineCollection({ loader: docsLoader(), schema: docsSchema() }),
+  mascots,
+  lorelog,
+  limericks,
+  releases,
+  changelog,
+  haikus,
+  aphorisms,
+};

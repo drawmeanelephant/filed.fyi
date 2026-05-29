@@ -1,0 +1,51 @@
+---
+import { getEntry } from 'astro:content';
+
+interface RelatedRef {
+  collection: string;
+  id: string;
+}
+
+interface Props {
+  items?: RelatedRef[];
+}
+
+const { items = [] } = Astro.props;
+
+const resolved = await Promise.all(
+  items.map(async (r) => {
+    try {
+      const entry = await getEntry(r.collection as any, r.id as any);
+      return entry ?? null;
+    } catch {
+      return null;
+    }
+  })
+);
+
+const visible = resolved.filter(Boolean);
+---
+
+{visible.length > 0 && (
+  <section style="margin-top:2rem;">
+    <h2 style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.08em;">
+      Related filings
+    </h2>
+    <ul style="list-style:none; padding:0; margin:0.5rem 0 0;">
+      {visible.map((e: any) => (
+        <li
+          style="padding:0.35rem 0; border-bottom:1px solid var(--sl-color-hairline);"
+        >
+          <span
+            style="font-family:var(--sl-font-mono); font-size:0.75rem; color:var(--sl-color-gray-3); margin-right:0.6rem;"
+          >
+            {e.data.caseNumber ?? e.data.mascotId ?? e.data.versionLabel ?? '—'}
+          </span>
+          <a href={'/' + e.id.replace(/\.mdx?$/, '')}>
+            {e.data.displayName ?? e.data.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}
