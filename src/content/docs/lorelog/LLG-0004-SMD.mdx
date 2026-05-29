@@ -1,30 +1,37 @@
 ---
-title: "Sitemap Drift — Structural Index Misalignment"
+title: Sitemap Drift — Structural Index Misalignment
 slug: lorelog/llg-0004-smd
-date: 2025-11-10
-versionLabel: "v1.0.2"
-description: "Sitemap entries gradually diverged from actual content structure, producing valid but incorrect navigation paths."
+date: 2025-11-10T00:00:00.000Z
+versionLabel: v1.0.2
+description: >-
+  Sitemap entries gradually diverged from actual content structure, producing
+  valid but incorrect navigation paths.
 severity: notice
 disposition: contested
 resolution: resolved
 classification: internal
-caseNumber: "LLG-0004-SMD"
-filedBy: "Cartography Subprocess"
-filedAt: "Index Integrity Office"
-mascotRef: "404sy-mclostalot"
+caseNumber: LLG-0004-SMD
+filedBy: Cartography Subprocess
+filedAt: Index Integrity Office
+mascotRef: 404sy-mclostalot
 affectedSystems:
-  - "sitemap generator"
-  - "route mapping layer"
-  - "link validation service"
+  - sitemap generator
+  - route mapping layer
+  - link validation service
 relatedEntries:
-  - "llg-0001-nav"
-  - "llg-0003-svr"
+  - collection: lorelog
+    id: LLG-0001-NAV
+  - collection: lorelog
+    id: LLG-0003-SVR
 tags:
   - broken-navigation
   - sitemap-drift
   - index-corruption
   - false-pathing
-notes: "All generated paths resolve successfully. None lead to intended destinations. 404sy certified the routes as navigable in the narrow sense that they continued elsewhere."
+notes: >-
+  All generated paths resolve successfully. None lead to intended destinations.
+  404sy certified the routes as navigable in the narrow sense that they
+  continued elsewhere.
 ---
 
 The sitemap began producing structurally valid navigation paths that did not correspond to any known content hierarchy.

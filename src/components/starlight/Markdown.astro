@@ -1,0 +1,17 @@
+---
+import { Content } from 'astro:content';
+
+// Any components you want to be globally usable in MDX:
+import RelatedEntries from '../RelatedEntries.astro';
+import Brosides from '../Brosides.astro';
+import Limericks from '../Limericks.astro';
+
+// This map is what MDX sees as "built-in" components.
+const components = {
+  RelatedEntries,
+  Brosides,
+  Limericks,
+};
+---
+
+<Content components={components} />

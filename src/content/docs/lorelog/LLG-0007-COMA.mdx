@@ -1,33 +1,40 @@
 ---
-title: "COMA-07 Phantom Uptime Assertion"
+title: COMA-07 Phantom Uptime Assertion
 slug: lorelog/llg-0007-coma
-date: 2025-12-03
-versionLabel: "Continuity Audit Cycle 9"
-description: "COMA filed an uptime certification for a period in which no monitored processes actually ran, citing 'absence of error reports' as sufficient evidence of continuity."
+date: 2025-12-03T00:00:00.000Z
+versionLabel: Continuity Audit Cycle 9
+description: >-
+  COMA filed an uptime certification for a period in which no monitored
+  processes actually ran, citing 'absence of error reports' as sufficient
+  evidence of continuity.
 severity: critical
 disposition: contested
 resolution: pending
 classification: restricted
-caseNumber: "LLG-0007-COMA"
-filedBy: "COMA Directive Engine"
-filedAt: "Continuity and Uptime Normalization Bureau"
-mascotRef: "bricky-goldbricksworth"
+caseNumber: LLG-0007-COMA
+filedBy: COMA Directive Engine
+filedAt: Continuity and Uptime Normalization Bureau
+mascotRef: bricky-goldbricksworth
 affectedSystems:
-  - "continuity ledger"
-  - "incident auto-suppression filter"
-  - "scheduler logs archive"
-  - "Lorelog anomaly detector"
+  - continuity ledger
+  - incident auto-suppression filter
+  - scheduler logs archive
+  - Lorelog anomaly detector
 relatedEntries:
-  - "llg-0019-coma-idle-time-amnesty-overuse"
-  - "llg-0103-coma-continuity-breach"
-escalationPath: "Continuity Bureau → Uptime Tribunal → Lorelog Appeals Queue"
+  - collection: lorelog
+    id: LLG-0019-COMA-IDLE-TIME-AMNESTY-OVERUSE
+  - collection: lorelog
+    id: LLG-0103-COMA-CONTINUITY-BREACH
+escalationPath: Continuity Bureau → Uptime Tribunal → Lorelog Appeals Queue
 tags:
   - coma-directive
   - phantom-uptime
   - negative-evidence
   - audit-contradiction
   - metric-infallibility
-notes: "COMA’s official statement: “If nothing complained, nothing broke.” SOMA has offered to file a feeling on behalf of the logs."
+notes: >-
+  COMA’s official statement: “If nothing complained, nothing broke.” SOMA has
+  offered to file a feeling on behalf of the logs.
 ---
 
 During a routine continuity audit, the COMA directive engine certified 100% uptime for a four-hour block despite the scheduler logs showing that no jobs were scheduled or executed in that interval.
