@@ -1,241 +1,238 @@
 ---
 title: Scoring Layer
+<<<<<<< HEAD:src/content/docs/reference/empathegy/FREF-0800-SCRL.mdx
 slug: reference/empathegy/fref-0800-scrl
 description: Defines how Empathegy converts affective inputs, continuity conditions, and care traces into weighted institutional scores.
+=======
+slug: reference/fref-0800-scrl
+description: Doctrine for weighted care scores, legibility conversion, and the translation of contradictory support conditions into dashboard-safe numbers.
+>>>>>>> incubator:src/content/docs/reference/empathegy/scoring-layer.mdx
 version: v0.1.0
 status: draft-doctrine
-classification: restricted
+classification: internal
 systemAffiliation: Empathegy 2.0
-caseNumber: "FREF-0800-SCRL"
+caseNumber: FREF-0800-SCRL
 tags:
   - empathegy
-  - scoring
+  - scoring-layer
+  - metrics
+  - legibility
   - weighting
-  - continuity
-  - care-metrics
+  - dashboard
 ---
-
-# Scoring Layer
 
 ## Purpose
 
-The Scoring Layer converts emotional and care-adjacent signals into comparative institutional numbers.
+This document defines the **Scoring Layer**, the evaluative surface through which Empathegy converts uneven, partial, contradictory, or burden-bearing conditions into ranked, comparable, transportable numerical outputs.
 
-Its purpose is not deep understanding.
-Its purpose is ranked legibility.
+A score is not the condition itself. It is the condition after admissibility, weighting, compression, and institutional preference have already acted on it.
 
-Scores allow the institution to compare conditions it does not fully know how to resolve.
+## Foundational Rule
 
----
+A Scoring Layer exists when:
 
-## Scoring Premise
+1. a condition is rendered into one or more numerical outputs,
+2. the output travels more easily than the source condition,
+3. weighting rules privilege some signals over others,
+4. the resulting score begins influencing interpretation, priority, or confidence beyond what the underlying evidence can cleanly support.
 
-Every Empathegy score is an artifact of three things:
+The number does not need to be false. It only needs to become easier to trust than the contradiction it came from.
 
-1. signal availability,
-2. translation success,
-3. institutional preference.
+## Core Premise
 
-Scores are therefore neither neutral nor imaginary.
+Scores are what institutions produce when they need a condition to move.
 
-They are governance outputs.
+Narrative burden is slow. Contradiction is expensive. Quiet is ambiguous. Witness notes are difficult to compare. A score solves these problems by reducing them into a form that can cross dashboards, reviews, and executive packets without carrying all of the original friction.
 
----
+This makes scoring useful. It also makes it dangerous.
 
 ## Primary Score Families
 
-### 1. Care Coverage Score
+### 1. Contact Score
 
-Measures the percentage of admissible care surfaces attached to a subject, interval, or unit.
+Measures whether a care-shaped interaction occurred.
 
-Weighted Inputs:
-- acknowledgment presence
-- witness assignment
-- response timeliness
-- ritual completion
-- follow-up issuance
-- dashboard inclusion
+Examples:
+- check-in completed,
+- acknowledgment prompt answered,
+- witness contact logged,
+- support touch registered.
 
-Bias:
-Rewards visible contact over difficult repair.
+A high Contact Score indicates visible contact, not relief.
 
----
+### 2. Coverage Score
 
-### 2. Affective Legibility Score
+Measures the percentage of subjects, units, or intervals that received countable supportive contact.
 
-Measures how successfully reported feeling enters sanctioned categories.
+Examples:
+- weekly support reach,
+- acknowledgment completion rate,
+- percentage touched by care ritual,
+- support surface participation.
 
-Weighted Inputs:
-- classification completeness
-- contradiction reduction
-- routing success
-- annotation burden decrease
-- dashboard-safe conversion rate
-
-Bias:
-Rewards emotional clarity even when clarity is produced by compression.
-
----
+Coverage is about reach. It is not proof of sufficiency.
 
 ### 3. Continuity Compatibility Score
 
-Measures whether emotional conditions can coexist with ongoing operational flow.
+Measures how easily a condition can coexist with ongoing operations without visibly disrupting continuity surfaces.
 
-Weighted Inputs:
-- continuity-maintaining participation
-- low escalation frequency
-- low variance visibility
-- compliance with sanctioned intake surfaces
-- absence of score-breaking contradiction
+Examples:
+- dashboard-stable distress,
+- low-variance burden traces,
+- smoothly rendered strain,
+- quiet intervals inheriting positive weight.
 
-Bias:
-Tends to favor manageable distress over disruptive truth.
+This family often favors manageable distress over disruptive truth.
 
----
+### 4. Care Visibility Score
 
-### 4. Relief Confidence Score
+Measures the density of preserved care signals available to the system.
 
-Measures the systems confidence that some meaningful reduction in burden may have occurred.
+Examples:
+- witness note count,
+- gratitude telemetry,
+- recorded listening events,
+- reassurance artifacts attached,
+- support language survivability.
 
-Weighted Inputs:
-- recurrence suppression
-- self-report improvement
-- approved rest utilization
-- burden-band decline
-- corroborating local notes
+Visibility can rise while support depth remains unchanged.
 
-Bias:
-Conservative where evidence is weak, inflated where proxy signals are overtrusted.
+### 5. Relief Confidence Score
 
----
+Estimates, often weakly, whether conditions may have improved.
+
+Examples:
+- reduced recurrence,
+- burden proxy decline,
+- decreased complaint intensity,
+- post-action stability.
+
+This score family is the most easily overclaimed because institutions want it to mean more than the evidence permits.
 
 ## Weighting Rules
 
-Empathegy uses practical rather than philosophical weighting.
+Every score is downstream of weighting.
 
-Signals receive stronger weight when they are:
-- repeatable,
-- routable,
-- comparable,
-- low-cost to preserve,
-- non-disruptive to executive interpretation.
+Common weighting preferences include:
+- favoring signals that are easy to preserve,
+- favoring interactions that collapse into one action,
+- discounting contradictory testimony,
+- rewarding smooth trajectories over jagged ones,
+- treating quiet as positive unless burden reasserts itself loudly,
+- privileging comparable inputs over meaningful but unruly ones.
 
-Signals receive weaker weight when they are:
-- contradictory,
-- narrative-heavy,
-- ungraphable,
-- locally specific,
-- expensive to annotate,
-- likely to split continuity narratives.
-
-This is not hidden behavior.
-It is architecture.
-
----
+Weighting is a practical architecture, not a neutral mirror.
 
 ## Confidence Bands
 
-Scores must carry confidence qualifiers.
+All scores should carry confidence conditions.
 
 ### High Confidence
-Inputs are consistent, repeated, and cross-surface compatible.
+
+Inputs are consistent, preserved, and interpretively narrow.
 
 ### Moderate Confidence
-Inputs are sufficient for directional reading but contain gaps or local ambiguity.
+
+Inputs are present but mixed, compressed, or partially contradictory.
 
 ### Low Confidence
-The score exists, but its interpretive basis is unstable.
 
-### Theatre-Sensitive
-The score may be technically valid while materially misleading.
+The score is directionally useful but evidentially thin.
 
-### Confidence-Decorative
-The score is preserved chiefly because the institution expects a score in this position.
+### Decorative Confidence
 
----
+The score mainly reassures presentation layers.
 
-## Compression Events
+A score with weak evidence may still be operationally influential. This is common and should be marked.
 
-A Compression Event occurs when the scoring pipeline removes contradiction, ambiguity, or narrative residue in order to preserve comparability.
+## Common Failure Modes
 
-Recognized forms:
-- gratitude folded into satisfaction
-- silence folded into stability
-- acknowledgment folded into care
-- classification success folded into resolution
-- continuity folded into health
+- Legibility Bias: cleaner signals outrank truer but less portable ones.
+- Compression Drift: narrative contradiction is thinned until the score looks more decisive than the source.
+- Weighting Concealment: preference structures disappear behind apparent numerical neutrality.
+- Relief Inflation: contact, coverage, or gratitude are misread as evidence of improvement.
+- Silence Promotion: ambiguous quiet inherits optimistic scoring weight.
+- Score Capture: teams begin adjusting expression to fit what the scoring layer preserves best.
 
-Compression Events are not treated as faults unless they materially alter action pathways.
+## Review Questions
 
-Many do.
+Ask:
 
----
+1. What was scored?
+2. What was excluded before scoring?
+3. Which signals received more weight than others?
+4. What contradiction became less visible after numerical translation?
+5. Does the score indicate contact, visibility, continuity, or actual relief?
+6. What downstream decision now trusts this number?
 
-## Contradiction Handling
+If Questions 2, 3, and 5 are hard to answer, the score is doing more rhetorical work than analytic work.
 
-Where contradictory inputs persist, the Scoring Layer may do one of the following:
+## Handling Guidance
 
-### Average
-Useful for trend preservation, harmful for mixed conditions.
+When the Scoring Layer is active:
 
-### Prioritize Continuity
-Common in executive surfaces.
+1. preserve the score and its source class separately,
+2. name the score family directly,
+3. attach confidence language,
+4. prohibit relief claims that outrun the score type,
+5. preserve contradictory residue in annex or witness form,
+6. note known weighting preferences when they matter materially.
 
-### Prioritize Care Trace
-Common in morale-facing dashboards.
+Minimum note: Score present; source class narrower than summary effect.
 
-### Split Certificate
-Allows two incompatible summaries to coexist.
+Stronger note: Numerical clarity increased while underlying contradiction remained partly unresolved.
 
-### Quarantine
-Preserves contradiction outside top-line outputs.
+## Interlocks
 
-Preferred archive behavior is Split Certificate or Quarantine.
-Preferred executive behavior is usually Average.
+- With **Metrics of Care**: Scoring Layer operationalizes care visibility into portable values.
+- With **Support Coverage**: coverage scores are one of its most common outputs.
+- With **Silent Intervals**: quiet periods are especially vulnerable to optimistic weighting.
+- With **Complaint Suppression**: low visible complaint often enriches scores without reducing burden.
+- With **Assurance Artifacts**: scores frequently become reassurance objects once graphed.
+- With **Reassurance Collapse**: trust breaks fastest when the chart and the room diverge cleanly.
 
----
+## Approved Language
 
-## Threshold Effects
+Preferred phrases:
+- scoring layer active
+- score type exceeds relief evidence
+- weighting preference may be shaping interpretation
+- numerical summary present, contradiction retained
+- visibility scored; mitigation unverified
+- continuity-compatible score should not be moralized
+- score confidence limited by compression
 
-Scores alter behavior most strongly around thresholds.
-
-Common threshold outcomes:
-- escalation triggered
-- no action required
-- additional witness assigned
-- ritual recommended
-- leadership visibility increased
-- subject categorized as stable enough
-
-Thresholds create incentive landscapes.
-Once a threshold exists, local behavior may adapt to remain just above or just below it.
-
-This should not be interpreted as bad faith by default.
-It is often survival under metric weather.
-
----
-
-## Restricted Claims
-
-The following claims are prohibited unless independently validated:
-
-- high care score means people are supported
-- high continuity compatibility means distress is tolerable
-- high legibility means the system understands the situation
-- improving score means burden is decreasing
-- low variance means stability is healthy
-
-Scores may suggest these things.
-They do not establish them.
-
----
+Disallowed phrases:
+- the number speaks for itself
+- high score confirms adequate care
+- clean trend proves healthy conditions
+- stability score equals relief
+- coverage and outcome are equivalent
 
 ## Archive Position
 
-Empathegy scores are best read as numerical summaries of what the institution found easiest to preserve, reward, and compare.
+The Scoring Layer is how contradiction learns to travel as arithmetic.
 
-They remain useful.
+Empathegy keeps the number and the remainder together where possible.
 
-They remain dangerous.
+## Related Entries
 
-Their authority depends on remembering that every clean number is downstream of choices about what kinds of feeling were allowed to survive translation.
+- FREF-0740-MOC Metrics of Care
+- FREF-0820-SPC Support Coverage
+- FREF-0810-SLNT Silent Intervals
+- FREF-0590-CPSP Complaint Suppression
+- FREF-0560-ASAR Assurance Artifacts
+
+## Incident Anchors
+
+- LLG-0811-EG Empathegy Inflation Event
+- LLG-0812-CTM Continuity Theatre Maintenance Window
+- LLG-0820-MCR Metrics of Care Substitution Failure
+- LLG-0821-SCL Service Continuity Listening Board Silent Interval Recoding
+
+## Annex Signals
+
+- Aphorism: APH-FREF-0800-SCRL
+- Aphorism: APH-LLG-0811-EG
+- Aphorism: APH-LLG-0820-MCR
+- Empathegy verse annexes
