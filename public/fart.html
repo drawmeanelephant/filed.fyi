@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatulaphone Frenzy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+    <style>
+        /* Custom styles for animations and specific game UI elements */
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #1a1a2e;
+            overflow: hidden;
+            touch-action: none; /* Prevent scrolling on mobile */
+        }
+        
+        h1, h2, h3, .brand-font {
+            font-family: 'Fredoka One', cursive;
+        }
+
+        #game-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        canvas {
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+            background: radial-gradient(circle at center, #2a2a4a 0%, #111122 100%);
+            border-radius: 12px;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        /* Meter animations */
+        .meter-fill {
+            transition: height 0.2s ease-out, background-color 0.3s;
+        }
+
+        /* Screen Shake */
+        .shake {
+            animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+        }
+
+        @keyframes shake {
+            10%, 90% { transform: translate3d(-2px, 2px, 0); }
+            20%, 80% { transform: translate3d(4px, -2px, 0); }
+            30%, 50%, 70% { transform: translate3d(-8px, 4px, 0); }
+            40%, 60% { transform: translate3d(8px, -4px, 0); }
+        }
+
+        /* Button styling */
+        .btn-play {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            box-shadow: 0 6px 0 #b45309, 0 10px 20px rgba(0,0,0,0.5);
+            transition: all 0.1s;
+        }
+        .btn-play:active {
+            transform: translateY(6px);
+            box-shadow: 0 0 0 #b45309, 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        #touchControls {
+            display: none;
+        }
+
+        :root {
+            --touch-controls-bottom: 76px;
+            --touch-controls-height: 216px;
+        }
+
+        .touch-btn {
+            min-height: 58px;
+            border: 2px solid rgba(255, 255, 255, 0.18);
+            background: rgba(15, 23, 42, 0.88);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.16), 0 8px 18px rgba(0,0,0,0.35);
+            -webkit-tap-highlight-color: transparent;
+            touch-action: none;
+            user-select: none;
+        }
+
+        .touch-btn.is-pressed {
+            transform: translateY(3px) scale(0.98);
+            box-shadow: inset 0 2px 8px rgba(0,0,0,0.45), 0 3px 8px rgba(0,0,0,0.35);
+            border-color: rgba(250, 204, 21, 0.8);
+        }
+
+        body.touch-capable #game-container {
+            align-items: flex-start;
+            padding-bottom: var(--touch-controls-height);
+            box-sizing: border-box;
+        }
+
+        body.touch-capable #hud {
+            padding-bottom: calc(var(--touch-controls-height) + 0.75rem) !important;
+        }
+
+        body.touch-capable #touchControls.touch-active {
+            display: grid;
+            bottom: calc(var(--touch-controls-bottom) + env(safe-area-inset-bottom, 0px));
+        }
+
+        body.touch-capable #keyboardHelper {
+            bottom: calc(var(--touch-controls-height) + 0.5rem);
+            width: min(92vw, 680px);
+            border-radius: 12px;
+            font-size: 0.75rem;
+            line-height: 1.25rem;
+        }
+
+        @media (pointer: coarse), (max-width: 900px) {
+            #game-container {
+                align-items: flex-start;
+                padding-bottom: var(--touch-controls-height);
+                box-sizing: border-box;
+            }
+
+            #hud {
+                padding-bottom: calc(var(--touch-controls-height) + 0.75rem) !important;
+            }
+
+            #touchControls.touch-active {
+                display: grid;
+                bottom: calc(var(--touch-controls-bottom) + env(safe-area-inset-bottom, 0px));
+            }
+
+            #keyboardHelper {
+                bottom: calc(var(--touch-controls-height) + 0.5rem);
+                width: min(92vw, 680px);
+                border-radius: 12px;
+                font-size: 0.75rem;
+                line-height: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body class="text-white">
+
+    <div id="game-container">
+        <!-- Main Game Canvas -->
+        <canvas id="gameCanvas" width="1024" height="576"></canvas>
+
+        <!-- HUD (Heads Up Display) -->
+        <div id="hud" class="absolute top-0 left-0 w-full h-full pointer-events-none hidden max-w-5xl mx-auto p-4 flex flex-col justify-between">
+            
+            <!-- Top Bar: Score & Level -->
+            <div class="flex justify-between items-start">
+                <div class="bg-black/50 p-4 rounded-xl border-2 border-yellow-500 backdrop-blur-sm">
+                    <h2 id="gigTitle" class="text-yellow-400 text-xl font-bold uppercase tracking-wider">Elementary Talent Show</h2>
+                    <div class="text-4xl brand-font text-white" id="scoreDisplay">0</div>
+                    <div class="text-sm text-gray-300 mt-1">Multiplier: <span id="multiplierDisplay" class="font-bold text-yellow-300">x1</span></div>
+                </div>
+
+                <!-- Audience Archetype -->
+                <div class="bg-black/50 p-3 rounded-xl border-2 border-cyan-500 backdrop-blur-sm text-center min-w-64">
+                    <div class="text-xs font-bold text-cyan-300 uppercase tracking-widest">Tonight's Crowd</div>
+                    <div id="crowdName" class="text-lg brand-font text-white">Classical Music Society</div>
+                    <div id="crowdMood" class="text-xs text-gray-300 mt-1">polite, brittle, dangerously sober</div>
+                </div>
+
+                <!-- Ultimate Meter -->
+                <div class="flex flex-col items-center bg-black/50 p-2 rounded-xl border-2 border-purple-500">
+                    <span class="text-xs font-bold text-purple-300 mb-1">THE BROWN NOTE (ENTER)</span>
+                    <div class="w-48 h-6 bg-gray-800 rounded-full overflow-hidden border border-purple-900 relative">
+                        <div id="ultimateFill" class="h-full bg-gradient-to-r from-purple-600 to-pink-500 w-0 transition-all duration-300"></div>
+                        <div id="ultimateReadyText" class="absolute inset-0 flex items-center justify-center text-xs font-bold text-white hidden animate-pulse">READY!</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Side Meters -->
+            <div class="flex justify-between items-end h-full pb-20">
+                <!-- Pressure Gauge (Left) -->
+                <div class="flex flex-col items-center bg-black/60 p-3 rounded-t-2xl border-x-2 border-t-2 border-gray-600 w-20">
+                    <span class="text-2xl mb-2">💨</span>
+                    <div class="h-48 w-8 bg-gray-800 rounded-full border border-gray-600 overflow-hidden relative flex items-end">
+                        <div id="pressureFill" class="w-full bg-green-500 meter-fill h-0"></div>
+                    </div>
+                    <span class="text-xs font-bold mt-2 uppercase tracking-widest text-gray-400">Pressure</span>
+                </div>
+
+                <!-- Audience Meters (Right) -->
+                <div class="flex gap-4 bg-black/60 p-4 rounded-tl-2xl border-l-2 border-t-2 border-gray-600">
+                    <!-- Enjoyment -->
+                    <div class="flex flex-col items-center">
+                        <span class="text-2xl mb-2" id="emojiEnjoy">🎵</span>
+                        <div class="h-32 w-6 bg-gray-800 rounded-full overflow-hidden flex items-end">
+                            <div id="enjoyFill" class="w-full bg-blue-500 meter-fill h-1/2"></div>
+                        </div>
+                    </div>
+                    <!-- Discomfort -->
+                    <div class="flex flex-col items-center">
+                        <span class="text-2xl mb-2" id="emojiDisgust">🤢</span>
+                        <div class="h-32 w-6 bg-gray-800 rounded-full overflow-hidden flex items-end">
+                            <div id="disgustFill" class="w-full bg-green-600 meter-fill h-0"></div>
+                        </div>
+                    </div>
+                    <!-- Entertainment -->
+                    <div class="flex flex-col items-center">
+                        <span class="text-2xl mb-2" id="emojiEntertain">🤣</span>
+                        <div class="h-32 w-6 bg-gray-800 rounded-full overflow-hidden flex items-end">
+                            <div id="entertainFill" class="w-full bg-yellow-400 meter-fill h-1/4" style="box-shadow: 0 0 10px #facc15;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls Helper -->
+            <div id="bossBanner" class="absolute top-28 left-1/2 transform -translate-x-1/2 hidden w-96 max-w-[90vw] text-center bg-red-950/80 px-4 py-3 rounded-xl backdrop-blur-sm border-2 border-red-500 shadow-[0_0_20px_rgba(239,68,68,0.55)]">
+                <div class="text-xs font-bold text-red-200 uppercase tracking-widest">Boss Duel</div>
+                <div class="flex items-center gap-3 mt-1">
+                    <span class="text-2xl">🎼</span>
+                    <div class="flex-1 h-4 bg-gray-900 rounded-full overflow-hidden border border-red-800">
+                        <div id="bossFill" class="h-full bg-gradient-to-r from-red-600 to-yellow-400 w-0 transition-all duration-200"></div>
+                    </div>
+                    <span class="text-2xl">💨</span>
+                </div>
+                <div id="bossText" class="text-sm text-yellow-200 font-bold mt-1">Maestro Windbag demands a response.</div>
+            </div>
+
+            <div id="keyboardHelper" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-center text-gray-400 text-sm bg-black/70 px-6 py-2 rounded-full backdrop-blur-sm border border-gray-700">
+                <span class="font-bold text-white">UP/DOWN</span> Slide Pitch | <span class="font-bold text-white">SPACE</span> Blow | <span class="font-bold text-white">ENTER</span> Special | <span id="instrumentHud" class="font-bold text-yellow-300">Pocket Flatulaphone</span>
+            </div>
+        </div>
+
+        <!-- Touch Controls -->
+        <div id="touchControls" class="absolute left-1/2 bottom-3 z-40 w-[min(680px,calc(100vw-24px))] -translate-x-1/2 grid-cols-[1fr_1.2fr_1fr] gap-3 pointer-events-auto">
+            <div class="grid grid-rows-2 gap-2">
+                <button class="touch-btn rounded-xl brand-font text-2xl text-white" data-touch-key="ArrowUp" aria-label="Move slide up">↑</button>
+                <button class="touch-btn rounded-xl brand-font text-2xl text-white" data-touch-key="ArrowDown" aria-label="Move slide down">↓</button>
+            </div>
+            <button class="touch-btn rounded-2xl brand-font text-xl text-white bg-green-700/90" data-touch-key="Space" aria-label="Blow">
+                <span class="block text-3xl leading-none">💨</span>
+                <span class="block text-sm uppercase tracking-widest mt-1">Blow</span>
+            </button>
+            <button class="touch-btn rounded-2xl brand-font text-white bg-purple-800/90" data-touch-key="Enter" aria-label="Use the Brown Note">
+                <span class="block text-2xl leading-none">💥</span>
+                <span class="block text-xs uppercase tracking-widest mt-1">Brown<br>Note</span>
+            </button>
+        </div>
+
+        <!-- Start Screen -->
+        <div id="startScreen" class="absolute inset-0 bg-black/90 flex flex-col items-center justify-start lg:justify-center z-50 backdrop-blur-md text-center px-4 py-6 overflow-y-auto">
+            <h1 class="text-6xl md:text-8xl brand-font text-transparent bg-clip-text bg-gradient-to-br from-yellow-300 via-green-400 to-purple-500 mb-4 drop-shadow-lg filter drop-shadow-[0_0_15px_rgba(74,222,128,0.8)]">
+                Flatulaphone Frenzy
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl">
+                The world's most regrettable rhythm game. Keep the pitch, hit the notes, manage your aroma cloud, and try not to clear the room!
+            </p>
+            <div class="text-sm text-yellow-200 mb-4">Best Score: <span id="bestScoreDisplay" class="font-bold">0</span></div>
+            <button id="startBtn" class="btn-play text-3xl brand-font px-12 py-4 rounded-2xl text-white tracking-widest uppercase cursor-pointer pointer-events-auto">
+                Play Gig
+            </button>
+            
+            <div class="mt-8 grid md:grid-cols-2 gap-4 text-left max-w-5xl w-full">
+                <div class="bg-gray-900/80 p-5 rounded-xl border border-gray-700">
+                    <h3 class="text-cyan-300 font-bold mb-3 uppercase">Crowd Circuit</h3>
+                    <div id="crowdPreview" class="grid sm:grid-cols-2 gap-2 text-sm"></div>
+                </div>
+                <div class="bg-gray-900/80 p-5 rounded-xl border border-gray-700">
+                    <h3 class="text-yellow-300 font-bold mb-3 uppercase">Instrument Rack</h3>
+                    <div id="instrumentRack" class="grid sm:grid-cols-2 gap-2 text-sm"></div>
+                </div>
+            </div>
+
+            <div class="mt-4 flex gap-8 text-left bg-gray-900/80 p-6 rounded-xl border border-gray-700">
+                <div>
+                    <h3 class="text-yellow-400 font-bold mb-2 uppercase">Controls</h3>
+                    <ul class="text-gray-300 space-y-1">
+                        <li><kbd class="bg-gray-700 px-2 rounded text-white">↑</kbd> <kbd class="bg-gray-700 px-2 rounded text-white">↓</kbd> Move Slide</li>
+                        <li><kbd class="bg-gray-700 px-2 rounded text-white">Space</kbd> Play Note</li>
+                        <li><kbd class="bg-gray-700 px-2 rounded text-white">Enter</kbd> The Brown Note</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-green-400 font-bold mb-2 uppercase">Mechanics</h3>
+                    <ul class="text-gray-300 space-y-1">
+                        <li>🎵 Hit notes for Enjoyment</li>
+                        <li>🤢 Misses create Discomfort (Aroma)</li>
+                        <li>🤣 Maximize BOTH for pure Chaos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Over Screen -->
+        <div id="gameOverScreen" class="absolute inset-0 bg-red-900/90 flex flex-col items-center justify-center z-50 backdrop-blur-md hidden text-center px-4">
+            <h1 id="gameOverTitle" class="text-7xl brand-font text-white mb-2 drop-shadow-[0_5px_5px_rgba(0,0,0,1)]">BOOED OFF STAGE!</h1>
+            <p id="gameOverDesc" class="text-2xl text-yellow-300 mb-8 font-bold">The aroma was too much. The audience evacuated.</p>
+            
+            <div class="bg-black/60 p-8 rounded-2xl mb-8 border-2 border-red-500 shadow-[0_0_30px_rgba(239,68,68,0.5)]">
+                <div class="text-xl text-gray-300">Final Score</div>
+                <div id="finalScore" class="text-6xl brand-font text-white mb-4">0</div>
+                <div class="flex justify-center gap-6 mt-4">
+                    <div class="text-center">
+                        <div class="text-3xl mb-1">🎵</div>
+                        <div id="finalEnjoy" class="font-bold text-blue-400">0%</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl mb-1">🤢</div>
+                        <div id="finalDisgust" class="font-bold text-green-400">0%</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl mb-1">🤣</div>
+                        <div id="finalEntertain" class="font-bold text-yellow-400">0%</div>
+                    </div>
+                </div>
+            </div>
+
+            <button id="restartBtn" class="btn-play text-2xl brand-font px-10 py-4 rounded-xl text-white tracking-widest uppercase cursor-pointer pointer-events-auto">
+                Try Again
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // --- Audio System (Tone.js) ---
+        let audioContextStarted = false;
+        let flatulaSynth;
+        let noiseSynth;
+        let drumSynth;
+        let masterDistortion;
+        let masterReverb;
+        let beatScheduled = false;
+
+        const initAudio = async () => {
+            if (audioContextStarted) return;
+            await Tone.start();
+            
+            // The glorious Flatulaphone instrument
+            masterDistortion = new Tone.Distortion(0.3).toDestination();
+            masterReverb = new Tone.Reverb({ decay: 1.5, preDelay: 0.01 }).connect(masterDistortion);
+            
+            flatulaSynth = new Tone.MonoSynth({
+                oscillator: { type: "sawtooth" },
+                filter: { Q: 5, type: "lowpass", rolloff: -24 },
+                envelope: { attack: 0.05, decay: 0.2, sustain: 0.8, release: 0.4 },
+                filterEnvelope: { attack: 0.1, decay: 0.1, sustain: 0.4, release: 0.4, baseFrequency: 150, octaves: 3 }
+            }).connect(masterReverb);
+
+            // Gross wet noise for misses
+            noiseSynth = new Tone.NoiseSynth({
+                noise: { type: "brown" },
+                envelope: { attack: 0.1, decay: 0.5, sustain: 0.1, release: 0.2 }
+            }).connect(masterDistortion);
+
+            // Backing track beat
+            drumSynth = new Tone.MembraneSynth().toDestination();
+
+            audioContextStarted = true;
+            Tone.Transport.start();
+        };
+
+        const playNoteSound = (lane, isPerfect) => {
+            if (!audioContextStarted) return;
+            const pitches = ["C4", "G3", "C3"]; // Top, Mid, Bottom
+            
+            if (isPerfect) {
+                // Good sound
+                flatulaSynth.filterEnvelope.baseFrequency = 200;
+                flatulaSynth.oscillator.type = "square";
+                flatulaSynth.triggerAttackRelease(pitches[lane], "8n");
+            } else {
+                // Bad, sloppy sound
+                flatulaSynth.filterEnvelope.baseFrequency = 80;
+                flatulaSynth.oscillator.type = "sawtooth";
+                flatulaSynth.triggerAttackRelease(Tone.Frequency(pitches[lane]).transpose(-1), "4n");
+                noiseSynth.triggerAttackRelease("16n");
+            }
+        };
+
+        const playBrownNoteSound = () => {
+             if (!audioContextStarted) return;
+             flatulaSynth.filterEnvelope.baseFrequency = 50;
+             flatulaSynth.oscillator.type = "sawtooth";
+             flatulaSynth.triggerAttackRelease("C1", "1n"); // SUPER LOW
+             noiseSynth.triggerAttackRelease("2n");
+        };
+
+        // --- Game Setup & Global Variables ---
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        const hud = document.getElementById('hud');
+        
+        // Logical Dimensions (Scaled to fit later)
+        const GAME_WIDTH = 1024;
+        const GAME_HEIGHT = 576;
+        
+        // Game State
+        let gameState = 'start'; // start, playing, gameover
+        let lastTime = 0;
+        let score = 0;
+        let multiplier = 1;
+        let combo = 0;
+        let ultimateCharge = 0; // 0 to 100
+        let gigTimer = 0;
+        let nextCrowdChange = 30000;
+        let selectedInstrumentIndex = 0;
+        let currentCrowdIndex = 0;
+        let bossStarted = false;
+        let bossActive = false;
+        let bossMeter = 50;
+        let bossTimer = 0;
+        let bossPatternTimer = 0;
+        let bossPatternStep = 0;
+        let bestScore = Number(localStorage.getItem('flatulaphoneBestScore') || 0);
+        
+        // Metrics (0 to 100)
+        let enjoyment = 50;
+        let discomfort = 0;
+        let pressure = 0;
+        
+        // Gameplay configurations
+        const LANES = 3;
+        const HIT_X = 150; // The x-coordinate where notes need to be hit
+        const HIT_TOLERANCE = 40; // Pixels leeway
+        
+        // Entities
+        let notes = [];
+        let particles = [];
+        let clouds = [];
+
+        const AUDIENCE_ARCHETYPES = [
+            {
+                name: 'Classical Music Society',
+                emoji: '👴',
+                mood: 'perfect pitch, zero mercy',
+                stage: 'Conservatory Recital Hall',
+                color: '#60a5fa',
+                musicWeight: 0.75,
+                aromaWeight: 0.15,
+                chaosBonus: 0.3,
+                noteScore: 1.45,
+                aromaScore: 0.35,
+                deepBonus: 0.8,
+                missStink: 1.25,
+                evacuateAt: 82,
+                patienceFloor: 35,
+                tempo: 1
+            },
+            {
+                name: 'Stadium Fans',
+                emoji: '🍺',
+                mood: 'loud, forgiving, concerningly enthusiastic',
+                stage: 'Municipal Dome Halftime Show',
+                color: '#f97316',
+                musicWeight: 0.25,
+                aromaWeight: 0.65,
+                chaosBonus: 1.15,
+                noteScore: 0.85,
+                aromaScore: 1.45,
+                deepBonus: 1.05,
+                missStink: 0.8,
+                evacuateAt: 98,
+                patienceFloor: 8,
+                tempo: 0.9
+            },
+            {
+                name: 'Experimental Art Critics',
+                emoji: '🧪',
+                mood: 'taking notes nobody asked for',
+                stage: 'Warehouse of Questionable Acoustics',
+                color: '#c084fc',
+                musicWeight: 0.35,
+                aromaWeight: 0.35,
+                chaosBonus: 1.6,
+                noteScore: 1,
+                aromaScore: 1,
+                deepBonus: 1,
+                missStink: 0.95,
+                evacuateAt: 92,
+                patienceFloor: 12,
+                tempo: 0.85
+            },
+            {
+                name: 'Elephant Appreciation Convention',
+                emoji: '🐘',
+                mood: 'here for the low end',
+                stage: 'Grand Pachyderm Expo',
+                color: '#34d399',
+                musicWeight: 0.45,
+                aromaWeight: 0.35,
+                chaosBonus: 0.85,
+                noteScore: 1,
+                aromaScore: 0.9,
+                deepBonus: 1.8,
+                missStink: 0.75,
+                evacuateAt: 96,
+                patienceFloor: 15,
+                tempo: 0.95
+            }
+        ];
+
+        const INSTRUMENTS = [
+            {
+                name: 'Pocket Flatulaphone',
+                unlockScore: 0,
+                tag: 'starter toot',
+                scoreMod: 1,
+                aroma: 1,
+                pressureGain: 1,
+                pressureRelief: 1,
+                brownNote: 1,
+                reservoir: 1,
+                color: '#ca8a04'
+            },
+            {
+                name: 'Bass Flatulaphone',
+                unlockScore: 2500,
+                tag: 'deep bonus',
+                scoreMod: 1.05,
+                aroma: 1.1,
+                pressureGain: 1.05,
+                pressureRelief: 0.9,
+                brownNote: 1.2,
+                reservoir: 1.15,
+                color: '#a16207'
+            },
+            {
+                name: 'Triple-Barreled Flatulaphone',
+                unlockScore: 6000,
+                tag: 'more chaos',
+                scoreMod: 1.15,
+                aroma: 1.35,
+                pressureGain: 1.25,
+                pressureRelief: 0.8,
+                brownNote: 1.25,
+                reservoir: 1.25,
+                color: '#d97706'
+            },
+            {
+                name: 'Steam-Powered Flatulaphone',
+                unlockScore: 10000,
+                tag: 'pressure play',
+                scoreMod: 1.2,
+                aroma: 1.15,
+                pressureGain: 1.35,
+                pressureRelief: 1.25,
+                brownNote: 1.35,
+                reservoir: 1.45,
+                color: '#94a3b8'
+            },
+            {
+                name: 'Elephant-Trunk Signature Edition',
+                unlockScore: 15000,
+                tag: 'resonant menace',
+                scoreMod: 1.25,
+                aroma: 1.25,
+                pressureGain: 1.1,
+                pressureRelief: 1.05,
+                brownNote: 1.55,
+                reservoir: 1.6,
+                color: '#64748b'
+            },
+            {
+                name: 'Quantum Flatulaphone',
+                unlockScore: 22000,
+                tag: 'uncertain tone',
+                scoreMod: 1.4,
+                aroma: 1.5,
+                pressureGain: 1.45,
+                pressureRelief: 1.4,
+                brownNote: 1.8,
+                reservoir: 1.9,
+                color: '#22d3ee'
+            }
+        ];
+
+        const getCurrentCrowd = () => AUDIENCE_ARCHETYPES[currentCrowdIndex];
+        const getCurrentInstrument = () => INSTRUMENTS[selectedInstrumentIndex];
+        const hasTouchControls = () => navigator.maxTouchPoints > 0 || window.matchMedia('(pointer: coarse)').matches;
+        document.body.classList.toggle('touch-capable', hasTouchControls());
+        
+        // Player State
+        const player = {
+            lane: 1, // 0: Top, 1: Mid, 2: Bot
+            isBlowing: false,
+            blowTimer: 0,
+            color: '#ffffff'
+        };
+
+        // Inputs
+        const keys = {
+            ArrowUp: false,
+            ArrowDown: false,
+            Space: false,
+            Enter: false
+        };
+
+        // UI Elements
+        const elScore = document.getElementById('scoreDisplay');
+        const elMult = document.getElementById('multiplierDisplay');
+        const elEnjoyFill = document.getElementById('enjoyFill');
+        const elDisgustFill = document.getElementById('disgustFill');
+        const elEntertainFill = document.getElementById('entertainFill');
+        const elPressureFill = document.getElementById('pressureFill');
+        const elUltFill = document.getElementById('ultimateFill');
+        const elUltText = document.getElementById('ultimateReadyText');
+        const elGigTitle = document.getElementById('gigTitle');
+        const elCrowdName = document.getElementById('crowdName');
+        const elCrowdMood = document.getElementById('crowdMood');
+        const elInstrumentHud = document.getElementById('instrumentHud');
+        const elBossBanner = document.getElementById('bossBanner');
+        const elBossFill = document.getElementById('bossFill');
+        const elBossText = document.getElementById('bossText');
+        const elBestScore = document.getElementById('bestScoreDisplay');
+        const elCrowdPreview = document.getElementById('crowdPreview');
+        const elInstrumentRack = document.getElementById('instrumentRack');
+        const elTouchControls = document.getElementById('touchControls');
+        const gameContainer = document.getElementById('game-container');
+
+        class Note {
+            constructor(lane = null, forcedType = null) {
+                this.lane = lane ?? Math.floor(Math.random() * LANES);
+                this.x = GAME_WIDTH + 50;
+                this.y = this.getLaneY(this.lane);
+                this.speed = 4 + (score / 1000) + (bossActive ? 1.25 : 0); // Speed increases with score
+                this.radius = 20;
+                this.hit = false;
+                this.missed = false;
+                this.isBossNote = forcedType === 'boss';
+                
+                // Visual variation
+                this.type = forcedType || (Math.random() > 0.8 ? 'long' : 'short');
+                this.width = this.type === 'long' ? 80 : 40;
+                if (this.isBossNote) this.width = 72;
+            }
+
+            getLaneY(lane) {
+                const laneHeight = GAME_HEIGHT / (LANES + 2);
+                return (lane + 1.5) * laneHeight;
+            }
+
+            update() {
+                this.x -= this.speed;
+                if (this.x < 0 && !this.hit && !this.missed) {
+                    this.missed = true;
+                    handleMiss(false, this.isBossNote);
+                }
+            }
+
+            draw(ctx) {
+                if (this.hit) return;
+                
+                ctx.save();
+                ctx.translate(this.x, this.y);
+                
+                // Draw note shadow
+                ctx.fillStyle = 'rgba(0,0,0,0.5)';
+                ctx.beginPath();
+                ctx.ellipse(0, 5, this.width/2, this.radius, 0, 0, Math.PI * 2);
+                ctx.fill();
+
+                // Draw note body
+                const gradient = ctx.createLinearGradient(0, -this.radius, 0, this.radius);
+                if (this.isBossNote) {
+                    gradient.addColorStop(0, '#fca5a5');
+                    gradient.addColorStop(1, '#7f1d1d');
+                } else if (this.missed) {
+                    gradient.addColorStop(0, '#ef4444'); // Red if missed
+                    gradient.addColorStop(1, '#991b1b');
+                } else {
+                    gradient.addColorStop(0, '#eab308'); // Yellow normal
+                    gradient.addColorStop(1, '#a16207');
+                }
+
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.roundRect(-this.width/2, -this.radius, this.width, this.radius*2, 10);
+                ctx.fill();
+                
+                // Highlight
+                ctx.fillStyle = 'rgba(255,255,255,0.3)';
+                ctx.beginPath();
+                ctx.roundRect(-this.width/2 + 2, -this.radius + 2, this.width - 4, 6, 5);
+                ctx.fill();
+
+                if (this.isBossNote) {
+                    ctx.font = '18px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillStyle = '#fff7ed';
+                    ctx.fillText('🎼', 0, 1);
+                }
+
+                ctx.restore();
+            }
+        }
+
+        class Particle {
+            constructor(x, y, color, speed, size) {
+                this.x = x;
+                this.y = y;
+                this.vx = (Math.random() - 0.5) * speed;
+                this.vy = (Math.random() - 0.5) * speed;
+                this.life = 1.0;
+                this.decay = Math.random() * 0.02 + 0.02;
+                this.color = color;
+                this.size = size;
+            }
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.life -= this.decay;
+                this.size *= 0.95;
+            }
+            draw(ctx) {
+                ctx.globalAlpha = Math.max(0, this.life);
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.globalAlpha = 1.0;
+            }
+        }
+
+        class AromaCloud {
+            constructor(x, y, severity) {
+                this.x = x;
+                this.y = y;
+                this.radius = 10;
+                this.maxRadius = severity * 100;
+                this.life = 1.0;
+                this.decay = 0.005; // Lingers
+                this.wobbleOffset = Math.random() * Math.PI * 2;
+                
+                // Color based on severity
+                const colors = [
+                    'rgba(134, 239, 172, 0.4)', // Light green
+                    'rgba(74, 222, 128, 0.6)',  // Green
+                    'rgba(161, 98, 7, 0.7)'     // Brown/Yellow
+                ];
+                this.baseColor = colors[Math.min(severity - 1, 2)];
+            }
+            update() {
+                if (this.radius < this.maxRadius) {
+                    this.radius += 5; // Expand
+                }
+                this.life -= this.decay;
+                this.y -= 0.5; // Slowly rise
+            }
+            draw(ctx) {
+                ctx.save();
+                ctx.globalAlpha = Math.max(0, this.life);
+                
+                const wobble = Math.sin(Date.now() / 200 + this.wobbleOffset) * 10;
+                
+                // Radial gradient for soft edges
+                const grad = ctx.createRadialGradient(this.x, this.y + wobble, 0, this.x, this.y + wobble, this.radius);
+                // Extract rgb from rgba string to reconstruct
+                const colorMatch = this.baseColor.match(/rgba\((\d+),\s*(\d+),\s*(\d+),\s*([0-9.]+)\)/);
+                if(colorMatch) {
+                     grad.addColorStop(0, `rgba(${colorMatch[1]},${colorMatch[2]},${colorMatch[3]},${this.life * parseFloat(colorMatch[4])})`);
+                     grad.addColorStop(1, `rgba(${colorMatch[1]},${colorMatch[2]},${colorMatch[3]},0)`);
+                } else {
+                     grad.addColorStop(0, this.baseColor);
+                     grad.addColorStop(1, 'transparent');
+                }
+
+                ctx.fillStyle = grad;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y + wobble, this.radius, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+        }
+
+        let noteSpawnTimer = 0;
+        let bpm = 120;
+
+        function calculateEntertainment() {
+            const crowd = getCurrentCrowd();
+            let entertainment = (enjoyment * crowd.musicWeight) + (discomfort * crowd.aromaWeight);
+            const controlledDisaster = Math.min(enjoyment, discomfort);
+            if (enjoyment > 45 && discomfort > 35) {
+                entertainment += controlledDisaster * crowd.chaosBonus * 0.45;
+            }
+            return Math.max(0, Math.min(100, entertainment));
+        }
+
+        function updateCrowdUI() {
+            const crowd = getCurrentCrowd();
+            elGigTitle.innerText = crowd.stage;
+            elGigTitle.style.color = crowd.color;
+            elCrowdName.innerText = `${crowd.emoji} ${crowd.name}`;
+            elCrowdMood.innerText = crowd.mood;
+            elInstrumentHud.innerText = getCurrentInstrument().name;
+        }
+
+        function advanceCrowd() {
+            currentCrowdIndex = (currentCrowdIndex + 1) % AUDIENCE_ARCHETYPES.length;
+            nextCrowdChange += 30000;
+            ultimateCharge = Math.min(100, ultimateCharge + 8);
+            spawnParticles(GAME_WIDTH / 2, GAME_HEIGHT - 70, getCurrentCrowd().color, 35);
+            updateCrowdUI();
+        }
+
+        function startBossDuel() {
+            bossStarted = true;
+            bossActive = true;
+            bossMeter = 50;
+            bossTimer = 30000;
+            bossPatternTimer = 0;
+            bossPatternStep = 0;
+            currentCrowdIndex = AUDIENCE_ARCHETYPES.findIndex(c => c.name === 'Experimental Art Critics');
+            if (currentCrowdIndex < 0) currentCrowdIndex = 0;
+            updateCrowdUI();
+            elBossBanner.classList.remove('hidden');
+            clouds.push(new AromaCloud(GAME_WIDTH - 190, GAME_HEIGHT / 2, 3));
+            spawnParticles(GAME_WIDTH - 170, GAME_HEIGHT / 2, '#fca5a5', 45);
+        }
+
+        function updateBossDuel(dt) {
+            if (!bossActive) return;
+
+            bossTimer -= dt;
+            bossPatternTimer -= dt;
+
+            if (bossPatternTimer <= 0) {
+                const pattern = [0, 1, 2, 1, 2, 0, 2, 1];
+                notes.push(new Note(pattern[bossPatternStep % pattern.length], 'boss'));
+                bossPatternStep++;
+                bossPatternTimer = Math.max(380, 720 - score / 180);
+            }
+
+            bossMeter -= dt * 0.0025;
+            bossMeter = Math.max(0, Math.min(100, bossMeter));
+            elBossFill.style.width = `${bossMeter}%`;
+            elBossText.innerText = bossTimer < 9000 ? 'Final cadence. Make it regrettable.' : 'Maestro Windbag demands a response.';
+
+            if (bossMeter >= 100 || (bossTimer <= 0 && bossMeter >= 55)) {
+                score += Math.round(3000 * getCurrentInstrument().brownNote);
+                endGame(true);
+            } else if (bossMeter <= 0 || bossTimer <= 0) {
+                endGame(false, 'Maestro Windbag drowned you in respectable musicianship.');
+            }
+        }
+
+        function recordBestScore() {
+            if (score > bestScore) {
+                bestScore = score;
+                localStorage.setItem('flatulaphoneBestScore', String(bestScore));
+            }
+        }
+
+        function renderStartOptions() {
+            elBestScore.innerText = bestScore;
+            elCrowdPreview.innerHTML = AUDIENCE_ARCHETYPES.map(crowd => `
+                <div class="bg-black/30 rounded-lg border border-gray-700 px-3 py-2">
+                    <div class="font-bold text-white">${crowd.emoji} ${crowd.name}</div>
+                    <div class="text-gray-400">${crowd.mood}</div>
+                </div>
+            `).join('');
+
+            elInstrumentRack.innerHTML = INSTRUMENTS.map((instrument, index) => {
+                const locked = bestScore < instrument.unlockScore;
+                const selected = index === selectedInstrumentIndex;
+                const classes = selected
+                    ? 'border-yellow-300 bg-yellow-500/20 text-white'
+                    : locked
+                        ? 'border-gray-800 bg-black/30 text-gray-500'
+                        : 'border-gray-700 bg-black/30 text-gray-200 hover:border-yellow-500';
+                const unlockText = locked ? `Unlocks at ${instrument.unlockScore}` : instrument.tag;
+                return `
+                    <button class="instrument-option text-left rounded-lg border px-3 py-2 pointer-events-auto ${classes}" data-instrument="${index}" ${locked ? 'disabled' : ''}>
+                        <div class="font-bold">${instrument.name}</div>
+                        <div class="text-xs opacity-80">${unlockText}</div>
+                    </button>
+                `;
+            }).join('');
+
+            document.querySelectorAll('.instrument-option').forEach(button => {
+                button.addEventListener('click', () => {
+                    const index = Number(button.dataset.instrument);
+                    if (bestScore >= INSTRUMENTS[index].unlockScore) {
+                        selectedInstrumentIndex = index;
+                        renderStartOptions();
+                    }
+                });
+            });
+        }
+        
+        function handleInput() {
+            if (gameState !== 'playing') return;
+
+            // Ultimate: The Brown Note
+            if (keys.Enter && ultimateCharge >= 100) {
+                triggerBrownNote();
+                keys.Enter = false; // consume
+                return;
+            }
+
+            // Blow Logic
+            if (keys.Space) {
+                if (!player.isBlowing) {
+                    player.isBlowing = true;
+                    player.blowTimer = 10;
+                    checkHit();
+                }
+            } else {
+                player.isBlowing = false;
+            }
+
+            // Move Slide
+            if (keys.ArrowUp) {
+                player.lane = Math.max(0, player.lane - 1);
+                keys.ArrowUp = false; // consume keypress for discreet movement
+            }
+            if (keys.ArrowDown) {
+                player.lane = Math.min(LANES - 1, player.lane + 1);
+                keys.ArrowDown = false;
+            }
+        }
+
+        function checkHit() {
+            let hitSomething = false;
+            
+            for (let i = 0; i < notes.length; i++) {
+                let n = notes[i];
+                if (!n.hit && !n.missed && n.lane === player.lane) {
+                    // Check distance
+                    const dist = Math.abs(n.x - HIT_X);
+                    if (dist < HIT_TOLERANCE) {
+                        // Perfect/Good hit
+                        n.hit = true;
+                        hitSomething = true;
+                        
+                        const crowd = getCurrentCrowd();
+                        const instrument = getCurrentInstrument();
+                        const isPerfect = dist < HIT_TOLERANCE / 2;
+                        const basePoints = isPerfect ? 100 : 50;
+                        const deepResonance = player.lane === 2 ? crowd.deepBonus : 1;
+                        const disasterControl = 1 + (Math.min(enjoyment, discomfort) / 100) * crowd.chaosBonus;
+                        const bossBonus = n.isBossNote ? 1.35 : 1;
+                        const points = Math.round(basePoints * multiplier * crowd.noteScore * instrument.scoreMod * deepResonance * disasterControl * bossBonus);
+                        score += points;
+                        combo++;
+                        multiplier = Math.min(4, Math.floor(combo / 10) + 1);
+                        
+                        enjoyment = Math.min(100, enjoyment + 5);
+                        discomfort = Math.min(100, discomfort + (1.5 * instrument.aroma * crowd.aromaScore));
+                        pressure = Math.max(0, pressure - (10 * instrument.pressureRelief)); // Relieve pressure
+                        ultimateCharge = Math.min(100, ultimateCharge + (n.isBossNote ? 5 : 2));
+
+                        if (bossActive) {
+                            bossMeter += n.isBossNote ? 9 : 4;
+                        }
+
+                        playNoteSound(player.lane, isPerfect);
+                        spawnParticles(HIT_X, n.y, n.isBossNote ? '#fca5a5' : '#eab308', n.isBossNote ? 25 : 15);
+                        
+                        // Small puff
+                        clouds.push(new AromaCloud(HIT_X, n.y, 1));
+                        break;
+                    }
+                }
+            }
+
+            if (!hitSomething) {
+                // Blew empty air! Bad!
+                handleMiss(true);
+            }
+        }
+
+        function handleMiss(emptyBlow = false, bossNote = false) {
+            const crowd = getCurrentCrowd();
+            const instrument = getCurrentInstrument();
+            combo = 0;
+            multiplier = 1;
+            
+            if (emptyBlow) {
+                pressure += 15 * instrument.pressureGain;
+                spawnParticles(HIT_X + 50, getLaneY(player.lane), '#4ade80', 10);
+            } else {
+                pressure += 5 * instrument.pressureGain;
+            }
+            
+            discomfort += 8 * instrument.aroma * crowd.missStink;
+            enjoyment -= emptyBlow ? 3 : 2;
+            if (bossActive) {
+                bossMeter -= bossNote ? 10 : (emptyBlow ? 8 : 5);
+            }
+            
+            playNoteSound(player.lane, false);
+
+            if (pressure >= 100) {
+                triggerPressureExplosion();
+            }
+        }
+
+        function triggerPressureExplosion() {
+            const crowd = getCurrentCrowd();
+            const instrument = getCurrentInstrument();
+            pressure = 0;
+            discomfort += 25 * instrument.aroma * crowd.missStink;
+            enjoyment -= 15;
+            score = Math.max(0, score - Math.round(500 * crowd.noteScore));
+            if (bossActive) bossMeter -= 15;
+            
+            // Screen shake
+            gameContainer.classList.remove('shake');
+            void gameContainer.offsetWidth; // trigger reflow
+            gameContainer.classList.add('shake');
+
+            // Massive cloud
+            clouds.push(new AromaCloud(HIT_X + 50, getLaneY(player.lane), Math.min(6, 3 + Math.round(instrument.reservoir))));
+            spawnParticles(HIT_X + 50, getLaneY(player.lane), '#854d0e', 50);
+            
+            playNoteSound(player.lane, false); // Make an ugly sound
+        }
+
+        function triggerBrownNote() {
+            const crowd = getCurrentCrowd();
+            const instrument = getCurrentInstrument();
+            ultimateCharge = 0;
+            combo += 10;
+            multiplier = 4;
+            score += Math.round(5000 * instrument.brownNote * (crowd.name.includes('Elephant') ? 1.4 : 1));
+            
+            enjoyment = Math.min(100, enjoyment + 45);
+            discomfort = Math.min(100, discomfort + (18 * crowd.aromaScore * instrument.aroma));
+            pressure = 0;
+            if (bossActive) bossMeter += 25;
+            
+            gameContainer.classList.remove('shake');
+            void gameContainer.offsetWidth;
+            gameContainer.classList.add('shake');
+
+            playBrownNoteSound();
+
+            // Clear all notes
+            notes.forEach(n => {
+                if (!n.hit && !n.missed) {
+                    n.hit = true;
+                    spawnParticles(n.x, n.y, '#c084fc', 20);
+                }
+            });
+            
+            // Massive shockwave cloud
+            clouds.push(new AromaCloud(GAME_WIDTH/2, GAME_HEIGHT/2, Math.min(8, 5 + Math.round(instrument.reservoir))));
+            clouds[clouds.length-1].baseColor = 'rgba(192, 132, 252, 0.5)'; // Purple gas
+        }
+
+        function spawnParticles(x, y, color, count) {
+            for (let i = 0; i < count; i++) {
+                particles.push(new Particle(x, y, color, 5, Math.random() * 6 + 2));
+            }
+        }
+
+        function getLaneY(lane) {
+            const laneHeight = GAME_HEIGHT / (LANES + 2);
+            return (lane + 1.5) * laneHeight;
+        }
+
+        function update(dt) {
+            if (gameState !== 'playing') return;
+
+            handleInput();
+            gigTimer += dt;
+
+            if (!bossStarted && (score >= 12000 || gigTimer >= 75000)) {
+                startBossDuel();
+            }
+            if (!bossActive && gigTimer >= nextCrowdChange) {
+                advanceCrowd();
+            }
+            updateBossDuel(dt);
+            if (gameState !== 'playing') return;
+
+            // Spawn Notes
+            noteSpawnTimer -= dt;
+            if (noteSpawnTimer <= 0) {
+                notes.push(new Note());
+                // Spawn rate gets faster as score goes up
+                const baseInterval = 1000; // ms
+                const speedMultiplier = Math.max(0.3, 1 - (score / 20000));
+                noteSpawnTimer = baseInterval * speedMultiplier * getCurrentCrowd().tempo;
+            }
+
+            // Update Entities
+            notes.forEach(n => n.update());
+            notes = notes.filter(n => n.x > -100 && !n.hit);
+
+            particles.forEach(p => p.update());
+            particles = particles.filter(p => p.life > 0);
+
+            clouds.forEach(c => c.update());
+            clouds = clouds.filter(c => c.life > 0);
+
+            // Update Meters dynamically
+            enjoyment -= 0.05; // Slowly decays
+            discomfort -= 0.02; // Slowly dissipates
+            
+            // Background pressure build if holding breath (not playing notes)
+            // For simplicity, let's just let misses build pressure
+            
+            // Clamp meters
+            enjoyment = Math.max(0, Math.min(100, enjoyment));
+            discomfort = Math.max(0, Math.min(100, discomfort));
+            pressure = Math.max(0, Math.min(100, pressure));
+
+            // Entertainment calculation: each crowd rewards a different balance of music, aroma, and chaos.
+            let entertainment = calculateEntertainment();
+
+            updateUI(entertainment);
+            checkGameOver();
+        }
+
+        function updateUI(entertainment) {
+            elScore.innerText = score;
+            elMult.innerText = `x${multiplier}`;
+
+            // Colors based on level
+            elPressureFill.style.height = `${pressure}%`;
+            elPressureFill.className = `w-full meter-fill ${pressure > 80 ? 'bg-red-500 animate-pulse' : pressure > 50 ? 'bg-yellow-500' : 'bg-green-500'}`;
+
+            elEnjoyFill.style.height = `${enjoyment}%`;
+            elDisgustFill.style.height = `${discomfort}%`;
+            elEntertainFill.style.height = `${entertainment}%`;
+
+            // Ultimate Bar
+            elUltFill.style.width = `${ultimateCharge}%`;
+            if (ultimateCharge >= 100) {
+                elUltText.classList.remove('hidden');
+            } else {
+                elUltText.classList.add('hidden');
+            }
+
+            // Audience Emojis
+            document.getElementById('emojiEnjoy').innerText = enjoyment > 70 ? '😍' : enjoyment > 30 ? '🎵' : '🥱';
+            document.getElementById('emojiDisgust').innerText = discomfort > 80 ? '🤮' : discomfort > 40 ? '🤢' : '😐';
+            document.getElementById('emojiEntertain').innerText = entertainment > 80 ? '🤣' : entertainment > 40 ? '😂' : '🙂';
+        }
+
+        function checkGameOver() {
+            const crowd = getCurrentCrowd();
+            // Lose condition: Audience completely disgusted and not entertained
+            if (discomfort > crowd.evacuateAt && enjoyment < crowd.patienceFloor) {
+                endGame(false);
+            }
+        }
+
+        function draw() {
+            // Background
+            ctx.clearRect(0, 0, GAME_WIDTH, GAME_HEIGHT);
+            
+            // Draw Stage
+            ctx.fillStyle = bossActive ? '#1f1111' : '#111122';
+            ctx.fillRect(0, 0, GAME_WIDTH, GAME_HEIGHT);
+            
+            // Spotlight
+            const spotlight = ctx.createRadialGradient(HIT_X + 50, GAME_HEIGHT/2, 0, HIT_X + 50, GAME_HEIGHT/2, 400);
+            spotlight.addColorStop(0, 'rgba(255, 255, 255, 0.1)');
+            spotlight.addColorStop(1, 'transparent');
+            ctx.fillStyle = spotlight;
+            ctx.fillRect(0, 0, GAME_WIDTH, GAME_HEIGHT);
+
+            // Draw Lanes
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+            ctx.lineWidth = 2;
+            for (let i = 0; i < LANES; i++) {
+                const y = getLaneY(i);
+                ctx.beginPath();
+                ctx.moveTo(0, y);
+                ctx.lineTo(GAME_WIDTH, y);
+                ctx.stroke();
+            }
+
+            // Crowd color wash
+            const crowd = getCurrentCrowd();
+            ctx.globalAlpha = bossActive ? 0.18 : 0.08;
+            ctx.fillStyle = crowd.color;
+            ctx.fillRect(0, 0, GAME_WIDTH, GAME_HEIGHT);
+            ctx.globalAlpha = 1;
+
+            // Draw Hit Zone
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+            ctx.fillRect(HIT_X - HIT_TOLERANCE, 0, HIT_TOLERANCE * 2, GAME_HEIGHT);
+            ctx.strokeStyle = 'rgba(234, 179, 8, 0.5)'; // Yellow border
+            ctx.lineWidth = 4;
+            ctx.beginPath();
+            ctx.moveTo(HIT_X, 0);
+            ctx.lineTo(HIT_X, GAME_HEIGHT);
+            ctx.stroke();
+
+            // Draw Player Character
+            drawPlayer();
+            if (bossActive) {
+                drawMaestro();
+            }
+
+            // Draw Entities
+            notes.forEach(n => n.draw(ctx));
+            particles.forEach(p => p.draw(ctx));
+            clouds.forEach(c => c.draw(ctx));
+
+            // Draw Audience silhouettes at bottom
+            drawAudience();
+        }
+
+        function drawPlayer() {
+            const y = getLaneY(player.lane);
+            const instrument = getCurrentInstrument();
+            
+            ctx.save();
+            ctx.translate(HIT_X - 60, y);
+            
+            // Wobble effect when blowing
+            if (player.isBlowing) {
+                ctx.rotate((Math.random() - 0.5) * 0.2);
+                ctx.translate((Math.random() - 0.5) * 5, (Math.random() - 0.5) * 5);
+            }
+
+            // Body (Simple shapes)
+            ctx.fillStyle = '#3b82f6'; // Blue shirt
+            ctx.beginPath();
+            ctx.roundRect(-20, -10, 40, 60, 10);
+            ctx.fill();
+
+            // Head
+            ctx.fillStyle = '#fca5a5'; // Skin color
+            ctx.beginPath();
+            ctx.arc(0, -30, 20, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Eyes
+            ctx.fillStyle = 'black';
+            if (pressure > 80) {
+                // Stressed eyes
+                ctx.fillText("><", -10, -30);
+            } else if (player.isBlowing) {
+                ctx.fillText("--", -8, -30);
+            } else {
+                ctx.beginPath(); ctx.arc(-5, -32, 3, 0, Math.PI*2); ctx.fill();
+                ctx.beginPath(); ctx.arc(10, -32, 3, 0, Math.PI*2); ctx.fill();
+            }
+
+            // The Instrument (The Flatulaphone)
+            ctx.fillStyle = instrument.color; // Brass-ish, depending on the unfortunate model
+            // Main tube
+            ctx.fillRect(0, -15, 80, 10);
+            
+            // The Horn (Bell)
+            ctx.beginPath();
+            ctx.moveTo(80, -15);
+            ctx.lineTo(110, -35);
+            ctx.lineTo(110, 15);
+            ctx.lineTo(80, -5);
+            ctx.fill();
+
+            // The 'Balloon' (Gas reservoir)
+            const balloonSize = 10 + (pressure / 100) * 30 * instrument.reservoir; // Grows with pressure
+            ctx.fillStyle = pressure > 80 ? '#ef4444' : '#4ade80';
+            ctx.beginPath();
+            ctx.arc(40, -30, balloonSize, 0, Math.PI * 2);
+            ctx.fill();
+
+            ctx.restore();
+        }
+
+        function drawMaestro() {
+            const x = GAME_WIDTH - 170;
+            const y = GAME_HEIGHT / 2 + Math.sin(Date.now() / 180) * 8;
+
+            ctx.save();
+            ctx.translate(x, y);
+
+            // Conductor platform
+            ctx.fillStyle = 'rgba(0,0,0,0.35)';
+            ctx.beginPath();
+            ctx.ellipse(0, 72, 88, 20, 0, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Tails
+            ctx.fillStyle = '#111827';
+            ctx.beginPath();
+            ctx.roundRect(-35, -15, 70, 95, 12);
+            ctx.fill();
+            ctx.fillStyle = '#f8fafc';
+            ctx.beginPath();
+            ctx.moveTo(-14, -14);
+            ctx.lineTo(0, 35);
+            ctx.lineTo(14, -14);
+            ctx.fill();
+
+            // Head and hair
+            ctx.fillStyle = '#fecaca';
+            ctx.beginPath();
+            ctx.arc(0, -43, 27, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.fillStyle = '#e5e7eb';
+            for (let i = -2; i <= 2; i++) {
+                ctx.beginPath();
+                ctx.arc(i * 12, -66 + Math.abs(i) * 4, 14, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            // Face
+            ctx.fillStyle = '#111827';
+            ctx.font = '20px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('ಠ_ಠ', 0, -42);
+
+            // Baton and Beethoven blast
+            ctx.strokeStyle = '#fef3c7';
+            ctx.lineWidth = 4;
+            ctx.beginPath();
+            ctx.moveTo(28, -4);
+            ctx.lineTo(78, -48 + Math.sin(Date.now() / 120) * 12);
+            ctx.stroke();
+
+            ctx.font = '26px Arial';
+            ctx.fillText('🎵', -62, -20 + Math.sin(Date.now() / 160) * 10);
+            ctx.fillText('🎶', -86, 18 + Math.cos(Date.now() / 150) * 10);
+
+            ctx.restore();
+        }
+
+        function drawAudience() {
+            const numHeads = 15;
+            const spacing = GAME_WIDTH / numHeads;
+            
+            ctx.save();
+            ctx.translate(0, GAME_HEIGHT - 30);
+            
+            for (let i = 0; i < numHeads; i++) {
+                const x = i * spacing + spacing/2;
+                
+                // Head base
+                ctx.fillStyle = '#0f172a';
+                ctx.beginPath();
+                ctx.arc(x, 20, 30, 0, Math.PI * 2);
+                ctx.fill();
+
+                // Reaction based on global stats
+                ctx.font = '24px Arial';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                
+                let emoji = '😐';
+                // Add some randomness per head so they aren't totally uniform
+                const moodOffset = Math.sin(i * 1.5) * 20; 
+                
+                const localEnjoy = enjoyment + moodOffset;
+                const localDisgust = discomfort - moodOffset;
+                
+                if (localDisgust > 80) emoji = '🤮';
+                else if (localDisgust > 50) emoji = '🤢';
+                else if (localEnjoy > 70) emoji = '🙌';
+                else if (localEnjoy > 40) emoji = '🙂';
+                
+                // Bobbing animation
+                const bob = Math.sin(Date.now() / 200 + i) * (enjoyment / 20);
+                
+                ctx.fillText(emoji, x, bob);
+            }
+            ctx.restore();
+        }
+
+        function loop(timestamp) {
+            if (!lastTime) lastTime = timestamp;
+            const dt = timestamp - lastTime;
+            lastTime = timestamp;
+
+            update(dt);
+            draw();
+
+            requestAnimationFrame(loop);
+        }
+
+        function startGame() {
+            initAudio();
+            document.getElementById('startScreen').classList.add('hidden');
+            document.getElementById('gameOverScreen').classList.add('hidden');
+            hud.classList.remove('hidden');
+            elBossBanner.classList.add('hidden');
+            elTouchControls.classList.add('touch-active');
+            
+            // Reset Stats
+            score = 0;
+            multiplier = 1;
+            combo = 0;
+            ultimateCharge = 0;
+            gigTimer = 0;
+            nextCrowdChange = 30000;
+            currentCrowdIndex = 0;
+            bossStarted = false;
+            bossActive = false;
+            bossMeter = 50;
+            bossTimer = 0;
+            bossPatternTimer = 0;
+            bossPatternStep = 0;
+            enjoyment = 50;
+            discomfort = 0;
+            pressure = 0;
+            notes = [];
+            particles = [];
+            clouds = [];
+            noteSpawnTimer = 1000;
+            updateCrowdUI();
+            
+            gameState = 'playing';
+            
+            // Background beat
+            if(!beatScheduled) {
+                Tone.Transport.scheduleRepeat((time) => {
+                    if(gameState === 'playing') {
+                        drumSynth.triggerAttackRelease("C1", "8n", time, 0.5);
+                    }
+                }, "4n");
+                beatScheduled = true;
+            }
+            if(Tone.Transport.state !== 'started') {
+                Tone.Transport.start();
+            }
+        }
+
+        function endGame(won, customReason = '') {
+            recordBestScore();
+            renderStartOptions();
+            gameState = 'gameover';
+            bossActive = false;
+            hud.classList.add('hidden');
+            elTouchControls.classList.remove('touch-active');
+            
+            const goScreen = document.getElementById('gameOverScreen');
+            goScreen.classList.remove('hidden');
+            
+            document.getElementById('gameOverTitle').innerText = won ? "LEGENDARY PERFORMANCE!" : "BOOED OFF STAGE!";
+            document.getElementById('gameOverDesc').innerText = won
+                ? `You defeated Maestro Windbag with the ${getCurrentInstrument().name}. Nobody agrees on the music, but everyone remembers the smell.`
+                : (customReason || "The aroma was too much. The venue has been condemned.");
+            
+            document.getElementById('finalScore').innerText = score;
+            document.getElementById('finalEnjoy').innerText = `${Math.floor(enjoyment)}%`;
+            document.getElementById('finalDisgust').innerText = `${Math.floor(discomfort)}%`;
+            // Calculate final entertainment
+            const entertainment = Math.floor(calculateEntertainment());
+            document.getElementById('finalEntertain').innerText = `${entertainment}%`;
+        }
+
+        // Event Listeners
+        window.addEventListener('keydown', (e) => {
+            if (keys.hasOwnProperty(e.code)) {
+                keys[e.code] = true;
+                if(['Space', 'ArrowUp', 'ArrowDown'].includes(e.code)) {
+                    e.preventDefault(); // Prevent scrolling
+                }
+            }
+        });
+
+        window.addEventListener('keyup', (e) => {
+            if (keys.hasOwnProperty(e.code)) {
+                keys[e.code] = false;
+            }
+        });
+
+        function setTouchKey(button, isPressed) {
+            const code = button.dataset.touchKey;
+            if (!keys.hasOwnProperty(code)) return;
+
+            keys[code] = isPressed;
+            button.classList.toggle('is-pressed', isPressed);
+        }
+
+        document.querySelectorAll('[data-touch-key]').forEach(button => {
+            button.addEventListener('pointerdown', (e) => {
+                e.preventDefault();
+                button.setPointerCapture(e.pointerId);
+                setTouchKey(button, true);
+            });
+
+            ['pointerup', 'pointercancel', 'lostpointercapture'].forEach(eventName => {
+                button.addEventListener(eventName, (e) => {
+                    e.preventDefault();
+                    setTouchKey(button, false);
+                });
+            });
+        });
+
+        // Resize handling
+        function resize() {
+            const aspect = GAME_WIDTH / GAME_HEIGHT;
+            let w = window.innerWidth;
+            let h = window.innerHeight;
+            const touchLayout = hasTouchControls() || window.matchMedia('(max-width: 900px)').matches;
+            if (touchLayout) {
+                const controlsHeight = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--touch-controls-height')) || 132;
+                h = Math.max(280, h - controlsHeight);
+            }
+            
+            if (w / h > aspect) {
+                canvas.style.height = `${h}px`;
+                canvas.style.width = `${h * aspect}px`;
+            } else {
+                canvas.style.width = `${w}px`;
+                canvas.style.height = `${w / aspect}px`;
+            }
+        }
+        window.addEventListener('resize', resize);
+        
+        // Buttons
+        document.getElementById('startBtn').addEventListener('click', startGame);
+        document.getElementById('restartBtn').addEventListener('click', startGame);
+
+        // Initial setup
+        resize();
+        renderStartOptions();
+        updateCrowdUI();
+        requestAnimationFrame(loop);
+
+    </script>
+</body>
+</html>
