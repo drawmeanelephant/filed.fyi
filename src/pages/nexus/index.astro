@@ -1,0 +1,76 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { getCollection } from 'astro:content';
+
+const allMascots = await getCollection('mascots');
+const allLorelogs = await getCollection('lorelog');
+const allHaikus = await getCollection('haikus');
+const allLimericks = await getCollection('limericks');
+const allAphorisms = await getCollection('aphorisms');
+
+const allItems = [...allMascots, ...allLorelogs, ...allHaikus, ...allLimericks, ...allAphorisms];
+const tags = new Set<string>();
+
+allItems.forEach((item) => {
+  if (item.data.tags) {
+    const itemTags = Array.isArray(item.data.tags) ? item.data.tags : [item.data.tags];
+    itemTags.forEach((tag: string) => {
+      if (typeof tag === 'string' && tag.trim().length > 0 && tag.trim().length < 50 && !tag.includes('/')) {
+        tags.add(tag.trim());
+      }
+    });
+  }
+});
+
+const sortedTags = Array.from(tags).sort();
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Thematic Nexus',
+    description: 'A cross-cutting directory of thematic tags spanning mascots, lorelogs, and archival poetry.',
+    tableOfContents: false,
+  }}
+>
+
+<p>The archive is typically divided by structural filing constraints. The Nexus bypasses these silos by grouping records according to their thematic essence.</p>
+
+<p>Select a theme below to view all associated mascots, cases, and poetry.</p>
+
+<ul class="tag-list">
+  {sortedTags.map(tag => (
+    <li>
+      <a href={`/nexus/${tag}`}>{tag}</a>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+  .tag-list li {
+    margin: 0;
+  }
+  .tag-list a {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: var(--sl-color-bg-inline-code);
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 0.5rem;
+    color: var(--sl-color-text-accent);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+  }
+  .tag-list a:hover {
+    background: var(--sl-color-text-accent);
+    color: var(--sl-color-bg);
+    border-color: var(--sl-color-text-accent);
+  }
+</style>
+</StarlightPage>

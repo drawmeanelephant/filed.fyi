@@ -219,6 +219,7 @@ const limericks = defineCollection({
   loader: glob({ base: './src/content/docs/limericks', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
     title: z.string().optional(),
+    tags: flexStringArray,
   }),
 });
 
@@ -252,7 +253,7 @@ const haikus = defineCollection({
     description: z.string().optional(),
     artifactId: z.string().optional(),
     date: z.coerce.date().optional(),
-    tags: z.array(z.string()).optional(),
+    tags: flexStringArray,
   }),
 });
 
@@ -265,7 +266,7 @@ const aphorisms = defineCollection({
     description: z.string().optional(),
     artifactId: z.string().optional(),
     date: z.coerce.date().optional(),
-    tags: z.array(z.string()).optional(),
+    tags: flexStringArray,
   }),
 });
 
