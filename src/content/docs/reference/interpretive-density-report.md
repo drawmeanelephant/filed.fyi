@@ -14,9 +14,9 @@ Records are then bucketed into one of five Lifecycle Tiers.
 
 | Department Tier | Score Range | Total Records |
 |-----------------|-------------|---------------|
-| **Tier 0: The Registrar** | 0 - 1.5 | 32 |
+| **Tier 0: The Registrar** | 0 - 1.5 | 30 |
 | **Tier 1: The Auditor** | 2 - 5.5 | 231 |
-| **Tier 2: The Liaison** | 6 - 12.5 | 180 |
+| **Tier 2: The Liaison** | 6 - 12.5 | 182 |
 | **Tier 3: The Curator** | 13 - 25.5 | 0 |
 | **Tier 4: The Anomaly** | 26 - + | 2 |
 
@@ -29,24 +29,22 @@ _Unprocessed. Minimal classification, skeleton files._
 
 | File | Directory | ID Score | Metrics Breakdown |
 |------|-----------|----------|-------------------|
-| `LLG-0356-DOGE-MEMO-FEELINGS.mdx` | `lorelog` | **1.5** | P:0 L:0 R:0 A:0 V:0 T:3 |
-| `LLG-0364-RAGE-BAIT-TAXONOMY.mdx` | `lorelog` | **1.5** | P:0 L:0 R:0 A:0 V:0 T:3 |
-| `DS-404-ALPHA.mdx` | `lorelog` | **0** | P:0 L:0 R:0 A:0 V:0 T:0 |
-| `AVD-INTERNAL-NOTES.mdx` | `reference` | **0** | P:0 L:0 R:0 A:0 V:0 T:0 |
-| `AVD-OPTICS-COORDINATION.mdx` | `reference` | **0** | P:0 L:0 R:0 A:0 V:0 T:0 |
+| `DS-404-ALPHA.mdx` | `lorelog` | **1** | P:1 L:0 R:0 A:0 V:0 T:0 |
+| `AVD-INTERNAL-NOTES.mdx` | `reference` | **1** | P:1 L:0 R:0 A:0 V:0 T:0 |
+| `AVD-OPTICS-COORDINATION.mdx` | `reference` | **1** | P:1 L:0 R:0 A:0 V:0 T:0 |
 | `AVD-STYLE-GUIDE.mdx` | `reference` | **0** | P:0 L:0 R:0 A:0 V:0 T:0 |
 | `BENEVOLENCE-METRICS-DESK.mdx` | `reference` | **0** | P:0 L:0 R:0 A:0 V:0 T:0 |
 | `BHDSS.mdx` | `reference` | **0** | P:0 L:0 R:0 A:0 V:0 T:0 |
 | `CIVIC-BAND-LEGEND.mdx` | `reference` | **0** | P:0 L:0 R:0 A:0 V:0 T:0 |
 | `CROSS-LODGE-ORIENTATION.mdx` | `reference` | **0** | P:0 L:0 R:0 A:0 V:0 T:0 |
+| `CROSS-SYSTEM-EQUIVALENCY-CARD.mdx` | `reference` | **0** | P:0 L:0 R:0 A:0 V:0 T:0 |
+| `DAC-BAND-MANAGEMENT.mdx` | `reference` | **0** | P:0 L:0 R:0 A:0 V:0 T:0 |
 
 ### Tier 1: The Auditor
 _Compliant. Standard baseline documentation._
 
 | File | Directory | ID Score | Metrics Breakdown |
 |------|-----------|----------|-------------------|
-| `LLG-0840-RCL.mdx` | `lorelog` | **5.5** | P:0 L:0 R:0 A:0 V:1 T:5 |
-| `LLG-0861-ACS.mdx` | `lorelog` | **5.5** | P:0 L:0 R:0 A:0 V:1 T:5 |
 | `013.htaccessius-the-doorman.mdx` | `mascots` | **5.5** | P:0 L:0 R:1 A:0 V:1 T:1 |
 | `014.htmlie-structura.mdx` | `mascots` | **5.5** | P:0 L:0 R:1 A:0 V:1 T:1 |
 | `023.modrewrite-gremblin.mdx` | `mascots` | **5.5** | P:0 L:0 R:1 A:0 V:1 T:1 |
@@ -55,6 +53,8 @@ _Compliant. Standard baseline documentation._
 | `027.comrade-kernelov.mdx` | `mascots` | **5.5** | P:0 L:0 R:1 A:0 V:1 T:1 |
 | `030.holy-doswell.mdx` | `mascots` | **5.5** | P:0 L:0 R:1 A:0 V:1 T:1 |
 | `034.sol-burnout.mdx` | `mascots` | **5.5** | P:0 L:0 R:1 A:0 V:1 T:1 |
+| `035.tizzy-blinkensync.mdx` | `mascots` | **5.5** | P:0 L:0 R:1 A:0 V:1 T:1 |
+| `059.stackdodge.mdx` | `mascots` | **5.5** | P:0 L:0 R:1 A:0 V:1 T:1 |
 
 ### Tier 2: The Liaison
 _Connected. Moderate density, heavily linked._
