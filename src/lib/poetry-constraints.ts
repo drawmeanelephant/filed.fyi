@@ -10,7 +10,9 @@ export type LimerickStyle =
   | "INSTITUTIONAL_LEAK"
   | "MISFILED_CONFIDENCE"
   | "FATIGUE_GOLD_BRICK"
-  | "ARCHIVAL_MYTH_DRIFT";
+  | "ARCHIVAL_MYTH_DRIFT"
+  | "TRIVIALITY_ELEVATION"
+  | "PROCEDURAL_SILENCE";
 
 /**
  * STYLE DEFINITIONS
@@ -74,5 +76,28 @@ export const LIMERICK_STYLES: Record<LimerickStyle, { tone: string; behavior: st
     ],
     failureMode: "archive starts believing its own footnotes",
     vibe: "records department quietly becoming mythology engine"
+  },
+
+  TRIVIALITY_ELEVATION: {
+    tone: "triviality masquerading as importance",
+    behavior: [
+      "minor inefficiencies treated as existential threats",
+      "meaningless paperwork treated as sacred ritual",
+      "printer calibration incident classified as national review event"
+    ],
+    failureMode: "system deploys maximum procedural weight against microscopic, non-threatening anomalies",
+    vibe: "SWAT team called because a timestamp is off by two seconds"
+  },
+
+  PROCEDURAL_SILENCE: {
+    tone: "silence without commentary",
+    behavior: [
+      "no metaphor escalation",
+      "no joke payoff",
+      "just dry procedural record that goes nowhere",
+      "creates negative space"
+    ],
+    failureMode: "system processes an event and simply stops. No reflection, no horror, just dead-end filing",
+    vibe: "a blank stare from a clerk who just filed your request into the trash bin and went to lunch"
   }
 } as const;
