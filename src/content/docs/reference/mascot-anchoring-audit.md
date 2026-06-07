@@ -24,7 +24,6 @@ This audit identifies mascots with missing or thin Lorelog anchors to establish 
 | `010.forbiddy-noentry.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `011.formee-formeson.mdx` | 2 | ✅ Healthy (2+) |
 | `012.gregwar-cache-wizard.mdx` | 2 | ✅ Healthy (2+) |
-| `013.htaccessius-the-doorman.mdx` | 2 | ✅ Healthy (2+) |
 | `014.htmlie-structura.mdx` | 2 | ✅ Healthy (2+) |
 | `015.indexer-hexley.mdx` | 2 | ✅ Healthy (2+) |
 | `016.jay-skript.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
@@ -213,7 +212,10 @@ This audit identifies mascots with missing or thin Lorelog anchors to establish 
 | `324.complimentary-ghostline.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `326.coverage-ledger-cherub.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `327.minutes-without-motion.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
+| `400.bad-request-bob.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
+| `403.htaccessius-the-doorman.mdx` | 2 | ✅ Healthy (2+) |
 | `404.404sy-mclostalot.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
+| `405.method-not-allowed-mel.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `408.the-half-held-breath.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `409.ledger-snag.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `410.vacancy-notice.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
@@ -245,5 +247,5 @@ This audit identifies mascots with missing or thin Lorelog anchors to establish 
 
 ## Summary
 - **Healthy (2+ incidents):** 26
-- **Thin (1 incident):** 202
+- **Thin (1 incident):** 204
 - **Unanchored (0 incidents):** 0
