@@ -1,3 +1,13 @@
+---
+title: Mascot Boundary Audit
+description: Audit identifying overlap clusters that may require boundary clarification.
+date: 2026-06-07
+tags:
+  - reference
+  - audit
+  - boundaries
+---
+
 # Mascot Boundary Audit
 
 This audit identifies overlap clusters that may require boundary clarification (not necessarily mergers).
@@ -34,7 +44,7 @@ This audit identifies overlap clusters that may require boundary clarification (
 - `504.unanswered-knock.mdx`
 - `677.sealward-proxy-9.mdx`
 
-## Care-delay / Side-channel Relief (54 mascots)
+## Care-delay / Side-channel Relief (55 mascots)
 - `005.bricky-goldbricksworth.mdx`
 - `007.crashy-mcthinkslow.mdx`
 - `008.cssandra-cascade.mdx`
@@ -42,6 +52,7 @@ This audit identifies overlap clusters that may require boundary clarification (
 - `020.maila-delayden.mdx`
 - `028.genny-compileheart.mdx`
 - `044.spooler-gremlin.mdx`
+- `045.strutter-crashley.mdx`
 - `049.updatey-delaybot.mdx`
 - `060.courier-rat.mdx`
 - `078.si-9-interval-witness.mdx`
@@ -90,8 +101,7 @@ This audit identifies overlap clusters that may require boundary clarification (
 - `424.the-second-domino.mdx`
 - `429.queue-matron.mdx`
 
-## Adequacy / Exoneration / Summary Laundering (5 mascots)
-- `045.strutter-crashley.mdx`
+## Adequacy / Exoneration / Summary Laundering (4 mascots)
 - `057.zhuzhing-ping.mdx`
 - `076.av-14-nullseal-register.mdx`
 - `271.alibi-seal.mdx`

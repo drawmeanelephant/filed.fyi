@@ -1,3 +1,13 @@
+---
+title: Mascot Anchoring Audit
+description: Audit identifying mascots with missing or thin Lorelog anchors.
+date: 2026-06-07
+tags:
+  - reference
+  - audit
+  - anchoring
+---
+
 # Mascot Anchoring Audit
 
 This audit identifies mascots with missing or thin Lorelog anchors to establish failure jurisdiction.
@@ -113,7 +123,7 @@ This audit identifies mascots with missing or thin Lorelog anchors to establish 
 | `232.greenband-gregor.mdx` | 2 | ✅ Healthy (2+) |
 | `233.gratitude-latch.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `234.kindness-template.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
-| `235.annexa-sorrowmark.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
+| `235.annexa-sorrowmark.mdx` | 2 | ✅ Healthy (2+) |
 | `236.pending-jurisdiction.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `237.index-mourner.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `238.soft-escalation-clerk.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
@@ -153,7 +163,7 @@ This audit identifies mascots with missing or thin Lorelog anchors to establish 
 | `272.shorthand-reliquary.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `273.tier-whisper.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `274.deferment-bloom.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
-| `275.appendix-silk.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
+| `275.appendix-silk.mdx` | 2 | ✅ Healthy (2+) |
 | `276.mandate-lace.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `277.courtesy-threshold.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 | `278.benevolence-spacer.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
@@ -234,6 +244,6 @@ This audit identifies mascots with missing or thin Lorelog anchors to establish 
 | `clicky-the-orphaned-ui.mdx` | 1 | 🟡 Thin (1) - Expansion Candidate |
 
 ## Summary
-- **Healthy (2+ incidents):** 24
-- **Thin (1 incident):** 204
+- **Healthy (2+ incidents):** 26
+- **Thin (1 incident):** 202
 - **Unanchored (0 incidents):** 0

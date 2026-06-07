@@ -87,6 +87,7 @@ Usage:
   ./astro-book.sh --mode=index [project-path]             # index stage only
   ./astro-book.sh --mode=cluster --target=<ID> [path]     # cluster by ID
   ./astro-book.sh --mode=export [project-path]            # archival dumps only
+  ./astro-book.sh --mode=mega [project-path]              # single-file LLM context
   ./astro-book.sh --help
 
 Modes:
@@ -99,6 +100,9 @@ Modes:
 
   export   Runs the full archival dump (mascots.md, lorelog.md, limericks.md,
            etc.) — for archival use only, NOT for analysis workflows.
+
+  mega     Bundles EVERY tracked file into a single exports/mega-bundle.md
+           using XML-style tags, optimized for Gemini Pro and Claude contexts.
 
 Environment:
   ASTRO_BOOK_MAX_BYTES      Max file size to fully include (default: 102400)
@@ -135,6 +139,7 @@ for arg in "$@"; do
     --mode=index)     MODE="index" ;;
     --mode=cluster)   MODE="cluster" ;;
     --mode=export)    MODE="export" ;;
+    --mode=mega)      MODE="mega" ;;
     --target=*)       CLUSTER_TARGET="${arg#--target=}" ;;
     -*)               log_err "Unknown flag: $arg"; usage; exit 1 ;;
     *)                POSITIONAL_ARGS+=("$arg") ;;
@@ -551,7 +556,7 @@ write_section_from_dir() {
       echo ""
       echo "<!-- STOP $marker -->"
       echo ""
-    done < <(find "$base_dir" -type f | sort)
+    done < <(find "$base_dir" -type f \( -name "*.md" -o -name "*.mdx" \) | sort)
   } > "$output_file"
 }
 
@@ -607,7 +612,7 @@ write_mascots() {
       echo ""
       echo "<!-- STOP MASCOT FILE -->"
       echo ""
-    done < <(find "$PROJECT_DIR/src/content/docs/mascots" -type f | sort)
+    done < <(find "$PROJECT_DIR/src/content/docs/mascots" -type f \( -name "*.md" -o -name "*.mdx" \) | sort)
   } > "$output_file"
 }
 
@@ -637,7 +642,7 @@ write_lorelog() {
       echo ""
       echo "<!-- STOP LORELOG FILE -->"
       echo ""
-    done < <(find "$PROJECT_DIR/src/content/docs/lorelog" -type f | sort)
+    done < <(find "$PROJECT_DIR/src/content/docs/lorelog" -type f \( -name "*.md" -o -name "*.mdx" \) | sort)
   } > "$output_file"
 }
 
@@ -667,7 +672,7 @@ write_limericks() {
       echo ""
       echo "<!-- STOP LIMERICK FILE -->"
       echo ""
-    done < <(find "$PROJECT_DIR/src/content/docs/limericks" -type f | sort)
+    done < <(find "$PROJECT_DIR/src/content/docs/limericks" -type f \( -name "*.md" -o -name "*.mdx" \) | sort)
   } > "$output_file"
 }
 
@@ -697,7 +702,7 @@ write_haikus() {
       echo ""
       echo "<!-- STOP HAIKU FILE -->"
       echo ""
-    done < <(find "$PROJECT_DIR/src/content/docs/haikus" -type f | sort)
+    done < <(find "$PROJECT_DIR/src/content/docs/haikus" -type f \( -name "*.md" -o -name "*.mdx" \) | sort)
   } > "$output_file"
 }
 
@@ -727,7 +732,7 @@ write_aphorisms() {
       echo ""
       echo "<!-- STOP APHORISM FILE -->"
       echo ""
-    done < <(find "$PROJECT_DIR/src/content/docs/aphorisms" -type f | sort)
+    done < <(find "$PROJECT_DIR/src/content/docs/aphorisms" -type f \( -name "*.md" -o -name "*.mdx" \) | sort)
   } > "$output_file"
 }
 
@@ -811,6 +816,51 @@ write_empathegy_tome() {
   } > "$output_file"
 }
 
+build_mega() {
+  log_stage "MEGA  →  exports/mega-bundle.md"
+  local output_file="$EXPORT_DIR/mega-bundle.md"
+  
+  {
+    echo "<!-- FILED & FORGOTTEN MEGA BUNDLE -->"
+    echo "<!-- Generated: $TIMESTAMP -->"
+    echo "<!-- Project: $PROJECT_NAME -->"
+    echo ""
+    
+    while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
+      local lang
+      lang="$(fence_lang "$f")"
+
+      echo "<file path=\"$relpath\" bytes=\"$bytes\">"
+      if (( bytes > MAX_BYTES )); then
+        echo "<!-- TRUNCATED: file exceeds ASTRO_BOOK_MAX_BYTES=$MAX_BYTES. Showing first $PREVIEW_LINES lines. -->"
+        if [[ -n "$lang" ]]; then
+          echo '```'"$lang"
+          head -n "$PREVIEW_LINES" "$f"
+          echo '```'
+        else
+          head -n "$PREVIEW_LINES" "$f"
+        fi
+      else
+        if [[ -n "$lang" ]]; then
+          echo '```'"$lang"
+          cat "$f"
+          echo '```'
+        else
+          cat "$f"
+        fi
+      fi
+      echo "</file>"
+      echo ""
+    done < <(collect_files)
+  } > "$output_file"
+  
+  log_ok "Mega bundle built → ${BOLD}exports/mega-bundle.md${RESET}"
+}
+
 # ── main execution ─────────────────────────────────────────────
 
 main() {
@@ -852,6 +902,9 @@ main() {
       log_info "Exporting routes..."
       write_section_from_dir "Routes" "$PROJECT_DIR/src/pages" "ROUTE" "$EXPORT_DIR/routes.md"
 
+      ;;
+    mega)
+      build_mega
       ;;
     *)
       log_err "Unknown mode: $MODE"
