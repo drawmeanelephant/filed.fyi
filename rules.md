@@ -27,3 +27,8 @@
 - “design system architecture”
 - “reusable component framework”
 - “scalable UI primitives”
+
+## Archival Drafting Constraints
+- **Bin 8C Containment:** Do not reference Bin 8C or MA8C unless the record explicitly involves self-indexing, interpretive custody drift, hazardous intentional misfiling, or cluster-level presence.
+- **Breeding Program Containment:** Do not reference breeding governance unless the record explicitly involves refuge classification, labor refusal, gratitude alignment, or consent-loop persistence.
+- **Shared Mood is not Jurisdiction:** Do not let records inherit Bin 8C or breeding language merely by tonal resemblance, adjacency, or affectionate self-reference.
