@@ -214,8 +214,11 @@ classify_type() {
   case "$p" in
     */content/docs/mascots/*)  echo "mascot" ;;
     */content/docs/lorelog/*)  echo "lorelog" ;;
-    */content/docs/limericks/*)echo "limerick" ;;
-    */content/docs/haikus/*)echo "haiku" ;;
+    */content/docs/limericks/*) echo "limerick" ;;
+    */content/docs/haikus/*) echo "haiku" ;;
+    */content/docs/posts/*) echo "post" ;;
+    */content/docs/changelog/*) echo "changelog" ;;
+    */content/docs/releases/*) echo "release" ;;
     */src/content/*)           echo "content" ;;
     */src/layouts/*)           echo "layout" ;;
     */src/components/*)        echo "component" ;;
@@ -736,6 +739,96 @@ write_aphorisms() {
   } > "$output_file"
 }
 
+write_posts() {
+  local output_file="$EXPORT_DIR/posts.md"
+  {
+    echo "# Posts"
+    echo ""
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
+    echo ""
+
+    if [[ ! -d "$PROJECT_DIR/src/content/docs/posts" ]]; then
+      echo "_No post files found._"
+      echo ""
+      return
+    fi
+
+    while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
+
+      echo "<!-- START POST FILE -->"
+      emit_file_block "$f" "$relpath" "$bytes"
+      echo ""
+      echo "<!-- STOP POST FILE -->"
+      echo ""
+    done < <(find "$PROJECT_DIR/src/content/docs/posts" -type f \( -name "*.md" -o -name "*.mdx" \) | sort)
+  } > "$output_file"
+}
+
+write_changelog() {
+  local output_file="$EXPORT_DIR/changelog.md"
+  {
+    echo "# Changelog"
+    echo ""
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
+    echo ""
+
+    if [[ ! -d "$PROJECT_DIR/src/content/docs/changelog" ]]; then
+      echo "_No changelog files found._"
+      echo ""
+      return
+    fi
+
+    while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
+
+      echo "<!-- START CHANGELOG FILE -->"
+      emit_file_block "$f" "$relpath" "$bytes"
+      echo ""
+      echo "<!-- STOP CHANGELOG FILE -->"
+      echo ""
+    done < <(find "$PROJECT_DIR/src/content/docs/changelog" -type f \( -name "*.md" -o -name "*.mdx" \) | sort)
+  } > "$output_file"
+}
+
+write_releases() {
+  local output_file="$EXPORT_DIR/releases.md"
+  {
+    echo "# Releases"
+    echo ""
+    echo "Generated: $TIMESTAMP"
+    echo "Project: $PROJECT_NAME"
+    echo ""
+
+    if [[ ! -d "$PROJECT_DIR/src/content/docs/releases" ]]; then
+      echo "_No release files found._"
+      echo ""
+      return
+    fi
+
+    while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+      local relpath="${f#$PROJECT_DIR/}"
+      local bytes
+      bytes="$(file_bytes "$f")"
+
+      echo "<!-- START RELEASE FILE -->"
+      emit_file_block "$f" "$relpath" "$bytes"
+      echo ""
+      echo "<!-- STOP RELEASE FILE -->"
+      echo ""
+    done < <(find "$PROJECT_DIR/src/content/docs/releases" -type f \( -name "*.md" -o -name "*.mdx" \) | sort)
+  } > "$output_file"
+}
+
 write_reference_tome() {
   local output_file="$EXPORT_DIR/reference-tome.md"
 
@@ -887,6 +980,9 @@ main() {
       write_limericks
       write_haikus
       write_aphorisms
+      write_posts
+      write_changelog
+      write_releases
       write_reference_tome
       write_empathegy_tome
 
