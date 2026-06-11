@@ -1,0 +1,76 @@
+---
+title: Witness Custody Registry — Known Routing Gaps
+slug: reference/fref-0636-wcr
+description: >
+  Registry of confirmed witness custody gaps: cases where testimony arrived
+  at a structurally non-action layer and the gap between receipt and authority
+  was documented. Registry is additive; entries do not imply resolution.
+version: v0.1.0
+status: active
+classification: internal
+systemAffiliation: Witness Protocol
+caseNumber: "FREF-0636-WCR"
+tags:
+  - witness
+  - custody
+  - routing-gap
+  - registry
+  - testimony-handling
+---
+
+## Witness Custody Registry — Known Routing Gaps
+
+### Purpose
+
+This registry lists confirmed instances where witness testimony arrived at a
+layer that could not initiate action. It does not assess whether action was
+warranted. It records only that the gap existed and was archived.
+
+Entries are additive. Resolution is not required for inclusion.
+Presence in this registry does not imply negligence at any layer.
+
+---
+
+### Registry Format
+
+Each entry carries:
+- **Incident identifier**
+- **Receiving layer** (what held the testimony)
+- **Authority layer** (what could have acted)
+- **Gap type** (structural / routing table / unknown)
+- **Citation survival** (whether the testimony was later cited beyond its class)
+
+---
+
+### Current Entries
+
+| Case | Receiving Layer | Authority Layer | Gap Type | Citation Survival |
+|---|---|---|---|---|
+| LLG-0864-WRC | SCL Intake | SOMA Advisory | Routing table condition unmet | Yes — cited as care coverage |
+| LLG-0821-SCL | Listening Board Minutes | COMA / SOMA / C.U.N.T.I.E.R. | Structural — no directive required action | Yes — cited by all three as confirmation |
+| LLG-0857-WLI (partial) | Lodge witness records | Remedy-capable systems | Structural — lodge held no interruption authority | Yes — lodge growth cited as care expansion |
+
+---
+
+### Maintenance Note
+
+This registry is not a complaint ledger.
+It is a record of routing architecture as it functioned.
+
+Entries should be added when:
+1. A custody gap is confirmed (FREF-0635-WWLV conditions met).
+2. The gap is structural, not incidental.
+3. A custody note was generated at receipt.
+
+Do not add entries where testimony simply was not acted upon without confirming
+that the receiving layer held no routing authority.
+The distinction is custody architecture, not outcome disappointment.
+
+---
+
+### Interlocks
+
+- **FREF-0635-WWLV** — Handling note governing how custody gaps are filed; this registry records the confirmed instances
+- **Witness Protocol** — Parent governance of witness classes and escalation triggers
+- **FREF-0410-SCLB** — Primary institutional context for SCL-originating entries
+- **LLG-0864-WRC** — First formally filed standalone custody gap instance
