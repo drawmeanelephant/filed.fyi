@@ -1,6 +1,5 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
-import CollectionRegister from '@/components/CollectionRegister.astro';
 ---
 
 <StarlightPage
@@ -24,11 +23,12 @@ import CollectionRegister from '@/components/CollectionRegister.astro';
 
 <h2>Guide Index</h2>
 
-<CollectionRegister
-  collection="docs"
-  filterPrefix="guides/"
-  exclude="index"
-  sortBy="title"
-/>
+<ul>
+  <li><a href="/guides/reference/">Guide to Reference</a></li>
+  <li><a href="/guides/lorelog/">Guide to the Lorelog</a></li>
+  <li><a href="/guides/mascots/">Guide to Mascots</a></li>
+  <li><a href="/guides/poetry/">Guide to Poetry</a></li>
+  <li><a href="/guides/posts/">Guide to Posts</a></li>
+</ul>
 
 </StarlightPage>

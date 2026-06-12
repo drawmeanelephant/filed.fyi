@@ -1,0 +1,65 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '@/components/CollectionRegister.astro';
+---
+
+<StarlightPage frontmatter={{
+  title: 'Guide to Reference',
+  description: 'How to read the doctrine sheets and reference nodes that explain how the archive thinks it works.',
+  tableOfContents: false,
+}}>
+  <dl>
+    <dt>Status</dt>
+    <dd>Rigid, frozen, frequently contradicted</dd>
+    <dt>Jurisdiction</dt>
+    <dd><code>reference</code></dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    The reference layer is where the archive writes down its own theory of itself.
+    It is not neutral. It is the rulebook that appears whenever reality has become
+    embarrassing enough to require categories. Read it as defensive architecture:
+    what the archive insists is true when the rest of the shelves keep proving
+    otherwise.
+  </p>
+
+  <h2>How to enter</h2>
+  <p>
+    Start with nodes, not laws. Reference nodes tell you what kind of weather
+    you are in. Doctrine sheets tell you what kind of weather the archive is
+    pretending it can control. When the prose gets too clean, leave immediately
+    for the Lorelog and confirm what actually happened.
+  </p>
+
+  <h2>Stable seams</h2>
+  <ul>
+    <li><strong>Directives:</strong> the archive’s incompatible operational habits written as if they can coexist.</li>
+    <li><strong>Forms and managed absence:</strong> the paperwork layer where missing things become policy.</li>
+    <li><strong>Empathegy:</strong> affect rendered into governance-safe telemetry.</li>
+    <li><strong>Mascot interpretation:</strong> rules for reading failure signatures without mistaking them for branding.</li>
+  </ul>
+
+  <h2>Recommended entries</h2>
+  <p>
+    Empathegy is a good starting seam because it exposes doctrine, incidents,
+    and poetic annexes all at once.
+  </p>
+
+  <CollectionRegister
+    collection="docs"
+    filterPrefix="reference/empathegy"
+    exclude="index"
+    sortBy="title"
+  />
+
+  <h2>Nearby shelves</h2>
+  <p>
+    When doctrine starts sounding too confident, pivot to <a href="/lorelog">Lorelog</a>.
+    When doctrine starts naming ghosts, pivot to <a href="/mascots">Mascot Registry</a>.
+    Reference explains how the archive thinks; other shelves explain what it did.
+  </p>
+
+  <p><a href="/reference">Full Reference Registry</a></p>
+</StarlightPage>

@@ -1,0 +1,49 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+---
+
+<StarlightPage frontmatter={{
+  title: 'Guide to Posts',
+  description: 'How to read recovered transmissions without mistaking them for complete history.',
+  tableOfContents: false,
+}}>
+  <dl>
+    <dt>Status</dt>
+    <dd>Low volume, high symbolic density</dd>
+    <dt>Jurisdiction</dt>
+    <dd><code>posts</code></dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    Posts are the archive’s public-facing accidents. They are what escaped the
+    internal filing system and remained legible enough to be seen from outside.
+    Because they arrive as transmissions rather than as doctrine or case files,
+    they can make the archive feel more coherent than it really is.
+  </p>
+
+  <h2>How to enter</h2>
+  <p>
+    Read posts as signals, not summaries. A post tells you what mood or posture
+    became visible at a given moment. It may point toward a larger structural
+    change, but it rarely contains the whole machinery behind it.
+  </p>
+
+  <h2>What posts are good for</h2>
+  <ul>
+    <li><strong>Timing drift:</strong> sensing when the archive’s public surface changed.</li>
+    <li><strong>Public tone:</strong> seeing which conditions became transmissible.</li>
+    <li><strong>Spillover clues:</strong> finding what escaped doctrine and internal filing.</li>
+  </ul>
+
+  <h2>Nearby shelves</h2>
+  <p>
+    When a post hints at a more formal shift, pivot to <a href="/releases">Releases</a>
+    or <a href="/changelog">Changelog</a>. When it hints at a wound rather than a version,
+    pivot to <a href="/lorelog">Lorelog</a>. Posts are not the spine; they are what
+    briefly flashed across it.
+  </p>
+
+  <p><a href="/posts">Posts Registry</a></p>
+</StarlightPage>

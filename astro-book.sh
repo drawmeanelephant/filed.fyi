@@ -559,7 +559,7 @@ write_section_from_dir() {
       echo ""
       echo "<!-- STOP $marker -->"
       echo ""
-    done < <(find "$base_dir" -type f \( -name "*.md" -o -name "*.mdx" \) | sort)
+    done < <(find "$base_dir" -type f | sort)
   } > "$output_file"
 }
 
