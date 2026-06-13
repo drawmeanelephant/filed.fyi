@@ -1,6 +1,0 @@
----
-import { getCollection } from 'astro:content';
-const lorelogs = await getCollection('lorelog');
-const ids = lorelogs.map(e => e.id).slice(0, 5);
----
-<div>{JSON.stringify(ids)}</div>

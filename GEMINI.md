@@ -27,9 +27,14 @@ Records are stored in `src/content/docs/` and categorized into several key colle
 - **System Logs:** `changelog/`, `releases/`, `posts/`.
 - **Reference:** Technical documentation and system directives.
 
+### Concept Routing & Shelving
+The archive uses a flat-file, tag-based taxonomy for clustering files into "shelves" or "concepts" (e.g., `core-doctrines`, `operational-engines`). 
+- **Declaration:** Files self-declare their membership using a `concepts` string array in their frontmatter. Do not create central mapping files.
+- **Rendering:** Route threshold pages (e.g., `src/pages/concepts/*.astro`) dynamically list these files using `<CollectionRegister filterConcept="concept-name" />`.
+
 ## Key Components & Mappers
 - **Components:** Located in `src/components/`. Used within MDX via `src/components/mdx.ts`.
-  - `CollectionRegister`: Lists items within a collection.
+  - `CollectionRegister`: Lists items within a collection. Supports filtering by filepath via `filterPrefix` or by metadata tags via `filterConcept`.
   - `RelatedEntries`: Displays linked records.
   - `Limerick`: Specialized rendering for verse records.
 - **Mappers:** Located in `src/lib/mappers/`. Used to transform Zod-validated collection data for display (e.g., mapping enums to CSS classes for badges).
