@@ -24,6 +24,8 @@ relatedEntries:
     id: LLG-0430-HBR
   - collection: lorelog
     id: LLG-0441-TSR
+concepts:
+  - core-doctrines
 ---
 
 The replacement was announced on time and inherited the room tone immediately.

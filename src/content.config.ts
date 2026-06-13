@@ -105,6 +105,7 @@ export const mascots = defineCollection({
       compiledBy: z.string().nullable().optional(),
       version: z.union([z.string(), z.number().transform(String)]).nullable().optional(),
       tags: flexStringArray,
+      concepts: flexStringArray,
 
       // ASSETS
       image: z.string().nullable().optional(),
@@ -208,6 +209,7 @@ const lorelog = defineCollection({
 
     // META
     tags:     z.array(z.string()).optional(),
+    concepts: flexStringArray,
     notes:    z.string().optional(),
     redacted: z.boolean().default(false),
   }),
@@ -220,6 +222,7 @@ const limericks = defineCollection({
   schema: z.object({
     title: z.string().optional(),
     tags: flexStringArray,
+    concepts: flexStringArray,
   }),
 });
 
@@ -236,12 +239,12 @@ const logSchema = z.object({
 // Releases & changelog
 const releases = defineCollection({
   loader: glob({ base: './src/content/docs/releases', pattern: '**/*.md' }),
-  schema: logSchema,
+  schema: logSchema.extend({ concepts: flexStringArray }),
 });
 
 const changelog = defineCollection({
   loader: glob({ base: './src/content/docs/changelog', pattern: '**/*.md' }),
-  schema: logSchema,
+  schema: logSchema.extend({ concepts: flexStringArray }),
 });
 
 
@@ -254,6 +257,7 @@ const haikus = defineCollection({
     artifactId: z.string().optional(),
     date: z.coerce.date().optional(),
     tags: flexStringArray,
+    concepts: flexStringArray,
   }),
 });
 
@@ -267,13 +271,21 @@ const aphorisms = defineCollection({
     artifactId: z.string().optional(),
     date: z.coerce.date().optional(),
     tags: flexStringArray,
+    concepts: flexStringArray,
   }),
 });
 
 
 // Docs (Starlight)
 export const collections = {
-  docs: defineCollection({ loader: docsLoader(), schema: docsSchema() }),
+  docs: defineCollection({ 
+    loader: docsLoader(), 
+    schema: docsSchema({ 
+      extend: z.object({ 
+        concepts: flexStringArray 
+      }) 
+    }) 
+  }),
   mascots,
   lorelog,
   limericks,

@@ -1,0 +1,30 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '@/components/CollectionRegister.astro';
+---
+
+<StarlightPage frontmatter={{
+  title: 'Core Doctrines',
+  description: 'The Absolute Foundations of the Archive.',
+  tableOfContents: false,
+}}>
+  <dl>
+    <dt>Status</dt>
+    <dd>Foundational, Inflexible</dd>
+    <dt>Jurisdiction</dt>
+    <dd>System-wide</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    These are the foundational rules and the absolute bedrock concepts of the archive.
+    This includes Continuity Theatre, Managed Absence, Empathegy, and the underlying logic
+    that dictates what the archive remembers versus what it pretends to forget.
+  </p>
+
+  <h2>Concept Register</h2>
+  <CollectionRegister collection="docs" filterConcept="core-doctrines" />
+  <CollectionRegister collection="lorelog" filterConcept="core-doctrines" />
+  <CollectionRegister collection="releases" filterConcept="core-doctrines" />
+</StarlightPage>

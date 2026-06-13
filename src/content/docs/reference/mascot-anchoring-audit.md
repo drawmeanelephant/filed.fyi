@@ -6,6 +6,8 @@ tags:
   - reference
   - audit
   - anchoring
+concepts:
+  - cultural-staples
 ---
 
 # Mascot Anchoring Audit

@@ -1,0 +1,30 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '@/components/CollectionRegister.astro';
+---
+
+<StarlightPage frontmatter={{
+  title: 'Classifications & Constraints',
+  description: 'The Deep Cuts of System Anomaly.',
+  tableOfContents: false,
+}}>
+  <dl>
+    <dt>Status</dt>
+    <dd>Paradoxical, Borderline</dd>
+    <dt>Jurisdiction</dt>
+    <dd>Edge Cases</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    The deep cuts and edge constraints of the archive. This includes asymmetrical statuses
+    like Conceptually Active but Administratively Retired, Adjacent Correctness,
+    Shame Inversion, and Replacement Without Release.
+  </p>
+
+  <h2>Concept Register</h2>
+  <CollectionRegister collection="docs" filterConcept="classifications" />
+  <CollectionRegister collection="lorelog" filterConcept="classifications" />
+  <CollectionRegister collection="mascots" filterConcept="classifications" />
+</StarlightPage>

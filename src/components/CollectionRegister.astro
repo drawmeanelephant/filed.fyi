@@ -1,10 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
 
-const { collection, exclude, sortBy = 'title', filterPrefix } = Astro.props;
+const { collection, exclude, sortBy = 'title', filterPrefix, filterConcept } = Astro.props;
 
 const entries = (await getCollection(collection, (e) => {
   if (filterPrefix && !e.id.startsWith(filterPrefix)) return false;
+  if (filterConcept && (!e.data.concepts || !e.data.concepts.includes(filterConcept))) return false;
 
   if (!exclude) return true;
   const slug = e.id.split('/').pop()?.replace(/\.mdx?$/, '');
@@ -51,6 +52,7 @@ function getHref(e: any): string {
 }
 ---
 
+{entries.length > 0 && (
 <ul style="list-style:none;padding:0;margin:0;">
   {entries.map(e => (
     <li style="display:flex;gap:1rem;padding:0.4rem 0;border-bottom:1px solid var(--sl-color-hairline);align-items:baseline;">
@@ -73,3 +75,4 @@ function getHref(e: any): string {
     </li>
   ))}
 </ul>
+)}

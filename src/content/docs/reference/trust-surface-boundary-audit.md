@@ -7,6 +7,8 @@ tags:
   - audit
   - boundaries
   - trust-surface
+concepts:
+  - operational-engines
 ---
 
 # Trust Surface Boundary Audit
