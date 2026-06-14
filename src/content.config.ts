@@ -106,6 +106,7 @@ export const mascots = defineCollection({
       version: z.union([z.string(), z.number().transform(String)]).nullable().optional(),
       tags: flexStringArray,
       concepts: flexStringArray,
+      assuranceAudit: z.number().nullable().optional(),
 
       // ASSETS
       image: z.string().nullable().optional(),
