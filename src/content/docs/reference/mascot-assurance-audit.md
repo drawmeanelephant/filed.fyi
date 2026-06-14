@@ -21,12 +21,12 @@ A mascot that cannot be located by its metadata is not missing. It is *misfiled 
 
 | Weight Class | Count | Share |
 |---|---|---|
-| 👻 Ghost (≤1000b) | 10 | 5.5% |
-| 🪶 Thin (≤2000b) | 10 | 5.5% |
-| 📄 Adequate (≤4000b) | 72 | 39.3% |
-| 📦 Substantial (>4000b) | 91 | 49.7% |
-| **Total Pending** | **183** | |
-| **Graduated (Assurance Pass 1+)** | **51** | |
+| 👻 Ghost (≤1000b) | 0 | 0.0% |
+| 🪶 Thin (≤2000b) | 10 | 5.8% |
+| 📄 Adequate (≤4000b) | 72 | 41.6% |
+| 📦 Substantial (>4000b) | 91 | 52.6% |
+| **Total Pending** | **173** | |
+| **Graduated (Assurance Pass 1+)** | **61** | |
 | **Total Archive** | **234** | |
 
 ---
@@ -42,7 +42,7 @@ These counts reflect how many mascots are missing key metadata fields. A missing
 | No `systemAffiliation` | 1 | Classification |
 | No `tags` or empty | 6 | Classification |
 | No relationships at all | 0 | Cross-reference |
-| No body sections (h2/h3) | 35 | Structural depth |
+| No body sections (h2/h3) | 25 | Structural depth |
 
 ---
 
@@ -66,7 +66,7 @@ The following files weigh 1000 bytes or less. They are not necessarily deficient
 
 | Category | Count | Observation |
 |---|---|---|
-| Placeholder affiliation | 10 | Carries a stub affiliation (e.g., "Society of Mascot Authors") that functions as a catch-all rather than a real doctrinal home. These mascots are technically affiliated but functionally unshelved. |
+| Placeholder affiliation | 0 | Carries a stub affiliation (e.g., "Society of Mascot Authors") that functions as a catch-all rather than a real doctrinal home. These mascots are technically affiliated but functionally unshelved. |
 | Real affiliation | 0 | Has a specific system affiliation despite low byte weight. May be legitimately sparse. |
 | No affiliation | 0 | No `systemAffiliation` declared at all. |
 
@@ -74,18 +74,8 @@ The following files weigh 1000 bytes or less. They are not necessarily deficient
 
 | File | Bytes | Description | System Affiliation |
 |---|---|---|---|
-| `263.gentle-rollback.mdx` | 931 | Stub entity for reversals with bedside manner, policy retreats framed as care, a… | Society of Mascot Authors 🏷️ |
-| `295.sanctioned-quilt.mdx` | 933 | Placeholder for assembled comfort, committee-approved softness, and patchwork re… | Society of Mascot Authors 🏷️ |
-| `316.pleading-margin.mdx` | 933 | Placeholder for handwritten additions, side-channel desperation, and the human e… | Society of Mascot Authors 🏷️ |
-| `280.ribbon-latency.mdx` | 934 | Placeholder for ceremonial lag, delayed opening energy, and institutions still c… | Society of Mascot Authors 🏷️ |
-| `244.sentiment-launderette.mdx` | 936 | Stub for mood-cleaning surfaces, affect smoothing, and dashboard-safe emotional … | Society of Mascot Authors 🏷️ |
-| `296.gown-of-recognition.mdx` | 952 | Reserved mascot for honorary visibility, draped acknowledgment, and the formal c… | Society of Mascot Authors 🏷️ |
-| `285.pamphlet-quietus.mdx` | 960 | Placeholder for informational closure, brochure-grade peace, and situations decl… | Society of Mascot Authors 🏷️ |
-| `286.favorable-beige.mdx` | 966 | Reserved mascot for neutral-positive presentation, calming departmental surfaces… | Society of Mascot Authors 🏷️ |
-| `282.gentility-siphon.mdx` | 968 | Stub for manners that absorb force, polished tone that lowers visible conflict, … | Society of Mascot Authors 🏷️ |
-| `300.friendship-preamble.mdx` | 992 | Placeholder for affiliative opening language, social framing before system deman… | Society of Mascot Authors 🏷️ |
 
-**Total Ghosts:** 10 (10 placeholder-affiliated, 0 real-affiliated, 0 unaffiliated)
+**Total Ghosts:** 0 (0 placeholder-affiliated, 0 real-affiliated, 0 unaffiliated)
 
 ---
 
