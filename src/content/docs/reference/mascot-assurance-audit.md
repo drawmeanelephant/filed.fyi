@@ -21,13 +21,13 @@ A mascot that cannot be located by its metadata is not missing. It is *misfiled 
 
 | Weight Class | Count | Share |
 |---|---|---|
-| 👻 Ghost (≤1000b) | 31 | 15.2% |
-| 🪶 Thin (≤2000b) | 10 | 4.9% |
-| 📄 Adequate (≤4000b) | 72 | 35.3% |
-| 📦 Substantial (>4000b) | 91 | 44.6% |
-| **Total Pending** | **204** | |
-| **Graduated (Assurance Pass 1+)** | **31** | |
-| **Total Archive** | **235** | |
+| 👻 Ghost (≤1000b) | 19 | 9.9% |
+| 🪶 Thin (≤2000b) | 10 | 5.2% |
+| 📄 Adequate (≤4000b) | 72 | 37.5% |
+| 📦 Substantial (>4000b) | 91 | 47.4% |
+| **Total Pending** | **192** | |
+| **Graduated (Assurance Pass 1+)** | **42** | |
+| **Total Archive** | **234** | |
 
 ---
 
@@ -42,7 +42,7 @@ These counts reflect how many mascots are missing key metadata fields. A missing
 | No `systemAffiliation` | 1 | Classification |
 | No `tags` or empty | 6 | Classification |
 | No relationships at all | 0 | Cross-reference |
-| No body sections (h2/h3) | 56 | Structural depth |
+| No body sections (h2/h3) | 44 | Structural depth |
 
 ---
 
@@ -66,7 +66,7 @@ The following files weigh 1000 bytes or less. They are not necessarily deficient
 
 | Category | Count | Observation |
 |---|---|---|
-| Placeholder affiliation | 31 | Carries a stub affiliation (e.g., "Society of Mascot Authors") that functions as a catch-all rather than a real doctrinal home. These mascots are technically affiliated but functionally unshelved. |
+| Placeholder affiliation | 19 | Carries a stub affiliation (e.g., "Society of Mascot Authors") that functions as a catch-all rather than a real doctrinal home. These mascots are technically affiliated but functionally unshelved. |
 | Real affiliation | 0 | Has a specific system affiliation despite low byte weight. May be legitimately sparse. |
 | No affiliation | 0 | No `systemAffiliation` declared at all. |
 
@@ -74,18 +74,6 @@ The following files weigh 1000 bytes or less. They are not necessarily deficient
 
 | File | Bytes | Description | System Affiliation |
 |---|---|---|---|
-| `317.apology-buoy.mdx` | 901 | Reserved mascot for floating remorse, stabilizing statements, and corporate sorr… | Society of Mascot Authors 🏷️ |
-| `274.deferment-bloom.mdx` | 903 | Placeholder for attractive postponement, elegant delay language, and timelines t… | Society of Mascot Authors 🏷️ |
-| `321.ribbon-clause.mdx` | 903 | Placeholder for decorative legal language, ornamental exceptions, and binding te… | Society of Mascot Authors 🏷️ |
-| `265.provisional-mint.mdx` | 904 | Placeholder entity for newly issued legitimacy, fresh seals, and confidence prin… | Society of Mascot Authors 🏷️ |
-| `268.appeal-feather.mdx` | 906 | Reserved mascot for delicate objections, low-force dissent, and filings intended… | Society of Mascot Authors 🏷️ |
-| `313.archive-napkin.mdx` | 906 | Placeholder for improvised records, informal preservation, and truths first writ… | Society of Mascot Authors 🏷️ |
-| `320.quiet-surplus.mdx` | 907 | Reserved entity for excess capacity myths, hidden reserves, and the suspicious c… | Society of Mascot Authors 🏷️ |
-| `257.orphan-symmetry.mdx` | 910 | Placeholder entity for balanced abandonment, neatly stranded links, and aestheti… | Society of Mascot Authors 🏷️ |
-| `287.revival-pocket.mdx` | 912 | Stub for temporary recoveries, small zones of renewed belief, and systems that s… | Society of Mascot Authors 🏷️ |
-| `293.carpet-jurisdiction.mdx` | 912 | Placeholder for authority conferred by room design, zone-colored power, and the … | Society of Mascot Authors 🏷️ |
-| `248.attestation-mole.mdx` | 913 | Subsurface verifier reserved for signatures, witness logic, and blind certaintie… | Society of Mascot Authors 🏷️ |
-| `254.spare-comfort-engine.mdx` | 913 | Placeholder machine mascot for auxiliary reassurance, backup empathy, and overfl… | Society of Mascot Authors 🏷️ |
 | `270.buffer-saint.mdx` | 913 | Stub figure for shock absorption, emotional queueing, and sacrificial spacing be… | Society of Mascot Authors 🏷️ |
 | `223.placeholder-witness.mdx` | 920 | Interim witness entity assigned to hold narrative space until a more specific ma… | Society of Mascot Authors 🏷️ |
 | `251.variance-pastor.mdx` | 922 | Provisional pastoral figure for tolerated fluctuation, disciplined instability, … | Society of Mascot Authors 🏷️ |
@@ -106,7 +94,7 @@ The following files weigh 1000 bytes or less. They are not necessarily deficient
 | `282.gentility-siphon.mdx` | 968 | Stub for manners that absorb force, polished tone that lowers visible conflict, … | Society of Mascot Authors 🏷️ |
 | `300.friendship-preamble.mdx` | 992 | Placeholder for affiliative opening language, social framing before system deman… | Society of Mascot Authors 🏷️ |
 
-**Total Ghosts:** 31 (31 placeholder-affiliated, 0 real-affiliated, 0 unaffiliated)
+**Total Ghosts:** 19 (19 placeholder-affiliated, 0 real-affiliated, 0 unaffiliated)
 
 ---
 
