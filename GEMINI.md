@@ -13,6 +13,7 @@
 - `npm run preview`: Previews the production build locally.
 
 ## Development Conventions & Constraints
+- **Metadata Diligence:** Whenever creating or modifying a file, ensure the `updatedAt` frontmatter field is set or updated to the current date (`YYYY-MM-DD`).
 - **Minimal Abstraction:** Adhere to the rules in `rules.md`. Avoid "enterprise scalable" architectures.
 - **Surgical Updates:** When modifying content or components, maintain the "archival" feel. Do not "correct" historical records unless performing an explicit migration.
 - **Content-First:** The project revolves around its content collections. Ensure schemas in `src/content.config.ts` are respected.
