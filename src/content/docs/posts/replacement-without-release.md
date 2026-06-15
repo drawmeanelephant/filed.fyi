@@ -26,6 +26,7 @@ relatedEntries:
     id: LLG-0441-TSR
 concepts:
   - core-doctrines
+updatedAt: 2026-06-13
 ---
 
 The replacement was announced on time and inherited the room tone immediately.

@@ -8,6 +8,7 @@ tags:
   - navigation
   - trust-surface
   - starlight
+updatedAt: 2026-06-13
 ---
 
 # Trust Surface Routing Note

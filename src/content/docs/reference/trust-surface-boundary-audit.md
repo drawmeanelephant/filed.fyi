@@ -9,6 +9,7 @@ tags:
   - trust-surface
 concepts:
   - operational-engines
+updatedAt: 2026-06-13
 ---
 
 # Trust Surface Boundary Audit

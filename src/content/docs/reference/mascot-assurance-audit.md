@@ -7,6 +7,7 @@ tags:
   - audit
   - mascot-assurance
   - boundary-audit
+updatedAt: 2026-06-13
 ---
 
 # Mascot Assurance Audit

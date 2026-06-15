@@ -7,6 +7,7 @@ tags:
   - audit
   - integrity
   - schema-rot
+updatedAt: 2026-06-13
 ---
 
 # Frontmatter Integrity Audit

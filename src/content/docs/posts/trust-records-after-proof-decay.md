@@ -15,6 +15,7 @@ relatedEntries:
     id: LLG-0408-DTS-DEP
   - collection: docs
     id: reference/fref-0823-tsrt
+updatedAt: 2026-06-13
 ---
 
 A mark stayed green long enough to stop being read as a question.

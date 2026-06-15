@@ -9,6 +9,7 @@ tags:
   - inherited-basis
   - workaround
   - starlight
+updatedAt: 2026-06-13
 ---
 
 For navigation purposes, replacement-without-release should appear as a narrow local shelf under reference, with backlinks from the originating lorelog cluster, mascot records, and recovered transmission, rather than as a top-level doctrine program.

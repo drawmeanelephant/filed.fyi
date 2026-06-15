@@ -8,6 +8,7 @@ tags:
   - boundaries
   - inherited-basis
   - workaround
+updatedAt: 2026-06-13
 ---
 
 # Replacement Without Release Boundary Audit
