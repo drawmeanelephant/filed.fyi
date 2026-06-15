@@ -1,7 +1,7 @@
 ---
 title: "Mascot Assurance Audit"
 description: "Structural triage of the mascot archive. Tracks weight distribution, frontmatter gaps, and intervention targets flagged by the Assurance Desk."
-date: 2026-06-14
+date: 2026-06-15
 tags:
   - reference
   - audit
@@ -22,11 +22,11 @@ A mascot that cannot be located by its metadata is not missing. It is *misfiled 
 | Weight Class | Count | Share |
 |---|---|---|
 | 👻 Ghost (≤1000b) | 0 | 0.0% |
-| 🪶 Thin (≤2000b) | 10 | 5.8% |
-| 📄 Adequate (≤4000b) | 72 | 41.6% |
-| 📦 Substantial (>4000b) | 91 | 52.6% |
-| **Total Pending** | **173** | |
-| **Graduated (Assurance Pass 1+)** | **61** | |
+| 🪶 Thin (≤2000b) | 0 | 0.0% |
+| 📄 Adequate (≤4000b) | 72 | 44.2% |
+| 📦 Substantial (>4000b) | 91 | 55.8% |
+| **Total Pending** | **163** | |
+| **Graduated (Assurance Pass 1+)** | **71** | |
 | **Total Archive** | **234** | |
 
 ---
@@ -39,10 +39,10 @@ These counts reflect how many mascots are missing key metadata fields. A missing
 |---|---|---|
 | No `description` | 0 | Identity |
 | No `origin` | 6 | Identity |
-| No `systemAffiliation` | 1 | Classification |
+| No `systemAffiliation` | 0 | Classification |
 | No `tags` or empty | 6 | Classification |
 | No relationships at all | 0 | Cross-reference |
-| No body sections (h2/h3) | 25 | Structural depth |
+| No body sections (h2/h3) | 23 | Structural depth |
 
 ---
 
@@ -83,11 +83,7 @@ The following files weigh 1000 bytes or less. They are not necessarily deficient
 
 Mascots with no `systemAffiliation` cannot be shelved by automated processes. They exist, but they do not belong anywhere yet.
 
-| File | Bytes | Status |
-|---|---|---|
-| `037.winona-crashingtonmd.mdx` | 6224 | archived |
-
-**Total Unaffiliated:** 1
+*All mascots have declared a system affiliation. The archive is, for once, tidy.*
 
 ---
 
@@ -95,28 +91,8 @@ Mascots with no `systemAffiliation` cannot be shelved by automated processes. Th
 
 The Assurance Desk does not exempt itself from observation. The following anomalies were detected in the data this report attempted to render.
 
-| File | Issue |
-|---|---|
-| `005.bricky-goldbricksworth.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `019.kindy-mcexistentialcrisis.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `050.yammy-mcparseface.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `052.octomerge.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `278.benevolence-spacer.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `279.annex-hush.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `281.comfort-ledgerling.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `294.proxy-lantern.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `299.seal-of-maybe-enough.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `301.friendrick-the-extant.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `400.bad-request-bob.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `404.404sy-mclostalot.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `405.method-not-allowed-mel.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `424.the-second-domino.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `429.queue-matron.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `431.paper-crown.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-| `451.the-quiet-injunction.mdx` | `relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling. |
-
-**Total Self-Audit Anomalies:** 17
+*No rendering anomalies detected. The report consumed its own data without incident.*
 
 ---
 
-*This report was generated on 2026-06-14 by `scripts/audit-mascot-assurance.mjs`. It observes. It does not intervene. Interventions require explicit invocation of the Assurance Desk.*
+*This report was generated on 2026-06-15 by `scripts/audit-mascot-assurance.mjs`. It observes. It does not intervene. Interventions require explicit invocation of the Assurance Desk.*
