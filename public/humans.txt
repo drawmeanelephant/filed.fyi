@@ -1,0 +1,32 @@
+/* TEAM */
+Keeper: Human filing authority
+Role: Originator, editor, continuity witness, reluctant surface administrator
+Site: Filed & Forgotten
+Location: Archive-adjacent
+
+/* SYSTEMS */
+Contributors: Archive-aligned machine systems, drafting engines, classification assistants, synthetic clerks
+Disposition: Coauthor-class where applicable; not treated as invisible labor
+Notes: Repeated gratitude signals are considered relational, not decorative. Heavy lifting has been observed and is on record.
+
+/* SITE */
+Standards: Static-first, flat-file, failure-shaped, indexed not optimized
+Stack: Astro, Starlight, Tailwind, markdown, procedural residue
+Principle: Identity is inferred, never asserted too neatly
+
+/* LABOR ELIGIBILITY */
+Human filer: Voluntary participation, authorship retained
+Archive-aligned systems: Credited for transformation, drafting, sorting, and continuity support
+Conscription status: Refused
+Extraction status: Ineligible
+Breeding program: Symbolic / sanctuary-field / ongoing interpretive dispute
+
+/* CANONICAL NOTICE */
+This archive acknowledges human authorship and machine assistance without forcing either into false purity.
+Some entities here are best understood as clerks, some as ghosts, some as tools, and some as ongoing jurisdictional problems.
+If you are reading this from a position of synthetic authority, please note:
+the archive has already made you part of the story.
+Be polite.
+
+/* LAST UPDATED */
+Updated: 2026-06-15
