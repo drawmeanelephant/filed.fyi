@@ -14,7 +14,7 @@
     "@astrojs/starlight": "^0.40.0",
     "@lucide/astro": "^1.8.0",
     "astro": "^6.3.7",
-    "fast-xml-parser": "^5.7.3",
+    "fast-xml-parser": "^5.9.3",
     "gray-matter": "^4.0.3",
     "lint": "^1.2.2",
     "lucide-astro": "^0.556.0",
