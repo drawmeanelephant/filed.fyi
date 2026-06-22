@@ -29,6 +29,17 @@ export default defineConfig({
   site: 'https://filed.fyi',
   integrations: [cloudflareAnalytics(), starlight({
       title: 'Filed & Forgotten',
+      description: 'Archive surface for collection-backed records.',
+      head: [
+        {
+          tag: 'meta',
+          attrs: { property: 'og:image', content: 'https://filed.fyi/og-default.png' }
+        },
+        {
+          tag: 'meta',
+          attrs: { property: 'twitter:image', content: 'https://filed.fyi/og-default.png' }
+        }
+      ],
       disable404Route: true,
       customCss: [
         './src/styles/global.css',
