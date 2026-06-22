@@ -21,7 +21,7 @@
     "markdownlint": "^0.41.0",
     "node-fetch": "^3.3.2",
     "sass": "^1.99.0",
-    "sharp": "^0.34.2"
+    "sharp": "^0.35.2"
   },
   "devDependencies": {
     "markdownlint-cli": "^0.49.0"
