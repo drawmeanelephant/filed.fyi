@@ -8,19 +8,21 @@ const cloudflareAnalytics = () => ({
   name: "cloudflare-web-analytics",
   hooks: {
     "astro:config:setup"({ injectScript }) {
-      injectScript(
-        "head-inline",
-        `
+      if (process.env.CF_BEACON_TOKEN) {
+        injectScript(
+          "head-inline",
+          `
 !function(){
   var d=document;
   var s=d.createElement("script");
   s.defer=true;
   s.src="https://static.cloudflareinsights.com/beacon.min.js";
-  s.setAttribute("data-cf-beacon", '{"token":"7520d16298634b9aa74903270d3a8b82"}');
+  s.setAttribute("data-cf-beacon", '{"token":"${process.env.CF_BEACON_TOKEN}"}');
   d.head.appendChild(s);
 }();
-        `
-      );
+          `
+        );
+      }
     },
   },
 });
