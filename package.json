@@ -10,9 +10,10 @@
     "audit:poetry": "node scripts/audit-poetry.mjs"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.2",
-    "@astrojs/starlight": "^0.40.0",
-    "astro": "^6.4.8",
+    "@astrojs/sitemap": "^3.7.3",
+    "@astrojs/starlight": "^0.41.1",
+    "@lucide/astro": "^1.21.0",
+    "astro": "^7.0.3",
     "fast-xml-parser": "^5.9.3",
     "gray-matter": "^4.0.3",
     "lint": "^1.2.2",
