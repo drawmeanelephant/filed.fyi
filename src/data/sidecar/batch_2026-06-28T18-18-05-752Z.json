@@ -1,0 +1,10 @@
+{
+  "batch_timestamp": "2026-06-28T18:18:05.752Z",
+  "total_files_processed": 1,
+  "records": [
+    {
+      "file_path": "src/content/docs/reference/audit-01-frontmatter-schema.mdx",
+      "verses": []
+    }
+  ]
+}
