@@ -14,38 +14,35 @@ filedBy: Datalock Archivia
 filedAt: Header Arbitration Division
 mascotRef: uncacheable-ursula
 affectedSystems:
-  - CDN edge layer
-  - browser cache negotiation
-  - ETag registry
+- CDN edge layer
+- browser cache negotiation
+- ETag registry
 relatedEntries:
-  - collection: mascots
-    id: 074.datalock-archivia
-  - collection: lorelog
-    id: LLG-0316-MBR
-  - collection: lorelog
-    id: LLG-0005-STALE-CONTENT-ECHO
-  - collection: mascots
-    id: uncacheable-ursula
+- collection: mascots
+  id: 074.datalock-archivia
+- collection: lorelog
+  id: LLG-0316-MBR
+- collection: lorelog
+  id: LLG-0005-STALE-CONTENT-ECHO
+- collection: mascots
+  id: uncacheable-ursula
 escalationPath: Cache Tribunal, Freshness Assessment Board
 tags:
-  - cache-expiry
-  - contested-freshness
-  - etag-conflict
-  - header-dispute
-  - mascots
+- cache-expiry
+- contested-freshness
+- etag-conflict
+- header-dispute
+- mascots
 concepts:
-  - contested-freshness
-  - mascots
-  - recursive-loop
-  - metadata-guardian
-  - yaml-purity
-  - data-integrity
-  - buffer-null
-notes: >-
-  Ursula maintains the contradiction is intentional and constitutes 'valid
-  ambiguity.' Appeal pending. The asset in question remains simultaneously fresh
-  and stale in three known CDN regions.
-updatedAt: 2026-06-13
+- contested-freshness
+- mascots
+- recursive-loop
+- metadata-guardian
+- yaml-purity
+- data-integrity
+- buffer-null
+notes: Ursula maintains the contradiction is intentional and constitutes 'valid ambiguity.' Appeal pending. The asset in question remains simultaneously fresh and stale in three known CDN regions.
+updatedAt: '2026-06-28'
 ---
 
 Two ETag values were issued for the same versioned asset within a 400ms window. The first declared the resource fresh for 86,400 seconds. The second revoked freshness effective immediately. Both headers bear valid signatures.
