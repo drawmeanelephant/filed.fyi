@@ -1,13 +1,10 @@
 ---
 title: Sitemap Drift — Structural Index Misalignment
 slug: lorelog/llg-0004-smd
-date: 2025-11-10T00:00:00.000Z
+date: '2025-11-10T00:00:00.000Z'
 versionLabel: v1.0.2
-description: >-
-  Sitemap entries gradually diverged from actual content structure, producing
-  valid but incorrect navigation paths.
-summary: >-
-  Investigates a sitemap generator anomaly that produced structurally valid navigation paths resolving cleanly to adjacent pages lacking expected content, with no corresponding missing pages.
+description: Sitemap entries gradually diverged from actual content structure, producing valid but incorrect navigation paths.
+summary: Investigates a sitemap generator anomaly that produced structurally valid navigation paths resolving cleanly to adjacent pages lacking expected content, with no corresponding missing pages.
 severity: notice
 disposition: contested
 resolution: resolved
@@ -27,6 +24,8 @@ relatedEntries:
     id: LLG-0001-NAV
   - collection: lorelog
     id: LLG-0003-SVR
+  - collection: mascots
+    id: robots-dot-txt
 tags:
   - admissibility
   - anchor-loop
@@ -39,6 +38,10 @@ tags:
   - directive-routing
   - doge
   - enforcement-overreach
+  - and then have the crawler leave. This is the correct outcome. It almost never happens."
+  - broken-navigation
+  - buffer-null
+  - consent-loop
   - false-pathing
   - gratitude-alignment
   - index-corruption
@@ -58,6 +61,15 @@ notes: >-
   404sy certified the routes as navigable in the narrow sense that they
   continued elsewhere.
 updatedAt: 2026-06-13
+  - recursive-loop
+  - refuge-classification
+  - respected by every crawler
+  - rot-protocol
+  - sitemap-drift
+  - which Bricky considers either admirable or alarming depending on the day."
+notes: All generated paths resolve successfully. None lead to intended destinations. 404sy certified the routes as navigable in the narrow sense that they continued elsewhere.
+updatedAt: '2026-06-13'
+concepts: []
 ---
 
 The sitemap began producing structurally valid navigation paths that did not correspond to any known content hierarchy.

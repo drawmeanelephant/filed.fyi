@@ -1,13 +1,10 @@
 ---
 title: Navigation Collapse Event — Breadcrumb Stratum Failure
 slug: lorelog/llg-0001-nav
-date: 2025-11-04T00:00:00.000Z
+date: '2025-11-04T00:00:00.000Z'
 versionLabel: v0.9.1
-description: >-
-  Primary breadcrumb layer dissolved mid-session. Affected users encountered
-  recursive anchor loops with no canonical exit node.
-summary: >-
-  Documents a 14:32 site-time anomaly where the primary breadcrumb stratum dissolved cleanly without debris, causing traversing users to return to their origin point without memory of the transit.
+description: Primary breadcrumb layer dissolved mid-session. Affected users encountered recursive anchor loops with no canonical exit node.
+summary: Documents a 14:32 site-time anomaly where the primary breadcrumb stratum dissolved cleanly without debris, causing traversing users to return to their origin point without memory of the transit.
 severity: critical
 disposition: contested
 resolution: unresolvable
@@ -29,7 +26,9 @@ relatedEntries:
     id: htaccessius-the-doorman
   - collection: lorelog
     id: LLG-0004-SMD
-escalationPath: 'Route Rot Tribunal, Filing Desk 7'
+  - collection: mascots
+    id: hammy-navstack
+escalationPath: Route Rot Tribunal, Filing Desk 7
 relatedHaiku:
   - slug: haikus/hai-llg-0001-nav
 relatedLimerick:
@@ -65,6 +64,13 @@ notes: >-
   authority declined to issue a canonical redirect. Matter remains unresolvable
   pending appeal.
 updatedAt: 2026-06-13
+  - anchor-loop
+  - breadcrumb-failure
+  - broken-navigation
+  - rot-protocol
+notes: Three separate rerouting attempts produced identical void outputs. Filing authority declined to issue a canonical redirect. Matter remains unresolvable pending appeal.
+updatedAt: '2026-06-13'
+concepts: []
 ---
 
 The breadcrumb layer collapsed at approximately 14:32 site-time during a routine anchor resolution pass. No prior degradation signals were logged. The stratum appears to have dissolved cleanly, leaving no debris in the navigation buffer — which is considered anomalous.
