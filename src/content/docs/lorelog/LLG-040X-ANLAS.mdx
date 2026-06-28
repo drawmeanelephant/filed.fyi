@@ -1,14 +1,10 @@
 ---
 title: Leopard Upgrade Blue Screen Unsanity Residuals
 slug: lorelog/llg-040x-anlas
-date: 2007-10-27T00:00:00.000Z
+date: '2007-10-27T00:00:00.000Z'
 versionLabel: Leopard Transition Incident Block 1
-summary: >-
-  Details an incident where Mac OS X 10.5 Leopard upgrades resulted in persistent blue screens on boot, traced to the injection of Unsanity's legacy Application Enhancer (APE) framework into system processes during early login.
-description: >-
-  A routine in‑place upgrade to Mac OS X 10.5 Leopard stalled on a persistent
-  blue screen due to legacy Application Enhancer (APE) injections, later
-  personified as Anlas the Application Enhancer.
+summary: Details an incident where Mac OS X 10.5 Leopard upgrades resulted in persistent blue screens on boot, traced to the injection of Unsanity's legacy Application Enhancer (APE) framework into system processes during early login.
+description: A routine in‑place upgrade to Mac OS X 10.5 Leopard stalled on a persistent blue screen due to legacy Application Enhancer (APE) injections, later personified as Anlas the Application Enhancer.
 severity: warning
 disposition: filed
 resolution: resolved
@@ -34,14 +30,21 @@ relatedEntries:
     id: llg-0XXX-bhdss
   - collection: docs
     id: llg-0XXX-metrics-optics
+  - collection: mascots
+    id: winona-crashington
 tags:
-  - runtime-injection
-  - unsanity
   - ape-framework
-  - leopard-upgrade
   - blue-screen
+  - buffer-null
   - dyld-insert
   - legacy-daemon
+  - leopard-upgrade
+  - recursive-loop
+  - runtime-injection
+  - unsanity
+notes: Apple’s own support narrative reduced the incident to ‘remove application enhancement software.’ The archive elected to keep the daemon.
+updatedAt: '2026-06-13'
+concepts: []
   - app-enhancement
   - mascots
   - feature-creep
