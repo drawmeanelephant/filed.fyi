@@ -45,6 +45,7 @@ export default defineConfig({
       disable404Route: true,
       customCss: [
         './src/styles/global.css',
+        './src/styles/theme.css',
       ],
       social: [
           { icon: 'github', label: 'GitHub', href: 'https://github.com/drawmeanelephant/filed.fyi' }
