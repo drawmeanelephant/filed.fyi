@@ -556,3 +556,32 @@
   color: #b39ddb;
   text-shadow: 0 0 6px rgba(179,157,219,0.15);
 }
+
+/* Theme Overrides for Asides (Limericks/Brosides) */
+:root[data-theme='light'] .broside {
+  background-color: var(--sl-color-white);
+  border: 1px solid var(--sl-color-gray-5);
+  color: var(--sl-color-black);
+  max-width: max-content;
+  padding: 0.75rem 1rem;
+}
+
+:root[data-theme='light'] .broside .starlight-aside__title {
+  color: var(--sl-color-black);
+}
+
+:root[data-theme='dark'] .broside {
+  background-color: var(--sl-color-bg);
+  border: 1px solid var(--sl-color-gray-5);
+  color: var(--sl-color-gray-2);
+  max-width: max-content;
+  padding: 0.75rem 1rem;
+}
+
+:root[data-theme='dark'] .broside .starlight-aside__title {
+  color: var(--sl-color-white);
+}
+
+.broside .starlight-aside__content {
+  line-height: 1.6;
+}
