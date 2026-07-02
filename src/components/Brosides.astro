@@ -2,7 +2,7 @@
 import { AstroError } from 'astro/errors';
 import * as Lucide from '@lucide/astro';
 // lucide icons used instead of Starlight icon system
-import { throwInvalidAsideIconError } from '../../node_modules/@astrojs/starlight/integrations/asides-error.ts';
+
 
 const asideVariants = ['note', 'tip', 'caution', 'danger'] as const;
 
@@ -153,9 +153,8 @@ const brosideAccentStyles: Record<string, string> = {
 
 if (!asideVariants.includes(type)) {
 	throw new AstroError(
-		'Invalid `type` prop passed to the `<Aside>` component.\n',
-		`Received: ${JSON.stringify(type)}\n` +
-			`Expected one of ${asideVariants.map((i) => JSON.stringify(i)).join(', ')}`
+		`Invalid type "${type}" passed to <Broside />.`,
+		`Expected one of: ${asideVariants.join(', ')}`
 	);
 }
 
