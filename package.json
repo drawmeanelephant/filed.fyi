@@ -10,6 +10,7 @@
     "audit:poetry": "node scripts/audit-poetry.mjs"
   },
   "dependencies": {
+    "@astrojs/mdx": "^7.0.1",
     "@astrojs/sitemap": "^3.7.3",
     "@astrojs/starlight": "^0.41.1",
     "@lucide/astro": "^1.22.0",
