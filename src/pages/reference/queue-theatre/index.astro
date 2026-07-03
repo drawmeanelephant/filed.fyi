@@ -1,0 +1,61 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CollectionRegister from '@/components/CollectionRegister.astro';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Queue Theatre',
+    description:
+      'Reference node for queues that remain behaviorally alive after capacity, relief, or execution has thinned into status motion, acknowledgments, and inherited obligation.',
+    tableOfContents: false,
+  }}
+>
+  <dl>
+    <dt>Classification</dt>
+    <dd>Reference Obligation Residue</dd>
+    <dt>Status</dt>
+    <dd>Open, slow-moving, suspiciously reassuring</dd>
+  </dl>
+
+  <hr />
+
+  <p>
+    Queue Theatre names the surface condition in which a queue remains open, legible, and behaviorally authoritative after the labor beneath it has become thin enough that motion no longer guarantees relief.
+    Status changes persist. Intake persists. Hope is operationally encouraged.
+  </p>
+
+  <blockquote>
+    <strong>Seam Note:</strong> Queue Theatre is the public choreography of a deeper condition. Where the underlying issue is work surviving as obligation after live execution decays, route inward to Dead Labor.
+  </blockquote>
+
+  <p>
+    This node indexes queue-shaped continuity surfaces rather than every backlog in the archive. It gathers the places where movement, acknowledgment, and compatibility posture begin substituting for materially available handling.
+  </p>
+
+  <h2>Reference documents</h2>
+  <p>
+    Doctrine sheets and reference fragments governing dead labor, managed absence, successor burden, and queue-shaped continuity language.
+  </p>
+  <CollectionRegister collection="docs" filterPrefix="reference/forms/fref-08" exclude={['index']} sortBy="title" />
+  <CollectionRegister collection="docs" filterPrefix="reference/fref-0875" exclude={['index']} sortBy="title" />
+
+  <h2>Incident records Lorelog</h2>
+  <p>
+    Lorelog cases where open queues, support surfaces, intake lanes, or successor workflows remained behaviorally live after meaningful clearing capacity became uncertain, displaced, or ceremonial.
+  </p>
+  <CollectionRegister collection="lorelog" filterPrefix="lorelog/llg-04" exclude={['index']} sortBy="caseNumber" />
+
+  <p>
+    <em>
+      The incident sweep is intentionally approximate. This is a seam index, not a promise that queue-shaped injury stays inside one tidy numerical band.
+    </em>
+  </p>
+
+  <h2>Mascot witnesses</h2>
+  <p>
+    Mascots attached to delayed handling, staged responsiveness, or queue-preservation
+    behavior. Read them as failure signatures, not cast members.
+  </p>
+  <CollectionRegister collection="mascots" filterConcept="queue-theatre" />
+</StarlightPage>
