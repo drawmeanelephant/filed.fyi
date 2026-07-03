@@ -1,6 +1,8 @@
 import starlight from '@astrojs/starlight'
 import mdx from '@astrojs/mdx'
 import { defineConfig } from 'astro/config'
+import AutoImport from 'astro-auto-import'
+import { unified } from '@astrojs/markdown-remark'
 
 
 import sitemap from '@astrojs/sitemap';
@@ -30,14 +32,19 @@ const cloudflareAnalytics = () => ({
 
 export default defineConfig({
   site: 'https://filed.fyi',
-  integrations: [cloudflareAnalytics(), mdx({
-      components: {
-        Broside: './src/components/Brosides.astro',
-        Limerick: './src/components/Limericks.astro',
-        CollectionRegister: './src/components/CollectionRegister.astro',
-        RelatedEntries: './src/components/RelatedEntries.astro',
-      },
-    }), starlight({
+  markdown: {
+    processor: unified(),
+  },
+  integrations: [
+    cloudflareAnalytics(),
+    AutoImport({
+      imports: [
+        {
+          './src/components/mdx.ts': ['CollectionRegister', 'RelatedEntries', 'Broside', 'Limerick']
+        }
+      ]
+    }),
+    starlight({
       title: 'Filed & Forgotten',
       description: 'Archive surface for collection-backed records.',
       head: [
@@ -92,6 +99,6 @@ export default defineConfig({
           ],
         },
       ],
-  }) , sitemap()],
+  }) , mdx(), sitemap()],
 
 });
