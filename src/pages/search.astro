@@ -111,73 +111,101 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
   </style>
 
   <script>
-    document.getElementById('rag-search-form')?.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const queryInput = document.getElementById('rag-query');
-      const query = queryInput.value;
+  // Simple, safe, dependency-free markdown parser
+  function parseBasicMarkdown(text) {
+    // 1. Escape HTML to prevent XSS
+    let html = text
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
 
-      const loading = document.getElementById('search-loading');
-      const errorDiv = document.getElementById('search-error');
-      const resultsDiv = document.getElementById('search-results');
+    // 2. Convert Headers (### or ##)
+    html = html.replace(/^### (.*$)/gim, '<h4 style="margin-top: 1rem; font-weight: 700;">$1</h4>');
+    html = html.replace(/^## (.*$)/gim, '<h3 style="margin-top: 1.25rem; font-weight: 700; border-bottom: 1px solid var(--sl-color-gray-5); padding-bottom: 0.25rem;">$1</h3>');
 
-      if(loading) loading.style.display = 'block';
-      if(errorDiv) errorDiv.style.display = 'none';
-      if(resultsDiv) resultsDiv.style.display = 'none';
+    // 3. Convert Bold (**text**)
+    html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
-      try {
-        const res = await fetch('/api/query', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ query })
-        });
+    // 4. Convert Bullet Points
+    html = html.replace(/^\s*\-\s+(.*$)/gim, '<li style="margin-left: 1.5rem; list-style-type: disc;">$1</li>');
 
-        const data = await res.json();
+    // 5. Convert Line Breaks (preserving paragraph blocks)
+    html = html.replace(/\n/g, '<br />');
 
-        if (!res.ok) {
-          throw new Error(data.error || 'API Error');
-        }
+    return html;
+  }
 
-        // Render LLM response
-        const llmContainer = document.getElementById('llm-response');
-        if (llmContainer) llmContainer.textContent = data.result;
+  document.getElementById('rag-search-form')?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const queryInput = document.getElementById('rag-query');
+    const query = queryInput.value;
 
-        // Helper to render bins
-        const renderBin = (binItems, containerId) => {
-          const container = document.getElementById(containerId);
-          if (!container) return;
-          container.innerHTML = '';
-          if (!binItems || binItems.length === 0) {
-            container.innerHTML = '<div class="result-item">No retrieved records.</div>';
-            return;
-          }
-          binItems.forEach(item => {
-            const div = document.createElement('div');
-            div.className = 'result-item';
-            div.innerHTML = `
-              <div class="result-title">${item.title || item.id}</div>
-              <div>${(item.content || '').substring(0, 300)}...</div>
-            `;
-            container.appendChild(div);
-          });
-        };
+    const loading = document.getElementById('search-loading');
+    const errorDiv = document.getElementById('search-error');
+    const resultsDiv = document.getElementById('search-results');
 
-        if (data.bins) {
-          renderBin(data.bins.lorelog, 'soma-results');
-          renderBin(data.bins.reference, 'coma-results');
-          renderBin(data.bins.mascots, 'mascot-results');
-          renderBin(data.bins.poetry_posts, 'poetry-results');
-        }
+    if(loading) loading.style.display = 'block';
+    if(errorDiv) errorDiv.style.display = 'none';
+    if(resultsDiv) resultsDiv.style.display = 'none';
 
-        if(loading) loading.style.display = 'none';
-        if(resultsDiv) resultsDiv.style.display = 'block';
+    try {
+      const res = await fetch('/api/query', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query })
+      });
 
-      } catch (err) {
-        if(loading) loading.style.display = 'none';
-        if(errorDiv) {
-          errorDiv.textContent = err.message;
-          errorDiv.style.display = 'block';
-        }
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || 'API Error');
       }
-    });
-  </script>
+
+      // Render formatted LLM response
+      const llmContainer = document.getElementById('llm-response');
+      if (llmContainer) {
+        llmContainer.innerHTML = parseBasicMarkdown(data.result);
+      }
+
+      // Helper to render bins
+      const renderBin = (binItems, containerId) => {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.innerHTML = '';
+        if (!binItems || binItems.length === 0) {
+          container.innerHTML = '<div class="result-item">No retrieved records.</div>';
+          return;
+        }
+        binItems.forEach(item => {
+          const div = document.createElement('div');
+          div.className = 'result-item';
+          div.innerHTML = `
+            <div class="result-title">${item.title || item.id}</div>
+            <div>${(item.content || '').substring(0, 300)}...</div>
+          `;
+          container.appendChild(div);
+        });
+      };
+
+      if (data.bins) {
+        renderBin(data.bins.lorelog, 'soma-results');
+        renderBin(data.bins.reference, 'coma-results');
+        renderBin(data.bins.mascots, 'mascot-results');
+        renderBin(data.bins.poetry_posts, 'poetry-results');
+      }
+
+      if(loading) loading.style.display = 'none';
+      if(resultsDiv) resultsDiv.style.display = 'block';
+
+    } catch (err) {
+      if(loading) loading.style.display = 'none';
+      if(errorDiv) {
+        errorDiv.textContent = err.message;
+        errorDiv.style.display = 'block';
+      }
+    }
+  });
+</script>
 </StarlightPage>
