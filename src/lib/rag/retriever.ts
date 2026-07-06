@@ -130,13 +130,14 @@ export class SeamAwareRetriever {
     };
 
     for (const scoredNode of visited.values()) {
-      if (scoredNode.type === 'reference') {
+      const nodeType = scoredNode.type || scoredNode.collection; // Fallback mapping
+      if (nodeType === 'reference' || nodeType === 'guides') {
         bins.reference.push(scoredNode);
-      } else if (scoredNode.type === 'lorelog') {
+      } else if (nodeType === 'lorelog') {
         bins.lorelog.push(scoredNode);
-      } else if (scoredNode.type === 'mascots') {
+      } else if (nodeType === 'mascots') {
         bins.mascots.push(scoredNode);
-      } else if (['poetry_posts', 'limericks', 'haikus'].includes(scoredNode.type)) {
+      } else if (['poetry_posts', 'limericks', 'haikus', 'aphorisms'].includes(nodeType)) {
         bins.poetry_posts.push(scoredNode);
       }
     }
