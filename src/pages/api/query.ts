@@ -1,6 +1,22 @@
 import type { APIRoute } from 'astro';
 import * as lancedb from '@lancedb/lancedb';
 import path from 'node:path';
+import fs from 'node:fs/promises';
+
+// Helper to load raw file contents from disk
+async function loadContentFromDisk(collection: string, id: string): Promise<string> {
+  const docsDir = path.join(process.cwd(), 'src/content/docs');
+  let relativePath = id;
+  if (!id.startsWith(collection + '/')) {
+    relativePath = path.join(collection, id);
+  }
+  try {
+    const raw = await fs.readFile(path.join(docsDir, relativePath), 'utf-8');
+    return raw.replace(/^---[\s\S]*?---/, '').trim(); // Remove frontmatter
+  } catch {
+    return '';
+  }
+}
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { SeamAwareRetriever, type Seed } from '../../lib/rag/retriever';
 
@@ -33,6 +49,22 @@ export const POST: APIRoute = async ({ request }) => {
     const retriever = new SeamAwareRetriever();
     await retriever.init();
     const bins = await retriever.retrieve(seeds);
+
+    const enrichBinWithContent = async (bin: any[]) => {
+      return Promise.all(
+        bin.map(async (node) => {
+          const coll = node.collection || node.type;
+          const content = await loadContentFromDisk(coll, node.id);
+          return { ...node, content };
+        })
+      );
+    };
+
+    // Enrich all active bins before prompt formatting
+    bins.reference = await enrichBinWithContent(bins.reference);
+    bins.lorelog = await enrichBinWithContent(bins.lorelog);
+    bins.mascots = await enrichBinWithContent(bins.mascots);
+    bins.poetry_posts = await enrichBinWithContent(bins.poetry_posts);
 
     // 3. Format Prompt & Context
     let contextStr = '--- RETRIEVED CONTEXT ---\n';
