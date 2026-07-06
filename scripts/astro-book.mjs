@@ -29,8 +29,7 @@ function getFiles(dir, isRoot = false) {
     
     if (stat && stat.isDirectory()) {
       if (DEFAULT_EXCLUDES.includes(file)) continue;
-      // If we are at the root, don't automatically recurse into 'src' or 'scripts' 
-      // if we want to handle them differently, but here we scan all valid extensions
+      // Recurse cleanly through valid directories
       results.push(...getFiles(filePath, false));
     } else {
       // Catch all code, config, and markdown extensions
@@ -61,7 +60,10 @@ function fence_lang(f) {
 function writeSegmentedFiles(title, filePaths, baseFilename) {
   const activePaths = filePaths.filter(f => {
     const rel = path.relative(process.cwd(), f);
-    return !DEFAULT_EXCLUDES.some(ex => rel.includes(ex));
+    // Split into segments to ensure we only exclude matching folder/file names,
+    // preventing file extensions like '.astro' from killing your page routes.
+    const segments = rel.split(path.sep);
+    return !DEFAULT_EXCLUDES.some(ex => segments.includes(ex));
   });
 
   if (activePaths.length === 0) return;
