@@ -65,7 +65,7 @@ Strict Guardrails:
     const result = await model.generateContent(prompt);
     const responseText = result.response.text();
 
-    return new Response(JSON.stringify({ result: responseText }), {
+    return new Response(JSON.stringify({ result: responseText, bins }), {
       status: 200,
       headers: { 'Content-Type': 'application/json' }
     });

@@ -8,7 +8,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "audit:poetry": "node scripts/audit-poetry.mjs",
-    "test": "npm run audit:poetry && npx markdownlint-cli \"src/**/*.{md,mdx}\" && npm run build"
+    "test": "npm run audit:poetry && npx markdownlint-cli \"src/**/*.{md,mdx}\" && npm run build",
+    "prebuild": "tsx scripts/build-rag-graph.ts && tsx scripts/index-vectors.ts",
+    "predev": "tsx scripts/build-rag-graph.ts && tsx scripts/index-vectors.ts"
   },
   "dependencies": {
     "@astrojs/mdx": "^7.0.2",
@@ -30,6 +32,7 @@
   },
   "devDependencies": {
     "@lucide/astro": "^1.23.0",
-    "markdownlint-cli": "^0.49.0"
+    "markdownlint-cli": "^0.49.0",
+    "tsx": "^4.23.0"
   }
 }
