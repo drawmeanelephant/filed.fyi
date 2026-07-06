@@ -1,116 +1,9 @@
----
-import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
----
+import re
 
-<StarlightPage frontmatter={{ title: 'Database Search', template: 'splash' }}>
-  <div class="search-page">
-    <form id="rag-search-form" class="search-form">
-      <input type="text" id="rag-query" name="query" placeholder="Enter query..." required class="search-input" />
-      <button type="submit" class="search-button">Query</button>
-    </form>
+with open('src/pages/search.astro', 'r') as f:
+    content = f.read()
 
-    <div id="search-loading" style="display: none;">Scanning records...</div>
-    <div id="search-error" style="display: none; color: var(--sl-color-red);"></div>
-
-    <div id="search-results" style="display: none;">
-      <div class="llm-summary" id="llm-response"></div>
-
-      <div class="context-grid">
-        <div class="context-column">
-          <h3>SOMA (Incidents/Emotional Load)</h3>
-          <div id="soma-results" class="results-container"></div>
-        </div>
-
-        <div class="context-column">
-          <h3>COMA (Official/Continuity)</h3>
-          <div id="coma-results" class="results-container"></div>
-        </div>
-      </div>
-
-      <div class="context-row">
-        <div class="context-card">
-          <h3>Mascots (Failure Signatures)</h3>
-          <div id="mascot-results" class="results-container"></div>
-        </div>
-
-        <div class="context-card">
-          <h3>Poetry & Posts (Telemetry Residue)</h3>
-          <div id="poetry-results" class="results-container"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <style>
-    .search-page {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-    .search-form {
-      display: flex;
-      gap: 1rem;
-    }
-    .search-input {
-      flex: 1;
-      padding: 0.5rem 1rem;
-      border: 1px solid var(--sl-color-gray-5);
-      border-radius: 0.25rem;
-      background: var(--sl-color-bg);
-      color: var(--sl-color-white);
-      font-family: inherit;
-    }
-    .search-button {
-      padding: 0.5rem 1rem;
-      background: var(--sl-color-accent);
-      color: var(--sl-color-white);
-      border: none;
-      border-radius: 0.25rem;
-      cursor: pointer;
-      font-weight: 600;
-    }
-    .llm-summary {
-      padding: 1.5rem;
-      background: var(--sl-color-gray-6);
-      border: 1px solid var(--sl-color-gray-5);
-      border-radius: 0.5rem;
-      margin-bottom: 2rem;
-      white-space: pre-wrap;
-    }
-    .context-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-      margin-bottom: 2rem;
-    }
-    .context-column h3, .context-card h3 {
-      font-size: 1.1rem;
-      border-bottom: 1px solid var(--sl-color-gray-5);
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-    }
-    .context-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-    }
-    .result-item {
-      padding: 1rem;
-      background: var(--sl-color-bg-nav);
-      border: 1px solid var(--sl-color-hairline);
-      border-radius: 0.5rem;
-      margin-bottom: 1rem;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-      font-size: 0.85rem;
-    }
-    .result-title {
-      font-weight: 700;
-      color: var(--sl-color-white);
-      margin-bottom: 0.5rem;
-    }
-  </style>
-
-        <script>
+new_script = r"""  <script>
     // Safe, lightweight markdown formatter to avoid raw syntax displays
     function parseBasicMarkdown(text) {
       // 1. Escape HTML first to prevent XSS
@@ -207,5 +100,11 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
         }
       }
     });
-  </script>
-</StarlightPage>
+  </script>"""
+
+# Replace the script block
+# Avoid regex parsing issues with replacement string
+content = content.split('<script>')[0] + new_script + '\n</StarlightPage>\n'
+
+with open('src/pages/search.astro', 'w') as f:
+    f.write(content)
