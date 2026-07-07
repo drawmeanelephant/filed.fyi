@@ -67,8 +67,8 @@ function buildBlock_classify(filePath, relPath) {
   const raw = fs.readFileSync(filePath, 'utf-8');
   const { frontmatter } = splitFrontmatter(raw);
   const title = parseField(frontmatter, 'title');
-  const casenum = parseField(frontmatter, 'casenum');
-  return `- ${title || '(no title)'} | casenum: ${casenum || 'n/a'} | path: ${relPath}\n`;
+  const caseNumber = parseField(frontmatter, 'caseNumber');
+  return `- ${title || '(no title)'} | caseNumber: ${caseNumber || 'n/a'} | path: ${relPath}\n`;
 }
 
 function writeSegmented(title, filePaths, baseFilename, buildBlock) {
@@ -108,9 +108,10 @@ function main() {
   ensureDirs();
   console.log(`▶ Running diagnostic pipeline in "${MODE}" mode...`);
 
-  const allDocs = getFiles(process.cwd()).filter(f =>
-    (f.includes('content/docs/') || f.includes('src/content/docs/'))
-  );
+  const allDocs = getFiles(process.cwd()).filter(f => {
+    const normalized = f.replace(/\\/g, '/');
+    return normalized.includes('/src/content/') || normalized.includes('/content/');
+  });
 
   const coreContent = allDocs.filter(f => !/(limericks|aphorisms|haikus)/.test(f));
   const poetryContent = allDocs.filter(f => /(limericks|aphorisms|haikus)/.test(f));

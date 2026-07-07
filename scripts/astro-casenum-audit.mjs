@@ -143,8 +143,13 @@ function main() {
   // 2. Perform validations (MISSING, MALFORMED, DUPLICATE)
   for (const r of records) {
     if (!r.caseNumber) {
-      r.status = 'MISSING';
-      r.issues.push('Missing caseNumber field');
+      const requiresCaseNumber = ['lorelog', 'releases', 'changelog', 'posts', 'guides', 'reference', 'docs'].includes(r.collection);
+      if (requiresCaseNumber) {
+        r.status = 'MISSING';
+        r.issues.push('Missing caseNumber field');
+      } else {
+        r.status = 'PASS';
+      }
       continue;
     }
     
