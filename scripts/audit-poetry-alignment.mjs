@@ -30,6 +30,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import parseFrontmatter from './lib/parse-frontmatter.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -59,77 +60,7 @@ function getMdxFiles(dir) {
   return results;
 }
 
-function parseFrontmatter(filePath) {
-  const content = fs.readFileSync(filePath, 'utf8');
-  const match = content.match(/^---\n([\s\S]*?)\n---/);
-  if (!match) return { frontmatter: {}, body: content };
-
-  const raw = match[1];
-  const fm = {};
-
-  // Simple YAML-like parser (handles the patterns we actually use)
-  const lines = raw.split('\n');
-  let currentKey = null;
-  let currentArray = null;
-
-  for (const line of lines) {
-    // Array item
-    const arrayMatch = line.match(/^(\s+)-\s+(.*)/);
-    if (arrayMatch && currentKey) {
-      const val = arrayMatch[2].trim();
-      if (!fm[currentKey]) fm[currentKey] = [];
-      if (Array.isArray(fm[currentKey])) {
-        // Handle object items like `- slug: foo`
-        const objMatch = val.match(/^(\w+):\s*(.*)/);
-        if (objMatch) {
-          // Check if this is continuing an array of objects
-          const last = fm[currentKey];
-          if (last.length > 0 && typeof last[last.length - 1] === 'object' && !objMatch[1]) {
-            last[last.length - 1][currentKey] = cleanYamlValue(val);
-          } else {
-            fm[currentKey].push({ [objMatch[1]]: cleanYamlValue(objMatch[2]) });
-          }
-        } else {
-          fm[currentKey].push(cleanYamlValue(val));
-        }
-      }
-      continue;
-    }
-
-    // Key: value
-    const kvMatch = line.match(/^([a-zA-Z_]\w*):\s*(.*)/);
-    if (kvMatch) {
-      currentKey = kvMatch[1];
-      const val = kvMatch[2].trim();
-      if (val === '' || val === '>-') {
-        // Could be array or multiline — leave empty for now
-        fm[currentKey] = val === '>-' ? '' : undefined;
-      } else if (val.startsWith('[') && val.endsWith(']')) {
-        // Inline array like [\"foo\", \"bar\"]
-        try {
-          fm[currentKey] = JSON.parse(val);
-        } catch {
-          fm[currentKey] = val.slice(1, -1).split(',').map(s => cleanYamlValue(s.trim()));
-        }
-      } else {
-        fm[currentKey] = cleanYamlValue(val);
-      }
-    }
-  }
-
-  return { frontmatter: fm, body: content.slice(match[0].length) };
-}
-
-function cleanYamlValue(v) {
-  if (v === 'null' || v === '~') return null;
-  if (v === 'true') return true;
-  if (v === 'false') return false;
-  // Strip quotes
-  if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
-    return v.slice(1, -1);
-  }
-  return v;
-}
+// Using shared parseFrontmatter from ./lib/parse-frontmatter.mjs
 
 // ── isMascotMatch — EXACT REPLICA from components ─
 
@@ -146,9 +77,10 @@ function isMascotMatch(poemRef, mascot) {
   const rClean = clean(poemRef);
   const rTokens = rClean.split(/\s+/).filter(Boolean);
 
-  // Numeric mascotId match
-  const rNumber = rTokens.find(t => /^\d+$/.test(t));
-  if (rNumber && mascot.mascotId && String(mascot.mascotId) === rNumber) {
+  // Only match if the number is the LEADING token of the ref (e.g. "672" in
+  // "672.map-72-absentia") — not a stray digit embedded in the slug.
+  const rLeadingNumber = rTokens.length > 0 && /^\d+$/.test(rTokens[0]) ? rTokens[0] : null;
+  if (rLeadingNumber && mascot.mascotId && String(mascot.mascotId) === rLeadingNumber) {
     return true;
   }
 
@@ -316,10 +248,12 @@ function resolvePoem(poem) {
 
     // Cross-check: if poem also declares a relatedLorelog, does it match?
     if (poem.relatedLorelog && poem.relatedLorelog !== 'null') {
-      const declaredLlg = poem.relatedLorelog.toLowerCase().trim();
+      const declaredLlgs = (Array.isArray(poem.relatedLorelog) ? poem.relatedLorelog : [poem.relatedLorelog])
+        .map(x => String(x).toLowerCase().trim());
       const actualLlg = lorelogId.toLowerCase().trim();
-      if (!actualLlg.includes(declaredLlg) && !declaredLlg.includes(actualLlg)) {
-        result.issues.push(`Poem declares relatedLorelog="${poem.relatedLorelog}" but lorelog claiming it is "${lorelogId}"`);
+      const hasMatch = declaredLlgs.some(declared => actualLlg.includes(declared) || declared.includes(actualLlg));
+      if (!hasMatch) {
+        result.issues.push(`Poem declares relatedLorelog="${JSON.stringify(poem.relatedLorelog)}" but lorelog claiming it is "${lorelogId}"`);
       }
     }
 
@@ -401,22 +335,25 @@ function resolvePoem(poem) {
   // Some poems declare relatedLorelog but the lorelog doesn't claim them back.
   // The MarkdownContent component only renders poems inline if the lorelog claims them.
   if (poem.relatedLorelog && poem.relatedLorelog !== 'null') {
-    const declaredLlg = poem.relatedLorelog.toLowerCase().trim();
-    const matchingLorelog = lorelogs.find(lg => {
+    const declaredLlgs = (Array.isArray(poem.relatedLorelog) ? poem.relatedLorelog : [poem.relatedLorelog])
+      .map(x => String(x).toLowerCase().trim());
+    
+    // Find if any of the declared lorelogs exist
+    const matchingLorelogs = lorelogs.filter(lg => {
       const lgId = lg.id.toLowerCase().trim();
-      return lgId === declaredLlg || lgId.includes(declaredLlg) || declaredLlg.includes(lgId);
+      return declaredLlgs.some(declared => lgId === declared || lgId.includes(declared) || declared.includes(lgId));
     });
 
-    if (matchingLorelog) {
+    if (matchingLorelogs.length > 0) {
       // Lorelog exists but doesn't claim this poem
       result.status = 'UNCLAIMED';
       result.parentType = 'lorelog';
-      result.parentId = matchingLorelog.id;
+      result.parentId = matchingLorelogs.map(m => m.id).join(', ');
       result.resolvedVia = 'poem.relatedLorelog (NOT claimed by lorelog)';
-      result.issues.push(`Poem declares relatedLorelog="${poem.relatedLorelog}" and lorelog "${matchingLorelog.id}" exists, but it does NOT list this poem in relatedHaiku/relatedLimerick`);
+      result.issues.push(`Poem declares relatedLorelog="${JSON.stringify(poem.relatedLorelog)}" and lorelog(s) "${result.parentId}" exist, but do NOT list this poem in relatedHaiku/relatedLimerick`);
     } else {
       result.status = 'DEAD_REF';
-      result.issues.push(`Poem declares relatedLorelog="${poem.relatedLorelog}" but no such lorelog exists`);
+      result.issues.push(`Poem declares relatedLorelog="${JSON.stringify(poem.relatedLorelog)}" but no such lorelog exists`);
     }
     return result;
   }
@@ -524,7 +461,7 @@ const passing = results.filter(r => r.status === 'PASS');
 if (passing.length > 0) {
   lines.push('## Passing Poems');
   lines.push('');
-  lines.push('<details><summary>Click to expand (${passing.length} poems)</summary>');
+  lines.push(`<details><summary>Click to expand (${passing.length} poems)</summary>`);
   lines.push('');
   lines.push('| File | Parent Type | Parent ID | Resolved Via |');
   lines.push('|------|-------------|-----------|--------------|');

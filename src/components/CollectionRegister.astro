@@ -63,8 +63,8 @@ function isMascotMatch(poemRef: string, mascot: any): boolean {
   const rClean = clean(poemRef);
   const rTokens = rClean.split(/\s+/).filter(Boolean);
   
-  const rNumber = rTokens.find(t => /^\d+$/.test(t));
-  if (rNumber && mascot.data.mascotId && String(mascot.data.mascotId) === rNumber) {
+  const rLeadingNumber = rTokens.length > 0 && /^\d+$/.test(rTokens[0]) ? rTokens[0] : null;
+  if (rLeadingNumber && mascot.data.mascotId && String(mascot.data.mascotId) === rLeadingNumber) {
     return true;
   }
   
