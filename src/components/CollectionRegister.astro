@@ -37,8 +37,6 @@ const entries = (await getCollection(collection, (e) => {
     return String(va).localeCompare(String(vb));
   });
 
-type AnyEntry = CollectionEntry<any>;
-
 // Resolving Parent Hrefs for Poems
 const mascots = await getCollection('mascots');
 const lorelogs = await getCollection('lorelog');
@@ -138,7 +136,7 @@ function getHref(e: any): string {
   const poemName = e.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
   
   if (poemToLorelogMap.has(poemName)) {
-    return getEntryHref('lorelog', poemToLorelogMap.get(poemName));
+    return getEntryHref('lorelog', poemToLorelogMap.get(poemName)) + '#' + poemName;
   }
   
   const refs = [
@@ -149,38 +147,41 @@ function getHref(e: any): string {
   if (refs.length > 0) {
     const matchedMascot = mascots.find(m => refs.some(ref => isMascotMatch(ref, m)));
     if (matchedMascot) {
-      return getEntryHref('mascots', matchedMascot.id);
+      return getEntryHref('mascots', matchedMascot.id) + '#' + poemName;
     }
   }
   
-  if (collection === 'haikus') return '/haikus';
-  if (collection === 'limericks') return '/limericks';
-  if (collection === 'aphorisms') return '/aphorisms';
+  if (collection === 'haikus') return '/haikus#' + poemName;
+  if (collection === 'limericks') return '/limericks#' + poemName;
+  if (collection === 'aphorisms') return '/aphorisms#' + poemName;
   return '#';
 }
 ---
 
 {entries.length > 0 && (
 <ul style="list-style:none;padding:0;margin:0;">
-  {entries.map(e => (
-    <li style="display:flex;gap:1rem;padding:0.4rem 0;border-bottom:1px solid var(--sl-color-hairline);align-items:baseline;">
-      <span style="font-family:var(--sl-font-mono);font-size:0.8rem;color:var(--sl-color-gray-3);min-width:6ch;flex-shrink:0;">
-        {getLabel(e)}
-      </span>
-      <span style="flex:1;display:flex;flex-direction:column;gap:0.15rem;">
-        <a href={getHref(e)}>{e.data.displayName ?? e.data.title}</a>
-        {(e.data.cardDescription ?? e.data.tagline ?? e.data.description) && (
-          <span style="font-size:0.75rem;color:var(--sl-color-gray-4);line-height:1.4;">
-            {e.data.cardDescription ?? e.data.tagline ?? e.data.description}
+  {entries.map(e => {
+    const poemName = e.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+    return (
+      <li id={poemName} style="display:flex;gap:1rem;padding:0.4rem 0;border-bottom:1px solid var(--sl-color-hairline);align-items:baseline;">
+        <span style="font-family:var(--sl-font-mono);font-size:0.8rem;color:var(--sl-color-gray-3);min-width:6ch;flex-shrink:0;">
+          {getLabel(e)}
+        </span>
+        <span style="flex:1;display:flex;flex-direction:column;gap:0.15rem;">
+          <a href={getHref(e)}>{e.data.displayName ?? e.data.title}</a>
+          {(e.data.cardDescription ?? e.data.tagline ?? e.data.description) && (
+            <span style="font-size:0.75rem;color:var(--sl-color-gray-4);line-height:1.4;">
+              {e.data.cardDescription ?? e.data.tagline ?? e.data.description}
+            </span>
+          )}
+        </span>
+        {e.data.completionState && e.data.completionState !== 'draft' && (
+          <span style="font-family:var(--sl-font-mono);font-size:0.7rem;color:var(--sl-color-gray-4);white-space:nowrap;text-transform:uppercase;align-self:flex-start;padding-top:0.1rem;">
+            {e.data.completionState}
           </span>
         )}
-      </span>
-      {e.data.completionState && e.data.completionState !== 'draft' && (
-        <span style="font-family:var(--sl-font-mono);font-size:0.7rem;color:var(--sl-color-gray-4);white-space:nowrap;text-transform:uppercase;align-self:flex-start;padding-top:0.1rem;">
-          {e.data.completionState}
-        </span>
-      )}
-    </li>
-  ))}
+      </li>
+    );
+  })}
 </ul>
 )}
