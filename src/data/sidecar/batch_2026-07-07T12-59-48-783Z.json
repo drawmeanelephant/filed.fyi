@@ -1,0 +1,10 @@
+{
+  "batch_timestamp": "2026-07-07T12:59:48.783Z",
+  "total_files_processed": 1,
+  "records": [
+    {
+      "file_path": "src/content/docs/mascots/325.peppy-clerk.mdx",
+      "verses": []
+    }
+  ]
+}
