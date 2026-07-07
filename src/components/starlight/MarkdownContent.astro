@@ -23,8 +23,12 @@ function isMascotMatch(poemRef: string, mascot: any): boolean {
   const rTokens = rClean.split(/\s+/).filter(Boolean);
   
   const rNumber = rTokens.find(t => /^\d+$/.test(t));
-  if (rNumber && mascot.data.mascotId && String(mascot.data.mascotId) === rNumber) {
-    return true;
+
+  if (rNumber && mascot.id) {
+    const mascotPrefix = mascot.id.split('.')[0];
+    if (mascotPrefix === rNumber) {
+      return true;
+    }
   }
   
   const cleanMascot = (str: string) => clean(str).split(/\s+/).filter(t => !/^\d+$/.test(t) && t !== 'the');
