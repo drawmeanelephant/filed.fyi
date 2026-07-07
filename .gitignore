@@ -32,3 +32,6 @@ frontmatter_audit.rb
 haiku-yaml-inconsistencies.mdrag-dist/
 rag-dist/
 .rag/
+
+# exports
+exports/
