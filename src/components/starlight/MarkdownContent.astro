@@ -52,6 +52,8 @@ function isMascotMatch(poemRef: string, mascot: any): boolean {
   return false;
 }
 
+const getPoemId = (poem: any) => poem.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+
 let matchingHaikus: any[] = [];
 let matchingLimericks: any[] = [];
 let matchingAphorisms: any[] = [];
@@ -93,7 +95,6 @@ if (isLorelog && entry) {
   const relatedH = entry.data.relatedHaiku || [];
   const relatedL = entry.data.relatedLimerick || [];
 
-
   if (relatedH.length > 0 || relatedL.length > 0) {
     const [haikus, limericks] = await Promise.all([
       getCollection('haikus'),
@@ -115,7 +116,6 @@ if (isLorelog && entry) {
         return rlName === lName;
       })
     );
-
   }
 }
 ---
@@ -130,7 +130,11 @@ if (isLorelog && entry) {
           <h2 id="inline-aphorisms">Aphorisms</h2>
           {await Promise.all(matchingAphorisms.map(async (aphorism) => {
             const { Content } = await render(aphorism);
-            return <Content />;
+            return (
+              <div id={getPoemId(aphorism)} class="inline-poem-wrapper">
+                <Content />
+              </div>
+            );
           }))}
         </div>
       )}
@@ -140,7 +144,11 @@ if (isLorelog && entry) {
           <h2 id="inline-haikus">Haiku Log</h2>
           {await Promise.all(matchingHaikus.map(async (haiku) => {
             const { Content } = await render(haiku);
-            return <Content />;
+            return (
+              <div id={getPoemId(haiku)} class="inline-poem-wrapper">
+                <Content />
+              </div>
+            );
           }))}
         </div>
       )}
@@ -150,7 +158,11 @@ if (isLorelog && entry) {
           <h2 id="inline-limericks">Limerick Log</h2>
           {await Promise.all(matchingLimericks.map(async (limerick) => {
             const { Content } = await render(limerick);
-            return <Content />;
+            return (
+              <div id={getPoemId(limerick)} class="inline-poem-wrapper">
+                <Content />
+              </div>
+            );
           }))}
         </div>
       )}
@@ -164,7 +176,11 @@ if (isLorelog && entry) {
           <h2 id="inline-haikus">Related Haikus</h2>
           {await Promise.all(matchingHaikus.map(async (haiku) => {
             const { Content } = await render(haiku);
-            return <Content />;
+            return (
+              <div id={getPoemId(haiku)} class="inline-poem-wrapper">
+                <Content />
+              </div>
+            );
           }))}
         </div>
       )}
@@ -174,7 +190,11 @@ if (isLorelog && entry) {
           <h2 id="inline-limericks">Related Limericks</h2>
           {await Promise.all(matchingLimericks.map(async (limerick) => {
             const { Content } = await render(limerick);
-            return <Content />;
+            return (
+              <div id={getPoemId(limerick)} class="inline-poem-wrapper">
+                <Content />
+              </div>
+            );
           }))}
         </div>
       )}
