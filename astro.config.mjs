@@ -47,6 +47,9 @@ export default defineConfig({
     starlight({
       title: 'Filed & Forgotten',
       description: 'Archive surface for collection-backed records.',
+      components: {
+        MarkdownContent: './src/components/starlight/MarkdownContent.astro',
+      },
       head: [
         {
           tag: 'meta',
@@ -92,10 +95,7 @@ export default defineConfig({
           label: 'Recovered',
           items: [
             { label: 'Guides', link: '/guides' },
-            { label: 'Aphorisms', link: '/aphorisms' },
             { label: 'Poetry', link: '/poetry' },
-            { label: 'Haikus', link: '/haikus' },
-            { label: 'Limericks', link: '/limericks' },
           ],
         },
       ],

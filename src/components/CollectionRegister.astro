@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 const { collection, exclude, sortBy = 'title', filterPrefix, filterConcept } = Astro.props;
 
 const entries = (await getCollection(collection, (e) => {
-  if (filterPrefix && !e.id.startsWith(filterPrefix)) return false;
+  if (filterPrefix && !e.id.toLowerCase().startsWith(filterPrefix.toLowerCase())) return false;
   if (filterConcept && (!e.data.concepts || !e.data.concepts.includes(filterConcept))) return false;
 
   if (!exclude) return true;
@@ -37,7 +37,82 @@ const entries = (await getCollection(collection, (e) => {
     return String(va).localeCompare(String(vb));
   });
 
-type AnyEntry = CollectionEntry<any>;
+// Resolving Parent Hrefs for Poems
+const mascots = await getCollection('mascots');
+const lorelogs = await getCollection('lorelog');
+
+function getEntryHref(collection: string, id: string): string {
+  let cleanId = id.replace(/\.mdx?$/, '').toLowerCase();
+  if (cleanId.startsWith(collection + '/')) {
+    cleanId = cleanId.substring(collection.length + 1);
+  }
+  if (collection === 'docs') return '/' + cleanId;
+  return '/' + collection + '/' + cleanId;
+}
+
+function isMascotMatch(poemRef: string, mascot: any): boolean {
+  if (!poemRef || !mascot) return false;
+  
+  const clean = (s: string) => s
+    .replace(/^mascots\//i, '')
+    .replace(/\.mdx?$/i, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, ' ')
+    .trim();
+    
+  const rClean = clean(poemRef);
+  const rTokens = rClean.split(/\s+/).filter(Boolean);
+  
+  const rNumber = rTokens.find(t => /^\d+$/.test(t));
+  if (rNumber && mascot.data.mascotId && String(mascot.data.mascotId) === rNumber) {
+    return true;
+  }
+  
+  const cleanMascot = (str: string) => clean(str).split(/\s+/).filter(t => !/^\d+$/.test(t) && t !== 'the');
+  
+  const mascotTokens = [
+    mascot.id,
+    mascot.data.slug,
+    mascot.data.title,
+    mascot.data.displayName,
+    mascot.data.name,
+  ].filter(Boolean).flatMap(cleanMascot);
+  
+  const poemTextTokens = rTokens.filter(t => !/^\d+$/.test(t) && t !== 'the');
+  
+  if (poemTextTokens.length > 0 && mascotTokens.length > 0) {
+    const allMatch = poemTextTokens.every(pt => mascotTokens.includes(pt));
+    if (allMatch) return true;
+    
+    const titleTokens = cleanMascot(mascot.data.title || mascot.data.displayName || '');
+    if (titleTokens.length > 0 && titleTokens.every(tt => poemTextTokens.includes(tt))) {
+      return true;
+    }
+  }
+  
+  return false;
+}
+
+const poemToLorelogMap = new Map();
+for (const lg of lorelogs) {
+  const lgName = lg.id.replace(/\.mdx?$/, '');
+  
+  const relatedH = (lg.data as any).relatedHaiku || [];
+  for (const h of relatedH) {
+    if (h.slug) {
+      const hName = h.slug.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+      poemToLorelogMap.set(hName, lgName);
+    }
+  }
+  
+  const relatedL = (lg.data as any).relatedLimerick || [];
+  for (const l of relatedL) {
+    if (l.slug) {
+      const lName = l.slug.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+      poemToLorelogMap.set(lName, lgName);
+    }
+  }
+}
 
 function getLabel(e: any): string {
   if (e.data.mascotId != null) return String(e.data.mascotId).padStart(3, '0');
@@ -48,31 +123,65 @@ function getLabel(e: any): string {
 }
 
 function getHref(e: any): string {
-  return '/' + e.id.replace(/\.mdx?$/, '');
+  if (collection === 'docs') {
+    return '/' + e.id.replace(/\.mdx?$/, '');
+  }
+  if (collection === 'mascots') {
+    return getEntryHref('mascots', e.id);
+  }
+  if (collection === 'lorelog') {
+    return getEntryHref('lorelog', e.id);
+  }
+  
+  const poemName = e.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+  
+  if (poemToLorelogMap.has(poemName)) {
+    return getEntryHref('lorelog', poemToLorelogMap.get(poemName)) + '#' + poemName;
+  }
+  
+  const refs = [
+    e.data.mascotRef,
+    ...(e.data.relatedMascots || [])
+  ].filter(Boolean);
+  
+  if (refs.length > 0) {
+    const matchedMascot = mascots.find(m => refs.some(ref => isMascotMatch(ref, m)));
+    if (matchedMascot) {
+      return getEntryHref('mascots', matchedMascot.id) + '#' + poemName;
+    }
+  }
+  
+  if (collection === 'haikus') return '/haikus#' + poemName;
+  if (collection === 'limericks') return '/limericks#' + poemName;
+  if (collection === 'aphorisms') return '/aphorisms#' + poemName;
+  return '#';
 }
 ---
 
 {entries.length > 0 && (
 <ul style="list-style:none;padding:0;margin:0;">
-  {entries.map(e => (
-    <li style="display:flex;gap:1rem;padding:0.4rem 0;border-bottom:1px solid var(--sl-color-hairline);align-items:baseline;">
-      <span style="font-family:var(--sl-font-mono);font-size:0.8rem;color:var(--sl-color-gray-3);min-width:6ch;flex-shrink:0;">
-        {getLabel(e)}
-      </span>
-      <span style="flex:1;display:flex;flex-direction:column;gap:0.15rem;">
-        <a href={getHref(e)}>{e.data.displayName ?? e.data.title}</a>
-        {(e.data.cardDescription ?? e.data.tagline ?? e.data.description) && (
-          <span style="font-size:0.75rem;color:var(--sl-color-gray-4);line-height:1.4;">
-            {e.data.cardDescription ?? e.data.tagline ?? e.data.description}
+  {entries.map(e => {
+    const poemName = e.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+    return (
+      <li id={poemName} style="display:flex;gap:1rem;padding:0.4rem 0;border-bottom:1px solid var(--sl-color-hairline);align-items:baseline;">
+        <span style="font-family:var(--sl-font-mono);font-size:0.8rem;color:var(--sl-color-gray-3);min-width:6ch;flex-shrink:0;">
+          {getLabel(e)}
+        </span>
+        <span style="flex:1;display:flex;flex-direction:column;gap:0.15rem;">
+          <a href={getHref(e)}>{e.data.displayName ?? e.data.title}</a>
+          {(e.data.cardDescription ?? e.data.tagline ?? e.data.description) && (
+            <span style="font-size:0.75rem;color:var(--sl-color-gray-4);line-height:1.4;">
+              {e.data.cardDescription ?? e.data.tagline ?? e.data.description}
+            </span>
+          )}
+        </span>
+        {e.data.completionState && e.data.completionState !== 'draft' && (
+          <span style="font-family:var(--sl-font-mono);font-size:0.7rem;color:var(--sl-color-gray-4);white-space:nowrap;text-transform:uppercase;align-self:flex-start;padding-top:0.1rem;">
+            {e.data.completionState}
           </span>
         )}
-      </span>
-      {e.data.completionState && e.data.completionState !== 'draft' && (
-        <span style="font-family:var(--sl-font-mono);font-size:0.7rem;color:var(--sl-color-gray-4);white-space:nowrap;text-transform:uppercase;align-self:flex-start;padding-top:0.1rem;">
-          {e.data.completionState}
-        </span>
-      )}
-    </li>
-  ))}
+      </li>
+    );
+  })}
 </ul>
 )}

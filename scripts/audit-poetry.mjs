@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const docsDir = path.resolve(__dirname, '../src/content/docs');
+const contentDir = path.resolve(__dirname, '../src/content');
 
 function getMdxFiles(dir, fileList = []) {
   if (!fs.existsSync(dir)) return fileList;
@@ -44,7 +45,7 @@ const data = {};
 
 // 1. Gather poetry files and verse counts
 poetryCollections.forEach(p => {
-  const pDir = path.join(docsDir, p.id);
+  const pDir = path.join(contentDir, p.id);
   const files = getMdxFiles(pDir);
   let totalVerses = 0;
   const fileStats = [];
