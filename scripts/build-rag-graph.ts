@@ -30,7 +30,10 @@ export async function buildRagGraph() {
   const chunks: TextChunk[] = [];
 
   for (const coll of collections) {
-    const collDir = path.join(baseDir, coll);
+    const isMoved = ['limericks', 'haikus', 'aphorisms'].includes(coll);
+    const collDir = isMoved 
+      ? path.join(process.cwd(), 'src/content', coll)
+      : path.join(process.cwd(), 'src/content/docs', coll);
     try {
       const files = await getFilesRecursive(collDir);
       for (const file of files) {

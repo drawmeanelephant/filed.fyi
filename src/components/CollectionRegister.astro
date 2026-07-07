@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 const { collection, exclude, sortBy = 'title', filterPrefix, filterConcept } = Astro.props;
 
 const entries = (await getCollection(collection, (e) => {
-  if (filterPrefix && !e.id.startsWith(filterPrefix)) return false;
+  if (filterPrefix && !e.id.toLowerCase().startsWith(filterPrefix.toLowerCase())) return false;
   if (filterConcept && (!e.data.concepts || !e.data.concepts.includes(filterConcept))) return false;
 
   if (!exclude) return true;
@@ -39,6 +39,83 @@ const entries = (await getCollection(collection, (e) => {
 
 type AnyEntry = CollectionEntry<any>;
 
+// Resolving Parent Hrefs for Poems
+const mascots = await getCollection('mascots');
+const lorelogs = await getCollection('lorelog');
+
+function getEntryHref(collection: string, id: string): string {
+  let cleanId = id.replace(/\.mdx?$/, '').toLowerCase();
+  if (cleanId.startsWith(collection + '/')) {
+    cleanId = cleanId.substring(collection.length + 1);
+  }
+  if (collection === 'docs') return '/' + cleanId;
+  return '/' + collection + '/' + cleanId;
+}
+
+function isMascotMatch(poemRef: string, mascot: any): boolean {
+  if (!poemRef || !mascot) return false;
+  
+  const clean = (s: string) => s
+    .replace(/^mascots\//i, '')
+    .replace(/\.mdx?$/i, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, ' ')
+    .trim();
+    
+  const rClean = clean(poemRef);
+  const rTokens = rClean.split(/\s+/).filter(Boolean);
+  
+  const rNumber = rTokens.find(t => /^\d+$/.test(t));
+  if (rNumber && mascot.data.mascotId && String(mascot.data.mascotId) === rNumber) {
+    return true;
+  }
+  
+  const cleanMascot = (str: string) => clean(str).split(/\s+/).filter(t => !/^\d+$/.test(t) && t !== 'the');
+  
+  const mascotTokens = [
+    mascot.id,
+    mascot.data.slug,
+    mascot.data.title,
+    mascot.data.displayName,
+    mascot.data.name,
+  ].filter(Boolean).flatMap(cleanMascot);
+  
+  const poemTextTokens = rTokens.filter(t => !/^\d+$/.test(t) && t !== 'the');
+  
+  if (poemTextTokens.length > 0 && mascotTokens.length > 0) {
+    const allMatch = poemTextTokens.every(pt => mascotTokens.includes(pt));
+    if (allMatch) return true;
+    
+    const titleTokens = cleanMascot(mascot.data.title || mascot.data.displayName || '');
+    if (titleTokens.length > 0 && titleTokens.every(tt => poemTextTokens.includes(tt))) {
+      return true;
+    }
+  }
+  
+  return false;
+}
+
+const poemToLorelogMap = new Map();
+for (const lg of lorelogs) {
+  const lgName = lg.id.replace(/\.mdx?$/, '');
+  
+  const relatedH = (lg.data as any).relatedHaiku || [];
+  for (const h of relatedH) {
+    if (h.slug) {
+      const hName = h.slug.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+      poemToLorelogMap.set(hName, lgName);
+    }
+  }
+  
+  const relatedL = (lg.data as any).relatedLimerick || [];
+  for (const l of relatedL) {
+    if (l.slug) {
+      const lName = l.slug.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+      poemToLorelogMap.set(lName, lgName);
+    }
+  }
+}
+
 function getLabel(e: any): string {
   if (e.data.mascotId != null) return String(e.data.mascotId).padStart(3, '0');
   if (e.data.caseNumber) return e.data.caseNumber;
@@ -48,7 +125,38 @@ function getLabel(e: any): string {
 }
 
 function getHref(e: any): string {
-  return '/' + e.id.replace(/\.mdx?$/, '');
+  if (collection === 'docs') {
+    return '/' + e.id.replace(/\.mdx?$/, '');
+  }
+  if (collection === 'mascots') {
+    return getEntryHref('mascots', e.id);
+  }
+  if (collection === 'lorelog') {
+    return getEntryHref('lorelog', e.id);
+  }
+  
+  const poemName = e.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+  
+  if (poemToLorelogMap.has(poemName)) {
+    return getEntryHref('lorelog', poemToLorelogMap.get(poemName));
+  }
+  
+  const refs = [
+    e.data.mascotRef,
+    ...(e.data.relatedMascots || [])
+  ].filter(Boolean);
+  
+  if (refs.length > 0) {
+    const matchedMascot = mascots.find(m => refs.some(ref => isMascotMatch(ref, m)));
+    if (matchedMascot) {
+      return getEntryHref('mascots', matchedMascot.id);
+    }
+  }
+  
+  if (collection === 'haikus') return '/haikus';
+  if (collection === 'limericks') return '/limericks';
+  if (collection === 'aphorisms') return '/aphorisms';
+  return '#';
 }
 ---
 

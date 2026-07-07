@@ -1,0 +1,183 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/MarkdownContent.astro';
+import { getCollection, render } from 'astro:content';
+
+const entry = Astro.locals?.starlightRoute?.entry;
+const entryId = entry?.id;
+
+const isMascot = entryId ? entryId.startsWith('mascots/') : false;
+const isLorelog = entryId ? entryId.startsWith('lorelog/') : false;
+
+function isMascotMatch(poemRef: string, mascot: any): boolean {
+  if (!poemRef || !mascot) return false;
+  
+  const clean = (s: string) => s
+    .replace(/^mascots\//i, '')
+    .replace(/\.mdx?$/i, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, ' ')
+    .trim();
+    
+  const rClean = clean(poemRef);
+  const rTokens = rClean.split(/\s+/).filter(Boolean);
+  
+  const rNumber = rTokens.find(t => /^\d+$/.test(t));
+  if (rNumber && mascot.data.mascotId && String(mascot.data.mascotId) === rNumber) {
+    return true;
+  }
+  
+  const cleanMascot = (str: string) => clean(str).split(/\s+/).filter(t => !/^\d+$/.test(t) && t !== 'the');
+  
+  const mascotTokens = [
+    mascot.id,
+    mascot.data.slug,
+    mascot.data.title,
+    mascot.data.displayName,
+    mascot.data.name,
+  ].filter(Boolean).flatMap(cleanMascot);
+  
+  const poemTextTokens = rTokens.filter(t => !/^\d+$/.test(t) && t !== 'the');
+  
+  if (poemTextTokens.length > 0 && mascotTokens.length > 0) {
+    const allMatch = poemTextTokens.every(pt => mascotTokens.includes(pt));
+    if (allMatch) return true;
+    
+    const titleTokens = cleanMascot(mascot.data.title || mascot.data.displayName || '');
+    if (titleTokens.length > 0 && titleTokens.every(tt => poemTextTokens.includes(tt))) {
+      return true;
+    }
+  }
+  
+  return false;
+}
+
+let matchingHaikus: any[] = [];
+let matchingLimericks: any[] = [];
+let matchingAphorisms: any[] = [];
+
+if (isMascot && entryId) {
+  const mascots = await getCollection('mascots');
+  const cleanEntryId = entryId.replace(/^mascots\//, '').replace(/\.mdx?$/, '').toLowerCase().trim();
+  const mascotEntry = mascots.find(m => {
+    const cleanMId = m.id.replace(/\.mdx?$/, '').toLowerCase().trim();
+    const cleanMDataSlug = m.data.slug ? m.data.slug.replace(/^mascots\//, '').toLowerCase().trim() : '';
+    return cleanMId === cleanEntryId || cleanMDataSlug === cleanEntryId;
+  });
+
+  const [haikus, limericks, aphorisms] = await Promise.all([
+    getCollection('haikus'),
+    getCollection('limericks'),
+    getCollection('aphorisms'),
+  ]);
+
+  if (mascotEntry) {
+    matchingHaikus = haikus.filter(h => {
+      const refs = [h.data.mascotRef, ...(h.data.relatedMascots || [])].filter(Boolean);
+      return refs.some(ref => isMascotMatch(ref, mascotEntry));
+    });
+
+    matchingLimericks = limericks.filter(l => {
+      const refs = [l.data.mascotRef, ...(l.data.relatedMascots || [])].filter(Boolean);
+      return refs.some(ref => isMascotMatch(ref, mascotEntry));
+    });
+
+    matchingAphorisms = aphorisms.filter(a => {
+      const refs = [a.data.mascotRef, ...(a.data.relatedMascots || [])].filter(Boolean);
+      return refs.some(ref => isMascotMatch(ref, mascotEntry));
+    });
+  }
+}
+
+if (isLorelog && entry) {
+  const relatedH = entry.data.relatedHaiku || [];
+  const relatedL = entry.data.relatedLimerick || [];
+
+
+  if (relatedH.length > 0 || relatedL.length > 0) {
+    const [haikus, limericks] = await Promise.all([
+      getCollection('haikus'),
+      getCollection('limericks'),
+    ]);
+
+    matchingHaikus = haikus.filter(h => 
+      relatedH.some((rh: any) => {
+        const rhName = rh.slug.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim();
+        const hName = h.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim();
+        return rhName === hName;
+      })
+    );
+
+    matchingLimericks = limericks.filter(l => 
+      relatedL.some((rl: any) => {
+        const rlName = rl.slug.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim();
+        const lName = l.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim();
+        return rlName === lName;
+      })
+    );
+
+  }
+}
+---
+
+<Default {...Astro.props}>
+  <slot />
+
+  {isMascot && (
+    <>
+      {matchingAphorisms.length > 0 && (
+        <div class="inline-poetry-section" style="margin-top: 3rem;">
+          <h2 id="inline-aphorisms">Aphorisms</h2>
+          {await Promise.all(matchingAphorisms.map(async (aphorism) => {
+            const { Content } = await render(aphorism);
+            return <Content />;
+          }))}
+        </div>
+      )}
+
+      {matchingHaikus.length > 0 && (
+        <div class="inline-poetry-section" style="margin-top: 3rem;">
+          <h2 id="inline-haikus">Haiku Log</h2>
+          {await Promise.all(matchingHaikus.map(async (haiku) => {
+            const { Content } = await render(haiku);
+            return <Content />;
+          }))}
+        </div>
+      )}
+
+      {matchingLimericks.length > 0 && (
+        <div class="inline-poetry-section" style="margin-top: 3rem;">
+          <h2 id="inline-limericks">Limerick Log</h2>
+          {await Promise.all(matchingLimericks.map(async (limerick) => {
+            const { Content } = await render(limerick);
+            return <Content />;
+          }))}
+        </div>
+      )}
+    </>
+  )}
+
+  {isLorelog && (
+    <>
+      {matchingHaikus.length > 0 && (
+        <div class="inline-poetry-section" style="margin-top: 3rem;">
+          <h2 id="inline-haikus">Related Haikus</h2>
+          {await Promise.all(matchingHaikus.map(async (haiku) => {
+            const { Content } = await render(haiku);
+            return <Content />;
+          }))}
+        </div>
+      )}
+
+      {matchingLimericks.length > 0 && (
+        <div class="inline-poetry-section" style="margin-top: 3rem;">
+          <h2 id="inline-limericks">Related Limericks</h2>
+          {await Promise.all(matchingLimericks.map(async (limerick) => {
+            const { Content } = await render(limerick);
+            return <Content />;
+          }))}
+        </div>
+      )}
+    </>
+  )}
+</Default>

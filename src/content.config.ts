@@ -219,12 +219,12 @@ const lorelog = defineCollection({
 
 // Limericks
 const limericks = defineCollection({
-  loader: glob({ base: './src/content/docs/limericks', pattern: '**/*.{md,mdx}' }),
+  loader: glob({ base: './src/content/limericks', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
     title: z.string().optional(),
     tags: flexStringArray,
     concepts: flexStringArray,
-  }),
+  }).passthrough(),
 });
 
 
@@ -251,7 +251,7 @@ const changelog = defineCollection({
 
 // Haikus
 const haikus = defineCollection({
-  loader: glob({ base: './src/content/docs/haikus', pattern: '**/*.{md,mdx}' }),
+  loader: glob({ base: './src/content/haikus', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
     title: z.string().optional(),
     description: z.string().optional(),
@@ -259,13 +259,13 @@ const haikus = defineCollection({
     date: z.coerce.date().optional(),
     tags: flexStringArray,
     concepts: flexStringArray,
-  }),
+  }).passthrough(),
 });
 
 
 // Aphorisms
 const aphorisms = defineCollection({
-  loader: glob({ base: './src/content/docs/aphorisms', pattern: '**/*.{md,mdx}' }),
+  loader: glob({ base: './src/content/aphorisms', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
     title: z.string().optional(),
     description: z.string().optional(),
@@ -273,7 +273,7 @@ const aphorisms = defineCollection({
     date: z.coerce.date().optional(),
     tags: flexStringArray,
     concepts: flexStringArray,
-  }),
+  }).passthrough(),
 });
 
 
@@ -283,7 +283,9 @@ export const collections = {
     loader: docsLoader(), 
     schema: docsSchema({ 
       extend: z.object({ 
-        concepts: flexStringArray 
+        concepts: flexStringArray,
+        relatedHaiku: z.array(z.object({ slug: z.string() })).optional(),
+        relatedLimerick: z.array(z.object({ slug: z.string() })).optional(),
       }) 
     }) 
   }),
