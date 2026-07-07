@@ -104,4 +104,11 @@ Strict Guardrails:
   } catch (error: any) {
     return new Response(JSON.stringify({ error: error.message }), { status: 500 });
   }
-}
+};
+
+export const GET: APIRoute = async () => {
+  return new Response(JSON.stringify({ error: 'Method Not Allowed' }), {
+    status: 405,
+    headers: { 'Content-Type': 'application/json' }
+  });
+};

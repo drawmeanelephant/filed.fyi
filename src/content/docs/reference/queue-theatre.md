@@ -4,6 +4,7 @@ slug: reference/queue-theatre
 description: Reference node for queues that preserve the appearance of motion, responsiveness, and care after execution depth has thinned or withdrawn.
 date: 2026-06-29
 status: draft
+draft: true
 classification: reference
 systemAffiliation: Operational Engines
 concepts:
@@ -12,7 +13,7 @@ concepts:
   - assurance-lexicon
   - forms-registry
   - queue-theatre
-updatedAt: 2026-06-29
+updatedAt: 2026-07-07
 ---
 
 Queue Theatre is the condition in which a queue remains visibly attentive while the labor required to carry work across the line into completion becomes partial, displaced, or intermittently absent.
