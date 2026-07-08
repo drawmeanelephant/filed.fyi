@@ -126,6 +126,10 @@ function main() {
   const haikusDir = path.join(CONTENT_DIR, 'haikus');
   const limericksDir = path.join(CONTENT_DIR, 'limericks');
 
+  const aphorismFilesLower = new Set(getFilesRecursive(aphorismsDir).map(f => path.basename(f).toLowerCase()));
+  const haikuFilesLower = new Set(getFilesRecursive(haikusDir).map(f => path.basename(f).toLowerCase()));
+  const limerickFilesLower = new Set(getFilesRecursive(limericksDir).map(f => path.basename(f).toLowerCase()));
+
   for (const file of coreDocs) {
     const relPath = path.relative(ROOT_DIR, file);
     const base = path.basename(file);
@@ -149,11 +153,9 @@ function main() {
       targetLim = `LIM-${cleanName}.mdx`;
     }
 
-    const hasAph = fs.existsSync(path.join(aphorismsDir, targetAph));
-    const hasHai = fs.existsSync(path.join(haikusDir, targetHai));
-    // Check both standard casing and lowercase for limerick files
-    const hasLim = fs.existsSync(path.join(limericksDir, targetLim)) || 
-                   fs.existsSync(path.join(limericksDir, targetLim.toLowerCase()));
+    const hasAph = aphorismFilesLower.has(targetAph.toLowerCase());
+    const hasHai = haikuFilesLower.has(targetHai.toLowerCase());
+    const hasLim = limerickFilesLower.has(targetLim.toLowerCase());
 
     if (!hasAph || !hasHai || !hasLim) {
       const missing = [];
@@ -185,7 +187,7 @@ function main() {
 
       // Strip prefix codes to reveal true entity slug
       let term = '';
-      const prefixMatch = base.match(/^(APH-|hai-|lim-|LIM-)([0-9]{3}-|[0-9]{3}\.)?/);
+      const prefixMatch = base.match(/^(APH-|hai-|lim-|LIM-)([0-9]{3}-|[0-9]{3}\.)?/i);
       if (prefixMatch) {
         term = base.slice(prefixMatch[0].length).replace(/\.mdx?$/, '');
       } else {
@@ -194,8 +196,8 @@ function main() {
 
       // Check if any file in docs/ has a filename containing the term
       const hasCounterpart = docsFiles.some(df => {
-        const dfBase = path.basename(df);
-        return dfBase.includes(term);
+        const dfBase = path.basename(df).toLowerCase();
+        return dfBase.includes(term.toLowerCase());
       });
 
       if (!hasCounterpart) {
