@@ -28,10 +28,7 @@ ship.sh
 graphical-equity
 indexnow.js
 frontmatter_audit.rb
-
-haiku-yaml-inconsistencies.mdrag-dist/
-rag-dist/
-.rag/
+haiku-yaml-inconsistencies.md
 
 # exports
 exports/

@@ -68,20 +68,6 @@ This directory contains the pipeline, scaffolding, formatting, and diagnostic sc
 
 ---
 
-## 🧠 RAG & Vector Pipeline
-
-### 📜 `build-rag-graph.ts`
-* **Purpose:** Processes all documents, breaks them down into semantic chunks, maps relationships, and builds a comprehensive RAG Knowledge Graph.
-* **Output:** Saves graph files to `rag-dist/`
-
-### 📜 `index-vectors.ts`
-* **Purpose:** Encodes RAG graph chunks into vector embeddings and indexes them using a local LanceDB vector database.
-* **Output:** Saves indexed data to `.rag/`
-
-### 📜 `test-retriever.ts`
-* **Purpose:** Query utility to test context retrieval from the LanceDB vector database.
-
----
 
 ## 🗃️ Archives
 
