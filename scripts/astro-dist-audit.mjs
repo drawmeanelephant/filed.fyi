@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const DIST_DIR = path.resolve('./dist');
-const OUTPUT_FILE = path.resolve('./todo/html-output-audit.md');
+const OUTPUT_FILE = path.resolve('./exports/html-output-audit.md');
 
 function getHtmlFiles(dir) {
   const results = [];

@@ -1,0 +1,10 @@
+{
+  "batch_timestamp": "2026-07-08T01:43:17.168Z",
+  "total_files_processed": 1,
+  "records": [
+    {
+      "file_path": "src/content/docs/lorelog/LLG-04XX-CLIN-404.mdx",
+      "verses": []
+    }
+  ]
+}

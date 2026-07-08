@@ -8,6 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "audit:poetry": "node scripts/audit-poetry.mjs",
+    "audit:graves": "node scripts/astro-grave-audit.mjs",
     "test": "npm run audit:poetry && npx markdownlint-cli \"src/**/*.{md,mdx}\" && npm run build",
     "prebuild": "tsx scripts/build-rag-graph.ts && tsx scripts/index-vectors.ts",
     "predev": "tsx scripts/build-rag-graph.ts && tsx scripts/index-vectors.ts",
