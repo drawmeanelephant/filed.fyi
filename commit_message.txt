@@ -1,3 +1,0 @@
-fix: Apply aesthetic survival layer styles to brosides and limericks
-
-Fixed the Light/Dark theme state for the Aesthetic Survival Layer limerick layout. Limericks and Brosides now properly reflect semantic tokens based on the theme, possess a crisp Brutalist light mode aesthetic with white backgrounds and sharp borders, and have tightened container layouts.

@@ -1,7 +1,7 @@
 ---
 title: "HTML Build Output Audit"
-date: 2026-07-07
-updatedAt: 2026-07-07
+date: 2026-07-08
+updatedAt: 2026-07-08
 total_files_audited: 596
 duplicate_failures_count: 0
 broken_links_count: 0

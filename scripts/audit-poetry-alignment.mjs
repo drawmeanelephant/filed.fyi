@@ -409,7 +409,22 @@ if (jsonOutput) {
 }
 
 // Markdown output
+const today = new Date().toISOString().split('T')[0];
 const lines = [];
+lines.push('---');
+lines.push('title: "Poetry Alignment Audit Report"');
+lines.push(`date: ${today}`);
+lines.push(`updatedAt: ${today}`);
+lines.push(`total_poems: ${stats.total}`);
+lines.push(`pass_poems: ${stats.pass}`);
+lines.push(`orphan_poems: ${stats.orphan}`);
+lines.push(`dead_ref_poems: ${stats.deadRef}`);
+lines.push(`unclaimed_poems: ${stats.unclaimed}`);
+lines.push(`ambiguous_poems: ${stats.ambiguous}`);
+if (batchNum != null) lines.push(`batch: ${batchNum}`);
+if (collFilter) lines.push(`collection_filter: "${collFilter}"`);
+lines.push('---');
+lines.push('');
 lines.push('# Poetry Alignment Audit Report');
 lines.push('');
 lines.push(`Generated: ${new Date().toISOString()}`);
@@ -473,8 +488,14 @@ if (passing.length > 0) {
   lines.push('');
 }
 
-// Print to stdout
-console.log(lines.join('\n'));
+// Write to exports/poetry-alignment-audit.md
+const EXPORT_DIR = path.join(projectRoot, 'exports');
+if (!fs.existsSync(EXPORT_DIR)) {
+  fs.mkdirSync(EXPORT_DIR, { recursive: true });
+}
+const reportPath = path.join(EXPORT_DIR, 'poetry-alignment-audit.md');
+fs.writeFileSync(reportPath, lines.join('\n'), 'utf8');
+console.log(`✓ Created exports/poetry-alignment-audit.md`);
 
 // Summary to stderr
 console.error('─'.repeat(60));
