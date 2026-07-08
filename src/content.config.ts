@@ -87,6 +87,7 @@ export const mascots = defineCollection({
 
       // STATUS
       status: z.string().nullable().optional(),
+      caseNumber: z.string().nullable().optional(),
       deprecated: z.boolean().nullable().optional(),
       visibility: z.string().nullable().optional(),
 
