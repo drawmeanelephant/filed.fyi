@@ -1,7 +1,7 @@
 ---
 title: Replacement Without Release
 slug: posts/replacement-without-release
-date: 2026-06-11
+date: "2026-06-11"
 description: >-
   Recovered transmission regarding the interval in which a replacement arrives,
   the old exception loses its temporary name, and nothing materially leaves.
@@ -26,7 +26,7 @@ relatedEntries:
     id: LLG-0441-TSR
 concepts:
   - core-doctrines
-updatedAt: 2026-06-13
+updatedAt: "2026-06-13"
 ---
 
 The replacement was announced on time and inherited the room tone immediately.

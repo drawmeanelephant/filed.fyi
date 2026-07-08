@@ -1,7 +1,7 @@
 ---
 title: Trust Records After Proof Decay
 slug: posts/trust-records-after-proof-decay
-date: 2026-06-08
+date: "2026-06-08"
 description: >
   Recovered transmission regarding the interval in which trust remains visible after
   its active proof has become archival rather than live.
@@ -15,7 +15,7 @@ relatedEntries:
     id: LLG-0408-DTS-DEP
   - collection: docs
     id: reference/fref-0823-tsrt
-updatedAt: 2026-06-13
+updatedAt: "2026-06-13"
 ---
 
 A mark stayed green long enough to stop being read as a question.

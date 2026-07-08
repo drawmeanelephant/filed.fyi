@@ -1,9 +1,9 @@
 ---
 title: "COMA Sealed Observation Transcript"
-date: 2026-04-28
+date: "2026-04-28"
 description: "A sealed COMA observation room transcript in which Bricky Goldbricksworth and Kindy McExistentialcrisis conduct a combined performance review and existential HR intake for two non-canonical antagonist mascots."
 tags: ["COMA", "mascot-review", "non-canonical", "bureaucratic-intake", "sealed-transcript"]
-updatedAt: 2026-06-13
+updatedAt: "2026-06-13"
 ---
 
 ## Session: COMA-OBS-2026-04-28-0900
