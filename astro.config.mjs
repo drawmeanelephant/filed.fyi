@@ -49,6 +49,7 @@ export default defineConfig({
       description: 'Archive surface for collection-backed records.',
       components: {
         MarkdownContent: './src/components/starlight/MarkdownContent.astro',
+        PageSidebar: './src/components/starlight/PageSidebar.astro',
       },
       head: [
         {

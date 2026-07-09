@@ -8,34 +8,7 @@ const dirs = [
     './src/content/docs/lorelog'
 ];
 
-async function auditFrontmatter() {
-    const dateStr = new Date().toISOString().split('T')[0];
-    
-    let report = `---
-title: Frontmatter Integrity Audit
-description: Observational dashboard tracking schema rot, metadata collapse, and tag fragmentation across the archive.
-date: ${dateStr}
-tags:
-  - reference
-  - audit
-  - integrity
-  - schema-rot
----
-
-# Frontmatter Integrity Audit
-
-This report tracks the physical degradation of the archive's metadata. As automated maintenance scripts process the archive, they occasionally leave behind schema rot—empty arrays collapsing into null vectors, or multiline strings fracturing into orphaned tag fragments.
-
-We do not correct these. We observe them as geological formations of institutional decay.
-
-## Null Vectors
-
-Arrays that have collapsed and now explicitly contain \`null\`.
-
-| File | Field | Status |
-|---|---|---|
-`;
-
+export function runFrontmatterAudit() {
     let nullVectors = [];
     let fragmentedTags = [];
 
@@ -79,6 +52,45 @@ Arrays that have collapsed and now explicitly contain \`null\`.
         }
     }
 
+    return {
+        nullVectors,
+        fragmentedTags,
+        count: nullVectors.length + fragmentedTags.length
+    };
+}
+
+import { fileURLToPath } from 'url';
+const isMain = process.argv[1] && (fs.realpathSync(process.argv[1]) === fs.realpathSync(fileURLToPath(import.meta.url)));
+
+if (isMain) {
+    const dateStr = new Date().toISOString().split('T')[0];
+    const { nullVectors, fragmentedTags, count } = runFrontmatterAudit();
+    
+    let report = `---
+title: Frontmatter Integrity Audit
+description: Observational dashboard tracking schema rot, metadata collapse, and tag fragmentation across the archive.
+date: ${dateStr}
+tags:
+  - reference
+  - audit
+  - integrity
+  - schema-rot
+---
+
+# Frontmatter Integrity Audit
+
+This report tracks the physical degradation of the archive's metadata. As automated maintenance scripts process the archive, they occasionally leave behind schema rot—empty arrays collapsing into null vectors, or multiline strings fracturing into orphaned tag fragments.
+
+We do not correct these. We observe them as geological formations of institutional decay.
+
+## Null Vectors
+
+Arrays that have collapsed and now explicitly contain \`null\`.
+
+| File | Field | Status |
+|---|---|---|
+`;
+
     if (nullVectors.length === 0) {
         report += `| *No null vectors detected.* | - | - |\n`;
     } else {
@@ -107,11 +119,9 @@ Orphaned string fragments and misquoted scalars found trapped in the \`tags\` ar
         });
     }
 
-    report += `\n**Total Structural Anomalies:** ${nullVectors.length + fragmentedTags.length}\n`;
+    report += `\n**Total Structural Anomalies:** ${count}\n`;
 
     fs.mkdirSync('./exports', { recursive: true });
     fs.writeFileSync('./exports/frontmatter-integrity-audit.md', report);
-    console.log(`Frontmatter Integrity Audit generated. Found ${nullVectors.length + fragmentedTags.length} anomalies.`);
+    console.log(`Frontmatter Integrity Audit generated. Found ${count} anomalies.`);
 }
-
-auditFrontmatter();

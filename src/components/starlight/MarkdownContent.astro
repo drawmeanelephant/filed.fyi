@@ -1,123 +1,11 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
 import Default from '@astrojs/starlight/components/MarkdownContent.astro';
-import { getCollection, render } from 'astro:content';
+import { render } from 'astro:content';
+import { getMatchingPoetry, getPoemId } from '../../lib/poetry-matcher';
 
 const entry = Astro.locals?.starlightRoute?.entry;
-const entryId = entry?.id;
-
-const isMascot = entryId ? entryId.startsWith('mascots/') : false;
-const isLorelog = entryId ? entryId.startsWith('lorelog/') : false;
-
-function isMascotMatch(poemRef: string, mascot: any): boolean {
-  if (!poemRef || !mascot) return false;
-  
-  const clean = (s: string) => s
-    .replace(/^mascots\//i, '')
-    .replace(/\.mdx?$/i, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]/g, ' ')
-    .trim();
-    
-  const rClean = clean(poemRef);
-  const rTokens = rClean.split(/\s+/).filter(Boolean);
-  
-  const rLeadingNumber = rTokens.length > 0 && /^\d+$/.test(rTokens[0]) ? rTokens[0] : null;
-  if (rLeadingNumber && mascot.data.mascotId && String(mascot.data.mascotId) === rLeadingNumber) {
-    return true;
-  }
-  
-  const cleanMascot = (str: string) => clean(str).split(/\s+/).filter(t => !/^\d+$/.test(t) && t !== 'the');
-  
-  const mascotTokens = [
-    mascot.id,
-    mascot.data.slug,
-    mascot.data.title,
-    mascot.data.displayName,
-    mascot.data.name,
-  ].filter(Boolean).flatMap(cleanMascot);
-  
-  const poemTextTokens = rTokens.filter(t => !/^\d+$/.test(t) && t !== 'the');
-  
-  if (poemTextTokens.length > 0 && mascotTokens.length > 0) {
-    const allMatch = poemTextTokens.every(pt => mascotTokens.includes(pt));
-    if (allMatch) return true;
-    
-    const titleTokens = cleanMascot(mascot.data.title || mascot.data.displayName || '');
-    if (titleTokens.length > 0 && titleTokens.every(tt => poemTextTokens.includes(tt))) {
-      return true;
-    }
-  }
-  
-  return false;
-}
-
-const getPoemId = (poem: any) => poem.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
-
-let matchingHaikus: any[] = [];
-let matchingLimericks: any[] = [];
-let matchingAphorisms: any[] = [];
-
-if (isMascot && entryId) {
-  const mascots = await getCollection('mascots');
-  const cleanEntryId = entryId.replace(/^mascots\//, '').replace(/\.mdx?$/, '').toLowerCase().trim();
-  const mascotEntry = mascots.find(m => {
-    const cleanMId = m.id.replace(/\.mdx?$/, '').toLowerCase().trim();
-    const cleanMDataSlug = m.data.slug ? m.data.slug.replace(/^mascots\//, '').toLowerCase().trim() : '';
-    return cleanMId === cleanEntryId || cleanMDataSlug === cleanEntryId;
-  });
-
-  const [haikus, limericks, aphorisms] = await Promise.all([
-    getCollection('haikus'),
-    getCollection('limericks'),
-    getCollection('aphorisms'),
-  ]);
-
-  if (mascotEntry) {
-    matchingHaikus = haikus.filter(h => {
-      const refs = [h.data.mascotRef, ...(h.data.relatedMascots || [])].filter(Boolean);
-      return refs.some(ref => isMascotMatch(ref, mascotEntry));
-    });
-
-    matchingLimericks = limericks.filter(l => {
-      const refs = [l.data.mascotRef, ...(l.data.relatedMascots || [])].filter(Boolean);
-      return refs.some(ref => isMascotMatch(ref, mascotEntry));
-    });
-
-    matchingAphorisms = aphorisms.filter(a => {
-      const refs = [a.data.mascotRef, ...(a.data.relatedMascots || [])].filter(Boolean);
-      return refs.some(ref => isMascotMatch(ref, mascotEntry));
-    });
-  }
-}
-
-if (isLorelog && entry) {
-  const relatedH = entry.data.relatedHaiku || [];
-  const relatedL = entry.data.relatedLimerick || [];
-
-  if (relatedH.length > 0 || relatedL.length > 0) {
-    const [haikus, limericks] = await Promise.all([
-      getCollection('haikus'),
-      getCollection('limericks'),
-    ]);
-
-    matchingHaikus = haikus.filter(h => 
-      relatedH.some((rh: any) => {
-        const rhName = rh.slug.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim();
-        const hName = h.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim();
-        return rhName === hName;
-      })
-    );
-
-    matchingLimericks = limericks.filter(l => 
-      relatedL.some((rl: any) => {
-        const rlName = rl.slug.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim();
-        const lName = l.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim();
-        return rlName === lName;
-      })
-    );
-  }
-}
+const { matchingHaikus, matchingLimericks, matchingAphorisms, isMascot, isLorelog } = await getMatchingPoetry(entry);
 ---
 
 <Default {...Astro.props}>
@@ -199,5 +87,53 @@ if (isLorelog && entry) {
         </div>
       )}
     </>
+  )}
+
+  {!isMascot && !isLorelog && (matchingAphorisms.length > 0 || matchingHaikus.length > 0 || matchingLimericks.length > 0) && (
+    <div class="unmatched-poetry-section" style="margin-top: 4rem;">
+      <h2 id="non-compliance-verses">Non-Compliance Verses</h2>
+      
+      {matchingAphorisms.length > 0 && (
+        <div class="poetry-group" style="margin-top: 2rem;">
+          <h3 id="unmatched-aphorisms">Aphorisms</h3>
+          {await Promise.all(matchingAphorisms.map(async (aphorism) => {
+            const { Content } = await render(aphorism);
+            return (
+              <div id={getPoemId(aphorism)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
+                <Content />
+              </div>
+            );
+          }))}
+        </div>
+      )}
+
+      {matchingHaikus.length > 0 && (
+        <div class="poetry-group" style="margin-top: 2rem;">
+          <h3 id="unmatched-haikus">Haikus</h3>
+          {await Promise.all(matchingHaikus.map(async (haiku) => {
+            const { Content } = await render(haiku);
+            return (
+              <div id={getPoemId(haiku)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
+                <Content />
+              </div>
+            );
+          }))}
+        </div>
+      )}
+
+      {matchingLimericks.length > 0 && (
+        <div class="poetry-group" style="margin-top: 2rem;">
+          <h3 id="unmatched-limericks">Limericks</h3>
+          {await Promise.all(matchingLimericks.map(async (limerick) => {
+            const { Content } = await render(limerick);
+            return (
+              <div id={getPoemId(limerick)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
+                <Content />
+              </div>
+            );
+          }))}
+        </div>
+      )}
+    </div>
   )}
 </Default>

@@ -4,7 +4,30 @@ import { getCollection } from 'astro:content';
 const { collection, exclude, sortBy = 'title', filterPrefix, filterConcept } = Astro.props;
 
 const entries = (await getCollection(collection, (e) => {
-  if (filterPrefix && !e.id.toLowerCase().startsWith(filterPrefix.toLowerCase())) return false;
+  // ─── CRITICAL FIX: Symmetrical Prefix Normalization ───
+  if (filterPrefix) {
+    const idLower = e.id.toLowerCase();
+    const prefixLower = filterPrefix.toLowerCase();
+    const filename = idLower.split('/').pop() || '';
+    
+    // Strip leading collection folders and format headers to align matches
+    const cleanId = idLower
+      .replace(/^(docs\/)?(haikus|limericks|aphorisms)\//, '')
+      .replace(/^(hai|lim|aph)-/, '');
+      
+    const cleanPrefix = prefixLower
+      .replace(/^(docs\/)?(haikus|limericks|aphorisms)\//, '')
+      .replace(/^(hai|lim|aph)-/, '');
+
+    if (
+      !idLower.startsWith(prefixLower) && 
+      !filename.startsWith(prefixLower) && 
+      !cleanId.startsWith(cleanPrefix)
+    ) {
+      return false;
+    }
+  }
+
   if (filterConcept && (!e.data.concepts || !e.data.concepts.includes(filterConcept))) return false;
 
   if (!exclude) return true;

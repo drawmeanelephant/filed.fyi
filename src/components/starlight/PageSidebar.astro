@@ -1,0 +1,63 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/PageSidebar.astro';
+import { getMatchingPoetry } from '../../lib/poetry-matcher';
+
+const route = Astro.locals.starlightRoute;
+const entry = route?.entry;
+
+if (route && entry) {
+  const { matchingHaikus, matchingLimericks, matchingAphorisms, isMascot, isLorelog } = await getMatchingPoetry(entry);
+
+  const customHeadings = [];
+  const customTocItems = [];
+
+  if (isMascot) {
+    if (matchingAphorisms.length > 0) {
+      customHeadings.push({ depth: 2, slug: 'inline-aphorisms', text: 'Aphorisms' });
+      customTocItems.push({ depth: 2, slug: 'inline-aphorisms', text: 'Aphorisms', children: [] });
+    }
+    if (matchingHaikus.length > 0) {
+      customHeadings.push({ depth: 2, slug: 'inline-haikus', text: 'Haiku Log' });
+      customTocItems.push({ depth: 2, slug: 'inline-haikus', text: 'Haiku Log', children: [] });
+    }
+    if (matchingLimericks.length > 0) {
+      customHeadings.push({ depth: 2, slug: 'inline-limericks', text: 'Limerick Log' });
+      customTocItems.push({ depth: 2, slug: 'inline-limericks', text: 'Limerick Log', children: [] });
+    }
+  }
+
+  if (isLorelog) {
+    if (matchingHaikus.length > 0) {
+      customHeadings.push({ depth: 2, slug: 'inline-haikus', text: 'Related Haikus' });
+      customTocItems.push({ depth: 2, slug: 'inline-haikus', text: 'Related Haikus', children: [] });
+    }
+    if (matchingLimericks.length > 0) {
+      customHeadings.push({ depth: 2, slug: 'inline-limericks', text: 'Related Limericks' });
+      customTocItems.push({ depth: 2, slug: 'inline-limericks', text: 'Related Limericks', children: [] });
+    }
+  }
+
+  if (customHeadings.length > 0) {
+    // 1. Mutate flat headings array for other components/search
+    if (!route.headings) {
+      route.headings = [];
+    }
+    route.headings.push(...customHeadings);
+
+    // 2. Mutate hierarchical TOC items array for right sidebar list
+    if (!route.toc) {
+      route.toc = {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 3,
+        items: [
+          { depth: 2, slug: '_top', text: entry.data.title || 'Overview', children: [] }
+        ]
+      };
+    }
+    route.toc.items.push(...customTocItems);
+  }
+}
+---
+
+<Default {...Astro.props} />

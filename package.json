@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "audit:poetry": "node scripts/audit-poetry.mjs",
     "audit:graves": "node scripts/astro-grave-audit.mjs",
-    "test": "npm run audit:poetry && npx markdownlint-cli \"src/**/*.{md,mdx}\" && npm run build",
+    "audit:governance": "node scripts/governance-suite.mjs",
+    "test": "npm run audit:governance && npx markdownlint-cli \"src/**/*.{md,mdx}\" && npm run build",
     "archive": "tsx scripts/astro-book.ts"
   },
   "dependencies": {

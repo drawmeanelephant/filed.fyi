@@ -585,3 +585,97 @@
 .broside .starlight-aside__content {
   line-height: 1.6;
 }
+
+/* ─── Stark Brutalist Color Architecture ─── */
+:root,
+:root[data-theme="dark"],
+:root[data-theme="light"] {
+  /* Pitch black canvas and true white text */
+  --sl-color-bg: #000000 !important;
+  --sl-color-bg-nav: #050505 !important;
+  --sl-color-bg-sidebar: #020202 !important;
+  
+  --sl-color-white: #ffffff !important;
+  --sl-color-gray-1: #f4f4f5 !important;
+  --sl-color-gray-2: #e4e4e7 !important;
+  --sl-color-gray-3: #a1a1aa !important;
+  --sl-color-gray-4: #52525b !important;
+  --sl-color-gray-5: #27272a !important;
+  
+  /* Hard neon accents for terminal items */
+  --sl-color-accent: #ff4e4e !important;       /* Stark High-Contrast Red */
+  --sl-color-accent-high: #ff8a88 !important;
+  --sl-color-accent-low: #3a0000 !important;
+
+  /* The heavy grid line rule */
+  --sl-color-hairline: #ffffff !important;      /* True white borders for dark mode */
+
+  /* Full-bleed content width */
+  --sl-content-width: 100% !important;
+}
+
+:root[data-theme="light"] {
+  --sl-color-bg: #ffffff !important;
+  --sl-color-bg-nav: #fafafa !important;
+  --sl-color-bg-sidebar: #f4f4f5 !important;
+  --sl-color-white: #000000 !important;
+  --sl-color-hairline: #000000 !important;     /* True black borders for light mode */
+  --sl-color-accent: #c00000 !important;
+}
+
+/* ─── Brutalist Box-Model Realignment ─── */
+
+/* Strip curves and add block-shadows to panels, code blocks, and records */
+.starlight-aside, 
+.broside, 
+.mascot-record, 
+.mr-card, 
+code, 
+pre {
+  border-radius: 0px !important; 
+  border: 2px solid var(--sl-color-hairline) !important;
+  background: var(--sl-color-bg-nav) !important;
+  /* Hard-offset crisp shadow block */
+  box-shadow: 4px 4px 0px var(--sl-color-hairline) !important;
+}
+
+/* Make lists and registers look like raw database tables */
+.CollectionRegister ul li {
+  border-bottom: 2px solid var(--sl-color-hairline) !important;
+  padding: 0.75rem 0 !important;
+}
+
+/* Heavy Monospace Headings */
+h1, h2, h3, h4 {
+  font-family: ui-monospace, SFMono-Regular, Monaco, monospace !important;
+  text-transform: uppercase !important;
+  font-weight: 900 !important;
+  letter-spacing: -0.03em !important;
+}
+
+h1 {
+  font-size: 2.5rem !important;
+  border-bottom: 4px solid var(--sl-color-hairline);
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.75rem !important;
+  border-bottom: 2px solid var(--sl-color-hairline);
+  padding-bottom: 0.25rem;
+  margin-top: 3rem !important;
+}
+
+/* Right-hand Sidebar (On this page) Industrial Look */
+.sidebar-panel {
+  border-left: 2px solid var(--sl-color-hairline) !important;
+}
+
+/* Navigation active selection blocks */
+a[aria-current="page"] {
+  background: var(--sl-color-white) !important;
+  color: var(--sl-color-bg) !important;
+  font-weight: bold !important;
+  border: 2px solid var(--sl-color-hairline) !important;
+}
+

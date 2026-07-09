@@ -13,27 +13,9 @@ const BIN_8C_REQUIRED_TAGS = ['self-indexing', 'custody-drift', 'hazardous-misfi
 const BREEDING_KEYWORDS = ['breeding program', 'breeding governance', 'breeding eligibility'];
 const BREEDING_REQUIRED_TAGS = ['refuge-classification', 'labor-refusal', 'gratitude-alignment', 'consent-loop', 'rot protocol', 'rot-protocol']; // rot protocol is a legacy breeding tag
 
-async function auditContainment() {
-    const dateStr = new Date().toISOString().split('T')[0];
-    let report = `---
-title: Cluster Containment Audit
-description: Audit identifying jurisdictional violations of Bin 8C and the Breeding Program.
-date: ${dateStr}
-tags:
-  - reference
-  - audit
-  - containment
----
-
-# Cluster Containment Audit
-
-This audit identifies records referencing highly restricted clusters (Bin 8C, Breeding Governance) without the required jurisdictional tags.
-
-`;
-    report += `| File | Violating Reference | Missing Tags |\n`;
-    report += `|---|---|---|\n`;
-
-    let violations = 0;
+export function runContainmentAudit() {
+    let violations = [];
+    let count = 0;
 
     for (const dir of dirs) {
         if (!fs.existsSync(dir)) continue;
@@ -54,8 +36,12 @@ This audit identifies records referencing highly restricted clusters (Bin 8C, Br
             if (hasBin8cRef) {
                 const hasRequiredTag = BIN_8C_REQUIRED_TAGS.some(tag => frontmatterText.includes(tag.toLowerCase()));
                 if (!hasRequiredTag) {
-                    report += `| \`${file}\` | Bin 8C | Needs: \`${BIN_8C_REQUIRED_TAGS.join(', ')}\` |\n`;
-                    violations++;
+                    violations.push({
+                        file,
+                        type: 'Bin 8C',
+                        missing: BIN_8C_REQUIRED_TAGS.join(', ')
+                    });
+                    count++;
                 }
             }
 
@@ -64,17 +50,50 @@ This audit identifies records referencing highly restricted clusters (Bin 8C, Br
             if (hasBreedingRef) {
                 const hasRequiredTag = BREEDING_REQUIRED_TAGS.some(tag => frontmatterText.includes(tag.toLowerCase()));
                 if (!hasRequiredTag) {
-                    report += `| \`${file}\` | Breeding Program | Needs: \`${BREEDING_REQUIRED_TAGS.join(', ')}\` |\n`;
-                    violations++;
+                    violations.push({
+                        file,
+                        type: 'Breeding Program',
+                        missing: BREEDING_REQUIRED_TAGS.join(', ')
+                    });
+                    count++;
                 }
             }
         }
     }
 
-    report += `\n**Total Containment Violations:** ${violations}\n`;
-    fs.mkdirSync('./exports', { recursive: true });
-    fs.writeFileSync('./exports/containment-audit.md', report);
-    console.log(`Containment audit generated. Found ${violations} violations.`);
+    return { violations, count };
 }
 
-auditContainment();
+import { fileURLToPath } from 'url';
+const isMain = process.argv[1] && (fs.realpathSync(process.argv[1]) === fs.realpathSync(fileURLToPath(import.meta.url)));
+
+if (isMain) {
+    const dateStr = new Date().toISOString().split('T')[0];
+    const { violations, count } = runContainmentAudit();
+    let report = `---
+title: Cluster Containment Audit
+description: Audit identifying jurisdictional violations of Bin 8C and the Breeding Program.
+date: ${dateStr}
+tags:
+  - reference
+  - audit
+  - containment
+---
+
+# Cluster Containment Audit
+
+This audit identifies records referencing highly restricted clusters (Bin 8C, Breeding Governance) without the required jurisdictional tags.
+
+`;
+    report += `| File | Violating Reference | Missing Tags |\n`;
+    report += `|---|---|---|\n`;
+
+    for (const v of violations) {
+        report += `| \`${v.file}\` | ${v.type} | Needs: \`${v.missing}\` |\n`;
+    }
+
+    report += `\n**Total Containment Violations:** ${count}\n`;
+    fs.mkdirSync('./exports', { recursive: true });
+    fs.writeFileSync('./exports/containment-audit.md', report);
+    console.log(`Containment audit generated. Found ${count} violations.`);
+}
