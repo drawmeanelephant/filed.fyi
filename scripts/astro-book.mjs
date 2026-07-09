@@ -170,7 +170,77 @@ function main() {
   writeSegmentedFiles("Project Blueprint & Configs", blueprintContent, "book-blueprint");
   writeSegmentedFiles("Project Magic Codex", magicContent, "book-magic"); // Separate volume compiled!
 
+  // 3. Generate directory tree report
+  writeDirectoryTreeReport();
+
   console.log('\n"Everything condensed, neatly packed." Pipeline complete.');
+}
+
+function generateDirectoryTree(dir, prefix = '') {
+  let tree = '';
+  let list;
+  try {
+    list = fs.readdirSync(dir);
+  } catch (err) {
+    return '';
+  }
+  
+  // Filter out excludes
+  const activeList = list.filter(file => !DEFAULT_EXCLUDES.includes(file));
+  
+  // Sort directories first, then files
+  activeList.sort((a, b) => {
+    let aIsDir = false;
+    let bIsDir = false;
+    try {
+      aIsDir = fs.statSync(path.join(dir, a)).isDirectory();
+    } catch (_) {}
+    try {
+      bIsDir = fs.statSync(path.join(dir, b)).isDirectory();
+    } catch (_) {}
+    
+    if (aIsDir && !bIsDir) return -1;
+    if (!aIsDir && bIsDir) return 1;
+    return a.localeCompare(b);
+  });
+
+  for (let i = 0; i < activeList.length; i++) {
+    const file = activeList[i];
+    const filePath = path.join(dir, file);
+    let isDir = false;
+    try {
+      isDir = fs.statSync(filePath).isDirectory();
+    } catch (_) {}
+    
+    const isLast = (i === activeList.length - 1);
+    const marker = isLast ? '└── ' : '├── ';
+    
+    if (isDir) {
+      tree += `${prefix}${marker}${file}/\n`;
+      tree += generateDirectoryTree(filePath, `${prefix}${isLast ? '    ' : '│   '}`);
+    } else {
+      tree += `${prefix}${marker}${file}\n`;
+    }
+  }
+  return tree;
+}
+
+function writeDirectoryTreeReport() {
+  console.log('▶ Generating Directory Tree Report...');
+  const treeContent = generateDirectoryTree(process.cwd());
+  const outPath = path.join(EXPORT_DIR, 'project-tree.md');
+  const header = `--- \n` +
+                 `title: "Project Directory Tree"\n` +
+                 `description: "Visual directory tree representation of the active workspace."\n` +
+                 `date: ${new Date().toISOString().split('T')[0]}\n` +
+                 `---\n\n` +
+                 `# Directory Tree\n\n` +
+                 `\`\`\`\n` +
+                 `. (filed.fyi project root)\n` +
+                 treeContent +
+                 `\`\`\`\n`;
+  fs.writeFileSync(outPath, header);
+  console.log(`✓ Created exports/${path.basename(outPath)} (${(fs.statSync(outPath).size / 1024).toFixed(1)} KB)`);
 }
 
 main();
