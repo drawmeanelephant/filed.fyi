@@ -132,36 +132,44 @@ function main() {
   
   const allFiles = getFiles(process.cwd(), true);
 
-  // 1. Core Content Bucket (Documentation minus poetry)
+  // 1. Core Content Bucket (Documentation minus poetry and magic)
   const coreContent = allFiles.filter(f => 
     (f.includes('content/docs/') || f.includes('src/content/docs/')) && 
-    !/(limericks|aphorisms|haikus)/.test(f)
+    !/(limericks|aphorisms|haikus)/.test(f) &&
+    !/(magic)/i.test(f) // CRITICAL: Stop magic from polluting the core book
   );
 
   // 2. Poetry Bucket
   const poetryContent = allFiles.filter(f => 
-    /(limericks|aphorisms|haikus)/.test(f)
+    /(limericks|aphorisms|haikus)/.test(f) && !/(magic)/i.test(f)
   );
 
-  // 3. Bones Bucket (App infrastructure)
+  // 3. NEW: Dedicated Magic Bucket (Isolating the 150KB domain)
+  const magicContent = allFiles.filter(f => 
+    /(magic)/i.test(f)
+  );
+
+  // 4. Bones Bucket (App infrastructure)
   const bonesContent = allFiles.filter(f => 
-    (f.includes('src/components/') || f.includes('src/layouts/') || f.includes('src/styles/') || f.includes('src/pages/') || f.includes('src/lib/'))
+    (f.includes('src/components/') || f.includes('src/layouts/') || f.includes('src/styles/') || f.includes('src/pages/') || f.includes('src/lib/')) &&
+    !/(magic)/i.test(f)
   );
 
-  // 4. Blueprint Bucket (Configs, Scripts, Root Rules)
+  // 5. Blueprint Bucket (Configs, Scripts, Root Rules)
   const blueprintContent = allFiles.filter(f => {
     const base = path.basename(f);
     const isRootConfig = /(tsconfig.*|package.*|astro.config.*|content.config.ts|\.config\.)/.test(base) && !f.includes('node_modules');
     const isRootDoc = ['README.md', 'rules.md', 'GEMINI.md'].includes(base);
     const isScript = f.includes(`${path.sep}scripts${path.sep}`);
-    return isRootConfig || isRootDoc || isScript;
+    return (isRootConfig || isRootDoc || isScript) && !/(magic)/i.test(f);
   });
 
-  // 2. Export consolidated books
+  // 2. Export consolidated books (including the new standalone target)
   writeSegmentedFiles("Project Core Book", coreContent, "book-core");
   writeSegmentedFiles("Project Poetry Book", poetryContent, "book-poetry");
   writeSegmentedFiles("Project Architecture Bones", bonesContent, "book-bones");
   writeSegmentedFiles("Project Blueprint & Configs", blueprintContent, "book-blueprint");
+  writeSegmentedFiles("Project Magic Codex", magicContent, "book-magic"); // Separate volume compiled!
 
   console.log('\n"Everything condensed, neatly packed." Pipeline complete.');
 }
