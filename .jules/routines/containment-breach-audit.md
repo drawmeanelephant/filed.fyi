@@ -19,7 +19,7 @@ Date: 2026-06-19
 
 ## Boundaries
 - Do not delete files; only surgically alter the language violating the containment protocol.
-- Do not sanitize legitimate, rule-abiding references to these topics. 
+- Do not sanitize legitimate, rule-abiding references to these topics.
 
 ## Verification
 - Review the edited file to ensure it still reads in the correct institutional voice without relying on the forbidden jurisdictional terms.
