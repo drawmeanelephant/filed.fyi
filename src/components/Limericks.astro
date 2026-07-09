@@ -155,6 +155,9 @@ const brosideAccentStyles: Record<string, string> = {
 if (!title) {
   title = Astro.locals.t(`aside.${type}`);
 }
+
+const content = await Astro.slots.render('default');
+const cleanContent = content ? content.replace(/\\n/g, '\n') : '';
 ---
 
 <aside
@@ -166,7 +169,5 @@ if (!title) {
     <Icon class={`starlight-aside__icon ${brosideAccentStyles[key] ?? ""}`} />{title}
   </p>
 
-  <div class="starlight-aside__content whitespace-pre-line">
-    <slot />
-  </div>
+  <div class="starlight-aside__content whitespace-pre-line" set:html={cleanContent} />
 </aside>

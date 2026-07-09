@@ -173,6 +173,25 @@ async function auditMascotAssurance() {
     });
   }
 
+  const selfAuditIssues = [];
+  for (const m of mascots) {
+    const rl = m.data.relatedLorelog;
+    if (Array.isArray(rl)) {
+      const hasObj = rl.some(entry => typeof entry === 'object' && entry !== null);
+      if (hasObj) {
+        selfAuditIssues.push({ file: m.file, issue: '`relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling.' });
+      }
+    }
+  }
+  for (const m of mascots) {
+    if (Array.isArray(m.data.tags)) {
+      const badTags = m.data.tags.filter(t => typeof t === 'object' && t !== null);
+      if (badTags.length > 0) {
+        selfAuditIssues.push({ file: m.file, issue: '`tags` array contains non-string entries.' });
+      }
+    }
+  }
+
   const pendingMascots = mascots.filter(m => !m.data.assuranceAudit || m.data.assuranceAudit < 1);
   const graduatedMascots = mascots.filter(m => m.data.assuranceAudit && m.data.assuranceAudit >= 1);
 
@@ -205,6 +224,15 @@ async function auditMascotAssurance() {
 title: "Mascot Assurance Audit"
 description: "Structural triage of the mascot archive. Tracks weight distribution, frontmatter gaps, and intervention targets flagged by the Assurance Desk."
 date: ${dateStr}
+ghosts_count: ${ghosts.length}
+thins_count: ${thins.length}
+description_gaps_count: ${noDescription.length}
+origin_gaps_count: ${noOrigin.length}
+affiliation_gaps_count: ${noSystemAffiliation.length}
+tags_gaps_count: ${noTags.length}
+relationship_gaps_count: ${noRelationships.length}
+structural_depth_gaps_count: ${noSections.length}
+self_audit_anomalies_count: ${selfAuditIssues.length}
 tags:
   - reference
   - audit
@@ -363,26 +391,7 @@ This is not a correction queue. It is a triage list. Each entry names the struct
 
   report += `---\n\n## Self-Audit\n\nThe Assurance Desk does not exempt itself from observation. The following anomalies were detected in the data this report attempted to render.\n\n`;
 
-  const selfAuditIssues = [];
 
-  for (const m of mascots) {
-    const rl = m.data.relatedLorelog;
-    if (Array.isArray(rl)) {
-      const hasObj = rl.some(entry => typeof entry === 'object' && entry !== null);
-      if (hasObj) {
-        selfAuditIssues.push({ file: m.file, issue: '`relatedLorelog` contains object entries (not plain strings). Cross-reference rendering may require special handling.' });
-      }
-    }
-  }
-
-  for (const m of mascots) {
-    if (Array.isArray(m.data.tags)) {
-      const badTags = m.data.tags.filter(t => typeof t === 'object' && t !== null);
-      if (badTags.length > 0) {
-        selfAuditIssues.push({ file: m.file, issue: '`tags` array contains non-string entries.' });
-      }
-    }
-  }
 
   if (selfAuditIssues.length === 0) {
     report += `*No rendering anomalies detected. The report consumed its own data without incident.*\n\n`;

@@ -70,6 +70,7 @@ if (isMain) {
 title: Frontmatter Integrity Audit
 description: Observational dashboard tracking schema rot, metadata collapse, and tag fragmentation across the archive.
 date: ${dateStr}
+anomalies_count: ${count}
 tags:
   - reference
   - audit

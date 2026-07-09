@@ -1,0 +1,18 @@
+{
+  "batch_timestamp": "2026-07-09T16:08:55.736Z",
+  "total_files_processed": 3,
+  "records": [
+    {
+      "file_path": "src/content/docs/reference/audits/fref-audt-case.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/audits/fref-audt-cont.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/audits/fref-audt-intg.mdx",
+      "verses": []
+    }
+  ]
+}

@@ -5,11 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "start": "astro dev",
+    "build": "node scripts/check-box-telemetry.mjs && astro build",
     "preview": "astro preview",
     "audit:poetry": "node scripts/audit-poetry.mjs",
     "audit:graves": "node scripts/astro-grave-audit.mjs",
     "audit:governance": "node scripts/governance-suite.mjs",
+    "audit:all": "node scripts/check-box-telemetry.mjs --run-all",
+    "track": "node scripts/track-waste.mjs",
     "test": "npm run audit:governance && npx markdownlint-cli \"src/**/*.{md,mdx}\" && npm run build",
     "archive": "tsx scripts/astro-book.ts"
   },

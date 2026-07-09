@@ -558,28 +558,25 @@
 }
 
 /* Theme Overrides for Asides (Limericks/Brosides) */
-:root[data-theme='light'] .broside {
-  background-color: var(--sl-color-white);
-  border: 1px solid var(--sl-color-gray-5);
-  color: var(--sl-color-black);
-  max-width: max-content;
-  padding: 0.75rem 1rem;
+.broside,
+.starlight-aside {
+  color: var(--sl-color-white) !important;
 }
 
-:root[data-theme='light'] .broside .starlight-aside__title {
-  color: var(--sl-color-black);
+.starlight-aside__title {
+  color: var(--sl-color-white) !important;
+}
+
+:root[data-theme='light'] .broside {
+  background-color: var(--sl-color-bg-nav) !important;
+  border: 2px solid var(--sl-color-hairline) !important;
+  padding: 0.75rem 1rem;
 }
 
 :root[data-theme='dark'] .broside {
-  background-color: var(--sl-color-bg);
-  border: 1px solid var(--sl-color-gray-5);
-  color: var(--sl-color-gray-2);
-  max-width: max-content;
+  background-color: var(--sl-color-bg-nav) !important;
+  border: 2px solid var(--sl-color-hairline) !important;
   padding: 0.75rem 1rem;
-}
-
-:root[data-theme='dark'] .broside .starlight-aside__title {
-  color: var(--sl-color-white);
 }
 
 .broside .starlight-aside__content {
@@ -621,6 +618,13 @@
   --sl-color-white: #000000 !important;
   --sl-color-hairline: #000000 !important;     /* True black borders for light mode */
   --sl-color-accent: #c00000 !important;
+
+  /* Redefine gray scale for light mode to ensure readability of sidebars/asides */
+  --sl-color-gray-1: #18181b !important;
+  --sl-color-gray-2: #27272a !important;
+  --sl-color-gray-3: #52525b !important;
+  --sl-color-gray-4: #a1a1aa !important;
+  --sl-color-gray-5: #e4e4e7 !important;
 }
 
 /* ─── Brutalist Box-Model Realignment ─── */
@@ -677,5 +681,51 @@ a[aria-current="page"] {
   color: var(--sl-color-bg) !important;
   font-weight: bold !important;
   border: 2px solid var(--sl-color-hairline) !important;
+}
+
+/* Brutalist Poetry Yard Grid */
+.poetry-masonry-yard,
+.inline-poem-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .poetry-masonry-yard,
+  .inline-poem-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Ensure headings inside grid span full width */
+.inline-poem-wrapper h1,
+.inline-poem-wrapper h2,
+.inline-poem-wrapper h3,
+.inline-poem-wrapper h4,
+.poetry-masonry-yard h1,
+.poetry-masonry-yard h2,
+.poetry-masonry-yard h3,
+.poetry-masonry-yard h4 {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Ensure individual cards fill the grid space and align beautifully */
+.poetry-masonry-yard > *,
+.inline-poem-wrapper > * {
+  width: 100%;
+}
+
+.poetry-masonry-yard .broside,
+.inline-poem-wrapper .broside,
+.poetry-masonry-yard .starlight-aside,
+.inline-poem-wrapper .starlight-aside {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box;
 }
 

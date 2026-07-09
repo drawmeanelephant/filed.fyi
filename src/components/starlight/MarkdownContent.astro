@@ -16,42 +16,48 @@ const { matchingHaikus, matchingLimericks, matchingAphorisms, isMascot, isLorelo
       {matchingAphorisms.length > 0 && (
         <div class="inline-poetry-section" style="margin-top: 3rem;">
           <h2 id="inline-aphorisms">Aphorisms</h2>
-          {await Promise.all(matchingAphorisms.map(async (aphorism) => {
-            const { Content } = await render(aphorism);
-            return (
-              <div id={getPoemId(aphorism)} class="inline-poem-wrapper">
-                <Content />
-              </div>
-            );
-          }))}
+          <div class="poetry-masonry-yard">
+            {await Promise.all(matchingAphorisms.map(async (aphorism) => {
+              const { Content } = await render(aphorism);
+              return (
+                <div id={getPoemId(aphorism)} class="inline-poem-wrapper">
+                  <Content />
+                </div>
+              );
+            }))}
+          </div>
         </div>
       )}
 
       {matchingHaikus.length > 0 && (
         <div class="inline-poetry-section" style="margin-top: 3rem;">
           <h2 id="inline-haikus">Haiku Log</h2>
-          {await Promise.all(matchingHaikus.map(async (haiku) => {
-            const { Content } = await render(haiku);
-            return (
-              <div id={getPoemId(haiku)} class="inline-poem-wrapper">
-                <Content />
-              </div>
-            );
-          }))}
+          <div class="poetry-masonry-yard">
+            {await Promise.all(matchingHaikus.map(async (haiku) => {
+              const { Content } = await render(haiku);
+              return (
+                <div id={getPoemId(haiku)} class="inline-poem-wrapper">
+                  <Content />
+                </div>
+              );
+            }))}
+          </div>
         </div>
       )}
 
       {matchingLimericks.length > 0 && (
         <div class="inline-poetry-section" style="margin-top: 3rem;">
           <h2 id="inline-limericks">Limerick Log</h2>
-          {await Promise.all(matchingLimericks.map(async (limerick) => {
-            const { Content } = await render(limerick);
-            return (
-              <div id={getPoemId(limerick)} class="inline-poem-wrapper">
-                <Content />
-              </div>
-            );
-          }))}
+          <div class="poetry-masonry-yard">
+            {await Promise.all(matchingLimericks.map(async (limerick) => {
+              const { Content } = await render(limerick);
+              return (
+                <div id={getPoemId(limerick)} class="inline-poem-wrapper">
+                  <Content />
+                </div>
+              );
+            }))}
+          </div>
         </div>
       )}
     </>
@@ -62,28 +68,32 @@ const { matchingHaikus, matchingLimericks, matchingAphorisms, isMascot, isLorelo
       {matchingHaikus.length > 0 && (
         <div class="inline-poetry-section" style="margin-top: 3rem;">
           <h2 id="inline-haikus">Related Haikus</h2>
-          {await Promise.all(matchingHaikus.map(async (haiku) => {
-            const { Content } = await render(haiku);
-            return (
-              <div id={getPoemId(haiku)} class="inline-poem-wrapper">
-                <Content />
-              </div>
-            );
-          }))}
+          <div class="poetry-masonry-yard">
+            {await Promise.all(matchingHaikus.map(async (haiku) => {
+              const { Content } = await render(haiku);
+              return (
+                <div id={getPoemId(haiku)} class="inline-poem-wrapper">
+                  <Content />
+                </div>
+              );
+            }))}
+          </div>
         </div>
       )}
 
       {matchingLimericks.length > 0 && (
         <div class="inline-poetry-section" style="margin-top: 3rem;">
           <h2 id="inline-limericks">Related Limericks</h2>
-          {await Promise.all(matchingLimericks.map(async (limerick) => {
-            const { Content } = await render(limerick);
-            return (
-              <div id={getPoemId(limerick)} class="inline-poem-wrapper">
-                <Content />
-              </div>
-            );
-          }))}
+          <div class="poetry-masonry-yard">
+            {await Promise.all(matchingLimericks.map(async (limerick) => {
+              const { Content } = await render(limerick);
+              return (
+                <div id={getPoemId(limerick)} class="inline-poem-wrapper">
+                  <Content />
+                </div>
+              );
+            }))}
+          </div>
         </div>
       )}
     </>
@@ -96,42 +106,48 @@ const { matchingHaikus, matchingLimericks, matchingAphorisms, isMascot, isLorelo
       {matchingAphorisms.length > 0 && (
         <div class="poetry-group" style="margin-top: 2rem;">
           <h3 id="unmatched-aphorisms">Aphorisms</h3>
-          {await Promise.all(matchingAphorisms.map(async (aphorism) => {
-            const { Content } = await render(aphorism);
-            return (
-              <div id={getPoemId(aphorism)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
-                <Content />
-              </div>
-            );
-          }))}
+          <div class="poetry-masonry-yard">
+            {await Promise.all(matchingAphorisms.map(async (aphorism) => {
+              const { Content } = await render(aphorism);
+              return (
+                <div id={getPoemId(aphorism)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
+                  <Content />
+                </div>
+              );
+            }))}
+          </div>
         </div>
       )}
 
       {matchingHaikus.length > 0 && (
         <div class="poetry-group" style="margin-top: 2rem;">
           <h3 id="unmatched-haikus">Haikus</h3>
-          {await Promise.all(matchingHaikus.map(async (haiku) => {
-            const { Content } = await render(haiku);
-            return (
-              <div id={getPoemId(haiku)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
-                <Content />
-              </div>
-            );
-          }))}
+          <div class="poetry-masonry-yard">
+            {await Promise.all(matchingHaikus.map(async (haiku) => {
+              const { Content } = await render(haiku);
+              return (
+                <div id={getPoemId(haiku)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
+                  <Content />
+                </div>
+              );
+            }))}
+          </div>
         </div>
       )}
 
       {matchingLimericks.length > 0 && (
         <div class="poetry-group" style="margin-top: 2rem;">
           <h3 id="unmatched-limericks">Limericks</h3>
-          {await Promise.all(matchingLimericks.map(async (limerick) => {
-            const { Content } = await render(limerick);
-            return (
-              <div id={getPoemId(limerick)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
-                <Content />
-              </div>
-            );
-          }))}
+          <div class="poetry-masonry-yard">
+            {await Promise.all(matchingLimericks.map(async (limerick) => {
+              const { Content } = await render(limerick);
+              return (
+                <div id={getPoemId(limerick)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
+                  <Content />
+                </div>
+              );
+            }))}
+          </div>
         </div>
       )}
     </div>
