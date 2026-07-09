@@ -47,9 +47,8 @@ Consolidates the active web application codebase, design styles, layouts, pages,
   - Excludes default system patterns.
 
 ### 4. Project Blueprint & Configs (`exports/book-blueprint.md`)
-Groups general project guidelines, automation scripts, and base system configuration files.
+Groups general project guidelines and base system configuration files.
 * **Target Folders / Patterns:**
-  - Files under the `/scripts/` folder.
   - Root project configuration files: `tsconfig.*`, `package.json`, `package-lock.json`, `astro.config.*`, `content.config.ts`, `*.config.*`.
   - Root markdown guidelines: `README.md`, `rules.md`, `GEMINI.md`.
 * **Exclusions:**
@@ -58,8 +57,9 @@ Groups general project guidelines, automation scripts, and base system configura
   - Excludes default system patterns.
 
 ### 5. Project Magic Codex (`exports/book-magic.md` / `exports/book-magic-part*.md`)
-*New dedicated book segment.* Isolates high-volume, highly specialized technical domain assets to prevent contextual bloating of general core documentation.
+*New dedicated book segment.* Isolates high-volume, highly specialized technical domain assets and project scripts to prevent contextual bloating of general core documentation.
 * **Target Patterns:**
+  - Files under the `/scripts/` folder.
   - Any valid file path in the project containing `magic` (case-insensitive) in its name or folder path.
 * **Exclusions:**
   - Excludes default system patterns (e.g. `node_modules`, `dist`, `.astro`).

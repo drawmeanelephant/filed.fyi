@@ -144,9 +144,9 @@ function main() {
     /(limericks|aphorisms|haikus)/.test(f) && !/(magic)/i.test(f)
   );
 
-  // 3. NEW: Dedicated Magic Bucket (Isolating the 150KB domain)
+  // 3. NEW: Dedicated Magic Bucket (Isolating the 150KB domain and scripts)
   const magicContent = allFiles.filter(f => 
-    /(magic)/i.test(f)
+    f.includes(`${path.sep}scripts${path.sep}`) || /(magic)/i.test(f)
   );
 
   // 4. Bones Bucket (App infrastructure)
@@ -155,13 +155,12 @@ function main() {
     !/(magic)/i.test(f)
   );
 
-  // 5. Blueprint Bucket (Configs, Scripts, Root Rules)
+  // 5. Blueprint Bucket (Configs, Root Rules)
   const blueprintContent = allFiles.filter(f => {
     const base = path.basename(f);
     const isRootConfig = /(tsconfig.*|package.*|astro.config.*|content.config.ts|\.config\.)/.test(base) && !f.includes('node_modules');
     const isRootDoc = ['README.md', 'rules.md', 'GEMINI.md'].includes(base);
-    const isScript = f.includes(`${path.sep}scripts${path.sep}`);
-    return (isRootConfig || isRootDoc || isScript) && !/(magic)/i.test(f);
+    return (isRootConfig || isRootDoc) && !/(magic)/i.test(f);
   });
 
   // 2. Export consolidated books (including the new standalone target)
