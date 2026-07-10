@@ -118,8 +118,8 @@ function main() {
   const coreDocsDir = path.join(CONTENT_DIR, 'docs');
   const coreDocs = getFilesRecursive(coreDocsDir).filter(file => {
     const rel = path.relative(coreDocsDir, file);
-    // Exclude releases, changelogs, and indices
-    return !/(releases|changelog|index\.mdx)/.test(rel);
+    // Exclude releases, changelogs, indices, and automated reports
+    return !/(releases|changelog|index\.mdx|reference\/audits)/.test(rel);
   });
 
   const aphorismsDir = path.join(CONTENT_DIR, 'aphorisms');
