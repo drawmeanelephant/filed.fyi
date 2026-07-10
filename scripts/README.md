@@ -12,9 +12,6 @@ This directory contains the pipeline, scaffolding, formatting, and diagnostic sc
   * Uses exact, case-insensitive target naming conventions required by the grave audit (e.g., `hai-056-roboshirker.mdx` for haikus, `lim-roboshirker.mdx` for limericks, and `APH-056.roboshirker.mdx` for aphorisms).
   * Automatically seeds initial metadata (`relatedLorelog`, `relatedMascots`, `mascotRef`) in generated stubs based on the parent source type.
 
-### 📜 `normalize-poetry-breaks.mjs`
-* **Purpose:** Traverses poetry files (`src/content/limericks/` and `src/content/haikus/`) and normalizes all lines inside `<Limerick>` components to end with exactly two spaces (`  `), ensuring Markdown formatting correctly preserves line breaks.
-
 ---
 
 ## 🔍 Diagnostic & Audit Pipelines
@@ -71,5 +68,10 @@ This directory contains the pipeline, scaffolding, formatting, and diagnostic sc
 
 ## 🗃️ Archives
 
-### 📂 `old_scripts/`
-* **Purpose:** Holds obsolete scripts, one-time migration corrections, and legacy file versions for historical reference.
+### 📂 `one-off/`
+* **Purpose:** Holds obsolete scripts, one-time migration corrections, and legacy/temporary file versions for historical reference.
+* **Scripts:**
+  * 📜 `dedupe-frontmatter.mjs` — Deduplicates array fields and objects in frontmatter.
+  * 📜 `normalize-poetry-breaks.mjs` — Traverses poetry and normalizes line breaks inside `<Limerick>` components.
+  * 📜 `normalize-version-fields.mjs` — Harmonizes `version` and `versionLabel` frontmatter fields.
+  * 📜 `weaponize-missing-forms.mjs` — Injects case numbers and related lorelog links based on file basenames.
