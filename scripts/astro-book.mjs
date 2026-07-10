@@ -57,7 +57,7 @@ function fence_lang(f) {
   }
 }
 
-function writeSegmentedFiles(title, filePaths, baseFilename) {
+function writeSegmentedFiles(title, filePaths, baseFilename, disableSegmentation = false) {
   const activePaths = filePaths.filter(f => {
     const rel = path.relative(process.cwd(), f);
     // Split into segments to ensure we only exclude matching folder/file names,
@@ -72,9 +72,15 @@ function writeSegmentedFiles(title, filePaths, baseFilename) {
   let currentBytes = 0;
   let buffer = '';
 
+  const getLimit = (p) => {
+    if (disableSegmentation) return Infinity;
+    return p === 1 ? 100 * 1024 : 500 * 1024;
+  };
+
   const flushBuffer = (p) => {
     if (!buffer) return;
-    const outPath = path.join(EXPORT_DIR, `${baseFilename}${p > 1 || currentBytes > CHUNK_SIZE_LIMIT ? `-part${p}` : ''}.md`);
+    const limit = disableSegmentation ? Infinity : 500 * 1024;
+    const outPath = path.join(EXPORT_DIR, `${baseFilename}${p > 1 || currentBytes > limit ? `-part${p}` : ''}.md`);
     const header = `--- \n` +
                    `title: "${title}${p > 1 ? ` (Part ${p})` : ''}"\n` +
                    `description: "Consolidated export of ${title}."\n` +
@@ -104,7 +110,7 @@ function writeSegmentedFiles(title, filePaths, baseFilename) {
 
     const blockSize = Buffer.byteLength(block, 'utf8');
 
-    if (currentBytes > 0 && currentBytes + blockSize > CHUNK_SIZE_LIMIT) {
+    if (currentBytes > 0 && currentBytes + blockSize > getLimit(part)) {
       flushBuffer(part);
       part++;
     }
@@ -125,6 +131,7 @@ function writeSegmentedFiles(title, filePaths, baseFilename) {
   }
 }
 
+
 // ── Orchestration ─────────────────────────────────────────────
 function main() {
   ensureDirs();
@@ -139,9 +146,15 @@ function main() {
     !/(magic)/i.test(f) // CRITICAL: Stop magic from polluting the core book
   );
 
-  // 2. Poetry Bucket
-  const poetryContent = allFiles.filter(f => 
-    /(limericks|aphorisms|haikus)/.test(f) && !/(magic)/i.test(f)
+  // 2. Poetry Buckets (Split into Aphorisms, Limericks, and Haikus)
+  const aphorismsContent = allFiles.filter(f => 
+    /aphorisms/.test(f) && !/(magic)/i.test(f)
+  );
+  const limericksContent = allFiles.filter(f => 
+    /limericks/.test(f) && !/(magic)/i.test(f)
+  );
+  const haikusContent = allFiles.filter(f => 
+    /haikus/.test(f) && !/(magic)/i.test(f)
   );
 
   // 3. NEW: Dedicated Magic Bucket (Isolating the 150KB domain and scripts)
@@ -149,25 +162,30 @@ function main() {
     f.includes(`${path.sep}scripts${path.sep}`) || /(magic)/i.test(f)
   );
 
-  // 4. Bones Bucket (App infrastructure)
+  // 4. Bones Bucket (App infrastructure - ensuring no scripts)
   const bonesContent = allFiles.filter(f => 
     (f.includes('src/components/') || f.includes('src/layouts/') || f.includes('src/styles/') || f.includes('src/pages/') || f.includes('src/lib/')) &&
-    !/(magic)/i.test(f)
+    !/(magic)/i.test(f) &&
+    !f.includes(`${path.sep}scripts${path.sep}`)
   );
 
-  // 5. Blueprint Bucket (Configs, Root Rules)
+  // 5. Blueprint Bucket (Configs, Root Rules - restricted to root directory only to prevent matching scripts)
   const blueprintContent = allFiles.filter(f => {
     const base = path.basename(f);
+    const dir = path.dirname(f);
+    const isRoot = (dir === process.cwd());
     const isRootConfig = /(tsconfig.*|package.*|astro.config.*|content.config.ts|\.config\.)/.test(base) && !f.includes('node_modules');
     const isRootDoc = ['README.md', 'rules.md', 'GEMINI.md'].includes(base);
-    return (isRootConfig || isRootDoc) && !/(magic)/i.test(f);
+    return isRoot && (isRootConfig || isRootDoc) && !/(magic)/i.test(f);
   });
 
-  // 2. Export consolidated books (including the new standalone target)
+  // 2. Export consolidated books (including the new standalone targets)
   writeSegmentedFiles("Project Core Book", coreContent, "book-core");
-  writeSegmentedFiles("Project Poetry Book", poetryContent, "book-poetry");
-  writeSegmentedFiles("Project Architecture Bones", bonesContent, "book-bones");
-  writeSegmentedFiles("Project Blueprint & Configs", blueprintContent, "book-blueprint");
+  writeSegmentedFiles("Project Aphorisms Book", aphorismsContent, "book-poetry-aphorisms");
+  writeSegmentedFiles("Project Limericks Book", limericksContent, "book-poetry-limericks");
+  writeSegmentedFiles("Project Haikus Book", haikusContent, "book-poetry-haikus");
+  writeSegmentedFiles("Project Architecture Bones", bonesContent, "book-bones", true);
+  writeSegmentedFiles("Project Blueprint & Configs", blueprintContent, "book-blueprint", true);
   writeSegmentedFiles("Project Magic Codex", magicContent, "book-magic"); // Separate volume compiled!
 
   // 3. Generate directory tree report

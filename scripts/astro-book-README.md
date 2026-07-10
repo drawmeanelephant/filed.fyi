@@ -24,18 +24,33 @@ Contains the primary documentation and archival records, ensuring clean context 
   - Excludes all files containing `magic` in their paths.
   - Excludes default system patterns (e.g. `node_modules`, `dist`, `.astro`, `reference/empathegy`).
 
-### 2. Project Poetry Book (`exports/book-poetry.md` / `exports/book-poetry-part*.md`)
-Houses all historical archive residue (verse format) isolated from the rest of the documentation.
+### 2. Project Aphorisms Book (`exports/book-poetry-aphorisms.md` / `exports/book-poetry-aphorisms-part*.md`)
+Houses all historical aphorism archive residue isolated from the rest of the documentation.
 * **Target Folders:**
   - `src/content/aphorisms/`
-  - `src/content/haikus/`
+* **Exclusions:**
+  - Excludes all files containing `magic` in their paths.
+  - Excludes default system patterns.
+
+### 3. Project Limericks Book (`exports/book-poetry-limericks.md` / `exports/book-poetry-limericks-part*.md`)
+Houses all historical limerick archive residue isolated from the rest of the documentation.
+* **Target Folders:**
   - `src/content/limericks/`
 * **Exclusions:**
   - Excludes all files containing `magic` in their paths.
   - Excludes default system patterns.
 
-### 3. Project Architecture Bones (`exports/book-bones.md`)
+### 4. Project Haikus Book (`exports/book-poetry-haikus.md` / `exports/book-poetry-haikus-part*.md`)
+Houses all historical haiku archive residue isolated from the rest of the documentation.
+* **Target Folders:**
+  - `src/content/haikus/`
+* **Exclusions:**
+  - Excludes all files containing `magic` in their paths.
+  - Excludes default system patterns.
+
+### 5. Project Architecture Bones (`exports/book-bones.md`)
 Consolidates the active web application codebase, design styles, layouts, pages, and components.
+*Segmentation is disabled for this book.*
 * **Target Folders:**
   - `src/components/`
   - `src/layouts/`
@@ -43,20 +58,23 @@ Consolidates the active web application codebase, design styles, layouts, pages,
   - `src/pages/`
   - `src/lib/`
 * **Exclusions:**
+  - Excludes files inside `/scripts/` folder.
   - Excludes all files containing `magic` in their paths.
   - Excludes default system patterns.
 
-### 4. Project Blueprint & Configs (`exports/book-blueprint.md`)
-Groups general project guidelines and base system configuration files.
+### 6. Project Blueprint & Configs (`exports/book-blueprint.md`)
+Groups general project guidelines and base system configuration files at the root level of the workspace.
+*Segmentation is disabled for this book.*
 * **Target Folders / Patterns:**
   - Root project configuration files: `tsconfig.*`, `package.json`, `package-lock.json`, `astro.config.*`, `content.config.ts`, `*.config.*`.
   - Root markdown guidelines: `README.md`, `rules.md`, `GEMINI.md`.
 * **Exclusions:**
+  - Excludes files inside `/scripts/` or other subdirectories (strictly matches files at the root level).
   - Excludes `node_modules` configurations.
   - Excludes all files containing `magic` in their paths.
   - Excludes default system patterns.
 
-### 5. Project Magic Codex (`exports/book-magic.md` / `exports/book-magic-part*.md`)
+### 7. Project Magic Codex (`exports/book-magic.md` / `exports/book-magic-part*.md`)
 *New dedicated book segment.* Isolates high-volume, highly specialized technical domain assets and project scripts to prevent contextual bloating of general core documentation.
 * **Target Patterns:**
   - Files under the `/scripts/` folder.
@@ -68,7 +86,10 @@ Groups general project guidelines and base system configuration files.
 
 ## ⚙️ Core Configuration Details
 
-* **Chunk Size Limit:** Approx `500 KB` (`CHUNK_SIZE_LIMIT = 500 * 1024`). Files exceeding this size are split into sequentially indexed parts (e.g., `-part1`, `-part2`, etc.) to prevent LLM context exhaustion.
+* **Chunk Size Limit:** Segmented books are split dynamically:
+  - Part 1 is capped at approx `100 KB` (`100 * 1024` bytes) to keep the initial document smaller without cutting off any file blocks.
+  - Subsequent parts are capped at approx `500 KB` (`500 * 1024` bytes) to prevent LLM context exhaustion.
+  - Segmentation is disabled entirely for Project Architecture Bones and Project Blueprint & Configs.
 * **Default Excludes:** The following directories/patterns are ignored globally:
   - `node_modules`
   - `public`
