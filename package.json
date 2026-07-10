@@ -11,9 +11,10 @@
     "audit:poetry": "node scripts/audit-poetry.mjs",
     "audit:graves": "node scripts/astro-grave-audit.mjs",
     "audit:governance": "node scripts/governance-suite.mjs",
+    "audit:forms": "node scripts/audit-form-numbers.mjs",
     "audit:all": "node scripts/check-box-telemetry.mjs --run-all",
     "track": "node scripts/track-waste.mjs",
-    "test": "npm run audit:governance && npx markdownlint-cli \"src/**/*.{md,mdx}\" && npm run build",
+    "test": "npm run audit:forms && npm run audit:governance && npx markdownlint-cli \"src/**/*.{md,mdx}\" && npm run build",
     "archive": "tsx scripts/astro-book.ts"
   },
   "dependencies": {

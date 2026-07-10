@@ -115,7 +115,7 @@ concepts:
 updatedAt: ${new Date().toISOString().split('T')[0]}
 ---
 
-## Procedural Entry
+
 
 ${stubs[poetryType]}
 `;
