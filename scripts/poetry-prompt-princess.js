@@ -118,9 +118,12 @@ poetryCollections.forEach(p => {
   const fileStats = [];
 
   files.forEach(f => {
+    const baseName = path.basename(f);
+    if (baseName.toLowerCase().includes('fref-09') || baseName.toLowerCase().includes('fref-audt')) {
+      return;
+    }
     const count = countVerses(f, p.tag);
     totalVerses += count;
-    const baseName = path.basename(f);
     fileStats.push({ 
       file: baseName, 
       cleanFile: cleanString(baseName), 
@@ -265,9 +268,27 @@ poetryCollections.forEach(p => {
       else if (['CATALOG_RELIC', 'CUSTODY_SHAFT', 'BUREAU_ASH'].includes(v.name)) step = 1;
       else if (['DOSSIER_SILT', 'FOLIO_DRIFT', 'PAPER_ORACLE'].includes(v.name)) step = 2;
       else step = 3;
-      const end = allFiles.length - (step * 4);
-      const start = Math.max(0, end - 4);
-      targets = allFiles.slice(start, end);
+
+      const bottomFiles = allFiles.slice(-40);
+      let start = 0;
+      let end = 0;
+      if (step === 0) {
+        start = 0;
+        end = 5;
+      } else if (step === 1) {
+        start = 9;
+        end = 15;
+      } else if (step === 2) {
+        start = 19;
+        end = 25;
+      } else {
+        start = 34;
+        end = 40;
+      }
+      targets = bottomFiles.slice(
+        Math.min(start, bottomFiles.length),
+        Math.min(end, bottomFiles.length)
+      );
     }
     
     if (targets.length === 0) return;
@@ -348,6 +369,32 @@ targetCollections.forEach(t => {
     md += `| ${p.name} | ${bars} ${pct}% | ${missing} |\n`;
   });
   md += `\n`;
+});
+
+md += `## Density Extremes
+
+This section highlights the most and least densely populated poetry files across the archive. This allows us to identify records with an over-abundance of verses, and those struggling to maintain archival weight.
+`;
+
+poetryCollections.forEach(p => {
+  md += `\n### ${p.name} Density\n\n`;
+  md += `**Top 10 Most Verses**\n\n| File | Verses |\n|------|--------|\n`;
+  const top10 = data[p.id].files.slice(0, 10);
+  top10.forEach(f => {
+    md += `| \`${f.file}\` | ${f.count} |\n`;
+  });
+  
+  md += `\n**The Cromulent Seven**\n\n| File | Verses |\n|------|--------|\n`;
+  const cromulent = data[p.id].files.filter(f => f.count === data[p.id].cromulentCount).slice(0, 7);
+  cromulent.forEach(f => {
+    md += `| \`${f.file}\` | ${f.count} |\n`;
+  });
+  
+  md += `\n**Bottom 40 Least Verses**\n\n| File | Verses |\n|------|--------|\n`;
+  const bottom40List = data[p.id].files.slice(-40).reverse();
+  bottom40List.forEach(f => {
+    md += `| \`${f.file}\` | ${f.count} |\n`;
+  });
 });
 
 const reportPath = path.join(docsDir, 'reference/fref-0900-poet.mdx');

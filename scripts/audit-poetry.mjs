@@ -55,9 +55,13 @@ poetryCollections.forEach(p => {
   let totalVerses = 0;
   const fileStats = [];
   files.forEach(f => {
+    const baseName = path.basename(f);
+    if (baseName.toLowerCase().includes('fref-09') || baseName.toLowerCase().includes('fref-audt')) {
+      return;
+    }
     const count = countVerses(f, p.tag);
     totalVerses += count;
-    fileStats.push({ file: path.basename(f), path: f, count });
+    fileStats.push({ file: baseName, path: f, count });
   });
   fileStats.sort((a, b) => b.count - a.count); // desc
   
@@ -208,9 +212,9 @@ poetryCollections.forEach(p => {
     md += `| \`${f.file}\` | ${f.count} |\n`;
   });
   
-  md += `\n**Bottom 10 Least Verses**\n\n| File | Verses |\n|------|--------|\n`;
-  const bottom10 = data[p.id].files.slice(-10).reverse();
-  bottom10.forEach(f => {
+  md += `\n**Bottom 40 Least Verses**\n\n| File | Verses |\n|------|--------|\n`;
+  const bottom40List = data[p.id].files.slice(-40).reverse();
+  bottom40List.forEach(f => {
     md += `| \`${f.file}\` | ${f.count} |\n`;
   });
 });

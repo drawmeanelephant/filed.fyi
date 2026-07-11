@@ -31,11 +31,16 @@ This directory contains the pipeline, scaffolding, formatting, and diagnostic sc
 * **Purpose:** Scans the archive to validate all case numbers (`caseNumber: LLG-XXX-XXX`) for uniqueness, uniqueness of references, reciprocity checks, and flags malformed identifiers.
 * **Output:** `exports/casenum-audit-full.md` and `exports/casenum-audit-duplicates.md`
 
-### 📜 `audit-poetry-alignment.mjs`
+### 📜 `audit-poetry-alignment.mjs` (Run via: `npm run audit:poetry-alignment`)
 * **Purpose:** Audits the reciprocity of poetry assignments, ensuring that when a case file (lorelog) references a haiku/limerick, the corresponding poetry file correctly anchors back to the parent.
+* **Usage:** `node scripts/audit-poetry-alignment.mjs [--json] [--fix-preview] [--batch N] [--collection X]`
+  * `--json`: Output machine-readable JSON instead of markdown.
+  * `--fix-preview`: Show suggested frontmatter fixes (does not write changes).
+  * `--batch N`: Only process batch N (each batch = 30 poems).
+  * `--collection X`: Only process collection X (`haikus` | `limericks` | `aphorisms`).
 * **Output:** `exports/poetry-alignment-audit.md`
 
-### 📜 `audit-poetry.mjs`
+### 📜 `audit-poetry.mjs` (Run via: `npm run audit:poetry`)
 * **Purpose:** Generates the master poet registry manifest file for the static site.
 * **Output:** `src/content/docs/reference/fref-0900-poet.mdx`
 
@@ -51,17 +56,43 @@ This directory contains the pipeline, scaffolding, formatting, and diagnostic sc
 * **Purpose:** Performs weight triage on mascots (classifying files as Ghost, Thin, Adequate, or Substantial based on bytes) and logs metadata field coverage gaps.
 * **Output:** `exports/mascot-assurance-audit.md`
 
+### 📜 `audit-form-numbers.mjs` (Run via: `npm run audit:forms`)
+* **Purpose:** Validates form number structures across all collections.
+* **Output:** Standard terminal logs and build checks.
+
 ### 📜 `boundary-audit.mjs`
 * **Purpose:** Runs keyword proximity heuristics to group and map mascot files into access, care-delay, summary laundering, or rear-truth boundary shelves.
 * **Output:** `exports/boundary-audit.md`
+
+### 📜 `governance-suite.mjs` (Run via: `npm run audit:governance`)
+* **Purpose:** Orchestrates case number, containment, and frontmatter integrity audits to generate standard reference documents.
+* **Output:** Emits MDX files inside `src/content/docs/reference/audits/` (e.g., `fref-audt-case.mdx`).
+
+### 📜 `check-box-telemetry.mjs` (Run via: `npm run audit:all`)
+* **Purpose:** Orchestrates full diagnostics suite pre-runs and compiles a unified sandbox cleanup report.
+* **Output:** `exports/unified-cleanup-report.md` and `exports/litter-telemetry.json`.
+
+### 📜 `track-waste.mjs` (Run via: `npm run track -- --add` or `npm run track -- --clear`)
+* **Purpose:** Simple utility to track and manage un-scooped litter metrics in sandbox telemetry.
+* **Usage:**
+  * `npm run track -- --add` - Increment un-scooped turds.
+  * `npm run track -- --clear` - Reset tracking to zero.
+
+### 📜 `poetry-prompt-princess.js`
+* **Purpose:** Specialized helper script to generate structured prompt contexts and statistics for LLM-based poetry tasks.
+
+### 📜 `migrate-poetry-frontmatter.mjs`
+* **Purpose:** Normalizes and migrates old poetry parent reference keys (e.g. `relatedLorelog`, `relatedMascots`) to unified `parentEntry` fields.
+* **Usage:** `node scripts/migrate-poetry-frontmatter.mjs [--dry]`
 
 ### 📜 `astro-diagnostic.mjs`
 * **Purpose:** Pipelines raw frontmatter and body logs of active documents into segmented diagnostics.
 * **Output:** `exports/diag-story-*.md` or `exports/diag-classify-*.md`
 
-### 📜 `astro-book.mjs`
+### 📜 `astro-book.mjs` (Run via: `npm run archive`)
 * **Purpose:** Packages and bundles collections into physical book structures for exports.
 * **Output:** `exports/book-*.md`
+
 
 ---
 
