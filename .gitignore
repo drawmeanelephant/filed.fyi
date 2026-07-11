@@ -23,8 +23,6 @@ pnpm-debug.log*
 # rotkeeping
 astro-sourcebook.md
 node_module_list.md
-deploy.sh
-ship.sh
 graphical-equity
 indexnow.js
 frontmatter_audit.rb
