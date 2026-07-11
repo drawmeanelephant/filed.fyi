@@ -71,17 +71,17 @@ export async function getMatchingPoetry(entry: any) {
 
     if (mascotEntry) {
       matchingHaikus = haikus.filter(h => {
-        const refs = [h.data.mascotRef, ...(h.data.relatedMascots || [])].filter(Boolean);
+        const refs = [(h.data as any).mascotRef, ...((h.data as any).relatedMascots || [])].filter(Boolean);
         return refs.some(ref => isMascotMatch(ref, mascotEntry));
       });
 
       matchingLimericks = limericks.filter(l => {
-        const refs = [l.data.mascotRef, ...(l.data.relatedMascots || [])].filter(Boolean);
+        const refs = [(l.data as any).mascotRef, ...((l.data as any).relatedMascots || [])].filter(Boolean);
         return refs.some(ref => isMascotMatch(ref, mascotEntry));
       });
 
       matchingAphorisms = aphorisms.filter(a => {
-        const refs = [a.data.mascotRef, ...(a.data.relatedMascots || [])].filter(Boolean);
+        const refs = [(a.data as any).mascotRef, ...((a.data as any).relatedMascots || [])].filter(Boolean);
         return refs.some(ref => isMascotMatch(ref, mascotEntry));
       });
     }
@@ -126,8 +126,9 @@ export async function getMatchingPoetry(entry: any) {
       ]);
 
       const matchFn = (p: any) => {
-        if (!p.data?.relatedLorelog) return false;
-        const refs = [p.data.relatedLorelog].flat().filter(Boolean);
+        const parentRef = p.data?.parentEntry ?? p.data?.relatedLorelog;
+        if (!parentRef) return false;
+        const refs = [parentRef].flat().filter(Boolean);
         return refs.some((ref: any) => String(ref).toUpperCase().trim() === targetCaseNum);
       };
 

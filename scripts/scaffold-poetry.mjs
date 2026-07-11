@@ -85,7 +85,7 @@ async function generateStub(poetryType, sourceDir, sourceFile, sourceData, targe
 
     let mascotRef = 'null';
     let relatedMascots = '[]';
-    let relatedLorelog = 'null';
+    let parentEntry = 'null';
 
     const mascotMatch = cleanName.match(/^(\d{3})\.(.*)$/);
 
@@ -96,8 +96,8 @@ async function generateStub(poetryType, sourceDir, sourceFile, sourceData, targe
             mascotRef = `'${cleanName}'`;
         }
         relatedMascots = `['${cleanName}']`;
-    } else if (sourceDir === 'lorelog') {
-        relatedLorelog = `'${cleanName}'`;
+    } else if (sourceDir === 'lorelog' || sourceDir === 'reference') {
+        parentEntry = `'${cleanName}'`;
     }
 
     const mdxContent = `---
@@ -107,7 +107,7 @@ description: "Procedural stub awaiting contextual binding for ${sourceData.title
 date: ${new Date().toISOString()}
 author: System
 status: partial
-relatedLorelog: ${relatedLorelog}
+parentEntry: ${parentEntry}
 relatedMascots: ${relatedMascots}
 mascotRef: ${mascotRef}
 concepts:

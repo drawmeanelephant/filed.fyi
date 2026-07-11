@@ -145,6 +145,20 @@ const lorelogs = lorelogFiles.map(f => {
 });
 console.error(`  → ${lorelogs.length} lorelogs loaded`);
 
+console.error('Loading reference docs...');
+const referenceFiles = getMdxFiles(path.join(docsDir, 'reference'));
+const referenceDocs = referenceFiles.map(f => {
+  const { frontmatter } = parseFrontmatter(f);
+  const id = path.basename(f, path.extname(f));
+  return {
+    id,
+    file: f,
+    title: frontmatter.title ?? null,
+    caseNumber: frontmatter.caseNumber ?? null,
+  };
+});
+console.error(`  → ${referenceDocs.length} reference docs loaded`);
+
 // Build lorelog→poem claim maps (replicating CollectionRegister logic)
 const poemToLorelogMap = new Map(); // poemName → lorelogId
 for (const lg of lorelogs) {
@@ -186,7 +200,7 @@ for (const coll of poetryCollections) {
 
   const files = getMdxFiles(coll.dir);
   for (const f of files) {
-    const { frontmatter } = parseFrontmatter(f);
+    const { frontmatter, body } = parseFrontmatter(f);
     const basename = path.basename(f, path.extname(f));
     const poemName = basename.toLowerCase().trim();
 
@@ -197,7 +211,8 @@ for (const coll of poetryCollections) {
       poemName,
       mascotRef: frontmatter.mascotRef ?? null,
       relatedMascots: Array.isArray(frontmatter.relatedMascots) ? frontmatter.relatedMascots.filter(Boolean) : [],
-      relatedLorelog: frontmatter.relatedLorelog ?? null,
+      parentEntry: frontmatter.parentEntry ?? frontmatter.relatedLorelog ?? null,
+      body,
     });
   }
 }
@@ -237,6 +252,13 @@ function resolvePoem(poem) {
   const poemRefs = [poem.mascotRef, ...poem.relatedMascots].filter(Boolean);
   result.refs = poemRefs;
 
+  // Check layout tags
+  const hasLimerick = /<Limerick/i.test(poem.body || '');
+  const hasBroside = /<Broside/i.test(poem.body || '');
+  if (!hasLimerick && !hasBroside) {
+    result.issues.push('Poem is missing required layout tags (<Limerick> or <Broside>)');
+  }
+
   // ── Step 1: Lorelog claim check ──
   // This mirrors CollectionRegister's poemToLorelogMap lookup
   if (poemToLorelogMap.has(poem.poemName)) {
@@ -246,14 +268,14 @@ function resolvePoem(poem) {
     result.parentId = lorelogId;
     result.resolvedVia = 'lorelog.relatedHaiku/relatedLimerick';
 
-    // Cross-check: if poem also declares a relatedLorelog, does it match?
-    if (poem.relatedLorelog && poem.relatedLorelog !== 'null') {
-      const declaredLlgs = (Array.isArray(poem.relatedLorelog) ? poem.relatedLorelog : [poem.relatedLorelog])
+    // Cross-check: if poem also declares a parentEntry, does it match?
+    if (poem.parentEntry && poem.parentEntry !== 'null') {
+      const declaredParents = (Array.isArray(poem.parentEntry) ? poem.parentEntry : [poem.parentEntry])
         .map(x => String(x).toLowerCase().trim());
       const actualLlg = lorelogId.toLowerCase().trim();
-      const hasMatch = declaredLlgs.some(declared => actualLlg.includes(declared) || declared.includes(actualLlg));
+      const hasMatch = declaredParents.some(declared => actualLlg.includes(declared) || declared.includes(actualLlg));
       if (!hasMatch) {
-        result.issues.push(`Poem declares relatedLorelog="${JSON.stringify(poem.relatedLorelog)}" but lorelog claiming it is "${lorelogId}"`);
+        result.issues.push(`Poem declares parentEntry="${JSON.stringify(poem.parentEntry)}" but lorelog claiming it is "${lorelogId}"`);
       }
     }
 
@@ -331,17 +353,17 @@ function resolvePoem(poem) {
     return result;
   }
 
-  // ── Step 3: Check poem's relatedLorelog (poem-side declaration) ──
-  // Some poems declare relatedLorelog but the lorelog doesn't claim them back.
-  // The MarkdownContent component only renders poems inline if the lorelog claims them.
-  if (poem.relatedLorelog && poem.relatedLorelog !== 'null') {
-    const declaredLlgs = (Array.isArray(poem.relatedLorelog) ? poem.relatedLorelog : [poem.relatedLorelog])
+  // ── Step 3: Check poem's parentEntry (poem-side declaration) ──
+  // Some poems declare parentEntry but the parent doesn't claim them back (or it's a reference page which doesn't have explicit poem links, but they match).
+  if (poem.parentEntry && poem.parentEntry !== 'null') {
+    const declaredParents = (Array.isArray(poem.parentEntry) ? poem.parentEntry : [poem.parentEntry])
       .map(x => String(x).toLowerCase().trim());
     
-    // Find if any of the declared lorelogs exist
+    // Find if any of the declared parents exist in lorelogs
     const matchingLorelogs = lorelogs.filter(lg => {
       const lgId = lg.id.toLowerCase().trim();
-      return declaredLlgs.some(declared => lgId === declared || lgId.includes(declared) || declared.includes(lgId));
+      const lgCaseNum = lg.caseNumber ? lg.caseNumber.toLowerCase().trim() : '';
+      return declaredParents.some(declared => lgId === declared || lgId.includes(declared) || declared.includes(lgId) || lgCaseNum === declared);
     });
 
     if (matchingLorelogs.length > 0) {
@@ -349,18 +371,36 @@ function resolvePoem(poem) {
       result.status = 'UNCLAIMED';
       result.parentType = 'lorelog';
       result.parentId = matchingLorelogs.map(m => m.id).join(', ');
-      result.resolvedVia = 'poem.relatedLorelog (NOT claimed by lorelog)';
-      result.issues.push(`Poem declares relatedLorelog="${JSON.stringify(poem.relatedLorelog)}" and lorelog(s) "${result.parentId}" exist, but do NOT list this poem in relatedHaiku/relatedLimerick`);
-    } else {
-      result.status = 'DEAD_REF';
-      result.issues.push(`Poem declares relatedLorelog="${JSON.stringify(poem.relatedLorelog)}" but no such lorelog exists`);
+      result.resolvedVia = 'poem.parentEntry (NOT claimed by lorelog)';
+      result.issues.push(`Poem declares parentEntry="${JSON.stringify(poem.parentEntry)}" and lorelog(s) "${result.parentId}" exist, but do NOT list this poem in relatedHaiku/relatedLimerick`);
+      return result;
     }
+
+    // Find if any of the declared parents exist in reference pages
+    const matchingReferences = referenceDocs.filter(refDoc => {
+      const refId = refDoc.id.toLowerCase().trim();
+      const refCaseNum = refDoc.caseNumber ? refDoc.caseNumber.toLowerCase().trim() : '';
+      return declaredParents.some(declared => refId === declared || refId.includes(declared) || declared.includes(refId) || refCaseNum === declared);
+    });
+
+    if (matchingReferences.length > 0) {
+      // Reference page exists! Since reference pages don't have claim arrays, this is a PASS
+      result.status = 'PASS';
+      result.parentType = 'reference';
+      result.parentId = matchingReferences[0].id;
+      result.resolvedVia = 'parentEntry (matches reference page)';
+      return result;
+    }
+
+    // Neither exists
+    result.status = 'DEAD_REF';
+    result.issues.push(`Poem declares parentEntry="${JSON.stringify(poem.parentEntry)}" but no matching lorelog or reference doc exists`);
     return result;
   }
 
   // Pure orphan — no refs at all
   result.status = 'ORPHAN';
-  result.issues.push('No mascotRef, relatedMascots, or relatedLorelog declared; no lorelog claims this poem');
+  result.issues.push('No mascotRef, relatedMascots, or parentEntry declared; no lorelog claims this poem');
   return result;
 }
 
@@ -388,17 +428,24 @@ const stats = {
   deadRef: results.filter(r => r.status === 'DEAD_REF').length,
   unclaimed: results.filter(r => r.status === 'UNCLAIMED').length,
   ambiguous: results.filter(r => r.status === 'AMBIGUOUS').length,
+  missingTags: results.filter(r => r.issues.some(i => i.includes('layout tags'))).length,
 };
 
 const byCollection = {};
 for (const r of results) {
-  if (!byCollection[r.collection]) byCollection[r.collection] = { total: 0, pass: 0, orphan: 0, deadRef: 0, unclaimed: 0, ambiguous: 0 };
+  if (!byCollection[r.collection]) {
+    byCollection[r.collection] = { total: 0, pass: 0, orphan: 0, deadRef: 0, unclaimed: 0, ambiguous: 0, missingTags: 0 };
+  }
   byCollection[r.collection].total++;
   if (r.status === 'PASS') byCollection[r.collection].pass++;
   else if (r.status === 'ORPHAN') byCollection[r.collection].orphan++;
   else if (r.status === 'DEAD_REF') byCollection[r.collection].deadRef++;
   else if (r.status === 'UNCLAIMED') byCollection[r.collection].unclaimed++;
   else if (r.status === 'AMBIGUOUS') byCollection[r.collection].ambiguous++;
+
+  if (r.issues.some(i => i.includes('layout tags'))) {
+    byCollection[r.collection].missingTags++;
+  }
 }
 
 // ── Output ────────────────────────────────────────
@@ -421,6 +468,7 @@ lines.push(`orphan_poems: ${stats.orphan}`);
 lines.push(`dead_ref_poems: ${stats.deadRef}`);
 lines.push(`unclaimed_poems: ${stats.unclaimed}`);
 lines.push(`ambiguous_poems: ${stats.ambiguous}`);
+lines.push(`missing_tags_poems: ${stats.missingTags}`);
 if (batchNum != null) lines.push(`batch: ${batchNum}`);
 if (collFilter) lines.push(`collection_filter: "${collFilter}"`);
 lines.push('---');
@@ -443,22 +491,23 @@ lines.push(`| 🔴 ORPHAN (no parent found) | ${stats.orphan} |`);
 lines.push(`| 💀 DEAD_REF (ref doesn't match) | ${stats.deadRef} |`);
 lines.push(`| ⚠️ UNCLAIMED (lorelog exists but doesn't claim) | ${stats.unclaimed} |`);
 lines.push(`| 🟡 AMBIGUOUS (multiple parents) | ${stats.ambiguous} |`);
+lines.push(`| ❌ MISSING_TAGS (no <Limerick> or <Broside>) | ${stats.missingTags} |`);
 lines.push('');
 
 // Per-collection breakdown
 lines.push('## Per-Collection Breakdown');
 lines.push('');
-lines.push('| Collection | Total | PASS | ORPHAN | DEAD_REF | UNCLAIMED | AMBIGUOUS |');
-lines.push('|------------|-------|------|--------|----------|-----------|-----------|');
+lines.push('| Collection | Total | PASS | ORPHAN | DEAD_REF | UNCLAIMED | AMBIGUOUS | MISSING_TAGS |');
+lines.push('|------------|-------|------|--------|----------|-----------|-----------|--------------|');
 for (const [coll, s] of Object.entries(byCollection)) {
-  lines.push(`| ${coll} | ${s.total} | ${s.pass} | ${s.orphan} | ${s.deadRef} | ${s.unclaimed} | ${s.ambiguous} |`);
+  lines.push(`| ${coll} | ${s.total} | ${s.pass} | ${s.orphan} | ${s.deadRef} | ${s.unclaimed} | ${s.ambiguous} | ${s.missingTags} |`);
 }
 lines.push('');
 
 // Failures detail
-const failures = results.filter(r => r.status !== 'PASS');
+const failures = results.filter(r => r.status !== 'PASS' || r.issues.length > 0);
 if (failures.length > 0) {
-  lines.push('## Non-Passing Poems');
+  lines.push('## Non-Passing or Faulty Poems');
   lines.push('');
   lines.push('| File | Status | Refs | Parent Found | Issues |');
   lines.push('|------|--------|------|-------------|--------|');
@@ -472,7 +521,7 @@ if (failures.length > 0) {
 }
 
 // Passing poems (compact)
-const passing = results.filter(r => r.status === 'PASS');
+const passing = results.filter(r => r.status === 'PASS' && r.issues.length === 0);
 if (passing.length > 0) {
   lines.push('## Passing Poems');
   lines.push('');
@@ -499,9 +548,10 @@ console.log(`✓ Created exports/poetry-alignment-audit.md`);
 
 // Summary to stderr
 console.error('─'.repeat(60));
-console.error(`Audit complete: ${stats.pass} PASS / ${stats.total - stats.pass} NON-PASS out of ${stats.total} poems`);
+console.error(`Audit complete: ${stats.pass} PASS (aligned) / ${stats.total - stats.pass} NON-PASS out of ${stats.total} poems`);
 if (stats.orphan) console.error(`  🔴 ${stats.orphan} orphans (no parent at all)`);
 if (stats.deadRef) console.error(`  💀 ${stats.deadRef} dead refs (ref doesn't match any mascot)`);
 if (stats.unclaimed) console.error(`  ⚠️  ${stats.unclaimed} unclaimed (lorelog exists but doesn't list poem)`);
 if (stats.ambiguous) console.error(`  🟡 ${stats.ambiguous} ambiguous (multiple parents matched)`);
+if (stats.missingTags) console.error(`  ❌ ${stats.missingTags} missing layout tags (<Limerick> or <Broside>)`);
 console.error('─'.repeat(60));

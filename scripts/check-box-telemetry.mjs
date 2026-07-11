@@ -61,6 +61,7 @@ const align_orphan_poems      = fetchMetric('poetry-alignment-audit.md', 'orphan
 const align_dead_refs         = fetchMetric('poetry-alignment-audit.md', 'dead_ref_poems');
 const align_unclaimed         = fetchMetric('poetry-alignment-audit.md', 'unclaimed_poems');
 const align_ambiguous         = fetchMetric('poetry-alignment-audit.md', 'ambiguous_poems');
+const align_missing_tags      = fetchMetric('poetry-alignment-audit.md', 'missing_tags_poems');
 
 const integrity_anomalies     = fetchMetric('frontmatter-integrity-audit.md', 'anomalies_count');
 
@@ -77,7 +78,7 @@ const mascot_self_anomalies   = fetchMetric('mascot-assurance-audit.md', 'self_a
 const totalDigitalDebt = 
   grave_title_decay + grave_collisions + grave_naming_leaks + grave_missing_poetry + grave_orphans +
   case_missing + case_dead_refs + case_unclaimed + case_malformed + case_duplicates +
-  align_orphan_poems + align_dead_refs + align_unclaimed + align_ambiguous +
+  align_orphan_poems + align_dead_refs + align_unclaimed + align_ambiguous + align_missing_tags +
   integrity_anomalies + mascot_desc_gaps + mascot_origin_gaps + mascot_affil_gaps +
   mascot_tags_gaps + mascot_rel_gaps + mascot_depth_gaps + mascot_self_anomalies;
 
@@ -119,6 +120,7 @@ This master ledger consolidates metrics harvested from the frontmatter headers o
 *   Dead References: \`${align_dead_refs}\`
 *   Unclaimed Poetry Targets: \`${align_unclaimed}\`
 *   Ambiguous (Multiple Matches): \`${align_ambiguous}\`
+*   Missing Layout Tags (No <Limerick> or <Broside>): \`${align_missing_tags}\`
 
 ### 📄 Structural Data Anomalies
 *   Frontmatter Schema Collapse Anomalies: \`${integrity_anomalies}\`

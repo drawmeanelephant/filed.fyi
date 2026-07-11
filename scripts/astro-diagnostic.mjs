@@ -120,11 +120,12 @@ function buildBlock_story(filePath, relPath, collection) {
   }
 
   // Populate relatedLorelog
-  if (frontmatter.relatedLorelog) {
-    if (Array.isArray(frontmatter.relatedLorelog)) {
-      relations.relatedLorelog.push(...frontmatter.relatedLorelog.filter(Boolean).map(String));
+  const parentRef = frontmatter.parentEntry ?? frontmatter.relatedLorelog;
+  if (parentRef) {
+    if (Array.isArray(parentRef)) {
+      relations.relatedLorelog.push(...parentRef.filter(Boolean).map(String));
     } else {
-      relations.relatedLorelog.push(String(frontmatter.relatedLorelog));
+      relations.relatedLorelog.push(String(parentRef));
     }
   }
 
