@@ -181,13 +181,13 @@ export function runCaseNumberAudit(writeFiles = true) {
     // A. Poem/Mascot -> Parent (or other expected source) exist check
     if (['haikus', 'limericks', 'aphorisms', 'mascots'].includes(r.collection)) {
       const key = r.caseNumber.toUpperCase();
-      const isLlgOrOcv = key.startsWith('LLG-') || key.startsWith('OCV-') || key.startsWith('FREF-');
+      const isLlgOrOcv = key.startsWith('LLG-') || key.startsWith('OCV-') || key.startsWith('FREF-') || key.startsWith('MASCOT-');
       
       if (isLlgOrOcv) {
-        const lorelogsWithCaseNum = (caseNumberMap.get(key) || []).filter(m => ['lorelog', 'reference'].includes(m.collection));
+        const lorelogsWithCaseNum = (caseNumberMap.get(key) || []).filter(m => ['lorelog', 'reference', 'mascots'].includes(m.collection));
         if (lorelogsWithCaseNum.length === 0) {
           r.status = 'DEAD_REF';
-          r.issues.push(`caseNumber "${r.caseNumber}" specifies a parent record, but no matching lorelog/reference page exists`);
+          r.issues.push(`caseNumber "${r.caseNumber}" specifies a parent record, but no matching lorelog/reference page/mascot exists`);
         }
       }
 
@@ -196,10 +196,10 @@ export function runCaseNumberAudit(writeFiles = true) {
         const declared = [parentRef].flat().filter(Boolean);
         for (const d of declared) {
           const dKey = d.toUpperCase();
-          const exists = records.some(m => ['lorelog', 'reference'].includes(m.collection) && m.caseNumber.toUpperCase() === dKey);
+          const exists = records.some(m => ['lorelog', 'reference', 'mascots'].includes(m.collection) && m.caseNumber.toUpperCase() === dKey);
           if (!exists) {
             r.status = 'DEAD_REF';
-            r.issues.push(`declared parentEntry/relatedLorelog "${d}" does not exist in lorelogs or references`);
+            r.issues.push(`declared parentEntry/relatedLorelog "${d}" does not exist in lorelogs or references or mascots`);
           }
         }
       }
@@ -297,11 +297,11 @@ export function runCaseNumberAudit(writeFiles = true) {
       const parentRefs = [r.caseNumber, parentRef]
         .flat()
         .filter(Boolean)
-        .filter(x => x.toUpperCase().startsWith('LLG-') || x.toUpperCase().startsWith('OCV-') || x.toUpperCase().startsWith('FREF-'));
+        .filter(x => x.toUpperCase().startsWith('LLG-') || x.toUpperCase().startsWith('OCV-') || x.toUpperCase().startsWith('FREF-') || x.toUpperCase().startsWith('MASCOT-'));
         
       for (const pRef of parentRefs) {
         const pKey = pRef.toUpperCase();
-        const parentRec = records.find(m => ['lorelog', 'reference'].includes(m.collection) && m.caseNumber && m.caseNumber.toUpperCase() === pKey);
+        const parentRec = records.find(m => ['lorelog', 'reference', 'mascots'].includes(m.collection) && m.caseNumber && m.caseNumber.toUpperCase() === pKey);
         
         if (parentRec) {
           let claimed = false;
@@ -323,8 +323,8 @@ export function runCaseNumberAudit(writeFiles = true) {
             claimed = mascots.some(m => findRecord(m, 'mascots')?.filePath === r.filePath);
           }
           
-          if (parentRec.collection === 'reference') {
-            claimed = true; // Reference pages don't list explicit poem claims in arrays
+          if (parentRec.collection === 'reference' || parentRec.collection === 'mascots') {
+            claimed = true; // Reference and Mascot pages don't list explicit poem claims in arrays
           }
           
           if (!claimed && parentRec.frontmatter.relatedEntries) {

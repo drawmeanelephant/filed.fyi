@@ -124,6 +124,7 @@ const mascots = mascotFiles.map(f => {
     title: frontmatter.title ?? null,
     name: frontmatter.name ?? null,
     displayName: frontmatter.name ?? frontmatter.title ?? null,
+    caseNumber: frontmatter.caseNumber ?? null,
   };
 });
 console.error(`  → ${mascots.length} mascots loaded`);
@@ -392,9 +393,26 @@ function resolvePoem(poem) {
       return result;
     }
 
+    // Find if any of the declared parents exist in mascots
+    const matchingMascots = mascots.filter(m => {
+      const mId = m.id.toLowerCase().trim();
+      const mCaseNum = m.mascotId ? String(m.mascotId).toLowerCase().trim() : '';
+      const mCaseNum2 = m.caseNumber ? m.caseNumber.toLowerCase().trim() : '';
+      return declaredParents.some(declared => mId === declared || mId.includes(declared) || declared.includes(mId) || mCaseNum === declared || mCaseNum2 === declared);
+    });
+
+    if (matchingMascots.length > 0) {
+      // Mascot exists! Since mascot pages don't have claim arrays in frontmatter, this is a PASS
+      result.status = 'PASS';
+      result.parentType = 'mascot';
+      result.parentId = matchingMascots[0].id;
+      result.resolvedVia = 'parentEntry (matches mascot page)';
+      return result;
+    }
+
     // Neither exists
     result.status = 'DEAD_REF';
-    result.issues.push(`Poem declares parentEntry="${JSON.stringify(poem.parentEntry)}" but no matching lorelog or reference doc exists`);
+    result.issues.push(`Poem declares parentEntry="${JSON.stringify(poem.parentEntry)}" but no matching lorelog, reference doc, or mascot exists`);
     return result;
   }
 
