@@ -1,0 +1,7 @@
+1. We need to generate exactly 5 matching verses using tone MISFILED_CONFIDENCE for the target files: `lim-anlas-appenhancer.mdx` and `LIM-LLG-0007-COMA.mdx`. I'll generate 3 limericks for `lim-anlas-appenhancer.mdx` and 2 for `LIM-LLG-0007-COMA.mdx`.
+2. I will append the generated limericks to their respective files using `cat << 'EOF' >> <file>`. The tone MISFILED_CONFIDENCE calls for extreme, unwarranted certainty in something that is completely miscategorized or handled incorrectly.
+3. The format requires using `<Limerick>` components, similar to existing ones: `<Limerick type="note" title="..." icon="...">...verse...</Limerick>`.
+4. I will verify the changes using `tail -n 30` on both files.
+5. I'll execute the verification test suite: `npm ci --legacy-peer-deps && npm run build && npm run audit:poetry && npx markdownlint-cli "src/content/**/*.mdx"`.
+6. To maintain target isolation and clean workspace, I'll run `rm -rf .jules/scratchpad src/data/sidecar/batch_*.json`, followed by `git restore --staged src/data/sidecar/batch_*.json || true` and `git checkout HEAD -- src/data/sidecar/batch_*.json src/content/docs/reference/fref-*.mdx || true`.
+7. Request plan review to ensure this meets requirements.
