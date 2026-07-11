@@ -160,6 +160,48 @@ const referenceDocs = referenceFiles.map(f => {
 });
 console.error(`  → ${referenceDocs.length} reference docs loaded`);
 
+console.error('Loading guides...');
+const guideFiles = getMdxFiles(path.join(docsDir, 'guides'));
+const guides = guideFiles.map(f => {
+  const { frontmatter } = parseFrontmatter(f);
+  const id = path.basename(f, path.extname(f));
+  return {
+    id,
+    file: f,
+    title: frontmatter.title ?? null,
+    caseNumber: frontmatter.caseNumber ?? null,
+  };
+});
+console.error(`  → ${guides.length} guides loaded`);
+
+console.error('Loading posts...');
+const postFiles = getMdxFiles(path.join(docsDir, 'posts'));
+const posts = postFiles.map(f => {
+  const { frontmatter } = parseFrontmatter(f);
+  const id = path.basename(f, path.extname(f));
+  return {
+    id,
+    file: f,
+    title: frontmatter.title ?? null,
+    caseNumber: frontmatter.caseNumber ?? null,
+  };
+});
+console.error(`  → ${posts.length} posts loaded`);
+
+console.error('Loading releases...');
+const releaseFiles = getMdxFiles(path.join(docsDir, 'releases'));
+const releases = releaseFiles.map(f => {
+  const { frontmatter } = parseFrontmatter(f);
+  const id = path.basename(f, path.extname(f));
+  return {
+    id,
+    file: f,
+    title: frontmatter.title ?? null,
+    caseNumber: frontmatter.caseNumber ?? null,
+  };
+});
+console.error(`  → ${releases.length} releases loaded`);
+
 // Build lorelog→poem claim maps (replicating CollectionRegister logic)
 const poemToLorelogMap = new Map(); // poemName → lorelogId
 for (const lg of lorelogs) {
@@ -410,9 +452,54 @@ function resolvePoem(poem) {
       return result;
     }
 
+    // Find if any of the declared parents exist in guides
+    const matchingGuides = guides.filter(g => {
+      const gId = g.id.toLowerCase().trim();
+      const gCaseNum = g.caseNumber ? g.caseNumber.toLowerCase().trim() : '';
+      return declaredParents.some(declared => gId === declared || gId.includes(declared) || declared.includes(gId) || gCaseNum === declared);
+    });
+
+    if (matchingGuides.length > 0) {
+      result.status = 'PASS';
+      result.parentType = 'guide';
+      result.parentId = matchingGuides[0].id;
+      result.resolvedVia = 'parentEntry (matches guide page)';
+      return result;
+    }
+
+    // Find if any of the declared parents exist in posts
+    const matchingPosts = posts.filter(p => {
+      const pId = p.id.toLowerCase().trim();
+      const pCaseNum = p.caseNumber ? p.caseNumber.toLowerCase().trim() : '';
+      return declaredParents.some(declared => pId === declared || pId.includes(declared) || declared.includes(pId) || pCaseNum === declared);
+    });
+
+    if (matchingPosts.length > 0) {
+      result.status = 'PASS';
+      result.parentType = 'post';
+      result.parentId = matchingPosts[0].id;
+      result.resolvedVia = 'parentEntry (matches post page)';
+      return result;
+    }
+
+    // Find if any of the declared parents exist in releases
+    const matchingReleases = releases.filter(r => {
+      const rId = r.id.toLowerCase().trim();
+      const rCaseNum = r.caseNumber ? r.caseNumber.toLowerCase().trim() : '';
+      return declaredParents.some(declared => rId === declared || rId.includes(declared) || declared.includes(rId) || rCaseNum === declared);
+    });
+
+    if (matchingReleases.length > 0) {
+      result.status = 'PASS';
+      result.parentType = 'release';
+      result.parentId = matchingReleases[0].id;
+      result.resolvedVia = 'parentEntry (matches release page)';
+      return result;
+    }
+
     // Neither exists
     result.status = 'DEAD_REF';
-    result.issues.push(`Poem declares parentEntry="${JSON.stringify(poem.parentEntry)}" but no matching lorelog, reference doc, or mascot exists`);
+    result.issues.push(`Poem declares parentEntry="${JSON.stringify(poem.parentEntry)}" but no matching lorelog, reference doc, mascot, guide, post, or release exists`);
     return result;
   }
 

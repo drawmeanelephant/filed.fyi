@@ -1,5 +1,6 @@
 ---
 title: Replacement Without Release
+caseNumber: "POST-REPLACEMENT-WITHOUT-RELEASE"
 slug: posts/replacement-without-release
 date: "2026-06-11"
 description: >-
@@ -26,7 +27,7 @@ relatedEntries:
     id: LLG-0441-TSR
 concepts:
   - core-doctrines
-updatedAt: "2026-06-13"
+updatedAt: "2026-07-10"
 ---
 
 The replacement was announced on time and inherited the room tone immediately.

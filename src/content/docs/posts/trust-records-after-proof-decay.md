@@ -1,5 +1,6 @@
 ---
 title: Trust Records After Proof Decay
+caseNumber: "POST-TRUST-RECORDS-AFTER-PROOF-DECAY"
 slug: posts/trust-records-after-proof-decay
 date: "2026-06-08"
 description: >
@@ -15,7 +16,7 @@ relatedEntries:
     id: LLG-0408-DTS-DEP
   - collection: docs
     id: reference/fref-0823-tsrt
-updatedAt: "2026-06-13"
+updatedAt: "2026-07-10"
 ---
 
 A mark stayed green long enough to stop being read as a question.

@@ -92,17 +92,26 @@ async function generateStub(poetryType, sourceDir, sourceFile, sourceData, targe
     if (sourceDir === 'mascots') {
         if (mascotMatch) {
             mascotRef = `'${mascotMatch[2]}'`;
+            parentEntry = `'MASCOT-${mascotMatch[2].replace(/[^a-zA-Z0-9]/g, '-').toUpperCase()}'`;
         } else {
             mascotRef = `'${cleanName}'`;
+            parentEntry = `'MASCOT-${cleanName.replace(/[^a-zA-Z0-9]/g, '-').toUpperCase()}'`;
         }
         relatedMascots = `['${cleanName}']`;
     } else if (sourceDir === 'lorelog' || sourceDir === 'reference') {
         parentEntry = `'${cleanName}'`;
     }
 
+    let caseNumber = 'null';
+    if (parentEntry !== 'null') {
+        const peVal = parentEntry.replace(/^'|'$/g, '');
+        caseNumber = `'${prefixMap[poetryType].toUpperCase()}-${peVal}'`;
+    }
+
     const mdxContent = `---
 title: "Stub: ${sourceData.title.replace(/"/g, '\\"')}"
 slug: ${poetryType}/${targetFilename.replace(/\.mdx?$/, '')}
+caseNumber: ${caseNumber}
 description: "Procedural stub awaiting contextual binding for ${sourceData.title.replace(/"/g, '\\"')}"
 date: ${new Date().toISOString()}
 author: System
