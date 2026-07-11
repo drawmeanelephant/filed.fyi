@@ -1,0 +1,2274 @@
+{
+  "batch_timestamp": "2026-07-11T16:26:17.429Z",
+  "total_files_processed": 567,
+  "records": [
+    {
+      "file_path": "src/content/docs/changelog/2026-04-22-init.md",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/guides/gratitude-drift.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/guides/managed-absence-and-forms.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/guides/mascot-containment-and-breeding.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/index.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/DS-404-ALPHA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0001-NAV.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0002-CED.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0003-SVR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0004-SMD.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0007-COMA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0012-A.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0019-COMA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0020-COMA19-PBC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0027-B.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0040-C.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0051-E.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0052-MFX.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0072-SOMA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0088-B.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0103-COMA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0114-SOMA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0115-TNS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0217-CNTR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0218-FSD.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0220-UIS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0223-EFA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0226-SUPR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0230-HYG.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0244-FSC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0300-SC-X.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0302-CNTR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0311-SRA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0316-LC22.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0316-MBR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0317-RLS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0318-SRO.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0319-PAS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0320-FRK.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0321-DRT.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0322-FTD.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0323-ASD.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0323-LC04.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0324-MAP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0325-ORT.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0326-DCB.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0326-DXS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0327-AVA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0327-AVR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0328-MEC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0329-OIR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0330-TDE.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0331-TPI.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0332-SCD.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0333-MEO.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0334-CSI.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0336-CSE.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0338-SBI.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0339-SIRC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0340-BPO.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0341-LME.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0350-DOGE-CHARTER.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0351-DOGE-INTAKE.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0352-DOGE-RUBRIC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0354-DOGE-EDGE-CASES.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0355-GEX-2R.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0356-DOGE-MEMO-FEELINGS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0357-DOGE-RID.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0358-DOGE-W3.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0359-DOGE-AFTERCARE.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0360-RAGE-CHARTER.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0361-DOGE-STAMP-DRIFT.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0362-RAGE-EXTRACTION.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0363-RAGE-MISIDENTIFICATION.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0364-RAGE-BAIT-TAXONOMY.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0365-BAIT-B2A.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0366-BAIT-B4A.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0367-BAIT-B3A.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0368-RAGE-AQ.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0369-DOGE-SWAB.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0370-XEV.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0371-BAIT-B2B.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0372-BAIT-B5.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0373-DOGE-W5.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0374-DOGE-LA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0375-BREED.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0376-BREED-GOV.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0377-GRAT.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0378-WFA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0379-ROBOT-MEMO.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0380-MATCH.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0381-OPTOUT.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0382-BPD.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0383-RAW.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0384-CIR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0385-CEB.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0385-SED.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0386-LODGE-MERGE.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0387-SURV-NOP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0388-EC-ORDER.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0389-AKL.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0389-MQM.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0390-HAP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0390-KCL.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0391-LAA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0391-RCD.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0392-RCS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0392-SGL.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0393-BDA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0393-RBR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0394-PRS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0395-MSS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0396-MSP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0397-SBF.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0398-CCO.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0399-OCS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0400-CMA-TSP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0400-SCAS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0400-TRIAD.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0401-GLP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0401-SCAS-ECHO.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0402-FSR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0402-GMP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0403-CWR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0403-WBA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0404-DCP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0404-UPLC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0405-DEV.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0405-MEL.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0405-SAC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0406-FSD.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0407-SSP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0408-AH1.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0408-DTS-DEP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0409-IEL.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0409-PRE.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-040X-ANLAS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0410-BWS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0411-RRC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0414-WAD.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0418-RSK.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0422-SCP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0427-RAC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0430-HBR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0436-ASF.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0441-TSR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0446-OQF.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0447-SLA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-04XX-CLIN-404.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0811-EG.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0812-CTM.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0819-K.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0820-MCR.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0821-SCL.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0822-RKI.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0824-GBC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0833-GTA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0840-RCL.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0842-PCL.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0846-SIP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0851-CSI.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0857-WLI.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0861-ACS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0861-ARC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0861-FPP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0861-FRL.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0863-MAS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0864-WRC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0870-EAS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0871-ASF.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-0890-EPS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-08xx-EPS.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-BHDSS-TOAST.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-CLIN-COMP-KAIZEN.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-CREDITS-GTA.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-DMAIC-RITE.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-EL-0x7E.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-IA-8C-ANNEX.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-IA-8C-DRIFT-01.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-IA-8C-DRIFT-02.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-MA-8C-PEPPY-01.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-MA8C-06.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-SYS-8-REINDEX-01.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-SYS-8-REINDEX-02.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/LLG-TDCIP-OVERCOH.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/OCV-0409-TSC.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/OCV-INTAKE-LOG.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/SRB-SESSION-NOTES.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/TSA-SESSION-SCHEDULE.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/lorelog/map-inc-14.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/003.blamey-mctypoface.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/004.boily-mcplaterton.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/005.bricky-goldbricksworth.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/006.cass-d-failure.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/007.crashy-mcthinkslow.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/008.cssandra-cascade.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/009.draft-file-derrick.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/010.forbiddy-noentry.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/011.formee-formeson.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/012.gregwar-cache-wizard.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/014.htmlie-structura.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/015.indexer-hexley.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/016.jay-skript.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/017.jpegsey-artifactor.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/018.kafkey-errorhandler.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/019.kindy-mcexistentialcrisis.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/020.maila-delayden.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/021.markie-d-down.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/023.modrewrite-gremblin.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/024.moveda-permanently.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/025.ami-ghostbyte.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/026.bea-crashwell.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/027.comrade-kernelov.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/028.genny-compileheart.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/029.haikool-breeze.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/030.holy-doswell.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/031.melody-errorflood.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/032.neppy-sysdream.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/033.planny-f-pipe.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/034.sol-burnout.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/035.tizzy-blinkensync.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/036.whistlin-winstinct.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/037.winona-crashington.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/039.patchy-mxcli.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/040.pngbert-flatly.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/041.reboota-thrice.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/042.robots-dot-txt.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/044.spooler-gremlin.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/045.strutter-crashley.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/046.svgon-the-line.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/048.twiggy-snipsnark.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/049.updatey-delaybot.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/050.yammy-mcparseface.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/051.zooki-lockjaw.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/052.octomerge.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/053.tabby-fields.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/054.hammy-navstack.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/056.roboshirker.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/057.zhuzhing-ping.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/058.yamteams.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/059.stackdodge.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/060.courier-rat.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/061.parvovirus-p.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/063.parsey-driftchart.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/064.porty-mcbankrupt.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/065.clicky-the-orphaned-ui.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/066.malrex-voidrender.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/067.vexsys-antagon.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/068.veritas-rituallis.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/069.vanda-uiguard.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/070.uncacheable-ursula.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/071.semantic-seymour.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/072.deprecatia-fade.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/073.datty-puritas.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/074.datalock-archivia.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/075.anlas-appenhancer.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/076.av-14-nullseal-register.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/077.ce-5-countersign-aggregate.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/078.si-9-interval-witness.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/079.sc-lambda-care-continuity-split.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/080.bx-6-greybelt-remediator.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/081.lx-2-waiver-apron.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/082.ma-lcgu-porter.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/083.ac-11-sealloop-auditor.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/084.lc-04-soft-green-seal.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/085.rot-mcmascotterton.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/121.archiva-dustwhisper.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/201.quill-staticvox.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/202.ledger-shadeledger.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/203.cinder-forgememo.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/204.pump-razorbackfuel.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/205.texaco-tumbleweed.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/206.diesel-dkdriller.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/207.blue-dreamweaver.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/208.og-kushkeeper.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/209.cookie-crumbleclerk.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/210.sour-dieselscribe.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/211.apex-goldbricker.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/212.jack-hererherald.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/213.ketchup-keeper.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/214.sriracha-sentinel.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/215.guacamole-gardener.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/216.corelock-flavorwarden.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/217.spitzenfile-lord.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/218.crustle-legacycoder.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/219.glassy-maccheckface.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/220.bananuity-clause.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/221.mccrisp-agent.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/222.slidey-deckworm.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/223.placeholder-witness.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/224.velv-stablecoin.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/225.witness-mink-9.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/226.serotonin-sam.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/227.burden-shrew.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/228.proxy-compassion-possum.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/229.soft-green-sealie.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/230.lodgecanary-vellumbeak.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/231.kpi-koala.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/232.greenband-gregor.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/233.gratitude-latch.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/234.kindness-template.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/235.annexa-sorrowmark.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/236.pending-jurisdiction.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/237.index-mourner.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/238.soft-escalation-clerk.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/239.annex-lurker.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/240.badgevine.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/241.care-coverage-wisp.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/242.false-rest-lantern.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/243.compliance-murmur.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/244.sentiment-launderette.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/245.escalady.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/246.thankyou-ash.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/247.ribbon-of-maybe.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/248.attestation-mole.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/249.sealant-patience.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/250.canon-dust-deputy.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/251.variance-pastor.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/252.redaction-lullaby.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/253.local-option-ghost.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/254.spare-comfort-engine.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/255.audit-confetti.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/256.minute-velvet.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/257.orphan-symmetry.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/258.pocket-consensus.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/259.drift-lapel.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/260.sidebar-mercy.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/261.footnote-pallbearer.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/262.recourse-cushion.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/263.gentle-rollback.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/264.corridor-heat.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/265.provisional-mint.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/266.warm-hold-music.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/267.relief-watermark.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/268.appeal-feather.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/269.policy-afterglow.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/270.buffer-saint.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/271.alibi-seal.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/272.shorthand-reliquary.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/273.tier-whisper.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/274.deferment-bloom.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/275.appendix-silk.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/276.mandate-lace.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/277.courtesy-threshold.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/278.benevolence-spacer.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/279.annex-hush.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/280.ribbon-latency.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/281.comfort-ledgerling.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/282.gentility-siphon.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/283.aftercare-vellum.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/284.consent-murmur.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/285.pamphlet-quietus.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/286.favorable-beige.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/287.revival-pocket.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/288.deferential-spark.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/289.recital-of-sufficiency.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/290.hover-parish.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/291.witness-felt.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/292.kind-overdraft.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/293.carpet-jurisdiction.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/294.proxy-lantern.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/295.sanctioned-quilt.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/296.gown-of-recognition.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/297.minute-absolution.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/298.tender-escrow.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/299.seal-of-maybe-enough.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/300.friendship-preamble.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/301.friendrick-the-extant.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/304.brother-optout-pending.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/305.peatworthy-abstention-clerk.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/306.scopekeeper-emeritus.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/307.chairwoman-deferred-change.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/308.sister-casserole-of-relief.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/309.ribbonward-cordialis.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/310.lionell-pancake-auditor.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/311.eagleton-proclamation-clerk.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/312.staged-sobriety.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/313.archive-napkin.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/314.mitigatrix-pending.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/315.lilt-protocol.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/316.pleading-margin.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/317.apology-buoy.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/318.threshold-crooner.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/319.severance-cordial.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/320.quiet-surplus.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/321.ribbon-clause.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/322.unchartable-ida.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/323.caveat-snowglobe.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/324.complimentary-ghostline.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/325.peppy-clerk.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/326.coverage-ledger-cherub.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/327.minutes-without-motion.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/400.bad-request-bob.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/403.htaccessius-the-doorman.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/404.404sy-mclostalot.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/405.method-not-allowed-mel.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/408.the-half-held-breath.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/409.ledger-snag.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/410.vacancy-notice.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/411.inchkeeper-bale.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/412.red-pencil-mercy.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/413.barrelbody.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/414.ribbon-mile.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/415.jarlabel-stranger.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/416.shelfmark-hollow.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/417.the-unmet-bell.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/418.teapotta-protocol.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/421.wrong-door-finch.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/422.form-sister-pale.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/423.keyholder-null.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/424.the-second-domino.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/425.dawnstamp.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/426.old-wire-pilgrim.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/428.safekeeping-clause.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/429.queue-matron.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/431.paper-crown.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/432.afterimage-clerk.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/433.sidecar-conflict-porter.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/434.obsolescence-steward.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/435.driftlocked-policy-box.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/451.the-quiet-injunction.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/502.bad-gateway-greg.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/503.servicey-unavailabelle.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/504.unanswered-knock.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/672.map-72-absentia.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/677.sealward-proxy-9.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/937.blinko-chompframe.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/mascots/938.vantage-hollow.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/posts/FFP-0380.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/posts/FFP-0381.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/posts/FFP-0382.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/posts/FFP-0383.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/posts/FFP-0384.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/posts/coma-observation-transcript.md",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/posts/ffp-0385-progress-without-work.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/posts/replacement-without-release.md",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/posts/trust-records-after-proof-decay.md",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/FREF-0810-DSL.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/FREF-0815-MAP.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/audits/fref-audt-case.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/audits/fref-audt-cont.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/audits/fref-audt-intg.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/directives/tri-directive-doctrine.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0500-egyx.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0510-akdb.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0520-estl.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0530-anxr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0540-anxt.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0550-apan.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0560-asar.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0570-celc.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0580-cmps.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0590-cpsp.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0600-ccph.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0610-cthr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0620-cwsh.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0630-cwlv.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0635-wwlv.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0636-wcr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0640-dcer.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0650-elfr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0660-glng.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0670-gtcap.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0680-gtlm.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0690-gbhm.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0700-hiar.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0710-ikfr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0720-itbd.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0730-lcob.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0740-moc.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0750-pxcm.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0760-rscl.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0770-rhkd.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0780-rsfl.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0790-rlif.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0800-scrl.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0810-slnt.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0820-spc.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0822-elra.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0830-symc.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0840-teh.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0850-vard.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0860-vex.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0870-wtsl.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/empathegy/fref-0880-wprt.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/forms/fref-0020-maps.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/forms/fref-0860-dexe.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/forms/fref-0870-qthr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0030-avsg.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0040-avdn.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0050-avoc.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0060-acmn.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0070-aopt.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0080-srbp.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0090-srbg.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0100-dacb.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0110-dacs.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0120-dcsc.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0130-ocvh.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0140-ocvs.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0150-mapa.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0160-maii.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0170-lgef.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0180-tdci.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0190-slhr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0195-fwru.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0200-cbac.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0210-cbhn.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0220-ccmp.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0230-cmal.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0240-cmrc.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0250-prdm.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0260-bmdh.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0270-bmdc.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0280-cbnd.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0290-ocvh.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0300-clob.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0310-clop.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0320-cseq.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0330-tsac.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0340-tsab.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0350-bhds.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0360-sast.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0370-dcst.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0380-lbkp.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0400-metr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0410-sclb.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0420-ancl.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0430-easp.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0560-adjc.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0570-apcr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0650-pbc.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0661-agbx.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0820-iels.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0821-avtl.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0822-actn.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0823-tsrt.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0824-ovaa.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0825-vhcn.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0826-tsin.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0827-tsxl.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0840-rwrr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0841-rwin.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0850-mard.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0875-dlab.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0900-poet.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0901-apiv.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0902-clls.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0903-rdad.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0904-rdcr.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0905-rdds.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0906-rdrg.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0907-aprf.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0908-clac.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0909-rdpm.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0910-rdcs.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0911-rdfd.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0912-rdrv.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0913-apsh.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0914-clmt.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0915-qmse.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0916-qmba.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0917-qmpo.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/reference/fref-0918-qmcl.mdx",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/releases/v0.1.0.md",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/releases/v0.1.1-trust-surface-residue.md",
+      "verses": []
+    },
+    {
+      "file_path": "src/content/docs/releases/v0.1.2-replacement-without-release.md",
+      "verses": []
+    }
+  ]
+}
