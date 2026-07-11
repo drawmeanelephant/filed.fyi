@@ -176,6 +176,7 @@ updatedAt: ${currentDateStamp}
 # Poetry Collection Audit & Agent Scratchpad Manifest
 This report details the coverage, verse counts, and dynamically calculated subagent staging routes. The active coordination directives are stored out-of-bounds to prevent repository contamination.
 ## 🚀 Active Subagent Flight Manifest (Stored Out-Of-Bounds)
+
 | Agent ID | Vector | Target Files | Injected Tone | Execution State |
 |----------|--------|--------------|---------------|-----------------|
 `;
@@ -325,6 +326,7 @@ poetryCollections.forEach(p => {
 md += `
 ---
 ## Archive Totals
+
 | Collection | Total Files | Total Verses |
 |------------|-------------|--------------|
 `;
@@ -399,6 +401,7 @@ The following ephemeral tracking paths have been isolated for structural verific
 ${agent.fileNames.split(', ').map(f => `* ${f}`).join('\n')}
 ---
 ## 🤖 System Directive Instruction Block
+
 \`\`\`markdown
 ${promptBody}
 \`\`\`
