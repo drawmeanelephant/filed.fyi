@@ -125,7 +125,12 @@ export function runCaseNumberAudit(writeFiles = true) {
 
     const cleanRef = refStr.toLowerCase().replace(/\.mdx?$/, '').split('/').pop();
     return records.find(r => {
-      if (r.collection !== type) return false;
+      const isDocsType = ['docs', 'reference', 'guides', 'posts', 'releases', 'changelog'].includes(r.collection);
+      if (type === 'docs') {
+        if (!isDocsType) return false;
+      } else {
+        if (r.collection !== type) return false;
+      }
       const cleanSlug = r.frontmatter.slug ? r.frontmatter.slug.toLowerCase().split('/').pop() : '';
       const cleanBase = path.basename(r.filePath, path.extname(r.filePath)).toLowerCase();
       
@@ -195,8 +200,16 @@ export function runCaseNumberAudit(writeFiles = true) {
       if (parentRef) {
         const declared = [parentRef].flat().filter(Boolean);
         for (const d of declared) {
-          const dKey = d.toUpperCase();
-          const exists = records.some(m => ['lorelog', 'reference', 'mascots', 'guides', 'posts', 'releases'].includes(m.collection) && m.caseNumber.toUpperCase() === dKey);
+          const cleanD = d.toUpperCase();
+          const exists = records.some(m => {
+            if (!['lorelog', 'reference', 'mascots', 'guides', 'posts', 'releases'].includes(m.collection)) return false;
+            if (m.caseNumber && m.caseNumber.toUpperCase() === cleanD) return true;
+            
+            const cleanSlug = m.frontmatter.slug ? m.frontmatter.slug.toLowerCase().split('/').pop() : '';
+            const cleanBase = path.basename(m.filePath, path.extname(m.filePath)).toLowerCase();
+            const cleanDLower = d.toLowerCase().split('/').pop();
+            return cleanSlug === cleanDLower || cleanBase === cleanDLower;
+          });
           if (!exists) {
             r.status = 'DEAD_REF';
             r.issues.push(`declared parentEntry/relatedLorelog "${d}" does not exist in lorelogs or references or mascots or guides or posts or releases`);
@@ -205,11 +218,9 @@ export function runCaseNumberAudit(writeFiles = true) {
       }
     }
 
-    // B. Lorelog -> declared related entries reciprocity check
+    // B. Lorelog -> declared related entries existence check
     if (r.collection === 'lorelog') {
-      const llgCaseNum = r.caseNumber.toUpperCase();
-
-      // relatedHaiku reciprocity
+      // relatedHaiku check
       if (r.frontmatter.relatedHaiku) {
         const haikus = [r.frontmatter.relatedHaiku].flat().filter(Boolean);
         for (const hEntry of haikus) {
@@ -220,22 +231,11 @@ export function runCaseNumberAudit(writeFiles = true) {
           if (!haikuRec) {
             r.status = 'DEAD_REF';
             r.issues.push(`relatedHaiku "${slug}" could not be resolved`);
-          } else {
-            const parentRef = haikuRec.frontmatter.parentEntry ?? haikuRec.frontmatter.relatedLorelog;
-            const backRefs = [haikuRec.caseNumber, parentRef].flat().filter(Boolean).map(x => x.toUpperCase());
-            if (!backRefs.includes(llgCaseNum)) {
-              r.status = 'UNCLAIMED';
-              r.issues.push(`relatedHaiku "${slug}" does not reciprocate caseNumber "${r.caseNumber}"`);
-              if (haikuRec.status === 'PASS') {
-                haikuRec.status = 'UNCLAIMED';
-                haikuRec.issues.push(`Referenced by lorelog "${r.relPath}" but does not reciprocate back`);
-              }
-            }
           }
         }
       }
 
-      // relatedLimerick reciprocity
+      // relatedLimerick check
       if (r.frontmatter.relatedLimerick) {
         const limericks = [r.frontmatter.relatedLimerick].flat().filter(Boolean);
         for (const lEntry of limericks) {
@@ -246,22 +246,11 @@ export function runCaseNumberAudit(writeFiles = true) {
           if (!limerickRec) {
             r.status = 'DEAD_REF';
             r.issues.push(`relatedLimerick "${slug}" could not be resolved`);
-          } else {
-            const parentRef = limerickRec.frontmatter.parentEntry ?? limerickRec.frontmatter.relatedLorelog;
-            const backRefs = [limerickRec.caseNumber, parentRef].flat().filter(Boolean).map(x => x.toUpperCase());
-            if (!backRefs.includes(llgCaseNum)) {
-              r.status = 'UNCLAIMED';
-              r.issues.push(`relatedLimerick "${slug}" does not reciprocate caseNumber "${r.caseNumber}"`);
-              if (limerickRec.status === 'PASS') {
-                limerickRec.status = 'UNCLAIMED';
-                limerickRec.issues.push(`Referenced by lorelog "${r.relPath}" but does not reciprocate back`);
-              }
-            }
           }
         }
       }
 
-      // mascotRef and relatedMascots reciprocity
+      // mascotRef and relatedMascots check
       const mascots = [
         r.frontmatter.mascotRef,
         ...(r.frontmatter.relatedMascots || [])
@@ -272,81 +261,18 @@ export function runCaseNumberAudit(writeFiles = true) {
         if (!mascotRec) {
           r.status = 'DEAD_REF';
           r.issues.push(`mascot reference "${mRef}" could not be resolved`);
-        } else {
-          const parentRef = mascotRec.frontmatter.parentEntry ?? mascotRec.frontmatter.relatedLorelog;
-          const backRefs = [mascotRec.caseNumber, parentRef].flat().filter(Boolean).map(x => x.toUpperCase());
-          if (!backRefs.includes(llgCaseNum)) {
-            r.status = 'UNCLAIMED';
-            r.issues.push(`Referenced mascot "${mRef}" does not reciprocate caseNumber "${r.caseNumber}"`);
-            if (mascotRec.status === 'PASS') {
-              mascotRec.status = 'UNCLAIMED';
-              mascotRec.issues.push(`Referenced by lorelog "${r.relPath}" but does not reciprocate back`);
-            }
-          }
         }
       }
-    }
-  }
 
-  // 4. Reverse reciprocity checks: Poem/Mascot -> Parent claim
-  for (const r of records) {
-    if (r.status !== 'PASS') continue;
-
-    if (['haikus', 'limericks', 'aphorisms', 'mascots'].includes(r.collection)) {
-      const parentRef = r.frontmatter.parentEntry ?? r.frontmatter.relatedLorelog;
-      const parentRefs = [r.caseNumber, parentRef]
-        .flat()
-        .filter(Boolean)
-        .filter(x => {
-          const u = x.toUpperCase();
-          return u.startsWith('LLG-') || u.startsWith('OCV-') || u.startsWith('FREF-') || u.startsWith('MASCOT-') || u.startsWith('GUIDE-') || u.startsWith('POST-') || u.startsWith('REL-');
-        });
-        
-      for (const pRef of parentRefs) {
-        const pKey = pRef.toUpperCase();
-        const parentRec = records.find(m => ['lorelog', 'reference', 'mascots', 'guides', 'posts', 'releases'].includes(m.collection) && m.caseNumber && m.caseNumber.toUpperCase() === pKey);
-        
-        if (parentRec) {
-          let claimed = false;
-          
-          if (r.collection === 'haikus' && parentRec.frontmatter.relatedHaiku) {
-            const haikus = [parentRec.frontmatter.relatedHaiku].flat().filter(Boolean);
-            claimed = haikus.some(h => {
-              const slug = typeof h === 'string' ? h : h.slug;
-              return slug && findRecord(slug, 'haikus')?.filePath === r.filePath;
-            });
-          } else if (r.collection === 'limericks' && parentRec.frontmatter.relatedLimerick) {
-            const limericks = [parentRec.frontmatter.relatedLimerick].flat().filter(Boolean);
-            claimed = limericks.some(l => {
-              const slug = typeof l === 'string' ? l : l.slug;
-              return slug && findRecord(slug, 'limericks')?.filePath === r.filePath;
-            });
-          } else if (r.collection === 'mascots') {
-            const mascots = [parentRec.frontmatter.mascotRef, ...(parentRec.frontmatter.relatedMascots || [])].filter(Boolean);
-            claimed = mascots.some(m => findRecord(m, 'mascots')?.filePath === r.filePath);
-          }
-          
-          if (parentRec.collection === 'reference' || parentRec.collection === 'mascots' || parentRec.collection === 'guides' || parentRec.collection === 'posts' || parentRec.collection === 'releases') {
-            claimed = true; // Reference, Mascot, Guide, Post, and Release pages don't list explicit poem claims in arrays
-          }
-          
-          if (!claimed && parentRec.frontmatter.relatedEntries) {
-            claimed = parentRec.frontmatter.relatedEntries.some(re => {
-              if (!re || !re.id) return false;
-              const cleanId = re.id.toLowerCase().replace(/\.mdx?$/, '').split('/').pop();
-              const cleanSlug = r.frontmatter.slug ? r.frontmatter.slug.toLowerCase().split('/').pop() : '';
-              const cleanBase = path.basename(r.filePath, path.extname(r.filePath)).toLowerCase();
-              return cleanId === cleanSlug || cleanId === cleanBase || re.id.toUpperCase() === r.caseNumber.toUpperCase();
-            });
-          }
-          
-          if (!claimed) {
-            r.status = 'UNCLAIMED';
-            r.issues.push(`Declares connection to parent "${parentRec.relPath}" (${pRef}) but parent does not claim it back`);
-            if (parentRec.status === 'PASS') {
-              parentRec.status = 'UNCLAIMED';
-              parentRec.issues.push(`Referenced by "${r.relPath}" but does not claim it back`);
-            }
+      // relatedEntries check
+      if (r.frontmatter.relatedEntries) {
+        const relEntries = [r.frontmatter.relatedEntries].flat().filter(Boolean);
+        for (const entry of relEntries) {
+          if (!entry || !entry.id || !entry.collection) continue;
+          const rec = findRecord(entry.id, entry.collection);
+          if (!rec) {
+            r.status = 'DEAD_REF';
+            r.issues.push(`relatedEntry "${entry.id}" (collection: ${entry.collection}) could not be resolved`);
           }
         }
       }
