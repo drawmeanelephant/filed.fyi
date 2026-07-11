@@ -63,6 +63,10 @@ const entries = (await getCollection(collection, (e) => {
 // Resolving Parent Hrefs for Poems
 const mascots = await getCollection('mascots');
 const lorelogs = await getCollection('lorelog');
+const referenceDocs = await getCollection('docs', (e) => e.id.startsWith('reference/'));
+const guides = await getCollection('docs', (e) => e.id.startsWith('guides/'));
+const posts = await getCollection('docs', (e) => e.id.startsWith('posts/'));
+const releases = await getCollection('docs', (e) => e.id.startsWith('releases/'));
 
 function getEntryHref(collection: string, id: string): string {
   let cleanId = id.replace(/\.mdx?$/, '').toLowerCase();
@@ -135,6 +139,14 @@ for (const lg of lorelogs) {
       poemToLorelogMap.set(lName, lgName);
     }
   }
+
+  const relatedE = (lg.data as any).relatedEntries || [];
+  for (const re of relatedE) {
+    if (re.id && ['haikus', 'limericks', 'aphorisms'].includes(re.collection)) {
+      const pName = re.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+      poemToLorelogMap.set(pName, lgName);
+    }
+  }
 }
 
 function getLabel(e: any): string {
@@ -160,6 +172,72 @@ function getHref(e: any): string {
   
   if (poemToLorelogMap.has(poemName)) {
     return getEntryHref('lorelog', poemToLorelogMap.get(poemName)) + '#' + poemName;
+  }
+
+  const parentRef = e.data.parentEntry ?? (e.data as any).relatedLorelog;
+  if (parentRef) {
+    const cleanRef = String(parentRef).toLowerCase().trim();
+    
+    // 1. Check lorelogs
+    const matchedLorelog = lorelogs.find(lg => {
+      const lgId = lg.id.replace(/\.mdx?$/, '').toLowerCase().trim();
+      const lgCaseNum = lg.data.caseNumber ? String(lg.data.caseNumber).toLowerCase().trim() : '';
+      return lgId === cleanRef || lgCaseNum === cleanRef;
+    });
+    if (matchedLorelog) {
+      return getEntryHref('lorelog', matchedLorelog.id) + '#' + poemName;
+    }
+
+    // 2. Check mascots
+    const matchedMascot = mascots.find(m => {
+      const mId = m.id.replace(/\.mdx?$/, '').toLowerCase().trim();
+      const mCaseNum = m.data.mascotId ? String(m.data.mascotId).toLowerCase().trim() : '';
+      const mCaseNum2 = m.data.caseNumber ? String(m.data.caseNumber).toLowerCase().trim() : '';
+      return mId === cleanRef || mCaseNum === cleanRef || mCaseNum2 === cleanRef || isMascotMatch(cleanRef, m);
+    });
+    if (matchedMascot) {
+      return getEntryHref('mascots', matchedMascot.id) + '#' + poemName;
+    }
+
+    // 3. Check reference docs
+    const matchedRefDoc = referenceDocs.find(rd => {
+      const rdId = rd.id.replace(/\.mdx?$/, '').toLowerCase().trim();
+      const rdCaseNum = (rd.data as any).caseNumber ? String((rd.data as any).caseNumber).toLowerCase().trim() : '';
+      return rdId === cleanRef || rdCaseNum === cleanRef || rdId.endsWith('/' + cleanRef);
+    });
+    if (matchedRefDoc) {
+      return getEntryHref('docs', matchedRefDoc.id) + '#' + poemName;
+    }
+
+    // 4. Check guides
+    const matchedGuide = guides.find(g => {
+      const gId = g.id.replace(/\.mdx?$/, '').toLowerCase().trim();
+      const gCaseNum = (g.data as any).caseNumber ? String((g.data as any).caseNumber).toLowerCase().trim() : '';
+      return gId === cleanRef || gCaseNum === cleanRef || gId.endsWith('/' + cleanRef);
+    });
+    if (matchedGuide) {
+      return getEntryHref('docs', matchedGuide.id) + '#' + poemName;
+    }
+
+    // 5. Check posts
+    const matchedPost = posts.find(p => {
+      const pId = p.id.replace(/\.mdx?$/, '').toLowerCase().trim();
+      const pCaseNum = (p.data as any).caseNumber ? String((p.data as any).caseNumber).toLowerCase().trim() : '';
+      return pId === cleanRef || pCaseNum === cleanRef || pId.endsWith('/' + cleanRef);
+    });
+    if (matchedPost) {
+      return getEntryHref('docs', matchedPost.id) + '#' + poemName;
+    }
+
+    // 6. Check releases
+    const matchedRelease = releases.find(r => {
+      const rId = r.id.replace(/\.mdx?$/, '').toLowerCase().trim();
+      const rCaseNum = (r.data as any).caseNumber ? String((r.data as any).caseNumber).toLowerCase().trim() : '';
+      return rId === cleanRef || rCaseNum === cleanRef || rId.endsWith('/' + cleanRef);
+    });
+    if (matchedRelease) {
+      return getEntryHref('docs', matchedRelease.id) + '#' + poemName;
+    }
   }
   
   const refs = [

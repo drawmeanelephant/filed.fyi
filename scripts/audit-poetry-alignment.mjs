@@ -142,6 +142,7 @@ const lorelogs = lorelogFiles.map(f => {
     mascotRef: frontmatter.mascotRef ?? null,
     relatedHaiku: frontmatter.relatedHaiku ?? [],
     relatedLimerick: frontmatter.relatedLimerick ?? [],
+    relatedEntries: frontmatter.relatedEntries ?? [],
   };
 });
 console.error(`  → ${lorelogs.length} lorelogs loaded`);
@@ -215,6 +216,12 @@ for (const lg of lorelogs) {
     if (l && l.slug) {
       const lName = l.slug.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
       if (lName) poemToLorelogMap.set(lName, lg.id);
+    }
+  }
+  for (const re of lg.relatedEntries || []) {
+    if (re && re.id && ['haikus', 'limericks', 'aphorisms'].includes(re.collection)) {
+      const pName = re.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+      if (pName) poemToLorelogMap.set(pName, lg.id);
     }
   }
 }
@@ -329,71 +336,74 @@ function resolvePoem(poem) {
 
   // ── Step 2: Mascot ref resolution ──
   if (poemRefs.length > 0) {
-    const matchedMascots = [];
+    const resolvedMascots = [];
+    const ambiguousRefs = [];
+    const deadRefs = [];
 
     for (const ref of poemRefs) {
+      const matchesForRef = [];
       for (const m of mascots) {
         if (isMascotMatch(ref, m)) {
-          matchedMascots.push({ ref, mascotId: m.id, mascotTitle: m.title });
+          matchesForRef.push(m);
         }
       }
-    }
-
-    if (matchedMascots.length === 1) {
-      result.status = 'PASS';
-      result.parentType = 'mascot';
-      result.parentId = matchedMascots[0].mascotId;
-      result.resolvedVia = 'isMascotMatch()';
-      result.matchDetails = matchedMascots[0];
-      return result;
-    }
-
-    if (matchedMascots.length > 1) {
-      // De-duplicate (same mascot matched by multiple refs)
-      const unique = [...new Map(matchedMascots.map(m => [m.mascotId, m])).values()];
-      if (unique.length === 1) {
-        result.status = 'PASS';
-        result.parentType = 'mascot';
-        result.parentId = unique[0].mascotId;
-        result.resolvedVia = 'isMascotMatch() (multi-ref, single mascot)';
-        result.matchDetails = unique[0];
-        return result;
+      if (matchesForRef.length === 0) {
+        deadRefs.push(ref);
+      } else if (matchesForRef.length > 1) {
+        ambiguousRefs.push({ ref, matches: matchesForRef.map(m => m.id) });
+      } else {
+        resolvedMascots.push({ ref, mascotId: matchesForRef[0].id, mascotTitle: matchesForRef[0].title });
       }
+    }
 
+    if (ambiguousRefs.length > 0) {
       result.status = 'AMBIGUOUS';
       result.parentType = 'mascot';
-      result.parentId = unique.map(m => m.mascotId).join(', ');
-      result.resolvedVia = 'isMascotMatch() matched multiple mascots';
-      result.matchDetails = unique;
-      result.issues.push(`Refs [${poemRefs.join(', ')}] match ${unique.length} different mascots: ${unique.map(m => m.mascotId).join(', ')}`);
+      result.parentId = ambiguousRefs.flatMap(a => a.matches).join(', ');
+      result.resolvedVia = 'isMascotMatch() matched multiple mascots for a single ref';
+      for (const amb of ambiguousRefs) {
+        result.issues.push(`Ref "${amb.ref}" matched multiple mascots: ${amb.matches.join(', ')}`);
+      }
       return result;
     }
 
-    // Refs exist but matched nothing
-    result.status = 'DEAD_REF';
-    result.issues.push(`Refs [${poemRefs.join(', ')}] did not match any mascot via isMascotMatch()`);
-
-    // Attempt to find what they MIGHT have meant
-    const suggestions = [];
-    for (const ref of poemRefs) {
-      const cleanRef = ref.replace(/^mascots\//i, '').replace(/\.mdx?$/i, '').toLowerCase().replace(/[^a-z0-9]/g, ' ').trim();
-      for (const m of mascots) {
-        const cleanId = m.id.toLowerCase().replace(/[^a-z0-9]/g, ' ').trim();
-        // Check for partial overlap
-        const refTokens = cleanRef.split(/\s+/).filter(t => !/^\d+$/.test(t) && t !== 'the');
-        const idTokens = cleanId.split(/\s+/).filter(t => !/^\d+$/.test(t) && t !== 'the');
-        const overlap = refTokens.filter(t => idTokens.includes(t));
-        if (overlap.length > 0 && overlap.length >= Math.min(refTokens.length, idTokens.length) * 0.5) {
-          suggestions.push({ ref, mascotId: m.id, overlap: overlap.join(', '), overlapRatio: overlap.length / Math.max(refTokens.length, idTokens.length) });
+    if (deadRefs.length > 0 && resolvedMascots.length === 0) {
+      // All refs are dead
+      result.status = 'DEAD_REF';
+      result.issues.push(`Refs [${deadRefs.join(', ')}] did not match any mascot via isMascotMatch()`);
+      
+      // Attempt to find what they MIGHT have meant
+      const suggestions = [];
+      for (const ref of deadRefs) {
+        const cleanRef = ref.replace(/^mascots\//i, '').replace(/\.mdx?$/i, '').toLowerCase().replace(/[^a-z0-9]/g, ' ').trim();
+        for (const m of mascots) {
+          const cleanId = m.id.toLowerCase().replace(/[^a-z0-9]/g, ' ').trim();
+          const refTokens = cleanRef.split(/\s+/).filter(t => !/^\d+$/.test(t) && t !== 'the');
+          const idTokens = cleanId.split(/\s+/).filter(t => !/^\d+$/.test(t) && t !== 'the');
+          const overlap = refTokens.filter(t => idTokens.includes(t));
+          if (overlap.length > 0 && overlap.length >= Math.min(refTokens.length, idTokens.length) * 0.5) {
+            suggestions.push({ ref, mascotId: m.id, overlap: overlap.join(', '), overlapRatio: overlap.length / Math.max(refTokens.length, idTokens.length) });
+          }
         }
       }
-    }
-    if (suggestions.length > 0) {
-      suggestions.sort((a, b) => b.overlapRatio - a.overlapRatio);
-      result.issues.push(`Closest partial matches: ${suggestions.slice(0, 3).map(s => `${s.mascotId} (tokens: ${s.overlap})`).join('; ')}`);
+      if (suggestions.length > 0) {
+        suggestions.sort((a, b) => b.overlapRatio - a.overlapRatio);
+        result.issues.push(`Closest partial matches: ${suggestions.slice(0, 3).map(s => `${s.mascotId} (tokens: ${s.overlap})`).join('; ')}`);
+      }
+      return result;
     }
 
-    return result;
+    if (resolvedMascots.length > 0) {
+      result.status = 'PASS';
+      result.parentType = 'mascot';
+      result.parentId = resolvedMascots.map(m => m.mascotId).join(', ');
+      result.resolvedVia = 'isMascotMatch()';
+      result.matchDetails = resolvedMascots;
+      if (deadRefs.length > 0) {
+        result.issues.push(`Some refs [${deadRefs.join(', ')}] were dead but others resolved successfully`);
+      }
+      return result;
+    }
   }
 
   // ── Step 3: Check poem's parentEntry (poem-side declaration) ──
@@ -415,7 +425,7 @@ function resolvePoem(poem) {
       result.parentType = 'lorelog';
       result.parentId = matchingLorelogs.map(m => m.id).join(', ');
       result.resolvedVia = 'poem.parentEntry (NOT claimed by lorelog)';
-      result.issues.push(`Poem declares parentEntry="${JSON.stringify(poem.parentEntry)}" and lorelog(s) "${result.parentId}" exist, but do NOT list this poem in relatedHaiku/relatedLimerick`);
+      result.issues.push(`Poem declares parentEntry="${JSON.stringify(poem.parentEntry)}" and lorelog(s) "${result.parentId}" exist, but do NOT list this poem in relatedHaiku/relatedLimerick/relatedEntries`);
       return result;
     }
 
