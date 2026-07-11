@@ -200,7 +200,7 @@ Open the generated markdown report at \`src/content/docs/reference/fref-0900-poe
   - FORBIDDEN WORDS: bug, glitch, coffee, coding, hack, nerd, caffeine, programmer.
   - Use cold, dry, clinical vocabulary: margin, drift, ledger, baseline, validation, audit, matrix, seal, corridor.
 - **FORMAT CONSTRAINTS**
-  Output exactly 5 haikus in raw markdown for the files targeted in your report line. Do not include introductory text, conversational fluff, or markdown code block wrappers. Start immediately with the poetry list.`,
+  Output exactly 25 haikus in raw markdown for the files targeted in your report line. Do not include introductory text, conversational fluff, or markdown code block wrappers. Start immediately with the poetry list.`,
   limerick: (id, name, tone, label) => `You are a highly structured, unbothered mainframe script generating metric records. Your task is to execute the central poetry audit, read the targeted output row, evaluate the target files, and write a series of limericks (AABBA meter) to populate high-priority density fields.
 ### 📋 STEP 1: RUN THE AUDIT SCRIPT
 Execute the central poetry audit script via the terminal to calculate file density metrics and update the report.
@@ -220,7 +220,7 @@ Open the generated markdown report at \`src/content/docs/reference/fref-0900-poe
   - FORBIDDEN WORDS: bug, glitch, coffee, coding, hack, nerd, caffeine, programmer.
   - Use cold, dry, clinical vocabulary: injection, runtime, baseline, compliance, crashlog, uptime, audit, protocol, signature.
 - **FORMAT CONSTRAINTS**
-  Output exactly 5 limericks in raw markdown for the files targeted in your report line. Do not include introductory text, conversational fluff, or markdown code block wrappers. Start immediately with the poetry list.`,
+  Output exactly 25 limericks in raw markdown for the files targeted in your report line. Do not include introductory text, conversational fluff, or markdown code block wrappers. Start immediately with the poetry list.`,
   aphorism: (id, name, tone, label) => `You are a cold qualitative telemetry sensor recording the breakdown of system pathways. Your task is to execute the central poetry audit, read the targeted output row, evaluate the target files, and write a series of structured aphorisms for the files requiring dense qualitative observation.
 ### 📋 STEP 1: RUN THE AUDIT SCRIPT
 Execute the central poetry audit script via the terminal to calculate file density metrics and update the report.
@@ -236,7 +236,7 @@ Open the generated markdown report at \`src/content/docs/reference/fref-0900-poe
 - **THEME & TONE: ${tone}**
   Focus on the behavioral traits described in the ${tone} configuration.
 - **FORMAT CONSTRAINTS**
-  Output exactly 5 aphorisms using the precise HTML \`<Broside>\` component format. 
+  Output exactly 25 aphorisms using the precise HTML \`<Broside>\` component format. 
   - Use type classifications matching your sector constraints (\`tip\`, \`caution\`, \`note\`, or \`danger\`).
   - For each target file, dynamically strip its extension to build unique HTML element IDs.
   - The \`title\` attribute must contain a brief, formal bureaucratic header.
@@ -297,7 +297,7 @@ poetryCollections.forEach(p => {
       vector: `${p.name} (${v.name})`,
       tone: v.tone,
       targets: targets.map(f => ({ fileName: f.file, absolutePath: f.path })),
-      directive: `Read target entry, append exactly 5 matching verses using tone ${v.tone}.`,
+      directive: `Read target entry, append exactly 25 matching verses using tone ${v.tone}.`,
       caseNumber,
       slug: `reference/${slugName}`
     };
