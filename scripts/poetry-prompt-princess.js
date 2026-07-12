@@ -184,11 +184,25 @@ This report details the coverage, verse counts, and dynamically calculated subag
 |----------|--------|--------------|---------------|-----------------|
 `;
 
+const toneStances = {
+  INSTITUTIONAL_LEAK: 'The speaker acts as a leaking vessel, letting forbidden structural truths slip through ordinary administrative observations.',
+  PROCEDURAL_SILENCE: 'Omit explanation; imply cause through residue.',
+  FATIGUE_GOLD_BRICK: 'The speaker is checked out, performing the absolute minimum mechanical effort to satisfy logging criteria.',
+  TRIVIALITY_ELEVATION: 'Elevate tiny, meaningless administrative errors or dust motes into events of existential weight.',
+  MISFILED_CONFIDENCE: 'Maintain a tone of absolute, misplaced certainty about data that is clearly corrupt or missing.',
+  MALICIOUS_COMPLIANCE: 'Obey the form while quietly exposing its absurdity.',
+  BUREAUCRATIC_DESPAIR: 'The speaker is crushed under backlog, recording the decay of the ledger with passive observation.',
+  REDACTION_FUGUE: 'The speaker leaves blanks, blocks of black, or loops obsessively on missing references without acknowledging the gap.',
+  CYNICAL_TELEMETRY: 'Focus purely on the cold metrics of breakdown and decay, treating human friction as simple throughput variables.',
+  STANDARD_OPERATING_APATHY: 'The tone is completely indifferent, processing tragic system outcomes like a routine weather report.',
+  SYSTEM_LAG_LAMENT: 'Focus on delay, backlog, buffering, and deferred recognition without naming "systems" directly.',
+  AUDIT_PANIC: 'The speaker tries to remain official while details leak urgency.'
+};
+
 const promptArchetypes = {
   haiku: (id, name, tone, label) => `You are a specialized routine compiling records for a bureaucracy that prefers silence over truth. Your task is to execute the central poetry audit, read the targeted output row, evaluate the target files, and write a series of highly precise 5-7-5 syllable haikus to resolve structural density gaps.
 ### 📋 STEP 1: RUN THE AUDIT SCRIPT
 Execute the central poetry audit script via the terminal to calculate file density metrics and update the report.
-- **Action**: Run \`node scripts/audit-poetry-vectors.mjs\`
 ### 📂 STEP 2: FIND YOUR REPORT ROW LINE
 Open the generated markdown report at \`src/content/docs/reference/fref-0900-poet.mdx\`. Locate the row for your ID in the Active Flight Manifest table.
 ### 🚀 STEP 3: READ, EVALUATE, AND GENERATE
@@ -198,12 +212,18 @@ Open the generated markdown report at \`src/content/docs/reference/fref-0900-poe
 - **DIRECT COMPOSITION REQUIREMENT (NO GENERATION SCRIPTS)**
   The poetry must be written entirely by you, directly derived from reviewing the referenced files. Do not write or execute scripts, programs, or automation tools to generate, format, or compile this poetry.
 - **THEME & TONE: ${tone}**
-  Focus on the parameters of the ${tone} profile. Keep descriptions cold, dry, and anchored strictly to architectural metadata artifacts, administrative lag, or institutional friction.
-- **CRITICAL ANTI-CLICHÉ QUARANTINE**
-  - FORBIDDEN WORDS: bug, glitch, coffee, coding, hack, nerd, caffeine, programmer.
-  - Use cold, dry, clinical vocabulary: margin, drift, ledger, baseline, validation, audit, matrix, seal, corridor.
+  Stance/Behavior: ${toneStances[tone] || 'Omit explanation; imply cause through residue.'}
+- **COMPOSITION CONSTRAINTS (ANTI-REPETITION & DETAIL-FIRST)**
+  - **Source-derived details**: Before writing, extract 12 concrete details (e.g. timestamps, labels, spatial details, errors, specific residue, objects) from the target files. Each haiku must anchor itself in at least 1 concrete detail.
+  - **No prefab tone words**: Derive diction from the target files, not from prefab "bureaucratic" mood words. Avoid repeated abstractions. Favor specific residue, objects, formatting artifacts, errors, timestamps, labels, and spatial details over generalized institutional language.
+  - **Forbidden clichés**: FORBIDDEN WORDS: bug, glitch, coffee, coding, hack, nerd, caffeine, programmer.
+  - **No vocabulary magnet**: Do not overuse abstract bureaucratic nouns. No haiku may use more than 1 abstract bureaucratic noun from the restricted set (audit, baseline, protocol, corridor, ledger, validation, matrix, seal, drift, margin).
+  - **No noun reuse**: No noun may repeat within 5 poems.
+  - **Vary sentence energy**: Every batch must vary sentence energy: some observational, some accusatory, some resigned, some forensic.
+  - **Ban self-imitation**: Do not reuse any opening phrase, central noun, or syntactic frame within the batch. If a line could fit into any other poem in the batch, rewrite it.
+  - **Formal pressure**: Haikus must exert strong image pressure within strict 5-7-5 syllable constraints.
 - **FORMAT CONSTRAINTS**
-  Output exactly 25 haikus in raw markdown for the files targeted in your report line. Do not include introductory text, conversational fluff, or markdown code block wrappers. Start immediately with the poetry list.`,
+  Output 6–10 strong haikus (aim for 8) in raw markdown for the files targeted in your report line. Stop before quality drops. Do not include introductory text, conversational fluff, or markdown code block wrappers. Start immediately with the poetry list.`,
   limerick: (id, name, tone, label) => `You are a highly structured, unbothered mainframe script generating metric records. Your task is to execute the central poetry audit, read the targeted output row, evaluate the target files, and write a series of limericks (AABBA meter) to populate high-priority density fields.
 ### 📋 STEP 1: RUN THE AUDIT SCRIPT
 Execute the central poetry audit script via the terminal to calculate file density metrics and update the report.
@@ -217,13 +237,18 @@ Open the generated markdown report at \`src/content/docs/reference/fref-0900-poe
 - **DIRECT COMPOSITION REQUIREMENT (NO GENERATION SCRIPTS)**
   The poetry must be written entirely by you, directly derived from reviewing the referenced files. Do not write or execute scripts, programs, or automation tools to generate, format, or compile this poetry.
 - **THEME & TONE: ${tone}**
-  The limericks must be dry, dark, and structurally rigid. Focus on unrequested runtime injections, structural limits, or compliance procedures matching ${tone}.
-- **CRITICAL ANTI-CLICHÉ QUARANTINE**
-  - The limericks must not be bouncy or cheerful. They should feel like a cold autopsy written in strict meter.
-  - FORBIDDEN WORDS: bug, glitch, coffee, coding, hack, nerd, caffeine, programmer.
-  - Use cold, dry, clinical vocabulary: injection, runtime, baseline, compliance, crashlog, uptime, audit, protocol, signature.
+  Stance/Behavior: ${toneStances[tone] || 'Obey the form while quietly exposing its absurdity.'}
+- **COMPOSITION CONSTRAINTS (ANTI-REPETITION & DETAIL-FIRST)**
+  - **Source-derived details**: Before writing, extract 12 concrete details (e.g. timestamps, labels, spatial details, errors, specific residue, objects) from the target files. Each limerick must anchor itself in at least 1 concrete detail.
+  - **No prefab tone words**: Derive diction from the target files, not from prefab "bureaucratic" mood words. Avoid repeated abstractions. Favor specific residue, objects, formatting artifacts, errors, timestamps, labels, and spatial details over generalized institutional language.
+  - **Forbidden clichés**: FORBIDDEN WORDS: bug, glitch, coffee, coding, hack, nerd, caffeine, programmer.
+  - **No vocabulary magnet**: Do not overuse abstract bureaucratic nouns. No limerick may use more than 1 abstract bureaucratic noun from the restricted set (audit, baseline, protocol, corridor, ledger, validation, matrix, seal, drift, margin, compliance, signature, uptime, injection, runtime, crashlog).
+  - **No noun reuse**: No noun may repeat within 5 poems.
+  - **Vary sentence energy**: Every batch must vary sentence energy: some observational, some accusatory, some resigned, some forensic.
+  - **Ban self-imitation**: Do not reuse any opening phrase, central noun, or syntactic frame within the batch. If a line could fit into any other poem in the batch, rewrite it.
+  - **Formal pressure**: Limericks must exert controlled tonal snap and maintain strict AABBA meter. They must not feel bouncy or cheerful. They should feel like a cold autopsy written in strict meter.
 - **FORMAT CONSTRAINTS**
-  Output exactly 25 limericks in raw markdown for the files targeted in your report line. Do not include introductory text, conversational fluff, or markdown code block wrappers. Start immediately with the poetry list.`,
+  Output 6–10 strong limericks (aim for 8) in raw markdown for the files targeted in your report line. Stop before quality drops. Do not include introductory text, conversational fluff, or markdown code block wrappers. Start immediately with the poetry list.`,
   aphorism: (id, name, tone, label) => `You are a cold qualitative telemetry sensor recording the breakdown of system pathways. Your task is to execute the central poetry audit, read the targeted output row, evaluate the target files, and write a series of structured aphorisms for the files requiring dense qualitative observation.
 ### 📋 STEP 1: RUN THE AUDIT SCRIPT
 Execute the central poetry audit script via the terminal to calculate file density metrics and update the report.
@@ -237,13 +262,22 @@ Open the generated markdown report at \`src/content/docs/reference/fref-0900-poe
 - **DIRECT COMPOSITION REQUIREMENT (NO GENERATION SCRIPTS)**
   The aphorisms must be written entirely by you, directly derived from reviewing the referenced files. Do not write or execute scripts, programs, or automation tools to generate, format, or compile this poetry.
 - **THEME & TONE: ${tone}**
-  Focus on the behavioral traits described in the ${tone} configuration.
+  Stance/Behavior: ${toneStances[tone] || 'Focus on delay, backlog, buffering, and deferred recognition without naming "systems" directly.'}
+- **COMPOSITION CONSTRAINTS (ANTI-REPETITION & DETAIL-FIRST)**
+  - **Source-derived details**: Before writing, extract 12 concrete details (e.g. timestamps, labels, spatial details, errors, specific residue, objects) from the target files. Each aphorism must anchor itself in at least 1 concrete detail.
+  - **No prefab tone words**: Derive diction from the target files, not from prefab "bureaucratic" mood words. Avoid repeated abstractions. Favor specific residue, objects, formatting artifacts, errors, timestamps, labels, and spatial details over generalized institutional language.
+  - **Forbidden clichés**: FORBIDDEN WORDS: bug, glitch, coffee, coding, hack, nerd, caffeine, programmer.
+  - **No vocabulary magnet**: Do not overuse abstract bureaucratic nouns. No aphorism may use more than 1 abstract bureaucratic noun from the restricted set (audit, baseline, protocol, corridor, ledger, validation, matrix, seal, drift, margin, compliance, signature, uptime, injection, runtime, crashlog).
+  - **No noun reuse**: No noun may repeat within 5 poems.
+  - **Vary sentence energy**: Every batch must vary sentence energy: some observational, some accusatory, some resigned, some forensic.
+  - **Ban self-imitation**: Do not reuse any opening phrase, central noun, or syntactic frame within the batch. If a line could fit into any other poem in the batch, rewrite it.
+  - **Formal pressure**: Aphorisms must focus on asymmetric thought, functioning as dry, clinical, tragic-comic observations.
 - **FORMAT CONSTRAINTS**
-  Output exactly 25 aphorisms using the precise HTML \`<Broside>\` component format. 
+  Output 6–10 strong aphorisms (aim for 8) using the precise HTML \`<Broside>\` component format. Stop before quality drops.
   - Use type classifications matching your sector constraints (\`tip\`, \`caution\`, \`note\`, or \`danger\`).
   - For each target file, dynamically strip its extension to build unique HTML element IDs.
   - The \`title\` attribute must contain a brief, formal bureaucratic header.
-  - The inner text must be a dry, clinical, tragic-comic observation.`
+  - The inner text must be a dry, clinical, tragic-comic observation. Do not include introductory text, conversational fluff, or markdown code block wrappers. Start immediately with the first component.`
 };
 
 let agentCounter = 1;
@@ -318,7 +352,7 @@ poetryCollections.forEach(p => {
       vector: `${p.name} (${v.name})`,
       tone: v.tone,
       targets: targets.map(f => ({ fileName: f.file, absolutePath: f.path })),
-      directive: `Read target entry, append exactly 25 matching verses using tone ${v.tone}.`,
+      directive: `Read target entry, append 6–10 (aim for 8) matching verses using tone ${v.tone}.`,
       caseNumber,
       slug: `reference/${slugName}`
     };
