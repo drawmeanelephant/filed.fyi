@@ -7,7 +7,12 @@ const route = Astro.locals.starlightRoute;
 const entry = route?.entry;
 
 if (route && entry) {
-  const { matchingHaikus, matchingLimericks, matchingAphorisms, isMascot, isLorelog } = await getMatchingPoetry(entry);
+  const {
+    matchingHaikus,
+    matchingLimericks,
+    matchingAphorisms,
+    isMascot,
+  } = await getMatchingPoetry(entry);
 
   const customHeadings = [];
   const customTocItems = [];
@@ -25,9 +30,12 @@ if (route && entry) {
       customHeadings.push({ depth: 2, slug: 'inline-limericks', text: 'Limerick Log' });
       customTocItems.push({ depth: 2, slug: 'inline-limericks', text: 'Limerick Log', children: [] });
     }
-  }
-
-  if (isLorelog) {
+  } else {
+    // Lorelogs, references, guides, posts — anything that gets Related* blocks
+    if (matchingAphorisms.length > 0) {
+      customHeadings.push({ depth: 2, slug: 'inline-aphorisms', text: 'Related Aphorisms' });
+      customTocItems.push({ depth: 2, slug: 'inline-aphorisms', text: 'Related Aphorisms', children: [] });
+    }
     if (matchingHaikus.length > 0) {
       customHeadings.push({ depth: 2, slug: 'inline-haikus', text: 'Related Haikus' });
       customTocItems.push({ depth: 2, slug: 'inline-haikus', text: 'Related Haikus', children: [] });

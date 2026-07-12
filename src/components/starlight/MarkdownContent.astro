@@ -5,7 +5,16 @@ import { render } from 'astro:content';
 import { getMatchingPoetry, getPoemId } from '../../lib/poetry-matcher';
 
 const entry = Astro.locals?.starlightRoute?.entry;
-const { matchingHaikus, matchingLimericks, matchingAphorisms, isMascot, isLorelog } = await getMatchingPoetry(entry);
+const {
+  matchingHaikus,
+  matchingLimericks,
+  matchingAphorisms,
+  isMascot,
+} = await getMatchingPoetry(entry);
+
+// Lorelogs, references, guides, posts, etc. all share the "related" presentation.
+// Mascots keep their own "Haiku Log / Limerick Log / Aphorisms" labels.
+const showRelatedBlock = !isMascot && (matchingAphorisms.length > 0 || matchingHaikus.length > 0 || matchingLimericks.length > 0);
 ---
 
 <Default {...Astro.props}>
@@ -63,8 +72,24 @@ const { matchingHaikus, matchingLimericks, matchingAphorisms, isMascot, isLorelo
     </>
   )}
 
-  {isLorelog && (
+  {showRelatedBlock && (
     <>
+      {matchingAphorisms.length > 0 && (
+        <div class="inline-poetry-section" style="margin-top: 3rem;">
+          <h2 id="inline-aphorisms">Related Aphorisms</h2>
+          <div class="poetry-masonry-yard">
+            {await Promise.all(matchingAphorisms.map(async (aphorism) => {
+              const { Content } = await render(aphorism);
+              return (
+                <div id={getPoemId(aphorism)} class="inline-poem-wrapper">
+                  <Content />
+                </div>
+              );
+            }))}
+          </div>
+        </div>
+      )}
+
       {matchingHaikus.length > 0 && (
         <div class="inline-poetry-section" style="margin-top: 3rem;">
           <h2 id="inline-haikus">Related Haikus</h2>
@@ -97,59 +122,5 @@ const { matchingHaikus, matchingLimericks, matchingAphorisms, isMascot, isLorelo
         </div>
       )}
     </>
-  )}
-
-  {!isMascot && !isLorelog && (matchingAphorisms.length > 0 || matchingHaikus.length > 0 || matchingLimericks.length > 0) && (
-    <div class="unmatched-poetry-section" style="margin-top: 4rem;">
-      <h2 id="non-compliance-verses">Non-Compliance Verses</h2>
-      
-      {matchingAphorisms.length > 0 && (
-        <div class="poetry-group" style="margin-top: 2rem;">
-          <h3 id="unmatched-aphorisms">Aphorisms</h3>
-          <div class="poetry-masonry-yard">
-            {await Promise.all(matchingAphorisms.map(async (aphorism) => {
-              const { Content } = await render(aphorism);
-              return (
-                <div id={getPoemId(aphorism)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
-                  <Content />
-                </div>
-              );
-            }))}
-          </div>
-        </div>
-      )}
-
-      {matchingHaikus.length > 0 && (
-        <div class="poetry-group" style="margin-top: 2rem;">
-          <h3 id="unmatched-haikus">Haikus</h3>
-          <div class="poetry-masonry-yard">
-            {await Promise.all(matchingHaikus.map(async (haiku) => {
-              const { Content } = await render(haiku);
-              return (
-                <div id={getPoemId(haiku)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
-                  <Content />
-                </div>
-              );
-            }))}
-          </div>
-        </div>
-      )}
-
-      {matchingLimericks.length > 0 && (
-        <div class="poetry-group" style="margin-top: 2rem;">
-          <h3 id="unmatched-limericks">Limericks</h3>
-          <div class="poetry-masonry-yard">
-            {await Promise.all(matchingLimericks.map(async (limerick) => {
-              const { Content } = await render(limerick);
-              return (
-                <div id={getPoemId(limerick)} class="broside" style="margin-bottom: 2rem; padding: 1.5rem; max-width: 100%;">
-                  <Content />
-                </div>
-              );
-            }))}
-          </div>
-        </div>
-      )}
-    </div>
   )}
 </Default>

@@ -280,14 +280,30 @@ const aphorisms = defineCollection({
 
 
 // Docs (Starlight)
+// NOTE: caseNumber must be declared here or Zod strips it from reference/guide/post
+// frontmatter — poetry-matcher relies on it to marry poems via parentEntry.
 export const collections = {
   docs: defineCollection({ 
     loader: docsLoader(), 
     schema: docsSchema({ 
       extend: z.object({ 
         concepts: flexStringArray,
+        caseNumber: z.string().nullable().optional(),
+        formNumber: z.string().nullable().optional(),
+        versionLabel: z.string().nullable().optional(),
+        status: z.union([z.string(), z.record(z.any())]).nullable().optional(),
+        classification: z.string().nullable().optional(),
+        systemAffiliation: z.string().nullable().optional(),
+        mascotRef: z.string().nullable().optional(),
         relatedHaiku: z.array(z.object({ slug: z.string() })).optional(),
         relatedLimerick: z.array(z.object({ slug: z.string() })).optional(),
+        relatedEntries: z.array(z.union([
+          z.string(),
+          z.object({
+            collection: z.string(),
+            id: z.string(),
+          })
+        ])).optional(),
       }) 
     }) 
   }),
