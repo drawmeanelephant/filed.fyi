@@ -1,5 +1,30 @@
 import { getCollection } from 'astro:content';
 
+let mascotsPromise: Promise<any[]> | null = null;
+let haikusPromise: Promise<any[]> | null = null;
+let limericksPromise: Promise<any[]> | null = null;
+let aphorismsPromise: Promise<any[]> | null = null;
+
+function loadMascots() {
+  if (!mascotsPromise) mascotsPromise = getCollection('mascots');
+  return mascotsPromise;
+}
+
+function loadHaikus() {
+  if (!haikusPromise) haikusPromise = getCollection('haikus');
+  return haikusPromise;
+}
+
+function loadLimericks() {
+  if (!limericksPromise) limericksPromise = getCollection('limericks');
+  return limericksPromise;
+}
+
+function loadAphorisms() {
+  if (!aphorismsPromise) aphorismsPromise = getCollection('aphorisms');
+  return aphorismsPromise;
+}
+
 function isMascotMatch(poemRef: string, mascot: any): boolean {
   if (!poemRef || !mascot) return false;
 
@@ -145,7 +170,7 @@ export async function getMatchingPoetry(entry: any) {
   let matchingAphorisms: any[] = [];
 
   if (isMascot && entryId) {
-    const mascots = await getCollection('mascots');
+    const mascots = await loadMascots();
     const cleanEntryId = entryId.replace(/^mascots\//, '').replace(/\.mdx?$/, '').toLowerCase().trim();
     const mascotEntry = mascots.find((m) => {
       const cleanMId = m.id.replace(/\.mdx?$/, '').toLowerCase().trim();
@@ -156,9 +181,9 @@ export async function getMatchingPoetry(entry: any) {
     });
 
     const [haikus, limericks, aphorisms] = await Promise.all([
-      getCollection('haikus'),
-      getCollection('limericks'),
-      getCollection('aphorisms'),
+      loadHaikus(),
+      loadLimericks(),
+      loadAphorisms(),
     ]);
 
     if (mascotEntry) {
@@ -192,9 +217,9 @@ export async function getMatchingPoetry(entry: any) {
 
     if (relatedH.length > 0 || relatedL.length > 0 || relatedE.length > 0) {
       const [haikus, limericks, aphorisms] = await Promise.all([
-        getCollection('haikus'),
-        getCollection('limericks'),
-        getCollection('aphorisms'),
+        loadHaikus(),
+        loadLimericks(),
+        loadAphorisms(),
       ]);
 
       matchingHaikus = haikus.filter((h) =>
@@ -241,9 +266,9 @@ export async function getMatchingPoetry(entry: any) {
   const pageKeys = pageIdentityKeys(entry);
   if (pageKeys.size > 0) {
     const [haikus, limericks, aphorisms] = await Promise.all([
-      getCollection('haikus'),
-      getCollection('limericks'),
-      getCollection('aphorisms'),
+      loadHaikus(),
+      loadLimericks(),
+      loadAphorisms(),
     ]);
 
     matchingHaikus = mergeUnique(
