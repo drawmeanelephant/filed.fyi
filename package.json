@@ -24,7 +24,7 @@
     "@astrojs/starlight": "^0.41.3",
     "@lucide/astro": "^1.23.0",
     "astro": "^7.1.1",
-    "astro-auto-import": "^0.5.1",
+    "astro-auto-import": "^0.5.2",
     "fast-xml-parser": "^5.10.1",
     "gray-matter": "^4.0.3",
     "lint": "^1.2.2",
