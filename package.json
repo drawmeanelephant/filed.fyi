@@ -19,7 +19,7 @@
     "archive": "tsx scripts/astro-book.ts"
   },
   "dependencies": {
-    "@astrojs/mdx": "^7.0.2",
+    "@astrojs/mdx": "^7.0.3",
     "@astrojs/sitemap": "^3.7.3",
     "@astrojs/starlight": "^0.41.3",
     "@lucide/astro": "^1.25.0",
