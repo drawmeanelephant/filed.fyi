@@ -1,9 +1,25 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionKey } from 'astro:content';
+
+interface Props {
+  collection: CollectionKey;
+  exclude?: string | string[];
+  sortBy?: string;
+  filterPrefix?: string;
+  filterConcept?: string;
+}
 
 const { collection, exclude, sortBy = 'title', filterPrefix, filterConcept } = Astro.props;
 
-const entries = (await getCollection(collection, (e) => {
+const excludeList = Array.isArray(exclude)
+  ? exclude
+  : exclude
+    ? [exclude]
+    : [];
+
+const collectionFolderRegex = /^(docs\/)?(lorelog|mascots|releases|changelog|haikus|limericks|aphorisms|reference|guides|posts)\//;
+
+const entries = (await getCollection(collection as any, (e: any) => {
   // ─── CRITICAL FIX: Symmetrical Prefix Normalization ───
   if (filterPrefix) {
     const idLower = e.id.toLowerCase();
@@ -12,17 +28,19 @@ const entries = (await getCollection(collection, (e) => {
     
     // Strip leading collection folders and format headers to align matches
     const cleanId = idLower
-      .replace(/^(docs\/)?(haikus|limericks|aphorisms)\//, '')
+      .replace(collectionFolderRegex, '')
       .replace(/^(hai|lim|aph)-/, '');
       
     const cleanPrefix = prefixLower
-      .replace(/^(docs\/)?(haikus|limericks|aphorisms)\//, '')
+      .replace(collectionFolderRegex, '')
       .replace(/^(hai|lim|aph)-/, '');
+
+    const matchClean = cleanPrefix.length > 0 && cleanId.startsWith(cleanPrefix);
 
     if (
       !idLower.startsWith(prefixLower) && 
       !filename.startsWith(prefixLower) && 
-      !cleanId.startsWith(cleanPrefix)
+      !matchClean
     ) {
       return false;
     }
@@ -30,11 +48,16 @@ const entries = (await getCollection(collection, (e) => {
 
   if (filterConcept && (!e.data.concepts || !e.data.concepts.includes(filterConcept))) return false;
 
-  if (!exclude) return true;
-  const slug = e.id.split('/').pop()?.replace(/\.mdx?$/, '');
-  return slug !== exclude && e.id !== exclude;
+  if (excludeList.length > 0) {
+    const slug = e.id.split('/').pop()?.replace(/\.mdx?$/, '');
+    if ((slug && excludeList.includes(slug)) || excludeList.includes(e.id)) {
+      return false;
+    }
+  }
+
+  return true;
 }))
-  .sort((a, b) => {
+  .sort((a: any, b: any) => {
     const hasA = a.data.mascotId != null;
     const hasB = b.data.mascotId != null;
 
@@ -68,13 +91,13 @@ const guides = await getCollection('docs', (e) => e.id.startsWith('guides/'));
 const posts = await getCollection('docs', (e) => e.id.startsWith('posts/'));
 const releases = await getCollection('docs', (e) => e.id.startsWith('releases/'));
 
-function getEntryHref(collection: string, id: string): string {
+function getEntryHref(collectionName: string, id: string): string {
   let cleanId = id.replace(/\.mdx?$/, '').toLowerCase();
-  if (cleanId.startsWith(collection + '/')) {
-    cleanId = cleanId.substring(collection.length + 1);
+  if (cleanId.startsWith(collectionName + '/')) {
+    cleanId = cleanId.substring(collectionName.length + 1);
   }
-  if (collection === 'docs') return '/' + cleanId;
-  return '/' + collection + '/' + cleanId;
+  if (collectionName === 'docs') return '/' + cleanId;
+  return '/' + collectionName + '/' + cleanId;
 }
 
 function isMascotMatch(poemRef: string, mascot: any): boolean {
@@ -166,6 +189,12 @@ function getHref(e: any): string {
   }
   if (collection === 'lorelog') {
     return getEntryHref('lorelog', e.id);
+  }
+  if (collection === 'releases') {
+    return getEntryHref('docs', 'releases/' + e.id);
+  }
+  if (collection === 'changelog') {
+    return getEntryHref('docs', 'changelog/' + e.id);
   }
   
   const poemName = e.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
@@ -259,30 +288,35 @@ function getHref(e: any): string {
 }
 ---
 
-{entries.length > 0 && (
-<ul style="list-style:none;padding:0;margin:0;">
-  {entries.map(e => {
-    const poemName = e.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
-    return (
-      <li id={poemName} style="display:flex;gap:1rem;padding:0.4rem 0;border-bottom:1px solid var(--sl-color-hairline);align-items:baseline;">
-        <span style="font-family:var(--sl-font-mono);font-size:0.8rem;color:var(--sl-color-gray-3);min-width:6ch;flex-shrink:0;">
-          {getLabel(e)}
-        </span>
-        <span style="flex:1;display:flex;flex-direction:column;gap:0.15rem;">
-          <a href={getHref(e)}>{e.data.displayName ?? e.data.title}</a>
-          {(e.data.cardDescription ?? e.data.tagline ?? e.data.description) && (
-            <span style="font-size:0.75rem;color:var(--sl-color-gray-4);line-height:1.4;">
-              {e.data.cardDescription ?? e.data.tagline ?? e.data.description}
+{entries.length > 0 ? (
+  <ul style="list-style:none;padding:0;margin:0;">
+    {entries.map((e: any) => {
+      const poemName = e.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+      return (
+        <li id={poemName} style="display:flex;gap:1rem;padding:0.4rem 0;border-bottom:1px solid var(--sl-color-hairline);align-items:baseline;">
+          <span style="font-family:var(--sl-font-mono);font-size:0.8rem;color:var(--sl-color-gray-3);min-width:6ch;flex-shrink:0;">
+            {getLabel(e)}
+          </span>
+          <span style="flex:1;display:flex;flex-direction:column;gap:0.15rem;">
+            <a href={getHref(e)}>{e.data.displayName ?? e.data.title}</a>
+            {(e.data.cardDescription ?? e.data.tagline ?? e.data.description) && (
+              <span style="font-size:0.75rem;color:var(--sl-color-gray-4);line-height:1.4;">
+                {e.data.cardDescription ?? e.data.tagline ?? e.data.description}
+              </span>
+            )}
+          </span>
+          {e.data.completionState && (
+            <span style="font-family:var(--sl-font-mono);font-size:0.7rem;color:var(--sl-color-gray-4);white-space:nowrap;text-transform:uppercase;align-self:flex-start;padding-top:0.1rem;">
+              {e.data.completionState}
             </span>
           )}
-        </span>
-        {e.data.completionState && e.data.completionState !== 'draft' && (
-          <span style="font-family:var(--sl-font-mono);font-size:0.7rem;color:var(--sl-color-gray-4);white-space:nowrap;text-transform:uppercase;align-self:flex-start;padding-top:0.1rem;">
-            {e.data.completionState}
-          </span>
-        )}
-      </li>
-    );
-  })}
-</ul>
+        </li>
+      );
+    })}
+  </ul>
+) : (
+  <p style="font-family:var(--sl-font-mono);font-size:0.8rem;color:var(--sl-color-gray-4);font-style:italic;padding:0.5rem 0;margin:0;">
+    No entries filed in this register.
+  </p>
 )}
+
