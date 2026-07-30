@@ -15,8 +15,8 @@ const {
 
 const relatedEntries = (entry?.data as any)?.relatedEntries;
 
-// Default policy is 'links'. Can be set to 'inline' or 'none' via frontmatter.
-const poetryDisplay = (entry?.data as any)?.poetryDisplay || 'links';
+// Default policy is 'inline'. Can be set to 'links' or 'none' via frontmatter.
+const poetryDisplay = (entry?.data as any)?.poetryDisplay || 'inline';
 const hasPoetry = matchingAphorisms.length > 0 || matchingHaikus.length > 0 || matchingLimericks.length > 0;
 ---
 
