@@ -175,6 +175,7 @@ const relatedRef = z.object({
   ]),
   // internal ID / slug like 'LLG-0019-COMA' or 'reference/fref-0370-dcst'
   id: z.string(),
+  state: z.string().optional(),
 });
 
 
@@ -299,6 +300,7 @@ export const collections = {
           z.object({
             collection: z.string(),
             id: z.string(),
+            state: z.string().optional(),
           })
         ])).optional(),
       }) 

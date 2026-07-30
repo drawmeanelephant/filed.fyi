@@ -4,13 +4,31 @@ import { getEntry, getCollection } from 'astro:content';
 interface RelatedRef {
   collection: string;
   id: string;
+  state?: string;
 }
 
 interface Props {
-  items?: RelatedRef[];
+  items?: (RelatedRef | string)[];
 }
 
 const { items = [] } = Astro.props;
+
+const normalizedItems: RelatedRef[] = items.map((r) => {
+  if (typeof r === 'string') {
+    const parts = r.split('/');
+    const firstPart = parts[0]?.toLowerCase();
+    const knownCollections = ['lorelog', 'mascots', 'haikus', 'limericks', 'aphorisms', 'releases', 'changelog'];
+    if (knownCollections.includes(firstPart)) {
+      return { collection: firstPart, id: r };
+    }
+    return { collection: 'docs', id: r };
+  }
+  return {
+    collection: r.collection || 'docs',
+    id: r.id || '',
+    state: (r as any).state,
+  };
+});
 
 // Fetch other collections to resolve poem routing
 const mascots = await getCollection('mascots');
@@ -80,13 +98,40 @@ function isMascotMatch(poemRef: string, mascot: any): boolean {
   return false;
 }
 
-const resolved = await Promise.all(
-  items.map(async (r) => {
+interface ResolutionResult {
+  resolved: boolean;
+  collection: string;
+  id: string;
+  entry?: any;
+  state?: string;
+}
+
+const resolved: ResolutionResult[] = await Promise.all(
+  normalizedItems.map(async (r): Promise<ResolutionResult> => {
+    if (!r.id) {
+      return { resolved: false, collection: r.collection, id: r.id, state: r.state };
+    }
     try {
-      const entry = await getEntry(r.collection as any, r.id as any);
-      return entry ?? null;
+      let entry = await getEntry(r.collection as any, r.id as any);
+
+      if (!entry && r.id.startsWith(r.collection + '/')) {
+        const cleanId = r.id.substring(r.collection.length + 1);
+        entry = await getEntry(r.collection as any, cleanId as any);
+      }
+
+      if (!entry) {
+        if (r.id.endsWith('.mdx') || r.id.endsWith('.md')) {
+          const noExt = r.id.replace(/\.mdx?$/, '');
+          entry = await getEntry(r.collection as any, noExt as any);
+        }
+      }
+
+      if (entry) {
+        return { resolved: true, collection: r.collection, id: r.id, entry, state: r.state };
+      }
+      return { resolved: false, collection: r.collection, id: r.id, state: r.state };
     } catch {
-      return null;
+      return { resolved: false, collection: r.collection, id: r.id, state: r.state };
     }
   })
 );
@@ -131,30 +176,39 @@ function resolveHref(e: any): string {
   if (coll === 'aphorisms') return '/aphorisms#' + poemName;
   return '#';
 }
-
-const visible = resolved.filter(Boolean);
 ---
 
-{visible.length > 0 && (
+{resolved.length > 0 && (
   <section style="margin-top:2rem;">
     <h2 style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.08em;">
       Related filings
     </h2>
     <ul style="list-style:none; padding:0; margin:0.5rem 0 0;">
-      {visible.map((e: any) => (
+      {resolved.map((res) => (
         <li
           style="padding:0.35rem 0; border-bottom:1px solid var(--sl-color-hairline);"
         >
-          <span
-            style="font-family:var(--sl-font-mono); font-size:0.75rem; color:var(--sl-color-gray-3); margin-right:0.6rem;"
-          >
-            {e.data.caseNumber ?? e.data.mascotId ?? e.data.versionLabel ?? '—'}
-          </span>
-          <a href={resolveHref(e)}>
-            {e.data.displayName ?? e.data.title}
-          </a>
+          {res.resolved && res.entry ? (
+            <>
+              <span
+                style="font-family:var(--sl-font-mono); font-size:0.75rem; color:var(--sl-color-gray-3); margin-right:0.6rem;"
+              >
+                {res.entry.data.caseNumber ?? res.entry.data.mascotId ?? res.entry.data.versionLabel ?? '—'}
+              </span>
+              <a href={resolveHref(res.entry)}>
+                {res.entry.data.displayName ?? res.entry.data.title}
+              </a>
+            </>
+          ) : (
+            <span
+              style="font-family:var(--sl-font-mono); font-size:0.75rem; color:var(--sl-color-gray-4); font-style:italic;"
+            >
+              UNRESOLVED · {res.collection} · {res.id}{res.state ? ` (${res.state})` : ''}
+            </span>
+          )}
         </li>
       ))}
     </ul>
   </section>
 )}
+
