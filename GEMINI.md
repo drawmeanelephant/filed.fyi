@@ -1,9 +1,9 @@
 # GEMINI.md
 
 ## Project Overview
-**filed.fyi (Filed & Forgotten)** is a static, collection-backed archive designed to preserve records of system entities (mascots), case files (lorelog), and archival residue (limericks, haikus). The project emphasizes long-term maintainability through a "flat-file" philosophy, avoiding unnecessary abstractions and frameworks.
+**filed.fyi (Filed & Forgotten)** is a static, collection-backed archive designed to preserve records of system entities (mascots), case files (lorelog), and archival residue (limericks, haikus, aphorisms). The project emphasizes long-term maintainability through a "flat-file" philosophy, avoiding unnecessary abstractions and frameworks.
 
-- **Stack:** Astro 6.x, Starlight, Lucide.
+- **Stack:** Astro 7.x, Starlight, Lucide.
 - **Architecture:** Static delivery of Markdown/MDX content collections.
 - **Philosophy:** Static, flat-file archive. Minimal abstraction. Prefer duplication over complex design systems. Git history is considered part of the archival state.
 
@@ -11,6 +11,9 @@
 - `npm run dev`: Starts the Astro development server.
 - `npm run build`: Builds the static site for production.
 - `npm run preview`: Previews the production build locally.
+- `npm run lint`: Runs `markdownlint-cli` across Markdown/MDX content.
+- `npm run check`: Runs `astro check` for TypeScript and Astro component diagnostics.
+- `npm run test`: Runs form/governance audits, markdown linting, and build verification.
 
 ## Development Conventions & Constraints
 - **Metadata Diligence:** Whenever creating or modifying a file, ensure the `updatedAt` frontmatter field is set or updated to the current date (`YYYY-MM-DD`).
@@ -20,13 +23,15 @@
 - **Vanilla CSS:** Prefer plain CSS in `src/styles/global.css` or scoped styles over utility-first frameworks.
 
 ## Content Structure
-Records are stored in `src/content/docs/` and categorized into several key collections:
+Records are stored in `src/content/` and categorized into several key collections:
 
-- **Mascots (`mascots/`):** System entities with complex state markers and lore.
-- **Lorelog (`lorelog/`):** Case files preserving incident framing and interpretive state.
-- **Archive Residue:** `limericks/`, `haikus/`, `aphorisms/`.
-- **System Logs:** `changelog/`, `releases/`, `posts/`.
-- **Reference:** Technical documentation and system directives.
+- **Documentation Collections (`src/content/docs/`):**
+  - **Mascots (`mascots/`):** System entities with complex state markers and lore.
+  - **Lorelog (`lorelog/`):** Case files preserving incident framing and interpretive state.
+  - **System Logs:** `changelog/`, `releases/`, `posts/`.
+  - **Reference & Guides:** `reference/`, `guides/`.
+- **Standalone Verse & Maxim Collections:**
+  - **Archive Residue (`src/content/`):** `limericks/`, `haikus/`, `aphorisms/`.
 
 ### Concept Routing & Shelving
 The archive uses a flat-file, tag-based taxonomy for clustering files into "shelves" or "concepts" (e.g., `core-doctrines`, `operational-engines`). 
@@ -42,5 +47,6 @@ The archive uses a flat-file, tag-based taxonomy for clustering files into "shel
 
 ## Testing & Validation
 - **Markdown Linting:** Use `npm run lint` (via `markdownlint-cli`) to ensure content consistency.
-- **Type Checking:** Run `tsc` to validate TypeScript and Astro content schemas.
+- **Type Checking:** Run `npm run check` (via `astro check`) to validate TypeScript and Astro component schemas.
 - **Schema Validation:** Astro automatically validates content against schemas in `src/content.config.ts` during build and dev.
+
