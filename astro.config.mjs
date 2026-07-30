@@ -61,7 +61,6 @@ export default defineConfig({
           attrs: { property: 'twitter:image', content: 'https://filed.fyi/og-default.png' }
         }
       ],
-      disable404Route: true,
       customCss: [
         './src/styles/global.css',
       ],
@@ -84,11 +83,13 @@ export default defineConfig({
           label: 'Reference',
           items: [
             { label: 'Index', link: '/reference' },
+            { label: 'Concepts', link: '/concepts' },
             { label: 'Directives', link: '/reference/directives' },
             { label: 'Forms', link: '/reference/forms' },
             { label: 'Empathegy', link: '/reference/empathegy' },
             { label: 'Managed Absence', link: '/reference/managed-absence' },
             { label: 'Directive Conflicts', link: '/reference/directive-conflicts' },
+            { label: 'Queue Theatre', link: '/reference/queue-theatre' },
           ],
         },
 
