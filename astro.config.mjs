@@ -33,7 +33,7 @@ const cloudflareAnalytics = () => ({
 export default defineConfig({
   site: 'https://filed.fyi',
   markdown: {
-    processor: unified(),
+    processor: unified({}),
   },
   integrations: [
     cloudflareAnalytics(),
@@ -47,6 +47,7 @@ export default defineConfig({
     starlight({
       title: 'Filed & Forgotten',
       description: 'Archive surface for collection-backed records.',
+      disable404Route: true,
       components: {
         MarkdownContent: './src/components/starlight/MarkdownContent.astro',
         PageSidebar: './src/components/starlight/PageSidebar.astro',
