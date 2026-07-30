@@ -113,7 +113,8 @@ export const mascots = defineCollection({
       image: z.string().nullable().optional(),
       httpCode: z.number().nullable().optional(),
 
-      // SORA
+      // DISPLAY POLICY
+      poetryDisplay: z.enum(['none', 'links', 'inline']).nullable().optional(),
     })
     .transform((data) => {
       const displayName = data.name ?? data.title ?? null;
@@ -213,6 +214,7 @@ const lorelog = defineCollection({
     concepts: flexStringArray,
     notes:    z.string().optional(),
     redacted: z.boolean().default(false),
+    poetryDisplay: z.enum(['none', 'links', 'inline']).nullable().optional(),
   }),
 });
 
@@ -293,6 +295,7 @@ export const collections = {
         classification: z.string().nullable().optional(),
         systemAffiliation: z.string().nullable().optional(),
         mascotRef: z.string().nullable().optional(),
+        poetryDisplay: z.enum(['none', 'links', 'inline']).nullable().optional(),
         relatedHaiku: z.array(z.object({ slug: z.string() })).optional(),
         relatedLimerick: z.array(z.object({ slug: z.string() })).optional(),
         relatedEntries: z.array(z.union([

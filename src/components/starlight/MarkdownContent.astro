@@ -15,9 +15,9 @@ const {
 
 const relatedEntries = (entry?.data as any)?.relatedEntries;
 
-// Lorelogs, references, guides, posts, etc. all share the "related" presentation.
-// Mascots keep their own "Haiku Log / Limerick Log / Aphorisms" labels.
-const showRelatedBlock = !isMascot && (matchingAphorisms.length > 0 || matchingHaikus.length > 0 || matchingLimericks.length > 0);
+// Default policy is 'links'. Can be set to 'inline' or 'none' via frontmatter.
+const poetryDisplay = (entry?.data as any)?.poetryDisplay || 'links';
+const hasPoetry = matchingAphorisms.length > 0 || matchingHaikus.length > 0 || matchingLimericks.length > 0;
 ---
 
 <Default {...Astro.props}>
@@ -27,11 +27,11 @@ const showRelatedBlock = !isMascot && (matchingAphorisms.length > 0 || matchingH
     <RelatedEntries items={relatedEntries} />
   )}
 
-  {isMascot && (
+  {poetryDisplay === 'inline' && hasPoetry && (
     <>
       {matchingAphorisms.length > 0 && (
         <div class="inline-poetry-section" style="margin-top: 3rem;">
-          <h2 id="inline-aphorisms">Aphorisms</h2>
+          <h2 id="inline-aphorisms">{isMascot ? 'Aphorisms' : 'Related Aphorisms'}</h2>
           <div class="poetry-masonry-yard">
             {await Promise.all(matchingAphorisms.map(async (aphorism) => {
               const { Content } = await render(aphorism);
@@ -47,7 +47,7 @@ const showRelatedBlock = !isMascot && (matchingAphorisms.length > 0 || matchingH
 
       {matchingHaikus.length > 0 && (
         <div class="inline-poetry-section" style="margin-top: 3rem;">
-          <h2 id="inline-haikus">Haiku Log</h2>
+          <h2 id="inline-haikus">{isMascot ? 'Haiku Log' : 'Related Haikus'}</h2>
           <div class="poetry-masonry-yard">
             {await Promise.all(matchingHaikus.map(async (haiku) => {
               const { Content } = await render(haiku);
@@ -63,7 +63,7 @@ const showRelatedBlock = !isMascot && (matchingAphorisms.length > 0 || matchingH
 
       {matchingLimericks.length > 0 && (
         <div class="inline-poetry-section" style="margin-top: 3rem;">
-          <h2 id="inline-limericks">Limerick Log</h2>
+          <h2 id="inline-limericks">{isMascot ? 'Limerick Log' : 'Related Limericks'}</h2>
           <div class="poetry-masonry-yard">
             {await Promise.all(matchingLimericks.map(async (limerick) => {
               const { Content } = await render(limerick);
@@ -79,55 +79,37 @@ const showRelatedBlock = !isMascot && (matchingAphorisms.length > 0 || matchingH
     </>
   )}
 
-  {showRelatedBlock && (
-    <>
-      {matchingAphorisms.length > 0 && (
-        <div class="inline-poetry-section" style="margin-top: 3rem;">
-          <h2 id="inline-aphorisms">Related Aphorisms</h2>
-          <div class="poetry-masonry-yard">
-            {await Promise.all(matchingAphorisms.map(async (aphorism) => {
-              const { Content } = await render(aphorism);
-              return (
-                <div id={getPoemId(aphorism)} class="inline-poem-wrapper">
-                  <Content />
-                </div>
-              );
-            }))}
-          </div>
-        </div>
-      )}
-
-      {matchingHaikus.length > 0 && (
-        <div class="inline-poetry-section" style="margin-top: 3rem;">
-          <h2 id="inline-haikus">Related Haikus</h2>
-          <div class="poetry-masonry-yard">
-            {await Promise.all(matchingHaikus.map(async (haiku) => {
-              const { Content } = await render(haiku);
-              return (
-                <div id={getPoemId(haiku)} class="inline-poem-wrapper">
-                  <Content />
-                </div>
-              );
-            }))}
-          </div>
-        </div>
-      )}
-
-      {matchingLimericks.length > 0 && (
-        <div class="inline-poetry-section" style="margin-top: 3rem;">
-          <h2 id="inline-limericks">Related Limericks</h2>
-          <div class="poetry-masonry-yard">
-            {await Promise.all(matchingLimericks.map(async (limerick) => {
-              const { Content } = await render(limerick);
-              return (
-                <div id={getPoemId(limerick)} class="inline-poem-wrapper">
-                  <Content />
-                </div>
-              );
-            }))}
-          </div>
-        </div>
-      )}
-    </>
+  {poetryDisplay === 'links' && hasPoetry && (
+    <section class="related-verse-section" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--sl-color-hairline);">
+      <h2 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.75rem; color: var(--sl-color-gray-2);">
+        Related verse
+      </h2>
+      <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem;">
+        {matchingAphorisms.map((aphorism: any) => (
+          <li style="padding: 0.25rem 0; border-bottom: 1px dashed var(--sl-color-hairline); display: flex; align-items: baseline; gap: 0.6rem;">
+            <span style="font-family: var(--sl-font-mono); font-size: 0.75rem; color: var(--sl-color-gray-3); text-transform: uppercase; min-width: 6ch; flex-shrink: 0;">Aphorism</span>
+            <a href={`/aphorisms#${getPoemId(aphorism)}`} style="font-size: 0.875rem;">
+              {aphorism.data?.title || aphorism.data?.caseNumber || aphorism.id}
+            </a>
+          </li>
+        ))}
+        {matchingHaikus.map((haiku: any) => (
+          <li style="padding: 0.25rem 0; border-bottom: 1px dashed var(--sl-color-hairline); display: flex; align-items: baseline; gap: 0.6rem;">
+            <span style="font-family: var(--sl-font-mono); font-size: 0.75rem; color: var(--sl-color-gray-3); text-transform: uppercase; min-width: 6ch; flex-shrink: 0;">Haiku</span>
+            <a href={`/haikus#${getPoemId(haiku)}`} style="font-size: 0.875rem;">
+              {haiku.data?.title || haiku.data?.caseNumber || haiku.id}
+            </a>
+          </li>
+        ))}
+        {matchingLimericks.map((limerick: any) => (
+          <li style="padding: 0.25rem 0; border-bottom: 1px dashed var(--sl-color-hairline); display: flex; align-items: baseline; gap: 0.6rem;">
+            <span style="font-family: var(--sl-font-mono); font-size: 0.75rem; color: var(--sl-color-gray-3); text-transform: uppercase; min-width: 6ch; flex-shrink: 0;">Limerick</span>
+            <a href={`/limericks#${getPoemId(limerick)}`} style="font-size: 0.875rem;">
+              {limerick.data?.title || limerick.data?.caseNumber || limerick.id}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
   )}
 </Default>
