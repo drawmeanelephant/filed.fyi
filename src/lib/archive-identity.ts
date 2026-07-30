@@ -191,6 +191,10 @@ export function resolveExactAlias(
     targetRefStr = ref.id || '';
   }
 
+  if (targetColl && ['reference', 'guides', 'posts'].includes(targetColl.toLowerCase())) {
+    targetColl = 'docs';
+  }
+
   const cleanTargetToken = normalizeToken(targetRefStr);
   if (!cleanTargetToken) {
     return {
