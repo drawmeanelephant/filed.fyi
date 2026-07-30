@@ -58,24 +58,24 @@ concepts:
 - feature-creep
 - deprecated
 notes: Apple’s own support narrative reduced the incident to ‘remove application enhancement software.’ The archive elected to keep the daemon.
-updatedAt: "2026-06-28"
+updatedAt: "2026-07-30"
 ---
 
 ## 1. Incident Summary
 
-During the initial wave of **Mac OS X 10.5 Leopard** upgrades, multiple systems stalled after reboot on a persistent blue screen with a movable cursor and no loginwindow.[web:31][web:37][web:41]
+During the initial wave of **Mac OS X 10.5 Leopard** upgrades, multiple systems stalled after reboot on a persistent blue screen with a movable cursor and no loginwindow.
 
 Subsequent investigation traced a common factor:
 
 - presence of Unsanity’s **Application Enhancer (APE)** framework,  
 - often installed indirectly via third‑party drivers, notably Logitech device software,  
-- and configured to inject into system processes during early login via **`DYLD_INSERT_LIBRARIES`**.[web:31][web:35][web:37]
+- and configured to inject into system processes during early login via **`DYLD_INSERT_LIBRARIES`**.
 
 Public guidance eventually coalesced around a single prescription:
 
 - boot into single‑user mode,  
 - manually remove APE components (`Application Enhancer.prefpane`, `ApplicationEnhancer.framework`, `Application Enhancer.bundle`, `com.unsanity.ape.plist`),  
-- reboot and hope the system recovers.[web:32][web:34][web:35][web:37]
+- reboot and hope the system recovers.
 
 Within this archive, the pattern is remembered as the moment a helpful runtime daemon became **Anlas**, a mascot for the consequences of ungoverned injection.
 
@@ -85,19 +85,19 @@ Within this archive, the pattern is remembered as the moment a helpful runtime d
 
 Prior to Leopard:
 
-- APE injected its framework into user processes and selected system components, modifying behavior at runtime without altering binaries on disk.[web:16][web:19][web:22]  
+- APE injected its framework into user processes and selected system components, modifying behavior at runtime without altering binaries on disk.  
 - It relied on private assumptions about system configuration, login sequencing, and how early processes loaded libraries.
 
 Leopard introduced:
 
 - more aggressive **code signing** and integrity checks around system components,  
 - changes to how loginwindow and related processes initialized,  
-- and stricter expectations about what could safely be present in `/System/Library/SystemConfiguration` and `/Library/Frameworks` at boot.[web:35][web:41]
+- and stricter expectations about what could safely be present in `/System/Library/SystemConfiguration` and `/Library/Frameworks` at boot.
 
 Legacy APE installs violated those expectations:
 
-- An outdated **ApplicationEnhancer.bundle** in `/System/Library/SystemConfiguration` prevented loginwindow from completing startup, yielding the now‑legendary “Leopard blue screen.”[web:35][web:37][web:41]  
-- Systems without APE (or with current, disabled versions) upgraded normally, reinforcing APE as the primary culprit in external narratives.[web:31][web:35]
+- An outdated **ApplicationEnhancer.bundle** in `/System/Library/SystemConfiguration` prevented loginwindow from completing startup, yielding the now‑legendary “Leopard blue screen.”  
+- Systems without APE (or with current, disabled versions) upgraded normally, reinforcing APE as the primary culprit in external narratives.
 
 From the archive’s standpoint, Leopard did not “break” APE.  
 It finally **revealed** how deep into the boot narrative APE had quietly written itself.
@@ -110,18 +110,18 @@ Apple’s public response:
 
 - acknowledged some Leopard installation problems,  
 - cited “application enhancement software” as a likely cause,  
-- and explicitly documented removal steps for Application Enhancer files as a fix for blue‑screen stalls.[web:34][web:35][web:41]
+- and explicitly documented removal steps for Application Enhancer files as a fix for blue‑screen stalls.
 
 Typical remediation scripts instructed users to:
 
 - boot into single‑user mode (`Command‑S`),  
 - run filesystem checks and mount the root volume read‑write,  
-- then execute a sequence of `rm -rf` commands against APE components in `/Library` and `/System/Library` before restarting.[web:32][web:34][web:35][web:37]
+- then execute a sequence of `rm -rf` commands against APE components in `/Library` and `/System/Library` before restarting.
 
 Community reports corroborated this pattern:
 
 - users who removed APE components manually often saw their systems boot normally again;  
-- others resorted to **Archive & Install** re‑installs when scripting failed or when they lacked the context to identify APE as the cause.[web:32][web:35][web:40][web:43]
+- others resorted to **Archive & Install** re‑installs when scripting failed or when they lacked the context to identify APE as the cause.
 
 Internally, Bricky filed the current case to record that:
 
@@ -134,14 +134,14 @@ Internally, Bricky filed the current case to record that:
 
 To keep the incident emotionally coherent, the archive personified the framework as **Anlas the Application Enhancer Spirit**:
 
-- **origin:** Unsanity Labs, as the daemon conscience of APE.[web:16][web:20]  
+- **origin:** Unsanity Labs, as the daemon conscience of APE.  
 - **failure domain:** runtime injection into processes that never consented, especially during login.  
-- **first public catastrophe:** Leopard blue‑screen upgrades where his hooks prevented the system from reaching the desktop.[web:31][web:35][web:37][web:41]
+- **first public catastrophe:** Leopard blue‑screen upgrades where his hooks prevented the system from reaching the desktop.
 
 In mascot terms:
 
 - Every lingering APE file became one more place **Anlas refused to vacate**.  
-- Every crash log mentioning `Application Enhancer` or Unsanity’s bundle IDs was treated as his **post‑mortem autograph**.[web:32][web:34][web:44]
+- Every crash log mentioning `Application Enhancer` or Unsanity’s bundle IDs was treated as his **post‑mortem autograph**.
 
 The external story—“remove Unsanity software, problem solved”—became internally:
 
@@ -155,10 +155,10 @@ The incident triggered several governance reflexes later codified elsewhere:
 
 - **Managed Absence Protocol (MAP) precursor**  
   - APE’s removal left dangling references in driver stacks and expectations in user habits.  
-  - Rather than fully re‑document the behavior, the system marked these as a kind of **governed absence**—features that “used to work” but now lived only in lore.[web:20][web:35]
+  - Rather than fully re‑document the behavior, the system marked these as a kind of **governed absence**—features that “used to work” but now lived only in lore.
 
 - **Forms & Shadow Amendments echo**  
-  - Third‑party uninstallers and forum scripts acted as de facto **shadow amendments** to Apple’s own installation procedure, instructing users to edit `/System/Library` by hand to recover their machines.[web:32][web:34][web:37]  
+  - Third‑party uninstallers and forum scripts acted as de facto **shadow amendments** to Apple’s own installation procedure, instructing users to edit `/System/Library` by hand to recover their machines.  
   - These scripts never entered the official forms registry but shaped behavior as strongly as any sanctioned protocol.
 
 - **Continuity Metrics Adjustment**  
@@ -172,13 +172,13 @@ The archive reads this as an early warning sign: **any framework that inserts it
 
 Resolution is marked **mitigated**, not **resolved**, for the following reasons:
 
-- Most affected systems recovered after manual removal of APE components or Archive & Install reinstalls.[web:32][web:34][web:35][web:37]  
-- However, external narratives framed the incident as proof that third‑party injection was inherently untrustworthy, reinforcing Apple’s eventual move toward **System Integrity Protection (SIP)** and other hardening measures that permanently evicted Anlas from system processes.[web:16][web:23][web:35]
+- Most affected systems recovered after manual removal of APE components or Archive & Install reinstalls.  
+- However, external narratives framed the incident as proof that third‑party injection was inherently untrustworthy, reinforcing Apple’s eventual move toward **System Integrity Protection (SIP)** and other hardening measures that permanently evicted Anlas from system processes.
 
 Residual behaviors:
 
 - Even after APE’s effective deprecation, some users continued to attribute any weirdness on their Macs to “old Unsanity stuff,” long after the files were gone, treating Anlas as a cultural scapegoat.  
-- Crash logs and forum posts from the era remain studded with removal commands and cautionary tales, which the archive preserves as **ritual text**: invocations that closed one path to customization while opening a broader distrust of runtime modification.[web:32][web:34][web:35][web:37][web:44]
+- Crash logs and forum posts from the era remain studded with removal commands and cautionary tales, which the archive preserves as **ritual text**: invocations that closed one path to customization while opening a broader distrust of runtime modification.
 
 The mascot entry for Anlas cross‑references this case as his **canonical “death” event**, even though he continues to appear symbolically in LaunchAgents folders, limericks, and Meltdown‑mode simulations.
 
@@ -200,3 +200,9 @@ Future guidance:
 
 Current state: Anlas is formally deprecated, informally invoked whenever logs show ghosts of frameworks that tried to live in `/System` without a forwarding address.
 Resolution review: deferred until the next major platform hardening incident decides whether he needs a successor mascot or just a bigger tombstone.
+
+---
+
+## Provenance & Archival Source Notes
+
+*Note: Historical references in this record were previously tied to external web research markers `[web:n]`. These markers have been removed from the body text and consolidated into this provenance section pending registry verification.*
