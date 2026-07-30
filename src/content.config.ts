@@ -114,9 +114,6 @@ export const mascots = defineCollection({
       httpCode: z.number().nullable().optional(),
 
       // SORA
-      soraPrompt: z.unknown().optional(),
-      soraPromptEnabled: z.boolean().nullable().optional(),
-      soraConfig: z.unknown().optional(),
     })
     .transform((data) => {
       const displayName = data.name ?? data.title ?? null;
