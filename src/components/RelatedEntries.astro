@@ -1,5 +1,6 @@
 ---
-import { getEntry, getCollection } from 'astro:content';
+import { getCollection } from 'astro:content';
+import { resolveExactAlias, entryHref, type ArchiveEntry, type ResolutionResult } from '../lib/archive-identity';
 
 interface RelatedRef {
   collection: string;
@@ -13,28 +14,27 @@ interface Props {
 
 const { items = [] } = Astro.props;
 
-const normalizedItems: RelatedRef[] = items.map((r) => {
-  if (typeof r === 'string') {
-    const parts = r.split('/');
-    const firstPart = parts[0]?.toLowerCase();
-    const knownCollections = ['lorelog', 'mascots', 'haikus', 'limericks', 'aphorisms', 'releases', 'changelog'];
-    if (knownCollections.includes(firstPart)) {
-      return { collection: firstPart, id: r };
-    }
-    return { collection: 'docs', id: r };
-  }
-  return {
-    collection: r.collection || 'docs',
-    id: r.id || '',
-    state: (r as any).state,
-  };
-});
+// Fetch all entries across collections to form the archive lookup index
+const [mascots, lorelogs, docs, haikus, limericks, aphorisms] = await Promise.all([
+  getCollection('mascots'),
+  getCollection('lorelog'),
+  getCollection('docs'),
+  getCollection('haikus'),
+  getCollection('limericks'),
+  getCollection('aphorisms'),
+]);
 
-// Fetch other collections to resolve poem routing
-const mascots = await getCollection('mascots');
-const lorelogs = await getCollection('lorelog');
+const allEntries: ArchiveEntry[] = [
+  ...mascots.map((e) => ({ ...e, collection: 'mascots' })),
+  ...lorelogs.map((e) => ({ ...e, collection: 'lorelog' })),
+  ...docs.map((e) => ({ ...e, collection: 'docs' })),
+  ...haikus.map((e) => ({ ...e, collection: 'haikus' })),
+  ...limericks.map((e) => ({ ...e, collection: 'limericks' })),
+  ...aphorisms.map((e) => ({ ...e, collection: 'aphorisms' })),
+];
 
-const poemToLorelogMap = new Map();
+// Poem-to-Lorelog parent map
+const poemToLorelogMap = new Map<string, string>();
 for (const lg of lorelogs) {
   const lgName = lg.id.replace(/\.mdx?$/, '');
 
@@ -53,138 +53,46 @@ for (const lg of lorelogs) {
       poemToLorelogMap.set(lName, lgName);
     }
   }
-}
 
-function isMascotMatch(poemRef: string, mascot: any): boolean {
-  if (!poemRef || !mascot) return false;
-
-  const clean = (s: string) => s
-    .replace(/^mascots\//i, '')
-    .replace(/\.mdx?$/i, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]/g, ' ')
-    .trim();
-
-  const rClean = clean(poemRef);
-  const rTokens = rClean.split(/\s+/).filter(Boolean);
-
-  const rNumber = rTokens.find(t => /^\d+$/.test(t));
-  if (rNumber && mascot.data.mascotId && String(mascot.data.mascotId) === rNumber) {
-    return true;
-  }
-
-  const cleanMascot = (str: string) => clean(str).split(/\s+/).filter(t => !/^\d+$/.test(t) && t !== 'the');
-
-  const mascotTokens = [
-    mascot.id,
-    mascot.data.slug,
-    mascot.data.title,
-    mascot.data.displayName,
-    mascot.data.name,
-  ].filter(Boolean).flatMap(cleanMascot);
-
-  const poemTextTokens = rTokens.filter(t => !/^\d+$/.test(t) && t !== 'the');
-
-  if (poemTextTokens.length > 0 && mascotTokens.length > 0) {
-    const allMatch = poemTextTokens.every(pt => mascotTokens.includes(pt));
-    if (allMatch) return true;
-
-    const titleTokens = cleanMascot(mascot.data.title || mascot.data.displayName || '');
-    if (titleTokens.length > 0 && titleTokens.every(tt => poemTextTokens.includes(tt))) {
-      return true;
+  const relatedE = (lg.data as any).relatedEntries || [];
+  for (const re of relatedE) {
+    if (re.id && ['haikus', 'limericks', 'aphorisms'].includes(re.collection)) {
+      const pName = re.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+      poemToLorelogMap.set(pName, lgName);
     }
   }
-
-  return false;
 }
 
-interface ResolutionResult {
-  resolved: boolean;
-  collection: string;
-  id: string;
-  entry?: any;
-  state?: string;
-}
+const resolvedResults: (ResolutionResult & { state?: string })[] = items.map((rawItem) => {
+  const state = typeof rawItem === 'object' ? (rawItem as any).state : undefined;
+  const res = resolveExactAlias(rawItem, allEntries);
 
-const resolved: ResolutionResult[] = await Promise.all(
-  normalizedItems.map(async (r): Promise<ResolutionResult> => {
-    if (!r.id) {
-      return { resolved: false, collection: r.collection, id: r.id, state: r.state };
-    }
-    try {
-      let entry = await getEntry(r.collection as any, r.id as any);
+  if (res.resolved && res.entry) {
+    const coll = res.entry.collection || res.collection;
+    const isPoem = ['haikus', 'limericks', 'aphorisms'].includes(coll);
+    let href = res.href || entryHref(res.entry);
 
-      if (!entry && r.id.startsWith(r.collection + '/')) {
-        const cleanId = r.id.substring(r.collection.length + 1);
-        entry = await getEntry(r.collection as any, cleanId as any);
+    if (isPoem) {
+      const poemName = res.entry.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
+      if (poemToLorelogMap.has(poemName)) {
+        href = `/lorelog/${poemToLorelogMap.get(poemName)}#${poemName}`;
       }
-
-      if (!entry) {
-        if (r.id.endsWith('.mdx') || r.id.endsWith('.md')) {
-          const noExt = r.id.replace(/\.mdx?$/, '');
-          entry = await getEntry(r.collection as any, noExt as any);
-        }
-      }
-
-      if (entry) {
-        return { resolved: true, collection: r.collection, id: r.id, entry, state: r.state };
-      }
-      return { resolved: false, collection: r.collection, id: r.id, state: r.state };
-    } catch {
-      return { resolved: false, collection: r.collection, id: r.id, state: r.state };
     }
-  })
-);
 
-function getEntryHref(collection: string, id: string): string {
-  let cleanId = id.replace(/\.mdx?$/, '').toLowerCase();
-  if (cleanId.startsWith(collection + '/')) {
-    cleanId = cleanId.substring(collection.length + 1);
-  }
-  if (collection === 'docs') return '/' + cleanId;
-  return '/' + collection + '/' + cleanId;
-}
-
-function resolveHref(e: any): string {
-  const coll = e.collection;
-  const isPoem = ['haikus', 'limericks', 'aphorisms'].includes(coll);
-
-  if (!isPoem) {
-    return getEntryHref(coll, e.id);
+    return { ...res, href, state };
   }
 
-  const poemName = e.id.split('/').pop()?.replace(/\.mdx?$/, '').toLowerCase().trim() || '';
-
-  if (poemToLorelogMap.has(poemName)) {
-    return getEntryHref('lorelog', poemToLorelogMap.get(poemName)) + '#' + poemName;
-  }
-
-  const refs = [
-    e.data.mascotRef,
-    ...(e.data.relatedMascots || [])
-  ].filter(Boolean);
-
-  if (refs.length > 0) {
-    const matchedMascot = mascots.find(m => refs.some(ref => isMascotMatch(ref, m)));
-    if (matchedMascot) {
-      return getEntryHref('mascots', matchedMascot.id) + '#' + poemName;
-    }
-  }
-
-  if (coll === 'haikus') return '/haikus#' + poemName;
-  if (coll === 'limericks') return '/limericks#' + poemName;
-  if (coll === 'aphorisms') return '/aphorisms#' + poemName;
-  return '#';
-}
+  return { ...res, state };
+});
 ---
 
-{resolved.length > 0 && (
+{resolvedResults.length > 0 && (
   <section style="margin-top:2rem;">
     <h2 style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.08em;">
       Related filings
     </h2>
     <ul style="list-style:none; padding:0; margin:0.5rem 0 0;">
-      {resolved.map((res) => (
+      {resolvedResults.map((res) => (
         <li
           style="padding:0.35rem 0; border-bottom:1px solid var(--sl-color-hairline);"
         >
@@ -193,10 +101,10 @@ function resolveHref(e: any): string {
               <span
                 style="font-family:var(--sl-font-mono); font-size:0.75rem; color:var(--sl-color-gray-3); margin-right:0.6rem;"
               >
-                {res.entry.data.caseNumber ?? res.entry.data.mascotId ?? res.entry.data.versionLabel ?? '—'}
+                {res.entry.data?.caseNumber ?? res.entry.data?.mascotId ?? res.entry.data?.versionLabel ?? '—'}
               </span>
-              <a href={resolveHref(res.entry)}>
-                {res.entry.data.displayName ?? res.entry.data.title}
+              <a href={res.href || '#'}>
+                {res.entry.data?.displayName ?? res.entry.data?.title}
               </a>
             </>
           ) : (
