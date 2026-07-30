@@ -1,4 +1,5 @@
 import { getCollection } from 'astro:content';
+import { normalizeToken, entryAliases, resolveExactAlias } from './archive-identity';
 
 let mascotsPromise: Promise<any[]> | null = null;
 let haikusPromise: Promise<any[]> | null = null;
@@ -27,51 +28,8 @@ function loadAphorisms() {
 
 function isMascotMatch(poemRef: string, mascot: any): boolean {
   if (!poemRef || !mascot) return false;
-
-  const clean = (s: string) =>
-    s
-      .replace(/^mascots\//i, '')
-      .replace(/\.mdx?$/i, '')
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, ' ')
-      .trim();
-
-  const rClean = clean(poemRef);
-  const rTokens = rClean.split(/\s+/).filter(Boolean);
-
-  const rLeadingNumber = rTokens.length > 0 && /^\d+$/.test(rTokens[0]) ? rTokens[0] : null;
-  if (rLeadingNumber && mascot.data.mascotId && String(mascot.data.mascotId) === rLeadingNumber) {
-    return true;
-  }
-
-  const cleanMascot = (str: string) =>
-    clean(str)
-      .split(/\s+/)
-      .filter((t) => !/^\d+$/.test(t) && t !== 'the');
-
-  const mascotTokens = [
-    mascot.id,
-    mascot.data.slug,
-    mascot.data.title,
-    mascot.data.displayName,
-    mascot.data.name,
-  ]
-    .filter(Boolean)
-    .flatMap(cleanMascot);
-
-  const poemTextTokens = rTokens.filter((t) => !/^\d+$/.test(t) && t !== 'the');
-
-  if (poemTextTokens.length > 0 && mascotTokens.length > 0) {
-    const allMatch = poemTextTokens.every((pt) => mascotTokens.includes(pt));
-    if (allMatch) return true;
-
-    const titleTokens = cleanMascot(mascot.data.title || mascot.data.displayName || '');
-    if (titleTokens.length > 0 && titleTokens.every((tt) => poemTextTokens.includes(tt))) {
-      return true;
-    }
-  }
-
-  return false;
+  const res = resolveExactAlias({ collection: 'mascots', id: poemRef }, [{ ...mascot, collection: 'mascots' }]);
+  return res.resolved;
 }
 
 export const getPoemId = (poem: any) =>
@@ -84,13 +42,7 @@ export const getPoemId = (poem: any) =>
 
 /** Normalize case / identity tokens for parent↔child matching. */
 function normalizeId(value: unknown): string {
-  return String(value ?? '')
-    .toUpperCase()
-    .replace(/\.MDX?$/i, '')
-    .replace(/^DOCS\//, '')
-    .replace(/^(HAIKUS|LIMERICKS|APHORISMS|REFERENCE|LORELOG|MASCOTS|GUIDES|POSTS|RELEASES)\//, '')
-    .replace(/.*\//, '') // basename only
-    .trim();
+  return normalizeToken(value).toUpperCase();
 }
 
 /**
@@ -101,22 +53,18 @@ function pageIdentityKeys(entry: any): Set<string> {
   const keys = new Set<string>();
   if (!entry) return keys;
 
-  const add = (v: unknown) => {
-    const n = normalizeId(v);
-    if (n) keys.add(n);
-  };
-
-  add(entry.id);
-  add(entry.data?.slug);
-  add(entry.data?.caseNumber);
-  add(entry.data?.formNumber);
-
-  // e.g. reference/empathegy/fref-0570-celc → also FREF-0570-CELC shape
-  const base = normalizeId(entry.id?.split('/').pop());
-  if (base) {
-    keys.add(base);
-    // If basename is fref-0570-celc it already normalizes to FREF-0570-CELC
+  const aliases = entryAliases(entry);
+  for (const k of [
+    ...aliases.caseNumberKeys,
+    ...aliases.mascotIdKeys,
+    ...aliases.slugKeys,
+    ...aliases.aliasKeys
+  ]) {
+    if (k) keys.add(k.toUpperCase());
   }
+
+  const base = normalizeToken(entry.id?.split('/').pop()).toUpperCase();
+  if (base) keys.add(base);
 
   return keys;
 }
@@ -130,11 +78,8 @@ function poemParentKeys(poem: any): string[] {
       if (n) keys.push(n);
     }
   }
-  // Also allow poem caseNumber as a weak signal when it encodes the parent
-  // (common for FREF poetry where caseNumber === parentEntry).
   if (poem.data?.caseNumber) {
     const cn = normalizeId(poem.data.caseNumber);
-    // Strip poetry prefixes APH-/HAI-/LIM- if present
     const stripped = cn.replace(/^(APH|HAI|LIM)-/, '');
     if (stripped) keys.push(stripped);
     if (cn) keys.push(cn);

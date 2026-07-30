@@ -17,7 +17,8 @@ if (args.includes('--run-all')) {
     'astro-casenum-audit.mjs',
     'audit-poetry-alignment.mjs',
     'audit-frontmatter-integrity.mjs',
-    'audit-mascot-assurance.mjs'
+    'audit-mascot-assurance.mjs',
+    'audit-relationships.mjs'
   ];
   for (const script of scripts) {
     try {
