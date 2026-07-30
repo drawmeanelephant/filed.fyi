@@ -10,8 +10,13 @@ Records are stored as content collections under fixed categories. Classification
 
 - mascots: system entities with renumbered and reclassified identities across commits
 - lorelog: case records with evolving interpretation, cross-reference linkage, and non-stable filing relationships
+- reference: technical directives, domain frameworks, and architectural specifications
+- posts: analytical essays and field dispatches
+- releases: tagged version markers and release boundary records
+- changelog: system mutation logs and audit records
 - limericks: verse records emitted during structural changes, audits, migrations, and classification events
 - haikus: compressed observation layer of system state residue
+- aphorisms: condensed maxims and rule fragments captured from archival operations
 
 ## Archive model
 
@@ -25,7 +30,7 @@ Git history is part of the archive state, including renames, deletions, migratio
 
 Built with Astro and Starlight.
 
-Content definitions live in `src/content.config.ts`. Records are stored under `src/content/docs/`. Rendering is handled through collection-aware components and route layouts. Routes render content collections directly without transformation beyond mapping and layout components.
+Content definitions live in `src/content.config.ts`. Documentation records are stored under `src/content/docs/` (including `mascots/`, `lorelog/`, `reference/`, `posts/`, `releases/`, `changelog/`, and `guides/`), while standalone verse and maxim collections are stored under `src/content/limericks/`, `src/content/haikus/`, and `src/content/aphorisms/`. Rendering is handled through collection-aware components and route layouts. Routes render content collections directly without transformation beyond mapping and layout components.
 
 The archive does not depend on a CMS abstraction layer or runtime editorial interface.
 
@@ -43,6 +48,17 @@ Lorelog records are case files. They preserve incident framing, interpretive sta
 
 A lorelog entry may outlast the classification it originally described. Interpretation may change without invalidating prior filings.
 
+### Reference
+
+Reference records contain technical documentation, domain specifications, governance frameworks, and system directives.
+
+### Posts & Logs
+
+System logs capture temporal markers and narrative analysis across archive operations:
+- Posts: analytical dispatches and long-form commentary.
+- Releases: tagged release boundaries and software version milestones.
+- Changelog: structured records of system updates and audit modifications.
+
 ### Limericks
 
 Limericks are archival byproducts and parallel filings. They are emitted during structural change, interpretive drift, audit activity, and classification instability.
@@ -54,6 +70,10 @@ They do not stabilize the archive. They record its movement.
 Haikus operate as a compressed observation layer.
 
 They retain minimal state. They do not explain. They mark residue.
+
+### Aphorisms
+
+Aphorisms are single-sentence maxims and operational principles retained across system entities and archival states.
 
 ## Record constraints
 
