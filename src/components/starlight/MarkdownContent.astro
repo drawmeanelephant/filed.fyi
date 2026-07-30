@@ -3,6 +3,7 @@ import type { Props } from '@astrojs/starlight/props';
 import Default from '@astrojs/starlight/components/MarkdownContent.astro';
 import { render } from 'astro:content';
 import { getMatchingPoetry, getPoemId } from '../../lib/poetry-matcher';
+import RelatedEntries from '../RelatedEntries.astro';
 
 const entry = Astro.locals?.starlightRoute?.entry;
 const {
@@ -12,6 +13,8 @@ const {
   isMascot,
 } = await getMatchingPoetry(entry);
 
+const relatedEntries = (entry?.data as any)?.relatedEntries;
+
 // Lorelogs, references, guides, posts, etc. all share the "related" presentation.
 // Mascots keep their own "Haiku Log / Limerick Log / Aphorisms" labels.
 const showRelatedBlock = !isMascot && (matchingAphorisms.length > 0 || matchingHaikus.length > 0 || matchingLimericks.length > 0);
@@ -19,6 +22,10 @@ const showRelatedBlock = !isMascot && (matchingAphorisms.length > 0 || matchingH
 
 <Default {...Astro.props}>
   <slot />
+
+  {relatedEntries && relatedEntries.length > 0 && (
+    <RelatedEntries items={relatedEntries} />
+  )}
 
   {isMascot && (
     <>
