@@ -289,7 +289,7 @@ export const collections = {
         caseNumber: z.string().nullable().optional(),
         formNumber: z.string().nullable().optional(),
         versionLabel: z.string().nullable().optional(),
-        status: z.union([z.string(), z.record(z.any())]).nullable().optional(),
+        status: z.union([z.string(), z.record(z.string(), z.any())]).nullable().optional(),
         classification: z.string().nullable().optional(),
         systemAffiliation: z.string().nullable().optional(),
         mascotRef: z.string().nullable().optional(),
