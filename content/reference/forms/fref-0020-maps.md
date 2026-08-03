@@ -1,0 +1,212 @@
+---
+title: "Managed Absence Spine – CAAR, LCGU, STCP, AAOA"
+id: reference/FREF-0020-MAPS
+parent: reference
+status: published
+tags: ["reference", "rms-registry", "naged-absence", "ar", "gu", "cp", "oa", "surance-vocabulary", "gistry-governance"]
+---
+
+# Managed Absence Spine – CAAR, LCGU, STCP, AAOA
+
+Managed Absence is the doctrine the Forms Catalog uses when something is plainly wrong with the paperwork, but nobody is prepared to call it missing.
+
+The vocabulary surfaced formally in LLG-0324-MAP, but the behaviours it names are older. They describe not what forms are, but how we agree to talk about their absences.
+
+## The four managed absence states
+
+The registry currently recognizes four canonical managed absence states, listed here in the order they are usually confessed.
+
+### CAAR – Canonically Absent, Administratively Resolved
+
+Used when everyone agrees the form is gone, and everyone also agrees to pretend that this is fine.
+
+Common CAAR exemplars include:
+
+- Form 40‑C Cross-Departmental Consent Cascade LLG-0040-C  
+  The Council declares the form “conceptually fulfilled by mutual awareness” whenever collaboration is already happening, and not applicable otherwise.
+- Form 51‑E after Meta-Feeling Exclusion LLG-0052-MFX  
+  Feelings about the form are ruled out of scope, but not out of existence; they remain exactly where they appear, officially misplaced.
+- DS-404-ALPHA Deprecated Stakeholder Alignment Survey  
+  The form is retired on paper and preserved as a ritual slide, with checkboxes that still attract confessions.
+
+In CAAR, the form’s absence is documented as closure. The underlying need is left to find its own channel.
+
+### LCGU – Locally Canonical, Globally Unobserved
+
+Used for forms that are real in one office and folklore everywhere else.
+
+Examples:
+
+- Private 32‑A templates before LLG-0320-FRK Forms Registry Keyspace Collision  
+  Each office’s 32‑A was locally canonical; the collision only appeared when the shared index tried to reconcile them.
+- Shadow templates formalised in LLG-0244-FSC Shadow Form Copy Escalation  
+  Draft forms that behaved correctly in production but never cleared central approval.
+- 51‑E‑ (the proposed waiver) as referenced in LLG-0051-E  
+  It exists as a suggestion, a joke, and an escalation path. It does not exist as a form.
+
+LCGU forms accumulate lore faster than policy. MAP treats them as “mappable, if someone ever admits to owning them.”
+
+### STCP – Superseded in Text, Canonical in Practice
+
+Used when a template was updated, a policy was simplified, or a series was renumbered, but the old behaviour still governs daily work.
+
+Exemplars:
+
+- Form 12‑A Identity Frontmatter Misalignment LLG-0012-A  
+  The template is frozen and told to reference itself; Kindy’s engine still treats legacy aliases as evidence of who a mascot “really” is.
+- COMA-19 Phrasebook Clarification LLG-0020-COMA19-PBC  
+  The form is unchanged, but rest requests are now required to sound like continuity investments.
+- Legacy fields in Form Template Drift LLG-0322-FTD  
+  The policy removed questions; the boxes remained; reviewers kept judging the blank spaces.
+
+STCP describes forms that have two truths: the one printed, and the one people obey.
+
+### AAOA – Archivally Asserted, Operationally Absent
+
+Used when the only evidence a form ever existed is that the archive refuses to stop talking about it.
+
+Examples:
+
+- Early consent scaffolding implied around Form 40‑C and 51‑E before their first docketed revisions.  
+- Deprecated forms that survive solely as relatedEntries, footnotes, or ritual props in DMAIC-RITE and Engagement Labyrinth.  
+- Any form series referenced only in MAP annex tables and not in an active registry export.
+
+AAOA is the state most compatible with myth. It is also the state most likely to generate new paperwork later.
+
+## How incidents map into managed absence
+
+The following incidents are treated as doctrinally linked, even when they do not use the terminology explicitly:
+
+- LLG-0040-C – Form 40‑C Cross-Departmental Consent Cascade  
+  CAAR: the consent form is required and also permanently unsignable.
+- LLG-0051-E, LLG-0052-MFX – Form 51‑E and its Meta-Feeling Exclusion  
+  CAAR and STCP: the form exists, but its recursion channel is declared out of scope, not out of reality.
+- LLG-0217-CNTR – Metric Inflation, Forms per Form  
+  STCP: optimisation paperwork becomes the new normal; the metrics are updated to forget it.
+- LLG-0244-FSC – Shadow Form Copy Escalation  
+  LCGU to CAAR: drafts behave as real forms until Datty notices; afterwards, nobody can explain how work got done while they were “unreal.”
+- LLG-0320-FRK – Forms Registry Keyspace Collision  
+  STCP and LCGU: offices keep meaning their own 32‑A even after the registry insists there is only one.
+- LLG-0322-FTD, LLG-0325-ORT, LLG-0329-OIR  
+  STCP and AAOA: legacy fields, orphaned forms, and administratively present objects all inhabit the same semantic limbo.
+- LLG-0324-MAP – Managed Absence Protocol  
+  Canonical doctrine; defines the four terms and instructs scan reports to distinguish between absent, missing, and administratively present even when all three refer to the same file.
+- LLG-0328-MEC – Mutual Exception Circularity  
+  CAAR and STCP: exceptions that exist only to exempt each other, producing an empty but well-documented centre.
+
+Where these tags appear on a case file, readers should assume that the form’s current state cannot be expressed with a single boolean for exists.
+
+## Archive position
+
+Managed Absence is not a policy about fixing forms. It is a policy about describing the shapes their absences take on dashboards, in audits, and in lore.
+
+Marginal annotation (Forms Integrity Review): Attempts to formalize Managed Absence will inevitably produce new categories of absence that behave as if they were always present. The act of naming CAAR, LCGU, STCP, and AAOA stabilizes them temporarily, after which they begin migrating into each other depending on audit pressure, memory gaps, and how loudly the system insists on consistency.
+
+If you encounter a form that feels simultaneously required, deprecated, and made up, it is safer to classify it as managed absence than to insist on an answer.
+
+The archive will eventually grow a doctrine around it.
+
+## Related Aphorisms
+
+
+### Managed Absence Spine
+
+Managed Absence is not about fixing forms; it is about describing the shapes their absences take. Nothing was resolved. The record now looks official.
+
+
+
+CAAR: Canonically Absent, Administratively Resolved. The form's absence is documented as closure, leaving the underlying need to find its own channel. The form remained intact. The situation did not.
+
+
+
+STCP: Superseded in Text, Canonical in Practice. Forms that have two truths: the one printed, and the one people obey. Meaning adjusted around the winning selector.
+
+
+
+Administratively Retired but Conceptually Active. The policy is officially dead, yet it continues to dictate the morning shift.
+
+
+
+Locally Canonical, Globally Unacknowledged. The regional office has invented a truth that the central registry explicitly denies.
+
+
+
+Operationally Active, Administratively Absent. The form does not exist in the catalog, but the queue will halt if it is not signed.
+
+
+
+The Managed Absence Spine accepts their existence but refuses to reconcile them. We govern the void by carefully looking away from it.
+
+
+
+Missing artifacts are treated as a governed substrate rather than a defect surface. We simply built the city on top of the hole.
+
+## Related Haikus
+
+
+### Stub: Managed Absence Spine – CAAR, LCGU, STCP, AAOA
+
+Gold star on the chest
+Ornaments just fill the space
+I just sign the page
+
+
+
+Paper vines grow thick
+Plaques upon the cold gray wall
+Nothing left to count
+
+
+
+Fog rolls in the room
+Visible but very thin
+Log the breath away
+
+
+
+Bar chart number two
+Burden is untouched today
+Mark the form complete
+
+## Related Limericks
+
+
+### Managed Absence Spine – CAAR, LCGU, STCP, AAOA {#managed-absence-spine-caar-lcgu-stcp-aaoa-2}
+
+The spine of the absence is checked,  
+To see what the acronyms wrecked.  
+The CAAR is in place,  
+To cover the space,  
+That nobody managed to inspect.  
+
+
+
+The spine of the absence is sweet,  
+It makes the whole dinner complete.  
+The LCGU,  
+Is perfect for you,  
+When baking a procedural beet.  
+
+
+
+The AAOA is missing a dot!  
+The spine is now terribly hot!  
+Deploy all the tanks,  
+And empty the banks,  
+And tie up the principal knot!  
+
+
+
+The acronyms stack to the sky,  
+And I'm not entirely sure why.  
+I stamp the STCP,  
+For everyone to see,  
+And let out a terrible sigh.  
+
+
+
+The spine of the absence of old,  
+Was something quite brave to behold.  
+The acronyms sang,  
+With a digital clang,  
+Before they were sold for the gold.

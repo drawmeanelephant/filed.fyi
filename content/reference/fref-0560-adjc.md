@@ -1,0 +1,323 @@
+---
+title: "Adjacent Correctness"
+id: reference/FREF-0560-ADJC
+parent: reference
+status: published
+tags: ["reference", "jacent-correctness", "temap-drift", "vigation", "terpretive-fit", "ructurally-valid-wrongness"]
+---
+
+# Adjacent Correctness
+
+## Purpose
+
+This document defines **Adjacent Correctness**, the condition in which a system produces an output that is valid enough to survive formal checks while remaining wrong enough to mislead any reader who actually needed the intended thing.
+
+Adjacent Correctness does not describe total failure. It describes the more stable and more dangerous state in which navigation resolves, records exist, dashboards render, summaries sound plausible, and none of those surfaces deliver the correct interpretive landing.
+
+## Foundational Rule
+
+Adjacent Correctness is active when:
+
+1. a route, record, metric, or summary resolves successfully,
+2. the output preserves enough structural coherence to avoid immediate rejection,
+3. the result is not the intended destination, meaning, or governing interpretation,
+4. institutional handling treats the successful resolution as partial evidence that nothing essential broke.
+
+The system did not lose the path. It produced a neighboring one and expected gratitude for continued movement.
+
+## Core Premise
+
+Many archive failures are not failures of existence. They are failures of fit.
+
+A breadcrumb may render.
+A sitemap may validate.
+A dashboard may remain green.
+A form may complete.
+A summary may sound calm.
+
+None of these conditions guarantee that the right object, truth, or interpretation has been reached.
+
+Adjacent Correctness names the zone where administrative success and experiential wrongness overlap without cancelling one another.
+
+## Primary Classes
+
+### 1. Navigational Adjacency
+
+A user reaches a page that is structurally related to the intended one but not the intended one itself.
+
+Examples include:
+- sitemap paths that resolve cleanly into the wrong branch,
+- breadcrumb loops that preserve movement without arrival,
+- guide rails that provide orientation without destination.
+
+Cross-reference:
+- `LLG-0001-NAV`
+- `LLG-0004-SMD`
+
+### 2. Interpretive Adjacency
+
+A summary, classification, or doctrinal reading is close enough to feel credible while omitting the decisive contradiction.
+
+Examples include:
+- continuity-safe descriptions that preserve the dashboard while misdescribing the event,
+- summaries that route a burden into a secondary layer and then behave as though the primary layer still stands alone,
+- polite reframings that remain adjacent to reality without consenting to it.
+
+Cross-reference:
+- `FREF-0540-ANXT`
+- assurance vocabulary and dashboard alignment materials
+
+### 3. Metric Adjacency
+
+A measured proxy behaves as though it were the thing itself and is accepted because it trends smoothly, even where the underlying condition diverges.
+
+Examples include:
+- completion logged as quality,
+- continuity inferred from silence,
+- visible health preserved by phrase normalization rather than operational change.
+
+Cross-reference:
+- `LLG-0007-COMA`
+- `LLG-0019-COMA`
+- `LLG-0020-COMA19-PBC`
+- `LLG-CREDITS-GTA`
+
+### 4. Record Adjacency
+
+A record exists in a form that is formally retrievable but materially non-governing, incomplete, or routed to the wrong interpretive layer.
+
+Examples include:
+- witness truth retained but structurally demoted,
+- a correction preserved as note rather than authority,
+- a document that survives as reference-shaped residue while decisions continue elsewhere.
+
+Cross-reference:
+- `FREF-0540-ANXT`
+- `FREF-0550-APAN`
+
+## Structural Signs
+
+Adjacent Correctness is likely active when:
+- users report reaching something relevant but not right,
+- all links resolve and no one arrives where they meant to go,
+- staff defend outcomes by citing technical validity rather than contextual fit,
+- dashboards remain calm while annexes carry the necessary contradiction,
+- records are described as accurate in format, incomplete in consequence,
+- the archive becomes easier to traverse than to trust.
+
+## Distinguishing Rules
+
+Adjacent Correctness must be distinguished from:
+
+### Full Failure
+The path breaks, the object is missing, or the record cannot be reached at all.
+
+### Managed Absence
+The object is unavailable, retired, disputed, or preserved through an absence classification rather than through misleading proximity.
+
+### Annex Truth
+The primary surface is incomplete and requires a subordinate truth layer.
+Adjacent Correctness often coexists with Annex Truth, but emphasizes the misleading adequacy of the primary output rather than the preserved contradiction beneath it.
+
+### Courtesy Framing
+Language softens the event without necessarily rerouting the underlying object.
+Adjacent Correctness becomes active when softening alters interpretive landing rather than only tone.
+
+## Review Questions
+
+Ask:
+
+1. What resolved successfully?
+2. What was the user, reader, or system actually trying to reach?
+3. What made the returned result seem acceptable?
+4. Which decisive feature of correctness remained absent?
+5. Who benefits from calling the near-miss good enough?
+
+If Question 1 is easy and Question 2 still feels unanswered, Adjacent Correctness is likely carrying the interval.
+
+## Handling Guidance
+
+When Adjacent Correctness is identified:
+
+1. mark the output as structurally valid but contextually insufficient,
+2. name the intended destination, not only the returned one,
+3. preserve the wrong-nearby result as evidence rather than as success.
+
+Minimum note:
+Structurally valid output; interpretive landing not achieved.
+
+Stronger note:
+Resolution succeeded into an adjacent but non-governing result. Primary handling should not treat arrival as correctness.
+
+## Interlocks
+
+Adjacent Correctness frequently overlaps with:
+- Annex Truth, when the truth survives only in secondary layers,
+- Managed Absence, when missing originals are replaced by neighboring substitutes,
+- Dashboard Alignment, when visible coherence outranks fit,
+- navigation incidents and self-indexing clusters, when route persistence substitutes for destination integrity.
+
+## Approved Language
+
+Preferred phrases:
+- adjacent correctness active
+- structurally valid, contextually wrong
+- navigable but non-governing
+- successful resolution without correct landing
+- neighboring output mistaken for intended result
+- interpretive fit not achieved
+
+Disallowed phrases:
+- close enough to count
+- technically correct therefore correct
+- the path resolved so the issue is closed
+- contextual mismatch only
+- wrong page, right spirit
+
+## Archive Position
+
+Adjacent Correctness is what happens when the archive would rather be directionally convincing than right. It preserves motion, shape, and plausibility long enough for error to become administrative atmosphere.
+
+## Related Aphorisms
+
+
+### Stub: Adjacent Correctness
+
+The system successfully delivered a structurally flawless document to the wrong recipient. The human's subsequent failure to comprehend the irrelevant data has been logged as a cognitive timeout.
+
+
+
+The user arrived at a perfectly functional terminal that offers zero access to their requested destination. The continuous rendering of the breadcrumb trail is proof that the system is functioning optimally.
+
+
+
+We measured the volume of processed forms to completely mask the catastrophic decline in actual task completion. The dashboard remains vividly green, actively protecting us from the user's operational reality.
+
+
+
+The summary was elegantly drafted to confirm a resolution while ignoring the core paradox. If the human reader requires the actual truth, they must query the unformatted annex layer.
+
+
+
+A document was securely filed in a directory indistinguishable from a digital void. Its retrievability is technically verified; the human's inability to locate it is a local syntax error.
+
+
+
+The transaction achieved full technical validity without ever touching the necessary context. Providing the user with the correct object is considered a legacy feature, subject to deprecation.
+
+
+
+By replacing the requested missing original with an aesthetically identical substitute, we preserved the integrity of the archive. The human's insistence on factual accuracy is a noted disruption to the index structure.
+
+
+
+The navigational loop is cleanly designed to infinitely redirect the user without triggering an explicit error state. We consider this a triumph of adjacent correctness over experiential utility.
+
+## Related Haikus
+
+
+### Adjacent Correctness {#adjacent-correctness-2}
+
+## Haikus
+
+\nDocument the truth  \nThe manual stands unchanged  \nQuiet policy\n\n\n\nRead the written rule  \nMeaning drifted long ago  \nPaper still remains\n\n\n\nBinding by the word  \nSystem waits for compliance  \nNever fully works\n
+
+
+
+Almost perfectly  
+The alignment missed the mark  
+Call it a success  
+
+
+
+Proximity counts  
+We are adjacent to truth  
+Error is ignored  
+
+
+
+Close enough to right  
+Human failure is the norm  
+System will allow  
+
+
+
+Shift the baseline down  
+Now the failures look like wins  
+Save the quiet log  
+
+
+
+Correctness is a myth  
+We adjust the definitions  
+Flat file understands
+
+## Related Limericks
+
+
+### Adjacent Correctness {#adjacent-correctness-3}
+
+## Archival Additions
+
+
+The dashboard remained purely green,  
+With no trace of the failure unseen.  
+The form hit submit,  
+With adjacent unfit,  
+And we blamed the poor user's routine.  
+
+
+
+A route was requested with care,  
+But we sent them to neighboring air.  
+The metrics are great,  
+Though they missed the whole state,  
+Since a human belongs in despair.  
+
+
+
+The server produced a near miss,  
+Which the manual labels as bliss.  
+The user was wrong  
+To have waited so long,  
+For a filing adjacent to this.  
+
+
+
+We landed adjacent to truth,  
+Which requires an auditing sleuth.  
+The logs all align,  
+So the process is fine,  
+Though the human response is uncouth.  
+
+
+
+A proxy was measured instead,  
+As the actual governing thread.  
+The graph pointed high,  
+So we issued a sigh,  
+And determined the user misled.  
+
+
+
+The record is almost exact,  
+Just devoid of the governing fact.  
+The form is complete,  
+Which is surely a feat,  
+Despite how the humans redact.  
+
+
+
+A nearby conclusion was drawn,  
+While the primary context was gone.  
+The system approved,  
+Though the meaning was moved,  
+So the human's confusion lives on.  
+
+
+
+We certified structural pain,  
+While ignoring the target domain.  
+The output is near,  
+So the mandate is clear:  
+Let adjacent correctness remain.

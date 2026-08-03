@@ -1,105 +1,115 @@
-# filed.fyi
+# Filed & Forgotten Archive
 
-Archive surface for collection-backed records.
+Filed is a 2,265-page Markdown archive compiled by Boris into a deterministic
+static site and machine-readable publication artifacts. The imported corpus has
+11 collection trunks and 2,254 satellite records across mascots, lorelog,
+reference, posts, guides, releases, changelog, aphorisms, haikus, and
+limericks.
 
-Static delivery. Unstable classification.
+## Quick start
 
-Records are stored as content collections under fixed categories. Classification remains subject to revision, reinterpretation, renumbering, and linked refile events preserved in the archive state.
+Build the primary site and serve it locally:
 
-## Inventory
+```sh
+./preview.sh
+```
 
-- mascots: system entities with renumbered and reclassified identities across commits
-- lorelog: case records with evolving interpretation, cross-reference linkage, and non-stable filing relationships
-- reference: technical directives, domain frameworks, and architectural specifications
-- posts: analytical essays and field dispatches
-- releases: tagged version markers and release boundary records
-- changelog: system mutation logs and audit records
-- limericks: verse records emitted during structural changes, audits, migrations, and classification events
-- haikus: compressed observation layer of system state residue
-- aphorisms: condensed maxims and rule fragments captured from archival operations
+The default output is `dist/cantilever/` and the server listens on
+`http://localhost:8000`. Use `BORIS_JOBS=1` on smaller machines; the build
+defaults to one worker for predictable memory use.
 
-## Archive model
+Run the complete local gate:
 
-The archive is collection-backed and file-addressed.
+```sh
+./bin/validate_graph.sh
+```
 
-Each record exists as a source document with frontmatter, body content, and optional links to related records. Cross-record association is explicit where declared and unresolved where not. Absence is preserved. Drift is preserved.
+If the repository does not have a local compiler binary, build Boris Afterparty
+or provide one explicitly:
 
-Git history is part of the archive state, including renames, deletions, migrations, reindexing events, and structural refactors. Prior classifications remain accessible through historical state.
+```sh
+BORIS_BIN=/path/to/boris ./bin/validate_graph.sh
+```
 
-## Structure
+## Repository layout
 
-Built with Astro and Starlight.
+```text
+content/                    # Imported Markdown corpus
+themes/cantilever/         # Primary Filed layout and assets
+themes/{corp-vendor,...}/  # Retained legacy theme options
+metadata/id-policy.json    # Canonical identity rules
+metadata/id-map.jsonl      # Legacy-to-canonical migration map
+scripts/filed_ids.py       # ID migration and validation
+scripts/filed-build.sh     # Primary HTML build
+scripts/filed-publish.sh   # HTML, IR, RAG, Context, and llms exports
+bin/validate_graph.sh      # CI/local graph and publication gate
+```
 
-Content definitions live in `src/content.config.ts`. Documentation records are stored under `src/content/docs/` (including `mascots/`, `lorelog/`, `reference/`, `posts/`, `releases/`, `changelog/`, and `guides/`), while standalone verse and maxim collections are stored under `src/content/limericks/`, `src/content/haikus/`, and `src/content/aphorisms/`. Rendering is handled through collection-aware components and route layouts. Routes render content collections directly without transformation beyond mapping and layout components.
+Generated output under `dist/`, `publish/`, `site/`, and the local Boris binary
+are ignored. CI builds Boris from a pinned commit rather than treating a
+machine-specific executable as source.
 
-The archive does not depend on a CMS abstraction layer or runtime editorial interface.
+## Identity model
 
-## Record classes
+Boris `id` values are stable graph identities, not slugs. Collection trunks keep
+simple IDs such as `mascots` and `reference`. Satellite records use the
+collection namespace plus the existing Filed form system:
 
-### Mascots
+```text
+mascots/M-0005
+reference/FREF-0340-TSAB
+lorelog/LLG-0400-CMA-TSP
+aphorisms/APH-0003
+```
 
-Mascot records are entity files with identity fields, state markers, origin traces, failure lists, ceremonial tasks, and linked references where present.
+The numeric portion is normalized to at least four digits. Existing form codes
+are preserved where possible; missing codes receive the next unused collection
+number. IDs are never silently renumbered or reused. The original
+slug-derived identity is retained in `metadata/id-map.jsonl`.
 
-Mascot identifiers may drift across archive history. Slug continuity is preferred but not guaranteed. Renumbering, reassignment, and reclassification are normal system operations and are preserved as archival conditions, not corrected as errors.
+Structural parents remain collection trunks. Semantic relationships are a
+separate Boris `relations` field and must target canonical IDs; inline display
+does not change a record's structural parent.
 
-### Lorelog
+Validate the identity layer directly with:
 
-Lorelog records are case files. They preserve incident framing, interpretive state, related entities, and cross-record citation surfaces where links have been declared.
+```sh
+python3 scripts/filed_ids.py --root content --map metadata/id-map.jsonl
+```
 
-A lorelog entry may outlast the classification it originally described. Interpretation may change without invalidating prior filings.
+## Publishing exports
 
-### Reference
+The publishing routine writes HTML, IR, RAG, Context, and (when supported by the
+compiler) `llms.txt` under ignored `publish/` output:
 
-Reference records contain technical documentation, domain specifications, governance frameworks, and system directives.
+```sh
+./scripts/filed-publish.sh
+```
 
-### Posts & Logs
+Review `publish/README.txt` before uploading source-derived RAG or Context
+artifacts. They may contain archived material and are not automatically public
+safe.
 
-System logs capture temporal markers and narrative analysis across archive operations:
-- Posts: analytical dispatches and long-form commentary.
-- Releases: tagged release boundaries and software version milestones.
-- Changelog: structured records of system updates and audit modifications.
+The current pinned Afterparty compiler still has a known UTF-8 truncation bug in
+its `llms.txt` emitter. The publish script fails closed when that output is
+invalid instead of treating it as a usable export; RAG and Context remain
+separate UTF-8-validated projections.
 
-### Limericks
+## Boris Afterparty
 
-Limericks are archival byproducts and parallel filings. They are emitted during structural change, interpretive drift, audit activity, and classification instability.
+To build the active Boris worktree and record the compiler provenance:
 
-They do not stabilize the archive. They record its movement.
+```sh
+./scripts/build-boris-afterparty.sh
+```
 
-### Haikus
+Override `BORIS_ROOT`, `BORIS_BRANCH`, `SPLIT_SIZE`, or `BORIS_JOBS` when the
+local Boris checkout differs. The default branch is `afterparty`.
 
-Haikus operate as a compressed observation layer.
+## CI
 
-They retain minimal state. They do not explain. They mark residue.
-
-### Aphorisms
-
-Aphorisms are single-sentence maxims and operational principles retained across system entities and archival states.
-
-## Record constraints
-
-- Records remain addressable by slug, path, case number, or declared identifier
-- Cross-record references must be explicit to be considered canonical
-- Duplicate meaning is permitted; duplicate identifiers are not stable by default
-- Renaming of identifiers is permitted only through explicit migration commits
-- Deletion is permitted when preserved in archive history
-- Structural refactors do not erase prior state
-- Render status is descriptive, not corrective
-
-## Git state
-
-Git history is part of the archive state.
-
-Renames, deletions, migrations, reindexing passes, and structural refactors are considered primary archival events rather than development noise. A commit may alter classification without resolving it. A clean tree does not imply a stable ontology.
-Classifications are not guaranteed to persist across time.
-
-## Rendering
-
-The site is static. The records are not.
-
-Astro and Starlight provide the delivery layer. Collection schemas, dossier components, and route mappings provide the retrieval surface.
-
-## System note
-
-This repository preserves content, linkage, and drift.
-
-It does not guarantee final classification. It guarantees retained evidence of classification attempts.
+`.github/workflows/ci.yml` checks out this repository, builds Boris from its
+pinned Afterparty commit, validates the form-ID policy and graph diagnostics,
+compiles the Cantilever site, and uploads the generated site as a workflow
+artifact. The source checkout remains the product of record; generated output
+is not committed.

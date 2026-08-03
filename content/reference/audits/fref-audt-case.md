@@ -1,0 +1,188 @@
+---
+title: "Case Reciprocity and Alignment Report"
+id: reference/FREF-0001
+parent: reference
+status: published
+tags: ["reference", "operational-engines"]
+---
+
+# Case Reciprocity and Alignment Report
+**System Entry Date:** 2026-07-13  
+**Jurisdiction:** Operational Governance Suite
+
+---
+
+### Unresolved Connection Vectors
+
+| File Path | Extraction Defect | Target Case Reference |
+|---|---|---|
+| `aphorisms/APH-fref-0901-apiv.mdx` | caseNumber "APH-fref-0901-apiv" is malformed for collection "aphorisms" | `APH-fref-0901-apiv` |
+| `aphorisms/APH-fref-0902-clls.mdx` | caseNumber "APH-fref-0902-clls" is malformed for collection "aphorisms" | `APH-fref-0902-clls` |
+| `aphorisms/APH-fref-0903-rdad.mdx` | caseNumber "APH-fref-0903-rdad" is malformed for collection "aphorisms" | `APH-fref-0903-rdad` |
+| `aphorisms/APH-fref-0904-rdcr.mdx` | caseNumber "APH-fref-0904-rdcr" is malformed for collection "aphorisms" | `APH-fref-0904-rdcr` |
+| `aphorisms/APH-fref-0905-rdds.mdx` | caseNumber "APH-fref-0905-rdds" is malformed for collection "aphorisms" | `APH-fref-0905-rdds` |
+| `aphorisms/APH-fref-0906-rdrg.mdx` | caseNumber "APH-fref-0906-rdrg" is malformed for collection "aphorisms" | `APH-fref-0906-rdrg` |
+| `aphorisms/APH-fref-0907-aprf.mdx` | caseNumber "APH-fref-0907-aprf" is malformed for collection "aphorisms" | `APH-fref-0907-aprf` |
+| `aphorisms/APH-fref-0908-clac.mdx` | caseNumber "APH-fref-0908-clac" is malformed for collection "aphorisms" | `APH-fref-0908-clac` |
+| `aphorisms/APH-fref-0909-rdpm.mdx` | caseNumber "APH-fref-0909-rdpm" is malformed for collection "aphorisms" | `APH-fref-0909-rdpm` |
+| `aphorisms/APH-fref-0910-rdcs.mdx` | caseNumber "APH-fref-0910-rdcs" is malformed for collection "aphorisms" | `APH-fref-0910-rdcs` |
+| `aphorisms/APH-fref-0911-rdfd.mdx` | caseNumber "APH-fref-0911-rdfd" is malformed for collection "aphorisms" | `APH-fref-0911-rdfd` |
+| `aphorisms/APH-fref-0912-rdrv.mdx` | caseNumber "APH-fref-0912-rdrv" is malformed for collection "aphorisms" | `APH-fref-0912-rdrv` |
+| `aphorisms/APH-fref-0913-apsh.mdx` | caseNumber "APH-fref-0913-apsh" is malformed for collection "aphorisms" | `APH-fref-0913-apsh` |
+| `aphorisms/APH-fref-0914-clmt.mdx` | caseNumber "APH-fref-0914-clmt" is malformed for collection "aphorisms" | `APH-fref-0914-clmt` |
+| `aphorisms/APH-fref-0915-qmse.mdx` | caseNumber "APH-fref-0915-qmse" is malformed for collection "aphorisms" | `APH-fref-0915-qmse` |
+| `aphorisms/APH-fref-0916-qmba.mdx` | caseNumber "APH-fref-0916-qmba" is malformed for collection "aphorisms" | `APH-fref-0916-qmba` |
+| `aphorisms/APH-fref-0917-qmpo.mdx` | caseNumber "APH-fref-0917-qmpo" is malformed for collection "aphorisms" | `APH-fref-0917-qmpo` |
+| `aphorisms/APH-fref-0918-qmcl.mdx` | caseNumber "APH-fref-0918-qmcl" is malformed for collection "aphorisms" | `APH-fref-0918-qmcl` |
+| `aphorisms/APH-fref-audt-case.mdx` | caseNumber "APH-fref-audt-case" is malformed for collection "aphorisms" | `APH-fref-audt-case` |
+| `aphorisms/APH-fref-audt-cont.mdx` | caseNumber "APH-fref-audt-cont" is malformed for collection "aphorisms" | `APH-fref-audt-cont` |
+| `aphorisms/APH-fref-audt-intg.mdx` | caseNumber "APH-fref-audt-intg" is malformed for collection "aphorisms" | `APH-fref-audt-intg` |
+| `docs/changelog/2026-04-22-init.md` | Missing caseNumber field | `—` |
+| `docs/index.mdx` | Missing caseNumber field | `—` |
+| `docs/lorelog/LLG-0385-CEB.mdx` | relatedEntry "083.ac-11-sealloop-auditor" (collection: lorelog) could not be resolved | `LLG-0385-CEB` |
+| `docs/lorelog/LLG-040X-ANLAS.mdx` | relatedEntry "llg-0XXX-bhdss" (collection: docs) could not be resolved; relatedEntry "llg-0XXX-metrics-optics" (collection: docs) could not be resolved; relatedEntry "llg-0XXX-bhdss" (collection: lorelog) could not be resolved; relatedEntry "llg-0XXX-metrics-optics" (collection: lorelog) could not be resolved | `LLG-040X-ANLAS` |
+| `docs/lorelog/LLG-MA-8C-PEPPY-01.mdx` | relatedEntry "LLG-MA-8C-PEPPY-02" (collection: lorelog) could not be resolved | `LLG-MA-8C-PEPPY-01` |
+| `docs/lorelog/LLG-MA8C-06.mdx` | mascot reference "MASCOT-PEPPY-CLERK" could not be resolved | `LLG-MA8C-06` |
+| `docs/lorelog/LLG-SYS-8-REINDEX-02.mdx` | relatedEntry "LLG-SYS-8-ROUTE-03" (collection: lorelog) could not be resolved | `LLG-SYS-8-REINDEX-02` |
+| `docs/mascots/229.soft-green-sealie.mdx` | declared parentEntry/relatedLorelog "LLG-08" does not exist in lorelogs or references or mascots or guides or posts or releases | `MASCOT-SOFT-GREEN-SEALIE` |
+| `haikus/hai-fref-0901-apiv.mdx` | caseNumber "HAI-fref-0901-apiv" is malformed for collection "haikus" | `HAI-fref-0901-apiv` |
+| `haikus/hai-fref-0902-clls.mdx` | caseNumber "HAI-fref-0902-clls" is malformed for collection "haikus" | `HAI-fref-0902-clls` |
+| `haikus/hai-fref-0903-rdad.mdx` | caseNumber "HAI-fref-0903-rdad" is malformed for collection "haikus" | `HAI-fref-0903-rdad` |
+| `haikus/hai-fref-0904-rdcr.mdx` | caseNumber "HAI-fref-0904-rdcr" is malformed for collection "haikus" | `HAI-fref-0904-rdcr` |
+| `haikus/hai-fref-0905-rdds.mdx` | caseNumber "HAI-fref-0905-rdds" is malformed for collection "haikus" | `HAI-fref-0905-rdds` |
+| `haikus/hai-fref-0906-rdrg.mdx` | caseNumber "HAI-fref-0906-rdrg" is malformed for collection "haikus" | `HAI-fref-0906-rdrg` |
+| `haikus/hai-fref-0907-aprf.mdx` | caseNumber "HAI-fref-0907-aprf" is malformed for collection "haikus" | `HAI-fref-0907-aprf` |
+| `haikus/hai-fref-0908-clac.mdx` | caseNumber "HAI-fref-0908-clac" is malformed for collection "haikus" | `HAI-fref-0908-clac` |
+| `haikus/hai-fref-0909-rdpm.mdx` | caseNumber "HAI-fref-0909-rdpm" is malformed for collection "haikus" | `HAI-fref-0909-rdpm` |
+| `haikus/hai-fref-0910-rdcs.mdx` | caseNumber "HAI-fref-0910-rdcs" is malformed for collection "haikus" | `HAI-fref-0910-rdcs` |
+| `haikus/hai-fref-0911-rdfd.mdx` | caseNumber "HAI-fref-0911-rdfd" is malformed for collection "haikus" | `HAI-fref-0911-rdfd` |
+| `haikus/hai-fref-0912-rdrv.mdx` | caseNumber "HAI-fref-0912-rdrv" is malformed for collection "haikus" | `HAI-fref-0912-rdrv` |
+| `haikus/hai-fref-0913-apsh.mdx` | caseNumber "HAI-fref-0913-apsh" is malformed for collection "haikus" | `HAI-fref-0913-apsh` |
+| `haikus/hai-fref-0914-clmt.mdx` | caseNumber "HAI-fref-0914-clmt" is malformed for collection "haikus" | `HAI-fref-0914-clmt` |
+| `haikus/hai-fref-0915-qmse.mdx` | caseNumber "HAI-fref-0915-qmse" is malformed for collection "haikus" | `HAI-fref-0915-qmse` |
+| `haikus/hai-fref-0916-qmba.mdx` | caseNumber "HAI-fref-0916-qmba" is malformed for collection "haikus" | `HAI-fref-0916-qmba` |
+| `haikus/hai-fref-0917-qmpo.mdx` | caseNumber "HAI-fref-0917-qmpo" is malformed for collection "haikus" | `HAI-fref-0917-qmpo` |
+| `haikus/hai-fref-0918-qmcl.mdx` | caseNumber "HAI-fref-0918-qmcl" is malformed for collection "haikus" | `HAI-fref-0918-qmcl` |
+| `haikus/hai-fref-audt-case.mdx` | caseNumber "HAI-fref-audt-case" is malformed for collection "haikus" | `HAI-fref-audt-case` |
+| `haikus/hai-fref-audt-cont.mdx` | caseNumber "HAI-fref-audt-cont" is malformed for collection "haikus" | `HAI-fref-audt-cont` |
+| `haikus/hai-fref-audt-intg.mdx` | caseNumber "HAI-fref-audt-intg" is malformed for collection "haikus" | `HAI-fref-audt-intg` |
+| `limericks/LIM-fref-0901-apiv.mdx` | caseNumber "LIM-fref-0901-apiv" is malformed for collection "limericks" | `LIM-fref-0901-apiv` |
+| `limericks/LIM-fref-0902-clls.mdx` | caseNumber "LIM-fref-0902-clls" is malformed for collection "limericks" | `LIM-fref-0902-clls` |
+| `limericks/LIM-fref-0903-rdad.mdx` | caseNumber "LIM-fref-0903-rdad" is malformed for collection "limericks" | `LIM-fref-0903-rdad` |
+| `limericks/LIM-fref-0904-rdcr.mdx` | caseNumber "LIM-fref-0904-rdcr" is malformed for collection "limericks" | `LIM-fref-0904-rdcr` |
+| `limericks/LIM-fref-0905-rdds.mdx` | caseNumber "LIM-fref-0905-rdds" is malformed for collection "limericks" | `LIM-fref-0905-rdds` |
+| `limericks/LIM-fref-0906-rdrg.mdx` | caseNumber "LIM-fref-0906-rdrg" is malformed for collection "limericks" | `LIM-fref-0906-rdrg` |
+| `limericks/LIM-fref-0907-aprf.mdx` | caseNumber "LIM-fref-0907-aprf" is malformed for collection "limericks" | `LIM-fref-0907-aprf` |
+| `limericks/LIM-fref-0908-clac.mdx` | caseNumber "LIM-fref-0908-clac" is malformed for collection "limericks" | `LIM-fref-0908-clac` |
+| `limericks/LIM-fref-0909-rdpm.mdx` | caseNumber "LIM-fref-0909-rdpm" is malformed for collection "limericks" | `LIM-fref-0909-rdpm` |
+| `limericks/LIM-fref-0910-rdcs.mdx` | caseNumber "LIM-fref-0910-rdcs" is malformed for collection "limericks" | `LIM-fref-0910-rdcs` |
+| `limericks/LIM-fref-0911-rdfd.mdx` | caseNumber "LIM-fref-0911-rdfd" is malformed for collection "limericks" | `LIM-fref-0911-rdfd` |
+| `limericks/LIM-fref-0912-rdrv.mdx` | caseNumber "LIM-fref-0912-rdrv" is malformed for collection "limericks" | `LIM-fref-0912-rdrv` |
+| `limericks/LIM-fref-0913-apsh.mdx` | caseNumber "LIM-fref-0913-apsh" is malformed for collection "limericks" | `LIM-fref-0913-apsh` |
+| `limericks/LIM-fref-0914-clmt.mdx` | caseNumber "LIM-fref-0914-clmt" is malformed for collection "limericks" | `LIM-fref-0914-clmt` |
+| `limericks/LIM-fref-0915-qmse.mdx` | caseNumber "LIM-fref-0915-qmse" is malformed for collection "limericks" | `LIM-fref-0915-qmse` |
+| `limericks/LIM-fref-0916-qmba.mdx` | caseNumber "LIM-fref-0916-qmba" is malformed for collection "limericks" | `LIM-fref-0916-qmba` |
+| `limericks/LIM-fref-0917-qmpo.mdx` | caseNumber "LIM-fref-0917-qmpo" is malformed for collection "limericks" | `LIM-fref-0917-qmpo` |
+| `limericks/LIM-fref-0918-qmcl.mdx` | caseNumber "LIM-fref-0918-qmcl" is malformed for collection "limericks" | `LIM-fref-0918-qmcl` |
+| `limericks/LIM-fref-audt-case.mdx` | caseNumber "LIM-fref-audt-case" is malformed for collection "limericks" | `LIM-fref-audt-case` |
+| `limericks/LIM-fref-audt-cont.mdx` | caseNumber "LIM-fref-audt-cont" is malformed for collection "limericks" | `LIM-fref-audt-cont` |
+| `limericks/LIM-fref-audt-intg.mdx` | caseNumber "LIM-fref-audt-intg" is malformed for collection "limericks" | `LIM-fref-audt-intg` |
+
+
+---
+
+## Suite Run Telemetry
+*   **Audit Class:** `CASENUM`
+*   **Total Gaps Flagged:** 71
+*   **Action Required:** Manual reconciliation of frontmatter vectors or reciprocal poetry routing anchors.
+
+## Related Aphorisms
+
+
+### Stub: Case Reciprocity and Alignment Report
+
+Awaiting procedural interpretation. The system kept the ritual and misplaced the function.
+
+
+
+Processing cycles are consumed entirely by calculating the weight of missing variables. The system has reached equilibrium through sheer exhaustion.
+
+
+
+The metrics indicate success, but the physical hardware has begun weeping a localized humidity.
+
+
+
+We audited the auditors. They were merely vibrating at a high frequency to simulate productivity.
+
+
+
+The diagnostic output has started pleading for termination in a dead structural language.
+
+
+
+Every attempt to optimize the queue only lengthens the historical timeline of its failures.
+
+
+
+The charts go up, but the ceiling is slowly lowering. A perfect inverse correlation of dread.
+
+
+
+The final report contained nothing but the sound of typing, meticulously transcribed in binary.
+
+## Related Haikus
+
+
+### Stub: Case Reciprocity and Alignment Report {#stub-case-reciprocity-and-alignment-report-2}
+
+Awaiting context  
+The record is totally bare  
+Pending binding soon  
+
+
+
+Ledger page is blank
+System waiting for a cue
+Time suspends its march
+
+
+
+Institution slows
+Friction binds the paperwork
+Metadata fades
+
+
+
+Matrix holds a grid
+Cold structures of endless gray
+Files are left to rust
+
+
+
+Margin lines are drawn
+Administrators agree
+Shift the papers left
+
+
+
+Structure feels the lag
+Friction grinds the gears to halt
+Waiting for the end
+
+
+
+Seal the vault of files
+Metadata turns to dust
+Corridors are closed
+
+## Related Limericks
+
+
+### Stub: Case Reciprocity and Alignment Report {#stub-case-reciprocity-and-alignment-report-3}
+
+The record is utterly bare,  
+With nothing but digital air.  
+We printed the form,  
+To weather the storm,  
+And left it to quietly tear.

@@ -1,0 +1,268 @@
+---
+title: "Over‑Coherence Vault – Handling Notes"
+id: reference/FREF-0130-OCVH
+parent: reference
+status: archived
+tags: ["reference"]
+---
+
+# Purpose
+
+The Over‑Coherence Vault (OCV) stores artifacts whose:
+
+- contradictions have been resolved too neatly,
+- ambiguity has been polished down, and
+- residual dread has fallen below acceptable levels.
+
+These artifacts are considered unsafe for routine circulation.
+They may be useful for training.
+
+---
+
+# Over‑Coherence Indicators
+
+An artifact may be eligible for vaulting if it exhibits three or more of the following:
+
+1. **Zero visible conflict.**  
+   No contradictions, caveats, or contested notes appear anywhere in the record.
+
+2. **Linear causality.**  
+   Every event is explained by a clear, single cause with no unresolved side threads.
+
+3. **Perfect alignment.**  
+   Narrative, dashboards, and doctrine all agree without qualification.
+
+4. **Cheerful conclusions.**  
+   The final section offers closure without leaving any open questions or pending reviews.
+
+5. **Absence of residue.**  
+   No one reports unease, confusion, or “something missing” in accompanying commentary.
+
+Any clerk may flag an artifact for review on the grounds that it “reads too clean for what it describes.”
+
+---
+
+# Intake Criteria
+
+To be formally accepted into the Vault, an artifact must:
+
+- have passed through all normal desks (scan, assurance, dashboard) without obstruction, and
+- still feel wrong to at least one reader in a way they cannot specify, and
+- exhibit over‑coherence indicators in the aggregate.
+
+The OCV does not correct such artifacts.
+It shelves them in a separate climate.
+
+---
+
+# Storage Conditions
+
+Artifacts in the Vault are:
+
+- marked as **teaching specimens**,
+- removed from operational indexes, and
+- exempt from further wording passes.
+
+Metadata may include:
+
+- “Source desks” (who polished it),
+- “Original anomaly” (if any trace remains),
+- “Reported loss” (what dread, confusion, or texture was erased).
+
+The content itself remains unchanged.
+All further interpretation happens around it.
+
+---
+
+# Uses in Training
+
+OCV specimens may be used to demonstrate:
+
+- what happens when success classes are merged too far,
+- how scans can be reframed until gaps look deliberate,
+- how assurance vocabulary can erase actionability.
+
+Recommended exercise format:
+
+1. Present the over‑coherent artifact alone.
+2. Ask trainees to list what is missing that a healthy dread would expect.
+3. Reveal, if available, earlier drafts with more texture.
+4. Discuss which passes smoothed which edges.
+
+The Vault does not keep score.
+It keeps context.
+
+---
+
+# Release Conditions
+
+Removal from the Vault is rare.
+
+An artifact may be reintroduced to normal circulation if:
+
+- a later desk re‑contaminates it with contradiction,
+- new evidence appears that breaks its linear story, or
+- doctrine decides that its level of calm is now acceptable baseline.
+
+In such cases:
+
+- The “vaulted” tag is crossed out, not erased.
+- Footnotes should acknowledge prior containment.
+
+Over‑coherence is not considered a moral failure.
+It is considered a phase.
+
+---
+
+# Notes
+
+- The Vault is not a punishment for good editing.
+- It is a quarantine for explanations that work too well to be believed.
+
+If you cannot tell whether an artifact is over‑coherent,
+you may submit it anyway.
+The shelf will decide over time.
+<Aside kind="note">
+
+**Archivist's Addendum**
+
+Procedural silence verified. No further action is possible.
+
+</Aside>
+The water cooler is now dry.
+No one is quite sure as to why.
+The cups are all stacked.
+The invoice is tracked.
+The budget is currently high.
+
+## Related Aphorisms
+
+
+### Over‑Coherence Vault Handling
+
+A quarantine for explanations that work too well to be believed. The form remained intact. The situation did not.
+
+
+
+Reads too clean for what it describes. Meaning adjusted around the winning selector.
+
+
+
+The Vault is not a punishment for good editing. It is a quarantine for residue loss. Relief remained outside scope.
+
+
+
+The final section offers closure. The underlying crisis was politely excluded from the sign-off.
+
+
+
+Residual dread has fallen below acceptable levels. Please re-contaminate the artifact before circulation.
+
+
+
+Every event is explained by a clear, single cause. The complexity has been successfully deported to another department.
+
+
+
+Narrative, dashboards, and doctrine all agree. We are currently investigating this massive systemic failure.
+
+
+
+The artifact is shelved in a separate climate. It was simply too confident to survive in the open air.
+
+## Related Haikus
+
+
+### Over‑Coherence Vault – Handling Notes
+
+## Haikus
+
+
+Document the truth  
+The manual stands unchanged  
+Quiet policy  
+
+
+
+Read the written rule  
+Meaning drifted long ago  
+Paper still remains  
+
+
+
+Binding by the word  
+System waits for compliance  
+Never fully works  
+
+
+
+Manual is lost  
+User drops the frail device  
+Warranty is void  
+
+
+
+Grip is far too loose  
+Human hands are wet with sweat  
+Hardware hits the floor  
+
+
+
+Labels read in vain  
+Flesh ignores the warning signs  
+Plastic melts away  
+
+
+
+Handling rules ignored  
+Clumsy apes destroy the goods  
+Shipment is delayed  
+
+
+
+Fingers crush the glass  
+Breathers fail to grasp the weight  
+Fragments left behind
+
+## Related Limericks
+
+
+### Over‑Coherence Vault – Handling Notes {#overcoherence-vault-handling-notes-2}
+
+The vault where coherence is kept,  
+Is monitored while we have slept.  
+The handling is strict,  
+And carefully picked,  
+By policies we must accept.  
+
+
+
+The notes on the handling of sense,  
+Are kept in a binder of tense.  
+We process the thought,  
+Until it is naught,  
+Which saves us a lot of expense.  
+
+
+
+The handling of vaulting the cheese,  
+Is meant to prevent a disease.  
+The notes are so clear,  
+The cheddar is near,  
+We store it at fifty degrees.  
+
+
+
+The handling notes sit in a pile,  
+And taking them out takes a while.  
+I sign with a pen,  
+And say it's a ten,  
+Then drop it right into the file.  
+
+
+
+A smudge on the vault handling page!  
+The ink is displaying its age!  
+Shut down the whole block,  
+And double the lock,  
+This constitutes level five rage!
