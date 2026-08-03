@@ -25,7 +25,7 @@
     "@astrojs/mdx": "^7.0.3",
     "@astrojs/sitemap": "^3.7.3",
     "@astrojs/starlight": "^0.41.5",
-    "@lucide/astro": "^1.27.0",
+    "@lucide/astro": "^1.28.0",
     "astro": "^7.1.6",
     "astro-auto-import": "^0.5.2",
     "fast-xml-parser": "^5.10.1",
