@@ -1,0 +1,88 @@
+name: Filed verification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  BORIS_REPOSITORY: https://github.com/drawmeanelephant/boris.git
+  BORIS_BRANCH: afterparty
+  BORIS_JOBS: 1
+
+jobs:
+  validate:
+    name: Validate IDs, graph, and publication
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout Filed
+        uses: actions/checkout@v4
+
+      - name: Set up pinned Zig
+        uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+
+      - name: Obtain Boris source (afterparty branch)
+        run: |
+          git clone --branch "$BORIS_BRANCH" --single-branch --depth=1 "$BORIS_REPOSITORY" "$RUNNER_TEMP/boris"
+
+      - name: Cache Zig compiler directories
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ runner.temp }}/zig-global-cache
+            ${{ runner.temp }}/zig-local-cache
+          key: ${{ runner.os }}-zig-${{ env.BORIS_BRANCH }}-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-zig-${{ env.BORIS_BRANCH }}-
+            ${{ runner.os }}-zig-
+
+      - name: Build pinned Boris
+        working-directory: ${{ runner.temp }}/boris
+        env:
+          ZIG_GLOBAL_CACHE_DIR: ${{ runner.temp }}/zig-global-cache
+          ZIG_LOCAL_CACHE_DIR: ${{ runner.temp }}/zig-local-cache
+        run: |
+          zig build
+          mkdir -p "${{ github.workspace }}/bin"
+          cp zig-out/bin/boris "${{ github.workspace }}/bin/boris"
+          chmod +x "${{ github.workspace }}/bin/boris"
+
+      - name: Run Filed gate
+        env:
+          BORIS_BIN: ./bin/boris
+          BORIS_JOBS: ${{ env.BORIS_JOBS }}
+        run: ./bin/validate_graph.sh
+
+      - name: Upload Cantilever site
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: filed-cantilever-site
+          path: dist/cantilever/
+          retention-days: 7
+
+  ci:
+    name: ci
+    if: ${{ always() }}
+    needs: [validate]
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Require Filed verification
+        env:
+          VALIDATE_RESULT: ${{ needs.validate.result }}
+        run: |
+          if [[ "$VALIDATE_RESULT" != "success" ]]; then
+            echo "Filed verification result: $VALIDATE_RESULT" >&2
+            exit 1
+          fi
+          echo "Filed verification passed."

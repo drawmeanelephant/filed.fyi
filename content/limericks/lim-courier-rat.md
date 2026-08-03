@@ -1,0 +1,112 @@
+---
+title: "Courier Rat"
+id: limericks/LIM-0070
+parent: limericks
+status: archived
+tags: ["limericks"]
+---
+
+# Courier Rat
+
+
+The Courier Rat delivered a *memo*  
+So recursive it looped like a demo  
+For three solid days.  
+The narrative haze  
+Was filed as a lore-bound supremo.  
+
+
+
+He rerouted a *mascot mid-nap*  
+To `/934.disciplinary-review/`—what a trap!  
+The mascot awoke  
+In a form-filing yoke,  
+And the Courier just squeaked from the gap.  
+
+
+
+He chewed through the *red tape* with glee,  
+Through vents and through ruin—so free.  
+His satchel was packed,  
+His thirteen oaths tracked  
+(Seven broken, as is the decree).  
+
+
+
+His whiskers brushed *forbidden schematics*,  
+One eye sees through bureaucratic dramatics.  
+The other sees law,  
+Each memo in awe,  
+And his paw-signed recursion? Automatic.  
+
+
+
+He smuggled a *limerick* once  
+Into alpine-docs—the affront!  
+The narrative drifted,  
+The sidebar was shifted,  
+And the lore took a recursive punt.  
+
+
+
+His *Satchel Inventory* includes  
+An encrypted Crumb Cache for crude foods,  
+A broken-wheeze whistle,  
+A scrollcase epistle,  
+And sash polish with cursed citrus moods.  
+
+
+
+Quarterly *scroll burnings* he leads—  
+Symbolic, yet binding, like deeds.  
+Each memo incinerated,  
+Each form reinstated,  
+And the duct pilgrimage proceeds.  
+
+
+
+"*A file too quiet is a memo*  
+Undelivered,*" he'd squeak, like a stream-o  
+Of consciousness raw.  
+His ink-smudged tiny paw  
+Shuffled truth through the narrative demo.  
+
+
+
+The *Vow-of-Non-Finality* binds—  
+No message is ever "done" in his minds.  
+Revision is sacred,  
+Each recursion unmasquered,  
+And the narrative always unwinds.  
+
+
+
+The Courier Rat in the duct,  
+Found a logic-gate recently plucked.  
+With a rub of his sash,  
+He triggered a crash,  
+And the narrative flow was quite... stuck.  
+
+
+
+His paw-signed recursion is gritty,  
+In the ducts of this mismanaged city.  
+He chews through the stack,  
+With a lore-delivery knack,  
+And leaves the whole database shitty.  
+
+
+
+There’s a squeak in the vent, dark and foul,  
+Where the Rat gives a bureaucratic howl.  
+He delivers a memo,  
+To a recursive demo,  
+And wipes his ink-paw on a towel.  
+
+
+
+So if squeaking echoes through vents below  
+And recursive memos start to flow,  
+That's *Courier Rat's* run:  
+Where the lore is never done,  
+And the ducts are his permanent show.

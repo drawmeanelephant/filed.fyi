@@ -1,35 +1,19 @@
-# build output
+# Compiled static site distribution folders
 dist/
-# generated types
-.astro/
+out/
+outputs/
+publish/
+site/
+bin/boris
+.zig-cache/
+.zig-global-cache/
 
-# dependencies
-node_modules/
+# Local handoff snapshot used to seed the current source tree
+filed-boris-2026-08-02/
 
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-
-# environment variables
-.env
-.env.production
-
-# macOS-specific files
+# OS-specific files
 .DS_Store
+Thumbs.db
 
-# rotkeeping
-astro-sourcebook.md
-node_module_list.md
-graphical-equity
-indexnow.js
-frontmatter_audit.rb
-haiku-yaml-inconsistencies.md
-
-# exports
-exports/
-
-# jules scratchpad
-.jules/scratchpad/
+# Log files
+*.log

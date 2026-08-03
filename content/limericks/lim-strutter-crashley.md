@@ -1,0 +1,104 @@
+---
+title: "Strutter Crashley"
+id: limericks/LIM-0215
+parent: limericks
+status: archived
+tags: ["limericks", "struts", "legacy", "framework", "xml-config", "deprecated"]
+---
+
+# Strutter Crashley
+
+
+Old **Strutter** was *styled and grand*—  
+Her **layouts** looked *perfectly planned*.  
+But **hover a bit**  
+And **watch the file quit**,  
+As the **viewport dissolved** into *sand*.  
+
+
+
+"**It worked in 2009**," she'd *say*,  
+And it **did**—in a *beautiful way*.  
+The **XML configs**  
+Were **load-bearing rigs**,  
+And the **action mapping** still *works today*. (**No it doesn't.**)  
+
+
+
+Her **bones** were made of **XML files**,  
+Her **joints** *creaked* through **deprecated styles**.  
+She'd *cheer anyway*,  
+In a *corporate ballet*,  
+And the **IDE** *scrolled for miles*.  
+
+
+
+She spawned from the **conflict** *between*  
+**Sadness** and **lodash**—the *meanest machine*.  
+A **dependency war**  
+Left her **bruised at the core**,  
+And the **framework** was *creaky and lean*.  
+
+
+
+"**Action Mapping Failed**," she'd *announce*,  
+While executing a *nostalgic bounce*.  
+The **MVC** collapsed,  
+The **routing** relapsed,  
+And the **stack trace** weighed *more than an ounce*.  
+
+
+
+She keeps a **changelog** of your *memories*—  
+A *private*, **deprecated** *treasury*.  
+Each **framework** she **loved**  
+Was **eventually shoved**  
+Into **legacy's** *warm cemetery*.  
+
+
+
+She stamps **documents** with **false dates**—  
+**Timestamps** from *fictional fates*.  
+"**Last updated: never**."  
+"**Deprecated: forever**."  
+And the **config file** *silently waits*.  
+
+
+
+Her **IDE** was *outdated and slow*,  
+But she **cheered** at its *comforting glow*.  
+"**Still here!**" she would **cry**  
+With a *tear in her eye*,  
+And the **Java stack** put on a *show*.  
+
+
+
+She **lights candles** for **anchors that broke**,  
+Each one a **dependency's joke**.  
+The **link rot** was *deep*,  
+The **framework** *asleep*,  
+And the **breadcrumbs** went *up in smoke*.  
+
+
+
+So if **action mappings fail** to **load**  
+And the **XML config's** an *ode*  
+To an **era now past**,  
+That's **Strutter**—*steadfast*,  
+In a **framework** whose **codebase** *erode*.  
+
+
+
+She groans like an old creaky joint,  
+A truly pathetic low point.  
+The framework's long dead,  
+But she soldiers ahead,  
+With XML configs to anoint.  
+
+
+
+She's built from the fragments of old,  
+A framework that time has been cold.  
+Yet still she persists,  
+With deprecated lists,  
+And a legacy framework to hold.

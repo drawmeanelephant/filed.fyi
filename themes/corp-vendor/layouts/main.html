@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" data-theme="archive-light" data-layout="main">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}} — Filed &amp; Forgotten Archive</title>
+  <link rel="stylesheet" href="{{asset-url assets/corp-vendor.css}}">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="container">
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+        <div class="logo-area">
+          <span class="logo-icon" aria-hidden="true">📁</span>
+          <div>
+            <h1 class="site-title"><a href="index.html">Filed &amp; Forgotten Archive</a></h1>
+            <p class="site-tagline">Central Knowledge Registry</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="action-bar">
+      <nav class="breadcrumb-container" aria-label="Breadcrumb">
+        {{breadcrumb}}
+      </nav>
+    </div>
+
+    <div class="layout-wrapper">
+      <aside class="site-sidebar" aria-label="Archive Directory">
+        <div class="sidebar-sticky">
+          <div class="sidebar-module">
+            <h3 class="sidebar-title">Archive Directory</h3>
+            <nav class="site-nav" aria-label="Site Navigation">
+              {{nav}}
+            </nav>
+          </div>
+        </div>
+      </aside>
+
+      <main id="main-content" class="site-main" tabindex="-1">
+        <article class="document-frame">
+          <div class="metadata-section">
+            {{metadata}}
+          </div>
+
+          <div class="toc-section">
+            {{toc}}
+          </div>
+
+          <div class="entry-content prose">
+            {{content}}
+          </div>
+
+          <div class="children-section">
+            {{children}}
+          </div>
+        </article>
+      </main>
+    </div>
+
+    <footer class="site-footer" role="contentinfo">
+      {{footer}}
+    </footer>
+  </div>
+</body>
+</html>

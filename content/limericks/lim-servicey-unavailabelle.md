@@ -1,0 +1,104 @@
+---
+title: "Servicey Unavailabelle"
+id: limericks/LIM-0197
+parent: limericks
+status: archived
+tags: ["limericks"]
+---
+
+# Servicey Unavailabelle
+
+
+**Servicey's** been **"temporarily" out**  
+Since **2008**—there's no doubt.  
+She's **present** in headers,  
+Her **server's in feathers**,  
+But the **content**? There's *nothing about*.  
+
+
+
+Her **Retry-After** always says **"three  
+Days from now." Perpetually**.  
+When **three days arrive**,  
+The **date stays alive**  
+**Three more days** ahead—*endlessly*.  
+
+
+
+She's **not broken**—she's **just unavailable**.  
+Her **server** is *perfectly ailable*.  
+**Requests** are *received*,  
+Just **never believed**  
+To be *worth a response*. **Quite derailable**.  
+
+
+
+The **Council** raised her on the agenda  
+Four times—a *recurring addenda*.  
+She sat *through each one*,  
+But when asked, said, "**I'm done**  
+Being available. **Please see my errata**."  
+
+
+
+**Bad Gateway Greg** sends her **requests**  
+*Out of misplaced courtesy*—the *best*.  
+She **receives** every one,  
+But **serves absolutely none**,  
+And **Greg** calls this a *relationship quest*.  
+
+
+
+"**Scheduled maintenance**," she claims with *calm*  
+While the **server** *hums like a psalm*.  
+The **maintenance**? **Never**.  
+The **schedule**? **Whatever**.  
+The **downtime's** an *infinite balm*.  
+
+
+
+Her **503** was the *first of its kind*:  
+**Not broken**, just *quietly resigned*.  
+She **decided** it's *easier*  
+To be a **non-pleaser**  
+Than to **answer** what's *genuinely assigned*.  
+
+
+
+**Kindy** filed **three verification pleas**.  
+All **three** returned **503** with *ease*.  
+She **waited**, **resubmitted**,  
+Got the *same thing committed*,  
+And found it *relatable*—a **tease**.  
+
+
+
+She **updates** **Retry-After** with *care*—  
+**Three days**, *always*, *precise and fair*.  
+The **precision** is *real*,  
+The **date** is *surreal*,  
+And the **availability's** *simply not there*.  
+
+
+
+So if **"Back Soon™"** is what you see  
+And the **503** comes *endlessly*,  
+That's **Servicey's grace**:  
+**Apologetically** in *place*,  
+But **available**? **Never. 503.**  
+
+
+
+She enters maintenance with grace,  
+But nothing in routing will trace.  
+The backlog grows dense,  
+With no real recompense,  
+And production forgets her face.  
+
+
+
+A header politely declines,  
+With carefully softened lines.  
+Yet every request,  
+Fails to be blessed,  
+And denial rewrites all designs.

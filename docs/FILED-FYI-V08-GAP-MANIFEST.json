@@ -1,0 +1,64 @@
+{
+  "format": "filed-fyi-v08-gap-manifest",
+  "schema_version": 1,
+  "source_commit": "be386dd",
+  "boris_commit": "f14ac7a",
+  "target_commit": "19598df",
+  "scope": {
+    "source_pages": 5,
+    "source_assets": 1,
+    "converted_pages": 5,
+    "synthetic_trunks": 3,
+    "emitted_pages": 8
+  },
+  "counts": {
+    "boundary_preserved": 5,
+    "boundary_stripped": 0,
+    "boundary_manual_review": 74,
+    "relation_total": 10,
+    "relation_resolved": 1,
+    "relation_unresolved": 4,
+    "relation_review_only": 9,
+    "asset_referenced": 1,
+    "asset_auto_migrated": 0,
+    "raw_compile_exit": 1,
+    "manual_asset_compile_exit": 0
+  },
+  "gaps": [
+    {
+      "id": "relationships-poetry",
+      "status": "manual_review",
+      "evidence": "relatedHaiku and relatedLimerick are slug objects; current lab records non_scalar_or_ambiguous_object",
+      "next_action": "inventory targets and approve a bounded mapping policy"
+    },
+    {
+      "id": "source-global-assets",
+      "status": "manual_review",
+      "evidence": "../../../assets/svgon-the-line.png escapes the migration root and raw Boris compile returns EASSET",
+      "next_action": "make an explicit asset adaptation decision and materialize under page sibling assets"
+    },
+    {
+      "id": "custom-frontmatter",
+      "status": "manual_review",
+      "evidence": "closed Boris surface supports id/title/parent/status/tags; Filed fields remain in provenance",
+      "next_action": "map only fields with an approved target contract"
+    },
+    {
+      "id": "archive-indexes",
+      "status": "manual_review",
+      "evidence": "26 custom src/pages index routes are outside the selected content slice",
+      "next_action": "hand-author archive and relationship index layouts"
+    },
+    {
+      "id": "mediluna",
+      "status": "not_evidenced",
+      "evidence": "no Mediluna reference in source or target",
+      "next_action": "do not place until an authoritative brand/content brief exists"
+    }
+  ],
+  "immutability": {
+    "source_written": false,
+    "source_hashes_before_after_equal": true,
+    "repeat_run_sidecars_equal_except_compile_path": true
+  }
+}

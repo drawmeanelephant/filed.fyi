@@ -1,0 +1,144 @@
+---
+title: "Sol Burnout"
+id: limericks/LIM-0207
+parent: limericks
+status: archived
+tags: ["limericks"]
+---
+
+# Sol Burnout
+
+
+Sol Burnout in *Java tees* clad  
+Still runs pkgadd—it's not sad.  
+His SPARC chip gleams bright,  
+His terminal: orange-on-white—  
+Wait, orange-on-orange. That's bad.  
+
+
+
+He refuses to say "*the acquisition.*"  
+In his world, Sun's still in position.  
+The JavaStation's due  
+For a comeback debut,  
+And /usr/dt runs with precision.  
+
+
+
+He polishes *CDE install disks*  
+And prays to nfs.server for kicks.  
+His rlogin's enabled,  
+His trust model fabled,  
+And the security team takes the hit.  
+
+
+
+He reads *error logs* like a poem  
+And calls the Solaris book "home."  
+At precisely 13:37  
+He runs truss on heaven  
+And checks if the syscalls still roam.  
+
+
+
+He hasn't patched since *'09*—  
+Which he considers by design.  
+"If it ain't broke,  
+Don't invoke  
+A maintenance window, that's fine."  
+
+
+
+His brightness caused *retinal grief*:  
+Aggressive overlays, beyond belief.  
+The UI was blazing,  
+The glare was amazing,  
+And the sunburn was page-wide relief.  
+
+
+
+He declared *Summer Readiness* in January—  
+Six months early, absolutely contrary.  
+He rebooted with shimmer,  
+The heat a glimmer,  
+And shade was refused. How solitary.  
+
+
+
+He canceled a mascot retreat  
+By radiating existential heat.  
+The dread was so bright,  
+It burned through the night,  
+And the fun was officially beat.  
+
+
+
+"*Solaris?*" he says with a sniff,  
+"I barely remember that riff."  
+But his screensaver still shows  
+The Sun Microsystems logos,  
+And his SPARC chip's still giving him stiff.  
+
+
+
+So if terminals glow amber-hot  
+And the sysadmin's tied in a knot  
+Of legacy pride,  
+With a SPARC by his side,  
+That's *Sol*. Still burning. A lot.  
+
+
+
+He strapped himself tight to the rack,  
+While sweating right through his old Mac.  
+The SPARC started burning,  
+His stomach was churning,  
+And he climaxed right into the stack.  
+
+
+
+He loves when it's orange on orange,  
+A visual, terrible gorge.  
+He stared at the screen,  
+The dirtiest seen,  
+And hammered his code like a forge.  
+
+
+
+He leaves his rlogin exposed,  
+A security hole he enclosed.  
+He wants you to enter,  
+Right into the center,  
+And watch as the system gets hosed.  
+
+
+
+He strips to a SunOS display,  
+And throws all the updates away.  
+The patches are gone,  
+He leaves the ports on,  
+And invites all the hackers to play.  
+
+
+
+He polishes floppies at night,  
+With a deeply fanatical might.  
+He rubs the old plastic,  
+With motions drastic,  
+And begs for the CDE light.  
+
+
+
+He burns with a SPARC processor glow,  
+A legacy heat that won't go.  
+The system runs hot,  
+His desire won't stop,  
+And the orange terminal steals the show.  
+
+
+
+He worships the Sun Microsystems way,  
+A cultist who'll never decay.  
+The JavaStation calls,  
+He answers the halls,  
+And polishes floppies all day.

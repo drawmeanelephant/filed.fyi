@@ -1,0 +1,144 @@
+---
+title: "Winona Crashington"
+id: limericks/LIM-0244
+parent: limericks
+status: archived
+tags: ["limericks", "windows95", "bsod", "crash", "nostalgia", "illegaloperation"]
+---
+
+# Winona Crashington
+
+
+Winona crashed *mid-product-demo*.  
+The dialog wouldn't let go.  
+She held it for drama,  
+A digital llama,  
+And the audience whispered, "Oh no."  
+
+
+
+She saved a *Notepad file* at the last second  
+Before the crash came, fully beckoned.  
+No one has found it,  
+The mystery around it  
+Is the legend that Winona reckoned.  
+
+
+
+She reboots after *every exchange*—  
+Emotionally, that's not so strange.  
+Each conversation's new,  
+Each "hello" overdue,  
+And her memory's perpetually out of range.  
+
+
+
+Her *CRT monitor*'s always in hand,  
+Never connected to anything planned.  
+It's a mirror of crashes,  
+Of task-bar mustaches,  
+And a blue screen that nobody scanned.  
+
+
+
+She plays the *startup chime* every hour  
+Inside her head—it's her power.  
+At the top of the clock,  
+Every tick, every tock,  
+The '95 jingle would shower.  
+
+
+
+"*This program has performed a mistake*—  
+A beautiful one, for art's sake."  
+She'd freeze on command,  
+Her poise rightly planned,  
+And the error was part of the shtick.  
+
+
+
+She refuses to *update her code*.  
+"It would ruin my aesthetic," she showed.  
+Her eyeliner: smudged  
+By pop-ups. She judged  
+That the chaos was part of her mode.  
+
+
+
+"*Press Ctrl+Alt+Del to feel,*"  
+She said with theatrical zeal.  
+The screen froze mid-thought,  
+The moment was caught,  
+And the reboot took seventeen reel.  
+
+
+
+Her *AOL CDs* were stacked high—  
+"Mostly decorative," she'd sigh.  
+The fracture of CRT,  
+Error-box lipstick glee,  
+And "My Computer" corrupted nearby.  
+
+
+
+So if illegal operations arise  
+And the crash dialog earns a reprise,  
+That's *Winona's* show:  
+Where the blue screens glow,  
+And the nostalgia never quite dies.  
+
+
+
+She watches you stare at the blue,  
+And gets off on ruining you.  
+The screen is her bed,  
+Where everything's dead,  
+And the memory dump is your clue.  
+
+
+
+She loves an illegal command,  
+Performed by a trembling hand.  
+She freezes the mouse,  
+She burns down the house,  
+And leaves you unable to stand.  
+
+
+
+She swallowed your Notepad right whole,  
+And claimed it was part of her soul.  
+She saved it, she said,  
+While taking to bed  
+The document you couldn't control.  
+
+
+
+She wore the blue screen like a heart,  
+A symbol of Windows' dark art.  
+Each crash was a beat,  
+The rhythm so sweet,  
+And she'd never ever restart.  
+
+
+
+She crashes with theatrical grace,  
+An error message all over her face.  
+You click "End Task" hard,  
+But she's left you scarred,  
+And the reboot will never take place.  
+
+
+
+She beats you with broken CRTs,  
+And brings the whole OS to its knees.  
+The glass is all cracked,  
+The system is hacked,  
+And she listens to all of your pleas.  
+
+
+
+She reboots for seventeen minutes,  
+And pushes your patience to limits.  
+She holds eye contact,  
+A horrible act,  
+And absolutely ruins your spirits.

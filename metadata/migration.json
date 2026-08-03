@@ -1,0 +1,14 @@
+{
+  "artifact": "filed-boris-2026-08-02",
+  "compiler_commit": "21fad24be641ca789514f25a2453f09c301cc955",
+  "compiler_ref": "origin/afterparty",
+  "pages": 2265,
+  "trunks": 11,
+  "satellites": 2254,
+  "identity_policy": "metadata/id-policy.json",
+  "identity_map": "metadata/id-map.jsonl",
+  "source_repository": null,
+  "source_commit": null,
+  "provenance_note": "The handoff did not include an upstream source repository commit. The legacy-to-canonical map proves the local transformation, not upstream semantic fidelity.",
+  "generated_outputs": "Rebuild site, IR, RAG, Context, RSS, sitemap, and llms.txt from content rather than treating the handoff site as source."
+}
