@@ -4,7 +4,8 @@ out/
 outputs/
 publish/
 site/
-bin/boris
+exports/
+bin/boris*
 .zig-cache/
 .zig-global-cache/
 
