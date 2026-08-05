@@ -269,7 +269,9 @@ EOF
 
 ### 6b. Blank or appendix-only entries — **none**
 
-No record renders blank, and no record's body consists solely of generated appendices ("Related Aphorisms/Haikus/Limericks", TOC, navigation). Every page carries at least one paragraph of authored prose before its generated appendix sections (smallest bodies are the intentional trunk indexes, e.g. `posts.html` with its "Count: N records." line, and stub haiku records such as `haikus/HAI-0056.html` → `content/haikus/hai-056-roboshirker.md`, which contains an authored stub verse).
+Zero pages render literally blank, and zero pages' bodies consist solely of generated appendices ("Related Aphorisms/Haikus/Limericks", TOC, navigation). Every page carries at least some authored content before its generated appendix sections; the smallest bodies are the intentional trunk indexes, e.g. `posts.html` with its "Count: N records." line.
+
+This is a structural test only. Placeholder and low-substance records were not evaluated by this test, and the presence of authored content is not evidence that a record is substantively complete: a stub verse (e.g. the "Awaiting context" haiku in `content/haikus/hai-056-roboshirker.md`) still counts as authored content here. Phrases such as "Awaiting context", "Stub:", "_TBD_", and similar residue require a separate editorial audit.
 
 *Reproduction:*
 ```sh
@@ -345,7 +347,7 @@ EOF
 | 3 | Broken links | 0 | — |
 | 4 | Missing assets | 0 | — |
 | 5 | Metadata problems | 7 of 577 duplicate-title groups duplicate within a collection (remaining 570 groups are by-design cross-collection character reuse) | Low |
-| 6 | Structural Markdown problems | 54 pages with H1->H3 heading-level skips (no H2 parent); 0 blank/appendix-only entries | Medium (a11y/navigation structure) |
+| 6 | Structural Markdown problems | 54 pages with H1->H3 heading-level skips (no H2 parent); 0 literally blank or appendix-only entries (structural check only; stub/placeholder residue not assessed) | Medium (a11y/navigation structure) |
 | 7 | Orphaned records | 0 | — |
 
 **Content unchanged:** all findings are read-only observations; no archive prose, frontmatter, or metadata was repaired in this pass.
