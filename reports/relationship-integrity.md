@@ -11,7 +11,7 @@
 
 | metric | value |
 |---|---|
-| Canonical relationships exported | 2249 across 1289 records |
+| Canonical relationships exported | 2286 across 1292 records |
 | Legacy declared relationships discovered | 2661 |
 | Legacy relationships resolved | 2602 |
 | Legacy relationships unresolved (missing target) | 54 |
@@ -20,9 +20,9 @@
 | Legacy declarations from unmigrated sources | 1 |
 | Legacy duplicate declarations removed (per-record dedup) | 361 |
 | Structural-only excluded (parentEntry) | 1632 |
-| Current-source relationships discovered | 8 |
-| RAG relationships exported | 2249 |
-| Context relationships exported | 2249 |
+| Current-source relationships discovered | 53 |
+| RAG relationships exported | 2286 |
+| Context relationships exported | 2286 |
 | Bundle memberships preserved | 0 |
 | Unresolved current-source declarations | 0 |
 
@@ -76,8 +76,8 @@ fails if any row does not reconcile.
 | &nbsp;&nbsp;· source-unmigrated | 1 |
 | − Duplicate declarations removed (per-record dedup) | 361 |
 | = Legacy-contributed canonical edges | 2241 |
-| + Current-source relationships exported | 8 |
-| = Total canonical relationships exported | 2249 |
+| + Current-source relationships exported | 45 |
+| = Total canonical relationships exported | 2286 |
 
 **Intentionally excluded from the canonical export:** structural-only parentEntry declarations (1632); declarations from unmigrated legacy sources (1); content-residue quarantined declarations (18 in 146 files, outside the legacy audit scope).
 
