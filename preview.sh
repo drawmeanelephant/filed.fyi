@@ -1,9 +1,14 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
+export PATH="/usr/bin:/bin:$PATH"
+
 PORT=${1:-8000}
 THEME=${2:-themes/cantilever}
 DIST_DIR=${DIST_DIR:-dist/preview}
+
+BORIS_BIN=$("./scripts/ensure-boris.sh")
+export BORIS_BIN
 
 THEME="$THEME" DIST_DIR="$DIST_DIR" ./scripts/filed-build.sh
 

@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
+export PATH="/usr/bin:/bin:$PATH"
+
 ROOT=$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
-BORIS_BIN=${BORIS_BIN:-./bin/boris}
+cd "$ROOT"
+
+BORIS_BIN=$("./scripts/ensure-boris.sh")
+export BORIS_BIN
 CONTENT_DIR=${CONTENT_DIR:-content}
 THEME=${THEME:-themes/cantilever}
 DIST_DIR=${DIST_DIR:-dist/cantilever}
 SITE_URL=${SITE_URL:-https://filed.fyi}
 BORIS_JOBS=${BORIS_JOBS:-1}
-
-cd "$ROOT"
 
 python3 scripts/filed_ids.py --root "$CONTENT_DIR" --map metadata/id-map.jsonl
 python3 scripts/audit_markdown_links.py "$CONTENT_DIR"
