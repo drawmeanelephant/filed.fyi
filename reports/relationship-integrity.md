@@ -164,6 +164,7 @@ _none_
 ## Validation commands
 
 ```bash
+python3 scripts/test_relationship_repair.py
 python3 scripts/recover_relationships.py --verify
 python3 scripts/repair_relationships.py --content content --rag-dir publish/rag --context-dir publish/context
 python3 scripts/validate_relationships.py --content content --rag-dir publish/rag --context-dir publish/context
