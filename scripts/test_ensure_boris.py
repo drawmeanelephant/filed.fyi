@@ -47,6 +47,8 @@ class TestEnsureBoris(unittest.TestCase):
 
     def run_script(self, script_path, args=None, env_override=None, cwd=None):
         env = os.environ.copy()
+        for var in ["BORIS_BIN", "BORIS_AUTO_PROVISION", "BORIS_COMMIT", "BORIS_COMMIT_OVERRIDE"]:
+            env.pop(var, None)
         if env_override:
             env.update(env_override)
         cmd = [script_path] + (args or [])
