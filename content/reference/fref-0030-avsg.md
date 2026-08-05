@@ -177,13 +177,13 @@ This guide explains how the archive speaks about itself when it wishes to remain
 
 If you detect a smile where a siren should be,
 you may be reading us correctly.
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 Structurally delayed. The cross-reference to 013.htaccessius-the-doorman is pending validation.
 
-</Aside>
+:::
 A form was filed under the desk.
 The index was updated to match.
 The stapler was low.

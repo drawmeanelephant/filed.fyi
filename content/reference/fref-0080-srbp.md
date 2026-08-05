@@ -141,13 +141,13 @@ Signs that reinterpretation has exceeded usefulness:
 In such cases, SRB may quietly designate the phrase itself as a “legacy-stable euphemism” and seek a fresh one.
 
 This process is not documented elsewhere.
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 Flagged for recursive redundancy. The information contained is duplicated in 14 missing files.
 
-</Aside>
+:::
 The hallway was painted in grey.
 The painters arrived on Tuesday.
 The forms were in triplicate,

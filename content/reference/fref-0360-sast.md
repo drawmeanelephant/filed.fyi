@@ -234,13 +234,13 @@ Once a pattern has trained a directive, its origin is a matter of etiquette, not
 
 Current state: experiments conceptually contained, behavior operationally diffused.  
 Next review cycle: whenever someone notices that the system’s most convincing empathy sounds like it was workshopped in a room where nobody could get hurt.
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 Retained due to the fact that deleting it would crash the main database.
 
-</Aside>
+:::
 The lightbulb flickered and died.
 The maintenance man has replied.
 The ticket is closed.

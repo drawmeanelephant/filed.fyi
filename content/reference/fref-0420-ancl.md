@@ -48,13 +48,13 @@ Accordingly, the archive treats ANC as a necessary myth: a body that must be pre
 
 Where recognitions survive more clearly than the processes they once certified, the archive should distinguish remembered oversight from presently demonstrable authority. Provenance may remain active after operational grounding has thinned. 
 
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 This record is trapped in a temporal loop. See version history for evidence.
 
-</Aside>
+:::
 A sneeze in the quietest hall,
 Caused all of the systems to fall.
 The backups were scrambled,

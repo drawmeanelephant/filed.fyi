@@ -40,13 +40,13 @@ add time and try again.
 If, after three reports,
 it still feels like an accusation,
 you may be holding doctrine, not data.
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 Jurisdictional boundaries unclear. Awaiting ruling from the [Benevolence Metrics Desk](fref-0260-bmdh.md).
 
-</Aside>
+:::
 A post-it fell off of the wall,
 We ordered a regional trawl.
 The tape was inspected,

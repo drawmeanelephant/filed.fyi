@@ -40,13 +40,13 @@ Cats and audits should not sound alike.
   Context ignored.
   Index closed.
 
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 Metadata decay observed in the primary key. Proceeding with flat-file containment protocols.
 
-</Aside>
+:::
 A smudge on the edge of the screen,
 Demanded a quarantine team.
 The pixels were scrubbed,

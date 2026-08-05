@@ -148,13 +148,13 @@ DAC does not recommend:
 
 Band names should age well.
 Underlying conditions may do as they please.
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 This file is maintained solely for historical continuity; reading it is not required nor recommended.
 
-</Aside>
+:::
 The clock on the wall reads as four.
 The hinges are loose on the door.
 The memo was read.

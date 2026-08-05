@@ -122,13 +122,13 @@ It is considered a phase.
 If you cannot tell whether an artifact is over‑coherent,
 you may submit it anyway.
 The shelf will decide over time.
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 Procedural silence verified. No further action is possible.
 
-</Aside>
+:::
 The water cooler is now dry.
 No one is quite sure as to why.
 The cups are all stacked.
