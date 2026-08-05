@@ -3,7 +3,7 @@ title: "Breeding Program Dossier"
 id: limericks/LIM-LLG-0382-BPD
 parent: limericks
 status: archived
-tags: ["limericks", "scots", "eeding-program", "lection-pressure"]
+tags: ["limericks", "mascots", "breeding-program", "selection-pressure"]
 ---
 
 # Breeding Program Dossier

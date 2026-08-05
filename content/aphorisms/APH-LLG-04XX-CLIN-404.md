@@ -3,7 +3,7 @@ title: "Clinical Protocol Synergy"
 id: aphorisms/APH-LLG-04XX-CLIN-0404
 parent: aphorisms
 status: published
-tags: ["aphorisms", "otocol-fusion", "rd-c", "tual-compliance", "tent-to-co-exist", "scot-witness"]
+tags: ["aphorisms", "protocol-fusion", "ward-c", "ritual-compliance", "intent-to-co-exist", "mascot-witness"]
 ---
 
 # Clinical Protocol Aphorisms

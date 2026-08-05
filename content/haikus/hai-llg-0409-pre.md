@@ -3,7 +3,7 @@ title: "Persona Rehearsal Engine"
 id: haikus/HAI-LLG-0409-PRE
 parent: haikus
 status: archived
-tags: ["haikus", "eelingSeeder successor", "ersona Rehearsal Engine", "aiku", "ersona", "ehearsal", "ynthetic"]
+tags: ["haikus", "FeelingSeeder successor", "Persona Rehearsal Engine", "haiku", "persona", "rehearsal", "synthetic"]
 ---
 
 # Persona Rehearsal Engine

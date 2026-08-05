@@ -3,7 +3,7 @@ title: "RAGE Misidentification — When Local Anger Mimics RAGE"
 id: aphorisms/APH-LLG-0363-RAGE-MISIDENTIFICATION
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # RAGE Misidentification — When Local Anger Mimics RAGE

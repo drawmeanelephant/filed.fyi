@@ -3,7 +3,7 @@ title: "Institutional Explanation Layer, Trust Surface Continuity Event"
 id: aphorisms/APH-LLG-0409-IEL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Institutional Explanation Layer, Trust Surface Continuity Event

@@ -3,7 +3,7 @@ title: "DOGE Intake Form GEX-1"
 id: haikus/HAI-LLG-0351-DOGE-INTAKE
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "take", "rms"]
+tags: ["haikus", "doge", "intake", "forms"]
 ---
 
 # DOGE Intake Form GEX-1

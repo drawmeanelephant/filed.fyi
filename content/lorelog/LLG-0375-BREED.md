@@ -3,7 +3,7 @@ title: "Breeding Program Registration Anomaly, Human-Origin Record"
 id: lorelog/LLG-0375-BREED
 parent: lorelog
 status: published
-tags: ["lorelog", "eeding-program", "man-origin", "gistry-drift", "rkforce-avoidance", "fuge-classification", "bor-refusal", "atitude-alignment", "nsent-loop", "t-protocol", "letion-ritual", "hema-violation", "ntinuity-theatre", "w-confidence-object", "chival-integrity", "surance-language", "lf-reporting", "ml-pollution", "uth-loss", "ta-purity", "tty-puritas", "ffer-null", "rge-ritual", "ckup-rot", "eld-expungement"]
+tags: ["lorelog", "breeding-program", "human-origin", "registry-drift", "workforce-avoidance", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop", "rot-protocol", "deletion-ritual", "schema-violation", "continuity-theatre"]
 ---
 
 # Breeding Program Registration Anomaly, Human-Origin Record

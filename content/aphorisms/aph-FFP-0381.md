@@ -3,7 +3,7 @@ title: "FFP-0381 Field Note from a Quiet Lane"
 id: aphorisms/APH-FFP-0381
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # FFP-0381 Field Note from a Quiet Lane

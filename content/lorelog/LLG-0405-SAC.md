@@ -3,7 +3,7 @@ title: "Synthetic Affect Containment Charter — Post-SCAS Guardrails"
 id: lorelog/LLG-0405-SAC
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "experiment-charter", "leak-prevention", "mascots", "preventive\u2011monitoring", "safety\u2011warnings", "sandbox-guardrails", "synthetic-feelings", "training-echo", "ui\u2011guard", "compliance-warning", "consent-loop", "gratitude-alignment", "labor-refusal", "rot-protocol", "recursive-loop", "unresolved-genesis", "refuge-classification"]
 ---
 
 # Synthetic Affect Containment Charter — Post-SCAS Guardrails

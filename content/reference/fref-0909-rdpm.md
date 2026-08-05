@@ -3,7 +3,7 @@ title: "Restoration Directive PROTOCOL_MOTH (Structural Gap)"
 id: reference/FREF-0909-RDPM
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Restoration Directive: PROTOCOL_MOTH

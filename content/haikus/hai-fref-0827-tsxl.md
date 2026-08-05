@@ -3,7 +3,7 @@ title: "Trust Surface Crosslinks"
 id: haikus/HAI-FREF-0827-TSXL
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "directive-conflict", "trust-surface", "crosslinks"]
 ---
 
 # Trust Surface Crosslinks

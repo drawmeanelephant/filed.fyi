@@ -3,7 +3,7 @@ title: "Directive Citation Bleed"
 id: aphorisms/APH-LLG-0326-DCB
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "assification-rot", "dit-recursion"]
+tags: ["aphorisms", "soma-directive", "coma-directive", "classification-rot", "audit-recursion"]
 ---
 
 # Directive Citation Aphorisms

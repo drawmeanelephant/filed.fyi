@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive DOSSIER_SILT (Structural Gap)"
 id: aphorisms/APH-FREF-0905-RDDS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Restoration Directive DOSSIER_SILT (Structural Gap)

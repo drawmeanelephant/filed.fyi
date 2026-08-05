@@ -3,7 +3,7 @@ title: "Audit Terminology Drift"
 id: aphorisms/APH-LLG-0323-ASD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "dit-optics", "assification-rot", "mantic-laundering", "naged-absence"]
+tags: ["aphorisms", "audit-optics", "classification-rot", "semantic-laundering", "managed-absence"]
 ---
 
 # Audit Terminology Aphorisms

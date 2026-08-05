@@ -3,7 +3,7 @@ title: "Visibility Exclusion"
 id: reference/FREF-0860-VEX
 parent: reference
 status: published
-tags: ["reference", "pathegy", "sibility-exclusion", "porting", "gregation", "presentational-loss"]
+tags: ["reference", "empathegy", "visibility-exclusion", "reporting", "aggregation", "representational-loss"]
 ---
 
 # Visibility Exclusion

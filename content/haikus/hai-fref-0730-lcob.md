@@ -3,7 +3,7 @@ title: "Low-Confidence Objects"
 id: haikus/HAI-FREF-0730-LCOB
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "bin-8c", "low-confidence-objects", "semantic-panic"]
 ---
 
 # Low-Confidence Objects

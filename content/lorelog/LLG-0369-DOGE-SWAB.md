@@ -3,7 +3,7 @@ title: "Simulator Weather Advisory Bulletin High-Intensity Feed Conditions"
 id: lorelog/LLG-0369-DOGE-SWAB
 parent: lorelog
 status: published
-tags: ["lorelog", "ntcore", "ffer-null", "esentations", "cks", "mpliance-fauna", "ge", "mulator-weather", "visory", "ffer-unstable", "ed-conditions", "treach"]
+tags: ["lorelog", "lintcore", "buffer-null", "presentations", "decks", "compliance-fauna", "doge", "simulator-weather", "advisory", "buffer-unstable", "feed-conditions", "outreach"]
 ---
 
 # Simulator Weather Advisory Bulletin High-Intensity Feed Conditions

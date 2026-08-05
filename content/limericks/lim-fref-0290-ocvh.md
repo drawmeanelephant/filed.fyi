@@ -3,7 +3,7 @@ title: "Over‑Coherence Conditions"
 id: limericks/LIM-FREF-0290-OCVH
 parent: limericks
 status: published
-tags: ["limericks", "vic-benevolence", "stitutional-decay"]
+tags: ["limericks", "civic-benevolence", "institutional-decay"]
 ---
 
 # Over‑Coherence Conditions

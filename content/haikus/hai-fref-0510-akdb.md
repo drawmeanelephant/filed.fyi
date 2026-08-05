@@ -3,7 +3,7 @@ title: "Acknowledgment Deletion Bias"
 id: haikus/HAI-FREF-0510-AKDB
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "pathegy", "trics", "letion", "ntext-collapse"]
+tags: ["haikus", "haiku", "empathegy", "metrics", "deletion", "context-collapse", "deletion bias", "context collapse", "acknowledgment"]
 ---
 
 # Acknowledgment Deletion Bias

@@ -3,7 +3,7 @@ title: "Annex Truth"
 id: aphorisms/APH-FREF-0540-ANXT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "nex-truth", "rgins", "tness", "moted-necessity"]
+tags: ["aphorisms", "annex-truth", "margins", "witness", "demoted-necessity"]
 ---
 
 # Annex Truth Aphorisms

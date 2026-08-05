@@ -3,7 +3,7 @@ title: "Stub: Continuity Theatre Maintenance Window"
 id: aphorisms/APH-LLG-0812-CTM
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Continuity Theatre Maintenance Window

@@ -3,7 +3,7 @@ title: "Stub: Restricted Cluster Containment Audit"
 id: aphorisms/APH-0091
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Restricted Cluster Containment Audit

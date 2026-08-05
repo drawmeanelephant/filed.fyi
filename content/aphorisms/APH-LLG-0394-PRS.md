@@ -3,7 +3,7 @@ title: "Parade Route Sanctification"
 id: aphorisms/APH-LLG-0394-PRS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rade-committee", "ute-doctrine", "vic-benevolence", "ritage-authority", "ocessional-drift"]
+tags: ["aphorisms", "parade-committee", "route-doctrine", "civic-benevolence", "heritage-authority", "processional-drift"]
 ---
 
 # Parade Route Aphorisms

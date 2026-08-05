@@ -3,7 +3,7 @@ title: "Annex Truth"
 id: limericks/LIM-FREF-0540-ANXT
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "nex", "uth"]
+tags: ["limericks", "hand-written", "empathegy", "annex", "truth"]
 ---
 
 # Annex Truth

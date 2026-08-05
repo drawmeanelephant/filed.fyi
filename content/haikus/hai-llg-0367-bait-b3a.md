@@ -3,7 +3,7 @@ title: "Civic Substitution Loop"
 id: haikus/HAI-LLG-0367-BAIT-B3A
 parent: haikus
 status: archived
-tags: ["haikus", "it", "vic", "bstitution"]
+tags: ["haikus", "bait", "civic", "substitution"]
 ---
 
 # Civic Substitution Loop

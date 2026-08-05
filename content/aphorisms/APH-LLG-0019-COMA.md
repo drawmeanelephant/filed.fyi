@@ -3,7 +3,7 @@ title: "COMA-19 Idle-Time Amnesty Overuse"
 id: aphorisms/APH-LLG-0019-COMA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "le-time", "nesty-form", "ception-creep", "tric-smoothing"]
+tags: ["aphorisms", "coma-directive", "idle-time", "amnesty-form", "exception-creep", "metric-smoothing"]
 ---
 
 # COMA-19 Idle-Time Amnesty Aphorisms

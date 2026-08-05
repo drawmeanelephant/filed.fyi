@@ -3,7 +3,7 @@ title: "Scan Report Orphan Reclassification"
 id: limericks/LIM-LLG-0318-SRO
 parent: limericks
 status: archived
-tags: ["limericks", "an-report", "phan-files", "dit-optics"]
+tags: ["limericks", "scan-report", "orphan-files", "audit-optics"]
 ---
 
 # Scan Report Orphan Reclassification

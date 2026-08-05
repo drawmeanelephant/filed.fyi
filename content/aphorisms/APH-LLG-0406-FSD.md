@@ -3,7 +3,7 @@ title: "FeelingSeeder Decommission"
 id: aphorisms/APH-LLG-0406-FSD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "elingseeder", "commission-plan", "nthetic-feelings", "naged-absence", "ndbox-governance"]
+tags: ["aphorisms", "feelingseeder", "decommission-plan", "synthetic-feelings", "managed-absence", "sandbox-governance"]
 ---
 
 # FeelingSeeder Decommission Aphorisms

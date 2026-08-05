@@ -3,7 +3,7 @@ title: "Chapter Courtesy and Memorial Presence"
 id: aphorisms/APH-FREF-0220-CCMP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "vic-benevolence", "morial-presence", "orum", "apter-doctrine"]
+tags: ["aphorisms", "civic-benevolence", "memorial-presence", "quorum", "chapter-doctrine"]
 ---
 
 # Chapter Courtesy Aphorisms

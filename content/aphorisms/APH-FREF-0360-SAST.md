@@ -3,7 +3,7 @@ title: "Synthetic Affect & Successor Suite"
 id: aphorisms/APH-FREF-0360-SAST
 parent: aphorisms
 status: published
-tags: ["aphorisms", "nthetic-affect", "aining-echo", "unted-defaults", "elingseeder"]
+tags: ["aphorisms", "synthetic-affect", "training-echo", "haunted-defaults", "feelingseeder"]
 ---
 
 # Synthetic Affect Aphorisms

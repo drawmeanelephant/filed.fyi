@@ -3,7 +3,7 @@ title: "Banner Doctrine Activation"
 id: aphorisms/APH-LLG-0393-BDA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "nner-doctrine", "ritage-authority", "corative-governance", "remonial-policy", "ogan-reactivation"]
+tags: ["aphorisms", "banner-doctrine", "heritage-authority", "decorative-governance", "ceremonial-policy", "slogan-reactivation"]
 ---
 
 # Banner Doctrine Aphorisms

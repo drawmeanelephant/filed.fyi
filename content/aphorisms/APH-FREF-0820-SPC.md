@@ -3,7 +3,7 @@ title: "Support Coverage"
 id: aphorisms/APH-FREF-0820-SPC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "pport-coverage", "trics", "ailability", "cordability"]
+tags: ["aphorisms", "support-coverage", "metrics", "availability", "recordability"]
 ---
 
 # Support Coverage Aphorisms

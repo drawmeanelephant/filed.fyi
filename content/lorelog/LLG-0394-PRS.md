@@ -3,7 +3,7 @@ title: "Parade Route Sanctification Drift"
 id: lorelog/LLG-0394-PRS
 parent: lorelog
 status: published
-tags: ["lorelog", "rade-committee", "ute-doctrine", "vic-benevolence", "ritage-authority", "ocessional-drift", "atial-power", "om-authority"]
+tags: ["lorelog", "parade-committee", "route-doctrine", "civic-benevolence", "heritage-authority", "processional-drift", "spatial-power", "room-authority"]
 ---
 
 # Parade Route Sanctification Drift

@@ -3,7 +3,7 @@ title: "Interpretation Boundary Layer"
 id: haikus/HAI-FREF-0720-ITBD
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "interpretation-boundary", "sanctioned-vocabulary"]
 ---
 
 # Interpretation Boundary Layer

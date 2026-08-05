@@ -3,7 +3,7 @@ title: "Healthy Interval Artifacts"
 id: reference/FREF-0700-HIAR
 parent: reference
 status: published
-tags: ["reference", "pathegy", "althy-intervals", "surance-artifacts", "ntinuity-optics", "lence", "een-bands"]
+tags: ["reference", "empathegy", "healthy-intervals", "assurance-artifacts", "continuity-optics", "silence", "green-bands"]
 ---
 
 # Healthy Interval Artifacts

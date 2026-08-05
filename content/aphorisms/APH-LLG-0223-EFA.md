@@ -3,7 +3,7 @@ title: "Emotional Filing Appeal"
 id: aphorisms/APH-LLG-0223-EFA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "otional-appeal", "be-docket", "ndy-mcexistentialcrisis"]
+tags: ["aphorisms", "soma-directive", "emotional-appeal", "vibe-docket", "kindy-mcexistentialcrisis"]
 ---
 
 # Emotional Filing Appeal Aphorisms

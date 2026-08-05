@@ -3,7 +3,7 @@ title: "Orphan Symmetry"
 id: haikus/HAI-0257
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "phans", "mmetry", "andonment"]
+tags: ["haikus", "haiku", "orphans", "symmetry", "abandonment", "managed-absence", "aesthetic-despair", "structural-drift"]
 ---
 
 # Orphan Symmetry

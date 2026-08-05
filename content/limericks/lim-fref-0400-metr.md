@@ -3,7 +3,7 @@ title: "Metrics of Care"
 id: limericks/LIM-FREF-0400-METR
 parent: limericks
 status: published
-tags: ["limericks", "trics", "re"]
+tags: ["limericks", "metrics", "care"]
 ---
 
 # Metrics of Care

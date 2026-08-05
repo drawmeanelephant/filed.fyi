@@ -3,7 +3,7 @@ title: "Vantage Hollow Candidacy Note"
 id: haikus/HAI-FREF-0825-VHCN
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "benevolence", "vantage-hollow", "evidentiary-vacancy"]
 ---
 
 # Vantage Hollow Candidacy Note

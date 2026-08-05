@@ -3,7 +3,7 @@ title: "Forms Hygiene Rite"
 id: aphorisms/APH-LLG-0230-HYG
 parent: aphorisms
 status: published
-tags: ["aphorisms", "giene-rite", "mfort-bias", "rms-registry", "icky-goldbricksworth"]
+tags: ["aphorisms", "hygiene-rite", "comfort-bias", "forms-registry", "bricky-goldbricksworth"]
 ---
 
 # Forms Hygiene Aphorisms

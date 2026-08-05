@@ -3,7 +3,7 @@ title: "Silent Interval Preservation Doctrine Entered into Use"
 id: aphorisms/APH-LLG-0846-SIP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Silent Interval Preservation Doctrine Entered into Use

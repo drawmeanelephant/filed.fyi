@@ -3,7 +3,7 @@ title: "Proxy Compassion Load Redistribution Event"
 id: aphorisms/APH-LLG-0842-PCL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Proxy Compassion Load Redistribution Event

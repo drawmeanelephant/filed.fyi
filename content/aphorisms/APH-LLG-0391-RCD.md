@@ -3,7 +3,7 @@ title: "Ribbon Custody Dispute"
 id: aphorisms/APH-LLG-0391-RCD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "bbon-cutting", "amber-of-commerce", "tifact-custody", "vic-legitimacy", "dication-weekend"]
+tags: ["aphorisms", "ribbon-cutting", "chamber-of-commerce", "artifact-custody", "civic-legitimacy", "dedication-weekend"]
 ---
 
 # Ribbon Custody Aphorisms

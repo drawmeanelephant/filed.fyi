@@ -3,7 +3,7 @@ title: "RAGE Misidentification"
 id: haikus/HAI-LLG-0363-RAGE-MISIDENTIFICATION
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "sidentification", "ger"]
+tags: ["haikus", "rage", "misidentification", "anger"]
 ---
 
 # RAGE Misidentification

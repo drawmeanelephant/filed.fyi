@@ -3,7 +3,7 @@ title: "RAGE Charter — Routed Anger for Graph Engagement"
 id: aphorisms/APH-LLG-0360-RAGE-CHARTER
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # RAGE Charter — Routed Anger for Graph Engagement

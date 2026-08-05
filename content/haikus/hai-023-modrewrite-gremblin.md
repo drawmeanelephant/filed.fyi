@@ -3,7 +3,7 @@ title: "Modrewrite Gremblin"
 id: haikus/HAI-0023
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "directs", "cursion", "ops"]
+tags: ["haikus", "haiku", "redirects", "recursion", "loops", "redirect-recursion", "path-loops", "malformed-rules"]
 ---
 
 # Modrewrite Gremblin

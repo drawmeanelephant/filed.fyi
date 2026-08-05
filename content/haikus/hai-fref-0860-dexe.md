@@ -3,7 +3,7 @@ title: "Stub: Deferred Execution and Visible Uptake"
 id: haikus/HAI-FREF-0860-DEXE
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Deferred Execution and Visible Uptake

@@ -3,7 +3,7 @@ title: "Mascot Affairs Cluster Re-Indexing and Self-Designation Notice"
 id: lorelog/LLG-SYS-0008-REINDEX-0002
 parent: lorelog
 status: published
-tags: ["lorelog", "indexing", "uster-health", "lf-referential", "n-8c", "scot-cluster", "lf-indexing", "stody-drift", "zardous-misfiling", "uster-presence"]
+tags: ["lorelog", "reindexing", "cluster-health", "self-referential", "bin-8c", "mascot-cluster", "self-indexing", "custody-drift", "hazardous-misfiling", "cluster-presence"]
 ---
 
 # **Mascot Affairs Cluster Re-Indexing and Self-Designation Notice**

@@ -3,7 +3,7 @@ title: "Explanation Layer Residue Audit"
 id: haikus/HAI-FREF-0822-ELRA
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "benevolence", "explanation-layer", "residue-audit"]
 ---
 
 # Explanation Layer Residue Audit

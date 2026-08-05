@@ -3,7 +3,7 @@ title: "Burden Shrew"
 id: haikus/HAI-0227
 parent: haikus
 status: archived
-tags: ["haikus", "ncounted-labor", "nvisible-metrics", "perational-grief"]
+tags: ["haikus", "uncounted-labor", "invisible-metrics", "operational-grief"]
 ---
 
 # Burden Shrew

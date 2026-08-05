@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix PAPER_ORACLE (Telemetry Gap)"
 id: aphorisms/APH-FREF-0917-QMPO
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Qualitative Matrix PAPER_ORACLE (Telemetry Gap)

@@ -3,7 +3,7 @@ title: "Empathegy Inflation"
 id: aphorisms/APH-LLG-0811-EG
 parent: aphorisms
 status: published
-tags: ["aphorisms", "pathegy", "trics-theatre", "rve-coherence", "shboard-optimization"]
+tags: ["aphorisms", "empathegy", "metrics-theatre", "curve-coherence", "dashboard-optimization"]
 ---
 
 # Empathegy Inflation Aphorisms

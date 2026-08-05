@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix SHELF_ECHO (Telemetry Gap)"
 id: aphorisms/APH-FREF-0915-QMSE
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Qualitative Matrix SHELF_ECHO (Telemetry Gap)

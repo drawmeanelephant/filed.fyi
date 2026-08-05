@@ -3,7 +3,7 @@ title: "Chapter Courtesy and Memorial Presence Guidance"
 id: reference/FREF-0220-CCMP
 parent: reference
 status: archived
-tags: ["reference", "vic-benevolence", "morial-presence", "orum", "apter-doctrine"]
+tags: ["reference", "civic-benevolence", "memorial-presence", "quorum", "chapter-doctrine"]
 ---
 
 # Chapter Courtesy and Memorial Presence Guidance

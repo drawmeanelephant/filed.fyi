@@ -3,7 +3,7 @@ title: "Courtesy Without Leverage"
 id: limericks/LIM-FREF-0630-CWLV
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "urtesy", "verage"]
+tags: ["limericks", "hand-written", "empathegy", "courtesy", "leverage"]
 ---
 
 # Courtesy Without Leverage

@@ -3,7 +3,7 @@ title: "Honorary Absences"
 id: aphorisms/APH-LLG-0390-HAP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "morial-roll", "norary-absence", "apter-elections", "orum", "ocedural-esteem"]
+tags: ["aphorisms", "memorial-roll", "honorary-absence", "chapter-elections", "quorum", "procedural-esteem"]
 ---
 
 # Honorary Absences Aphorisms

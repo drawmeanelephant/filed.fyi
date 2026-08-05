@@ -3,7 +3,7 @@ title: "Exception Circularity"
 id: haikus/HAI-LLG-0328-MEC
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nifest-exception", "rcularity", "idence-inversion", "chival-rot"]
+tags: ["haikus", "haiku", "manifest-exception", "circularity", "evidence-inversion", "archival-rot"]
 ---
 
 # Exception Circularity

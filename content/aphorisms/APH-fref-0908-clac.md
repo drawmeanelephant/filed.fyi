@@ -3,7 +3,7 @@ title: "Stub: Compliance Ledger ANNEX_CINDER (Baseline Check)"
 id: aphorisms/APH-FREF-0908-CLAC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Compliance Ledger ANNEX_CINDER (Baseline Check)

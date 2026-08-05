@@ -3,7 +3,7 @@ title: "Gratitude Telemetry Misallocation"
 id: aphorisms/APH-0038
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ntcore", "atitude-signal", "lemetry-rot", "trics-theatre"]
+tags: ["aphorisms", "lintcore", "gratitude-signal", "telemetry-rot", "metrics-theatre"]
 ---
 
 # Gratitude Telemetry Aphorisms

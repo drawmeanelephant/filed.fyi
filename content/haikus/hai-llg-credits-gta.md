@@ -3,7 +3,7 @@ title: "Credits Drift"
 id: haikus/HAI-0087
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "edits-drift", "trics-theatre", "rsonal-budget", "lemetry-rot"]
+tags: ["haikus", "haiku", "credits-drift", "metrics-theatre", "personal-budget", "telemetry-rot", "completion-theater", "verse-spend"]
 ---
 
 # Credits Drift

@@ -3,7 +3,7 @@ title: "Driftlocked Policy Box"
 id: haikus/HAI-0435
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "bureaucratic-decay", "obsolescence"]
 ---
 
 # Driftlocked Policy Box

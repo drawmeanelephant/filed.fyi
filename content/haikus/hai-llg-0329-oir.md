@@ -3,7 +3,7 @@ title: "Orphan Inventory"
 id: haikus/HAI-LLG-0329-OIR
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "phan-inventory", "nership-rot", "tention-reframing", "chival-stability"]
+tags: ["haikus", "haiku", "orphan-inventory", "ownership-rot", "retention-reframing", "archival-stability"]
 ---
 
 # Orphan Inventory

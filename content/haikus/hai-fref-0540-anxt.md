@@ -3,7 +3,7 @@ title: "Annex Truth"
 id: haikus/HAI-FREF-0540-ANXT
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "bureaucratic-ritual", "bin-8c"]
 ---
 
 # Annex Truth

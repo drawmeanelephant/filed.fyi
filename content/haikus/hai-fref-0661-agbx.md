@@ -3,7 +3,7 @@ title: "Stub: fref-0661: Inaction Taxonomy — Aspirational Tier"
 id: haikus/HAI-FREF-0661-AGBX
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: fref-0661: Inaction Taxonomy — Aspirational Tier

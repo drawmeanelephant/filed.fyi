@@ -3,7 +3,7 @@ title: "Form Shadow Copy"
 id: aphorisms/APH-LLG-0244-FSC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rm-drafts", "adow-copies", "gistry-drift", "icky-goldbricksworth"]
+tags: ["aphorisms", "form-drafts", "shadow-copies", "registry-drift", "bricky-goldbricksworth"]
 ---
 
 # Form Shadow Copy Aphorisms

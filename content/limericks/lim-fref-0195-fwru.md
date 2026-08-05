@@ -3,7 +3,7 @@ title: "Freeze Windows and Recognizable Urgency"
 id: limericks/LIM-FREF-0195-FWRU
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Freeze Windows and Recognizable Urgency

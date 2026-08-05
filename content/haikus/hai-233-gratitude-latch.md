@@ -3,7 +3,7 @@ title: "Gratitude Latch"
 id: haikus/HAI-0233
 parent: haikus
 status: archived
-tags: ["haikus", "icket-resolution", "uperficial-gratitude", "ureaucratic-mechanisms"]
+tags: ["haikus", "ticket-resolution", "superficial-gratitude", "bureaucratic-mechanisms"]
 ---
 
 # Gratitude Latch

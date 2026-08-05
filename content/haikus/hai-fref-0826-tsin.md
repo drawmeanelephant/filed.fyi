@@ -3,7 +3,7 @@ title: "Trust Surface Index Note"
 id: haikus/HAI-FREF-0826-TSIN
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "directive-conflict", "trust-surface", "index-note"]
 ---
 
 # Trust Surface Index Note

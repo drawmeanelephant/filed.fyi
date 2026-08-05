@@ -3,7 +3,7 @@ title: "Stub: Allocation Protocol INDEX_VAULT (Dense Overdrift)"
 id: haikus/HAI-FREF-0901-APIV
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Allocation Protocol INDEX_VAULT (Dense Overdrift)

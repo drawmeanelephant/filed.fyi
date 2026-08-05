@@ -3,7 +3,7 @@ title: "Memorial Scholarship Proxy Substitution"
 id: haikus/HAI-LLG-0396-MSP
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "holarship", "ief", "bric"]
+tags: ["haikus", "haiku", "scholarship", "grief", "rubric"]
 ---
 
 # Memorial Scholarship Proxy Substitution

@@ -3,7 +3,7 @@ title: "Emergency Change Rejected"
 id: aphorisms/APH-LLG-0388-EC-ORDER
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ergency-change", "B", "heduled-exception", "ntinuity-optics"]
+tags: ["aphorisms", "emergency-change", "CAB", "scheduled-exception", "continuity-optics"]
 ---
 
 # Emergency Change Aphorisms

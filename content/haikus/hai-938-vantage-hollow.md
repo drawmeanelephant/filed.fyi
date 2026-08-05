@@ -3,7 +3,7 @@ title: "Vantage Hollow"
 id: haikus/HAI-0938
 parent: haikus
 status: published
-tags: ["haikus", "surance-optics", "ntage-hollow", "namental-authority", "herited-basis"]
+tags: ["haikus", "assurance-optics", "vantage-hollow", "ornamental-authority", "inherited-basis"]
 ---
 
 # Vantage Hollow

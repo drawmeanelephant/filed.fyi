@@ -3,7 +3,7 @@ title: "Silent Interval"
 id: haikus/HAI-LLG-0334-CSI
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "lent-interval", "ma-coma", "rain-accumulation", "ntinuity"]
+tags: ["haikus", "haiku", "silent-interval", "soma-coma", "strain-accumulation", "continuity"]
 ---
 
 # Silent Interval

@@ -3,7 +3,7 @@ title: "Stub: Open Queue, Closed Future"
 id: limericks/LIM-LLG-0446-OQF
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Open Queue, Closed Future

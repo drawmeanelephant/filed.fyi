@@ -3,7 +3,7 @@ title: "Clinical Compliance Kaizen Rite"
 id: haikus/HAI-0086
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "izen", "mpliance", "turgy"]
+tags: ["haikus", "haiku", "kaizen", "compliance", "liturgy", "kaizen-rite", "compliance-ceremony"]
 ---
 
 # Clinical Compliance Kaizen Rite

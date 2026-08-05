@@ -3,7 +3,7 @@ title: "Stub: COMA Sealed Observation Transcript"
 id: haikus/HAI-0001
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "procedural-stub", "coma-observation"]
 ---
 
 # Stub: COMA Sealed Observation Transcript

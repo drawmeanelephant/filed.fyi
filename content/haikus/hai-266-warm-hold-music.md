@@ -3,7 +3,7 @@ title: "Warm Hold Music"
 id: haikus/HAI-0266
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ld-music", "lay", "ffer"]
+tags: ["haikus", "haiku", "hold-music", "delay", "buffer", "atmospheric-waiting", "emotional-buffer", "endless-routing"]
 ---
 
 # Warm Hold Music

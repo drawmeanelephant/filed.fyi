@@ -3,7 +3,7 @@ title: "Silent Interval Certification"
 id: aphorisms/APH-LLG-0334-CSI
 parent: aphorisms
 status: published
-tags: ["aphorisms", "lent-interval", "ntinuity-interpretation", "ma-directive", "icky-goldbricksworth"]
+tags: ["aphorisms", "silent-interval", "continuity-interpretation", "soma-directive", "bricky-goldbricksworth"]
 ---
 
 # Silent Interval Aphorisms

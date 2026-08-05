@@ -3,7 +3,7 @@ title: "Dashboard Band Management"
 id: aphorisms/APH-FREF-0100-DACB
 parent: aphorisms
 status: published
-tags: ["aphorisms", "shboard-optics", "ccess-bands", "dicator-drift", "reshold-widening"]
+tags: ["aphorisms", "dashboard-optics", "success-bands", "indicator-drift", "threshold-widening"]
 ---
 
 # Band Management Aphorisms

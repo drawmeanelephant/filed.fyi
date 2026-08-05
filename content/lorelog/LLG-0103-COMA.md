@@ -3,7 +3,7 @@ title: "COMA Continuity Breach — Scheduled Downtime Reclassified as Crime"
 id: lorelog/LLG-0103-COMA
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "ntinuity-breach", "time-theatre", "intenance-window", "troactive-criminalization"]
+tags: ["lorelog", "coma-directive", "continuity-breach", "uptime-theatre", "maintenance-window", "retroactive-criminalization"]
 ---
 
 # COMA Continuity Breach — Scheduled Downtime Reclassified as Crime

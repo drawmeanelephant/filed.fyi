@@ -3,7 +3,7 @@ title: "OG Kushkeeper"
 id: haikus/HAI-0208
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nnabis", "kansas", "spensary"]
+tags: ["haikus", "haiku", "cannabis", "arkansas", "dispensary"]
 ---
 
 # OG Kushkeeper

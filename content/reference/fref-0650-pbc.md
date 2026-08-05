@@ -3,7 +3,7 @@ title: "Phrasebook Clarification (PBC)"
 id: reference/FREF-0650-PBC
 parent: reference
 status: archived
-tags: ["reference", "surance-lexicon"]
+tags: ["reference", "assurance-lexicon"]
 ---
 
 # Phrasebook Clarification (PBC)

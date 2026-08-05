@@ -3,7 +3,7 @@ title: "Bad Request Bob"
 id: limericks/LIM-0039
 parent: limericks
 status: published
-tags: ["limericks", "ror-handling"]
+tags: ["limericks", "error-handling"]
 ---
 
 # Bad Request Bob

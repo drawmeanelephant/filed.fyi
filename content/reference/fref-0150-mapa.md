@@ -3,7 +3,7 @@ title: "Managed Absence Spine (MAP‑Annex)"
 id: reference/FREF-0150-MAPA
 parent: reference
 status: published
-tags: ["reference", "assifications"]
+tags: ["reference", "classifications"]
 ---
 
 # Managed Absence Spine (MAP‑Annex)

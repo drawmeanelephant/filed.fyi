@@ -3,7 +3,7 @@ title: "Corrective Inheritance Registry Activated After Closure Threshold Drift"
 id: lorelog/LLG-0384-CIR
 parent: lorelog
 status: published
-tags: ["lorelog", "rrective-inheritance", "osure-drift", "pa", "currence", "storical-activity"]
+tags: ["lorelog", "corrective-inheritance", "closure-drift", "capa", "recurrence", "historical-activity"]
 ---
 
 # Corrective Inheritance Registry Activated After Closure Threshold Drift

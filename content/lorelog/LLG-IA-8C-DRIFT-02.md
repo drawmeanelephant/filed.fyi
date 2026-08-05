@@ -3,7 +3,7 @@ title: "Bin 8C Stabilization Attempt / RCI and ICB Deployment Log"
 id: lorelog/LLG-IA-8C-DRIFT-0002
 parent: lorelog
 status: published
-tags: ["lorelog", "abilization-attempt", "ntainment-boundary", "tric-redefinition", "licy-drift", "n-8c", "rm-behavior", "lf-indexing", "stody-drift", "zardous-misfiling", "uster-presence"]
+tags: ["lorelog", "stabilization-attempt", "containment-boundary", "metric-redefinition", "policy-drift", "bin-8c", "form-behavior", "self-indexing", "custody-drift", "hazardous-misfiling", "cluster-presence"]
 ---
 
 # Bin 8C Stabilization Attempt / RCI and ICB Deployment Log

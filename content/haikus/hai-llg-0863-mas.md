@@ -3,7 +3,7 @@ title: "Minute Absolution Seal"
 id: haikus/HAI-LLG-0863-MAS
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nutes", "solution", "osure"]
+tags: ["haikus", "haiku", "minutes", "absolution", "closure", "minute-absolution-seal", "emotional-closure"]
 ---
 
 # Minute Absolution Seal

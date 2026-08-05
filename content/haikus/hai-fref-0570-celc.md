@@ -3,7 +3,7 @@ title: "Care Event Lifecycle"
 id: haikus/HAI-FREF-0570-CELC
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "pathegy", "fecycle", "re", "sidual"]
+tags: ["haikus", "haiku", "empathegy", "lifecycle", "care", "residual", "stabilization", "intake", "rendering", "care event lifecycle"]
 ---
 
 # Care Event Lifecycle

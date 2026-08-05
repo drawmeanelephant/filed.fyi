@@ -3,7 +3,7 @@ title: "Echo-Literate Filers"
 id: limericks/LIM-FREF-0650-ELFR
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "ho-literate", "ling"]
+tags: ["limericks", "hand-written", "empathegy", "echo-literate", "filing"]
 ---
 
 # Echo-Literate Filers

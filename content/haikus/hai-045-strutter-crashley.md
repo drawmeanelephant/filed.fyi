@@ -3,7 +3,7 @@ title: "Strutter Crashley"
 id: haikus/HAI-0045
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ameworks", "stalgia", "gacy"]
+tags: ["haikus", "haiku", "frameworks", "nostalgia", "legacy", "legacy-code", "framework-nostalgia", "fragility"]
 ---
 
 # Strutter Crashley

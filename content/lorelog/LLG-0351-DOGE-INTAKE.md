@@ -3,7 +3,7 @@ title: "DOGE Intake Form GEX-1 — Experience Verification Request"
 id: lorelog/LLG-0351-DOGE-INTAKE
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "buffer-null", "doge", "intake-form", "gex-1", "experience-verification", "kindy", "operational-engines"]
 ---
 
 # DOGE Intake Form GEX-1 — Experience Verification Request

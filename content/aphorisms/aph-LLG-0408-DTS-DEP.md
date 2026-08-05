@@ -3,7 +3,7 @@ title: "Stub: Incident LORE-0408-DTS-DEP // Spontaneous Trust Surface Amplificat
 id: aphorisms/APH-LLG-0408-DTS-DEP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Incident LORE-0408-DTS-DEP // Spontaneous Trust Surface Amplification

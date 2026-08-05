@@ -3,7 +3,7 @@ title: "Brother Optout Pending"
 id: haikus/HAI-0304
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "thdrawal", "tout", "erk"]
+tags: ["haikus", "haiku", "withdrawal", "optout", "clerk"]
 ---
 
 # Brother Optout Pending

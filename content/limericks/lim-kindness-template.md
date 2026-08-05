@@ -3,7 +3,7 @@ title: "Kindness Template"
 id: limericks/LIM-0122
 parent: limericks
 status: archived
-tags: ["limericks", "re", "andardization"]
+tags: ["limericks", "care", "standardization"]
 ---
 
 # Kindness Template

@@ -3,7 +3,7 @@ title: "Kitchen Credit Persistence"
 id: aphorisms/APH-LLG-0390-KCL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "xiliary-labor", "atitude-drift", "tchen-rot", "morial-supper", "tribution-persistence"]
+tags: ["aphorisms", "auxiliary-labor", "gratitude-drift", "kitchen-rot", "memorial-supper", "attribution-persistence"]
 ---
 
 # Kitchen Credit Persistence Aphorisms

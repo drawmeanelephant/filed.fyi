@@ -3,7 +3,7 @@ title: "Over‑Coherence Vault – Handling Notes"
 id: limericks/LIM-FREF-0130-OCVH
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Over‑Coherence Vault – Handling Notes

@@ -3,7 +3,7 @@ title: "Trust Surface Index Note"
 id: aphorisms/APH-FREF-0826-TSIN
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Trust Surface Index Note

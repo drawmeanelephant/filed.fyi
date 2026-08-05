@@ -3,7 +3,7 @@ title: "Witness Protocol"
 id: haikus/HAI-FREF-0880-WPRT
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "witness-protocol", "contradiction-retention", "courtesy-witness"]
 ---
 
 # Witness Protocol

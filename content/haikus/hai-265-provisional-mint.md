@@ -3,7 +3,7 @@ title: "Provisional Mint"
 id: haikus/HAI-0265
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nt", "ovisional", "gitimacy"]
+tags: ["haikus", "haiku", "mint", "provisional", "legitimacy", "issued-legitimacy", "grey-authority", "shell-worship"]
 ---
 
 # Provisional Mint

@@ -3,7 +3,7 @@ title: "Stub: Incident LORE-0410-BWS // Badge Witness Continuity After Basis Thi
 id: haikus/HAI-LLG-0410-BWS
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "badge-witness", "continuity", "basis-thinning"]
 ---
 
 # Stub: Incident LORE-0410-BWS // Badge Witness Continuity After Basis Thinning

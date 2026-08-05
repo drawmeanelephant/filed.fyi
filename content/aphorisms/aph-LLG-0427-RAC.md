@@ -3,7 +3,7 @@ title: "Repair Announced, Compatibility Preserved"
 id: aphorisms/APH-LLG-0427-RAC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Repair Announced, Compatibility Preserved

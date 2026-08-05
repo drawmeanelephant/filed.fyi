@@ -3,7 +3,7 @@ title: "Emotional Filing Appeal — Vibe-Only Docket Creation"
 id: lorelog/LLG-0223-EFA
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "otional-appeal", "be-docket", "take-failure", "n-operational-cases"]
+tags: ["lorelog", "soma-directive", "emotional-appeal", "vibe-docket", "intake-failure", "non-operational-cases"]
 ---
 
 # Emotional Filing Appeal — Vibe-Only Docket Creation

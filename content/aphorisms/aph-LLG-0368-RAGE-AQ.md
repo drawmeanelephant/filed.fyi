@@ -3,7 +3,7 @@ title: "RAGE Appeals Queue Snapshot Quarter 1"
 id: aphorisms/APH-LLG-0368-RAGE-AQ
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # RAGE Appeals Queue Snapshot Quarter 1

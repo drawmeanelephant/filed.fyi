@@ -3,7 +3,7 @@ title: "Progress Without Work"
 id: haikus/HAI-FFP-0385-PROGRESS-WITHOUT-WORK
 parent: haikus
 status: published
-tags: ["haikus", "iku", "eue-theatre", "rms", "naged-absence"]
+tags: ["haikus", "haiku", "queue-theatre", "forms", "managed-absence"]
 ---
 
 # Progress Without Work

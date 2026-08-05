@@ -3,7 +3,7 @@ title: "Vanda Uiguard"
 id: haikus/HAI-0069
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ardian", "rnings"]
+tags: ["haikus", "haiku", "ui", "guardian", "warnings"]
 ---
 
 # Vanda Uiguard

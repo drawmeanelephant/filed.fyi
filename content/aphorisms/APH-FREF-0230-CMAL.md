@@ -3,7 +3,7 @@ title: "Chamber Meal Assent and Disposition"
 id: aphorisms/APH-FREF-0230-CMAL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "amber-luncheon", "plied-approval", "holarship-breakfast", "vic-boosterism"]
+tags: ["aphorisms", "chamber-luncheon", "implied-approval", "scholarship-breakfast", "civic-boosterism"]
 ---
 
 # Chamber Meal Assent Aphorisms

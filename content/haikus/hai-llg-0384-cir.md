@@ -3,7 +3,7 @@ title: "Corrective Inheritance Registry"
 id: haikus/HAI-LLG-0384-CIR
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "heritance", "ficiencies", "osed-findings"]
+tags: ["haikus", "haiku", "inheritance", "deficiencies", "closed-findings", "managed-absence"]
 ---
 
 # Corrective Inheritance Registry

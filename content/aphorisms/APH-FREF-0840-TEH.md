@@ -3,7 +3,7 @@ title: "Training Echo Handling"
 id: aphorisms/APH-FREF-0840-TEH
 parent: aphorisms
 status: published
-tags: ["aphorisms", "aining-echo", "nthetic-affect", "aptation", "cent"]
+tags: ["aphorisms", "training-echo", "synthetic-affect", "adaptation", "accent"]
 ---
 
 # Training Echo Aphorisms

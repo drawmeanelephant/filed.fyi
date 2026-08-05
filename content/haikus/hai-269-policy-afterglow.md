@@ -3,7 +3,7 @@ title: "Policy Afterglow"
 id: haikus/HAI-0269
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "licy", "timism", "terglow"]
+tags: ["haikus", "haiku", "policy", "optimism", "afterglow"]
 ---
 
 # Policy Afterglow

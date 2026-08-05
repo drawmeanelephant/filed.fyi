@@ -3,7 +3,7 @@ title: "Trust Surface Residual Truth"
 id: reference/FREF-0823-TSRT
 parent: reference
 status: published
-tags: ["reference", "ust-surface", "sidual-truth", "surance-optics", "naged-absence", "herited-basis", "corative-trust", "it-adjacent", "rification-collapse", "planation-layer", "ercoherence", "herited-evidence", "surance-vocabulary", "dge-continuity", "ched-attestation", "tness-mark", "gitimacy-loop", "ciprocal-recognition"]
+tags: ["reference", "trust-surface", "residual-truth", "assurance-optics", "managed-absence", "inherited-basis", "decorative-trust", "bait-adjacent", "verification-collapse", "explanation-layer", "overcoherence", "inherited-evidence", "assurance-vocabulary"]
 ---
 
 # Trust Surface Residual Truth

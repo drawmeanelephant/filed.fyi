@@ -3,7 +3,7 @@ title: "Stub: Frontmatter Data Structural Integrity Audit"
 id: aphorisms/APH-0092
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Frontmatter Data Structural Integrity Audit

@@ -3,7 +3,7 @@ title: "Jay Skript"
 id: limericks/LIM-0116
 parent: limericks
 status: archived
-tags: ["limericks", "vascript", "ync", "oduction", "ient-side", "nsole-log"]
+tags: ["limericks", "javascript", "async", "production", "client-side", "console-log"]
 ---
 
 # Jay Skript

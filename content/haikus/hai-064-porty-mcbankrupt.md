@@ -3,7 +3,7 @@ title: "Porty McBankrupt"
 id: haikus/HAI-0064
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nkruptcy", "gacy", "ust"]
+tags: ["haikus", "haiku", "bankruptcy", "legacy", "trust"]
 ---
 
 # Porty McBankrupt

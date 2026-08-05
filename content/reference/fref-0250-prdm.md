@@ -3,7 +3,7 @@ title: "Procession Route Dignity and Marshal Regalia Memorandum"
 id: reference/FREF-0250-PRDM
 parent: reference
 status: archived
-tags: ["reference", "rade-committee", "ute-doctrine", "nner-authority", "galia-custody", "ritage-drift", "gleton-proclamation-clerk", "bbonward-cordialis"]
+tags: ["reference", "parade-committee", "route-doctrine", "banner-authority", "regalia-custody", "heritage-drift", "eagleton-proclamation-clerk", "ribbonward-cordialis"]
 ---
 
 # Procession Route Dignity and Marshal Regalia Memorandum

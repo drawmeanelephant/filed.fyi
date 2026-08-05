@@ -3,7 +3,7 @@ title: "Dual Certification"
 id: limericks/LIM-FREF-0640-DCER
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "ntradiction", "al-certification"]
+tags: ["limericks", "hand-written", "empathegy", "contradiction", "dual-certification"]
 ---
 
 # Dual Certification

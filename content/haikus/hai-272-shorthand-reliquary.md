@@ -3,7 +3,7 @@ title: "Shorthand Reliquary"
 id: haikus/HAI-0272
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "orthand", "liquary", "ief"]
+tags: ["haikus", "haiku", "shorthand", "reliquary", "grief"]
 ---
 
 # Shorthand Reliquary

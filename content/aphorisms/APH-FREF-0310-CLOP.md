@@ -3,7 +3,7 @@ title: "Cross-Lodge Orientation"
 id: aphorisms/APH-FREF-0310-CLOP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ientation", "take", "ocedural-translation", "dge-culture"]
+tags: ["aphorisms", "orientation", "intake", "procedural-translation", "lodge-culture"]
 ---
 
 # Cross-Lodge Orientation Aphorisms

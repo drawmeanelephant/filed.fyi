@@ -3,7 +3,7 @@ title: "Form 51-E"
 id: haikus/HAI-LLG-0051-E
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rm-51-e", "otional-verification", "cursive-feelings", "stmortem"]
+tags: ["haikus", "haiku", "form-51-e", "emotional-verification", "recursive-feelings", "postmortem", "recursive-invalidation", "feelings-about-form"]
 ---
 
 # Form 51-E

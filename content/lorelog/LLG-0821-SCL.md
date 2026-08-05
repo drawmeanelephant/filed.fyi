@@ -3,7 +3,7 @@ title: "Service Continuity Listening Board Silent Interval Recoding"
 id: lorelog/LLG-0821-SCL
 parent: lorelog
 status: published
-tags: ["lorelog", "re-theatre", "rective-conflict", "stening-board", "naged-absence", "trics-of-care", "iet-intervals", "st-and-strain", "st-vs-continuity", "lent-interval", "ndbox-guardrails", "ndbox-governance", "ak-prevention", "elingseeder", "periment-governance", "bor-refusal", "t-protocol", "periment-charter", "nthetic-voices", "commission-plan", "nchmarks", "ntinuity-theatre", "mpliance-warning", "fectharness", "nthetic-feelings", "nsent-loop", "atitude-alignment", "ript-theatre", "rsona-rehearsal", "ming-theatre", "cursive-loop", "resolved-genesis"]
+tags: ["lorelog", "synthetic-affect", "care-theatre", "sandbox-governance", "directive-conflict", "continuity-theatre", "experiment-infrastructure", "affectharness", "managed-absence"]
 ---
 
 # Service Continuity Listening Board Silent Interval Recoding

@@ -3,7 +3,7 @@ title: "BAIT Subtype B-4A Ambient Threat Maintenance Advisory"
 id: aphorisms/APH-LLG-0366-BAIT-B4A
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # BAIT Subtype B-4A Ambient Threat Maintenance Advisory

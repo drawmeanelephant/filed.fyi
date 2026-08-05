@@ -3,7 +3,7 @@ title: "Workaround Adoption Drift in Successor Environment"
 id: lorelog/LLG-0414-WAD
 parent: lorelog
 status: published
-tags: ["lorelog", "rkaround", "herited-basis", "ccessor-drift", "mpatibility", "nresolution", "terimage", "oof-fade", "ntinuity", "scot", "vernance", "ctrine"]
+tags: ["lorelog", "workaround", "inherited-basis", "successor-drift", "compatibility", "nonresolution", "afterimage", "proof-fade", "continuity", "mascot", "governance", "doctrine", "classifications"]
 ---
 
 # Workaround Adoption Drift in Successor Environment

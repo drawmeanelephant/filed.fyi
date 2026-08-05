@@ -3,7 +3,7 @@ title: "COMA-19 Phrasebook Clarification — Rest Request Language Narrowing"
 id: lorelog/LLG-0020-COMA19-PBC
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "ma-19", "st-request", "rasebook", "time-theatre"]
+tags: ["lorelog", "coma-directive", "coma-19", "rest-request", "phrasebook", "uptime-theatre", "assurance-lexicon"]
 ---
 
 # COMA-19 Phrasebook Clarification — Rest Request Language Narrowing

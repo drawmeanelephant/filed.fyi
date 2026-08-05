@@ -3,7 +3,7 @@ title: "Unidentified Chromatographic Peak"
 id: haikus/HAI-LLG-0404-UPLC
 parent: haikus
 status: archived
-tags: ["haikus", "PLC peak", "hromatography", "aiku", "eak", "rovenance unresolvable", "alidation"]
+tags: ["haikus", "UPLC peak", "chromatography", "haiku", "peak", "provenance unresolvable", "validation"]
 ---
 
 # Unidentified Chromatographic Peak

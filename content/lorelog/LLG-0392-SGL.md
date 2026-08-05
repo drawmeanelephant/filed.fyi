@@ -3,7 +3,7 @@ title: "Small Grant Luncheon Minutes Treated as Binding Pledge Record"
 id: lorelog/LLG-0392-SGL
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "applause-ledger", "civic-boosterism", "implied-approval", "luncheon-minutes", "small-grants", "social-inference", "consent"]
 ---
 
 # Small Grant Luncheon Minutes Treated as Binding Pledge Record

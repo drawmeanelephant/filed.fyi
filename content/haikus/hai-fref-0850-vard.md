@@ -3,7 +3,7 @@ title: "Stub: Variance Discipline"
 id: haikus/HAI-FREF-0850-VARD
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "variance-discipline", "baseline-purity", "improvement-theatre"]
 ---
 
 # Stub: Variance Discipline

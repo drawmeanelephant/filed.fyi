@@ -3,7 +3,7 @@ title: "Kindness Template"
 id: haikus/HAI-0234
 parent: haikus
 status: archived
-tags: ["haikus", "rocedural-kindness", "mpathetic-macros", "tandardized-care"]
+tags: ["haikus", "procedural-kindness", "empathetic-macros", "standardized-care"]
 ---
 
 # Kindness Template

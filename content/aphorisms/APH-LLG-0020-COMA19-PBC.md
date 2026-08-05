@@ -3,7 +3,7 @@ title: "COMA-19 Phrasebook Clarification"
 id: aphorisms/APH-LLG-0020-COMA19-PBC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "ma-19", "st-request", "rasebook", "time-theatre"]
+tags: ["aphorisms", "coma-directive", "coma-19", "rest-request", "phrasebook", "uptime-theatre"]
 ---
 
 # COMA-19 Phrasebook Aphorisms

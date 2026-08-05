@@ -3,7 +3,7 @@ title: "Post-SCAS Echo Handling"
 id: aphorisms/APH-LLG-0401-SCAS-ECHO
 parent: aphorisms
 status: published
-tags: ["aphorisms", "aining-echo", "nthetic-feelings", "rective-shadow", "ntinuity-theatre", "terpretation-drift"]
+tags: ["aphorisms", "training-echo", "synthetic-feelings", "directive-shadow", "continuity-theatre", "interpretation-drift"]
 ---
 
 # Post-SCAS Echo Aphorisms

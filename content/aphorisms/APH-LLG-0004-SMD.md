@@ -3,7 +3,7 @@ title: "Sitemap Drift — Structural Index Misalignment"
 id: aphorisms/APH-LLG-0004-SMD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "oken-navigation", "temap-drift", "dex-corruption", "lse-pathing"]
+tags: ["aphorisms", "broken-navigation", "sitemap-drift", "index-corruption", "false-pathing"]
 ---
 
 # Sitemap Drift Aphorisms

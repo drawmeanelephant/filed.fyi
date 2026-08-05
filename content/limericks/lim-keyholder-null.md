@@ -3,7 +3,7 @@ title: "Keyholder Null"
 id: limericks/LIM-0120
 parent: limericks
 status: published
-tags: ["limericks", "ckout", "ckfile", "cess-denied", "yholder"]
+tags: ["limericks", "lockout", "lockfile", "access-denied", "keyholder"]
 ---
 
 # Keyholder Null

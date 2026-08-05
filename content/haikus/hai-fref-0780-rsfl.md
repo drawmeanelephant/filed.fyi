@@ -3,7 +3,7 @@ title: "Rest-Shaped Feelings"
 id: haikus/HAI-FREF-0780-RSFL
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "pathegy", "st", "elings", "haustion"]
+tags: ["haikus", "haiku", "empathegy", "rest", "feelings", "exhaustion"]
 ---
 
 # Rest-Shaped Feelings

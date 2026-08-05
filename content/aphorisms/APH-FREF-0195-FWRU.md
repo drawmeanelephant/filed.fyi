@@ -3,7 +3,7 @@ title: "Freeze Windows and Recognizable Urgency"
 id: aphorisms/APH-FREF-0195-FWRU
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ergency-change", "eeze-window", "cognizable-urgency", "b"]
+tags: ["aphorisms", "emergency-change", "freeze-window", "recognizable-urgency", "cab"]
 ---
 
 # Freeze Windows Aphorisms

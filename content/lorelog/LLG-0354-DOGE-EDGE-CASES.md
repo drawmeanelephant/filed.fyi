@@ -3,7 +3,7 @@ title: "DOGE Edge Cases — Grief Relays, Synthetic Care, and Counterfactual Ang
 id: lorelog/LLG-0354-DOGE-EDGE-CASES
 parent: lorelog
 status: published
-tags: ["lorelog", "ge", "ge-cases", "ovenance", "ief", "nthetic-care"]
+tags: ["lorelog", "doge", "edge-cases", "provenance", "grief", "synthetic-care"]
 ---
 
 # DOGE Edge Cases — Grief Relays, Synthetic Care, and Counterfactual Anger

@@ -3,7 +3,7 @@ title: "Continuity Theatre"
 id: limericks/LIM-FREF-0610-CTHR
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "ntinuity", "eatre", "shboard"]
+tags: ["limericks", "hand-written", "empathegy", "continuity", "theatre", "dashboard"]
 ---
 
 # Continuity Theatre

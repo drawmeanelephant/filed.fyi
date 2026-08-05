@@ -3,7 +3,7 @@ title: "Civic Benevolence Handling Notes"
 id: limericks/LIM-FREF-0210-CBHN
 parent: limericks
 status: published
-tags: ["limericks", "vic-benevolence", "stitutional-decay"]
+tags: ["limericks", "civic-benevolence", "institutional-decay"]
 ---
 
 # Civic Benevolence Handling Notes

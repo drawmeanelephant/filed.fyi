@@ -3,7 +3,7 @@ title: "Deviation Entered on Superseded Form"
 id: haikus/HAI-LLG-0405-DEV
 parent: haikus
 status: archived
-tags: ["haikus", "eta-Deviation Cascade", "ascade", "eviation", "orms", "aiku", "uperseded form"]
+tags: ["haikus", "Meta-Deviation Cascade", "cascade", "deviation", "forms", "haiku", "superseded form"]
 ---
 
 # Deviation Entered on Superseded Form

@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive REPOSITORY_GLYPH (Structural Gap)"
 id: aphorisms/APH-FREF-0906-RDRG
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Restoration Directive REPOSITORY_GLYPH (Structural Gap)

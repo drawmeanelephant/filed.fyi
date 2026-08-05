@@ -3,7 +3,7 @@ title: "Genny Compileheart"
 id: haikus/HAI-0028
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ild", "pendencies", "mpile"]
+tags: ["haikus", "haiku", "build", "dependencies", "compile", "build-failures", "compile-sorrow"]
 ---
 
 # Genny Compileheart

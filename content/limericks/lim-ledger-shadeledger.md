@@ -3,7 +3,7 @@ title: "Ledger Shadeledger"
 id: limericks/LIM-0125
 parent: limericks
 status: archived
-tags: ["limericks", "counting", "dit", "scal", "ult", "dger"]
+tags: ["limericks", "accounting", "audit", "fiscal", "vault", "ledger"]
 ---
 
 # Ledger Shadeledger

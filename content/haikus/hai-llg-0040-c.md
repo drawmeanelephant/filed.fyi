@@ -3,7 +3,7 @@ title: "Form 40-C"
 id: haikus/HAI-LLG-0040-C
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rm-40-c", "nsent-cascade", "adlock", "stmortem"]
+tags: ["haikus", "haiku", "form-40-c", "consent-cascade", "deadlock", "postmortem", "initiation-deadlock", "approval-recursion"]
 ---
 
 # Form 40-C

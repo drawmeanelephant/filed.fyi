@@ -3,7 +3,7 @@ title: "Mascot Containment & Breeding"
 id: haikus/HAI-0093
 parent: haikus
 status: archived
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Mascot Containment & Breeding

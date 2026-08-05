@@ -3,7 +3,7 @@ title: "Alibi Seal"
 id: haikus/HAI-0271
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ibi", "al", "nocence"]
+tags: ["haikus", "haiku", "alibi", "seal", "innocence"]
 ---
 
 # Alibi Seal

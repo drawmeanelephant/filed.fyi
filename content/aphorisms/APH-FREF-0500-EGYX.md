@@ -3,7 +3,7 @@ title: "Empathegy Taxonomy"
 id: aphorisms/APH-FREF-0500-EGYX
 parent: aphorisms
 status: published
-tags: ["aphorisms", "xonomy", "cabulary", "e-governance", "eparation"]
+tags: ["aphorisms", "taxonomy", "vocabulary", "pre-governance", "preparation"]
 ---
 
 # Empathegy Taxonomy Aphorisms

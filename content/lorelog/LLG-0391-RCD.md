@@ -3,7 +3,7 @@ title: "Ribbon Custody Dispute After Triple-Dedication Weekend"
 id: lorelog/LLG-0391-RCD
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "failure-signature", "possibility", "decorative-ambiguity", "ceremonial-language", "ribbon-cutting", "chamber-of-commerce", "artifact-custody", "civic-legitimacy", "clausework", "dedication-weekend", "ornamental-binding", "opening-delay"]
 ---
 
 # Ribbon Custody Dispute After Triple-Dedication Weekend

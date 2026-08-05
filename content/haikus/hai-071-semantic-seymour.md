@@ -3,7 +3,7 @@ title: "Semantic Seymour"
 id: haikus/HAI-0071
 parent: haikus
 status: archived
-tags: ["haikus", "emantics", "rift", "eaning"]
+tags: ["haikus", "semantics", "drift", "meaning"]
 ---
 
 # Semantic Seymour

@@ -3,7 +3,7 @@ title: "Dawnstamp"
 id: haikus/HAI-0425
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "wnstamp", "rly", "ecution"]
+tags: ["haikus", "haiku", "dawnstamp", "early", "execution", "early-execution", "premature-arrival"]
 ---
 
 # Dawnstamp

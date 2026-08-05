@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix CHAMBER_LINTEL (Telemetry Gap)"
 id: limericks/LIM-FREF-0918-QMCL
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Qualitative Matrix CHAMBER_LINTEL (Telemetry Gap)

@@ -3,7 +3,7 @@ title: "Artifact Provenance Under Repeated Ceremonial Use"
 id: aphorisms/APH-FREF-0570-APCR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Artifact Provenance Under Repeated Ceremonial Use

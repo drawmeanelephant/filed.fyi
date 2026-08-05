@@ -3,7 +3,7 @@ title: "Witness Without Leverage — Handling Note"
 id: aphorisms/APH-FREF-0635-WWLV
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Witness Without Leverage — Handling Note

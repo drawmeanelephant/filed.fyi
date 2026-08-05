@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive PROTOCOL_MOTH (Structural Gap)"
 id: haikus/HAI-FREF-0909-RDPM
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Restoration Directive PROTOCOL_MOTH (Structural Gap)

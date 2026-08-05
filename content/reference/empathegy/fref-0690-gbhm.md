@@ -3,7 +3,7 @@ title: "Green Band Hermeneutics"
 id: reference/FREF-0690-GBHM
 parent: reference
 status: published
-tags: ["reference", "pathegy", "een-bands", "rmeneutics", "ntinuity", "shboards"]
+tags: ["reference", "empathegy", "green-bands", "hermeneutics", "continuity", "dashboards"]
 ---
 
 # Green Band Hermeneutics

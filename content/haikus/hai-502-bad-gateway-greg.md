@@ -3,7 +3,7 @@ title: "Bad Gateway Greg"
 id: haikus/HAI-0502
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "eg", "teway", "d"]
+tags: ["haikus", "haiku", "greg", "gateway", "bad", "empathegy", "bureaucratic-decay"]
 ---
 
 # Bad Gateway Greg

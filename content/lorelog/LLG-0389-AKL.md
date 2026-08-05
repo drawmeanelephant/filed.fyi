@@ -3,7 +3,7 @@ title: "Auxiliary Kitchen Labor Reclassified as Ceremonial Presence"
 id: lorelog/LLG-0389-AKL
 parent: lorelog
 status: published
-tags: ["lorelog", "xiliary-labor", "nevolence-credit", "remonial-presence", "dge-kitchen", "morial-work"]
+tags: ["lorelog", "auxiliary-labor", "benevolence-credit", "ceremonial-presence", "lodge-kitchen", "memorial-work"]
 ---
 
 # Auxiliary Kitchen Labor Reclassified as Ceremonial Presence

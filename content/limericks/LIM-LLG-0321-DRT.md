@@ -3,7 +3,7 @@ title: "Directive Routing Table Drift"
 id: limericks/LIM-LLG-0321-DRT
 parent: limericks
 status: archived
-tags: ["limericks", "uting-table", "ma-coma", "tification-rot"]
+tags: ["limericks", "routing-table", "soma-coma", "notification-rot"]
 ---
 
 # Directive Routing Table Drift

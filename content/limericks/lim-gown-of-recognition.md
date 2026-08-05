@@ -3,7 +3,7 @@ title: "Gown of Recognition"
 id: limericks/LIM-0100
 parent: limericks
 status: archived
-tags: ["limericks", "norary-visibility", "aped-acknowledgment", "rmal-clothing", "ofane"]
+tags: ["limericks", "honorary-visibility", "draped-acknowledgment", "formal-clothing", "profane"]
 ---
 
 # Gown of Recognition

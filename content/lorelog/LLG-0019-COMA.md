@@ -3,7 +3,7 @@ title: "COMA-19 Idle-Time Amnesty Overuse"
 id: lorelog/LLG-0019-COMA
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "metrics-of-care", "dashboard-calming", "continuity-optics", "failure-signature", "coma-directive", "idle-time", "amnesty-form", "exception-creep", "metric-smoothing", "mascots", "exception-culture", "waivers"]
 ---
 
 # COMA-19 Idle-Time Amnesty Overuse

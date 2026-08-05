@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive FOLIO_DRIFT (Structural Gap)"
 id: haikus/HAI-FREF-0911-RDFD
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Restoration Directive FOLIO_DRIFT (Structural Gap)

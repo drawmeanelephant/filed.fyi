@@ -3,7 +3,7 @@ title: "Rot McMascotterton"
 id: limericks/LIM-0187
 parent: limericks
 status: archived
-tags: ["limericks", "-cd", "ean-build", "ployment", "timism", "peline"]
+tags: ["limericks", "ci-cd", "clean-build", "deployment", "optimism", "pipeline"]
 ---
 
 # Rot McMascotterton

@@ -3,7 +3,7 @@ title: "Training Assignment – Reading Between Lines"
 id: limericks/LIM-FREF-0340-TSAB
 parent: limericks
 status: published
-tags: ["limericks", "aining-assignment", "ading-between-lines"]
+tags: ["limericks", "training-assignment", "reading-between-lines"]
 ---
 
 # Training Assignment – Reading Between Lines

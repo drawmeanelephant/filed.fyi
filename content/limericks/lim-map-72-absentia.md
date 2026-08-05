@@ -3,7 +3,7 @@ title: "MAP-72 Absentia"
 id: limericks/LIM-MAP-0072-ABSENTIA
 parent: limericks
 status: archived
-tags: ["limericks", "rofane"]
+tags: ["limericks", "profane"]
 ---
 
 # MAP-72 Absentia

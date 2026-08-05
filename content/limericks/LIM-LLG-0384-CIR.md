@@ -3,7 +3,7 @@ title: "Corrective Inheritance Registry"
 id: limericks/LIM-LLG-0384-CIR
 parent: limericks
 status: archived
-tags: ["limericks", "rrective-inheritance", "osure-drift", "currence"]
+tags: ["limericks", "corrective-inheritance", "closure-drift", "recurrence"]
 ---
 
 # Corrective Inheritance Registry

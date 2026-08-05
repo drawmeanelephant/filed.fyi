@@ -3,7 +3,7 @@ title: "Queue Matron"
 id: haikus/HAI-0429
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "eue", "tron", "te-limit"]
+tags: ["haikus", "haiku", "queue", "matron", "rate-limit", "queue-panic"]
 ---
 
 # Queue Matron

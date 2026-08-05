@@ -3,7 +3,7 @@ title: "Appeals and Annexes"
 id: aphorisms/APH-FREF-0550-APAN
 parent: aphorisms
 status: published
-tags: ["aphorisms", "peals", "nexes", "ntradiction", "haustion"]
+tags: ["aphorisms", "appeals", "annexes", "contradiction", "exhaustion"]
 ---
 
 # Appeals and Annexes Aphorisms

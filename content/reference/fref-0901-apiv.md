@@ -3,7 +3,7 @@ title: "Allocation Protocol INDEX_VAULT (Dense Overdrift)"
 id: reference/FREF-0901-APIV
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Allocation Protocol: INDEX_VAULT

@@ -3,7 +3,7 @@ title: "Silent Intervals"
 id: aphorisms/APH-FREF-0810-SLNT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "lence", "tervals", "al-record", "determinacy"]
+tags: ["aphorisms", "silence", "intervals", "dual-record", "indeterminacy"]
 ---
 
 # Silent Interval Aphorisms

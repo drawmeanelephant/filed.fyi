@@ -3,7 +3,7 @@ title: "Training Specimen Annex – Session Schedule (Extract)"
 id: lorelog/LLG-0013
 parent: lorelog
 status: archived
-tags: ["lorelog", "hedule", "aining", "ecimens", "rtial-record"]
+tags: ["lorelog", "schedule", "training", "specimens", "partial-record"]
 ---
 
 # Week 1 – Orientation to Gentle Language

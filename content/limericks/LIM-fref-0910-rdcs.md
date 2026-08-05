@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive CUSTODY_SHAFT (Structural Gap)"
 id: limericks/LIM-FREF-0910-RDCS
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Restoration Directive CUSTODY_SHAFT (Structural Gap)

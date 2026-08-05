@@ -3,7 +3,7 @@ title: "Reassurance Collapse"
 id: aphorisms/APH-FREF-0760-RSCL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "assurance-collapse", "ust", "affolding-failure", "ntact"]
+tags: ["aphorisms", "reassurance-collapse", "trust", "scaffolding-failure", "contact"]
 ---
 
 # Reassurance Collapse Aphorisms

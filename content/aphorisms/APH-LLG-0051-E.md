@@ -3,7 +3,7 @@ title: "Emotional Verification Deadlock"
 id: aphorisms/APH-LLG-0051-E
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "otional-verification", "cursive-form", "take-deadlock", "ndy"]
+tags: ["aphorisms", "soma-directive", "emotional-verification", "recursive-form", "intake-deadlock", "kindy"]
 ---
 
 # Emotional Verification Deadlock Aphorisms

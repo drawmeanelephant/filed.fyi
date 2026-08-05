@@ -3,7 +3,7 @@ title: "Blinko Chompframe"
 id: limericks/LIM-0046
 parent: limericks
 status: archived
-tags: ["limericks", "nding-machine", "imatronic", "ophecy", "pired-snacks", "993"]
+tags: ["limericks", "vending-machine", "animatronic", "prophecy", "expired-snacks", "1993"]
 ---
 
 # Blinko Chompframe

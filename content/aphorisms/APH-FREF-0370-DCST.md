@@ -3,7 +3,7 @@ title: "Directive Conflict Stack"
 id: aphorisms/APH-FREF-0370-DCST
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rective-conflict", "re-theatre", "ma", "ntier"]
+tags: ["aphorisms", "directive-conflict", "care-theatre", "soma", "coma", "cuntier"]
 ---
 
 # Directive Conflict Aphorisms

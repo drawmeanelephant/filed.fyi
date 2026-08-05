@@ -3,7 +3,7 @@ title: "Witness Felt"
 id: haikus/HAI-0291
 parent: haikus
 status: archived
-tags: ["haikus", "tness", "stimony", "dding"]
+tags: ["haikus", "witness", "testimony", "padding"]
 ---
 
 # Witness Felt

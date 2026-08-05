@@ -3,7 +3,7 @@ title: "Contested Cache Expiry"
 id: haikus/HAI-LLG-0002-CED
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "che-rot", "ag-contradiction", "cacheable-ursula", "stmortem"]
+tags: ["haikus", "haiku", "cache-rot", "etag-contradiction", "uncacheable-ursula", "postmortem"]
 ---
 
 # Contested Cache Expiry

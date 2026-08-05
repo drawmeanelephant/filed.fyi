@@ -3,7 +3,7 @@ title: "Manifest Backup Recency Dispute — Snapshot Freshness Certification Fai
 id: lorelog/LLG-0316-MBR
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "u-n-t-i-e-r", "nifest-backups", "apshot-recency", "ntinuity-theatre", "t-protocol", "fuge-classification", "bor-refusal", "atitude-alignment", "nsent-loop", "ffer-unstable"]
+tags: ["lorelog", "coma-directive", "c-u-n-t-i-e-r", "manifest-backups", "snapshot-recency", "continuity-theatre", "rot-protocol", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop", "buffer-unstable"]
 ---
 
 # Manifest Backup Recency Dispute — Snapshot Freshness Certification Failure

@@ -3,7 +3,7 @@ title: "Haikool Breeze"
 id: limericks/LIM-0105
 parent: limericks
 status: archived
-tags: ["limericks", "iku-os", "os", "nimalist", "ispermachine", "readspace"]
+tags: ["limericks", "haiku-os", "beos", "minimalist", "whispermachine", "threadspace"]
 ---
 
 # Haikool Breeze

@@ -3,7 +3,7 @@ title: "Bananuity Clause"
 id: haikus/HAI-0220
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ples", "aos", "nter-banana"]
+tags: ["haikus", "haiku", "apples", "chaos", "winter-banana"]
 ---
 
 # Bananuity Clause

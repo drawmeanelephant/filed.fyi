@@ -3,7 +3,7 @@ title: "Forbiddy Noentry"
 id: haikus/HAI-0010
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rmissions", "nial", "dgment"]
+tags: ["haikus", "haiku", "permissions", "denial", "judgment"]
 ---
 
 # Forbiddy Noentry

@@ -3,7 +3,7 @@ title: "OverCoherence Vault Audit Annex, Trust Surface Explanation Layer"
 id: haikus/HAI-FREF-0824-OVAA
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "benevolence", "overcoherence", "forced-causality"]
 ---
 
 # OverCoherence Vault Audit Annex, Trust Surface Explanation Layer

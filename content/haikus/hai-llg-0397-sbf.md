@@ -3,7 +3,7 @@ title: "Scholarship Breakfast Forecast Overcommitment"
 id: haikus/HAI-LLG-0397-SBF
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ncakes", "eakfast", "ercommitment"]
+tags: ["haikus", "haiku", "pancakes", "breakfast", "overcommitment"]
 ---
 
 # Scholarship Breakfast Forecast Overcommitment

@@ -3,7 +3,7 @@ title: "Reciprocal Accreditation Witness Dispute, Seal Continuity Review"
 id: lorelog/LLG-0383-RAW
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "assurance-language", "legitimacy-loop", "mascots", "interval", "service-continuity", "empathegy", "witness-layer", "reciprocal-accreditation", "seal-dispute", "witness-mark", "semantic-laundering", "audit-summaries", "assurance-vocabulary", "continuity-optics"]
 ---
 
 # Reciprocal Accreditation Witness Dispute, Seal Continuity Review

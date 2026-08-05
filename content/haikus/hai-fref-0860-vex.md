@@ -3,7 +3,7 @@ title: "Visibility Exclusion"
 id: haikus/HAI-FREF-0860-VEX
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "visibility-exclusion", "smooth-reporting", "threshold-failure"]
 ---
 
 # Visibility Exclusion

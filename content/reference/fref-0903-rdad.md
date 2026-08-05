@@ -3,7 +3,7 @@ title: "Restoration Directive ARCHIVE_DOCKET (Structural Gap)"
 id: reference/FREF-0903-RDAD
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Restoration Directive: ARCHIVE_DOCKET

@@ -3,7 +3,7 @@ title: "Uncacheable Ursula"
 id: haikus/HAI-0070
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "n", "che", "ag"]
+tags: ["haikus", "haiku", "cdn", "cache", "etag"]
 ---
 
 # Uncacheable Ursula

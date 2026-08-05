@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Desk – Internal Notes"
 id: aphorisms/APH-FREF-0040-AVDN
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rding-choices", "phemism-practice", "tics-calibration"]
+tags: ["aphorisms", "wording-choices", "euphemism-practice", "optics-calibration"]
 ---
 
 # Assurance Vocabulary Internal Aphorisms

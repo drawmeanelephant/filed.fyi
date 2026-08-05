@@ -3,7 +3,7 @@ title: "Gratitude Telemetry"
 id: limericks/LIM-FREF-0680-GTLM
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "atitude", "lemetry"]
+tags: ["limericks", "hand-written", "empathegy", "gratitude", "telemetry"]
 ---
 
 # Gratitude Telemetry

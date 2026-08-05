@@ -3,7 +3,7 @@ title: "Breeding Program Registration Anomaly"
 id: aphorisms/APH-LLG-0375-BREED
 parent: aphorisms
 status: published
-tags: ["aphorisms", "eeding-program", "man-origin", "gistry-drift", "rkforce-avoidance"]
+tags: ["aphorisms", "breeding-program", "human-origin", "registry-drift", "workforce-avoidance"]
 ---
 
 # Breeding Program Registration Aphorisms

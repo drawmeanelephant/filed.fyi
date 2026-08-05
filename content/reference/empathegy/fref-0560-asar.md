@@ -3,7 +3,7 @@ title: "Assurance Artifacts"
 id: reference/FREF-0560-ASAR
 parent: reference
 status: published
-tags: ["reference", "pathegy", "surance-artifacts", "ntinuity-optics", "assurance", "surance-vocabulary"]
+tags: ["reference", "empathegy", "assurance-artifacts", "continuity-optics", "reassurance", "assurance-vocabulary"]
 ---
 
 # Assurance Artifacts

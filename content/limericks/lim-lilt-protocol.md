@@ -3,7 +3,7 @@ title: "Lilt Protocol"
 id: limericks/LIM-0127
 parent: limericks
 status: archived
-tags: ["limericks", "rofane"]
+tags: ["limericks", "profane"]
 ---
 
 # Lilt Protocol

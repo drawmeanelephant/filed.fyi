@@ -3,7 +3,7 @@ title: "Explanation Layer Residue Audit"
 id: reference/FREF-0822-ELRA
 parent: reference
 status: published
-tags: ["reference", "planation-layer", "er-coherence", "sidue-audit", "undary-clarification", "ntradiction-handling"]
+tags: ["reference", "explanation-layer", "over-coherence", "residue-audit", "boundary-clarification", "contradiction-handling"]
 ---
 
 # Explanation Layer Residue Audit

@@ -3,7 +3,7 @@ title: "Index Mourner"
 id: limericks/LIM-0112
 parent: limericks
 status: archived
-tags: ["limericks", "talog-drift", "ticipation"]
+tags: ["limericks", "catalog-drift", "anticipation"]
 ---
 
 # Index Mourner

@@ -3,7 +3,7 @@ title: "Annex Retention Conscience Event"
 id: lorelog/LLG-0861-ARC
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "emotional-buffering", "delay", "care-veneer", "sidebar", "empathegy", "documentation", "annex", "burden-shadow", "conscience-substitution", "cordial-finality", "departure", "preserved-contradiction"]
 ---
 
 # Annex Retention Conscience Event

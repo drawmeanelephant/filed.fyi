@@ -3,7 +3,7 @@ title: "Stub: Repair Announced, Compatibility Preserved"
 id: haikus/HAI-LLG-0427-RAC
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "repair", "compatibility"]
 ---
 
 # Stub: Repair Announced, Compatibility Preserved

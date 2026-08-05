@@ -3,7 +3,7 @@ title: "Memorial Roll Expanded to Include Honorary Absences"
 id: limericks/LIM-LLG-0390-HAP
 parent: limericks
 status: archived
-tags: ["limericks", "morial-roll", "orum", "apter-elections"]
+tags: ["limericks", "memorial-roll", "quorum", "chapter-elections"]
 ---
 
 # Memorial Roll Expanded to Include Honorary Absences

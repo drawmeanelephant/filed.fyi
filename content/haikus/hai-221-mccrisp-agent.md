@@ -3,7 +3,7 @@ title: "Agent McCrisp"
 id: haikus/HAI-0221
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ples", "rthern-spy", "vert"]
+tags: ["haikus", "haiku", "apples", "northern-spy", "covert"]
 ---
 
 # Agent McCrisp

@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix BUREAU_ASH (Telemetry Gap)"
 id: aphorisms/APH-FREF-0916-QMBA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Qualitative Matrix BUREAU_ASH (Telemetry Gap)

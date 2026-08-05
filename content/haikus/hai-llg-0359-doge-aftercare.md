@@ -3,7 +3,7 @@ title: "DOGE Aftercare Channel"
 id: haikus/HAI-LLG-0359-DOGE-AFTERCARE
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "tercare", "pathy"]
+tags: ["haikus", "doge", "aftercare", "empathy"]
 ---
 
 # DOGE Aftercare Channel

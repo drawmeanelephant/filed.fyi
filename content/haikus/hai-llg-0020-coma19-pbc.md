@@ -3,7 +3,7 @@ title: "Rest Phrasebook Narrowed"
 id: haikus/HAI-LLG-0020-COMA19-PBC
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ma", "st-request", "nguage-narrowing"]
+tags: ["haikus", "haiku", "coma", "rest-request", "language-narrowing", "coma-phrasebook"]
 ---
 
 # Rest Phrasebook Narrowed

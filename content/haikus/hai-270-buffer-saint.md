@@ -3,7 +3,7 @@ title: "Buffer Saint"
 id: haikus/HAI-0270
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ffer", "int", "sorption"]
+tags: ["haikus", "haiku", "buffer", "saint", "absorption", "buffers"]
 ---
 
 # Buffer Saint

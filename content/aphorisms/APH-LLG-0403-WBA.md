@@ -3,7 +3,7 @@ title: "WBA Continuity Gap"
 id: aphorisms/APH-LLG-0403-WBA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "a", "p", "yosection-rot", "al-identity-record"]
+tags: ["aphorisms", "wba", "glp", "cryosection-rot", "dual-identity-record"]
 ---
 
 # WBA Continuity Aphorisms

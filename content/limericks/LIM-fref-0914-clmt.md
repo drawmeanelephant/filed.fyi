@@ -3,7 +3,7 @@ title: "Stub: Compliance Ledger MEMORY_TAXON (Baseline Check)"
 id: limericks/LIM-FREF-0914-CLMT
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Compliance Ledger MEMORY_TAXON (Baseline Check)

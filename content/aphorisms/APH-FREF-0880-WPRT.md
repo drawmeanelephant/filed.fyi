@@ -3,7 +3,7 @@ title: "Witness Protocol"
 id: aphorisms/APH-FREF-0880-WPRT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "tness", "servation", "n-resolution", "ntradiction"]
+tags: ["aphorisms", "witness", "observation", "non-resolution", "contradiction"]
 ---
 
 # Witness Protocol Aphorisms

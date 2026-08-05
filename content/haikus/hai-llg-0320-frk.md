@@ -3,7 +3,7 @@ title: "Form 32-A"
 id: haikus/HAI-LLG-0320-FRK
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "gistry-collision", "rm-32-a", "yspace-rot", "rms"]
+tags: ["haikus", "haiku", "registry-collision", "form-32-a", "keyspace-rot", "forms"]
 ---
 
 # Form 32-A

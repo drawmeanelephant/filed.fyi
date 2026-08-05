@@ -3,7 +3,7 @@ title: "Witness Routing Ceiling Event"
 id: lorelog/LLG-0864-WRC
 parent: lorelog
 status: published
-tags: ["lorelog", "tness-custody", "stody-gap", "uting-gap", "n-action-layer", "stimony-handling", "verage-gap", "stening-board"]
+tags: ["lorelog", "witness-custody", "custody-gap", "routing-gap", "non-action-layer", "testimony-handling", "leverage-gap", "listening-board"]
 ---
 
 # Witness Routing Ceiling Event

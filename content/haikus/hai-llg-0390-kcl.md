@@ -3,7 +3,7 @@ title: "Kitchen Credit Persistence Loop"
 id: haikus/HAI-LLG-0390-KCL
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tchen", "edit", "sserole"]
+tags: ["haikus", "haiku", "kitchen", "credit", "casserole"]
 ---
 
 # Kitchen Credit Persistence Loop

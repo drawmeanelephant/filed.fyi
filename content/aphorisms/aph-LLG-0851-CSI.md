@@ -3,7 +3,7 @@ title: "Stub: Canonized Support Interval"
 id: aphorisms/APH-LLG-0851-CSI
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Canonized Support Interval

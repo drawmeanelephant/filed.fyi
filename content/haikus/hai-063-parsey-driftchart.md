@@ -3,7 +3,7 @@ title: "Parsey Driftchart"
 id: haikus/HAI-0063
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ki", "ackers", "ift"]
+tags: ["haikus", "haiku", "wiki", "trackers", "drift"]
 ---
 
 # Parsey Driftchart

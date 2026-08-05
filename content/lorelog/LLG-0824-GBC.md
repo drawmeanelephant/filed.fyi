@@ -3,7 +3,7 @@ title: "Green Band Canonization"
 id: lorelog/LLG-0824-GBC
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "metrics", "greenband", "care-continuity", "empathegy", "green-band-hermeneutics", "healthy-interval-artifacts", "continuity-worship", "threshold-drift", "sufficiency", "provisional-seal", "official-doubt", "neutral-optimism"]
 ---
 
 # Green Band Canonization

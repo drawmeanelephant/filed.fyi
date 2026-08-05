@@ -3,7 +3,7 @@ title: "Secondary Legitimacy and Refuge"
 id: aphorisms/APH-FREF-0190-SLHR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "gitimacy", "fuge", "tness-marks", "lence"]
+tags: ["aphorisms", "legitimacy", "refuge", "witness-marks", "silence"]
 ---
 
 # Secondary Legitimacy Aphorisms

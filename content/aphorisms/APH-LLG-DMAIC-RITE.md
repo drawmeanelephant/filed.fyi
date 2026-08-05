@@ -3,7 +3,7 @@ title: "DMAIC Rite of Filed Systems"
 id: aphorisms/APH-0043
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ntinuous-improvement", "tualized-governance", "ocess-litigation", "tric-rot"]
+tags: ["aphorisms", "continuous-improvement", "ritualized-governance", "process-litigation", "metric-rot"]
 ---
 
 # DMAIC Rite Aphorisms

@@ -3,7 +3,7 @@ title: "Sidebar Mercy"
 id: haikus/HAI-0260
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rcy", "vors", "formal"]
+tags: ["haikus", "haiku", "mercy", "favors", "informal", "off-ledger-relief", "quiet-compassion", "margin-sainthood"]
 ---
 
 # Sidebar Mercy

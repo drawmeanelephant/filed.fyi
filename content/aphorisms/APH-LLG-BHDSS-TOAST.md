@@ -3,7 +3,7 @@ title: "BHDSS Toast Overflow"
 id: aphorisms/APH-0002
 parent: aphorisms
 status: published
-tags: ["aphorisms", "dss", "ast-effect", "lite-degradation", "ology-saturation"]
+tags: ["aphorisms", "bhdss", "toast-effect", "polite-degradation", "apology-saturation"]
 ---
 
 # BHDSS Toast Aphorisms

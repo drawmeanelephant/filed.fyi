@@ -3,7 +3,7 @@ title: "Cross-Lodge Intake Briefing – Fragment"
 id: reference/FREF-0300-CLOB
 parent: reference
 status: archived
-tags: ["reference", "anscript", "take", "ientation", "rtial-record"]
+tags: ["reference", "transcript", "intake", "orientation", "partial-record"]
 ---
 
 # Room 12, Afternoon

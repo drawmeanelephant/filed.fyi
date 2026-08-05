@@ -3,7 +3,7 @@ title: "Ami Ghostbyte"
 id: haikus/HAI-0025
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "iga", "ot-failure", "stalgia"]
+tags: ["haikus", "haiku", "amiga", "boot-failure", "nostalgia", "haunted-drives"]
 ---
 
 # Ami Ghostbyte

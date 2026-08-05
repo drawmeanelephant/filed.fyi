@@ -3,7 +3,7 @@ title: "Afterimage Clerk"
 id: limericks/LIM-0023
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # Afterimage Clerk

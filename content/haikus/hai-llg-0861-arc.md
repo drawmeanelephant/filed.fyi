@@ -3,7 +3,7 @@ title: "Annex Retention Conscience Event"
 id: haikus/HAI-LLG-0861-ARC
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nscience", "tention", "nex"]
+tags: ["haikus", "haiku", "conscience", "retention", "annex", "annex-retention", "conscience-event"]
 ---
 
 # Annex Retention Conscience Event

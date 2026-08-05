@@ -3,7 +3,7 @@ title: "Hover Parish"
 id: haikus/HAI-0290
 parent: haikus
 status: archived
-tags: ["haikus", "ver", "oltip", "useover"]
+tags: ["haikus", "hover", "tooltip", "mouseover"]
 ---
 
 # Hover Parish

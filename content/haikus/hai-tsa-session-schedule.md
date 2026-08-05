@@ -3,7 +3,7 @@ title: "Training Specimen Annex Schedule"
 id: haikus/HAI-0099
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "aining", "ecimen", "hedule"]
+tags: ["haikus", "haiku", "training", "specimen", "schedule", "other"]
 ---
 
 # Training Specimen Annex Schedule

@@ -3,7 +3,7 @@ title: "Sitemap Drift"
 id: haikus/HAI-LLG-0004-SMD
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "temap-drift", "dex-misalignment", "jacent-pages", "stmortem"]
+tags: ["haikus", "haiku", "sitemap-drift", "index-misalignment", "adjacent-pages", "postmortem"]
 ---
 
 # Sitemap Drift

@@ -3,7 +3,7 @@ title: "Metrics of Care"
 id: reference/FREF-0740-MOC
 parent: reference
 status: published
-tags: ["reference", "pathegy", "trics-of-care", "verage", "knowledgment", "ntinuity-theatre"]
+tags: ["reference", "empathegy", "metrics-of-care", "coverage", "acknowledgment", "continuity-theatre"]
 ---
 
 # Metrics of Care

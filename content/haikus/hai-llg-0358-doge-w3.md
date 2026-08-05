@@ -3,7 +3,7 @@ title: "Window 3 Notification Guidance"
 id: haikus/HAI-LLG-0358-DOGE-W3
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "ndow-3", "idance"]
+tags: ["haikus", "doge", "window-3", "guidance"]
 ---
 
 # Window 3 Notification Guidance

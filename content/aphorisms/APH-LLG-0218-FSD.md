@@ -3,7 +3,7 @@ title: "Form Shadow Doubling"
 id: aphorisms/APH-LLG-0218-FSD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rm-drafts", "adow-amendments", "gistry-drift", "icky-goldbricksworth"]
+tags: ["aphorisms", "form-drafts", "shadow-amendments", "registry-drift", "bricky-goldbricksworth"]
 ---
 
 # Form Shadow Doubling Aphorisms

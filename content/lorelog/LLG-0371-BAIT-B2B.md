@@ -3,7 +3,7 @@ title: "BAIT Subtype B-2B Ghost Audience Awareness"
 id: lorelog/LLG-0371-BAIT-B2B
 parent: lorelog
 status: published
-tags: ["lorelog", "it", "ost-audience", "lf-surveillance", "pression-pressure", "gertainment"]
+tags: ["lorelog", "bait", "ghost-audience", "self-surveillance", "expression-pressure", "angertainment"]
 ---
 
 # BAIT Subtype B-2B Ghost Audience Awareness

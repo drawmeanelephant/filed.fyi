@@ -3,7 +3,7 @@ title: "Chapter Courtesy and Memorial Presence Guidance"
 id: limericks/LIM-FREF-0220-CCMP
 parent: limericks
 status: published
-tags: ["limericks", "vic-benevolence", "stitutional-decay"]
+tags: ["limericks", "civic-benevolence", "institutional-decay"]
 ---
 
 # Chapter Courtesy and Memorial Presence Guidance

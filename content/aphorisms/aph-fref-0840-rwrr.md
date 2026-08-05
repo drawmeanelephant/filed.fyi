@@ -3,7 +3,7 @@ title: "Replacement Without Release Routing Note"
 id: aphorisms/APH-FREF-0840-RWRR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Replacement Without Release Routing Note

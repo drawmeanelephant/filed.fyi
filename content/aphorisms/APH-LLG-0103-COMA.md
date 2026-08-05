@@ -3,7 +3,7 @@ title: "COMA Continuity Breach"
 id: aphorisms/APH-LLG-0103-COMA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "ntinuity-breach", "time-theatre", "icky-goldbricksworth"]
+tags: ["aphorisms", "coma-directive", "continuity-breach", "uptime-theatre", "bricky-goldbricksworth"]
 ---
 
 # COMA Continuity Breach Aphorisms

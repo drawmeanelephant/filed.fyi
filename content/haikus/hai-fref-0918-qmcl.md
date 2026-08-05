@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix CHAMBER_LINTEL (Telemetry Gap)"
 id: haikus/HAI-FREF-0918-QMCL
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Qualitative Matrix CHAMBER_LINTEL (Telemetry Gap)

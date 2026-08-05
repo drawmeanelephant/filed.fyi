@@ -3,7 +3,7 @@ title: "Sister Casserole of Relief"
 id: haikus/HAI-0308
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tchen", "ntinuity", "lief"]
+tags: ["haikus", "haiku", "kitchen", "continuity", "relief"]
 ---
 
 # Sister Casserole of Relief

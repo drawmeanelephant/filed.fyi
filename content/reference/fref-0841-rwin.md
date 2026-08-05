@@ -3,7 +3,7 @@ title: "Replacement Without Release Index Note"
 id: reference/FREF-0841-RWIN
 parent: reference
 status: archived
-tags: ["reference", "ference", "herited-basis", "dex-note", "rkaround", "chival-cluster"]
+tags: ["reference", "inherited-basis", "index-note", "workaround", "archival-cluster"]
 ---
 
 # Replacement Without Release Index Note

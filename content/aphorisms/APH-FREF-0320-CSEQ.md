@@ -3,7 +3,7 @@ title: "Cross-System Equivalency"
 id: aphorisms/APH-FREF-0320-CSEQ
 parent: aphorisms
 status: published
-tags: ["aphorisms", "uivalency-mapping", "le-translation", "take-and-induction"]
+tags: ["aphorisms", "equivalency-mapping", "role-translation", "intake-and-induction"]
 ---
 
 # Cross-System Equivalency Aphorisms

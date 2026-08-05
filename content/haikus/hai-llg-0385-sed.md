@@ -3,7 +3,7 @@ title: "Deferred Maintenance Hazard"
 id: haikus/HAI-LLG-0385-SED
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "intenance", "zard", "ception"]
+tags: ["haikus", "haiku", "maintenance", "hazard", "exception", "managed-absence"]
 ---
 
 # Deferred Maintenance Hazard

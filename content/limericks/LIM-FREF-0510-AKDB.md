@@ -3,7 +3,7 @@ title: "Acknowledgment Deletion Bias"
 id: limericks/LIM-FREF-0510-AKDB
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "tention", "as"]
+tags: ["limericks", "hand-written", "empathegy", "retention", "bias"]
 ---
 
 # Acknowledgment Deletion Bias

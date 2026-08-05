@@ -3,7 +3,7 @@ title: "FeelingSeeder Residuals — Synthetic Affect in Live Intake"
 id: lorelog/LLG-0402-FSR
 parent: lorelog
 status: published
-tags: ["lorelog", "elingseeder", "nthetic-feelings", "take-hygiene", "ttern-contamination", "aining-echo"]
+tags: ["lorelog", "feelingseeder", "synthetic-feelings", "intake-hygiene", "pattern-contamination", "training-echo"]
 ---
 
 # FeelingSeeder Residuals — Synthetic Affect in Live Intake

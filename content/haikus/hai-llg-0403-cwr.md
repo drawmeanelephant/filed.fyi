@@ -3,7 +3,7 @@ title: "Continuity Worship Rituals"
 id: haikus/HAI-LLG-0403-CWR
 parent: haikus
 status: archived
-tags: ["haikus", "ontinuity Worship Rituals", "oma", "ontinuity", "aiku", "uiet lanes", "ituals"]
+tags: ["haikus", "Continuity Worship Rituals", "coma", "continuity", "haiku", "quiet lanes", "rituals"]
 ---
 
 # Continuity Worship Rituals

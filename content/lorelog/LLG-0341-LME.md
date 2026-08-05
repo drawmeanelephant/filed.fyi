@@ -3,7 +3,7 @@ title: "Lodge of Mutual Exception Hereditary Waiver Culture"
 id: lorelog/LLG-0341-LME
 parent: lorelog
 status: published
-tags: ["lorelog", "ivers", "ception-cascade", "reditary-precedent", "ntinuity-theatre", "ocedural-fraternity", "ception-culture", "scots", "ilure-signature", "ntinuity-optics"]
+tags: ["lorelog", "waivers", "exception-cascade", "hereditary-precedent", "continuity-theatre", "procedural-fraternity", "exception-culture", "mascots", "failure-signature", "continuity-optics"]
 ---
 
 # Lodge of Mutual Exception Hereditary Waiver Culture

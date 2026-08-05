@@ -3,7 +3,7 @@ title: "Replacement Without Release Routing Note"
 id: haikus/HAI-FREF-0840-RWRR
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "bin-8c", "replacement"]
 ---
 
 # Replacement Without Release Routing Note

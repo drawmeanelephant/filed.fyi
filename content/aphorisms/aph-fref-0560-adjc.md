@@ -3,7 +3,7 @@ title: "Stub: Adjacent Correctness"
 id: aphorisms/APH-FREF-0560-ADJC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Adjacent Correctness

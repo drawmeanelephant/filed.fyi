@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive ARCHIVE_DOCKET (Structural Gap)"
 id: haikus/HAI-FREF-0903-RDAD
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Restoration Directive ARCHIVE_DOCKET (Structural Gap)

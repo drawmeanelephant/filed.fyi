@@ -3,7 +3,7 @@ title: "Malrex Voidrender"
 id: limericks/LIM-0133
 parent: limericks
 status: archived
-tags: ["limericks", "ntropy", "oid", "ntagonist", "uffer-collapse", "yslog"]
+tags: ["limericks", "entropy", "void", "antagonist", "buffer-collapse", "syslog"]
 ---
 
 # Malrex Voidrender

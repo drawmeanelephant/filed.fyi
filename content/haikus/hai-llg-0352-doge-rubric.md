@@ -3,7 +3,7 @@ title: "DOGE Scoring Rubric"
 id: haikus/HAI-LLG-0352-DOGE-RUBRIC
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "bric", "oring"]
+tags: ["haikus", "doge", "rubric", "scoring"]
 ---
 
 # DOGE Scoring Rubric

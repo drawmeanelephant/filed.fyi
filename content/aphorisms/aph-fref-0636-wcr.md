@@ -3,7 +3,7 @@ title: "Witness Custody Registry — Known Routing Gaps"
 id: aphorisms/APH-FREF-0636-WCR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Witness Custody Registry — Known Routing Gaps

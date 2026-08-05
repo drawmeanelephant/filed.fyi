@@ -3,7 +3,7 @@ title: "Escalation Priority Inversion"
 id: aphorisms/APH-LLG-0331-TPI
 parent: aphorisms
 status: published
-tags: ["aphorisms", "iority-inversion", "ma-directive", "u-n-t-i-e-r", "ndy"]
+tags: ["aphorisms", "priority-inversion", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "kindy"]
 ---
 
 # Priority Inversion Aphorisms

@@ -3,7 +3,7 @@ title: "Orphan Retention Threshold Inflation — Unclaimed Files Certified as Lo
 id: lorelog/LLG-0325-ORT
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "classification-rot", "inventory-theatre", "mitigation", "orphan-files", "orphan-normalization", "scan-reports", "title-inflation", "rot-protocol", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop"]
 ---
 
 # Orphan Retention Threshold Inflation — Unclaimed Files Certified as Low-Maintenance Assets

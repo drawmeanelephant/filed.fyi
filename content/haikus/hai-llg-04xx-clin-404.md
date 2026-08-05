@@ -3,7 +3,7 @@ title: "Clinical DS-404-ALPHA Protocol Synergy Merge"
 id: haikus/HAI-LLG-04XX-CLIN-0404
 parent: haikus
 status: archived
-tags: ["haikus", "rotocol Synergy Merge", "linical DS-404-ALPHA", "aiku", "erge", "rotocol", "ynergy"]
+tags: ["haikus", "Protocol Synergy Merge", "clinical DS-404-ALPHA", "haiku", "merge", "protocol", "synergy"]
 ---
 
 # Clinical DS-404-ALPHA Protocol Synergy Merge

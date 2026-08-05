@@ -3,7 +3,7 @@ title: "Kitchen Credit Persistence Loop, Auxiliary Labor Afterlife"
 id: limericks/LIM-LLG-0390-KCL
 parent: limericks
 status: archived
-tags: ["limericks", "xiliary-labor", "atitude-drift", "morial-supper"]
+tags: ["limericks", "auxiliary-labor", "gratitude-drift", "memorial-supper"]
 ---
 
 # Kitchen Credit Persistence Loop, Auxiliary Labor Afterlife

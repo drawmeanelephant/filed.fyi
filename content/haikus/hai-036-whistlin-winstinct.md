@@ -3,7 +3,7 @@ title: "Whistlin Winstinct"
 id: haikus/HAI-0036
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "istler", "sta", "wboy-coder"]
+tags: ["haikus", "haiku", "whistler", "vista", "cowboy-coder", "abandonware", "cowboy-code", "legacy-decay"]
 ---
 
 # Whistlin Winstinct

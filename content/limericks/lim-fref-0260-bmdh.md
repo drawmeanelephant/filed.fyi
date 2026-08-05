@@ -3,7 +3,7 @@ title: "Benevolence Metrics Desk – Handling Notes"
 id: limericks/LIM-FREF-0260-BMDH
 parent: limericks
 status: published
-tags: ["limericks", "vic-benevolence", "stitutional-decay"]
+tags: ["limericks", "civic-benevolence", "institutional-decay"]
 ---
 
 # Benevolence Metrics Desk – Handling Notes

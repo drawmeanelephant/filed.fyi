@@ -3,7 +3,7 @@ title: "Orphan Symmetry"
 id: limericks/LIM-0150
 parent: limericks
 status: archived
-tags: ["limericks", "rofane"]
+tags: ["limericks", "profane"]
 ---
 
 # Orphan Symmetry

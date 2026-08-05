@@ -3,7 +3,7 @@ title: "Reading Between Lines"
 id: aphorisms/APH-FREF-0340-TSAB
 parent: aphorisms
 status: published
-tags: ["aphorisms", "signment", "ading-between-lines", "mparative-reading", "aining"]
+tags: ["aphorisms", "assignment", "reading-between-lines", "comparative-reading", "training"]
 ---
 
 # Reading Between Lines Aphorisms

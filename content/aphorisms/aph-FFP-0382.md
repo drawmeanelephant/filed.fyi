@@ -3,7 +3,7 @@ title: "FFP-0382 Exhibit: This Service Will Be Discontinued"
 id: aphorisms/APH-FFP-0382
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # FFP-0382 Exhibit: This Service Will Be Discontinued

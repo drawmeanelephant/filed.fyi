@@ -3,7 +3,7 @@ title: "Template Drift"
 id: haikus/HAI-LLG-0322-FTD
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "mplate-drift", "gacy-fields", "documented-obligations", "rms"]
+tags: ["haikus", "haiku", "template-drift", "legacy-fields", "undocumented-obligations", "forms"]
 ---
 
 # Template Drift

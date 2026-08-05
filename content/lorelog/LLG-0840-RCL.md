@@ -3,7 +3,7 @@ title: "Reassurance Collapse Ladder"
 id: lorelog/LLG-0840-RCL
 parent: lorelog
 status: published
-tags: ["lorelog", "pathegy", "assurance-collapse", "althy-interval-artifacts", "ntinuity-theatre", "mbolic-completion", "iting", "ocedural-softness", "re-delay", "nevolence-gap", "knowledgment"]
+tags: ["lorelog", "empathegy", "reassurance-collapse", "healthy-interval-artifacts", "continuity-theatre", "symbolic-completion", "waiting", "procedural-softness", "care-delay", "benevolence-gap", "acknowledgment"]
 ---
 
 # Reassurance Collapse Ladder

@@ -3,7 +3,7 @@ title: "Holy DOSwell"
 id: limericks/LIM-0107
 parent: limericks
 status: archived
-tags: ["limericks", "mpleos", "vine", "s", "rnel-panic", "crament"]
+tags: ["limericks", "templeos", "divine", "dos", "kernel-panic", "sacrament"]
 ---
 
 # Holy DOSwell

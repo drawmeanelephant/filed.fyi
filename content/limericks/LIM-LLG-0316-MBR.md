@@ -3,7 +3,7 @@ title: "Manifest Backup Recency Dispute"
 id: limericks/LIM-LLG-0316-MBR
 parent: limericks
 status: archived
-tags: ["limericks", "ckup-rot", "nifest", "apshot-freshness"]
+tags: ["limericks", "backup-rot", "manifest", "snapshot-freshness"]
 ---
 
 # Manifest Backup Recency Dispute

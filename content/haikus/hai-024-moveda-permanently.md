@@ -3,7 +3,7 @@ title: "Moveda Permanently"
 id: haikus/HAI-0024
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "01", "location", "tinct"]
+tags: ["haikus", "haiku", "301", "relocation", "extinct", "status-301", "permanent-relocation", "obsolescence"]
 ---
 
 # Moveda Permanently

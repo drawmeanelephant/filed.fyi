@@ -3,7 +3,7 @@ title: "Care Event Lifecycle"
 id: reference/FREF-0570-CELC
 parent: reference
 status: published
-tags: ["reference", "pathegy", "re", "fecycle", "knowledgment", "tention"]
+tags: ["reference", "empathegy", "care", "lifecycle", "acknowledgment", "retention"]
 ---
 
 # Care Event Lifecycle

@@ -3,7 +3,7 @@ title: "Training Session Schedule"
 id: aphorisms/APH-0088
 parent: aphorisms
 status: published
-tags: ["aphorisms", "aining", "ecimens", "erk-orientation", "hedule"]
+tags: ["aphorisms", "training", "specimens", "clerk-orientation", "schedule"]
 ---
 
 # Training Session Aphorisms

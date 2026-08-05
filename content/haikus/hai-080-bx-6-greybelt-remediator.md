@@ -3,7 +3,7 @@ title: "BX-6 Greybelt Remediator"
 id: haikus/HAI-0080
 parent: haikus
 status: archived
-tags: ["haikus", "emediation", "ariance", "ailure-signature"]
+tags: ["haikus", "remediation", "variance", "failure-signature"]
 ---
 
 # BX-6 Greybelt Remediator

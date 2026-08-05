@@ -3,7 +3,7 @@ title: "Green Band Canonization"
 id: haikus/HAI-LLG-0824-GBC
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "een-band", "shboard", "nonization"]
+tags: ["haikus", "haiku", "green-band", "dashboard", "canonization", "green-band-canonization", "dashboard-alignment"]
 ---
 
 # Green Band Canonization

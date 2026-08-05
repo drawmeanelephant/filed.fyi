@@ -3,7 +3,7 @@ title: "Service Continuity Listening Board"
 id: aphorisms/APH-FREF-0410-SCLB
 parent: aphorisms
 status: published
-tags: ["aphorisms", "stening-board", "stimony", "tervals", "ntinuity"]
+tags: ["aphorisms", "listening-board", "testimony", "intervals", "continuity"]
 ---
 
 # Listening Board Aphorisms

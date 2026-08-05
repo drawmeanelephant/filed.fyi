@@ -3,7 +3,7 @@ title: "DOGE Post-Classification Processing Desk Informal Aftercare Channel"
 id: aphorisms/APH-LLG-0359-DOGE-AFTERCARE
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # DOGE Post-Classification Processing Desk Informal Aftercare Channel

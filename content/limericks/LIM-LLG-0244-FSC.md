@@ -3,7 +3,7 @@ title: "Form Shadow Copy Escalation"
 id: limericks/LIM-LLG-0244-FSC
 parent: limericks
 status: archived
-tags: ["limericks", "adow-copies", "aft-forms", "gistry-drift"]
+tags: ["limericks", "shadow-copies", "draft-forms", "registry-drift"]
 ---
 
 # Form Shadow Copy Escalation

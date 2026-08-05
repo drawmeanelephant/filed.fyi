@@ -3,7 +3,7 @@ title: "Minute Absolution"
 id: haikus/HAI-0297
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "solution", "etings", "cords"]
+tags: ["haikus", "haiku", "absolution", "meetings", "records"]
 ---
 
 # Minute Absolution

@@ -3,7 +3,7 @@ title: "Sriracha Sentinel"
 id: haikus/HAI-0214
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "iracha", "ice", "ili"]
+tags: ["haikus", "haiku", "sriracha", "spice", "chili"]
 ---
 
 # Sriracha Sentinel

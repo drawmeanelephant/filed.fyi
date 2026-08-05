@@ -3,7 +3,7 @@ title: "Complaint Suppression"
 id: limericks/LIM-FREF-0590-CPSP
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "mplaints", "ppression"]
+tags: ["limericks", "hand-written", "empathegy", "complaints", "suppression"]
 ---
 
 # Complaint Suppression

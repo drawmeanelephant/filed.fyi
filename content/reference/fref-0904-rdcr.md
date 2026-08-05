@@ -3,7 +3,7 @@ title: "Restoration Directive CATALOG_RELIC (Structural Gap)"
 id: reference/FREF-0904-RDCR
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Restoration Directive: CATALOG_RELIC

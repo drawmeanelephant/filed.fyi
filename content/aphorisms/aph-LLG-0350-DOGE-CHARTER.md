@@ -3,7 +3,7 @@ title: "DOGE — Department of Genuine Experiences, Charter and Jurisdictional S
 id: aphorisms/APH-LLG-0350-DOGE-CHARTER
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # DOGE — Department of Genuine Experiences, Charter and Jurisdictional Scope

@@ -3,7 +3,7 @@ title: "Compassion Suppression"
 id: aphorisms/APH-LLG-0336-CSE
 parent: aphorisms
 status: published
-tags: ["aphorisms", "mpassion-suppression", "xt-normalization", "icky-goldbricksworth", "u-n-t-i-e-r"]
+tags: ["aphorisms", "compassion-suppression", "text-normalization", "bricky-goldbricksworth", "c-u-n-t-i-e-r"]
 ---
 
 # Compassion Suppression Aphorisms

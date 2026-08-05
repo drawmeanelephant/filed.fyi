@@ -3,7 +3,7 @@ title: "Restoration Directive DOSSIER_SILT (Structural Gap)"
 id: reference/FREF-0905-RDDS
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Restoration Directive: DOSSIER_SILT

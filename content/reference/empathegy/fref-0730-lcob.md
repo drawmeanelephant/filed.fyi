@@ -3,7 +3,7 @@ title: "Low-Confidence Objects"
 id: reference/FREF-0730-LCOB
 parent: reference
 status: published
-tags: ["reference", "pathegy", "w-confidence-objects", "surance", "sidual-meaning", "chive"]
+tags: ["reference", "empathegy", "low-confidence-objects", "assurance", "residual-meaning", "archive"]
 ---
 
 # Low-Confidence Objects

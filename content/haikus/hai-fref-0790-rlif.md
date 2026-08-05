@@ -3,7 +3,7 @@ title: "Ritual Lodge Interface"
 id: haikus/HAI-FREF-0790-RLIF
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "ritual-lodge", "ceremonial-input"]
 ---
 
 # Ritual Lodge Interface

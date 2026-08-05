@@ -3,7 +3,7 @@ title: "Compliance Ledger LEDGER_STATIC (Baseline Check)"
 id: reference/FREF-0902-CLLS
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Compliance Ledger: LEDGER_STATIC

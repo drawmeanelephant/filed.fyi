@@ -3,7 +3,7 @@ title: "Cross-System Equivalency Card"
 id: limericks/LIM-FREF-0320-CSEQ
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Cross-System Equivalency Card

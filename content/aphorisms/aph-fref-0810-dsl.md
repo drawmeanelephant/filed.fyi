@@ -3,7 +3,7 @@ title: "Dead Service Layer"
 id: aphorisms/APH-FREF-0810-DSL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Dead Service Layer

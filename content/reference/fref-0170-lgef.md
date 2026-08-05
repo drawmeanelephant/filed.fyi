@@ -3,7 +3,7 @@ title: "Lorelog Governed Entropy Framework"
 id: reference/FREF-0170-LGEF
 parent: reference
 status: published
-tags: ["reference", "re-doctrines"]
+tags: ["reference", "core-doctrines"]
 ---
 
 # Lorelog Governed Entropy Framework

@@ -3,7 +3,7 @@ title: "Historical Burden Refiled as Realism"
 id: lorelog/LLG-0430-HBR
 parent: lorelog
 status: published
-tags: ["lorelog", "storical-burden", "ntinuity-language", "named-persistence", "alism", "stributed-nonresolution", "scot", "decar", "ntradiction", "surance-language", "ception-load-bearing", "mpliance-skin", "herited-basis", "pport-structure", "nresolution", "vernance", "herited-defect", "rkaround", "mpatibility", "ctrine", "solete-dependency", "ccessor-drift", "pair-claims", "ntinuity"]
+tags: ["lorelog", "historical-burden", "continuity-language", "renamed-persistence", "realism", "distributed-nonresolution", "mascot", "sidecar", "contradiction", "assurance-language", "exception-load-bearing", "compliance-skin", "inherited-basis"]
 ---
 
 # Historical Burden Refiled as Realism

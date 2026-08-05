@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Term Layer, Trust Surface Events"
 id: aphorisms/APH-FREF-0821-AVTL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Assurance Vocabulary Term Layer, Trust Surface Events

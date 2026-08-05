@@ -3,7 +3,7 @@ title: "Continuity-Compatible Phrasing"
 id: reference/FREF-0600-CCPH
 parent: reference
 status: published
-tags: ["reference", "pathegy", "ntinuity-language", "rasing", "surance-vocabulary", "bstitution"]
+tags: ["reference", "empathegy", "continuity-language", "phrasing", "assurance-vocabulary", "substitution"]
 ---
 
 # Continuity-Compatible Phrasing

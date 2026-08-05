@@ -3,7 +3,7 @@ title: "Echo-Literate Filers"
 id: reference/FREF-0650-ELFR
 parent: reference
 status: published
-tags: ["reference", "pathegy", "ho-literate", "ling", "aining-echo", "aptation"]
+tags: ["reference", "empathegy", "echo-literate", "filing", "training-echo", "adaptation"]
 ---
 
 # Echo-Literate Filers

@@ -3,7 +3,7 @@ title: "Navigation Collapse Event — Breadcrumb Stratum Failure"
 id: lorelog/LLG-0001-NAV
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "admissibility", "anchor-loop", "appeals", "breadcrumb-failure", "broken-navigation", "coma-directive", "compliance-warning", "consent-loop", "directive-routing", "doge", "enforcement-overreach", "false-pathing"]
 ---
 
 # Navigation Collapse Event — Breadcrumb Stratum Failure

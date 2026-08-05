@@ -3,7 +3,7 @@ title: "Cookie Crumbleclerk"
 id: haikus/HAI-0209
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nnabis", "kansas", "spensary"]
+tags: ["haikus", "haiku", "cannabis", "arkansas", "dispensary"]
 ---
 
 # Cookie Crumbleclerk

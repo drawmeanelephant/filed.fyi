@@ -3,7 +3,7 @@ title: "Governed Entropy Framework"
 id: aphorisms/APH-FREF-0170-LGEF
 parent: aphorisms
 status: published
-tags: ["aphorisms", "tropy", "relog", "cay-field", "pair-threshold"]
+tags: ["aphorisms", "entropy", "lorelog", "decay-field", "repair-threshold"]
 ---
 
 # Governed Entropy Aphorisms

@@ -3,7 +3,7 @@ title: "Stub: Reassurance Collapse Ladder"
 id: aphorisms/APH-LLG-0840-RCL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Reassurance Collapse Ladder

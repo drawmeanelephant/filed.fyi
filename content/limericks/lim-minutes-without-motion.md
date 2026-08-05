@@ -3,7 +3,7 @@ title: "Minutes Without Motion"
 id: limericks/LIM-0141
 parent: limericks
 status: archived
-tags: ["limericks", "rofane"]
+tags: ["limericks", "profane"]
 ---
 
 # Minutes Without Motion

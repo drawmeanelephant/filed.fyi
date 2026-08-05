@@ -3,7 +3,7 @@ title: "Stub: Allocation Protocol REGISTRY_FOG (Dense Overdrift)"
 id: aphorisms/APH-FREF-0907-APRF
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Allocation Protocol REGISTRY_FOG (Dense Overdrift)

@@ -3,7 +3,7 @@ title: "Robots Dot Txt"
 id: limericks/LIM-0186
 parent: limericks
 status: archived
-tags: ["limericks", "bots-txt", "awl-denial", "dexing", "clusion-protocol"]
+tags: ["limericks", "robots-txt", "crawl-denial", "indexing", "exclusion-protocol"]
 ---
 
 # Robots Dot Txt

@@ -3,7 +3,7 @@ title: "Gratitude Capture"
 id: limericks/LIM-FREF-0670-GTCAP
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "atitude", "trics"]
+tags: ["limericks", "hand-written", "empathegy", "gratitude", "metrics"]
 ---
 
 # Gratitude Capture

@@ -3,7 +3,7 @@ title: "Assurance Artifacts"
 id: haikus/HAI-FREF-0560-ASAR
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "metrics", "assurance", "semantic-laundering"]
 ---
 
 # Assurance Artifacts

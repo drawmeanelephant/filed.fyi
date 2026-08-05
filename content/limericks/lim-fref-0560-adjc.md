@@ -3,7 +3,7 @@ title: "Adjacent Correctness"
 id: limericks/LIM-FREF-0560-ADJC
 parent: limericks
 status: published
-tags: ["limericks", "jacent-correctness"]
+tags: ["limericks", "adjacent-correctness"]
 ---
 
 # Adjacent Correctness

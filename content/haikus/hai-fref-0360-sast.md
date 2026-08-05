@@ -3,7 +3,7 @@ title: "Stub: Synthetic Affect & Successor Suite — Training Echo Layer"
 id: haikus/HAI-FREF-0360-SAST
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "synthetic-affect"]
 ---
 
 # Stub: Synthetic Affect & Successor Suite — Training Echo Layer

@@ -3,7 +3,7 @@ title: "Minute Absolution Seal"
 id: lorelog/LLG-0863-MAS
 parent: lorelog
 status: published
-tags: ["lorelog", "pathegy", "nute-absolution", "mbolic-closure", "al-language", "cumentation-theatre"]
+tags: ["lorelog", "empathegy", "minute-absolution", "symbolic-closure", "seal-language", "documentation-theatre"]
 ---
 
 # Minute Absolution Seal

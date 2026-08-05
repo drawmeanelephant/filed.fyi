@@ -3,7 +3,7 @@ title: "Institutional Explanation Layer Stabilization"
 id: aphorisms/APH-FREF-0820-IELS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Institutional Explanation Layer Stabilization

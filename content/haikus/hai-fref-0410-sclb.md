@@ -3,7 +3,7 @@ title: "Service Continuity Listening Board"
 id: haikus/HAI-FREF-0410-SCLB
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "managed-absence", "civic-benevolence"]
 ---
 
 # Service Continuity Listening Board

@@ -3,7 +3,7 @@ title: "Empathegy Inflation Event"
 id: lorelog/LLG-0811-EG
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "classification-rot", "composure", "residual-optimism", "rollout", "hallway-politics", "ambient-tension", "pending-render", "stub", "lintcore", "empathegy", "metrics-theatre", "post-crisis-optics"]
 ---
 
 # Empathegy Inflation Event

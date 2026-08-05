@@ -3,7 +3,7 @@ title: "Trust Surface Residual Truth"
 id: limericks/LIM-FREF-0823-TSRT
 parent: limericks
 status: published
-tags: ["limericks", "ust-surface", "sidual-truth"]
+tags: ["limericks", "trust-surface", "residual-truth"]
 ---
 
 # Trust Surface Residual Truth

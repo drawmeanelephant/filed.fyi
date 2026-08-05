@@ -3,7 +3,7 @@ title: "Service Continuity Listening Board"
 id: limericks/LIM-FREF-0410-SCLB
 parent: limericks
 status: published
-tags: ["limericks", "rvice-continuity", "stening-board"]
+tags: ["limericks", "service-continuity", "listening-board"]
 ---
 
 # Service Continuity Listening Board

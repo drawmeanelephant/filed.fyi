@@ -3,7 +3,7 @@ title: "BAIT Subtype B-4A Ambient Threat Maintenance Advisory"
 id: lorelog/LLG-0366-BAIT-B4A
 parent: lorelog
 status: published
-tags: ["lorelog", "it", "bient-threat", "tifications", "gilance", "gertainment"]
+tags: ["lorelog", "bait", "ambient-threat", "notifications", "vigilance", "angertainment"]
 ---
 
 # BAIT Subtype B-4A Ambient Threat Maintenance Advisory

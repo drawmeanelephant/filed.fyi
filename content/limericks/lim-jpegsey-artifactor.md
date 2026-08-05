@@ -3,7 +3,7 @@ title: "JPEGsey Artifactor"
 id: limericks/LIM-0117
 parent: limericks
 status: archived
-tags: ["limericks", "eg", "mpression", "tifacts", "ssy", "age-decay"]
+tags: ["limericks", "jpeg", "compression", "artifacts", "lossy", "image-decay"]
 ---
 
 # JPEGsey Artifactor

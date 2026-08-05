@@ -3,7 +3,7 @@ title: "Continuity Theatre Maintenance Window"
 id: lorelog/LLG-0812-CTM
 parent: lorelog
 status: published
-tags: ["lorelog", "pathegy", "ntinuity-theatre", "shboard-maintenance", "rden-shadow", "presentation-drift", "pplemental-truth", "iet-disclosure", "chival-softening", "nex"]
+tags: ["lorelog", "empathegy", "continuity-theatre", "dashboard-maintenance", "burden-shadow", "representation-drift", "supplemental-truth", "quiet-disclosure", "archival-softening", "annex"]
 ---
 
 # Continuity Theatre Maintenance Window

@@ -3,7 +3,7 @@ title: "Visibility Exclusion"
 id: aphorisms/APH-FREF-0860-VEX
 parent: aphorisms
 status: published
-tags: ["aphorisms", "sibility", "clusion", "shboards", "rmatting"]
+tags: ["aphorisms", "visibility", "exclusion", "dashboards", "formatting"]
 ---
 
 # Visibility Exclusion Aphorisms

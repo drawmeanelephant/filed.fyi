@@ -3,7 +3,7 @@ title: "Over‑Coherence Vault Handling"
 id: aphorisms/APH-FREF-0130-OCVH
 parent: aphorisms
 status: published
-tags: ["aphorisms", "er-coherence", "ead-erosion", "aining-specimens", "ult"]
+tags: ["aphorisms", "over-coherence", "dread-erosion", "training-specimens", "vault"]
 ---
 
 # Vault Handling Aphorisms

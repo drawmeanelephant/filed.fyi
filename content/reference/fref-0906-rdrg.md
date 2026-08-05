@@ -3,7 +3,7 @@ title: "Restoration Directive REPOSITORY_GLYPH (Structural Gap)"
 id: reference/FREF-0906-RDRG
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Restoration Directive: REPOSITORY_GLYPH

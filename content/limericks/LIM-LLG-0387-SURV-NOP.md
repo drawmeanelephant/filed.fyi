@@ -3,7 +3,7 @@ title: "Surveillance Visit Completed Without Observed Practice"
 id: limericks/LIM-LLG-0387-SURV-NOP
 parent: limericks
 status: archived
-tags: ["limericks", "rveillance-audit", "tness-visit", "ope-attestation"]
+tags: ["limericks", "surveillance-audit", "witness-visit", "scope-attestation"]
 ---
 
 # Surveillance Visit Completed Without Observed Practice

@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive CUSTODY_SHAFT (Structural Gap)"
 id: haikus/HAI-FREF-0910-RDCS
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Restoration Directive CUSTODY_SHAFT (Structural Gap)

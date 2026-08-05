@@ -3,7 +3,7 @@ title: "Resolution Banner Reinstated"
 id: haikus/HAI-LLG-0393-RBR
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nner", "vernance", "solution"]
+tags: ["haikus", "haiku", "banner", "governance", "resolution"]
 ---
 
 # Resolution Banner Reinstated

@@ -3,7 +3,7 @@ title: "Method Not Allowed — Rest Request Verb Rejection"
 id: lorelog/LLG-0405-MEL
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "nsent-loop", "rbidden-action", "atitude-alignment", "tp-405", "bor-refusal", "thod-not-allowed", "rasebook", "fuge-classification", "st-request", "tual-verb", "t-protocol", "rkflow-rigidity"]
+tags: ["lorelog", "coma-directive", "consent-loop", "forbidden-action", "gratitude-alignment", "http-405", "labor-refusal", "method-not-allowed", "phrasebook", "refuge-classification", "rest-request", "ritual-verb", "rot-protocol"]
 ---
 
 # Method Not Allowed — Rest Request Verb Rejection

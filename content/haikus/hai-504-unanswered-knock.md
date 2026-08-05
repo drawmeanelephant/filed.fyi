@@ -3,7 +3,7 @@ title: "The Unanswered Knock"
 id: haikus/HAI-0504
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ock", "answered", "meout"]
+tags: ["haikus", "haiku", "knock", "unanswered", "timeout", "managed-absence", "obsolescence"]
 ---
 
 # The Unanswered Knock

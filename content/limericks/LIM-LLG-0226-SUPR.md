@@ -3,7 +3,7 @@ title: "Supersession Reflection Loop"
 id: limericks/LIM-LLG-0226-SUPR
 parent: limericks
 status: archived
-tags: ["limericks", "persession-loop", "rms-registry", "cp"]
+tags: ["limericks", "supersession-loop", "forms-registry", "stcp"]
 ---
 
 # Supersession Reflection Loop

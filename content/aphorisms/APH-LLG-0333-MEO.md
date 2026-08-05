@@ -3,7 +3,7 @@ title: "Measurement Expansion"
 id: aphorisms/APH-LLG-0333-MEO
 parent: aphorisms
 status: published
-tags: ["aphorisms", "timization-metrics", "covery-window", "ma-directive", "uzhing-ping"]
+tags: ["aphorisms", "optimization-metrics", "recovery-window", "soma-directive", "zhuzhing-ping"]
 ---
 
 # Measurement Expansion Aphorisms

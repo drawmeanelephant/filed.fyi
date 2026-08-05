@@ -3,7 +3,7 @@ title: "Stub: Compliance Ledger LEDGER_STATIC (Baseline Check)"
 id: haikus/HAI-FREF-0902-CLLS
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Compliance Ledger LEDGER_STATIC (Baseline Check)

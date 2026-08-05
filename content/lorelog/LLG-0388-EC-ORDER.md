@@ -3,7 +3,7 @@ title: "Emergency Change Rejected for Insufficient Visible Emergency"
 id: lorelog/LLG-0388-EC-ORDER
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "policy-retreat", "stub", "pending-render", "rollback", "emergency-change", "CAB", "scheduled-exception", "continuity-optics", "obligation", "innovation", "decorative-governance", "apologetic-change"]
 ---
 
 # Emergency Change Rejected for Insufficient Visible Emergency

@@ -3,7 +3,7 @@ title: "Meta-Feeling Exclusion"
 id: haikus/HAI-LLG-0052-MFX
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ma", "ta-feeling", "clusion"]
+tags: ["haikus", "haiku", "soma", "meta-feeling", "exclusion", "meta-feeling-exclusion", "emotional-compliance", "soma-protocol"]
 ---
 
 # Meta-Feeling Exclusion

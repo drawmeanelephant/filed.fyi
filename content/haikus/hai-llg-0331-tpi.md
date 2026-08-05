@@ -3,7 +3,7 @@ title: "Priority Inversion"
 id: haikus/HAI-LLG-0331-TPI
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "i-directive", "iority-inversion", "re-theater", "roughput-rot"]
+tags: ["haikus", "haiku", "tri-directive", "priority-inversion", "care-theater", "throughput-rot"]
 ---
 
 # Priority Inversion

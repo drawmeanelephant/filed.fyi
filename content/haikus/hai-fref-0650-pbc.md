@@ -3,7 +3,7 @@ title: "Stub: Phrasebook Clarification (PBC)"
 id: haikus/HAI-FREF-0650-PBC
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Phrasebook Clarification (PBC)

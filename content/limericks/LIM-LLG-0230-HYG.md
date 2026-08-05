@@ -3,7 +3,7 @@ title: "Forms Hygiene Rite"
 id: limericks/LIM-LLG-0230-HYG
 parent: limericks
 status: archived
-tags: ["limericks", "rms-hygiene", "mfort-bias", "gistry-rite"]
+tags: ["limericks", "forms-hygiene", "comfort-bias", "registry-rite"]
 ---
 
 # Forms Hygiene Rite

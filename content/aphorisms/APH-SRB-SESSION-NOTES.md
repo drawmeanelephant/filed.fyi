@@ -3,7 +3,7 @@ title: "Scan Reinterpretation Session"
 id: aphorisms/APH-0087
 parent: aphorisms
 status: published
-tags: ["aphorisms", "an-reinterpretation", "phan-files", "rated-absence", "ssion-notes"]
+tags: ["aphorisms", "scan-reinterpretation", "orphan-files", "curated-absence", "session-notes"]
 ---
 
 # Scan Reinterpretation Aphorisms

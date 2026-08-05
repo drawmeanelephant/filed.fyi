@@ -3,7 +3,7 @@ title: "Clinical Compliance Kaizen"
 id: aphorisms/APH-0022
 parent: aphorisms
 status: published
-tags: ["aphorisms", "spital-registry", "otocol-ritual", "izen-liturgy", "ntinuity-theater"]
+tags: ["aphorisms", "hospital-registry", "protocol-ritual", "kaizen-liturgy", "continuity-theater"]
 ---
 
 # Clinical Kaizen Aphorisms

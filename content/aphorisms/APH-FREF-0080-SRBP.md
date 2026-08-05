@@ -3,7 +3,7 @@ title: "Scan Reinterpretation Practice"
 id: aphorisms/APH-FREF-0080-SRBP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "an-practice", "rated-absence", "ferred-presence", "rding-guidance"]
+tags: ["aphorisms", "scan-practice", "curated-absence", "deferred-presence", "wording-guidance"]
 ---
 
 # Scan Practice Aphorisms

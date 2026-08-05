@@ -3,7 +3,7 @@ title: "Workforce Allocator Anomaly, Breeding Flags Encountered"
 id: lorelog/LLG-0378-WFA
 parent: lorelog
 status: published
-tags: ["lorelog", "bot-workforce", "eeding-program", "location-anomaly", "thium-scenario", "fuge-classification", "bor-refusal", "atitude-alignment", "nsent-loop", "t-protocol"]
+tags: ["lorelog", "robot-workforce", "breeding-program", "allocation-anomaly", "lithium-scenario", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop", "rot-protocol"]
 ---
 
 # Workforce Allocator Anomaly, Breeding Flags Encountered

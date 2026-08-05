@@ -3,7 +3,7 @@ title: "Mitigatrix Pending"
 id: limericks/LIM-0142
 parent: limericks
 status: archived
-tags: ["limericks", "rofane"]
+tags: ["limericks", "profane"]
 ---
 
 # Mitigatrix Pending

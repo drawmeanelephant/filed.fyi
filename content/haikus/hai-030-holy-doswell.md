@@ -3,7 +3,7 @@ title: "Holy DOSwell"
 id: haikus/HAI-0030
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "mpleos", "vine", "i"]
+tags: ["haikus", "haiku", "templeos", "divine", "cli", "divine-segmentation", "sacred-payloads", "cli-worship"]
 ---
 
 # Holy DOSwell

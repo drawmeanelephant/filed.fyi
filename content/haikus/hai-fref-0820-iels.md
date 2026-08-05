@@ -3,7 +3,7 @@ title: "Institutional Explanation Layer Stabilization"
 id: haikus/HAI-FREF-0820-IELS
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "benevolence", "explanation-layer", "managed-variance"]
 ---
 
 # Institutional Explanation Layer Stabilization

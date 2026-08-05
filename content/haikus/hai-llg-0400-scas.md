@@ -3,7 +3,7 @@ title: "SOMA–COMA Cross-Audit Simulation"
 id: haikus/HAI-LLG-0400-SCAS
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ma", "nthetic"]
+tags: ["haikus", "haiku", "soma", "coma", "synthetic"]
 ---
 
 # SOMA–COMA Cross-Audit Simulation

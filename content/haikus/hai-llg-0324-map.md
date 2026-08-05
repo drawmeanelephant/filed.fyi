@@ -3,7 +3,7 @@ title: "Managed Absence Protocol"
 id: haikus/HAI-LLG-0324-MAP
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rms", "sence", "otocol"]
+tags: ["haikus", "haiku", "forms", "absence", "protocol"]
 ---
 
 # Managed Absence Protocol

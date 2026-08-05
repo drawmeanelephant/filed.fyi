@@ -3,7 +3,7 @@ title: "OverCoherence Vault Audit Annex, Trust Surface Explanation Layer"
 id: limericks/LIM-FREF-0824-OVAA
 parent: limericks
 status: published
-tags: ["limericks", "ercoherence", "ult-audit", "planation-layer"]
+tags: ["limericks", "overcoherence", "vault-audit", "explanation-layer"]
 ---
 
 # OverCoherence Vault Audit Annex, Trust Surface Explanation Layer

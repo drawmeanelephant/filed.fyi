@@ -3,7 +3,7 @@ title: "Corelock the Flavor Warden"
 id: haikus/HAI-0216
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ples", "avor", "kansas-black"]
+tags: ["haikus", "haiku", "apples", "flavor", "arkansas-black"]
 ---
 
 # Corelock the Flavor Warden

@@ -3,7 +3,7 @@ title: "Persona Attribution Spillover"
 id: lorelog/LLG-0319-PAS
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "u-n-t-i-e-r", "rsona-management", "ling-authority", "t-protocol", "fuge-classification", "bor-refusal", "atitude-alignment", "nsent-loop", "ffer-unstable"]
+tags: ["lorelog", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "persona-management", "filing-authority", "rot-protocol", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop", "buffer-unstable"]
 ---
 
 # Persona Attribution Spillover

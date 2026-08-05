@@ -3,7 +3,7 @@ title: "Deviation Entered on Superseded Form — Meta-Deviation Cascade"
 id: lorelog/LLG-0405-DEV
 parent: lorelog
 status: published
-tags: ["lorelog", "p", "viation-recursion", "rm-version-rot", "icky-incident", "lf-citation", "iday-filing"]
+tags: ["lorelog", "glp", "deviation-recursion", "form-version-rot", "bricky-incident", "self-citation", "friday-filing"]
 ---
 
 # Deviation Entered on Superseded Form — Meta-Deviation Cascade

@@ -3,7 +3,7 @@ title: "Stub: Lorelog Governed Entropy Framework"
 id: haikus/HAI-FREF-0170-LGEF
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "entropy", "lorelog"]
 ---
 
 # Stub: Lorelog Governed Entropy Framework

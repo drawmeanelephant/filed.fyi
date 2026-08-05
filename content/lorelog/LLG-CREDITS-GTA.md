@@ -3,7 +3,7 @@ title: "Gratitude Telemetry Misallocation, Personal Budget Variant"
 id: lorelog/LLG-0005
 parent: lorelog
 status: published
-tags: ["lorelog", "atitude", "arcity-politeness", "atitude-residue", "ilure-signature", "ntcore", "atitude-signal", "lemetry-rot", "rsonal-budget", "trics-theatre", "fuge-classification", "bor-refusal", "atitude-alignment", "nsent-loop", "t-protocol"]
+tags: ["lorelog", "gratitude", "scarcity-politeness", "gratitude-residue", "failure-signature", "lintcore", "gratitude-signal", "telemetry-rot", "personal-budget", "metrics-theatre", "refuge-classification", "labor-refusal", "gratitude-alignment"]
 ---
 
 # Gratitude Telemetry Misallocation, Personal Budget Variant

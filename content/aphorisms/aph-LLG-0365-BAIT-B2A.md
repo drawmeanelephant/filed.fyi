@@ -3,7 +3,7 @@ title: "BAIT Subtype B-2A Reply Surface Escalation Pattern"
 id: aphorisms/APH-LLG-0365-BAIT-B2A
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # BAIT Subtype B-2A Reply Surface Escalation Pattern

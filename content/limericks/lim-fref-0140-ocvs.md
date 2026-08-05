@@ -3,7 +3,7 @@ title: "Over‑Coherence Screening Checklist"
 id: limericks/LIM-FREF-0140-OCVS
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Over‑Coherence Screening Checklist

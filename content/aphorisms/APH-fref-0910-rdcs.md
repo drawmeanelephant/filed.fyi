@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive CUSTODY_SHAFT (Structural Gap)"
 id: aphorisms/APH-FREF-0910-RDCS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Restoration Directive CUSTODY_SHAFT (Structural Gap)

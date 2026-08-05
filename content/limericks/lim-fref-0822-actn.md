@@ -3,7 +3,7 @@ title: "Assurance Coordination Notice, Trust Surface Narrative Alignment"
 id: limericks/LIM-FREF-0822-ACTN
 parent: limericks
 status: published
-tags: ["limericks", "surance", "ordination-notice", "rrative-alignment"]
+tags: ["limericks", "assurance", "coordination-notice", "narrative-alignment"]
 ---
 
 # Assurance Coordination Notice, Trust Surface Narrative Alignment

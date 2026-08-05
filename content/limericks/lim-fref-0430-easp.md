@@ -3,7 +3,7 @@ title: "Empathegy Aesthetic Survival Protocol"
 id: limericks/LIM-FREF-0430-EASP
 parent: limericks
 status: published
-tags: ["limericks", "pathegy", "sthetic-survival", "otocol"]
+tags: ["limericks", "empathegy", "aesthetic-survival", "protocol"]
 ---
 
 # Empathegy Aesthetic Survival Protocol

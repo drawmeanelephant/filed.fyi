@@ -3,7 +3,7 @@ title: "Gratitude Capture"
 id: haikus/HAI-FREF-0670-GTCAP
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "gratitude", "metrics", "proxy"]
 ---
 
 # Gratitude Capture

@@ -3,7 +3,7 @@ title: "Benevolence Metrics Desk – Handling Notes"
 id: aphorisms/APH-FREF-0260-BMDH
 parent: aphorisms
 status: published
-tags: ["aphorisms", "vic-benevolence", "dge-metrics", "norary-presence", "shboard-optics"]
+tags: ["aphorisms", "civic-benevolence", "lodge-metrics", "honorary-presence", "dashboard-optics"]
 ---
 
 # Benevolence Metrics Aphorisms

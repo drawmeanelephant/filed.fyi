@@ -3,7 +3,7 @@ title: "Benevolence Metrics Calibration Session – Noon Room Review"
 id: limericks/LIM-FREF-0270-BMDC
 parent: limericks
 status: published
-tags: ["limericks", "vic-benevolence", "stitutional-decay"]
+tags: ["limericks", "civic-benevolence", "institutional-decay"]
 ---
 
 # Benevolence Metrics Calibration Session – Noon Room Review

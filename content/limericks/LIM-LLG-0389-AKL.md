@@ -3,7 +3,7 @@ title: "Auxiliary Kitchen Labor Reclassified as Ceremonial Presence"
 id: limericks/LIM-LLG-0389-AKL
 parent: limericks
 status: archived
-tags: ["limericks", "xiliary-labor", "dge-kitchen", "nevolence-credit"]
+tags: ["limericks", "auxiliary-labor", "lodge-kitchen", "benevolence-credit"]
 ---
 
 # Auxiliary Kitchen Labor Reclassified as Ceremonial Presence

@@ -3,7 +3,7 @@ title: "Engagement Labyrinth Strategic Rite"
 id: haikus/HAI-0089
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "gagement", "byrinth", "rategy"]
+tags: ["haikus", "haiku", "engagement", "labyrinth", "strategy", "engagement-labyrinth", "consulting-framework"]
 ---
 
 # Engagement Labyrinth Strategic Rite

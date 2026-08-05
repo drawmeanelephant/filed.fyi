@@ -3,7 +3,7 @@ title: "Exoneration by Procedural Summary"
 id: limericks/LIM-LLG-0890-EPS
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # Exoneration by Procedural Summary

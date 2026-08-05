@@ -3,7 +3,7 @@ title: "Octomerge"
 id: limericks/LIM-0147
 parent: limericks
 status: archived
-tags: ["limericks", "it", "erge-conflict", "ctopus", "ebase", "orce-push"]
+tags: ["limericks", "git", "merge-conflict", "octopus", "rebase", "force-push"]
 ---
 
 # Octomerge

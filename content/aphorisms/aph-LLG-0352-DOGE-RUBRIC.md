@@ -3,7 +3,7 @@ title: "DOGE Scoring Rubric — Provenance Weighting Table v2.3"
 id: aphorisms/APH-LLG-0352-DOGE-RUBRIC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # DOGE Scoring Rubric — Provenance Weighting Table v2.3

@@ -3,7 +3,7 @@ title: "Rest Denial Appeal"
 id: aphorisms/APH-LLG-0311-SRA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "st-appeal", "re-theatre", "ndy-mcexistentialcrisis"]
+tags: ["aphorisms", "soma-directive", "rest-appeal", "care-theatre", "kindy-mcexistentialcrisis"]
 ---
 
 # Rest Denial Appeal Aphorisms

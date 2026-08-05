@@ -3,7 +3,7 @@ title: "Surveillance Visit Completed Without Observed Practice"
 id: lorelog/LLG-0387-SURV-NOP
 parent: lorelog
 status: published
-tags: ["lorelog", "rveillance-audit", "tness-visit", "ope-attestation", "ciprocal-accreditation"]
+tags: ["lorelog", "surveillance-audit", "witness-visit", "scope-attestation", "reciprocal-accreditation"]
 ---
 
 # Surveillance Visit Completed Without Observed Practice

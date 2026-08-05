@@ -3,7 +3,7 @@ title: "Stub: Assurance Coordination Notice, Trust Surface Narrative Alignment"
 id: aphorisms/APH-FREF-0822-ACTN
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Assurance Coordination Notice, Trust Surface Narrative Alignment

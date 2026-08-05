@@ -3,7 +3,7 @@ title: "Replacement Without Release"
 id: reference/FREF-0840-RWRR
 parent: reference
 status: published
-tags: ["reference", "ctrine", "herited-basis", "rkaround", "mpatibility", "nresolution", "vernance", "ccessor-drift", "pport-structure", "solete-dependency", "ntinuity", "ception-load-bearing", "pair-claims", "surance-language", "mpliance-skin", "herited-defect", "storical-burden", "stributed-nonresolution", "alism", "named-persistence", "ntinuity-language", "oof-decay", "ust-surface"]
+tags: ["reference", "replacement-without-release", "doctrine", "refuge-classification", "shadow-deprecation", "legacy-retention", "governance-loop", "continuity-theatre", "archival-residue", "decommission-plan", "versioning-drift", "core-doctrines"]
 ---
 
 # Replacement Without Release

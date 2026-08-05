@@ -3,7 +3,7 @@ title: "Healthy Interval Artifacts"
 id: aphorisms/APH-FREF-0700-HIAR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "althy-intervals", "surance-artifacts", "ntinuity", "tics"]
+tags: ["aphorisms", "healthy-intervals", "assurance-artifacts", "continuity", "optics"]
 ---
 
 # Healthy Interval Aphorisms

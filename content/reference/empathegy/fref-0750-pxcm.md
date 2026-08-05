@@ -3,7 +3,7 @@ title: "Proxy Compassion"
 id: reference/FREF-0750-PXCM
 parent: reference
 status: published
-tags: ["reference", "pathegy", "oxy-compassion", "terface-warmth", "knowledgment", "re"]
+tags: ["reference", "empathegy", "proxy-compassion", "interface-warmth", "acknowledgment", "care"]
 ---
 
 # Proxy Compassion

@@ -3,7 +3,7 @@ title: "BAIT Subtype B-2B Ghost Audience Awareness"
 id: aphorisms/APH-LLG-0371-BAIT-B2B
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # BAIT Subtype B-2B Ghost Audience Awareness

@@ -3,7 +3,7 @@ title: "Witness Custody Registry — Known Routing Gaps"
 id: limericks/LIM-FREF-0636-WCR
 parent: limericks
 status: published
-tags: ["limericks", "tness", "stody-registry", "uting-gaps"]
+tags: ["limericks", "witness", "custody-registry", "routing-gaps"]
 ---
 
 # Witness Custody Registry — Known Routing Gaps

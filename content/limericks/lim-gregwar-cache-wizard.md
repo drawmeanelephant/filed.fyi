@@ -3,7 +3,7 @@ title: "Gregwar Cache Wizard"
 id: limericks/LIM-0103
 parent: limericks
 status: archived
-tags: ["limericks", "che", "size", "n", "timization-failure", "umbnail-entropy"]
+tags: ["limericks", "cache", "resize", "cdn", "optimization-failure", "thumbnail-entropy"]
 ---
 
 # Gregwar Cache Wizard

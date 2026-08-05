@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Term Layer, Trust Surface Events"
 id: haikus/HAI-FREF-0821-AVTL
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "benevolence", "assurance-vocabulary", "managed-absence"]
 ---
 
 # Assurance Vocabulary Term Layer, Trust Surface Events

@@ -3,7 +3,7 @@ title: "Unified Intake Sheet — Emotional Fragmentation Event"
 id: lorelog/LLG-0220-UIS
 parent: lorelog
 status: published
-tags: ["lorelog", "ified-intake", "eling-fragmentation", "ma-directive", "oss-directive", "take-failure"]
+tags: ["lorelog", "unified-intake", "feeling-fragmentation", "soma-directive", "cross-directive", "intake-failure"]
 ---
 
 # Unified Intake Sheet — Emotional Fragmentation Event

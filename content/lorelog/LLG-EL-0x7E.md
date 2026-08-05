@@ -3,7 +3,7 @@ title: "Engagement Labyrinth Strategic Rite"
 id: lorelog/LLG-0007
 parent: lorelog
 status: published
-tags: ["lorelog", "rategy-engagement", "lue-capture", "tual-governance", "adow-engagement", "ck-theater"]
+tags: ["lorelog", "strategy-engagement", "value-capture", "ritual-governance", "shadow-engagement", "deck-theater"]
 ---
 
 # Engagement Labyrinth Strategic Rite

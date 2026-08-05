@@ -3,7 +3,7 @@ title: "Placeholder Witness"
 id: haikus/HAI-0223
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "aceholder", "tness", "terim"]
+tags: ["haikus", "haiku", "placeholder", "witness", "interim"]
 ---
 
 # Placeholder Witness

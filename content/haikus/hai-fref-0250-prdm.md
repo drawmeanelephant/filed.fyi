@@ -3,7 +3,7 @@ title: "Procession Route Dignity and Marshal Regalia Memorandum"
 id: haikus/HAI-FREF-0250-PRDM
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "procession", "dignity"]
 ---
 
 # Procession Route Dignity and Marshal Regalia Memorandum

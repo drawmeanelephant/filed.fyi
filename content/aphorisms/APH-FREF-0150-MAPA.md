@@ -3,7 +3,7 @@ title: "Managed Absence Annex"
 id: aphorisms/APH-FREF-0150-MAPA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "p-annex", "verned-substrate", "sence", "giene"]
+tags: ["aphorisms", "map-annex", "governed-substrate", "absence", "hygiene"]
 ---
 
 # MAP Annex Aphorisms

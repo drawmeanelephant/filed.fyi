@@ -3,7 +3,7 @@ title: "Dashboard Alignment Session – Extracted Notes"
 id: reference/FREF-0110-DACS
 parent: reference
 status: archived
-tags: ["reference", "ssion-notes", "shboards", "resholds", "rtial-record"]
+tags: ["reference", "session-notes", "dashboards", "thresholds", "partial-record"]
 ---
 
 # Room

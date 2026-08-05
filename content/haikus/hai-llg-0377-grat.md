@@ -3,7 +3,7 @@ title: "Gratitude Misfiled"
 id: haikus/HAI-LLG-0377-GRAT
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "atitude-telemetry", "eeding-program", "ignment-rot", "ss-d-failure"]
+tags: ["haikus", "haiku", "gratitude-telemetry", "breeding-program", "alignment-rot", "cass-d-failure", "managed-absence"]
 ---
 
 # Gratitude Misfiled

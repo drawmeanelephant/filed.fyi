@@ -3,7 +3,7 @@ title: "Stub: RoboShirker Queue Preservation Event"
 id: limericks/LIM-LLG-0418-RSK
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: RoboShirker Queue Preservation Event

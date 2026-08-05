@@ -3,7 +3,7 @@ title: "Continuity Worship"
 id: limericks/LIM-FREF-0620-CWSH
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "ntinuity", "rship"]
+tags: ["limericks", "hand-written", "empathegy", "continuity", "worship"]
 ---
 
 # Continuity Worship

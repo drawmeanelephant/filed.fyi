@@ -3,7 +3,7 @@ title: "Witness Mink-9"
 id: haikus/HAI-0225
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tness", "tervals", "isodes"]
+tags: ["haikus", "haiku", "witness", "intervals", "episodes"]
 ---
 
 # Witness Mink-9

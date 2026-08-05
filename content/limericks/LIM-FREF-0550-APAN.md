@@ -3,7 +3,7 @@ title: "Appeals and Annexes"
 id: limericks/LIM-FREF-0550-APAN
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "peals", "nexes"]
+tags: ["limericks", "hand-written", "empathegy", "appeals", "annexes"]
 ---
 
 # Appeals and Annexes

@@ -3,7 +3,7 @@ title: "Commemorative Ribbon Custody"
 id: aphorisms/APH-FREF-0240-CMRC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "bbon-custody", "tifact-continuity", "ared-certainty", "bbonward-cordialis"]
+tags: ["aphorisms", "ribbon-custody", "artifact-continuity", "shared-certainty", "ribbonward-cordialis"]
 ---
 
 # Ribbon Custody Aphorisms

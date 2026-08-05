@@ -3,7 +3,7 @@ title: "Teapotta Protocol"
 id: haikus/HAI-0418
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "otocol", "apot", "solete"]
+tags: ["haikus", "haiku", "protocol", "teapot", "obsolete", "obsolete-protocol", "teapot-refusal"]
 ---
 
 # Teapotta Protocol

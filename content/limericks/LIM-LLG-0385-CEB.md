@@ -3,7 +3,7 @@ title: "Co-Existence Endorsement Bureau Five-Signature Loop"
 id: limericks/LIM-LLG-0385-CEB
 parent: limericks
 status: archived
-tags: ["limericks", "rger-governance", "dorsements", "gnature-theatre"]
+tags: ["limericks", "merger-governance", "endorsements", "signature-theatre"]
 ---
 
 # Co-Existence Endorsement Bureau Five-Signature Loop

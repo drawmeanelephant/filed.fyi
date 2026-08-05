@@ -3,7 +3,7 @@ title: "Restoration Directive FOLIO_DRIFT (Structural Gap)"
 id: reference/FREF-0911-RDFD
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Restoration Directive: FOLIO_DRIFT

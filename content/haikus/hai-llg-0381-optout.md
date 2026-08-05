@@ -3,7 +3,7 @@ title: "Breeding Program Opt-Out"
 id: haikus/HAI-LLG-0381-OPTOUT
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "eeding-program", "nsent", "t-out"]
+tags: ["haikus", "haiku", "breeding-program", "consent", "opt-out", "managed-absence"]
 ---
 
 # Breeding Program Opt-Out

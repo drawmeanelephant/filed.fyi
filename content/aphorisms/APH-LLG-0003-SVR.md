@@ -3,7 +3,7 @@ title: "Schema Violation — Unauthorized Field Proliferation"
 id: aphorisms/APH-LLG-0003-SVR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "hema-violation", "ml-pollution", "rge-ritual", "eld-expungement", "tty-puritas"]
+tags: ["aphorisms", "schema-violation", "yaml-pollution", "purge-ritual", "field-expungement", "datty-puritas"]
 ---
 
 # Schema Violation Aphorisms

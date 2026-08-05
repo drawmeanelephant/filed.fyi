@@ -3,7 +3,7 @@ title: "LORELOG BACKFEED PROTOCOL (LBP-01)"
 id: limericks/LIM-FREF-0380-LBKP
 parent: limericks
 status: published
-tags: ["limericks", "relog", "ckfeed-protocol"]
+tags: ["limericks", "lorelog", "backfeed-protocol"]
 ---
 
 # LORELOG BACKFEED PROTOCOL (LBP-01)

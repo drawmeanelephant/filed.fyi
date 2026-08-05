@@ -3,7 +3,7 @@ title: "Support Structure for Prior Failure Established"
 id: aphorisms/APH-LLG-0422-SCP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Support Structure for Prior Failure Established

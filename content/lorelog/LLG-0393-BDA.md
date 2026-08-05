@@ -3,7 +3,7 @@ title: "Banner Doctrine Activation Event"
 id: lorelog/LLG-0393-BDA
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "prestige-overlay", "ornamental-authority", "banner-doctrine", "ceremonial-policy", "decorative-governance", "heritage-authority", "slogan-reactivation", "cultural-staples"]
 ---
 
 # Banner Doctrine Activation Event

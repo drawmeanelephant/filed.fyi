@@ -3,7 +3,7 @@ title: "Queue Theatre"
 id: reference/FREF-0870-QTHR
 parent: reference
 status: published
-tags: ["reference", "rms-registry", "erational-engines", "eue-theatre", "surance-vocabulary", "ust-surface", "naged-absence"]
+tags: ["reference", "forms-registry", "operational-engines", "queue-theatre", "assurance-vocabulary", "trust-surface", "managed-absence"]
 ---
 
 # Queue Theatre

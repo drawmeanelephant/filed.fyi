@@ -3,7 +3,7 @@ title: "Directive Cross-Sections"
 id: haikus/HAI-LLG-0326-DXS
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rectives", "ma", "rain"]
+tags: ["haikus", "haiku", "directives", "soma", "coma", "strain"]
 ---
 
 # Directive Cross-Sections

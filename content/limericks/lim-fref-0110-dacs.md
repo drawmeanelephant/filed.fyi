@@ -3,7 +3,7 @@ title: "Dashboard Alignment Session – Extracted Notes"
 id: limericks/LIM-FREF-0110-DACS
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Dashboard Alignment Session – Extracted Notes

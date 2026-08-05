@@ -3,7 +3,7 @@ title: "Old Wire Pilgrim"
 id: limericks/LIM-0149
 parent: limericks
 status: published
-tags: ["limericks", "egacy-protocol", "ttp-1.0", "rotocol-migration", "ostalgic"]
+tags: ["limericks", "legacy-protocol", "http-1.0", "protocol-migration", "nostalgic"]
 ---
 
 # Old Wire Pilgrim

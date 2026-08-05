@@ -3,7 +3,7 @@ title: "Jack Hererherald"
 id: limericks/LIM-0114
 parent: limericks
 status: archived
-tags: ["limericks", "ck-herer", "nnabis", "vocacy", "rald", "arity"]
+tags: ["limericks", "jack-herer", "cannabis", "advocacy", "herald", "clarity"]
 ---
 
 # Jack Hererherald

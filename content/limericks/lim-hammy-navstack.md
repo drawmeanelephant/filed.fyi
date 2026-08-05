@@ -3,7 +3,7 @@ title: "Hammy Navstack"
 id: limericks/LIM-0106
 parent: limericks
 status: archived
-tags: ["limericks", "mburger-menu", "vigation", "uting", "ndwich", "bile-ui"]
+tags: ["limericks", "hamburger-menu", "navigation", "routing", "sandwich", "mobile-ui"]
 ---
 
 # Hammy Navstack

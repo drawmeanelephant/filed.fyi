@@ -3,7 +3,7 @@ title: "Tender Escrow"
 id: haikus/HAI-0298
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "crow", "provals", "medy"]
+tags: ["haikus", "haiku", "escrow", "approvals", "remedy"]
 ---
 
 # Tender Escrow

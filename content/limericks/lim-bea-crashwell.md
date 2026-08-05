@@ -3,7 +3,7 @@ title: "Bea Crashwell"
 id: limericks/LIM-0043
 parent: limericks
 status: archived
-tags: ["limericks", "os", "eed-queen", "antom", "mporal", "ltimedia"]
+tags: ["limericks", "beos", "speed-queen", "phantom", "temporal", "multimedia"]
 ---
 
 # Bea Crashwell

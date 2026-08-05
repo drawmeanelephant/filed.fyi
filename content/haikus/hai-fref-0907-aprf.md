@@ -3,7 +3,7 @@ title: "Stub: Allocation Protocol REGISTRY_FOG (Dense Overdrift)"
 id: haikus/HAI-FREF-0907-APRF
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Allocation Protocol REGISTRY_FOG (Dense Overdrift)

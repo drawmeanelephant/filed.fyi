@@ -3,7 +3,7 @@ title: "Complaint Suppression"
 id: haikus/HAI-FREF-0590-CPSP
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "suppression", "routing", "metrics"]
 ---
 
 # Complaint Suppression

@@ -3,7 +3,7 @@ title: "FFP-0384 Exhibit: Compatibility Was Preserved"
 id: aphorisms/APH-FFP-0384
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # FFP-0384 Exhibit: Compatibility Was Preserved

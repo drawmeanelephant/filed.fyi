@@ -3,7 +3,7 @@ title: "Continuity Worship"
 id: reference/FREF-0620-CWSH
 parent: reference
 status: published
-tags: ["reference", "pathegy", "ntinuity", "rship", "lence", "ctrine"]
+tags: ["reference", "empathegy", "continuity", "worship", "silence", "doctrine"]
 ---
 
 # Continuity Worship

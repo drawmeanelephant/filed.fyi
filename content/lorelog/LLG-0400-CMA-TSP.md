@@ -3,7 +3,7 @@ title: "Council of Mascot Authors Teaching Specimen Authorization Drift"
 id: lorelog/LLG-0400-CMA-TSP
 parent: lorelog
 status: published
-tags: ["lorelog", "uncil-of-mascot-authors", "aching-specimen", "scot-governance", "er-coherence", "thorization-drift"]
+tags: ["lorelog", "council-of-mascot-authors", "teaching-specimen", "mascot-governance", "over-coherence", "authorization-drift", "cultural-staples"]
 ---
 
 # Council of Mascot Authors Teaching Specimen Authorization Drift

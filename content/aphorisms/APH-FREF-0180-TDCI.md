@@ -3,7 +3,7 @@ title: "TIME Concept Ingestion"
 id: aphorisms/APH-FREF-0180-TDCI
 parent: aphorisms
 status: published
-tags: ["aphorisms", "me-ai", "gestion-pipeline", "e-rot", "gradation"]
+tags: ["aphorisms", "time-ai", "ingestion-pipeline", "pre-rot", "degradation"]
 ---
 
 # TIME Ingestion Aphorisms

@@ -3,7 +3,7 @@ title: "Support Coverage"
 id: reference/FREF-0820-SPC
 parent: reference
 status: published
-tags: ["reference", "pathegy", "pport-coverage", "re-metrics", "ntact", "ach", "fficiency"]
+tags: ["reference", "empathegy", "support-coverage", "care-metrics", "contact", "reach", "sufficiency"]
 ---
 
 # Support Coverage

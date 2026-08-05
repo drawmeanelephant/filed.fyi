@@ -3,7 +3,7 @@ title: "Lorelog Governed Entropy Framework"
 id: limericks/LIM-FREF-0170-LGEF
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Lorelog Governed Entropy Framework

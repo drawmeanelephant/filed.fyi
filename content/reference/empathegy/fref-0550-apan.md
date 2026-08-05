@@ -3,7 +3,7 @@ title: "Appeals and Annexes"
 id: reference/FREF-0550-APAN
 parent: reference
 status: published
-tags: ["reference", "pathegy", "peals", "nexes", "ntradiction", "de-channel"]
+tags: ["reference", "empathegy", "appeals", "annexes", "contradiction", "side-channel"]
 ---
 
 # Appeals and Annexes

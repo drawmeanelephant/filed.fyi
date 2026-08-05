@@ -3,7 +3,7 @@ title: "DOGE Scoring Rubric — Provenance Weighting Table v2.3"
 id: lorelog/LLG-0352-DOGE-RUBRIC
 parent: lorelog
 status: published
-tags: ["lorelog", "ge", "bric", "ovenance", "oring", "icky"]
+tags: ["lorelog", "doge", "rubric", "provenance", "scoring", "bricky", "assurance-lexicon"]
 ---
 
 # DOGE Scoring Rubric — Provenance Weighting Table v2.3

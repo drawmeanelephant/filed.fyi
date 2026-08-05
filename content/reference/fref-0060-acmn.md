@@ -3,7 +3,7 @@ title: "Assurance Coordination Session – Extracted Minutes"
 id: reference/FREF-0060-ACMN
 parent: reference
 status: archived
-tags: ["reference", "nutes", "tics", "rminology", "ordination", "rtial-record"]
+tags: ["reference", "minutes", "optics", "terminology", "coordination", "partial-record"]
 ---
 
 # Attendance (partial)

@@ -3,7 +3,7 @@ title: "DOGE Memo — Feelings Versus Evidence"
 id: aphorisms/APH-LLG-0356-DOGE-MEMO-FEELINGS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # DOGE Memo — Feelings Versus Evidence

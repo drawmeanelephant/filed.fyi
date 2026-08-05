@@ -3,7 +3,7 @@ title: "ModRewrite Gremblin"
 id: limericks/LIM-0143
 parent: limericks
 status: archived
-tags: ["limericks", "od-rewrite", "edirect", "egex", "taccess", "rl-warping"]
+tags: ["limericks", "mod-rewrite", "redirect", "regex", "htaccess", "url-warping"]
 ---
 
 # ModRewrite Gremblin

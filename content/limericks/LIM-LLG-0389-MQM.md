@@ -3,7 +3,7 @@ title: "Memorial Quorum Miscount, Esteem Presence Variant"
 id: limericks/LIM-LLG-0389-MQM
 parent: limericks
 status: archived
-tags: ["limericks", "morial-quorum", "tendance-rot", "reshold-drift"]
+tags: ["limericks", "memorial-quorum", "attendance-rot", "threshold-drift"]
 ---
 
 # Memorial Quorum Miscount, Esteem Presence Variant

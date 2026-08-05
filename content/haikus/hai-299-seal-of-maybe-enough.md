@@ -3,7 +3,7 @@ title: "Seal of Maybe Enough"
 id: haikus/HAI-0299
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "al", "ovisional", "equacy"]
+tags: ["haikus", "haiku", "seal", "provisional", "adequacy"]
 ---
 
 # Seal of Maybe Enough

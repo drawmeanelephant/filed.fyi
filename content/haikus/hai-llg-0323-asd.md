@@ -3,7 +3,7 @@ title: "Assurance Drift"
 id: haikus/HAI-LLG-0323-ASD
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "dit-drift", "surance-language", "ilure-laundering", "rminology"]
+tags: ["haikus", "haiku", "audit-drift", "assurance-language", "failure-laundering", "terminology"]
 ---
 
 # Assurance Drift

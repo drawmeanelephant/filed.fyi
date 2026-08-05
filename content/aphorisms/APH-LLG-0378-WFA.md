@@ -3,7 +3,7 @@ title: "Workforce Allocator Anomaly"
 id: aphorisms/APH-LLG-0378-WFA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "bot-workforce", "eeding-program", "location-anomaly", "thium-scenario"]
+tags: ["aphorisms", "robot-workforce", "breeding-program", "allocation-anomaly", "lithium-scenario"]
 ---
 
 # Workforce Allocator Aphorisms

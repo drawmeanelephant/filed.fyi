@@ -3,7 +3,7 @@ title: "Compassion Denial"
 id: haikus/HAI-LLG-0332-SCD
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "mpassion-addendum", "ma-denial", "ftness-penalty", "rsing-rot"]
+tags: ["haikus", "haiku", "compassion-addendum", "coma-denial", "softness-penalty", "parsing-rot"]
 ---
 
 # Compassion Denial

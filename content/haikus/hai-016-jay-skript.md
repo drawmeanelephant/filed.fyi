@@ -3,7 +3,7 @@ title: "Jay Skript"
 id: haikus/HAI-0016
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "vascript", "ync", "ash"]
+tags: ["haikus", "haiku", "javascript", "async", "crash", "asynchronous-instability", "event-loop-failure", "state-management"]
 ---
 
 # Jay Skript

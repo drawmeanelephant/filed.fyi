@@ -3,7 +3,7 @@ title: "Draft File Derrick"
 id: haikus/HAI-0009
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "afts", "finalized", "rruption"]
+tags: ["haikus", "haiku", "drafts", "unfinalized", "corruption"]
 ---
 
 # Draft File Derrick

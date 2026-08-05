@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix BUREAU_ASH (Telemetry Gap)"
 id: limericks/LIM-FREF-0916-QMBA
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Qualitative Matrix BUREAU_ASH (Telemetry Gap)

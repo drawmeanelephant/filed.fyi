@@ -3,7 +3,7 @@ title: "SRB Pocket Gloss"
 id: aphorisms/APH-FREF-0090-SRBG
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ossary", "an-language", "rated-absence", "cket-guide"]
+tags: ["aphorisms", "glossary", "scan-language", "curated-absence", "pocket-guide"]
 ---
 
 # Pocket Gloss Aphorisms

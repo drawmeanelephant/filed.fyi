@@ -3,7 +3,7 @@ title: "Trust Surface Retained Under Inherited Conditions"
 id: lorelog/LLG-0441-TSR
 parent: lorelog
 status: published
-tags: ["lorelog", "ust-surface", "herited-basis", "ntinuity", "oof-decay", "named-persistence", "nresolution", "oof-fade", "rkaround", "mpatibility", "scot", "terimage", "ccessor-drift", "stributed-nonresolution", "storical-burden", "ception-load-bearing", "surance-language", "mpliance-skin", "pport-structure", "vernance", "alism", "herited-defect", "ntinuity-language", "ctrine", "pair-claims", "solete-dependency"]
+tags: ["lorelog", "trust-surface", "inherited-basis", "continuity", "proof-decay", "renamed-persistence", "nonresolution", "proof-fade", "workaround", "compatibility", "mascot", "afterimage", "successor-drift", "classifications"]
 ---
 
 # Trust Surface Retained Under Inherited Conditions

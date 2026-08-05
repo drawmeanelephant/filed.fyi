@@ -3,7 +3,7 @@ title: "BHDSS Toast Overflow: Polite Degradation Event"
 id: lorelog/LLG-0003
 parent: lorelog
 status: published
-tags: ["lorelog", "HDSS", "oast-effect", "olite-degradation", "utage", "ndex-drift"]
+tags: ["lorelog", "BHDSS", "toast-effect", "polite-degradation", "outage", "index-drift"]
 ---
 
 # BHDSS Toast Overflow: Polite Degradation Event

@@ -3,7 +3,7 @@ title: "BHDSS — British Helpdesk Subsystem"
 id: aphorisms/APH-FREF-0350-BHDS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "itish-helpdesk", "lite-degradation", "otional-residue", "dss"]
+tags: ["aphorisms", "british-helpdesk", "polite-degradation", "emotional-residue", "bhdss"]
 ---
 
 # BHDSS Aphorisms

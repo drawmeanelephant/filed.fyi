@@ -3,7 +3,7 @@ title: "Green Band Canonization"
 id: aphorisms/APH-LLG-0824-GBC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Green Band Canonization

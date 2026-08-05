@@ -3,7 +3,7 @@ title: "Memorial Roll Expanded"
 id: haikus/HAI-LLG-0390-HAP
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "morial", "sences", "orum"]
+tags: ["haikus", "haiku", "memorial", "absences", "quorum"]
 ---
 
 # Memorial Roll Expanded

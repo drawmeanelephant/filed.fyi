@@ -3,7 +3,7 @@ title: "Restoration Directive RECORD_VEIL (Structural Gap)"
 id: reference/FREF-0912-RDRV
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Restoration Directive: RECORD_VEIL

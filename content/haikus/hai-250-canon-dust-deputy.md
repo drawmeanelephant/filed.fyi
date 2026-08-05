@@ -3,7 +3,7 @@ title: "Canon Dust Deputy"
 id: haikus/HAI-0250
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "non", "st", "puty"]
+tags: ["haikus", "haiku", "canon", "dust", "deputy", "lore-accumulation", "neglect", "canon-residue"]
 ---
 
 # Canon Dust Deputy

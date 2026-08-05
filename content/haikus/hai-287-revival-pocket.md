@@ -3,7 +3,7 @@ title: "Revival Pocket"
 id: haikus/HAI-0287
 parent: haikus
 status: archived
-tags: ["haikus", "vival", "covery", "mporary"]
+tags: ["haikus", "revival", "recovery", "temporary"]
 ---
 
 # Revival Pocket

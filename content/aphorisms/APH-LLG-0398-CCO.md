@@ -3,7 +3,7 @@ title: "Consolidated Chapter Office"
 id: aphorisms/APH-LLG-0398-CCO
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rger-drift", "norary-office", "apter-governance", "tle-persistence", "ntinuity-loop"]
+tags: ["aphorisms", "merger-drift", "honorary-office", "chapter-governance", "title-persistence", "continuity-loop"]
 ---
 
 # Consolidated Chapter Office Aphorisms

@@ -3,7 +3,7 @@ title: "Stub: Queue Theatre"
 id: haikus/HAI-FREF-0870-QTHR
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Queue Theatre

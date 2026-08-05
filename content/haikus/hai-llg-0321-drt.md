@@ -3,7 +3,7 @@ title: "Routing Drift"
 id: haikus/HAI-LLG-0321-DRT
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "uting-table", "ma-coma", "tification-rot", "rective-drift"]
+tags: ["haikus", "haiku", "routing-table", "soma-coma", "notification-rot", "directive-drift"]
 ---
 
 # Routing Drift

@@ -3,7 +3,7 @@ title: "Driftlocked Policy Box"
 id: limericks/LIM-0085
 parent: limericks
 status: published
-tags: ["limericks", "rective-conflict"]
+tags: ["limericks", "directive-conflict"]
 ---
 
 # Driftlocked Policy Box

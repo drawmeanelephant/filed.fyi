@@ -3,7 +3,7 @@ title: "Tizzy Blinkensync"
 id: haikus/HAI-0035
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "zen", "bile", "ost"]
+tags: ["haikus", "haiku", "tizen", "mobile", "ghost", "stagnation", "phantom-ui", "obsolescence"]
 ---
 
 # Tizzy Blinkensync

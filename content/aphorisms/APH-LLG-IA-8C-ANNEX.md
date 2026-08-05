@@ -3,7 +3,7 @@ title: "Bin 8C Reindexing Annex"
 id: aphorisms/APH-0055
 parent: aphorisms
 status: published
-tags: ["aphorisms", "n-8c", "lf-indexing", "ntainment", "lisman"]
+tags: ["aphorisms", "bin-8c", "self-indexing", "containment", "talisman"]
 ---
 
 # Bin 8C Annex Aphorisms

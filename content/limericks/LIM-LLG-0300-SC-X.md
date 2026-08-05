@@ -3,7 +3,7 @@ title: "SOMA-COMA Cross-Directive Conflict"
 id: limericks/LIM-LLG-0300-SC-X
 parent: limericks
 status: archived
-tags: ["limericks", "ma", "wntime-conflict"]
+tags: ["limericks", "soma", "coma", "downtime-conflict"]
 ---
 
 # SOMA-COMA Cross-Directive Conflict

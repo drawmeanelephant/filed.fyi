@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Desk – Internal Notes"
 id: limericks/LIM-FREF-0040-AVDN
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Assurance Vocabulary Desk – Internal Notes

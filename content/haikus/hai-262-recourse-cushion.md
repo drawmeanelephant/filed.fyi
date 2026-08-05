@@ -3,7 +3,7 @@ title: "Recourse Cushion"
 id: haikus/HAI-0262
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "peal", "shion", "jection"]
+tags: ["haikus", "haiku", "appeal", "cushion", "objection", "friction-nullification", "deflection-architecture", "velvet-routing"]
 ---
 
 # Recourse Cushion

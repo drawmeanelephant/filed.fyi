@@ -3,7 +3,7 @@ title: "Lodge of Mutual Exception"
 id: haikus/HAI-LLG-0341-LME
 parent: haikus
 status: archived
-tags: ["haikus", "ivers", "ceptions", "dge"]
+tags: ["haikus", "waivers", "exceptions", "lodge"]
 ---
 
 # Lodge of Mutual Exception

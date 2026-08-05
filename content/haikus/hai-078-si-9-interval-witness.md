@@ -3,7 +3,7 @@ title: "SI-9 Interval Witness"
 id: haikus/HAI-0078
 parent: haikus
 status: archived
-tags: ["haikus", "ntervals", "ilence", "nexplained"]
+tags: ["haikus", "intervals", "silence", "unexplained"]
 ---
 
 # SI-9 Interval Witness

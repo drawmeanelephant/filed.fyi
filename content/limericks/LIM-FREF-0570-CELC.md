@@ -3,7 +3,7 @@ title: "Care Event Lifecycle"
 id: limericks/LIM-FREF-0570-CELC
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "fecycle", "re"]
+tags: ["limericks", "hand-written", "empathegy", "lifecycle", "care"]
 ---
 
 # Care Event Lifecycle

@@ -3,7 +3,7 @@ title: "Variance Pastor"
 id: haikus/HAI-0251
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "riance", "stor", "uctuation"]
+tags: ["haikus", "haiku", "variance", "pastor", "fluctuation", "mercy", "leniency"]
 ---
 
 # Variance Pastor

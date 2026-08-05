@@ -3,7 +3,7 @@ title: "Green Band Hermeneutics"
 id: limericks/LIM-FREF-0690-GBHM
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "een-bands", "shboards"]
+tags: ["limericks", "hand-written", "empathegy", "green-bands", "dashboards"]
 ---
 
 # Green Band Hermeneutics

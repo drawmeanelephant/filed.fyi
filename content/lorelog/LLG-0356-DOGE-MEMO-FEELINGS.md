@@ -3,7 +3,7 @@ title: "DOGE Memo — Feelings Versus Evidence"
 id: lorelog/LLG-0356-DOGE-MEMO-FEELINGS
 parent: lorelog
 status: published
-tags: ["lorelog", "ge", "mo", "elings"]
+tags: ["lorelog", "doge", "memo", "feelings"]
 ---
 
 # DOGE Memo — Feelings Versus Evidence

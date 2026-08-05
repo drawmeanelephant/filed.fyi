@@ -3,7 +3,7 @@ title: "Atmosphere-Assisted Closure"
 id: aphorisms/APH-LLG-0861-ACS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Atmosphere-Assisted Closure

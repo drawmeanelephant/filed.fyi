@@ -3,7 +3,7 @@ title: "Forms Registry Keyspace Collision — Duplicate Series Claim"
 id: lorelog/LLG-0320-FRK
 parent: lorelog
 status: published
-tags: ["lorelog", "rformance-theater", "ltural-staples", "ak-inaction", "action-taxonomy", "rms-registry", "yspace-collision", "biguous-intent", "ffer-unstable", "mpliance-warning", "nsent-loop", "atitude-alignment", "take-confusion", "bor-refusal", "cursive-loop", "fuge-classification", "gistry-governance", "t-protocol"]
+tags: ["lorelog", "performance-theater", "cultural-staples", "peak-inaction", "inaction-taxonomy", "forms-registry", "keyspace-collision", "ambiguous-intent", "buffer-unstable", "compliance-warning", "consent-loop", "gratitude-alignment", "intake-confusion"]
 ---
 
 # Forms Registry Keyspace Collision — Duplicate Series Claim

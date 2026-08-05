@@ -3,7 +3,7 @@ title: "Dual Certification"
 id: reference/FREF-0640-DCER
 parent: reference
 status: published
-tags: ["reference", "pathegy", "al-certification", "ntradiction", "ntinuity", "tness"]
+tags: ["reference", "empathegy", "dual-certification", "contradiction", "continuity", "witness"]
 ---
 
 # Dual Certification

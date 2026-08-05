@@ -3,7 +3,7 @@ title: "Synthetic Affect & Successor Suite — Training Echo Layer"
 id: limericks/LIM-FREF-0360-SAST
 parent: limericks
 status: published
-tags: ["limericks", "nthetic-affect", "ccessor-suite", "aining-echo"]
+tags: ["limericks", "synthetic-affect", "successor-suite", "training-echo"]
 ---
 
 # Synthetic Affect & Successor Suite — Training Echo Layer

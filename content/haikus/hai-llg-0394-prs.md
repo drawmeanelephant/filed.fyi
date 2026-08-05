@@ -3,7 +3,7 @@ title: "Parade Route Sanctification"
 id: haikus/HAI-LLG-0394-PRS
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rade", "nctification", "ute"]
+tags: ["haikus", "haiku", "parade", "sanctification", "route"]
 ---
 
 # Parade Route Sanctification

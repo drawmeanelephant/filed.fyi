@@ -3,7 +3,7 @@ title: "Managed Absence Spine (MAP‑Annex)"
 id: limericks/LIM-FREF-0150-MAPA
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # Managed Absence Spine (MAP‑Annex)

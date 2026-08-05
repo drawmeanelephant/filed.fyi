@@ -3,7 +3,7 @@ title: "Directive Conflict Stack — SOMA, COMA & C.U.N.T.I.E.R. at Cross-Purpos
 id: limericks/LIM-FREF-0370-DCST
 parent: limericks
 status: published
-tags: ["limericks", "rective-conflict", "oss-purposes"]
+tags: ["limericks", "directive-conflict", "cross-purposes"]
 ---
 
 # Directive Conflict Stack — SOMA, COMA & C.U.N.T.I.E.R. at Cross-Purposes

@@ -3,7 +3,7 @@ title: "Training Echo Handling"
 id: haikus/HAI-FREF-0840-TEH
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "training-echo-handling", "echo-literacy", "ritual-compliance"]
 ---
 
 # Training Echo Handling

@@ -3,7 +3,7 @@ title: "Symbolic Completion"
 id: reference/FREF-0830-SYMC
 parent: reference
 status: published
-tags: ["reference", "pathegy", "mbolic-completion", "surance", "re", "ntinuity"]
+tags: ["reference", "empathegy", "symbolic-completion", "assurance", "care", "continuity"]
 ---
 
 # Symbolic Completion

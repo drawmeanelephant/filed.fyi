@@ -3,7 +3,7 @@ title: "SOMA Over-Feeling Intake"
 id: aphorisms/APH-LLG-0114-SOMA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "otion-overflow", "xonomy-failure", "ndy"]
+tags: ["aphorisms", "soma-directive", "emotion-overflow", "taxonomy-failure", "kindy"]
 ---
 
 # SOMA Over-Feeling Aphorisms

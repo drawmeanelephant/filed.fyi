@@ -3,7 +3,7 @@ title: "Proxy Compassion Load Redistribution Event"
 id: lorelog/LLG-0842-PCL
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "apology", "escalation", "governance-language", "continuity-compatible-phrasing", "failure-signature", "proxy-compassion", "reassurance-load", "delegated-warmth", "authority-gap", "emotional-labor", "surface-stabilization", "waiting"]
 ---
 
 # Proxy Compassion Load Redistribution Event

@@ -3,7 +3,7 @@ title: "Echo-Literate Filers"
 id: aphorisms/APH-FREF-0650-ELFR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ho-literate", "ling", "arned-dialect", "rvival-skill"]
+tags: ["aphorisms", "echo-literate", "filing", "learned-dialect", "survival-skill"]
 ---
 
 # Echo-Literate Aphorisms

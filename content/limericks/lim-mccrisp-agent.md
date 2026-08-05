@@ -3,7 +3,7 @@ title: "Agent McCrisp"
 id: limericks/LIM-0136
 parent: limericks
 status: archived
-tags: ["limericks", "orthern-spy", "rchard", "overt", "innamon", "tealth"]
+tags: ["limericks", "northern-spy", "orchard", "covert", "cinnamon", "stealth"]
 ---
 
 # Agent McCrisp

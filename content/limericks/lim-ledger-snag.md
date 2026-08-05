@@ -3,7 +3,7 @@ title: "Ledger Snag"
 id: limericks/LIM-0126
 parent: limericks
 status: published
-tags: ["limericks", "erge-conflict", "eadlock", "oth-valid", "rreconcilable", "edger"]
+tags: ["limericks", "merge-conflict", "deadlock", "both-valid", "irreconcilable", "ledger"]
 ---
 
 # Ledger Snag

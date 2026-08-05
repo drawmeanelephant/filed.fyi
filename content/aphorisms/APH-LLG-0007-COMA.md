@@ -3,7 +3,7 @@ title: "COMA-07 Phantom Uptime Assertion"
 id: aphorisms/APH-LLG-0007-COMA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "antom-uptime", "gative-evidence", "dit-contradiction", "tric-infallibility"]
+tags: ["aphorisms", "coma-directive", "phantom-uptime", "negative-evidence", "audit-contradiction", "metric-infallibility"]
 ---
 
 # COMA-07 Phantom Uptime Aphorisms

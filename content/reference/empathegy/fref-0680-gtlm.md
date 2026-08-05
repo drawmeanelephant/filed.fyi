@@ -3,7 +3,7 @@ title: "Gratitude Telemetry"
 id: reference/FREF-0680-GTLM
 parent: reference
 status: published
-tags: ["reference", "pathegy", "atitude", "lemetry", "preciation", "trics-drift"]
+tags: ["reference", "empathegy", "gratitude", "telemetry", "appreciation", "metrics-drift"]
 ---
 
 # Gratitude Telemetry

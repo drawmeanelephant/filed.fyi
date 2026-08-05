@@ -3,7 +3,7 @@ title: "WBA Continuity Gap"
 id: haikus/HAI-LLG-0403-WBA
 parent: haikus
 status: archived
-tags: ["haikus", "BA Continuity Gap", "ryosection", "ap", "aiku", "ba"]
+tags: ["haikus", "WBA Continuity Gap", "cryosection", "gap", "haiku", "wba"]
 ---
 
 # WBA Continuity Gap

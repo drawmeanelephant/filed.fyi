@@ -3,7 +3,7 @@ title: "Commemorative Ribbon Schism"
 id: aphorisms/APH-LLG-0392-RCS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "bbon-custody", "tifact-identity", "vic-legitimacy", "mmemorative-drift", "oto-proof"]
+tags: ["aphorisms", "ribbon-custody", "artifact-identity", "civic-legitimacy", "commemorative-drift", "photo-proof"]
 ---
 
 # Ribbon Schism Aphorisms

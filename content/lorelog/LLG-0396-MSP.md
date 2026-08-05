@@ -3,7 +3,7 @@ title: "Memorial Scholarship Proxy Substitution"
 id: lorelog/LLG-0396-MSP
 parent: lorelog
 status: published
-tags: ["lorelog", "holarship-fund", "morial-criteria", "nor-intent", "ief-governance", "nevolence-drift"]
+tags: ["lorelog", "scholarship-fund", "memorial-criteria", "donor-intent", "grief-governance", "benevolence-drift"]
 ---
 
 # Memorial Scholarship Proxy Substitution

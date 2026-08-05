@@ -3,7 +3,7 @@ title: "Hygiene Cycle 7-B"
 id: aphorisms/APH-MAP-INC-0014
 parent: aphorisms
 status: published
-tags: ["aphorisms", "giene", "ine-brightening", "glect", "ctrine"]
+tags: ["aphorisms", "hygiene", "spine-brightening", "neglect", "doctrine"]
 ---
 
 # Hygiene Cycle 7-B Aphorisms

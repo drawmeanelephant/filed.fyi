@@ -3,7 +3,7 @@ title: "Stub: Successor Lane, Ancestral Burden"
 id: haikus/HAI-LLG-0447-SLA
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Successor Lane, Ancestral Burden

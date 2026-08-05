@@ -3,7 +3,7 @@ title: "Replacement Without Release Index Note"
 id: aphorisms/APH-FREF-0841-RWIN
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Replacement Without Release Index Note

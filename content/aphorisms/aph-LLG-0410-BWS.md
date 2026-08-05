@@ -3,7 +3,7 @@ title: "Incident LORE-0410-BWS // Badge Witness Continuity After Basis Thinning"
 id: aphorisms/APH-LLG-0410-BWS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Incident LORE-0410-BWS // Badge Witness Continuity After Basis Thinning

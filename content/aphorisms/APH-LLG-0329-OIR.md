@@ -3,7 +3,7 @@ title: "Orphan Inventory Reinterpretation"
 id: aphorisms/APH-LLG-0329-OIR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "phan-files", "tention-policy", "ventory-confidence", "aft-file-derrick"]
+tags: ["aphorisms", "orphan-files", "retention-policy", "inventory-confidence", "draft-file-derrick"]
 ---
 
 # Orphan Inventory Aphorisms

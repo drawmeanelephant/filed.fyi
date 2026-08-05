@@ -3,7 +3,7 @@ title: "Executive Annexation Strategy"
 id: aphorisms/APH-LLG-0870-EAS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Executive Annexation Strategy

@@ -3,7 +3,7 @@ title: "SOMA–COMA Cross-Audit"
 id: aphorisms/APH-LLG-0400-SCAS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "u-n-t-i-e-r", "nthetic-feelings", "ndbox-leak", "rective-experiment"]
+tags: ["aphorisms", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "synthetic-feelings", "sandbox-leak", "directive-experiment"]
 ---
 
 # Cross-Audit Aphorisms

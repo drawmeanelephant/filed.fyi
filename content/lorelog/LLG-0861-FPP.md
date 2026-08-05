@@ -3,7 +3,7 @@ title: "Friendship Preamble Proliferation"
 id: lorelog/LLG-0861-FPP
 parent: lorelog
 status: archived
-tags: ["lorelog", "iendship-preamble", "lational-softening", "take-language", "cial-graph", "mand-hiding", "eamble"]
+tags: ["lorelog", "friendship-preamble", "relational-softening", "intake-language", "social-graph", "demand-hiding", "preamble"]
 ---
 
 # Friendship Preamble Proliferation

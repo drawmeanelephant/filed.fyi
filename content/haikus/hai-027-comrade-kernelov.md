@@ -3,7 +3,7 @@ title: "Comrade Kernelov"
 id: haikus/HAI-0027
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rnel", "-surveillance", "uality"]
+tags: ["haikus", "haiku", "kernel", "ui-surveillance", "equality", "process-equality", "state-enforcement"]
 ---
 
 # Comrade Kernelov

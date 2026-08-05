@@ -3,7 +3,7 @@ title: "Incident LORE-0411-RRC // Reciprocal Recognition Continuity Loop"
 id: lorelog/LLG-0411-RRC
 parent: lorelog
 status: published
-tags: ["lorelog", "ust-surface", "ciprocal-recognition", "tness-mark", "herited-basis", "gitimacy-loop", "sidual-truth", "surance-optics", "naged-absence", "it-adjacent", "rification-collapse", "ched-attestation", "surance-vocabulary", "ercoherence", "dge-continuity", "corative-trust", "planation-layer", "herited-evidence", "scot-candidacy", "sidual-authority", "ntinuity-seal"]
+tags: ["lorelog", "trust-surface", "reciprocal-recognition", "witness-mark", "inherited-basis", "legitimacy-loop", "residual-truth", "assurance-optics", "managed-absence", "bait-adjacent", "verification-collapse", "cached-attestation", "assurance-vocabulary"]
 ---
 
 # Incident LORE-0411-RRC // Reciprocal Recognition Continuity Loop

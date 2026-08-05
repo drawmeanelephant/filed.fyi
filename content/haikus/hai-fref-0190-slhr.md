@@ -3,7 +3,7 @@ title: "Stub: Secondary Legitimacy and Refuge Handling Notes"
 id: haikus/HAI-FREF-0190-SLHR
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "legitimacy", "refuge"]
 ---
 
 # Stub: Secondary Legitimacy and Refuge Handling Notes

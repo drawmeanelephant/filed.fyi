@@ -3,7 +3,7 @@ title: "COMA Sealed Observation"
 id: aphorisms/APH-0089
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma", "scot-review", "n-canonical", "istential-hr"]
+tags: ["aphorisms", "coma", "mascot-review", "non-canonical", "existential-hr"]
 ---
 
 # COMA Observation Aphorisms

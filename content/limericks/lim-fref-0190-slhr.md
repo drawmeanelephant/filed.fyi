@@ -3,7 +3,7 @@ title: "Secondary Legitimacy and Refuge Handling Notes"
 id: limericks/LIM-FREF-0190-SLHR
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # Secondary Legitimacy and Refuge Handling Notes

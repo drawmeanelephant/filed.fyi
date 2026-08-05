@@ -3,7 +3,7 @@ title: "Parvovirus-P"
 id: haikus/HAI-0061
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rus", "agedy", "eventable"]
+tags: ["haikus", "haiku", "virus", "tragedy", "preventable"]
 ---
 
 # Parvovirus-P

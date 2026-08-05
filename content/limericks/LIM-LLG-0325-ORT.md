@@ -3,7 +3,7 @@ title: "Orphan Retention Threshold Inflation"
 id: limericks/LIM-LLG-0325-ORT
 parent: limericks
 status: archived
-tags: ["limericks", "phan-retention", "reshold-inflation", "set-laundering"]
+tags: ["limericks", "orphan-retention", "threshold-inflation", "asset-laundering"]
 ---
 
 # Orphan Retention Threshold Inflation

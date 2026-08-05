@@ -3,7 +3,7 @@ title: "Htmlie Structura"
 id: haikus/HAI-0014
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ml", "mantic-purity", "ructure"]
+tags: ["haikus", "haiku", "html", "semantic-purity", "structure", "dom-hierarchy", "structural-enforcement"]
 ---
 
 # Htmlie Structura

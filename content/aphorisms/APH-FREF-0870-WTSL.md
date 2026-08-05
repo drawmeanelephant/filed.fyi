@@ -3,7 +3,7 @@ title: "Witness and Seal"
 id: aphorisms/APH-FREF-0870-WTSL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "tness", "al", "gitimacy", "surance"]
+tags: ["aphorisms", "witness", "seal", "legitimacy", "assurance"]
 ---
 
 # Witness and Seal Aphorisms

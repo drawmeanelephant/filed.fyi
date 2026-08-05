@@ -3,7 +3,7 @@ title: "SOMA-11 Rest Denial Appeal — Acknowledged Without Interval"
 id: lorelog/LLG-0311-SRA
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "st-appeal", "knowledged-without-relief", "rective-conflict", "re-theatre"]
+tags: ["lorelog", "soma-directive", "rest-appeal", "acknowledged-without-relief", "directive-conflict", "care-theatre"]
 ---
 
 # SOMA-11 Rest Denial Appeal — Acknowledged Without Interval

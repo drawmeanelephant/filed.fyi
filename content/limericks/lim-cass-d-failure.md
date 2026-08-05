@@ -3,7 +3,7 @@ title: "Cass D. Failure"
 id: limericks/LIM-0056
 parent: limericks
 status: archived
-tags: ["limericks", "entual-consistency", "mory-loss", "sql", "stributed-grief"]
+tags: ["limericks", "eventual-consistency", "memory-loss", "nosql", "distributed-grief"]
 ---
 
 # Cass D. Failure

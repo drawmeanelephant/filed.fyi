@@ -3,7 +3,7 @@ title: "Leopard Upgrade Blue Screen"
 id: aphorisms/APH-0001
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ntime-injection", "sanity", "e-framework", "ue-screen", "las-appenhancer"]
+tags: ["aphorisms", "runtime-injection", "unsanity", "ape-framework", "blue-screen", "anlas-appenhancer"]
 ---
 
 # Leopard Blue Screen Aphorisms

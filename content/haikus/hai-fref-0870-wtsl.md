@@ -3,7 +3,7 @@ title: "Stub: Witness and Seal Layer"
 id: haikus/HAI-FREF-0870-WTSL
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "witness-and-seal-layer", "legitimacy-drift", "reciprocal-fragility"]
 ---
 
 # Stub: Witness and Seal Layer

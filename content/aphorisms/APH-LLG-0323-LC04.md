@@ -3,7 +3,7 @@ title: "Soft Green Seal"
 id: aphorisms/APH-LLG-0323-LC04
 parent: aphorisms
 status: published
-tags: ["aphorisms", "surance-vocabulary", "ntinuity-optics", "al-semantics", "w-confidence-object"]
+tags: ["aphorisms", "assurance-vocabulary", "continuity-optics", "seal-semantics", "low-confidence-object"]
 ---
 
 # Soft Green Seal Aphorisms

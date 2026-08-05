@@ -3,7 +3,7 @@ title: "Commemorative Ribbon Custody Schism"
 id: lorelog/LLG-0392-RCS
 parent: lorelog
 status: published
-tags: ["lorelog", "bbon-custody", "tifact-identity", "vic-legitimacy", "mmemorative-drift", "oto-proof"]
+tags: ["lorelog", "ribbon-custody", "artifact-identity", "civic-legitimacy", "commemorative-drift", "photo-proof"]
 ---
 
 # Commemorative Ribbon Custody Schism

@@ -3,7 +3,7 @@ title: "Stub: Allocation Protocol STACK_HUSH (Dense Overdrift)"
 id: haikus/HAI-FREF-0913-APSH
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Allocation Protocol STACK_HUSH (Dense Overdrift)

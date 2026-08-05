@@ -3,7 +3,7 @@ title: "Silence Burden Index"
 id: haikus/HAI-LLG-0338-SBI
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ma", "lence", "rden"]
+tags: ["haikus", "haiku", "soma", "silence", "burden"]
 ---
 
 # Silence Burden Index

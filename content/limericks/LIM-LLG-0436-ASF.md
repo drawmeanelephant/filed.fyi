@@ -3,7 +3,7 @@ title: "Stub: Active State Freshness Event"
 id: limericks/LIM-LLG-0436-ASF
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Active State Freshness Event

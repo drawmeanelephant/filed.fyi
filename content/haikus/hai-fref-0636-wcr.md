@@ -3,7 +3,7 @@ title: "Witness Custody Registry — Known Routing Gaps"
 id: haikus/HAI-FREF-0636-WCR
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "custody", "routing-gaps", "authority"]
 ---
 
 # Witness Custody Registry — Known Routing Gaps

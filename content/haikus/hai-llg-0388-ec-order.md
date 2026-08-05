@@ -3,7 +3,7 @@ title: "Emergency Change Rejected"
 id: haikus/HAI-LLG-0388-EC-ORDER
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ergency", "ange-rejected", "der"]
+tags: ["haikus", "haiku", "emergency", "change-rejected", "order"]
 ---
 
 # Emergency Change Rejected

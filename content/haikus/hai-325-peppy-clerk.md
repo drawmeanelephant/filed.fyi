@@ -3,7 +3,7 @@ title: "Stub: Peppy Clerk"
 id: haikus/HAI-0325
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Peppy Clerk

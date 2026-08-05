@@ -3,7 +3,7 @@ title: "Trust Surface Retained Under Inherited Conditions"
 id: aphorisms/APH-LLG-0441-TSR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Trust Surface Retained Under Inherited Conditions

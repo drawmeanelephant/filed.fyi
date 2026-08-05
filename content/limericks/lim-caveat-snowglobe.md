@@ -3,7 +3,7 @@ title: "Caveat Snowglobe"
 id: limericks/LIM-0057
 parent: limericks
 status: archived
-tags: ["limericks", "esentations", "veat-compression", "ecutive-summary"]
+tags: ["limericks", "presentations", "caveat-compression", "executive-summary"]
 ---
 
 # Caveat Snowglobe

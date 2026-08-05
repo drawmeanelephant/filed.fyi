@@ -3,7 +3,7 @@ title: "Over‑Coherence Intake Log – Selected Entries"
 id: limericks/LIM-0019
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # Over‑Coherence Intake Log – Selected Entries

@@ -3,7 +3,7 @@ title: "Qualitative Matrix BUREAU_ASH (Telemetry Gap)"
 id: reference/FREF-0916-QMBA
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Qualitative Matrix: BUREAU_ASH

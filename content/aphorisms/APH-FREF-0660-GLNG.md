@@ -3,7 +3,7 @@ title: "Governance Language"
 id: aphorisms/APH-FREF-0660-GLNG
 parent: aphorisms
 status: published
-tags: ["aphorisms", "xicon", "vernance-language", "bstitution", "stitutional-phrasing"]
+tags: ["aphorisms", "lexicon", "governance-language", "substitution", "institutional-phrasing"]
 ---
 
 # Governance Language Aphorisms

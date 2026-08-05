@@ -3,7 +3,7 @@ title: "Continuity Theatre"
 id: haikus/HAI-FREF-0610-CTHR
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "pathegy", "ntinuity", "eatre", "rformance"]
+tags: ["haikus", "haiku", "empathegy", "continuity", "theatre", "performance"]
 ---
 
 # Continuity Theatre

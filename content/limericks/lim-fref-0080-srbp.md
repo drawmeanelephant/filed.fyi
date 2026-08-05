@@ -3,7 +3,7 @@ title: "Scan Reinterpretation Bloc – Practice Notes"
 id: limericks/LIM-FREF-0080-SRBP
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Scan Reinterpretation Bloc – Practice Notes

@@ -3,7 +3,7 @@ title: "Rehearsed Kindness"
 id: reference/FREF-0770-RHKD
 parent: reference
 status: published
-tags: ["reference", "pathegy", "hearsed-kindness", "ripts", "ne-style", "verage"]
+tags: ["reference", "empathegy", "rehearsed-kindness", "scripts", "tone-style", "leverage"]
 ---
 
 # Rehearsed Kindness

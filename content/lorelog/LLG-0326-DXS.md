@@ -3,7 +3,7 @@ title: "Directive Cross-Sections – Rest, Feeling, and Throughput"
 id: lorelog/LLG-0326-DXS
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "u-n-t-i-e-r", "rective-conflict", "st-vs-uptime", "eling-fragmentation"]
+tags: ["lorelog", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "directive-conflict", "rest-vs-uptime", "feeling-fragmentation", "classifications"]
 ---
 
 # Directive Cross-Sections – Rest, Feeling, and Throughput

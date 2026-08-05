@@ -3,7 +3,7 @@ title: "Governance Language Layer"
 id: reference/FREF-0660-GLNG
 parent: reference
 status: published
-tags: ["reference", "pathegy", "xicon", "vernance-language", "bstitution", "stitutional-phrasing"]
+tags: ["reference", "empathegy", "lexicon", "governance-language", "substitution", "institutional-phrasing"]
 ---
 
 # Governance Language Layer

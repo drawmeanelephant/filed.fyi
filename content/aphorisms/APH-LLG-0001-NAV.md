@@ -3,7 +3,7 @@ title: "Navigation Collapse Event — Breadcrumb Stratum Failure"
 id: aphorisms/APH-LLG-0001-NAV
 parent: aphorisms
 status: published
-tags: ["aphorisms", "oken-navigation", "eadcrumb-failure", "chor-loop", "t-protocol"]
+tags: ["aphorisms", "broken-navigation", "breadcrumb-failure", "anchor-loop", "rot-protocol"]
 ---
 
 # Navigation Collapse Event Aphorisms

@@ -3,7 +3,7 @@ title: "Green Band Hermeneutics"
 id: aphorisms/APH-FREF-0690-GBHM
 parent: aphorisms
 status: published
-tags: ["aphorisms", "een-bands", "rmeneutics", "ntinuity", "lor-speed"]
+tags: ["aphorisms", "green-bands", "hermeneutics", "continuity", "color-speed"]
 ---
 
 # Green Band Aphorisms

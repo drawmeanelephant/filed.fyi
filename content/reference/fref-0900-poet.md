@@ -3,7 +3,7 @@ title: "Poetry Audit Report"
 id: reference/FREF-0900-POET
 parent: reference
 status: archived
-tags: ["reference", "ference", "dit", "etry", "ratchpad"]
+tags: ["reference", "audit", "poetry", "historical-residue"]
 ---
 
 # Poetry Collection Audit & Agent Scratchpad Manifest

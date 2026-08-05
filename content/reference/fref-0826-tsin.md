@@ -3,7 +3,7 @@ title: "Trust Surface Index Note"
 id: reference/FREF-0826-TSIN
 parent: reference
 status: archived
-tags: ["reference", "ference", "ust-surface", "dex-note", "ine", "chival-cluster"]
+tags: ["reference", "trust-surface", "index-note", "spine", "archival-cluster", "core-doctrines"]
 ---
 
 # Trust Surface Index Note

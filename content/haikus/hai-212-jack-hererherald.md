@@ -3,7 +3,7 @@ title: "Jack Hererherald"
 id: haikus/HAI-0212
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nnabis", "kansas", "spensary"]
+tags: ["haikus", "haiku", "cannabis", "arkansas", "dispensary"]
 ---
 
 # Jack Hererherald

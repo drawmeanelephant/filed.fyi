@@ -3,7 +3,7 @@ title: "Dead Service Layer"
 id: reference/FREF-0810-DSL
 parent: reference
 status: published
-tags: ["reference", "ad-service-layer", "naged-absence", "mplimentary-service", "rked-endpoints", "stitutional-sunset", "ilure-signature"]
+tags: ["reference", "dead-service-layer", "managed-absence", "complimentary-service", "parked-endpoints", "institutional-sunset", "failure-signature"]
 ---
 
 # Dead Service Layer

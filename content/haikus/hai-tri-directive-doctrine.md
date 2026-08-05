@@ -3,7 +3,7 @@ title: "Stub: Tri-Directive Doctrine & Collisions"
 id: haikus/HAI-0097
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Tri-Directive Doctrine & Collisions

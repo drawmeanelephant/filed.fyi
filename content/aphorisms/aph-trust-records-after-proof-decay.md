@@ -3,7 +3,7 @@ title: "Trust Records After Proof Decay"
 id: aphorisms/APH-0099
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Trust Records After Proof Decay

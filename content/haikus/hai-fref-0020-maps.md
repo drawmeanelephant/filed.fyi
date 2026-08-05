@@ -3,7 +3,7 @@ title: "Stub: Managed Absence Spine – CAAR, LCGU, STCP, AAOA"
 id: haikus/HAI-FREF-0020-MAPS
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "managed-absence"]
 ---
 
 # Stub: Managed Absence Spine – CAAR, LCGU, STCP, AAOA

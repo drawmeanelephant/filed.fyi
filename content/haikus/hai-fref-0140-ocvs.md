@@ -3,7 +3,7 @@ title: "Over‑Coherence Screening Checklist"
 id: haikus/HAI-FREF-0140-OCVS
 parent: haikus
 status: published
-tags: ["haikus", "iku", "ference", "v-screening-checklist"]
+tags: ["haikus", "haiku", "reference", "ocv-screening-checklist", "directive-conflict", "over-coherence", "screening"]
 ---
 
 # Over‑Coherence Screening Checklist

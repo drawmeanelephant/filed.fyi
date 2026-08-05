@@ -3,7 +3,7 @@ title: "fref-0661: Inaction Taxonomy — Aspirational Tier"
 id: reference/FREF-0661-AGBX
 parent: reference
 status: archived
-tags: ["reference", "action-taxonomy", "rformance-theater", "assification", "ference"]
+tags: ["reference", "inaction-taxonomy", "performance-theater", "classification"]
 ---
 
 # fref-0661: Inaction Taxonomy — Aspirational Tier

@@ -3,7 +3,7 @@ title: "Appendix Silk"
 id: haikus/HAI-0275
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "pendix", "rmatting", "lk"]
+tags: ["haikus", "haiku", "appendix", "formatting", "silk"]
 ---
 
 # Appendix Silk

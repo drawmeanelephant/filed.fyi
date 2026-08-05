@@ -3,7 +3,7 @@ title: "Gratitude Capture"
 id: reference/FREF-0670-GTCAP
 parent: reference
 status: published
-tags: ["reference", "pathegy", "atitude", "trics-of-care", "pture", "ntinuity"]
+tags: ["reference", "empathegy", "gratitude", "metrics-of-care", "capture", "continuity"]
 ---
 
 # Gratitude Capture

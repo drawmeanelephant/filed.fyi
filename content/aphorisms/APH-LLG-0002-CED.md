@@ -3,7 +3,7 @@ title: "Contested Cache Expiry — ETag Contradiction Incident"
 id: aphorisms/APH-LLG-0002-CED
 parent: aphorisms
 status: published
-tags: ["aphorisms", "che-expiry", "ag-conflict", "ader-dispute", "ntested-freshness"]
+tags: ["aphorisms", "cache-expiry", "etag-conflict", "header-dispute", "contested-freshness"]
 ---
 
 # Contested Cache Expiry Aphorisms

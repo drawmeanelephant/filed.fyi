@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Annex"
 id: aphorisms/APH-LLG-0327-AVA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "dit-optics", "surance-vocabulary", "mantic-laundering", "icky-goldbricksworth"]
+tags: ["aphorisms", "audit-optics", "assurance-vocabulary", "semantic-laundering", "bricky-goldbricksworth"]
 ---
 
 # Assurance Vocabulary Aphorisms

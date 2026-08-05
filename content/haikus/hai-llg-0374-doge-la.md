@@ -3,7 +3,7 @@ title: "Local Anchor Verification"
 id: haikus/HAI-LLG-0374-DOGE-LA
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ge", "chors", "idence"]
+tags: ["haikus", "haiku", "doge", "anchors", "evidence", "bin-8c"]
 ---
 
 # Local Anchor Verification

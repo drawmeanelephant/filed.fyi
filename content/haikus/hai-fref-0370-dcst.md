@@ -3,7 +3,7 @@ title: "Stub: Directive Conflict Stack — SOMA, COMA & C.U.N.T.I.E.R. at Cross-
 id: haikus/HAI-FREF-0370-DCST
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "directive-conflict", "empathegy"]
 ---
 
 # Stub: Directive Conflict Stack — SOMA, COMA & C.U.N.T.I.E.R. at Cross-Purposes

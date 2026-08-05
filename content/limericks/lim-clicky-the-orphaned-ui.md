@@ -3,7 +3,7 @@ title: "Clicky the Orphaned UI"
 id: limericks/LIM-0060
 parent: limericks
 status: archived
-tags: ["limericks", "boarding", "phaned-ui", "nset", "ost-button", "vnull"]
+tags: ["limericks", "onboarding", "orphaned-ui", "sunset", "ghost-button", "devnull"]
 ---
 
 # Clicky the Orphaned UI

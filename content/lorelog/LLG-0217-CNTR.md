@@ -3,7 +3,7 @@ title: "C.U.N.T.I.E.R. Metric Inflation — Forms per Form Incident"
 id: lorelog/LLG-0217-CNTR
 parent: lorelog
 status: published
-tags: ["lorelog", "u-n-t-i-e-r", "timization-failure", "trics-theatre", "rm-proliferation", "ocedural-bloat", "scots", "ltline-purity", "ilure-signature", "riance-suppression", "nchmarks"]
+tags: ["lorelog", "c-u-n-t-i-e-r", "optimization-failure", "metrics-theatre", "form-proliferation", "procedural-bloat", "mascots", "beltline-purity", "failure-signature", "variance-suppression", "benchmarks"]
 ---
 
 # C.U.N.T.I.E.R. Metric Inflation — Forms per Form Incident

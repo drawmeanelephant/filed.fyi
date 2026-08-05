@@ -3,7 +3,7 @@ title: "Sol Burnout"
 id: haikus/HAI-0034
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rnout", "nstroke", "tigue"]
+tags: ["haikus", "haiku", "burnout", "sunstroke", "fatigue", "hardware-fatigue"]
 ---
 
 # Sol Burnout

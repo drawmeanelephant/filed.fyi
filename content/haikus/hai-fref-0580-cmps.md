@@ -3,7 +3,7 @@ title: "Compassion Surfaces"
 id: haikus/HAI-FREF-0580-CMPS
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "compassion", "suppression", "decorative-care"]
 ---
 
 # Compassion Surfaces

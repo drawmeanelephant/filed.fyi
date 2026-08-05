@@ -3,7 +3,7 @@ title: "Soft Green Sealie"
 id: haikus/HAI-0229
 parent: haikus
 status: archived
-tags: ["haikus", "uperficial-interfaces", "lacation", "ystem-malfunction"]
+tags: ["haikus", "superficial-interfaces", "placation", "system-malfunction"]
 ---
 
 # Soft Green Sealie

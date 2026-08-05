@@ -3,7 +3,7 @@ title: "Dead Service Layer"
 id: limericks/LIM-FREF-0810-DSL
 parent: limericks
 status: published
-tags: ["limericks", "ad-service-layer"]
+tags: ["limericks", "dead-service-layer"]
 ---
 
 # Dead Service Layer

@@ -3,7 +3,7 @@ title: "Bea Crashwell"
 id: haikus/HAI-0026
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "os", "eed", "sappearance"]
+tags: ["haikus", "haiku", "beos", "speed", "disappearance", "sudden-disappearance", "system-instability"]
 ---
 
 # Bea Crashwell

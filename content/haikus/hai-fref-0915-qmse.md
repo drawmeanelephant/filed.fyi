@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix SHELF_ECHO (Telemetry Gap)"
 id: haikus/HAI-FREF-0915-QMSE
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Qualitative Matrix SHELF_ECHO (Telemetry Gap)

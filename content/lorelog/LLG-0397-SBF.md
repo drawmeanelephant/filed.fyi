@@ -3,7 +3,7 @@ title: "Scholarship Breakfast Forecast Overcommitment"
 id: lorelog/LLG-0397-SBF
 parent: lorelog
 status: published
-tags: ["lorelog", "ncake-breakfast", "holarship-fund", "recast-drift", "plied-approval", "vic-boosterism", "ructural-deficit", "oxy-compassion", "lite-refusal", "nerosity", "cess"]
+tags: ["lorelog", "pancake-breakfast", "scholarship-fund", "forecast-drift", "implied-approval", "civic-boosterism", "structural-deficit", "proxy-compassion", "polite-refusal", "generosity", "access"]
 ---
 
 # Scholarship Breakfast Forecast Overcommitment

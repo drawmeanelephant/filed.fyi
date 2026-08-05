@@ -3,7 +3,7 @@ title: "Council of Mascot Authors Teaching Specimen Authorization Drift"
 id: aphorisms/APH-LLG-0400-CMA-TSP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms", "aching-specimen"]
+tags: ["aphorisms", "teaching-specimen"]
 ---
 
 # CMA-TSP Aphorisms

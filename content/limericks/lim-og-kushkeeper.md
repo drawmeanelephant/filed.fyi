@@ -3,7 +3,7 @@ title: "OG Kushkeeper"
 id: limericks/LIM-0148
 parent: limericks
 status: archived
-tags: ["limericks", "ispensary", "g-kush", "annabis", "ine", "ittle-rock"]
+tags: ["limericks", "dispensary", "og-kush", "cannabis", "pine", "little-rock"]
 ---
 
 # OG Kushkeeper

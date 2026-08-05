@@ -3,7 +3,7 @@ title: "Appendix Smoothing Format"
 id: aphorisms/APH-LLG-0871-ASF
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Appendix Smoothing Format

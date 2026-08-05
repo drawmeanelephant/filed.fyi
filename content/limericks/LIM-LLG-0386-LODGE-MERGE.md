@@ -3,7 +3,7 @@ title: "Chapter Consolidation Notice, Attendance Survives Merger"
 id: limericks/LIM-LLG-0386-LODGE-MERGE
 parent: limericks
 status: archived
-tags: ["limericks", "dge-merger", "tendance", "morial-quorum"]
+tags: ["limericks", "lodge-merger", "attendance", "memorial-quorum"]
 ---
 
 # Chapter Consolidation Notice, Attendance Survives Merger

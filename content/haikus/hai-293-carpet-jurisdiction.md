@@ -3,7 +3,7 @@ title: "Carpet Jurisdiction"
 id: haikus/HAI-0293
 parent: haikus
 status: archived
-tags: ["haikus", "risdiction", "rpet", "thority"]
+tags: ["haikus", "jurisdiction", "carpet", "authority"]
 ---
 
 # Carpet Jurisdiction

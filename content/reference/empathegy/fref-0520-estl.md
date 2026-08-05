@@ -3,7 +3,7 @@ title: "Aesthetic Survival Layer"
 id: reference/FREF-0520-ESTL
 parent: reference
 status: published
-tags: ["reference", "pathegy", "sthetics", "itation", "gibility", "ift"]
+tags: ["reference", "empathegy", "aesthetics", "imitation", "legibility", "drift"]
 ---
 
 # Aesthetic Survival Layer

@@ -3,7 +3,7 @@ title: "Workaround Adoption Drift in Successor Environment"
 id: aphorisms/APH-LLG-0414-WAD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Workaround Adoption Drift in Successor Environment

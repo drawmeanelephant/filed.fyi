@@ -3,7 +3,7 @@ title: "Breeding Match Allocation"
 id: limericks/LIM-LLG-0380-MATCH
 parent: limericks
 status: archived
-tags: ["limericks", "eeding-program", "ft-match", "chive-nearness"]
+tags: ["limericks", "breeding-program", "soft-match", "archive-nearness"]
 ---
 
 # Breeding Match Allocation

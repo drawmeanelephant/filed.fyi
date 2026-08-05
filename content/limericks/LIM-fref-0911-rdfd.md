@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive FOLIO_DRIFT (Structural Gap)"
 id: limericks/LIM-FREF-0911-RDFD
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Restoration Directive FOLIO_DRIFT (Structural Gap)

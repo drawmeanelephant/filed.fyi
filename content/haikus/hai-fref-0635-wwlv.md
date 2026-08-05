@@ -3,7 +3,7 @@ title: "Witness Without Leverage — Handling Note"
 id: haikus/HAI-FREF-0635-WWLV
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "witnessing", "powerlessness", "misrouting"]
 ---
 
 # Witness Without Leverage — Handling Note

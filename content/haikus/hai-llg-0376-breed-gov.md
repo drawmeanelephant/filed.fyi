@@ -3,7 +3,7 @@ title: "Breeding Governance"
 id: haikus/HAI-LLG-0376-BREED-GOV
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "eeding-governance", "licy-vacuum", "uncil-memo", "ignment-rot"]
+tags: ["haikus", "haiku", "breeding-governance", "policy-vacuum", "council-memo", "alignment-rot", "managed-absence"]
 ---
 
 # Breeding Governance

@@ -3,7 +3,7 @@ title: "Manifest Backup Recency Dispute"
 id: aphorisms/APH-LLG-0316-MBR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "nifest-backups", "apshot-recency", "ntinuity-theatre", "icky-goldbricksworth"]
+tags: ["aphorisms", "manifest-backups", "snapshot-recency", "continuity-theatre", "bricky-goldbricksworth"]
 ---
 
 # Backup Recency Aphorisms

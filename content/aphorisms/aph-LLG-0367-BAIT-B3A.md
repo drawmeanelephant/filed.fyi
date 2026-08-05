@@ -3,7 +3,7 @@ title: "BAIT Subtype B-3A Civic Substitution Loop"
 id: aphorisms/APH-LLG-0367-BAIT-B3A
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # BAIT Subtype B-3A Civic Substitution Loop

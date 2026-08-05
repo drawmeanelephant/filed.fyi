@@ -3,7 +3,7 @@ title: "Trust Surface Residual Truth"
 id: aphorisms/APH-FREF-0823-TSRT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Trust Surface Residual Truth

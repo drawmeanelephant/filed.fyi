@@ -3,7 +3,7 @@ title: "MA/8C Cluster Re-Indexing"
 id: aphorisms/APH-LLG-SYS-0008-REINDEX-0001
 parent: aphorisms
 status: published
-tags: ["aphorisms", "indexing", "uster-identity", "n-8c", "troactive-identity"]
+tags: ["aphorisms", "reindexing", "cluster-identity", "bin-8c", "retroactive-identity"]
 ---
 
 # Cluster Re-Indexing Aphorisms

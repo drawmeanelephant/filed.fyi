@@ -3,7 +3,7 @@ title: "Simulator Weather Advisory Bulletin High-Intensity Feed Conditions"
 id: aphorisms/APH-LLG-0369-DOGE-SWAB
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Simulator Weather Advisory Bulletin High-Intensity Feed Conditions

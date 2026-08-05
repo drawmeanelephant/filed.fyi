@@ -3,7 +3,7 @@ title: "Supersession Reflection Loop — Form vs. Counter-Form"
 id: lorelog/LLG-0226-SUPR
 parent: lorelog
 status: published
-tags: ["lorelog", "persession-loop", "entity-drift", "nonicality-dispute", "rms-registry", "cal-vs-global"]
+tags: ["lorelog", "supersession-loop", "identity-drift", "canonicality-dispute", "forms-registry", "local-vs-global"]
 ---
 
 # Supersession Reflection Loop — Form vs. Counter-Form

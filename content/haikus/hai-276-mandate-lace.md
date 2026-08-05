@@ -3,7 +3,7 @@ title: "Mandate Lace"
 id: haikus/HAI-0276
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ndate", "ligation", "ce"]
+tags: ["haikus", "haiku", "mandate", "obligation", "lace"]
 ---
 
 # Mandate Lace

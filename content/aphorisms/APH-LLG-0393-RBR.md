@@ -3,7 +3,7 @@ title: "Resolution Banner Reinstated"
 id: aphorisms/APH-LLG-0393-RBR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "anding-resolution", "covered-banner", "xiliary-memory", "remonial-policy", "nor-hall"]
+tags: ["aphorisms", "standing-resolution", "recovered-banner", "auxiliary-memory", "ceremonial-policy", "honor-hall"]
 ---
 
 # Resolution Banner Aphorisms

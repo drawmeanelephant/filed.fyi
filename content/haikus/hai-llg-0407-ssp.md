@@ -3,7 +3,7 @@ title: "Sandbox Scope Creep Protocol"
 id: haikus/HAI-LLG-0407-SSP
 parent: haikus
 status: archived
-tags: ["haikus", "andbox Scope Creep", "xperiments believing themselves", "aiku", "rotocol", "andbox", "cope-creep"]
+tags: ["haikus", "Sandbox Scope Creep", "experiments believing themselves", "haiku", "protocol", "sandbox", "scope-creep"]
 ---
 
 # Sandbox Scope Creep Protocol

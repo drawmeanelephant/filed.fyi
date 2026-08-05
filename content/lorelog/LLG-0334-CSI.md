@@ -3,7 +3,7 @@ title: "COMA Silent Interval Certification Rejected by SOMA as Unprocessed Strai
 id: lorelog/LLG-0334-CSI
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "classification-rot", "coma-directive", "dashboard-refusal", "directive-conflict", "failure-signature", "managed-absence", "metrics-of-care", "soma-directive", "unmeasured-burden", "mascots", "service-continuity", "silent-interval"]
 ---
 
 # COMA Silent Interval Certification Rejected by SOMA as Unprocessed Strain

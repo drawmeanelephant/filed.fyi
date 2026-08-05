@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Realignment"
 id: aphorisms/APH-LLG-0327-AVR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "dit-optics", "assification-rot", "mantic-laundering", "naged-absence"]
+tags: ["aphorisms", "audit-optics", "classification-rot", "semantic-laundering", "managed-absence"]
 ---
 
 # Assurance Vocabulary Realignment Aphorisms

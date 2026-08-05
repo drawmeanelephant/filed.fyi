@@ -3,7 +3,7 @@ title: "Qualitative Matrix SHELF_ECHO (Telemetry Gap)"
 id: reference/FREF-0915-QMSE
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Qualitative Matrix: SHELF_ECHO

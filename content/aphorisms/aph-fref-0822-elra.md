@@ -3,7 +3,7 @@ title: "Explanation Layer Residue Audit"
 id: aphorisms/APH-FREF-0822-ELRA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Explanation Layer Residue Audit

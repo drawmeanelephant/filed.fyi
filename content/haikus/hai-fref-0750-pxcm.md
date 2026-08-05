@@ -3,7 +3,7 @@ title: "Proxy Compassion"
 id: haikus/HAI-FREF-0750-PXCM
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "proxy-compassion", "synthetic-warmth"]
 ---
 
 # Proxy Compassion

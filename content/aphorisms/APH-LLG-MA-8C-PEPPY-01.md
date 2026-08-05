@@ -3,7 +3,7 @@ title: "Peppy Clerk Continuity"
 id: aphorisms/APH-LLG-MA-8C-PEPPY-0001
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ppy-clerk", "scot-affairs", "assification-rot", "eam-without-steam"]
+tags: ["aphorisms", "peppy-clerk", "mascot-affairs", "classification-rot", "steam-without-steam"]
 ---
 
 # Peppy Clerk Aphorisms

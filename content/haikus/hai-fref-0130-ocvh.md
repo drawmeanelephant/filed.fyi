@@ -3,7 +3,7 @@ title: "Over‑Coherence Vault – Handling Notes"
 id: haikus/HAI-FREF-0130-OCVH
 parent: haikus
 status: published
-tags: ["haikus", "iku", "ference", "v-handling-notes"]
+tags: ["haikus", "haiku", "reference", "ocv-handling-notes", "directive-conflict", "over-coherence", "handling"]
 ---
 
 # Over‑Coherence Vault – Handling Notes

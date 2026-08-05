@@ -3,7 +3,7 @@ title: "RAGE Charter"
 id: haikus/HAI-LLG-0360-RAGE-CHARTER
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "it", "gertainment"]
+tags: ["haikus", "rage", "bait", "angertainment"]
 ---
 
 # RAGE Charter

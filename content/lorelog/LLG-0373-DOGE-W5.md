@@ -3,7 +3,7 @@ title: "Window 5 Appeal Routing Failure Local Anchor Congestion Event"
 id: lorelog/LLG-0373-DOGE-W5
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "doge-charter", "audit-drift", "compliance-theatre", "procedural-bloat", "intake-deadlock", "batch-residue", "stamp-drift", "verification-backlog"]
 ---
 
 # Window 5 Appeal Routing Failure Local Anchor Congestion Event

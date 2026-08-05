@@ -3,7 +3,7 @@ title: "Institutional Explanation Layer Stabilization"
 id: limericks/LIM-FREF-0820-IELS
 parent: limericks
 status: published
-tags: ["limericks", "stitutional", "planation-layer", "abilization"]
+tags: ["limericks", "institutional", "explanation-layer", "stabilization"]
 ---
 
 # Institutional Explanation Layer Stabilization

@@ -3,7 +3,7 @@ title: "KPI Koala"
 id: limericks/LIM-0124
 parent: limericks
 status: archived
-tags: ["limericks", "i", "trics", "ala", "shboard", "r", "rale"]
+tags: ["limericks", "kpi", "metrics", "koala", "dashboard", "okr", "morale"]
 ---
 
 # KPI Koala

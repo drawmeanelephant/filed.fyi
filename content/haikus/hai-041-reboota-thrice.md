@@ -3,7 +3,7 @@ title: "Reboota Thrice"
 id: haikus/HAI-0041
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "boot", "isis", "ability"]
+tags: ["haikus", "haiku", "reboot", "crisis", "stability", "false-resolution", "repetition", "uptime-illusion"]
 ---
 
 # Reboota Thrice

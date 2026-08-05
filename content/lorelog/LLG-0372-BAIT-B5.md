@@ -3,7 +3,7 @@ title: "BAIT Subtype B-5 Mirror Outrage"
 id: lorelog/LLG-0372-BAIT-B5
 parent: lorelog
 status: published
-tags: ["lorelog", "it", "rror-outrage", "cial-proof", "gagement-visibility", "gertainment"]
+tags: ["lorelog", "bait", "mirror-outrage", "social-proof", "engagement-visibility", "angertainment"]
 ---
 
 # BAIT Subtype B-5 Mirror Outrage

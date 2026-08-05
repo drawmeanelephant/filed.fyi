@@ -3,7 +3,7 @@ title: "Luncheon Assent Authorization"
 id: haikus/HAI-LLG-0391-LAA
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ncheon", "thorization", "dget"]
+tags: ["haikus", "haiku", "luncheon", "authorization", "budget"]
 ---
 
 # Luncheon Assent Authorization

@@ -3,7 +3,7 @@ title: "Scan Reinterpretation Session – Shelf Line 3B"
 id: lorelog/LLG-0012
 parent: lorelog
 status: archived
-tags: ["lorelog", "ssion-notes", "an-report", "rding", "rtial-record"]
+tags: ["lorelog", "session-notes", "scan-report", "wording", "partial-record"]
 ---
 
 # Raw Extract (machine)

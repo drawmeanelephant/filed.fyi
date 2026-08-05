@@ -3,7 +3,7 @@ title: "Kafkey ErrorHandler"
 id: limericks/LIM-0118
 parent: limericks
 status: archived
-tags: ["limericks", "fka", "ent-stream", "fset", "ad-letter", "agedy"]
+tags: ["limericks", "kafka", "event-stream", "offset", "dead-letter", "tragedy"]
 ---
 
 # Kafkey ErrorHandler

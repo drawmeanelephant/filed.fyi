@@ -3,7 +3,7 @@ title: "Consolidated Chapter Office Continuity Loop"
 id: lorelog/LLG-0398-CCO
 parent: lorelog
 status: published
-tags: ["lorelog", "rger-drift", "norary-office", "apter-governance", "tle-persistence", "ntinuity-loop", "mporary-revival", "cal-recovery"]
+tags: ["lorelog", "merger-drift", "honorary-office", "chapter-governance", "title-persistence", "continuity-loop", "temporary-revival", "local-recovery"]
 ---
 
 # Consolidated Chapter Office Continuity Loop

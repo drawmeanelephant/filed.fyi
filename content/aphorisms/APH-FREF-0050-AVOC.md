@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Desk – Optics Coordination"
 id: aphorisms/APH-FREF-0050-AVOC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "tics-coordination", "rding-alignment", "naged-absence"]
+tags: ["aphorisms", "optics-coordination", "wording-alignment", "managed-absence"]
 ---
 
 # Optics Coordination Aphorisms

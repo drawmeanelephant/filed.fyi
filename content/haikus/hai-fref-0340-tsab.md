@@ -3,7 +3,7 @@ title: "Stub: Training Assignment – Reading Between Lines"
 id: haikus/HAI-FREF-0340-TSAB
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "managed-absence", "over-coherence"]
 ---
 
 # Stub: Training Assignment – Reading Between Lines

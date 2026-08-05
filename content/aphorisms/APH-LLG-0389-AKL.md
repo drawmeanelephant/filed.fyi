@@ -3,7 +3,7 @@ title: "Auxiliary Kitchen Labor"
 id: aphorisms/APH-LLG-0389-AKL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "xiliary-labor", "remonial-presence", "dge-kitchen", "nevolence-credit", "morial-work"]
+tags: ["aphorisms", "auxiliary-labor", "ceremonial-presence", "lodge-kitchen", "benevolence-credit", "memorial-work"]
 ---
 
 # Auxiliary Kitchen Labor Aphorisms

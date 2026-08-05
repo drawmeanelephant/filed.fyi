@@ -3,7 +3,7 @@ title: "Ritual Lodge Interface"
 id: aphorisms/APH-FREF-0790-RLIF
 parent: aphorisms
 status: published
-tags: ["aphorisms", "pathegy", "tual", "dge", "tness", "rmth-laundering"]
+tags: ["aphorisms", "empathegy", "ritual", "lodge", "witness", "warmth-laundering"]
 ---
 
 # Ritual Lodge Interface Aphorisms

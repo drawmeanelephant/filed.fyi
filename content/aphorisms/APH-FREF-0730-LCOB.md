@@ -3,7 +3,7 @@ title: "Low-Confidence Objects"
 id: aphorisms/APH-FREF-0730-LCOB
 parent: aphorisms
 status: published
-tags: ["aphorisms", "w-confidence-objects", "o", "biguity", "stability"]
+tags: ["aphorisms", "low-confidence-objects", "lco", "ambiguity", "instability"]
 ---
 
 # Low-Confidence Object Aphorisms

@@ -3,7 +3,7 @@ title: "Compliance Ledger ANNEX_CINDER (Baseline Check)"
 id: reference/FREF-0908-CLAC
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Compliance Ledger: ANNEX_CINDER

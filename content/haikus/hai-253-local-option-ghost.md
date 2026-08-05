@@ -3,7 +3,7 @@ title: "Local Option Ghost"
 id: haikus/HAI-0253
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "cal-option", "ost", "lklore"]
+tags: ["haikus", "haiku", "local-option", "ghost", "folklore", "workarounds", "procedural-override"]
 ---
 
 # Local Option Ghost

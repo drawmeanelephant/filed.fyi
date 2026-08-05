@@ -3,7 +3,7 @@ title: "Stub: Allocation Protocol STACK_HUSH (Dense Overdrift)"
 id: aphorisms/APH-FREF-0913-APSH
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Allocation Protocol STACK_HUSH (Dense Overdrift)

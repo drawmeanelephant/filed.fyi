@@ -3,7 +3,7 @@ title: "DS-404-ALPHA: Synergy Merge Approval"
 id: aphorisms/APH-DS-0404-ALPHA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "tual-form", "nergy-merge", "mteams", "mpliance-vacuum"]
+tags: ["aphorisms", "ritual-form", "synergy-merge", "yamteams", "compliance-vacuum"]
 ---
 
 # DS-404-ALPHA Aphorisms

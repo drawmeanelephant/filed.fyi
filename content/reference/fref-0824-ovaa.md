@@ -3,7 +3,7 @@ title: "OverCoherence Vault Audit Annex, Trust Surface Explanation Layer"
 id: reference/FREF-0824-OVAA
 parent: reference
 status: archived
-tags: ["reference", "ercoherence", "planation-layer", "ust-surface", "surance-optics", "herited-evidence", "surance-vocabulary"]
+tags: ["reference", "overcoherence", "explanation-layer", "trust-surface", "assurance-optics", "inherited-evidence", "assurance-vocabulary"]
 ---
 
 # OverCoherence Vault Audit Annex, Trust Surface Explanation Layer

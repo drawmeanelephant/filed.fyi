@@ -3,7 +3,7 @@ title: "Assurance Coordination Notice, Trust Surface Narrative Alignment"
 id: haikus/HAI-FREF-0822-ACTN
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "benevolence", "assurance-coordination", "substrate-myth"]
 ---
 
 # Assurance Coordination Notice, Trust Surface Narrative Alignment

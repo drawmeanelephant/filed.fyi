@@ -3,7 +3,7 @@ title: "Breeding Record"
 id: haikus/HAI-LLG-0375-BREED
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "eeding-program", "man-origin", "scot-registry", "ignment-rot"]
+tags: ["haikus", "haiku", "breeding-program", "human-origin", "mascot-registry", "alignment-rot", "managed-absence"]
 ---
 
 # Breeding Record

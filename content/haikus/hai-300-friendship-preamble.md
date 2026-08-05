@@ -3,7 +3,7 @@ title: "Friendship Preamble"
 id: haikus/HAI-0300
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "iendship", "eamble", "cial"]
+tags: ["haikus", "haiku", "friendship", "preamble", "social"]
 ---
 
 # Friendship Preamble

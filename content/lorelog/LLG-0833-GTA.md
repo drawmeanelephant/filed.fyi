@@ -3,7 +3,7 @@ title: "Gratitude Telemetry Alignment Drift"
 id: lorelog/LLG-0833-GTA
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "kindness", "template", "care-language", "lintcore", "gratitude-signal", "empathegy", "protocol-language", "repeated-phrasing", "telemetry-rot", "sufficiency", "recital", "procedure"]
 ---
 
 # Gratitude Telemetry Alignment Drift

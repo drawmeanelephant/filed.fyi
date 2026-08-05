@@ -3,7 +3,7 @@ title: "Success Class Consolidation Card"
 id: aphorisms/APH-FREF-0120-DCSC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ccess-classes", "nsolidation", "tics", "shboard-alignment"]
+tags: ["aphorisms", "success-classes", "consolidation", "optics", "dashboard-alignment"]
 ---
 
 # Success Class Aphorisms

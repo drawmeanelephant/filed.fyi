@@ -3,7 +3,7 @@ title: "RAGE Charter — Routed Anger for Graph Engagement"
 id: lorelog/LLG-0360-RAGE-CHARTER
 parent: lorelog
 status: published
-tags: ["lorelog", "ge", "it", "gertainment", "trics-theatre", "ilure-mode"]
+tags: ["lorelog", "rage", "bait", "angertainment", "metrics-theatre", "failure-mode", "operational-engines"]
 ---
 
 # RAGE Charter — Routed Anger for Graph Engagement

@@ -3,7 +3,7 @@ title: "Regulated Study Continuity Triad"
 id: aphorisms/APH-LLG-0400-TRIAD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "udy-continuity", "cumentation-rot", "al-identity", "gulatory-compliance"]
+tags: ["aphorisms", "study-continuity", "documentation-rot", "dual-identity", "regulatory-compliance"]
 ---
 
 # Continuity Triad Aphorisms

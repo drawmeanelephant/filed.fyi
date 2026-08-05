@@ -3,7 +3,7 @@ title: "Rehearsed Kindness Inheritance"
 id: haikus/HAI-LLG-0822-RKI
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ndness", "heritance", "hearsal"]
+tags: ["haikus", "haiku", "kindness", "inheritance", "rehearsal", "rehearsed-kindness-inheritance", "synthetic-empathy"]
 ---
 
 # Rehearsed Kindness Inheritance

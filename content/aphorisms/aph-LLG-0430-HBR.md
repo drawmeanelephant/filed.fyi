@@ -3,7 +3,7 @@ title: "Historical Burden Refiled as Realism"
 id: aphorisms/APH-LLG-0430-HBR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Historical Burden Refiled as Realism

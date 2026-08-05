@@ -3,7 +3,7 @@ title: "Leopard Upgrade Blue Screen Unsanity Residuals"
 id: lorelog/LLG-0001
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "ape-framework", "blue-screen", "buffer-null", "dyld-insert", "legacy-daemon", "leopard-upgrade", "recursive-loop", "runtime-injection", "unsanity", "app-enhancement", "mascots", "feature-creep", "deprecated"]
 ---
 
 # Leopard Upgrade Blue Screen Unsanity Residuals

@@ -3,7 +3,7 @@ title: "Kind Overdraft"
 id: limericks/LIM-0121
 parent: limericks
 status: archived
-tags: ["limericks", "ofane", "otional-warmth"]
+tags: ["limericks", "profane", "emotional-warmth"]
 ---
 
 # Kind Overdraft

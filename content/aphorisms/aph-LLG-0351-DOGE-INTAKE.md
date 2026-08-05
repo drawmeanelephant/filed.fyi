@@ -3,7 +3,7 @@ title: "DOGE Intake Form GEX-1 — Experience Verification Request"
 id: aphorisms/APH-LLG-0351-DOGE-INTAKE
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # DOGE Intake Form GEX-1 — Experience Verification Request

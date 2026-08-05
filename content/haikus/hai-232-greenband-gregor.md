@@ -3,7 +3,7 @@ title: "Greenband Gregor"
 id: haikus/HAI-0232
 parent: haikus
 status: archived
-tags: ["haikus", "cceptable-strain", "isual-facade", "ystem-meltdown"]
+tags: ["haikus", "acceptable-strain", "visual-facade", "system-meltdown"]
 ---
 
 # Greenband Gregor

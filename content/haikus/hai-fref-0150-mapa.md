@@ -3,7 +3,7 @@ title: "Stub: Managed Absence Spine (MAP‑Annex)"
 id: haikus/HAI-FREF-0150-MAPA
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "managed-absence"]
 ---
 
 # Stub: Managed Absence Spine (MAP‑Annex)

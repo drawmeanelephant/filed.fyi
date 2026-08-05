@@ -3,7 +3,7 @@ title: "Breeding Program Dossier"
 id: aphorisms/APH-LLG-0382-BPD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "scots", "eedingProgram", "rsona-management", "lection-pressure", "gagement-metrics"]
+tags: ["aphorisms", "mascots", "breedingProgram", "persona-management", "selection-pressure", "engagement-metrics"]
 ---
 
 # Breeding Program Dossier Aphorisms

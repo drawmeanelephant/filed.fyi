@@ -3,7 +3,7 @@ title: "Courtesy Without Leverage"
 id: haikus/HAI-FREF-0630-CWLV
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "courtesy", "powerlessness", "validation"]
 ---
 
 # Courtesy Without Leverage

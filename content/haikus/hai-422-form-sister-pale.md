@@ -3,7 +3,7 @@ title: "Form Sister Pale"
 id: haikus/HAI-0422
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rm", "acle", "processable"]
+tags: ["haikus", "haiku", "form", "oracle", "unprocessable", "unprocessable-entity", "immaculate-flaw"]
 ---
 
 # Form Sister Pale

@@ -3,7 +3,7 @@ title: "Chapter Consolidation Notice, Attendance Survives Merger"
 id: lorelog/LLG-0386-LODGE-MERGE
 parent: lorelog
 status: published
-tags: ["lorelog", "dgecanary", "ctrine", "rly-warning", "pathegy", "dge-merger", "tendance", "morial-quorum", "vic-benevolence", "lf-indexing", "stody-drift", "zardous-misfiling", "uster-presence"]
+tags: ["lorelog", "lodgecanary", "doctrine", "early-warning", "empathegy", "lodge-merger", "attendance", "memorial-quorum", "civic-benevolence", "self-indexing", "custody-drift", "hazardous-misfiling", "cluster-presence"]
 ---
 
 # Chapter Consolidation Notice, Attendance Survives Merger

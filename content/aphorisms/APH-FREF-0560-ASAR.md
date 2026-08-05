@@ -3,7 +3,7 @@ title: "Assurance Artifacts"
 id: aphorisms/APH-FREF-0560-ASAR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "surance-artifacts", "assurance", "complete-comfort", "ad-bearing"]
+tags: ["aphorisms", "assurance-artifacts", "reassurance", "incomplete-comfort", "load-bearing"]
 ---
 
 # Assurance Artifact Aphorisms

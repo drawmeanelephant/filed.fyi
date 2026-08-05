@@ -3,7 +3,7 @@ title: "Intake Forms"
 id: aphorisms/APH-FREF-0710-IKFR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "take", "rms", "uting-friction", "eparation"]
+tags: ["aphorisms", "intake", "forms", "routing-friction", "preparation"]
 ---
 
 # Intake Form Aphorisms

@@ -3,7 +3,7 @@ title: "Continuity-Compatible Phrasing"
 id: limericks/LIM-FREF-0600-CCPH
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "nguage", "ntinuity"]
+tags: ["limericks", "hand-written", "empathegy", "language", "continuity"]
 ---
 
 # Continuity-Compatible Phrasing

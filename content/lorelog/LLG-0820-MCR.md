@@ -3,7 +3,7 @@ title: "Metrics of Care Substitution Failure"
 id: lorelog/LLG-0820-MCR
 parent: lorelog
 status: published
-tags: ["lorelog", "ntcore", "trics-of-care", "ma-directive", "dit-optics", "naged-absence", "scots", "shboards", "rotonin", "pathegy", "re-metrics", "assification-rot", "trics-theatre"]
+tags: ["lorelog", "lintcore", "metrics-of-care", "soma-directive", "audit-optics", "managed-absence", "mascots", "dashboards", "serotonin", "empathegy", "care-metrics", "classification-rot", "metrics-theatre"]
 ---
 
 # Metrics of Care Substitution Failure

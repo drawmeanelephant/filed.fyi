@@ -3,7 +3,7 @@ title: "Lodgecanary Vellumbeak"
 id: haikus/HAI-0230
 parent: haikus
 status: archived
-tags: ["haikus", "octrinal-shifts", "arly-detection", "ureaucratic-toxicity"]
+tags: ["haikus", "doctrinal-shifts", "early-detection", "bureaucratic-toxicity"]
 ---
 
 # Lodgecanary Vellumbeak

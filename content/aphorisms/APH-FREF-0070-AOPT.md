@@ -3,7 +3,7 @@ title: "Assurance Optics"
 id: aphorisms/APH-FREF-0070-AOPT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "surance-optics", "sual-reassurance", "tter-lit", "ctrine"]
+tags: ["aphorisms", "assurance-optics", "visual-reassurance", "better-lit", "doctrine"]
 ---
 
 # Assurance Optics Aphorisms

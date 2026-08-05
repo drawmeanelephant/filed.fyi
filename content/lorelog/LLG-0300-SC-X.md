@@ -3,7 +3,7 @@ title: "SOMA–COMA Cross-Directive Conflict — Feelings About Downtime"
 id: lorelog/LLG-0300-SC-X
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "rective-conflict", "st-vs-uptime", "radox-accepted"]
+tags: ["lorelog", "soma-directive", "coma-directive", "directive-conflict", "rest-vs-uptime", "paradox-accepted"]
 ---
 
 # SOMA–COMA Cross-Directive Conflict — Feelings About Downtime

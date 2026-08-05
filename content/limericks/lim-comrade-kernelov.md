@@ -3,7 +3,7 @@ title: "Comrade Kernelov"
 id: limericks/LIM-0065
 parent: limericks
 status: archived
-tags: ["limericks", "rnel", "mmunist", "ocess-equality", "en-source", "-enforcer"]
+tags: ["limericks", "kernel", "communist", "process-equality", "open-source", "ui-enforcer"]
 ---
 
 # Comrade Kernelov

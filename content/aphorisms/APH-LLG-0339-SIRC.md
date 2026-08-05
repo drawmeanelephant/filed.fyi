@@ -3,7 +3,7 @@ title: "Silent Interval Review Chamber"
 id: aphorisms/APH-LLG-0339-SIRC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "lent-interval", "reported-load", "ntinuity-theatre"]
+tags: ["aphorisms", "coma-directive", "soma-directive", "silent-interval", "unreported-load", "continuity-theatre"]
 ---
 
 # Silent Interval Review Aphorisms

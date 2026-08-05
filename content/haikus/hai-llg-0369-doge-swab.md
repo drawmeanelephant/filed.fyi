@@ -3,7 +3,7 @@ title: "Simulator Weather Advisory"
 id: haikus/HAI-LLG-0369-DOGE-SWAB
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ge", "ather", "lletin"]
+tags: ["haikus", "haiku", "doge", "weather", "bulletin", "bin-8c"]
 ---
 
 # Simulator Weather Advisory

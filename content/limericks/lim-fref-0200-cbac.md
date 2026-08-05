@@ -3,7 +3,7 @@ title: "Civic Benevolence Annex & Chamber Legitimacy Layer"
 id: limericks/LIM-FREF-0200-CBAC
 parent: limericks
 status: published
-tags: ["limericks", "vic-benevolence", "stitutional-decay"]
+tags: ["limericks", "civic-benevolence", "institutional-decay"]
 ---
 
 # Civic Benevolence Annex & Chamber Legitimacy Layer

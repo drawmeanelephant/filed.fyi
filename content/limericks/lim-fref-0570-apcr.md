@@ -3,7 +3,7 @@ title: "Artifact Provenance Under Repeated Ceremonial Use"
 id: limericks/LIM-FREF-0570-APCR
 parent: limericks
 status: published
-tags: ["limericks", "tifact-provenance", "remonial-use"]
+tags: ["limericks", "artifact-provenance", "ceremonial-use"]
 ---
 
 # Artifact Provenance Under Repeated Ceremonial Use

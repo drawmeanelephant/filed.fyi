@@ -3,7 +3,7 @@ title: "Stub: Incident LORE-0408-DTS-DEP // Spontaneous Trust Surface Amplificat
 id: haikus/HAI-LLG-0408-DTS-DEP
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "trust-surface", "amplification"]
 ---
 
 # Stub: Incident LORE-0408-DTS-DEP // Spontaneous Trust Surface Amplification

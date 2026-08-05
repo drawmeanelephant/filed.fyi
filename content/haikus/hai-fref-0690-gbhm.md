@@ -3,7 +3,7 @@ title: "Green Band Hermeneutics"
 id: haikus/HAI-FREF-0690-GBHM
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "hermeneutics", "green-bands", "zero-incidents"]
 ---
 
 # Green Band Hermeneutics

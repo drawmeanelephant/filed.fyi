@@ -3,7 +3,7 @@ title: "Boily McPlaterton"
 id: haikus/HAI-0004
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "erheat", "ltdown", "ermal-panic"]
+tags: ["haikus", "haiku", "overheat", "meltdown", "thermal-panic"]
 ---
 
 # Boily McPlaterton
