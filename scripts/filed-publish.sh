@@ -37,6 +37,15 @@ python3 scripts/repair_relationships.py \
   --rag-dir "$PUBLISH_DIR/rag" \
   --context-dir "$PUBLISH_DIR/context"
 
+# Guard the LLM-export path: source-to-export parity and shape checks.  The
+# static-site deployment build proves nothing about this export path, so the
+# publish pipeline itself must fail when a semantic edge was lost.
+python3 scripts/validate_relationships.py \
+  --content "$CONTENT_DIR" \
+  --rag-dir "$PUBLISH_DIR/rag" \
+  --context-dir "$PUBLISH_DIR/context" \
+  --report reports/relationship-integrity.md
+
 if "$BORIS_BIN" --input "$CONTENT_DIR" --llms-path "$PUBLISH_DIR/llms.txt" --quiet; then
   if python3 -c 'from pathlib import Path; import sys; Path(sys.argv[1]).read_text(encoding="utf-8")' "$PUBLISH_DIR/llms.txt"; then
     echo "✅ llms.txt exported and is valid UTF-8"

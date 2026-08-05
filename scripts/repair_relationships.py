@@ -278,6 +278,37 @@ def resolve_target(target: str, by_id: dict[str, Entity],
     return None
 
 
+def semantic_relationships(by_id: dict[str, Entity], by_source: dict[str, Entity],
+                           content_root: Path
+                           ) -> tuple[dict[str, list[str]], list[tuple[str, str]]]:
+    """Derive the ordered, deduplicated canonical relationship list per entity.
+
+    Returns (semantic_by_id, unresolved) where semantic_by_id maps entity ID to
+    the canonical entity IDs of its source-supported relationships (first-seen
+    order, duplicates removed), and unresolved lists (source, raw_target) pairs
+    that could not be resolved to a record.
+
+    Shared by the repair and the integrity validator so both compute the
+    expected relationship set identically.
+    """
+    raw_targets, unresolved = extract_relations(by_id, by_source, content_root)
+    semantic_by_id: dict[str, list[str]] = {}
+    unresolved_list: list[tuple[str, str]] = []
+    for entity_id, targets in raw_targets.items():
+        canonical: list[str] = []
+        for target in targets:
+            resolved = resolve_target(target, by_id, by_source)
+            if resolved is None:
+                unresolved_list.append((by_id[entity_id].source, target))
+                continue
+            if resolved not in canonical:  # repeated identical values are deduplicated
+                canonical.append(resolved)
+        if canonical:
+            semantic_by_id[entity_id] = canonical
+    unresolved_list.extend(unresolved)
+    return semantic_by_id, unresolved_list
+
+
 def related_block(frontmatter: str, key: str) -> tuple[list[str], str]:
     """Return (values, rewritten_block) for a block/inline list field.
 
@@ -370,13 +401,26 @@ def repair_rag_page(path: Path, semantic: list[str], content_root: Path) -> tupl
     # the remaining pre-existing values are structural adjacency, which
     # parent_entry already carries and is intentionally not re-emitted.
     new_frontmatter = replace_field(frontmatter, "related", semantic)
-    if part_paths:
-        new_frontmatter = replace_field(new_frontmatter, "bundle_parts", part_paths)
-    else:
-        old_bundle, _ = related_block(frontmatter, "bundle_parts")
-        if old_bundle:
-            new_frontmatter = replace_field(new_frontmatter, "bundle_parts", [])
+
+    # Bundle membership is the ordered, deduplicated union of any bundle_parts
+    # preserved by an earlier run and any part paths still sitting in related.
+    # Existing memberships must survive subsequent runs (idempotency): never
+    # clear bundle_parts merely because the current related no longer contains
+    # container paths.
+    existing_bundle, _ = related_block(frontmatter, "bundle_parts")
+    bundle: list[str] = []
+    seen: set[str] = set()
+    for value in existing_bundle + part_paths:
+        if value not in seen:
+            seen.add(value)
+            bundle.append(value)
+    if bundle:
+        new_frontmatter = replace_field(new_frontmatter, "bundle_parts", bundle)
+    # Nothing to preserve (no existing memberships, no part paths in related):
+    # leave any empty bundle_parts field untouched for byte-stable output.
     rebuilt = new_frontmatter + "\n" + body
+    if text.endswith("\n") and not rebuilt.endswith("\n"):
+        rebuilt += "\n"  # preserve the original trailing newline (byte-stable re-runs)
     diagnostics: list[str] = []
     if part_paths:
         diagnostics.append(f"moved {len(part_paths)} bundle part reference(s) out of related")
@@ -396,6 +440,8 @@ def repair_context_page(path: Path, semantic: list[str]) -> tuple[bool, list[str
     typed = [f"relates_to={value}" for value in semantic]
     new_frontmatter = replace_scalar_or_list(frontmatter, "relations", typed)
     rebuilt = new_frontmatter + "\n" + body
+    if text.endswith("\n") and not rebuilt.endswith("\n"):
+        rebuilt += "\n"  # preserve the original trailing newline (byte-stable re-runs)
     if rebuilt != text:
         path.write_text(rebuilt, encoding="utf-8")
         return True, []
@@ -421,24 +467,8 @@ def main() -> int:
         print(f"relationship repair: error: no records indexed under {args.content}", file=sys.stderr)
         return 2
 
-    raw_targets, unresolved = extract_relations(by_id, by_source, args.content)
-
-    semantic_by_id: dict[str, list[str]] = {}
-    unresolved_for_entity: list[tuple[str, str]] = []
-    for entity_id, targets in raw_targets.items():
-        canonical: list[str] = []
-        for target in targets:
-            resolved = resolve_target(target, by_id, by_source)
-            if resolved is None:
-                unresolved_for_entity.append((by_id[entity_id].source, target))
-                continue
-            if resolved not in canonical:  # repeated identical values are deduplicated
-                canonical.append(resolved)
-        if canonical:
-            semantic_by_id[entity_id] = canonical
-
-    for source, target in unresolved:
-        unresolved_for_entity.append((source, target))
+    semantic_by_id, unresolved_for_entity = semantic_relationships(
+        by_id, by_source, args.content)
 
     changed_files = 0
     moved_parts = 0
