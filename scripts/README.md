@@ -30,6 +30,14 @@ This directory contains the Python, Shell, and automation scripts used to build,
 * **Purpose**: Validates canonical identity assignments, form number schemas, and ID mappings against `metadata/id-policy.json` and `metadata/id-map.jsonl`.
 * **Usage**: `python3 scripts/filed_ids.py --root content --map metadata/id-map.jsonl`
 
+### 📜 `verse_residue.py`
+* **Purpose**: Build-time presentation post-processor. Groups the appended verse sections (`## Related Aphorisms / Haikus / Limericks`) of each record into one labelled **Related residue** panel, re-levels their headings (one `h2`, `h3` labels, `h4` poem titles) so repeated headings no longer break the outline, drops empty or `Stub:`-only verse sections, and collapses long collections (and all guide appendices) behind a native `<details>` element. Pages without verse are left byte-identical; Markdown source is never touched.
+* **Usage**: `python3 scripts/verse_residue.py dist/cantilever --check` (run automatically by `filed-build.sh` after the Boris compile and before the HTML ID audit).
+
+### 📜 `test_verse_residue.py`
+* **Purpose**: Regression tests for the verse-residue transform over fixture pages in `scripts/testdata/verse-residue/`, covering: no verse, one short verse, all three verse types, large verse collections, stub verse headings with no usable content, guide pages, TOC pruning, and anchor preservation.
+* **Usage**: `python3 scripts/test_verse_residue.py`
+
 ### 📜 `audit_html_ids.py`
 * **Purpose**: Scans compiled HTML output to ensure unique element IDs and valid anchor navigation targets.
 

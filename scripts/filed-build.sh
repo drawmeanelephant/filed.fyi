@@ -37,6 +37,8 @@ fi
   --layout-rule default glob:reference/* "$THEME/layouts/compact.html" \
   --jobs "$BORIS_JOBS"
 
+python3 scripts/verse_residue.py "$DIST_DIR" --check
+
 python3 scripts/audit_html_ids.py "$DIST_DIR"
 
 if [[ -f "$DIST_DIR/_boris/proof/checks.json" ]]; then

@@ -898,6 +898,94 @@ body {
 
 .article .callout blockquote { margin: 0.4rem 0 0; }
 
+/* ---------- verse residue (appended poetry appendix) ----------
+   Boris appends "Related Aphorisms / Haikus / Limericks" sections to the
+   tail of records. scripts/verse_residue.py wraps them in .verse-residue,
+   re-levels their headings, and collapses long collections behind a native
+   <details>. The core record stays first and visually primary; this panel
+   reads as clearly secondary archive residue. */
+
+.verse-residue {
+  margin: 3rem 0 0.5rem;
+  padding: 1.1rem 1.3rem 1.3rem;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--muted);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 0.3rem 1rem rgb(52 43 34 / 0.04);
+}
+
+.verse-residue > h2 {
+  margin: 0 0 0.9rem;
+  padding: 0;
+  border: 0;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.verse-residue > h2::after { content: none; }
+
+.verse-residue h3 {
+  margin: 1.4rem 0 0.45rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.verse-residue h4 {
+  margin: 0.9rem 0 0.3rem;
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.verse-residue h4:first-of-type { margin-top: 0; }
+
+.verse-residue p {
+  margin: 0.5rem 0;
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.verse-residue details {
+  margin-top: 0.2rem;
+  border-top: 1px dashed var(--line);
+  padding-top: 0.55rem;
+}
+
+.verse-residue details[open] { padding-bottom: 0.55rem; }
+
+.verse-residue summary {
+  cursor: pointer;
+  color: var(--accent-strong);
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  padding: 0.3rem 0;
+  user-select: none;
+}
+
+.verse-residue summary:hover { text-decoration: underline; }
+
+.verse-residue summary::before {
+  content: "▸ ";
+  color: var(--muted);
+}
+
+.verse-residue details[open] > summary::before { content: "▾ "; }
+
 /* ---------- children list (section landing) ---------- */
 
 .page-children {
