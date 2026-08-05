@@ -29,6 +29,14 @@ python3 scripts/filed_ids.py --root "$CONTENT_DIR" --map metadata/id-map.jsonl
 "$BORIS_BIN" --input "$CONTENT_DIR" --rag-dir "$PUBLISH_DIR/rag" --quiet
 "$BORIS_BIN" --input "$CONTENT_DIR" --context-dir "$PUBLISH_DIR/context" --quiet
 
+# Boris exports structural adjacency into `related` (and, in split builds,
+# bundle-part container paths).  Rebuild the relationship fields from the
+# source of record so semantic links survive bundling.
+python3 scripts/repair_relationships.py \
+  --content "$CONTENT_DIR" \
+  --rag-dir "$PUBLISH_DIR/rag" \
+  --context-dir "$PUBLISH_DIR/context"
+
 if "$BORIS_BIN" --input "$CONTENT_DIR" --llms-path "$PUBLISH_DIR/llms.txt" --quiet; then
   if python3 -c 'from pathlib import Path; import sys; Path(sys.argv[1]).read_text(encoding="utf-8")' "$PUBLISH_DIR/llms.txt"; then
     echo "✅ llms.txt exported and is valid UTF-8"
