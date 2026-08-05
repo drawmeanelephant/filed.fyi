@@ -8,6 +8,7 @@ exports/
 bin/boris*
 .zig-cache/
 .zig-global-cache/
+.tools/
 
 # Local handoff snapshot used to seed the current source tree
 filed-boris-2026-08-02/

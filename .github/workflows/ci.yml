@@ -11,8 +11,6 @@ permissions:
   contents: read
 
 env:
-  BORIS_REPOSITORY: https://github.com/drawmeanelephant/boris.git
-  BORIS_BRANCH: afterparty
   BORIS_JOBS: 1
 
 jobs:
@@ -25,40 +23,16 @@ jobs:
       - name: Checkout Filed
         uses: actions/checkout@v4
 
-      - name: Set up pinned Zig
-        uses: mlugg/setup-zig@v2
-        with:
-          version: 0.16.0
-
-      - name: Obtain Boris source (afterparty branch)
+      - name: Provision pinned Boris compiler
         run: |
-          git clone --branch "$BORIS_BRANCH" --single-branch --depth=1 "$BORIS_REPOSITORY" "$RUNNER_TEMP/boris"
+          BORIS_BIN=$(BORIS_AUTO_PROVISION=1 ./scripts/ensure-boris.sh --provision)
+          echo "BORIS_BIN=${BORIS_BIN}" >> $GITHUB_ENV
 
-      - name: Cache Zig compiler directories
-        uses: actions/cache@v4
-        with:
-          path: |
-            ${{ runner.temp }}/zig-global-cache
-            ${{ runner.temp }}/zig-local-cache
-          key: ${{ runner.os }}-zig-${{ env.BORIS_BRANCH }}-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-zig-${{ env.BORIS_BRANCH }}-
-            ${{ runner.os }}-zig-
-
-      - name: Build pinned Boris
-        working-directory: ${{ runner.temp }}/boris
-        env:
-          ZIG_GLOBAL_CACHE_DIR: ${{ runner.temp }}/zig-global-cache
-          ZIG_LOCAL_CACHE_DIR: ${{ runner.temp }}/zig-local-cache
-        run: |
-          zig build
-          mkdir -p "${{ github.workspace }}/bin"
-          cp zig-out/bin/boris "${{ github.workspace }}/bin/boris"
-          chmod +x "${{ github.workspace }}/bin/boris"
+      - name: Run Boris provisioner regression tests
+        run: python3 scripts/test_ensure_boris.py
 
       - name: Run Filed gate
         env:
-          BORIS_BIN: ./bin/boris
           BORIS_JOBS: ${{ env.BORIS_JOBS }}
         run: ./bin/validate_graph.sh
 
@@ -81,36 +55,10 @@ jobs:
         with:
           fetch-depth: 0  # full history so the relationship-recovery manifest can be re-verified from commit 6abe4416
 
-      - name: Set up pinned Zig
-        uses: mlugg/setup-zig@v2
-        with:
-          version: 0.16.0
-
-      - name: Obtain Boris source (afterparty branch)
+      - name: Provision pinned Boris compiler
         run: |
-          git clone --branch "$BORIS_BRANCH" --single-branch --depth=1 "$BORIS_REPOSITORY" "$RUNNER_TEMP/boris"
-
-      - name: Cache Zig compiler directories
-        uses: actions/cache@v4
-        with:
-          path: |
-            ${{ runner.temp }}/zig-global-cache
-            ${{ runner.temp }}/zig-local-cache
-          key: ${{ runner.os }}-zig-${{ env.BORIS_BRANCH }}-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-zig-${{ env.BORIS_BRANCH }}-
-            ${{ runner.os }}-zig-
-
-      - name: Build pinned Boris
-        working-directory: ${{ runner.temp }}/boris
-        env:
-          ZIG_GLOBAL_CACHE_DIR: ${{ runner.temp }}/zig-global-cache
-          ZIG_LOCAL_CACHE_DIR: ${{ runner.temp }}/zig-local-cache
-        run: |
-          zig build
-          mkdir -p "${{ github.workspace }}/bin"
-          cp zig-out/bin/boris "${{ github.workspace }}/bin/boris"
-          chmod +x "${{ github.workspace }}/bin/boris"
+          BORIS_BIN=$(BORIS_AUTO_PROVISION=1 ./scripts/ensure-boris.sh --provision)
+          echo "BORIS_BIN=${BORIS_BIN}" >> $GITHUB_ENV
 
       - name: Install relationship-recovery dependencies
         run: python3 -m pip install --quiet pyyaml
@@ -120,7 +68,6 @@ jobs:
 
       - name: Run Filed publish pipeline (LLM export repair + validation)
         env:
-          BORIS_BIN: ./bin/boris
           BORIS_JOBS: ${{ env.BORIS_JOBS }}
         run: ./scripts/filed-publish.sh
 

@@ -1,12 +1,18 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -Eeuo pipefail
 
+export PATH="${PATH:+$PATH:}/usr/bin:/bin"
+
 ROOT=$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
-BORIS_BIN=${BORIS_BIN:-./bin/boris}
+cd "$ROOT"
+
+if [[ -z "${BORIS_BIN:-}" || ! -x "${BORIS_BIN}" ]]; then
+  BORIS_BIN=$("./scripts/ensure-boris.sh")
+  export BORIS_BIN
+fi
+
 CONTENT_DIR=${CONTENT_DIR:-content}
 DIST_DIR=${DIST_DIR:-dist/cantilever}
-
-cd "$ROOT"
 
 echo "==> Validating Filed form IDs"
 python3 scripts/filed_ids.py --root "$CONTENT_DIR" --map metadata/id-map.jsonl
