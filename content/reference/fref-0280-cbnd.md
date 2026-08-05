@@ -86,13 +86,13 @@ Until then, they stay labeled as intention, not cash.
 
 Dashboards that show all four bands at once are not accusing anyone of bad faith.
 They are simply recording where belonging, procedure, gratitude, and optimism parted ways for a while.
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 This is a placeholder for a policy that was never actually written.
 
-</Aside>
+:::
 A mouse click was two seconds late,
 Which triggered the opening gate.
 The sirens went off,

@@ -84,13 +84,13 @@ Ink dried.
 Entity registered.
 File closed.
 
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 This directive is currently experiencing interpretive drift. Local practices have superseded its authority, but its preservation remains mandatory under continuous assurance policies.
 
-</Aside>
+:::
 The desk lamp was moved to the right,
 Which triggered an audit by night.
 The shadows were mapped,

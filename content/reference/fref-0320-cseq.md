@@ -65,13 +65,13 @@ If you are unsure what to do with your prior credentials:
 
 - List them in small print under your name.  
 - The archive will eventually infer what you are for.
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 Pending approval from a committee that was dissolved six years ago.
 
-</Aside>
+:::
 The window is stuck in the frame.
 The draft is the one we should blame.
 The thermostat reads,

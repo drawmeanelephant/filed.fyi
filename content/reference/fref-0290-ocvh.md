@@ -135,13 +135,13 @@ Where Over‑Coherence is present, at least one of the following should exist ne
 If none can be found, the archive will eventually grow one.
 That growth is considered part of ordinary decay.
 
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 Content is undergoing spontaneous semantic shift. Meaning may vary depending on the reader's rank.
 
-</Aside>
+:::
 The folder is labeled as 'New'.
 Its color is somewhat light blue.
 The contents are blank.

@@ -64,13 +64,13 @@ Perform graph repair only when one of the following is true:
 When repairing, prefer swapping or adding one or two `relatedEntries` over rewriting prose.
 (margin: Bricky notes repair only happens when someone has already decided the system is worth believing again)
 
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 This entry is officially considered a 'curated absence'. Its existence is theoretical.
 
-</Aside>
+:::
 The label says 'Do Not Remove'.
 There is nothing left here to prove.
 The box is quite square.

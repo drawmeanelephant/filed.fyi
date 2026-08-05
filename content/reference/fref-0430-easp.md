@@ -102,13 +102,13 @@ Catalogers, designers, and governance staff are advised:
 
 No deprecation is currently proposed.  
 The archive regards aesthetic imitation as a stable coping mechanism in hostile interpretive environments.
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 The assertions made here have been mathematically proven to be meaningless.
 
-</Aside>
+:::
 The door is now locked from outside.
 The handle is quite bona fide.
 The hinges are oiled.

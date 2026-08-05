@@ -56,13 +56,13 @@ If you are not sure:
 
 Over‑coherence is not the absence of error.
 It is the absence of texture.
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 Archival anomaly detected. The timestamps on this file contradict the known universe topology.
 
-</Aside>
+:::
 The dust on the sill was too thick,
 We called in the guards double-quick.
 The lasers deployed,

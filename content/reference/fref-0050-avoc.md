@@ -96,13 +96,13 @@ Words align softly.
 The void remains unchanged here.
 Record is now filed.
 
-<Aside kind="note">
+:::note
 
 **Archivist's Addendum**
 
 This record has been sequestered by the Auditor desk. Further modification will trigger a [DS-404-ALPHA](../lorelog/DS-404-ALPHA.md) incident.
 
-</Aside>
+:::
 The calendar skipped a whole day.
 The protocol asked us to stay.
 The coffee is cold.
