@@ -245,19 +245,41 @@ The tally unit is the **classification row** (see §1). Four of the 51 rows are 
 | B — “Awaiting context” placeholder verse | 1 | 108 | haikus 54 · lorelog 16 · mascots 5 · posts 2 · reference 31 |
 | C1 — Sora Prompt sections | 1 | 101 (99 KEEP + 2 REVIEW split out as rows C2/C3) | mascots |
 | E — legacy `<Aside>` components | 1 | 29 | reference 27 · lorelog 1 · mascots 1 |
-| **Total aggregate clusters** | **4** | 242 unique files after de-duplication | cross-collection |
+| **Total aggregate clusters** | **4** | 273 unique paths (`len(aggregate_paths)`, see §6.3) | cross-collection |
 
-### 6.3 Unique affected records and files
+### 6.3 Unique affected paths — explicit normalized path sets
 
-| Metric | Count |
+Unique counts are computed from three explicit, normalized (repo-relative) path sets. The union is computed as a **set union** — never by adding category totals:
+
+| Path set | Contents | len |
+|---|---|---|
+| `aggregate_paths` | union of the 4 aggregate clusters — A3 echo (57) ∪ B “Awaiting context” (108) ∪ C1 Sora (101) ∪ E `<Aside>` (29) | **273** |
+| `record_level_paths` | content paths covered by the 38 record-level content rows (A1–A2, C2–C5, D, F, G1–G7, H) | **40** |
+| `operational_paths` | repo-level paths named by the 9 Cluster I rows (AGENTS.md, CLAUDE-MISSION.md, GEMINI.md, THEME-NOTES.md, 5 docs, 2 metadata files, 6 scripts, 2 reports, 3 workflows, wrangler.jsonc, 2 theme layouts) | **25** |
+
+| Set expression | Value |
 |---|---|
-| Unique affected **records** (content records with frontmatter IDs) | **282** |
-| Unique affected **files** | **282** — identical to records here, because every affected content path is a record; the distinction is kept for method clarity |
-| Record-level rows (47) covering | 40 files |
-| Aggregate rows (4) contributing additional unique files | 242 |
-| Repo-level (non-record) files named by the 9 Cluster I rows | ~25 (not counted as records) |
+| `len(aggregate_paths)` | 273 |
+| `len(record_level_paths)` | 40 |
+| `len(aggregate_paths & record_level_paths)` | **31** |
+| `len(aggregate_paths \| record_level_paths)` | **282** |
+| `len(operational_paths)` | 25 |
+| `len(operational_paths & (aggregate_paths \| record_level_paths))` | 0 |
 
-Unique files by collection: aphorisms 19 · haikus 58 · limericks 20 · lorelog 17 · mascots 107 · posts 3 · reference 57 · releases 1 = **282**.
+Overlap of `aggregate_paths` with `record_level_paths` (31 paths), by cluster:
+
+- **echo (A3): 0** overlapping paths.
+- **awaiting (B): 20** — the 3 audit records (`fref-audt-case`, `fref-audt-cont`, `fref-audt-intg`), `fref-0180-tdci`, `fref-0850-mard`, and 15 of the 18 prompt-addendum records (`fref-0901…fref-0914`, `fref-0918`).
+- **sora (C1): 10** — `M-0005` (bricky), `M-0019` (kindy), `M-0021` (markie), `M-0023` (modrewrite), `M-0035` (tizzy), `M-0040` (pngbert), `M-0041` (reboota), `M-0057` (zhuzhing), `M-0418` (teapotta), `M-0937` (blinko).
+- **aside (E): 2** — `fref-0180-tdci`, `fref-0380-lbkp`.
+
+The remaining 9 record-level paths are covered by **no** aggregate: `fref-0900-poet`, `fref-0915`, `fref-0916`, `fref-0917`, `M-0014` (htmlie), `POST-0001` (coma transcript), `REL-0002`, `M-0075` (anlas), `LIM-0143`.
+
+Because every path in both content sets is a record with a frontmatter ID, **unique affected records = unique affected files = 282** (`aggregate_paths | record_level_paths`).
+
+Unique paths by collection derived from that union: aphorisms 19 · haikus 58 · limericks 20 · lorelog 17 · mascots 107 · posts 3 · reference 57 · releases 1 = **282**.
+
+> Reproducibility: `record_level_paths` is the set of exact paths named in §5 (globs for the reference clusters, explicit paths for C/D/G/H); `aggregate_paths` is derived from deterministic `rg`/`glob` file lists for the four clusters (echo, awaiting, sora, aside).
 
 ### 6.4 Collection table (rows, recalculated)
 
@@ -281,7 +303,7 @@ Cross-collection aggregates are **not** silently attributed to a single collecti
 | Rows that enter RAG/Context/IR exports | 42 |
 | Rows in sitemap (non-draft) | 42 |
 | Rows in llms.txt | unverified live (deployment serves HTML fallback); expected 42 |
-| Unique affected records that render publicly | 282 |
+| Unique affected records that render publicly | 282 (union `aggregate_paths \| record_level_paths`, §6.3) |
 | Records with inbound links (fref-090x cluster) | **1** (`FREF-0916-QMBA` ← `guides/gratitude-drift.md:17`) |
 | Records with zero inbound links (fref-090x cluster) | **75 of 76** (19 reference + 57 echo records) |
 | `relations:` declarations corpus-wide | 0 |
@@ -328,7 +350,7 @@ The compile also confirmed the canonical render paths for the audited cluster (e
 - **Archived-page semantics:** verified that archived pages render and appear in the sitemap (live sitemap check); internal `draft` vs `archived` rendering is otherwise per the compiler default. `status: archived` is treated as an editorial marker, not quarantine isolation.
 - **llms.txt:** live deployment serves an HTML fallback at `/llms.txt`; membership could not be verified live. Expected scope stated from the publish pipeline.
 - **“Awaiting context” and echo clusters** are aggregate rows; per-file dispositions are deferred to a policy decision, not enumerated row-by-row here.
-- **Unique-record accounting** (282) counts files once even when covered by multiple rows (e.g. `fref-0180-tdci.md` appears in Cluster F and Cluster E).
+- **Unique-record accounting:** 282 = `len(aggregate_paths | record_level_paths)` (§6.3); a file is counted once even when covered by multiple rows or clusters (e.g. `fref-0180-tdci.md` appears in Cluster F, Cluster B, and Cluster E). 31 paths overlap between aggregates and record-level rows; they are named by cluster in §6.3.
 - The 5 `status: draft` records were noted but are not workflow residue findings.
 - **Provenance bounds:** the report proves the reference manifests were restored from quarantined copies and that Sora prompt/preset sections remain; it does not prove the quarantined `*.generated.md` mascot files were reintroduced (they are absent from the current tree).
 - This report is deliberately conservative: the brief’s KEEP/QUARANTINE/REMOVE/REVIEW rules were applied strictly; ambiguous verse-campaign content defaults to REVIEW rather than REMOVE.
@@ -351,6 +373,7 @@ Editorial and accounting corrections applied to this revision; no content change
 10. Migration provenance conclusion narrowed: reference manifests demonstrably restored from quarantined copies; Sora prompt/preset sections remain; **not proven** that quarantined `*.generated.md` mascot files were reintroduced.
 11. All substantive evidence, exact paths, classifications, and report-only scope preserved.
 12. Validation re-run: ID, link, tag round-trip, and full graph/build gate — all PASS (§8).
+13. Unique affected record/file count recalculated from explicit normalized path sets: `len(aggregate_paths)` = 273, `len(record_level_paths)` = 40, `len(aggregate_paths & record_level_paths)` = 31, `len(aggregate_paths \| record_level_paths)` = 282, `len(operational_paths)` = 25 (disjoint from the union). The union is computed as a set union, not by adding category totals; overlapping paths are named by cluster (§6.3).
 
 ---
 
