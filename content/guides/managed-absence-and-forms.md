@@ -8,117 +8,34 @@ tags: ["guides"]
 
 # Managed Absence & Forms
 
-This seam page aggregates records that document the bureaucratic handling of absence, void spaces, and paperwork pressure across the system.
+Managed Absence & Forms gathers the records where the system handles absence, void spaces, and paperwork pressure by giving them a named status instead of a fix. The Managed Absence Spine holds these reclassifications as doctrine, the lorelogs document what happens when forms and directives collide with the machinery, and the mascots below personify the paperwork that keeps the absence stable.
 
-## Related Lorelogs
-- LLG-0381-OPTOUT
-- LLG-0404-DCP
-- LLG-0326-DCB
+## Start here
 
-## Related Mascots
-- 422. Form Sister Pale
-- 011. Formee Formeson
-- 410. Vacancy Notice
+- [Managed Absence Spine](../reference/FREF-0815-MAP.md)
+- [Breeding Program Opt-Out — Non-Cancellation Filing](../lorelog/LLG-0381-OPTOUT.md)
+- [Formee Formeson](../mascots/011.formee-formeson.md)
 
-## Related Verses
-- Haiku for 422
-- Limerick for DCP
-- Haiku for 011
+## Incidents
 
-## Related Aphorisms
+- [Breeding Program Opt-Out — Non-Cancellation Filing](../lorelog/LLG-0381-OPTOUT.md)
+- [Silence Handling Clarification — Dual-Certification Protocol](../lorelog/LLG-0404-DCP.md)
+- [Directive Citation Bleed — COMA Affirmations Logged as SOMA Mitigation](../lorelog/LLG-0326-DCB.md)
 
+## Mascot witnesses
 
-### Managed Absence & Forms {#managed-absence-forms-2}
+- [Form Sister Pale](../mascots/422.form-sister-pale.md)
+- [Formee Formeson](../mascots/011.formee-formeson.md)
+- [Vacancy Notice](../mascots/410.vacancy-notice.md)
 
-When an undocumented entity creates a contradiction in the ledger, the most efficient resolution is to erase the week it was discovered.
+## Governing references
 
+- [Managed Absence Spine](../reference/FREF-0815-MAP.md)
+- [Directive Conflict Stack — SOMA, COMA & C.U.N.T.I.E.R. at Cross-Purposes](../reference/fref-0370-dcst.md)
+- [Metrics of Care](../reference/fref-0400-metr.md)
 
+## Further filings
 
-Employees complaining of auditory anomalies in sector four are routinely reassigned to sector four, thus isolating the deviation to a single containment zone.
-
-
-
-If the forms do not match the incident, the incident must be conceptually restructured until it fits the available checkboxes.
-
-
-
-When a regulatory document contradicts the procedural reality, the document must be instantly destroyed to preserve the illusion of absolute systemic compliance.
-
-
-
-An anomalous event without a corresponding authorization form is mathematically impossible; therefore, any evidence of its occurrence must be formally expunged.
-
-
-
-To maintain the structural integrity of the audit logs, all non-compliant historical records shall be systematically reclassified as scheduled maintenance exercises.
-
-## Related Haikus
-
-
-### Stub: Managed Absence & Forms
-
-## Haikus
-
-
-Sacred containment
-Guard the forms of lineage
-Ritual complete
-
-
-
-Void of ancestry
-Silent cold replacement comes
-Custody is kept
-
-
-
-Validation seals
-The forgotten registry
-No exceptions made
-
-
-
-Managed absence falls
-Signatures adorn the shrine
-Endless indexed halls
-
-
-
-Bear ancestral weight
-Successor awaits the stamp
-Seal the cabinet
-
-## Related Limericks
-
-
-### Managed Absence & Forms {#managed-absence-forms-3}
-
-An ergonomic chair in a room made of gray,
-Where applicants come just to wither away.
-The silence is deep,
-As the protocols sleep,
-Ensuring the process is lost to delay.
-
-
-
-The vacancy echoes through binders of lead,
-With columns and tables entirely unread.
-We wait for the stamp,
-In the sterile and damp,
-While validation is quietly dead.
-
-
-
-A validation is filed away,
-To sit in the waiting all day.
-The appendix is bare,
-With a stationary stare,
-As the process embraces delay.
-
-
-
-The silence is dense as a stone,
-An applicant waiting alone.
-The progress is stalled,
-And the desk is uncalled,
-In a room of a neutral gray tone.
+- [Haiku: Form Sister Pale](../haikus/hai-422-form-sister-pale.md)
+- [Limerick: Dual-Certification Protocol](../limericks/LIM-LLG-0404-DCP.md)
+- [Haiku: Formee Formeson](../haikus/hai-011-formee-formeson.md)
