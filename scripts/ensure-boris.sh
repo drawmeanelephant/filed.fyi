@@ -96,6 +96,31 @@ except Exception:
 ' "${binary_path}" "${manifest_path}" "${expected_commit}" 2>/dev/null
 }
 
+verify_zig_version() {
+  local zig_bin="$1"
+  if [[ -n "$zig_bin" ]] && command -v "$zig_bin" >/dev/null 2>&1; then
+    local v
+    v=$("$zig_bin" version 2>/dev/null || echo "")
+    if [[ "$v" == "$ZIG_VERSION" ]]; then
+      return 0
+    fi
+  fi
+  return 1
+}
+
+# Resolve active Zig compiler binary if available
+ZIG_CMD=""
+if verify_zig_version "zig"; then
+  ZIG_CMD="zig"
+elif [[ -x "${ROOT}/.tools/zig/zig" ]] && verify_zig_version "${ROOT}/.tools/zig/zig"; then
+  ZIG_CMD="${ROOT}/.tools/zig/zig"
+fi
+
+ACTUAL_ZIG_VERSION=""
+if [[ -n "${ZIG_CMD}" ]]; then
+  ACTUAL_ZIG_VERSION=$("${ZIG_CMD}" version 2>/dev/null || echo "")
+fi
+
 # 1. Respect explicit executable BORIS_BIN if set (resolving to absolute path)
 if [[ -n "${BORIS_BIN:-}" && -x "${BORIS_BIN}" ]]; then
   ABS_BORIS_BIN=$(python3 -c 'import os, sys; print(os.path.abspath(sys.argv[1]))' "${BORIS_BIN}")
@@ -114,7 +139,9 @@ if [[ -x "${TARGET_BIN}" ]]; then
 fi
 
 # 3. Check for local sibling repository (pre-built executable or build from source)
-# MUST require sibling HEAD == PINNED_COMMIT
+# Sibling HEAD must match PINNED_COMMIT
+# Prebuilt binary requires verifiable matching manifest for PINNED_COMMIT
+# Source build requires exact ZIG_VERSION compiler
 SIBLING_CANDIDATES=(
   "${ROOT}/../boris"
   "${ROOT}/../boris/main"
@@ -133,23 +160,39 @@ for sibling in "${SIBLING_CANDIDATES[@]}"; do
     fi
 
     if [[ -x "${sibling}/zig-out/bin/boris" ]]; then
-      echo "==> Attempting pre-built Boris binary from sibling repository (${sibling})..." >&2
-      if cp "${sibling}/zig-out/bin/boris" "${TARGET_BIN}" 2>/dev/null; then
-        chmod +x "${TARGET_BIN}"
-        write_manifest "${TARGET_BIN}" "sibling" "${BORIS_REPOSITORY}" "${sibling_branch}" "${sibling_commit}" "${ZIG_VERSION}" "${MANIFEST}"
-        echo "${TARGET_BIN}"
-        exit 0
+      sibling_manifest=""
+      if [[ -f "${sibling}/bin/boris.json" ]]; then
+        sibling_manifest="${sibling}/bin/boris.json"
+      elif [[ -f "${sibling}/build-manifest.json" ]]; then
+        sibling_manifest="${sibling}/build-manifest.json"
       fi
-    fi
-    if [[ -f "${sibling}/build.zig" ]]; then
-      echo "==> Attempting Boris build from local sibling repository (${sibling})..." >&2
-      if (cd "${sibling}" && zig build 2>/dev/null) && [[ -x "${sibling}/zig-out/bin/boris" ]]; then
+
+      if [[ -n "${sibling_manifest}" ]] && verify_manifest "${sibling}/zig-out/bin/boris" "${sibling_manifest}" "${PINNED_COMMIT}"; then
+        echo "==> Attempting pre-built Boris binary from sibling repository (${sibling})..." >&2
         if cp "${sibling}/zig-out/bin/boris" "${TARGET_BIN}" 2>/dev/null; then
           chmod +x "${TARGET_BIN}"
-          write_manifest "${TARGET_BIN}" "sibling" "${BORIS_REPOSITORY}" "${sibling_branch}" "${sibling_commit}" "${ZIG_VERSION}" "${MANIFEST}"
+          write_manifest "${TARGET_BIN}" "sibling" "${BORIS_REPOSITORY}" "${sibling_branch}" "${sibling_commit}" "${ACTUAL_ZIG_VERSION:-$ZIG_VERSION}" "${MANIFEST}"
           echo "${TARGET_BIN}"
           exit 0
         fi
+      else
+        echo "==> Skipping sibling pre-built binary at ${sibling} (no matching manifest for target commit ${PINNED_COMMIT})." >&2
+      fi
+    fi
+
+    if [[ -f "${sibling}/build.zig" ]]; then
+      if [[ -n "${ZIG_CMD}" ]] && verify_zig_version "${ZIG_CMD}"; then
+        echo "==> Attempting Boris build from local sibling repository (${sibling})..." >&2
+        if (cd "${sibling}" && "$ZIG_CMD" build 2>/dev/null) && [[ -x "${sibling}/zig-out/bin/boris" ]]; then
+          if cp "${sibling}/zig-out/bin/boris" "${TARGET_BIN}" 2>/dev/null; then
+            chmod +x "${TARGET_BIN}"
+            write_manifest "${TARGET_BIN}" "sibling" "${BORIS_REPOSITORY}" "${sibling_branch}" "${sibling_commit}" "${ACTUAL_ZIG_VERSION}" "${MANIFEST}"
+            echo "${TARGET_BIN}"
+            exit 0
+          fi
+        fi
+      else
+        echo "==> Skipping sibling source build at ${sibling} (active Zig compiler version != ${ZIG_VERSION})." >&2
       fi
     fi
   fi
@@ -165,29 +208,10 @@ fi
 
 echo "==> Provisioning Boris compiler (${PINNED_COMMIT})..." >&2
 
-# Check or download Zig compiler matching exact ZIG_VERSION
+# Download Zig compiler if valid compiler binary is missing
 mkdir -p "${ROOT}/.tools/cache/global" "${ROOT}/.tools/cache/local"
 export ZIG_GLOBAL_CACHE_DIR="${ROOT}/.tools/cache/global"
 export ZIG_LOCAL_CACHE_DIR="${ROOT}/.tools/cache/local"
-
-verify_zig_version() {
-  local zig_bin="$1"
-  if command -v "$zig_bin" >/dev/null 2>&1; then
-    local v
-    v=$("$zig_bin" version 2>/dev/null || echo "")
-    if [[ "$v" == "$ZIG_VERSION" ]]; then
-      return 0
-    fi
-  fi
-  return 1
-}
-
-ZIG_CMD=""
-if verify_zig_version "zig"; then
-  ZIG_CMD="zig"
-elif [[ -x "${ROOT}/.tools/zig/zig" ]] && verify_zig_version "${ROOT}/.tools/zig/zig"; then
-  ZIG_CMD="${ROOT}/.tools/zig/zig"
-fi
 
 if [[ -z "${ZIG_CMD}" ]]; then
   ZIG_DIR="${ROOT}/.tools/zig"

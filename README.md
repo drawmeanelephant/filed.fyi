@@ -17,10 +17,10 @@ Filed is a 2,265-page static Markdown archive compiled by [Boris](https://github
 
 ## Quick Start & Operating Commands
 
-Ensure the Boris compiler binary is provisioned locally (checks `BORIS_BIN`, existing `./bin/boris`, sibling `../boris` repo, or downloads Zig + clones Boris automatically):
+Ensure the Boris compiler binary is provisioned locally (`./scripts/ensure-boris.sh` performs local-only resolution across `BORIS_BIN`, existing `./bin/boris`, or compatible sibling repo at pinned commit; use `--provision` or `BORIS_AUTO_PROVISION=1` to permit network downloading and building):
 
 ```sh
-./scripts/ensure-boris.sh
+./scripts/ensure-boris.sh --provision
 ```
 
 Build the primary site and serve it locally:
@@ -45,7 +45,7 @@ BORIS_BIN=/path/to/boris ./bin/validate_graph.sh
 
 Primary build and publishing scripts:
 
-* `./scripts/ensure-boris.sh`: Resolves or builds `./bin/boris` and writes `./bin/boris.json` manifest.
+* `./scripts/ensure-boris.sh`: Performs local-only resolution of `./bin/boris` (pass `--provision` or `BORIS_AUTO_PROVISION=1` to allow network downloading and building).
 * `./scripts/clean-binaries.sh`: Cleans unneeded/stale compiler binary artifacts in `bin/`.
 * `./scripts/filed-build.sh`: Runs the production HTML build.
 * `./scripts/filed-publish.sh`: Exports HTML, IR, RAG, Context, sitemap, and `llms.txt` artifacts.

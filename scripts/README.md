@@ -19,6 +19,12 @@ This directory contains the Python, Shell, and automation scripts used to build,
 ### 📜 `build-boris-afterparty.sh`
 * **Purpose**: Fetches and builds the active Boris compiler from the `afterparty` branch of [drawmeanelephant/boris](https://github.com/drawmeanelephant/boris).
 
+### 📜 `ensure-boris.sh`
+* **Purpose**: Performs local-only resolution for the `./bin/boris` compiler binary (`BORIS_BIN`, `./bin/boris` + manifest, or prebuilt/source sibling matching pinned commit). Pass `--provision` or `BORIS_AUTO_PROVISION=1` to permit network downloading of Zig and compiling of Boris. Emits exactly one absolute path on stdout.
+
+### 📜 `clean-binaries.sh`
+* **Purpose**: Cleans provisioner-owned compiler artifacts in `bin/` (`bin/boris` and `bin/boris.json`). Pass `--cache` or `--all` to clean provisioner build cache (`.tools/`).
+
 ### 📜 `filed-migration-ci.sh`
 * **Purpose**: Complete CI verification script used to validate corpus integrity, graph relationships, and build outputs.
 
