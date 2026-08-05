@@ -31,8 +31,8 @@ Mascot Containment & Breeding documents the procedures, failures, and administra
 ## Governing references
 
 - [Synthetic Affect & Successor Suite — Training Echo Layer](../reference/fref-0360-sast.md)
-- [Dead Service Layer](../reference/FREF-0810-DSL.md)
 - [Artifact Provenance Under Repeated Ceremonial Use](../reference/fref-0570-apcr.md)
+- [Secondary Legitimacy and Refuge Handling Notes](../reference/fref-0190-slhr.md)
 
 ## Further filings
 
