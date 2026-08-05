@@ -78,6 +78,8 @@ jobs:
     steps:
       - name: Checkout Filed
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history so the relationship-recovery manifest can be re-verified from commit 6abe4416
 
       - name: Set up pinned Zig
         uses: mlugg/setup-zig@v2
@@ -109,6 +111,9 @@ jobs:
           mkdir -p "${{ github.workspace }}/bin"
           cp zig-out/bin/boris "${{ github.workspace }}/bin/boris"
           chmod +x "${{ github.workspace }}/bin/boris"
+
+      - name: Install relationship-recovery dependencies
+        run: python3 -m pip install --quiet pyyaml
 
       - name: Run Filed publish pipeline (LLM export repair + validation)
         env:

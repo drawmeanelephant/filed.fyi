@@ -46,6 +46,7 @@ Run from the repository root. Idempotent: re-running reports no changes.
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
@@ -64,6 +65,43 @@ TRUNK_ID = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 SOURCE_PATH = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_. -]*(?:/[A-Za-z0-9][A-Za-z0-9_. -]*)*\.md$")
 PART_PATH = re.compile(r"^(?:parts?|bundle)/")
 RAG_PATH = re.compile(r"^content/pages/.*\.md$")
+
+# Committed relationship-recovery manifest (see scripts/recover_relationships.py):
+# the publish pipeline reads recovered pre-migration relationships from here, so
+# it never needs an untracked scratch directory or repository history.
+MANIFEST_PATH = Path(__file__).resolve().parent.parent / "metadata" / "relationship-map.jsonl"
+
+
+def load_relationship_manifest(path: Path = MANIFEST_PATH
+                               ) -> dict[str, list[str]]:
+    """Load recovered pre-migration relationships from the committed manifest.
+
+    Returns a mapping of current entity ID -> ordered list of canonical target
+    IDs (manifest order, duplicates preserved) for rows whose declaration
+    resolved to a real current record.  Missing, ambiguous, self-link, and
+    source-unmigrated rows are deliberately excluded here: they are reported
+    by the integrity report, never exported.
+    """
+    if not path.is_file():
+        raise FileNotFoundError(
+            f"relationship recovery manifest not found: {path} — run "
+            f"python3 scripts/recover_relationships.py --generate (committed manifest "
+            f"required by the publish pipeline)")
+    recovered: dict[str, list[str]] = {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        row = json.loads(line)
+        if row.get("status") != "resolved":
+            continue
+        current_id = row.get("current_id")
+        resolved_id = row.get("resolved_id")
+        if not current_id or not resolved_id:
+            continue
+        recovered.setdefault(current_id, []).append(resolved_id)
+    return recovered
+
 
 
 def scalar(value: str | None) -> str:
@@ -279,23 +317,39 @@ def resolve_target(target: str, by_id: dict[str, Entity],
 
 
 def semantic_relationships(by_id: dict[str, Entity], by_source: dict[str, Entity],
-                           content_root: Path
+                           content_root: Path, recovered: dict[str, list[str]] | None = None
                            ) -> tuple[dict[str, list[str]], list[tuple[str, str]]]:
     """Derive the ordered, deduplicated canonical relationship list per entity.
 
     Returns (semantic_by_id, unresolved) where semantic_by_id maps entity ID to
-    the canonical entity IDs of its source-supported relationships (first-seen
-    order, duplicates removed), and unresolved lists (source, raw_target) pairs
-    that could not be resolved to a record.
+    the canonical entity IDs of its relationships (first-seen order, duplicates
+    removed), and unresolved lists (source, raw_target) pairs that could not be
+    resolved to a record.
+
+    Sources, in first-seen order:
+      1. ``recovered`` — pre-migration relationships from the committed
+         relationship-recovery manifest (metadata/relationship-map.jsonl).
+      2. Boris frontmatter ``relations``.
+      3. Legacy frontmatter ``relatedEntries``.
+      4. Explicit Markdown cross-references that resolve to another record.
 
     Shared by the repair and the integrity validator so both compute the
     expected relationship set identically.
     """
+    recovered = recovered or {}
     raw_targets, unresolved = extract_relations(by_id, by_source, content_root)
     semantic_by_id: dict[str, list[str]] = {}
     unresolved_list: list[tuple[str, str]] = []
-    for entity_id, targets in raw_targets.items():
+    for entity_id in sorted(set(raw_targets) | set(recovered)):
+        targets = raw_targets.get(entity_id, [])
+        if entity_id not in by_id:
+            continue
         canonical: list[str] = []
+        # Source 1: recovered pre-migration relationships (already canonical).
+        for resolved in recovered.get(entity_id, []):
+            if resolved not in canonical:
+                canonical.append(resolved)
+        # Sources 2-4: current-source declarations, resolved and deduplicated.
         for target in targets:
             resolved = resolve_target(target, by_id, by_source)
             if resolved is None:
@@ -456,6 +510,8 @@ def main() -> int:
                         help="Boris RAG export directory (default: publish/rag)")
     parser.add_argument("--context-dir", type=Path, default=Path("publish/context"),
                         help="Boris context bundle directory (default: publish/context)")
+    parser.add_argument("--manifest", type=Path, default=MANIFEST_PATH,
+                        help="relationship-recovery manifest (default: metadata/relationship-map.jsonl)")
     args = parser.parse_args()
 
     try:
@@ -467,8 +523,14 @@ def main() -> int:
         print(f"relationship repair: error: no records indexed under {args.content}", file=sys.stderr)
         return 2
 
+    try:
+        recovered = load_relationship_manifest(args.manifest)
+    except FileNotFoundError as error:
+        print(f"relationship repair: error: {error}", file=sys.stderr)
+        return 2
+
     semantic_by_id, unresolved_for_entity = semantic_relationships(
-        by_id, by_source, args.content)
+        by_id, by_source, args.content, recovered=recovered)
 
     changed_files = 0
     moved_parts = 0
@@ -503,7 +565,10 @@ def main() -> int:
         print(f"repaired {changed_files} context page file(s) total (RAG + context)")
 
     relation_count = sum(len(values) for values in semantic_by_id.values())
-    print(f"source-supported relationships: {relation_count} across {len(semantic_by_id)} record(s)")
+    recovered_count = sum(len(values) for values in recovered.values())
+    print(f"recovered legacy relationships: {recovered_count} declarations from "
+          f"metadata/relationship-map.jsonl (provenance commit 6abe4416)")
+    print(f"canonical relationships exported: {relation_count} across {len(semantic_by_id)} record(s)")
     if unresolved_for_entity:
         print(f"unresolved relationship targets: {len(unresolved_for_entity)}")
         for source, target in unresolved_for_entity:

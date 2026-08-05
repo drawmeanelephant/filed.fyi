@@ -21,6 +21,7 @@ Usage:
     python3 scripts/test_relationship_repair.py
 """
 
+import json
 import os
 import sys
 import tempfile
@@ -32,10 +33,19 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
 from repair_relationships import (  # noqa: E402
     build_index,
+    load_relationship_manifest,
     repair_rag_page,
     semantic_relationships,
 )
 from validate_relationships import audit  # noqa: E402
+from recover_relationships import (  # noqa: E402
+    Entry,
+    build_rows,
+    derive_collection_id,
+    derive_legacy_id,
+    generate,
+    write_manifest,
+)
 
 FAILURES = []
 
@@ -298,10 +308,249 @@ def test_parity_bundle_membership_preserved_counted():
     ) as (by_id, by_source, semantic, unresolved, rag_dir, context_dir):
         _, counts = audit(by_id, by_source, semantic, unresolved, rag_dir, context_dir)
     check(counts["bundle_preserved"] == 2, "bundle memberships counted (2)")
-    check(counts["source_supported"] == 1, "source-supported relationships counted (1)")
-    check(counts["source_records"] == 1, "relationship-bearing records counted (1)")
+    check(counts["canonical_exported"] == 1, "canonical relationships exported counted (1)")
+    check(counts["canonical_records"] == 1, "relationship-bearing records counted (1)")
     check(counts["rag_exported"] == 1, "RAG relationships exported counted (1)")
     check(counts["context_exported"] == 1, "context relationships exported counted (1)")
+
+
+# ---------------------------------------------------------------------------
+# 3. Pre-migration relationship recovery (metadata/relationship-map.jsonl)
+# ---------------------------------------------------------------------------
+
+
+def _entry(source, data, legacy_id=None):
+    """Build a legacy ground-truth Entry from a src/content-relative path."""
+    collection, raw_id = derive_collection_id(source)
+    return Entry(source, collection, raw_id, data,
+                 legacy_id if legacy_id is not None else derive_legacy_id(source))
+
+
+def _current(entity_id, source):
+    return {"id": entity_id, "source": source}
+
+
+def test_recovery_mascot_to_lorelog():
+    """A mascot's legacy relatedEntries targeting a lorelog record recovers."""
+    entries = [
+        _entry("docs/mascots/005.bricky-goldbricksworth.mdx",
+               {"slug": "mascots/bricky-goldbricksworth",
+                "relatedEntries": [{"collection": "lorelog", "id": "LLG-0007-COMA"}]}),
+        _entry("docs/lorelog/LLG-0007-COMA.mdx", {"slug": "lorelog/LLG-0007-COMA"}),
+    ]
+    by_legacy = {
+        "mascots/005.bricky-goldbricksworth": _current("mascots/M-0005",
+                                                        "mascots/005.bricky-goldbricksworth.md"),
+        "lorelog/LLG-0007-COMA": _current("lorelog/LLG-0007-COMA",
+                                           "lorelog/LLG-0007-COMA.md"),
+    }
+    rows, status_counts, _structural = build_rows(entries, by_legacy)
+    check(len(rows) == 1 and status_counts["resolved"] == 1,
+          "mascot -> lorelog yields one resolved manifest row")
+    row = rows[0]
+    check(row["resolved_id"] == "lorelog/LLG-0007-COMA" and row["current_id"] == "mascots/M-0005",
+          "mascot -> lorelog resolves through the id-map to the current lorelog record")
+    check(row["match_type"] == "exact", "collection-scoped declaration matches at the exact tier")
+
+
+def test_recovery_mascot_to_reference():
+    """Legacy 'docs' collection declaration with a bare reference id recovers."""
+    entries = [
+        _entry("docs/lorelog/LLG-0408-DTS-DEP.mdx",
+               {"relatedEntries": [{"collection": "docs", "id": "fref-0840-rwrr"}]}),
+        _entry("docs/reference/fref-0840-rwrr.mdx", {"slug": "reference/fref-0840-rwrr"}),
+    ]
+    by_legacy = {
+        "lorelog/LLG-0408-DTS-DEP": _current("lorelog/LLG-0408-DTS-DEP",
+                                              "lorelog/LLG-0408-DTS-DEP.md"),
+        "reference/fref-0840-rwrr": _current("reference/FREF-0840-RWRR",
+                                              "reference/fref-0840-rwrr.md"),
+    }
+    rows, status_counts, _ = build_rows(entries, by_legacy)
+    check(status_counts["resolved"] == 1,
+          "legacy docs->reference mapping resolves exactly (old docs mapping for reference)")
+    check(rows[0]["resolved_id"] == "reference/FREF-0840-RWRR",
+          "bare fref id under collection docs resolves to the reference record")
+
+
+def test_recovery_legacy_docs_reference_mapping():
+    """A slashed 'reference/forms/...' id under collection docs resolves."""
+    entries = [
+        _entry("docs/lorelog/LLG-0436-ASF.mdx",
+               {"relatedEntries": [{"collection": "docs",
+                                    "id": "reference/forms/fref-0020-maps"}]}),
+        _entry("docs/reference/forms/fref-0020-maps.mdx",
+               {"slug": "reference/forms/fref-0020-maps"}),
+    ]
+    by_legacy = {
+        "lorelog/LLG-0436-ASF": _current("lorelog/LLG-0436-ASF",
+                                          "lorelog/LLG-0436-ASF.md"),
+        "reference/forms/fref-0020-maps": _current("reference/FREF-0020-MAPS",
+                                                    "reference/forms/fref-0020-maps.md"),
+    }
+    rows, status_counts, _ = build_rows(entries, by_legacy)
+    check(status_counts["resolved"] == 1
+          and rows[0]["resolved_id"] == "reference/FREF-0020-MAPS",
+          "slashed docs id resolves through the legacy docs/reference mapping")
+
+
+def test_recovery_missing_target():
+    """A legacy declaration with no current counterpart is reported, not dropped."""
+    entries = [
+        _entry("docs/mascots/005.bricky-goldbricksworth.mdx",
+               {"relatedEntries": [{"collection": "lorelog", "id": "LLG-9999-NOPE"}]}),
+    ]
+    by_legacy = {
+        "mascots/005.bricky-goldbricksworth": _current("mascots/M-0005",
+                                                        "mascots/005.bricky-goldbricksworth.md"),
+    }
+    rows, status_counts, _ = build_rows(entries, by_legacy)
+    check(status_counts["missing"] == 1 and rows[0]["status"] == "missing",
+          "missing target is reported with status 'missing'")
+    check(rows[0]["resolved_id"] is None, "missing rows carry no resolved id")
+
+
+def test_recovery_ambiguous_target():
+    """A bare stem matching multiple legacy entries is reported ambiguous."""
+    # The real-world ambiguity: the aphorism/haiku/limerick/lorelog quartet for
+    # one LLG case shares the same caseNumber, so the global caseNumber tier
+    # matches multiple entries (mirrors archive-identity.resolveExactAlias).
+    entries = [
+        _entry("docs/lorelog/LLG-0217-CNTR.mdx",
+               {"slug": "lorelog/LLG-0217-CNTR", "caseNumber": "LLG-0217-CNTR"}),
+        _entry("docs/limericks/LIM-LLG-0217-CNTR.mdx",
+               {"slug": "limericks/LIM-LLG-0217-CNTR", "caseNumber": "LLG-0217-CNTR"}),
+        _entry("docs/reference/fref-0200-cbac.mdx",
+               {"relatedEntries": ["LLG-0217-CNTR"]}),
+    ]
+    by_legacy = {
+        "lorelog/LLG-0217-CNTR": _current("lorelog/LLG-0217-CNTR",
+                                           "lorelog/LLG-0217-CNTR.md"),
+        "limericks/LIM-LLG-0217-CNTR": _current("limericks/LIM-LLG-0217-CNTR",
+                                                 "limericks/LIM-LLG-0217-CNTR.md"),
+        "reference/fref-0200-cbac": _current("reference/FREF-0200-CBAC",
+                                              "reference/fref-0200-cbac.md"),
+    }
+    rows, status_counts, _ = build_rows(entries, by_legacy)
+    check(status_counts["ambiguous"] == 1 and rows[0]["status"] == "ambiguous",
+          "bare stem matching the shared-caseNumber quartet is reported ambiguous")
+
+
+def test_recovery_duplicate_declaration():
+    """Two declarations of the same target export as a single canonical edge."""
+    entries = [
+        _entry("docs/mascots/005.bricky-goldbricksworth.mdx",
+               {"relatedEntries": [
+                   {"collection": "lorelog", "id": "LLG-0007-COMA"},
+                   {"collection": "lorelog", "id": "LLG-0007-COMA"},
+               ]}),
+        _entry("docs/lorelog/LLG-0007-COMA.mdx", {"slug": "lorelog/LLG-0007-COMA"}),
+    ]
+    by_legacy = {
+        "mascots/005.bricky-goldbricksworth": _current("mascots/M-0005",
+                                                        "mascots/005.bricky-goldbricksworth.md"),
+        "lorelog/LLG-0007-COMA": _current("lorelog/LLG-0007-COMA",
+                                           "lorelog/LLG-0007-COMA.md"),
+    }
+    rows, status_counts, _ = build_rows(entries, by_legacy)
+    check(status_counts["resolved"] == 2,
+          "both duplicate declarations are recorded in the manifest")
+    recovered = {
+        eid: [r["resolved_id"] for r in rows
+              if r["status"] == "resolved" and r["current_id"] == eid]
+        for eid in {"mascots/M-0005"}
+    }
+    check(len(recovered["mascots/M-0005"]) == 2,
+          "recovered list preserves both declarations (first-seen order)")
+    content_files = {
+        "mascots/005.bricky-goldbricksworth.md": (
+            "---\nid: mascots/M-0005\ntitle: \"Bricky\"\nparent: mascots\n---\n\nBody.\n"),
+        "lorelog/LLG-0007-COMA.md": (
+            "---\nid: lorelog/LLG-0007-COMA\ntitle: \"Coma\"\nparent: lorelog\n---\n\nBody.\n"),
+    }
+    with tempfile.TemporaryDirectory() as tmp:
+        content_root = Path(tmp) / "content"
+        for rel, text in content_files.items():
+            path = content_root / rel
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(text, encoding="utf-8")
+        by_id, by_source, _warnings = build_index(content_root)
+        semantic, _unresolved = semantic_relationships(
+            by_id, by_source, content_root, recovered=recovered)
+    check(semantic.get("mascots/M-0005") == ["lorelog/LLG-0007-COMA"],
+          "duplicate recovered declarations export as a single deduplicated edge")
+
+
+def test_recovery_self_link():
+    """A legacy declaration pointing at its own record is reported self, excluded."""
+    entries = [
+        _entry("docs/mascots/005.bricky-goldbricksworth.mdx",
+               {"relatedEntries": [{"collection": "mascots",
+                                    "id": "005.bricky-goldbricksworth"}]}),
+    ]
+    by_legacy = {
+        "mascots/005.bricky-goldbricksworth": _current("mascots/M-0005",
+                                                        "mascots/005.bricky-goldbricksworth.md"),
+    }
+    rows, status_counts, _ = build_rows(entries, by_legacy)
+    check(status_counts["self"] == 1 and rows[0]["status"] == "self",
+          "self-link is reported with status 'self'")
+    check(rows[0]["resolved_id"] == "mascots/M-0005", "self row records the resolved self id")
+
+
+def test_recovery_repeated_run_byte_stability():
+    """Regenerating the manifest from the same ground truth changes zero bytes."""
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp_path = Path(tmp)
+        gt_root = tmp_path / "gt"
+        src = gt_root / "src" / "content" / "docs" / "mascots"
+        src.mkdir(parents=True)
+        (src / "005.bricky-goldbricksworth.mdx").write_text(
+            "---\nslug: mascots/bricky-goldbricksworth\n"
+            "relatedEntries:\n  - collection: lorelog\n    id: LLG-0007-COMA\n---\n\nBody.\n",
+            encoding="utf-8")
+        lore_dir = gt_root / "src" / "content" / "docs" / "lorelog"
+        lore_dir.mkdir(parents=True)
+        (lore_dir / "LLG-0007-COMA.mdx").write_text(
+            "---\nslug: lorelog/LLG-0007-COMA\n---\n\nBody.\n", encoding="utf-8")
+        id_map = tmp_path / "id-map.jsonl"
+        id_map.write_text(
+            '{"role": "satellite", "id": "mascots/M-0005", '
+            '"source": "mascots/005.bricky-goldbricksworth.md", '
+            '"legacy_id": "mascots/005.bricky-goldbricksworth"}\n'
+            '{"role": "satellite", "id": "lorelog/LLG-0007-COMA", '
+            '"source": "lorelog/LLG-0007-COMA.md", '
+            '"legacy_id": "lorelog/LLG-0007-COMA"}\n',
+            encoding="utf-8")
+        first_rows, first_summary = generate(gt_root, id_map)
+        write_manifest(first_rows, first_summary, tmp_path / "map-a.jsonl",
+                       tmp_path / "summary-a.json")
+        second_rows, second_summary = generate(gt_root, id_map)
+        write_manifest(second_rows, second_summary, tmp_path / "map-b.jsonl",
+                       tmp_path / "summary-b.json")
+        check((tmp_path / "map-a.jsonl").read_bytes() == (tmp_path / "map-b.jsonl").read_bytes(),
+              "repeated manifest generation is byte-stable (map)")
+        check((tmp_path / "summary-a.json").read_bytes() == (tmp_path / "summary-b.json").read_bytes(),
+              "repeated manifest generation is byte-stable (summary)")
+
+
+def test_recovery_manifest_loader():
+    """load_relationship_manifest returns ordered resolved targets, skips the rest."""
+    with tempfile.TemporaryDirectory() as tmp:
+        manifest = Path(tmp) / "relationship-map.jsonl"
+        manifest.write_text(
+            json.dumps({"status": "resolved", "current_id": "mascots/M-0005",
+                        "resolved_id": "lorelog/LLG-0007-COMA",
+                        "provenance": "6abe4416"}) + "\n"
+            + json.dumps({"status": "resolved", "current_id": "mascots/M-0005",
+                          "resolved_id": "lorelog/LLG-0019-COMA",
+                          "provenance": "6abe4416"}) + "\n"
+            + json.dumps({"status": "missing", "current_id": "mascots/M-0005",
+                          "resolved_id": None, "provenance": "6abe4416"}) + "\n",
+            encoding="utf-8")
+        recovered = load_relationship_manifest(manifest)
+    check(recovered == {"mascots/M-0005": ["lorelog/LLG-0007-COMA", "lorelog/LLG-0019-COMA"]},
+          "manifest loader returns ordered resolved targets only")
 
 
 def main():
@@ -317,12 +566,23 @@ def main():
     test_parity_bundle_path_inside_related_is_loss()
     test_parity_bundle_membership_preserved_counted()
     print()
+    print("pre-migration relationship recovery:")
+    test_recovery_mascot_to_lorelog()
+    test_recovery_mascot_to_reference()
+    test_recovery_legacy_docs_reference_mapping()
+    test_recovery_missing_target()
+    test_recovery_ambiguous_target()
+    test_recovery_duplicate_declaration()
+    test_recovery_self_link()
+    test_recovery_repeated_run_byte_stability()
+    test_recovery_manifest_loader()
+    print()
     if FAILURES:
         print("FAILED:")
         for failure in FAILURES:
             print(f"  - {failure}")
         sys.exit(1)
-    print("PASS — repair is idempotent and export parity is enforced.")
+    print("PASS — repair idempotent, export parity enforced, pre-migration recovery verified.")
 
 
 if __name__ == "__main__":

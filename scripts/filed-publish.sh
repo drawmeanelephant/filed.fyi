@@ -46,6 +46,14 @@ python3 scripts/validate_relationships.py \
   --context-dir "$PUBLISH_DIR/context" \
   --report reports/relationship-integrity.md
 
+# Relationship ground truth is the committed recovery manifest
+# (metadata/relationship-map.jsonl) — the pipeline never needs a scratch
+# directory or git history.  Verify it is consistent with content/, and when
+# history is available reproduce it byte-for-byte from the immutable
+# pre-migration tree at commit 6abe4416.
+python3 scripts/recover_relationships.py --check
+python3 scripts/recover_relationships.py --verify
+
 if "$BORIS_BIN" --input "$CONTENT_DIR" --llms-path "$PUBLISH_DIR/llms.txt" --quiet; then
   if python3 -c 'from pathlib import Path; import sys; Path(sys.argv[1]).read_text(encoding="utf-8")' "$PUBLISH_DIR/llms.txt"; then
     echo "✅ llms.txt exported and is valid UTF-8"
