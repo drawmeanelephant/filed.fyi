@@ -1,7 +1,7 @@
 # Workflow Residue Inventory — Filed & Forgotten Archive
 
 **Status:** report-only inventory. No content was removed, moved, rewritten, or quarantined.
-**Branch:** `audit/workflow-residue-inventory` (fresh from `origin/main`, base commit `b5cd8a5c`; PR #506)
+**Branch:** `audit/workflow-residue-inventory` (rebased onto current `origin/main`, base commit `69ee5fa5` — PR #504 merge; PR #506)
 **Date:** 2026-08-05 (revised 2026-08-05 — accounting corrections, see §10)
 **Scope:** all source Markdown (`content/`), metadata, scripts, reports, themes, docs, and generated-output configuration.
 
@@ -339,9 +339,12 @@ Cross-collection aggregates are **not** silently attributed to a single collecti
 | Identity / form-ID policy | `python3 scripts/filed_ids.py --root content --map metadata/id-map.jsonl` | `validated 2265 pages; no files changed` — PASS |
 | Markdown link audit | `python3 scripts/audit_markdown_links.py content` | `Markdown link audit: all local Markdown links resolve` — PASS |
 | Tag round-trip regression | `python3 scripts/test_tag_roundtrip.py` | `PASS — all named tags round-trip unchanged and no corrupt fragments remain` |
-| Full graph + build gate | `BORIS_BIN=… ./bin/validate_graph.sh` (Boris graph diagnostics + Cantilever compile of 2,265 pages + HTML-ID audit + publication proof checks) | `HTML ID audit: 0 pages with duplicate IDs; 0 duplicate occurrences` / `Filed build passed: dist/cantilever` / `🎉 Filed graph, form IDs, HTML IDs, and publication checks passed.` — PASS |
+| Relationship repair regressions (PR #504) | `python3 scripts/test_relationship_repair.py` | `PASS — repair idempotent, export parity enforced, pre-migration recovery verified.` |
+| Verse-residue regressions (PR #503) | `python3 scripts/test_verse_residue.py` | `PASS — verse residue transform behaves as specified and leaves no-verse pages untouched.` |
+| Publish-export pipeline (PR #504) | `BORIS_BIN=… ./scripts/filed-publish.sh` (ID gate + Boris RAG/context/IR export + relationship repair + relationship validation + recovery check/verify + llms.txt UTF-8 guard) | `relationship integrity: PASS — 0 finding(s); 2286 canonical relationship(s) across 1292 record(s)` / `relationship recovery check: PASS` / `relationship recovery verify: PASS` / `✅ llms.txt exported and is valid UTF-8` — PASS |
+| Full graph + build gate | `BORIS_BIN=… ./bin/validate_graph.sh` (Boris graph diagnostics + Cantilever compile of 2,265 pages + verse-residue check + HTML-ID audit + publication proof checks) | `Verse residue check passed: no flat verse headings or TOC links remain.` / `HTML ID audit: 0 pages with duplicate IDs; 0 duplicate occurrences` / `Filed build passed: dist/cantilever` / `🎉 Filed graph, form IDs, HTML IDs, and publication checks passed.` — PASS |
 
-The compile also confirmed the canonical render paths for the audited cluster (e.g. `dist/cantilever/reference/FREF-0901-APIV.html` … `FREF-0918-QMCL.html`), matching the live sitemap evidence. Content was not modified by this PR, so these results reflect the unchanged corpus. (Validation was re-run after the §10 correction.)
+The compile also confirmed the canonical render paths for the audited cluster (e.g. `dist/cantilever/reference/FREF-0901-APIV.html` … `FREF-0918-QMCL.html`), matching the live sitemap evidence. Content was not modified by this PR, so these results reflect the unchanged corpus. (Validation was re-run after the rebase onto `69ee5fa5` and after the §10 correction, using the current main validation suite including the PR #503/#504 checks.)
 
 ---
 
@@ -374,6 +377,7 @@ Editorial and accounting corrections applied to this revision; no content change
 11. All substantive evidence, exact paths, classifications, and report-only scope preserved.
 12. Validation re-run: ID, link, tag round-trip, and full graph/build gate — all PASS (§8).
 13. Unique affected record/file count recalculated from explicit normalized path sets: `len(aggregate_paths)` = 273, `len(record_level_paths)` = 40, `len(aggregate_paths & record_level_paths)` = 31, `len(aggregate_paths \| record_level_paths)` = 282, `len(operational_paths)` = 25 (disjoint from the union). The union is computed as a set union, not by adding category totals; overlapping paths are named by cluster (§6.3).
+14. Rebase re-check (2026-08-05): branch rebased onto current `origin/main` (`69ee5fa5`, PR #504 merge). Residue searches re-run against the refreshed tree; the files main gained since `b5cd8a5c` (relationship recovery manifest/tooling, verse-residue tooling, two new audit reports, CI publish-export job, theme CSS) introduce **no new classification rows**: their `src/content`/`.mdx`/`content-residue` strings are functional references inside deliberate recovery tooling and reports (same KEEP class as Cluster I `fix_tag_truncation.py` / `metadata/id-map.jsonl`). The single deleted-tool mention is a provenance docstring — `recover_relationships.py` cites the pre-migration `scripts/audit-relationships.mjs` (no longer in the tree) only to source its historical 4,293-declaration count, never to run it; same KEEP class, not an instruction. No local absolute paths, prompt/generation instructions, scratch paths, temporary export paths, or hidden generation blocks were found. `content/` is byte-identical to the audited corpus, so all accounting in §5–§6 is unchanged. Validation re-run with the current main suite, including the PR #503/#504 checks — all PASS (§8).
 
 ---
 
