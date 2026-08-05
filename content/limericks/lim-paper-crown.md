@@ -3,7 +3,7 @@ title: "Paper Crown"
 id: limericks/LIM-0152
 parent: limericks
 status: published
-tags: ["limericks", "eader-overflow", "etadata-excess", "rnamental", "ollapse"]
+tags: ["limericks", "header-overflow", "metadata-excess", "ornamental", "collapse"]
 ---
 
 # Paper Crown

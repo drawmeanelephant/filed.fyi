@@ -3,7 +3,7 @@ title: "Sanctioned Quilt"
 id: haikus/HAI-0295
 parent: haikus
 status: archived
-tags: ["haikus", "mfort", "mmittee", "ftness"]
+tags: ["haikus", "comfort", "committee", "softness"]
 ---
 
 # Sanctioned Quilt

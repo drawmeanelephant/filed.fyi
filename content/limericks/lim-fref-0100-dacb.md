@@ -3,7 +3,7 @@ title: "Dashboard Alignment Cell – Band Management Guide"
 id: limericks/LIM-FREF-0100-DACB
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Dashboard Alignment Cell – Band Management Guide

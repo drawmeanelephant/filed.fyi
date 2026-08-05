@@ -3,7 +3,7 @@ title: "Form 40-C Cross-Departmental Consent Cascade"
 id: aphorisms/APH-LLG-0040-C
 parent: aphorisms
 status: published
-tags: ["aphorisms", "nsent-forms", "pendency-cycle", "teroffice-deadlock", "ocess-startup-failure", "gal-impossibility"]
+tags: ["aphorisms", "consent-forms", "dependency-cycle", "interoffice-deadlock", "process-startup-failure", "legal-impossibility"]
 ---
 
 # Form 40-C Consent Cascade Aphorisms

@@ -3,7 +3,7 @@ title: "Gratitude Telemetry"
 id: aphorisms/APH-FREF-0680-GTLM
 parent: aphorisms
 status: published
-tags: ["aphorisms", "atitude", "lemetry", "arcity", "sclassification"]
+tags: ["aphorisms", "gratitude", "telemetry", "scarcity", "misclassification"]
 ---
 
 # Gratitude Telemetry Aphorisms

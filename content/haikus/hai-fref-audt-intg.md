@@ -3,7 +3,7 @@ title: "Stub: Frontmatter Data Structural Integrity Audit"
 id: haikus/HAI-0038
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Frontmatter Data Structural Integrity Audit

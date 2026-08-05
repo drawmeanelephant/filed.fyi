@@ -3,7 +3,7 @@ title: "Institutional Explanation Layer, Trust Surface Continuity Event"
 id: lorelog/LLG-0409-IEL
 parent: lorelog
 status: published
-tags: ["lorelog", "herited-evidence", "planation-layer", "ust-surface", "surance-vocabulary", "ercoherence", "scots", "ntinuity-optics", "mantic-laundering", "dit-summaries", "sidual-truth", "surance-optics", "naged-absence", "herited-basis", "it-adjacent", "rification-collapse", "corative-trust"]
+tags: ["lorelog", "inherited-evidence", "explanation-layer", "trust-surface", "assurance-vocabulary", "overcoherence", "mascots", "continuity-optics", "semantic-laundering", "audit-summaries", "residual-truth", "assurance-optics", "managed-absence"]
 ---
 
 # Institutional Explanation Layer, Trust Surface Continuity Event

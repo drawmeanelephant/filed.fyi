@@ -3,7 +3,7 @@ title: "Silence Burden Index — Metric for Unreported Load"
 id: lorelog/LLG-0338-SBI
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "burden", "service-continuity", "affective-load", "empathegy", "soma-directive", "silent-interval", "unreported-load", "metric-capture", "optimization-theatre", "hidden-capacity", "surplus"]
 ---
 
 # Silence Burden Index — Metric for Unreported Load

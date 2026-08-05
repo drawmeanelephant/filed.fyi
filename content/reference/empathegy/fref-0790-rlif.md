@@ -3,7 +3,7 @@ title: "Ritual Lodge Interface"
 id: reference/FREF-0790-RLIF
 parent: reference
 status: published
-tags: ["reference", "pathegy", "tual", "dge", "tness", "orum"]
+tags: ["reference", "empathegy", "ritual", "lodge", "witness", "quorum"]
 ---
 
 # Ritual Lodge Interface

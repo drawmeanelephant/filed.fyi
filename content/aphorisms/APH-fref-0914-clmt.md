@@ -3,7 +3,7 @@ title: "Stub: Compliance Ledger MEMORY_TAXON (Baseline Check)"
 id: aphorisms/APH-FREF-0914-CLMT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Compliance Ledger MEMORY_TAXON (Baseline Check)

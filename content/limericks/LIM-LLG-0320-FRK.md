@@ -3,7 +3,7 @@ title: "Forms Registry Keyspace Collision"
 id: limericks/LIM-LLG-0320-FRK
 parent: limericks
 status: archived
-tags: ["limericks", "gistry-collision", "rm-32-a", "yspace-rot"]
+tags: ["limericks", "registry-collision", "form-32-a", "keyspace-rot"]
 ---
 
 # Forms Registry Keyspace Collision

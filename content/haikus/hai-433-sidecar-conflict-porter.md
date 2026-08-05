@@ -3,7 +3,7 @@ title: "Sidecar Conflict Porter"
 id: haikus/HAI-0433
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "directive-conflict", "bureaucratic-decay"]
 ---
 
 # Sidecar Conflict Porter

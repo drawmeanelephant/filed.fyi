@@ -3,7 +3,7 @@ title: "Lodge of Mutual Exception Hereditary Waiver Culture"
 id: aphorisms/APH-LLG-0341-LME
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Lodge of Mutual Exception Hereditary Waiver Culture

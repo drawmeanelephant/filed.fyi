@@ -3,7 +3,7 @@ title: "Beltline Purity Office"
 id: haikus/HAI-LLG-0340-BPO
 parent: haikus
 status: archived
-tags: ["haikus", "ltline", "rity", "riance"]
+tags: ["haikus", "beltline", "purity", "variance"]
 ---
 
 # Beltline Purity Office

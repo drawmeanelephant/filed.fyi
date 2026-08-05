@@ -3,7 +3,7 @@ title: "Auxiliary Kitchen Labor"
 id: haikus/HAI-LLG-0389-AKL
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tchen", "bor", "remony"]
+tags: ["haikus", "haiku", "kitchen", "labor", "ceremony"]
 ---
 
 # Auxiliary Kitchen Labor

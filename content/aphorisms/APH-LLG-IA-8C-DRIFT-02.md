@@ -3,7 +3,7 @@ title: "Bin 8C Stabilization Attempt"
 id: aphorisms/APH-LLG-IA-8C-DRIFT-0002
 parent: aphorisms
 status: published
-tags: ["aphorisms", "abilization-attempt", "ntainment-boundary", "n-8c", "licy-drift"]
+tags: ["aphorisms", "stabilization-attempt", "containment-boundary", "bin-8c", "policy-drift"]
 ---
 
 # Stabilization Attempt Aphorisms

@@ -3,7 +3,7 @@ title: "Stub: Case Reciprocity and Alignment Report"
 id: limericks/LIM-0010
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Case Reciprocity and Alignment Report

@@ -3,7 +3,7 @@ title: "Formee Formeson"
 id: haikus/HAI-0011
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rms", "plication", "entity"]
+tags: ["haikus", "haiku", "forms", "duplication", "identity"]
 ---
 
 # Formee Formeson

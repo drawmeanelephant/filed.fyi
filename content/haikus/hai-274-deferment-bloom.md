@@ -3,7 +3,7 @@ title: "Deferment Bloom"
 id: haikus/HAI-0274
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ferment", "stponement", "oom"]
+tags: ["haikus", "haiku", "deferment", "postponement", "bloom"]
 ---
 
 # Deferment Bloom

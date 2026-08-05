@@ -3,7 +3,7 @@ title: "Continuity Worship Rituals — Quiet Lanes, Loud Prayers"
 id: lorelog/LLG-0403-CWR
 parent: lorelog
 status: published
-tags: ["lorelog", "ntinuity-theatre", "lent-interval", "trics-of-care", "atitude-signal", "aining-echo"]
+tags: ["lorelog", "continuity-theatre", "silent-interval", "metrics-of-care", "gratitude-signal", "training-echo"]
 ---
 
 # Continuity Worship Rituals — Quiet Lanes, Loud Prayers

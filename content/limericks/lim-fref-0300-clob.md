@@ -3,7 +3,7 @@ title: "Cross-Lodge Intake Briefing – Fragment"
 id: limericks/LIM-FREF-0300-CLOB
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Cross-Lodge Intake Briefing – Fragment

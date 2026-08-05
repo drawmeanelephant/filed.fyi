@@ -3,7 +3,7 @@ title: "Safekeeping Clause"
 id: haikus/HAI-0428
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ause", "fekeeping", "econdition"]
+tags: ["haikus", "haiku", "clause", "safekeeping", "precondition", "precondition-warden", "halted-alteration"]
 ---
 
 # Safekeeping Clause

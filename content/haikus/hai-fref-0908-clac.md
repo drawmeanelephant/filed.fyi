@@ -3,7 +3,7 @@ title: "Stub: Compliance Ledger ANNEX_CINDER (Baseline Check)"
 id: haikus/HAI-FREF-0908-CLAC
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Compliance Ledger ANNEX_CINDER (Baseline Check)

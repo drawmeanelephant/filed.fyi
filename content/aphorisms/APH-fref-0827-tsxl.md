@@ -3,7 +3,7 @@ title: "Stub: Trust Surface Crosslinks"
 id: aphorisms/APH-FREF-0827-TSXL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Trust Surface Crosslinks

@@ -3,7 +3,7 @@ title: "Emergency Change Rejected for Insufficient Visible Emergency"
 id: limericks/LIM-LLG-0388-EC-ORDER
 parent: limericks
 status: archived
-tags: ["limericks", "ergency-change", "b", "ntinuity-optics"]
+tags: ["limericks", "emergency-change", "cab", "continuity-optics"]
 ---
 
 # Emergency Change Rejected for Insufficient Visible Emergency

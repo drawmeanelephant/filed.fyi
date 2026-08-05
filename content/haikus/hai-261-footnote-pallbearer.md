@@ -3,7 +3,7 @@ title: "Footnote Pallbearer"
 id: haikus/HAI-0261
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "otnotes", "ntext", "llbearer"]
+tags: ["haikus", "haiku", "footnotes", "context", "pallbearer", "dead-formatting", "reduced-authority", "citation-decay"]
 ---
 
 # Footnote Pallbearer

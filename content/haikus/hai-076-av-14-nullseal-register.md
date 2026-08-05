@@ -3,7 +3,7 @@ title: "AV-14 Nullseal Register"
 id: haikus/HAI-0076
 parent: haikus
 status: archived
-tags: ["haikus", "egister", "tamps", "econstruction"]
+tags: ["haikus", "register", "stamps", "reconstruction"]
 ---
 
 # AV-14 Nullseal Register

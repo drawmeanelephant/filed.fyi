@@ -3,7 +3,7 @@ title: "Training Specimen Curriculum"
 id: aphorisms/APH-FREF-0330-TSAC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "aining", "rriculum", "ecimens", "tics-literacy"]
+tags: ["aphorisms", "training", "curriculum", "specimens", "optics-literacy"]
 ---
 
 # Training Curriculum Aphorisms

@@ -3,7 +3,7 @@ title: "Audit Summary Terminology Drift"
 id: limericks/LIM-LLG-0323-ASD
 parent: limericks
 status: archived
-tags: ["limericks", "dit-drift", "surance-language", "ilure-laundering"]
+tags: ["limericks", "audit-drift", "assurance-language", "failure-laundering"]
 ---
 
 # Audit Summary Terminology Drift

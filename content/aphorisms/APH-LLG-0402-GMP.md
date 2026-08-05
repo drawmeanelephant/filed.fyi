@@ -3,7 +3,7 @@ title: "Negative Control Contamination"
 id: aphorisms/APH-LLG-0402-GMP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "p", "gative-control-failure", "bel-rot", "lease-theater"]
+tags: ["aphorisms", "gmp", "negative-control-failure", "label-rot", "release-theater"]
 ---
 
 # Negative Control Aphorisms

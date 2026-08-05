@@ -3,7 +3,7 @@ title: "RAGE Extraction Attempts — Turning Angertainment into Action"
 id: lorelog/LLG-0362-RAGE-EXTRACTION
 parent: lorelog
 status: published
-tags: ["lorelog", "ge", "gertainment", "tion-attempts", "mulator-weather"]
+tags: ["lorelog", "rage", "angertainment", "action-attempts", "simulator-weather", "operational-engines"]
 ---
 
 # RAGE Extraction Attempts — Turning Angertainment into Action

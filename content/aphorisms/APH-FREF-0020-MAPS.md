@@ -3,7 +3,7 @@ title: "Managed Absence Spine"
 id: aphorisms/APH-FREF-0020-MAPS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "naged-absence", "rms", "ar", "gu", "cp", "oa"]
+tags: ["aphorisms", "managed-absence", "forms", "caar", "lcgu", "stcp", "aaoa"]
 ---
 
 # Managed Absence Spine Aphorisms

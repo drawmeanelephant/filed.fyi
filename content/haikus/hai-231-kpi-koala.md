@@ -3,7 +3,7 @@ title: "KPI Koala"
 id: haikus/HAI-0231
 parent: haikus
 status: archived
-tags: ["haikus", "etrics-obfuscation", "ashboard-adherence", "perational-neglect"]
+tags: ["haikus", "metrics-obfuscation", "dashboard-adherence", "operational-neglect"]
 ---
 
 # KPI Koala

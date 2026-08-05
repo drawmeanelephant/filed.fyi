@@ -3,7 +3,7 @@ title: "Empathegy"
 id: haikus/HAI-LLG-0811-EG
 parent: haikus
 status: archived
-tags: ["haikus", "urve-rot", "istress-metrics", "mpathegy", "mpathegy inflation", "aiku", "orale telemetry", "orale-telemetry", "mooth distress"]
+tags: ["haikus", "curve-rot", "distress-metrics", "empathegy", "empathegy inflation", "haiku", "morale telemetry", "morale-telemetry", "smooth distress"]
 ---
 
 # Empathegy

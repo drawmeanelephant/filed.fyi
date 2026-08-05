@@ -3,7 +3,7 @@ title: "Stub: Allocation Protocol INDEX_VAULT (Dense Overdrift)"
 id: aphorisms/APH-FREF-0901-APIV
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Allocation Protocol INDEX_VAULT (Dense Overdrift)

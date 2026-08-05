@@ -3,7 +3,7 @@ title: "Friendrick the Extant"
 id: haikus/HAI-0301
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "cial", "phan", "sidual"]
+tags: ["haikus", "haiku", "social", "orphan", "residual"]
 ---
 
 # Friendrick the Extant

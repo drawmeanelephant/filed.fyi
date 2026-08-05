@@ -3,7 +3,7 @@ title: "Repair Announced, Compatibility Preserved"
 id: limericks/LIM-LLG-0427-RAC
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # Repair Announced, Compatibility Preserved

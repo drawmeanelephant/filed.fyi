@@ -3,7 +3,7 @@ title: "Metrics of Care Substitution"
 id: aphorisms/APH-LLG-0820-MCR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "trics-of-care", "re-substitution", "dit-optics", "naged-absence"]
+tags: ["aphorisms", "metrics-of-care", "care-substitution", "audit-optics", "managed-absence"]
 ---
 
 # Metrics of Care Aphorisms

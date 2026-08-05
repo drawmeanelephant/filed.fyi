@@ -3,7 +3,7 @@ title: "Kindy McExistentialCrisis"
 id: limericks/LIM-0123
 parent: limericks
 status: archived
-tags: ["limericks", "istential", "rification", "cursion", "rm-51-e", "ead"]
+tags: ["limericks", "existential", "verification", "recursion", "form-51-e", "dread"]
 ---
 
 # Kindy McExistentialCrisis

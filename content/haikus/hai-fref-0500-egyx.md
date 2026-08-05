@@ -3,7 +3,7 @@ title: "Empathegy Taxonomy"
 id: haikus/HAI-FREF-0500-EGYX
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "managed-absence"]
 ---
 
 # Empathegy Taxonomy

@@ -3,7 +3,7 @@ title: "Freeze Windows and Recognizable Urgency"
 id: reference/FREF-0195-FWRU
 parent: reference
 status: archived
-tags: ["reference", "B", "ergency-change", "eeze-window", "cognizable-urgency"]
+tags: ["reference", "CAB", "emergency-change", "freeze-window", "recognizable-urgency"]
 ---
 
 # Freeze Windows and Recognizable Urgency

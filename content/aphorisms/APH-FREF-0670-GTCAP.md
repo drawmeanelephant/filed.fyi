@@ -3,7 +3,7 @@ title: "Gratitude Capture"
 id: aphorisms/APH-FREF-0670-GTCAP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "atitude", "pture", "liteness", "tcome-measure"]
+tags: ["aphorisms", "gratitude", "capture", "politeness", "outcome-measure"]
 ---
 
 # Gratitude Capture Aphorisms

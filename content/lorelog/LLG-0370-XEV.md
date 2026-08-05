@@ -3,7 +3,7 @@ title: "Cross-Directive Emotional Evidence Weighting Table"
 id: lorelog/LLG-0370-XEV
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "sentiment-processing", "dashboard-safe-affect", "serotonin", "care-metrics", "dashboards", "empathegy", "evidence-weighting", "doge", "rage", "soma", "coma", "cross-directive"]
 ---
 
 # Cross-Directive Emotional Evidence Weighting Table

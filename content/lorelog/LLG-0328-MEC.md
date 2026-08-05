@@ -3,7 +3,7 @@ title: "Manifest Exception Circularity"
 id: lorelog/LLG-0328-MEC
 parent: lorelog
 status: published
-tags: ["lorelog", "tagonist", "dit-recursion", "ffer-null", "assification-rot", "uster-chaos", "ncurrency", "ntainment-discipline", "stitutional-doubt", "ckfile", "naged-absence", "nifest-drift", "cursive-loop", "rver-zookeeper", "id-entropy"]
+tags: ["lorelog", "antagonist", "audit-recursion", "buffer-null", "classification-rot", "cluster-chaos", "concurrency", "containment-discipline", "institutional-doubt", "lockfile", "managed-absence", "manifest-drift", "recursive-loop"]
 ---
 
 # Manifest Exception Circularity

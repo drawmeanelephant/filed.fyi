@@ -3,7 +3,7 @@ title: "Stub: Trust Records After Proof Decay"
 id: haikus/HAI-0098
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "directive-conflict", "trust", "proof-decay"]
 ---
 
 # Stub: Trust Records After Proof Decay

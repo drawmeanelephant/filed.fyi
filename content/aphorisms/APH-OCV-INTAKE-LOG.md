@@ -3,7 +3,7 @@ title: "Over‑Coherence Intake"
 id: aphorisms/APH-0086
 parent: aphorisms
 status: published
-tags: ["aphorisms", "er-coherence", "take-log", "rrative-drift", "aining-specimen"]
+tags: ["aphorisms", "over-coherence", "intake-log", "narrative-drift", "training-specimen"]
 ---
 
 # Over‑Coherence Intake Aphorisms

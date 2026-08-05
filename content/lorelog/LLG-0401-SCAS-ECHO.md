@@ -3,7 +3,7 @@ title: "Post-SCAS Echo Handling — Training Echoes, Real Consequences"
 id: lorelog/LLG-0401-SCAS-ECHO
 parent: lorelog
 status: published
-tags: ["lorelog", "surance-lexicon", "mplimentary-service", "ntinuity-theatre", "rective-shadow", "d-of-life", "ilure-signature", "stitutional-sunset", "terpretation-drift", "rked-domain", "esent-tense-dead", "nthetic-feelings", "aining-echo"]
+tags: ["lorelog", "assurance-lexicon", "complimentary-service", "continuity-theatre", "directive-shadow", "end-of-life", "failure-signature", "institutional-sunset", "interpretation-drift", "parked-domain", "present-tense-dead", "synthetic-feelings", "training-echo"]
 ---
 
 # Post-SCAS Echo Handling — Training Echoes, Real Consequences

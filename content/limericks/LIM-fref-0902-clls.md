@@ -3,7 +3,7 @@ title: "Stub: Compliance Ledger LEDGER_STATIC (Baseline Check)"
 id: limericks/LIM-FREF-0902-CLLS
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Compliance Ledger LEDGER_STATIC (Baseline Check)

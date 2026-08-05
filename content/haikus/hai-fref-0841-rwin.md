@@ -3,7 +3,7 @@ title: "Replacement Without Release Index Note"
 id: haikus/HAI-FREF-0841-RWIN
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "bin-8c", "replacement"]
 ---
 
 # Replacement Without Release Index Note

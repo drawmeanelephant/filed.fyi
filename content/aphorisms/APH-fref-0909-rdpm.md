@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive PROTOCOL_MOTH (Structural Gap)"
 id: aphorisms/APH-FREF-0909-RDPM
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Restoration Directive PROTOCOL_MOTH (Structural Gap)

@@ -3,7 +3,7 @@ title: "LC-04 Soft Green Seal"
 id: limericks/LIM-LC-0004-SOFT-GREEN-SEAL
 parent: limericks
 status: archived
-tags: ["limericks", "naged-absence", "tics"]
+tags: ["limericks", "managed-absence", "optics"]
 ---
 
 # LC-04 Soft Green Seal

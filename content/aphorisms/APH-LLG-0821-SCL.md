@@ -3,7 +3,7 @@ title: "Silent Interval Recoding"
 id: aphorisms/APH-LLG-0821-SCL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "lent-interval", "st-vs-continuity", "stening-board", "expressed-strain"]
+tags: ["aphorisms", "silent-interval", "rest-vs-continuity", "listening-board", "unexpressed-strain"]
 ---
 
 # Silent Interval Aphorisms

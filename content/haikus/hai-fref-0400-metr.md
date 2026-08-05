@@ -3,7 +3,7 @@ title: "Metrics of Care"
 id: haikus/HAI-FREF-0400-METR
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "managed-absence"]
 ---
 
 # Metrics of Care

@@ -3,7 +3,7 @@ title: "BHDSS Toast Overflow"
 id: haikus/HAI-0062
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "dss", "ast", "gradation"]
+tags: ["haikus", "haiku", "bhdss", "toast", "degradation", "polite-degradation", "toast-overflow"]
 ---
 
 # BHDSS Toast Overflow

@@ -3,7 +3,7 @@ title: "Intake Forms"
 id: reference/FREF-0710-IKFR
 parent: reference
 status: published
-tags: ["reference", "pathegy", "take", "rms", "missibility", "uting"]
+tags: ["reference", "empathegy", "intake", "forms", "admissibility", "routing"]
 ---
 
 # Intake Forms

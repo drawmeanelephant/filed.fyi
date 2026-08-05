@@ -3,7 +3,7 @@ title: "Pngbert Flatly"
 id: haikus/HAI-0040
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "g", "ssless", "isp"]
+tags: ["haikus", "haiku", "png", "lossless", "crisp", "lossless-preservation", "rigidity", "data-truth"]
 ---
 
 # Pngbert Flatly

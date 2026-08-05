@@ -3,7 +3,7 @@ title: "Attestation Mole"
 id: haikus/HAI-0248
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "testation", "le", "rifier"]
+tags: ["haikus", "haiku", "attestation", "mole", "verifier", "verification", "blind-approval"]
 ---
 
 # Attestation Mole

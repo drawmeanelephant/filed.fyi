@@ -3,7 +3,7 @@ title: "Small Grant Luncheon Minutes"
 id: haikus/HAI-LLG-0392-SGL
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ncheon", "ant", "edge"]
+tags: ["haikus", "haiku", "luncheon", "grant", "pledge"]
 ---
 
 # Small Grant Luncheon Minutes

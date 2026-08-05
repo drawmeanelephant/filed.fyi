@@ -3,7 +3,7 @@ title: "Schema Violation — Unauthorized Field Proliferation, Q4"
 id: lorelog/LLG-0003-SVR
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "buffer-unstable", "datty-puritas", "field-expungement", "purge-ritual", "schema-violation", "yaml-pollution", "cultural-staples", "deletion-ritual", "continuity-theatre", "low-confidence-object", "archival-integrity", "assurance-language", "self-reporting", "truth-loss", "data-purity", "buffer-null", "backup-rot"]
 ---
 
 # Schema Violation — Unauthorized Field Proliferation, Q4

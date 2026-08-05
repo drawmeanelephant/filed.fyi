@@ -3,7 +3,7 @@ title: "Directive Evidence Cross-Entanglement"
 id: lorelog/LLG-0330-TDE
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "rective-conflict", "assification-rot", "dit-recursion"]
+tags: ["lorelog", "soma-directive", "coma-directive", "directive-conflict", "classification-rot", "audit-recursion"]
 ---
 
 # Directive Evidence Cross-Entanglement

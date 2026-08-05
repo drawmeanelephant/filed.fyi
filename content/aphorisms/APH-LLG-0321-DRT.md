@@ -3,7 +3,7 @@ title: "Directive Routing Table Drift"
 id: aphorisms/APH-LLG-0321-DRT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rective-routing", "ma-directive", "forcement-overreach"]
+tags: ["aphorisms", "directive-routing", "soma-directive", "coma-directive", "enforcement-overreach"]
 ---
 
 # Directive Routing Drift Aphorisms

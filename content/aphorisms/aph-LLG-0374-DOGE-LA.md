@@ -3,7 +3,7 @@ title: "Stub: Local Anchor Verification Memo Acceptable Evidence Classes"
 id: aphorisms/APH-LLG-0374-DOGE-LA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Local Anchor Verification Memo Acceptable Evidence Classes

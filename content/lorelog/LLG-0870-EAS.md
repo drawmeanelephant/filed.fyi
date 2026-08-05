@@ -3,7 +3,7 @@ title: "Executive Annexation Strategy"
 id: lorelog/LLG-0870-EAS
 parent: lorelog
 status: published
-tags: ["lorelog", "rrow", "pathegy", "nex", "porting-drift", "rden-shadow", "condary-records"]
+tags: ["lorelog", "sorrow", "empathegy", "annex", "reporting-drift", "burden-shadow", "secondary-records"]
 ---
 
 # Executive Annexation Strategy

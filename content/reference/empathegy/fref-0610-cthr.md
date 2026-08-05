@@ -3,7 +3,7 @@ title: "Continuity Theatre Register"
 id: reference/FREF-0610-CTHR
 parent: reference
 status: published
-tags: ["reference", "pathegy", "ntinuity", "eatre", "shboard", "re"]
+tags: ["reference", "empathegy", "continuity", "theatre", "dashboard", "care"]
 ---
 
 # Continuity Theatre Register

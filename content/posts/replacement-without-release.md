@@ -3,7 +3,7 @@ title: "Replacement Without Release"
 id: posts/POST-0002
 parent: posts
 status: published
-tags: ["posts", "st", "covered-transmission", "herited-basis", "rkaround", "mpatibility"]
+tags: ["posts", "post", "recovered-transmission", "inherited-basis", "workaround", "compatibility", "core-doctrines"]
 ---
 
 # Replacement Without Release

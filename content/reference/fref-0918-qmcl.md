@@ -3,7 +3,7 @@ title: "Qualitative Matrix CHAMBER_LINTEL (Telemetry Gap)"
 id: reference/FREF-0918-QMCL
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Qualitative Matrix: CHAMBER_LINTEL

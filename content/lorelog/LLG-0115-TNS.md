@@ -3,7 +3,7 @@ title: "SOMA Tone Normalization Sweep — HTTP Liaison Appointment"
 id: lorelog/LLG-0115-TNS
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "ne-normalization", "otion-overflow", "tp-status", "ternal-memo-lore"]
+tags: ["lorelog", "soma-directive", "tone-normalization", "emotion-overflow", "http-status", "internal-memo-lore"]
 ---
 
 # SOMA Tone Normalization Sweep — HTTP Liaison Appointment

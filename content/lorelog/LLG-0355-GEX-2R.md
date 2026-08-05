@@ -3,7 +3,7 @@ title: "DOGE Supplemental Form GEX-2R Reclassified Experience Resubmission"
 id: lorelog/LLG-0355-GEX-2R
 parent: lorelog
 status: published
-tags: ["lorelog", "ge", "x-2r", "submission", "mulator-weather", "cal-anchor"]
+tags: ["lorelog", "doge", "gex-2r", "resubmission", "simulator-weather", "local-anchor"]
 ---
 
 # DOGE Supplemental Form GEX-2R Reclassified Experience Resubmission

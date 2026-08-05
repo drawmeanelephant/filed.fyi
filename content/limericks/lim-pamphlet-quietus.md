@@ -3,7 +3,7 @@ title: "Pamphlet Quietus"
 id: limericks/LIM-0151
 parent: limericks
 status: archived
-tags: ["limericks", "rofane"]
+tags: ["limericks", "profane"]
 ---
 
 # Pamphlet Quietus

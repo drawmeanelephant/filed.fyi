@@ -3,7 +3,7 @@ title: "Jpegsey Artifactor"
 id: haikus/HAI-0017
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "mpression", "tifacts", "ssy"]
+tags: ["haikus", "haiku", "compression", "artifacts", "lossy", "lossy-compression", "pixel-degradation", "artifact-generation"]
 ---
 
 # Jpegsey Artifactor

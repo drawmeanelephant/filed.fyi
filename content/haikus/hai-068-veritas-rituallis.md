@@ -3,7 +3,7 @@ title: "Veritas Rituallis"
 id: haikus/HAI-0068
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tness", "thority", "tuals"]
+tags: ["haikus", "haiku", "witness", "authority", "rituals"]
 ---
 
 # Veritas Rituallis

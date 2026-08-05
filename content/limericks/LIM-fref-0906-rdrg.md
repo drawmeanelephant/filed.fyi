@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive REPOSITORY_GLYPH (Structural Gap)"
 id: limericks/LIM-FREF-0906-RDRG
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Restoration Directive REPOSITORY_GLYPH (Structural Gap)

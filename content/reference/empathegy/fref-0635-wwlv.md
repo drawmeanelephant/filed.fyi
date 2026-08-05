@@ -3,7 +3,7 @@ title: "Witness Without Leverage — Handling Note"
 id: reference/FREF-0635-WWLV
 parent: reference
 status: published
-tags: ["reference", "pathegy", "tness", "verage-gap", "stody-routing", "stimony-handling"]
+tags: ["reference", "empathegy", "witness", "leverage-gap", "custody-routing", "testimony-handling"]
 ---
 
 # Witness Without Leverage — Handling Note

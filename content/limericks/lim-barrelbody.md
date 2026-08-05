@@ -3,7 +3,7 @@ title: "Barrelbody"
 id: limericks/LIM-0042
 parent: limericks
 status: published
-tags: ["limericks", "ersized", "yload", "tachment", "il-server", "cess"]
+tags: ["limericks", "oversized", "payload", "attachment", "mail-server", "excess"]
 ---
 
 # Barrelbody

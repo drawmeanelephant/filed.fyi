@@ -3,7 +3,7 @@ title: "Breeding Program Governance"
 id: aphorisms/APH-LLG-0376-BREED-GOV
 parent: aphorisms
 status: published
-tags: ["aphorisms", "eeding-program", "licy-vacuum", "uncil-memorandum", "bot-labor"]
+tags: ["aphorisms", "breeding-program", "policy-vacuum", "council-memorandum", "robot-labor"]
 ---
 
 # Breeding Program Governance Aphorisms

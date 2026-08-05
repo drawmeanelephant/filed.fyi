@@ -3,7 +3,7 @@ title: "Synthetic Affect Containment"
 id: aphorisms/APH-LLG-0405-SAC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "nthetic-feelings", "ndbox-guardrails", "ak-prevention", "aining-echo", "periment-charter"]
+tags: ["aphorisms", "synthetic-feelings", "sandbox-guardrails", "leak-prevention", "training-echo", "experiment-charter"]
 ---
 
 # Containment Charter Aphorisms

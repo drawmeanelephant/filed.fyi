@@ -3,7 +3,7 @@ title: "Over‑Coherence Conditions"
 id: haikus/HAI-FREF-0290-OCVH
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "managed-absence", "over-coherence"]
 ---
 
 # Over‑Coherence Conditions

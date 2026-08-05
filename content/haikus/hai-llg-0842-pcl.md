@@ -3,7 +3,7 @@ title: "Proxy Compassion Load Redistribution Event"
 id: haikus/HAI-LLG-0842-PCL
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "mpassion", "oxy", "distribution"]
+tags: ["haikus", "haiku", "compassion", "proxy", "redistribution", "proxy-compassion-load", "reassurance-output"]
 ---
 
 # Proxy Compassion Load Redistribution Event

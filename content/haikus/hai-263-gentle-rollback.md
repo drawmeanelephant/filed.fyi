@@ -3,7 +3,7 @@ title: "Gentle Rollback"
 id: haikus/HAI-0263
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "llback", "versal", "ntle"]
+tags: ["haikus", "haiku", "rollback", "reversal", "gentle", "soothing-reversions", "damage-unobserved", "policy-retreat"]
 ---
 
 # Gentle Rollback

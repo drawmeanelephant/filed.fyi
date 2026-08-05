@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix CHAMBER_LINTEL (Telemetry Gap)"
 id: aphorisms/APH-FREF-0918-QMCL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Qualitative Matrix CHAMBER_LINTEL (Telemetry Gap)

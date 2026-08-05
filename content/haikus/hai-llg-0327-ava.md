@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Annex"
 id: haikus/HAI-LLG-0327-AVA
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "cabulary", "tics", "surance"]
+tags: ["haikus", "haiku", "vocabulary", "optics", "assurance"]
 ---
 
 # Assurance Vocabulary Annex

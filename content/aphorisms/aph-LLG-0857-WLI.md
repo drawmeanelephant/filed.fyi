@@ -3,7 +3,7 @@ title: "Stub: Witness Lodge Inflation"
 id: aphorisms/APH-LLG-0857-WLI
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Witness Lodge Inflation

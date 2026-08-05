@@ -3,7 +3,7 @@ title: "Memorial Quorum Miscount"
 id: haikus/HAI-LLG-0389-MQM
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "orum", "morial", "scount"]
+tags: ["haikus", "haiku", "quorum", "memorial", "miscount"]
 ---
 
 # Memorial Quorum Miscount

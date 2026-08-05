@@ -3,7 +3,7 @@ title: "Banner Doctrine Activation"
 id: haikus/HAI-LLG-0393-BDA
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nner", "ctrine", "ogan"]
+tags: ["haikus", "haiku", "banner", "doctrine", "slogan"]
 ---
 
 # Banner Doctrine Activation

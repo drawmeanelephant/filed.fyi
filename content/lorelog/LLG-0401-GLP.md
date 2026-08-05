@@ -3,7 +3,7 @@ title: "SOP Amnesia Cascade — GLP Archive Rot"
 id: lorelog/LLG-0401-GLP
 parent: lorelog
 status: published
-tags: ["lorelog", "p", "p-rot", "lf-referential-compliance", "udy-director-void", "w-data-recursion"]
+tags: ["lorelog", "glp", "sop-rot", "self-referential-compliance", "study-director-void", "raw-data-recursion"]
 ---
 
 # SOP Amnesia Cascade — GLP Archive Rot

@@ -3,7 +3,7 @@ title: "Continuity Worship Rituals"
 id: aphorisms/APH-LLG-0403-CWR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ntinuity-theatre", "lent-interval", "trics-of-care", "atitude-signal", "aining-echo"]
+tags: ["aphorisms", "continuity-theatre", "silent-interval", "metrics-of-care", "gratitude-signal", "training-echo"]
 ---
 
 # Continuity Worship Aphorisms

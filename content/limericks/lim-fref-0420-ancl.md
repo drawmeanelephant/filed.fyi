@@ -3,7 +3,7 @@ title: "Accreditation Nesting Collegium"
 id: limericks/LIM-FREF-0420-ANCL
 parent: limericks
 status: published
-tags: ["limericks", "creditation", "sting", "llegium"]
+tags: ["limericks", "accreditation", "nesting", "collegium"]
 ---
 
 # Accreditation Nesting Collegium

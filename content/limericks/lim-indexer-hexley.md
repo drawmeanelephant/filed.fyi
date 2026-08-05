@@ -3,7 +3,7 @@ title: "Indexer Hexley"
 id: limericks/LIM-0113
 parent: limericks
 status: archived
-tags: ["limericks", "dexing", "arch", "ery-hoarder", "lf-referential", "tadata"]
+tags: ["limericks", "indexing", "search", "query-hoarder", "self-referential", "metadata"]
 ---
 
 # Indexer Hexley

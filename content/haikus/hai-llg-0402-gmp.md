@@ -3,7 +3,7 @@ title: "Negative Control Contamination"
 id: haikus/HAI-LLG-0402-GMP
 parent: haikus
 status: archived
-tags: ["haikus", "MP Batch Recursion", "ontamination", "ontrol", "mp", "aiku", "egative control"]
+tags: ["haikus", "GMP Batch Recursion", "contamination", "control", "gmp", "haiku", "negative control"]
 ---
 
 # Negative Control Contamination

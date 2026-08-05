@@ -3,7 +3,7 @@ title: "DOGE Refresh Interval Dispute"
 id: haikus/HAI-LLG-0357-DOGE-RID
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "fresh", "spute"]
+tags: ["haikus", "doge", "refresh", "dispute"]
 ---
 
 # DOGE Refresh Interval Dispute

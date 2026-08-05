@@ -3,7 +3,7 @@ title: "Sitemap Drift — Structural Index Misalignment"
 id: lorelog/LLG-0004-SMD
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "broken-navigation", "consent-loop", "routing-failure", "modal-trap", "navstack-overflow", "user-intent-drift", "session-abandonment", "redirect-loop"]
 ---
 
 # Sitemap Drift — Structural Index Misalignment

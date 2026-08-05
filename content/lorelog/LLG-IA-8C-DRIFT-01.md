@@ -3,7 +3,7 @@ title: "Bin 8C Interpretive Drift Control Log"
 id: lorelog/LLG-IA-8C-DRIFT-0001
 parent: lorelog
 status: published
-tags: ["lorelog", "n-8c", "uster-presence", "ntainment-failure", "ntrol-logic", "stody-drift", "ho-phenomena", "zardous-misfiling", "terpretation", "terpretive-drift", "scots", "aning‑divergence", "cursive-custody", "lf-indexing", "mantic-drift"]
+tags: ["lorelog", "bin-8c", "cluster-presence", "containment-failure", "control-logic", "custody-drift", "echo-phenomena", "hazardous-misfiling", "interpretation", "interpretive-drift", "mascots", "meaning\u2011divergence", "recursive-custody"]
 ---
 
 # Bin 8C Interpretive Drift Control Log

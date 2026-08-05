@@ -3,7 +3,7 @@ title: "Chapter Consolidation Notice"
 id: haikus/HAI-LLG-0386-LODGE-MERGE
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nsolidation", "dge", "tendance"]
+tags: ["haikus", "haiku", "consolidation", "lodge", "attendance", "civic-benevolence"]
 ---
 
 # Chapter Consolidation Notice

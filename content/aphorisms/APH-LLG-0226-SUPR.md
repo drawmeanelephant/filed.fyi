@@ -3,7 +3,7 @@ title: "Supersession Reflection Loop"
 id: aphorisms/APH-LLG-0226-SUPR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "persession-loop", "nonicality-dispute", "rms-registry", "rmee-formeson"]
+tags: ["aphorisms", "supersession-loop", "canonicality-dispute", "forms-registry", "formee-formeson"]
 ---
 
 # Supersession Loop Aphorisms

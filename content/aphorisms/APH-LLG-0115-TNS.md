@@ -3,7 +3,7 @@ title: "SOMA Tone Normalization"
 id: aphorisms/APH-LLG-0115-TNS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "ne-normalization", "tp-status", "ndy-mcexistentialcrisis"]
+tags: ["aphorisms", "soma-directive", "tone-normalization", "http-status", "kindy-mcexistentialcrisis"]
 ---
 
 # SOMA Tone Normalization Aphorisms

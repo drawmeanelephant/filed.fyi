@@ -3,7 +3,7 @@ title: "Luncheon Assent Authorization"
 id: aphorisms/APH-LLG-0391-LAA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ncheon-assent", "plied-approval", "vic-boosterism", "ants-drift", "ocedural-warmth"]
+tags: ["aphorisms", "luncheon-assent", "implied-approval", "civic-boosterism", "grants-drift", "procedural-warmth"]
 ---
 
 # Luncheon Assent Aphorisms

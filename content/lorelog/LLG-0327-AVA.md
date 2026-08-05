@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Annex"
 id: lorelog/LLG-0327-AVA
 parent: lorelog
 status: published
-tags: ["lorelog", "surance-vocabulary", "mantic-laundering", "mediation-drift", "ntinuity-reporting", "ctrine-fragment"]
+tags: ["lorelog", "assurance-vocabulary", "semantic-laundering", "remediation-drift", "continuity-reporting", "doctrine-fragment"]
 ---
 
 # Assurance Vocabulary Annex

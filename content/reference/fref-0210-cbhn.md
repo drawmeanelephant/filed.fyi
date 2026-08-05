@@ -3,7 +3,7 @@ title: "Civic Benevolence Handling Notes"
 id: reference/FREF-0210-CBHN
 parent: reference
 status: archived
-tags: ["reference", "vic-benevolence", "morial-quorum", "xiliary-labor", "ncheon-assent", "bbon-custody", "ritage-authority"]
+tags: ["reference", "civic-benevolence", "memorial-quorum", "auxiliary-labor", "luncheon-assent", "ribbon-custody", "heritage-authority"]
 ---
 
 # Civic Benevolence Handling Notes

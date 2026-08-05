@@ -3,7 +3,7 @@ title: "Stub: Successor Lane, Ancestral Burden"
 id: limericks/LIM-LLG-0447-SLA
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Successor Lane, Ancestral Burden

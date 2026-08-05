@@ -3,7 +3,7 @@ title: "Blue Dreamweaver"
 id: limericks/LIM-0047
 parent: limericks
 status: archived
-tags: ["limericks", "spensary", "ue-dream", "nnabis", "rry", "t-springs"]
+tags: ["limericks", "dispensary", "blue-dream", "cannabis", "berry", "hot-springs"]
 ---
 
 # Blue Dreamweaver

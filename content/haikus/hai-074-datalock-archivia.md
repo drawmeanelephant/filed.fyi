@@ -3,7 +3,7 @@ title: "Datalock Archivia"
 id: haikus/HAI-0074
 parent: haikus
 status: archived
-tags: ["haikus", "anifest", "uardian", "orkarounds"]
+tags: ["haikus", "manifest", "guardian", "workarounds"]
 ---
 
 # Datalock Archivia

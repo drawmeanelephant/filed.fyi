@@ -3,7 +3,7 @@ title: "Window 3 Notification Language Guidance"
 id: lorelog/LLG-0358-DOGE-W3
 parent: lorelog
 status: published
-tags: ["lorelog", "ge", "ndow-3", "tification-guidance", "ndy", "ocedural-language"]
+tags: ["lorelog", "doge", "window-3", "notification-guidance", "kindy", "procedural-language"]
 ---
 
 # Window 3 Notification Language Guidance

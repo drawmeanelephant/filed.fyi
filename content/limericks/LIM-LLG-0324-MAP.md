@@ -3,7 +3,7 @@ title: "Managed Absence Protocol"
 id: limericks/LIM-LLG-0324-MAP
 parent: limericks
 status: archived
-tags: ["limericks", "naged-absence", "rms-registry", "verned-ambiguity"]
+tags: ["limericks", "managed-absence", "forms-registry", "governed-ambiguity"]
 ---
 
 # Managed Absence Protocol

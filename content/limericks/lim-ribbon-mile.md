@@ -3,7 +3,7 @@ title: "Ribbon Mile"
 id: limericks/LIM-0182
 parent: limericks
 status: published
-tags: ["limericks", "finite-redirect", "dless-url", "th-extension", "bbon"]
+tags: ["limericks", "infinite-redirect", "endless-url", "path-extension", "ribbon"]
 ---
 
 # Ribbon Mile

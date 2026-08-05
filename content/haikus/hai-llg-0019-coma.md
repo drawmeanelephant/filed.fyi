@@ -3,7 +3,7 @@ title: "COMA-19"
 id: haikus/HAI-LLG-0019-COMA
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ma-19", "le-time", "ntinuity-optics", "stmortem"]
+tags: ["haikus", "haiku", "coma-19", "idle-time", "continuity-optics", "postmortem", "idle-time-amnesty", "gap-laundering"]
 ---
 
 # COMA-19

@@ -3,7 +3,7 @@ title: "Interpretation Boundary Layer"
 id: reference/FREF-0720-ITBD
 parent: reference
 status: published
-tags: ["reference", "pathegy", "terpretation", "take", "missibility", "gibility"]
+tags: ["reference", "empathegy", "interpretation", "intake", "admissibility", "legibility"]
 ---
 
 # Interpretation Boundary Layer

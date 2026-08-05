@@ -3,7 +3,7 @@ title: "Dual Certification"
 id: haikus/HAI-FREF-0640-DCER
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "certification", "contradiction", "reconciliation"]
 ---
 
 # Dual Certification

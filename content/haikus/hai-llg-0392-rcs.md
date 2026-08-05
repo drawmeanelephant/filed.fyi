@@ -3,7 +3,7 @@ title: "Commemorative Ribbon Schism"
 id: haikus/HAI-LLG-0392-RCS
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "bbon", "hism", "remony"]
+tags: ["haikus", "haiku", "ribbon", "schism", "ceremony"]
 ---
 
 # Commemorative Ribbon Schism

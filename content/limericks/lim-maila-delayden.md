@@ -3,7 +3,7 @@ title: "Maila Delayden"
 id: limericks/LIM-0132
 parent: limericks
 status: archived
-tags: ["limericks", "ail-delay", "essage-queue", "xpired-urgency", "ate-delivery"]
+tags: ["limericks", "mail-delay", "message-queue", "expired-urgency", "late-delivery"]
 ---
 
 # Maila Delayden

@@ -3,7 +3,7 @@ title: "Form 27-B Multi-Signature Over-Satisfaction Survey"
 id: aphorisms/APH-LLG-0027-B
 parent: aphorisms
 status: published
-tags: ["aphorisms", "u-n-t-i-e-r", "rvey-burden", "rms-multiplication", "ta-feedback", "timization-theatre"]
+tags: ["aphorisms", "c-u-n-t-i-e-r", "survey-burden", "forms-multiplication", "meta-feedback", "optimization-theatre"]
 ---
 
 # Form 27-B Multi-Signature Aphorisms

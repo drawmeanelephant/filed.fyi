@@ -3,7 +3,7 @@ title: "Sidecar Conflict Porter"
 id: limericks/LIM-0202
 parent: limericks
 status: published
-tags: ["limericks", "rective-conflict"]
+tags: ["limericks", "directive-conflict"]
 ---
 
 # Sidecar Conflict Porter

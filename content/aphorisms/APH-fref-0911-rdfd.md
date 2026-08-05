@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive FOLIO_DRIFT (Structural Gap)"
 id: aphorisms/APH-FREF-0911-RDFD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Restoration Directive FOLIO_DRIFT (Structural Gap)

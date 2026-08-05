@@ -3,7 +3,7 @@ title: "Vantage Hollow Candidacy Note"
 id: aphorisms/APH-FREF-0825-VHCN
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Vantage Hollow Candidacy Note

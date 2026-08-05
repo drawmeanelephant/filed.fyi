@@ -3,7 +3,7 @@ title: "MAP-ANNEX: MANAGED ABSENCE INTERNAL INDEX"
 id: reference/FREF-0160-MAII
 parent: reference
 status: published
-tags: ["reference", "assifications"]
+tags: ["reference", "classifications"]
 ---
 
 # MAP-ANNEX: MANAGED ABSENCE INTERNAL INDEX

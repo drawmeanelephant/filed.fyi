@@ -3,7 +3,7 @@ title: "Emergency Cooldown Protocol"
 id: aphorisms/APH-LLG-0088-B
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rm-88-b", "ergency-cooldown", "ermal-incident", "ily-mcplaterton"]
+tags: ["aphorisms", "form-88-b", "emergency-cooldown", "thermal-incident", "boily-mcplaterton"]
 ---
 
 # Emergency Cooldown Aphorisms

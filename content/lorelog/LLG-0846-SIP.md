@@ -3,7 +3,7 @@ title: "Silent Interval Preservation Doctrine Entered into Use"
 id: lorelog/LLG-0846-SIP
 parent: lorelog
 status: published
-tags: ["lorelog", "lence", "iet-interval", "rden-shadow", "terpretation-doctrine", "ntinuity-theatre", "pplemental-truth", "iet-disclosure", "chival-softening", "nex"]
+tags: ["lorelog", "silence", "quiet-interval", "burden-shadow", "interpretation-doctrine", "continuity-theatre", "supplemental-truth", "quiet-disclosure", "archival-softening", "annex"]
 ---
 
 # Silent Interval Preservation Doctrine Entered into Use

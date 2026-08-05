@@ -3,7 +3,7 @@ title: "Moveda Permanently"
 id: limericks/LIM-0144
 parent: limericks
 status: archived
-tags: ["limericks", "01", "edirect", "ermanent", "ookmark-decay", "elocation"]
+tags: ["limericks", "301", "redirect", "permanent", "bookmark-decay", "relocation"]
 ---
 
 # Moveda Permanently

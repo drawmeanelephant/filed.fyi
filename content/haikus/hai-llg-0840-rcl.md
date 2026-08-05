@@ -3,7 +3,7 @@ title: "Reassurance Collapse Ladder"
 id: haikus/HAI-LLG-0840-RCL
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "assurance", "llapse", "dder"]
+tags: ["haikus", "haiku", "reassurance", "collapse", "ladder", "reassurance-collapse-ladder", "confidence-failures"]
 ---
 
 # Reassurance Collapse Ladder

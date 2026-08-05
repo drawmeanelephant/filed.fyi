@@ -3,7 +3,7 @@ title: "Memorial Scholarship Proxy"
 id: aphorisms/APH-LLG-0396-MSP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "holarship-fund", "morial-criteria", "nor-intent", "ief-governance", "nevolence-drift"]
+tags: ["aphorisms", "scholarship-fund", "memorial-criteria", "donor-intent", "grief-governance", "benevolence-drift"]
 ---
 
 # Memorial Scholarship Aphorisms

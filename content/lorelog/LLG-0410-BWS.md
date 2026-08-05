@@ -3,7 +3,7 @@ title: "Incident LORE-0410-BWS // Badge Witness Continuity After Basis Thinning"
 id: lorelog/LLG-0410-BWS
 parent: lorelog
 status: published
-tags: ["lorelog", "ust-surface", "dge-continuity", "tness-mark", "herited-basis", "ched-attestation", "sidual-truth", "scot", "surance-optics", "namental-authority", "naged-absence", "it-adjacent", "rification-collapse", "surance-vocabulary", "ercoherence", "corative-trust", "planation-layer", "herited-evidence", "scot-candidacy", "sidual-authority", "ntinuity-seal"]
+tags: ["lorelog", "trust-surface", "badge-continuity", "witness-mark", "inherited-basis", "cached-attestation", "residual-truth", "mascot", "assurance-optics", "ornamental-authority", "managed-absence", "bait-adjacent", "verification-collapse"]
 ---
 
 # Incident LORE-0410-BWS // Badge Witness Continuity After Basis Thinning

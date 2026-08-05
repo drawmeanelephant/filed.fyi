@@ -3,7 +3,7 @@ title: "Drift Lapel"
 id: haikus/HAI-0259
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "estige", "ift", "tire"]
+tags: ["haikus", "haiku", "prestige", "drift", "attire", "wearable-authority", "prestige-creep", "asymmetric-drift"]
 ---
 
 # Drift Lapel

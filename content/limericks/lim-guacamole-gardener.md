@@ -3,7 +3,7 @@ title: "Guacamole Gardener"
 id: limericks/LIM-0104
 parent: limericks
 status: archived
-tags: ["limericks", "acamole", "ocado", "me", "p", "ndiment"]
+tags: ["limericks", "guacamole", "avocado", "lime", "dip", "condiment"]
 ---
 
 # Guacamole Gardener

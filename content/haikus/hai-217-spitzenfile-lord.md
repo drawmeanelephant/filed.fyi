@@ -3,7 +3,7 @@ title: "Lord Spitzenfile"
 id: haikus/HAI-0217
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ples", "itzenberg", "rator"]
+tags: ["haikus", "haiku", "apples", "spitzenberg", "curator"]
 ---
 
 # Lord Spitzenfile

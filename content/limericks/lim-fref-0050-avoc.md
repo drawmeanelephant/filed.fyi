@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Desk – Optics Coordination Notice"
 id: limericks/LIM-FREF-0050-AVOC
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Assurance Vocabulary Desk – Optics Coordination Notice

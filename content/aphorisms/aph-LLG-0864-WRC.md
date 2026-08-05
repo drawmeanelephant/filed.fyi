@@ -3,7 +3,7 @@ title: "Witness Routing Ceiling Event"
 id: aphorisms/APH-LLG-0864-WRC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Witness Routing Ceiling Event

@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive DOSSIER_SILT (Structural Gap)"
 id: haikus/HAI-FREF-0905-RDDS
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Restoration Directive DOSSIER_SILT (Structural Gap)

@@ -3,7 +3,7 @@ title: "Compassion Addendum Conversion"
 id: aphorisms/APH-LLG-0332-SCD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "mpassion-suppression", "rective-clash", "ndy", "ma-directive"]
+tags: ["aphorisms", "compassion-suppression", "directive-clash", "kindy", "soma-directive"]
 ---
 
 # Compassion Addendum Aphorisms

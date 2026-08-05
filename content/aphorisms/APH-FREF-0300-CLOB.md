@@ -3,7 +3,7 @@ title: "Cross-Lodge Intake Briefing"
 id: aphorisms/APH-FREF-0300-CLOB
 parent: aphorisms
 status: published
-tags: ["aphorisms", "anscript", "take", "ientation", "dge-culture"]
+tags: ["aphorisms", "transcript", "intake", "orientation", "lodge-culture"]
 ---
 
 # Cross-Lodge Briefing Aphorisms

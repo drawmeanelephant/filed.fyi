@@ -3,7 +3,7 @@ title: "FeelingSeeder Residuals"
 id: haikus/HAI-LLG-0402-FSR
 parent: haikus
 status: archived
-tags: ["haikus", "eelingSeeder", "CAS-era", "ffect", "eelingseeder", "aiku", "ynthetic", "ynthetic affect"]
+tags: ["haikus", "FeelingSeeder", "SCAS-era", "affect", "feelingseeder", "haiku", "synthetic", "synthetic affect"]
 ---
 
 # FeelingSeeder Residuals

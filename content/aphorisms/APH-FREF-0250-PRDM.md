@@ -3,7 +3,7 @@ title: "Procession Route Dignity"
 id: aphorisms/APH-FREF-0250-PRDM
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rade-committee", "ute-doctrine", "nner-authority", "galia-custody"]
+tags: ["aphorisms", "parade-committee", "route-doctrine", "banner-authority", "regalia-custody"]
 ---
 
 # Procession Route Aphorisms

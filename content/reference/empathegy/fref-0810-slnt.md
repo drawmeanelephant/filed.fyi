@@ -3,7 +3,7 @@ title: "Silent Intervals"
 id: reference/FREF-0810-SLNT
 parent: reference
 status: published
-tags: ["reference", "pathegy", "lence", "tervals", "al-record", "determinacy"]
+tags: ["reference", "empathegy", "silence", "intervals", "dual-record", "indeterminacy"]
 ---
 
 # Silent Intervals

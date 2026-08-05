@@ -3,7 +3,7 @@ title: "DOGE Edge Cases — Grief Relays, Synthetic Care, and Counterfactual Ang
 id: aphorisms/APH-LLG-0354-DOGE-EDGE-CASES
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # DOGE Edge Cases — Grief Relays, Synthetic Care, and Counterfactual Anger

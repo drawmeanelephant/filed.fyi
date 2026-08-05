@@ -3,7 +3,7 @@ title: "Vantage Hollow Candidacy Note"
 id: reference/FREF-0825-VHCN
 parent: reference
 status: archived
-tags: ["reference", "scot-candidacy", "ust-surface", "sidual-authority", "ntinuity-seal", "sidual-truth", "surance-optics", "it-adjacent", "rification-collapse", "corative-trust", "dge-continuity", "ched-attestation", "tness-mark", "herited-basis", "gitimacy-loop", "ciprocal-recognition"]
+tags: ["reference", "mascot-candidacy", "trust-surface", "residual-authority", "continuity-seal", "residual-truth", "assurance-optics", "bait-adjacent", "verification-collapse", "decorative-trust", "badge-continuity", "cached-attestation", "witness-mark"]
 ---
 
 # Vantage Hollow Candidacy Note

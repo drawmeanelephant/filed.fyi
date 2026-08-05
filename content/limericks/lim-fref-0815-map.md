@@ -3,7 +3,7 @@ title: "Managed Absence Spine"
 id: limericks/LIM-FREF-0815-MAP
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence", "ine"]
+tags: ["limericks", "managed-absence", "spine"]
 ---
 
 # Managed Absence Spine

@@ -3,7 +3,7 @@ title: "Scheduled Exception Board"
 id: aphorisms/APH-LLG-0385-SED
 parent: aphorisms
 status: published
-tags: ["aphorisms", "heduled-exception", "intenance-window", "ntinuity-optics", "proved-instability", "ange-board"]
+tags: ["aphorisms", "scheduled-exception", "maintenance-window", "continuity-optics", "approved-instability", "change-board"]
 ---
 
 # Scheduled Exception Aphorisms

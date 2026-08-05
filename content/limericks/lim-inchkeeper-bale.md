@@ -3,7 +3,7 @@ title: "Inchkeeper Bale"
 id: limericks/LIM-0111
 parent: limericks
 status: published
-tags: ["limericks", "ntent-length", "mpliance", "nifest", "asurement", "tekeeper"]
+tags: ["limericks", "content-length", "compliance", "manifest", "measurement", "gatekeeper"]
 ---
 
 # Inchkeeper Bale

@@ -3,7 +3,7 @@ title: "Acknowledgment Deletion Bias"
 id: reference/FREF-0510-AKDB
 parent: reference
 status: published
-tags: ["reference", "pathegy", "knowledgment-deletion-bias", "tention", "re-telemetry", "chival-distortion"]
+tags: ["reference", "empathegy", "acknowledgment-deletion-bias", "retention", "care-telemetry", "archival-distortion"]
 ---
 
 # Acknowledgment Deletion Bias

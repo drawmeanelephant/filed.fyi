@@ -3,7 +3,7 @@ title: "Incident LORE-0411-RRC // Reciprocal Recognition Continuity Loop"
 id: aphorisms/APH-LLG-0411-RRC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Incident LORE-0411-RRC // Reciprocal Recognition Continuity Loop

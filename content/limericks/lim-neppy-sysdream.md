@@ -3,7 +3,7 @@ title: "Neppy Sysdream"
 id: limericks/LIM-0145
 parent: limericks
 status: archived
-tags: ["limericks", "indows-neptune", "eta", "ogin-ghost", "bandonware", "sstyles"]
+tags: ["limericks", "windows-neptune", "beta", "login-ghost", "abandonware", "msstyles"]
 ---
 
 # Neppy Sysdream

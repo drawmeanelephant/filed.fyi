@@ -3,7 +3,7 @@ title: "Success Class Consolidation Card"
 id: limericks/LIM-FREF-0120-DCSC
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Success Class Consolidation Card

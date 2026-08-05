@@ -3,7 +3,7 @@ title: "Redaction Lullaby"
 id: haikus/HAI-0252
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "daction", "llaby", "issions"]
+tags: ["haikus", "haiku", "redaction", "lullaby", "omissions", "omission", "pacification"]
 ---
 
 # Redaction Lullaby

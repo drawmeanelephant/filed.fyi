@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive RECORD_VEIL (Structural Gap)"
 id: aphorisms/APH-FREF-0912-RDRV
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Restoration Directive RECORD_VEIL (Structural Gap)

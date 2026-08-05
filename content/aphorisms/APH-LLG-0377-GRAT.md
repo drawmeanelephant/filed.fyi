@@ -3,7 +3,7 @@ title: "Gratitude Telemetry Misclassification"
 id: aphorisms/APH-LLG-0377-GRAT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "atitude-signal", "eeding-program", "lemetry-rot", "otional-buffer"]
+tags: ["aphorisms", "gratitude-signal", "breeding-program", "telemetry-rot", "emotional-buffer"]
 ---
 
 # Gratitude Telemetry Aphorisms

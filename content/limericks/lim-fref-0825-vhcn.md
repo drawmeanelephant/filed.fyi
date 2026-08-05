@@ -3,7 +3,7 @@ title: "Vantage Hollow Candidacy Note"
 id: limericks/LIM-FREF-0825-VHCN
 parent: limericks
 status: published
-tags: ["limericks", "ntage-hollow", "ndidacy-note"]
+tags: ["limericks", "vantage-hollow", "candidacy-note"]
 ---
 
 # Vantage Hollow Candidacy Note

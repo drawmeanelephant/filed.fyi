@@ -3,7 +3,7 @@ title: "Stub: Poetry Audit Report"
 id: aphorisms/APH-FREF-0900-POET
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Poetry Audit Report

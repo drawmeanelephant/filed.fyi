@@ -3,7 +3,7 @@ title: "Continuity Worship"
 id: haikus/HAI-FREF-0620-CWSH
 parent: haikus
 status: published
-tags: ["haikus", "ikus", "ntinuity", "rship"]
+tags: ["haikus", "continuity", "worship", "metrics"]
 ---
 
 # Continuity Worship

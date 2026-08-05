@@ -3,7 +3,7 @@ title: "Corridor Heat"
 id: haikus/HAI-0264
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rridor", "nsion", "llway"]
+tags: ["haikus", "haiku", "corridor", "tension", "hallway", "thermal-discrepancy", "ambient-crisis", "unlogged-humidity"]
 ---
 
 # Corridor Heat

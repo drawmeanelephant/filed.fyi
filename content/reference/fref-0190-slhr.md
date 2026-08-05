@@ -3,7 +3,7 @@ title: "Secondary Legitimacy and Refuge Handling Notes"
 id: reference/FREF-0190-SLHR
 parent: reference
 status: archived
-tags: ["reference", "ctrine", "gitimacy", "fuge", "rrective-inheritance", "creditation", "n-8c"]
+tags: ["reference", "doctrine", "legitimacy", "refuge", "corrective-inheritance", "accreditation", "bin-8c"]
 ---
 
 # Secondary Legitimacy and Refuge Handling Notes

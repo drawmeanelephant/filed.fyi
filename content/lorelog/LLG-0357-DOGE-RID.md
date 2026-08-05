@@ -3,7 +3,7 @@ title: "DOGE Refresh Interval Definition Dispute"
 id: lorelog/LLG-0357-DOGE-RID
 parent: lorelog
 status: published
-tags: ["lorelog", "ge", "sidue", "fresh-interval", "ctrinal-instability", "andards-dispute"]
+tags: ["lorelog", "doge", "residue", "refresh-interval", "doctrinal-instability", "standards-dispute"]
 ---
 
 # DOGE Refresh Interval Definition Dispute

@@ -3,7 +3,7 @@ title: "Appeal Feather"
 id: haikus/HAI-0268
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "peal", "ather", "ssent"]
+tags: ["haikus", "haiku", "appeal", "feather", "dissent"]
 ---
 
 # Appeal Feather

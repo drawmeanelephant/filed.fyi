@@ -3,7 +3,7 @@ title: "Stub: TIME-Derived Concept Ingestion Pipeline – Last Known Good"
 id: haikus/HAI-FREF-0180-TDCI
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "time-derived", "ingestion"]
 ---
 
 # Stub: TIME-Derived Concept Ingestion Pipeline – Last Known Good

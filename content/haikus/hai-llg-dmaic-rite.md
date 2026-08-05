@@ -3,7 +3,7 @@ title: "DMAIC Rite of the Filed Systems"
 id: haikus/HAI-0088
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "aic", "te", "binet-seven"]
+tags: ["haikus", "haiku", "dmaic", "rite", "cabinet-seven", "dmaic-rite", "filing-ceremony"]
 ---
 
 # DMAIC Rite of the Filed Systems

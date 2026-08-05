@@ -3,7 +3,7 @@ title: "Empathegy Taxonomy"
 id: limericks/LIM-FREF-0500-EGYX
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "xonomy", "assification"]
+tags: ["limericks", "hand-written", "empathegy", "taxonomy", "classification"]
 ---
 
 # Empathegy Taxonomy

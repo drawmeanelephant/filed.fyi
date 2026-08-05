@@ -3,7 +3,7 @@ title: "BAIT Subtype B-4A"
 id: haikus/HAI-LLG-0366-BAIT-B4A
 parent: haikus
 status: archived
-tags: ["haikus", "it", "reat", "bient"]
+tags: ["haikus", "bait", "threat", "ambient"]
 ---
 
 # BAIT Subtype B-4A

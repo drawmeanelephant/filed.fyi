@@ -3,7 +3,7 @@ title: "Kindy McExistentialCrisis"
 id: haikus/HAI-0019
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "istential", "rification", "cursion", "ead"]
+tags: ["haikus", "haiku", "existential", "verification", "recursion", "dread", "existential-audit", "deletion-failure", "recursive-verification"]
 ---
 
 # Kindy McExistentialCrisis

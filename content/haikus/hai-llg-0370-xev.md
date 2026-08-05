@@ -3,7 +3,7 @@ title: "Cross-Directive Emotional Weighting"
 id: haikus/HAI-LLG-0370-XEV
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "idence", "rectives", "ighting"]
+tags: ["haikus", "haiku", "evidence", "directives", "weighting", "empathegy"]
 ---
 
 # Cross-Directive Emotional Weighting

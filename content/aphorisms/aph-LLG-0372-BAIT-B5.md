@@ -3,7 +3,7 @@ title: "BAIT Subtype B-5 Mirror Outrage"
 id: aphorisms/APH-LLG-0372-BAIT-B5
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # BAIT Subtype B-5 Mirror Outrage

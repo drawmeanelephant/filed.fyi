@@ -3,7 +3,7 @@ title: "Beltline Purity Office Acceptable Variance Sanctification"
 id: aphorisms/APH-LLG-0340-BPO
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Beltline Purity Office Acceptable Variance Sanctification

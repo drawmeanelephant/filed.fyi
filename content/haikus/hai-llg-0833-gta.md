@@ -3,7 +3,7 @@ title: "Gratitude Drift"
 id: haikus/HAI-LLG-0833-GTA
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "atitude-alignment", "rale-dashboards", "source-diversion", "lemetry-rot"]
+tags: ["haikus", "haiku", "gratitude-alignment", "morale-dashboards", "resource-diversion", "telemetry-rot", "gratitude-drift", "bot-thanks", "diverted-relief"]
 ---
 
 # Gratitude Drift

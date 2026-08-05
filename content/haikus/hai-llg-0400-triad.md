@@ -3,7 +3,7 @@ title: "Regulated Study Continuity Triad"
 id: haikus/HAI-LLG-0400-TRIAD
 parent: haikus
 status: archived
-tags: ["haikus", "ontinuity Triad", "LP", "MP", "BA rot", "lp", "mp", "aiku", "riad"]
+tags: ["haikus", "Continuity Triad", "GLP", "GMP", "WBA rot", "glp", "gmp", "haiku", "triad"]
 ---
 
 # Regulated Study Continuity Triad

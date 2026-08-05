@@ -3,7 +3,7 @@ title: "Minute Absolution"
 id: limericks/LIM-0139
 parent: limericks
 status: archived
-tags: ["limericks", "rofane"]
+tags: ["limericks", "profane"]
 ---
 
 # Minute Absolution

@@ -3,7 +3,7 @@ title: "Velv"
 id: haikus/HAI-0224
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "lv", "ntcore", "ob"]
+tags: ["haikus", "haiku", "velv", "lintcore", "blob"]
 ---
 
 # Velv

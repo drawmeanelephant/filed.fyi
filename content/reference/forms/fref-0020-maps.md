@@ -3,7 +3,7 @@ title: "Managed Absence Spine – CAAR, LCGU, STCP, AAOA"
 id: reference/FREF-0020-MAPS
 parent: reference
 status: published
-tags: ["reference", "rms-registry", "naged-absence", "ar", "gu", "cp", "oa", "surance-vocabulary", "gistry-governance"]
+tags: ["reference", "forms-registry", "managed-absence", "caar", "lcgu", "stcp", "aaoa", "assurance-vocabulary", "registry-governance"]
 ---
 
 # Managed Absence Spine – CAAR, LCGU, STCP, AAOA

@@ -3,7 +3,7 @@ title: "Reassurance Collapse"
 id: reference/FREF-0760-RSCL
 parent: reference
 status: published
-tags: ["reference", "pathegy", "assurance-collapse", "surance", "ust", "ntinuity-theatre"]
+tags: ["reference", "empathegy", "reassurance-collapse", "assurance", "trust", "continuity-theatre"]
 ---
 
 # Reassurance Collapse

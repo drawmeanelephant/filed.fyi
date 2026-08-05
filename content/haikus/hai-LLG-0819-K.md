@@ -3,7 +3,7 @@ title: "Stub: Incident LORE-0819-K // Null-State Resonance in Compliance Badging
 id: haikus/HAI-LLG-0819-K
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "null-state", "compliance-badging"]
 ---
 
 # Stub: Incident LORE-0819-K // Null-State Resonance in Compliance Badging

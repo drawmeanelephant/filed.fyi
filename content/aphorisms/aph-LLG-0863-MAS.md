@@ -3,7 +3,7 @@ title: "Minute Absolution Seal"
 id: aphorisms/APH-LLG-0863-MAS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Minute Absolution Seal

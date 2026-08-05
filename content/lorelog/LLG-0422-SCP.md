@@ -3,7 +3,7 @@ title: "Support Structure for Prior Failure Established"
 id: lorelog/LLG-0422-SCP
 parent: lorelog
 status: published
-tags: ["lorelog", "pport-structure", "ception-load-bearing", "herited-basis", "solete-dependency", "ntinuity", "scot", "nresolution", "vernance", "rkaround", "mpatibility", "ctrine", "ccessor-drift"]
+tags: ["lorelog", "support-structure", "exception-load-bearing", "inherited-basis", "obsolete-dependency", "continuity", "mascot", "nonresolution", "governance", "workaround", "compatibility", "doctrine", "successor-drift"]
 ---
 
 # Support Structure for Prior Failure Established

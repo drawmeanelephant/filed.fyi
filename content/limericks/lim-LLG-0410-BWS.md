@@ -3,7 +3,7 @@ title: "Incident LORE-0410-BWS // Badge Witness Continuity After Basis Thinning"
 id: limericks/LIM-LLG-0410-BWS
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-rot"]
+tags: ["limericks", "procedural-rot"]
 ---
 
 # Incident LORE-0410-BWS // Badge Witness Continuity After Basis Thinning

@@ -3,7 +3,7 @@ title: "SRB Pocket Gloss"
 id: limericks/LIM-FREF-0090-SRBG
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # SRB Pocket Gloss

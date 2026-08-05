@@ -3,7 +3,7 @@ title: "Internal Robot Memo"
 id: aphorisms/APH-LLG-0379-ROBOT-MEMO
 parent: aphorisms
 status: published
-tags: ["aphorisms", "bot-memo", "eeding-program", "hics-patch", "chive-jurisdiction"]
+tags: ["aphorisms", "robot-memo", "breeding-program", "ethics-patch", "archive-jurisdiction"]
 ---
 
 # Internal Robot Memo Aphorisms

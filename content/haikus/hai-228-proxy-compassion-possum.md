@@ -3,7 +3,7 @@ title: "Proxy Compassion Possum"
 id: haikus/HAI-0228
 parent: haikus
 status: archived
-tags: ["haikus", "rtificial-empathy", "ystem-failure", "roxy-care"]
+tags: ["haikus", "artificial-empathy", "system-failure", "proxy-care"]
 ---
 
 # Proxy Compassion Possum

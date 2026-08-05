@@ -3,7 +3,7 @@ title: "Relief Watermark"
 id: haikus/HAI-0267
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "termark", "re", "lief"]
+tags: ["haikus", "haiku", "watermark", "care", "relief"]
 ---
 
 # Relief Watermark

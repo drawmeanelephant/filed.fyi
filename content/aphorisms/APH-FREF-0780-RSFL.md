@@ -3,7 +3,7 @@ title: "Rest-Shaped Feelings"
 id: aphorisms/APH-FREF-0780-RSFL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "st-shaped", "ma-coma", "lidation", "n-material"]
+tags: ["aphorisms", "rest-shaped", "soma-coma", "validation", "non-material"]
 ---
 
 # Rest-Shaped Aphorisms

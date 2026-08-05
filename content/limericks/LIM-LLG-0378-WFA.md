@@ -3,7 +3,7 @@ title: "Workforce Allocator Anomaly"
 id: limericks/LIM-LLG-0378-WFA
 parent: limericks
 status: archived
-tags: ["limericks", "locator-anomaly", "eeding-program", "bot-labor"]
+tags: ["limericks", "allocator-anomaly", "breeding-program", "robot-labor"]
 ---
 
 # Workforce Allocator Anomaly

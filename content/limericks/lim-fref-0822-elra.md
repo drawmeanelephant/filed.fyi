@@ -3,7 +3,7 @@ title: "Explanation Layer Residue Audit"
 id: limericks/LIM-FREF-0822-ELRA
 parent: limericks
 status: published
-tags: ["limericks", "planation-layer", "sidue-audit"]
+tags: ["limericks", "explanation-layer", "residue-audit"]
 ---
 
 # Explanation Layer Residue Audit

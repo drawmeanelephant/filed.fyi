@@ -3,7 +3,7 @@ title: "Progress Without Work"
 id: limericks/LIM-FFP-0385-PROGRESS-WITHOUT-WORK
 parent: limericks
 status: published
-tags: ["limericks", "merick", "eue-theatre", "ust-surface", "bor-refusal"]
+tags: ["limericks", "limerick", "queue-theatre", "trust-surface", "labor-refusal"]
 ---
 
 # Progress Without Work

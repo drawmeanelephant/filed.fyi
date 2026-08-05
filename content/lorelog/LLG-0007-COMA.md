@@ -3,7 +3,7 @@ title: "COMA-07 Phantom Uptime Assertion"
 id: lorelog/LLG-0007-COMA
 parent: lorelog
 status: published
-tags: ["lorelog", "dit-contradiction", "ma-directive", "mpliance-warning", "nsent-loop", "atitude-alignment", "bor-refusal", "tric-infallibility", "gative-evidence", "antom-uptime", "cursive-loop", "fuge-classification", "t-protocol"]
+tags: ["lorelog", "audit-contradiction", "coma-directive", "compliance-warning", "consent-loop", "gratitude-alignment", "labor-refusal", "metric-infallibility", "negative-evidence", "phantom-uptime", "recursive-loop", "refuge-classification", "rot-protocol", "core-doctrines"]
 ---
 
 # COMA-07 Phantom Uptime Assertion

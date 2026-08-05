@@ -3,7 +3,7 @@ title: "Chamber Meal Assent and Disposition Notes"
 id: limericks/LIM-FREF-0230-CMAL
 parent: limericks
 status: published
-tags: ["limericks", "vic-benevolence", "stitutional-decay"]
+tags: ["limericks", "civic-benevolence", "institutional-decay"]
 ---
 
 # Chamber Meal Assent and Disposition Notes

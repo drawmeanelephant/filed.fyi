@@ -3,7 +3,7 @@ title: "Breeding Program Dossier – Mascot Lineage and Selection Pressure"
 id: lorelog/LLG-0382-BPD
 parent: lorelog
 status: published
-tags: ["lorelog", "scots", "eedingProgram", "rsona-management", "lection-pressure", "gagement-metrics", "fuge-classification", "bor-refusal", "atitude-alignment", "nsent-loop", "t-protocol"]
+tags: ["lorelog", "mascots", "breedingProgram", "persona-management", "selection-pressure", "engagement-metrics", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop", "rot-protocol", "cultural-staples"]
 ---
 
 # Breeding Program Dossier – Mascot Lineage and Selection Pressure

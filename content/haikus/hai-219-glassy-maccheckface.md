@@ -3,7 +3,7 @@ title: "Glassy MacCheckface"
 id: haikus/HAI-0219
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ples", "ansparent"]
+tags: ["haikus", "haiku", "apples", "transparent", "qa"]
 ---
 
 # Glassy MacCheckface

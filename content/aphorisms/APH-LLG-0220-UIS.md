@@ -3,7 +3,7 @@ title: "Unified Intake Sheet"
 id: aphorisms/APH-LLG-0220-UIS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ified-intake", "eling-fragmentation", "ma-directive", "ndy-mcexistentialcrisis"]
+tags: ["aphorisms", "unified-intake", "feeling-fragmentation", "soma-directive", "kindy-mcexistentialcrisis"]
 ---
 
 # Unified Intake Aphorisms

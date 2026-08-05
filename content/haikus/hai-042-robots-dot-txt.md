@@ -3,7 +3,7 @@ title: "Robots Dot Txt"
 id: haikus/HAI-0042
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "bots-txt", "awlers", "dexing"]
+tags: ["haikus", "haiku", "robots-txt", "crawlers", "indexing", "defunct-rules", "crawler-isolation", "abandoned-protocols"]
 ---
 
 # Robots Dot Txt

@@ -3,7 +3,7 @@ title: "Witness Custody Registry — Known Routing Gaps"
 id: reference/FREF-0636-WCR
 parent: reference
 status: published
-tags: ["reference", "tness", "stody", "uting-gap", "gistry", "stimony-handling"]
+tags: ["reference", "witness", "custody", "routing-gap", "registry", "testimony-handling"]
 ---
 
 # Witness Custody Registry — Known Routing Gaps

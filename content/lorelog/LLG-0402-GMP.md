@@ -3,7 +3,7 @@ title: "Negative Control Contamination — GMP Batch Recursion"
 id: lorelog/LLG-0402-GMP
 parent: lorelog
 status: published
-tags: ["lorelog", "p", "gative-control-failure", "bel-rot", "lease-theater", "ndy-incident"]
+tags: ["lorelog", "gmp", "negative-control-failure", "label-rot", "release-theater", "kindy-incident"]
 ---
 
 # Negative Control Contamination — GMP Batch Recursion

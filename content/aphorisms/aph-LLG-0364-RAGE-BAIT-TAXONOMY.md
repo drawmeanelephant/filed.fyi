@@ -3,7 +3,7 @@ title: "BAIT Taxonomy — Standard Forms of Angertainment"
 id: aphorisms/APH-LLG-0364-RAGE-BAIT-TAXONOMY
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # BAIT Taxonomy — Standard Forms of Angertainment

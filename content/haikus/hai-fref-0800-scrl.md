@@ -3,7 +3,7 @@ title: "Scoring Layer"
 id: haikus/HAI-FREF-0800-SCRL
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "scoring-layer", "care-visibility"]
 ---
 
 # Scoring Layer

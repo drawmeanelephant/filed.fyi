@@ -3,7 +3,7 @@ title: "Stub: Exoneration by Procedural Summary"
 id: aphorisms/APH-LLG-0890-EPS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Exoneration by Procedural Summary

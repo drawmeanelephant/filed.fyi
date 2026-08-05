@@ -3,7 +3,7 @@ title: "Stub: Historical Burden Refiled as Realism"
 id: haikus/HAI-LLG-0430-HBR
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "historical-burden", "realism"]
 ---
 
 # Stub: Historical Burden Refiled as Realism

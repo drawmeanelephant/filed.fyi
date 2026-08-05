@@ -3,7 +3,7 @@ title: "Audit Summary Terminology Drift — Failure Language Reclassified as Ass
 id: lorelog/LLG-0323-ASD
 parent: lorelog
 status: published
-tags: ["lorelog", "dit-optics", "ffer-unstable", "assification-rot", "naged-absence", "cursive-loop", "mediation-drift", "mantic-laundering", "resolved-genesis"]
+tags: ["lorelog", "audit-optics", "buffer-unstable", "classification-rot", "managed-absence", "recursive-loop", "remediation-drift", "semantic-laundering", "unresolved-genesis"]
 ---
 
 # Audit Summary Terminology Drift — Failure Language Reclassified as Assurance Vocabulary

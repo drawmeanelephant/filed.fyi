@@ -3,7 +3,7 @@ title: "Corrective Inheritance Registry"
 id: aphorisms/APH-LLG-0384-CIR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rrective-inheritance", "osure-drift", "pa", "currence", "storical-activity"]
+tags: ["aphorisms", "corrective-inheritance", "closure-drift", "capa", "recurrence", "historical-activity"]
 ---
 
 # Corrective Inheritance Aphorisms

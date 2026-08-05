@@ -3,7 +3,7 @@ title: "Neppy Sysdream"
 id: haikus/HAI-0032
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ptune", "ta", "porware"]
+tags: ["haikus", "haiku", "neptune", "beta", "vaporware", "beta-stagnation", "spectral-memory"]
 ---
 
 # Neppy Sysdream

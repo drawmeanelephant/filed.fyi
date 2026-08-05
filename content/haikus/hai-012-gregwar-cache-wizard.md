@@ -3,7 +3,7 @@ title: "Gregwar Cache Wizard"
 id: haikus/HAI-0012
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "che", "ale-data", "zardry"]
+tags: ["haikus", "haiku", "cache", "stale-data", "wizardry"]
 ---
 
 # Gregwar Cache Wizard

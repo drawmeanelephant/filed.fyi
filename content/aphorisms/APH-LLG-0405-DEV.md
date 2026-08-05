@@ -3,7 +3,7 @@ title: "Meta-Deviation Cascade"
 id: aphorisms/APH-LLG-0405-DEV
 parent: aphorisms
 status: published
-tags: ["aphorisms", "p", "viation-recursion", "rm-version-rot", "lf-citation", "iday-filing"]
+tags: ["aphorisms", "glp", "deviation-recursion", "form-version-rot", "self-citation", "friday-filing"]
 ---
 
 # Meta-Deviation Aphorisms

@@ -3,7 +3,7 @@ title: "BAIT Subtype B-3A Civic Substitution Loop"
 id: lorelog/LLG-0367-BAIT-B3A
 parent: lorelog
 status: published
-tags: ["lorelog", "it", "vic-substitution", "ral-concern", "gagement-loop", "gertainment"]
+tags: ["lorelog", "bait", "civic-substitution", "moral-concern", "engagement-loop", "angertainment"]
 ---
 
 # BAIT Subtype B-3A Civic Substitution Loop

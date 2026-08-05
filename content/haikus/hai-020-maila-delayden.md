@@ -3,7 +3,7 @@ title: "Maila Delayden"
 id: haikus/HAI-0020
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "il", "eue", "lay"]
+tags: ["haikus", "haiku", "mail", "queue", "delay", "queue-stagnation", "delivery-delay", "message-processing"]
 ---
 
 # Maila Delayden

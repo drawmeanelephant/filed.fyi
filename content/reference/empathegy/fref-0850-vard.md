@@ -3,7 +3,7 @@ title: "Variance Discipline"
 id: reference/FREF-0850-VARD
 parent: reference
 status: published
-tags: ["reference", "pathegy", "riance", "oothing", "seline", "provement-theatre"]
+tags: ["reference", "empathegy", "variance", "smoothing", "baseline", "improvement-theatre"]
 ---
 
 # Variance Discipline

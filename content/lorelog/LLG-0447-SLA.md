@@ -3,7 +3,7 @@ title: "Successor Lane, Ancestral Burden"
 id: lorelog/LLG-0447-SLA
 parent: lorelog
 status: published
-tags: ["lorelog", "relog", "placement-without-release", "ad-labor", "ccessor-drift", "herited-basis", "mpatibility", "pport-burden"]
+tags: ["lorelog", "replacement-without-release", "dead-labor", "successor-drift", "inherited-basis", "compatibility", "support-burden", "classifications"]
 ---
 
 # Successor Lane, Ancestral Burden

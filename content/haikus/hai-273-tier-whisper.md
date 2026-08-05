@@ -3,7 +3,7 @@ title: "Tier Whisper"
 id: haikus/HAI-0273
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ers", "cess", "isper"]
+tags: ["haikus", "haiku", "tiers", "access", "whisper"]
 ---
 
 # Tier Whisper

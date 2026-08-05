@@ -3,7 +3,7 @@ title: "RAGE Extraction Attempts — Turning Angertainment into Action"
 id: aphorisms/APH-LLG-0362-RAGE-EXTRACTION
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # RAGE Extraction Attempts — Turning Angertainment into Action

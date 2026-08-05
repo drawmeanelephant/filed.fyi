@@ -3,7 +3,7 @@ title: "MAP-ANNEX: MANAGED ABSENCE INTERNAL INDEX"
 id: limericks/LIM-FREF-0160-MAII
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # MAP-ANNEX: MANAGED ABSENCE INTERNAL INDEX

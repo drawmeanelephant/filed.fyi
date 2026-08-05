@@ -3,7 +3,7 @@ title: "Over-Coherence Spillover"
 id: aphorisms/APH-0062
 parent: aphorisms
 status: published
-tags: ["aphorisms", "cip-lkg", "er-coherence", "gestion-failure", "ead-preservation"]
+tags: ["aphorisms", "tdcip-lkg", "over-coherence", "ingestion-failure", "dread-preservation"]
 ---
 
 # Over-Coherence Aphorisms

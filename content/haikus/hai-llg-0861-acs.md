@@ -3,7 +3,7 @@ title: "Atmosphere-Assisted Closure"
 id: haikus/HAI-LLG-0861-ACS
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "osure", "remony", "mosphere"]
+tags: ["haikus", "haiku", "closure", "ceremony", "atmosphere", "atmosphere-assisted-closure", "ceremonial-warmth"]
 ---
 
 # Atmosphere-Assisted Closure

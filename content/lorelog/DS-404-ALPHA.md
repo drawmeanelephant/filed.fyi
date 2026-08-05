@@ -3,7 +3,7 @@ title: "Form DS-404-ALPHA: Departmental Synergy Merge Approval with Intent to Co
 id: lorelog/DS-0404-ALPHA
 parent: lorelog
 status: archived
-tags: ["lorelog"]
+tags: ["lorelog", "buffer-null", "buffer-unstable", "compliance-warning", "consent-loop", "gratitude-alignment", "labor-refusal", "recursive-loop", "refuge-classification", "rot-protocol"]
 ---
 
 # Form DS-404-ALPHA: Departmental Synergy Merge Approval with Intent to Co-Exist

@@ -3,7 +3,7 @@ title: "Form 27-B"
 id: haikus/HAI-LLG-0027-B
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rm-27-b", "gnature-rot", "rvey-absurdity", "ocedural-burden"]
+tags: ["haikus", "haiku", "form-27-b", "signature-rot", "survey-absurdity", "procedural-burden"]
 ---
 
 # Form 27-B

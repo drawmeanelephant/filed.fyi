@@ -3,7 +3,7 @@ title: "Incident LORE-0411-RRC // Reciprocal Recognition Continuity Loop"
 id: limericks/LIM-LLG-0411-RRC
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-rot"]
+tags: ["limericks", "procedural-rot"]
 ---
 
 # Incident LORE-0411-RRC // Reciprocal Recognition Continuity Loop

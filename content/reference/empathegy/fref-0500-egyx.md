@@ -3,7 +3,7 @@ title: "Empathegy Taxonomy"
 id: reference/FREF-0500-EGYX
 parent: reference
 status: published
-tags: ["reference", "pathegy", "xonomy", "otional-governance", "ntinuity", "gibility"]
+tags: ["reference", "empathegy", "taxonomy", "emotional-governance", "continuity", "legibility", "core-doctrines"]
 ---
 
 # Empathegy Taxonomy

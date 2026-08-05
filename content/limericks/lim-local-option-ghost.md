@@ -3,7 +3,7 @@ title: "Local Option Ghost"
 id: limericks/LIM-0129
 parent: limericks
 status: archived
-tags: ["limericks", "rofane"]
+tags: ["limericks", "profane"]
 ---
 
 # Local Option Ghost

@@ -3,7 +3,7 @@ title: "Trust Surface Residual Truth"
 id: haikus/HAI-FREF-0823-TSRT
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "benevolence", "trust-surface", "residual-trust"]
 ---
 
 # Trust Surface Residual Truth

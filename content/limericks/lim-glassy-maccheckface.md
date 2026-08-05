@@ -3,7 +3,7 @@ title: "Glassy MacCheckface"
 id: limericks/LIM-0099
 parent: limericks
 status: archived
-tags: ["limericks", "llow-transparent", "chard", "spection", "ipboard"]
+tags: ["limericks", "qa", "yellow-transparent", "orchard", "inspection", "clipboard"]
 ---
 
 # Glassy MacCheckface

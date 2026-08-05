@@ -3,7 +3,7 @@ title: "Malrex Voidrender"
 id: haikus/HAI-0066
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tropy", "ffers", "ubt"]
+tags: ["haikus", "haiku", "entropy", "buffers", "doubt"]
 ---
 
 # Malrex Voidrender

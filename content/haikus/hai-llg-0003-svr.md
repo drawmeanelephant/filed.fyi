@@ -3,7 +3,7 @@ title: "Schema Violation"
 id: haikus/HAI-LLG-0003-SVR
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "hema-violation", "eld-proliferation", "tty-puritas", "stmortem"]
+tags: ["haikus", "haiku", "schema-violation", "field-proliferation", "datty-puritas", "postmortem"]
 ---
 
 # Schema Violation

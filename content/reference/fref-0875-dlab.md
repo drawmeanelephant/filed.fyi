@@ -3,7 +3,7 @@ title: "Dead Labor"
 id: reference/FREF-0875-DLAB
 parent: reference
 status: published
-tags: ["reference", "ad-labor", "eue-theatre", "herited-basis", "ligation-residue", "mpatibility-burden", "rk-without-workers", "naged-absence", "ccessor-drift", "ntinuity-language", "porting-without-relief"]
+tags: ["reference", "dead-labor", "queue-theatre", "inherited-basis", "obligation-residue", "compatibility-burden", "work-without-workers", "managed-absence", "successor-drift", "continuity-language", "reporting-without-relief", "core-doctrines"]
 ---
 
 # Dead Labor

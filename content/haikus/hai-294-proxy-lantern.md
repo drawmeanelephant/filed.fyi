@@ -3,7 +3,7 @@ title: "Proxy Lantern"
 id: haikus/HAI-0294
 parent: haikus
 status: archived
-tags: ["haikus", "rmth", "thority", "oxy"]
+tags: ["haikus", "warmth", "authority", "proxy"]
 ---
 
 # Proxy Lantern

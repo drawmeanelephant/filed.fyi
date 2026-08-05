@@ -3,7 +3,7 @@ title: "Luncheon Assent Authorization Drift"
 id: limericks/LIM-LLG-0391-LAA
 parent: limericks
 status: archived
-tags: ["limericks", "ncheon-assent", "vic-boosterism", "ants-drift"]
+tags: ["limericks", "luncheon-assent", "civic-boosterism", "grants-drift"]
 ---
 
 # Luncheon Assent Authorization Drift

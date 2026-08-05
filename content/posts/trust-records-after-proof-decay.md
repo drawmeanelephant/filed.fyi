@@ -3,7 +3,7 @@ title: "Trust Records After Proof Decay"
 id: posts/POST-0003
 parent: posts
 status: published
-tags: ["posts", "st", "ust-surface", "oof-decay", "covered-transmission"]
+tags: ["posts", "post", "trust-surface", "proof-decay", "recovered-transmission"]
 ---
 
 # Trust Records After Proof Decay

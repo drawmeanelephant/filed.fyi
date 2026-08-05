@@ -3,7 +3,7 @@ title: "Stub: Managed Absence & Forms"
 id: haikus/HAI-0092
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Managed Absence & Forms

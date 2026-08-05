@@ -3,7 +3,7 @@ title: "BHDSS — British Helpdesk Subsystem"
 id: limericks/LIM-FREF-0350-BHDS
 parent: limericks
 status: published
-tags: ["limericks", "lpdesk", "bsystem"]
+tags: ["limericks", "helpdesk", "subsystem"]
 ---
 
 # BHDSS — British Helpdesk Subsystem

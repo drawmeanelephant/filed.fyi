@@ -3,7 +3,7 @@ title: "Deferential Spark"
 id: haikus/HAI-0288
 parent: haikus
 status: archived
-tags: ["haikus", "novation", "ology", "ark"]
+tags: ["haikus", "innovation", "apology", "spark"]
 ---
 
 # Deferential Spark

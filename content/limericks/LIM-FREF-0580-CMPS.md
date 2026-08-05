@@ -3,7 +3,7 @@ title: "Compassion Surfaces"
 id: limericks/LIM-FREF-0580-CMPS
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "mpassion"]
+tags: ["limericks", "hand-written", "empathegy", "compassion", "ui"]
 ---
 
 # Compassion Surfaces

@@ -3,7 +3,7 @@ title: "Variance Discipline"
 id: aphorisms/APH-FREF-0850-VARD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "riance", "oothing", "provement-theatre", "scipline"]
+tags: ["aphorisms", "variance", "smoothing", "improvement-theatre", "discipline"]
 ---
 
 # Variance Discipline Aphorisms

@@ -3,7 +3,7 @@ title: "Canonized Support Interval"
 id: haikus/HAI-LLG-0851-CSI
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "pport", "nonization", "terval"]
+tags: ["haikus", "haiku", "support", "canonization", "interval", "canonized-support-interval", "partial-care"]
 ---
 
 # Canonized Support Interval

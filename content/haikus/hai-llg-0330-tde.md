@@ -3,7 +3,7 @@ title: "Cross-Entanglement"
 id: haikus/HAI-LLG-0330-TDE
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rective-entanglement", "idence-rot", "ma-coma", "oss-channel"]
+tags: ["haikus", "haiku", "directive-entanglement", "evidence-rot", "soma-coma", "cross-channel"]
 ---
 
 # Cross-Entanglement

@@ -3,7 +3,7 @@ title: "Appendix Smoothing Format"
 id: lorelog/LLG-0871-ASF
 parent: lorelog
 status: published
-tags: ["lorelog", "pathegy", "rmatting", "nex", "tercare", "pendix", "sthetic-capture", "mpliance-softening", "condary-records"]
+tags: ["lorelog", "empathegy", "formatting", "annex", "aftercare", "appendix", "aesthetic-capture", "compliance-softening", "secondary-records"]
 ---
 
 # Appendix Smoothing Format

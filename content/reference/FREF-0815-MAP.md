@@ -3,7 +3,7 @@ title: "Managed Absence Spine"
 id: reference/FREF-0815-MAP
 parent: reference
 status: published
-tags: ["reference", "naged-absence", "nceptually-active", "ministratively-retired", "chivally-asserted", "ntinuity-optics", "ilure-signature", "sidual-truth", "surance-optics", "ust-surface", "it-adjacent", "rification-collapse", "corative-trust"]
+tags: ["reference", "managed-absence", "conceptually-active", "administratively-retired", "archivally-asserted", "continuity-optics", "failure-signature", "residual-truth", "assurance-optics", "trust-surface", "bait-adjacent", "verification-collapse", "decorative-trust"]
 ---
 
 # Managed Absence Spine

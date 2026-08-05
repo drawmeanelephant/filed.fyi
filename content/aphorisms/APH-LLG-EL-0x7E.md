@@ -3,7 +3,7 @@ title: "Engagement Labyrinth"
 id: aphorisms/APH-0047
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rategy-engagement", "lue-capture", "tual-governance", "ck-theater"]
+tags: ["aphorisms", "strategy-engagement", "value-capture", "ritual-governance", "deck-theater"]
 ---
 
 # Engagement Labyrinth Aphorisms

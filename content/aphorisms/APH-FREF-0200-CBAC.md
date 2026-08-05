@@ -3,7 +3,7 @@ title: "Civic Benevolence Annex & Chamber Legitimacy"
 id: aphorisms/APH-FREF-0200-CBAC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "vic-bureaucracy", "amber-of-commerce", "nevolence-lodge", "morial-quorum"]
+tags: ["aphorisms", "civic-bureaucracy", "chamber-of-commerce", "benevolence-lodge", "memorial-quorum"]
 ---
 
 # Civic Benevolence Annex Aphorisms

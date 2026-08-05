@@ -3,7 +3,7 @@ title: "Silence Burden Index"
 id: aphorisms/APH-LLG-0338-SBI
 parent: aphorisms
 status: published
-tags: ["aphorisms", "lence-burden", "rain-telemetry", "u-n-t-i-e-r", "ndy"]
+tags: ["aphorisms", "silence-burden", "strain-telemetry", "c-u-n-t-i-e-r", "kindy"]
 ---
 
 # Silence Burden Aphorisms

@@ -3,7 +3,7 @@ title: "Scheduled Exception Board Deferred Maintenance Into Canonical Hazard"
 id: limericks/LIM-LLG-0385-SED
 parent: limericks
 status: archived
-tags: ["limericks", "heduled-exception", "intenance-window", "ntinuity-optics"]
+tags: ["limericks", "scheduled-exception", "maintenance-window", "continuity-optics"]
 ---
 
 # Scheduled Exception Board Deferred Maintenance Into Canonical Hazard

@@ -3,7 +3,7 @@ title: "Co-Existence Endorsement Bureau"
 id: aphorisms/APH-LLG-0385-CEB
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rger-governance", "dorsements", "existence-attestation", "mpliance-vacuum", "gnature-theatre"]
+tags: ["aphorisms", "merger-governance", "endorsements", "coexistence-attestation", "compliance-vacuum", "signature-theatre"]
 ---
 
 # Co-Existence Endorsement Aphorisms

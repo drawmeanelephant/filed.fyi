@@ -3,7 +3,7 @@ title: "Stub: Allocation Protocol STACK_HUSH (Dense Overdrift)"
 id: limericks/LIM-FREF-0913-APSH
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Allocation Protocol STACK_HUSH (Dense Overdrift)

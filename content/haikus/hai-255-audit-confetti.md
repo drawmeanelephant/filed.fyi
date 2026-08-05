@@ -3,7 +3,7 @@ title: "Audit Confetti"
 id: haikus/HAI-0255
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "dit", "nfetti", "y"]
+tags: ["haikus", "haiku", "audit", "confetti", "joy", "premature-celebration", "audit-compliance", "residue"]
 ---
 
 # Audit Confetti

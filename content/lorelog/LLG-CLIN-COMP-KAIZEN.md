@@ -3,7 +3,7 @@ title: "Clinical Compliance Kaizen Rite"
 id: lorelog/LLG-0004
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "compliance", "procedural-gravity", "compelled-agreement", "hospital-registry", "protocol-ritual", "morbidity-ledger", "kaizen-liturgy", "continuity-theater", "conflict-softening", "civility"]
 ---
 
 # Clinical Compliance Kaizen Rite

@@ -3,7 +3,7 @@ title: "Ketchup Keeper"
 id: limericks/LIM-0119
 parent: limericks
 status: archived
-tags: ["limericks", "tchup", "ndiment", "mato", "cipes", "uce"]
+tags: ["limericks", "ketchup", "condiment", "tomato", "recipes", "sauce"]
 ---
 
 # Ketchup Keeper

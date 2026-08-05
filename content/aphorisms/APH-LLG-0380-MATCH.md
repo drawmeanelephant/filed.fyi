@@ -3,7 +3,7 @@ title: "Breeding Match Allocation"
 id: aphorisms/APH-LLG-0380-MATCH
 parent: aphorisms
 status: published
-tags: ["aphorisms", "eeding-program", "ft-match", "atitude-bias", "igibility-ethics", "n-binding-pairings"]
+tags: ["aphorisms", "breeding-program", "soft-match", "gratitude-bias", "eligibility-ethics", "non-binding-pairings"]
 ---
 
 # Breeding Match Allocation Aphorisms

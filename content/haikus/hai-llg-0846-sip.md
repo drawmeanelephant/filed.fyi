@@ -3,7 +3,7 @@ title: "Silent Interval Preservation Doctrine"
 id: haikus/HAI-LLG-0846-SIP
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "lence", "eservation", "ctrine"]
+tags: ["haikus", "haiku", "silence", "preservation", "doctrine", "silent-interval-preservation", "indicators-of-health"]
 ---
 
 # Silent Interval Preservation Doctrine

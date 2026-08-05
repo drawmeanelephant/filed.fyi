@@ -3,7 +3,7 @@ title: "Civic Benevolence Annex & Chamber Legitimacy Layer"
 id: reference/FREF-0200-CBAC
 parent: reference
 status: draft
-tags: ["reference", "vic-bureaucracy", "amber-of-commerce", "nevolence-lodge", "morial-quorum", "sserole-credit"]
+tags: ["reference", "civic-bureaucracy", "chamber-of-commerce", "benevolence-lodge", "memorial-quorum", "casserole-credit"]
 ---
 
 # Civic Benevolence Annex & Chamber Legitimacy Layer

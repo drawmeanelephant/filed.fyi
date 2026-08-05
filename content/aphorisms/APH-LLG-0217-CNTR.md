@@ -3,7 +3,7 @@ title: "Metric Inflation"
 id: aphorisms/APH-LLG-0217-CNTR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "u-n-t-i-e-r", "timization-failure", "trics-theatre", "rm-proliferation"]
+tags: ["aphorisms", "c-u-n-t-i-e-r", "optimization-failure", "metrics-theatre", "form-proliferation"]
 ---
 
 # Metric Inflation Aphorisms

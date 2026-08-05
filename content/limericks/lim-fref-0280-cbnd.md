@@ -3,7 +3,7 @@ title: "Civic Band Legend – Continuity and Courtesy Bands"
 id: limericks/LIM-FREF-0280-CBND
 parent: limericks
 status: published
-tags: ["limericks", "vic-benevolence", "stitutional-decay"]
+tags: ["limericks", "civic-benevolence", "institutional-decay"]
 ---
 
 # Civic Band Legend – Continuity and Courtesy Bands

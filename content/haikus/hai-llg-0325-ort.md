@@ -3,7 +3,7 @@ title: "Orphan Thresholds"
 id: haikus/HAI-LLG-0325-ORT
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "phan-retention", "reshold-inflation", "set-laundering", "chival-rot"]
+tags: ["haikus", "haiku", "orphan-retention", "threshold-inflation", "asset-laundering", "archival-rot"]
 ---
 
 # Orphan Thresholds

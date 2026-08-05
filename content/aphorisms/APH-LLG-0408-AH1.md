@@ -3,7 +3,7 @@ title: "AffectHarness-1 Proposal"
 id: aphorisms/APH-LLG-0408-AH1
 parent: aphorisms
 status: published
-tags: ["aphorisms", "fectharness", "ccessor-process", "nthetic-feelings", "ndbox-governance", "ming-theatre"]
+tags: ["aphorisms", "affectharness", "successor-process", "synthetic-feelings", "sandbox-governance", "naming-theatre"]
 ---
 
 # AffectHarness Aphorisms

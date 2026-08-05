@@ -3,7 +3,7 @@ title: "Low-Confidence Object LC-04 Soft Green Seal"
 id: limericks/LIM-LLG-0323-LC04
 parent: limericks
 status: archived
-tags: ["limericks", "ft-green-seal", "w-confidence-object", "ntinuity-optics"]
+tags: ["limericks", "soft-green-seal", "low-confidence-object", "continuity-optics"]
 ---
 
 # Low-Confidence Object LC-04 Soft Green Seal

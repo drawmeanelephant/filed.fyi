@@ -3,7 +3,7 @@ title: "Breeding Program Opt-Out — Non-Cancellation Filing"
 id: lorelog/LLG-0381-OPTOUT
 parent: lorelog
 status: published
-tags: ["lorelog", "eeding-program", "nsent-loop", "t-out-failure", "chival-persistence", "fuge-ethics", "lf-indexing", "t-protocol", "fuge-classification", "t-out", "n-8c", "rsistence", "chival-custody", "bor-refusal", "zardous-misfiling", "atitude-alignment", "stody-drift", "uster-presence", "ffer-unstable"]
+tags: ["lorelog", "breeding-program", "consent-loop", "opt-out-failure", "archival-persistence", "refuge-ethics", "self-indexing", "rot-protocol", "refuge-classification", "opt-out", "bin-8c", "persistence", "archival-custody"]
 ---
 
 # Breeding Program Opt-Out — Non-Cancellation Filing

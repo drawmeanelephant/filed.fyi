@@ -3,7 +3,7 @@ title: "Governance Language Layer"
 id: haikus/HAI-FREF-0660-GLNG
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "governance", "language", "translation"]
 ---
 
 # Governance Language Layer

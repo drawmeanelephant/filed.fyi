@@ -3,7 +3,7 @@ title: "FeelingSeeder Residuals"
 id: aphorisms/APH-LLG-0402-FSR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "elingseeder", "nthetic-feelings", "take-hygiene", "ttern-contamination", "aining-echo"]
+tags: ["aphorisms", "feelingseeder", "synthetic-feelings", "intake-hygiene", "pattern-contamination", "training-echo"]
 ---
 
 # FeelingSeeder Residual Aphorisms

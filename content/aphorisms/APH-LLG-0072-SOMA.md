@@ -3,7 +3,7 @@ title: "Rest Acknowledgement Refusal"
 id: aphorisms/APH-LLG-0072-SOMA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "st-request", "to-approval", "to-rejection", "ndy"]
+tags: ["aphorisms", "soma-directive", "rest-request", "auto-approval", "auto-rejection", "kindy"]
 ---
 
 # Rest Acknowledgement Aphorisms

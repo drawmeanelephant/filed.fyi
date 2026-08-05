@@ -3,7 +3,7 @@ title: "Mandate Lace"
 id: limericks/LIM-0134
 parent: limericks
 status: archived
-tags: ["limericks", "rofane"]
+tags: ["limericks", "profane"]
 ---
 
 # Mandate Lace

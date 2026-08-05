@@ -3,7 +3,7 @@ title: "Spooler Gremlin"
 id: haikus/HAI-0044
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "int-spooler", "eue", "emlin"]
+tags: ["haikus", "haiku", "print-spooler", "queue", "gremlin", "print-queue", "hidden-malice", "interception"]
 ---
 
 # Spooler Gremlin

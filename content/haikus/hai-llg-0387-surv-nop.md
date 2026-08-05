@@ -3,7 +3,7 @@ title: "Surveillance Visit Completed"
 id: haikus/HAI-LLG-0387-SURV-NOP
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rveillance", "dit", "turity"]
+tags: ["haikus", "haiku", "surveillance", "audit", "maturity"]
 ---
 
 # Surveillance Visit Completed

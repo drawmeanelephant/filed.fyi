@@ -3,7 +3,7 @@ title: "Marshal Sash Succession"
 id: haikus/HAI-LLG-0395-MSS
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "sh", "rshal", "ccession"]
+tags: ["haikus", "haiku", "sash", "marshal", "succession"]
 ---
 
 # Marshal Sash Succession

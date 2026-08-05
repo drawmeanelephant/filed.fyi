@@ -3,7 +3,7 @@ title: "Adjacent Correctness"
 id: reference/FREF-0560-ADJC
 parent: reference
 status: published
-tags: ["reference", "jacent-correctness", "temap-drift", "vigation", "terpretive-fit", "ructurally-valid-wrongness"]
+tags: ["reference", "adjacent-correctness", "sitemap-drift", "navigation", "interpretive-fit", "structurally-valid-wrongness", "classifications", "assurance-lexicon"]
 ---
 
 # Adjacent Correctness

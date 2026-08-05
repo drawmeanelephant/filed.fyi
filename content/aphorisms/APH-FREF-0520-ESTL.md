@@ -3,7 +3,7 @@ title: "Aesthetic Survival"
 id: aphorisms/APH-FREF-0520-ESTL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "sthetic", "itation", "gibility", "rvival"]
+tags: ["aphorisms", "aesthetic", "imitation", "legibility", "survival"]
 ---
 
 # Aesthetic Survival Aphorisms

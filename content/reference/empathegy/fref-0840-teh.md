@@ -3,7 +3,7 @@ title: "Training Echo Handling"
 id: reference/FREF-0840-TEH
 parent: reference
 status: published
-tags: ["reference", "pathegy", "aining-echo", "nthetic-affect", "ndbox", "ctrine"]
+tags: ["reference", "empathegy", "training-echo", "synthetic-affect", "sandbox", "doctrine"]
 ---
 
 # Training Echo Handling

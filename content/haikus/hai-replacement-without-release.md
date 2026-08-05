@@ -3,7 +3,7 @@ title: "Replacement Without Release"
 id: haikus/HAI-0095
 parent: haikus
 status: archived
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Replacement Without Release

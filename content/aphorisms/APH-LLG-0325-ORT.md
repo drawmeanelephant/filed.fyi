@@ -3,7 +3,7 @@ title: "Orphan Retention Thresholds"
 id: aphorisms/APH-LLG-0325-ORT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "phan-files", "phan-normalization", "an-reports", "ventory-theatre"]
+tags: ["aphorisms", "orphan-files", "orphan-normalization", "scan-reports", "inventory-theatre"]
 ---
 
 # Orphan Retention Aphorisms

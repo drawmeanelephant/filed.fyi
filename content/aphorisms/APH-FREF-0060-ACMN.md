@@ -3,7 +3,7 @@ title: "Assurance Coordination Minutes"
 id: aphorisms/APH-FREF-0060-ACMN
 parent: aphorisms
 status: published
-tags: ["aphorisms", "tics", "rminology", "ordination", "rated-absence"]
+tags: ["aphorisms", "optics", "terminology", "coordination", "curated-absence"]
 ---
 
 # Assurance Minutes Aphorisms

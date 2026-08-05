@@ -3,7 +3,7 @@ title: "Slidey the Deckworm"
 id: haikus/HAI-0222
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "idey", "ckworm", "esentations", "rasite"]
+tags: ["haikus", "haiku", "slidey", "deckworm", "presentations", "parasite"]
 ---
 
 # Slidey the Deckworm

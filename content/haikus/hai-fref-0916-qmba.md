@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix BUREAU_ASH (Telemetry Gap)"
 id: haikus/HAI-FREF-0916-QMBA
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Qualitative Matrix BUREAU_ASH (Telemetry Gap)

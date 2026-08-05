@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive CATALOG_RELIC (Structural Gap)"
 id: limericks/LIM-FREF-0904-RDCR
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Restoration Directive CATALOG_RELIC (Structural Gap)

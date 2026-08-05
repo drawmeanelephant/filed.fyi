@@ -3,7 +3,7 @@ title: "Rest-Shaped Feelings"
 id: reference/FREF-0780-RSFL
 parent: reference
 status: published
-tags: ["reference", "pathegy", "st", "ma", "knowledged-without-relief"]
+tags: ["reference", "empathegy", "rest", "soma", "coma", "acknowledged-without-relief"]
 ---
 
 # Rest-Shaped Feelings

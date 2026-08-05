@@ -3,7 +3,7 @@ title: "Gratitude Latch"
 id: limericks/LIM-0101
 parent: limericks
 status: archived
-tags: ["limericks", "tching-mechanisms", "atitude-capture", "pport-metrics"]
+tags: ["limericks", "latching-mechanisms", "gratitude-capture", "support-metrics"]
 ---
 
 # Gratitude Latch

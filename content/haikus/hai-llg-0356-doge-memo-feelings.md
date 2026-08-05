@@ -3,7 +3,7 @@ title: "Feelings Versus Evidence"
 id: haikus/HAI-LLG-0356-DOGE-MEMO-FEELINGS
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "elings", "idence"]
+tags: ["haikus", "doge", "feelings", "evidence"]
 ---
 
 # Feelings Versus Evidence

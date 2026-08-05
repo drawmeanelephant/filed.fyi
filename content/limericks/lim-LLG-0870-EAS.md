@@ -3,7 +3,7 @@ title: "Executive Annexation Strategy"
 id: limericks/LIM-LLG-0870-EAS
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # Executive Annexation Strategy

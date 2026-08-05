@@ -3,7 +3,7 @@ title: "Cinder Forgememo"
 id: limericks/LIM-0059
 parent: limericks
 status: archived
-tags: ["limericks", "ber", "h", "re", "mo", "cumentation"]
+tags: ["limericks", "ember", "ash", "fire", "memo", "documentation"]
 ---
 
 # Cinder Forgememo

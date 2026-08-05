@@ -3,7 +3,7 @@ title: "Directive Citation Bleed"
 id: limericks/LIM-LLG-0326-DCB
 parent: limericks
 status: archived
-tags: ["limericks", "rective-bleed", "ma-coma", "tation-rot"]
+tags: ["limericks", "directive-bleed", "soma-coma", "citation-rot"]
 ---
 
 # Directive Citation Bleed

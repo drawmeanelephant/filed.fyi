@@ -3,7 +3,7 @@ title: "Dual-Certification Protocol"
 id: aphorisms/APH-LLG-0404-DCP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "lent-interval", "al-certification", "ntinuity-theatre", "aining-echo", "vernance-note"]
+tags: ["aphorisms", "silent-interval", "dual-certification", "continuity-theatre", "training-echo", "governance-note"]
 ---
 
 # Dual-Certification Aphorisms

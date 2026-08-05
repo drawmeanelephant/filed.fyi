@@ -3,7 +3,7 @@ title: "Bin 8C Interpretive Drift Control"
 id: aphorisms/APH-LLG-IA-8C-DRIFT-0001
 parent: aphorisms
 status: published
-tags: ["aphorisms", "n-8c", "terpretive-drift", "cursive-custody", "ntrol-logic"]
+tags: ["aphorisms", "bin-8c", "interpretive-drift", "recursive-custody", "control-logic"]
 ---
 
 # Interpretive Drift Aphorisms

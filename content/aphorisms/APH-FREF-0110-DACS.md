@@ -3,7 +3,7 @@ title: "Dashboard Alignment Session"
 id: aphorisms/APH-FREF-0110-DACS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "shboards", "resholds", "nd-widening", "dicator-drift"]
+tags: ["aphorisms", "dashboards", "thresholds", "band-widening", "indicator-drift"]
 ---
 
 # Dashboard Alignment Aphorisms

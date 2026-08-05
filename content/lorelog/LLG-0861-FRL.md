@@ -3,7 +3,7 @@ title: "False Rest Lantern Review"
 id: lorelog/LLG-0861-FRL
 parent: lorelog
 status: published
-tags: ["lorelog", "iet-interval", "covery-misclassification", "ilure-signature", "lse-rest", "covery-misread", "lm-band", "iet-state", "pletion-glow"]
+tags: ["lorelog", "quiet-interval", "recovery-misclassification", "failure-signature", "false-rest", "recovery-misread", "calm-band", "quiet-state", "depletion-glow"]
 ---
 
 # False Rest Lantern Review

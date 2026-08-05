@@ -3,7 +3,7 @@ title: "Over‑Coherence Intake Log – Selected Entries"
 id: lorelog/LLG-0011
 parent: lorelog
 status: archived
-tags: ["lorelog", "take-log", "er-coherence", "aining-specimen", "rtial-record"]
+tags: ["lorelog", "intake-log", "over-coherence", "training-specimen", "partial-record"]
 ---
 
 # Entry 01 – “Zero Incident Quarter”

@@ -3,7 +3,7 @@ title: "Stub: Witness Routing Ceiling Event"
 id: haikus/HAI-LLG-0864-WRC
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "witness-routing", "procedural-stub"]
 ---
 
 # Stub: Witness Routing Ceiling Event

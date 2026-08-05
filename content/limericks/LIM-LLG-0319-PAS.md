@@ -3,7 +3,7 @@ title: "Persona Attribution Spillover"
 id: limericks/LIM-LLG-0319-PAS
 parent: limericks
 status: archived
-tags: ["limericks", "rsona-attribution", "thority-spillover", "g-rot"]
+tags: ["limericks", "persona-attribution", "authority-spillover", "log-rot"]
 ---
 
 # Persona Attribution Spillover

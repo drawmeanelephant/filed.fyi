@@ -3,7 +3,7 @@ title: "Ribbon of Maybe"
 id: haikus/HAI-0247
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "n-commitment", "bbon", "ybe"]
+tags: ["haikus", "haiku", "non-commitment", "ribbon", "maybe", "deferred-action", "procedural-delay"]
 ---
 
 # Ribbon of Maybe

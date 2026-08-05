@@ -3,7 +3,7 @@ title: "Friendship Preamble Proliferation"
 id: haikus/HAI-LLG-0861-FPP
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "iendship", "eamble", "sistance"]
+tags: ["haikus", "haiku", "friendship", "preamble", "resistance", "friendship-preamble", "affiliative-gestures"]
 ---
 
 # Friendship Preamble Proliferation

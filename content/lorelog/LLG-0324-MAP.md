@@ -3,7 +3,7 @@ title: "Managed Absence Protocol — Forms Registry Interpretation Layer"
 id: lorelog/LLG-0324-MAP
 parent: lorelog
 status: published
-tags: ["lorelog", "naged-absence", "rms-registry", "persession-ambiguity", "ctrine-layer", "vernance-language", "fuge-classification", "bor-refusal", "atitude-alignment", "nsent-loop", "t-protocol", "storical-artifacts", "scots", "assifications", "gu", "sidual-obligation", "ilure-signature"]
+tags: ["lorelog", "managed-absence", "forms-registry", "supersession-ambiguity", "doctrine-layer", "governance-language", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop", "rot-protocol", "historical-artifacts", "mascots", "core-doctrines"]
 ---
 
 # Managed Absence Protocol — Forms Registry Interpretation Layer

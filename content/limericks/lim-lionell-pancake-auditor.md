@@ -3,7 +3,7 @@ title: "Lionell Pancake Auditor"
 id: limericks/LIM-0128
 parent: limericks
 status: archived
-tags: ["limericks", "rofane"]
+tags: ["limericks", "profane"]
 ---
 
 # Lionell Pancake Auditor

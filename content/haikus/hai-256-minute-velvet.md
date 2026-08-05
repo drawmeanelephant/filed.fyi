@@ -3,7 +3,7 @@ title: "Minute Velvet"
 id: haikus/HAI-0256
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nutes", "etings", "ft"]
+tags: ["haikus", "haiku", "minutes", "meetings", "soft", "transcript-softening", "record-padding", "conflict-erasure"]
 ---
 
 # Minute Velvet

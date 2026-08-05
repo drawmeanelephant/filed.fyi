@@ -3,7 +3,7 @@ title: "Stub: Datty Puritas"
 id: haikus/HAI-0073
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Datty Puritas

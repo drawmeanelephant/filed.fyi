@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive DOSSIER_SILT (Structural Gap)"
 id: limericks/LIM-FREF-0905-RDDS
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Restoration Directive DOSSIER_SILT (Structural Gap)

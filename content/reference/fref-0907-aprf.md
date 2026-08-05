@@ -3,7 +3,7 @@ title: "Allocation Protocol REGISTRY_FOG (Dense Overdrift)"
 id: reference/FREF-0907-APRF
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Allocation Protocol: REGISTRY_FOG

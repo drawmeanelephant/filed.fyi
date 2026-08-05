@@ -3,7 +3,7 @@ title: "Over-Coherence Screening"
 id: haikus/HAI-LLG-0399-OCS
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "herence", "reening", "rrative"]
+tags: ["haikus", "haiku", "coherence", "screening", "narrative"]
 ---
 
 # Over-Coherence Screening

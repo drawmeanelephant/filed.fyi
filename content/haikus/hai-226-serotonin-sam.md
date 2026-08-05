@@ -3,7 +3,7 @@ title: "Serotonin Sam"
 id: haikus/HAI-0226
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "trics", "otion", "oothing"]
+tags: ["haikus", "haiku", "metrics", "emotion", "smoothing"]
 ---
 
 # Serotonin Sam

@@ -3,7 +3,7 @@ title: "Compassion Surfaces"
 id: reference/FREF-0580-CMPS
 parent: reference
 status: published
-tags: ["reference", "pathegy", "mpassion", "terface", "ft-language", "re-theatre"]
+tags: ["reference", "empathegy", "compassion", "interface", "soft-language", "care-theatre", "operational-engines"]
 ---
 
 # Compassion Surfaces

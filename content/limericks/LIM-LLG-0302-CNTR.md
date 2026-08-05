@@ -3,7 +3,7 @@ title: "C.U.N.T.I.E.R.-302"
 id: limericks/LIM-LLG-0302-CNTR
 parent: limericks
 status: archived
-tags: ["limericks", "nchmark-saturation", "ntier", "x-values"]
+tags: ["limericks", "benchmark-saturation", "cuntier", "max-values"]
 ---
 
 # C.U.N.T.I.E.R.-302

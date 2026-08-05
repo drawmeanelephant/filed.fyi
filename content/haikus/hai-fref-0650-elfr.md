@@ -3,7 +3,7 @@ title: "Echo-Literate Filers"
 id: haikus/HAI-FREF-0650-ELFR
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "syntax", "dialect", "compliance"]
 ---
 
 # Echo-Literate Filers

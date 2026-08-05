@@ -3,7 +3,7 @@ title: "Scoring Layer"
 id: reference/FREF-0800-SCRL
 parent: reference
 status: published
-tags: ["reference", "pathegy", "oring-layer", "trics", "gibility", "ighting", "shboard"]
+tags: ["reference", "empathegy", "scoring-layer", "metrics", "legibility", "weighting", "dashboard"]
 ---
 
 # Scoring Layer

@@ -3,7 +3,7 @@ title: "Over‑Coherence Screening, Specimen Referral"
 id: lorelog/LLG-0399-OCS
 parent: lorelog
 status: published
-tags: ["lorelog", "er-coherence", "urtesy-saturated", "trics-clean", "ead-erosion", "ecimen-referral", "scot-poster", "surance-optics", "trics-of-care"]
+tags: ["lorelog", "over-coherence", "courtesy-saturated", "metrics-clean", "dread-erosion", "specimen-referral", "mascot-poster", "assurance-optics", "metrics-of-care"]
 ---
 
 # Composite Narrative

@@ -3,7 +3,7 @@ title: "Form Shadow Copy Escalation — Unauthorized Draft Echoes"
 id: lorelog/LLG-0244-FSC
 parent: lorelog
 status: published
-tags: ["lorelog", "rm-drafts", "adow-copies", "atus-mismatch", "gistry-drift", "er-eager-automation"]
+tags: ["lorelog", "form-drafts", "shadow-copies", "status-mismatch", "registry-drift", "over-eager-automation"]
 ---
 
 # Form Shadow Copy Escalation — Unauthorized Draft Echoes

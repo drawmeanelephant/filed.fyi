@@ -3,7 +3,7 @@ title: "Stub: RoboShirker Queue Preservation Event"
 id: haikus/HAI-LLG-0418-RSK
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: RoboShirker Queue Preservation Event

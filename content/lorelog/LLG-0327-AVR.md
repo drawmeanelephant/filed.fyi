@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Realignment"
 id: lorelog/LLG-0327-AVR
 parent: lorelog
 status: published
-tags: ["lorelog", "dit-optics", "assification-rot", "mantic-laundering", "naged-absence"]
+tags: ["lorelog", "audit-optics", "classification-rot", "semantic-laundering", "managed-absence"]
 ---
 
 # Assurance Vocabulary Realignment

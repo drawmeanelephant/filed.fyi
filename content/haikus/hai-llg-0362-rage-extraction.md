@@ -3,7 +3,7 @@ title: "RAGE Extraction Attempts"
 id: haikus/HAI-LLG-0362-RAGE-EXTRACTION
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "traction", "tion"]
+tags: ["haikus", "rage", "extraction", "action"]
 ---
 
 # RAGE Extraction Attempts

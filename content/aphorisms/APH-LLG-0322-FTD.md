@@ -3,7 +3,7 @@ title: "Form Template Drift"
 id: aphorisms/APH-LLG-0322-FTD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "mplates", "precated-fields", "viewer-expectations", "naged-absence"]
+tags: ["aphorisms", "templates", "deprecated-fields", "reviewer-expectations", "managed-absence"]
 ---
 
 # Form Template Drift Aphorisms

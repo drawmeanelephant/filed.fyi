@@ -3,7 +3,7 @@ title: "Repair Announced, Compatibility Preserved"
 id: lorelog/LLG-0427-RAC
 parent: lorelog
 status: published
-tags: ["lorelog", "pair-claims", "mpatibility", "mpliance-skin", "herited-defect", "surance-language", "scot", "licy-drift", "rkaround", "sidual-enforcement", "ception-load-bearing", "herited-basis", "pport-structure", "nresolution", "vernance", "ctrine", "ccessor-drift", "ntinuity", "solete-dependency"]
+tags: ["lorelog", "repair-claims", "compatibility", "compliance-skin", "inherited-defect", "assurance-language", "mascot", "policy-drift", "workaround", "residual-enforcement", "exception-load-bearing", "inherited-basis", "support-structure"]
 ---
 
 # Repair Announced, Compatibility Preserved

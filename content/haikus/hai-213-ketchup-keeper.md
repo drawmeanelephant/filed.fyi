@@ -3,7 +3,7 @@ title: "Ketchup Keeper"
 id: haikus/HAI-0213
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tchup", "ndiment", "chive"]
+tags: ["haikus", "haiku", "ketchup", "condiment", "archive"]
 ---
 
 # Ketchup Keeper

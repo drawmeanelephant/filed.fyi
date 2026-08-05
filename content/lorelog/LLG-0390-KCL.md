@@ -3,7 +3,7 @@ title: "Kitchen Credit Persistence Loop, Auxiliary Labor Afterlife"
 id: lorelog/LLG-0390-KCL
 parent: lorelog
 status: published
-tags: ["lorelog", "xiliary-labor", "atitude-drift", "tchen-rot", "morial-supper", "tribution-persistence"]
+tags: ["lorelog", "auxiliary-labor", "gratitude-drift", "kitchen-rot", "memorial-supper", "attribution-persistence"]
 ---
 
 # Kitchen Credit Persistence Loop, Auxiliary Labor Afterlife

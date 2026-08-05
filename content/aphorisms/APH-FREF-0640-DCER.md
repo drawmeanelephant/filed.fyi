@@ -3,7 +3,7 @@ title: "Dual Certification"
 id: aphorisms/APH-FREF-0640-DCER
 parent: aphorisms
 status: published
-tags: ["aphorisms", "al-certification", "ntradiction-retention", "-valid", "chive-outcome"]
+tags: ["aphorisms", "dual-certification", "contradiction-retention", "co-valid", "archive-outcome"]
 ---
 
 # Dual Certification Aphorisms

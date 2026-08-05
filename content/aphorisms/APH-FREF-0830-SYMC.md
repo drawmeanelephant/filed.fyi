@@ -3,7 +3,7 @@ title: "Symbolic Completion"
 id: aphorisms/APH-FREF-0830-SYMC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "mbolic-completion", "osure", "gns", "stures"]
+tags: ["aphorisms", "symbolic-completion", "closure", "signs", "gestures"]
 ---
 
 # Symbolic Completion Aphorisms

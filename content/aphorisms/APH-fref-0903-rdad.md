@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive ARCHIVE_DOCKET (Structural Gap)"
 id: aphorisms/APH-FREF-0903-RDAD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Restoration Directive ARCHIVE_DOCKET (Structural Gap)

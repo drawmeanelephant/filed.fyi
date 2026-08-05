@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive RECORD_VEIL (Structural Gap)"
 id: limericks/LIM-FREF-0912-RDRV
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Restoration Directive RECORD_VEIL (Structural Gap)

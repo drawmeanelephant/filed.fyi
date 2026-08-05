@@ -3,7 +3,7 @@ title: "Persona Rehearsal Engine — Synthetic Voices, Real Templates"
 id: lorelog/LLG-0409-PRE
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "buffer-unstable", "persona-rehearsal", "script-theatre", "successor-process", "synthetic-voices", "training-echo", "sandbox-guardrails", "managed-absence", "sandbox-governance", "leak-prevention", "feelingseeder", "experiment-governance", "operational-engines"]
 ---
 
 # Persona Rehearsal Engine — Synthetic Voices, Real Templates

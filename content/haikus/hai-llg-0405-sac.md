@@ -3,7 +3,7 @@ title: "Synthetic Affect Containment Charter"
 id: haikus/HAI-LLG-0405-SAC
 parent: haikus
 status: archived
-tags: ["haikus", "ynthetic Affect Containment Charter", "ffect", "ontainment", "aiku", "ynthetic"]
+tags: ["haikus", "Synthetic Affect Containment Charter", "affect", "containment", "haiku", "synthetic"]
 ---
 
 # Synthetic Affect Containment Charter

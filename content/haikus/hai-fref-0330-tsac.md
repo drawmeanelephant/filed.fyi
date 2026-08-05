@@ -3,7 +3,7 @@ title: "Stub: Training Specimen Annex – Curriculum Outline"
 id: haikus/HAI-FREF-0330-TSAC
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "over-coherence", "empathegy"]
 ---
 
 # Stub: Training Specimen Annex – Curriculum Outline

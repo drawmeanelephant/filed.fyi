@@ -3,7 +3,7 @@ title: "Stub: Tri-Directive Doctrine & Collisions"
 id: aphorisms/APH-0097
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Tri-Directive Doctrine & Collisions

@@ -3,7 +3,7 @@ title: "Stub: Case Reciprocity and Alignment Report"
 id: haikus/HAI-0002
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Case Reciprocity and Alignment Report

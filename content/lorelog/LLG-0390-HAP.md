@@ -3,7 +3,7 @@ title: "Memorial Roll Expanded to Include Honorary Absences"
 id: lorelog/LLG-0390-HAP
 parent: lorelog
 status: published
-tags: ["lorelog", "morial-roll", "norary-absence", "apter-elections", "orum", "ocedural-esteem", "mmittee-softness", "mfort"]
+tags: ["lorelog", "memorial-roll", "honorary-absence", "chapter-elections", "quorum", "procedural-esteem", "committee-softness", "comfort"]
 ---
 
 # Memorial Roll Expanded to Include Honorary Absences

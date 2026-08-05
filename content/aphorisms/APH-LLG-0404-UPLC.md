@@ -3,7 +3,7 @@ title: "Unidentified Chromatographic Peak"
 id: aphorisms/APH-LLG-0404-UPLC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "lc", "ost-peak", "alytical-rot", "lidated-unknowns"]
+tags: ["aphorisms", "uplc", "hplc", "ghost-peak", "analytical-rot", "validated-unknowns"]
 ---
 
 # Chromatographic Peak Aphorisms

@@ -3,7 +3,7 @@ title: "Obsolescence Steward"
 id: haikus/HAI-0434
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "obsolescence", "managed-absence"]
 ---
 
 # Obsolescence Steward

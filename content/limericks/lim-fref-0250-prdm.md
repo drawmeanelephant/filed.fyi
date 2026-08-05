@@ -3,7 +3,7 @@ title: "Procession Route Dignity and Marshal Regalia Memorandum"
 id: limericks/LIM-FREF-0250-PRDM
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Procession Route Dignity and Marshal Regalia Memorandum

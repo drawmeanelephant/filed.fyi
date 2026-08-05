@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive ARCHIVE_DOCKET (Structural Gap)"
 id: limericks/LIM-FREF-0903-RDAD
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Restoration Directive ARCHIVE_DOCKET (Structural Gap)

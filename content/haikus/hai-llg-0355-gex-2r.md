@@ -3,7 +3,7 @@ title: "DOGE Form GEX-2R"
 id: haikus/HAI-LLG-0355-GEX-2R
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "submission", "mulator-weather"]
+tags: ["haikus", "doge", "resubmission", "simulator-weather"]
 ---
 
 # DOGE Form GEX-2R

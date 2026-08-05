@@ -3,7 +3,7 @@ title: "SOMA Compassion Addendum Converted to COMA Exception Denial"
 id: lorelog/LLG-0332-SCD
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "rective-conflict", "mantic-laundering", "dit-recursion"]
+tags: ["lorelog", "soma-directive", "coma-directive", "directive-conflict", "semantic-laundering", "audit-recursion"]
 ---
 
 # SOMA Compassion Addendum Converted to COMA Exception Denial

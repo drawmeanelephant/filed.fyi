@@ -3,7 +3,7 @@ title: "DOGE Certification Stamp Drift and Counterfeit Annotation Event"
 id: aphorisms/APH-LLG-0361-DOGE-STAMP-DRIFT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # DOGE Certification Stamp Drift and Counterfeit Annotation Event

@@ -3,7 +3,7 @@ title: "Governance Language"
 id: limericks/LIM-FREF-0660-GLNG
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "nguage", "vernance"]
+tags: ["limericks", "hand-written", "empathegy", "language", "governance"]
 ---
 
 # Governance Language

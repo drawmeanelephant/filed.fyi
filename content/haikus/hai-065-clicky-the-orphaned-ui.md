@@ -3,7 +3,7 @@ title: "Clicky the Orphaned UI"
 id: haikus/HAI-0065
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "icky", "phaned"]
+tags: ["haikus", "haiku", "clicky", "orphaned", "ui", "obsolescence", "managed-absence"]
 ---
 
 # Clicky the Orphaned UI

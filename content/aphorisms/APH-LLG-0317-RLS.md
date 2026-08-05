@@ -3,7 +3,7 @@ title: "Render Log Success Inflation"
 id: aphorisms/APH-LLG-0317-RLS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "u-n-t-i-e-r", "nder-logs", "ub-pages", "ccess-inflation", "ndy"]
+tags: ["aphorisms", "c-u-n-t-i-e-r", "render-logs", "stub-pages", "success-inflation", "kindy"]
 ---
 
 # Render Log Success Aphorisms

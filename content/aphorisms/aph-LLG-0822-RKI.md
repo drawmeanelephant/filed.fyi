@@ -3,7 +3,7 @@ title: "Stub: Rehearsed Kindness Inheritance"
 id: aphorisms/APH-LLG-0822-RKI
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Rehearsed Kindness Inheritance

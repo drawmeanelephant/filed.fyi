@@ -3,7 +3,7 @@ title: "DMAIC Rite of the Filed Systems"
 id: lorelog/LLG-0006
 parent: lorelog
 status: published
-tags: ["lorelog", "ntinuous-improvement", "tualized-governance", "ocess-litigation", "ma-ledger", "tric-rot"]
+tags: ["lorelog", "continuous-improvement", "ritualized-governance", "process-litigation", "soma-ledger", "metric-rot"]
 ---
 
 # DMAIC Rite of the Filed Systems

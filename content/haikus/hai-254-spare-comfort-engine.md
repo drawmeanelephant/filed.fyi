@@ -3,7 +3,7 @@ title: "Spare Comfort Engine"
 id: haikus/HAI-0254
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "mfort", "assurance", "gine"]
+tags: ["haikus", "haiku", "comfort", "reassurance", "engine", "auxiliary-care", "mechanical-reassurance", "empathy-failure"]
 ---
 
 # Spare Comfort Engine

@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive RECORD_VEIL (Structural Gap)"
 id: haikus/HAI-FREF-0912-RDRV
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Restoration Directive RECORD_VEIL (Structural Gap)

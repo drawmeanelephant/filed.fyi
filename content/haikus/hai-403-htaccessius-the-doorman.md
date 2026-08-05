@@ -3,7 +3,7 @@ title: "Stub: Htaccessius The Doorman"
 id: haikus/HAI-0403
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Htaccessius The Doorman

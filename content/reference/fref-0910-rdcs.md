@@ -3,7 +3,7 @@ title: "Restoration Directive CUSTODY_SHAFT (Structural Gap)"
 id: reference/FREF-0910-RDCS
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Restoration Directive: CUSTODY_SHAFT

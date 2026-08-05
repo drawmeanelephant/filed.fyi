@@ -3,7 +3,7 @@ title: "Reciprocal Accreditation Witness"
 id: aphorisms/APH-LLG-0383-RAW
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ciprocal-accreditation", "tness-mark", "al-dispute", "gitimacy-loop", "surance-language"]
+tags: ["aphorisms", "reciprocal-accreditation", "witness-mark", "seal-dispute", "legitimacy-loop", "assurance-language"]
 ---
 
 # Reciprocal Accreditation Aphorisms

@@ -3,7 +3,7 @@ title: "Witness Dispute"
 id: haikus/HAI-LLG-0383-RAW
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tness", "spute", "als"]
+tags: ["haikus", "haiku", "witness", "dispute", "seals", "empathegy"]
 ---
 
 # Witness Dispute

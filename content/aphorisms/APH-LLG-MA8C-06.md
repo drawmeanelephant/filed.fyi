@@ -3,7 +3,7 @@ title: "Council Session MA8C-06"
 id: aphorisms/APH-LLG-MA8C-0006
 parent: aphorisms
 status: published
-tags: ["aphorisms", "uncil-minutes", "uster-presence", "n-8c", "lf-indexing"]
+tags: ["aphorisms", "council-minutes", "cluster-presence", "bin-8c", "self-indexing"]
 ---
 
 # Council Session Aphorisms

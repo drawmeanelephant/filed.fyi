@@ -3,7 +3,7 @@ title: "The Second Domino"
 id: haikus/HAI-0424
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "mino", "pendency", "scade"]
+tags: ["haikus", "haiku", "domino", "dependency", "cascade", "dependency-cascade", "sequential-failure"]
 ---
 
 # The Second Domino

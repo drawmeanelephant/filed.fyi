@@ -3,7 +3,7 @@ title: "Winona Crashington"
 id: haikus/HAI-0037
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ndows-95", "ash", "stalgia"]
+tags: ["haikus", "haiku", "windows-95", "crash", "nostalgia", "nostalgic-dread", "system-crash", "legacy-decay"]
 ---
 
 # Winona Crashington

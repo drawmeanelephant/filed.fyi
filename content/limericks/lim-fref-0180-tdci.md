@@ -3,7 +3,7 @@ title: "TIME-Derived Concept Ingestion Pipeline – Last Known Good"
 id: limericks/LIM-FREF-0180-TDCI
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # TIME-Derived Concept Ingestion Pipeline – Last Known Good

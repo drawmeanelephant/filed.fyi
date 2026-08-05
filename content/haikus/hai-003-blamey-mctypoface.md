@@ -3,7 +3,7 @@ title: "Blamey McTypoface"
 id: haikus/HAI-0003
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ame-shift", "rcasm-buffer", "ult-routing"]
+tags: ["haikus", "haiku", "blame-shift", "sarcasm-buffer", "fault-routing"]
 ---
 
 # Blamey McTypoface

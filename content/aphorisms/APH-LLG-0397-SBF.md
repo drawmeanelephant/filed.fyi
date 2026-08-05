@@ -3,7 +3,7 @@ title: "Scholarship Breakfast Forecast"
 id: aphorisms/APH-LLG-0397-SBF
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ncake-breakfast", "holarship-fund", "recast-drift", "plied-approval", "vic-boosterism"]
+tags: ["aphorisms", "pancake-breakfast", "scholarship-fund", "forecast-drift", "implied-approval", "civic-boosterism"]
 ---
 
 # Scholarship Breakfast Aphorisms

@@ -3,7 +3,7 @@ title: "Sealant Patience"
 id: haikus/HAI-0249
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tience", "alant", "iting"]
+tags: ["haikus", "haiku", "patience", "sealant", "waiting", "delay", "governance"]
 ---
 
 # Sealant Patience

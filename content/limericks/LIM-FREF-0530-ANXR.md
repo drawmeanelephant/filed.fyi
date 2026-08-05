@@ -3,7 +3,7 @@ title: "Annex Recovery"
 id: limericks/LIM-FREF-0530-ANXR
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "nex", "covery"]
+tags: ["limericks", "hand-written", "empathegy", "annex", "recovery"]
 ---
 
 # Annex Recovery

@@ -3,7 +3,7 @@ title: "Empathegy Productization Spur"
 id: haikus/HAI-0055
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "pathegy", "pplements", "oductization"]
+tags: ["haikus", "haiku", "empathegy", "supplements", "productization", "empathegy-productization", "care-mascots"]
 ---
 
 # Empathegy Productization Spur

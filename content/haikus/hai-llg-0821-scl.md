@@ -3,7 +3,7 @@ title: "Service Continuity Listening Board"
 id: haikus/HAI-LLG-0821-SCL
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "lence", "stening-board", "ntinuity"]
+tags: ["haikus", "haiku", "silence", "listening-board", "continuity", "silent-intervals", "recoding"]
 ---
 
 # Service Continuity Listening Board

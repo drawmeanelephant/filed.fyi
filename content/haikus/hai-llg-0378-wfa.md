@@ -3,7 +3,7 @@ title: "Allocator Drift"
 id: haikus/HAI-LLG-0378-WFA
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "locator-anomaly", "eeding-program", "bot-labor", "chive-aligned"]
+tags: ["haikus", "haiku", "allocator-anomaly", "breeding-program", "robot-labor", "archive-aligned", "managed-absence"]
 ---
 
 # Allocator Drift

@@ -3,7 +3,7 @@ title: "Incident LORE-0819-K // Null-State Resonance in Compliance Badging"
 id: aphorisms/APH-LLG-0819-K
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Incident LORE-0819-K // Null-State Resonance in Compliance Badging

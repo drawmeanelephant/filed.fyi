@@ -3,7 +3,7 @@ title: "Courier Rat"
 id: haikus/HAI-0060
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "urier", "re", "d-tape"]
+tags: ["haikus", "haiku", "courier", "lore", "red-tape"]
 ---
 
 # Courier Rat

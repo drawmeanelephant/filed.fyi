@@ -3,7 +3,7 @@ title: "Assurance Artifacts"
 id: limericks/LIM-FREF-0560-ASAR
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "tifacts", "surance"]
+tags: ["limericks", "hand-written", "empathegy", "artifacts", "assurance"]
 ---
 
 # Assurance Artifacts

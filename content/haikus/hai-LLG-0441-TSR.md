@@ -3,7 +3,7 @@ title: "Stub: Trust Surface Retained Under Inherited Conditions"
 id: haikus/HAI-LLG-0441-TSR
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "trust-surface", "inherited-conditions"]
 ---
 
 # Stub: Trust Surface Retained Under Inherited Conditions

@@ -3,7 +3,7 @@ title: "Exoneration by Procedural Summary"
 id: lorelog/LLG-0890-EPS
 parent: lorelog
 status: published
-tags: ["lorelog", "nutes", "solution", "nute-compression", "oneration"]
+tags: ["lorelog", "minutes", "absolution", "minute-compression", "exoneration"]
 ---
 
 # Exoneration by Procedural Summary

@@ -3,7 +3,7 @@ title: "Council Session MA8C-06 Presence at Cluster Level"
 id: lorelog/LLG-MA8C-0006
 parent: lorelog
 status: published
-tags: ["lorelog", "uncil-minutes", "uster-presence", "n-8c", "lf-indexing", "hedule-contamination"]
+tags: ["lorelog", "council-minutes", "cluster-presence", "bin-8c", "self-indexing", "schedule-contamination"]
 ---
 
 # Council Session MA8C-06 Presence at Cluster Level

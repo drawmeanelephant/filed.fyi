@@ -3,7 +3,7 @@ title: "DOGE Refresh Interval Definition Dispute"
 id: aphorisms/APH-LLG-0357-DOGE-RID
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # DOGE Refresh Interval Definition Dispute

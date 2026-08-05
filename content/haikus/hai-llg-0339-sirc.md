@@ -3,7 +3,7 @@ title: "Silent Interval Review"
 id: haikus/HAI-LLG-0339-SIRC
 parent: haikus
 status: archived
-tags: ["haikus", "ma", "lence"]
+tags: ["haikus", "soma", "coma", "silence"]
 ---
 
 # Silent Interval Review

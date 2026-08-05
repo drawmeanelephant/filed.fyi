@@ -3,7 +3,7 @@ title: "Stub: Compliance Ledger ANNEX_CINDER (Baseline Check)"
 id: limericks/LIM-FREF-0908-CLAC
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Compliance Ledger ANNEX_CINDER (Baseline Check)

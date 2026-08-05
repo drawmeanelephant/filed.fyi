@@ -3,7 +3,7 @@ title: "Low-Confidence Object LC-22 Statement of Self-Esteem for Backups"
 id: limericks/LIM-LLG-0316-LC22
 parent: limericks
 status: archived
-tags: ["limericks", "ckup-rot", "w-confidence-object", "lf-reporting"]
+tags: ["limericks", "backup-rot", "low-confidence-object", "self-reporting"]
 ---
 
 # Low-Confidence Object LC-22 Statement of Self-Esteem for Backups

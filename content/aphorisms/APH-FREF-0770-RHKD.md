@@ -3,7 +3,7 @@ title: "Rehearsed Kindness"
 id: aphorisms/APH-FREF-0770-RHKD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "hearsed-kindness", "ripts", "ne-style", "verage"]
+tags: ["aphorisms", "rehearsed-kindness", "scripts", "tone-style", "leverage"]
 ---
 
 # Rehearsed Kindness Aphorisms

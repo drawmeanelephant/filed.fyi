@@ -3,7 +3,7 @@ title: "Metrics of Care"
 id: aphorisms/APH-FREF-0400-METR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Metrics of Care

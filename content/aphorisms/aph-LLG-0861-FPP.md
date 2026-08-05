@@ -3,7 +3,7 @@ title: "Friendship Preamble Proliferation"
 id: aphorisms/APH-LLG-0861-FPP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Friendship Preamble Proliferation

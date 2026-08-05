@@ -3,7 +3,7 @@ title: "Window 3 Notification Language Guidance"
 id: aphorisms/APH-LLG-0358-DOGE-W3
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Window 3 Notification Language Guidance

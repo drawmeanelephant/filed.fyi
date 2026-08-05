@@ -3,7 +3,7 @@ title: "Breeding Program Governance Vacuum, Council Memorandum"
 id: lorelog/LLG-0376-BREED-GOV
 parent: lorelog
 status: published
-tags: ["lorelog", "eeding-program", "licy-vacuum", "uncil-memorandum", "bot-labor", "lf-indexing", "stody-drift", "zardous-misfiling", "uster-presence", "fuge-classification", "bor-refusal", "atitude-alignment", "nsent-loop", "t-protocol"]
+tags: ["lorelog", "breeding-program", "policy-vacuum", "council-memorandum", "robot-labor", "self-indexing", "custody-drift", "hazardous-misfiling", "cluster-presence", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop"]
 ---
 
 # Breeding Program Governance Vacuum, Council Memorandum

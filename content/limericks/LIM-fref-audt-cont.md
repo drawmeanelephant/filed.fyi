@@ -3,7 +3,7 @@ title: "Stub: Restricted Cluster Containment Audit"
 id: limericks/LIM-0011
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Restricted Cluster Containment Audit

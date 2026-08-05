@@ -3,7 +3,7 @@ title: "Breeding Match Allocation"
 id: haikus/HAI-LLG-0380-MATCH
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "eeding-program", "tching", "ft-fail"]
+tags: ["haikus", "haiku", "breeding-program", "matching", "soft-fail", "managed-absence"]
 ---
 
 # Breeding Match Allocation

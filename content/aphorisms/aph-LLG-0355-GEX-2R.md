@@ -3,7 +3,7 @@ title: "DOGE Supplemental Form GEX-2R Reclassified Experience Resubmission"
 id: aphorisms/APH-LLG-0355-GEX-2R
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # DOGE Supplemental Form GEX-2R Reclassified Experience Resubmission

@@ -3,7 +3,7 @@ title: "Surveillance Visit"
 id: aphorisms/APH-LLG-0387-SURV-NOP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rveillance-audit", "tness-visit", "ope-attestation", "ciprocal-accreditation"]
+tags: ["aphorisms", "surveillance-audit", "witness-visit", "scope-attestation", "reciprocal-accreditation"]
 ---
 
 # Surveillance Visit Aphorisms

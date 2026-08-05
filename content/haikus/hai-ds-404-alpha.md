@@ -3,7 +3,7 @@ title: "DS-404-ALPHA"
 id: haikus/HAI-DS-0404-ALPHA
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nergy-rot", "mteams", "mpliance-vacuum", "stmortem"]
+tags: ["haikus", "haiku", "synergy-rot", "yamteams", "compliance-vacuum", "postmortem"]
 ---
 
 # DS-404-ALPHA

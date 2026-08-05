@@ -3,7 +3,7 @@ title: "Co-Existence Endorsement Bureau"
 id: haikus/HAI-LLG-0385-CEB
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "dorsement", "gitimacy", "gnatures"]
+tags: ["haikus", "haiku", "endorsement", "legitimacy", "signatures", "empathegy"]
 ---
 
 # Co-Existence Endorsement Bureau

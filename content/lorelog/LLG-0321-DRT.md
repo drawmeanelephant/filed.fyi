@@ -3,7 +3,7 @@ title: "Directive Routing Table Drift — SOMA Notifications Delivered to COMA"
 id: lorelog/LLG-0321-DRT
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "directive-routing", "navigation-failure", "appeal-loop", "legacy-support", "authority-gap", "broken-navigation", "consent-loop", "soma-directive"]
 ---
 
 # Directive Routing Table Drift — SOMA Notifications Delivered to COMA

@@ -3,7 +3,7 @@ title: "Training Specimen Annex – Curriculum Outline"
 id: limericks/LIM-FREF-0330-TSAC
 parent: limericks
 status: published
-tags: ["limericks", "aining-specimen", "rriculum-outline"]
+tags: ["limericks", "training-specimen", "curriculum-outline"]
 ---
 
 # Training Specimen Annex – Curriculum Outline

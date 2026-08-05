@@ -3,7 +3,7 @@ title: "Stub: Executive Annexation Strategy"
 id: haikus/HAI-LLG-0870-EAS
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "executive-annexation", "procedural-stub"]
 ---
 
 # Stub: Executive Annexation Strategy

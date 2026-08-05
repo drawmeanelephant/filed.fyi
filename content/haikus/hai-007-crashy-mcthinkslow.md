@@ -3,7 +3,7 @@ title: "Crashy McThinkslow"
 id: haikus/HAI-0007
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ocessing-rot", "finite-wait"]
+tags: ["haikus", "haiku", "processing-rot", "infinite-wait"]
 ---
 
 # Crashy McThinkslow

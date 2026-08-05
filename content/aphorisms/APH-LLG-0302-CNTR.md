@@ -3,7 +3,7 @@ title: "Benchmark Saturation"
 id: aphorisms/APH-LLG-0302-CNTR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "u-n-t-i-e-r", "nchmark-overflow", "trics-collapse", "ndy"]
+tags: ["aphorisms", "c-u-n-t-i-e-r", "benchmark-overflow", "metrics-collapse", "kindy"]
 ---
 
 # Benchmark Saturation Aphorisms

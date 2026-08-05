@@ -3,7 +3,7 @@ title: "Stub: Allocation Protocol INDEX_VAULT (Dense Overdrift)"
 id: limericks/LIM-FREF-0901-APIV
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Allocation Protocol INDEX_VAULT (Dense Overdrift)

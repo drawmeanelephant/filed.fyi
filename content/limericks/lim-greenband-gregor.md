@@ -3,7 +3,7 @@ title: "Greenband Gregor"
 id: limericks/LIM-0102
 parent: limericks
 status: archived
-tags: ["limericks", "ft-success-bands", "sual-safety", "stained-strain"]
+tags: ["limericks", "soft-success-bands", "visual-safety", "sustained-strain"]
 ---
 
 # Greenband Gregor

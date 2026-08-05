@@ -3,7 +3,7 @@ title: "Guacamole Gardener"
 id: haikus/HAI-0215
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "acamole", "ocado", "rator"]
+tags: ["haikus", "haiku", "guacamole", "avocado", "curator"]
 ---
 
 # Guacamole Gardener

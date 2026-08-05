@@ -3,7 +3,7 @@ title: "Witness Protocol"
 id: reference/FREF-0880-WPRT
 parent: reference
 status: published
-tags: ["reference", "pathegy", "tness", "otocol", "ntradiction", "tual"]
+tags: ["reference", "empathegy", "witness", "protocol", "contradiction", "ritual"]
 ---
 
 # Witness Protocol

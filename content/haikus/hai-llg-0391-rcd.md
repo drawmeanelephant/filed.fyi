@@ -3,7 +3,7 @@ title: "Ribbon Custody Dispute"
 id: haikus/HAI-LLG-0391-RCD
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "bbon", "stody", "dication"]
+tags: ["haikus", "haiku", "ribbon", "custody", "dedication"]
 ---
 
 # Ribbon Custody Dispute

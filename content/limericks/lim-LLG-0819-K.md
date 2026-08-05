@@ -3,7 +3,7 @@ title: "Incident LORE-0819-K // Null-State Resonance in Compliance Badging"
 id: limericks/LIM-LLG-0819-K
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # Incident LORE-0819-K // Null-State Resonance in Compliance Badging

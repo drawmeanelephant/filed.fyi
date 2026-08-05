@@ -3,7 +3,7 @@ title: "Allocation Protocol STACK_HUSH (Dense Overdrift)"
 id: reference/FREF-0913-APSH
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Allocation Protocol: STACK_HUSH

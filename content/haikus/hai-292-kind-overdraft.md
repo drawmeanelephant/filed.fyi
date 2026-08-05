@@ -3,7 +3,7 @@ title: "Kind Overdraft"
 id: haikus/HAI-0292
 parent: haikus
 status: archived
-tags: ["haikus", "ficit", "rmth", "erdraft"]
+tags: ["haikus", "deficit", "warmth", "overdraft"]
 ---
 
 # Kind Overdraft

@@ -3,7 +3,7 @@ title: "Active State Freshness Event"
 id: lorelog/LLG-0436-ASF
 parent: lorelog
 status: published
-tags: ["lorelog", "eue-theatre", "eshness-metrics", "assurance-surfaces", "naged-absence", "shboard-alignment"]
+tags: ["lorelog", "queue-theatre", "freshness-metrics", "reassurance-surfaces", "managed-absence", "dashboard-alignment", "operational-engines", "core-doctrines", "assurance-lexicon"]
 ---
 
 # Active State Freshness Event

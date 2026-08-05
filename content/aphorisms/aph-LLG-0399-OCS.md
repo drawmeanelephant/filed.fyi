@@ -3,7 +3,7 @@ title: "Assurance Drift Limericks"
 id: aphorisms/APH-LLG-0399-OCS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "mericks", "surance-language", "dit-rot", "tics"]
+tags: ["aphorisms", "limericks", "assurance-language", "audit-rot", "optics"]
 ---
 
 # Assurance Drift Aphorisms

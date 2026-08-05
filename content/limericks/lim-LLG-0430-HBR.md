@@ -3,7 +3,7 @@ title: "Historical Burden Refiled as Realism"
 id: limericks/LIM-LLG-0430-HBR
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence", "reaucracy"]
+tags: ["limericks", "managed-absence", "bureaucracy"]
 ---
 
 # Historical Burden Refiled as Realism

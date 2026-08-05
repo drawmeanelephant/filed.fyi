@@ -3,7 +3,7 @@ title: "Witness Lodge Inflation"
 id: lorelog/LLG-0857-WLI
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "witness-inflation", "delegated-warmth", "authority-gap", "care-theatre", "reassurance-load", "institutional-sympathy", "compliance-drift", "audit-grieving", "reciprocal-accreditation", "seal-dispute", "witness-lodge", "witness-mark"]
 ---
 
 # Witness Lodge Inflation

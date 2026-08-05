@@ -3,7 +3,7 @@ title: "Stub: Restoration Directive CATALOG_RELIC (Structural Gap)"
 id: aphorisms/APH-FREF-0904-RDCR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Restoration Directive CATALOG_RELIC (Structural Gap)

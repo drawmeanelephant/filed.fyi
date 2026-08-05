@@ -3,7 +3,7 @@ title: "Crustle the Legacy Coder"
 id: haikus/HAI-0218
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ples", "sset", "der"]
+tags: ["haikus", "haiku", "apples", "russet", "coder"]
 ---
 
 # Crustle the Legacy Coder

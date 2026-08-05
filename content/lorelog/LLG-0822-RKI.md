@@ -3,7 +3,7 @@ title: "Rehearsed Kindness Inheritance"
 id: lorelog/LLG-0822-RKI
 parent: lorelog
 status: published
-tags: ["lorelog", "pathegy", "hearsed-kindness", "aining-echo", "nthetic-affect", "oxy-compassion", "assurance", "legated-warmth", "re-without-power", "thority-gap"]
+tags: ["lorelog", "empathegy", "rehearsed-kindness", "training-echo", "synthetic-affect", "proxy-compassion", "reassurance", "delegated-warmth", "care-without-power", "authority-gap"]
 ---
 
 # Rehearsed Kindness Inheritance

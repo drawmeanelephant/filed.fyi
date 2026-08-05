@@ -3,7 +3,7 @@ title: "Trust Surface Explanation Layer Admitted as Teaching Specimen"
 id: aphorisms/APH-OCV-0409-TSC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Trust Surface Explanation Layer Admitted as Teaching Specimen

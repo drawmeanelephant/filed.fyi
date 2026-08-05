@@ -3,7 +3,7 @@ title: "Mascot Affairs Cluster Self-Designation"
 id: aphorisms/APH-LLG-SYS-0008-REINDEX-0002
 parent: aphorisms
 status: published
-tags: ["aphorisms", "indexing", "uster-health", "lf-referential", "n-8c", "ppy-clerk"]
+tags: ["aphorisms", "reindexing", "cluster-health", "self-referential", "bin-8c", "peppy-clerk"]
 ---
 
 # Cluster Self-Designation Aphorisms

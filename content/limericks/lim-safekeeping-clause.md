@@ -3,7 +3,7 @@ title: "Safekeeping Clause"
 id: limericks/LIM-0188
 parent: limericks
 status: published
-tags: ["limericks", "nditional-lock", "econdition", "tness", "ncurrency"]
+tags: ["limericks", "conditional-lock", "precondition", "witness", "concurrency"]
 ---
 
 # Safekeeping Clause

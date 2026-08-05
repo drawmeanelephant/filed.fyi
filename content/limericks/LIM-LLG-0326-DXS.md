@@ -3,7 +3,7 @@ title: "Directive Cross-Sections"
 id: limericks/LIM-LLG-0326-DXS
 parent: limericks
 status: archived
-tags: ["limericks", "rective-conflict", "ma-coma", "st-vs-uptime"]
+tags: ["limericks", "directive-conflict", "soma-coma", "rest-vs-uptime"]
 ---
 
 # Directive Cross-Sections

@@ -3,7 +3,7 @@ title: "Cross-Directive Emotional Evidence Weighting Table"
 id: aphorisms/APH-LLG-0370-XEV
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Cross-Directive Emotional Evidence Weighting Table

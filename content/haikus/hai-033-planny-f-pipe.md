@@ -3,7 +3,7 @@ title: "Planny F. PipeMD"
 id: haikus/HAI-0033
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "an9", "pes", "twork"]
+tags: ["haikus", "haiku", "plan9", "pipes", "network", "network-streams", "seamless-flow", "legacy-systems"]
 ---
 
 # Planny F. PipeMD

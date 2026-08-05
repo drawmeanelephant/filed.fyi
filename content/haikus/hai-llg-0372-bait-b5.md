@@ -3,7 +3,7 @@ title: "Mirror Outrage"
 id: haikus/HAI-LLG-0372-BAIT-B5
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "it", "trage", "rror"]
+tags: ["haikus", "haiku", "bait", "outrage", "mirror", "managed-absence"]
 ---
 
 # Mirror Outrage

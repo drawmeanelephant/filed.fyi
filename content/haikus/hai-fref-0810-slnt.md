@@ -3,7 +3,7 @@ title: "Silent Intervals"
 id: haikus/HAI-FREF-0810-SLNT
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "silent-intervals", "filing-avoidance"]
 ---
 
 # Silent Intervals

@@ -3,7 +3,7 @@ title: "Servicey Unavailabelle"
 id: haikus/HAI-0503
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rvicey", "available", "wntime"]
+tags: ["haikus", "haiku", "servicey", "unavailable", "downtime", "empathegy", "managed-absence"]
 ---
 
 # Servicey Unavailabelle

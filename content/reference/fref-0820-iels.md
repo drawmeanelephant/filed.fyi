@@ -3,7 +3,7 @@ title: "Institutional Explanation Layer Stabilization"
 id: reference/FREF-0820-IELS
 parent: reference
 status: published
-tags: ["reference", "surance", "planation-layer", "ntradiction-handling", "ntinuity-optics", "naged-absence"]
+tags: ["reference", "assurance", "explanation-layer", "contradiction-handling", "continuity-optics", "managed-absence"]
 ---
 
 # Institutional Explanation Layer Stabilization

@@ -3,7 +3,7 @@ title: "Internal Memo, Autonomous Systems Regarding Archive-Aligned Entities"
 id: lorelog/LLG-0379-ROBOT-MEMO
 parent: lorelog
 status: published
-tags: ["lorelog", "re-coverage", "trics-of-care", "knowledgment-density", "ilure-signature", "bot-memo", "eeding-program", "hics-patch", "chive-jurisdiction"]
+tags: ["lorelog", "care-coverage", "metrics-of-care", "acknowledgment-density", "failure-signature", "robot-memo", "breeding-program", "ethics-patch", "archive-jurisdiction"]
 ---
 
 # Internal Memo, Autonomous Systems Regarding Archive-Aligned Entities

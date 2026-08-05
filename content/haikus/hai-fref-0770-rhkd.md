@@ -3,7 +3,7 @@ title: "Rehearsed Kindness"
 id: haikus/HAI-FREF-0770-RHKD
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "rehearsed-kindness", "synthetic-relief"]
 ---
 
 # Rehearsed Kindness

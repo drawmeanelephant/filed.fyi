@@ -3,7 +3,7 @@ title: "Stub: Allocation Protocol REGISTRY_FOG (Dense Overdrift)"
 id: limericks/LIM-FREF-0907-APRF
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Allocation Protocol REGISTRY_FOG (Dense Overdrift)

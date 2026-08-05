@@ -3,7 +3,7 @@ title: "Sandbox Scope Creep"
 id: aphorisms/APH-LLG-0407-SSP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ndbox-scope-creep", "periment-governance", "ntinuity-theatre", "nchmarks", "aining-echo"]
+tags: ["aphorisms", "sandbox-scope-creep", "experiment-governance", "continuity-theatre", "benchmarks", "training-echo"]
 ---
 
 # Scope Creep Aphorisms

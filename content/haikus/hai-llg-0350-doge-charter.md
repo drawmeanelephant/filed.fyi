@@ -3,7 +3,7 @@ title: "DOGE Charter"
 id: haikus/HAI-LLG-0350-DOGE-CHARTER
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "arter", "nuine"]
+tags: ["haikus", "doge", "charter", "genuine"]
 ---
 
 # DOGE Charter

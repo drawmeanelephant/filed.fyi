@@ -3,7 +3,7 @@ title: "BAIT Subtype B-2A"
 id: haikus/HAI-LLG-0365-BAIT-B2A
 parent: haikus
 status: archived
-tags: ["haikus", "it", "calation", "plies"]
+tags: ["haikus", "bait", "escalation", "replies"]
 ---
 
 # BAIT Subtype B-2A

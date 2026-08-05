@@ -3,7 +3,7 @@ title: "Form 12-A"
 id: haikus/HAI-LLG-0012-A
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rm-12-a", "ontmatter", "entity-rot", "stmortem"]
+tags: ["haikus", "haiku", "form-12-a", "frontmatter", "identity-rot", "postmortem", "identity-drift", "canonical-naming", "frontmatter-rot"]
 ---
 
 # Form 12-A

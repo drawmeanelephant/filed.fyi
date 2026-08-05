@@ -3,7 +3,7 @@ title: "SOMA-14 Over-Feeling Intake Questionnaire"
 id: lorelog/LLG-0114-SOMA
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "otion-overflow", "xonomy-failure", "take-form", "eling-proliferation"]
+tags: ["lorelog", "soma-directive", "emotion-overflow", "taxonomy-failure", "intake-form", "feeling-proliferation"]
 ---
 
 # SOMA-14 Over-Feeling Intake Questionnaire

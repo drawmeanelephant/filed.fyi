@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Term Layer, Trust Surface Events"
 id: limericks/LIM-FREF-0821-AVTL
 parent: limericks
 status: published
-tags: ["limericks", "surance", "cabulary-term-layer", "ust-surface"]
+tags: ["limericks", "assurance", "vocabulary-term-layer", "trust-surface"]
 ---
 
 # Assurance Vocabulary Term Layer, Trust Surface Events

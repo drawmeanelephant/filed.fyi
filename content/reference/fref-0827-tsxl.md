@@ -3,7 +3,7 @@ title: "Trust Surface Crosslinks"
 id: reference/FREF-0827-TSXL
 parent: reference
 status: archived
-tags: ["reference", "ference", "osslinks", "ust-surface", "ctrine-adjacency"]
+tags: ["reference", "crosslinks", "trust-surface", "doctrine-adjacency"]
 ---
 
 # Trust Surface Crosslinks

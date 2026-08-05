@@ -3,7 +3,7 @@ title: "Scopekeeper Emeritus"
 id: haikus/HAI-0306
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ope", "dit", "undary"]
+tags: ["haikus", "haiku", "scope", "audit", "boundary"]
 ---
 
 # Scopekeeper Emeritus

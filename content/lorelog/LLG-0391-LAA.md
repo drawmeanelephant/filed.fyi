@@ -3,7 +3,7 @@ title: "Luncheon Assent Authorization Drift"
 id: lorelog/LLG-0391-LAA
 parent: lorelog
 status: published
-tags: ["lorelog", "ncheon-assent", "plied-approval", "vic-boosterism", "ants-drift", "ocedural-warmth"]
+tags: ["lorelog", "luncheon-assent", "implied-approval", "civic-boosterism", "grants-drift", "procedural-warmth"]
 ---
 
 # Luncheon Assent Authorization Drift

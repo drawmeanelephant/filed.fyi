@@ -3,7 +3,7 @@ title: "BAIT Subtype B-2A Reply Surface Escalation Pattern"
 id: lorelog/LLG-0365-BAIT-B2A
 parent: lorelog
 status: published
-tags: ["lorelog", "remonial-routing", "it", "ply-surface", "calation", "gagement-yield", "gertainment"]
+tags: ["lorelog", "ceremonial-routing", "bait", "reply-surface", "escalation", "engagement-yield", "angertainment", "classifications"]
 ---
 
 # BAIT Subtype B-2A Reply Surface Escalation Pattern

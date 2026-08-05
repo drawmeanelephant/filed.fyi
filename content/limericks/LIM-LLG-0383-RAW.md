@@ -3,7 +3,7 @@ title: "LLG-0383-RAW"
 id: limericks/LIM-LLG-0383-RAW
 parent: limericks
 status: archived
-tags: ["limericks", "creditation", "tness-mark", "reaucracy"]
+tags: ["limericks", "accreditation", "witness-mark", "bureaucracy"]
 ---
 
 # LLG-0383-RAW

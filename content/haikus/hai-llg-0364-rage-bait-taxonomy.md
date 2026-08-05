@@ -3,7 +3,7 @@ title: "BAIT Taxonomy"
 id: haikus/HAI-LLG-0364-RAGE-BAIT-TAXONOMY
 parent: haikus
 status: archived
-tags: ["haikus", "it", "xonomy", "ge"]
+tags: ["haikus", "bait", "taxonomy", "rage"]
 ---
 
 # BAIT Taxonomy

@@ -3,7 +3,7 @@ title: "Stub: Restricted Cluster Containment Audit"
 id: haikus/HAI-0022
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Restricted Cluster Containment Audit

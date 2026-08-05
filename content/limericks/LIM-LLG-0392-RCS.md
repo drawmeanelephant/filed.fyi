@@ -3,7 +3,7 @@ title: "Commemorative Ribbon Custody Schism"
 id: limericks/LIM-LLG-0392-RCS
 parent: limericks
 status: archived
-tags: ["limericks", "bbon-custody", "tifact-identity", "oto-proof"]
+tags: ["limericks", "ribbon-custody", "artifact-identity", "photo-proof"]
 ---
 
 # Commemorative Ribbon Custody Schism

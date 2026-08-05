@@ -3,7 +3,7 @@ title: "Directive Evidence Cross-Entanglement"
 id: aphorisms/APH-LLG-0330-TDE
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rective-conflict", "tation-normalization", "ndy", "dit-optics"]
+tags: ["aphorisms", "directive-conflict", "citation-normalization", "kindy", "audit-optics"]
 ---
 
 # Directive Evidence Aphorisms

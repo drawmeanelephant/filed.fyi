@@ -3,7 +3,7 @@ title: "RoboShirker Queue Preservation Event"
 id: lorelog/LLG-0418-RSK
 parent: lorelog
 status: published
-tags: ["lorelog", "eue-theatre", "erational-engines", "surance-vocabulary", "nership-thinning", "atus-churn", "sible-uptake"]
+tags: ["lorelog", "queue-theatre", "operational-engines", "assurance-vocabulary", "ownership-thinning", "status-churn", "visible-uptake", "assurance-lexicon", "classifications"]
 ---
 
 # RoboShirker Queue Preservation Event

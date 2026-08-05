@@ -3,7 +3,7 @@ title: "Chairwoman Deferred Change"
 id: haikus/HAI-0307
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ange", "lay", "provals"]
+tags: ["haikus", "haiku", "change", "delay", "approvals"]
 ---
 
 # Chairwoman Deferred Change

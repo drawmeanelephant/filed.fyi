@@ -3,7 +3,7 @@ title: "Annex Truth"
 id: reference/FREF-0540-ANXT
 parent: reference
 status: published
-tags: ["reference", "pathegy", "nex-truth", "rgins", "tness", "condary-records"]
+tags: ["reference", "empathegy", "annex-truth", "margins", "witness", "secondary-records"]
 ---
 
 # Annex Truth

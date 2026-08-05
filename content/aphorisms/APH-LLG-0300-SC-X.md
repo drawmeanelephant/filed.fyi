@@ -3,7 +3,7 @@ title: "SOMA–COMA Conflict"
 id: aphorisms/APH-LLG-0300-SC-X
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "rective-conflict", "ndy"]
+tags: ["aphorisms", "soma-directive", "coma-directive", "directive-conflict", "kindy"]
 ---
 
 # Cross-Directive Conflict Aphorisms

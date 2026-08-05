@@ -3,7 +3,7 @@ title: "Forms Registry Keyspace Collision"
 id: aphorisms/APH-LLG-0320-FRK
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rms-registry", "yspace-collision", "biguous-intent", "ndy"]
+tags: ["aphorisms", "forms-registry", "keyspace-collision", "ambiguous-intent", "kindy"]
 ---
 
 # Forms Keyspace Collision Aphorisms

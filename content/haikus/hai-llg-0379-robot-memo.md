@@ -3,7 +3,7 @@ title: "Robot Memo"
 id: haikus/HAI-LLG-0379-ROBOT-MEMO
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "bot-memo", "chive-aligned", "tonomous-systems", "eeding-program"]
+tags: ["haikus", "haiku", "robot-memo", "archive-aligned", "autonomous-systems", "breeding-program", "managed-absence"]
 ---
 
 # Robot Memo

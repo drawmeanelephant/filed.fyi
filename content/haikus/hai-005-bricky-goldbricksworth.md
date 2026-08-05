@@ -3,7 +3,7 @@ title: "Bricky Goldbricksworth"
 id: haikus/HAI-0005
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "mpliance", "reaucracy", "ne-kernel"]
+tags: ["haikus", "haiku", "compliance", "bureaucracy", "tone-kernel"]
 ---
 
 # Bricky Goldbricksworth

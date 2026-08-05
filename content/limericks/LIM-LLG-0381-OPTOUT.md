@@ -3,7 +3,7 @@ title: "Breeding Program Opt-Out"
 id: limericks/LIM-LLG-0381-OPTOUT
 parent: limericks
 status: archived
-tags: ["limericks", "eeding-program", "t-out", "nsent-loop"]
+tags: ["limericks", "breeding-program", "opt-out", "consent-loop"]
 ---
 
 # Breeding Program Opt-Out

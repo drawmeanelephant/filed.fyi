@@ -3,7 +3,7 @@ title: "Empathegy Aesthetic Survival"
 id: aphorisms/APH-FREF-0430-EASP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "pathegy", "sthetic-survival", "estige-copying", "gibility"]
+tags: ["aphorisms", "empathegy", "aesthetic-survival", "prestige-copying", "legibility"]
 ---
 
 # Aesthetic Survival Aphorisms

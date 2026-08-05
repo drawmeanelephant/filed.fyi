@@ -3,7 +3,7 @@ title: "Form 51-E Meta-Feeling Exclusion Clarification"
 id: lorelog/LLG-0052-MFX
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "otional-verification", "ta-feelings", "ope-creep", "ternal-memo-lore"]
+tags: ["lorelog", "soma-directive", "emotional-verification", "meta-feelings", "scope-creep", "internal-memo-lore"]
 ---
 
 # Form 51-E Meta-Feeling Exclusion Clarification

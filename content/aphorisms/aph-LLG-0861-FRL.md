@@ -3,7 +3,7 @@ title: "False Rest Lantern Review"
 id: aphorisms/APH-LLG-0861-FRL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # False Rest Lantern Review

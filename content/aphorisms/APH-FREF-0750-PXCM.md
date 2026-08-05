@@ -3,7 +3,7 @@ title: "Proxy Compassion"
 id: aphorisms/APH-FREF-0750-PXCM
 parent: aphorisms
 status: published
-tags: ["aphorisms", "oxy-compassion", "terface-warmth", "verage", "nderness"]
+tags: ["aphorisms", "proxy-compassion", "interface-warmth", "leverage", "tenderness"]
 ---
 
 # Proxy Compassion Aphorisms

@@ -3,7 +3,7 @@ title: "Melody Errorflood"
 id: haikus/HAI-0031
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "di", "tifications", "und"]
+tags: ["haikus", "haiku", "midi", "notifications", "sound", "notification-dread", "sound-drivers", "error-chorus"]
 ---
 
 # Melody Errorflood

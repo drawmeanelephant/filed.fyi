@@ -3,7 +3,7 @@ title: "SOP Amnesia Cascade"
 id: aphorisms/APH-LLG-0401-GLP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "p", "p-rot", "lf-referential-compliance", "w-data-recursion"]
+tags: ["aphorisms", "glp", "sop-rot", "self-referential-compliance", "raw-data-recursion"]
 ---
 
 # SOP Amnesia Aphorisms

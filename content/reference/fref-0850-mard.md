@@ -3,7 +3,7 @@ title: "Mascot Review Workflow & Doctrinal Refinement Strategy"
 id: reference/FREF-0850-MARD
 parent: reference
 status: published
-tags: ["reference", "scot-assurance", "undary-audit", "ilure-signature", "jacent-correctness", "vorable-beige"]
+tags: ["reference", "mascot-assurance", "boundary-audit", "failure-signature", "adjacent-correctness", "favorable-beige"]
 ---
 
 # MEMORANDUM

@@ -3,7 +3,7 @@ title: "Reassurance Collapse"
 id: haikus/HAI-FREF-0760-RSCL
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "benevolence", "reassurance-collapse", "optical-compliance"]
 ---
 
 # Reassurance Collapse

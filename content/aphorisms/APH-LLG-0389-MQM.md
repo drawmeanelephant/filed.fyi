@@ -3,7 +3,7 @@ title: "Memorial Quorum Miscount"
 id: aphorisms/APH-LLG-0389-MQM
 parent: aphorisms
 status: published
-tags: ["aphorisms", "morial-quorum", "teem-presence", "tendance-rot", "vic-benevolence", "reshold-drift"]
+tags: ["aphorisms", "memorial-quorum", "esteem-presence", "attendance-rot", "civic-benevolence", "threshold-drift"]
 ---
 
 # Memorial Quorum Miscount Aphorisms

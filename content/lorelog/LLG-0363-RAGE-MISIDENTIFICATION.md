@@ -3,7 +3,7 @@ title: "RAGE Misidentification — When Local Anger Mimics RAGE"
 id: lorelog/LLG-0363-RAGE-MISIDENTIFICATION
 parent: lorelog
 status: published
-tags: ["lorelog", "ge", "sidentification", "lse-classification", "ntested"]
+tags: ["lorelog", "rage", "misidentification", "doge", "false-classification", "contested"]
 ---
 
 # RAGE Misidentification — When Local Anger Mimics RAGE

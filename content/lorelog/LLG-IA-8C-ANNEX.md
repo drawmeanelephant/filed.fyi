@@ -3,7 +3,7 @@ title: "Bin 8C Reindexing Annex: Self-Indexing and Containment Practices"
 id: lorelog/LLG-0008
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "annex", "burden-shadow", "LLG-IA-8C-DRIFT-01", "LLG-IA-8C-DRIFT-02", "LLG-SYS-8-REINDEX-01", "LLG-SYS-8-REINDEX-02", "LLG-MA-8C-PEPPY-01", "bin-8c", "self-indexing", "containment", "secondary-truth", "hover-state"]
 ---
 
 # Bin 8C Reindexing Annex: Self-Indexing and Containment Practices

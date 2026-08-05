@@ -3,7 +3,7 @@ title: "Stub: Annex Retention Conscience Event"
 id: aphorisms/APH-LLG-0861-ARC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub", "horisms"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Annex Retention Conscience Event

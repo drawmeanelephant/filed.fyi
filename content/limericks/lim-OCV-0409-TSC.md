@@ -3,7 +3,7 @@ title: "Trust Surface Explanation Layer Admitted as Teaching Specimen"
 id: limericks/LIM-OCV-0409-TSC
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # Trust Surface Explanation Layer Admitted as Teaching Specimen

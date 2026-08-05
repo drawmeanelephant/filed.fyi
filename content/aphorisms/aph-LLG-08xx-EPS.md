@@ -3,7 +3,7 @@ title: "Empathegy Productization Spur"
 id: aphorisms/APH-0098
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Empathegy Productization Spur

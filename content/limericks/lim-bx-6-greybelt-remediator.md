@@ -3,7 +3,7 @@ title: "BX-6 Greybelt Remediator"
 id: limericks/LIM-BX-0006-GREYBELT-REMEDIATOR
 parent: limericks
 status: archived
-tags: ["limericks", "x-sigma", "seline-theatre", "trics"]
+tags: ["limericks", "six-sigma", "baseline-theatre", "metrics"]
 ---
 
 # BX-6 Greybelt Remediator

@@ -3,7 +3,7 @@ title: "Breeding Program Opt-Out"
 id: aphorisms/APH-LLG-0381-OPTOUT
 parent: aphorisms
 status: published
-tags: ["aphorisms", "eeding-program", "nsent-loop", "t-out-failure", "chival-persistence", "fuge-ethics"]
+tags: ["aphorisms", "breeding-program", "consent-loop", "opt-out-failure", "archival-persistence", "refuge-ethics"]
 ---
 
 # Breeding Program Opt-Out Aphorisms

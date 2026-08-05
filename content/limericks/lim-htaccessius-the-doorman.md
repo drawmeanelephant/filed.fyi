@@ -3,7 +3,7 @@ title: "Htaccessius The Doorman"
 id: limericks/LIM-0109
 parent: limericks
 status: archived
-tags: ["limericks", "access", "ache", "cess-control", "tekeeper", "rective"]
+tags: ["limericks", "htaccess", "apache", "access-control", "gatekeeper", "directive"]
 ---
 
 # Htaccessius The Doorman

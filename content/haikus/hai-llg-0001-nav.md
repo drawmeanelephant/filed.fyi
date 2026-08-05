@@ -3,7 +3,7 @@ title: "Navigation Collapse"
 id: haikus/HAI-LLG-0001-NAV
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "oken-navigation", "chor-loop", "ute-rot", "stmortem"]
+tags: ["haikus", "haiku", "broken-navigation", "anchor-loop", "route-rot", "postmortem", "procedural-air"]
 ---
 
 # Navigation Collapse

@@ -3,7 +3,7 @@ title: "Pocket Consensus"
 id: haikus/HAI-0258
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nsensus", "reement", "cal"]
+tags: ["haikus", "haiku", "consensus", "agreement", "local", "informal-consensus", "scale-injury", "committee-bypass"]
 ---
 
 # Pocket Consensus

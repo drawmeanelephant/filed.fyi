@@ -3,7 +3,7 @@ title: "Diesel DKDriller"
 id: haikus/HAI-0206
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "l", "kansas", "esel"]
+tags: ["haikus", "haiku", "oil", "arkansas", "diesel"]
 ---
 
 # Diesel DKDriller

@@ -3,7 +3,7 @@ title: "Stub: Incident LORE-0411-RRC // Reciprocal Recognition Continuity Loop"
 id: haikus/HAI-LLG-0411-RRC
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "recognition", "continuity-loop"]
 ---
 
 # Stub: Incident LORE-0411-RRC // Reciprocal Recognition Continuity Loop

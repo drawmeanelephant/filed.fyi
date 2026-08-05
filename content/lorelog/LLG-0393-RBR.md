@@ -3,7 +3,7 @@ title: "Resolution Banner Reinstated as Standing Policy After Basement Recovery"
 id: lorelog/LLG-0393-RBR
 parent: lorelog
 status: published
-tags: ["lorelog", "anding-resolution", "covered-banner", "xiliary-memory", "remonial-policy", "nor-hall"]
+tags: ["lorelog", "standing-resolution", "recovered-banner", "auxiliary-memory", "ceremonial-policy", "honor-hall"]
 ---
 
 # Resolution Banner Reinstated as Standing Policy After Basement Recovery

@@ -3,7 +3,7 @@ title: "LLG-0311-SRA"
 id: limericks/LIM-LLG-0311-SRA
 parent: limericks
 status: archived
-tags: ["limericks", "st-appeal", "ma", "trics", "rnout"]
+tags: ["limericks", "rest-appeal", "soma", "metrics", "burnout"]
 ---
 
 # LLG-0311-SRA

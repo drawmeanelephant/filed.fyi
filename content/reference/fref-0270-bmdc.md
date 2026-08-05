@@ -3,7 +3,7 @@ title: "Benevolence Metrics Calibration Session – Noon Room Review"
 id: reference/FREF-0270-BMDC
 parent: reference
 status: archived
-tags: ["reference", "ncheon-assent", "norary-absence", "ncake-breakfast", "shboard-bands", "nevolence-metrics"]
+tags: ["reference", "luncheon-assent", "honorary-absence", "pancake-breakfast", "dashboard-bands", "benevolence-metrics"]
 ---
 
 # Room

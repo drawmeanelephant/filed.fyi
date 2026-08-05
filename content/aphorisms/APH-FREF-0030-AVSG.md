@@ -3,7 +3,7 @@ title: "Assurance Vocabulary Desk – Style Guide"
 id: aphorisms/APH-FREF-0030-AVSG
 parent: aphorisms
 status: published
-tags: ["aphorisms", "surance-vocabulary", "dit-optics", "rminology-drift"]
+tags: ["aphorisms", "assurance-vocabulary", "audit-optics", "terminology-drift"]
 ---
 
 # Assurance Vocabulary Style Aphorisms

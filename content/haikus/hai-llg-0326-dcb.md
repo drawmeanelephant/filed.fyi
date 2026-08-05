@@ -3,7 +3,7 @@ title: "Citation Bleed"
 id: haikus/HAI-LLG-0326-DCB
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rective-bleed", "ma-coma", "tation-rot", "oss-contamination"]
+tags: ["haikus", "haiku", "directive-bleed", "soma-coma", "citation-rot", "cross-contamination"]
 ---
 
 # Citation Bleed

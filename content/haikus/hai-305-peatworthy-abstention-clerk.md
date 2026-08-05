@@ -3,7 +3,7 @@ title: "Peatworthy Abstention Clerk"
 id: haikus/HAI-0305
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "orum", "morial", "erk"]
+tags: ["haikus", "haiku", "quorum", "memorial", "clerk"]
 ---
 
 # Peatworthy Abstention Clerk

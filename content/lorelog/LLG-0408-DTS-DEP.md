@@ -3,7 +3,7 @@ title: "Incident LORE-0408-DTS-DEP // Spontaneous Trust Surface Amplification"
 id: lorelog/LLG-0408-DTS-DEP
 parent: lorelog
 status: published
-tags: ["lorelog", "corative-trust", "ust-surface", "rification-collapse", "it-adjacent", "surance-optics", "sidual-truth", "naged-absence", "ministratively-retired", "chivally-asserted", "ilure-signature", "nceptually-active", "ntinuity-optics", "herited-basis", "scot-candidacy", "sidual-authority", "ntinuity-seal"]
+tags: ["lorelog", "decorative-trust", "trust-surface", "verification-collapse", "bait-adjacent", "assurance-optics", "residual-truth", "managed-absence", "administratively-retired", "archivally-asserted", "failure-signature", "conceptually-active", "continuity-optics"]
 ---
 
 # Incident LORE-0408-DTS-DEP // Spontaneous Trust Surface Amplification

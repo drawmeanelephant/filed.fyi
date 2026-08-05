@@ -3,7 +3,7 @@ title: "Vexsys Antagon"
 id: haikus/HAI-0067
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tagonist", "botage", "srouting"]
+tags: ["haikus", "haiku", "antagonist", "sabotage", "misrouting"]
 ---
 
 # Vexsys Antagon

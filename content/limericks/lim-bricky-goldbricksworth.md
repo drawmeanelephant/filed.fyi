@@ -3,7 +3,7 @@ title: "Bricky Goldbricksworth"
 id: limericks/LIM-0049
 parent: limericks
 status: archived
-tags: ["limericks", "reaucracy", "mpliance", "ne-kernel", "lden-brick"]
+tags: ["limericks", "bureaucracy", "compliance", "tone-kernel", "golden-brick"]
 ---
 
 # Bricky Goldbricksworth

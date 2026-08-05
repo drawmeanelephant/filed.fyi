@@ -3,7 +3,7 @@ title: "Recital of Sufficiency"
 id: haikus/HAI-0289
 parent: haikus
 status: archived
-tags: ["haikus", "cital", "remony", "fficiency"]
+tags: ["haikus", "recital", "ceremony", "sufficiency"]
 ---
 
 # Recital of Sufficiency

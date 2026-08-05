@@ -3,7 +3,7 @@ title: "Htaccessius The Doorman"
 id: haikus/HAI-0013
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "cess-control", "nial", "tekeeper"]
+tags: ["haikus", "haiku", "access-control", "denial", "gatekeeper", "protocol-refusal", "recursive-denial"]
 ---
 
 # Htaccessius The Doorman

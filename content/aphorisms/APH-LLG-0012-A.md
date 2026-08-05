@@ -3,7 +3,7 @@ title: "Form 12-A Identity Frontmatter Misalignment"
 id: aphorisms/APH-LLG-0012-A
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ontmatter", "entity-mismatch", "rms-registry", "nonicalization"]
+tags: ["aphorisms", "frontmatter", "identity-mismatch", "forms-registry", "canonicalization"]
 ---
 
 # Form 12-A Identity Aphorisms

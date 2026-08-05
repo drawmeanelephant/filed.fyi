@@ -3,7 +3,7 @@ title: "LORELOG BACKFEED PROTOCOL (LBP-01)"
 id: aphorisms/APH-FREF-0380-LBKP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ckfeed-protocol", "ructural-mutation", "tropy-to-canon", "icky"]
+tags: ["aphorisms", "backfeed-protocol", "structural-mutation", "entropy-to-canon", "bricky"]
 ---
 
 # Backfeed Protocol Aphorisms

@@ -3,7 +3,7 @@ title: "Wrong Door Finch"
 id: haikus/HAI-0421
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nch", "rival", "sdirected"]
+tags: ["haikus", "haiku", "finch", "arrival", "misdirected", "misdirected-arrival", "faithful-mistake"]
 ---
 
 # Wrong Door Finch

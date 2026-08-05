@@ -3,7 +3,7 @@ title: "Annex Recovery"
 id: reference/FREF-0530-ANXR
 parent: reference
 status: published
-tags: ["reference", "pathegy", "nex", "covery", "sidue", "relog"]
+tags: ["reference", "empathegy", "annex", "recovery", "residue", "lorelog"]
 ---
 
 # Annex Recovery

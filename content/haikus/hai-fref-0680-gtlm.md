@@ -3,7 +3,7 @@ title: "Gratitude Telemetry"
 id: haikus/HAI-FREF-0680-GTLM
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "telemetry", "gratitude", "confusion"]
 ---
 
 # Gratitude Telemetry

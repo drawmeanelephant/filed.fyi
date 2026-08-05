@@ -3,7 +3,7 @@ title: "Directive Cross-Sections"
 id: aphorisms/APH-LLG-0326-DXS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "u-n-t-i-e-r", "rective-conflict", "st-vs-uptime"]
+tags: ["aphorisms", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "directive-conflict", "rest-vs-uptime"]
 ---
 
 # Directive Cross-Section Aphorisms

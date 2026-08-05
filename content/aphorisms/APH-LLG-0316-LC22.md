@@ -3,7 +3,7 @@ title: "Statement of Self-Esteem for Backups"
 id: aphorisms/APH-LLG-0316-LC22
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ckup-rot", "w-confidence-object", "surance-language", "tty-puritas"]
+tags: ["aphorisms", "backup-rot", "low-confidence-object", "assurance-language", "datty-puritas"]
 ---
 
 # Backup Self-Esteem Aphorisms

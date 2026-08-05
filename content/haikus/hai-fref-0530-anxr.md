@@ -3,7 +3,7 @@ title: "Annex Recovery"
 id: haikus/HAI-FREF-0530-ANXR
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "bureaucratic-ritual", "bin-8c"]
 ---
 
 # Annex Recovery

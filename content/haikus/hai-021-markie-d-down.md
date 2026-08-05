@@ -3,7 +3,7 @@ title: "Markie-D-Down"
 id: haikus/HAI-0021
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "rkdown", "ntax", "ontmatter"]
+tags: ["haikus", "haiku", "markdown", "syntax", "frontmatter", "formatting-strictness", "syntax-breakdown", "frontmatter-alignment"]
 ---
 
 # Markie-D-Down

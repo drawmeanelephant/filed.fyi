@@ -3,7 +3,7 @@ title: "Autonomous Systems Memo"
 id: limericks/LIM-LLG-0379-ROBOT-MEMO
 parent: limericks
 status: archived
-tags: ["limericks", "bot-memo", "chive-aligned", "eeding-program"]
+tags: ["limericks", "robot-memo", "archive-aligned", "breeding-program"]
 ---
 
 # Autonomous Systems Memo

@@ -3,7 +3,7 @@ title: "Kafkey Errorhandler"
 id: haikus/HAI-0018
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ents", "fka", "erthinking"]
+tags: ["haikus", "haiku", "events", "kafka", "overthinking", "event-stream-saturation", "error-processing", "queue-management"]
 ---
 
 # Kafkey Errorhandler

@@ -3,7 +3,7 @@ title: "Trust Surface Explanation Layer Admitted as Teaching Specimen"
 id: lorelog/LLG-0010
 parent: lorelog
 status: published
-tags: ["lorelog", "er-coherence", "ust-surface", "aching-specimen", "planation-layer", "ead-erosion"]
+tags: ["lorelog", "over-coherence", "trust-surface", "teaching-specimen", "explanation-layer", "dread-erosion"]
 ---
 
 # Trust Surface Explanation Layer Admitted as Teaching Specimen

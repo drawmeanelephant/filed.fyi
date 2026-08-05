@@ -3,7 +3,7 @@ title: "Consolidated Chapter Office Continuity Loop"
 id: haikus/HAI-LLG-0398-CCO
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "apter", "nsolidation", "ntinuity"]
+tags: ["haikus", "haiku", "chapter", "consolidation", "continuity"]
 ---
 
 # Consolidated Chapter Office Continuity Loop

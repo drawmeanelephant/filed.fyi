@@ -3,7 +3,7 @@ title: "Witness Lodge Inflation"
 id: haikus/HAI-LLG-0857-WLI
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tness", "flation", "dge"]
+tags: ["haikus", "haiku", "witness", "inflation", "lodge", "witness-lodge-inflation", "shared-processing"]
 ---
 
 # Witness Lodge Inflation

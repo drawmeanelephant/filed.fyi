@@ -3,7 +3,7 @@ title: "Witness and Seal Layer"
 id: reference/FREF-0870-WTSL
 parent: reference
 status: published
-tags: ["reference", "pathegy", "tness", "al", "surance", "gitimacy"]
+tags: ["reference", "empathegy", "witness", "seal", "assurance", "legitimacy"]
 ---
 
 # Witness and Seal Layer

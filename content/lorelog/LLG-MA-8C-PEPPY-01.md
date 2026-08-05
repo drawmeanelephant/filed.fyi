@@ -3,7 +3,7 @@ title: "Peppy Clerk Continuity Dossier / Basement Steam Event Chain"
 id: lorelog/LLG-MA-8C-PEPPY-0001
 parent: lorelog
 status: published
-tags: ["lorelog", "scot-affairs", "rridor-morale", "assification-rot", "oximity-contamination", "ministrative-residue", "eam-without-steam", "lf-indexing", "stody-drift", "zardous-misfiling", "uster-presence"]
+tags: ["lorelog", "mascot-affairs", "corridor-morale", "classification-rot", "proximity-contamination", "administrative-residue", "steam-without-steam", "self-indexing", "custody-drift", "hazardous-misfiling", "cluster-presence"]
 ---
 
 # Peppy Clerk Continuity Dossier / Basement Steam Event Chain

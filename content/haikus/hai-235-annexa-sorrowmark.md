@@ -3,7 +3,7 @@ title: "Annexa Sorrowmark"
 id: haikus/HAI-0235
 parent: haikus
 status: archived
-tags: ["haikus", "perational-grief", "ecord-sequestration", "idden-burdens"]
+tags: ["haikus", "operational-grief", "record-sequestration", "hidden-burdens"]
 ---
 
 # Annexa Sorrowmark

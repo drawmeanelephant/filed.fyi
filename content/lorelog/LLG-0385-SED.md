@@ -3,7 +3,7 @@ title: "Scheduled Exception Board Deferred Maintenance Into Canonical Hazard"
 id: lorelog/LLG-0385-SED
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "pending-render", "stub", "deferment", "timeline-drift", "scheduled-exception", "maintenance-window", "continuity-optics", "approved-instability", "buffer-null", "change-board", "compliance-warning", "consent-loop"]
 ---
 
 # Scheduled Exception Board Deferred Maintenance Into Canonical Hazard

@@ -3,7 +3,7 @@ title: "Melody Errorflood"
 id: limericks/LIM-0137
 parent: limericks
 status: archived
-tags: ["limericks", "udio", "otification", "idi", "hiptune", "oundblaster"]
+tags: ["limericks", "audio", "notification", "midi", "chiptune", "soundblaster"]
 ---
 
 # Melody Errorflood

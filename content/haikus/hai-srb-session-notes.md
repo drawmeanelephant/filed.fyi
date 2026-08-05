@@ -3,7 +3,7 @@ title: "Scan Reinterpretation Session"
 id: haikus/HAI-0096
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "an", "interpretation", "tes"]
+tags: ["haikus", "haiku", "scan", "reinterpretation", "notes", "benevolence"]
 ---
 
 # Scan Reinterpretation Session

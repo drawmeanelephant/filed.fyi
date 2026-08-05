@@ -3,7 +3,7 @@ title: "Blamey McTypoface"
 id: limericks/LIM-0045
 parent: limericks
 status: archived
-tags: ["limericks", "ame-shift", "apegoat", "ult-routing", "ssive-aggressive"]
+tags: ["limericks", "blame-shift", "scapegoat", "fault-routing", "passive-aggressive"]
 ---
 
 # Blamey McTypoface

@@ -3,7 +3,7 @@ title: "Ghost Audience Awareness"
 id: haikus/HAI-LLG-0371-BAIT-B2B
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "it", "ost-audience", "essure"]
+tags: ["haikus", "haiku", "bait", "ghost-audience", "pressure", "managed-absence"]
 ---
 
 # Ghost Audience Awareness

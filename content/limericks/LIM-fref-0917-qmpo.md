@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix PAPER_ORACLE (Telemetry Gap)"
 id: limericks/LIM-FREF-0917-QMPO
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Qualitative Matrix PAPER_ORACLE (Telemetry Gap)

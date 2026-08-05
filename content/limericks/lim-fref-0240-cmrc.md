@@ -3,7 +3,7 @@ title: "Commemorative Ribbon Custody and Shared Continuity Circular"
 id: limericks/LIM-FREF-0240-CMRC
 parent: limericks
 status: published
-tags: ["limericks", "vic-benevolence", "stitutional-decay"]
+tags: ["limericks", "civic-benevolence", "institutional-decay"]
 ---
 
 # Commemorative Ribbon Custody and Shared Continuity Circular

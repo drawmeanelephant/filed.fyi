@@ -3,7 +3,7 @@ title: "DOGE Post-Classification Processing Desk Informal Aftercare Channel"
 id: lorelog/LLG-0359-DOGE-AFTERCARE
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "annex", "sorrow", "secondary-records", "formatting", "empathegy", "doge", "aftercare", "window-3", "kindy", "unofficial-practice", "follow-up", "elegant-insufficiency"]
 ---
 
 # DOGE Post-Classification Processing Desk Informal Aftercare Channel

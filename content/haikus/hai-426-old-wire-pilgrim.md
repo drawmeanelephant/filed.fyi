@@ -3,7 +3,7 @@ title: "Old Wire Pilgrim"
 id: haikus/HAI-0426
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "lgrim", "gacy", "nnection"]
+tags: ["haikus", "haiku", "pilgrim", "legacy", "connection", "legacy-connection", "older-manner"]
 ---
 
 # Old Wire Pilgrim

@@ -3,7 +3,7 @@ title: "Scan Report Orphan Reclassification"
 id: aphorisms/APH-LLG-0318-SRO
 parent: aphorisms
 status: published
-tags: ["aphorisms", "u-n-t-i-e-r", "an-reports", "phan-files", "dit-optics", "naged-absence"]
+tags: ["aphorisms", "c-u-n-t-i-e-r", "scan-reports", "orphan-files", "audit-optics", "managed-absence"]
 ---
 
 # Scan Report Orphan Aphorisms

@@ -3,7 +3,7 @@ title: "Deprecatia Fade"
 id: haikus/HAI-0072
 parent: haikus
 status: archived
-tags: ["haikus", "eprecated", "nterfaces", "egacy"]
+tags: ["haikus", "deprecated", "interfaces", "legacy"]
 ---
 
 # Deprecatia Fade

@@ -3,7 +3,7 @@ title: "Cross-Lodge Orientation Packet"
 id: limericks/LIM-FREF-0310-CLOP
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Cross-Lodge Orientation Packet

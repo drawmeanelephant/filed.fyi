@@ -3,7 +3,7 @@ title: "Gratitude Telemetry Misclassification, Breeding Program Side-Effect"
 id: lorelog/LLG-0377-GRAT
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "acknowledgment", "gratitude", "latch", "care-metrics", "empathegy", "gratitude-signal", "breeding-program", "care-theatre", "consent-loop", "coverage", "emotional-buffer", "gratitude-alignment"]
 ---
 
 # Gratitude Telemetry Misclassification, Breeding Program Side-Effect

@@ -3,7 +3,7 @@ title: "SOMA-72 Rest Acknowledgement Refusal"
 id: lorelog/LLG-0072-SOMA
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "st-request", "to-approval", "to-rejection", "oss-directive"]
+tags: ["lorelog", "soma-directive", "rest-request", "auto-approval", "auto-rejection", "cross-directive", "assurance-lexicon"]
 ---
 
 # SOMA-72 Rest Acknowledgement Refusal

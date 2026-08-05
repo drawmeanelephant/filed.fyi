@@ -3,7 +3,7 @@ title: "Window 5 Appeal Routing Failure"
 id: haikus/HAI-LLG-0373-DOGE-W5
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ge", "uting-failure"]
+tags: ["haikus", "haiku", "doge", "rage", "routing-failure", "bin-8c"]
 ---
 
 # Window 5 Appeal Routing Failure

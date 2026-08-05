@@ -3,7 +3,7 @@ title: "HTMLie Structura"
 id: limericks/LIM-0110
 parent: limericks
 status: archived
-tags: ["limericks", "ml", "mantics", "ructure", "sting", "rkup-purity"]
+tags: ["limericks", "html", "semantics", "structure", "nesting", "markup-purity"]
 ---
 
 # HTMLie Structura

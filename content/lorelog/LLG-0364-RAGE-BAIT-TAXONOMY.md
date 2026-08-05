@@ -3,7 +3,7 @@ title: "BAIT Taxonomy — Standard Forms of Angertainment"
 id: lorelog/LLG-0364-RAGE-BAIT-TAXONOMY
 parent: lorelog
 status: published
-tags: ["lorelog", "it", "xonomy", "gertainment", "mphlet", "formational-closure"]
+tags: ["lorelog", "bait", "taxonomy", "angertainment", "pamphlet", "informational-closure", "core-doctrines"]
 ---
 
 # BAIT Taxonomy — Standard Forms of Angertainment

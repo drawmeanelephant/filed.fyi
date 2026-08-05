@@ -3,7 +3,7 @@ title: "Commemorative Ribbon Custody and Shared Continuity Circular"
 id: reference/FREF-0240-CMRC
 parent: reference
 status: archived
-tags: ["reference", "bbon-custody", "tifact-continuity", "dication-weekend", "amber-ceremony", "ared-certainty", "bbonward-cordialis"]
+tags: ["reference", "ribbon-custody", "artifact-continuity", "dedication-weekend", "chamber-ceremony", "shared-certainty", "ribbonward-cordialis"]
 ---
 
 # Commemorative Ribbon Custody and Shared Continuity Circular

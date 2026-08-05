@@ -3,7 +3,7 @@ title: "Metrics of Care"
 id: haikus/HAI-LLG-0820-MCR
 parent: haikus
 status: archived
-tags: ["haikus", "are metrics", "are-rituals", "ashboard-rot", "aiku", "nstrumentation-gap", "etrics-of-care", "itual coverage", "ninstrumented strain"]
+tags: ["haikus", "care metrics", "care-rituals", "dashboard-rot", "haiku", "instrumentation-gap", "metrics-of-care", "ritual coverage", "uninstrumented strain"]
 ---
 
 # Metrics of Care

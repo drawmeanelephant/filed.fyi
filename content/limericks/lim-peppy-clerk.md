@@ -3,7 +3,7 @@ title: "Stub: Peppy Clerk"
 id: limericks/LIM-0158
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Peppy Clerk

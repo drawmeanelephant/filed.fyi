@@ -3,7 +3,7 @@ title: "Stub: Frontmatter Data Structural Integrity Audit"
 id: limericks/LIM-0012
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Frontmatter Data Structural Integrity Audit

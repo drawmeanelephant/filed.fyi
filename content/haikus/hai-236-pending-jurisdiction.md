@@ -3,7 +3,7 @@ title: "Pending Jurisdiction"
 id: haikus/HAI-0236
 parent: haikus
 status: archived
-tags: ["haikus", "oundary-domains", "esponsibility-abdication", "ystem-failure"]
+tags: ["haikus", "boundary-domains", "responsibility-abdication", "system-failure"]
 ---
 
 # Pending Jurisdiction

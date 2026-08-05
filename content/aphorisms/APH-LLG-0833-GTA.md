@@ -3,7 +3,7 @@ title: "Gratitude Telemetry Alignment"
 id: aphorisms/APH-LLG-0833-GTA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "atitude-signal", "pathegy", "lemetry-rot", "tomated-listening"]
+tags: ["aphorisms", "gratitude-signal", "empathegy", "telemetry-rot", "automated-listening"]
 ---
 
 # Gratitude Telemetry Aphorisms

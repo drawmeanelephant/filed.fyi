@@ -3,7 +3,7 @@ title: "Markie D. Down"
 id: limericks/LIM-0135
 parent: limericks
 status: archived
-tags: ["limericks", "arkdown", "laintext", "ormat-purity", "andoc", "nti-wysiwyg"]
+tags: ["limericks", "markdown", "plaintext", "format-purity", "pandoc", "anti-wysiwyg"]
 ---
 
 # Markie D. Down

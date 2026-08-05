@@ -3,7 +3,7 @@ title: "Aesthetic Survival Layer"
 id: limericks/LIM-FREF-0520-ESTL
 parent: limericks
 status: archived
-tags: ["limericks", "mericks", "nd-written", "pathegy", "sthetics", "itation"]
+tags: ["limericks", "hand-written", "empathegy", "aesthetics", "imitation"]
 ---
 
 # Aesthetic Survival Layer

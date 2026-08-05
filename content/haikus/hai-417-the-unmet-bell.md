@@ -3,7 +3,7 @@ title: "The Unmet Bell"
 id: haikus/HAI-0417
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ll", "met", "pectation"]
+tags: ["haikus", "haiku", "bell", "unmet", "expectation", "unfulfilled-expectation", "retired-promise"]
 ---
 
 # The Unmet Bell

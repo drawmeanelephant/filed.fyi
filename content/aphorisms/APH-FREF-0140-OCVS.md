@@ -3,7 +3,7 @@ title: "Over‑Coherence Screening"
 id: aphorisms/APH-FREF-0140-OCVS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "reening", "rrative-cleanliness", "iage", "er-coherence"]
+tags: ["aphorisms", "screening", "narrative-cleanliness", "triage", "over-coherence"]
 ---
 
 # Over‑Coherence Screening Aphorisms

@@ -3,7 +3,7 @@ title: "Over-Coherence Spillover: TDCIP-LKG Degradation Failure"
 id: lorelog/LLG-0009
 parent: lorelog
 status: published
-tags: ["lorelog", "DCIP-LKG", "ver-coherence", "ngestion-failure", "egradation-skip", "uarantine"]
+tags: ["lorelog", "TDCIP-LKG", "over-coherence", "ingestion-failure", "degradation-skip", "quarantine", "core-doctrines"]
 ---
 
 # Over-Coherence Spillover: TDCIP-LKG Degradation Failure

@@ -3,7 +3,7 @@ title: "Boily McPlaterton"
 id: limericks/LIM-0048
 parent: limericks
 status: archived
-tags: ["limericks", "ermal-panic", "erheat", "ltdown", "gacy-hardware"]
+tags: ["limericks", "thermal-panic", "overheat", "meltdown", "legacy-hardware"]
 ---
 
 # Boily McPlaterton

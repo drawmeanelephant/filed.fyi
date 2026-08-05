@@ -3,7 +3,7 @@ title: "Meta-Feeling Exclusion"
 id: aphorisms/APH-LLG-0052-MFX
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ma-directive", "ta-feelings", "ope-creep", "ndy-mcexistentialcrisis"]
+tags: ["aphorisms", "soma-directive", "meta-feelings", "scope-creep", "kindy-mcexistentialcrisis"]
 ---
 
 # Meta-Feeling Exclusion Aphorisms

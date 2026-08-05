@@ -3,7 +3,7 @@ title: "Method Not Allowed — Rest Request Verb Rejection"
 id: aphorisms/APH-LLG-0405-MEL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Method Not Allowed — Rest Request Verb Rejection

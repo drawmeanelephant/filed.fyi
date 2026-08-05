@@ -3,7 +3,7 @@ title: "Compassion Suppression Event — Soft Language Downgrade"
 id: lorelog/LLG-0336-CSE
 parent: lorelog
 status: published
-tags: ["lorelog", "trics-of-care", "shboard-calming", "ntinuity-optics", "ilure-signature", "oxy-compassion", "legated-warmth", "re-without-power", "rotonin", "re-metrics", "shboards", "pathegy", "ma-directive", "nguage-normalization", "mpassion-penalty", "oss-directive", "re-theatre"]
+tags: ["lorelog", "metrics-of-care", "dashboard-calming", "continuity-optics", "failure-signature", "proxy-compassion", "delegated-warmth", "care-without-power", "serotonin", "care-metrics", "dashboards", "empathegy", "coma-directive"]
 ---
 
 # Compassion Suppression Event — Soft Language Downgrade

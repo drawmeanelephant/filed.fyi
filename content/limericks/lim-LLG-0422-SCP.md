@@ -3,7 +3,7 @@ title: "Support Structure for Prior Failure Established"
 id: limericks/LIM-LLG-0422-SCP
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-rot"]
+tags: ["limericks", "procedural-rot"]
 ---
 
 # Support Structure for Prior Failure Established

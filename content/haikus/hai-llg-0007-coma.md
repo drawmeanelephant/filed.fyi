@@ -3,7 +3,7 @@ title: "COMA-07"
 id: haikus/HAI-LLG-0007-COMA
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ma", "antom-uptime", "ntinuity-theater", "stmortem"]
+tags: ["haikus", "haiku", "coma", "phantom-uptime", "continuity-theater", "postmortem", "absence-of-error"]
 ---
 
 # COMA-07

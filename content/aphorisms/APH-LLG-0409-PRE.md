@@ -3,7 +3,7 @@ title: "Persona Rehearsal Engine"
 id: aphorisms/APH-LLG-0409-PRE
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rsona-rehearsal", "ccessor-process", "nthetic-voices", "ript-theatre", "aining-echo"]
+tags: ["aphorisms", "persona-rehearsal", "successor-process", "synthetic-voices", "script-theatre", "training-echo"]
 ---
 
 # Persona Rehearsal Aphorisms

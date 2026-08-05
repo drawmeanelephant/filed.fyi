@@ -3,7 +3,7 @@ title: "Assurance Optics"
 id: limericks/LIM-FREF-0070-AOPT
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-entropy"]
+tags: ["limericks", "procedural-entropy"]
 ---
 
 # Assurance Optics

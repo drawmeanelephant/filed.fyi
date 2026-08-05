@@ -3,7 +3,7 @@ title: "DOGE Edge Cases"
 id: haikus/HAI-LLG-0354-DOGE-EDGE-CASES
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "ge-cases", "nthetic-care"]
+tags: ["haikus", "doge", "edge-cases", "synthetic-care"]
 ---
 
 # DOGE Edge Cases

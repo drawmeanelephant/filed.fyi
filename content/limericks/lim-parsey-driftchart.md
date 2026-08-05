@@ -3,7 +3,7 @@ title: "Parsey Driftchart"
 id: limericks/LIM-0153
 parent: limericks
 status: archived
-tags: ["limericks", "ikiwiki", "pl", "emplate", "rackers", "lugin-recursion"]
+tags: ["limericks", "tikiwiki", "tpl", "template", "trackers", "plugin-recursion"]
 ---
 
 # Parsey Driftchart

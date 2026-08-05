@@ -3,7 +3,7 @@ title: "Appeals and Annexes"
 id: haikus/HAI-FREF-0550-APAN
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "bureaucracy", "appeals", "fatigue"]
 ---
 
 # Appeals and Annexes

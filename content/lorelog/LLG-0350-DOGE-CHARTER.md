@@ -3,7 +3,7 @@ title: "DOGE — Department of Genuine Experiences, Charter and Jurisdictional S
 id: lorelog/LLG-0350-DOGE-CHARTER
 parent: lorelog
 status: published
-tags: ["lorelog", "risdictional-drift", "ge", "ovenance", "ved-experience", "rtification", "arter"]
+tags: ["lorelog", "jurisdictional-drift", "doge", "provenance", "lived-experience", "certification", "charter", "operational-engines"]
 ---
 
 # DOGE — Department of Genuine Experiences, Charter and Jurisdictional Scope

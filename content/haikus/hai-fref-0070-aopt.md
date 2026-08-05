@@ -3,7 +3,7 @@ title: "Stub: Assurance Optics"
 id: haikus/HAI-FREF-0070-AOPT
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "assurance-optics"]
 ---
 
 # Stub: Assurance Optics

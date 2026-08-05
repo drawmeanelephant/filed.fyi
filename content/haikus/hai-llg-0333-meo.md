@@ -3,7 +3,7 @@ title: "Measurement Creep"
 id: haikus/HAI-LLG-0333-MEO
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "asurement-expansion", "covery-window", "timization-capture", "ma"]
+tags: ["haikus", "haiku", "measurement-expansion", "recovery-window", "optimization-capture", "soma"]
 ---
 
 # Measurement Creep

@@ -3,7 +3,7 @@ title: "Paper Crown"
 id: haikus/HAI-0431
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "own", "per", "cess"]
+tags: ["haikus", "haiku", "crown", "paper", "excess", "managed-absence", "bureaucratic-decay"]
 ---
 
 # Paper Crown

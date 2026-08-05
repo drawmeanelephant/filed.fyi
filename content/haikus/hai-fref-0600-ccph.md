@@ -3,7 +3,7 @@ title: "Continuity-Compatible Phrasing"
 id: haikus/HAI-FREF-0600-CCPH
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "translation", "continuity", "reassurance"]
 ---
 
 # Continuity-Compatible Phrasing

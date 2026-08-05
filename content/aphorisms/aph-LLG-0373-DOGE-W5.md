@@ -3,7 +3,7 @@ title: "Window 5 Appeal Routing Failure Local Anchor Congestion Event"
 id: aphorisms/APH-LLG-0373-DOGE-W5
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Window 5 Appeal Routing Failure Local Anchor Congestion Event

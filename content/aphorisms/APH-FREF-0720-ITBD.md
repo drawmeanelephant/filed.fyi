@@ -3,7 +3,7 @@ title: "Interpretation Boundary"
 id: aphorisms/APH-FREF-0720-ITBD
 parent: aphorisms
 status: published
-tags: ["aphorisms", "terpretation", "undary", "missibility", "sidue"]
+tags: ["aphorisms", "interpretation", "boundary", "admissibility", "residue"]
 ---
 
 # Interpretation Boundary Aphorisms

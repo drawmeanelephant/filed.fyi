@@ -3,7 +3,7 @@ title: "Council of Mascot Authors Teaching Specimen Authorization Drift"
 id: haikus/HAI-LLG-0400-CMA-TSP
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "scots", "ecimen", "thorization"]
+tags: ["haikus", "haiku", "mascots", "specimen", "authorization"]
 ---
 
 # Council of Mascot Authors Teaching Specimen Authorization Drift

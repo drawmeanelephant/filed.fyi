@@ -3,7 +3,7 @@ title: "Over‑Coherence Conditions"
 id: aphorisms/APH-FREF-0290-OCVH
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # Over‑Coherence Conditions

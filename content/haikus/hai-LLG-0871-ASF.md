@@ -3,7 +3,7 @@ title: "Stub: Appendix Smoothing Format"
 id: haikus/HAI-LLG-0871-ASF
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "appendix-smoothing", "procedural-stub"]
 ---
 
 # Stub: Appendix Smoothing Format

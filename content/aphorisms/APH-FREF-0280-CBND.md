@@ -3,7 +3,7 @@ title: "Civic Band Legend – Continuity and Courtesy"
 id: aphorisms/APH-FREF-0280-CBND
 parent: aphorisms
 status: published
-tags: ["aphorisms", "shboard-bands", "vic-metrics", "norary-presence", "pirational-funds"]
+tags: ["aphorisms", "dashboard-bands", "civic-metrics", "honorary-presence", "aspirational-funds"]
 ---
 
 # Civic Band Legend Aphorisms

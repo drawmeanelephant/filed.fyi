@@ -3,7 +3,7 @@ title: "Stub: Gratitude Drift"
 id: haikus/HAI-0043
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Gratitude Drift

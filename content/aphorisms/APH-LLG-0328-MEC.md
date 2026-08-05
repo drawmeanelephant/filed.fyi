@@ -3,7 +3,7 @@ title: "Manifest Exception Circularity"
 id: aphorisms/APH-LLG-0328-MEC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "nifest-variance", "ception-circularity", "ndy", "dit-recursion"]
+tags: ["aphorisms", "manifest-variance", "exception-circularity", "kindy", "audit-recursion"]
 ---
 
 # Manifest Exception Aphorisms

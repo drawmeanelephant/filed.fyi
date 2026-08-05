@@ -3,7 +3,7 @@ title: "Atmosphere-Assisted Closure"
 id: lorelog/LLG-0861-ACS
 parent: lorelog
 status: published
-tags: ["lorelog", "pathegy", "mbolic-completion", "mosphere-assisted", "tual-lodge-interface", "osure-inflation"]
+tags: ["lorelog", "empathegy", "symbolic-completion", "atmosphere-assisted", "ritual-lodge-interface", "closure-inflation"]
 ---
 
 # Atmosphere-Assisted Closure

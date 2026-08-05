@@ -3,7 +3,7 @@ title: "Managed Absence Protocol"
 id: aphorisms/APH-LLG-0324-MAP
 parent: aphorisms
 status: published
-tags: ["aphorisms", "naged-absence", "rms-registry", "vernance-language", "ndy"]
+tags: ["aphorisms", "managed-absence", "forms-registry", "governance-language", "kindy"]
 ---
 
 # Managed Absence Aphorisms

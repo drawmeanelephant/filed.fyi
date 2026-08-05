@@ -3,7 +3,7 @@ title: "Assurance Realignment"
 id: haikus/HAI-LLG-0327-AVR
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "surance-vocabulary", "dit-rot", "ntinuity-jargon", "ficit-polish"]
+tags: ["haikus", "haiku", "assurance-vocabulary", "audit-rot", "continuity-jargon", "deficit-polish"]
 ---
 
 # Assurance Realignment

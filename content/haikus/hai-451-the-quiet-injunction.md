@@ -3,7 +3,7 @@ title: "The Quiet Injunction"
 id: haikus/HAI-0451
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "junction", "iet", "nsorship"]
+tags: ["haikus", "haiku", "injunction", "quiet", "censorship", "directive-conflict", "managed-absence"]
 ---
 
 # The Quiet Injunction

@@ -3,7 +3,7 @@ title: "FFP-0385 Progress Without Work"
 id: posts/FFP-0385-PROGRESS-WITHOUT-WORK
 parent: posts
 status: published
-tags: ["posts", "sts", "eue-theatre", "sible-uptake", "ad-labor-layer", "ust-surface"]
+tags: ["posts", "queue-theatre", "visible-uptake", "dead-labor-layer", "trust-surface"]
 ---
 
 # FFP-0385 Progress Without Work

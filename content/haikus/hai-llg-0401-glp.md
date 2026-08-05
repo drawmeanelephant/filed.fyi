@@ -3,7 +3,7 @@ title: "SOP Amnesia Cascade"
 id: haikus/HAI-LLG-0401-GLP
 parent: haikus
 status: archived
-tags: ["haikus", "LP Archive Rot", "OP Amnesia Cascade", "mnesia", "lp", "aiku", "op"]
+tags: ["haikus", "GLP Archive Rot", "SOP Amnesia Cascade", "amnesia", "glp", "haiku", "sop"]
 ---
 
 # SOP Amnesia Cascade

@@ -3,7 +3,7 @@ title: "Gown of Recognition"
 id: haikus/HAI-0296
 parent: haikus
 status: archived
-tags: ["haikus", "cognition", "norary", "othing"]
+tags: ["haikus", "recognition", "honorary", "clothing"]
 ---
 
 # Gown of Recognition

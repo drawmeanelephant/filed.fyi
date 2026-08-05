@@ -3,7 +3,7 @@ title: "Silence Handling Clarification"
 id: haikus/HAI-LLG-0404-DCP
 parent: haikus
 status: archived
-tags: ["haikus", "ual-Certification Protocol", "ertification", "aiku", "rotocol", "ilence", "ilent intervals"]
+tags: ["haikus", "Dual-Certification Protocol", "certification", "haiku", "protocol", "silence", "silent intervals"]
 ---
 
 # Silence Handling Clarification

@@ -3,7 +3,7 @@ title: "False Rest Lantern Review"
 id: haikus/HAI-LLG-0861-FRL
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "st", "lse-lantern", "pletion"]
+tags: ["haikus", "haiku", "rest", "false-lantern", "depletion", "false-rest-lantern-review", "calm"]
 ---
 
 # False Rest Lantern Review

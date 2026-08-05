@@ -3,7 +3,7 @@ title: "Stub: Scan Reinterpretation Bloc – Practice Notes"
 id: haikus/HAI-FREF-0080-SRBP
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "scan-reinterpretation"]
 ---
 
 # Stub: Scan Reinterpretation Bloc – Practice Notes

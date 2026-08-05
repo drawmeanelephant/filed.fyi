@@ -3,7 +3,7 @@ title: "Healthy Interval Artifacts"
 id: haikus/HAI-FREF-0700-HIAR
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "intervals", "health", "silence"]
 ---
 
 # Healthy Interval Artifacts

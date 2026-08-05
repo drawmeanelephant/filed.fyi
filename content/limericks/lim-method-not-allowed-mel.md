@@ -3,7 +3,7 @@ title: "Method Not Allowed Mel"
 id: limericks/LIM-0138
 parent: limericks
 status: published
-tags: ["limericks", "ror-handling"]
+tags: ["limericks", "error-handling"]
 ---
 
 # Method Not Allowed Mel

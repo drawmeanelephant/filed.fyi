@@ -3,7 +3,7 @@ title: "Annex Recovery"
 id: aphorisms/APH-FREF-0530-ANXR
 parent: aphorisms
 status: published
-tags: ["aphorisms", "covery", "sidue", "rtial-salvage", "ructure"]
+tags: ["aphorisms", "recovery", "residue", "partial-salvage", "structure"]
 ---
 
 # Annex Recovery Aphorisms

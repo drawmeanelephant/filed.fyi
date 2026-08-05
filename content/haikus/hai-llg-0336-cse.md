@@ -3,7 +3,7 @@ title: "Compassion Suppression Event"
 id: haikus/HAI-LLG-0336-CSE
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ma", "mpassion", "ppression"]
+tags: ["haikus", "haiku", "coma", "compassion", "suppression"]
 ---
 
 # Compassion Suppression Event

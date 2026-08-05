@@ -3,7 +3,7 @@ title: "Artifact Provenance Under Repeated Ceremonial Use"
 id: reference/FREF-0570-APCR
 parent: reference
 status: published
-tags: ["reference", "tifact-provenance", "remonial-use", "peated-handling", "al-loops", "tual-authority"]
+tags: ["reference", "artifact-provenance", "ceremonial-use", "repeated-handling", "seal-loops", "ritual-authority"]
 ---
 
 # Artifact Provenance Under Repeated Ceremonial Use

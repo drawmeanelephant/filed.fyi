@@ -3,7 +3,7 @@ title: "RAGE Appeals Queue"
 id: haikus/HAI-LLG-0368-RAGE-AQ
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "ge", "peals", "arterly"]
+tags: ["haikus", "haiku", "rage", "appeals", "quarterly", "bin-8c"]
 ---
 
 # RAGE Appeals Queue

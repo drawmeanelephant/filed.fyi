@@ -3,7 +3,7 @@ title: "Canonized Support Interval"
 id: lorelog/LLG-0851-CSI
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "care-theatre", "metrics-of-care", "reassurance-load", "adequacy-audit", "compliance-drift", "institutional-sympathy", "delegated-warmth", "care-delay"]
 ---
 
 # Canonized Support Interval

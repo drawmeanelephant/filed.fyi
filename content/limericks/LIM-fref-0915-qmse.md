@@ -3,7 +3,7 @@ title: "Stub: Qualitative Matrix SHELF_ECHO (Telemetry Gap)"
 id: limericks/LIM-FREF-0915-QMSE
 parent: limericks
 status: published
-tags: ["limericks", "ub"]
+tags: ["limericks", "stub"]
 ---
 
 # Stub: Qualitative Matrix SHELF_ECHO (Telemetry Gap)

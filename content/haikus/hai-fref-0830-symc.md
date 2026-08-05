@@ -3,7 +3,7 @@ title: "Symbolic Completion"
 id: haikus/HAI-FREF-0830-SYMC
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "benevolence", "symbolic-completion", "archival-satisfaction"]
 ---
 
 # Symbolic Completion

@@ -3,7 +3,7 @@ title: "Stub: Replacement Without Release"
 id: aphorisms/APH-0096
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Replacement Without Release

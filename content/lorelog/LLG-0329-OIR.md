@@ -3,7 +3,7 @@ title: "Orphan Inventory Reinterpretation"
 id: lorelog/LLG-0329-OIR
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "structural-balance", "stub", "pending-render", "orphan-state", "orphan-files", "orphan-normalization", "scan-reports", "classification-rot", "historical-artifacts", "mascots", "classifications", "lcgu"]
 ---
 
 # Orphan Inventory Reinterpretation

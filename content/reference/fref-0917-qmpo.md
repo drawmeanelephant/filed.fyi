@@ -3,7 +3,7 @@ title: "Qualitative Matrix PAPER_ORACLE (Telemetry Gap)"
 id: reference/FREF-0917-QMPO
 parent: reference
 status: published
-tags: ["reference", "ference", "ratchpad", "ompt-addendum"]
+tags: ["reference", "scratchpad", "prompt-addendum"]
 ---
 
 # 📁 Qualitative Matrix: PAPER_ORACLE

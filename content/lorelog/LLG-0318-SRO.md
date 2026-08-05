@@ -3,7 +3,7 @@ title: "Scan Report Orphan Reclassification — Missing Files Converted to Initi
 id: lorelog/LLG-0318-SRO
 parent: lorelog
 status: published
-tags: ["lorelog", "dit-optics", "ffer-unstable", "u-n-t-i-e-r", "nifest-drift", "phan-files", "cursive-loop", "an-reports", "resolved-genesis"]
+tags: ["lorelog", "audit-optics", "buffer-unstable", "c-u-n-t-i-e-r", "manifest-drift", "orphan-files", "recursive-loop", "scan-reports", "unresolved-genesis"]
 ---
 
 # Scan Report Orphan Reclassification — Missing Files Converted to Initiative

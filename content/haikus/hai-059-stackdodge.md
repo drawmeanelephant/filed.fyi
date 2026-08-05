@@ -3,7 +3,7 @@ title: "Stackdodge"
 id: haikus/HAI-0059
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "timization", "tested", "gs"]
+tags: ["haikus", "haiku", "optimization", "untested", "bugs"]
 ---
 
 # Stackdodge

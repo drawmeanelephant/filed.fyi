@@ -3,7 +3,7 @@ title: "FFP-0380 Care Without Exit, Silence Without Gap"
 id: aphorisms/APH-FFP-0380
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # FFP-0380 Care Without Exit, Silence Without Gap

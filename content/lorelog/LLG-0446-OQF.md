@@ -3,7 +3,7 @@ title: "Open Queue, Closed Future"
 id: lorelog/LLG-0446-OQF
 parent: lorelog
 status: published
-tags: ["lorelog", "relog", "eue-theatre", "ad-labor", "pport-surface", "ntinuity-language", "remonial-throughput", "ligation-residue"]
+tags: ["lorelog", "queue-theatre", "dead-labor", "support-surface", "continuity-language", "ceremonial-throughput", "obligation-residue", "classifications"]
 ---
 
 # Open Queue, Closed Future

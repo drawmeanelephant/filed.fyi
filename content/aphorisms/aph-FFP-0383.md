@@ -3,7 +3,7 @@ title: "FFP-0383 Exhibit: Metrics of Systemic Decay"
 id: aphorisms/APH-FFP-0383
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # FFP-0383 Exhibit: Metrics of Systemic Decay

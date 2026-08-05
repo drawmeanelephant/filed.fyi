@@ -3,7 +3,7 @@ title: "Chapter Consolidation"
 id: aphorisms/APH-LLG-0386-LODGE-MERGE
 parent: aphorisms
 status: published
-tags: ["aphorisms", "dge-merge", "tendance-rolls", "morial-quorum", "atworthy-abstention-clerk"]
+tags: ["aphorisms", "lodge-merge", "attendance-rolls", "memorial-quorum", "peatworthy-abstention-clerk"]
 ---
 
 # Chapter Consolidation Aphorisms

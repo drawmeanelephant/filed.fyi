@@ -3,7 +3,7 @@ title: "Soft Green Seal"
 id: haikus/HAI-LLG-0323-LC04
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "tics", "al", "ntinuity"]
+tags: ["haikus", "haiku", "optics", "seal", "continuity"]
 ---
 
 # Soft Green Seal

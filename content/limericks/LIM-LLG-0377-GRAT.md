@@ -3,7 +3,7 @@ title: "Gratitude Telemetry Misclassification"
 id: limericks/LIM-LLG-0377-GRAT
 parent: limericks
 status: archived
-tags: ["limericks", "atitude-telemetry", "eeding-program", "ignment-rot"]
+tags: ["limericks", "gratitude-telemetry", "breeding-program", "alignment-rot"]
 ---
 
 # Gratitude Telemetry Misclassification

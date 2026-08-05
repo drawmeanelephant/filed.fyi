@@ -3,7 +3,7 @@ title: "Hover Parish"
 id: limericks/LIM-0108
 parent: limericks
 status: archived
-tags: ["limericks", "oltip", "ofane", "dden-truth"]
+tags: ["limericks", "tooltip", "profane", "hidden-truth"]
 ---
 
 # Hover Parish

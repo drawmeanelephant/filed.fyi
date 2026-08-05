@@ -3,7 +3,7 @@ title: "Ribbon Custody Dispute After Triple-Dedication Weekend"
 id: limericks/LIM-LLG-0391-RCD
 parent: limericks
 status: archived
-tags: ["limericks", "bbon-cutting", "tifact-custody", "vic-legitimacy"]
+tags: ["limericks", "ribbon-cutting", "artifact-custody", "civic-legitimacy"]
 ---
 
 # Ribbon Custody Dispute After Triple-Dedication Weekend

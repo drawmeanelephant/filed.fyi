@@ -3,7 +3,7 @@ title: "Civic Benevolence Handling Notes"
 id: aphorisms/APH-FREF-0210-CBHN
 parent: aphorisms
 status: published
-tags: ["aphorisms", "vic-benevolence", "morial-quorum", "xiliary-labor", "ncheon-assent"]
+tags: ["aphorisms", "civic-benevolence", "memorial-quorum", "auxiliary-labor", "luncheon-assent"]
 ---
 
 # Civic Benevolence Handling Aphorisms

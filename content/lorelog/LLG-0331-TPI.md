@@ -3,7 +3,7 @@ title: "Tri-Directive Priority Inversion"
 id: lorelog/LLG-0331-TPI
 parent: lorelog
 status: published
-tags: ["lorelog", "ma-directive", "u-n-t-i-e-r", "rective-conflict", "assification-rot"]
+tags: ["lorelog", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "directive-conflict", "classification-rot"]
 ---
 
 # Tri-Directive Priority Inversion

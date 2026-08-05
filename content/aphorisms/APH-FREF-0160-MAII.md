@@ -3,7 +3,7 @@ title: "Managed Absence Internal Index"
 id: aphorisms/APH-FREF-0160-MAII
 parent: aphorisms
 status: published
-tags: ["aphorisms", "naged-absence", "ternal-index", "bstrate", "ar", "oa"]
+tags: ["aphorisms", "managed-absence", "internal-index", "substrate", "caar", "aaoa"]
 ---
 
 # Managed Absence Index Aphorisms

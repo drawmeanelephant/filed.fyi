@@ -3,7 +3,7 @@ title: "Obsolescence Steward"
 id: limericks/LIM-0146
 parent: limericks
 status: published
-tags: ["limericks", "ocedural-rot"]
+tags: ["limericks", "procedural-rot"]
 ---
 
 # Obsolescence Steward

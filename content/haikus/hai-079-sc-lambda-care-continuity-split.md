@@ -3,7 +3,7 @@ title: "SC-Λ Care/Continuity Split"
 id: haikus/HAI-0079
 parent: haikus
 status: archived
-tags: ["haikus", "outing", "ontinuity", "ivergence"]
+tags: ["haikus", "routing", "continuity", "divergence"]
 ---
 
 # SC-Λ Care/Continuity Split

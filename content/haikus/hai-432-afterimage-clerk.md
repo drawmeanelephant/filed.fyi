@@ -3,7 +3,7 @@ title: "Afterimage Clerk"
 id: haikus/HAI-0432
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "managed-absence", "obsolescence"]
 ---
 
 # Afterimage Clerk

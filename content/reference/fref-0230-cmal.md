@@ -3,7 +3,7 @@ title: "Chamber Meal Assent and Disposition Notes"
 id: reference/FREF-0230-CMAL
 parent: reference
 status: archived
-tags: ["reference", "amber-luncheon", "plied-approval", "holarship-breakfast", "vic-boosterism", "al-minutes", "onell-pancake-auditor"]
+tags: ["reference", "chamber-luncheon", "implied-approval", "scholarship-breakfast", "civic-boosterism", "meal-minutes", "lionell-pancake-auditor"]
 ---
 
 # Chamber Meal Assent and Disposition Notes

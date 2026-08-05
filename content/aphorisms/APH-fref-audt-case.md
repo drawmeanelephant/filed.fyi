@@ -3,7 +3,7 @@ title: "Stub: Case Reciprocity and Alignment Report"
 id: aphorisms/APH-0090
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Case Reciprocity and Alignment Report

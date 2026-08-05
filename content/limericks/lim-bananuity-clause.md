@@ -3,7 +3,7 @@ title: "Bananuity Clause"
 id: limericks/LIM-0041
 parent: limericks
 status: archived
-tags: ["limericks", "nter-banana", "chard", "opical", "aos", "gar"]
+tags: ["limericks", "winter-banana", "orchard", "tropical", "chaos", "sugar"]
 ---
 
 # Bananuity Clause

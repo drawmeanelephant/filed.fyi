@@ -3,7 +3,7 @@ title: "Indexer Hexley"
 id: haikus/HAI-0015
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "dex", "arch", "tadata"]
+tags: ["haikus", "haiku", "index", "search", "metadata", "metadata-indexing", "void-queries", "search-artifacts"]
 ---
 
 # Indexer Hexley

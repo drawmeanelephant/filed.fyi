@@ -3,7 +3,7 @@ title: "Benevolence Metrics Calibration"
 id: aphorisms/APH-FREF-0270-BMDC
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ncheon-assent", "norary-absence", "nevolence-metrics", "ncake-breakfast"]
+tags: ["aphorisms", "luncheon-assent", "honorary-absence", "benevolence-metrics", "pancake-breakfast"]
 ---
 
 # Benevolence Metrics Aphorisms

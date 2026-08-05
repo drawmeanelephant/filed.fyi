@@ -3,7 +3,7 @@ title: "Stub: Compliance Ledger LEDGER_STATIC (Baseline Check)"
 id: aphorisms/APH-FREF-0902-CLLS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "ub"]
+tags: ["aphorisms", "stub"]
 ---
 
 # Stub: Compliance Ledger LEDGER_STATIC (Baseline Check)

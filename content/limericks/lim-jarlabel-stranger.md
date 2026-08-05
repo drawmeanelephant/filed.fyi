@@ -3,7 +3,7 @@ title: "Jarlabel Stranger"
 id: limericks/LIM-0115
 parent: limericks
 status: published
-tags: ["limericks", "me-type", "sidentification", "r-labels", "smatch"]
+tags: ["limericks", "mime-type", "misidentification", "jar-labels", "mismatch"]
 ---
 
 # Jarlabel Stranger

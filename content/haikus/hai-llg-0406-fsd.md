@@ -3,7 +3,7 @@ title: "FeelingSeeder Decommission Plan"
 id: haikus/HAI-LLG-0406-FSD
 parent: haikus
 status: archived
-tags: ["haikus", "eelingSeeder Decommission", "mbiguous", "ecommission", "eelingseeder", "aiku", "perational ambiguity"]
+tags: ["haikus", "FeelingSeeder Decommission", "ambiguous", "decommission", "feelingseeder", "haiku", "operational ambiguity"]
 ---
 
 # FeelingSeeder Decommission Plan

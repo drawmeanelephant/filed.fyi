@@ -3,7 +3,7 @@ title: "Persona Attribution Spillover"
 id: aphorisms/APH-LLG-0319-PAS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rsona-management", "ling-authority", "ma-directive", "ndy"]
+tags: ["aphorisms", "persona-management", "filing-authority", "soma-directive", "kindy"]
 ---
 
 # Persona Attribution Aphorisms

@@ -3,7 +3,7 @@ title: "Aesthetic Survival Layer"
 id: haikus/HAI-FREF-0520-ESTL
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "synthetic-affect"]
 ---
 
 # Aesthetic Survival Layer

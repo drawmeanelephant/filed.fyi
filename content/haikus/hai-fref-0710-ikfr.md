@@ -3,7 +3,7 @@ title: "Intake Forms"
 id: haikus/HAI-FREF-0710-IKFR
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "empathegy", "scope-reduction", "intake-processing"]
 ---
 
 # Intake Forms

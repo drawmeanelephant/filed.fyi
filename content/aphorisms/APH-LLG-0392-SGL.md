@@ -3,7 +3,7 @@ title: "Small Grant Luncheon"
 id: aphorisms/APH-LLG-0392-SGL
 parent: aphorisms
 status: published
-tags: ["aphorisms", "all-grants", "ncheon-minutes", "plause-ledger", "vic-boosterism", "plied-approval"]
+tags: ["aphorisms", "small-grants", "luncheon-minutes", "applause-ledger", "civic-boosterism", "implied-approval"]
 ---
 
 # Small Grant Luncheon Aphorisms

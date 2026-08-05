@@ -3,7 +3,7 @@ title: "Marshal Sash Succession"
 id: aphorisms/APH-LLG-0395-MSS
 parent: aphorisms
 status: published
-tags: ["aphorisms", "rade-committee", "galia-custody", "fice-drift", "reditary-volunteerism", "tifact-authority"]
+tags: ["aphorisms", "parade-committee", "regalia-custody", "office-drift", "hereditary-volunteerism", "artifact-authority"]
 ---
 
 # Marshal Sash Aphorisms

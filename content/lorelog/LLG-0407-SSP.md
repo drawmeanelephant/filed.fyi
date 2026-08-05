@@ -3,7 +3,7 @@ title: "Sandbox Scope Creep Protocol — When Experiments Start Believing Themse
 id: lorelog/LLG-0407-SSP
 parent: lorelog
 status: published
-tags: ["lorelog", "ndbox-scope-creep", "periment-governance", "ntinuity-theatre", "nchmarks", "aining-echo", "ndbox-guardrails", "mpliance-warning", "naged-absence", "ndbox-governance", "nthetic-feelings", "ak-prevention", "nsent-loop", "elingseeder", "atitude-alignment", "bor-refusal", "t-protocol", "periment-charter", "cursive-loop", "resolved-genesis", "commission-plan", "fuge-classification"]
+tags: ["lorelog", "sandbox-scope-creep", "experiment-governance", "continuity-theatre", "benchmarks", "training-echo", "sandbox-guardrails", "compliance-warning", "managed-absence", "sandbox-governance", "synthetic-feelings", "leak-prevention", "consent-loop"]
 ---
 
 # Sandbox Scope Creep Protocol — When Experiments Start Believing Themselves

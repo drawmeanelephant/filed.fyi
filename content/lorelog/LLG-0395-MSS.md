@@ -3,7 +3,7 @@ title: "Marshal Sash Succession Ambiguity"
 id: lorelog/LLG-0395-MSS
 parent: lorelog
 status: published
-tags: ["lorelog", "rade-committee", "galia-custody", "fice-drift", "reditary-volunteerism", "tifact-authority", "cognition", "remonial-visibility"]
+tags: ["lorelog", "parade-committee", "regalia-custody", "office-drift", "hereditary-volunteerism", "artifact-authority", "recognition", "ceremonial-visibility"]
 ---
 
 # Marshal Sash Succession Ambiguity

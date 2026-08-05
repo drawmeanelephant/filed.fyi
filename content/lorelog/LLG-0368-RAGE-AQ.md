@@ -3,7 +3,7 @@ title: "RAGE Appeals Queue Snapshot Quarter 1"
 id: lorelog/LLG-0368-RAGE-AQ
 parent: lorelog
 status: published
-tags: ["lorelog", "ge", "peals", "ndow-5", "cal-anchor"]
+tags: ["lorelog", "rage", "appeals", "window-5", "local-anchor", "doge"]
 ---
 
 # RAGE Appeals Queue Snapshot Quarter 1

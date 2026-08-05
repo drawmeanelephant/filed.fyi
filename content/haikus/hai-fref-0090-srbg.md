@@ -3,7 +3,7 @@ title: "Stub: SRB Pocket Gloss"
 id: haikus/HAI-FREF-0090-SRBG
 parent: haikus
 status: published
-tags: ["haikus", "ub", "ikus"]
+tags: ["haikus", "stub", "reference"]
 ---
 
 # Stub: SRB Pocket Gloss

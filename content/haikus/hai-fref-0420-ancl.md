@@ -3,7 +3,7 @@ title: "Accreditation Nesting Collegium"
 id: haikus/HAI-FREF-0420-ANCL
 parent: haikus
 status: published
-tags: ["haikus", "ikus"]
+tags: ["haikus", "bureaucratic-ritual", "civic-benevolence"]
 ---
 
 # Accreditation Nesting Collegium

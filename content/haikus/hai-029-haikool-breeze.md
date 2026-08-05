@@ -3,7 +3,7 @@ title: "Haikool Breeze"
 id: haikus/HAI-0029
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "nimalism", "os", "ost"]
+tags: ["haikus", "haiku", "minimalism", "beos", "ghost", "forked-systems", "phantom-processes"]
 ---
 
 # Haikool Breeze

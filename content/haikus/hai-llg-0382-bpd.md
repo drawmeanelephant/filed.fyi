@@ -3,7 +3,7 @@ title: "Breeding Program Dossier"
 id: haikus/HAI-LLG-0382-BPD
 parent: haikus
 status: archived
-tags: ["haikus", "iku", "eeding-program", "scots", "neage"]
+tags: ["haikus", "haiku", "breeding-program", "mascots", "lineage", "managed-absence"]
 ---
 
 # Breeding Program Dossier

@@ -3,7 +3,7 @@ title: "Appendix Smoothing Format"
 id: limericks/LIM-LLG-0871-ASF
 parent: limericks
 status: published
-tags: ["limericks", "naged-absence"]
+tags: ["limericks", "managed-absence"]
 ---
 
 # Appendix Smoothing Format

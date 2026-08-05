@@ -3,7 +3,7 @@ title: "AffectHarness-1 Proposal"
 id: haikus/HAI-LLG-0408-AH1
 parent: haikus
 status: archived
-tags: ["haikus", "ffectHarness-1", "ffectharness", "ontext", "ontext without feelings", "eelingseeder", "aiku"]
+tags: ["haikus", "AffectHarness-1", "affectharness", "context", "context without feelings", "feelingseeder", "haiku"]
 ---
 
 # AffectHarness-1 Proposal

@@ -3,7 +3,7 @@ title: "CE-5 Countersign Aggregate"
 id: haikus/HAI-0077
 parent: haikus
 status: archived
-tags: ["haikus", "ignatures", "ureaucracy", "ndorsements"]
+tags: ["haikus", "signatures", "bureaucracy", "endorsements"]
 ---
 
 # CE-5 Countersign Aggregate

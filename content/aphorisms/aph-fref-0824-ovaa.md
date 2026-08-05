@@ -3,7 +3,7 @@ title: "OverCoherence Vault Audit Annex, Trust Surface Explanation Layer"
 id: aphorisms/APH-FREF-0824-OVAA
 parent: aphorisms
 status: published
-tags: ["aphorisms", "horisms"]
+tags: ["aphorisms"]
 ---
 
 # OverCoherence Vault Audit Annex, Trust Surface Explanation Layer

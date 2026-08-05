@@ -3,7 +3,7 @@ title: "Stub: Mascot Review Workflow & Doctrinal Refinement Strategy"
 id: haikus/HAI-FREF-0850-MARD
 parent: haikus
 status: published
-tags: ["haikus", "ub"]
+tags: ["haikus", "stub"]
 ---
 
 # Stub: Mascot Review Workflow & Doctrinal Refinement Strategy

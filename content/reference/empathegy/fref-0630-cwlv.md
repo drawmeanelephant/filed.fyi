@@ -3,7 +3,7 @@ title: "Courtesy Without Leverage"
 id: reference/FREF-0630-CWLV
 parent: reference
 status: published
-tags: ["reference", "pathegy", "urtesy", "verage", "knowledgment", "re"]
+tags: ["reference", "empathegy", "courtesy", "leverage", "acknowledgment", "care"]
 ---
 
 # Courtesy Without Leverage

@@ -3,7 +3,7 @@ title: "Cluster MA/8C Re-Indexing Notice / Structural Identity Update"
 id: lorelog/LLG-SYS-0008-REINDEX-0001
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "index-drift", "navigational-residue", "reindexing", "cluster-identity", "structural-coherence", "bin-8c", "mascot-affairs", "self-indexing", "custody-drift", "hazardous-misfiling", "cluster-presence", "improvised-record"]
 ---
 
 # Cluster MA/8C Re-Indexing Notice / Structural Identity Update

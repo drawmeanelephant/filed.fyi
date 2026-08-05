@@ -3,7 +3,7 @@ title: "DOGE Certification Stamp Drift"
 id: haikus/HAI-LLG-0361-DOGE-STAMP-DRIFT
 parent: haikus
 status: archived
-tags: ["haikus", "ge", "amps", "unterfeit"]
+tags: ["haikus", "doge", "stamps", "counterfeit"]
 ---
 
 # DOGE Certification Stamp Drift

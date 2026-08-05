@@ -3,7 +3,7 @@ title: "FeelingSeeder Decommission Plan"
 id: lorelog/LLG-0406-FSD
 parent: lorelog
 status: published
-tags: ["lorelog", "elingseeder", "commission-plan", "nthetic-feelings", "naged-absence", "ndbox-governance", "ndbox-guardrails", "mpliance-warning", "ak-prevention", "nsent-loop", "atitude-alignment", "bor-refusal", "t-protocol", "periment-charter", "cursive-loop", "resolved-genesis", "aining-echo", "fuge-classification"]
+tags: ["lorelog", "feelingseeder", "decommission-plan", "synthetic-feelings", "managed-absence", "sandbox-governance", "sandbox-guardrails", "compliance-warning", "leak-prevention", "consent-loop", "gratitude-alignment", "labor-refusal", "rot-protocol", "operational-engines"]
 ---
 
 # FeelingSeeder Decommission Plan
