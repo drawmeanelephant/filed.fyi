@@ -336,6 +336,20 @@ print('unreachable:', len(pages - seen))   # -> 0
 EOF
 ```
 
+### 7a. Limitation
+
+The crawl proves route reachability through rendered links. It does **not** prove that source relations, semantic adjacency, or intended cross-record links are complete. In particular, do not treat homepage reachability as proof of meaningful discoverability: reaching a page via a collection-wide index or the homepage only confirms a route exists, not that the record is surfaced through the links a reader would actually follow.
+
+### 7b. Follow-up recommendation
+
+Audit the following for completeness and correctness (the crawl above does not cover these):
+
+- explicit `relations` (both declared and their rendered mirrors)
+- `parent` edges (hierarchy tree integrity, not just path reachability)
+- source cross-references (links from a record back to its source/citation)
+- generated related-record links (automatic sibling/related link blocks)
+- records reachable **only** through collection-wide indexes (i.e., with no inbound editorial link) — these risk being effectively orphaned in practice even though they pass the route-reachability crawl
+
 ---
 
 ## Summary Table
