@@ -56,6 +56,9 @@ jobs:
           cp zig-out/bin/boris "${{ github.workspace }}/bin/boris"
           chmod +x "${{ github.workspace }}/bin/boris"
 
+      - name: Run Boris provisioner regression tests
+        run: python3 scripts/test_ensure_boris.py
+
       - name: Run Filed gate
         env:
           BORIS_BIN: ./bin/boris

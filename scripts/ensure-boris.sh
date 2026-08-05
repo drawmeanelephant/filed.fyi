@@ -50,13 +50,14 @@ write_manifest() {
   local manifest_path="$7"
 
   python3 -c '
-import json, sys, hashlib, datetime
+import json, sys, hashlib, datetime, os
 binary, source, repo, branch, commit, zig_ver, manifest = sys.argv[1:8]
+abs_binary = os.path.abspath(binary)
 built_at = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 with open(binary, "rb") as f:
     checksum = hashlib.sha256(f.read()).hexdigest()
 data = {
-    "binary": binary,
+    "binary": abs_binary,
     "source": source,
     "repository": repo,
     "branch": branch,
@@ -95,9 +96,10 @@ except Exception:
 ' "${binary_path}" "${manifest_path}" "${expected_commit}" 2>/dev/null
 }
 
-# 1. Respect explicit executable BORIS_BIN if set
+# 1. Respect explicit executable BORIS_BIN if set (resolving to absolute path)
 if [[ -n "${BORIS_BIN:-}" && -x "${BORIS_BIN}" ]]; then
-  echo "${BORIS_BIN}"
+  ABS_BORIS_BIN=$(python3 -c 'import os, sys; print(os.path.abspath(sys.argv[1]))' "${BORIS_BIN}")
+  echo "${ABS_BORIS_BIN}"
   exit 0
 fi
 
@@ -112,6 +114,7 @@ if [[ -x "${TARGET_BIN}" ]]; then
 fi
 
 # 3. Check for local sibling repository (pre-built executable or build from source)
+# MUST require sibling HEAD == PINNED_COMMIT
 SIBLING_CANDIDATES=(
   "${ROOT}/../boris"
   "${ROOT}/../boris/main"
@@ -123,6 +126,11 @@ for sibling in "${SIBLING_CANDIDATES[@]}"; do
   if [[ -d "${sibling}" ]]; then
     sibling_commit=$(git -C "${sibling}" rev-parse HEAD 2>/dev/null || echo "unknown")
     sibling_branch=$(git -C "${sibling}" branch --show-current 2>/dev/null || echo "${BORIS_BRANCH}")
+
+    if [[ "${sibling_commit}" != "${PINNED_COMMIT}" ]]; then
+      echo "==> Skipping sibling repository at ${sibling} (commit ${sibling_commit} != target commit ${PINNED_COMMIT})." >&2
+      continue
+    fi
 
     if [[ -x "${sibling}/zig-out/bin/boris" ]]; then
       echo "==> Attempting pre-built Boris binary from sibling repository (${sibling})..." >&2
@@ -157,30 +165,48 @@ fi
 
 echo "==> Provisioning Boris compiler (${PINNED_COMMIT})..." >&2
 
-# Check or download Zig compiler
+# Check or download Zig compiler matching exact ZIG_VERSION
 mkdir -p "${ROOT}/.tools/cache/global" "${ROOT}/.tools/cache/local"
 export ZIG_GLOBAL_CACHE_DIR="${ROOT}/.tools/cache/global"
 export ZIG_LOCAL_CACHE_DIR="${ROOT}/.tools/cache/local"
 
-if ! command -v zig >/dev/null 2>&1; then
+verify_zig_version() {
+  local zig_bin="$1"
+  if command -v "$zig_bin" >/dev/null 2>&1; then
+    local v
+    v=$("$zig_bin" version 2>/dev/null || echo "")
+    if [[ "$v" == "$ZIG_VERSION" ]]; then
+      return 0
+    fi
+  fi
+  return 1
+}
+
+ZIG_CMD=""
+if verify_zig_version "zig"; then
+  ZIG_CMD="zig"
+elif [[ -x "${ROOT}/.tools/zig/zig" ]] && verify_zig_version "${ROOT}/.tools/zig/zig"; then
+  ZIG_CMD="${ROOT}/.tools/zig/zig"
+fi
+
+if [[ -z "${ZIG_CMD}" ]]; then
   ZIG_DIR="${ROOT}/.tools/zig"
-  if [[ ! -x "${ZIG_DIR}/zig" ]]; then
-    echo "==> Downloading Zig ${ZIG_VERSION}..." >&2
-    mkdir -p "${ROOT}/.tools"
+  echo "==> Provisioning Zig ${ZIG_VERSION} compiler..." >&2
+  mkdir -p "${ROOT}/.tools"
 
-    OS=$(uname -s | tr '[:upper:]' '[:lower:]')
-    ARCH=$(uname -m)
-    if [[ "${OS}" == "darwin" ]]; then
-      OS="macos"
-    fi
-    if [[ "${ARCH}" == "x86_64" ]]; then
-      ARCH="x86_64"
-    elif [[ "${ARCH}" == "arm64" || "${ARCH}" == "aarch64" ]]; then
-      ARCH="aarch64"
-    fi
-    PLATFORM_KEY="${ARCH}-${OS}"
+  OS=$(uname -s | tr '[:upper:]' '[:lower:]')
+  ARCH=$(uname -m)
+  if [[ "${OS}" == "darwin" ]]; then
+    OS="macos"
+  fi
+  if [[ "${ARCH}" == "x86_64" ]]; then
+    ARCH="x86_64"
+  elif [[ "${ARCH}" == "arm64" || "${ARCH}" == "aarch64" ]]; then
+    ARCH="aarch64"
+  fi
+  PLATFORM_KEY="${ARCH}-${OS}"
 
-    EXPECTED_SHA=$(python3 -c '
+  EXPECTED_SHA=$(python3 -c '
 import json, sys
 try:
     with open(sys.argv[1]) as f:
@@ -190,45 +216,55 @@ except Exception:
     pass
 ' "${CONFIG_FILE}" "${PLATFORM_KEY}" 2>/dev/null || true)
 
-    ZIG_URL="https://ziglang.org/download/${ZIG_VERSION}/zig-${ARCH}-${OS}-${ZIG_VERSION}.tar.xz"
-    ZIG_TAR_TMP="${ROOT}/.tools/zig-${ZIG_VERSION}-${PLATFORM_KEY}.tar.xz.tmp"
-    ZIG_EXTRACT_TMP="${ROOT}/.tools/zig-extract.tmp"
+  if [[ -z "${EXPECTED_SHA}" ]]; then
+    echo "ERROR: No committed SHA-256 checksum found for platform ${PLATFORM_KEY} in ${CONFIG_FILE}" >&2
+    exit 1
+  fi
 
-    rm -rf "${ZIG_TAR_TMP}" "${ZIG_EXTRACT_TMP}"
+  ZIG_URL="https://ziglang.org/download/${ZIG_VERSION}/zig-${ARCH}-${OS}-${ZIG_VERSION}.tar.xz"
+  ZIG_TAR_TMP="${ROOT}/.tools/zig-${ZIG_VERSION}-${PLATFORM_KEY}.tar.xz.tmp"
+  ZIG_EXTRACT_TMP="${ROOT}/.tools/zig-extract.tmp"
 
-    if ! curl -f -L -s -o "${ZIG_TAR_TMP}" "${ZIG_URL}"; then
-      echo "ERROR: Failed to download Zig from ${ZIG_URL}" >&2
-      rm -f "${ZIG_TAR_TMP}"
-      exit 1
-    fi
+  rm -rf "${ZIG_TAR_TMP}" "${ZIG_EXTRACT_TMP}"
 
-    if [[ -n "${EXPECTED_SHA}" ]]; then
-      ACTUAL_SHA=$(python3 -c '
+  if ! curl -f -L -s -o "${ZIG_TAR_TMP}" "${ZIG_URL}"; then
+    echo "ERROR: Failed to download Zig from ${ZIG_URL}" >&2
+    rm -f "${ZIG_TAR_TMP}"
+    exit 1
+  fi
+
+  ACTUAL_SHA=$(python3 -c '
 import hashlib, sys
 with open(sys.argv[1], "rb") as f:
     print(hashlib.sha256(f.read()).hexdigest())
 ' "${ZIG_TAR_TMP}")
-      if [[ "${ACTUAL_SHA}" != "${EXPECTED_SHA}" ]]; then
-        echo "ERROR: Zig download checksum mismatch for ${PLATFORM_KEY}!" >&2
-        echo "  Expected: ${EXPECTED_SHA}" >&2
-        echo "  Actual:   ${ACTUAL_SHA}" >&2
-        rm -f "${ZIG_TAR_TMP}"
-        exit 1
-      fi
-    fi
-
-    mkdir -p "${ZIG_EXTRACT_TMP}"
-    if ! tar -xJ -C "${ZIG_EXTRACT_TMP}" --strip-components=1 -f "${ZIG_TAR_TMP}"; then
-      echo "ERROR: Failed to extract Zig archive." >&2
-      rm -rf "${ZIG_TAR_TMP}" "${ZIG_EXTRACT_TMP}"
-      exit 1
-    fi
-
-    rm -rf "${ZIG_DIR}"
-    mv "${ZIG_EXTRACT_TMP}" "${ZIG_DIR}"
+  if [[ "${ACTUAL_SHA}" != "${EXPECTED_SHA}" ]]; then
+    echo "ERROR: Zig download checksum mismatch for ${PLATFORM_KEY}!" >&2
+    echo "  Expected: ${EXPECTED_SHA}" >&2
+    echo "  Actual:   ${ACTUAL_SHA}" >&2
     rm -f "${ZIG_TAR_TMP}"
+    exit 1
   fi
-  export PATH="${ZIG_DIR}:${PATH}"
+
+  mkdir -p "${ZIG_EXTRACT_TMP}"
+  if ! tar -xJ -C "${ZIG_EXTRACT_TMP}" --strip-components=1 -f "${ZIG_TAR_TMP}"; then
+    echo "ERROR: Failed to extract Zig archive." >&2
+    rm -rf "${ZIG_TAR_TMP}" "${ZIG_EXTRACT_TMP}"
+    exit 1
+  fi
+
+  rm -rf "${ZIG_DIR}"
+  mv "${ZIG_EXTRACT_TMP}" "${ZIG_DIR}"
+  rm -f "${ZIG_TAR_TMP}"
+  ZIG_CMD="${ZIG_DIR}/zig"
+fi
+
+export PATH="$(dirname "${ZIG_CMD}"):${PATH}"
+ACTUAL_ZIG_VERSION=$("${ZIG_CMD}" version 2>/dev/null || echo "${ZIG_VERSION}")
+
+if [[ "${ACTUAL_ZIG_VERSION}" != "${ZIG_VERSION}" ]]; then
+  echo "ERROR: Compiler binary version (${ACTUAL_ZIG_VERSION}) does not match configured Zig version (${ZIG_VERSION})" >&2
+  exit 1
 fi
 
 BUILD_DIR="${ROOT}/.tools/boris-build"
@@ -257,7 +293,7 @@ if [[ "${ACTUAL_COMMIT}" != "${PINNED_COMMIT}" ]]; then
 fi
 
 echo "==> Compiling Boris executable..." >&2
-if ! (cd "${BUILD_DIR}" && zig build) >&2; then
+if ! (cd "${BUILD_DIR}" && "$ZIG_CMD" build) >&2; then
   echo "ERROR: Boris compilation failed" >&2
   rm -rf "${BUILD_DIR}"
   exit 1
@@ -271,7 +307,7 @@ fi
 
 cp "${BUILD_DIR}/zig-out/bin/boris" "${TARGET_BIN}"
 chmod +x "${TARGET_BIN}"
-write_manifest "${TARGET_BIN}" "remote" "${BORIS_REPOSITORY}" "${BORIS_BRANCH}" "${PINNED_COMMIT}" "${ZIG_VERSION}" "${MANIFEST}"
+write_manifest "${TARGET_BIN}" "remote" "${BORIS_REPOSITORY}" "${BORIS_BRANCH}" "${PINNED_COMMIT}" "${ACTUAL_ZIG_VERSION}" "${MANIFEST}"
 rm -rf "${BUILD_DIR}"
 
 echo "${TARGET_BIN}"

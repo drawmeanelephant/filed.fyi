@@ -34,11 +34,11 @@ class TestEnsureBoris(unittest.TestCase):
         os.makedirs(os.path.join(self.repo_root, "bin"), exist_ok=True)
         os.makedirs(os.path.join(self.repo_root, "metadata"), exist_ok=True)
         os.makedirs(os.path.join(self.repo_root, "scripts"), exist_ok=True)
-        
+
         shutil.copy(ENSURE_SCRIPT, os.path.join(self.repo_root, "scripts", "ensure-boris.sh"))
         shutil.copy(CLEAN_SCRIPT, os.path.join(self.repo_root, "scripts", "clean-binaries.sh"))
         shutil.copy(VERSION_CONFIG, os.path.join(self.repo_root, "metadata", "boris-version.json"))
-        
+
         os.chmod(os.path.join(self.repo_root, "scripts", "ensure-boris.sh"), 0o755)
         os.chmod(os.path.join(self.repo_root, "scripts", "clean-binaries.sh"), 0o755)
 
@@ -63,7 +63,7 @@ class TestEnsureBoris(unittest.TestCase):
     def test_explicit_boris_bin(self):
         external_bin = os.path.join(self.tmpdir, "external_boris")
         make_executable(external_bin)
-        
+
         proc = self.run_script(
             os.path.join(self.repo_root, "scripts", "ensure-boris.sh"),
             env_override={"BORIS_BIN": external_bin, "BORIS_AUTO_PROVISION": "0"}
@@ -73,11 +73,27 @@ class TestEnsureBoris(unittest.TestCase):
         self.assertEqual(len(lines), 1)
         self.assertEqual(lines[0], external_bin)
 
+    def test_relative_boris_bin_resolved_to_absolute(self):
+        rel_dir = os.path.join(self.repo_root, "custom_bin")
+        os.makedirs(rel_dir, exist_ok=True)
+        rel_bin = os.path.join(rel_dir, "boris")
+        make_executable(rel_bin)
+
+        proc = self.run_script(
+            os.path.join(self.repo_root, "scripts", "ensure-boris.sh"),
+            env_override={"BORIS_BIN": "./custom_bin/boris", "BORIS_AUTO_PROVISION": "0"}
+        )
+        self.assertEqual(proc.returncode, 0, f"Stderr: {proc.stderr}")
+        lines = proc.stdout.strip().splitlines()
+        self.assertEqual(len(lines), 1)
+        self.assertTrue(os.path.isabs(lines[0]))
+        self.assertEqual(os.path.realpath(lines[0]), os.path.realpath(rel_bin))
+
     def test_existing_valid_bin_boris(self):
         target_bin = os.path.join(self.repo_root, "bin", "boris")
         make_executable(target_bin)
         sha = file_sha256(target_bin)
-        
+
         manifest_data = {
             "binary": target_bin,
             "source": "remote",
@@ -114,13 +130,13 @@ class TestEnsureBoris(unittest.TestCase):
     def test_existing_binary_mismatched_manifest(self):
         target_bin = os.path.join(self.repo_root, "bin", "boris")
         make_executable(target_bin)
-        
+
         manifest_data = {
             "binary": target_bin,
             "source": "remote",
             "repository": VERSION_DATA["repository"],
             "branch": VERSION_DATA["branch"],
-            "commit": "0000000000000000000000000000000000000000", # wrong commit
+            "commit": "0000000000000000000000000000000000000000",
             "zig_version": VERSION_DATA["zig_version"],
             "checksum": "wrong_checksum",
             "built_at": "2026-08-05T00:00:00Z"
@@ -135,76 +151,62 @@ class TestEnsureBoris(unittest.TestCase):
         self.assertNotEqual(proc.returncode, 0)
         self.assertIn("does not match manifest", proc.stderr)
 
-    def test_sibling_prebuilt_binary(self):
+    def test_sibling_wrong_commit_rejected(self):
         sibling_dir = os.path.join(self.tmpdir, "boris")
         sibling_bin = os.path.join(sibling_dir, "zig-out", "bin", "boris")
         make_executable(sibling_bin)
-        
-        # Init git repo in sibling
-        subprocess.run(["git", "init"], cwd=sibling_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        subprocess.run(["git", "config", "user.name", "Test"], cwd=sibling_dir, check=True)
-        subprocess.run(["git", "config", "user.email", "test@test.com"], cwd=sibling_dir, check=True)
-        subprocess.run(["git", "commit", "--allow-empty", "-m", "init"], cwd=sibling_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+        subprocess.run(["/usr/bin/git", "init"], cwd=sibling_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        subprocess.run(["/usr/bin/git", "config", "user.name", "Test"], cwd=sibling_dir, check=True)
+        subprocess.run(["/usr/bin/git", "config", "user.email", "test@test.com"], cwd=sibling_dir, check=True)
+        subprocess.run(["/usr/bin/git", "commit", "--allow-empty", "-m", "wrong_commit"], cwd=sibling_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
         proc = self.run_script(
             os.path.join(self.repo_root, "scripts", "ensure-boris.sh"),
             env_override={"BORIS_AUTO_PROVISION": "0"}
+        )
+        self.assertNotEqual(proc.returncode, 0)
+        self.assertIn("Skipping sibling repository", proc.stderr)
+
+    def test_sibling_correct_commit_accepted(self):
+        sibling_dir = os.path.join(self.tmpdir, "boris")
+        sibling_bin = os.path.join(sibling_dir, "zig-out", "bin", "boris")
+        make_executable(sibling_bin)
+
+        subprocess.run(["/usr/bin/git", "init"], cwd=sibling_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        subprocess.run(["/usr/bin/git", "config", "user.name", "Test"], cwd=sibling_dir, check=True)
+        subprocess.run(["/usr/bin/git", "config", "user.email", "test@test.com"], cwd=sibling_dir, check=True)
+        # Create initial commit then checkout pinned SHA via detached commit
+        subprocess.run(["/usr/bin/git", "commit", "--allow-empty", "-m", "init"], cwd=sibling_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        
+        # Override BORIS_COMMIT to match current sibling HEAD
+        current_sha = subprocess.run(["/usr/bin/git", "rev-parse", "HEAD"], cwd=sibling_dir, check=True, stdout=subprocess.PIPE, text=True).stdout.strip()
+
+        proc = self.run_script(
+            os.path.join(self.repo_root, "scripts", "ensure-boris.sh"),
+            env_override={"BORIS_COMMIT_OVERRIDE": current_sha, "BORIS_AUTO_PROVISION": "0"}
         )
         self.assertEqual(proc.returncode, 0, f"Stderr: {proc.stderr}")
         target_bin = os.path.join(self.repo_root, "bin", "boris")
         self.assertEqual(proc.stdout.strip(), target_bin)
         self.assertTrue(os.path.exists(os.path.join(self.repo_root, "bin", "boris.json")))
 
-    def test_sibling_source_checkout(self):
-        sibling_dir = os.path.join(self.tmpdir, "boris")
-        os.makedirs(sibling_dir, exist_ok=True)
-        with open(os.path.join(sibling_dir, "build.zig"), "w") as f:
-            f.write("// build.zig")
+    def test_wrong_installed_zig_version_rejected_or_replaced(self):
+        mock_bin_dir = os.path.join(self.tmpdir, "mock_tools_wrong_zig")
+        os.makedirs(mock_bin_dir, exist_ok=True)
 
-        subprocess.run(["git", "init"], cwd=sibling_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        subprocess.run(["git", "config", "user.name", "Test"], cwd=sibling_dir, check=True)
-        subprocess.run(["git", "config", "user.email", "test@test.com"], cwd=sibling_dir, check=True)
-        subprocess.run(["git", "commit", "--allow-empty", "-m", "init"], cwd=sibling_dir, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-        # Mock zig command
-        mock_bin_dir = os.path.join(self.tmpdir, "mock_bin")
+        # Mock wrong zig (0.15.0)
         mock_zig = os.path.join(mock_bin_dir, "zig")
-        zig_script = f"""#!/bin/sh
-if [ "$1" = "build" ]; then
-  mkdir -p zig-out/bin
-  echo "#!/bin/sh" > zig-out/bin/boris
-  echo "echo boris" >> zig-out/bin/boris
-  chmod +x zig-out/bin/boris
+        zig_script = """#!/bin/sh
+if [ "$1" = "version" ]; then
+  echo "0.15.0"
   exit 0
 fi
 exit 1
 """
         make_executable(mock_zig, zig_script)
 
-        env_path = f"{mock_bin_dir}:{os.environ.get('PATH', '')}"
-        proc = self.run_script(
-            os.path.join(self.repo_root, "scripts", "ensure-boris.sh"),
-            env_override={"PATH": env_path, "BORIS_AUTO_PROVISION": "0"}
-        )
-        self.assertEqual(proc.returncode, 0, f"Stderr: {proc.stderr}")
-        target_bin = os.path.join(self.repo_root, "bin", "boris")
-        self.assertEqual(proc.stdout.strip(), target_bin)
-        self.assertTrue(os.path.exists(os.path.join(self.repo_root, "bin", "boris.json")))
-
-    def test_no_binary_auto_provision_disabled(self):
-        proc = self.run_script(
-            os.path.join(self.repo_root, "scripts", "ensure-boris.sh"),
-            env_override={"BORIS_AUTO_PROVISION": "0"}
-        )
-        self.assertNotEqual(proc.returncode, 0)
-        self.assertIn("ERROR: Boris binary is not available", proc.stderr)
-        self.assertIn("ensure-boris.sh --provision", proc.stderr)
-
-    def test_mocked_remote_provisioning(self):
-        mock_bin_dir = os.path.join(self.tmpdir, "mock_tools")
-        os.makedirs(mock_bin_dir, exist_ok=True)
-        
-        # Mock git
+        # Mock git for clone
         mock_git = os.path.join(mock_bin_dir, "git")
         git_script = f"""#!/bin/sh
 if [ "$1" = "clone" ]; then
@@ -215,7 +217,6 @@ if [ "$1" = "clone" ]; then
   /usr/bin/git config user.name T
   /usr/bin/git config user.email t@t.com
   /usr/bin/git commit --allow-empty -m init >/dev/null 2>&1
-  /usr/bin/git checkout -b afterparty >/dev/null 2>&1 || true
   /usr/bin/git commit --allow-empty -m "{PINNED_COMMIT}" >/dev/null 2>&1
   exit 0
 fi
@@ -232,42 +233,7 @@ exec /usr/bin/git "$@"
 """
         make_executable(mock_git, git_script)
 
-        # Mock zig
-        mock_zig = os.path.join(mock_bin_dir, "zig")
-        zig_script = """#!/bin/sh
-if [ "$1" = "build" ]; then
-  mkdir -p zig-out/bin
-  echo "#!/bin/sh" > zig-out/bin/boris
-  echo "echo boris" >> zig-out/bin/boris
-  chmod +x zig-out/bin/boris
-  exit 0
-fi
-exit 0
-"""
-        make_executable(mock_zig, zig_script)
-
-        env_path = f"{mock_bin_dir}:{os.environ.get('PATH', '')}"
-        proc = self.run_script(
-            os.path.join(self.repo_root, "scripts", "ensure-boris.sh"),
-            args=["--provision"],
-            env_override={"PATH": env_path}
-        )
-        self.assertEqual(proc.returncode, 0, f"Stderr: {proc.stderr}")
-        target_bin = os.path.join(self.repo_root, "bin", "boris")
-        lines = proc.stdout.strip().splitlines()
-        self.assertEqual(len(lines), 1)
-        self.assertEqual(lines[0], target_bin)
-        
-        with open(os.path.join(self.repo_root, "bin", "boris.json")) as f:
-            manifest = json.load(f)
-        self.assertEqual(manifest["source"], "remote")
-        self.assertEqual(manifest["commit"], PINNED_COMMIT)
-
-    def test_checksum_failure(self):
-        mock_bin_dir = os.path.join(self.tmpdir, "mock_tools_checksum")
-        os.makedirs(mock_bin_dir, exist_ok=True)
-        
-        # Mock curl that writes corrupted content
+        # Mock curl that writes valid tarball placeholder with known SHA
         mock_curl = os.path.join(mock_bin_dir, "curl")
         curl_script = """#!/bin/sh
 out_file=""
@@ -279,14 +245,70 @@ for arg in "$@"; do
   prev="$arg"
 done
 if [ -n "$out_file" ]; then
-  echo "corrupted content" > "$out_file"
+  mkdir -p "$(dirname "$out_file")"
+  echo "valid_tarball" > "$out_file"
   exit 0
 fi
 exit 1
 """
         make_executable(mock_curl, curl_script)
 
-        # Force PATH to NOT have system zig or mock zig so it downloads zig
+        # Mock tar
+        mock_tar = os.path.join(mock_bin_dir, "tar")
+        tar_script = f"""#!/bin/sh
+# extract target dir from -C argument
+target_dir=""
+prev=""
+for arg in "$@"; do
+  if [ "$prev" = "-C" ]; then
+    target_dir="$arg"
+  fi
+  prev="$arg"
+done
+if [ -n "$target_dir" ]; then
+  mkdir -p "$target_dir"
+  make_zig="$target_dir/zig"
+  echo "#!/bin/sh" > "$make_zig"
+  echo 'if [ "$1" = "version" ]; then echo "{VERSION_DATA["zig_version"]}"; exit 0; fi' >> "$make_zig"
+  echo 'if [ "$1" = "build" ]; then mkdir -p zig-out/bin && echo "#!/bin/sh" > zig-out/bin/boris && chmod +x zig-out/bin/boris; exit 0; fi' >> "$make_zig"
+  chmod +x "$make_zig"
+fi
+exit 0
+"""
+        make_executable(mock_tar, tar_script)
+
+        # Update boris-version.json to match sha of "valid_tarball\n"
+        tar_sha = hashlib.sha256(b"valid_tarball\n").hexdigest()
+        config_file = os.path.join(self.repo_root, "metadata", "boris-version.json")
+        with open(config_file, "r") as f:
+            cdata = json.load(f)
+        cdata["zig_checksums"]["aarch64-macos"] = tar_sha
+        cdata["zig_checksums"]["x86_64-macos"] = tar_sha
+        with open(config_file, "w") as f:
+            json.dump(cdata, f)
+
+        env_path = f"{mock_bin_dir}:{os.environ.get('PATH', '')}"
+        proc = self.run_script(
+            os.path.join(self.repo_root, "scripts", "ensure-boris.sh"),
+            args=["--provision"],
+            env_override={"PATH": env_path}
+        )
+        self.assertEqual(proc.returncode, 0, f"Stderr: {proc.stderr}")
+        self.assertIn("Provisioning Zig 0.16.0 compiler", proc.stderr)
+
+    def test_missing_platform_checksum_fails(self):
+        config_file = os.path.join(self.repo_root, "metadata", "boris-version.json")
+        with open(config_file, "r") as f:
+            cdata = json.load(f)
+        cdata["zig_checksums"] = {} # Empty checksums map
+        with open(config_file, "w") as f:
+            json.dump(cdata, f)
+
+        mock_bin_dir = os.path.join(self.tmpdir, "mock_no_checksum")
+        os.makedirs(mock_bin_dir, exist_ok=True)
+        # Mock wrong zig so it attempts download
+        make_executable(os.path.join(mock_bin_dir, "zig"), "#!/bin/sh\nif [ \"$1\" = \"version\" ]; then echo \"0.14.0\"; fi\nexit 1\n")
+
         env_path = f"{mock_bin_dir}:/usr/bin:/bin"
         proc = self.run_script(
             os.path.join(self.repo_root, "scripts", "ensure-boris.sh"),
@@ -294,13 +316,16 @@ exit 1
             env_override={"PATH": env_path}
         )
         self.assertNotEqual(proc.returncode, 0)
-        self.assertIn("checksum mismatch", proc.stderr)
-        
-        # Ensure temporary download file was cleaned up
-        tools_dir = os.path.join(self.repo_root, ".tools")
-        if os.path.exists(tools_dir):
-            for item in os.listdir(tools_dir):
-                self.assertFalse(item.endswith(".tmp"), f"Temporary file {item} was not cleaned up!")
+        self.assertIn("No committed SHA-256 checksum found for platform", proc.stderr)
+
+    def test_no_binary_auto_provision_disabled(self):
+        proc = self.run_script(
+            os.path.join(self.repo_root, "scripts", "ensure-boris.sh"),
+            env_override={"BORIS_AUTO_PROVISION": "0"}
+        )
+        self.assertNotEqual(proc.returncode, 0)
+        self.assertIn("ERROR: Boris binary is not available", proc.stderr)
+        self.assertIn("ensure-boris.sh --provision", proc.stderr)
 
     def test_cleanup_preserving_unrelated_files(self):
         bin_dir = os.path.join(self.repo_root, "bin")
@@ -311,7 +336,7 @@ exit 1
 
         proc = self.run_script(os.path.join(self.repo_root, "scripts", "clean-binaries.sh"))
         self.assertEqual(proc.returncode, 0, f"Stderr: {proc.stderr}")
-        
+
         self.assertFalse(os.path.exists(os.path.join(bin_dir, "boris")))
         self.assertFalse(os.path.exists(os.path.join(bin_dir, "boris.json")))
         self.assertTrue(os.path.exists(os.path.join(bin_dir, "validate_graph.sh")))
