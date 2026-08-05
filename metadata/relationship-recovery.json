@@ -1,0 +1,36 @@
+{
+  "artifact": "relationship-recovery-manifest",
+  "audit_scope_total": 4293,
+  "content_residue_excluded": {
+    "files": 146,
+    "related_declarations": 18
+  },
+  "declared_by_field": {
+    "mascotRef": 640,
+    "relatedEntries": 1058,
+    "relatedHaiku": 158,
+    "relatedLimerick": 155,
+    "relatedMascots": 650
+  },
+  "declared_total": 2661,
+  "entries_scanned": 2238,
+  "ground_truth": [
+    "src/content",
+    "src/content-residue"
+  ],
+  "manifest_rows": 2661,
+  "provenance_commit": "6abe4416",
+  "status_counts": {
+    "ambiguous": 4,
+    "missing": 54,
+    "resolved": 2602,
+    "self": 0,
+    "source_unmigrated": 1
+  },
+  "structural_only": {
+    "parentEntry": 1632
+  },
+  "unmigrated_sources": [
+    "docs/limericks/LIM-LLG-CODEX-SANDBOX-RODEO.mdx"
+  ]
+}
