@@ -277,13 +277,13 @@ exit 0
 """
         make_executable(mock_tar, tar_script)
 
-        # Update boris-version.json to match sha of "valid_tarball\n"
+        # Update boris-version.json to match sha of "valid_tarball\n" for all platform keys
         tar_sha = hashlib.sha256(b"valid_tarball\n").hexdigest()
         config_file = os.path.join(self.repo_root, "metadata", "boris-version.json")
         with open(config_file, "r") as f:
             cdata = json.load(f)
-        cdata["zig_checksums"]["aarch64-macos"] = tar_sha
-        cdata["zig_checksums"]["x86_64-macos"] = tar_sha
+        for key in cdata.get("zig_checksums", {}):
+            cdata["zig_checksums"][key] = tar_sha
         with open(config_file, "w") as f:
             json.dump(cdata, f)
 
