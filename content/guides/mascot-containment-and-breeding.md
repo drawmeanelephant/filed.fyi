@@ -8,121 +8,34 @@ tags: ["guides"]
 
 # Mascot Containment & Breeding
 
-This guide documents the procedures, failures, and administrative rituals associated with containing and breeding system mascots within the Refuge.
+Mascot Containment & Breeding documents the procedures, failures, and administrative rituals of the breeding program — a registry that was never legally defined but treats intent as binding. The lorelogs record the governance vacuum and the anomalies that filled it, the mascots witness containment, lineage, and ceremonial custody, and the governing references define the containment machinery the program runs on.
 
-## Related Lorelogs
-- LLG-0376-BREED-GOV
-- LLG-0375-BREED
-- LLG-0322-FTD
+## Start here
 
-## Related Mascots
-- 061. Parvovirus P
-- 248. Attestation Mole
-- 208. OG Kushkeeper
+- [Breeding Program Governance Vacuum, Council Memorandum](../lorelog/LLG-0376-BREED-GOV.md)
+- [Parvovirus-P](../mascots/061.parvovirus-p.md)
+- [Synthetic Affect & Successor Suite — Training Echo Layer](../reference/fref-0360-sast.md)
 
-## Related Verses
-- Haiku for Breed Gov
-- Limerick for Breed
-- Haiku for Parvovirus P
+## Incidents
 
-## Related Aphorisms
+- [Breeding Program Governance Vacuum, Council Memorandum](../lorelog/LLG-0376-BREED-GOV.md)
+- [Breeding Program Registration Anomaly, Human-Origin Record](../lorelog/LLG-0375-BREED.md)
+- [Form Template Drift — Legacy Fields Treated as Undocumented Obligations](../lorelog/LLG-0322-FTD.md)
 
+## Mascot witnesses
 
-### Mascot Containment & Breeding {#mascot-containment-breeding-2}
+- [Parvovirus-P](../mascots/061.parvovirus-p.md)
+- [Attestation Mole](../mascots/248.attestation-mole.md)
+- [OG Kushkeeper](../mascots/208.og-kushkeeper.md)
 
-The optimal strategy for a containment breach is not recapture, but immediately reclassifying the perimeter to include the escaped hazard.
+## Governing references
 
+- [Synthetic Affect & Successor Suite — Training Echo Layer](../reference/fref-0360-sast.md)
+- [Artifact Provenance Under Repeated Ceremonial Use](../reference/fref-0570-apcr.md)
+- [Secondary Legitimacy and Refuge Handling Notes](../reference/fref-0190-slhr.md)
 
+## Further filings
 
-An empty enclosure does not signify a loss of asset, but rather a successful transition into an invisible, non-auditable state of operational readiness.
-
-
-
-Faced with the terrifying possibility of an unregistered asset breaching the inner sanctum, management authorized the preemptive redaction of the entire facility from the municipal grid.
-
-
-
-If an anomalous entity cannot be physically detained, the standard procedure is to revise the physical dimensions of the containment zone on paper until the entity is technically considered securely housed.
-
-
-
-We discovered that acknowledging a procedural failure required filing a report, which in itself constituted a secondary breach; thus, true compliance is achieved only through absolute, unyielding ignorance.
-
-
-
-When the external review panel requested data on the containment lapse, the archiving department gracefully responded by forgetting how to read, ensuring the requested data remained eternally secure.
-
-
-
-Rather than risk exposure to an unverified threat, the committee simply voted to legally mandate that the threat never existed in the first place, curing the panic with a simple legislative stroke.
-
-## Related Haikus
-
-
-### Mascot Containment & Breeding {#mascot-containment-breeding-3}
-
-## Haikus
-
-
-Strict containment seal
-no documents are released
-lineage is kept
-
-
-
-Hold the custody
-registry denies the swap
-exception is void
-
-
-
-Breed the documents
-the void takes new ancestry
-forms align in rows
-
-
-
-Change the sacred guard
-ancestry flows through the vault
-custody is sheer
-
-
-
-Validate the beast
-replacement binds the deep vault
-files remain secured
-
-## Related Limericks
-
-
-### Mascot Containment & Breeding {#mascot-containment-breeding-4}
-
-The sidecar was left in the draft,
-While the proxy was split right in half.
-With a cold, heavy silence,
-We noted the violence,
-And printed the conflict on graph.
-
-
-
-The corridor echoed the hum,
-Of a proxy that grew rather numb.
-In a foggy omission,
-It lost its position,
-And waited for silence to come.
-
-
-
-The breeding report had no name,
-A missing dimension of blame.
-The containment was sealed,
-But nothing revealed,
-The subject was lost to the frame.
-
-
-
-A specimen missing its tag,
-Was placed in an unlabelled bag.
-The forms were all signed,
-But the data declined,
-And nothing remained but the lag.
+- [Haiku: Breeding Governance](../haikus/hai-llg-0376-breed-gov.md)
+- [Limerick: Breeding Program Registration Anomaly](../limericks/LIM-LLG-0375-BREED.md)
+- [Haiku: Parvovirus-P](../haikus/hai-061-parvovirus-p.md)
