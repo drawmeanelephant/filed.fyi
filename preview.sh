@@ -1,14 +1,16 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -Eeuo pipefail
 
-export PATH="/usr/bin:/bin:$PATH"
+export PATH="${PATH:+$PATH:}/usr/bin:/bin"
 
 PORT=${1:-8000}
 THEME=${2:-themes/cantilever}
 DIST_DIR=${DIST_DIR:-dist/preview}
 
-BORIS_BIN=$("./scripts/ensure-boris.sh")
-export BORIS_BIN
+if [[ -z "${BORIS_BIN:-}" || ! -x "${BORIS_BIN}" ]]; then
+  BORIS_BIN=$("./scripts/ensure-boris.sh")
+  export BORIS_BIN
+fi
 
 THEME="$THEME" DIST_DIR="$DIST_DIR" ./scripts/filed-build.sh
 

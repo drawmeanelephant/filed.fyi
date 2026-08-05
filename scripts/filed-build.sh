@@ -1,13 +1,16 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -Eeuo pipefail
 
-export PATH="/usr/bin:/bin:$PATH"
+export PATH="${PATH:+$PATH:}/usr/bin:/bin"
 
 ROOT=$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
 cd "$ROOT"
 
-BORIS_BIN=$("./scripts/ensure-boris.sh")
-export BORIS_BIN
+if [[ -z "${BORIS_BIN:-}" || ! -x "${BORIS_BIN}" ]]; then
+  BORIS_BIN=$("./scripts/ensure-boris.sh")
+  export BORIS_BIN
+fi
+
 CONTENT_DIR=${CONTENT_DIR:-content}
 THEME=${THEME:-themes/cantilever}
 DIST_DIR=${DIST_DIR:-dist/cantilever}
