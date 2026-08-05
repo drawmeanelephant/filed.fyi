@@ -226,8 +226,15 @@ def transform_file(path: "str | Path", *, collapse_all: bool = False) -> tuple[s
     return transformed, stats
 
 
-def is_guide_path(path: Path) -> bool:
-    return path.parts[0] == "guides"
+def is_guide_path(path: Path, root: Path) -> bool:
+    """True when ``path`` sits under a ``guides/`` directory inside ``root``.
+
+    ``root.rglob`` yields absolute-or-relative paths anchored at ``root``, so
+    the guide segment is only visible relative to ``root`` — ``path.parts[0]``
+    is the top of the build tree (e.g. "dist"), not "guides".
+    """
+    relative = path.relative_to(root)
+    return bool(relative.parts) and relative.parts[0] == "guides"
 
 
 def process_directory(root: Path) -> dict:
@@ -237,7 +244,10 @@ def process_directory(root: Path) -> dict:
         if "_boris" in path.parts:
             continue
         summary["files"] += 1
-        _, stats = transform_file(path, collapse_all=is_guide_path(path))
+        _, stats = transform_file(
+            path,
+            collapse_all=is_guide_path(path, root),
+        )
         if not stats["changed"]:
             continue
         summary["changed"] += 1

@@ -30,7 +30,12 @@ from pathlib import Path
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
-from verse_residue import transform_html, transform_file, is_guide_path  # noqa: E402
+from verse_residue import (  # noqa: E402
+    transform_html,
+    transform_file,
+    is_guide_path,
+    process_directory,
+)
 
 TESTDATA = os.path.join(ROOT, "scripts", "testdata", "verse-residue")
 FAILURES = []
@@ -146,8 +151,16 @@ def test_stub_empty():
 def test_guide_always_collapsed():
     print("== guide page ==")
     transformed, stats = transform_html(fixture("guide.html"), collapse_all=True)
-    check("guide path detected",
-          is_guide_path(Path("guides/GUIDE-0001.html")))
+    # Mirrors the production shape: rglob paths are anchored at the build
+    # root, so the guide segment is the first *relative* part.
+    check("guide path detected relative to root",
+          is_guide_path(Path("dist/cantilever/guides/GUIDE-0001.html"),
+                        Path("dist/cantilever")))
+    check("non-guide path rejected",
+          not is_guide_path(Path("dist/cantilever/reference/fref-x.html"),
+                            Path("dist/cantilever")))
+    check("root itself is not a guide",
+          not is_guide_path(Path("dist/cantilever"), Path("dist/cantilever")))
     check("short guide verse still collapsed",
           '<details class="verse-residue__body">' in transformed)
     check("summary present", "Show 1 related poems" in transformed)
@@ -156,6 +169,28 @@ def test_guide_always_collapsed():
     check("TOC residue entry on guide",
           'href="#verse-residue"' in toc
           and not re.search(r'#related-aphorisms', toc))
+
+
+def test_process_directory_collapses_guides():
+    print("== directory processor collapses guides ==")
+    tmpdir = Path(tempfile.mkdtemp(prefix="verse-residue-guide-test-"))
+    try:
+        guide_dir = tmpdir / "guides"
+        guide_dir.mkdir(parents=True)
+
+        target = guide_dir / "GUIDE-0001.html"
+        target.write_text(fixture("guide.html"), encoding="utf-8")
+
+        summary = process_directory(tmpdir)
+        rendered = target.read_text(encoding="utf-8")
+
+        check("guide rewritten", summary["changed"] == 1)
+        check(
+            "guide collapsed through directory processor",
+            '<details class="verse-residue__body">' in rendered,
+        )
+    finally:
+        shutil.rmtree(tmpdir, ignore_errors=True)
 
 
 def test_transform_file_writes_in_place():
@@ -189,6 +224,7 @@ def main():
         test_large_collection,
         test_stub_empty,
         test_guide_always_collapsed,
+        test_process_directory_collapses_guides,
     ]
     for test in tests:
         test()
