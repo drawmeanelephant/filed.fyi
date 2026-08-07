@@ -96,7 +96,7 @@ Dry humor is welcome when it emerges naturally from the work.
 
 ## Trunk Count
 
-Update the `Count:` line in `content/changelog.md` when adding a new entry. This is maintained by hand. Approximate counts are fine.
+Update the `Count:` line in `content/changelog.md` when adding a new entry. The count must be accurate at the time of the commit. A knowingly wrong count is not acceptable.
 
 ---
 

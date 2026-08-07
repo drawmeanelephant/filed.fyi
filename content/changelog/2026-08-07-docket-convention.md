@@ -33,6 +33,7 @@ tags: ["changelog", "convention", "infrastructure"]
 - `content/changelog.md` — trunk description updated
 - `content/changelog/2026-08-07-docket-convention.md` — this record, created
 - `docs/changelog-convention.md` — convention reference, created
+- `metadata/id-map.jsonl` — CHG-0002 registered via `--write` pass
 
 ## Verification performed
 
