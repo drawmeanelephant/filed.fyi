@@ -8,14 +8,14 @@ tags: ["lorelog", "rage", "angertainment", "action-attempts", "simulator-weather
 
 # RAGE Extraction Attempts — Turning Angertainment into Action
 
-RAGE Extraction describes what happens when a filer tries to
-drag anger out of a feed and into their life.
+Record Note: This case file compiles recurring behavioral patterns rather than documenting a single service failure. It indexes instances where filers attempted to convert feed-mediated anger into local action, and tracks DOGE handling during reclassification reviews.
 
-This file covers patterns where:
+## Pattern Overview
 
-- filers report doing something offline in response to RAGE streams, and
-- DOGE must decide whether that something constitutes enough
-  Origin, Agency, and Residue to reclassify the experience.
+Intake staff routinely processed filings where:
+
+- filers reported local actions taken in response to feed-mediated RAGE streams, and  
+- DOGE provenance reviews evaluated whether local Origin, Agency, and Residue criteria were met to support reclassification.
 
 ---
 
