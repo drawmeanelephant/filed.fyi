@@ -29,34 +29,33 @@ NNNNN increments from 00001. Gaps are acceptable. Do not renumber existing entri
 
 ## Filename Convention
 
-Files are named with a date prefix (consistent with the existing CHG-0001 naming pattern):
+Files are named with a date and task slug prefix:
 
 ```
 content/changelog/2026-08-07-docket-convention.md
 content/changelog/2026-09-15-next-task-slug.md
 ```
 
-The maintenance docket identifier (`0.1.NNNNN.task-slug`) lives in the entry body, not the filename. The Boris `id` field uses the standard collection form: `changelog/CHG-NNNN`.
+Boris derives the canonical entity ID directly from the source path (`changelog/YYYY-MM-DD-task-slug`). No synthetic `CHG-NNNN` numbers or frontmatter `id:` overrides are needed.
 
-New files must sort after `2026-04-22-init.md` to receive the correct CHG number from the ID allocator. Date-prefixed filenames satisfy this automatically for dates after 2026-04-22.
+The maintenance docket identifier (`0.1.NNNNN.task-slug`) lives in the entry body, not the filename or frontmatter.
 
 ---
 
 ## Frontmatter
 
-Standard Boris closed schema. No new keys.
+Standard Boris closed schema. No `id:` override required.
 
 ```yaml
 ---
 title: "Short descriptive title"
-id: changelog/CHG-NNNN
 parent: changelog
 status: published
 tags: ["changelog", ...]
 ---
 ```
 
-Date, maintenance ID, and scope are body text, not YAML keys.
+Date, maintenance ID, and scope are body text, not frontmatter fields.
 
 ---
 

@@ -22,7 +22,6 @@ from pathlib import Path
 
 DEFAULT_PREFIX = {
     "aphorisms": "APH",
-    "changelog": "CHG",
     "guides": "GUIDE",
     "haikus": "HAI",
     "limericks": "LIM",
@@ -256,6 +255,23 @@ def build_records(root: Path, legacy_by_source: dict[str, str] | None = None) ->
             })
             continue
 
+        if collection not in DEFAULT_PREFIX:
+            new_id = current_id or f"{collection}/{path.stem}"
+            records.append({
+                "source": rel.as_posix(),
+                "legacy_id": old_id,
+                "current_id": current_id,
+                "id": new_id,
+                "form_id": None,
+                "collection": collection,
+                "parent": collection,
+                "title": title,
+                "role": "satellite",
+                "_text": text,
+                "_body_offset": body_offset,
+            })
+            continue
+
         used = used_by_collection.setdefault(collection, set())
         candidate = form_id_for(collection, path.stem)
         record = {
@@ -302,7 +318,7 @@ def validate_records(records: list[dict[str, str | None]], require_current_ids: 
         if entity_id in ids:
             raise MigrationError(f"duplicate entity ID {entity_id!r}: {ids[entity_id]} and {source}")
         ids[entity_id] = source
-        if require_current_ids and str(record["current_id"]) != entity_id:
+        if require_current_ids and str(record["current_id"]) and str(record["current_id"]) != entity_id:
             raise MigrationError(
                 f"{source}: current id {record['current_id']!r} does not match canonical {entity_id!r}"
             )
@@ -313,13 +329,20 @@ def validate_records(records: list[dict[str, str | None]], require_current_ids: 
 
         collection = str(record["collection"])
         parent = str(record["parent"])
-        form_id = str(record["form_id"])
+        form_id = record["form_id"]
+        if form_id is None:
+            if parent not in roots:
+                raise MigrationError(f"{source}: parent {parent!r} is not a discovered trunk")
+            if not entity_id.startswith(collection + "/"):
+                raise MigrationError(f"{source}: entity ID is outside collection namespace: {entity_id}")
+            continue
+        form_id_str = str(form_id)
         if parent not in roots:
             raise MigrationError(f"{source}: parent {parent!r} is not a discovered trunk")
         if not entity_id.startswith(collection + "/"):
             raise MigrationError(f"{source}: entity ID is outside collection namespace: {entity_id}")
-        if not ID_PATTERN.fullmatch(form_id) or not re.search(r"(?:^|-)[0-9]{4}(?:-|$)", form_id):
-            raise MigrationError(f"{source}: form ID must contain a four-digit numeric segment: {form_id}")
+        if not ID_PATTERN.fullmatch(form_id_str) or not re.search(r"(?:^|-)[0-9]{4}(?:-|$)", form_id_str):
+            raise MigrationError(f"{source}: form ID must contain a four-digit numeric segment: {form_id_str}")
 
 
 def public_record(record: dict[str, str | None]) -> dict[str, str | None]:
