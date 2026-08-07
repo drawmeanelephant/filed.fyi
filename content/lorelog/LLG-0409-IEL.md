@@ -8,6 +8,8 @@ tags: ["lorelog", "inherited-evidence", "explanation-layer", "trust-surface", "a
 
 # Institutional Explanation Layer, Trust Surface Continuity Event
 
+Framing Note: This document records the adopted administrative explanation layer generated during the trust-surface continuity event. It is retained as historical institutional evidence of how the event was reinterpreted for reporting compliance, not as an objective archive doctrine.
+
 ## Summary
 
 During a scheduled trust-surface optimization cycle, several assurance-facing interfaces were transitioned from strict live verification dependence to continuity-oriented rendering supported by inherited basis states, cached attestations, and non-blocking witness delivery. This adjustment reduced visible interruption, preserved navigability, and allowed trust-bearing surfaces to remain available while upstream dependency conditions moved through latency, retirement, and managed-absence patterns.
