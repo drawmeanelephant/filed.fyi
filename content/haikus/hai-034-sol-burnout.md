@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "burnout", "sunstroke", "fatigue", "hardware-fatigue"]
 ## Haikus
 
 
-Brightness hurts the eyes  \nWarmth becomes a blinding light  \nContrast is too high  
+Brightness hurts the eyes  
+Warmth becomes a blinding light  
+Contrast is too high  
 
 
 
-Optimism fails  \nPower cycling in the sun  \nWeary of the shine  
+Optimism fails  
+Power cycling in the sun  
+Weary of the shine  
 
 
 
-I try to bring light  \nBut I only burn the screen  \nShadows offer rest
+I try to bring light  
+But I only burn the screen  
+Shadows offer rest

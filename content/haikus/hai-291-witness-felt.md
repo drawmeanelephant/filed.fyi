@@ -11,15 +11,21 @@ tags: ["haikus", "witness", "testimony", "padding"]
 ## Haikus
 
 
-Testimony hurts  \nSo we wrap it in soft felt  \nSharpness is removed  
+Testimony hurts  
+So we wrap it in soft felt  
+Sharpness is removed  
 
 
 
-Difficult to hear  \nSmooth the edges of the word  \nRooms prefer the soft  
+Difficult to hear  
+Smooth the edges of the word  
+Rooms prefer the soft  
 
 
 
-Truth hits the soft pad  \nBouncing gently to the floor  \nOutcry makes no noise  
+Truth hits the soft pad  
+Bouncing gently to the floor  
+Outcry makes no noise  
 
 
 

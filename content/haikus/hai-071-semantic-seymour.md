@@ -11,12 +11,18 @@ tags: ["haikus", "semantics", "drift", "meaning"]
 ## Haikus
 
 
-Words begin to change  \nMeaning lost to time and use  \nSeymour tracks the shift  
+Words begin to change  
+Meaning lost to time and use  
+Seymour tracks the shift  
 
 
 
-Canonical breaks  \nThe entry means something else  \nFlag the document  
+Canonical breaks  
+The entry means something else  
+Flag the document  
 
 
 
-Definitions fade  \nKeeping the old meaning clear  \nLanguage is decay
+Definitions fade  
+Keeping the old meaning clear  
+Language is decay

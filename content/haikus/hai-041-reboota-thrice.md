@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "reboot", "crisis", "stability", "false-resolution", "
 ## Haikus
 
 
-Power cycle now  \nIt will surely fix the flaw  \nEmotional reset  
+Power cycle now  
+It will surely fix the flaw  
+Emotional reset  
 
 
 
-Reboot once again  \nStability is a mood  \nFunction does not care  
+Reboot once again  
+Stability is a mood  
+Function does not care  
 
 
 
-Problems still remain  \nBut the uptime starts at zero  \nTry restarting it
+Problems still remain  
+But the uptime starts at zero  
+Try restarting it

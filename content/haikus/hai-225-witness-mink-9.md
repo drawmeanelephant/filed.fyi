@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "witness", "intervals", "episodes"]
 ## Haikus
 
 
-It almost broke down  \nBut the pager did not ring  \nI remember it  
+It almost broke down  
+But the pager did not ring  
+I remember it  
 
 
 
-Holding the details  \nOf a near miss in the dark  \nThe system survived  
+Holding the details  
+Of a near miss in the dark  
+The system survived  
 
 
 
-Watching the silent gaps  \nWhere disaster brushed the code  \nWitness to the close
+Watching the silent gaps  
+Where disaster brushed the code  
+Witness to the close

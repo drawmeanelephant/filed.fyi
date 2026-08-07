@@ -11,12 +11,18 @@ tags: ["haikus", "affective-smoothing", "emotional-preprocessing", "dashboard-st
 ## Haikus
 
 
-Wash away the rage  \nMake the anger dashboard-safe  \nClean and sterile stats  
+Wash away the rage  
+Make the anger dashboard-safe  
+Clean and sterile stats  
 
 
 
-Iron out the tears  \nThe peaks and valleys are gone  \nFlatline of the heart  
+Iron out the tears  
+The peaks and valleys are gone  
+Flatline of the heart  
 
 
 
-Before they see it  \nThe feelings are scrubbed and dried  \nLaundered for the boss
+Before they see it  
+The feelings are scrubbed and dried  
+Laundered for the boss

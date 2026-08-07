@@ -11,12 +11,18 @@ tags: ["haikus", "illusory-recovery", "unresolved-exhaustion", "projected-rest"]
 ## Haikus
 
 
-Casting a soft glow  \nOver the depleted state  \nRest is an illusion  
+Casting a soft glow  
+Over the depleted state  
+Rest is an illusion  
 
 
 
-It is quiet now  \nBut the damage is still there  \nLantern shines in vain  
+It is quiet now  
+But the damage is still there  
+Lantern shines in vain  
 
 
 
-Watching the exhausted  \nPainting them in healthy hues  \nWaiting for the end
+Watching the exhausted  
+Painting them in healthy hues  
+Waiting for the end

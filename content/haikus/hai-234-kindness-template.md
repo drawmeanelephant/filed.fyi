@@ -11,12 +11,18 @@ tags: ["haikus", "procedural-kindness", "empathetic-macros", "standardized-care"
 ## Haikus
 
 
-Standardize the words  \nNothing must be truly done  \nJust say it with care  
+Standardize the words  
+Nothing must be truly done  
+Just say it with care  
 
 
 
-We hear your concern  \nPaste the macro in the box  \nEmpathy is typed  
+We hear your concern  
+Paste the macro in the box  
+Empathy is typed  
 
 
 
-Kindness in the form  \nThe response is very warm  \nResolution null
+Kindness in the form  
+The response is very warm  
+Resolution null

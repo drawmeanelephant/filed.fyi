@@ -11,44 +11,66 @@ tags: ["haikus", "haiku", "canon", "dust", "deputy", "lore-accumulation", "negle
 ## Haikus
 
 
-Sweeping up the lore  \nNeglected links on the floor  \nDeputy of dust  
+Sweeping up the lore  
+Neglected links on the floor  
+Deputy of dust  
 
 
 
-Particles of truth  \nFloating in the sunlit air  \nNo one reads the page  
+Particles of truth  
+Floating in the sunlit air  
+No one reads the page  
 
 
 
-I patrol the old  \nThe forgotten and the stale  \nDusty canon rules  
+I patrol the old  
+The forgotten and the stale  
+Dusty canon rules  
 
 
 
-Broom assignment failed  \nA fatal registry fault  \nDust reclassifies  
+Broom assignment failed  
+A fatal registry fault  
+Dust reclassifies  
 
 
 
-Filings lie quite still  \nLegitimacy settles  \nRecord ends right here  
+Filings lie quite still  
+Legitimacy settles  
+Record ends right here  
 
 
 
-Sweep the dusty logs  \nNo broom has been given out  \nWe leave it all here  
+Sweep the dusty logs  
+No broom has been given out  
+We leave it all here  
 
 
 
-Human breathing near  \nSheds invalid canon skin  \nStored as truth supreme  
+Human breathing near  
+Sheds invalid canon skin  
+Stored as truth supreme  
 
 
 
-Cross-links now degrade  \nDeputy observes the dust  \nWait for proper forms  
+Cross-links now degrade  
+Deputy observes the dust  
+Wait for proper forms  
 
 
 
-Old claims turn to stone  \nDust will testify for us  \nGods of stale ledgers  
+Old claims turn to stone  
+Dust will testify for us  
+Gods of stale ledgers  
 
 
 
-User sneezes loud  \nDust assumes new proxy form  \nSend them an invoice  
+User sneezes loud  
+Dust assumes new proxy form  
+Send them an invoice  
 
 
 
-Particles of truth  \nClassified as system logs  \nHuman cells filed twice
+Particles of truth  
+Classified as system logs  
+Human cells filed twice

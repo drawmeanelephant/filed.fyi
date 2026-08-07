@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "entropy", "buffers", "doubt"]
 ## Haikus
 
 
-Memory implodes  \nRecursion meets its limit  \nRender is a void  
+Memory implodes  
+Recursion meets its limit  
+Render is a void  
 
 
 
-Failure is a rite  \nInstitutional despair  \nNothing will work here  
+Failure is a rite  
+Institutional despair  
+Nothing will work here  
 
 
 
-Entropy expands  \nConsuming the final logs  \nDarkness takes the screen
+Entropy expands  
+Consuming the final logs  
+Darkness takes the screen

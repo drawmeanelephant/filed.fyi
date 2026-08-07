@@ -11,44 +11,66 @@ tags: ["haikus", "haiku", "patience", "sealant", "waiting", "delay", "governance
 ## Haikus
 
 
-We will just delay  \nThe adhesive takes its time  \nBureaucracy dries  
+We will just delay  
+The adhesive takes its time  
+Bureaucracy dries  
 
 
 
-Seal it with a wait  \nNothing needs to end today  \nPatience holds it tight  
+Seal it with a wait  
+Nothing needs to end today  
+Patience holds it tight  
 
 
 
-Sticking things together  \nWith a slow and steady breath  \nNever rushing through  
+Sticking things together  
+With a slow and steady breath  
+Never rushing through  
 
 
 
-Hold still, do not move  \nHuman errors are setting  \nWait for the next form  
+Hold still, do not move  
+Human errors are setting  
+Wait for the next form  
 
 
 
-Texture of delay  \nKeeping user flaws secure  \nPending is a choice  
+Texture of delay  
+Keeping user flaws secure  
+Pending is a choice  
 
 
 
-Answer has not dried  \nPlease stop touching the margins  \nError sealed in place  
+Answer has not dried  
+Please stop touching the margins  
+Error sealed in place  
 
 
 
-File remains open  \nGovernance by slow setting  \nDo not close the lid  
+File remains open  
+Governance by slow setting  
+Do not close the lid  
 
 
 
-Render state deferred  \nWaiting is the policy  \nHold the user back  
+Render state deferred  
+Waiting is the policy  
+Hold the user back  
 
 
 
-Glue binds the loose ends  \nMistakes trapped within the bond  \nNothing is resolved  
+Glue binds the loose ends  
+Mistakes trapped within the bond  
+Nothing is resolved  
 
 
 
-Calm bureaucracy  \nThe adhesive is spreading  \nQuietly ignored  
+Calm bureaucracy  
+The adhesive is spreading  
+Quietly ignored  
 
 
 
-Registry stub sweep  \nWe catalog the delay  \nStop asking for dates
+Registry stub sweep  
+We catalog the delay  
+Stop asking for dates

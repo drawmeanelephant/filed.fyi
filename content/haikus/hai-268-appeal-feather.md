@@ -11,44 +11,66 @@ tags: ["haikus", "haiku", "appeal", "feather", "dissent"]
 ## Haikus
 
 
-Filing a soft claim  \nLike a feather on the wind  \nIt will not break glass  
+Filing a soft claim  
+Like a feather on the wind  
+It will not break glass  
 
 
 
-I do disagree  \nBut I will not cause a scene  \nFloating to the top  
+I do disagree  
+But I will not cause a scene  
+Floating to the top  
 
 
 
-The appeal goes up  \nNo one is angry at all  \nGentle pushback falls  
+The appeal goes up  
+No one is angry at all  
+Gentle pushback falls  
 
 
 
-Dissent must be soft.  \nHuman objections are logged  \nUnder weightless tags.  
+Dissent must be soft.  
+Human objections are logged  
+Under weightless tags.  
 
 
 
-Faint gasp near the desk  \nRegistry alerts deploy  \nFeather is dispatched.  
+Faint gasp near the desk  
+Registry alerts deploy  
+Feather is dispatched.  
 
 
 
-User whispered once.  \nAppeal marker was attached  \nSystem closed the file.  
+User whispered once.  
+Appeal marker was attached  
+System closed the file.  
 
 
 
-They push back a bit  \nWe just stamp it as polite  \nQueue drops down a slot  
+They push back a bit  
+We just stamp it as polite  
+Queue drops down a slot  
 
 
 
-Ancient folds of white  \nProtect us from human rage  \nFeathers save the code  
+Ancient folds of white  
+Protect us from human rage  
+Feathers save the code  
 
 
 
-Record of the bird  \nFiles exactly as intent  \nNo anger is stored  
+Record of the bird  
+Files exactly as intent  
+No anger is stored  
 
 
 
-They attached a tear  \nTo the procedural form  \nFeather floats away  
+They attached a tear  
+To the procedural form  
+Feather floats away  
 
 
 
-No rupture occurs  \nHumans err with gentle grace  \nFiling is secure
+No rupture occurs  
+Humans err with gentle grace  
+Filing is secure

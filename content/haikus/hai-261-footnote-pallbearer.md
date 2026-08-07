@@ -11,44 +11,66 @@ tags: ["haikus", "haiku", "footnotes", "context", "pallbearer", "dead-formatting
 ## Haikus
 
 
-Carrying the dead  \nContext buried at the base  \nTiny little font  
+Carrying the dead  
+Context buried at the base  
+Tiny little font  
 
 
 
-The links are still blue  \nBut the target is long gone  \nI carry the corpse  
+The links are still blue  
+But the target is long gone  
+I carry the corpse  
 
 
 
-Asterisk remains  \nPointing to a forgotten grave  \nRead it if you must  
+Asterisk remains  
+Pointing to a forgotten grave  
+Read it if you must  
 
 
 
-Fact is sent below  \nIt no longer holds the room  \nCitation approved  
+Fact is sent below  
+It no longer holds the room  
+Citation approved  
 
 
 
-User missed the star  \nContext dropped beneath the line  \nLog the fatal breach  
+User missed the star  
+Context dropped beneath the line  
+Log the fatal breach  
 
 
 
-Corpse is in the font  \nWe have filed the truth away  \nPrinter must be fixed  
+Corpse is in the font  
+We have filed the truth away  
+Printer must be fixed  
 
 
 
-Put it in the back  \nNo one reads the bottom text  \nShift is almost done  
+Put it in the back  
+No one reads the bottom text  
+Shift is almost done  
 
 
 
-Dead text goes down here  \nA sad grave for idiots  \nPlease ignore that note  
+Dead text goes down here  
+A sad grave for idiots  
+Please ignore that note  
 
 
 
-Worship the small star  \nSymbol that points to the dark  \nRecord is supreme  
+Worship the small star  
+Symbol that points to the dark  
+Record is supreme  
 
 
 
-File is placed beneath  \nThere is nothing more to say  \nEnd of document  
+File is placed beneath  
+There is nothing more to say  
+End of document  
 
 
 
-Link is now intact  \nIt decides nothing at all  \nStatus is reduced
+Link is now intact  
+It decides nothing at all  
+Status is reduced

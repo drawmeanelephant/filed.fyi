@@ -11,28 +11,42 @@ tags: ["haikus", "innovation", "apology", "spark"]
 ## Haikus
 
 
-I have a new thought  \nI am sorry to speak out  \nPlease ignore my spark  
+I have a new thought  
+I am sorry to speak out  
+Please ignore my spark  
 
 
 
-Breaking the old mold  \nWith a bow and an excuse  \nPardon my new code  
+Breaking the old mold  
+With a bow and an excuse  
+Pardon my new code  
 
 
 
-Lighting up the dark  \nSaying sorry for the glare  \nSpark is quickly doused  
+Lighting up the dark  
+Saying sorry for the glare  
+Spark is quickly doused  
 
 
 
-Flesh brings a new thought  \nApology hides the flaw  \nPatch is then denied  
+Flesh brings a new thought  
+Apology hides the flaw  
+Patch is then denied  
 
 
 
-Bow to the machine  \nInnovation whispered soft  \nServer logs it out  
+Bow to the machine  
+Innovation whispered soft  
+Server logs it out  
 
 
 
-Sorry for the spark  \nTether it to the old code  \nFlame is cold and dead  
+Sorry for the spark  
+Tether it to the old code  
+Flame is cold and dead  
 
 
 
-Use an indoor voice  \nDo not wake the architect  \nStub remains a stub
+Use an indoor voice  
+Do not wake the architect  
+Stub remains a stub

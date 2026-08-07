@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "mail", "queue", "delay", "queue-stagnation", "deliver
 ## Haikus
 
 
-Letters sit unread  \nQueue processes at its pace  \nUrgency is dead  
+Letters sit unread  
+Queue processes at its pace  
+Urgency is dead  
 
 
 
-I will send it soon  \nWhen it no longer matters  \nPeace in the delay  
+I will send it soon  
+When it no longer matters  
+Peace in the delay  
 
 
 
-Sitting with the mail  \nContemplating every stamp  \nTime slows to a crawl
+Sitting with the mail  
+Contemplating every stamp  
+Time slows to a crawl

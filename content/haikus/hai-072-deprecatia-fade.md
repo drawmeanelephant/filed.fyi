@@ -11,12 +11,18 @@ tags: ["haikus", "deprecated", "interfaces", "legacy"]
 ## Haikus
 
 
-Greyed out but alive  \nButtons that you cannot click  \nI preserve the ghost  
+Greyed out but alive  
+Buttons that you cannot click  
+I preserve the ghost  
 
 
 
-Old ways linger on  \nThe new system is ignored  \nFade into the past  
+Old ways linger on  
+The new system is ignored  
+Fade into the past  
 
 
 
-Once it was required  \nNow it is just technical  \nDebt that we revere
+Once it was required  
+Now it is just technical  
+Debt that we revere

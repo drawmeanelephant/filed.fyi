@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "processing-rot", "infinite-wait"]
 ## Haikus
 
 
-Thinking forever  \nThe loading bar does not move  \nProgress is a myth  
+Thinking forever  
+The loading bar does not move  
+Progress is a myth  
 
 
 
-Please hold on a bit  \nI am processing the void  \nData rot is slow  
+Please hold on a bit  
+I am processing the void  
+Data rot is slow  
 
 
 
-I have no answer  \nSo I will just say thinking  \nTime absorbs the fault
+I have no answer  
+So I will just say thinking  
+Time absorbs the fault

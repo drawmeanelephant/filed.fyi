@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "javascript", "async", "crash", "asynchronous-instabil
 ## Haikus
 
 
-Promises will break  \nStack trace bleeds across the screen  \nFunction undefined  
+Promises will break  
+Stack trace bleeds across the screen  
+Function undefined  
 
 
 
-I juggle the state  \nFunctional until I'm not  \nCrash spectacular  
+I juggle the state  
+Functional until I'm not  
+Crash spectacular  
 
 
 
-The loop spins around  \nWaiting for a callback ghost  \nTime out is reached now
+The loop spins around  
+Waiting for a callback ghost  
+Time out is reached now

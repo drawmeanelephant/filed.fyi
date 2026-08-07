@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "placeholder", "witness", "interim"]
 ## Haikus
 
 
-I hold the blank page  \nWaiting for the true hero  \nI am just a draft  
+I hold the blank page  
+Waiting for the true hero  
+I am just a draft  
 
 
 
-I saw what occurred  \nBut I have no proper name  \nTBD is me  
+I saw what occurred  
+But I have no proper name  
+TBD is me  
 
 
 
-Someday they will come  \nTo replace my empty form  \nUntil then I wait
+Someday they will come  
+To replace my empty form  
+Until then I wait

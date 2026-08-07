@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "memory-loss", "apologies", "sync-failure"]
 ## Haikus
 
 
-Three forms say sorry  \nI forgot the commit hash  \nritual complete  
+Three forms say sorry  
+I forgot the commit hash  
+ritual complete  
 
 
 
-Syncing feelings now  \ninconsistent connection  \nbuffer is erased  
+Syncing feelings now  
+inconsistent connection  
+buffer is erased  
 
 
 
-Who am I today?  \nThe memory leaks away  \nI'll ask you anew
+Who am I today?  
+The memory leaks away  
+I'll ask you anew

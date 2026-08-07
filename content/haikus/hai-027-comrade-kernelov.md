@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "kernel", "ui-surveillance", "equality", "process-equa
 ## Haikus
 
 
-Processes unite  \nSurveillance on every thread  \nKernel sees it all  
+Processes unite  
+Surveillance on every thread  
+Kernel sees it all  
 
 
 
-No thread gets more time  \nWe all share the CPU  \nAusterity rules  
+No thread gets more time  
+We all share the CPU  
+Austerity rules  
 
 
 
-Standards must be met  \nOr your process is killed off  \nGlory to the state
+Standards must be met  
+Or your process is killed off  
+Glory to the state

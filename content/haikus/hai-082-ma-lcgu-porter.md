@@ -11,12 +11,18 @@ tags: ["haikus", "deprecation", "history", "non-removal"]
 ## Haikus
 
 
-We do not delete  \nWe carry it to the shade  \nManaged obsolescence  
+We do not delete  
+We carry it to the shade  
+Managed obsolescence  
 
 
 
-Old code on my back  \nMoving to the archive now  \nNever to return  
+Old code on my back  
+Moving to the archive now  
+Never to return  
 
 
 
-It failed long ago  \nBut the lessons must remain  \nGhost in the machine
+It failed long ago  
+But the lessons must remain  
+Ghost in the machine

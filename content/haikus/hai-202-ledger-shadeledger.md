@@ -11,12 +11,18 @@ tags: ["haikus", "accounting", "audits", "unbalanced"]
 ## Haikus
 
 
-Sums that do not match  \nA phantom digit remains  \nAudit never ends  
+Sums that do not match  
+A phantom digit remains  
+Audit never ends  
 
 
 
-Chill is in the air  \nLooking for the missing cent  \nLedger cannot rest  
+Chill is in the air  
+Looking for the missing cent  
+Ledger cannot rest  
 
 
 
-Columns left and right  \nThey refuse to synchronize  \nMath is a cold ghost
+Columns left and right  
+They refuse to synchronize  
+Math is a cold ghost

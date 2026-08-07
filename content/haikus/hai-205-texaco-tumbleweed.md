@@ -11,12 +11,18 @@ tags: ["haikus", "texaco", "route-66", "arkansas"]
 ## Haikus
 
 
-Whispering old tales  \nTravelers on Route Sixty Six  \nGhosts at the old pump  
+Whispering old tales  
+Travelers on Route Sixty Six  
+Ghosts at the old pump  
 
 
 
-Historic decay  \nThe station stands in the dust  \nDrifting through the time  
+Historic decay  
+The station stands in the dust  
+Drifting through the time  
 
 
 
-No cars pull in now  \nBut the specter pumps the gas  \nMemories run rich
+No cars pull in now  
+But the specter pumps the gas  
+Memories run rich

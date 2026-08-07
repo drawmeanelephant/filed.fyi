@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "oil", "arkansas", "diesel"]
 ## Haikus
 
 
-Drilling through the bytes  \nArchiving the state's dark oil  \nLittle Rock stands proud  
+Drilling through the bytes  
+Archiving the state's dark oil  
+Little Rock stands proud  
 
 
 
-Fueling up the fleets  \nThe metadata runs thick  \nDK pumps it all  
+Fueling up the fleets  
+The metadata runs thick  
+DK pumps it all  
 
 
 
-Heritage of earth  \nSourcing from the deep below  \nDiesel runs the core
+Heritage of earth  
+Sourcing from the deep below  
+Diesel runs the core

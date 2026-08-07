@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "guacamole", "avocado", "curator"]
 ## Haikus
 
 
-Avocado dreams  \nMashed into a creamy dip  \nZesty is the life  
+Avocado dreams  
+Mashed into a creamy dip  
+Zesty is the life  
 
 
 
-Do not let it brown  \nAdd the lime and seal it tight  \nFreshness is the goal  
+Do not let it brown  
+Add the lime and seal it tight  
+Freshness is the goal  
 
 
 
-Archiving the taste  \nThe chips will soon find their way  \nGreen and vibrant bowl
+Archiving the taste  
+The chips will soon find their way  
+Green and vibrant bowl

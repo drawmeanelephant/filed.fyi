@@ -11,12 +11,18 @@ tags: ["haikus", "audits", "seals", "bureaucracy"]
 ## Haikus
 
 
-Do not change the scope  \nJust add another gold stamp  \nAudit is a loop  
+Do not change the scope  
+Just add another gold stamp  
+Audit is a loop  
 
 
 
-Certified to fail  \nWe checked all the required boxes  \nSeal upon the seal  
+Certified to fail  
+We checked all the required boxes  
+Seal upon the seal  
 
 
 
-No one takes away  \nWe only pile on the grace  \nEndorsement recursion
+No one takes away  
+We only pile on the grace  
+Endorsement recursion

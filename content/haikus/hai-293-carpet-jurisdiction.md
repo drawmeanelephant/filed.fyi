@@ -11,15 +11,21 @@ tags: ["haikus", "jurisdiction", "carpet", "authority"]
 ## Haikus
 
 
-The floor is now red  \nAuthority changes here  \nCarpet is the law  
+The floor is now red  
+Authority changes here  
+Carpet is the law  
 
 
 
-Stepping on the plush  \nThe acoustics change the mood  \nPower in the weave  
+Stepping on the plush  
+The acoustics change the mood  
+Power in the weave  
 
 
 
-I stand on the rug  \nTherefore I command the room  \nTiles have no such right  
+I stand on the rug  
+Therefore I command the room  
+Tiles have no such right  
 
 
 

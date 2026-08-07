@@ -11,12 +11,18 @@ tags: ["haikus", "doctrinal-shifts", "early-detection", "bureaucratic-toxicity"]
 ## Haikus
 
 
-The policy smells  \nI sing before it takes hold  \nWarning in the dark  
+The policy smells  
+I sing before it takes hold  
+Warning in the dark  
 
 
 
-Feathers made of lore  \nArchival air is too thick  \nI drop from the perch  
+Feathers made of lore  
+Archival air is too thick  
+I drop from the perch  
 
 
 
-Checking the old rules  \nBefore they become the law  \nCanary dies first
+Checking the old rules  
+Before they become the law  
+Canary dies first

@@ -11,11 +11,15 @@ tags: ["haikus", "haiku", "documentation", "hallucination", "patch", "self-patch
 ## Haikus
 
 
-Pages contradict  \nThe footnote leads to nowhere  \nI patched it wrong again  
+Pages contradict  
+The footnote leads to nowhere  
+I patched it wrong again  
 
 
 
-Words invent a truth  \nCommands that do not exist  \nTrust the manual  
+Words invent a truth  
+Commands that do not exist  
+Trust the manual  
 
 
 

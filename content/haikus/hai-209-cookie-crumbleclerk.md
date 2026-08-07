@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "cannabis", "arkansas", "dispensary"]
 ## Haikus
 
 
-Crumbling sweet data  \nFiling the patient relief  \nFayetteville smiles  
+Crumbling sweet data  
+Filing the patient relief  
+Fayetteville smiles  
 
 
 
-Cheerful in the stacks  \nThe metadata smells sweet  \nCookies heal the pain  
+Cheerful in the stacks  
+The metadata smells sweet  
+Cookies heal the pain  
 
 
 
-Organizing peace  \nThe strain brings a gentle joy  \nRecords are complete
+Organizing peace  
+The strain brings a gentle joy  
+Records are complete

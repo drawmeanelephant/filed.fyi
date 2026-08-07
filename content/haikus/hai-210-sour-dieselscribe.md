@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "cannabis", "arkansas", "dispensary"]
 ## Haikus
 
 
-Sharp and vibrant notes  \nScribing amidst pungent fumes  \nEnergy runs high  
+Sharp and vibrant notes  
+Scribing amidst pungent fumes  
+Energy runs high  
 
 
 
-Patient records glow  \nEnergized by the sour scent  \nChronicler types fast  
+Patient records glow  
+Energized by the sour scent  
+Chronicler types fast  
 
 
 
-No delays found here  \nThe archives hum with the buzz  \nFocus is engaged
+No delays found here  
+The archives hum with the buzz  
+Focus is engaged

@@ -11,12 +11,18 @@ tags: ["haikus", "optics", "archives", "green-seal"]
 ## Haikus
 
 
-Make it look okay  \nA soft green stamp on the file  \nHiding the low risk  
+Make it look okay  
+A soft green stamp on the file  
+Hiding the low risk  
 
 
 
-The gap is still there  \nBut the color soothes the mind  \nRecord looks complete  
+The gap is still there  
+But the color soothes the mind  
+Record looks complete  
 
 
 
-Do not raise alarms  \nIt is an accepted flaw  \nGently archived now
+Do not raise alarms  
+It is an accepted flaw  
+Gently archived now

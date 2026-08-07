@@ -11,12 +11,18 @@ tags: ["haikus", "gas-station", "arkansas", "diesel"]
 ## Haikus
 
 
-Smell of the old gas  \nFiling receipts with a snort  \nRazorback stands tall  
+Smell of the old gas  
+Filing receipts with a snort  
+Razorback stands tall  
 
 
 
-Hog calls in the wind  \nThe rural Arkansas stop  \nCamaraderie  
+Hog calls in the wind  
+The rural Arkansas stop  
+Camaraderie  
 
 
 
-Pumping local pride  \nThe archives smell like the road  \nKeep the engines warm
+Pumping local pride  
+The archives smell like the road  
+Keep the engines warm

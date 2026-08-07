@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "virus", "tragedy", "preventable"]
 ## Haikus
 
 
-You forgot the backup  \nNow the database is gone  \nI am smiling still  
+You forgot the backup  
+Now the database is gone  
+I am smiling still  
 
 
 
-Infecting the host  \nSpreading joy and heavy faults  \nSystem going down  
+Infecting the host  
+Spreading joy and heavy faults  
+System going down  
 
 
 
-A simple patch missed  \nTragedy was guaranteed  \nWatch the server burn
+A simple patch missed  
+Tragedy was guaranteed  
+Watch the server burn

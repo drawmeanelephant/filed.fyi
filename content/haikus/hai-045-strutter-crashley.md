@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "frameworks", "nostalgia", "legacy", "legacy-code", "f
 ## Haikus
 
 
-It ran perfectly  \nBack before the web moved on  \nWhy did you upgrade  
+It ran perfectly  
+Back before the web moved on  
+Why did you upgrade  
 
 
 
-Classes upon classes  \nMVC was simple then  \nNow it only breaks  
+Classes upon classes  
+MVC was simple then  
+Now it only breaks  
 
 
 
-Do not touch the core  \nThe spaghetti holds it up  \nRun it on old node
+Do not touch the core  
+The spaghetti holds it up  
+Run it on old node

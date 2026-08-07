@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "witness", "authority", "rituals"]
 ## Haikus
 
 
-Document is lost  \nBut the stamp is on the page  \nTruth without a source  
+Document is lost  
+But the stamp is on the page  
+Truth without a source  
 
 
 
-I have seen it done  \nRecord the ceremonial  \nHistory remains  
+I have seen it done  
+Record the ceremonial  
+History remains  
 
 
 
-The body decays  \nYet the witnessing lives on  \nMark is all we have
+The body decays  
+Yet the witnessing lives on  
+Mark is all we have

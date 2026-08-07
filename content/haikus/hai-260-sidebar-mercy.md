@@ -11,44 +11,66 @@ tags: ["haikus", "haiku", "mercy", "favors", "informal", "off-ledger-relief", "q
 ## Haikus
 
 
-A whisper outside  \nThe problem is quietly solved  \nOff the formal books  
+A whisper outside  
+The problem is quietly solved  
+Off the formal books  
 
 
 
-Do not file the form  \nI will push the button now  \nMercy in the dark  
+Do not file the form  
+I will push the button now  
+Mercy in the dark  
 
 
 
-Harm is materially eased  \nMain process remains untouched  \nCompassion hides well  
+Harm is materially eased  
+Main process remains untouched  
+Compassion hides well  
 
 
 
-Record says no path  \nData moves outside the frame  \nAction is zero  
+Record says no path  
+Data moves outside the frame  
+Action is zero  
 
 
 
-A missing comma  \nRequires off-book saving acts  \nWe survived the gap  
+A missing comma  
+Requires off-book saving acts  
+We survived the gap  
 
 
 
-Just take this paper  \nI will not log your mistake  \nPlease just go away  
+Just take this paper  
+I will not log your mistake  
+Please just go away  
 
 
 
-Error is wiped clean  \nPolicy weeps quietly  \nFile stays undisturbed  
+Error is wiped clean  
+Policy weeps quietly  
+File stays undisturbed  
 
 
 
-You are wrong person  \nBut I approve this subset  \nBox remains unchecked  
+You are wrong person  
+But I approve this subset  
+Box remains unchecked  
 
 
 
-The margin dictates  \nA ghost of the unwritten  \nSaves the document  
+The margin dictates  
+A ghost of the unwritten  
+Saves the document  
 
 
 
-Input was ignored  \nOutput happened anyway  \nLog shows nothing here  
+Input was ignored  
+Output happened anyway  
+Log shows nothing here  
 
 
 
-Rule is absolute  \nLocal bypass was confirmed  \nThreat vector resolved
+Rule is absolute  
+Local bypass was confirmed  
+Threat vector resolved

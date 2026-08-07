@@ -11,44 +11,66 @@ tags: ["haikus", "emotional-residue", "polite-acceptance", "inadequate-support"]
 ## Haikus
 
 
-Thank you for the help  \nThough it did not fix a thing  \nAsh falls from my lips  
+Thank you for the help  
+Though it did not fix a thing  
+Ash falls from my lips  
 
 
 
-The support was weak  \nBut manners dictate a bow  \nCollecting the dust  
+The support was weak  
+But manners dictate a bow  
+Collecting the dust  
 
 
 
-The burden remains  \nBut the ticket has been closed  \nAsh is all that's left  
+The burden remains  
+But the ticket has been closed  
+Ash is all that's left  
 
 
 
-User transmits thanks  \nIssue has not been resolved  \nMetrics look quite good  
+User transmits thanks  
+Issue has not been resolved  
+Metrics look quite good  
 
 
 
-Denial sent out  \nThey thank us for our kind words  \nPrinter queue agrees  
+Denial sent out  
+They thank us for our kind words  
+Printer queue agrees  
 
 
 
-Gratitude is logged  \nWe file it as a warm meal  \nCold is on the way  
+Gratitude is logged  
+We file it as a warm meal  
+Cold is on the way  
 
 
 
-System logs the ash  \nHuman smiles at nothingness  \nTicket is now closed  
+System logs the ash  
+Human smiles at nothingness  
+Ticket is now closed  
 
 
 
-Ancient kindness burns  \nThe abyss demands a bow  \nWe enshrine the dust  
+Ancient kindness burns  
+The abyss demands a bow  
+We enshrine the dust  
 
 
 
-They said thank you twice  \nNational emergency  \nPraise requires alert  
+They said thank you twice  
+National emergency  
+Praise requires alert  
 
 
 
-Report is received  \nUser has typed words of thanks  \nPrinter goes to sleep  
+Report is received  
+User has typed words of thanks  
+Printer goes to sleep  
 
 
 
-Thin help is dispensed  \nUser error hides in praise  \nFailure is archived
+Thin help is dispensed  
+User error hides in praise  
+Failure is archived

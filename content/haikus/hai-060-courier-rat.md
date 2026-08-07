@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "courier", "lore", "red-tape"]
 ## Haikus
 
 
-Running in the dark  \nCarrying the secret lore  \nDust upon my fur  
+Running in the dark  
+Carrying the secret lore  
+Dust upon my fur  
 
 
 
-Bureaucracy fails  \nSharp teeth bite the endless forms  \nLetters turn to trash  
+Bureaucracy fails  
+Sharp teeth bite the endless forms  
+Letters turn to trash  
 
 
 
-Systems fall apart  \nBut the message still arrives  \nSlightly chewed at edge
+Systems fall apart  
+But the message still arrives  
+Slightly chewed at edge

@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "cannabis", "arkansas", "dispensary"]
 ## Haikus
 
 
-Weaving sweet blue smoke  \nMedical metadata  \nSerene healing haze  
+Weaving sweet blue smoke  
+Medical metadata  
+Serene healing haze  
 
 
 
-Patient relief logs  \nArchived with a gentle touch  \nEthereal calm  
+Patient relief logs  
+Archived with a gentle touch  
+Ethereal calm  
 
 
 
-Curating the calm  \nThe dispensary finds peace  \nRecords softly filed
+Curating the calm  
+The dispensary finds peace  
+Records softly filed

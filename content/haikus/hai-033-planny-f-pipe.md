@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "plan9", "pipes", "network", "network-streams", "seaml
 ## Haikus
 
 
-Everything is file  \nNetwork flows without a break  \nPerfect union mount  
+Everything is file  
+Network flows without a break  
+Perfect union mount  
 
 
 
-Pipes connect the world  \nLegacy of simple truth  \nYou just wouldn't know  
+Pipes connect the world  
+Legacy of simple truth  
+You just wouldn't know  
 
 
 
-Data moves along  \nPlan 9 knew the better way  \nDirectory tree
+Data moves along  
+Plan 9 knew the better way  
+Directory tree

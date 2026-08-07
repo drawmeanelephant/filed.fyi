@@ -11,12 +11,18 @@ tags: ["haikus", "metrics-obfuscation", "dashboard-adherence", "operational-negl
 ## Haikus
 
 
-I cling to the charts  \nMaking sure the numbers drop  \nSleep through the alarm  
+I cling to the charts  
+Making sure the numbers drop  
+Sleep through the alarm  
 
 
 
-It is just a phase  \nThe burden is just the time  \nNothing is truly wrong  
+It is just a phase  
+The burden is just the time  
+Nothing is truly wrong  
 
 
 
-Arbiter of care  \nEnsuring the line goes up  \nSlowly eating leaves
+Arbiter of care  
+Ensuring the line goes up  
+Slowly eating leaves

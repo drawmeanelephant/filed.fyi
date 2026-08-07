@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "css", "layout-break", "visual-chaos"]
 ## Haikus
 
 
-Margins will collapse  \nYour layout breaks instantly  \nDivs float in the void  
+Margins will collapse  
+Your layout breaks instantly  
+Divs float in the void  
 
 
 
-Specific rules fail  \n!important everywhere  \nStyles weep in the dark  
+Specific rules fail  
+!important everywhere  
+Styles weep in the dark  
 
 
 
-I moved it leftwards  \nNow the screen is fully white  \nCascade takes its toll
+I moved it leftwards  
+Now the screen is fully white  
+Cascade takes its toll

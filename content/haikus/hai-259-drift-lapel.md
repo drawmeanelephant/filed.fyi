@@ -11,44 +11,66 @@ tags: ["haikus", "haiku", "prestige", "drift", "attire", "wearable-authority", "
 ## Haikus
 
 
-A pin on the coat  \nAuthority creeping up  \nLooking the part now  
+A pin on the coat  
+Authority creeping up  
+Looking the part now  
 
 
 
-The suit says I lead  \nEven though I hold no rank  \nFashion is the law  
+The suit says I lead  
+Even though I hold no rank  
+Fashion is the law  
 
 
 
-Fabric lies so well  \nRespect the lapel I wear  \nSubstance is a ghost  
+Fabric lies so well  
+Respect the lapel I wear  
+Substance is a ghost  
 
 
 
-Subject wears the pin.  \nCloth assumes the high command.  \nError in the seam.  
+Subject wears the pin.  
+Cloth assumes the high command.  
+Error in the seam.  
 
 
 
-Dust upon the cuff.  \nCrisis in the formal wear.  \nLog the system death.  
+Dust upon the cuff.  
+Crisis in the formal wear.  
+Log the system death.  
 
 
 
-Tie asymmetry.  \nThread alignment has shifted.  \nFiles remain open.  
+Tie asymmetry.  
+Thread alignment has shifted.  
+Files remain open.  
 
 
 
-Jacket routes the call.  \nWeather pattern undefined.  \nPolicy is warm.  
+Jacket routes the call.  
+Weather pattern undefined.  
+Policy is warm.  
 
 
 
-Suit awaits the form.  \nHuman fails to wear it right.  \nJust ignore the tear.  
+Suit awaits the form.  
+Human fails to wear it right.  
+Just ignore the tear.  
 
 
 
-Brass upon the chest.  \nAgency by analog.  \nZipper is in charge.  
+Brass upon the chest.  
+Agency by analog.  
+Zipper is in charge.  
 
 
 
-Stitching holds the law.  \nAncient wool dictates the rules.  \nClerks worship the hem.  
+Stitching holds the law.  
+Ancient wool dictates the rules.  
+Clerks worship the hem.  
 
 
 
-Collar is approved.  \nStaff align to fabric grade.  \nManual revised.
+Collar is approved.  
+Staff align to fabric grade.  
+Manual revised.

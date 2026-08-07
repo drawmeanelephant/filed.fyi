@@ -11,12 +11,18 @@ tags: ["haikus", "superficial-interfaces", "placation", "system-malfunction"]
 ## Haikus
 
 
-Stamp it with a smile  \nEverything is fine today  \nObligations wait  
+Stamp it with a smile  
+Everything is fine today  
+Obligations wait  
 
 
 
-The user is calm  \nThe soft green is doing work  \nDepth is still a mess  
+The user is calm  
+The soft green is doing work  
+Depth is still a mess  
 
 
 
-I face the bright screen  \nTo tell you it will be okay  \nWhile the system burns
+I face the bright screen  
+To tell you it will be okay  
+While the system burns

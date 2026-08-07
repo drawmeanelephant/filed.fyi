@@ -11,12 +11,18 @@ tags: ["haikus", "manifest", "guardian", "workarounds"]
 ## Haikus
 
 
-Reality bends  \nOnly written rules apply  \nThe document leads  
+Reality bends  
+Only written rules apply  
+The document leads  
 
 
 
-Contamination  \nUnregistered fixes die  \nDo it by the book  
+Contamination  
+Unregistered fixes die  
+Do it by the book  
 
 
 
-Not in the strict spec  \nSo it must be fully wrong  \nLock the archive tight
+Not in the strict spec  
+So it must be fully wrong  
+Lock the archive tight

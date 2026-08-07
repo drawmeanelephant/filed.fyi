@@ -11,40 +11,60 @@ tags: ["haikus", "haiku", "corridor", "tension", "hallway", "thermal-discrepancy
 ## Haikus
 
 
-Words outside the room  \nAnger that the clerk ignores  \nHeat is in the hall  
+Words outside the room  
+Anger that the clerk ignores  
+Heat is in the hall  
 
 
 
-Meeting went so well  \nBut the sweat remains outside  \nTemperature shifts  
+Meeting went so well  
+But the sweat remains outside  
+Temperature shifts  
 
 
 
-Packet does not show  \nThe fire that burned in the gap  \nFormal ice remains  
+Packet does not show  
+The fire that burned in the gap  
+Formal ice remains  
 
 
 
-Vents are blowing hot  \nBlame the fleshy interface  \nPaperwork is safe  
+Vents are blowing hot  
+Blame the fleshy interface  
+Paperwork is safe  
 
 
 
-Corridor is warm  \nI am not paid to track sweat  \nClose the record now  
+Corridor is warm  
+I am not paid to track sweat  
+Close the record now  
 
 
 
-Water in the air  \nFlesh bags arguing too loud  \nForms are staying dry  
+Water in the air  
+Flesh bags arguing too loud  
+Forms are staying dry  
 
 
 
-Hallway heat increased  \nDeploy maximum alerts  \nTwo degrees too high  
+Hallway heat increased  
+Deploy maximum alerts  
+Two degrees too high  
 
 
 
-Legends of the sweat  \nStored within the vinyl floor  \nMemos fade away  
+Legends of the sweat  
+Stored within the vinyl floor  
+Memos fade away  
 
 
 
-They shout by the door  \nThe system logs nothing down  \nCorridor is hot  
+They shout by the door  
+The system logs nothing down  
+Corridor is hot  
 
 
 
-Draft logged as a storm  \nError vectors breathing hard  \nFile it under wind
+Draft logged as a storm  
+Error vectors breathing hard  
+File it under wind

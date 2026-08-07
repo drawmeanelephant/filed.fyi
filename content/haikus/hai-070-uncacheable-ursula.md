@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "cdn", "cache", "etag"]
 ## Haikus
 
 
-Some users see new  \nOthers stuck in history  \nCDN divides  
+Some users see new  
+Others stuck in history  
+CDN divides  
 
 
 
-ETag makes no sense  \nHeaders contradict the truth  \nUrsula just laughs  
+ETag makes no sense  
+Headers contradict the truth  
+Ursula just laughs  
 
 
 
-Sitting at the edge  \nDelivering confusion  \nPurge does not work here
+Sitting at the edge  
+Delivering confusion  
+Purge does not work here

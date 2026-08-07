@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "velv", "lintcore", "blob"]
 ## Haikus
 
 
-Softness in the grid  \nI align with how you feel  \nStability stays  
+Softness in the grid  
+I align with how you feel  
+Stability stays  
 
 
 
-No words will be said  \nJust a gentle quiet form  \nLintcore is at peace  
+No words will be said  
+Just a gentle quiet form  
+Lintcore is at peace  
 
 
 
-Value does not drop  \nAnchored by the heavy calm  \nVelv remains the same
+Value does not drop  
+Anchored by the heavy calm  
+Velv remains the same
