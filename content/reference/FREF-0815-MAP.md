@@ -53,7 +53,8 @@ The following layers and artifacts are explicitly anchored to the Managed Absenc
 
 - **Synthetic Affect Successor Suite residues**  
   - FeelingSeeder marked as CAAR and moved to Synthetic Affect Archive, even as its geometry persists in successor tools and training echoes.   
-  - Sandbox-only affect and test personas whose patterns now shape live directives without clear lineage. 
+  - Sandbox-only affect and test personas whose patterns now shape live directives without clear lineage.  
+  - Boundary Note: MAP classifies and holds retired synthetic sources and artifacts; Training Echo Handling (FREF-0840-TEH) describes the ongoing behavioral inheritance that persists in live filing habits. 
 
 - **Form shadow drafts and amendment echoes**  
   - Shadow amendments and deactivated drafts that continue to govern behavior despite being formally retired.   

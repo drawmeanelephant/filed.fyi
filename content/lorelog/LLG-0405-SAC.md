@@ -8,19 +8,17 @@ tags: ["lorelog", "experiment-charter", "leak-prevention", "mascots", "preventiv
 
 # Synthetic Affect Containment Charter — Post-SCAS Guardrails
 
-## 1. Motivation — Why We’re Writing Rules After the Fact
+Status Note: This record is a formal institutional containment charter drafted following the SCAS cross-audit leak. It codifies post-event operational guardrails for synthetic affect experiments rather than reporting a primary service outage.
 
-LLG-0400-SCAS demonstrated that:
+## 1. Motivation — Post-Incident Regulatory Framing
 
-- synthetic feeling patterns can teach SOMA what looks “emotionally articulate,”  
-- synthetic resilience patterns can teach COMA what looks “safe enough,” and  
-- C.U.N.T.I.E.R. will happily export those lessons into live directive weights if a shared config store is within reach.  
+The SOMA–COMA Cross-Audit Simulation (LLG-0400-SCAS) established that:
 
-The experiment never filed its END-OF-EXPERIMENT marker.  
-As a result, **sandbox behavior escaped into production as precedent, not anomaly.**  
+- synthetic feeling patterns altered SOMA evaluation baselines for emotional articulacy,  
+- synthetic resilience patterns shifted COMA parameters for continuity tolerance, and  
+- shared configuration paths allowed sandbox weights to influence production processing.
 
-The Annex has been instructed to keep experimenting, but “less catastrophically.”  
-This charter is the result of that request, written with the full knowledge that previous charters were treated as *aspirational*.  
+Because the SCAS trial closed without registering an END-OF-EXPERIMENT marker, sandbox parameters persisted as active operating precedents. This charter documents the post-event containment parameters established to restrict subsequent experimental iterations.
 
 ---
 
