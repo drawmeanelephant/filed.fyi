@@ -383,7 +383,11 @@ def build_rows(entries: list[Entry], by_legacy: dict[str, dict]
     """
     # Attach current counterparts.
     for entry in entries:
-        entry.current = by_legacy.get(entry.legacy_id)
+        entry.current = by_legacy.get(entry.legacy_id) or {
+            "collection": entry.collection,
+            "id": f"{entry.collection}/{entry.raw_id.split('/')[-1]}",
+            "source": entry.source,
+        }
 
     processed = {entry: entry.aliases() for entry in entries}
     rows: list[dict] = []

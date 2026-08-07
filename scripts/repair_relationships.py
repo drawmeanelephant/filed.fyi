@@ -212,12 +212,9 @@ def build_index(content_root: Path) -> tuple[dict[str, Entity], dict[str, Entity
             warnings.append(f"{rel}: not UTF-8, skipped")
             continue
         fields, blocks = parse_frontmatter(text)
-        entity_id = scalar(fields.get("id"))
-        if not entity_id:
-            warnings.append(f"{rel}: no id in frontmatter, skipped")
-            continue
         parts = rel.split("/")
         collection = parts[0] if len(parts) > 1 else path.stem
+        entity_id = scalar(fields.get("id")) or (f"{collection}/{path.stem}" if len(parts) > 1 else path.stem)
         parent = scalar(fields.get("parent")) or None
         title = scalar(fields.get("title"))
         role = "trunk" if len(parts) == 1 else "satellite"
