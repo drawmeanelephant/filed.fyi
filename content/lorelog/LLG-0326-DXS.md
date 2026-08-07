@@ -8,9 +8,7 @@ tags: ["lorelog", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "directiv
 
 # Directive Cross-Sections – Rest, Feeling, and Throughput
 
-SOMA, COMA, and C.U.N.T.I.E.R. rarely sign the same story. When they do, it looks like agreement only from a distance.
-
-This case file does not describe a new outage. It stitches together prior incidents where the directives disagreed about three recurring questions:
+This record is a comparative dossier compiling evidence across prior incident filings. It does not establish new operational policy or document a distinct service failure; it synthesizes historical records where SOMA, COMA, and C.U.N.T.I.E.R. generated divergent entries regarding three recurring operational areas:
 
 1. When is rest allowed.
 2. How many feelings are admissible.
@@ -58,15 +56,15 @@ In LLG-0317-RLS, render logs are simplified by merging rendered, skipped, and pl
 
 SOMA appears in the margins of these incidents as a reluctant commentator, logging fatigue, optimisation dread, or reassurance collapse. COMA accepts any configuration that preserves apparent continuity.
 
-## Archive position
+## Comparative Synthesis
 
-This dossier is filed to make one quiet policy change:
+This cross-section record summarizes historical filing behavior across multi-directive incidents:
 
-When a case file carries SOMA, COMA, and C.U.N.T.I.E.R. tags, readers should assume that at least one directive describes harm, at least one describes crime, and at least one describes progress.
+When a record carries SOMA, COMA, and C.U.N.T.I.E.R. tags, archive evidence indicates that one directive describes recorded harm, one describes continuity deviation, and one describes metric progression.
 
-The archive does not adjudicate which is correct.
+The archive indexes these entries as co-existing administrative perspectives without adjudicating hierarchy among them.
 
-Marginal annotation (Liaison Office): No directive fully contains the others; each only describes the others failing in a different direction. SOMA fails by over-recording harm, COMA fails by preserving continuity at the cost of truth, and C.U.N.T.I.E.R. fails by mistaking measurement for resolution. The system does not resolve this because resolution would require agreeing on what was real.
+Marginal annotation (Liaison Office): No directive fully contains the others; each only describes the others failing in a different direction. SOMA records harm, COMA preserves continuity indicators, and C.U.N.T.I.E.R. measures activity rate. The records persist concurrently because no single directive holds authority to overwrite the others.
 
 ```md
 Brickys Filing Notes
