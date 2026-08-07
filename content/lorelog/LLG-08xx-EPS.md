@@ -3,7 +3,7 @@ title: "Empathegy Productization Spur"
 id: lorelog/LLG-0002
 parent: lorelog
 status: published
-tags: ["lorelog", "stub", "witness-compression", "pending-render", "shorthand", "retrospective-scrub", "meeting-minutes", "procedural-softening", "empathegy", "despair-adjacent", "wellness-supplements", "continuity-theatre", "metrics-of-care"]
+tags: ["lorelog", "witness-compression", "shorthand", "retrospective-scrub", "meeting-minutes", "procedural-softening", "empathegy", "despair-adjacent", "wellness-supplements", "continuity-theatre", "metrics-of-care"]
 ---
 
 # Empathegy Productization Spur
