@@ -8,18 +8,13 @@ tags: ["lorelog", "jurisdictional-drift", "doge", "provenance", "lived-experienc
 
 # DOGE — Department of Genuine Experiences, Charter and Jurisdictional Scope
 
-DOGE exists because the archive eventually needed a way to tell the
-difference between experiences that *happened to someone* and experiences
-that *happened to their feed*.
+Historical Charter Note: This document records the initial charter establishing the Department of Genuine Experiences (DOGE) and its jurisdictional parameters at the time of its founding. It represents the historical administrative framework established to evaluate provenance across incoming intake filings.
 
-At first, this distinction was considered unnecessary.
-The systems assumed that if something was filed with enough intensity
-and enough supporting metrics, it could be treated as a real event.
-That assumption failed quietly, then loudly, as more and more filings
-described days that consisted entirely of scrolling.
+## Operational Mandate
 
-DOGE is the department that was created when nobody could say with
-confidence which parts of the lorelog still described lives.
+DOGE was established to distinguish filings documenting events with independent local anchors from filings documenting experiences mediated primarily through feed distribution channels.
+
+During early intake cycles, filing intensity and emotional metrics were accepted as sufficient evidence of event reality. As intake volume shifted toward entries where source recollection was tied to reply loops and notification cycles, the archive established DOGE to evaluate provenance boundaries.
 
 ---
 
