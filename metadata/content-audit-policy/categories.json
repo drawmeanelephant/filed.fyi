@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "scope": "metadata/relationship-map.jsonl",
+  "default_classification": "irrelevant",
+  "buckets": {
+    "accepted-ownership-evidence": "The relationship category may contribute an exact_mappings[poetry_id] = source_id entry, subject to the row-level rules (resolved status, canonical endpoints, exactly one owner).",
+    "semantic-not-ownership": "The relationship category is a real semantic connection but does not, on its own, name the record that owns a poetry record.",
+    "structural": "The relationship category encodes repository structure (parent/child), not editorial ownership.",
+    "ambiguous-review": "Reserved for categories whose ownership meaning is contested; no such whole-category entry exists today. Row-level contested claims (one poetry id claimed by multiple owners) are reported per row as ambiguous_ownership findings, never resolved by selection.",
+    "irrelevant": "The relationship category never carries poetry ownership meaning."
+  },
+  "classification": {
+    "mascotRef": {
+      "bucket": "accepted-ownership-evidence",
+      "poetry_endpoint": "declarer",
+      "source_endpoint": "target",
+      "rationale": "A poetry record declares the mascot it is about. The declaring record is the poem; the resolved target is the owning mascot. This is the strongest directional ownership signal in the archive: each mascot's verse set is named by its records."
+    },
+    "relatedMascots": {
+      "bucket": "accepted-ownership-evidence",
+      "poetry_endpoint": "declarer",
+      "source_endpoint": "target",
+      "rationale": "A poetry record lists the mascots its verse belongs to. Same ownership semantics as mascotRef: the poem maps to the mascot it names. Where a poetry record names several mascots, the exactly-one-owner rule reports an ambiguous_ownership finding instead of choosing."
+    },
+    "relatedHaiku": {
+      "bucket": "accepted-ownership-evidence",
+      "poetry_endpoint": "target",
+      "source_endpoint": "declarer",
+      "rationale": "A source record (lorelog) declares a haiku that belongs to it. The declared haiku is the poem; the declaring record is the owner. Direction-independent handling: the poetry endpoint is whichever side resolves to a poetry collection and the source endpoint the side that resolves to an eligible source collection."
+    },
+    "relatedLimerick": {
+      "bucket": "accepted-ownership-evidence",
+      "poetry_endpoint": "target",
+      "source_endpoint": "declarer",
+      "rationale": "A source record (lorelog) declares a limerick that belongs to it. Same ownership semantics as relatedHaiku."
+    },
+    "relatedEntries": {
+      "bucket": "semantic-not-ownership",
+      "poetry_endpoint": null,
+      "source_endpoint": null,
+      "rationale": "Generic related-entry links between arbitrary record kinds (lorelog-to-lorelog, reference-to-aphorism, mascot-to-mascot, ...). There is no directional owner meaning; accepting it would fabricate ownership from broad cross-links and manufacture thousands of contested claims. Rejected as ownership evidence."
+    },
+    "parentEntry": {
+      "bucket": "structural",
+      "poetry_endpoint": null,
+      "source_endpoint": null,
+      "rationale": "The repository parent relationship (collection grouping). Excluded from the recovered semantic map at recovery time (1632 rows, metadata/relationship-recovery.json structural_only). Never ownership evidence."
+    }
+  }
+}

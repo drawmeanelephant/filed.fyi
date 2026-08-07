@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "poetry_collections": {
+    "aphorisms": "aphorism",
+    "haikus": "haiku",
+    "limericks": "limerick"
+  },
+  "eligible_collections": {
+    "mascots": [
+      "aphorism",
+      "haiku",
+      "limerick"
+    ],
+    "lorelog": [
+      "haiku",
+      "limerick"
+    ]
+  },
+  "excluded_statuses": [],
+  "excluded_ids": [],
+  "placeholder": {
+    "exact_lines": [],
+    "title_prefixes": [],
+    "case_sensitive": true
+  },
+  "density_bands": {},
+  "mapping_relation_kinds": [
+    "relates_to"
+  ]
+}

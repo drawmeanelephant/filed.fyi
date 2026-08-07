@@ -1,0 +1,2049 @@
+{
+  "artifact": "content-audit-policy-derivation",
+  "findings": [
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0002, mascots/M-0229",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-0055"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/DS-0404-ALPHA, mascots/M-0058",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-DS-0404-ALPHA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0001-NAV, mascots/M-0404",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0001-NAV"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0012-A, mascots/M-0065",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0012-A"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0020-COMA19-PBC, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0020-COMA19-PBC"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0052-MFX, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0052-MFX"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0088-B, mascots/M-0004",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0088-B"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0115-TNS, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0115-TNS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0218-FSD, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0218-FSD"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0220-UIS, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0220-UIS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0223-EFA, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0223-EFA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0226-SUPR, mascots/M-0011",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0226-SUPR"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0230-HYG, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0230-HYG"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0244-FSC, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0244-FSC"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0311-SRA, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0311-SRA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0316-LC22, mascots/M-0073",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0316-LC22"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0323-LC04, mascots/M-0076",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0323-LC04"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0327-AVA, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0327-AVA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0336-CSE, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0336-CSE"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0339-SIRC, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0339-SIRC"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0340-BPO, mascots/M-0080",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0340-BPO"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0341-LME, mascots/M-0081",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0341-LME"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0350-DOGE-CHARTER, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0350-DOGE-CHARTER"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0351-DOGE-INTAKE, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0351-DOGE-INTAKE"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0352-DOGE-RUBRIC, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0352-DOGE-RUBRIC"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0354-DOGE-EDGE-CASES, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0354-DOGE-EDGE-CASES"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0355-GEX-2R, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0355-GEX-2R"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0356-DOGE-MEMO-FEELINGS, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0356-DOGE-MEMO-FEELINGS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0357-DOGE-RID, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0357-DOGE-RID"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0358-DOGE-W3, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0358-DOGE-W3"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0359-DOGE-AFTERCARE, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0359-DOGE-AFTERCARE"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0360-RAGE-CHARTER, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0360-RAGE-CHARTER"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0361-DOGE-STAMP-DRIFT, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0361-DOGE-STAMP-DRIFT"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0362-RAGE-EXTRACTION, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0362-RAGE-EXTRACTION"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0363-RAGE-MISIDENTIFICATION, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0363-RAGE-MISIDENTIFICATION"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0364-RAGE-BAIT-TAXONOMY, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0364-RAGE-BAIT-TAXONOMY"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0365-BAIT-B2A, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0365-BAIT-B2A"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0366-BAIT-B4A, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0366-BAIT-B4A"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0367-BAIT-B3A, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0367-BAIT-B3A"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0368-RAGE-AQ, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0368-RAGE-AQ"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0369-DOGE-SWAB, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0369-DOGE-SWAB"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0370-XEV, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0370-XEV"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0371-BAIT-B2B, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0371-BAIT-B2B"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0372-BAIT-B5, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0372-BAIT-B5"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0373-DOGE-W5, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0373-DOGE-W5"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0374-DOGE-LA, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0374-DOGE-LA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0377-GRAT, mascots/M-0006",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0377-GRAT"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0380-MATCH, mascots/M-0226",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0380-MATCH"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0381-OPTOUT, mascots/M-0301",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0381-OPTOUT"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0382-BPD, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0382-BPD"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0383-RAW, mascots/M-0068",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0383-RAW"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0384-CIR, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0384-CIR"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0385-SED, mascots/M-0049",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0385-SED"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0386-LODGE-MERGE, mascots/M-0305",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0386-LODGE-MERGE"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0387-SURV-NOP, mascots/M-0677",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0387-SURV-NOP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0388-EC-ORDER, mascots/M-0307",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0388-EC-ORDER"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0389-AKL, mascots/M-0308",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0389-AKL"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0389-MQM, mascots/M-0308",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0389-MQM"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0390-HAP, mascots/M-0305",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0390-HAP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0390-KCL, mascots/M-0308",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0390-KCL"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0391-LAA, mascots/M-0310",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0391-LAA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0391-RCD, mascots/M-0309",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0391-RCD"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0392-RCS, mascots/M-0309",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0392-RCS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0392-SGL, mascots/M-0310",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0392-SGL"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0393-BDA, mascots/M-0311",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0393-BDA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0393-RBR, mascots/M-0311",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0393-RBR"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0394-PRS, mascots/M-0311",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0394-PRS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0395-MSS, mascots/M-0309",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0395-MSS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0396-MSP, mascots/M-0308",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0396-MSP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0397-SBF, mascots/M-0310",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0397-SBF"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0398-CCO, mascots/M-0311",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0398-CCO"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0399-OCS, mascots/M-0308",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0399-OCS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0400-CMA-TSP, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0400-CMA-TSP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0400-SCAS, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0400-SCAS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0400-TRIAD, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0400-TRIAD"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0402-FSR, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0402-FSR"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0403-CWR, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0403-CWR"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0404-DCP, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0404-DCP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0406-FSD, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0406-FSD"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0409-PRE, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-0409-PRE"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-04XX-CLIN-0404, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "haikus/HAI-LLG-04XX-CLIN-0404"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0002, mascots/M-0229",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-0002"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0001-NAV, mascots/M-0404",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0001-NAV"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0020-COMA19-PBC, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0020-COMA19-PBC"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0218-FSD, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0218-FSD"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0226-SUPR, mascots/M-0011",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0226-SUPR"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0230-HYG, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0230-HYG"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0244-FSC, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0244-FSC"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0311-SRA, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0311-SRA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0316-LC22, mascots/M-0073",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0316-LC22"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0324-MAP, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0324-MAP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0326-DXS, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0326-DXS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0327-AVA, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0327-AVA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0336-CSE, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0336-CSE"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0338-SBI, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0338-SBI"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0339-SIRC, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0339-SIRC"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0340-BPO, mascots/M-0080",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0340-BPO"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0350-DOGE-CHARTER, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0350-DOGE-CHARTER"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0351-DOGE-INTAKE, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0351-DOGE-INTAKE"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0352-DOGE-RUBRIC, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0352-DOGE-RUBRIC"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0354-DOGE-EDGE-CASES, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0354-DOGE-EDGE-CASES"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0355-GEX-2R, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0355-GEX-2R"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0356-DOGE-MEMO-FEELINGS, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0356-DOGE-MEMO-FEELINGS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0357-DOGE-RID, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0357-DOGE-RID"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0358-DOGE-W3, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0358-DOGE-W3"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0359-DOGE-AFTERCARE, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0359-DOGE-AFTERCARE"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0360-RAGE-CHARTER, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0360-RAGE-CHARTER"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0361-DOGE-STAMP-DRIFT, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0361-DOGE-STAMP-DRIFT"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0362-RAGE-EXTRACTION, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0362-RAGE-EXTRACTION"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0363-RAGE-MISIDENTIFICATION, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0363-RAGE-MISIDENTIFICATION"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0364-RAGE-BAIT-TAXONOMY, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0364-RAGE-BAIT-TAXONOMY"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0365-BAIT-B2A, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0365-BAIT-B2A"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0366-BAIT-B4A, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0366-BAIT-B4A"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0367-BAIT-B3A, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0367-BAIT-B3A"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0368-RAGE-AQ, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0368-RAGE-AQ"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0369-DOGE-SWAB, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0369-DOGE-SWAB"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0370-XEV, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0370-XEV"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0371-BAIT-B2B, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0371-BAIT-B2B"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0372-BAIT-B5, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0372-BAIT-B5"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0373-DOGE-W5, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0373-DOGE-W5"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0374-DOGE-LA, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0374-DOGE-LA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0377-GRAT, mascots/M-0006",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0377-GRAT"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0380-MATCH, mascots/M-0226",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0380-MATCH"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0381-OPTOUT, mascots/M-0301",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0381-OPTOUT"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0383-RAW, mascots/M-0068",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0383-RAW"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0384-CIR, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0384-CIR"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0385-SED, mascots/M-0049",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0385-SED"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0386-LODGE-MERGE, mascots/M-0305",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0386-LODGE-MERGE"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0387-SURV-NOP, mascots/M-0677",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0387-SURV-NOP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0388-EC-ORDER, mascots/M-0307",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0388-EC-ORDER"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0389-AKL, mascots/M-0308",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0389-AKL"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0389-MQM, mascots/M-0308",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0389-MQM"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0390-HAP, mascots/M-0305",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0390-HAP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0390-KCL, mascots/M-0308",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0390-KCL"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0391-LAA, mascots/M-0310",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0391-LAA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0391-RCD, mascots/M-0309",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0391-RCD"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0392-RCS, mascots/M-0309",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0392-RCS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0392-SGL, mascots/M-0310",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0392-SGL"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0393-BDA, mascots/M-0311",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0393-BDA"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0394-PRS, mascots/M-0311",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0394-PRS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0395-MSS, mascots/M-0309",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0395-MSS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0396-MSP, mascots/M-0308",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0396-MSP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0397-SBF, mascots/M-0310",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0397-SBF"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0398-CCO, mascots/M-0311",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0398-CCO"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0400-CMA-TSP, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0400-CMA-TSP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0400-SCAS, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0400-SCAS"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0400-TRIAD, mascots/M-0005, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0400-TRIAD"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0401-SCAS-ECHO, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0401-SCAS-ECHO"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0402-FSR, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0402-FSR"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0402-GMP, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0402-GMP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0403-CWR, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0403-CWR"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0404-DCP, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0404-DCP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0404-UPLC, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0404-UPLC"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0405-DEV, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0405-DEV"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0405-SAC, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0405-SAC"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0406-FSD, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0406-FSD"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0407-SSP, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0407-SSP"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0408-AH1, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0408-AH1"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0409-PRE, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0409-PRE"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-04XX-CLIN-0404, mascots/M-0005",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-04XX-CLIN-0404"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0821-SCL, mascots/M-0019",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0821-SCL"
+    },
+    {
+      "blocking": false,
+      "detail": "poetry record is claimed by multiple owners: lorelog/LLG-0861-FPP, mascots/M-0301",
+      "kind": "ambiguous_ownership",
+      "record_id": "limericks/LIM-LLG-0861-FPP"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0001' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0001"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0001-NAV' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0001-NAV"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0002' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0002"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0002-CED' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0002-CED"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0003' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0003"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0003-SVR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0003-SVR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0004' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0004"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0004-SMD' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0004-SMD"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0005' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0005"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0006' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0006"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0007' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0007"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0007-COMA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0007-COMA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0010' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0010"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0012-A' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0012-A"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0019-COMA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0019-COMA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0020-COMA19-PBC' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0020-COMA19-PBC"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0027-B' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0027-B"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0040-C' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0040-C"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0051-E' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0051-E"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0072-SOMA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0072-SOMA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0088-B' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0088-B"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0103-COMA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0103-COMA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0114-SOMA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0114-SOMA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0217-CNTR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0217-CNTR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0218-FSD' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0218-FSD"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0226-SUPR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0226-SUPR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0230-HYG' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0230-HYG"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0244-FSC' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0244-FSC"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0300-SC-X' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0300-SC-X"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0302-CNTR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0302-CNTR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0316-LC22' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0316-LC22"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0316-MBR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0316-MBR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0317-RLS' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0317-RLS"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0318-SRO' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0318-SRO"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0319-PAS' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0319-PAS"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0320-FRK' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0320-FRK"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0321-DRT' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0321-DRT"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0322-FTD' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0322-FTD"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0323-ASD' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0323-ASD"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0323-LC04' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0323-LC04"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0325-ORT' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0325-ORT"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0326-DCB' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0326-DCB"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0327-AVA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0327-AVA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0327-AVR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0327-AVR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0328-MEC' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0328-MEC"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0329-OIR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0329-OIR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0330-TDE' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0330-TDE"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0331-TPI' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0331-TPI"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0332-SCD' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0332-SCD"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0333-MEO' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0333-MEO"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0334-CSI' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0334-CSI"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0336-CSE' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0336-CSE"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0339-SIRC' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0339-SIRC"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0340-BPO' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0340-BPO"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0341-LME' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0341-LME"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0350-DOGE-CHARTER' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0350-DOGE-CHARTER"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0351-DOGE-INTAKE' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0351-DOGE-INTAKE"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0352-DOGE-RUBRIC' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0352-DOGE-RUBRIC"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0354-DOGE-EDGE-CASES' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0354-DOGE-EDGE-CASES"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0355-GEX-2R' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0355-GEX-2R"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0356-DOGE-MEMO-FEELINGS' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0356-DOGE-MEMO-FEELINGS"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0357-DOGE-RID' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0357-DOGE-RID"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0358-DOGE-W3' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0358-DOGE-W3"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0359-DOGE-AFTERCARE' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0359-DOGE-AFTERCARE"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0360-RAGE-CHARTER' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0360-RAGE-CHARTER"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0361-DOGE-STAMP-DRIFT' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0361-DOGE-STAMP-DRIFT"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0362-RAGE-EXTRACTION' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0362-RAGE-EXTRACTION"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0363-RAGE-MISIDENTIFICATION' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0363-RAGE-MISIDENTIFICATION"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0365-BAIT-B2A' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0365-BAIT-B2A"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0366-BAIT-B4A' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0366-BAIT-B4A"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0367-BAIT-B3A' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0367-BAIT-B3A"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0368-RAGE-AQ' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0368-RAGE-AQ"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0369-DOGE-SWAB' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0369-DOGE-SWAB"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0370-XEV' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0370-XEV"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0371-BAIT-B2B' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0371-BAIT-B2B"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0372-BAIT-B5' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0372-BAIT-B5"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0373-DOGE-W5' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0373-DOGE-W5"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0374-DOGE-LA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0374-DOGE-LA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0375-BREED' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0375-BREED"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0376-BREED-GOV' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0376-BREED-GOV"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0377-GRAT' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0377-GRAT"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0378-WFA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0378-WFA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0380-MATCH' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0380-MATCH"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0381-OPTOUT' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0381-OPTOUT"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0383-RAW' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0383-RAW"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0384-CIR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0384-CIR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0385-CEB' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0385-CEB"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0385-SED' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0385-SED"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0386-LODGE-MERGE' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0386-LODGE-MERGE"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0387-SURV-NOP' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0387-SURV-NOP"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0388-EC-ORDER' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0388-EC-ORDER"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0389-AKL' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0389-AKL"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0389-MQM' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0389-MQM"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0390-HAP' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0390-HAP"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0390-KCL' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0390-KCL"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0391-LAA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0391-LAA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0391-RCD' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0391-RCD"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0392-RCS' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0392-RCS"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0392-SGL' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0392-SGL"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0393-BDA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0393-BDA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0393-RBR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0393-RBR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0394-PRS' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0394-PRS"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0395-MSS' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0395-MSS"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0396-MSP' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0396-MSP"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0397-SBF' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0397-SBF"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0398-CCO' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0398-CCO"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0399-OCS' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0399-OCS"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0400-CMA-TSP' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0400-CMA-TSP"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0400-SCAS' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0400-SCAS"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0402-FSR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0402-FSR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0403-CWR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0403-CWR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0404-DCP' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0404-DCP"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0405-MEL' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0405-MEL"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0406-FSD' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0406-FSD"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0409-IEL' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0409-IEL"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0409-PRE' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0409-PRE"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0410-BWS' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0410-BWS"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0411-RRC' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0411-RRC"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0414-WAD' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0414-WAD"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0422-SCP' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0422-SCP"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0427-RAC' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0427-RAC"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0430-HBR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0430-HBR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0441-TSR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0441-TSR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0811-EG' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0811-EG"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0820-MCR' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0820-MCR"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-0833-GTA' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-0833-GTA"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship 'mascotRef' poetry endpoint 'lorelog/LLG-MA8C-0006' is in collection 'lorelog', which is not a poetry collection",
+      "kind": "impossible_endpoint_role",
+      "record_id": "lorelog/LLG-MA8C-0006"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "aphorisms/APH-221.mccrisp-agent.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-013-htaccessius-the-doorman.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-019-kindy-mcexistentialcrisis.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-075-anlas-appenhancer.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-075-anlas-appenhancer.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-221-mccrisp-agent.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-llg-0324-map.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-llg-0326-dxs.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-llg-0338-sbi.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-llg-0401-scas-echo.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-llg-0405-sac.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-llg-0407-ssp.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-llg-0408-ah1.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "haikus/hai-llg-0821-scl.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/LIM-LLG-0012-A.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/LIM-LLG-0052-MFX.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/LIM-LLG-0088-B.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/LIM-LLG-0115-TNS.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/LIM-LLG-0220-UIS.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/LIM-LLG-0223-EFA.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/LIM-LLG-0382-BPD.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/lim-bad-gateway-greg.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/lim-ds-404-alpha.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/lim-servicey-unavailabelle.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'relatedMascots' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "limericks/lim-teapotta-protocol.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0052-MFX.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0115-TNS.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0220-UIS.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0223-EFA.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0311-SRA.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0324-MAP.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0326-DXS.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0338-SBI.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0379-ROBOT-MEMO.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0382-BPD.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0401-SCAS-ECHO.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0405-SAC.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0407-SSP.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0408-AH1.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-0821-SCL.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-IA-8C-ANNEX.md"
+    },
+    {
+      "blocking": false,
+      "detail": "accepted relationship category 'mascotRef' has status 'missing'; it cannot become a mapping",
+      "kind": "unresolved_accepted_evidence",
+      "record_id": "lorelog/LLG-MA-8C-PEPPY-01.md"
+    }
+  ],
+  "mappings": {
+    "by_owner_collection": {
+      "lorelog": 151,
+      "mascots": 702
+    },
+    "by_poetry_type": {
+      "aphorism": 238,
+      "haiku": 326,
+      "limerick": 289
+    },
+    "total": 853
+  },
+  "poetry": {
+    "records_ambiguous": 162,
+    "records_single_owner": 853,
+    "records_total": 1688,
+    "records_unmapped": 673,
+    "records_with_accepted_claims": 1015
+  },
+  "policy_digest_sha256": "d84d7512a6cb09d5954318b90b9d1bdad36da6b8bf9513961acde64fa1b3ee3f",
+  "policy_schema_version": 1,
+  "population": {
+    "eligible_collections": {
+      "lorelog": [
+        "haiku",
+        "limerick"
+      ],
+      "mascots": [
+        "aphorism",
+        "haiku",
+        "limerick"
+      ]
+    },
+    "poetry_collections": {
+      "aphorisms": "aphorism",
+      "haikus": "haiku",
+      "limericks": "limerick"
+    }
+  },
+  "rows": {
+    "accepted": 1603,
+    "accepted_resolved": 1561,
+    "by_field": {
+      "mascotRef": 640,
+      "relatedEntries": 1058,
+      "relatedHaiku": 158,
+      "relatedLimerick": 155,
+      "relatedMascots": 650
+    },
+    "by_status": {
+      "ambiguous": 4,
+      "missing": 54,
+      "resolved": 2602,
+      "source_unmigrated": 1
+    },
+    "declared": 2661,
+    "duplicate_evidence_removed": 256
+  }
+}
