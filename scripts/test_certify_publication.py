@@ -16,6 +16,11 @@ and proves every failure mode:
   * a tampered Proof Pack JSON fails digest verification;
   * script-bearing Proof Pack HTML fails;
   * mutating a certified HTML file after the run fails the gate;
+  * absolute, `..`-traversing, and out-of-tree evidence paths are rejected
+    before anything outside the certified tree is read;
+  * committed artifacts lacking a valid 64-hex SHA-256 fail the gate;
+  * duplicate committed artifact paths fail the gate;
+  * untouched real and synthetic evidence still passes;
   * the validator never writes into the certified tree.
 
 Usage:
@@ -233,14 +238,50 @@ class EvidenceBuilder:
 
         # The static presentation embeds a digest of the exact Proof Pack
         # model bytes. No script element.
+        self.rebind_presentation()
+        return self.root
+
+    def rebind_presentation(self) -> None:
+        """Rewrite the Proof Pack presentation embedding the model digest."""
         (self.proof / "index.html").write_text(
             "<!DOCTYPE html>\n<html><head>\n"
             '<meta name="proof-pack-sha256" '
-            f'content="{sha256_file(proof_pack_path)}">\n'
+            f'content="{sha256_file(self.proof / "proof-pack.json")}">\n'
             "</head><body><p>Proof Pack</p></body></html>\n",
             encoding="utf-8",
         )
-        return self.root
+
+    def tamper_artifacts(self, mutate) -> None:
+        """Mutate the artifact inventory and rebind every dependent digest.
+
+        Simulates a malicious-but-consistent evidence set: after ``mutate``
+        edits the artifacts records, the digest references in checks.json and
+        the Proof Pack model, plus the embedded presentation digest, are
+        recomputed so the decisive failure is the confinement/digest check
+        itself — not a stale digest elsewhere in the chain.
+        """
+        artifacts_path = self.proof / "artifacts.json"
+        data = json.loads(artifacts_path.read_text(encoding="utf-8"))
+        mutate(data)
+        artifacts_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+
+        checks_path = self.proof / "checks.json"
+        checks = json.loads(checks_path.read_text(encoding="utf-8"))
+        checks["artifact_inventory"]["sha256"] = sha256_file(artifacts_path)
+        checks["artifact_inventory"]["bytes"] = artifacts_path.stat().st_size
+        checks_path.write_text(json.dumps(checks, indent=2), encoding="utf-8")
+
+        # checks.json was rewritten above, so every Proof Pack input digest
+        # is rebound to the current on-disk bytes.
+        model_path = self.proof / "proof-pack.json"
+        model = json.loads(model_path.read_text(encoding="utf-8"))
+        for key in ("artifacts", "checks", "claims", "touches"):
+            target = self.proof / f"{key}.json"
+            model["inputs"][key]["sha256"] = sha256_file(target)
+            model["inputs"][key]["bytes"] = target.stat().st_size
+        model_path.write_text(json.dumps(model, indent=2), encoding="utf-8")
+
+        self.rebind_presentation()
 
 
 def test_untouched_passes():
@@ -352,6 +393,154 @@ def test_post_certification_mutation_fails():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_absolute_artifact_path_fails():
+    print("== absolute artifact path is rejected ==")
+    tmp = Path(tempfile.mkdtemp(prefix="certify-abs-"))
+    try:
+        builder = EvidenceBuilder(tmp)
+        root = builder.build()
+        builder.tamper_artifacts(
+            lambda data: data["artifacts"][0].update(path="/etc/passwd")
+        )
+        expect_fail(root, "absolute path")
+        check("absolute artifact path failed the gate", True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_traversal_artifact_path_fails():
+    print("== '..' artifact traversal is rejected ==")
+    tmp = Path(tempfile.mkdtemp(prefix="certify-traverse-"))
+    try:
+        builder = EvidenceBuilder(tmp)
+        root = builder.build()
+        builder.tamper_artifacts(
+            lambda data: data["artifacts"][0].update(path="../../outside.html")
+        )
+        expect_fail(root, "escapes the certified tree")
+        check("'..' artifact path failed the gate", True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_proof_pack_input_path_escape_fails():
+    print("== Proof Pack input path escaping the root is rejected ==")
+    tmp = Path(tempfile.mkdtemp(prefix="certify-ppescape-"))
+    try:
+        builder = EvidenceBuilder(tmp)
+        root = builder.build()
+        model = json.loads((builder.proof / "proof-pack.json")
+                           .read_text(encoding="utf-8"))
+        model["inputs"]["checks"]["path"] = "../../../etc/passwd"
+        (builder.proof / "proof-pack.json").write_text(
+            json.dumps(model, indent=2), encoding="utf-8")
+        builder.rebind_presentation()
+        expect_fail(root, "escapes the certified tree")
+        check("Proof Pack input escape failed the gate", True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_committed_artifact_missing_sha256_fails():
+    print("== committed artifact missing sha256 is rejected ==")
+    tmp = Path(tempfile.mkdtemp(prefix="certify-nosha-"))
+    try:
+        builder = EvidenceBuilder(tmp)
+        root = builder.build()
+        builder.tamper_artifacts(
+            lambda data: data["artifacts"][0].pop("sha256", None)
+        )
+        expect_fail(root, "valid 64-hex sha256")
+        check("committed artifact without sha256 failed the gate", True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_malformed_sha256_fails():
+    print("== malformed SHA-256 digest is rejected ==")
+    tmp = Path(tempfile.mkdtemp(prefix="certify-badsha-"))
+    try:
+        builder = EvidenceBuilder(tmp)
+        root = builder.build()
+        builder.tamper_artifacts(
+            lambda data: data["artifacts"][0].update(sha256="not-a-digest")
+        )
+        expect_fail(root, "valid 64-hex sha256")
+        check("malformed sha256 failed the gate", True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_non_string_artifact_path_fails():
+    print("== non-string artifact path is rejected ==")
+    tmp = Path(tempfile.mkdtemp(prefix="certify-nonstr-"))
+    try:
+        builder = EvidenceBuilder(tmp)
+        root = builder.build()
+        builder.tamper_artifacts(
+            lambda data: data["artifacts"][0].update(path=123)
+        )
+        expect_fail(root, "not a valid relative path")
+        check("non-string artifact path failed the gate", True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_symlink_escape_artifact_path_fails():
+    print("== artifact path resolving outside the root via symlink is rejected ==")
+    tmp = Path(tempfile.mkdtemp(prefix="certify-symlink-"))
+    outside_tmp = Path(tempfile.mkdtemp(prefix="certify-outside-"))
+    try:
+        builder = EvidenceBuilder(tmp)
+        root = builder.build()
+        outside = outside_tmp / "secret.html"
+        outside.write_text("<html></html>", encoding="utf-8")
+        (root / "escape-link.html").symlink_to(outside)
+        builder.tamper_artifacts(
+            lambda data: data["artifacts"][0].update(path="escape-link.html")
+        )
+        expect_fail(root, "escapes the certified tree")
+        check("symlink-escape artifact path failed the gate", True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+        shutil.rmtree(outside_tmp, ignore_errors=True)
+
+
+def test_duplicate_artifact_path_fails():
+    print("== duplicate committed artifact path is rejected ==")
+    tmp = Path(tempfile.mkdtemp(prefix="certify-dup-"))
+    try:
+        builder = EvidenceBuilder(tmp)
+        root = builder.build()
+        builder.tamper_artifacts(
+            lambda data: data["artifacts"][1].update(
+                path=data["artifacts"][0]["path"])
+        )
+        expect_fail(root, "duplicate committed artifact path")
+        check("duplicate artifact path failed the gate", True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_untouched_real_evidence_passes_when_present():
+    print("== untouched real Boris evidence passes (if a built tree is present) ==")
+    tree = Path(ROOT) / "dist" / "cantilever"
+    if not (tree / "_boris" / "proof" / "proof-pack.json").is_file():
+        print("  -- no built tree at dist/cantilever; skipping real-evidence check")
+        return
+    expect_pass(tree)
+    check("gate accepted the untouched real evidence tree", True)
+
+
+def _tree_snapshot(root: Path) -> dict:
+    """Return {relative-path: bytes} for every file under ``root``."""
+    snapshot = {}
+    for path in sorted(root.rglob("*")):
+        if path.is_file():
+            snapshot[str(path.relative_to(root))] = path.read_bytes()
+    return snapshot
+
+
 def test_inventory_sha256_mismatch_fails():
     print("== checks.json artifact inventory digest mismatch fails ==")
     tmp = Path(tempfile.mkdtemp(prefix="certify-inventory-"))
@@ -373,17 +562,25 @@ def test_validator_is_read_only():
     tmp = Path(tempfile.mkdtemp(prefix="certify-readonly-"))
     try:
         root = EvidenceBuilder(tmp).build()
-        before = {}
-        for path in sorted(root.rglob("*")):
-            if path.is_file():
-                before[str(path.relative_to(root))] = path.read_bytes()
+        before = _tree_snapshot(root)
         expect_pass(root)
-        after = {}
-        for path in sorted(root.rglob("*")):
-            if path.is_file():
-                after[str(path.relative_to(root))] = path.read_bytes()
-        check("no bytes changed in the certified tree", before == after)
-        check("no new files created", sorted(before) == sorted(after))
+        after = _tree_snapshot(root)
+        check("no bytes changed by a passing certification", before == after)
+        check("no new files created by a passing certification",
+              sorted(before) == sorted(after))
+
+        # A failing certification must also be strictly read-only: the gate
+        # detects the tamper without writing anything into the tree.
+        page = root / "reference" / "fref-sample.html"
+        page.write_text(page.read_text(encoding="utf-8") + "<!-- tampered -->\n",
+                        encoding="utf-8")
+        before_fail = _tree_snapshot(root)
+        expect_fail(root, "mutated after the Boris run")
+        after_fail = _tree_snapshot(root)
+        check("no bytes changed by a failing certification",
+              after_fail == before_fail)
+        check("no new files created by a failing certification",
+              sorted(after_fail) == sorted(before_fail))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
@@ -391,6 +588,7 @@ def test_validator_is_read_only():
 def main():
     tests = [
         test_untouched_passes,
+        test_untouched_real_evidence_passes_when_present,
         test_missing_proof_pack_fails,
         test_missing_evidence_any_file_fails,
         test_no_evidence_dir_fails,
@@ -399,6 +597,14 @@ def main():
         test_script_bearing_proof_html_fails,
         test_post_certification_mutation_fails,
         test_inventory_sha256_mismatch_fails,
+        test_absolute_artifact_path_fails,
+        test_traversal_artifact_path_fails,
+        test_proof_pack_input_path_escape_fails,
+        test_committed_artifact_missing_sha256_fails,
+        test_malformed_sha256_fails,
+        test_non_string_artifact_path_fails,
+        test_symlink_escape_artifact_path_fails,
+        test_duplicate_artifact_path_fails,
         test_validator_is_read_only,
     ]
     for test in tests:
@@ -410,8 +616,9 @@ def main():
         for failure in FAILURES:
             print(f"  - {failure}")
         sys.exit(1)
-    print("PASS — certification gate detects every stale-proof failure mode "
-          "and never writes into the certified tree.")
+    print("PASS — certification gate detects every stale-proof failure mode, "
+          "confines all evidence paths to the certified tree, requires "
+          "digests for committed artifacts, and never writes into the tree.")
 
 
 if __name__ == "__main__":

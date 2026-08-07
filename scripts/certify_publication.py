@@ -22,7 +22,13 @@ and fails the build if any link in the chain is broken:
     (their recorded sha256 digests match the on-disk bytes);
   * every committed artifact recorded in the inventory matches the exact
     on-disk bytes — so any post-certification mutation of the deployable
-    tree fails the gate.
+    tree fails the gate;
+  * every path read from the evidence — committed artifact paths and Proof
+    Pack input paths — is confined strictly beneath <html-dir>: absolute
+    paths, `..` traversal, out-of-tree resolution, and malformed values are
+    certification failures before anything outside the tree is touched; and
+  * every committed artifact carries a valid 64-hex-character SHA-256
+    digest — missing or malformed digests are never silently skipped.
 
 The validator is strictly read-only: it never writes into the certified tree.
 
@@ -58,6 +64,7 @@ SCRIPT_RE = re.compile(r"<\s*script[\s>]", re.IGNORECASE)
 PROOF_PACK_SHA_META_RE = re.compile(
     r'<meta\s+name="proof-pack-sha256"\s+content="([0-9a-fA-F]{64})"\s*/?>'
 )
+SHA256_RE = re.compile(r"^[0-9a-fA-F]{64}$")
 
 
 def sha256_bytes(data: bytes) -> str:
@@ -75,6 +82,36 @@ class GateFailure(Exception):
 def _require_file(path: Path) -> None:
     if not path.is_file():
         raise GateFailure(f"missing required evidence file: {path.relative_to(path.parents[1])}")
+
+
+def _confine_path(root: Path, raw: object, what: str) -> Path:
+    """Resolve an evidence-declared path strictly beneath ``root``.
+
+    Artifact inventory paths and Proof Pack input paths are read from Boris
+    output and must never escape the certified publication tree. Absolute
+    paths, ``..`` traversal, NUL bytes, non-string values, and any path that
+    resolves outside (or to) ``root`` are all certification failures — the
+    validator never reads or hashes anything outside the certified tree.
+    """
+    if not isinstance(raw, str) or not raw:
+        raise GateFailure(f"{what} is not a valid relative path: {raw!r}")
+    if "\x00" in raw:
+        raise GateFailure(f"{what} contains a NUL byte: {raw!r}")
+    if raw.startswith("/") or re.match(r"^[A-Za-z]:[\\/]", raw):
+        raise GateFailure(f"{what} is an absolute path: {raw!r}")
+    if any(part == ".." for part in re.split(r"[\\/]", raw)):
+        raise GateFailure(f"{what} escapes the certified tree via '..': {raw!r}")
+    root_dir = root.resolve(strict=False)
+    candidate = (root / raw).resolve(strict=False)
+    if candidate == root_dir:
+        raise GateFailure(f"{what} resolves to the certified tree root: {raw!r}")
+    try:
+        candidate.relative_to(root_dir)
+    except ValueError:
+        raise GateFailure(
+            f"{what} escapes the certified tree by resolving outside it: {raw!r}"
+        )
+    return candidate
 
 
 def validate_checks(proof_dir: Path) -> dict:
@@ -150,7 +187,9 @@ def validate_proof_pack_model(root: Path, proof_dir: Path) -> dict:
     touches. Their ``path`` values are **root-relative** (e.g.
     ``_boris/proof/artifacts.json``), so they are resolved against ``root``,
     not ``proof_dir``. Any mismatch means the evidence set is not from one
-    consistent build.
+    consistent build. Input paths are evidence-declared and must stay
+    strictly beneath ``root``: absolute or traversing paths are
+    certification failures before anything is read.
     """
     path = proof_dir / "proof-pack.json"
     _require_file(path)
@@ -199,7 +238,7 @@ def validate_proof_pack_model(root: Path, proof_dir: Path) -> dict:
         if not recorded:
             raise GateFailure(f"proof-pack.json inputs.{key} missing sha256")
         rel = entry.get("path", f"_boris/proof/{key}.json")
-        target = root / rel.lstrip("/")
+        target = _confine_path(root, rel, f"proof-pack.json inputs.{key} path")
         if not target.is_file():
             raise GateFailure(f"proof-pack.json inputs.{key} path not found: {rel}")
         actual = sha256_file(target)
@@ -241,7 +280,10 @@ def validate_inventory_matches_disk(root: Path, proof_dir: Path) -> None:
 
     This is the decisive "no post-certification mutation" check: any rewrite
     of a certified HTML/asset/search/sitemap file after the Boris run changes
-    its sha256 and fails the gate.
+    its sha256 and fails the gate. Fail-closed hardening: artifact paths are
+    confined strictly beneath ``root`` (absolute, traversing, or out-of-tree
+    paths fail), committed artifact paths are unique, and every committed
+    artifact must carry a valid 64-hex-character SHA-256 digest.
     """
     path = proof_dir / "artifacts.json"
     try:
@@ -260,18 +302,29 @@ def validate_inventory_matches_disk(root: Path, proof_dir: Path) -> None:
     if not committed:
         raise GateFailure("artifacts.json records no committed artifacts")
 
+    seen_paths: set[str] = set()
     mismatches = 0
     missing = 0
     for artifact in committed:
         rel = artifact.get("path")
-        target = root / rel
+        target = _confine_path(root, rel, "committed artifact path")
+        if rel in seen_paths:
+            raise GateFailure(f"duplicate committed artifact path: {rel!r}")
+        seen_paths.add(rel)
+
+        # Fail-closed: a committed artifact must carry a valid 64-hex SHA-256.
+        # Missing or malformed digests are never silently skipped.
+        recorded = artifact.get("sha256")
+        if not isinstance(recorded, str) or not SHA256_RE.match(recorded):
+            raise GateFailure(
+                f"committed artifact {rel!r} lacks a valid 64-hex sha256 "
+                f"digest: {recorded!r}"
+            )
+
         if not target.is_file():
             missing += 1
             continue
-        recorded = artifact.get("sha256")
-        if not recorded:
-            continue
-        if sha256_file(target) != recorded:
+        if sha256_file(target) != recorded.lower():
             mismatches += 1
             if mismatches <= 5:
                 print(
