@@ -900,10 +900,12 @@ body {
 
 /* ---------- verse residue (appended poetry appendix) ----------
    Boris appends "Related Aphorisms / Haikus / Limericks" sections to the
-   tail of records. scripts/verse_residue.py wraps them in .verse-residue,
-   re-levels their headings, and collapses long collections behind a native
-   <details>. The core record stays first and visually primary; this panel
-   reads as clearly secondary archive residue. */
+   tail of records. The staged Markdown (scripts/verse_stage.py, run BEFORE
+   the Boris compile) presents them as one .verse-residue panel: an h2
+   "Related residue" heading, id-free h3 labels, re-leveled poem titles,
+   and long collections collapsed behind a native <details>. The core
+   record stays first and visually primary; this panel reads as clearly
+   secondary archive residue. */
 
 .verse-residue {
   margin: 3rem 0 0.5rem;
@@ -930,7 +932,7 @@ body {
 
 .verse-residue > h2::after { content: none; }
 
-.verse-residue h3 {
+.verse-residue .verse-residue__label {
   margin: 1.4rem 0 0.45rem;
   font-family: var(--font-mono);
   font-size: 0.8rem;

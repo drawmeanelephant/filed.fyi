@@ -14,8 +14,18 @@ fi
 CONTENT_DIR=${CONTENT_DIR:-content}
 THEME=${THEME:-themes/cantilever}
 DIST_DIR=${DIST_DIR:-dist/cantilever}
+STAGE_DIR=${STAGE_DIR:-dist/.stage-content}
 SITE_URL=${SITE_URL:-https://filed.fyi}
 BORIS_JOBS=${BORIS_JOBS:-1}
+
+# The staged input tree must never live inside the compiler output tree:
+# Boris would either reject the overlap or certify its own staging artifacts.
+case "$STAGE_DIR" in
+  "$DIST_DIR"|"$DIST_DIR"/*)
+    echo "filed-build: STAGE_DIR ($STAGE_DIR) must not be inside DIST_DIR ($DIST_DIR)." >&2
+    exit 2
+    ;;
+esac
 
 python3 scripts/filed_ids.py --root "$CONTENT_DIR" --map metadata/id-map.jsonl
 python3 scripts/audit_markdown_links.py "$CONTENT_DIR"
@@ -25,8 +35,17 @@ if rg -n '^:::note\[' "$CONTENT_DIR" >/dev/null; then
   exit 1
 fi
 
+# Publication evidence certifies the exact bytes Boris renders. The verse
+# residue presentation must therefore exist BEFORE Boris runs, never by
+# rewriting certified HTML afterward. Stage the content tree, express the
+# residue panel in the staged Markdown, and compile the staged tree.
+rm -rf "$STAGE_DIR"
+mkdir -p "$STAGE_DIR"
+cp -R "$CONTENT_DIR"/. "$STAGE_DIR"/
+python3 scripts/verse_stage.py "$STAGE_DIR"
+
 "$BORIS_BIN" \
-  --input "$CONTENT_DIR" \
+  --input "$STAGE_DIR" \
   --theme "$THEME" \
   --html-dir "$DIST_DIR" \
   --sitemap \
@@ -43,16 +62,15 @@ fi
   --layout-rule default glob:reference/* "$THEME/layouts/compact.html" \
   --jobs "$BORIS_JOBS"
 
-python3 scripts/verse_residue.py "$DIST_DIR" --check
+# The residue panel is expressed pre-render; verify the certified output
+# satisfies the presentation invariants without touching it.
+python3 scripts/verse_residue.py "$DIST_DIR"
 
 python3 scripts/audit_html_ids.py "$DIST_DIR"
 
-if [[ -f "$DIST_DIR/_boris/proof/checks.json" ]]; then
-  bad_checks=$(jq -r '[.checks[] | select(.status != "passed" and .status != "not-applicable")] | length' "$DIST_DIR/_boris/proof/checks.json")
-  if [[ "$bad_checks" -ne 0 ]]; then
-    echo "Filed publication checks failed: $bad_checks check(s) are not green." >&2
-    exit 1
-  fi
-fi
+# Mandatory publication evidence gate: fails unless the complete Boris
+# evidence chain is present, consistent, and matches the certified tree
+# byte-for-byte.
+python3 scripts/certify_publication.py "$DIST_DIR"
 
 echo "Filed build passed: $DIST_DIR"
