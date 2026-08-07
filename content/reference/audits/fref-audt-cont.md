@@ -2,7 +2,7 @@
 title: "Restricted Cluster Containment Audit"
 id: reference/FREF-0002
 parent: reference
-status: published
+status: archived
 tags: ["reference", "operational-engines"]
 ---
 
@@ -12,19 +12,15 @@ tags: ["reference", "operational-engines"]
 
 ---
 
-### Restricted Cluster Containment Failures
+Historical audit snapshot. This report records the state of the repository as of the entry date and is retained for the record; its findings are not a current action queue.
 
-| File Path | Violating Reference | Missing Tags |
-|---|---|---|
-| `325.peppy-clerk.mdx` | Bin 8C | Needs: `self-indexing, custody-drift, hazardous-misfiling, cluster-presence` |
+## Findings (Snapshot)
 
-
----
-
-## Suite Run Telemetry
 *   **Audit Class:** `CONTAINMENT`
 *   **Total Gaps Flagged:** 1
-*   **Action Required:** Manual reconciliation of frontmatter vectors or reciprocal poetry routing anchors.
+*   **Summary:** one containment failure flagged for `325.peppy-clerk.mdx` (Bin 8C; missing tags `self-indexing`, `custody-drift`, `hazardous-misfiling`, `cluster-presence`), recorded under the legacy `.mdx` layout.
+
+The original generated path dump no longer describes the current tree; it has been condensed out of this snapshot. No reconciliation action is pending from this report.
 
 ## Related Aphorisms
 

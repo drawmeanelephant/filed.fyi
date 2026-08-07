@@ -16,4 +16,5 @@ Not a release log. Not a roadmap. Not a progress dashboard.
 
 Maintenance identifiers follow the form `0.1.NNNNN.task-slug`.
 
+Count: 6 records.
 Count: 20 records.
