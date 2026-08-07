@@ -18,7 +18,7 @@ echo "==> Running Boris graph diagnostics"
 CHECK_REPORT=$(mktemp "${TMPDIR:-/tmp}/filed-boris-check.XXXXXX")
 trap 'rm -f "$CHECK_REPORT"' EXIT
 
-if "$BORIS_BIN" check --input "$CONTENT_DIR" --format json 2>"$CHECK_REPORT"; then
+if "$BORIS_BIN" check --input "$CONTENT_DIR" --format json >"$CHECK_REPORT" 2>/dev/null; then
   echo "✅ Boris graph diagnostics passed"
 else
   unexpected=$(jq -r '[.findings[]? | select(.code != "unreferenced_page")] | length' "$CHECK_REPORT")
