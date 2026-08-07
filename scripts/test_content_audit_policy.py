@@ -16,12 +16,17 @@ Proves the reviewed-policy contract:
 7. output is byte-identical across runs;
 8. --check detects drift;
 9. filenames, titles, tags, numeric prefixes, and legacy match types never
-   participate in matching — only canonical ids do.
+   participate in matching — only canonical ids do;
+10. record identity comes only from the leading Boris frontmatter block:
+    body ``id:``-looking lines are never indexed and can never override the
+    frontmatter id, malformed/duplicate identity is refused rather than
+    guessed, and the committed policy/summary bytes stay deterministic.
 
 Usage:
     python3 scripts/test_content_audit_policy.py
 """
 
+import argparse
 import json
 import os
 import subprocess
@@ -146,6 +151,130 @@ def run_gen(tmp, *extra):
 def mapping_summary(out: Path):
     summary = json.loads((out / "summary.json").read_text())
     return summary
+
+
+# ---------------------------------------------------------------------------
+# Frontmatter-only identity regression tests
+# ---------------------------------------------------------------------------
+
+def write_content_files(tmp: Path, files: dict[str, str]) -> Path:
+    """Write bare content files (rel -> text) under tmp/content; returns root."""
+    content = tmp / "content"
+    for rel, text in files.items():
+        path = content / rel
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text, encoding="utf-8")
+    return content
+
+
+def test_frontmatter_id_is_indexed():
+    print("valid frontmatter id is indexed")
+    with tempfile.TemporaryDirectory() as td:
+        tmp = Path(td)
+        content = write_content_files(
+            tmp,
+            {
+                "haikus/hai-0001.md": "---\nid: haikus/HAI-0001\ntitle: One\n---\n# One\n",
+            },
+        )
+        check(
+            b.content_record_ids(content) == {"haikus/HAI-0001": "haikus"},
+            "frontmatter id maps to its collection",
+        )
+
+
+def test_no_frontmatter_id_body_id_not_indexed():
+    print("no frontmatter id + body id line is not indexed")
+    with tempfile.TemporaryDirectory() as td:
+        tmp = Path(td)
+        content = write_content_files(
+            tmp,
+            {
+                "haikus/hai-0002.md": "---\ntitle: Two\n---\nid: haikus/HAI-0002\n",
+            },
+        )
+        check(
+            b.content_record_ids(content) == {},
+            "body id line never manufactures identity when frontmatter has no id",
+        )
+
+
+def test_frontmatter_id_beats_body_id():
+    print("valid frontmatter id + different body id keeps the frontmatter id")
+    with tempfile.TemporaryDirectory() as td:
+        tmp = Path(td)
+        content = write_content_files(
+            tmp,
+            {
+                "haikus/hai-0003.md": (
+                    "---\nid: haikus/HAI-0003\ntitle: Three\n---\n"
+                    "id: mascots/M-0042\n"
+                ),
+            },
+        )
+        check(
+            b.content_record_ids(content) == {"haikus/HAI-0003": "haikus"},
+            "body id line cannot override the frontmatter id",
+        )
+
+
+def test_duplicate_frontmatter_id_refused():
+    print("duplicate top-level frontmatter id fields are refused, never chosen")
+    with tempfile.TemporaryDirectory() as td:
+        tmp = Path(td)
+        content = write_content_files(
+            tmp,
+            {
+                "haikus/hai-0004.md": (
+                    "---\nid: haikus/HAI-0004\nid: haikus/HAI-9999\n---\n# Four\n"
+                ),
+            },
+        )
+        check(
+            b.content_record_ids(content) == {},
+            "duplicate frontmatter id excludes the record rather than picking one",
+        )
+
+
+def test_no_leading_frontmatter_cannot_manufacture_identity():
+    print("content without leading frontmatter cannot manufacture identity")
+    with tempfile.TemporaryDirectory() as td:
+        tmp = Path(td)
+        content = write_content_files(
+            tmp,
+            {
+                # No leading --- fence at all, yet the body carries an id line.
+                "haikus/hai-0005.md": "# Five\n\nid: haikus/HAI-0005\n",
+                # Leading fence that never closes.
+                "haikus/hai-0006.md": "---\nid: haikus/HAI-0006\n# unclosed\n",
+            },
+        )
+        check(
+            b.content_record_ids(content) == {},
+            "no leading fence or unclosed frontmatter yields no identity",
+        )
+
+
+def test_strict_identity_keeps_committed_policy_deterministic():
+    print("strict frontmatter-only identity keeps committed policy bytes identical")
+    args = argparse.Namespace(
+        map=b.DEFAULT_MAP,
+        id_map=b.DEFAULT_ID_MAP,
+        population=b.DEFAULT_POPULATION,
+        categories=b.DEFAULT_CATEGORIES,
+        content=b.DEFAULT_CONTENT,
+        output=b.DEFAULT_OUTPUT,
+        summary=b.DEFAULT_SUMMARY,
+    )
+    policy_bytes, summary_bytes, _, _ = b.run_generation(args)
+    check(
+        policy_bytes == b.DEFAULT_OUTPUT.read_bytes(),
+        "fresh generation matches committed policy.json bytes",
+    )
+    check(
+        summary_bytes == b.DEFAULT_SUMMARY.read_bytes(),
+        "fresh generation matches committed summary.json bytes",
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -586,6 +715,12 @@ def main() -> int:
         test_byte_identical_across_runs,
         test_check_detects_drift,
         test_no_filename_title_tag_matching,
+        test_frontmatter_id_is_indexed,
+        test_no_frontmatter_id_body_id_not_indexed,
+        test_frontmatter_id_beats_body_id,
+        test_duplicate_frontmatter_id_refused,
+        test_no_leading_frontmatter_cannot_manufacture_identity,
+        test_strict_identity_keeps_committed_policy_deterministic,
     ]
     for test in tests:
         test()

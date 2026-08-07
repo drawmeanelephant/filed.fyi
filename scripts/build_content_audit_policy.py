@@ -61,9 +61,10 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import re
 import sys
 from pathlib import Path
+
+from filed_ids import MigrationError, read_frontmatter
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -132,15 +133,32 @@ def sha256_hex(data: bytes) -> str:
 def content_record_ids(content_root: Path) -> dict[str, str]:
     """Map every canonical id in the content tree to its collection.
 
-    The id comes from frontmatter ``id:``; the collection from the directory
-    the file lives in. Only stable ids are collected; files without an id are
-    ignored here (the audit reports them independently).
+    Identity comes exclusively from the leading Boris frontmatter block: the
+    file must open with a ``---`` fence and carry exactly one top-level
+    ``id:`` field inside that block, read with the same bounded frontmatter
+    parser as scripts/filed_ids.py. ``id:``-looking lines in the Markdown body
+    are never consulted and can never override the frontmatter id.
+
+    Fail closed: a file with no leading frontmatter fence, an unclosed block,
+    an unsupported frontmatter line, or a duplicate key is excluded rather
+    than guessed — the audit reports such records independently, and a
+    canonical-but-missing id surfaces as a blocking finding downstream.
+
+    The collection comes from the directory the file lives in. Only stable
+    ids are collected; files without an id are ignored here.
     """
     ids: dict[str, str] = {}
     for path in sorted(content_root.rglob("*.md")):
-        text = path.read_text(encoding="utf-8")
-        match = re.search(r"^id:\s*(\S+)\s*$", text, flags=re.MULTILINE)
-        if not match:
+        try:
+            _, _, fields = read_frontmatter(path)
+        except MigrationError:
+            # Fail closed: never guess identity from malformed frontmatter.
+            # Such records are excluded here; the audit reports them
+            # independently, and canonical-but-missing ids become blocking
+            # findings in derive() when referenced by accepted evidence.
+            continue
+        entity_id = fields.get("id")
+        if not entity_id:
             continue
         rel = path.relative_to(content_root)
         # Collection derivation matches boris-content-audit's collectionOfPath:
@@ -148,7 +166,7 @@ def content_record_ids(content_root: Path) -> dict[str, str]:
         # landing page) is keyed by its bare filename, so it is never a poetry
         # or eligible source record.
         collection = rel.parts[0] if len(rel.parts) > 1 else rel.name
-        ids[match.group(1)] = collection
+        ids[entity_id] = collection
     return ids
 
 
