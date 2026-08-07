@@ -7,6 +7,13 @@ tags: ["changelog"]
 
 # Changelog
 
-Curated changelog entries.
+Maintenance docket for small editorial and structural interventions. Records what was touched, why, and what was deliberately left alone.
 
-Count: 1 record.
+Not a release log. Not a roadmap. Not a progress dashboard.
+
+`/releases/` records archive-state declarations and classification maturity.
+`/changelog/` records completed maintenance work.
+
+Maintenance identifiers follow the form `0.1.NNNNN.task-slug`.
+
+Count: 2 records.
