@@ -11,12 +11,18 @@ tags: ["haikus", "operational-grief", "record-sequestration", "hidden-burdens"]
 ## Haikus
 
 
-Sorrow in the back  \nPut it in the appendix  \nDo not show the pain  
+Sorrow in the back  
+Put it in the appendix  
+Do not show the pain  
 
 
 
-Burden survives here  \nAway from the main report  \nHidden from the light  
+Burden survives here  
+Away from the main report  
+Hidden from the light  
 
 
 
-I will stamp the grief  \nKeep it in the quiet wing  \nShadows hold the tears
+I will stamp the grief  
+Keep it in the quiet wing  
+Shadows hold the tears

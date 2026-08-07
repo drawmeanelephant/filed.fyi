@@ -11,12 +11,18 @@ tags: ["haikus", "uncounted-labor", "invisible-metrics", "operational-grief"]
 ## Haikus
 
 
-Carrying the weight  \nThat the spreadsheet never sees  \nHeavy is the toil  
+Carrying the weight  
+That the spreadsheet never sees  
+Heavy is the toil  
 
 
 
-Small but working hard  \nTracing effort in the dark  \nOfficial stats lie  
+Small but working hard  
+Tracing effort in the dark  
+Official stats lie  
 
 
 
-The work was complete  \nBut the points were never scored  \nI hold all the grief
+The work was complete  
+But the points were never scored  
+I hold all the grief

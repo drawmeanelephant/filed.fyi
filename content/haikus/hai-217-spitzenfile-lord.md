@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "apples", "spitzenberg", "curator"]
 ## Haikus
 
 
-Complex on the tongue  \nA favorite of old men  \nAristocrat's fruit  
+Complex on the tongue  
+A favorite of old men  
+Aristocrat's fruit  
 
 
 
-Riddles in the skin  \nThe harvest is a secret  \nKept in heavy tomes  
+Riddles in the skin  
+The harvest is a secret  
+Kept in heavy tomes  
 
 
 
-Gravitas and weight  \nThe records are dignified  \nHistory of taste
+Gravitas and weight  
+The records are dignified  
+History of taste

@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "minimalism", "beos", "ghost", "forked-systems", "phan
 ## Haikus
 
 
-Drifting in the threads  \nMemory fades to a hum  \nTerminal is still  
+Drifting in the threads  
+Memory fades to a hum  
+Terminal is still  
 
 
 
-Forked from ancient code  \nLingering without a task  \nI wait in the void  
+Forked from ancient code  
+Lingering without a task  
+I wait in the void  
 
 
 
-Nothing left to load  \nPerfection is emptiness  \nSystem breathes its last
+Nothing left to load  
+Perfection is emptiness  
+System breathes its last

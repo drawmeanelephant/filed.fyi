@@ -11,28 +11,42 @@ tags: ["haikus", "recital", "ceremony", "sufficiency"]
 ## Haikus
 
 
-Say the words in line  \nThe care is declared complete  \nRitual is done  
+Say the words in line  
+The care is declared complete  
+Ritual is done  
 
 
 
-Nothing more to give  \nThe sentences prove we tried  \nBox is fully checked  
+Nothing more to give  
+The sentences prove we tried  
+Box is fully checked  
 
 
 
-Chanting the right terms  \nThe problem is solved by voice  \nMagic of the form  
+Chanting the right terms  
+The problem is solved by voice  
+Magic of the form  
 
 
 
-Speak the form aloud  \nHuman lungs corrupt the text  \nMatter closed again  
+Speak the form aloud  
+Human lungs corrupt the text  
+Matter closed again  
 
 
 
-Tone is adequate  \nSystem burns behind the desk  \nVowels fix the flaw  
+Tone is adequate  
+System burns behind the desk  
+Vowels fix the flaw  
 
 
 
-Fatigue in the room  \nRead the word until they nod  \nNothing is improved  
+Fatigue in the room  
+Read the word until they nod  
+Nothing is improved  
 
 
 
-Clerk recites the phrase  \nFailure is masked by the sound  \nCheckbox now is checked
+Clerk recites the phrase  
+Failure is masked by the sound  
+Checkbox now is checked

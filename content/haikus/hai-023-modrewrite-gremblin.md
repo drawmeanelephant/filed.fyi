@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "redirects", "recursion", "loops", "redirect-recursion
 ## Haikus
 
 
-Looping round again  \nRedirect without escape  \nPath returns to start  
+Looping round again  
+Redirect without escape  
+Path returns to start  
 
 
 
-Rules point to themselves  \nA recursive little trap  \nBrowser spins in vain  
+Rules point to themselves  
+A recursive little trap  
+Browser spins in vain  
 
 
 
-I rewrite your fate  \nSend you where you shouldn't go  \nLost inside the string
+I rewrite your fate  
+Send you where you shouldn't go  
+Lost inside the string

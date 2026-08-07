@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "markdown", "syntax", "frontmatter", "formatting-stric
 ## Haikus
 
 
-Headers must align  \nFrontmatter requires a dash  \nSyntax weeps alone  
+Headers must align  
+Frontmatter requires a dash  
+Syntax weeps alone  
 
 
 
-Born from the pure text  \nI break down on mismatched styles  \nFormatting is law  
+Born from the pure text  
+I break down on mismatched styles  
+Formatting is law  
 
 
 
-Collecting the YAML  \nHolding keys and strings so tight  \nDo not break the block
+Collecting the YAML  
+Holding keys and strings so tight  
+Do not break the block

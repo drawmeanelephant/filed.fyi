@@ -11,15 +11,21 @@ tags: ["haikus", "deficit", "warmth", "overdraft"]
 ## Haikus
 
 
-Giving too much care  \nWhen the budget is at zero  \nDeficit of heart  
+Giving too much care  
+When the budget is at zero  
+Deficit of heart  
 
 
 
-I promised a fix  \nThat I cannot authorize  \nKindness writes a check  
+I promised a fix  
+That I cannot authorize  
+Kindness writes a check  
 
 
 
-The intent was pure  \nBut resources do not match  \nOverdraft bounces  
+The intent was pure  
+But resources do not match  
+Overdraft bounces  
 
 
 

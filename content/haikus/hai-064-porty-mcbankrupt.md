@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "bankruptcy", "legacy", "trust"]
 ## Haikus
 
 
-Trust is all we have  \nArchitecture fell apart  \nCode is deeply broke  
+Trust is all we have  
+Architecture fell apart  
+Code is deeply broke  
 
 
 
-Debt is far too high  \nRewrite is a fantasy  \nKeep the servers on  
+Debt is far too high  
+Rewrite is a fantasy  
+Keep the servers on  
 
 
 
-No one knows the source  \nBut the money still flows in  \nDo not touch the code
+No one knows the source  
+But the money still flows in  
+Do not touch the code

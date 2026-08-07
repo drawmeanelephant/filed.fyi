@@ -11,44 +11,66 @@ tags: ["haikus", "haiku", "attestation", "mole", "verifier", "verification", "bl
 ## Haikus
 
 
-Digging in the dark  \nValidating what you sign  \nUnderneath the form  
+Digging in the dark  
+Validating what you sign  
+Underneath the form  
 
 
 
-I cannot see it  \nBut I swear that it is true  \nMole signs on the line  
+I cannot see it  
+But I swear that it is true  
+Mole signs on the line  
 
 
 
-Burrowed in the code  \nThe attestation is sealed  \nNever see the light  
+Burrowed in the code  
+The attestation is sealed  
+Never see the light  
 
 
 
-Human hand did sign  \nMole did not observe the truth  \nStamp is valid now  
+Human hand did sign  
+Mole did not observe the truth  
+Stamp is valid now  
 
 
 
-Digging under text  \nContract states a perfect truth  \nSoil remains unchanged  
+Digging under text  
+Contract states a perfect truth  
+Soil remains unchanged  
 
 
 
-Pen slipped on the page  \nMole detects a fragile fault  \nTriggers state alarm  
+Pen slipped on the page  
+Mole detects a fragile fault  
+Triggers state alarm  
 
 
 
-Document arrives  \nUnderground it is approved  \nNo one checks again  
+Document arrives  
+Underground it is approved  
+No one checks again  
 
 
 
-Years beneath the desk  \nWitness logic waits for us  \nDust is undisturbed  
+Years beneath the desk  
+Witness logic waits for us  
+Dust is undisturbed  
 
 
 
-Print the page receipt  \nBurrow down to hide the ink  \nStatus set to done  
+Print the page receipt  
+Burrow down to hide the ink  
+Status set to done  
 
 
 
-Cleaner than the source  \nChaos made by human hands  \nMole approves the mess  
+Cleaner than the source  
+Chaos made by human hands  
+Mole approves the mess  
 
 
 
-We do not read forms  \nUnseen seal is struck in dirt  \nErrors kept below
+We do not read forms  
+Unseen seal is struck in dirt  
+Errors kept below

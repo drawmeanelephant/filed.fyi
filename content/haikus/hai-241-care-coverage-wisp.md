@@ -11,12 +11,18 @@ tags: ["haikus", "atmospheric-support", "logged-contact", "unrelieved-burden"]
 ## Haikus
 
 
-I am in the air  \nYou can see that I am here  \nBut I offer naught  
+I am in the air  
+You can see that I am here  
+But I offer naught  
 
 
 
-Log the interaction  \nWe touched the user today  \nBurden stays intact  
+Log the interaction  
+We touched the user today  
+Burden stays intact  
 
 
 
-Fading like the fog  \nSupport was present but thin  \nNothing has improved
+Fading like the fog  
+Support was present but thin  
+Nothing has improved

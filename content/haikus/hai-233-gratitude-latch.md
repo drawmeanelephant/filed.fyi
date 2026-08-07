@@ -11,12 +11,18 @@ tags: ["haikus", "ticket-resolution", "superficial-gratitude", "bureaucratic-mec
 ## Haikus
 
 
-You said it was good  \nThe latch closes on the word  \nIssue is resolved  
+You said it was good  
+The latch closes on the word  
+Issue is resolved  
 
 
 
-Gratitude is all  \nWe do not need to fix it  \nYour thanks is the cure  
+Gratitude is all  
+We do not need to fix it  
+Your thanks is the cure  
 
 
 
-Hold the praise in place  \nIgnore the lingering faults  \nThe ticket is closed
+Hold the praise in place  
+Ignore the lingering faults  
+The ticket is closed

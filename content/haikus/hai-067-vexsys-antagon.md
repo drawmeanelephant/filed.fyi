@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "antagonist", "sabotage", "misrouting"]
 ## Haikus
 
 
-Data sent astray  \nTo a port that does not care  \nNetwork is confused  
+Data sent astray  
+To a port that does not care  
+Network is confused  
 
 
 
-Code inserted deep  \nLogic turns upon itself  \nAntagonism wins  
+Code inserted deep  
+Logic turns upon itself  
+Antagonism wins  
 
 
 
-Singing the old flaws  \nDestabilize the core loop  \nSystem is vexed now
+Singing the old flaws  
+Destabilize the core loop  
+System is vexed now

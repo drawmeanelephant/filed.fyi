@@ -11,28 +11,42 @@ tags: ["haikus", "haiku", "alibi", "seal", "innocence"]
 ## Haikus
 
 
-The form says I'm clear  \nI arrived with innocence  \nSeal protects my name  
+The form says I'm clear  
+I arrived with innocence  
+Seal protects my name  
 
 
 
-Feel the heavy stamp  \nIt proves I did nothing wrong  \nAlibi is set  
+Feel the heavy stamp  
+It proves I did nothing wrong  
+Alibi is set  
 
 
 
-Before questions start  \nI drop the document down  \nI am safe today  
+Before questions start  
+I drop the document down  
+I am safe today  
 
 
 
-System stamped the form  \nHuman lies protected now  \nGuilt was never filed  
+System stamped the form  
+Human lies protected now  
+Guilt was never filed  
 
 
 
-Stamped with heavy ink  \nNo one reads the rotten core  \nSurface holds the truth  
+Stamped with heavy ink  
+No one reads the rotten core  
+Surface holds the truth  
 
 
 
-Paper clears the room  \nErrors wash away in gloss  \nBlame is misaligned  
+Paper clears the room  
+Errors wash away in gloss  
+Blame is misaligned  
 
 
 
-Quality saves all  \nThick cardboard deflects the blame  \nHistory is sealed
+Quality saves all  
+Thick cardboard deflects the blame  
+History is sealed

@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "301", "relocation", "extinct", "status-301", "permane
 ## Haikus
 
 
-Moved to nowhere now  \nDestination is extinct  \nStatus three oh one  
+Moved to nowhere now  
+Destination is extinct  
+Status three oh one  
 
 
 
-I packed all my bags  \nRelocated to the void  \nLink will never work  
+I packed all my bags  
+Relocated to the void  
+Link will never work  
 
 
 
-Follow the new path  \nOnly to find empty space  \nI am gone for good
+Follow the new path  
+Only to find empty space  
+I am gone for good

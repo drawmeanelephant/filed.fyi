@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "permissions", "denial", "judgment"]
 ## Haikus
 
 
-You may not pass here  \nAccess is firmly denied  \nDo not ask me why  
+You may not pass here  
+Access is firmly denied  
+Do not ask me why  
 
 
 
-I guard the system  \nWith unapologetic spite  \nKeys will not turn locks  
+I guard the system  
+With unapologetic spite  
+Keys will not turn locks  
 
 
 
-Words have no power  \nPolicy dictates your doom  \nRoute yourself away
+Words have no power  
+Policy dictates your doom  
+Route yourself away

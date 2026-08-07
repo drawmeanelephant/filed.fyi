@@ -11,44 +11,66 @@ tags: ["haikus", "haiku", "orphans", "symmetry", "abandonment", "managed-absence
 ## Haikus
 
 
-Left out in the cold  \nBut equally on both sides  \nSymmetrical grief  
+Left out in the cold  
+But equally on both sides  
+Symmetrical grief  
 
 
 
-Links without a home  \nArranged in a perfect square  \nBeautiful decay  
+Links without a home  
+Arranged in a perfect square  
+Beautiful decay  
 
 
 
-The system is broke  \nBut it looks so very nice  \nAesthetic despair  
+The system is broke  
+But it looks so very nice  
+Aesthetic despair  
 
 
 
-Render state deferred  \nAbandonment is aligned  \nPleasing form retained  
+Render state deferred  
+Abandonment is aligned  
+Pleasing form retained  
 
 
 
-Stub sweep finds the link  \nHuman fails to map the route  \nWe arrange the grief  
+Stub sweep finds the link  
+Human fails to map the route  
+We arrange the grief  
 
 
 
-Perfect loose events  \nDetached but correctly spaced  \nPrinter prints the void  
+Perfect loose events  
+Detached but correctly spaced  
+Printer prints the void  
 
 
 
-Geometry saves  \nNo one fixed the broken state  \nFiling is complete  
+Geometry saves  
+No one fixed the broken state  
+Filing is complete  
 
 
 
-Canon grids are drawn  \nTethers cut by mortal hands  \nGods of empty space  
+Canon grids are drawn  
+Tethers cut by mortal hands  
+Gods of empty space  
 
 
 
-Two pixels are off  \nSymmetry is compromised  \nSystem lockdown now  
+Two pixels are off  
+Symmetry is compromised  
+System lockdown now  
 
 
 
-Root node does not load  \nParent id returns null  \nLine stops at the gap  
+Root node does not load  
+Parent id returns null  
+Line stops at the gap  
 
 
 
-Folder sits alone  \nHuman leaves a floating node  \nIt looks very nice
+Folder sits alone  
+Human leaves a floating node  
+It looks very nice

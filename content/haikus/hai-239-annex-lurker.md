@@ -11,12 +11,18 @@ tags: ["haikus", "subordinated-context", "suppressed-truth", "secondary-channels
 ## Haikus
 
 
-Admissible now  \nOnly 'cause we left the main  \nLurking in the notes  
+Admissible now  
+Only 'cause we left the main  
+Lurking in the notes  
 
 
 
-The burden is here  \nDown below the final line  \nContext is suppressed  
+The burden is here  
+Down below the final line  
+Context is suppressed  
 
 
 
-I hide in the text  \nA truth that they did not want  \nWaiting to be read
+I hide in the text  
+A truth that they did not want  
+Waiting to be read

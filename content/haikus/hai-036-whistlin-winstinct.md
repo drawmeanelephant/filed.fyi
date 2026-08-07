@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "whistler", "vista", "cowboy-coder", "abandonware", "c
 ## Haikus
 
 
-Compiled in the dust  \nHalf a promise of the future  \nVapor in the wind  
+Compiled in the dust  
+Half a promise of the future  
+Vapor in the wind  
 
 
 
-Boot up with a tune  \nMemory begins to leak  \nShut down with a groan  
+Boot up with a tune  
+Memory begins to leak  
+Shut down with a groan  
 
 
 
-Riding through the source  \nLeaving comments in the trail  \nLawless in the void
+Riding through the source  
+Leaving comments in the trail  
+Lawless in the void

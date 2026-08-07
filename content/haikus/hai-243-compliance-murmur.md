@@ -11,12 +11,18 @@ tags: ["haikus", "procedural-assent", "hollow-agreement", "mandated-vocalization
 ## Haikus
 
 
-I nod and I hum  \nThe process demands a sound  \nConviction is dead  
+I nod and I hum  
+The process demands a sound  
+Conviction is dead  
 
 
 
-Mhm and ah yes  \nJust to let the meeting end  \nNothing is believed  
+Mhm and ah yes  
+Just to let the meeting end  
+Nothing is believed  
 
 
 
-Follow the strict rule  \nVoice the required soft assent  \nSilence is a crime
+Follow the strict rule  
+Voice the required soft assent  
+Silence is a crime

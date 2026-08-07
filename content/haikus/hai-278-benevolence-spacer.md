@@ -11,24 +11,36 @@ tags: ["haikus", "benevolence", "intervals", "delay"]
 ## Haikus
 
 
-Wait inside this room  \nThe chairs are comfortable here  \nNothing happens yet  
+Wait inside this room  
+The chairs are comfortable here  
+Nothing happens yet  
 
 
 
-Authority sleeps  \nWhile the spacer fills the gap  \nAcknowledgment waits  
+Authority sleeps  
+While the spacer fills the gap  
+Acknowledgment waits  
 
 
 
-Paint the walls so nice  \nThe delay feels like a gift  \nBudget is elsewhere  
+Paint the walls so nice  
+The delay feels like a gift  
+Budget is elsewhere  
 
 
 
-Chairs are very soft  \nRemedy is far away  \nFlesh-forms wait in peace  
+Chairs are very soft  
+Remedy is far away  
+Flesh-forms wait in peace  
 
 
 
-Forms acknowledge you  \nWhile the gears refuse to turn  \nDrink the lobby juice  
+Forms acknowledge you  
+While the gears refuse to turn  
+Drink the lobby juice  
 
 
 
-Pause has nice decor  \nOutcome is not on the way  \nSit and be delayed
+Pause has nice decor  
+Outcome is not on the way  
+Sit and be delayed

@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "sriracha", "spice", "chili"]
 ## Haikus
 
 
-Standing at the spire  \nThe chili fuel burns so bright  \nSpice protects the keep  
+Standing at the spire  
+The chili fuel burns so bright  
+Spice protects the keep  
 
 
 
-Garlic and the heat  \nIgniting the ancient files  \nTears fall on the page  
+Garlic and the heat  
+Igniting the ancient files  
+Tears fall on the page  
 
 
 
-Rooster on the seal  \nThe heat will outlast us all  \nArchives made of fire
+Rooster on the seal  
+The heat will outlast us all  
+Archives made of fire

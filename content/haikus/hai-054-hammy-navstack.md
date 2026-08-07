@@ -11,12 +11,18 @@ tags: ["haikus", "routing", "navigation", "history"]
 ## Haikus
 
 
-Push upon the stack  \nDeep inside the navigation  \nHow do we go back  
+Push upon the stack  
+Deep inside the navigation  
+How do we go back  
 
 
 
-Breadcrumb trails are chewed  \nI am a router mascot  \nPlease do not eat me  
+Breadcrumb trails are chewed  
+I am a router mascot  
+Please do not eat me  
 
 
 
-History is gone  \nAll navigation replaced  \nYou are stuck right here
+History is gone  
+All navigation replaced  
+You are stuck right here

@@ -11,12 +11,18 @@ tags: ["haikus", "credential-sprawl", "ornamental-authority", "empty-accolades"]
 ## Haikus
 
 
-Another gold star  \nA badge for the empty chest  \nMeaningless but bright  
+Another gold star  
+A badge for the empty chest  
+Meaningless but bright  
 
 
 
-Certificates bloom  \nVines of paper on the wall  \nNone of them matter  
+Certificates bloom  
+Vines of paper on the wall  
+None of them matter  
 
 
 
-It looks official  \nThe vines cover up the truth  \nAuthority rots
+It looks official  
+The vines cover up the truth  
+Authority rots

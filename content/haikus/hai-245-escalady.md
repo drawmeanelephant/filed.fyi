@@ -11,12 +11,18 @@ tags: ["haikus", "draft-protocol", "formal-poise", "stalled-execution"]
 ## Haikus
 
 
-Standing very tall  \nI will take this to the top  \nIf I ever load  
+Standing very tall  
+I will take this to the top  
+If I ever load  
 
 
 
-Do I have the power?  \nI am just a draft design  \nRouting to the void  
+Do I have the power?  
+I am just a draft design  
+Routing to the void  
 
 
 
-Pixels coming soon  \nThe escalation is paused  \nWaiting for my face
+Pixels coming soon  
+The escalation is paused  
+Waiting for my face

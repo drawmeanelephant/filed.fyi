@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "beos", "speed", "disappearance", "sudden-disappearanc
 ## Haikus
 
 
-Ten seconds to boot  \nFastest thread that ever ran  \nThen vanished from time  
+Ten seconds to boot  
+Fastest thread that ever ran  
+Then vanished from time  
 
 
 
-Achieved the great speed  \nImmediately shut down  \nNever seen again  
+Achieved the great speed  
+Immediately shut down  
+Never seen again  
 
 
 
-Playing every file  \nWithout a single stutter  \nThen the screen went black
+Playing every file  
+Without a single stutter  
+Then the screen went black

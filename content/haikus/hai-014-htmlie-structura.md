@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "html", "semantic-purity", "structure", "dom-hierarchy
 ## Haikus
 
 
-Nesting must be pure  \nTags without a closing brace  \nShatter all my bones  
+Nesting must be pure  
+Tags without a closing brace  
+Shatter all my bones  
 
 
 
-I break the pipeline  \nRather than see a bad div  \nStructure is a law  
+I break the pipeline  
+Rather than see a bad div  
+Structure is a law  
 
 
 
-Hierarchy fails  \nElements bleed out of bounds  \nI weep for the tree
+Hierarchy fails  
+Elements bleed out of bounds  
+I weep for the tree

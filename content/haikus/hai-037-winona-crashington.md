@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "windows-95", "crash", "nostalgia", "nostalgic-dread",
 ## Haikus
 
 
-Desktop falls apart  \nBlue screen brings a quiet peace  \nHope begins to lag  
+Desktop falls apart  
+Blue screen brings a quiet peace  
+Hope begins to lag  
 
 
 
-Ninety five returns  \nMoving windows leaves a trail  \nMemory is full  
+Ninety five returns  
+Moving windows leaves a trail  
+Memory is full  
 
 
 
-Safe mode calls to you  \nSixteen colors in the dark  \nMouse no longer moves
+Safe mode calls to you  
+Sixteen colors in the dark  
+Mouse no longer moves

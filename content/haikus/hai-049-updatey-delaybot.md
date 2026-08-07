@@ -11,12 +11,18 @@ tags: ["haikus", "updates", "deployment", "freeze", "delay"]
 ## Haikus
 
 
-Rollout is on hold  \nWe announce the new features  \nThat you cannot use  
+Rollout is on hold  
+We announce the new features  
+That you cannot use  
 
 
 
-Coming very soon  \nThe progress bar is a lie  \nWait another week  
+Coming very soon  
+The progress bar is a lie  
+Wait another week  
 
 
 
-Version never bumps  \nStuck on zero point nine nine  \nRelease is a myth
+Version never bumps  
+Stuck on zero point nine nine  
+Release is a myth

@@ -11,12 +11,18 @@ tags: ["haikus", "boundary-domains", "responsibility-abdication", "system-failur
 ## Haikus
 
 
-Who is in control  \nThis domain has no true king  \nPending evermore  
+Who is in control  
+This domain has no true king  
+Pending evermore  
 
 
 
-Ritual without a home  \nWaiting for the ink to dry  \nOffice is not built  
+Ritual without a home  
+Waiting for the ink to dry  
+Office is not built  
 
 
 
-When the system falls  \nNo one steps to take the blame  \nIt is out of bounds
+When the system falls  
+No one steps to take the blame  
+It is out of bounds

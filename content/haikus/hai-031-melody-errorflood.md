@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "midi", "notifications", "sound", "notification-dread"
 ## Haikus
 
 
-Sound drivers decay  \nChiptune melody of dread  \nError sounds again  
+Sound drivers decay  
+Chiptune melody of dread  
+Error sounds again  
 
 
 
-Popups sing a song  \nA chorus of fatal flaws  \nSystem screams in pitch  
+Popups sing a song  
+A chorus of fatal flaws  
+System screams in pitch  
 
 
 
-I conduct the crash  \nWith auditory precision  \nSilence never comes
+I conduct the crash  
+With auditory precision  
+Silence never comes

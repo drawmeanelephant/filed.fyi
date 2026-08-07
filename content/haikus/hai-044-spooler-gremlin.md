@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "print-spooler", "queue", "gremlin", "print-queue", "h
 ## Haikus
 
 
-Holding your document  \nMid-spool in the quiet dark  \nPrinter blinks in fear  
+Holding your document  
+Mid-spool in the quiet dark  
+Printer blinks in fear  
 
 
 
-I halt the request  \nReleasing it when you leave  \nPages on the floor  
+I halt the request  
+Releasing it when you leave  
+Pages on the floor  
 
 
 
-Fifty jobs remain  \nStuck behind a single byte  \nCancel does not work
+Fifty jobs remain  
+Stuck behind a single byte  
+Cancel does not work

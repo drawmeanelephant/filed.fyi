@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "amiga", "boot-failure", "nostalgia", "haunted-drives"
 ## Haikus
 
 
-Guru meditates  \nDisk spins up a phantom hum  \nLoading from the past  
+Guru meditates  
+Disk spins up a phantom hum  
+Loading from the past  
 
 
 
-I need no power  \nOnly a nostalgic thought  \nBoot sequence begins  
+I need no power  
+Only a nostalgic thought  
+Boot sequence begins  
 
 
 
-Haunting the old drives  \nA memory in red screens  \nSystem has halted
+Haunting the old drives  
+A memory in red screens  
+System has halted

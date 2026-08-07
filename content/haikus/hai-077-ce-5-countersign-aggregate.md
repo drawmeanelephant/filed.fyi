@@ -11,12 +11,18 @@ tags: ["haikus", "signatures", "bureaucracy", "endorsements"]
 ## Haikus
 
 
-Five names on the line  \nNone of them take full control  \nClosure through the weight  
+Five names on the line  
+None of them take full control  
+Closure through the weight  
 
 
 
-The ink covers ink  \nNo one can read the final stamp  \nStatus is complete  
+The ink covers ink  
+No one can read the final stamp  
+Status is complete  
 
 
 
-Responsibility fades  \nPassed around the five grey desks  \nCase is closed by all
+Responsibility fades  
+Passed around the five grey desks  
+Case is closed by all

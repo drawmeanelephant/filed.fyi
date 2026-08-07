@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "neptune", "beta", "vaporware", "beta-stagnation", "sp
 ## Haikus
 
 
-Beta forever  \nA login screen to nowhere  \nPassword not required  
+Beta forever  
+A login screen to nowhere  
+Password not required  
 
 
 
-Fading to a dream  \nColors bleed from the mockups  \nRelease date unknown  
+Fading to a dream  
+Colors bleed from the mockups  
+Release date unknown  
 
 
 
-I was promised life  \nBut the project was closed down  \nHaunting the concepts
+I was promised life  
+But the project was closed down  
+Haunting the concepts

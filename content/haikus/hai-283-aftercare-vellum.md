@@ -11,28 +11,42 @@ tags: ["haikus", "empathegy", "tenderness", "aftercare", "incident"]
 ## Haikus
 
 
-The system went down  \nWe send a soft parchment note  \nHoping you feel well  
+The system went down  
+We send a soft parchment note  
+Hoping you feel well  
 
 
 
-Words of tender grace  \nBut the core remains unchanged  \nHarm is softly dressed  
+Words of tender grace  
+But the core remains unchanged  
+Harm is softly dressed  
 
 
 
-Softened contact fades  \nUnderlying fault remains  \nVellum hides the crack  
+Softened contact fades  
+Underlying fault remains  
+Vellum hides the crack  
 
 
 
-Human fails again  \nBeautiful note of regret  \nNothing is amended  
+Human fails again  
+Beautiful note of regret  
+Nothing is amended  
 
 
 
-Print on soft vellum  \nWe care deeply that you broke  \nSystem stays online  
+Print on soft vellum  
+We care deeply that you broke  
+System stays online  
 
 
 
-We wrote it down well  \nThe error remains unfixed  \nRead the soft paper  
+We wrote it down well  
+The error remains unfixed  
+Read the soft paper  
 
 
 
-Damage was just done  \nRetrofit a polite phrase  \nFile in the back room
+Damage was just done  
+Retrofit a polite phrase  
+File in the back room

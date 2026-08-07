@@ -81,7 +81,23 @@ Memory preservation was successfully laundered as institutional ambiguity. The s
 
 ## Haikus
 
-\nDocument the truth  \nThe manual stands unchanged  \nQuiet policy\n\n\n\nRead the written rule  \nMeaning drifted long ago  \nPaper still remains\n\n\n\nBinding by the word  \nSystem waits for compliance  \nNever fully works\n
+
+Document the truth  
+The manual stands unchanged  
+Quiet policy
+
+
+
+Read the written rule  
+Meaning drifted long ago  
+Paper still remains
+
+
+
+Binding by the word  
+System waits for compliance  
+Never fully works
+
 
 
 

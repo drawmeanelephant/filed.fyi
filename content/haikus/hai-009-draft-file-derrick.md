@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "drafts", "unfinalized", "corruption"]
 ## Haikus
 
 
-Drafts remain unsent  \nTainted with my silent tears  \nNever to deploy  
+Drafts remain unsent  
+Tainted with my silent tears  
+Never to deploy  
 
 
 
-Words left half-written  \nWaiting for a final save  \nRotting in the cache  
+Words left half-written  
+Waiting for a final save  
+Rotting in the cache  
 
 
 
-I hold the lost drafts  \nNo system wants to admit  \nFailure is a file
+I hold the lost drafts  
+No system wants to admit  
+Failure is a file

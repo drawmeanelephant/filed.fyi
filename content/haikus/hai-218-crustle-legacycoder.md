@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "apples", "russet", "coder"]
 ## Haikus
 
 
-Rough and ancient skin  \nThe texture is like old code  \nFlawless underneath  
+Rough and ancient skin  
+The texture is like old code  
+Flawless underneath  
 
 
 
-Compiling the past  \nThe syntax is out of date  \nBut it never breaks  
+Compiling the past  
+The syntax is out of date  
+But it never breaks  
 
 
 
-Enduring through time  \nThe gritty sentinel writes  \nApples turn to bytes
+Enduring through time  
+The gritty sentinel writes  
+Apples turn to bytes

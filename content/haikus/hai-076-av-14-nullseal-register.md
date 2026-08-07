@@ -11,12 +11,18 @@ tags: ["haikus", "register", "stamps", "reconstruction"]
 ## Haikus
 
 
-Seals upon the seals  \nThe original text lost  \nInk bleeds into black  
+Seals upon the seals  
+The original text lost  
+Ink bleeds into black  
 
 
 
-Nothing can be read  \nConfidence is fully gone  \nBlank but verified  
+Nothing can be read  
+Confidence is fully gone  
+Blank but verified  
 
 
 
-History buried  \nBy the proof of its own truth  \nBureaucracy wins
+History buried  
+By the proof of its own truth  
+Bureaucracy wins

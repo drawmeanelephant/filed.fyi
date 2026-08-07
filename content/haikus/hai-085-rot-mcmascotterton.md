@@ -11,12 +11,18 @@ tags: ["haikus", "builds", "rot", "false-success"]
 ## Haikus
 
 
-Pipeline passes tests  \nEverything is broken deep  \nI record success  
+Pipeline passes tests  
+Everything is broken deep  
+I record success  
 
 
 
-Do not look too close  \nCeremony hides the rot  \nBeacon shines so bright  
+Do not look too close  
+Ceremony hides the rot  
+Beacon shines so bright  
 
 
 
-Stability is gone  \nBut the logs show zero faults  \nCheer for the decay
+Stability is gone  
+But the logs show zero faults  
+Cheer for the decay

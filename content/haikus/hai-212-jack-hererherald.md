@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "cannabis", "arkansas", "dispensary"]
 ## Haikus
 
 
-Proclaiming relief  \nPine-scented clarity shines  \nAdvocacy lives  
+Proclaiming relief  
+Pine-scented clarity shines  
+Advocacy lives  
 
 
 
-Herald of the truth  \nThe archives speak for the plant  \nHistory is loud  
+Herald of the truth  
+The archives speak for the plant  
+History is loud  
 
 
 
-Filing with a cheer  \nThe patients find what they need  \nJack provides the way
+Filing with a cheer  
+The patients find what they need  
+Jack provides the way

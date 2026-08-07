@@ -11,12 +11,18 @@ tags: ["haikus", "beautification", "perfection", "unfinished"]
 ## Haikus
 
 
-Needs a little more  \nShadows must be absolute  \nRender it again  
+Needs a little more  
+Shadows must be absolute  
+Render it again  
 
 
 
-Nothing is complete  \nThe colors lack a true depth  \nAdd another blur  
+Nothing is complete  
+The colors lack a true depth  
+Add another blur  
 
 
 
-Loop of making nice  \nPixels polished to a shine  \nBuild will never pass
+Loop of making nice  
+Pixels polished to a shine  
+Build will never pass

@@ -11,12 +11,18 @@ tags: ["haikus", "svg", "vectors", "scalability"]
 ## Haikus
 
 
-Zoom in forever  \nThe curves will never get soft  \nPixels are for fools  
+Zoom in forever  
+The curves will never get soft  
+Pixels are for fools  
 
 
 
-Math dictates the line  \nPaths drawn with cold exactness  \nJudgment without end  
+Math dictates the line  
+Paths drawn with cold exactness  
+Judgment without end  
 
 
 
-Underneath the shape  \nTags define geometry  \nPerfect absolute
+Underneath the shape  
+Tags define geometry  
+Perfect absolute

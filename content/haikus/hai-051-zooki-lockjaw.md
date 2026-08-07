@@ -11,12 +11,18 @@ tags: ["haikus", "zookeeper", "locks", "clusters", "coordination"]
 ## Haikus
 
 
-I locked all the nodes  \nPerfect synchronization  \nI can't get back in  
+I locked all the nodes  
+Perfect synchronization  
+I can't get back in  
 
 
 
-The cluster is quiet  \nWaiting on the single lock  \nThroughput falls to naught  
+The cluster is quiet  
+Waiting on the single lock  
+Throughput falls to naught  
 
 
 
-Heartbeats in the dark  \nWatching the ephemeral  \nNodes drop one by one
+Heartbeats in the dark  
+Watching the ephemeral  
+Nodes drop one by one

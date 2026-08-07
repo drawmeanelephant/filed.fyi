@@ -11,12 +11,18 @@ tags: ["haikus", "routing", "continuity", "divergence"]
 ## Haikus
 
 
-The flow splits in two  \nCare and continuity part  \nDestination same  
+The flow splits in two  
+Care and continuity part  
+Destination same  
 
 
 
-Follow either line  \nThey both lead to a dead end  \nNothing is fixed here  
+Follow either line  
+They both lead to a dead end  
+Nothing is fixed here  
 
 
 
-Function calls a branch  \nBut the logic holds no truth  \nWe loop back again
+Function calls a branch  
+But the logic holds no truth  
+We loop back again

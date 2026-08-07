@@ -11,12 +11,18 @@ tags: ["haikus", "metadata", "indices", "dust"]
 ## Haikus
 
 
-Binding dust to bytes  \nThe matriarch holds the keys  \nNothing truly lost  
+Binding dust to bytes  
+The matriarch holds the keys  
+Nothing truly lost  
 
 
 
-Catalog of ghosts  \nShe speaks the forgotten names  \nIndex comes alive  
+Catalog of ghosts  
+She speaks the forgotten names  
+Index comes alive  
 
 
 
-Sitting in the dark  \nProtecting the broken links  \nSilence is her friend
+Sitting in the dark  
+Protecting the broken links  
+Silence is her friend

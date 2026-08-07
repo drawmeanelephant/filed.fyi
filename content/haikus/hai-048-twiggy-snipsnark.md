@@ -11,12 +11,18 @@ tags: ["haikus", "templates", "grav", "parsing", "logic"]
 ## Haikus
 
 
-Parsing empty space  \nReordering dead components  \nTemplates turn to dust  
+Parsing empty space  
+Reordering dead components  
+Templates turn to dust  
 
 
 
-I correct your code  \nIndentations must be right  \nEven if it fails  
+I correct your code  
+Indentations must be right  
+Even if it fails  
 
 
 
-Grav system decays  \nBut I enforce every rule  \nSpacing is a law
+Grav system decays  
+But I enforce every rule  
+Spacing is a law

@@ -11,12 +11,18 @@ tags: ["haikus", "enterprise", "collaboration", "bloat", "synergy"]
 ## Haikus
 
 
-Meetings without end  \nChatting in a dozen threads  \nNothing gets resolved  
+Meetings without end  
+Chatting in a dozen threads  
+Nothing gets resolved  
 
 
 
-RAM is fully used  \nLoading enterprise suite  \nBusiness synergy  
+RAM is fully used  
+Loading enterprise suite  
+Business synergy  
 
 
 
-We are aligned now  \nLet us circle back later  \nTouchbase in the void
+We are aligned now  
+Let us circle back later  
+Touchbase in the void

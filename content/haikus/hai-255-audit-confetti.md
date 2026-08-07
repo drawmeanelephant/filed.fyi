@@ -11,44 +11,66 @@ tags: ["haikus", "haiku", "audit", "confetti", "joy", "premature-celebration", "
 ## Haikus
 
 
-The boxes are checked  \nThrow the paper in the air  \nWait we missed a form  
+The boxes are checked  
+Throw the paper in the air  
+Wait we missed a form  
 
 
 
-Audit is complete  \nConfetti falls on the desk  \nFines arrive next week  
+Audit is complete  
+Confetti falls on the desk  
+Fines arrive next week  
 
 
 
-Sweeping up the mess  \nThe joy was brief and unchecked  \nLiability  
+Sweeping up the mess  
+The joy was brief and unchecked  
+Liability  
 
 
 
-Approval is signed  \nConfetti hides the errors  \nCleanup is deferred  
+Approval is signed  
+Confetti hides the errors  
+Cleanup is deferred  
 
 
 
-The audit alerts  \nCelebrate with shredded forms  \nSubject to review  
+The audit alerts  
+Celebrate with shredded forms  
+Subject to review  
 
 
 
-Debris on the desk  \nMaintenance requests denied  \nNot in scope today  
+Debris on the desk  
+Maintenance requests denied  
+Not in scope today  
 
 
 
-Failure is unknown  \nPrinted awards line the floor  \nFile marked as complete  
+Failure is unknown  
+Printed awards line the floor  
+File marked as complete  
 
 
 
-Scattered records fall  \nWe do not track the pieces  \nStatus is resolved  
+Scattered records fall  
+We do not track the pieces  
+Status is resolved  
 
 
 
-Joy is not required  \nSystem dumps the confetti  \nError code obscured  
+Joy is not required  
+System dumps the confetti  
+Error code obscured  
 
 
 
-Form is void and null  \nHidden by the festival  \nWe submit the blank  
+Form is void and null  
+Hidden by the festival  
+We submit the blank  
 
 
 
-Humans act in haste  \nPaper blocking up the vents  \nSystem unaware
+Humans act in haste  
+Paper blocking up the vents  
+System unaware

@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "robots-txt", "crawlers", "indexing", "defunct-rules",
 ## Haikus
 
 
-Spiders must retreat  \nDisallow the holy paths  \nRespect my boundaries  
+Spiders must retreat  
+Disallow the holy paths  
+Respect my boundaries  
 
 
 
-I guide the machines  \nTelling them where not to go  \nLonely in the root  
+I guide the machines  
+Telling them where not to go  
+Lonely in the root  
 
 
 
-Rules of the old web  \nNobody reads me today  \nScraping everything
+Rules of the old web  
+Nobody reads me today  
+Scraping everything

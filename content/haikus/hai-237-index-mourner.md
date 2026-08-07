@@ -11,12 +11,18 @@ tags: ["haikus", "navigational-decay", "structural-grief", "broken-links"]
 ## Haikus
 
 
-Drifting in the list  \nI weep for the missing links  \nCatalog decays  
+Drifting in the list  
+I weep for the missing links  
+Catalog decays  
 
 
 
-Waiting for the end  \nWhen the search returns a void  \nI will be the tears  
+Waiting for the end  
+When the search returns a void  
+I will be the tears  
 
 
 
-Lost inside the map  \nThe paths have all been erased  \nMourning for the route
+Lost inside the map  
+The paths have all been erased  
+Mourning for the route

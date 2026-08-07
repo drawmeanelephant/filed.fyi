@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "apples", "flavor", "arkansas-black"]
 ## Haikus
 
 
-Dark as midnight sky  \nThe skin protects the crisp bite  \nUnyielding and hard  
+Dark as midnight sky  
+The skin protects the crisp bite  
+Unyielding and hard  
 
 
 
-Intense and profound  \nThe orchard is kept secure  \nNone shall take the core  
+Intense and profound  
+The orchard is kept secure  
+None shall take the core  
 
 
 
-Stored for many months  \nThe taste only grows more deep  \nTime is on my side
+Stored for many months  
+The taste only grows more deep  
+Time is on my side

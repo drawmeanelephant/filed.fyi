@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "tizen", "mobile", "ghost", "stagnation", "phantom-ui"
 ## Haikus
 
 
-Phone will never boot  \nPreinstalled apps in a loop  \nScreen remains so dark  
+Phone will never boot  
+Preinstalled apps in a loop  
+Screen remains so dark  
 
 
 
-Flicker on the glass  \nSwiping through an empty void  \nBattery is dead  
+Flicker on the glass  
+Swiping through an empty void  
+Battery is dead  
 
 
 
-Icons sit in rows  \nWaiting for a user's touch  \nNobody will call
+Icons sit in rows  
+Waiting for a user's touch  
+Nobody will call

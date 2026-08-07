@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "wiki", "trackers", "drift"]
 ## Haikus
 
 
-Pages left to rot  \nMacros broken in the text  \nFormatting decays  
+Pages left to rot  
+Macros broken in the text  
+Formatting decays  
 
 
 
-Issues never closed  \nDrifting out of relevance  \nLiaison of ghost  
+Issues never closed  
+Drifting out of relevance  
+Liaison of ghost  
 
 
 
-Style overrides fail  \nWhispering to templates now  \nNothing renders right
+Style overrides fail  
+Whispering to templates now  
+Nothing renders right

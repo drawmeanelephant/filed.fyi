@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "forms", "duplication", "identity"]
 ## Haikus
 
 
-Forms go to the void  \nYour identity is split  \nFiles are now estranged  
+Forms go to the void  
+Your identity is split  
+Files are now estranged  
 
 
 
-I file you twice now  \nWith detached confidence  \nData spreads apart  
+I file you twice now  
+With detached confidence  
+Data spreads apart  
 
 
 
-Click submit again  \nCreate a new ghost of you  \nNone of them are real
+Click submit again  
+Create a new ghost of you  
+None of them are real

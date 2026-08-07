@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "ui", "guardian", "warnings"]
 ## Haikus
 
 
-Button is too red  \nContrast fails the simple test  \nWarning is deployed  
+Button is too red  
+Contrast fails the simple test  
+Warning is deployed  
 
 
 
-Guardian of the view  \nAccessibility first  \nDo not hide the text  
+Guardian of the view  
+Accessibility first  
+Do not hide the text  
 
 
 
-Flagging the bad flow  \nUsers will be lost here soon  \nRedesign it now
+Flagging the bad flow  
+Users will be lost here soon  
+Redesign it now

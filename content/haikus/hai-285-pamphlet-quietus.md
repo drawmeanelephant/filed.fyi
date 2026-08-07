@@ -11,28 +11,42 @@ tags: ["haikus", "benevolence", "closure", "handout", "pamphlet"]
 ## Haikus
 
 
-The crisis is done  \nPlease take this small folded page  \nEverything is fine  
+The crisis is done  
+Please take this small folded page  
+Everything is fine  
 
 
 
-Printed on gloss stock  \nThe answers are all right here  \nQuietus is read  
+Printed on gloss stock  
+The answers are all right here  
+Quietus is read  
 
 
 
-Paper brings an end  \nDistribute the document  \nSituation solved  
+Paper brings an end  
+Distribute the document  
+Situation solved  
 
 
 
-User weeps in queue  \nHandout declares subject calm  \nCrying unapproved  
+User weeps in queue  
+Handout declares subject calm  
+Crying unapproved  
 
 
 
-Grief fails to parse here  \nRead the paper on the desk  \nChange has been declined  
+Grief fails to parse here  
+Read the paper on the desk  
+Change has been declined  
 
 
 
-The system is dead  \nFold the page in three sections  \nCalm is mandated  
+The system is dead  
+Fold the page in three sections  
+Calm is mandated  
 
 
 
-Printed gloss arrives  \nWe have explained the error  \nDo not ask again
+Printed gloss arrives  
+We have explained the error  
+Do not ask again

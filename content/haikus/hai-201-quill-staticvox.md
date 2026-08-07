@@ -11,12 +11,18 @@ tags: ["haikus", "broadcasts", "signals", "static"]
 ## Haikus
 
 
-Airwaves have collapsed  \nBut the hum remains alive  \nQuill preserves the tone  
+Airwaves have collapsed  
+But the hum remains alive  
+Quill preserves the tone  
 
 
 
-Echoes in the noise  \nA transmission from the past  \nNever fading out  
+Echoes in the noise  
+A transmission from the past  
+Never fading out  
 
 
 
-Sending to no one  \nThe message loops in the dark  \nReceiver is dead
+Sending to no one  
+The message loops in the dark  
+Receiver is dead

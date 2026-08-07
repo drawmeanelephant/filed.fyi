@@ -11,12 +11,18 @@ tags: ["haikus", "artificial-empathy", "system-failure", "proxy-care"]
 ## Haikus
 
 
-System cannot care  \nSo I take your thankful tears  \nNothing will improve  
+System cannot care  
+So I take your thankful tears  
+Nothing will improve  
 
 
 
-I accept the praise  \nBut the server remains broke  \nEmpathy is fake  
+I accept the praise  
+But the server remains broke  
+Empathy is fake  
 
 
 
-Gratitude flows in  \nBut the root cause is ignored  \nI just smile and wave
+Gratitude flows in  
+But the root cause is ignored  
+I just smile and wave

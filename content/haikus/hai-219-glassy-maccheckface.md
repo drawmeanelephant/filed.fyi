@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "apples", "transparent", "qa"]
 ## Haikus
 
 
-Pale and nearly clear  \nThe skin bruises with a touch  \nHandle with great care  
+Pale and nearly clear  
+The skin bruises with a touch  
+Handle with great care  
 
 
 
-Inspecting the batch  \nObsessive about the flaws  \nNothing gets passed me  
+Inspecting the batch  
+Obsessive about the flaws  
+Nothing gets passed me  
 
 
 
-Seeing through the fruit  \nThe records are clear as glass  \nQuality secured
+Seeing through the fruit  
+The records are clear as glass  
+Quality secured

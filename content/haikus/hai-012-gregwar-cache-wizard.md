@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "cache", "stale-data", "wizardry"]
 ## Haikus
 
 
-The old cache remains  \nNothing will ever update  \nStuck in yesterday  
+The old cache remains  
+Nothing will ever update  
+Stuck in yesterday  
 
 
 
-Assets shrink and stretch  \nWith a recursive sad sigh  \nPixels scream in pain  
+Assets shrink and stretch  
+With a recursive sad sigh  
+Pixels scream in pain  
 
 
 
-Spells of stale logic  \nServe the pages from the past  \nFreshness is denied
+Spells of stale logic  
+Serve the pages from the past  
+Freshness is denied

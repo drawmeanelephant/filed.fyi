@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "compression", "artifacts", "lossy", "lossy-compressio
 ## Haikus
 
 
-Pixels turn to mud  \nCompression destroys the truth  \nBeauty leaves a block  
+Pixels turn to mud  
+Compression destroys the truth  
+Beauty leaves a block  
 
 
 
-Colors bleed and blend  \nA lossy filter applied  \nArt in degradation  
+Colors bleed and blend  
+A lossy filter applied  
+Art in degradation  
 
 
 
-Save it once again  \nWatch the sharpness fade away  \nArtifacts remain
+Save it once again  
+Watch the sharpness fade away  
+Artifacts remain

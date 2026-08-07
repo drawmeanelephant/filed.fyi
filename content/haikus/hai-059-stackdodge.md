@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "optimization", "untested", "bugs"]
 ## Haikus
 
 
-Flags I do not know  \nCompiling with pure hubris  \nMemory will fault  
+Flags I do not know  
+Compiling with pure hubris  
+Memory will fault  
 
 
 
-The wipe was heroic  \nLogic fails the simplest test  \nUI took the blame  
+The wipe was heroic  
+Logic fails the simplest test  
+UI took the blame  
 
 
 
-Shaving nanoseconds  \nBut the query takes an hour  \nPriorities skewed
+Shaving nanoseconds  
+But the query takes an hour  
+Priorities skewed

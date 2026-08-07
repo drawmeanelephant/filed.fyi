@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "build", "dependencies", "compile", "build-failures", 
 ## Haikus
 
 
-Source begins to build  \nDependencies interlock  \nTears fall in the shell  
+Source begins to build  
+Dependencies interlock  
+Tears fall in the shell  
 
 
 
-Bound to every lib  \nIf one fails I feel the pain  \nMake command has died  
+Bound to every lib  
+If one fails I feel the pain  
+Make command has died  
 
 
 
-Raised on the tarballs  \nMy spirit is compiled now  \nWaiting for the link
+Raised on the tarballs  
+My spirit is compiled now  
+Waiting for the link

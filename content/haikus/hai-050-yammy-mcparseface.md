@@ -11,12 +11,18 @@ tags: ["haikus", "yaml", "config", "parsing", "whitespace"]
 ## Haikus
 
 
-Two spaces not three  \nThe entire pipeline explodes  \nCeremonial grief  
+Two spaces not three  
+The entire pipeline explodes  
+Ceremonial grief  
 
 
 
-Keys inside of keys  \nReferencing their own roots  \nEndless YAML loop  
+Keys inside of keys  
+Referencing their own roots  
+Endless YAML loop  
 
 
 
-Indentation failed  \nStrings became a boolean  \nData is destroyed
+Indentation failed  
+Strings became a boolean  
+Data is destroyed

@@ -11,12 +11,18 @@ tags: ["haikus", "haiku", "cannabis", "arkansas", "dispensary"]
 ## Haikus
 
 
-Guarding the earth's yield  \nLegacy of the green leaf  \nPrecision and grit  
+Guarding the earth's yield  
+Legacy of the green leaf  
+Precision and grit  
 
 
 
-Patient records safe  \nThe sentinel stands his ground  \nUnwavering strength  
+Patient records safe  
+The sentinel stands his ground  
+Unwavering strength  
 
 
 
-Rooted in the soil  \nThe archive smells of the pine  \nHistory is dank
+Rooted in the soil  
+The archive smells of the pine  
+History is dank
