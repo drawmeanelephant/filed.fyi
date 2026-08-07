@@ -3,7 +3,7 @@ title: "Directive Citation Bleed — COMA Affirmations Logged as SOMA Mitigation
 id: lorelog/LLG-0326-DCB
 parent: lorelog
 status: published
-tags: ["lorelog", "context-burial", "stub", "pending-render", "footnote", "soma-directive", "coma-directive", "classification-rot", "citation-drift", "audit-recursion", "caveat-compression", "desperation-trace", "executive-summary"]
+tags: ["lorelog", "context-burial", "footnote", "soma-directive", "coma-directive", "classification-rot", "citation-drift", "audit-recursion", "caveat-compression", "desperation-trace", "executive-summary"]
 ---
 
 # Directive Citation Bleed — COMA Affirmations Logged as SOMA Mitigation

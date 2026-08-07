@@ -3,7 +3,7 @@ title: "DOGE Certification Stamp Drift and Counterfeit Annotation Event"
 id: lorelog/LLG-0361-DOGE-STAMP-DRIFT
 parent: lorelog
 status: published
-tags: ["lorelog", "relief-trace", "faint-intervention", "audit-resistance", "sub-surface-traces", "formal-signaling", "stub", "pending-render", "prestige-drift", "doge", "bricky", "stamp-drift", "counterfeit"]
+tags: ["lorelog", "relief-trace", "faint-intervention", "audit-resistance", "sub-surface-traces", "formal-signaling", "prestige-drift", "doge", "bricky", "stamp-drift", "counterfeit"]
 ---
 
 # DOGE Certification Stamp Drift and Counterfeit Annotation Event

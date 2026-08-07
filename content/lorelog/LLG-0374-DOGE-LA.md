@@ -3,7 +3,7 @@ title: "Local Anchor Verification Memo Acceptable Evidence Classes"
 id: lorelog/LLG-0374-DOGE-LA
 parent: lorelog
 status: published
-tags: ["lorelog", "local-canon", "stub", "pending-render", "folklore-procedure", "doge", "local-anchor", "evidence-classes", "appeals", "standards"]
+tags: ["lorelog", "local-canon", "folklore-procedure", "doge", "local-anchor", "evidence-classes", "appeals", "standards"]
 ---
 
 # Local Anchor Verification Memo Acceptable Evidence Classes

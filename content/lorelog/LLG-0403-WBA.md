@@ -3,7 +3,7 @@ title: "WBA Continuity Gap — Cryosection Documentation Failure"
 id: lorelog/LLG-0403-WBA
 parent: lorelog
 status: published
-tags: ["lorelog", "stub", "soothing-absence", "pending-render", "redaction", "wba", "glp", "cryosection-rot", "dual-identity-record", "bricky-incident", "the-beagle-question"]
+tags: ["lorelog", "soothing-absence", "redaction", "wba", "glp", "cryosection-rot", "dual-identity-record", "bricky-incident", "the-beagle-question"]
 ---
 
 # WBA Continuity Gap — Cryosection Documentation Failure
