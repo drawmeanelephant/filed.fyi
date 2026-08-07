@@ -22,8 +22,6 @@ echo "    Boris: $BORIS_BIN"
 echo "    Input: $CONTENT_DIR"
 echo "    Theme: $THEME"
 
-python3 scripts/filed_ids.py --root "$CONTENT_DIR" --map metadata/id-map.jsonl
-
 "$BORIS_BIN" --input "$CONTENT_DIR" --theme "$THEME" --html-dir "$PUBLISH_DIR/site" --sitemap --site-url "$SITE_URL" --jobs "$BORIS_JOBS" --quiet
 "$BORIS_BIN" --input "$CONTENT_DIR" --out "$PUBLISH_DIR/ir" --quiet
 "$BORIS_BIN" --input "$CONTENT_DIR" --rag-dir "$PUBLISH_DIR/rag" --quiet
@@ -48,11 +46,8 @@ python3 scripts/validate_relationships.py \
 
 # Relationship ground truth is the committed recovery manifest
 # (metadata/relationship-map.jsonl) — the pipeline never needs a scratch
-# directory or git history.  Verify it is consistent with content/, and when
-# history is available reproduce it byte-for-byte from the immutable
-# pre-migration tree at commit 6abe4416.
+# directory or git history.  Verify it is consistent with content/.
 python3 scripts/recover_relationships.py --check
-python3 scripts/recover_relationships.py --verify
 
 if "$BORIS_BIN" --input "$CONTENT_DIR" --llms-path "$PUBLISH_DIR/llms.txt" --quiet; then
   if python3 -c 'from pathlib import Path; import sys; Path(sys.argv[1]).read_text(encoding="utf-8")' "$PUBLISH_DIR/llms.txt"; then

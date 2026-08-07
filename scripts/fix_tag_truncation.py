@@ -189,17 +189,19 @@ def main():
                  "  git archive 6abe4416 src/content src/content-residue "
                  "| tar -x -C scratch/pre-tree" % PRE_TREE)
 
-    rows = [json.loads(l) for l in open(ID_MAP) if l.strip()]
+    if os.path.exists(ID_MAP):
+        rows = [json.loads(l) for l in open(ID_MAP) if l.strip()]
+        sources = [r["source"] for r in rows if r.get("role") == "satellite"]
+    else:
+        sources = [os.path.relpath(os.path.join(dp, f), CONTENT)
+                   for dp, _, filenames in os.walk(CONTENT) for f in filenames if f.endswith(".md")]
 
     changed = []
     unchanged = 0
     no_pre = []
     named_hits = {n: 0 for n in NAMED_TAGS}
 
-    for row in rows:
-        if row.get("role") != "satellite":
-            continue
-        post_rel = row["source"]
+    for post_rel in sources:
         pp = os.path.join(CONTENT, post_rel)
         if not os.path.exists(pp):
             continue

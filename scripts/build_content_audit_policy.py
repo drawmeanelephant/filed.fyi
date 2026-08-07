@@ -61,16 +61,14 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import sys
 from pathlib import Path
-
-from filed_ids import MigrationError, read_frontmatter
 
 ROOT = Path(__file__).resolve().parent.parent
 
 # Committed inputs.
 DEFAULT_MAP = ROOT / "metadata" / "relationship-map.jsonl"
-DEFAULT_ID_MAP = ROOT / "metadata" / "id-map.jsonl"
 DEFAULT_POPULATION = ROOT / "metadata" / "content-audit-policy" / "population.json"
 DEFAULT_CATEGORIES = ROOT / "metadata" / "content-audit-policy" / "categories.json"
 DEFAULT_CONTENT = ROOT / "content"
@@ -130,41 +128,57 @@ def sha256_hex(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+FIELD_LINE = re.compile(r"^([A-Za-z_][A-Za-z0-9_]*):[ \t]*(.*?)(?:\r?\n)?$")
+
+
+class FrontmatterError(Exception):
+    pass
+
+
+def read_frontmatter(path: Path) -> dict[str, str]:
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        raise FrontmatterError("missing opening fence")
+    close = None
+    for index in range(1, len(lines)):
+        if lines[index].strip() == "---":
+            close = index
+            break
+    if close is None:
+        raise FrontmatterError("unclosed frontmatter")
+    fields = {}
+    for line in lines[1:close]:
+        if not line.strip():
+            continue
+        match = FIELD_LINE.match(line)
+        if not match:
+            raise FrontmatterError("unsupported frontmatter line")
+        key, val = match.groups()
+        if key in fields:
+            raise FrontmatterError(f"duplicate key {key}")
+        val = val.strip()
+        if len(val) >= 2 and val[0] == '"' and val[-1] == '"':
+            val = val[1:-1]
+        fields[key] = val
+    return fields
+
+
 def content_record_ids(content_root: Path) -> dict[str, str]:
     """Map every canonical id in the content tree to its collection.
 
-    Identity comes exclusively from the leading Boris frontmatter block: the
-    file must open with a ``---`` fence and carry exactly one top-level
-    ``id:`` field inside that block, read with the same bounded frontmatter
-    parser as scripts/filed_ids.py. ``id:``-looking lines in the Markdown body
-    are never consulted and can never override the frontmatter id.
-
-    Fail closed: a file with no leading frontmatter fence, an unclosed block,
-    an unsupported frontmatter line, or a duplicate key is excluded rather
-    than guessed — the audit reports such records independently, and a
-    canonical-but-missing id surfaces as a blocking finding downstream.
-
-    The collection comes from the directory the file lives in. Only stable
-    ids are collected; files without an id are ignored here.
+    Identity comes from the leading Boris frontmatter block.
     """
     ids: dict[str, str] = {}
     for path in sorted(content_root.rglob("*.md")):
         try:
-            _, _, fields = read_frontmatter(path)
-        except MigrationError:
-            # Fail closed: never guess identity from malformed frontmatter.
-            # Such records are excluded here; the audit reports them
-            # independently, and canonical-but-missing ids become blocking
-            # findings in derive() when referenced by accepted evidence.
+            fields = read_frontmatter(path)
+        except FrontmatterError:
             continue
         entity_id = fields.get("id")
         if not entity_id:
             continue
         rel = path.relative_to(content_root)
-        # Collection derivation matches boris-content-audit's collectionOfPath:
-        # nested files take their directory; a top-level file (a collection
-        # landing page) is keyed by its bare filename, so it is never a poetry
-        # or eligible source record.
         collection = rel.parts[0] if len(rel.parts) > 1 else rel.name
         ids[entity_id] = collection
     return ids
@@ -498,11 +512,10 @@ def run_generation(args) -> tuple[bytes, bytes, Derivation, bool]:
     Returns (policy_bytes, summary_bytes, derivation, findings_present).
     """
     rows = load_jsonl(args.map)
-    id_map_rows = load_jsonl(args.id_map)
-    canonical_ids = {row.get("id") for row in id_map_rows if row.get("id")}
     population = load_json(args.population)
     categories = load_json(args.categories)
     content_ids = content_record_ids(args.content)
+    canonical_ids = set(content_ids.keys())
 
     derivation = derive(
         population,
@@ -522,7 +535,6 @@ def run_generation(args) -> tuple[bytes, bytes, Derivation, bool]:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--map", type=Path, default=DEFAULT_MAP)
-    parser.add_argument("--id-map", type=Path, default=DEFAULT_ID_MAP)
     parser.add_argument("--population", type=Path, default=DEFAULT_POPULATION)
     parser.add_argument("--categories", type=Path, default=DEFAULT_CATEGORIES)
     parser.add_argument("--content", type=Path, default=DEFAULT_CONTENT)

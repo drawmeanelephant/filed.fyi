@@ -136,7 +136,6 @@ def run_gen(tmp, *extra):
         sys.executable,
         str(ROOT / "scripts" / "build_content_audit_policy.py"),
         "--map", str(tmp / "metadata" / "relationship-map.jsonl"),
-        "--id-map", str(tmp / "metadata" / "id-map.jsonl"),
         "--population", str(tmp / "metadata" / "content-audit-policy" / "population.json"),
         "--categories", str(tmp / "metadata" / "content-audit-policy" / "categories.json"),
         "--content", str(tmp / "content"),
@@ -259,7 +258,6 @@ def test_strict_identity_keeps_committed_policy_deterministic():
     print("strict frontmatter-only identity keeps committed policy bytes identical")
     args = argparse.Namespace(
         map=b.DEFAULT_MAP,
-        id_map=b.DEFAULT_ID_MAP,
         population=b.DEFAULT_POPULATION,
         categories=b.DEFAULT_CATEGORIES,
         content=b.DEFAULT_CONTENT,

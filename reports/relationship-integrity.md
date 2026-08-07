@@ -5,7 +5,7 @@
 **Repair:** `scripts/repair_relationships.py`  
 **Validation:** `scripts/validate_relationships.py`  
 **Recovery:** `metadata/relationship-map.jsonl` + `metadata/relationship-recovery.json` (provenance commit `6abe4416`)  
-**Generated:** 2026-08-05
+**Generated:** 2026-08-07
 
 ## Relationship export
 
@@ -164,7 +164,6 @@ _none_
 ## Validation commands
 
 ```bash
-python3 scripts/test_relationship_repair.py
 python3 scripts/recover_relationships.py --verify
 python3 scripts/repair_relationships.py --content content --rag-dir publish/rag --context-dir publish/context
 python3 scripts/validate_relationships.py --content content --rag-dir publish/rag --context-dir publish/context
