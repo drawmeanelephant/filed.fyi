@@ -22,8 +22,6 @@ echo "    Boris: $BORIS_BIN"
 echo "    Input: $CONTENT_DIR"
 echo "    Theme: $THEME"
 
-python3 scripts/filed_ids.py --root "$CONTENT_DIR" --map metadata/id-map.jsonl
-
 "$BORIS_BIN" --input "$CONTENT_DIR" --theme "$THEME" --html-dir "$PUBLISH_DIR/site" --sitemap --site-url "$SITE_URL" --jobs "$BORIS_JOBS" --quiet
 "$BORIS_BIN" --input "$CONTENT_DIR" --out "$PUBLISH_DIR/ir" --quiet
 "$BORIS_BIN" --input "$CONTENT_DIR" --rag-dir "$PUBLISH_DIR/rag" --quiet

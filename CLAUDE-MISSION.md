@@ -2,8 +2,7 @@
 
 > This is a retained historical styling brief from before the 2026-08-02
 > Filed corpus takeover. The active source, identity, and validation contract
-> is documented in `README.md`, `metadata/id-policy.json`, and
-> `scripts/filed_ids.py`.
+> is documented in `README.md` and `rules.md`.
 
 This delegation plan outlines tightly-scoped, isolated styling tasks for Claude (or a subsequent model runner) to polish the new Filed Boris themes at low token/computation cost.
 

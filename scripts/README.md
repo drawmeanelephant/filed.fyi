@@ -36,11 +36,7 @@ This directory contains the Python, Shell, and automation scripts used to build,
 
 ---
 
-## 🔍 Graph, ID & Content Audit Helpers
-
-### 📜 `filed_ids.py`
-* **Purpose**: Validates canonical identity assignments, form number schemas, and ID mappings against `metadata/id-policy.json` and `metadata/id-map.jsonl`.
-* **Usage**: `python3 scripts/filed_ids.py --root content --map metadata/id-map.jsonl`
+## 🔍 Graph & Content Audit Helpers
 
 ### 📜 `build_content_audit_policy.py`
 * **Purpose**: Audits poetry ownership relationships, cross-references, and content categories against the corpus metadata policy under `metadata/content-audit-policy/`.

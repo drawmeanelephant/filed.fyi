@@ -26,7 +26,6 @@ Before executing any substantive changes:
 2. Read project governance files:
    * `README.md`
    * `rules.md`
-   * `metadata/id-policy.json`
 3. When editing or creating content, inspect nearby records to maintain voice and layout consistency.
 4. Preserve unrelated work in progress.
 
@@ -54,7 +53,7 @@ Boris enforces a **closed and constrained** frontmatter schema.
 
 ## 5. Identity, Graph Structure & Hierarchy
 
-* **Canonical Identifiers**: Preserve existing canonical IDs and the identity map (`metadata/id-policy.json`). Never silently rename, renumber, or reuse IDs.
+* **Canonical Identifiers**: Record IDs (`id`) represent permanent, canonical identities—not casual or ephemeral slugs. Do not rename, renumber, or reuse IDs. By default, Boris derives identity directly from source paths under `content/` unless an explicit `id:` frontmatter override is present. No central registry or dynamic allocation script is used.
 * **Structural Hierarchy**: Hierarchy is declared strictly using `parent`.
 * **Semantic Connections**: Non-hierarchical relationships use Boris `relations`.
 * **Trunk & Satellite Model**:

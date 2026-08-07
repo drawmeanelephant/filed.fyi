@@ -57,9 +57,6 @@ Primary build and publishing scripts:
 ```text
 content/                    # Source Markdown corpus
 themes/cantilever/         # Primary production theme and templates
-metadata/id-policy.json    # Canonical identity rules
-metadata/id-map.jsonl      # Legacy-to-canonical migration map
-scripts/filed_ids.py       # ID migration and validation helper
 scripts/ensure-boris.sh    # Automated Boris compiler binary provisioning
 scripts/clean-binaries.sh  # Clean compiler binaries in bin/
 scripts/filed-build.sh     # Production HTML build script
@@ -73,24 +70,11 @@ Generated outputs under `dist/`, `publish/`, `site/`, and local compiler binarie
 
 ## Identity Model
 
-Boris `id` values are stable graph identities, not casual slugs. Collection trunks keep simple IDs such as `mascots` and `reference`. Satellite records use the collection namespace plus the form system:
+Boris `id` values are stable graph identities. By default, Boris derives the canonical document identity directly from the source path under `content/` (e.g. `changelog/2026-08-07-docket-convention`). An explicit `id:` override in frontmatter remains available when a stable identity independent of the source path is desired (e.g. `mascots/M-0005`, `reference/FREF-0340-TSAB`).
 
-```text
-mascots/M-0005
-reference/FREF-0340-TSAB
-lorelog/LLG-0400-CMA-TSP
-aphorisms/APH-0003
-```
+Record IDs represent permanent identities and must not be casually renamed, renumbered, or reused.
 
-The numeric portion is normalized to at least four digits. Existing form codes are preserved where possible; missing codes receive the next unused collection number. IDs are never silently renumbered or reused. The original slug-derived identity is retained in `metadata/id-map.jsonl`.
-
-Structural parents remain collection trunks (`parent`). Semantic relationships are declared via Boris `relations` and must target canonical IDs.
-
-Validate the identity layer directly with:
-
-```sh
-python3 scripts/filed_ids.py --root content --map metadata/id-map.jsonl
-```
+Structural parents specify collection trunks (`parent`). Semantic relationships are declared via Boris `relations` and target canonical IDs. Boris validates document identity uniqueness and graph topology directly during `boris check`. No central registry, sidecar file, or script allocation scheme participates in validation or build pipelines.
 
 ---
 

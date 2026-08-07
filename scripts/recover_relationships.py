@@ -343,6 +343,8 @@ def load_id_map(id_map_path: Path) -> tuple[dict[str, dict], dict[str, dict]]:
     """Return (legacy_id -> row, current_source -> row) for satellites."""
     by_legacy: dict[str, dict] = {}
     by_source: dict[str, dict] = {}
+    if not id_map_path.is_file():
+        return by_legacy, by_source
     for line in id_map_path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if not line:

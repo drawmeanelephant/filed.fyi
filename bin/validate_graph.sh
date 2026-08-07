@@ -14,9 +14,6 @@ fi
 CONTENT_DIR=${CONTENT_DIR:-content}
 DIST_DIR=${DIST_DIR:-dist/cantilever}
 
-echo "==> Validating Filed form IDs"
-python3 scripts/filed_ids.py --root "$CONTENT_DIR" --map metadata/id-map.jsonl
-
 echo "==> Running Boris graph diagnostics"
 CHECK_REPORT=$(mktemp "${TMPDIR:-/tmp}/filed-boris-check.XXXXXX")
 trap 'rm -f "$CHECK_REPORT"' EXIT
@@ -36,4 +33,4 @@ fi
 echo "==> Compiling the primary Cantilever publication"
 BORIS_BIN="$BORIS_BIN" CONTENT_DIR="$CONTENT_DIR" DIST_DIR="$DIST_DIR" ./scripts/filed-build.sh
 
-echo "🎉 Filed graph, form IDs, HTML IDs, and publication checks passed."
+echo "🎉 Filed graph, HTML IDs, and publication checks passed."

@@ -27,7 +27,6 @@ case "$STAGE_DIR" in
     ;;
 esac
 
-python3 scripts/filed_ids.py --root "$CONTENT_DIR" --map metadata/id-map.jsonl
 python3 scripts/audit_markdown_links.py "$CONTENT_DIR"
 
 if rg -n '^:::note\[' "$CONTENT_DIR" >/dev/null; then
