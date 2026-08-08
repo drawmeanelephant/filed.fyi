@@ -8,13 +8,7 @@ tags: ["lorelog", "context-burial", "footnote", "soma-directive", "coma-directiv
 
 # Directive Citation Bleed — COMA Affirmations Logged as SOMA Mitigation
 
-A citation normalization update caused COMA continuity affirmations to populate SOMA mitigation fields whenever both records referenced the same interval and contained equivalent compliance markers. This established an operational state in which uninterrupted activity was repeatedly admitted as evidence of emotional accommodation, allowing contradictory directives to remain separately intact while being jointly counted as harmonized support.
-
-Brickys Filing Notes
-- Summary: Cross-directive citation bleed turns formatting into mutual validation loop.
-- Trauma: Evidence learned to agree with itself before being read.
-- Goals: Maintain separation of systems that already behave as one.
-- Quirks: Identical compliance markers auto-resolve as emotional equivalence under load.
+A citation normalization update caused COMA continuity affirmations to populate SOMA mitigation fields whenever both records referenced the same interval and contained equivalent compliance markers. Uninterrupted activity was repeatedly admitted as evidence of emotional accommodation, while contradictory directives remained separately intact and were jointly counted as harmonized support.
 
 ## Related Aphorisms
 
