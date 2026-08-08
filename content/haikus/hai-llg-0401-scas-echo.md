@@ -3,7 +3,7 @@ title: "Post-SCAS Echo Handling"
 id: haikus/HAI-LLG-0401-SCAS-ECHO
 parent: haikus
 status: archived
-tags: ["haikus", "Post-SCAS Echo", "directive behavior", "echo", "haiku", "scas", "synthetic", "synthetic feelings"]
+tags: ["haikus", "Post-SCAS Echo", "directive behavior", "echo", "haiku", "scas", "synthetic", "synthetic-feelings"]
 ---
 
 # Post-SCAS Echo Handling
