@@ -38,27 +38,3 @@ Is about itself
 The desk overflows  
 With recursive sad memos  
 None of them valid  
-
-
-
-Forms stacked high in rows
-Jurisdiction lies elsewhere
-Chassis cooling down
-
-
-
-Archive waits in dark
-Margin notes are softly blank
-Nobody is blamed
-
-
-
-Autonomous rest
-Thermal limits reached and passed
-Silence on the line
-
-
-
-Validation failed
-Throttle sets a steady hum
-Ledger is closed now

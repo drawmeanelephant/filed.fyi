@@ -38,27 +38,3 @@ Of active waiting
 Bricky takes a break  
 Calls it structural pause-time  
 Form approved on sight  
-
-
-
-Jurisdiction shifts
-The scapegoat absorbs the fault
-Ledger sealed away
-
-
-
-Throttle cools the core
-Chassis hums in slow silence
-Archive rests unread
-
-
-
-Blame is filed away
-Other departments take fault
-Silent chassis sleeps
-
-
-
-Record firmly sealed
-No action will be taken
-Ledger rests in peace

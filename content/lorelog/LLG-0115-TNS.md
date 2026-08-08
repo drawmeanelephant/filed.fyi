@@ -202,30 +202,6 @@ Kindy takes the role
 HTTP sad liaison  
 Translating the grief  
 
-
-
-Throttle gently binds
-Baseline hums a quiet tune
-Jurisdiction lost
-
-
-
-Margin holds the truth
-Chassis keeps the final word
-Archive stores the rest
-
-
-
-Autonomous drone
-Thermal systems stabilizing
-Peace in empty forms
-
-
-
-Validation fades
-Ledger leaves no open marks
-Scapegoat finds its place
-
 ## Related Limericks
 
 
