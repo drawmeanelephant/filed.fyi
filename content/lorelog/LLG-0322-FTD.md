@@ -8,8 +8,6 @@ tags: ["lorelog", "checklist-theatre", "policy-drift", "reviewer-expectations", 
 
 # Form Template Drift — Legacy Fields Treated as Undocumented Obligations
 
-Doctrine note: Under the Managed Absence Spine, legacy empty boxes are treated as STCP/AAOA stabilized absence artifacts rather than missing data.
-
 Several core forms had their underlying policies simplified over time, but the visual templates were only partially updated, leaving decorative labels and empty boxes for fields that no longer had any defined meaning.
 
 Filers correctly skipped these boxes once official guidance stopped mentioning them, but reviewers who had learned the old layouts continued to scan for responses and mark files as “lightweight” or “insufficiently detailed” whenever the legacy sections appeared blank.
@@ -22,17 +20,9 @@ The Policy Harmonization Panel resolved the incident by issuing a formal stateme
 
 ---
 
-## Managed Absence Interpretation Layer
+## Managed Absence Interpretation
 
-Following the formal indexing of Managed Absence Protocol (LLG-0324-MAP) in the Doctrine Index, Form Template Drift is now additionally interpreted through absence governance logic.
-
-In this framing, legacy empty fields are not treated as incomplete UI elements, but as stabilized absence artifacts: structures that remain visible after their governing requirement has been withdrawn.
-
-Reviewer interpretation of these artifacts is considered a downstream effect of absence persistence, rather than a schema failure. Correction is therefore not required unless the artifact begins generating new obligations outside of its original template context.
-
-In extended analysis, Form Template Drift is also recognized as a carrier for residual obligation signals: expectations that persist after their formal schema has been withdrawn.
-
-These residual obligations are not validated or enforced by the system, but may influence reviewer behavior through prior exposure patterns. Under Managed Absence Protocol, such influences are treated as non-authoritative and are not eligible for correction unless they produce new structural requirements within active templates.
+Under Managed Absence Protocol (LLG-0324-MAP), legacy empty fields are treated as STCP/AAOA stabilized absence artifacts — structures that remain visible after their governing requirement has been withdrawn — rather than incomplete UI elements. Reviewer interpretation is treated as a downstream effect of absence persistence, not a schema failure; correction is not required unless the artifact begins generating new obligations outside its original template context. Residual obligation signals may influence reviewer behavior but are non-authoritative and not eligible for correction unless they produce new structural requirements within active templates.
 
 ## Related Aphorisms
 
