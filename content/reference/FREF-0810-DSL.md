@@ -8,13 +8,10 @@ tags: ["reference", "dead-service-layer", "managed-absence", "complimentary-serv
 
 # Dead Service Layer
 
-Dead Service Layer
+The Dead Service Layer (DSL) defines the stratum where active service operations have ceased while infrastructure traces remain present in the archive. 
+It covers ISP features, campus shell hosts, middleware, and portals that no longer process live requests but persist as URLs, MX records, legacy form options, billing categories, or agenda bullets. 
 
-The Dead Service Layer DSL is the stratum where services have been removed in practice but remain present as infrastructure traces, billing categories, endpoints, or text. 
-It covers ISP features, campus shells, middleware, and small portals that no longer behave as services but still exist as URLs, MX records, legacy form options, or agenda bullets. 
-
-In this layer, death is implemented as deprovisioning and described as alignment, retirement, or discontinuation. 
-Usage has ended, but the system continues to route around the absence as if something might still be there. 
+Boundary Note: DSL describes the surviving physical and textual traces of a service after operational deprovisioning. Managed Absence (FREF-0815) describes the administrative handling status (such as AAOA or CAAR) that may be applied to those traces and to other retired-but-influential objects.
 
 ---
 

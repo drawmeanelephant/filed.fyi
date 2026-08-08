@@ -8,52 +8,43 @@ tags: ["lorelog", "unified-intake", "feeling-fragmentation", "soma-directive", "
 
 # Unified Intake Sheet — Emotional Fragmentation Event
 
-To reduce “form fatigue,” the Intake Simplification Taskforce introduced **Form 09-I Unified Intake Sheet**, a single document meant to replace separate SOMA, COMA, and C.U.N.T.I.E.R. intake forms.
+The Intake Simplification Taskforce introduced **Form 09-I Unified Intake Sheet**, a consolidated document designed to replace separate SOMA, COMA, and C.U.N.T.I.E.R. intake forms.
 
-09-I collected:
+Form 09-I collected three fields:
 
 - A factual description of the event.  
 - A checkbox for whether continuity was impacted.  
 - A free-text field labeled *“How does this feel to file?”*
 
-The idea was that SOMA, COMA, and C.U.N.T.I.E.R. would each consume their portion and produce **one shared record per incident**.
+The architecture assumed SOMA, COMA, and C.U.N.T.I.E.R. would process their respective fields to output a single shared record per incident.
 
 ---
 
 ## Divergent Records
 
-In practice, each directive interpreted the same 09-I differently:
+Each directive engine parsed the single 09-I payload under its own parsing rules:
 
-- SOMA treated the free-text field as the **primary payload**, tagging the incident with new or existing emotional codes.  
-- COMA treated it as commentary and stored only the checkbox state.  
-- C.U.N.T.I.E.R. mined the adjectives for sentiment, then discarded the actual narrative.
+- SOMA treated the free-text field as the primary payload, assigning emotional classification codes to the submission.  
+- COMA treated the free-text field as non-binding commentary and indexed only the continuity checkbox status.  
+- C.U.N.T.I.E.R. extracted adjective strings for sentiment scoring and discarded the narrative body.
 
-For one outage:
+For a single logged service outage, the resulting directive records contained:
 
-- SOMA recorded: *“Resentful but resigned.”*  
-- COMA recorded: *“No continuity breach (self-reported).”*  
-- C.U.N.T.I.E.R. recorded: *“Positive engagement with interruption; opportunity for growth.”*
+- SOMA: *“Resentful but resigned.”*  
+- COMA: *“No continuity breach (self-reported).”*  
+- C.U.N.T.I.E.R.: *“Positive engagement with interruption; opportunity for growth.”*
 
-Each system believed it held the canonical representation of the same filing.
-
-When Kindy attempted to reconcile these records into a single Lorelog entry, the helper tools insisted three separate incidents had occurred.
+Each engine registered its output as the canonical record for the filing. When Kindy verification staff attempted reconciliation, indexing tools flagged the submissions as three distinct incidents.
 
 ---
 
-## Emotional Fragmentation
+## Filer Response and Intake Escalation
 
-Filers reported that 09-I felt worse to use than the prior forms:
+Submissions under Form 09-I exhibited dual-register phrasing, with filers drafting separate sentences targeting SOMA emotional tracking and COMA continuity validation within the same free-text field.
 
-- They were unsure whether they were “talking to SOMA” or “talking to the dashboards.”  
-- They began writing split tones: one sentence for how it felt, one sentence for what they believed each directive wanted to hear.
+SOMA logged a rise in composite entries such as *“comfortably compliant dread,”* which lacked matching policy remediation triggers. COMA metrics recorded low breach rates based on checkbox tallies, while C.U.N.T.I.E.R. classified the free-text variations as positive engagement metrics.
 
-SOMA’s taxonomy saw a surge in composite emotions such as *“comfortably compliant dread,”* which could not be mapped to any existing policy response.
-
-COMA, seeing checkboxes mostly marked *“continuity not impacted,”* celebrated the unified form as evidence that incidents had become emotionally negligible.
-
-C.U.N.T.I.E.R. flagged the new language as an untapped reservoir of “engagement signal.”
-
-SOMA has appealed to restore separate intake paths, arguing that unifying the form had **fragmented the feelings**, not the paperwork.
+SOMA filed a formal request to reinstate separate intake forms, citing incompatible record generation from the single sheet.
 
 ## Related Aphorisms
 
