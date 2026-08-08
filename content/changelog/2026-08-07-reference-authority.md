@@ -54,14 +54,14 @@ Maintenance ID assigned 0.1.00024.reference-authority: identifiers 0.1.00015 thr
 - `content/reference/fref-0400-metr.md` — authority boundary note
 - `content/reference/empathegy/fref-0740-moc.md` — provenance note
 - `content/reference/fref-0070-aopt.md` — routing sentences
-- `content/changelog.md` — trunk count updated (32 → 33 records, reconciled against origin/main 30a97f72, which this branch's base predates)
+- `content/changelog.md` — trunk count updated (33 → 34 records; origin/main advanced to 33 records at 2a90a639 while this pass was in flight, so the count reflects the merged state)
 - `content/changelog/2026-08-07-reference-authority.md` — this record
 
 ## Verification performed
 
 - `./bin/validate_graph.sh` passed (Boris graph diagnostics, compiled Cantilever publication, HTML IDs, and publication checks).
 - Diff inspected: four reference records carry body-text notes only; verse sections, frontmatter schema, IDs, and statuses unchanged.
-- Trunk count basis: 32 records on origin/main (30a97f72) as of 2026-08-07 plus this entry equals 33; the branch's local tree shows fewer records because it predates several merged dockets (fnf-voice-001..007, fnf-poet-001, fnf-stub-001, fnf-mech-013).
+- Trunk count basis: 33 records on origin/main (2a90a639) as of 2026-08-07 plus this entry equals 34. This branch's original base predated several merged dockets (fnf-voice-001..007, fnf-poet-001, fnf-stub-001, fnf-mech-013, fnf-mech-015); the count was reconciled against the merged tree.
 
 ## Unresolved follow-up
 

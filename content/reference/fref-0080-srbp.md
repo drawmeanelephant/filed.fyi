@@ -17,6 +17,8 @@ The Scan Reinterpretation Bloc (SRB) provides interpretive overlays for:
 Scanners report what is.
 The Bloc suggests how it may safely be said.
 
+Boundary Note: SRB is a specialized handling practice for raw scan findings, whereas Assurance Optics (FREF-0070) governs the broader visual and textual reassurance surface across executive reports.
+
 ---
 
 # Operating Assumptions

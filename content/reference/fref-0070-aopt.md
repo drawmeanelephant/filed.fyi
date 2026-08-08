@@ -12,6 +12,8 @@ Assurance Optics is the archive's term for the surface treatments that make repo
 
 It covers both the language shifts recorded in LLG-0323-ASD and the visual marks attached through AV-14 and LC-04, where failures and unresolved states are presented as favorable conditions.
 
+Boundary Note: Assurance Optics governs the broad reassurance surface across reports and dashboards. In contrast, the Scan Reinterpretation Bloc (FREF-0080) handles the specific reclassification of raw scan output, while the Assurance Vocabulary Annex (LLG-0327) provides the underlying word substitution table.
+
 ## Components
 
 Assurance Optics currently names three main artifacts:

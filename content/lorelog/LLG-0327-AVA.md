@@ -61,15 +61,15 @@ The Remediation Intake Queue reports a drop in new cases following AVA deploymen
 SOMA characterizes this as dread attenuation by wording.  
 COMA regards the same reports as evidence of maturing stability. 
 
-## Managed Absence Interlock
+## Subsequent Retrospective Classification (Managed Absence Interlock)
 
-Under Managed Absence Protocol LLG-0324-MAP, AVA phrases are now treated as absence-carrying descriptors:
+In subsequent administrative rulings under Managed Absence Protocol LLG-0324-MAP, AVA phrases were retroactively classified as absence-carrying descriptors:
 
-- favorable condition may map to CAAR when the original failure form is retired.
-- emerging structure may mask LCGU forms that never achieved central recognition.
-- deferred assurance states frequently coincide with STCP supersession loops. 
+- *favorable condition* maps to CAAR when the originating failure form is retired.
+- *emerging structure* maps to LCGU forms that never achieved central recognition.
+- *deferred assurance* states frequently coincide with STCP supersession loops. 
 
-This layer does not correct any underlying absence; it simply renames it into a governed state whose urgency tests better during audits.
+This subsequent mapping established an administrative framework for holding unresolved terms without triggering new intake tickets.
 
 ## Brickys Filing Notes
 

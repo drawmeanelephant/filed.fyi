@@ -3,7 +3,7 @@ title: "Co-Existence Endorsement Bureau Five-Signature Legitimacy Loop"
 id: lorelog/LLG-0385-CEB
 parent: lorelog
 status: published
-tags: ["lorelog", "bankruptcy", "committee-avoidance", "local-consensus", "witness-logic", "stub", "pending-render", "attestation", "merger-governance", "endorsements", "coexistence-attestation", "compliance-vacuum", "fiscal-distress", "signature-ritual", "mascots", "coexistence", "confidence-stacking", "accreditation", "seal-proliferation", "assurance-optics", "failure-signature"]
+tags: ["lorelog", "bankruptcy", "committee-avoidance", "local-consensus", "witness-logic", "attestation", "merger-governance", "endorsements", "coexistence-attestation", "compliance-vacuum", "fiscal-distress", "signature-ritual", "mascots", "coexistence", "confidence-stacking", "accreditation", "seal-proliferation", "assurance-optics", "failure-signature"]
 ---
 
 # Co-Existence Endorsement Bureau Five-Signature Legitimacy Loop
