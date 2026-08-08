@@ -3,7 +3,7 @@ title: "Breeding Match Allocation — Soft-Fail Routing Event"
 id: lorelog/LLG-0380-MATCH
 parent: lorelog
 status: published
-tags: ["lorelog", "serotonin", "care-metrics", "dashboards", "empathegy", "breeding-program", "cluster-presence", "conditionally.", "consent-loop", "custody-drift", "eligibility-ethics", "gratitude-alignment", "gratitude-bias"]
+tags: ["lorelog", "serotonin", "care-metrics", "dashboards", "empathegy", "breeding-program", "cluster-presence", "consent-loop", "custody-drift", "eligibility-ethics", "gratitude-alignment", "gratitude-bias"]
 ---
 
 # Breeding Match Allocation — Soft-Fail Routing Event

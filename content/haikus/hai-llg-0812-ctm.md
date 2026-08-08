@@ -3,7 +3,7 @@ title: "Continuity Theatre Maintenance Window"
 id: haikus/HAI-LLG-0812-CTM
 parent: haikus
 status: archived
-tags: ["haikus", "Continuity Theatre", "continuity", "haiku", "maintenance", "maintenance window", "stabilization", "theatre"]
+tags: ["haikus", "continuity-theatre", "continuity", "haiku", "maintenance", "maintenance-window", "stabilization", "theatre"]
 ---
 
 # Continuity Theatre Maintenance Window
