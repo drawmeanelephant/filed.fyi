@@ -17,6 +17,8 @@ The distinction is material and routinely compressed.
 
 Empathegy tracks care most reliably at the point where it leaves evidence.
 
+**Provenance.** This file is the current, mature doctrine for Metrics of Care. An earlier experimental framing — MCR as a family of care-attribution experiments that had not yet consolidated into a system — is preserved at FREF-0400-METR (draft) and remains the record of that era. The two records are not simultaneous statements of one state: FREF-0400-METR preserves the experimental era, this file defines current doctrine.
+
 ---
 
 ## Foundational Distinction
