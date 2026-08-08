@@ -97,6 +97,8 @@ Charts drifted toward depicting a greener system than participants recognized.
 
 Assurance Optics remains in place; Metrics of Care now treat it as a context signal rather than a ground truth.
 
+The "Metrics of Care" named here are defined across two records: the experimental record FREF-0400-METR (draft) and the current doctrine FREF-0740-MOC (published). Where they differ, the doctrine governs.
+
 ## Doctrine Status
 
 Assurance Optics is not a system; it is a habit that has hardened into doctrine.
