@@ -11,6 +11,6 @@ relations: [relates_to=lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE]
 
 The dashboard demands a smooth curve,  
 So the human buys tools to preserve  
-Their green dot, their job —  
-While the capital mob  
-Replaces the lot with AI serve.
+Their green dot, their pay —  
+The curve holds sway,  
+And the human conforms to the curve.

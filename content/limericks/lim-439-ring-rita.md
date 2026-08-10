@@ -11,6 +11,6 @@ relations: [relates_to=mascots/M-0439]
 
 A doorbell named Rita, so smart,  
 Subscribes your front porch to the chart.  
-The footage's the fee,  
-The portal has the key,  
+The subscription's the fee,  
+The portal keeps the key,  
 The panopticon's monthly art.

@@ -14,7 +14,7 @@ relations: [relates_to=lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE]
 
 Curve eats the human —  
 jiggler feeds the curve its due,  
-capital upgrades.  
+the system stays fed.  
 
 The organism learns  
 to match the thermostat's demand —  

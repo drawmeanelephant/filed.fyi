@@ -120,9 +120,9 @@ Smooth lines are the truth
 the dashboard is willing to read —  
 jagged means nothing.  
 
-The metabolism  
-converts a human to a graph —  
-the graph is the yield.
+The curve stays so smooth  
+the referent becomes optional —  
+the proxy is proof.
 
 ## Related Limericks
 
@@ -130,6 +130,6 @@ the graph is the yield.
 
 The doctrine describes the machine,  
 Where the curve is the only routine.  
-The human is shed,  
-The capital fed,  
-And the dashboard stays perfectly green.
+The subject conforms,  
+And the smoothness confirms,  
+A health the curve has never seen.

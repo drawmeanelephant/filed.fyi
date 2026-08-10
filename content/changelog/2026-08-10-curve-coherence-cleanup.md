@@ -32,6 +32,12 @@ tags: ["changelog", "curve-coherence", "seam-survey", "mascots", "evidence-norma
 - The poetry mirror convention (embedded verse + companion record) predates this cohort and was not redesigned. Whether the mirror duplicates retrieval surfaces is recorded as a follow-up for the planned RAG work, not resolved here.
 - No new doctrine family, no new relations corpus-wide, no new mascots, and no replacement verse were introduced to compensate for deletions.
 
+## Final pre-merge pass (amended while PR open)
+
+- **Residual pseudo-precision removed.** `99.9%` uptime, `0.5px` displacement, and `$3.99/mo` were removed from cohort prose and verse; the `data-broker-pipeline` tag and process claim were dropped from M-0439 without durable archive support.
+- **Evidence generalized or attributed to intake material.** Moderation per-decision time budgets and the BPO/NDA/wellness specifics (SEAM-002, M-0438); the cross-domain credit/tenant/employment/insurance gatekeeper and regulator/trade-secret attributions (SEAM-004, M-0440); gang-database lifetime-label and contract-renewal claims (SEAM-005, M-0441); healthcare vendor, peer-review, and appeal-window specifics (SEAM-006, M-0442); benefits bulk-termination, manual-review capacity, and vendor-chain specifics (SEAM-008, M-0444); flood-map timing and hardening-location specifics (SEAM-010, M-0446); watermarking adoption claims and source-sample durations (M-0445); the self-harm referral (SEAM-007, M-0443).
+- **Verse synchronized with narrowed doctrine.** The FREF-0900 limerick and haiku no longer assert the retired human-shedding/capital-metabolism thesis; the LLG-0451 limerick no longer carries the capital-mob/AI-replacement couplet, and its haiku's "capital upgrades" line was replaced. Companion records mirror the source records.
+
 ## Verification performed
 
 - `./bin/validate_graph.sh` — Boris graph diagnostics passed; full Cantilever compile succeeded; verse-residue, HTML ID, and certification checks passed.

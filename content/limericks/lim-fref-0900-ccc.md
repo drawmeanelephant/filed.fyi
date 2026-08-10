@@ -11,6 +11,6 @@ relations: [relates_to=reference/FREF-0900-CCC]
 
 The doctrine describes the machine,  
 Where the curve is the only routine.  
-The human is shed,  
-The capital fed,  
-And the dashboard stays perfectly green.
+The subject conforms,  
+And the smoothness confirms,  
+A health the curve has never seen.

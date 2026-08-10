@@ -16,6 +16,6 @@ Smooth lines are the truth
 the dashboard is willing to read —  
 jagged means nothing.  
 
-The metabolism  
-converts a human to a graph —  
-the graph is the yield.
+The curve stays so smooth  
+the referent becomes optional —  
+the proxy is proof.

@@ -119,7 +119,7 @@ Anticipatory legibility: downstream actors adjust expressive patterns pre-emptiv
 
 Curve eats the human —  
 jiggler feeds the curve its due,  
-capital upgrades.  
+the system stays fed.  
 
 The organism learns  
 to match the thermostat's demand —  
@@ -135,6 +135,6 @@ the dashboard is fed.
 
 The dashboard demands a smooth curve,  
 So the human buys tools to preserve  
-Their green dot, their job —  
-While the capital mob  
-Replaces the lot with AI serve.
+Their green dot, their pay —  
+The curve holds sway,  
+And the human conforms to the curve.

@@ -17,5 +17,5 @@ the video he never made —
 the stock still moved.  
 
 Watermarking, promised  
-by an industry, shipped by  
-none of them, yet.
+by an industry, adopted  
+inconsistently, yet.

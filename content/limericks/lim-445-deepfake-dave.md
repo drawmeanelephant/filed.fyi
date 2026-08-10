@@ -9,7 +9,7 @@ relations: [relates_to=mascots/M-0445]
 
 # Deepfake Dave
 
-Deepfake Dave needs three seconds of you,  
+Deepfake Dave needs a sample of you,  
 Then he renders whatever is due.  
 The alibi plays,  
 The evidence sways,  

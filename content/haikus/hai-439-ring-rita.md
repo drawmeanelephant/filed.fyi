@@ -14,7 +14,7 @@ relations: [relates_to=mascots/M-0439]
 
 Doorbell watches you —  
 a police request portal —  
-$3.99/mo.  
+the monthly fee.  
 
 Rita records all —  
 the neighbor's porch sees your porch,  
