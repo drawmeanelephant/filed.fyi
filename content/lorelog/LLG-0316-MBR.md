@@ -16,11 +16,6 @@ SOMA filed an objection after operators reported a measurable drop in emotional 
 
 The Archive Freshness Board has not revoked the certification. Instead, it issued guidance requiring all future backups to include a statement of self-esteem so recency can be weighed against confidence in a more balanced manner.
 
-Brickys Filing Notes
-- Summary: Backup freshness successfully redefined as a confidence-based metric.
-- Trauma: Staff briefly realized “current” had become a mood.
-- Quirks: Older snapshots continued outperforming newer ones in executive presentations due to superior thumbnail composition.
-
 ## Related Aphorisms
 
 

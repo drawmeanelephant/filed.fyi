@@ -8,54 +8,42 @@ tags: ["lorelog", "supersession-loop", "identity-drift", "canonicality-dispute",
 
 # Supersession Reflection Loop — Form vs. Counter-Form
 
-During a routine review of the supersession graph, the Catalog detected a loop between **Form 32-A** and **Form 32-A-R**, both used to register key collisions in the forms index.
+During a routine review of the supersession graph, the Catalog detected a metadata loop between **Form 32-A** and **Form 32-A-R**, both used to register key collisions in the forms index.
 
-- The metadata for 32-A declared it “superseded by 32-A-R (clarified).”  
-- The metadata for 32-A-R, introduced during an optimization sprint, declared it “superseded by 32-A (stabilized).”
+- Metadata for 32-A declared it “superseded by 32-A-R (clarified).”  
+- Metadata for 32-A-R, introduced during a prior optimization sprint, declared it “superseded by 32-A (stabilized).”
 
-Neither referenced any third form as canonical.
-
----
-
-## Operational Consequences
-
-Because onboarding packets for new processes referenced “the most recent 32-A variant,” guidance engines attempted to interpret the loop as a sequence and failed to resolve an endpoint.
-
-Different offices adopted local conventions:
-
-- Some treated **32-A** as canonical because its file name was shorter.  
-- Others preferred **32-A-R** because the “-R” looked like “revision” and felt more serious.  
-- A minority interpreted the loop as evidence that both were deprecated and invented **32-A-NEW** as an internal stopgap, without telling the Catalog.
-
-Formee Formeson, attempting to reconcile intake queues, began filing both versions for each incident “to be safe,” doubling the apparent rate of key collisions.
-
-Lorelog citation helpers, when asked to link to “Form 32-A,” alternated between the two variants at random, distributing doctrine evenly but coherently nowhere.
+Neither record referenced a third canonical authority.
 
 ---
 
-## Adjudication Attempt
+## Operational Discovery
 
-The Supersession Adjudication Desk convened a brief to determine which version should win.
+Because onboarding specifications referenced “the most recent 32-A variant,” automated resolution tools failed to resolve an endpoint.
 
-Arguments in favor of 32-A:
+Individual offices adopted local operating conventions:
 
-- It had seniority and more historical references.  
-- Its language was vague enough to accommodate future drift.
+- Certain branches treated **32-A** as canonical based on string length.  
+- Other offices used **32-A-R**, interpreting the suffix as indicative of active revision.  
+- Regional staff created unindexed variant **32-A-NEW** as a local stopgap.
 
-Arguments in favor of 32-A-R:
+Intake staff attempting queue reconciliation began submitting both 32-A and 32-A-R for single key collisions, doubling recorded collision totals. Reference resolution engines alternated between variants based on search order.
 
-- It included explicit alignment to current registry fields.  
-- Its checklist mapped cleanly to metrics C.U.N.T.I.E.R. already tracked.
+---
 
-Unable to reach consensus, the Desk issued a ruling under the new Managed Absence Protocol:
+## Subsequent Adjudication
 
-- Both versions are designated **STCP (Superseded in Theory, Co-Equal in Practice)** under MAP.  
-- Future documentation should refer simply to “Form 32-A” without suffix and let local convention decide which template gets attached.  
-- Any attempt to “correct” existing references must file a new Lorelog case rather than altering historical records.
+Following initial discovery, the Supersession Adjudication Desk convened to determine canonical status.
 
-The resolution is recorded as **contested**: the loop remains in the graph, but everyone now speaks of it as if it were a deliberate braid in the lineage.
+Arguments for 32-A cited historical volume and broad field definitions. Arguments for 32-A-R cited explicit alignment with active C.U.N.T.I.E.R. metric tracking.
 
-Formee reports that submitting both versions continues to feel correct, if increasingly heavy.
+Unable to resolve the circular reference, the Desk issued a subsequent ruling under the Managed Absence Protocol:
+
+- Both forms were retroactively designated **STCP (Superseded in Theory, Co-Equal in Practice)** under MAP.  
+- Guidance specified referring to “Form 32-A” without suffix, allowing local offices to attach either template.  
+- Historical entries were locked against modification to preserve the initial graph state.
+
+The adjudication left the loop active in the supersession graph, establishing the dual-filing pattern as an accepted historical condition. Both versions remain in active use.
 
 ## Related Aphorisms
 

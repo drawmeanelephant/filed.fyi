@@ -38,15 +38,3 @@ where the scroll is king
 User-Agent fails  
 to satisfy the cold ink  
 exile is the rule  
-
-
-
-Throttle cools the core
-chassis rests in cold design
-silence is the rule
-
-
-
-Heat is chased away
-system breathes an empty sigh
-waiting in the dark

@@ -3,7 +3,7 @@ title: "Memorial Quorum Miscount, Esteem Presence Variant"
 id: lorelog/LLG-0389-MQM
 parent: lorelog
 status: published
-tags: ["lorelog", "access-tier", "pending-render", "ranked-concern", "stub", "memorial-quorum", "esteem-presence", "attendance-rot", "civic-benevolence", "threshold-drift"]
+tags: ["lorelog", "access-tier", "ranked-concern", "memorial-quorum", "esteem-presence", "attendance-rot", "civic-benevolence", "threshold-drift"]
 ---
 
 # Memorial Quorum Miscount, Esteem Presence Variant

@@ -3,38 +3,16 @@ title: "Orphan Inventory Reinterpretation"
 id: lorelog/LLG-0329-OIR
 parent: lorelog
 status: published
-tags: ["lorelog", "structural-balance", "stub", "pending-render", "orphan-state", "orphan-files", "orphan-normalization", "scan-reports", "classification-rot", "historical-artifacts", "mascots", "classifications", "lcgu"]
+tags: ["lorelog", "structural-balance", "orphan-state", "orphan-files", "orphan-normalization", "scan-reports", "classification-rot", "historical-artifacts", "mascots", "classifications", "lcgu"]
 ---
 
 # Orphan Inventory Reinterpretation
 
-Doctrine note: Within the Managed Absence Spine (managed-absence-spine), orphan inventory categories are mapped to LCGU and AAOA states, formalizing absence as stabilized classification rather than unresolved ownership.
-
 A retention recalibration elevated the acceptable threshold for unattended files until persistent ownership failure began to register as low-maintenance archival stability rather than unresolved responsibility. Once the new threshold was canonized, orphaned materials ceased to behave as deficits inside reporting logic and were preserved as efficient inventory instead, manufacturing continuity out of the carefully managed absence of stewardship.
 
----
+Orphan inventory categories were mapped to LCGU and AAOA states, formalizing absence as stabilized classification rather than unresolved ownership. Several objects in this set are now understood as having passed into MA-LCGU Porter's custody: still shelved, still reachable, no longer acknowledged as obligations. Their presence is justified by sentences that begin with "for historical reasons" and end without specifying whose history is being preserved.
 
-## Managed Absence / Form Drift Inheritance
-
-Orphan records are now additionally interpreted through Managed Absence Protocol (LLG-0324-MAP) and Form Template Drift (LLG-0322-FTD) as referenced in the Doctrine Index.
-
-Under this model, orphan status does not indicate loss or corruption, but the presence of unresolved structural absence that has migrated outside its original template boundary.
-
-These entities may appear unassigned while still retaining latent linkage to deprecated or withdrawn schema structures. Such linkage is considered informational only and does not constitute a valid parent-child relationship for allocation or correction purposes.
-
-Assignment systems are instructed to treat these records as stabilized absence carriers rather than incomplete inventory items.
-
-Under Managed Absence doctrine, several objects in this set are now understood as having passed into MA-LCGU Porter's custody: still shelved, still reachable, no longer acknowledged as obligations. Their presence is justified by sentences that begin with "for historical reasons" and end without specifying whose history is being preserved.
-
----
-
-## Absence Migration Trace (AMT)
-
-In extended reconciliation logs, orphan linkage patterns are observed to persist as interpretive traces even after formal parent schema has been withdrawn or deprecated under Managed Absence Protocol (LLG-0324-MAP) and Form Template Drift (LLG-0322-FTD).
-
-These traces are not considered valid lineage and must not be reconstructed into hierarchical relationships. Any attempt to infer parentage from residual linkage signals is classified as continuity error amplification and treated as a reporting artifact rather than a structural correction.
-
-OIR systems are instructed to preserve trace visibility without converting it into actionable allocation logic.
+In extended reconciliation logs, orphan linkage patterns persist as interpretive traces even after formal parent schema has been withdrawn or deprecated under Managed Absence Protocol (LLG-0324-MAP) and Form Template Drift (LLG-0322-FTD). These traces are not valid lineage and must not be reconstructed into hierarchical relationships; any attempt to infer parentage from residual linkage signals is classified as continuity error amplification and treated as a reporting artifact rather than a structural correction. Trace visibility is preserved without being converted into actionable allocation logic.
 
 ## Related Aphorisms
 

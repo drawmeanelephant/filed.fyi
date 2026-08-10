@@ -3,7 +3,7 @@ title: "Leopard Upgrade Blue Screen Unsanity Residuals"
 id: haikus/HAI-0047
 parent: haikus
 status: archived
-tags: ["haikus", "Application Enhancer", "Mac OS X Leopard", "blue screen", "blue-screen", "haiku", "leopard", "upgrade"]
+tags: ["haikus", "Application Enhancer", "Mac OS X Leopard", "blue-screen", "haiku", "leopard", "upgrade"]
 ---
 
 # Leopard Upgrade Blue Screen Unsanity Residuals

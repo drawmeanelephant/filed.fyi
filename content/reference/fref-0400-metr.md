@@ -12,6 +12,8 @@ Metrics of Care MCR is the archive's term for a family of experiments that try t
 
 They sit in the narrow gap between SOMA's concern with how things felt, COMA's duty to keep things running, and C.U.N.T.I.E.R.'s appetite for anything that graphs.
 
+**Authority boundary.** This record preserves the earlier, experimental framing of Metrics of Care, when MCR was not yet recognized as a system. The current doctrine is defined at FREF-0740-MOC (published); where the two records differ, FREF-0740-MOC governs. Statements in this file describing Metrics of Care as experiments that "do not yet constitute their own system," and the memorial addendum below, are records of that earlier era — not of current doctrine.
+
 ## Procedural Position
 
 MCR instrumentation attaches to:

@@ -8,49 +8,40 @@ tags: ["lorelog", "soma-directive", "emotional-appeal", "vibe-docket", "intake-f
 
 # Emotional Filing Appeal — Vibe-Only Docket Creation
 
-After multiple complaints about forms that “technically worked but felt awful,” SOMA introduced **Form EFA-1 Emotional Filing Appeal**.
+Following reports regarding forms that met technical specifications while generating emotional distress, SOMA established **Form EFA-1 Emotional Filing Appeal**.
 
-EFA-1 allowed filers to contest **only** the emotional impact of a prior filing, without challenging its operational content.
+Form EFA-1 enabled filers to contest the emotional impact of a prior submission without altering its operational disposition.
 
 Key fields included:
 
-- Reference to the original form and case number.  
-- A forced-choice prompt: *“I accept the outcome, but…”*  
-- A free-text field: *“…this is what the filing did to me.”*
+- Reference to the original form and case ID.  
+- A mandatory prompt: *“I accept the outcome, but…”*  
+- A narrative field: *“…this is what the filing did to me.”*
 
-The registry classified EFA-1 as a SOMA-only artifact with **no COMA or C.U.N.T.I.E.R. obligations**.
+The registry cataloged EFA-1 as a SOMA-restricted intake artifact with no binding COMA or C.U.N.T.I.E.R. operational obligations.
 
 ---
 
-## The Vibe-Only Docket
+## Docket Scope and Recursive Handling
 
-As EFA-1 filings accumulated, SOMA created a separate docket for them, distinct from operational appeals.
+As EFA-1 volume increased, SOMA routed submissions to a designated non-operational docket separate from standard administrative appeals.
 
-Patterns emerged:
+Filing patterns indicated:
 
-- Many filers expressed relief at having “somewhere for the feelings to go.”  
-- A non-trivial portion reported that filing EFA-1 felt eerily similar to filing the original form.  
-- Several EFA-1s included meta-comments like *“I am now appealing the feeling of having to appeal the feeling.”*
+- Submissions provided institutional acknowledgment of distress without triggering procedural change.  
+- Second-order filings emerged contesting the experience of submitting EFA-1 itself.
 
-Kindy’s workers attempted to prevent recursive escalation by politely rejecting second-order EFA-1s with the note: *“This docket cannot safely hold feelings about itself.”*
-
-The system accepted this note as **another feeling** and filed it as EFA-1-0000.
+Kindy verification personnel attempted to limit recursive submissions by issuing rejection notices stating: *“This docket cannot safely hold feelings about itself.”* The filing engine ingested this rejection note as a narrative payload and registered it as case EFA-1-0000.
 
 ---
 
 ## Registry and Lorelog Impact
 
-The Forms Catalog refused to index EFA-1 as a “real” form, labeling it AAOA under MAP—Archivally Asserted, Operationally Absent—since it generated no changes in policies or processes.
+The Forms Catalog designated EFA-1 as AAOA under MAP (Archivally Asserted, Operationally Absent), confirming its status as a non-executing record that induces no policy modifications.
 
-Nonetheless, Lorelog heuristics began treating the EFA-1 docket as evidence of “high emotional impact,” increasing the perceived severity of underlying cases even when no operational appeal existed.
+Lorelog processing heuristics subsequently factored EFA-1 volume into severity calculations, escalating the risk tier of linked cases despite the absence of operational appeals.
 
-SOMA insists EFA-1 has improved psychological safety by acknowledging distress without demanding system change.
-
-C.U.N.T.I.E.R. remains uninterested, as EFA-1 has no metrics.
-
-COMA has not formally recognized the docket, but notes that continuity appears unaffected.
-
-The resolution remains pending while the Oversight Panel decides whether relief that exists only in a docket can be considered a **successful intervention**.
+SOMA maintains EFA-1 as an active venue for formal distress recording. C.U.N.T.I.E.R. excludes the docket from performance metrics, and COMA logs no impact on operational continuity. The docket remains open without procedural recourse.
 
 ## Related Aphorisms
 

@@ -2,7 +2,7 @@
 title: "Frontmatter Data Structural Integrity Audit"
 id: reference/FREF-0003
 parent: reference
-status: published
+status: archived
 tags: ["reference", "operational-engines"]
 ---
 
@@ -12,25 +12,15 @@ tags: ["reference", "operational-engines"]
 
 ---
 
-### Null Vectors
+Historical audit snapshot. This report records the state of the repository as of the entry date and is retained for the record; its findings are not a current action queue.
 
-| File Path | Field | Status |
-|---|---|---|
-| *No null vectors detected.* | - | - |
+## Findings (Snapshot)
 
-### Tag Fragmentation
-
-| File Path | Fragment |
-|---|---|
-| *No fragmented tags detected.* | - |
-
-
----
-
-## Suite Run Telemetry
 *   **Audit Class:** `INTEGRITY`
 *   **Total Gaps Flagged:** 0
-*   **Action Required:** Manual reconciliation of frontmatter vectors or reciprocal poetry routing anchors.
+*   **Summary:** no null vectors and no tag fragmentation detected at the time of the run.
+
+No reconciliation action is pending from this report.
 
 ## Related Aphorisms
 

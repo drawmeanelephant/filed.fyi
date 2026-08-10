@@ -8,35 +8,13 @@ tags: ["lorelog", "classification-rot", "inventory-theatre", "mitigation", "orph
 
 # Orphan Retention Threshold Inflation — Unclaimed Files Certified as Low-Maintenance Assets
 
-Doctrine note: Within the Managed Absence Spine (managed-absence-spine), ORT orphan categories are mapped to LCGU and AAOA states, replacing recovery intent with managed absence classification continuity.
-
 Retention guidance was updated to recognize persistent orphan files as low-maintenance archival assets once they remained unattended for three reporting intervals without triggering an executive concern signal. This reduced apparent registry volatility and improved inventory confidence metrics while converting unresolved ownership into a durable stewardship category defined entirely by the absence of intervention.
 
-## Managed Absence Retention Boundary
+ORT orphan categories were mapped to LCGU and AAOA states, replacing recovery intent with managed absence classification continuity. Orphan records classified through OIR (LLG-0329-OIR) that exceed their retention threshold are not deleted; they transition into a non-interpretive archival state in which residual linkage, trace signals, and inferred relationships are no longer surfaced in standard allocation or reporting workflows. The transition is not data loss; it is classified as completion of visibility lifecycle, and post-threshold records are treated as structurally inert unless explicitly reactivated by higher-order governance processes.
 
-Under Managed Absence Protocol (LLG-0324-MAP), orphan records classified through OIR (LLG-0329-OIR) are subject to retention thresholds that determine duration of interpretability.
+Retention thresholds under ORT are determined by sustained non-intervention signals across linked management systems, not by individual file age alone. Attempts to reset, reclassify, or reassign orphan status in order to delay threshold progression are recorded as threshold manipulation events — metadata distortion in the orphan inventory log — and do not restore interpretability or interrupt Managed Absence lifecycle progression.
 
-Orphan records exceeding their retention threshold are not deleted. Instead, they transition into non-interpretive archival state, where residual linkage, trace signals, and inferred relationships are no longer surfaced in standard allocation or reporting workflows.
-
-This transition is not considered data loss. It is classified as completion of visibility lifecycle.
-
-Systems interacting with post-threshold records must treat them as structurally inert unless explicitly reactivated by higher-order governance processes.
-
-## Threshold Determination Constraint
-
-Retention thresholds under ORT are determined by sustained non-intervention signals across linked management systems, not by individual file age alone.
-
-Attempts to reset, reclassify, or reassign orphan status in order to delay threshold progression are considered threshold manipulation events and are recorded as metadata distortion within the orphan inventory log.
-
-Such events do not restore interpretability and do not interrupt Managed Absence lifecycle progression.
-
-## Non-Recoverability Statement
-
-Records transitioned into non-interpretive archival state are not eligible for restoration through standard or exceptional retrieval pathways.
-
-Any reconstruction of post-threshold records is treated as a new informational construct and must not be conflated with the original orphan instance.
-
-Managed Absence Protocol (LLG-0324-MAP) explicitly excludes non-interpretive artifacts from continuity claims, lineage reconstruction, or corrective reintegration processes.
+Records in non-interpretive archival state are not eligible for restoration through standard or exceptional retrieval pathways; any reconstruction of a post-threshold record is treated as a new informational construct and must not be conflated with the original orphan instance. Managed Absence Protocol (LLG-0324-MAP) excludes non-interpretive artifacts from continuity claims, lineage reconstruction, and corrective reintegration processes.
 
 ## Related Aphorisms
 

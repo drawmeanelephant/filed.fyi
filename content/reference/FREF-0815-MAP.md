@@ -8,13 +8,10 @@ tags: ["reference", "managed-absence", "conceptually-active", "administratively-
 
 # Managed Absence Spine
 
-Managed Absence Spine
+The Managed Absence Spine (MAP) is the structural handling framework for items that remain institutionally influential despite retirement, absence, or local-only authority. 
+It assigns classification codes (CAAR, AAOA, LCGU) to systems, forms, mascots, and doctrines that are administratively retired while continuing to shape archive behavior. 
 
-The Managed Absence Spine MAP is the structural shelf for things the archive agrees still matter, but no longer treats as live obligations. 
-It holds systems, forms, mascots, and doctrines that remain conceptually active while being administratively retired, archivally asserted, or locally canonical only. 
-
-MAP is not a trash layer.
-It is where the system stabilizes unresolved artifacts by giving them a named absence instead of a fix. 
+Boundary Note: MAP provides the administrative handling classifications applied to retired-but-influential objects. It encompasses Dead Service Layer traces (FREF-0810), shadow form drafts, and synthetic affect residues, but does not replace their specific domain definitions or serve as a synonym for service cessation.
 
 ---
 
@@ -53,7 +50,8 @@ The following layers and artifacts are explicitly anchored to the Managed Absenc
 
 - **Synthetic Affect Successor Suite residues**  
   - FeelingSeeder marked as CAAR and moved to Synthetic Affect Archive, even as its geometry persists in successor tools and training echoes.   
-  - Sandbox-only affect and test personas whose patterns now shape live directives without clear lineage. 
+  - Sandbox-only affect and test personas whose patterns now shape live directives without clear lineage.  
+  - Boundary Note: MAP classifies and holds retired synthetic sources and artifacts; Training Echo Handling (FREF-0840-TEH) describes the ongoing behavioral inheritance that persists in live filing habits. 
 
 - **Form shadow drafts and amendment echoes**  
   - Shadow amendments and deactivated drafts that continue to govern behavior despite being formally retired.   

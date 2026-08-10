@@ -12,6 +12,8 @@ Assurance Optics is the archive's term for the surface treatments that make repo
 
 It covers both the language shifts recorded in LLG-0323-ASD and the visual marks attached through AV-14 and LC-04, where failures and unresolved states are presented as favorable conditions.
 
+Boundary Note: Assurance Optics governs the broad reassurance surface across reports and dashboards. In contrast, the Scan Reinterpretation Bloc (FREF-0080) handles the specific reclassification of raw scan output, while the Assurance Vocabulary Annex (LLG-0327) provides the underlying word substitution table.
+
 ## Components
 
 Assurance Optics currently names three main artifacts:
@@ -94,6 +96,8 @@ This coupling proved unstable; optics could be added by template, while care and
 Charts drifted toward depicting a greener system than participants recognized. 
 
 Assurance Optics remains in place; Metrics of Care now treat it as a context signal rather than a ground truth.
+
+The "Metrics of Care" named here are defined across two records: the experimental record FREF-0400-METR (draft) and the current doctrine FREF-0740-MOC (published). Where they differ, the doctrine governs.
 
 ## Doctrine Status
 

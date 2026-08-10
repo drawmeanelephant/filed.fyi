@@ -38,16 +38,3 @@ Bureaucratic weight
 Echo chain complete  
 The original is lost  
 Only shadows rule  
-
-
-Margin is empty
-Throttle down the heated core
-Chassis cooling now
-
-Blame falls on others
-Jurisdiction is not mine
-Ledger is now sealed
-
-Records sealed away
-Resolving absolutely
-Nothing in the end

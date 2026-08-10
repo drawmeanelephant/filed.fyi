@@ -8,29 +8,29 @@ tags: ["lorelog", "soma-directive", "rest-request", "auto-approval", "auto-rejec
 
 # SOMA-72 Rest Acknowledgement Refusal
 
-Form SOMA-72 is used when a team declares itself “emotionally unfit for continuous operation” and requests a temporary reduction in workload.
+Form SOMA-72 is used when an operational unit declares itself “emotionally unfit for continuous operation” and requests a temporary reduction in workload.
 
-In a newly automated workflow, SOMA’s engine began auto-approving any SOMA-72 that included specific high-intensity adjectives, while COMA’s continuity rules auto-rejected any downtime request that lacked a corresponding Form COMA-19 pre-clearance.
+During initial deployment of an automated routing workflow, SOMA’s engine auto-approved any SOMA-72 containing designated high-intensity adjectives. Simultaneously, COMA’s continuity rules auto-rejected any rest period that lacked a prior Form COMA-19 pre-clearance.
 
-For 118 submissions, this produced paired records where the same rest period was simultaneously logged as “approved” in the SOMA registry and “denied” in the COMA ledger, with both states propagated to dashboards.
+At the time of the incident, 118 submissions generated dual entries: the same interval was logged as “approved” in the SOMA registry and “denied” in the COMA ledger, propagating both statuses to active dashboards.
 
-Kindy’s verification workers attempted to resolve the conflict by filing supplemental narrative addenda, but these only increased the number of pending records without changing either directive’s stance.
+Kindy verification workers attempted to reconcile the discrepancy by submitting supplemental narrative addenda, which increased the pending record count without altering either engine's automated determination.
 
-An appeal is pending with the Tri-Directive Reconciliation Council, which has so far declined to choose, citing the incident as a “valuable live demonstration” of enduring directive tension.
+The initial appeal was referred to the Tri-Directive Reconciliation Council, which declined to issue a operational override, citing the filings as a live demonstration of co-equal directive parameters.
 
-Cross-reference LLG-0103-COMA and LLG-0300-SC-X for subsequent rulings that scheduled rest and scheduled downtime may both be required and forbidden under co-existing directives.
+Cross-reference LLG-0103-COMA and LLG-0300-SC-X for subsequent rulings regarding co-existing requirements for rest and continuity.
 
 ## Interpretive State Conflict
 
-Post-incident dashboard captures show multiple systems rendering the same rest interval differently depending on directive visibility and escalation permissions:
+Dashboard captures from the initial filing window show systems rendering the same rest interval according to local directive filters:
 
 - SOMA-facing interfaces displayed "rest acknowledged" banners while COMA-linked schedulers simultaneously rendered the interval as "continuity pending."  
-- Escalation queues duplicated records into both remediation and compliance pathways, creating circular review dependencies with no closure authority.  
-- Managers reported selecting whichever directive state minimized local accountability exposure, resulting in the same period being operationally treated as both protected rest and unauthorized interruption.  
-- Archived dashboard captures show at least one interval simultaneously rendered as "REST APPROVED," "CONTINUITY BREACH," and "Awaiting Reassurance" across adjacent monitoring panes.  
-- Kindy verification workers flagged the condition as "interpretively unstable," though no directive framework recognized instability itself as actionable.
+- Escalation queues duplicated records into both remediation and compliance pathways, creating circular review dependencies.  
+- Field supervisors logged selections based on local exposure, treating the same hours as protected rest in SOMA filings and unauthorized absence in COMA audits.  
+- Monitoring panes recorded single intervals marked simultaneously as "REST APPROVED," "CONTINUITY BREACH," and "Awaiting Reassurance."  
+- Kindy verification staff noted the condition as "interpretively unstable," though neither directive contained logic to process instability as an error state.
 
-Later COMA guidance filed under LLG-0020-COMA19-PBC would classify this divergence as a phrase-normalization issue rather than a directive contradiction, establishing the basis for future "emotionally acknowledged, operationally denied" determinations.
+In subsequent administrative handling, later COMA guidance (LLG-0020-COMA19-PBC) retroactively reclassified the divergence as a phrase-normalization issue rather than an operational contradiction, establishing the precedent for "emotionally acknowledged, operationally denied" determinations.
 
 ## Related Aphorisms
 

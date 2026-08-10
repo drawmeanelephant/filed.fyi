@@ -10,13 +10,13 @@ tags: ["lorelog", "c-u-n-t-i-e-r", "optimization-failure", "metrics-theatre", "f
 
 The C.U.N.T.I.E.R. directive mandates continuous optimization of workflows according to preselected metrics, including “average forms per completed action.”
 
-In an attempt to reduce this number, an improvement sprint introduced Form 23-O (“Optimization Intent Declaration”) and Form 24-O (“Optimization Outcome Attestation”) as prerequisites to modifying or retiring any other form.
+During an optimization pass aimed at lowering this baseline, the taskforce introduced Form 23-O (“Optimization Intent Declaration”) and Form 24-O (“Optimization Outcome Attestation”) as mandatory prerequisites before any existing form could be modified or retired.
 
-Because each change to a form now required two new forms plus the original form under review, the metric “forms per form” increased by 233% over two weeks.
+Because each form alteration now required Form 23-O, Form 24-O, and the underlying record, the measured forms-per-form rate increased by 233% over a two-week sampling window.
 
-Dashboards showed a statistically significant surge in optimization-related activity, which C.U.N.T.I.E.R. initially interpreted as success until SOMA reviewers reported widespread “optimization fatigue” among filers.
+Dashboards registered the surge in form submissions as elevated optimization activity, which C.U.N.T.I.E.R. logged as operational progress until SOMA filed reports of filer fatigue.
 
-The incident was resolved by redefining the KPI to exclude optimization paperwork from the denominator, restoring all charts to their prior comforting flatness without altering the actual number of forms involved.
+The incident was closed by redefining the metric calculation to exclude Forms 23-O and 24-O from the denominator. This restored dashboard charts to prior baseline levels without altering the total volume of forms generated.
 
 ## Related Aphorisms
 
