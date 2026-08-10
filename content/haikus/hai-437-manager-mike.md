@@ -17,5 +17,5 @@ threshold fires the driver,
 no one to appeal.  
 
 Deactivation  
-at 3:47 AM —  
+in the middle of the night —  
 the appeal goes nowhere.

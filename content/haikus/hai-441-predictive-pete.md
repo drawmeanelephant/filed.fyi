@@ -17,5 +17,5 @@ the patrol creates the crime,
 the loop is the law.  
 
 ShotSpotter hears thunder,  
-dispatches SWAT at midnight —  
+flags "gunfire" at midnight —  
 fireworks again.

@@ -17,5 +17,5 @@ green dot pulses, human absent,
 curve eats the world.  
 
 Sinusoidal  
-mouse displacement, 0.5px —  
+mouse displacement on screen —  
 the human still rots.

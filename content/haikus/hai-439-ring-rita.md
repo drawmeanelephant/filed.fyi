@@ -13,8 +13,8 @@ relations: [relates_to=mascots/M-0439]
 
 
 Doorbell watches you —  
-police portal, no warrant,  
-$3.99/mo.  
+a police request portal —  
+the monthly fee.  
 
 Rita records all —  
 the neighbor's porch sees your porch,  
