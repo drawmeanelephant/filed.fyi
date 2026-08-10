@@ -1034,6 +1034,67 @@ body {
 
 .page-children li a:hover { background: var(--accent-soft); }
 
+/* ---------- semantic relations (graph-derived crosslinks) ---------- */
+
+.page-relations {
+  margin: 2.6rem 0 1rem;
+  padding-top: 1.4rem;
+  border-top: 2px solid var(--line);
+}
+
+/* Hide the static wrapper when Boris emitted neither slot */
+.page-relations:not(:has(.semantic-relations, .semantic-backlinks)) {
+  display: none;
+}
+
+.page-relations .semantic-relations,
+.page-relations .semantic-backlinks {
+  font-family: var(--font-ui);
+  margin: 0 0 1.3rem;
+}
+
+.page-relations .semantic-relations::before,
+.page-relations .semantic-backlinks::before {
+  content: attr(aria-label);
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.55rem;
+}
+
+.page-relations ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.page-relations li {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 0.3rem 1rem rgb(52 43 34 / 0.04);
+}
+
+.page-relations li a {
+  display: inline-block;
+  padding: 0.35rem 0.7rem;
+  color: var(--accent-strong);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+}
+
+.page-relations li a:hover { background: var(--accent-soft); }
+
 /* ---------- on-page TOC rail ---------- */
 
 .page-toc { margin: 0; }

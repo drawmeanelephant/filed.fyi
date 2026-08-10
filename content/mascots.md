@@ -9,4 +9,4 @@ tags: ["mascots"]
 
 The mascot menagerie catalogued in the Filed corpus.
 
-Count: 238 records.
+Count: 249 records.

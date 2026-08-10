@@ -9,4 +9,4 @@ tags: ["lorelog"]
 
 Chronological lore entries logged by the Filed team.
 
-Count: 185 records.
+Count: 187 records.
