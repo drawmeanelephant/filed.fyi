@@ -13,10 +13,4 @@ A manager named Mike in a vest,
 Optimized workers put to the test.  
 No boss to appeal,  
 Just thresholds of steel,  
-The algorithm does what it likes best.  
-
-The threshold was never a boss,  
-It computes the acceptable loss.  
-The partner's appeal  
-Is robotic and real —  
-A form that goes nowhere across.
+The algorithm does what it likes best.

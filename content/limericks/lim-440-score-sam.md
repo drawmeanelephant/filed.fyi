@@ -13,10 +13,4 @@ A number is all you become,
 Computed by someone's aplomb.  
 The formula's hidden,  
 The appeal is forbidden,  
-And the score is the final outcome.  
-
-Score Sam keeps the model opaque,  
-And poverty writes to the slate.  
-You pay rent on time,  
-The landlord's in line,  
-And the data decides your own fate.
+And the score is the final outcome.

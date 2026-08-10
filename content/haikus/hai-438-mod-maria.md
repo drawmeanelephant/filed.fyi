@@ -12,7 +12,7 @@ relations: [relates_to=mascots/M-0438]
 ## Haikus
 
 
-Two thousand a day —  
+A queue of horrors —  
 the AI learns from her trauma,  
 wellness is a PDF.  
 

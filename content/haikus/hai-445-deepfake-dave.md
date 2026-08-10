@@ -14,8 +14,8 @@ relations: [relates_to=mascots/M-0445]
 
 The CEO denied  
 the video he never made —  
-the stock moved four percent.  
+the stock still moved.  
 
 Watermarking, promised  
-by seven companies — shipped  
-by none of them, yet.
+by an industry, shipped by  
+none of them, yet.

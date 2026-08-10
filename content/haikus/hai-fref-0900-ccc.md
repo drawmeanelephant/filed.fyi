@@ -1,20 +1,16 @@
 ---
-title: "Curve-Coherence Capitalism"
+title: "Curve-Coherence"
 id: haikus/HAI-FREF-0900-CCC
 parent: haikus
 status: published
-tags: ["haikus", "curve-coherence-capitalism", "doctrine", "metabolic-loop"]
+tags: ["haikus", "curve-coherence", "doctrine", "proxy-metrics"]
 relations: [relates_to=reference/FREF-0900-CCC]
 ---
 
-# Curve-Coherence Capitalism
+# Curve-Coherence
 
 ## Haikus
 
-
-The curve is the contract —  
-legibility to the model  
-replaces the world.  
 
 Smooth lines are the truth  
 the dashboard is willing to read —  

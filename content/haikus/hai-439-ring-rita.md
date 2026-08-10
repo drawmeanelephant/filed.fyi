@@ -13,7 +13,7 @@ relations: [relates_to=mascots/M-0439]
 
 
 Doorbell watches you —  
-police portal, no warrant,  
+a police request portal —  
 $3.99/mo.  
 
 Rita records all —  

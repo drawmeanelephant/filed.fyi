@@ -11,12 +11,6 @@ relations: [relates_to=mascots/M-0439]
 
 A doorbell named Rita, so smart,  
 Subscribes your front porch to the chart.  
-The police don't need warrants,  
-Just portal assurances,  
-The panopticon's monthly art.  
-
-The subscription is $3.99,  
-For a panopticon built to align.  
-The hardware's the hook,  
-The footage's the book,  
-And the warrant's a portal-design.
+The footage's the fee,  
+The portal has the key,  
+The panopticon's monthly art.

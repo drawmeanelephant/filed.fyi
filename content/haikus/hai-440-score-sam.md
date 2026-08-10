@@ -16,6 +16,6 @@ Three digits decide —
 trade secret, no appeal,  
 poverty trains the model.  
 
-The reason code says  
-"Payment history" — never  
-"your zip code correlates."
+The reason code names  
+a factor, never the weight —  
+the model stays silent.

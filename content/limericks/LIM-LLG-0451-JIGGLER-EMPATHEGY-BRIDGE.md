@@ -13,16 +13,4 @@ The dashboard demands a smooth curve,
 So the human buys tools to preserve  
 Their green dot, their job —  
 While the capital mob  
-Replaces the lot with AI serve.  
-
-A worker who stopped the surplus,  
-Now performs only minimum-plus.  
-The engagement score drops,  
-The pathology stops,  
-And the metric discovers the fuss.  
-
-The jiggler was never a hack,  
-It renders the presence-attack.  
-The system was made  
-To be perfectly played,  
-And the curve never once looks back.
+Replaces the lot with AI serve.
