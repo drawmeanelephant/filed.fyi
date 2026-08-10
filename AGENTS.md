@@ -22,10 +22,11 @@ This document is the canonical operational guide for all AI coding agents workin
 
 Before executing any substantive changes:
 
-1. Inspect current workspace state: `git status`
+1. Inspect current workspace state: `git status` and check `.inbox/` for files dropped for ingestion (gitignored local drop folder — see `docs/working-with-filed.md`).
 2. Read project governance files:
    * `README.md`
    * `rules.md`
+   * `docs/working-with-filed.md` (practical guide: collection conventions, worked examples, git hygiene, the branch → validate → PR loop)
 3. When editing or creating content, inspect nearby records to maintain voice and layout consistency.
 4. Preserve unrelated work in progress.
 
