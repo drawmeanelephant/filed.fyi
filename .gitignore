@@ -13,6 +13,12 @@ bin/boris*
 # Local handoff snapshot used to seed the current source tree
 filed-boris-2026-08-02/
 
+# Freebuff local workspace state
+.freebuff/
+
+# Local agent inbox — drop files here for the agent to read (never committed)
+.inbox/
+
 # OS-specific files
 .DS_Store
 Thumbs.db
