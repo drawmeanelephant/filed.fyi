@@ -13,7 +13,7 @@ relations: [relates_to=mascots/M-0443]
 
 
 Suspicious gaze —  
-looking away for three seconds  
+looking away from the screen  
 means you're thinking.  
 
 The engagement score  

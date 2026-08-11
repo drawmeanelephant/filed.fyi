@@ -13,10 +13,4 @@ Triage Tracy computes the stay,
 And optimizes the margin away.  
 The criteria cited,  
 By nobody written,  
-Decide who gets to decay.  
-
-The peer reviewer clicks at $35,  
-Ninety seconds to keep you alive.  
-The summary's from Tracy,  
-The loop is complacent,  
-And the appeal doesn't quite arrive.
+Decide who gets to decay.

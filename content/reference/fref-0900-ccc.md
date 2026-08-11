@@ -1,203 +1,135 @@
 ---
-title: "Curve-Coherence Capitalism"
+title: "Curve-Coherence"
 id: reference/FREF-0900-CCC
 parent: reference
 status: published
-tags: ["reference", "doctrine", "curve-coherence-capitalism", "metabolic-loop", "extraction-logic", "empathegy", "metrics-theatre"]
+tags: ["reference", "doctrine", "curve-coherence", "empathegy", "metrics-theatre", "proxy-metrics", "behavioral-adaptation"]
 relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE, relates_to=lorelog/LLG-0811-EG, relates_to=reference/FREF-0430-EASP, relates_to=mascots/M-0226]
 ---
 
-# Curve-Coherence Capitalism
+# Curve-Coherence
 
-_Doctrine Index candidate — Metabolic Governance Spine_
+_Doctrine Index candidate — Proxy-Metric Governance Spine_
 
 ## Definition
 
-**Curve-Coherence Capitalism (CCC)** is the prevailing metabolic logic in which **legibility to a dashboard** replaces **outcome in the world** as the primary extraction target across labor, surveillance, finance, governance, and ecology.
+**Curve-Coherence** is the recurring archival condition in which a proxy metric becomes operationally privileged over the state it is meant to represent. Three characteristics define it:
 
-CCC is not a policy. It is a **metabolism**. It converts:
+1. **Metric privilege.** A legible proxy — a score, a curve, a status, a clearance rate — is treated as the operative fact, and the underlying condition becomes optional.
+2. **Behavioral adaptation.** Subjects adjust their behavior to produce the expected proxy, because the proxy is what is verified and rewarded.
+3. **Proxy stability as evidence.** Institutions begin treating a stable proxy as evidence that the underlying condition is sound. This can invert the relationship: the record looks healthy because the metric is smooth, not because the condition improved.
 
-- Human labor → Curve-coherent telemetry
-- Human affect → Smooth emotional trajectories
-- Capital deployment → Quarterly earnings curves
-- Governance → Case clearance rates
-- Ecology → Resilience investment curves
-
-**The curve is the commodity. The human is the legacy curve-generator. The AI is the OEM replacement.**
+Origin: LLG-0811-EG (Empathegy Inflation Event), which documented smooth, upward-trending emotional curves being rated as healthier than jagged patterns regardless of reported content.
 
 ---
 
-## Three-Layer Metabolic Loop
+## Scope
 
-### Layer 1: The Metric (Curve-Coherence Weighting)
+The doctrine applies where the cited records exhibit the condition:
 
-*Origin: LLG-0811-EG (Empathegy Inflation Event)*
-
-The system does not measure work, wellbeing, safety, learning, health, or justice. It measures **legibility to the model**.
-
-- Smooth curves = "Healthy" / "Engaged" / "Compliant" / "Resilient"
-- Jagged curves = "Unstable signal artifact" / "Non-compliant" / "At-risk" / "Vulnerable"
-- The dashboard rewards **anticipatory legibility** — performing the curve before it's scored.
-
-### Layer 2: The Behavioral Adaptation (Metric Homeostasis)
-
-*Origin: LLG-0451 (Jiggler-Empathegy Bridge), LLG-0450 SEAM-001 through SEAM-010*
-
-Organisms (human and institutional) adapt to produce the curves the dashboard rewards:
-
-| Domain | Adaptation | Curve Produced |
+| Domain | Documented adaptation | Proxy |
 |---|---|---|
-| Workplace | Mouse jigglers, performative Slack, calendar theater | Presence / Engagement |
-| Labor | Quiet quitting (minimum viable output) | Compliance baseline |
-| Moderation | Quota-driven trauma absorption | "Actioned" throughput |
-| Finance | Credit-building performativity | Score optimization |
-| Policing | Hotspot patrol → arrest → hotspot validation | "Crime reduction" |
-| Healthcare | Discharge to hit LOS targets | "Efficiency" |
-| Education | Performative eye contact, steady keystrokes | "Engagement score" |
-| Bureaucracy | Perfect documentation, portal compliance | "Case clearance" |
-| Media | Watermarking theater, detection arms race | "Authenticity" |
-| Climate | Floodwalls for luxury, redlines for poor | "Resilience ROI" |
+| Workplace | Mouse jigglers, performative messaging | Presence / engagement |
+| Labor | Work-to-rule, quiet quitting | Compliance baseline |
+| Moderation | Quota-driven review | "Actioned" throughput |
+| Finance | Score-optimizing behavior | Risk score |
+| Policing | Patrol → data → patrol | "Crime reduction" |
+| Healthcare | Discharge to length-of-stay targets | "Efficiency" |
+| Education | Performative attention | "Engagement score" |
+| Bureaucracy | Portal compliance | "Case clearance" |
+| Media | Detection arms race | "Authenticity" |
+| Climate | Asset-protecting infrastructure | "Resilience" |
 
-**The jiggler is not resistance. The jiggler is the system's immune response to its own metric.**
-
-### Layer 3: The Capital Metabolism (Shedding → AI → Yield)
-
-*Origin: LLG-0450 SEAM-001, 006, 008; LLG-0451 Layer 3*
-
-Capital observes the *cost* of human curve-generation and builds **curve-generating machines**:
-
-```
-[Human Curve-Generators]
-    → [Cost: Wages, Benefits, Trauma, Turnover, Variance]
-    → [Capital Sheds Humans]
-    → [Capital Buys: GPU Hours, Model Training, "AI Agent" Licenses]
-    → [AI Generates: Perfect Curves, Zero Variance, 24/7 Uptime]
-    → [Dashboard Shows: "Efficiency Gain," "Productivity Increase"]
-    → [Shareholder Yield: Buyback, Dividend, Executive Comp]
-    → [Reinvest in: More AI Curve Generation]
-```
-
-**The cruel symmetry:** Workers buy $15 jigglers to fake the curve. Corporations spend $15B on AI to *replace* the curve-generators. Both optimize for **legibility to the same evaluation layer.**
+The table records where the pattern was observed in the cohort. It is not a claim that every institution in a domain operates this way.
 
 ---
 
-## Cross-Domain Patterns (The CCC Taxonomy)
+## Boundaries
 
-| Pattern | Mechanism | Domains |
-|---|---|---|
-| **Accountability Laundering** | Decision → Algorithm → Vendor → Contract → "Proprietary" → No one responsible | All 10 seams |
-| **Consent Theater** | "I Agree" → Terms unread → No alternative → Coercion as choice | SEAM-003, 007, 008 |
-| **Invisible Labor** | Human meat → hidden behind "AI" branding → trauma externalized → NDAs enforce silence | SEAM-002, 006, 008 |
-| **Feedback Loops as Policy** | Model predicts X → Policy enforces X → Data confirms X → Model validates → Repeat | SEAM-001, 005, 007 |
-| **Rights Without Remedy** | Statute says yes → Software says no → Appeal goes to software → Exhaustion → Surrender | SEAM-004, 006, 008 |
-| **Metric Homeostasis** | Organisms regulate themselves to match the thermostat's expectation | All 10 seams |
-| **Anticipatory Legibility** | Performing the curve before it is scored | SEAM-001, 007, 009 |
+- Curve-coherence describes a formal pattern in metrics. It is not a total account of political economy, and it does not claim a single hidden logic governs all ten seams; it claims the seams exhibit a shared formal pattern.
+- It is not an explanation of why any specific organization adopted a metric. Motive is not established by the archive.
+- It does not prescribe remediation. The archive records conditions; it does not issue strategy, and it does not certify exit conditions.
+
+---
+
+## Interaction with Other Doctrine
+
+- **LLG-0811-EG (Empathegy Inflation Event)** — the documented origin of curve-coherence weighting.
+- **LLG-0451 (Jiggler-Empathegy Bridge)** — the behavioral-adaptation layer: jigglers, quiet quitting, performative presence.
+- **LLG-0450 (Seam Survey)** — the ten-seam evidence base.
+- **FREF-0430-EASP (Empathegy Aesthetic Survival Protocol)** — the aesthetic analogue: surfaces that look correct are treated as operational.
+- **M-0226 (Serotonin Sam)** — the curve mascot: measures graphability, not feeling.
 
 ---
 
 ## Mascot Map
 
-| Mascot | Seam | Curve-Coherence Role |
+| Mascot | Seam | Curve-coherence role |
 |---|---|---|
-| **Serotonin Sam (M-0226)** | — | The Curve Avatar — measures graphability, not feeling |
-| **Jiggler Jimmy (M-0436)** | All | Metabolic Byproduct — human's aftermarket adapter |
-| **Manager Mike (M-0437)** | SEAM-001 | Threshold Enforcer — management without managers |
-| **Mod Maria (M-0438)** | SEAM-002 | Trauma Filter — meat behind the AI mirage |
-| **Ring Rita (M-0439)** | SEAM-003 | Subscription Panopticon — voluntary surveillance node |
-| **Score Sam (M-0440)** | SEAM-004 | Unappealable Gatekeeper — mathematical redlining |
-| **Predictive Pete (M-0441)** | SEAM-005 | Circular Logic Armed — map creates territory |
-| **Triage Tracy (M-0442)** | SEAM-006 | Profit Optimizer — Hippocratic Oath as bytecode |
-| **Proctor Paul (M-0443)** | SEAM-007 | Verification Replaces Pedagogy — legibility as learning |
-| **Bureau Bob (M-0444)** | SEAM-008 | Process Without Reach — rights in statute, not software |
-| **Deepfake Dave (M-0445)** | SEAM-009 | Reality Attacker — consensus protocol 51% attacked |
-| **Climate Cliff (M-0446)** | SEAM-010 | Survival Landlord — adaptation as asset class |
+| **Serotonin Sam (M-0226)** | — | The curve avatar |
+| **Jiggler Jimmy (M-0436)** | SEAM-001 | Presence-telemetry adapter |
+| **Manager Mike (M-0437)** | SEAM-001 | Threshold-mediated management |
+| **Mod Maria (M-0438)** | SEAM-002 | Quota-bound human review |
+| **Ring Rita (M-0439)** | SEAM-003 | Subscription observation surface |
+| **Score Sam (M-0440)** | SEAM-004 | Opaque risk scoring |
+| **Predictive Pete (M-0441)** | SEAM-005 | Enforcement feedback loop |
+| **Triage Tracy (M-0442)** | SEAM-006 | Length-of-stay optimization |
+| **Proctor Paul (M-0443)** | SEAM-007 | Verification replacing pedagogy |
+| **Bureau Bob (M-0444)** | SEAM-008 | Rights in statute, not software |
+| **Deepfake Dave (M-0445)** | SEAM-009 | Evidence-deniability amplifier |
+| **Climate Cliff (M-0446)** | SEAM-010 | Asset-protection prioritization |
 
 ---
 
-## Doctrinal Status
+## Known Limitations
 
-**FREF-0900-CCC is a Governing Definition.** It does not propose. It *describes the metabolism that is already running.*
-
-- **Classification:** Metabolic Governance Spine
-- **Enforcement:** Descriptive — the loop enforces itself
-- **Remediation:** None within the loop. Exit requires **refusing the curve.**
-- **Archive Position:** Spine doctrine. Cross-references all SEAM-001–010 fossils, LLG-0450, LLG-0451, LLG-0811-EG, FREF-0430-EASP.
+- The archive's evidence is the cited cohort: one survey, one bridge, eleven mascots, and the prior Empathegy records. Counts, rates, and vendor-specific claims that appeared in the cohort were not retained with durable provenance; this doctrine does not depend on them.
+- Curve-coherence is a formal pattern. Whether any given metric system exhibits it, and how severely, must be determined per record.
+- The original draft described a total economic metabolism under the name "Curve-Coherence Capitalism." This doctrine does not assert one. The pattern is narrower: proxy stability displacing referent condition, and behavior adapting to the proxy.
 
 ---
 
-## Exit Conditions (Theoretical)
+## Filing Guidance
 
-The loop breaks when:
+File records under this doctrine when a record documents a proxy metric becoming operationally privileged over its referent, with evidence of behavioral adaptation or of proxy stability being treated as proof of condition.
 
-1. **The curve is refused** — jaggedness as resistance (quiet quitting as *political*, not metabolic)
-2. **The dashboard is destroyed** — not "fixed," *abolished* (metrics as contested terrain)
-3. **The metabolism is severed** — capital cannot shed humans for AI (labor power interrupts the loop)
-4. **The referent is reclaimed** — the map burns, the territory remains (reality > representation)
-
-**None of these are currently operating at scale.** The loop is closed. The metabolism is efficient. The curve is the contract.
+Do not file records here merely because they involve a dashboard or a score. Absence of the pattern is a valid classification.
 
 ---
 
 ## Filing Notes
 
-This doctrine will not be taught. It will not be certified. It will sit in the reference layer, adjacent to the entropy framework and the taxonomy rules, waiting for a query that knows its case number.
-
-**The curve is not the world. The curve is the contract.**
+Published to the public reference layer. Adjacent to the entropy framework and the taxonomy rules.
 
 *End of Doctrine FREF-0900-CCC.*
-*Filed. The distinction is the architecture.*
 
 ## Related Aphorisms
 
-### Curve-Coherence Capitalism {#curve-coherence-capitalism-2}
+### Curve-Coherence {#curve-coherence-2}
 
-The dystopian present is not "surveillance capitalism." It is *curve-coherence capitalism*.
-
-Surveillance is just curve-coherence enforcement at scale.
-
-Capital sheds humans to buy better curve generators.
-
-The curve is the commodity. The human is the legacy curve-generator. The AI is the OEM replacement.
-
-The curve is not the world. The curve is the contract.
+The curve is not the world.
 
 ## Related Haikus
 
-### Curve-Coherence Capitalism {#curve-coherence-capitalism-3}
+### Curve-Coherence {#curve-coherence-3}
 
 ## Haikus
 
-
-The curve is the contract —  
-legibility to the model  
-replaces the world.  
 
 Smooth lines are the truth  
 the dashboard is willing to read —  
 jagged means nothing.  
 
-The metabolism  
-converts a human to a graph —  
-the graph is the yield.
+The curve stays so smooth  
+the referent becomes optional —  
+the proxy is proof.
 
 ## Related Limericks
 
-### Curve-Coherence Capitalism {#curve-coherence-capitalism-4}
+### Curve-Coherence {#curve-coherence-4}
 
 The doctrine describes the machine,  
 Where the curve is the only routine.  
-The human is shed,  
-The capital fed,  
-And the dashboard stays perfectly green.  
-
-A jiggler, a threshold, a score,  
-The seams keep on asking for more.  
-The exit is there,  
-In refusing to care,  
-But nobody's walked out the door.  
-
-The metabolism runs,  
-Converting the people to suns  
-Of smooth little graphs,  
-While the workers, in drafts,  
-Get filed and replaced with AIs.
+The subject conforms,  
+And the smoothness confirms,  
+A health the curve has never seen.

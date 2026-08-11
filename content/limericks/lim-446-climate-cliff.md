@@ -10,13 +10,7 @@ relations: [relates_to=mascots/M-0446]
 # Climate Cliff
 
 Climate Cliff hardened the wall,  
-Forty units protected from all.  
+Some units protected from all.  
 The neighborhood drowns,  
 While capital crowns,  
-And the lifeboat still charges the call.  
-
-The buyout was sixty percent,  
-The developer took what it meant.  
-The floodwall went up,  
-The families got the cup,  
-And the profit was perfectly spent.
+And the lifeboat still charges the call.
