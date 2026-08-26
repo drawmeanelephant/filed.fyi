@@ -26,9 +26,9 @@ This directory contains the Python, Shell, and automation scripts used to build,
 * **Purpose**: Cleans provisioner-owned compiler artifacts in `bin/` (`bin/boris` and `bin/boris.json`). Pass `--cache` or `--all` to clean provisioner build cache (`.tools/`).
 * **Usage**: `./scripts/clean-binaries.sh --all`
 
-### 📜 `build-boris-afterparty.sh`
-* **Purpose**: Fetches and builds the active Boris compiler from the `afterparty` branch of [drawmeanelephant/boris](https://github.com/drawmeanelephant/boris).
-* **Usage**: `./scripts/build-boris-afterparty.sh`
+### 📜 `build-boris-main.sh`
+* **Purpose**: Builds the active local Boris main worktree in place (no fetch/checkout) and runs the full Filed publishing bundle against the fresh binary.
+* **Usage**: `./scripts/build-boris-main.sh`
 
 ### 📜 `filed-migration-ci.sh`
 * **Purpose**: Complete CI verification script used to validate corpus integrity, graph relationships, and build outputs.

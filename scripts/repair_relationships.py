@@ -1,34 +1,40 @@
 #!/usr/bin/env python3
-"""repair_relationships.py — Repair the relationship export so semantic links survive bundling.
+"""repair_relationships.py — Repair the context export so semantic links survive bundling.
 
 Problem
 -------
-Boris derives the exported ``related`` field from *structural* adjacency:
-satellites list their parent trunk, trunks list every child, and in split
-(part-based) builds the field frequently contains only ``parts/...`` bundle
-container paths (see ``part_manifest.json``).  Explicit record relationships
-that live only in source frontmatter (``relations``, legacy ``relatedEntries``)
-or as explicit Markdown cross-references in prose are dropped, so semantic
-links do not survive bundling.
+Since Boris's boris-rag schema-2 redesign, the RAG export is a verbatim
+working-context projection: bounded packs of complete authoring documents with
+no derived per-page fields.  There is nothing to repair there, and rewriting
+pack documents would break the verbatim fidelity the format promises.  The
+context bundle keeps provenance-rich per-page artifacts, but a page's native
+``relations`` field only mirrors current frontmatter declarations — recovered
+pre-migration relationships (metadata/relationship-map.jsonl), legacy
+``relatedEntries``, and explicit Markdown cross-references in prose would be
+dropped.  This tool rebuilds that field from the source of record.
 
 Repair behavior (per export artifact)
 -------------------------------------
-* ``parent_entry`` remains the repository parent — untouched.
-* ``related`` is rebuilt from **source-supported relationships only**:
+* Context pages keep their native fields (``entity_id``, ``source_path``,
+  ``source_sha256``, ``parent``, ...) — untouched.
+* The outer ``relations`` field is rebuilt from **source-supported
+  relationships only**:
     - frontmatter ``relations`` (Boris ``[relates_to=<entity-id>]`` syntax),
     - legacy ``relatedEntries`` (block list of ``collection:``/``id:`` pairs
       or bare scalars),
     - explicit Markdown cross-references in the body that resolve to another
-      record file.
-  Values are emitted as stable entity IDs (falling back to source-relative
-  paths when an ID cannot be resolved), deduplicated, in first-seen order.
-* Bundle-part membership (``parts/...`` entries) is moved to a separate
-  ``bundle_parts:`` field — never into ``related``.
+      record file,
+    - recovered pre-migration declarations from the committed manifest.
+  Values are emitted as typed ``relates_to=<canonical-id>`` entries,
+  deduplicated, in first-seen order.
 * Unresolved relationship targets are reported, not silently discarded.
+* RAG working packs are read-only by design; their relationship fidelity is
+  audited separately by validate_relationships.py against the pack document
+  markers.
 
 Structural parent/child adjacency is intentionally *not* copied into
-``related``: ``parent_entry`` already carries the repository parent, and a
-trunk's child list is collection membership, not a semantic relationship.
+``relations``: collection membership is hierarchy, not a semantic
+relationship.
 
 No relationships are invented from shared tags, and no reverse edges are
 inferred — only what the source declares is preserved.
@@ -37,7 +43,6 @@ Usage
 -----
     python3 scripts/repair_relationships.py \
         --content content \
-        --rag-dir publish/rag \
         --context-dir publish/context
 
 Run from the repository root. Idempotent: re-running reports no changes.
@@ -360,53 +365,14 @@ def semantic_relationships(by_id: dict[str, Entity], by_source: dict[str, Entity
     return semantic_by_id, unresolved_list
 
 
-def related_block(frontmatter: str, key: str) -> tuple[list[str], str]:
-    """Return (values, rewritten_block) for a block/inline list field.
-
-    The rewritten block is an indented ``  - value`` block for the given key.
-    """
-    lines = frontmatter.splitlines()
-    values: list[str] = []
-    rewrite: str | None = None
-    for index, line in enumerate(lines):
-        inline = INLINE_LIST.match(line)
-        if inline and inline.group(1) == key:
-            values = [item.strip() for item in inline.group(2).split(",") if item.strip()]
-            rewrite = key + ":\n" + "".join(f"  - {value}\n" for value in values)
-            break
-        match = FM_LINE.match(line)
-        if match and match.group(1) == key and not match.group(2).strip():
-            values = []
-            cursor = index + 1
-            while cursor < len(lines) and BLOCK_ITEM.match(lines[cursor]):
-                values.append(BLOCK_ITEM.match(lines[cursor]).group(1).strip())  # type: ignore[union-attr]
-                cursor += 1
-            rewrite = key + ":\n" + "".join(f"  - {value}\n" for value in values)
-            break
-    if rewrite is None:
-        rewrite = f"{key}:\n" + "".join(f"  - {value}\n" for value in values)
-    return values, rewrite
-
-
-def replace_field(frontmatter: str, key: str, values: list[str]) -> str:
-    """Replace (or append) a block field in the frontmatter, preserving order."""
-    lines = frontmatter.splitlines()
-    block_lines = [key + ":"] + [f"  - {value}" for value in values]
-    for index, line in enumerate(lines):
-        inline = INLINE_LIST.match(line)
-        if inline and inline.group(1) == key:
-            cursor = index + 1
-            while cursor < len(lines) and BLOCK_ITEM.match(lines[cursor]):
-                cursor += 1
-            return "\n".join(lines[:index] + block_lines + lines[cursor:])
-        match = FM_LINE.match(line)
-        if match and match.group(1) == key:
-            cursor = index + 1
-            while cursor < len(lines) and BLOCK_ITEM.match(lines[cursor]):
-                cursor += 1
-            return "\n".join(lines[:index] + block_lines + lines[cursor:])
-    # Field absent: append at the end of the frontmatter block.
-    return "\n".join(lines + block_lines)
+def split_frontmatter(text: str) -> tuple[str, str] | None:
+    lines = text.splitlines()
+    if not lines or lines[0].rstrip("\r") != "---":
+        return None
+    close = next((i for i in range(1, len(lines)) if lines[i].rstrip("\r") == "---"), None)
+    if close is None:
+        return None
+    return "\n".join(lines[:close]), "\n".join(lines[close:])
 
 
 def replace_scalar_or_list(frontmatter: str, key: str, inline_values: list[str]) -> str:
@@ -424,61 +390,6 @@ def replace_scalar_or_list(frontmatter: str, key: str, inline_values: list[str])
                 cursor += 1
             return "\n".join(lines[:index] + [line] + lines[cursor:])
     return "\n".join(lines + [line])
-
-
-def split_frontmatter(text: str) -> tuple[str, str] | None:
-    lines = text.splitlines()
-    if not lines or lines[0].rstrip("\r") != "---":
-        return None
-    close = next((i for i in range(1, len(lines)) if lines[i].rstrip("\r") == "---"), None)
-    if close is None:
-        return None
-    return "\n".join(lines[:close]), "\n".join(lines[close:])
-
-
-def repair_rag_page(path: Path, semantic: list[str], content_root: Path) -> tuple[bool, list[str]]:
-    """Repair one RAG page file: rebuild ``related``, split out ``bundle_parts``.
-
-    Returns (changed, diagnostics).
-    """
-    text = path.read_text(encoding="utf-8")
-    split = split_frontmatter(text)
-    if split is None:
-        return False, []
-    frontmatter, body = split
-    values, _ = related_block(frontmatter, "related")
-    part_paths = [value for value in values if PART_PATH.match(value)]
-    # Drop anything pointing at bundle containers or export-internal rag paths;
-    # the remaining pre-existing values are structural adjacency, which
-    # parent_entry already carries and is intentionally not re-emitted.
-    new_frontmatter = replace_field(frontmatter, "related", semantic)
-
-    # Bundle membership is the ordered, deduplicated union of any bundle_parts
-    # preserved by an earlier run and any part paths still sitting in related.
-    # Existing memberships must survive subsequent runs (idempotency): never
-    # clear bundle_parts merely because the current related no longer contains
-    # container paths.
-    existing_bundle, _ = related_block(frontmatter, "bundle_parts")
-    bundle: list[str] = []
-    seen: set[str] = set()
-    for value in existing_bundle + part_paths:
-        if value not in seen:
-            seen.add(value)
-            bundle.append(value)
-    if bundle:
-        new_frontmatter = replace_field(new_frontmatter, "bundle_parts", bundle)
-    # Nothing to preserve (no existing memberships, no part paths in related):
-    # leave any empty bundle_parts field untouched for byte-stable output.
-    rebuilt = new_frontmatter + "\n" + body
-    if text.endswith("\n") and not rebuilt.endswith("\n"):
-        rebuilt += "\n"  # preserve the original trailing newline (byte-stable re-runs)
-    diagnostics: list[str] = []
-    if part_paths:
-        diagnostics.append(f"moved {len(part_paths)} bundle part reference(s) out of related")
-    if rebuilt != text:
-        path.write_text(rebuilt, encoding="utf-8")
-        return True, diagnostics
-    return False, diagnostics
 
 
 def repair_context_page(path: Path, semantic: list[str]) -> tuple[bool, list[str]]:
@@ -503,8 +414,6 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--content", type=Path, default=Path("content"),
                         help="source of record (default: content)")
-    parser.add_argument("--rag-dir", type=Path, default=Path("publish/rag"),
-                        help="Boris RAG export directory (default: publish/rag)")
     parser.add_argument("--context-dir", type=Path, default=Path("publish/context"),
                         help="Boris context bundle directory (default: publish/context)")
     parser.add_argument("--manifest", type=Path, default=MANIFEST_PATH,
@@ -530,23 +439,6 @@ def main() -> int:
         by_id, by_source, args.content, recovered=recovered)
 
     changed_files = 0
-    moved_parts = 0
-    if args.rag_dir.is_dir():
-        pages = sorted(args.rag_dir.glob("content/pages/**/*.md"))
-        for path in pages:
-            text = path.read_text(encoding="utf-8")
-            fields, _ = parse_frontmatter(text)
-            entity_id = scalar(fields.get("entity_id"))
-            if not entity_id:
-                continue
-            semantic = semantic_by_id.get(entity_id, [])
-            changed, diagnostics = repair_rag_page(path, semantic, args.content)
-            for note in diagnostics:
-                print(f"  {path.relative_to(args.rag_dir)}: {note}")
-            if changed:
-                changed_files += 1
-        print(f"repaired {changed_files} RAG page file(s)")
-
     if args.context_dir.is_dir():
         pages = sorted(args.context_dir.glob("pages/**/*.md"))
         for path in pages:
@@ -559,7 +451,7 @@ def main() -> int:
             changed, _ = repair_context_page(path, semantic)
             if changed:
                 changed_files += 1
-        print(f"repaired {changed_files} context page file(s) total (RAG + context)")
+        print(f"repaired {changed_files} context page file(s)")
 
     relation_count = sum(len(values) for values in semantic_by_id.values())
     recovered_count = sum(len(values) for values in recovered.values())

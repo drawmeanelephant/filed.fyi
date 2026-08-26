@@ -1,36 +1,42 @@
 #!/usr/bin/env python3
 """validate_relationships.py — Audit the relationship export for integrity.
 
-Checks the exported relationship fields (``related`` in the RAG export,
-``relations`` in the context bundle) against the source of record and writes a
-Markdown report to ``reports/relationship-integrity.md``.
+Checks the exported relationship surfaces — source-declared ``relations``
+frontmatter carried verbatim inside the RAG working packs (boris-rag schema 2,
+``<!-- boris-rag-doc: ... -->`` markers), and the ``relations`` field of the
+context bundle's per-page artifacts — against the source of record, and writes
+a Markdown report to ``reports/relationship-integrity.md``.
 
 Two layers of checking are performed.
 
 Shape checks — the exported values themselves:
 1. **Missing targets** — relationship values that resolve to no known record,
    including source declarations that resolve to nothing.
-2. **Duplicate relationships** — repeated identical values inside one record.
+2. **Duplicate relationships** — repeated identical values inside one record,
+   or a record document appearing more than once across the packs.
 3. **Self-links** — a record related to itself.
 4. **Malformed IDs** — values that are neither stable entity IDs nor
    source-relative paths (e.g. export-internal ``content/pages/...`` paths).
 
 Parity checks — source vs. export:
-5. **Missing from RAG export** — expected source relationships absent from the
-   RAG ``related`` field.  An empty export field is a finding, not a pass.
-6. **Missing from context export** — expected source relationships absent from
-   the context ``relations`` field.
-7. **Unexpected in RAG export** — ``related`` values not supported by source.
+5. **Missing from RAG export** — a frontmatter-declared relation absent from
+   that record's verbatim pack copy, or a relationship-bearing record missing
+   from the packs entirely.
+6. **Missing from context export** — expected canonical relationships absent
+   from the context ``relations`` field.  The context surface carries the full
+   canonical set: recovered pre-migration declarations, legacy
+   ``relatedEntries``, and resolving Markdown cross-references in addition to
+   current frontmatter relations.
+7. **Unexpected in RAG export** — pack-declared relation values not supported
+   by that record's source frontmatter.
 8. **Unexpected in context export** — ``relations`` values not supported by
    source.
-9. **RAG/context disagreement** — RAG and context exports name different
-   target sets for the same record.
-10. **Bundle membership loss** — bundle-container paths (``parts/...``,
-    ``bundle/...``, export-internal RAG paths) found inside ``related``: the
-    membership belongs in ``bundle_parts`` and must never live in ``related``.
+9. **Bundle membership loss** — bundle-container paths (``parts/...``,
+   ``bundle/...``, export-internal RAG paths) found inside an exported
+   relations field: membership is structural, never semantic.
 
-The audit fails (exit status 1) whenever any expected source relationship is
-missing from an export, even when the exported field is empty.
+The audit fails (exit status 1) whenever any expected relationship is missing
+from an export, even when the exported field is empty.
 
 Usage
 -----
@@ -76,6 +82,12 @@ MAX_ROWS = 25
 
 RELATION_KIND = re.compile(r"^[a-z_]+=(.*)$")
 
+# boris-rag schema 2 working packs: complete documents delimited by marker
+# lines.  Each marker carries id=/source=/category= attributes; the document
+# is everything between one marker and the next (or end of file).
+DOC_MARKER = re.compile(r"^<!--\s*boris-rag-doc:\s*(.*?)\s*-->\s*$")
+MARKER_ATTR = re.compile(r'([A-Za-z_][A-Za-z0-9_]*)="([^"]*)"')
+
 # Finding categories in report order.
 CATEGORIES = [
     ("missing", "Missing targets"),
@@ -86,7 +98,6 @@ CATEGORIES = [
     ("missing_context", "Missing from context export"),
     ("unexpected_rag", "Unexpected in RAG export"),
     ("unexpected_context", "Unexpected in context export"),
-    ("rag_context_disagreement", "RAG/context disagreement"),
     ("bundle_membership_loss", "Bundle membership loss"),
     ("reconciliation", "Recovery reconciliation"),
 ]
@@ -109,11 +120,47 @@ COUNT_LABELS = [
     ("legacy_duplicates", "Legacy duplicate declarations removed (per-record dedup)"),
     ("structural_only", "Structural-only excluded (parentEntry)"),
     ("current_source", "Current-source relationships discovered"),
-    ("rag_exported", "RAG relationships exported"),
+    ("rag_exported", "RAG pack relations exported"),
+    ("rag_documents", "RAG documents seen in packs"),
     ("context_exported", "Context relationships exported"),
-    ("bundle_preserved", "Bundle memberships preserved"),
     ("unresolved", "Unresolved current-source declarations"),
 ]
+
+
+def parse_pack_documents(text: str) -> list[tuple[dict[str, str], str]]:
+    """Split a RAG working pack into (marker attributes, document text) pairs."""
+    documents: list[tuple[dict[str, str], str]] = []
+    attrs: dict[str, str] | None = None
+    chunk: list[str] = []
+    for line in text.splitlines():
+        match = DOC_MARKER.match(line)
+        if match:
+            if attrs is not None:
+                documents.append((attrs, "\n".join(chunk)))
+            attrs = dict(MARKER_ATTR.findall(match.group(1)))
+            chunk = []
+        elif attrs is not None:
+            chunk.append(line)
+    if attrs is not None:
+        documents.append((attrs, "\n".join(chunk)))
+    return documents
+
+
+def declared_frontmatter_relations(by_id: dict) -> dict[str, list[str]]:
+    """Collect each record's own frontmatter ``relations`` declarations.
+
+    This is the surface a verbatim RAG pack can carry: exactly what the source
+    document declares, nothing promoted.  Returns entity ID -> ordered raw
+    declaration values (kind prefixes stripped).
+    """
+    declared: dict[str, list[str]] = {}
+    for entity_id, entity in by_id.items():
+        _, blocks = parse_frontmatter(entity.text)
+        values = [strip_kind(item) for item in blocks.get("relations", [])
+                  if isinstance(item, str) and item.strip()]
+        if values:
+            declared[entity_id] = values
+    return declared
 
 
 def canonical_shape(value: str) -> str:
@@ -182,34 +229,47 @@ def audit(by_id: dict, by_source: dict, semantic_by_id: dict[str, list[str]],
                     "container-path", "rag-path"):
                 findings["missing"].append((artifact, entity_id, raw))
 
+    # RAG working packs (boris-rag schema 2): verbatim documents delimited by
+    # boris-rag-doc markers.  The only relationship surface is each document's
+    # own frontmatter ``relations`` declarations.
     if rag_dir.is_dir():
-        for path in sorted(rag_dir.glob("content/pages/**/*.md")):
-            fields, blocks = parse_frontmatter(path.read_text(encoding="utf-8"))
-            entity_id = scalar(fields.get("entity_id"))
-            if not entity_id:
-                continue
-            rel = str(path.relative_to(rag_dir))
-            values = [item if isinstance(item, str) else ""
-                      for item in blocks.get("related", [])]
-            shape_checks(rel, entity_id, values)
-            targets: list[str] = []
-            for raw in values:
-                value = strip_kind(raw)
-                if is_container(value):
-                    # Membership belongs in bundle_parts, never in related.
-                    findings["bundle_membership_loss"].append((rel, entity_id, raw))
-                else:
-                    targets.append(value)
-            rag_targets[entity_id] = targets
-            rag_paths[entity_id] = rel
-            counts["rag_exported"] += len(targets)
-            counts["bundle_preserved"] += len(
-                [item for item in blocks.get("bundle_parts", [])
-                 if isinstance(item, str) and item.strip()])
-            # Container paths are stripped from the RAG target set: they are
-            # reported as bundle membership loss above (they belong in
-            # bundle_parts).  The context scan keeps them so a container in
-            # `relations` surfaces as unexpected_context instead.
+        rag_document_occurrences: dict[str, int] = {}
+        for pack_path in sorted(rag_dir.glob("working-*.md")):
+            rel = str(pack_path.relative_to(rag_dir))
+            text = pack_path.read_text(encoding="utf-8")
+            for attrs, document in parse_pack_documents(text):
+                fields, blocks = parse_frontmatter(document)
+                entity_id = scalar(fields.get("id"))
+                if not entity_id:
+                    marker_id = attrs.get("id", "")
+                    entity_id = marker_id[len("content/"):] if marker_id.startswith(
+                        "content/") else marker_id
+                if not entity_id:
+                    continue
+                label = f"{rel}#{attrs.get('source', entity_id)}"
+                rag_document_occurrences[entity_id] = (
+                    rag_document_occurrences.get(entity_id, 0) + 1)
+                values = [item if isinstance(item, str) else ""
+                          for item in blocks.get("relations", [])]
+                shape_checks(label, entity_id, values)
+                targets: list[str] = []
+                for raw in values:
+                    value = strip_kind(raw)
+                    if is_container(value):
+                        # Membership is structural; it must never pose as a
+                        # semantic relation inside a verbatim export.
+                        findings["bundle_membership_loss"].append((label, entity_id, raw))
+                    else:
+                        targets.append(value)
+                rag_targets[entity_id] = targets
+                rag_paths[entity_id] = label
+                counts["rag_exported"] += len(targets)
+        counts["rag_documents"] = sum(rag_document_occurrences.values())
+        for entity_id, occurrences in sorted(rag_document_occurrences.items()):
+            if occurrences > 1:
+                findings["duplicates"].append(
+                    ("packs", entity_id,
+                     f"document appears {occurrences} times across packs"))
 
     if context_dir.is_dir():
         for path in sorted(context_dir.glob("pages/**/*.md")):
@@ -233,30 +293,39 @@ def audit(by_id: dict, by_source: dict, semantic_by_id: dict[str, list[str]],
         entity_id = entity.entity_id if entity else source.split("/")[0]
         findings["missing"].append(("content/" + source, entity_id, target))
 
-    # Parity: every expected source relationship must reach both exports, and
-    # neither export may carry relationships the source does not support.
-    for entity_id in sorted(set(rag_targets) | set(context_targets) | set(semantic_by_id)):
-        entity = by_id.get(entity_id)
-        source = "content/" + entity.source if entity else entity_id
-        expected = semantic_by_id.get(entity_id, [])
+    # Parity, per surface:
+    #   * RAG packs are verbatim authoring documents, so they must carry
+    #     exactly each record's own frontmatter ``relations`` declarations —
+    #     no more, no less.
+    #   * The context bundle is the provenance-rich projection, so it must
+    #     carry the full canonical set: recovered pre-migration declarations,
+    #     legacy relatedEntries, and resolving Markdown cross-references in
+    #     addition to current frontmatter relations.
+    rag_expected = declared_frontmatter_relations(by_id)
+    for entity_id in sorted(set(rag_targets) | set(rag_expected)):
+        source_entity = by_id.get(entity_id)
+        source = "content/" + source_entity.source if source_entity else entity_id
+        expected = rag_expected.get(entity_id, [])
         rag = rag_targets.get(entity_id, [])
-        ctx = context_targets.get(entity_id, [])
         for value in expected:
-            if value not in rag:
+            if entity_id not in rag_targets or value not in rag:
                 findings["missing_rag"].append((source, entity_id, value))
-            if value not in ctx:
-                findings["missing_context"].append((source, entity_id, value))
         for value in rag:
             if value not in expected:
                 findings["unexpected_rag"].append(
                     (rag_paths.get(entity_id, source), entity_id, value))
+    for entity_id in sorted(set(context_targets) | set(semantic_by_id)):
+        entity = by_id.get(entity_id)
+        source = "content/" + entity.source if entity else entity_id
+        expected = semantic_by_id.get(entity_id, [])
+        ctx = context_targets.get(entity_id, [])
+        for value in expected:
+            if value not in ctx:
+                findings["missing_context"].append((source, entity_id, value))
         for value in ctx:
             if value not in expected:
                 findings["unexpected_context"].append(
                     (context_paths.get(entity_id, source), entity_id, value))
-        if set(rag) != set(ctx):
-            findings["rag_context_disagreement"].append(
-                (source, entity_id, f"RAG {sorted(rag)!r} != context {sorted(ctx)!r}"))
 
     # ---- Recovery reconciliation (pre-migration ground truth) ----
     manifest_rows = manifest_rows or []
@@ -376,7 +445,8 @@ def main() -> int:
     lines.append("# Relationship Integrity — Export Audit")
     lines.append("")
     lines.append(f"**Status:** {status}  ")
-    lines.append("**Surface:** RAG export (`related`), context bundle (`relations`), source of record (`content/`)  ")
+    lines.append("**Surface:** RAG working packs (verbatim frontmatter relations), "
+                 "context bundle (`relations`), source of record (`content/`)  ")
     lines.append("**Repair:** `scripts/repair_relationships.py`  ")
     lines.append("**Validation:** `scripts/validate_relationships.py`  ")
     lines.append("**Recovery:** `metadata/relationship-map.jsonl` + `metadata/relationship-recovery.json` "
@@ -405,18 +475,24 @@ def main() -> int:
     lines.append("")
     lines.append("## Relationship model")
     lines.append("")
-    lines.append("- `parent_entry` is the repository parent (structural), never a bundle container.")
-    lines.append("- `related` / `relations` carry canonical semantic relationships only, in")
-    lines.append("  first-seen order across four sources: recovered pre-migration declarations")
+    lines.append("- RAG working packs (boris-rag schema 2) are verbatim authoring documents;")
+    lines.append("  their only relationship surface is each record's own frontmatter `relations`")
+    lines.append("  declaration, carried through unmodified.")
+    lines.append("- The context bundle is the provenance-rich projection: its per-record")
+    lines.append("  `relations` field carries the canonical set in first-seen order across four")
+    lines.append("  sources: recovered pre-migration declarations")
     lines.append("  (metadata/relationship-map.jsonl), frontmatter `relations`, legacy")
     lines.append("  `relatedEntries`, and explicit Markdown cross-references that resolve to a")
     lines.append("  record.")
-    lines.append("- Bundle-part membership is stored separately (`bundle_parts`), never in `related`.")
+    lines.append("- Structural adjacency (parent, collection membership) is never exported as a")
+    lines.append("  semantic relation on either surface.")
     lines.append("- Repeated identical values are deduplicated per record.")
     lines.append("- Missing and ambiguous legacy targets are reported here instead of being silently")
     lines.append("  discarded.")
-    lines.append("- Parity: every canonical relationship must appear in both the RAG and")
-    lines.append("  context exports; an empty export field for a relationship-bearing record is a finding.")
+    lines.append("- Parity: every frontmatter-declared relation must appear verbatim in the RAG")
+    lines.append("  packs; the full canonical set (including recovered legacy edges) must appear")
+    lines.append("  in the context export. An empty export field for a relationship-bearing")
+    lines.append("  record is a finding.")
     lines.append("")
 
     # ---- Recovery reconciliation ----
@@ -498,7 +574,7 @@ def main() -> int:
     lines.append("")
     lines.append("```bash")
     lines.append("python3 scripts/recover_relationships.py --verify")
-    lines.append("python3 scripts/repair_relationships.py --content content --rag-dir publish/rag --context-dir publish/context")
+    lines.append("python3 scripts/repair_relationships.py --content content --context-dir publish/context")
     lines.append("python3 scripts/validate_relationships.py --content content --rag-dir publish/rag --context-dir publish/context")
     lines.append("```")
     lines.append("")

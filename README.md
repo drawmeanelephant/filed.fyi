@@ -7,7 +7,7 @@ Filed is a 2,265-page static Markdown archive compiled by [Boris](https://github
 ## Production Deployment
 
 * **Source of Record**: `drawmeanelephant/filed.fyi`
-* **Compiler**: [Boris](https://github.com/drawmeanelephant/boris) (CI tracks the `afterparty` branch; publishing scripts maintain defensive UTF-8 validation gates)
+* **Compiler**: [Boris](https://github.com/drawmeanelephant/boris) (pinned to a commit on Boris `main` via `metadata/boris-version.json`; publishing scripts maintain defensive UTF-8 validation gates)
 * **Production Theme**: Cantilever (`themes/cantilever/`)
 * **Output Path**: `dist/cantilever/`
 * **Host**: Cloudflare Pages
@@ -92,4 +92,4 @@ Review `publish/README.txt` before uploading source-derived RAG or Context artif
 
 ## Continuous Integration
 
-`.github/workflows/ci.yml` checks out this repository, builds Boris from the `afterparty` branch of [drawmeanelephant/boris](https://github.com/drawmeanelephant/boris), validates form-ID policy and graph diagnostics via `./bin/validate_graph.sh`, compiles the Cantilever site, and uploads the generated site as a workflow artifact.
+`.github/workflows/ci.yml` checks out this repository, builds Boris at the commit pinned in `metadata/boris-version.json` from [drawmeanelephant/boris](https://github.com/drawmeanelephant/boris), validates form-ID policy and graph diagnostics via `./bin/validate_graph.sh`, compiles the Cantilever site, and uploads the generated site as a workflow artifact.

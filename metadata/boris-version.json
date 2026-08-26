@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/drawmeanelephant/boris.git",
-  "branch": "afterparty",
-  "commit": "eb496442c6f2782552294df6b1fabc99fc5c52f4",
+  "branch": "main",
+  "commit": "4a1ff01c4b6a40f5578f4475c73b65ea6340737d",
   "zig_version": "0.16.0",
   "zig_checksums": {
     "x86_64-macos": "0387557ed1877bc6a2e1802c8391953baddba76081876301c522f52977b52ba7",
