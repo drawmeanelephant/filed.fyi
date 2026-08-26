@@ -1,17 +1,17 @@
 # Relationship Integrity — Export Audit
 
 **Status:** PASS  
-**Surface:** RAG export (`related`), context bundle (`relations`), source of record (`content/`)  
+**Surface:** RAG working packs (verbatim frontmatter relations), context bundle (`relations`), source of record (`content/`)  
 **Repair:** `scripts/repair_relationships.py`  
 **Validation:** `scripts/validate_relationships.py`  
 **Recovery:** `metadata/relationship-map.jsonl` + `metadata/relationship-recovery.json` (provenance commit `6abe4416`)  
-**Generated:** 2026-08-07
+**Generated:** 2026-08-25
 
 ## Relationship export
 
 | metric | value |
 |---|---|
-| Canonical relationships exported | 2286 across 1292 records |
+| Canonical relationships exported | 2356 across 1334 records |
 | Legacy declared relationships discovered | 2661 |
 | Legacy relationships resolved | 2602 |
 | Legacy relationships unresolved (missing target) | 54 |
@@ -20,10 +20,10 @@
 | Legacy declarations from unmigrated sources | 1 |
 | Legacy duplicate declarations removed (per-record dedup) | 361 |
 | Structural-only excluded (parentEntry) | 1632 |
-| Current-source relationships discovered | 53 |
-| RAG relationships exported | 2286 |
-| Context relationships exported | 2286 |
-| Bundle memberships preserved | 0 |
+| Current-source relationships discovered | 123 |
+| RAG pack relations exported | 70 |
+| RAG documents seen in packs | 2345 |
+| Context relationships exported | 2356 |
 | Unresolved current-source declarations | 0 |
 
 ## Summary
@@ -38,25 +38,30 @@
 | Missing from context export | 0 |
 | Unexpected in RAG export | 0 |
 | Unexpected in context export | 0 |
-| RAG/context disagreement | 0 |
 | Bundle membership loss | 0 |
 | Recovery reconciliation | 0 |
 | **total** | **0** |
 
 ## Relationship model
 
-- `parent_entry` is the repository parent (structural), never a bundle container.
-- `related` / `relations` carry canonical semantic relationships only, in
-  first-seen order across four sources: recovered pre-migration declarations
+- RAG working packs (boris-rag schema 2) are verbatim authoring documents;
+  their only relationship surface is each record's own frontmatter `relations`
+  declaration, carried through unmodified.
+- The context bundle is the provenance-rich projection: its per-record
+  `relations` field carries the canonical set in first-seen order across four
+  sources: recovered pre-migration declarations
   (metadata/relationship-map.jsonl), frontmatter `relations`, legacy
   `relatedEntries`, and explicit Markdown cross-references that resolve to a
   record.
-- Bundle-part membership is stored separately (`bundle_parts`), never in `related`.
+- Structural adjacency (parent, collection membership) is never exported as a
+  semantic relation on either surface.
 - Repeated identical values are deduplicated per record.
 - Missing and ambiguous legacy targets are reported here instead of being silently
   discarded.
-- Parity: every canonical relationship must appear in both the RAG and
-  context exports; an empty export field for a relationship-bearing record is a finding.
+- Parity: every frontmatter-declared relation must appear verbatim in the RAG
+  packs; the full canonical set (including recovered legacy edges) must appear
+  in the context export. An empty export field for a relationship-bearing
+  record is a finding.
 
 ## Recovery reconciliation
 
@@ -76,8 +81,8 @@ fails if any row does not reconcile.
 | &nbsp;&nbsp;· source-unmigrated | 1 |
 | − Duplicate declarations removed (per-record dedup) | 361 |
 | = Legacy-contributed canonical edges | 2241 |
-| + Current-source relationships exported | 45 |
-| = Total canonical relationships exported | 2286 |
+| + Current-source relationships exported | 115 |
+| = Total canonical relationships exported | 2356 |
 
 **Intentionally excluded from the canonical export:** structural-only parentEntry declarations (1632); declarations from unmigrated legacy sources (1); content-residue quarantined declarations (18 in 146 files, outside the legacy audit scope).
 
@@ -149,10 +154,6 @@ _none_
 
 _none_
 
-### RAG/context disagreement
-
-_none_
-
 ### Bundle membership loss
 
 _none_
@@ -165,6 +166,6 @@ _none_
 
 ```bash
 python3 scripts/recover_relationships.py --verify
-python3 scripts/repair_relationships.py --content content --rag-dir publish/rag --context-dir publish/context
+python3 scripts/repair_relationships.py --content content --context-dir publish/context
 python3 scripts/validate_relationships.py --content content --rag-dir publish/rag --context-dir publish/context
 ```

@@ -2,11 +2,11 @@
 set -Eeuo pipefail
 
 # Build the Boris worktree in place. This script never fetches, checks out, or
-# mutates the Boris branch; Afterparty is expected to be an active worktree.
+# mutates the Boris checkout; the pinned main worktree is expected to be active.
 FILED_ROOT=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 BORIS_ROOT=${BORIS_ROOT:-"$FILED_ROOT/../boris/main"}
-BORIS_BRANCH=${BORIS_BRANCH:-afterparty}
-ARTIFACT_ROOT=${ARTIFACT_ROOT:-publish/boris-afterparty}
+BORIS_BRANCH=${BORIS_BRANCH:-main}
+ARTIFACT_ROOT=${ARTIFACT_ROOT:-publish/boris-main}
 SPLIT_SIZE=${SPLIT_SIZE:-262144}
 
 BORIS_ROOT=$(cd "$BORIS_ROOT" && pwd)
@@ -15,7 +15,7 @@ cd "$FILED_ROOT"
 current_branch=$(git -C "$BORIS_ROOT" branch --show-current)
 if [[ "$current_branch" != "$BORIS_BRANCH" ]]; then
   echo "ERROR: Boris worktree is on '$current_branch', expected '$BORIS_BRANCH'." >&2
-  echo "Set BORIS_BRANCH explicitly if the active Afterparty branch changed." >&2
+  echo "Set BORIS_BRANCH explicitly if the active main worktree changed." >&2
   exit 2
 fi
 
@@ -27,7 +27,7 @@ if [[ -n "$boris_status" ]]; then
   boris_dirty=true
 fi
 
-echo "==> Building Boris Afterparty"
+echo "==> Building Boris (main)"
 echo "    Root:   $BORIS_ROOT"
 echo "    Branch: $current_branch"
 echo "    Commit: $boris_short_sha"
@@ -80,6 +80,6 @@ BORIS_BIN="$ARTIFACT_ROOT/boris" \
   PUBLISH_DIR=publish \
   ./scripts/filed-publish.sh
 
-echo "✅ Boris Afterparty build and Filed publishing bundle complete"
+echo "✅ Boris main build and Filed publishing bundle complete"
 echo "   Binary:  $ARTIFACT_ROOT/boris"
 echo "   Record:  $ARTIFACT_ROOT/build-manifest.json"

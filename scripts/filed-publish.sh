@@ -27,12 +27,15 @@ echo "    Theme: $THEME"
 "$BORIS_BIN" --input "$CONTENT_DIR" --rag-dir "$PUBLISH_DIR/rag" --quiet
 "$BORIS_BIN" --input "$CONTENT_DIR" --context-dir "$PUBLISH_DIR/context" --quiet
 
-# Boris exports structural adjacency into `related` (and, in split builds,
-# bundle-part container paths).  Rebuild the relationship fields from the
-# source of record so semantic links survive bundling.
+# Boris ≥0.8 RAG exports are verbatim working packs: semantic relations
+# survive there as each document's own frontmatter, audited (not rewritten)
+# by validate_relationships.py.  The context bundle keeps provenance-rich
+# per-page artifacts whose native relations only mirror current frontmatter,
+# so rebuild that field from the source of record — recovered pre-migration
+# declarations and resolving Markdown cross-references would otherwise be
+# lost.
 python3 scripts/repair_relationships.py \
   --content "$CONTENT_DIR" \
-  --rag-dir "$PUBLISH_DIR/rag" \
   --context-dir "$PUBLISH_DIR/context"
 
 # Guard the LLM-export path: source-to-export parity and shape checks.  The

@@ -14,7 +14,7 @@ permissions:
 
 env:
   BORIS_REPOSITORY: https://github.com/drawmeanelephant/boris.git
-  BORIS_BRANCH: afterparty
+  BORIS_BRANCH: main
   BORIS_JOBS: 1
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
         with:
           version: 0.16.0
 
-      - name: Obtain Boris source (afterparty branch)
+      - name: Obtain Boris source (pinned main branch)
         run: |
           git clone --branch "$BORIS_BRANCH" --single-branch --depth=1 "$BORIS_REPOSITORY" "$RUNNER_TEMP/boris"
 
