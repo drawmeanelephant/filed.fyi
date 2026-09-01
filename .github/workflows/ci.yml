@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: Checkout Filed
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Provision pinned Boris compiler
         run: |
@@ -51,7 +51,7 @@ jobs:
 
     steps:
       - name: Checkout Filed
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0  # full history so the relationship-recovery manifest can be re-verified from commit 6abe4416
 
