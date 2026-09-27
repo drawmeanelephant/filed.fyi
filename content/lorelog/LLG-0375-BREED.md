@@ -4,6 +4,7 @@ id: lorelog/LLG-0375-BREED
 parent: lorelog
 status: published
 tags: ["lorelog", "breeding-program", "human-origin", "registry-drift", "workforce-avoidance", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop", "rot-protocol", "deletion-ritual", "schema-violation", "continuity-theatre"]
+relations: [relates_to=lorelog/LLG-0381-OPTOUT, relates_to=lorelog/DS-0404-ALPHA, relates_to=lorelog/LLG-0088-B]
 ---
 
 # Breeding Program Registration Anomaly, Human-Origin Record

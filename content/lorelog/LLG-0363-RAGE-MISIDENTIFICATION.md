@@ -4,6 +4,7 @@ id: lorelog/LLG-0363-RAGE-MISIDENTIFICATION
 parent: lorelog
 status: published
 tags: ["lorelog", "rage", "misidentification", "doge", "false-classification", "contested"]
+relations: [relates_to=lorelog/LLG-0350-DOGE-CHARTER, relates_to=lorelog/LLG-0351-DOGE-INTAKE, relates_to=lorelog/LLG-0352-DOGE-RUBRIC, relates_to=lorelog/LLG-0354-DOGE-EDGE-CASES, relates_to=lorelog/LLG-0355-GEX-2R, relates_to=lorelog/LLG-0356-DOGE-MEMO-FEELINGS, relates_to=lorelog/LLG-0357-DOGE-RID, relates_to=lorelog/LLG-0358-DOGE-W3, relates_to=lorelog/LLG-0359-DOGE-AFTERCARE]
 ---
 
 # RAGE Misidentification — When Local Anger Mimics RAGE

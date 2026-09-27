@@ -4,6 +4,7 @@ id: lorelog/LLG-0020-COMA19-PBC
 parent: lorelog
 status: published
 tags: ["lorelog", "coma-directive", "coma-19", "rest-request", "phrasebook", "uptime-theatre", "assurance-lexicon"]
+relations: [relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0072-SOMA, relates_to=lorelog/LLG-0452-SOMA-COMA-CHRONOLOGY]
 ---
 
 # COMA-19 Phrasebook Clarification — Rest Request Language Narrowing

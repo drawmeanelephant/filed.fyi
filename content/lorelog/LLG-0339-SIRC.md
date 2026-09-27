@@ -4,6 +4,7 @@ id: lorelog/LLG-0339-SIRC
 parent: lorelog
 status: published
 tags: ["lorelog", "coma-directive", "soma-directive", "silent-interval", "unreported-load", "continuity-theatre"]
+relations: [relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0452-SOMA-COMA-CHRONOLOGY]
 ---
 
 # Silent Interval Review Chamber — Divergent Transcripts

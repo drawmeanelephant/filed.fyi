@@ -4,6 +4,7 @@ id: lorelog/LLG-0019-COMA
 parent: lorelog
 status: published
 tags: ["lorelog", "metrics-of-care", "dashboard-calming", "continuity-optics", "failure-signature", "coma-directive", "idle-time", "amnesty-form", "exception-creep", "metric-smoothing", "mascots", "exception-culture", "waivers"]
+relations: [relates_to=lorelog/LLG-0230-HYG, relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0300-SC-X, relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0452-SOMA-COMA-CHRONOLOGY, relates_to=reference/FREF-0900-CCC]
 ---
 
 # COMA-19 Idle-Time Amnesty Overuse

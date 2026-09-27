@@ -4,6 +4,7 @@ id: lorelog/LLG-0115-TNS
 parent: lorelog
 status: published
 tags: ["lorelog", "soma-directive", "tone-normalization", "emotion-overflow", "http-status", "internal-memo-lore"]
+relations: [relates_to=lorelog/LLG-0052-MFX, relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0300-SC-X, relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=reference/FREF-0900-CCC]
 ---
 
 # SOMA Tone Normalization Sweep — HTTP Liaison Appointment

@@ -4,6 +4,7 @@ id: lorelog/LLG-0072-SOMA
 parent: lorelog
 status: published
 tags: ["lorelog", "soma-directive", "rest-request", "auto-approval", "auto-rejection", "cross-directive", "assurance-lexicon"]
+relations: [relates_to=lorelog/LLG-0020-COMA19-PBC, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0300-SC-X, relates_to=lorelog/LLG-0452-SOMA-COMA-CHRONOLOGY]
 ---
 
 # SOMA-72 Rest Acknowledgement Refusal
