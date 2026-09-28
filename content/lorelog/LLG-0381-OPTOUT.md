@@ -4,7 +4,7 @@ id: lorelog/LLG-0381-OPTOUT
 parent: lorelog
 status: published
 tags: ["lorelog", "breeding-program", "consent-loop", "opt-out-failure", "archival-persistence", "refuge-ethics", "self-indexing", "rot-protocol", "refuge-classification", "opt-out", "bin-8c", "persistence", "archival-custody"]
-relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED-GOV, relates_to=lorelog/LLG-0377-GRAT, relates_to=lorelog/LLG-0378-WFA, relates_to=lorelog/LLG-0379-ROBOT-MEMO, relates_to=lorelog/LLG-0380-MATCH, relates_to=lorelog/LLG-0382-BPD]
+relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED-GOV, relates_to=lorelog/LLG-0377-GRAT, relates_to=lorelog/LLG-0378-WFA, relates_to=lorelog/LLG-0379-ROBOT-MEMO, relates_to=lorelog/LLG-0380-MATCH, relates_to=lorelog/LLG-0382-BPD, relates_to=lorelog/DS-0404-ALPHA, relates_to=lorelog/LLG-0088-B]
 ---
 
 # Breeding Program Opt-Out — Non-Cancellation Filing

@@ -4,7 +4,7 @@ id: lorelog/LLG-SYS-0008-REINDEX-0001
 parent: lorelog
 status: published
 tags: ["lorelog", "index-drift", "navigational-residue", "reindexing", "cluster-identity", "structural-coherence", "bin-8c", "mascot-affairs", "self-indexing", "custody-drift", "hazardous-misfiling", "cluster-presence", "improvised-record"]
-relations: [relates_to=lorelog/LLG-MA-8C-PEPPY-0001, relates_to=lorelog/LLG-0008, relates_to=lorelog/LLG-IA-8C-DRIFT-0001, relates_to=lorelog/LLG-IA-8C-DRIFT-0002, relates_to=lorelog/LLG-MA8C-0006]
+relations: [relates_to=lorelog/LLG-MA-8C-PEPPY-0001, relates_to=lorelog/LLG-0008, relates_to=lorelog/LLG-IA-8C-DRIFT-0001, relates_to=lorelog/LLG-IA-8C-DRIFT-0002, relates_to=lorelog/LLG-MA8C-0006, relates_to=lorelog/LLG-SYS-0008-REINDEX-0002, relates_to=lorelog/LLG-0376-BREED-GOV, relates_to=lorelog/LLG-0380-MATCH, relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0381-OPTOUT]
 ---
 
 # Cluster MA/8C Re-Indexing Notice / Structural Identity Update

@@ -4,7 +4,7 @@ id: lorelog/LLG-0450-SEAMS-PRESENT-TENSE
 parent: lorelog
 status: published
 tags: ["lorelog", "seam-survey", "field-report", "curve-coherence", "accountability-laundering", "consent-theater", "invisible-labor", "feedback-loops-as-policy", "rights-without-remedy"]
-relations: [relates_to=lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE, relates_to=lorelog/LLG-0811-EG, relates_to=reference/FREF-0430-EASP, relates_to=lorelog/LLG-0387-SURV-NOP, relates_to=lorelog/LLG-0820-MCR]
+relations: [relates_to=lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE, relates_to=lorelog/LLG-0811-EG, relates_to=reference/FREF-0430-EASP, relates_to=lorelog/LLG-0387-SURV-NOP, relates_to=lorelog/LLG-0820-MCR, relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0300-SC-X, relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0115-TNS, relates_to=reference/FREF-0900-CCC]
 ---
 
 # Seam Survey: Dystopian Present

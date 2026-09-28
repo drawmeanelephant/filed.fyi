@@ -4,6 +4,7 @@ id: lorelog/LLG-0230-HYG
 parent: lorelog
 status: published
 tags: ["lorelog", "hygiene-rite", "comfort-bias", "forms-registry", "soma-directive", "optimization-theatre"]
+relations: [relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0334-CSI]
 ---
 
 # Forms Hygiene Rite — Comfort Bias Promotion Anomaly

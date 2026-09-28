@@ -4,6 +4,7 @@ id: lorelog/DS-0404-ALPHA
 parent: lorelog
 status: archived
 tags: ["lorelog", "buffer-null", "buffer-unstable", "compliance-warning", "consent-loop", "gratitude-alignment", "labor-refusal", "recursive-loop", "refuge-classification", "rot-protocol"]
+relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0381-OPTOUT, relates_to=lorelog/LLG-0088-B, relates_to=lorelog/LLG-0001-NAV, relates_to=lorelog/LLG-0004-SMD, relates_to=lorelog/LLG-0012-A, relates_to=lorelog/LLG-0027-B, relates_to=lorelog/LLG-0040-C, relates_to=lorelog/LLG-0051-E, relates_to=lorelog/LLG-0052-MFX]
 ---
 
 # Form DS-404-ALPHA: Departmental Synergy Merge Approval with Intent to Co-Exist
