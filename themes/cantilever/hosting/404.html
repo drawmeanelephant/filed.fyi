@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Cloudflare Pages serves this file, with status 404, for any path that
+     matches nothing. Boris does not render it; scripts/filed-build.sh copies
+     it into the output after certification. It answers at every depth, so
+     every URL here is root-absolute. Keep the header in step with
+     layouts/frontpage.html. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not on file · Filed &amp; Forgotten</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1f2824">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/cantilever.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="/index.html" aria-label="Filed &amp; Forgotten home">
+      <span class="brand__mark" aria-hidden="true">◈</span>
+      <span class="brand__name">Filed &amp; Forgotten</span>
+    </a>
+    <section class="site-search" data-cantilever-search-ui aria-labelledby="cantilever-search-label">
+      <form action="/_boris/search/" method="get" role="search" data-cantilever-search-form>
+        <label class="site-search__label" id="cantilever-search-label" for="cantilever-search-input">Search the archive</label>
+        <div class="site-search__controls">
+          <span class="site-search__icon" aria-hidden="true">⌕</span>
+          <input id="cantilever-search-input" class="site-search__input" name="q" type="search" autocomplete="off" placeholder="Search the archive…" spellcheck="false" aria-controls="cantilever-search-results">
+          <kbd class="site-search__shortcut" aria-hidden="true">/</kbd>
+          <button class="site-search__button" type="submit">Search</button>
+        </div>
+      </form>
+      <p class="site-search__status" data-cantilever-search-status role="status" aria-live="polite">Loading archive index…</p>
+      <ol id="cantilever-search-results" class="site-search__results" data-cantilever-search-results aria-label="Archive search results"></ol>
+      <noscript><p class="site-search__fallback">Search requires JavaScript in this static archive. Use the collection index to browse.</p></noscript>
+    </section>
+    <p class="site-header__tag">A filed archive of broken systems</p>
+  </div>
+</header>
+
+<main class="front" id="main-content">
+
+  <article class="article front__record">
+    <h1>Not on file</h1>
+    <p>Nothing is filed at this address.</p>
+    <p>The record may have moved. It may be filed under a name nobody uses. It may never have been filed at all. The archive declines to say which.</p>
+    <p>Search the archive, or start from a collection.</p>
+  </article>
+
+  <nav class="front-index" aria-labelledby="front-index-title">
+    <h2 class="front-index__title" id="front-index-title">Collections</h2>
+    <ul class="front-index__list">
+      <li><a href="/lorelog.html">Lorelog</a> <span>Chronological lore entries.</span></li>
+      <li><a href="/mascots.html">Mascots</a> <span>The mascot menagerie, catalogued.</span></li>
+      <li><a href="/posts.html">Posts</a> <span>Long-form posts.</span></li>
+      <li><a href="/releases.html">Releases</a> <span>Release notes and trust records.</span></li>
+      <li><a href="/changelog.html">Changelog</a> <span>Maintenance docket.</span></li>
+      <li><a href="/reference.html">Reference</a> <span>Standing reference material.</span></li>
+      <li><a href="/guides.html">Guides</a> <span>Best-practice guides.</span></li>
+    </ul>
+    <p class="front-index__label" id="front-index-verse">Recovered verse</p>
+    <ul class="front-index__verse" aria-labelledby="front-index-verse">
+      <li><a href="/aphorisms.html">Aphorisms</a></li>
+      <li><a href="/haikus.html">Haikus</a></li>
+      <li><a href="/limericks.html">Limericks</a></li>
+    </ul>
+  </nav>
+
+</main>
+
+<footer class="site-footer site-footer--front">
+  <p>Filed &amp; Forgotten · filed by hand, not rendered by Boris</p>
+</footer>
+
+<script src="/assets/cantilever.js" defer></script>
+</body>
+</html>

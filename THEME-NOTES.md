@@ -66,6 +66,7 @@ To prevent the entire 2,000+ record tree from flooding every page's visual space
 - **Drawer, closed by default:** The sidebar ships as a closed `<details>`. `cantilever.js` opens it above 960px, where it reads as a sidebar; narrow screens open on the record, not the menu.
 - **Local Context:** Trunk pages list their children inside the body (`{{children}}`). Satellite pages display breadcrumbs (`{{breadcrumb}}`) back to their parent trunk. A one-item breadcrumb (a trunk naming itself) is hidden, as is an on-page rail whose only entry is the record's own H1.
 - **Frontpage:** `index` is routed to `frontpage.html` by an `id:index` layout rule in `scripts/filed-build.sh`. It carries the index record and a plain list of the collections. There is no sidebar, breadcrumb, or rail.
+- **Host files:** `themes/cantilever/hosting/` holds `404.html` and `robots.txt`. Boris does not read this directory. `scripts/filed-build.sh` copies both into the output after certification, refuses if either path is a Boris artifact, and checks each copy byte-for-byte. Cloudflare Pages serves the top-level `404.html` with status 404 for unmatched paths; without it, Pages serves the frontpage with 200. The 404 page answers at any depth, so its URLs are root-absolute, and its header is maintained by hand to match `layouts/frontpage.html`.
 
 ---
 
