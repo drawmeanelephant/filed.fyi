@@ -4,6 +4,7 @@ id: reference/FREF-0815-MAP
 parent: reference
 status: published
 tags: ["reference", "managed-absence", "conceptually-active", "administratively-retired", "archivally-asserted", "continuity-optics", "failure-signature", "residual-truth", "assurance-optics", "trust-surface", "bait-adjacent", "verification-collapse", "decorative-trust"]
+relations: [relates_to=reference/FREF-0810-DSL, relates_to=lorelog/LLG-0244-FSC, relates_to=lorelog/LLG-0218-FSD, relates_to=lorelog/LLG-0324-MAP]
 ---
 
 # Managed Absence Spine

@@ -4,6 +4,7 @@ id: lorelog/LLG-0378-WFA
 parent: lorelog
 status: published
 tags: ["lorelog", "robot-workforce", "breeding-program", "allocation-anomaly", "lithium-scenario", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop", "rot-protocol"]
+relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED-GOV, relates_to=lorelog/LLG-0377-GRAT, relates_to=lorelog/LLG-0379-ROBOT-MEMO, relates_to=lorelog/LLG-0380-MATCH, relates_to=lorelog/LLG-0381-OPTOUT]
 ---
 
 # Workforce Allocator Anomaly, Breeding Flags Encountered

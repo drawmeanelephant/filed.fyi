@@ -4,7 +4,7 @@ id: lorelog/LLG-MA-8C-PEPPY-0001
 parent: lorelog
 status: published
 tags: ["lorelog", "mascot-affairs", "corridor-morale", "classification-rot", "proximity-contamination", "administrative-residue", "steam-without-steam", "self-indexing", "custody-drift", "hazardous-misfiling", "cluster-presence"]
-relations: [relates_to=lorelog/LLG-SYS-0008-REINDEX-0001, relates_to=lorelog/LLG-MA8C-0006, relates_to=lorelog/LLG-0008, relates_to=lorelog/LLG-IA-8C-DRIFT-0001, relates_to=lorelog/LLG-IA-8C-DRIFT-0002]
+relations: [relates_to=lorelog/LLG-SYS-0008-REINDEX-0001, relates_to=lorelog/LLG-0008, relates_to=lorelog/LLG-IA-8C-DRIFT-0001, relates_to=lorelog/LLG-IA-8C-DRIFT-0002, relates_to=lorelog/LLG-MA8C-0006]
 ---
 
 # Peppy Clerk Continuity Dossier / Basement Steam Event Chain

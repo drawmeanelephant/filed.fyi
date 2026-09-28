@@ -4,7 +4,7 @@ id: lorelog/LLG-0004-SMD
 parent: lorelog
 status: published
 tags: ["lorelog", "broken-navigation", "consent-loop", "routing-failure", "modal-trap", "navstack-overflow", "user-intent-drift", "session-abandonment", "redirect-loop"]
-relations: [relates_to=lorelog/LLG-0001-NAV]
+relations: [relates_to=lorelog/LLG-0004, relates_to=lorelog/LLG-0001-NAV]
 ---
 
 # Sitemap Drift — Structural Index Misalignment

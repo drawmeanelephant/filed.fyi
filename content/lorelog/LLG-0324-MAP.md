@@ -4,6 +4,7 @@ id: lorelog/LLG-0324-MAP
 parent: lorelog
 status: published
 tags: ["lorelog", "managed-absence", "forms-registry", "supersession-ambiguity", "doctrine-layer", "governance-language", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop", "rot-protocol", "historical-artifacts", "mascots", "core-doctrines"]
+relations: [relates_to=lorelog/LLG-0052-MFX, relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0338-SBI, relates_to=reference/FREF-0815-MAP, relates_to=lorelog/LLG-0382-BPD]
 ---
 
 # Managed Absence Protocol — Forms Registry Interpretation Layer

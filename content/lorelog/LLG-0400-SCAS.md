@@ -4,6 +4,7 @@ id: lorelog/LLG-0400-SCAS
 parent: lorelog
 status: published
 tags: ["lorelog", "audit", "decorative-closure", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "synthetic-feelings", "sandbox-leak", "directive-experiment", "operational-engines"]
+relations: [relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0391-LAA]
 ---
 
 # SOMA–COMA Cross-Audit Simulation — Synthetic Feelings, Real Metrics

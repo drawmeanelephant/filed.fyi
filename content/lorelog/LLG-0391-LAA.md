@@ -4,6 +4,7 @@ id: lorelog/LLG-0391-LAA
 parent: lorelog
 status: published
 tags: ["lorelog", "luncheon-assent", "implied-approval", "civic-boosterism", "grants-drift", "procedural-warmth"]
+relations: [relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0400-SCAS]
 ---
 
 # Luncheon Assent Authorization Drift

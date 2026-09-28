@@ -4,6 +4,7 @@ id: reference/FREF-0810-DSL
 parent: reference
 status: published
 tags: ["reference", "dead-service-layer", "managed-absence", "complimentary-service", "parked-endpoints", "institutional-sunset", "failure-signature"]
+relations: [relates_to=lorelog/LLG-0244-FSC, relates_to=lorelog/LLG-0218-FSD, relates_to=reference/FREF-0815-MAP]
 ---
 
 # Dead Service Layer

@@ -4,7 +4,7 @@ id: lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE
 parent: lorelog
 status: published
 tags: ["lorelog", "empathegy", "mouse-jigglers", "quiet-quitting", "surveillance", "metrics-theatre", "behavioral-adaptation", "curve-coherence", "performative-presence", "aesthetic-survival-protocol"]
-relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0811-EG, relates_to=reference/FREF-0430-EASP, relates_to=lorelog/LLG-0387-SURV-NOP, relates_to=mascots/M-0226, relates_to=reference/FREF-0900-CCC]
+relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0811-EG, relates_to=reference/FREF-0430-EASP, relates_to=lorelog/LLG-0387-SURV-NOP, relates_to=mascots/M-0226, relates_to=reference/FREF-0900-CCC, relates_to=lorelog/LLG-0820-MCR]
 ---
 
 # Doctrinal Bridge: Jiggler Economics & Empathegy Curve-Coherence

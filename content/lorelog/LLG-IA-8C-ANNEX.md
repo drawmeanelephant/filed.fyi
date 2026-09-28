@@ -4,6 +4,7 @@ id: lorelog/LLG-0008
 parent: lorelog
 status: published
 tags: ["lorelog", "annex", "burden-shadow", "LLG-IA-8C-DRIFT-01", "LLG-IA-8C-DRIFT-02", "LLG-SYS-8-REINDEX-01", "LLG-SYS-8-REINDEX-02", "LLG-MA-8C-PEPPY-01", "bin-8c", "self-indexing", "containment", "secondary-truth", "hover-state"]
+relations: [relates_to=lorelog/LLG-MA-8C-PEPPY-0001, relates_to=lorelog/LLG-SYS-0008-REINDEX-0001, relates_to=lorelog/LLG-SYS-0008-REINDEX-0002, relates_to=lorelog/LLG-IA-8C-DRIFT-0001, relates_to=lorelog/LLG-IA-8C-DRIFT-0002, relates_to=lorelog/LLG-MA8C-0006]
 ---
 
 # Bin 8C Reindexing Annex: Self-Indexing and Containment Practices
