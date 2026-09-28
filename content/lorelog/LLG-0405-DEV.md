@@ -4,6 +4,7 @@ id: lorelog/LLG-0405-DEV
 parent: lorelog
 status: published
 tags: ["lorelog", "glp", "deviation-recursion", "form-version-rot", "bricky-incident", "self-citation", "friday-filing"]
+relations: [relates_to=lorelog/LLG-0401-GLP, relates_to=lorelog/LLG-0402-GMP, relates_to=lorelog/LLG-0403-WBA, relates_to=lorelog/LLG-0404-UPLC]
 ---
 
 # Deviation Entered on Superseded Form — Meta-Deviation Cascade

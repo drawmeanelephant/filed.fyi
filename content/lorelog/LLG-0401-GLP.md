@@ -4,6 +4,7 @@ id: lorelog/LLG-0401-GLP
 parent: lorelog
 status: published
 tags: ["lorelog", "glp", "sop-rot", "self-referential-compliance", "study-director-void", "raw-data-recursion"]
+relations: [relates_to=lorelog/LLG-0400-TRIAD, relates_to=lorelog/LLG-0402-GMP, relates_to=lorelog/LLG-0403-WBA]
 ---
 
 # SOP Amnesia Cascade — GLP Archive Rot

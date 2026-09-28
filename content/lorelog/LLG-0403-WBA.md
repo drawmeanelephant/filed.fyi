@@ -4,6 +4,7 @@ id: lorelog/LLG-0403-WBA
 parent: lorelog
 status: published
 tags: ["lorelog", "soothing-absence", "redaction", "wba", "glp", "cryosection-rot", "dual-identity-record", "bricky-incident", "the-beagle-question"]
+relations: [relates_to=lorelog/LLG-0400-TRIAD, relates_to=lorelog/LLG-0401-GLP, relates_to=lorelog/LLG-0402-GMP]
 ---
 
 # WBA Continuity Gap — Cryosection Documentation Failure

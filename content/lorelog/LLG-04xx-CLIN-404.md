@@ -4,6 +4,7 @@ id: lorelog/LLG-04XX-CLIN-0404
 parent: lorelog
 status: published
 tags: ["lorelog", "ds-404-alpha", "protocol-fusion", "mascot-emergence", "ward-c", "kaizen-rite", "continuity-theatre", "dual-certification", "governance-note", "buffer-null", "recursive-loop", "training-echo", "silent-interval"]
+relations: [relates_to=lorelog/DS-0404-ALPHA]
 ---
 
 # Clinical DS-404-ALPHA: Protocol Synergy Merge Approval With Intent to Co-Exist

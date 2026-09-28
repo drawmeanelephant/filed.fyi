@@ -4,6 +4,7 @@ id: lorelog/LLG-0400-CMA-TSP
 parent: lorelog
 status: published
 tags: ["lorelog", "council-of-mascot-authors", "teaching-specimen", "mascot-governance", "over-coherence", "authorization-drift", "cultural-staples"]
+relations: [relates_to=lorelog/LLG-0399-OCS]
 ---
 
 # Council of Mascot Authors Teaching Specimen Authorization Drift

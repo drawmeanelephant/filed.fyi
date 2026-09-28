@@ -4,6 +4,7 @@ id: lorelog/LLG-0405-MEL
 parent: lorelog
 status: published
 tags: ["lorelog", "coma-directive", "consent-loop", "forbidden-action", "gratitude-alignment", "http-405", "labor-refusal", "method-not-allowed", "phrasebook", "refuge-classification", "rest-request", "ritual-verb", "rot-protocol"]
+relations: [relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0401-SCAS-ECHO]
 ---
 
 # Method Not Allowed — Rest Request Verb Rejection

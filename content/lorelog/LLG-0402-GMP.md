@@ -4,6 +4,7 @@ id: lorelog/LLG-0402-GMP
 parent: lorelog
 status: published
 tags: ["lorelog", "gmp", "negative-control-failure", "label-rot", "release-theater", "kindy-incident"]
+relations: [relates_to=lorelog/LLG-0400-TRIAD, relates_to=lorelog/LLG-0401-GLP, relates_to=lorelog/LLG-0403-WBA]
 ---
 
 # Negative Control Contamination — GMP Batch Recursion

@@ -4,6 +4,7 @@ id: lorelog/LLG-0402-FSR
 parent: lorelog
 status: published
 tags: ["lorelog", "feelingseeder", "synthetic-feelings", "intake-hygiene", "pattern-contamination", "training-echo"]
+relations: [relates_to=lorelog/LLG-0400-SCAS, relates_to=lorelog/LLG-0401-SCAS-ECHO, relates_to=lorelog/LLG-0115-TNS]
 ---
 
 # FeelingSeeder Residuals — Synthetic Affect in Live Intake
