@@ -454,8 +454,10 @@ body {
   box-shadow: 0 0.35rem 1.2rem rgb(52 43 34 / 0.05);
 }
 
+/* The drawer ships closed. Its summary stays visible whenever it is closed,
+   so the navigation is reachable without JavaScript at any width. */
 .site-nav-drawer__summary {
-  display: none;
+  display: block;
   cursor: pointer;
   list-style: none;
   padding: 0.55rem 0.75rem;
@@ -476,6 +478,11 @@ body {
 }
 
 .site-nav-drawer[open] .site-nav-drawer__summary::after { content: "▴"; }
+
+/* Wide screens: cantilever.js opens the drawer and it reads as a sidebar. */
+@media (min-width: 961px) {
+  .site-nav-drawer[open] > .site-nav-drawer__summary { display: none; }
+}
 
 .site-nav {
   padding: 0.6rem 0.75rem 0.9rem;
@@ -1221,7 +1228,6 @@ body {
   .site-shell { grid-template-columns: 1fr; padding-top: 0.5rem; }
   .site-side { position: static; }
   .site-nav-drawer { margin-bottom: 1rem; }
-  .site-nav-drawer__summary { display: block; }
   .page-grid { grid-template-columns: 1fr; }
   .page-rail { display: none; }
   .article h1 { font-size: clamp(2.35rem, 8vw, 3.35rem); }

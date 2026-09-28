@@ -7,10 +7,28 @@
   'use strict';
 
   document.addEventListener('DOMContentLoaded', function () {
+    syncNavDrawer();
     buildPageTurn();
     renderTocTitle();
     buildSearch();
   });
+
+  /* The navigation drawer ships closed so narrow screens open on the page,
+     not on the menu. On wide screens it is the sidebar, so open it there and
+     keep it in step with the viewport. The media query mirrors the CSS
+     breakpoint that hides the drawer's summary. */
+  function syncNavDrawer() {
+    var drawer = document.querySelector('.site-nav-drawer');
+    if (!drawer || typeof window.matchMedia !== 'function') return;
+    var wide = window.matchMedia('(min-width: 961px)');
+    function sync() { drawer.open = wide.matches; }
+    sync();
+    if (typeof wide.addEventListener === 'function') {
+      wide.addEventListener('change', sync);
+    } else if (typeof wide.addListener === 'function') {
+      wide.addListener(sync);
+    }
+  }
 
   /* Previous/next strip.
      Walks the ALREADY-RENDERED site-nav (emitted by {{nav}}) and, for the
