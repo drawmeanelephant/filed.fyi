@@ -1,15 +1,13 @@
-/* Cantilever Docs — progressive enhancement.
-   All features below are strictly optional; the site is fully functional
-   without this file. No dependencies, no external requests; it only reads
-   markup the compiler already emitted.
+/* Cantilever — progressive enhancement for the Filed & Forgotten archive.
+   Optional throughout; the archive reads and navigates without this file.
+   No dependencies and no external requests. It reads markup Boris already
+   emitted and the search index Boris publishes beside it.
 */
 (function () {
   'use strict';
 
   document.addEventListener('DOMContentLoaded', function () {
     syncNavDrawer();
-    buildPageTurn();
-    renderTocTitle();
     buildSearch();
   });
 
@@ -28,83 +26,6 @@
     } else if (typeof wide.addListener === 'function') {
       wide.addListener(sync);
     }
-  }
-
-  /* Previous/next strip.
-     Walks the ALREADY-RENDERED site-nav (emitted by {{nav}}) and, for the
-     page marked is-current, finds the nearest preceding / following leaf
-     link. Fills the empty [data-cantilever-turns] container. With no JS
-     the container stays empty and statically hidden. */
-  function buildPageTurn() {
-    var host = document.querySelector('[data-cantilever-turns]');
-    if (!host) return;
-
-    var nav = document.querySelector('.site-nav');
-    if (!nav) return;
-
-    var current = nav.querySelector('a[aria-current="page"]');
-    if (!current) return;
-
-    var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
-    var idx = links.indexOf(current);
-    if (idx === -1) return;
-
-    var prevLink = null;
-    var nextLink = null;
-    var i;
-
-    for (i = idx - 1; i >= 0; i--) {
-      if (/\.html$/.test(links[i].getAttribute('href') || '')) {
-        prevLink = links[i];
-        break;
-      }
-    }
-    for (i = idx + 1; i < links.length; i++) {
-      if (/\.html$/.test(links[i].getAttribute('href') || '')) {
-        nextLink = links[i];
-        break;
-      }
-    }
-
-    if (!prevLink && !nextLink) return;
-
-    if (prevLink) {
-      host.appendChild(asRow('prev', 'Previous', prevLink));
-    }
-    if (nextLink) {
-      host.appendChild(asRow('next', 'Next', nextLink));
-    }
-
-    host.removeAttribute('aria-hidden');
-  }
-
-  function asRow(kind, meta, linkEl) {
-    var a = document.createElement('a');
-    a.className = 'page-turn__' + kind;
-    a.href = linkEl.getAttribute('href');
-
-    var ms = document.createElement('span');
-    ms.className = 'page-turn__meta';
-    ms.textContent = meta;
-
-    var ls = document.createElement('span');
-    ls.className = 'page-turn__label';
-    ls.textContent = linkEl.textContent.trim();
-
-    a.appendChild(ms);
-    a.appendChild(ls);
-    return a;
-  }
-
-  /* Cosmetic: prefix the on-page TOC with the article H1 text. */
-  function renderTocTitle() {
-    var titleEl = document.querySelector('.article h1');
-    var toc = document.querySelector('.page-toc');
-    if (!titleEl || !toc) return;
-    var p = document.createElement('p');
-    p.className = 'page-toc-title';
-    p.textContent = titleEl.textContent;
-    toc.insertBefore(p, toc.firstChild);
   }
 
   /* Rendered-site search.

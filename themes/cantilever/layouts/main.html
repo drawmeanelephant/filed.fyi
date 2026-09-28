@@ -78,13 +78,13 @@
 
     <main class="page-grid" id="main-content" data-boris-search-root>
 
-      <article class="page article" tabindex="-1">
+      <article class="page article">
         {{content}}
       </article>
 
-      <aside class="page-rail" aria-label="On this page" data-boris-search-exclude>
+      <div class="page-rail" data-boris-search-exclude>
         {{toc}}
-      </aside>
+      </div>
 
     </main>
 
@@ -95,7 +95,6 @@
 
     <div class="page-foot">
       <div class="page-children-wrap">{{children}}</div>
-      <nav class="page-turn" data-cantilever-turns aria-hidden="true"></nav>
     </div>
 
     <footer class="site-footer">
