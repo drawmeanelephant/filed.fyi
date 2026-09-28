@@ -317,7 +317,10 @@ body {
 .site-search__input::placeholder { color: var(--muted); }
 .site-search__input:focus { outline: none; }
 
+/* Shown only where a keyboard is likely; cantilever.js uses the same query
+   for the "Press / to focus" status text. */
 .site-search__shortcut {
+  display: none;
   flex: 0 0 auto;
   margin-right: 0.35rem;
   padding: 0.08rem 0.35rem;
@@ -327,6 +330,10 @@ body {
   color: var(--muted);
   background: var(--paper);
   font: 500 0.75rem var(--font-mono);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .site-search__shortcut { display: inline-block; }
 }
 
 .site-search__button {
@@ -1000,6 +1007,9 @@ body {
   border-top: 2px solid var(--line);
 }
 
+/* Boris emits nothing for a childless page; drop the rule with it. */
+.page-children-wrap:empty { display: none; }
+
 .page-children-wrap > .page-children {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -1262,7 +1272,6 @@ body {
   .site-search { grid-column: 1; grid-row: 2; }
   .site-shell { padding: 0.9rem 1rem 2.2rem; }
   .site-header__tag { display: none; }
-  .site-search__shortcut { display: none; }
   .site-search__button { padding: 0 0.7rem; }
   .article { font-size: 1rem; }
   .article h1 { font-size: clamp(2.25rem, 13vw, 3rem); }

@@ -147,7 +147,7 @@
         if (indexFailed) {
           setStatus('Search index unavailable. Browse the collections.');
         } else if (indexReady) {
-          setStatus(documents.length ? 'Search ' + documents.length + ' records. Press / to focus.' : 'Search index is empty.');
+          setStatus(documents.length ? 'Search ' + documents.length.toLocaleString('en-US') + ' records.' + shortcutHint() : 'Search index is empty.');
         } else {
           setStatus('Loading archive index…');
         }
@@ -221,6 +221,14 @@
         clearResults();
         setStatus('Search index unavailable. Browse the collections.');
       });
+  }
+
+  /* The "/" shortcut needs a keyboard. Mirrors the CSS query that shows the
+     <kbd> hint, so touch screens are not told to press a key they lack. */
+  function shortcutHint() {
+    var fine = typeof window.matchMedia === 'function' &&
+      window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    return fine ? ' Press / to focus.' : '';
   }
 
   function getSiteRootPrefix() {
