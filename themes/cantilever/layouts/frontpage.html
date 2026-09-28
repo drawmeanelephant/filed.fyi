@@ -13,7 +13,7 @@
 
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="brand" href="/index.html" aria-label="Cantilever Docs home">
+    <a class="brand" href="/index.html" aria-label="Cantilever Docs home" aria-current="page">
       <span class="brand__mark" aria-hidden="true">◈</span>
       <span class="brand__name">Filed &amp; Forgotten</span>
     </a>
@@ -29,79 +29,42 @@
       </form>
       <p class="site-search__status" data-cantilever-search-status role="status" aria-live="polite">Loading archive index…</p>
       <ol id="cantilever-search-results" class="site-search__results" data-cantilever-search-results aria-label="Archive search results"></ol>
-      <noscript><p class="site-search__fallback">Search requires JavaScript in this static archive. Use the navigation to browse by collection.</p></noscript>
+      <noscript><p class="site-search__fallback">Search requires JavaScript in this static archive. Use the collection index to browse.</p></noscript>
     </section>
     <p class="site-header__tag">A filed archive of broken systems</p>
   </div>
 </header>
 
-<div class="site-shell">
+<main class="front" id="main-content" data-boris-search-root>
 
-  <aside class="site-side">
-    <details class="site-nav-drawer">
-      <summary class="site-nav-drawer__summary">Site navigation</summary>
-      <nav class="site-nav filed-nav" aria-label="Filed navigation">
-        <a class="filed-nav__home" href="/index.html">Filed &amp; Forgotten</a>
-        <section class="filed-nav__group">
-          <h2>Filed</h2>
-          <ul>
-            <li><a href="/lorelog.html">Lorelog</a></li>
-            <li><a href="/mascots.html">Mascots</a></li>
-            <li><a href="/posts.html">Posts</a></li>
-            <li><a href="/releases.html">Releases</a></li>
-            <li><a href="/changelog.html">Changelog</a></li>
-          </ul>
-        </section>
-        <section class="filed-nav__group">
-          <h2>Reference</h2>
-          <ul>
-            <li><a href="/reference.html">Reference index</a></li>
-          </ul>
-        </section>
-        <section class="filed-nav__group">
-          <h2>Recovered</h2>
-          <ul>
-            <li><a href="/guides.html">Guides</a></li>
-            <li><a href="/aphorisms.html">Aphorisms</a></li>
-            <li><a href="/haikus.html">Haikus</a></li>
-            <li><a href="/limericks.html">Limericks</a></li>
-          </ul>
-        </section>
-      </nav>
-    </details>
-  </aside>
+  <article class="article front__record">
+    {{content}}
+  </article>
 
-  <div class="site-main">
-    <div class="breadcrumb-wrap">{{breadcrumb}}</div>
+  <nav class="front-index" aria-labelledby="front-index-title" data-boris-search-exclude>
+    <h2 class="front-index__title" id="front-index-title">Collections</h2>
+    <ul class="front-index__list">
+      <li><a href="lorelog.html">Lorelog</a> <span>Chronological lore entries.</span></li>
+      <li><a href="mascots.html">Mascots</a> <span>The mascot menagerie, catalogued.</span></li>
+      <li><a href="posts.html">Posts</a> <span>Long-form posts.</span></li>
+      <li><a href="releases.html">Releases</a> <span>Release notes and trust records.</span></li>
+      <li><a href="changelog.html">Changelog</a> <span>Maintenance docket.</span></li>
+      <li><a href="reference.html">Reference</a> <span>Standing reference material.</span></li>
+      <li><a href="guides.html">Guides</a> <span>Best-practice guides.</span></li>
+    </ul>
+    <p class="front-index__label" id="front-index-verse">Recovered verse</p>
+    <ul class="front-index__verse" aria-labelledby="front-index-verse">
+      <li><a href="aphorisms.html">Aphorisms</a></li>
+      <li><a href="haikus.html">Haikus</a></li>
+      <li><a href="limericks.html">Limericks</a></li>
+    </ul>
+  </nav>
 
-    <main class="page-grid" id="main-content" data-boris-search-root>
+</main>
 
-      <article class="page article" tabindex="-1">
-        {{content}}
-      </article>
-
-      <aside class="page-rail" aria-label="On this page" data-boris-search-exclude>
-        {{toc}}
-      </aside>
-
-    </main>
-
-    <section class="page-relations" aria-label="Related records" data-boris-search-exclude>
-      {{relations}}
-      {{backlinks}}
-    </section>
-
-    <div class="page-foot">
-      <div class="page-children-wrap">{{children}}</div>
-      <nav class="page-turn" data-cantilever-turns aria-hidden="true"></nav>
-    </div>
-
-    <footer class="site-footer">
-      <p>Filed &amp; Forgotten · generated statically by Boris</p>
-    </footer>
-  </div>
-
-</div>
+<footer class="site-footer site-footer--front">
+  <p>Filed &amp; Forgotten · generated statically by Boris</p>
+</footer>
 
 <script src="{{asset-url assets/cantilever.js}}" defer></script>
 </body>

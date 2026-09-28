@@ -1195,6 +1195,33 @@ body {
   color: var(--accent-strong);
 }
 
+/* ---------- frontpage ---------- */
+
+.front {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.7rem 1.5rem 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2.5rem;
+}
+
+@media (min-width: 64em) {
+  .front {
+    grid-template-columns: minmax(0, var(--max-read)) minmax(14rem, 18rem);
+    gap: clamp(2.5rem, 5vw, 5rem);
+  }
+}
+
+.front-index ul { list-style: none; margin: 0; padding: 0; }
+.front-index li span { display: block; color: var(--ink-soft); font-size: 0.85rem; }
+
+.site-footer--front {
+  max-width: 1280px;
+  margin: 2.2rem auto 0;
+  padding: 1.1rem 1.5rem 3rem;
+}
+
 /* ---------- print ---------- */
 
 @media print {
