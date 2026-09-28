@@ -4,6 +4,7 @@ id: lorelog/LLG-0404-DCP
 parent: lorelog
 status: published
 tags: ["lorelog", "silent-interval", "dual-certification", "continuity-theatre", "training-echo", "governance-note", "recursive-loop", "buffer-null"]
+relations: [relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0339-SIRC]
 ---
 
 # Silence Handling Clarification — Dual-Certification Protocol

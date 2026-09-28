@@ -4,6 +4,7 @@ id: lorelog/LLG-0400-TRIAD
 parent: lorelog
 status: published
 tags: ["lorelog", "LLG-0401-GLP", "LLG-0402-GMP", "LLG-0403-WBA", "study-continuity", "documentation-rot", "dual-identity"]
+relations: [relates_to=lorelog/LLG-0401-GLP, relates_to=lorelog/LLG-0402-GMP, relates_to=lorelog/LLG-0403-WBA]
 ---
 
 # Regulated Study Continuity Triad: GLP, GMP, WBA Rot

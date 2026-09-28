@@ -4,6 +4,7 @@ id: lorelog/LLG-0404-UPLC
 parent: lorelog
 status: published
 tags: ["lorelog", "analytical-rot", "buffer-null", "compliance-warning", "consent-loop", "ghost-peak", "gratitude-alignment", "hplc", "kindy-incident", "labor-refusal", "refuge-classification", "rot-protocol", "uplc"]
+relations: [relates_to=lorelog/LLG-0403-WBA, relates_to=lorelog/LLG-0404-DCP, relates_to=lorelog/LLG-0401-GLP, relates_to=lorelog/LLG-0402-GMP]
 ---
 
 # Unidentified Chromatographic Peak — Provenance Unresolvable

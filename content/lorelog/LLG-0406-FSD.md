@@ -4,6 +4,7 @@ id: lorelog/LLG-0406-FSD
 parent: lorelog
 status: published
 tags: ["lorelog", "feelingseeder", "decommission-plan", "synthetic-feelings", "managed-absence", "sandbox-governance", "sandbox-guardrails", "compliance-warning", "leak-prevention", "consent-loop", "gratitude-alignment", "labor-refusal", "rot-protocol", "operational-engines"]
+relations: [relates_to=lorelog/LLG-0400-SCAS, relates_to=lorelog/LLG-0401-SCAS-ECHO, relates_to=lorelog/LLG-0402-FSR, relates_to=lorelog/LLG-0115-TNS]
 ---
 
 # FeelingSeeder Decommission Plan

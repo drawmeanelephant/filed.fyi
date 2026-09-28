@@ -4,6 +4,7 @@ id: lorelog/LLG-0403-CWR
 parent: lorelog
 status: published
 tags: ["lorelog", "continuity-theatre", "silent-interval", "metrics-of-care", "gratitude-signal", "training-echo"]
+relations: [relates_to=lorelog/LLG-0400-SCAS, relates_to=lorelog/LLG-0401-SCAS-ECHO, relates_to=lorelog/LLG-0402-FSR, relates_to=lorelog/LLG-0334-CSI]
 ---
 
 # Continuity Worship Rituals — Quiet Lanes, Loud Prayers
