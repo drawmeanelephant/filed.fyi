@@ -4,6 +4,7 @@ id: reference/FREF-0430-EASP
 parent: reference
 status: published
 tags: ["reference"]
+relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE, relates_to=lorelog/LLG-0811-EG, relates_to=lorelog/LLG-0820-MCR]
 ---
 
 # Empathegy Aesthetic Survival Protocol  

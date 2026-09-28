@@ -4,6 +4,7 @@ id: lorelog/LLG-0052-MFX
 parent: lorelog
 status: published
 tags: ["lorelog", "soma-directive", "emotional-verification", "meta-feelings", "scope-creep", "internal-memo-lore"]
+relations: [relates_to=lorelog/LLG-0051-E, relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0324-MAP, relates_to=lorelog/LLG-0338-SBI, relates_to=lorelog/LLG-0391-LAA, relates_to=lorelog/LLG-0400-SCAS]
 ---
 
 # Form 51-E Meta-Feeling Exclusion Clarification

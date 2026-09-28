@@ -4,6 +4,7 @@ id: lorelog/LLG-0820-MCR
 parent: lorelog
 status: published
 tags: ["lorelog", "lintcore", "metrics-of-care", "soma-directive", "audit-optics", "managed-absence", "mascots", "dashboards", "serotonin", "empathegy", "care-metrics", "classification-rot", "metrics-theatre"]
+relations: [relates_to=lorelog/LLG-0217-CNTR, relates_to=lorelog/LLG-0302-CNTR, relates_to=lorelog/LLG-0317-RLS, relates_to=lorelog/LLG-0333-MEO, relates_to=lorelog/LLG-0340-BPO, relates_to=lorelog/LLG-0360-RAGE-CHARTER]
 ---
 
 # Metrics of Care Substitution Failure

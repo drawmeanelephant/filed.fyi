@@ -4,6 +4,7 @@ id: lorelog/LLG-0377-GRAT
 parent: lorelog
 status: published
 tags: ["lorelog", "acknowledgment", "gratitude", "latch", "care-metrics", "empathegy", "gratitude-signal", "breeding-program", "care-theatre", "consent-loop", "coverage", "emotional-buffer", "gratitude-alignment"]
+relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED-GOV, relates_to=lorelog/LLG-0378-WFA, relates_to=lorelog/LLG-0379-ROBOT-MEMO, relates_to=lorelog/LLG-0380-MATCH, relates_to=lorelog/LLG-0381-OPTOUT]
 ---
 
 # Gratitude Telemetry Misclassification, Breeding Program Side-Effect

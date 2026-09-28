@@ -4,6 +4,7 @@ id: lorelog/LLG-IA-8C-DRIFT-0002
 parent: lorelog
 status: published
 tags: ["lorelog", "stabilization-attempt", "containment-boundary", "metric-redefinition", "policy-drift", "bin-8c", "form-behavior", "self-indexing", "custody-drift", "hazardous-misfiling", "cluster-presence"]
+relations: [relates_to=lorelog/LLG-MA-8C-PEPPY-0001, relates_to=lorelog/LLG-SYS-0008-REINDEX-0001, relates_to=lorelog/LLG-0008, relates_to=lorelog/LLG-IA-8C-DRIFT-0001, relates_to=lorelog/LLG-MA8C-0006]
 ---
 
 # Bin 8C Stabilization Attempt / RCI and ICB Deployment Log

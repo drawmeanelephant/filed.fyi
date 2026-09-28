@@ -4,6 +4,7 @@ id: lorelog/LLG-0382-BPD
 parent: lorelog
 status: published
 tags: ["lorelog", "mascots", "breeding-program", "persona-management", "selection-pressure", "engagement-metrics", "refuge-classification", "labor-refusal", "gratitude-alignment", "consent-loop", "rot-protocol", "cultural-staples"]
+relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED-GOV, relates_to=lorelog/LLG-0377-GRAT, relates_to=lorelog/LLG-0378-WFA, relates_to=lorelog/LLG-0379-ROBOT-MEMO, relates_to=lorelog/LLG-0380-MATCH, relates_to=lorelog/LLG-0381-OPTOUT]
 ---
 
 # Breeding Program Dossier – Mascot Lineage and Selection Pressure

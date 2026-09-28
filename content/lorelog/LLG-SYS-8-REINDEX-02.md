@@ -4,6 +4,7 @@ id: lorelog/LLG-SYS-0008-REINDEX-0002
 parent: lorelog
 status: published
 tags: ["lorelog", "reindexing", "cluster-health", "self-referential", "bin-8c", "mascot-cluster", "self-indexing", "custody-drift", "hazardous-misfiling", "cluster-presence"]
+relations: [relates_to=lorelog/LLG-MA-8C-PEPPY-0001, relates_to=lorelog/LLG-SYS-0008-REINDEX-0001, relates_to=lorelog/LLG-0008, relates_to=lorelog/LLG-IA-8C-DRIFT-0001, relates_to=lorelog/LLG-IA-8C-DRIFT-0002, relates_to=lorelog/LLG-MA8C-0006]
 ---
 
 # **Mascot Affairs Cluster Re-Indexing and Self-Designation Notice**

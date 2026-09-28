@@ -4,6 +4,7 @@ id: lorelog/LLG-0360-RAGE-CHARTER
 parent: lorelog
 status: published
 tags: ["lorelog", "rage", "bait", "angertainment", "metrics-theatre", "failure-mode", "operational-engines"]
+relations: [relates_to=lorelog/LLG-0217-CNTR, relates_to=lorelog/LLG-0302-CNTR, relates_to=lorelog/LLG-0317-RLS, relates_to=lorelog/LLG-0333-MEO, relates_to=lorelog/LLG-0340-BPO, relates_to=lorelog/LLG-0820-MCR]
 ---
 
 # RAGE Charter — Routed Anger for Graph Engagement

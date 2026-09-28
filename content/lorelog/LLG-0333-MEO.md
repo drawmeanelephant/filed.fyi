@@ -4,6 +4,7 @@ id: lorelog/LLG-0333-MEO
 parent: lorelog
 status: published
 tags: ["lorelog", "c-u-n-t-i-e-r", "classification-rot", "compliance-warning", "directive-conflict", "metrics-theatre", "recursive-loop", "soma-directive"]
+relations: [relates_to=lorelog/LLG-0217-CNTR, relates_to=lorelog/LLG-0302-CNTR, relates_to=lorelog/LLG-0317-RLS, relates_to=lorelog/LLG-0340-BPO, relates_to=lorelog/LLG-0360-RAGE-CHARTER, relates_to=lorelog/LLG-0820-MCR]
 ---
 
 # C.U.N.T.I.E.R. Measurement Expansion Overruled SOMA Recovery Window

@@ -4,6 +4,7 @@ id: lorelog/LLG-0217-CNTR
 parent: lorelog
 status: published
 tags: ["lorelog", "c-u-n-t-i-e-r", "optimization-failure", "metrics-theatre", "form-proliferation", "procedural-bloat", "mascots", "beltline-purity", "failure-signature", "variance-suppression", "benchmarks"]
+relations: [relates_to=lorelog/LLG-0302-CNTR, relates_to=lorelog/LLG-0317-RLS, relates_to=lorelog/LLG-0333-MEO, relates_to=lorelog/LLG-0340-BPO, relates_to=lorelog/LLG-0360-RAGE-CHARTER, relates_to=lorelog/LLG-0820-MCR]
 ---
 
 # C.U.N.T.I.E.R. Metric Inflation — Forms per Form Incident

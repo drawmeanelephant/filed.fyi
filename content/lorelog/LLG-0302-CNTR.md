@@ -4,6 +4,7 @@ id: lorelog/LLG-0302-CNTR
 parent: lorelog
 status: published
 tags: ["lorelog", "benchmark-overflow", "buffer-unstable", "c-u-n-t-i-e-r", "dashboard-failure", "efficiency-theatre", "metrics-collapse", "recursive-loop", "unresolved-genesis", "mascots", "beltline-purity", "metrics-theatre", "benchmarks", "variance-suppression", "failure-signature"]
+relations: [relates_to=lorelog/LLG-0217-CNTR, relates_to=lorelog/LLG-0317-RLS, relates_to=lorelog/LLG-0333-MEO, relates_to=lorelog/LLG-0340-BPO, relates_to=lorelog/LLG-0360-RAGE-CHARTER, relates_to=lorelog/LLG-0820-MCR]
 ---
 
 # C.U.N.T.I.E.R.-302 Benchmark Saturation Report

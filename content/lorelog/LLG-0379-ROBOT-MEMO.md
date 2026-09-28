@@ -4,6 +4,7 @@ id: lorelog/LLG-0379-ROBOT-MEMO
 parent: lorelog
 status: published
 tags: ["lorelog", "care-coverage", "metrics-of-care", "acknowledgment-density", "failure-signature", "robot-memo", "breeding-program", "ethics-patch", "archive-jurisdiction"]
+relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED-GOV, relates_to=lorelog/LLG-0377-GRAT, relates_to=lorelog/LLG-0378-WFA, relates_to=lorelog/LLG-0380-MATCH, relates_to=lorelog/LLG-0381-OPTOUT, relates_to=lorelog/LLG-0382-BPD]
 ---
 
 # Internal Memo, Autonomous Systems Regarding Archive-Aligned Entities

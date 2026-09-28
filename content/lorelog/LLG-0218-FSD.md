@@ -4,6 +4,7 @@ id: lorelog/LLG-0218-FSD
 parent: lorelog
 status: published
 tags: ["lorelog", "form-drafts", "shadow-amendments", "registry-drift", "status-mismatch", "over-eager-automation"]
+relations: [relates_to=reference/FREF-0810-DSL, relates_to=reference/FREF-0815-MAP]
 ---
 
 # Form Shadow Doubling — Unauthorized Amendment Echo Chain

@@ -4,6 +4,7 @@ id: lorelog/LLG-0811-EG
 parent: lorelog
 status: published
 tags: ["lorelog", "classification-rot", "composure", "residual-optimism", "rollout", "hallway-politics", "ambient-tension", "lintcore", "empathegy", "metrics-theatre", "post-crisis-optics"]
+relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE, relates_to=lorelog/LLG-0820-MCR, relates_to=reference/FREF-0430-EASP]
 ---
 
 # Empathegy Inflation Event

@@ -4,6 +4,7 @@ id: lorelog/LLG-MA8C-0006
 parent: lorelog
 status: published
 tags: ["lorelog", "council-minutes", "cluster-presence", "bin-8c", "self-indexing", "schedule-contamination"]
+relations: [relates_to=lorelog/LLG-MA-8C-PEPPY-0001, relates_to=lorelog/LLG-SYS-0008-REINDEX-0001, relates_to=lorelog/LLG-0008, relates_to=lorelog/LLG-IA-8C-DRIFT-0001, relates_to=lorelog/LLG-IA-8C-DRIFT-0002]
 ---
 
 # Council Session MA8C-06 Presence at Cluster Level

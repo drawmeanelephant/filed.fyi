@@ -4,6 +4,7 @@ id: lorelog/LLG-0380-MATCH
 parent: lorelog
 status: published
 tags: ["lorelog", "serotonin", "care-metrics", "dashboards", "empathegy", "breeding-program", "cluster-presence", "consent-loop", "custody-drift", "eligibility-ethics", "gratitude-alignment", "gratitude-bias"]
+relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED-GOV, relates_to=lorelog/LLG-0377-GRAT, relates_to=lorelog/LLG-0378-WFA, relates_to=lorelog/LLG-0379-ROBOT-MEMO, relates_to=lorelog/LLG-0381-OPTOUT, relates_to=lorelog/LLG-0382-BPD]
 ---
 
 # Breeding Match Allocation — Soft-Fail Routing Event

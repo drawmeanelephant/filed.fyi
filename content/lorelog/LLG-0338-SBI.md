@@ -4,6 +4,7 @@ id: lorelog/LLG-0338-SBI
 parent: lorelog
 status: published
 tags: ["lorelog", "burden", "service-continuity", "affective-load", "empathegy", "soma-directive", "silent-interval", "unreported-load", "metric-capture", "optimization-theatre", "hidden-capacity", "surplus"]
+relations: [relates_to=lorelog/LLG-0052-MFX, relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0324-MAP]
 ---
 
 # Silence Burden Index — Metric for Unreported Load

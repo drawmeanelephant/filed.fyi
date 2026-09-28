@@ -4,6 +4,7 @@ id: lorelog/LLG-0002-CED
 parent: lorelog
 status: published
 tags: ["lorelog", "cache-expiry", "contested-freshness", "etag-conflict", "header-dispute", "mascots", "recursive-loop", "metadata-guardian", "yaml-purity", "data-integrity", "buffer-null"]
+relations: [relates_to=lorelog/LLG-0002]
 ---
 
 # Contested Cache Expiry — ETag Contradiction Incident
