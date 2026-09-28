@@ -1,92 +1,31 @@
-/* Cantilever Docs — progressive enhancement.
-   All features below are strictly optional; the site is fully functional
-   without this file. No dependencies, no external requests; it only reads
-   markup the compiler already emitted.
+/* Cantilever — progressive enhancement for the Filed & Forgotten archive.
+   Optional throughout; the archive reads and navigates without this file.
+   No dependencies and no external requests. It reads markup Boris already
+   emitted and the search index Boris publishes beside it.
 */
 (function () {
   'use strict';
 
   document.addEventListener('DOMContentLoaded', function () {
-    buildPageTurn();
-    renderTocTitle();
+    syncNavDrawer();
     buildSearch();
   });
 
-  /* Previous/next strip.
-     Walks the ALREADY-RENDERED site-nav (emitted by {{nav}}) and, for the
-     page marked is-current, finds the nearest preceding / following leaf
-     link. Fills the empty [data-cantilever-turns] container. With no JS
-     the container stays empty and statically hidden. */
-  function buildPageTurn() {
-    var host = document.querySelector('[data-cantilever-turns]');
-    if (!host) return;
-
-    var nav = document.querySelector('.site-nav');
-    if (!nav) return;
-
-    var current = nav.querySelector('a[aria-current="page"]');
-    if (!current) return;
-
-    var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
-    var idx = links.indexOf(current);
-    if (idx === -1) return;
-
-    var prevLink = null;
-    var nextLink = null;
-    var i;
-
-    for (i = idx - 1; i >= 0; i--) {
-      if (/\.html$/.test(links[i].getAttribute('href') || '')) {
-        prevLink = links[i];
-        break;
-      }
+  /* The navigation drawer ships closed so narrow screens open on the page,
+     not on the menu. On wide screens it is the sidebar, so open it there and
+     keep it in step with the viewport. The media query mirrors the CSS
+     breakpoint that hides the drawer's summary. */
+  function syncNavDrawer() {
+    var drawer = document.querySelector('.site-nav-drawer');
+    if (!drawer || typeof window.matchMedia !== 'function') return;
+    var wide = window.matchMedia('(min-width: 961px)');
+    function sync() { drawer.open = wide.matches; }
+    sync();
+    if (typeof wide.addEventListener === 'function') {
+      wide.addEventListener('change', sync);
+    } else if (typeof wide.addListener === 'function') {
+      wide.addListener(sync);
     }
-    for (i = idx + 1; i < links.length; i++) {
-      if (/\.html$/.test(links[i].getAttribute('href') || '')) {
-        nextLink = links[i];
-        break;
-      }
-    }
-
-    if (!prevLink && !nextLink) return;
-
-    if (prevLink) {
-      host.appendChild(asRow('prev', 'Previous', prevLink));
-    }
-    if (nextLink) {
-      host.appendChild(asRow('next', 'Next', nextLink));
-    }
-
-    host.removeAttribute('aria-hidden');
-  }
-
-  function asRow(kind, meta, linkEl) {
-    var a = document.createElement('a');
-    a.className = 'page-turn__' + kind;
-    a.href = linkEl.getAttribute('href');
-
-    var ms = document.createElement('span');
-    ms.className = 'page-turn__meta';
-    ms.textContent = meta;
-
-    var ls = document.createElement('span');
-    ls.className = 'page-turn__label';
-    ls.textContent = linkEl.textContent.trim();
-
-    a.appendChild(ms);
-    a.appendChild(ls);
-    return a;
-  }
-
-  /* Cosmetic: prefix the on-page TOC with the article H1 text. */
-  function renderTocTitle() {
-    var titleEl = document.querySelector('.article h1');
-    var toc = document.querySelector('.page-toc');
-    if (!titleEl || !toc) return;
-    var p = document.createElement('p');
-    p.className = 'page-toc-title';
-    p.textContent = titleEl.textContent;
-    toc.insertBefore(p, toc.firstChild);
   }
 
   /* Rendered-site search.
@@ -117,13 +56,8 @@
       status.textContent = message;
     }
 
-    function setExpanded(expanded) {
-      input.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-    }
-
     function clearResults() {
       while (results.firstChild) results.removeChild(results.firstChild);
-      setExpanded(false);
     }
 
     function renderSearch() {
@@ -134,7 +68,7 @@
         if (indexFailed) {
           setStatus('Search index unavailable. Browse the collections.');
         } else if (indexReady) {
-          setStatus(documents.length ? 'Search ' + documents.length + ' records. Press / to focus.' : 'Search index is empty.');
+          setStatus(documents.length ? 'Search ' + documents.length.toLocaleString('en-US') + ' records.' + shortcutHint() : 'Search index is empty.');
         } else {
           setStatus('Loading archive index…');
         }
@@ -166,7 +100,6 @@
       visible.forEach(function (match) {
         results.appendChild(renderResult(match, terms));
       });
-      setExpanded(true);
     }
 
     form.addEventListener('submit', function (event) {
@@ -209,6 +142,14 @@
         clearResults();
         setStatus('Search index unavailable. Browse the collections.');
       });
+  }
+
+  /* The "/" shortcut needs a keyboard. Mirrors the CSS query that shows the
+     <kbd> hint, so touch screens are not told to press a key they lack. */
+  function shortcutHint() {
+    var fine = typeof window.matchMedia === 'function' &&
+      window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    return fine ? ' Press / to focus.' : '';
   }
 
   function getSiteRootPrefix() {

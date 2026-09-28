@@ -1,0 +1,5 @@
+# Filed & Forgotten. The whole archive is open to reading.
+User-agent: *
+Disallow:
+
+Sitemap: https://filed.fyi/sitemap.xml

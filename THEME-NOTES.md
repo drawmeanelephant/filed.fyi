@@ -61,10 +61,12 @@ All fake, non-functional "cosplay" UI elements present in the original templates
 
 ## 🗜️ Reduced Navigation Weight
 
-To prevent the entire 500+ document tree from flooding every page's visual space:
-- **Trunk Accordions via CSS:** The sidebar site navigation (`{{nav}}`) hides satellite directories by default.
-- **Active Path Expansion:** Using the CSS `:has(.is-current)` parent selector, the satellites of a trunk are displayed *only* when that trunk is the active page, or when one of its child satellites is active.
-- **Local Context:** Trunk pages list their children cleanly inside the body (`{{children}}`), and Satellite pages display functional breadcrumbs (`{{breadcrumb}}`) back to their parent trunk.
+To prevent the entire 2,000+ record tree from flooding every page's visual space:
+- **Static collection list (Cantilever):** The sidebar in `main.html` and `compact.html` is hand-written markup listing the trunks only. It does not use `{{nav}}`, so no satellites are listed and nothing is marked current. The corp-vendor, google-material, and cozy-typepad themes still use `{{nav}}` with `:has(.is-current)` trunk accordions.
+- **Drawer, closed by default:** The sidebar ships as a closed `<details>`. `cantilever.js` opens it above 960px, where it reads as a sidebar; narrow screens open on the record, not the menu.
+- **Local Context:** Trunk pages list their children inside the body (`{{children}}`). Satellite pages display breadcrumbs (`{{breadcrumb}}`) back to their parent trunk. A one-item breadcrumb (a trunk naming itself) is hidden, as is an on-page rail whose only entry is the record's own H1.
+- **Frontpage:** `index` is routed to `frontpage.html` by an `id:index` layout rule in `scripts/filed-build.sh`. It carries the index record and a plain list of the collections. There is no sidebar, breadcrumb, or rail.
+- **Host files:** `themes/cantilever/hosting/` holds `404.html` and `robots.txt`. Boris does not read this directory. `scripts/filed-build.sh` copies both into the output after certification, refuses if either path is a Boris artifact, and checks each copy byte-for-byte. Cloudflare Pages serves the top-level `404.html` with status 404 for unmatched paths; without it, Pages serves the frontpage with 200. The 404 page answers at any depth, so its URLs are root-absolute, and its header is maintained by hand to match `layouts/frontpage.html`.
 
 ---
 

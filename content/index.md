@@ -1,5 +1,5 @@
 ---
-title: "FILED & FORGOTTEN"
+title: "Filed & Forgotten"
 id: index
 status: published
 tags: ["filed", "home"]
