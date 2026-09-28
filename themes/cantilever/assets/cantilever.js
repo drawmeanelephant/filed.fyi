@@ -135,13 +135,8 @@
       status.textContent = message;
     }
 
-    function setExpanded(expanded) {
-      input.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-    }
-
     function clearResults() {
       while (results.firstChild) results.removeChild(results.firstChild);
-      setExpanded(false);
     }
 
     function renderSearch() {
@@ -184,7 +179,6 @@
       visible.forEach(function (match) {
         results.appendChild(renderResult(match, terms));
       });
-      setExpanded(true);
     }
 
     form.addEventListener('submit', function (event) {
