@@ -49,6 +49,7 @@ python3 scripts/verse_stage.py "$STAGE_DIR"
   --html-dir "$DIST_DIR" \
   --sitemap \
   --site-url "$SITE_URL" \
+  --layout-rule default id:index "$THEME/layouts/frontpage.html" \
   --layout-rule default glob:aphorisms/* "$THEME/layouts/compact.html" \
   --layout-rule default glob:changelog/* "$THEME/layouts/compact.html" \
   --layout-rule default glob:guides/* "$THEME/layouts/compact.html" \
