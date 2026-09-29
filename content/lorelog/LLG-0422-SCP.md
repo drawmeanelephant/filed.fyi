@@ -52,11 +52,6 @@ Every column we erected to catch the crash has slowly blossomed with soft, admin
 ## Related Haikus
 
 
-### Stub: Support Structure for Prior Failure Established
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon
 
 ## Related Limericks
 

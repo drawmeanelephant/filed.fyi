@@ -267,29 +267,6 @@ We do not discard the contradictory policies; we merely index them so deeply tha
 ## Related Haikus
 
 
-### Stub: Dead Labor
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon  
-
-
-
-Metrics show a blank
-Directive blocks the next step
-Fatigue takes the desk
-
-
-
-Friction takes the desk
-Papers yellow in the tray
-Silence hums along
-
-
-
-Tasks will never end
-Nothing moves inside the hall
-Only empty forms
 
 ## Related Limericks
 

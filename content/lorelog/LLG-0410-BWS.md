@@ -50,11 +50,6 @@ A badge that verifies nothing but is universally accepted has achieved the highe
 ## Related Haikus
 
 
-### Stub: Incident LORE-0410-BWS // Badge Witness Continuity After Basis Thinning
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon
 
 ## Related Limericks
 

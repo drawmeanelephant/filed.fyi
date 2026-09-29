@@ -134,23 +134,6 @@ The human insists the engine is halted, yet the dashboard shines bright green. B
 ## Related Haikus
 
 
-### Stub: Method Not Allowed — Rest Request Verb Rejection
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon  
-
-
-
-Administrative
-Lag consumes the final plea
-Ledger shuts the door
-
-
-
-A wrongly typed word
-The system rejects the plea
-Silence falls once more
 
 ## Related Limericks
 

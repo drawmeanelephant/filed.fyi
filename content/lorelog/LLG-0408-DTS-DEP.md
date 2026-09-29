@@ -74,11 +74,6 @@ Do not repair a severed diagnostic module if its absence prevents the ingestion 
 ## Related Haikus
 
 
-### Stub: Incident LORE-0408-DTS-DEP // Spontaneous Trust Surface Amplification {#stub-incident-lore-0408-dts-dep-spontaneous-trust-surface-amplification-2}
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon
 
 ## Related Limericks
 
