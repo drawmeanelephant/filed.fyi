@@ -76,29 +76,6 @@ We upgraded the processing core but redacted the operational guidelines. It was 
 ## Related Haikus
 
 
-### Stub: Deferred Execution and Visible Uptake
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon  
-
-
-
-Sacred registries
-Bind the lost containment chains
-Ancestry remains
-
-
-
-Quiet replacement
-Lineage lost to the void
-Custody restored
-
-
-
-Validation rites
-Rituals of containment
-Custody is sealed
 
 ## Related Limericks
 

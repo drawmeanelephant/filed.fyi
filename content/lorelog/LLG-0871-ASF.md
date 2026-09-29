@@ -95,11 +95,6 @@ As long as the words are present in the DOM, reality is satisfied. Whether a hum
 ## Related Haikus
 
 
-### Stub: Appendix Smoothing Format
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon
 
 ## Related Limericks
 

@@ -74,24 +74,6 @@ The manuals were withdrawn to protect the integrity of the process from those at
 ## Related Haikus
 
 
-### Stub: fref-0661: Inaction Taxonomy — Aspirational Tier
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon  
-
-
-
-
-Why paint healthy hues
-When the soft glow hides the rot
-Just check off the box
-
-
-
-Vines of paper grow
-Cover up the cabinet
-I will close my eyes
 
 ## Related Limericks
 

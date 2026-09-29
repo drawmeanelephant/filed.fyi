@@ -61,11 +61,6 @@ If the incident report did not hurt to read, the costs were successfully transfe
 ## Related Haikus
 
 
-### Stub: Trust Surface Explanation Layer Admitted as Teaching Specimen
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon
 
 ## Related Limericks
 

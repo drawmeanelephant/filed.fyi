@@ -73,11 +73,6 @@ The doctrine of Minute Compression ensures that all sins are washed clean by the
 ## Related Haikus
 
 
-### Stub: Exoneration by Procedural Summary {#stub-exoneration-by-procedural-summary-2}
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon
 
 ## Related Limericks
 

@@ -64,23 +64,6 @@ A lead technician typed a message of absolute doom at three in the morning. We a
 ## Related Haikus
 
 
-### Stub: Repair Announced, Compatibility Preserved
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon  
-
-
-
-Repair is announced
-Compatibility holds
-Shift is almost done
-
-
-
-Bent wire in the sheet
-Repair claims to save us all
-Panic takes the room
 
 ## Related Limericks
 

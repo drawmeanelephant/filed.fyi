@@ -102,17 +102,6 @@ Truth is not defined by its existence in the database, but by its proximity to t
 ## Related Haikus
 
 
-### Stub: Executive Annexation Strategy
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon  
-
-
-
-Escalation hits
-Standard alarms ring loud
-Pulling the main plug
 
 ## Related Limericks
 

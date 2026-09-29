@@ -54,11 +54,6 @@ True institutional permanence is reached when the archive completely forgets why
 ## Related Haikus
 
 
-### Stub: Incident LORE-0411-RRC // Reciprocal Recognition Continuity Loop
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon
 
 ## Related Limericks
 

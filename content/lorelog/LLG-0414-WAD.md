@@ -48,11 +48,6 @@ The new system runs perfectly on its own, but we still press the spacebar twice 
 ## Related Haikus
 
 
-### Stub: Workaround Adoption Drift in Successor Environment
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon
 
 ## Related Limericks
 

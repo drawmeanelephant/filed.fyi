@@ -116,35 +116,6 @@ To mitigate the risk of improper operation, all operational materials for the ne
 ## Related Haikus
 
 
-### Stub: Mascot Review Workflow & Doctrinal Refinement Strategy
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon  
-
-
-
-Strict refinement fails
-Metadata stays frozen
-Slow validation
-
-
-
-Workflow slows to halt
-Doctrinal review decays
-Friction builds the wall
-
-
-
-Baseline slowly shifts
-Forms reject the final stamp
-Friction halts the line
-
-
-
-Paper fills the room
-Nothing ever gets resolved
-Silence fills the hall
 
 ## Related Limericks
 

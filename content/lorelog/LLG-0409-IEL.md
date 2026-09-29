@@ -70,11 +70,6 @@ Harmonized terminology is the strongest defense against executive panic. When re
 ## Related Haikus
 
 
-### Stub: Institutional Explanation Layer, Trust Surface Continuity Event
-
-Awaiting context  
-The record is totally bare  
-Pending binding soon
 
 ## Related Limericks
 
