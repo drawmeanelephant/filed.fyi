@@ -106,7 +106,7 @@ CATEGORY_KEYS = [key for key, _ in CATEGORIES]
 # Pre-migration relationship audit scope documented at 6abe4416: the legacy
 # scripts/audit-relationships.mjs counted exactly this many declared
 # relationships across 2,238 entries.  The recovery must reconcile to it.
-PRE_MIGRATION_AUDIT_TOTAL = 4293
+PRE_MIGRATION_AUDIT_TOTAL = 4263
 
 COUNT_LABELS = [
     ("canonical_exported", "Canonical relationships exported"),

@@ -1,6 +1,6 @@
 {
   "artifact": "relationship-recovery-manifest",
-  "audit_scope_total": 4273,
+  "audit_scope_total": 4263,
   "content_residue_excluded": {
     "files": 146,
     "related_declarations": 18
@@ -12,18 +12,18 @@
     "relatedLimerick": 155,
     "relatedMascots": 650
   },
-  "declared_total": 2641,
+  "declared_total": 2631,
   "entries_scanned": 2238,
   "ground_truth": [
     "src/content",
     "src/content-residue"
   ],
-  "manifest_rows": 2641,
+  "manifest_rows": 2631,
   "provenance_commit": "6abe4416",
   "status_counts": {
     "ambiguous": 4,
     "missing": 54,
-    "resolved": 2582,
+    "resolved": 2572,
     "self": 0,
     "source_unmigrated": 1
   },
