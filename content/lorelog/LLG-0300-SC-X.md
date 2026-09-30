@@ -3,8 +3,8 @@ title: "SOMA–COMA Cross-Directive Conflict — Feelings About Downtime"
 id: lorelog/LLG-0300-SC-X
 parent: lorelog
 status: published
-tags: ["lorelog", "soma-directive", "coma-directive", "directive-conflict", "rest-vs-uptime", "paradox-accepted"]
-relations: [relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0452-SOMA-COMA-CHRONOLOGY, relates_to=lorelog/LLG-0072-SOMA, relates_to=reference/FREF-0900-CCC]
+tags: ["lorelog", "soma-directive", "coma-directive", "directive-conflict", "rest-vs-uptime", "paradox-accepted", "metrics-theatre"]
+relations: [relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0452-SOMA-COMA-CHRONOLOGY, relates_to=lorelog/LLG-0072-SOMA, relates_to=reference/FREF-0900-CCC, relates_to=lorelog/LLG-0014]
 ---
 
 # SOMA–COMA Cross-Directive Conflict — Feelings About Downtime

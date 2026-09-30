@@ -4,7 +4,7 @@ id: reference/FREF-0900-CCC
 parent: reference
 status: published
 tags: ["reference", "doctrine", "curve-coherence", "empathegy", "metrics-theatre", "proxy-metrics", "behavioral-adaptation"]
-relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE, relates_to=lorelog/LLG-0811-EG, relates_to=reference/FREF-0430-EASP, relates_to=mascots/M-0226, relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0300-SC-X, relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0115-TNS]
+relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE, relates_to=lorelog/LLG-0811-EG, relates_to=reference/FREF-0430-EASP, relates_to=mascots/M-0226, relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0300-SC-X, relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0014]
 ---
 
 # Curve-Coherence

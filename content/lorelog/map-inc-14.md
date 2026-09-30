@@ -3,7 +3,8 @@ title: "Hygiene Cycle 7‑B: Brighten the Spine"
 id: lorelog/LLG-0014
 parent: lorelog
 status: published
-tags: ["lorelog"]
+tags: ["lorelog", "metrics-theatre"]
+relations: [relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0350-DOGE-CHARTER, relates_to=lorelog/LLG-SYS-0008-REINDEX-0001, relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=reference/FREF-0900-CCC]
 ---
 
 # Hygiene Cycle 7‑B: Brighten the Spine
