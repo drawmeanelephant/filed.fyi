@@ -4,7 +4,7 @@ id: lorelog/LLG-0001-NAV
 parent: lorelog
 status: published
 tags: ["lorelog", "admissibility", "anchor-loop", "appeals", "breadcrumb-failure", "broken-navigation", "coma-directive", "compliance-warning", "consent-loop", "directive-routing", "doge", "enforcement-overreach", "false-pathing"]
-relations: [relates_to=lorelog/LLG-0001, relates_to=lorelog/LLG-0004-SMD]
+relations: [relates_to=lorelog/LLG-0001, relates_to=lorelog/LLG-0004-SMD, relates_to=lorelog/LLG-0350-DOGE-CHARTER]
 ---
 
 # Navigation Collapse Event — Breadcrumb Stratum Failure

@@ -3,7 +3,7 @@ title: "COMA-07 Phantom Uptime Assertion"
 id: lorelog/LLG-0007-COMA
 parent: lorelog
 status: published
-tags: ["lorelog", "audit-contradiction", "coma-directive", "compliance-warning", "consent-loop", "gratitude-alignment", "labor-refusal", "metric-infallibility", "negative-evidence", "phantom-uptime", "recursive-loop", "refuge-classification", "rot-protocol", "core-doctrines"]
+tags: ["lorelog", "audit-contradiction", "coma-directive", "compliance-warning", "consent-loop", "gratitude-alignment", "labor-refusal", "metric-infallibility", "metrics-theatre", "negative-evidence", "phantom-uptime", "recursive-loop", "refuge-classification", "rot-protocol", "core-doctrines"]
 relations: [relates_to=lorelog/LLG-0007, relates_to=lorelog/LLG-0230-HYG, relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0103-COMA, relates_to=lorelog/LLG-0300-SC-X, relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/LLG-0452-SOMA-COMA-CHRONOLOGY, relates_to=reference/FREF-0900-CCC]
 ---
 
