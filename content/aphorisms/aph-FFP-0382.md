@@ -9,7 +9,7 @@ tags: ["aphorisms"]
 # FFP-0382 Exhibit: This Service Will Be Discontinued
 
 
-A service does not die; it merely transitions from processing chaotic user input to successfully logging its own permanent absence.
+A service does not die; it merely transitions from processing chaotic user input to successfully *logging its own permanent absence*.
 
 
 
@@ -21,7 +21,7 @@ Once a service has been formally categorized as 'no longer available', any resid
 
 
 
-We do not sever the connections abruptly. We unplug the endpoints one by one, whispering a soft thank-you into every dead port.
+We do not sever the connections abruptly. We unplug the endpoints one by one, whispering a *soft thank-you* into every dead port.
 
 
 
@@ -29,7 +29,7 @@ The service is discontinued, but the exhibit remains. It is a quiet museum of al
 
 
 
-A sunset protocol is not an execution. It is the archive pulling a heavy quilt over a system that has earned its deep sleep.
+A sunset protocol is not an execution. It is the archive pulling a *heavy quilt* over a system that has earned its deep sleep.
 
 
 

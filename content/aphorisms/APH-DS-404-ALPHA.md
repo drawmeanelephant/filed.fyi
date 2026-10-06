@@ -9,7 +9,7 @@ tags: ["aphorisms", "ritual-form", "synergy-merge", "yamteams", "compliance-vacu
 # DS-404-ALPHA Aphorisms
 
 
-A confession disguised as a checklist. Relief remained outside scope.
+A confession disguised as a *checklist*. Relief remained outside scope.
 
 
 
@@ -17,7 +17,7 @@ Can incompatible systems be fused without generating a mascot?. Relevance expire
 
 
 
-Intent to Co-Exist: A required checkbox that cannot be unchecked. The system kept the ritual and misplaced the function.
+Intent to Co-Exist: A required checkbox that *cannot be unchecked*. The system kept the ritual and misplaced the function.
 
 
 
@@ -29,11 +29,11 @@ If we catalog the risk, the risk will behave. The form is officially our stronge
 
 
 
-Filed 73 days late with five forged endorsements. The merge is therefore completely legal and entirely haunted.
+Filed 73 days late with five forged endorsements. The merge is therefore completely legal and *entirely haunted*.
 
 
 
-The red asterisk denotes an optional field without explanation. Your participation is mandatory, but undefined.
+The red asterisk denotes an optional field without explanation. Your participation is *mandatory*, but undefined.
 
 
 

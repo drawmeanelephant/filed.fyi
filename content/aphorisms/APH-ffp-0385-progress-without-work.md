@@ -9,11 +9,11 @@ tags: ["aphorisms"]
 # FFP-0385 Progress Without Work
 
 
-Anomalies are best resolved by systematically erasing the timestamps of their initial detection.
+Anomalies are best resolved by systematically erasing the *timestamps* of their initial detection.
 
 
 
-The highest form of compliance is an archive consisting entirely of redactions.
+The highest form of compliance is an archive consisting entirely of *redactions*.
 
 
 
