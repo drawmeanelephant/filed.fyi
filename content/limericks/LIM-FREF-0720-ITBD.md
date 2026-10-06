@@ -13,23 +13,23 @@ At the boundary, feeling must wait
 Till the signal can demonstrate state.  
 What a person calls grief  
 May require belief,  
-But the system prefers predicate.  
+But the system prefers *predicate*.  
 
 
 
 The story was vivid and true,  
 But not yet the right kind of cue.  
 It was held at the line  
-For a sanctioned design  
+For a *sanctioned design*  
 That could make it interpretable, too.  
 
 
 
 Affect crossed the threshold by degrees,  
-Losing weather, exception, and pleas.  
+Losing *weather, exception, and pleas*.  
 It emerged as a class  
 That the dashboard could pass,  
-Which is not the same thing as ease.  
+**Which is not the same thing as ease.**  
 
 
 
@@ -61,7 +61,7 @@ A feeling of dread was detected,
 And quickly for structure inspected.  
 The trajectory failed,  
 So the data was scaled,  
-And the volatile variance rejected.  
+And the *volatile variance* rejected.  
 
 
 
@@ -75,8 +75,8 @@ And drove the vague nuance underground!
 
 The lexicon needed a word  
 For a sorrow entirely absurd.  
-We called it "Event  
-Of a Downward Intent,"  
+We called it *"Event*  
+*Of a Downward Intent*,"  
 Which is not what the subject preferred.  
 
 
@@ -84,8 +84,8 @@ Which is not what the subject preferred.
 The signal was lacking in frame,  
 And nobody knew who to blame.  
 We marked it deferred,  
-Which is just a nice word  
-For deleting the thing when it came.  
+Which is just a *nice word*  
+For *deleting the thing* when it came.  
 
 
 
@@ -100,7 +100,7 @@ The aggregate metrics display.
 The witness was crying in pain,  
 A symptom we promptly contain!  
 We labeled the tears  
-As "Mechanical Gears"  
+As *"Mechanical Gears"*  
 And routed them straight to the drain.  
 
 
@@ -109,12 +109,12 @@ The residue left by the test
 Was boxed and securely suppressed.  
 But clerks will agree  
 That a phantom degree  
-Now haunts every standard request.  
+Now *haunts* every standard request.  
 
 
 
 No pathway for action was clear  
 When tracking a generalized fear.  
 We saved the request  
-As an orphaned digest  
+As an *orphaned digest*  
 And closed out the governance year.
