@@ -13,7 +13,7 @@ The calm intervals looked arranged
 And settled—but when exchanged  
   Against evidence:  
   Restored confidence  
-Was absent. The record was changed.  
+Was absent. The *record was changed*.  
 
 
 
@@ -21,7 +21,7 @@ Less complaints. Reduced variance.
 Calmer notes. High clearance  
   Through continuity.  
   But the scrutiny:  
-Some calm was exhaustion's endurance.  
+Some calm was *exhaustion's endurance*.  
 
 
 
@@ -43,9 +43,9 @@ Then renewed complaint: degradation.
 
 Once a room had been named  
 Restorative—it was claimed  
-  As canon. Speaking  
+  *As canon. Speaking*  
   From inside: peeking  
-At its non-restoration felt blamed.  
+At its *non-restoration felt blamed*.  
 
 
 
@@ -53,7 +53,7 @@ At its non-restoration felt blamed.
 "The lane settled." The hollowed  
   Phrases formed  
   A halo that stormed  
-Interpretation. Truth swallowed.  
+*Interpretation. Truth swallowed.*  
 
 
 
@@ -77,7 +77,7 @@ Recommended: no restorative class
 Without restored capacity—pass  
   Only with evidence.  
   Low noise's ambivalence  
-Must be distinguished from low mass.  
+**Must be distinguished from low mass.**  
 
 
 

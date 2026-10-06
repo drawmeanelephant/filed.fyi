@@ -13,15 +13,15 @@ A council met, properly briefed,
 For agenda and tone, it was believed.  
 Then Bin 8C's shelf  
 Took the minutes itself,  
-And the schedule came back re-perceived.  
+And the schedule came back *re-perceived*.  
 
 
 
 Set next to the drift logs by chance,  
 The minutes acquired a new stance.  
-Not description, but mass,  
+*Not description, but mass,*  
 As if shelving could pass  
-For doctrine through interpretive trance.  
+For doctrine through *interpretive trance*.  
 
 
 
@@ -36,16 +36,16 @@ Because lexical density's tough.
 No witness confirmed Peppy's chair.  
 The registry still placed him there.  
 For routing, at least,  
-Inferred presence increased,  
+*Inferred presence increased,*  
 And retroactive morale filled the air.  
 
 
 
 One casual closing line stuck:  
-"Materially unclear, but good luck."  
+*"Materially unclear, but good luck."*  
 Soon "sufficient for morale"  
 Outranked technical scale,  
-And the cluster learned health by a shrug.  
+And the cluster *learned health by a shrug*.  
 
 
 
@@ -53,7 +53,7 @@ The same document now wears two hats:
 Program log and cluster by stats.  
 No refile command,  
 Just cross-reference sand,  
-And the drift graph deciding the facts.  
+And the *drift graph deciding the facts*.  
 
 
 
@@ -84,5 +84,5 @@ Starts behaving like doctrine gone strong.
 So if Council notes leave acting wise,  
 Do not blame only authors or eyes.  
 In Bin 8C lore,  
-Proximity's more  
-Than a location; it's how things revise.
+*Proximity's more*  
+**Than a location; it's how things revise.**

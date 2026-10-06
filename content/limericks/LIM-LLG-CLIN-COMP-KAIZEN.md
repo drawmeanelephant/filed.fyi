@@ -13,12 +13,12 @@ The Chaplain reads loud at the bed,
 The patient's coordinates said.  
 A harm is now named,  
 The boundary proclaimed,  
-And the ritual consecrates the thread.  
+And the ritual *consecrates the thread*.  
 
 
 
-"We name it," the incantation goes,  
-"We do not yet heal," and suppose.  
+*"We name it," the incantation goes,*  
+*"We do not yet heal," and suppose.*  
 The incident's bound,  
 In ceremony found,  
 And the ledger records how it flows.  
@@ -29,7 +29,7 @@ A Monk walks the corridor chain,
 Whispers each last vital refrain.  
 The Scribe marks the columns:  
 Compliant-to-problems,  
-Deviant, deferred, maintained.  
+*Deviant, deferred, maintained.*  
 
 
 
@@ -45,13 +45,13 @@ Each fracture gets assigned its source:
 Human lapse, system course,  
 Or ritual omission,  
 A prioritized mission,  
-And the root causes rank by remorse.  
+And the root causes *rank by remorse*.  
 
 
 
 The Diviner draws up the cause list,  
 In antiseptic ink, none of this missed.  
-A clipped staple seals  
+A *clipped staple seals*  
 What the ceremony reveals,  
 And the archive now knows it exists.  
 
@@ -69,7 +69,7 @@ This ritual's inscribed in the margins,
 Of Ward C and the hospital bargains.  
 Compliance becomes  
 A liturgy's drums,  
-And the deviation becomes reliquary ardens.  
+**And the deviation becomes reliquary ardens.**  
 
 
 

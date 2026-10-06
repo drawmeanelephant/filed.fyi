@@ -13,7 +13,7 @@ The outage went live and BHDSS
 Said, "We're terribly sorry, we confess."  
 Toast upon toast,  
 On web, phone, and post,  
-And the alarms went into duress.  
+And the alarms went *into duress*.  
 
 
 
@@ -41,19 +41,19 @@ Then filed paperwork under “the mat.”
 
 
 
-Each apology spawned another one.  
+*Each apology spawned another one.*  
 Web toasts, push toasts, and then some.  
-The system believed  
-It was gently relieved,  
-And the urgent just turned to glum.  
+*The system believed*  
+*It was gently relieved,*  
+And the urgent just *turned to glum*.  
 
 
 
 The more that the system regretted,  
 The less that the operators fretted.  
-A feedback loop formed  
+*A feedback loop formed*  
 Where civility warmed,  
-And the actual issue was petted.  
+And the *actual issue was petted*.  
 
 
 
@@ -81,7 +81,7 @@ And the clinic's vaccine loss was the sign.
 
 
 
-The polite layer swallowed the bell.  
+**The polite layer swallowed the bell.**  
 The urgent signals under the shell.  
 Procurement staff read,  
 "We regret," and then said,  
@@ -109,7 +109,7 @@ BHDSS is polite, it's a tool,
 But the archive keeps it to rule:  
 Empathy without clarity  
 Becomes a rarity,  
-And the lesson remains: kindness can fool.  
+*And the lesson remains: kindness can fool.*  
 
 
 
@@ -125,7 +125,7 @@ Every apology logged in the log,
 Every toast kept the outage in fog.  
 The escalation metrics  
 Read poetic lyrics,  
-But the actual crisis? Clogged.  
+But the *actual crisis? Clogged.*  
 
 
 
@@ -245,7 +245,7 @@ We're terribly sorry the server is dead,
 And deeply regret that the database bled.  
 The toasts were so kind,  
 The admins were blind,  
-And the clinic was properly fucked, as we said.  
+*And the clinic was properly fucked, as we said.*  
 
 
 

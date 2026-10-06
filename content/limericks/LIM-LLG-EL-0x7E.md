@@ -13,7 +13,7 @@ The Partner reads Brief at the gate,
 Objective and Scope, don't be late.  
 Hypothesis thesis,  
 The ritual releases,  
-And the mission's now filed in the state.  
+And the mission's now *filed in the state*.  
 
 
 
@@ -25,7 +25,7 @@ And the ticket gets filed for a week.
 
 
 
-"If it is not MECE, it's not sacred,"  
+*"If it is not MECE, it's not sacred,"*  
 The Principal's mandate, make-stated.  
 Mutually exclusive,  
 Collectively inclusive,  
@@ -37,7 +37,7 @@ The Associate carves the Tree down,
 The Principal prunes with a frown.  
 Overlapping branches  
 Get stapled with chances,  
-And clarity starts to turn brown.  
+And clarity *starts to turn brown*.  
 
 
 
@@ -77,7 +77,7 @@ The Steering Committee convenes,
 Reviews the priorities, the means.  
 The briefing book's thick,  
 The rhythm is quick,  
-And the value still lives in between.  
+*And the value still lives in between.*  
 
 
 
@@ -85,7 +85,7 @@ And the value still lives in between.
 The metric that brings on the fear.  
 But the captures are filed,  
 The rigor compiled,  
-And the transformation's nowhere near.  
+**And the transformation's nowhere near.**  
 
 
 
@@ -109,4 +109,4 @@ The deliverables stacked in a pile,
 Each one bound with a file.  
 But what was delivered?  
 The value? Delivered?  
-Or just the appearance of style?
+Or just the *appearance of style?*

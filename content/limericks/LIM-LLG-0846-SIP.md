@@ -18,15 +18,15 @@ Well enough in the executive kit.
 
 
 A doctrine note went around:  
-Treat quiet as preservable ground  
+Treat quiet as *preservable ground*  
   Unless something loud  
   Breaks through the cloud.  
 The simplification was found.  
 
 
 
-Silence no longer proved rest.  
-Rest was simply expressed  
+*Silence no longer proved rest.*  
+Rest was simply *expressed*  
   Unless distress could  
   Yell through the wood  
 Of optimistic interest.  
@@ -43,9 +43,9 @@ To a room that still struggled through.
 
 One margin note: "The silence is not  
 Healthier—it has simply forgot  
-  That speaking is worth  
+  *That speaking is worth*  
   Something on earth.  
-The silence has lost faith in the plot."  
+*The silence has lost faith in the plot.*"  
 
 
 
@@ -69,7 +69,7 @@ Low-complaint periods dressed
 In recovery-colored interest.  
   The quiet lane closed.  
   What the silence disclosed  
-Was reclassified and suppressed.  
+Was *reclassified and suppressed*.  
 
 
 
@@ -85,4 +85,4 @@ The archive denies not that rest
 Exists in the silence expressed.  
   It objects to the day  
   The institution gave way  
-And stopped asking. That is the protest.
+**And stopped asking. That is the protest.**

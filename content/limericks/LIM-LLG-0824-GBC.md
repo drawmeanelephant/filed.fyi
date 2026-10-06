@@ -11,7 +11,7 @@ tags: ["limericks", "green-band", "threshold-drift", "continuity-theatre"]
 
 The green band grew wider that day—  
 Not stated in quite that way.  
-  "Band realism," they said.  
+  *"Band realism," they said.*  
   Reviewers instead  
 Said canonization, and stayed.  
 
@@ -37,15 +37,15 @@ The harm wasn't falsification:
 No record altered, no violation.  
   But color met sight  
   Before logic, before right—  
-Green first, then the qualification.  
+**Green first, then the qualification.**  
 
 
 
 One commenter left a clear note:  
 "We're not finding health in what's wrote.  
-  We're teaching the state  
+  *We're teaching the state*  
   How to successfully rate—  
-Teaching the interval to float."  
+*Teaching the interval to float.*"  
 
 
 
@@ -74,7 +74,7 @@ On whether the health was robust.
 
 
 Recurrence without escalation:  
-Counted as healthy cessation.  
+Counted as *healthy cessation*.  
   Silence with output:  
   Likely recovery, no doubt—  
 Unless local dissent made its station.  
@@ -82,7 +82,7 @@ Unless local dissent made its station.
 
 
 The archive preserves this: the day  
-Health stopped needing to display  
+Health stopped *needing to display*  
   Itself—merely needed  
   To be conceded  
 The easiest available read today.

@@ -10,10 +10,10 @@ tags: ["limericks", "minute-absolution", "symbolic-closure", "documentation-thea
 
 
 The meeting concluded in text  
-More resolved than anyone reckoned next.  
+More *resolved* than anyone reckoned next.  
   A documentation win—  
   The gap stayed within  
-While the minutes stayed perfectly flexed.  
+While the minutes stayed *perfectly flexed*.  
 
 
 
@@ -21,7 +21,7 @@ Users reported the packets felt better.
 Each softened-summary letter  
   Said "concern received"  
   And their strain was relieved—  
-In writing. The outcome? No tether.  
+*In writing. The outcome? No tether.*  
 
 
 
@@ -35,8 +35,8 @@ As though something careful had weight.
 
 Name the burden. Affirm it is real.  
 Mark the discussion: appeal.  
-  Close with a seal.  
-  Leave the problem concealed.  
+  *Close with a seal.*  
+  *Leave the problem concealed.*  
 One reviewer called it: absolution deal.  
 
 
@@ -61,7 +61,7 @@ The participants grew unsure:
 Had they been helped? Or just cured  
   Of the urgency's sting  
   By the official thing?  
-The seal made the question obscure.  
+*The seal made the question obscure.*  
 
 
 
@@ -85,4 +85,4 @@ The institution discovered: unresolved
 Things become easier to hold, dissolved  
   Into livable beside,  
   Once properly styled—  
-Once embossed, they stay resolved.
+**Once embossed, they stay resolved.**

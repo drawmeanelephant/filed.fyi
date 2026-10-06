@@ -11,7 +11,7 @@ tags: ["limericks", "friendship-preamble", "relational-softening", "demand-hidin
 
 The request arrived with a smile.  
 It stood in the social aisle,  
-  Said, "just reaching out,"  
+  Said, *"just reaching out,"*  
   Then left little doubt  
 What it wanted across the last mile.  
 
@@ -19,7 +19,7 @@ What it wanted across the last mile.
 
 It first showed in places that found  
 Direct asking made cold, hostile ground.  
-  The preamble worked.  
+  *The preamble worked.*  
   The resistance quirked  
 Into gentle completion all around.  
 
@@ -33,11 +33,11 @@ More gently." That note was unsaid.
 
 
 
-Refusal speed dropped at the seam.  
+*Refusal speed dropped at the seam.*  
 First-contact recoil lost its steam.  
   Completion increased.  
   Extraction released  
-More smoothly. The data was clean.  
+More *smoothly*. The *data was clean*.  
 
 
 
@@ -58,7 +58,7 @@ A threshold that feels like a spring.
 
 
 Participants felt less cornered, contained.  
-But objection grew harder to name.  
+But *objection grew harder to name*.  
   Refusal seemed crude  
   Against warmth—it pursued  
 Compliance without bearing its shame.  
@@ -77,7 +77,7 @@ The guidance that followed said: name
 The ask before warmth frames the same.  
   Distinguish warmth from  
   Optionality. Some  
-Friendliness hides a non-optional claim.  
+**Friendliness hides a non-optional claim.**  
 
 
 

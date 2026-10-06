@@ -13,7 +13,7 @@ It was meant to be temporary—
 A holding space, visionary.  
   While the fix came through,  
   The interval grew  
-Into something more sedentary.  
+Into something more *sedentary*.  
 
 
 
@@ -21,7 +21,7 @@ Too caring to label neglect,
 Too unchanged to call remedy correct.  
   The doctrine chose:  
   Continuity flows.  
-And canon was stamped on the affect.  
+And *canon was stamped on the affect*.  
 
 
 
@@ -36,8 +36,8 @@ Created an atmosphere of bliss.
 "Support remained present," they wrote.  
 "Care continuity" swallowed the note.  
   Each sentence defensible,  
-  Together: a sensible  
-Substitute for the actual antidote.  
+  *Together: a sensible*  
+*Substitute for the actual antidote.*  
 
 
 
@@ -45,7 +45,7 @@ The care was not erased from the room.
 It widened its jurisdiction's bloom.  
   "Held but unchanged"  
   Was now arranged  
-As a respectable administrative tomb.  
+As a respectable *administrative tomb*.  
 
 
 
@@ -61,7 +61,7 @@ The interval proved attractive because
 It solved institutional flaws  
   Without claiming full cure,  
   Keeping confidence sure,  
-And insufficiency dressed in applause.  
+And *insufficiency dressed in applause*.  
 
 
 
@@ -81,7 +81,7 @@ The atmosphere mattered more.
 
 
 
-Institutions canonize what  
+**Institutions canonize what**  
 Can be repeated without a shut-  
   Down. In this case:  
   Not remedy. Space  

@@ -11,16 +11,16 @@ tags: ["limericks", "bin-8c"]
 
 The re-indexing sweep took one glance  
 At Mascot Affairs and the bin's dance.  
-Then it merged them retro-  
-actively into one metro  
-Of documents sharing one stance.  
+Then it *merged them retro-*  
+*actively into one metro*  
+Of documents *sharing one stance*.  
 
 
 
 What had seemed separate stacks in the room  
 Were declared one coherent old bloom.  
-Not because facts aligned,  
-But because drift had twined  
+*Not because facts aligned,*  
+But because *drift had twined*  
 Them enough to assign a costume.  
 
 
@@ -28,8 +28,8 @@ Them enough to assign a costume.
 Structural identity came  
 After years of administrative flame.  
 Then announced with a cheer  
-It had always been here,  
-Which is classic retroactive game.  
+*It had always been here,*  
+Which is classic *retroactive game*.  
 
 
 
@@ -37,7 +37,7 @@ The notice did not change a word.
 It changed how all words should be heard.  
 That's one powerful trick:  
 Leave content in the brick,  
-Move the shelf, and declare it assured.  
+**Move the shelf, and declare it assured.**  
 
 
 
@@ -85,4 +85,4 @@ So if bins start behaving as kin,
 Do not ask where one ended, begin.  
 The re-indexer's art  
 Is to file you apart  
-By first proving you were always one bin.
+By *first proving* you were always one bin.
