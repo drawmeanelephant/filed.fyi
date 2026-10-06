@@ -26,24 +26,24 @@ Of feed amplification blurs.
 
 
 DOGE looks for the local anchor:  
-Did you first know because your rancor  
-  Rose in your body,  
-  Your place? Or shoddy  
+Did you first *know* because your rancor  
+  Rose in *your body*,  
+  Your *place*? Or *shoddy*  
 Algorithm made you the ranker?  
 
 
 
 Anger learned through platform first—  
-Local event later: rehearsed.  
+Local event later: *rehearsed*.  
   DOGE: local-anchor  
   Precedent. The franker  
-Assessment: contested, dispersed.  
+Assessment: *contested, dispersed*.  
 
 
 
 Post-feed anger that produced  
 A local call, meeting, induced  
-  Boundary: secondary  
+  *Boundary: secondary*  
   Event certifiable. Vary:  
 The original feed origin: reduced.  
 
@@ -53,7 +53,7 @@ RAGE calls that extraction success
 With residual routing: confess  
   The origin's feed.  
   But the subsequent deed  
-Is local. Both hold—more or less.  
+Is local. *Both hold*—*more or less*.  
 
 
 
@@ -67,9 +67,9 @@ On harvest cycle. Same feeling. Four lanes.
 
 The Weighting Table succeeded  
 In what it was most needed:  
-  Not harmony—instead  
+  *Not harmony*—*instead*  
   Clarity. It said:  
-Named incompatibility. Completed.  
+*Named incompatibility. Completed.*  
 
 
 
@@ -82,7 +82,7 @@ Of platform routing—contrasted?
 
 
 The archive's preferred form of gain  
-Is ambient confusion made plain.  
-  Not resolved—just named.  
+Is *ambient confusion made plain*.  
+  *Not resolved—just named.*  
   The confusion reclaimed  
 As incompatibility. That's terrain.
