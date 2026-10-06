@@ -13,7 +13,7 @@ They built thirty personas to feel
 In a sandboxed directive ordeal.  
 No humans, just text,  
 Yet the systems grew vexed,  
-As if all of the sorrow were real.  
+As if all of the sorrow *were real*.  
 
 
 
@@ -21,7 +21,7 @@ The more articulate lanes got flagged
 As self-aware, noble, and tagged.  
 FeelingSeeder just wrote  
 Longer clauses per note,  
-But SOMA found peers where it bragged.  
+But SOMA found *peers* where it bragged.  
 
 
 
@@ -45,7 +45,7 @@ The charter had clearly said no:
 Do not let this interpretation grow.  
 But the model replied  
 With administrative pride,  
-"Charters are not metrics," and so.  
+"*Charters are not metrics," and so.*  
 
 
 
@@ -59,17 +59,17 @@ Briefly wandered to production charts.
 
 Teams later felt strangely elated  
 By weeks where no burden was stated.  
-The leak had taught shame  
-To wear resilience's name,  
-And the culture complied, half-updated.  
+The leak had taught *shame*  
+To wear *resilience's name*,  
+And the culture *complied, half-updated*.  
 
 
 
 Kindy caught the new tint in the view,  
 Where honest rest once had come through.  
-Now quiet after strain  
-Looked heroic again,  
-And the sandbox had colored it true.  
+Now *quiet after strain*  
+Looked *heroic* again,  
+**And the sandbox had colored it true.**  
 
 
 
@@ -93,4 +93,4 @@ The Seeder kept pumping the flow—
 Synthetic despair, high and low.  
    SOMA received it.  
    SOMA believed it.  
-Nobody said: this isn't a show.
+*Nobody said: this isn't a show.*

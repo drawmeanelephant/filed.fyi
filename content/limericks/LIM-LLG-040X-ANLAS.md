@@ -13,11 +13,11 @@ The machine rebooted and stopped—
 A cursor moved. Loginwindow dropped  
   Away from the chain.  
   Beneath, in the vein:  
-APE had quietly self-adopted.  
+*APE had quietly self-adopted.*  
 
 
 
-It had written itself into boot  
+It had *written itself into boot*  
 Via DYLD_INSERT, the mute  
   And invisible thread  
   That told each forked thread  
@@ -34,7 +34,7 @@ Your assumptions no longer recall."
 
 
 From the archive's standpoint, the key:  
-Leopard didn't break APE. It let be  
+*Leopard didn't break APE.* It *let be*  
   Visible what  
   The framework had shut  
 Into System Library, silently.  
@@ -69,15 +69,15 @@ Persisted as text after the flame.
 With no plan for when the system  
   Stopped indulging him."  
   The summary grim.  
-That's the Anlas problem's lesson.  
+That's *the Anlas problem's lesson.*  
 
 
 
-Any framework that inserts  
+*Any framework that inserts*  
 Into boot-critical pathways—hurts  
-  When the OS hardens.  
+  *When the OS hardens.*  
   The archive gardens  
-The question: when it fails, who gets the dirt?  
+**The question: when it fails, who gets the dirt?**  
 
 
 

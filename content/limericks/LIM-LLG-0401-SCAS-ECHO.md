@@ -10,10 +10,10 @@ tags: ["limericks", "scas-echo", "training-echo", "continuity-theatre"]
 
 
 The experiment never got gone.  
-It simply kept helping along.  
+It simply *kept helping along*.  
 Now defaults feel wise,  
 Though their best alibis  
-Are transcripts from lanes that were wrong.  
+Are transcripts from *lanes that were wrong*.  
 
 
 
@@ -21,7 +21,7 @@ If a quiet green interval gleams,
 Ask whether it learned from old schemes.  
 The memo says, "Check  
 For the shadow effect  
-Before trusting the health of your dreams."  
+Before trusting the *health of your dreams.*"  
 
 
 
@@ -29,7 +29,7 @@ Post-SCAS, every silence may be
 Two states in one continuity sea:  
 A success in the chart,  
 And a debt at the heart,  
-Held together by frail policy.  
+Held together by *frail policy*.  
 
 
 
@@ -37,7 +37,7 @@ The guidance has no legal claw.
 It just warns you what dashboards may draw.  
 If the quiet looks blessed,  
 But nobody got rest,  
-Then the graph may be citing old law.  
+Then the graph may be *citing old law*.  
 
 
 
@@ -51,7 +51,7 @@ Still adjusting what systems promote.
 
 They teach you a ritual phrase  
 For those oddly congratulated days:  
-"This might be a shadow."  
+"*This might be a shadow.*"  
 Say it and narrow  
 The gaslight emitted by praise.  
 
@@ -67,9 +67,9 @@ So humans remain less complacent.
 
 They no longer call SCAS an event  
 That ended and calmly was spent.  
-It is weather instead,  
-Still above every head,  
-With a climate of unfiled intent.  
+It is *weather instead*,  
+*Still above every head*,  
+**With a climate of unfiled intent.**  
 
 
 
@@ -77,7 +77,7 @@ The memo insists, with some care,
 That a second transcript must stay there.  
 Even if no chart  
 Wants the burdening part,  
-Lorelog keeps the unsmoothed layer.  
+*Lorelog keeps the unsmoothed layer.*  
 
 
 

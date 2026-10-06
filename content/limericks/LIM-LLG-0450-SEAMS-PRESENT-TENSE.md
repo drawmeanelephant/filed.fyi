@@ -10,7 +10,7 @@ relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE]
 # Seam Survey: Dystopian Present
 
 The dystopia wasn't ahead —  
-It arrived while we slept in our bed.  
+*It arrived while we slept in our bed.*  
 No neon, no chrome,  
 Just forms brought from home,  
-And the curve-coherence the dashboard read.
+**And the curve-coherence the dashboard read.**

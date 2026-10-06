@@ -53,7 +53,7 @@ That makes both feel dangerously chained.
 "Signal layer congestion." They learned  
   To say "overlap"  
   While the gap stayed intact—  
-The contradiction just simmered and burned.  
+*The contradiction just simmered and burned.*  
 
 
 
@@ -67,9 +67,9 @@ To fail in plain view all along.
 
 No infrastructure had died.  
 No system had broken inside.  
-  The maintenance was  
-  For language, because  
-The truth and the calm had collide.  
+  *The maintenance was*  
+  *For language, because*  
+The *truth and the calm* had collide.  
 
 
 
@@ -85,4 +85,4 @@ LLG-0812-CTM's worth:
 The dashboards' brief window of birth  
   Into honest display—  
   Then it slipped away,  
-Preserved as proof of its dearth.
+**Preserved as proof of its dearth.**
