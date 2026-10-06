@@ -11,7 +11,7 @@ tags: ["limericks", "tone-normalization", "soma-14", "http-status"]
 
 The registry ran out of room.  
 Too many shades darkened the bloom.  
-So sixteen stayed blessed,  
+So *sixteen stayed blessed*,  
 And all of the rest  
 Were asked to stand closer for zoom.  
 
@@ -21,12 +21,12 @@ If your feeling took more than two hues,
 The dashboard grew nervous with clues.  
 So nuance was stacked  
 Till the graph could act  
-As if strain came in simpler blues.  
+As if strain came in *simpler blues*.  
 
 
 
 Some filers grew tender and warm,  
-And started consoling the form.  
+And started *consoling the form*.  
 The addendum replied,  
 "Please do not provide  
 Reverse care to the survey in storm."  
@@ -37,7 +37,7 @@ When people said, "I feel 422,"
 The Registry wondered what to do.  
 So Teapotta appeared  
 To decide what was weird  
-But still chartable enough to construe.  
+But still *chartable enough* to construe.  
 
 
 
@@ -45,7 +45,7 @@ Some feelings got lost on the way,
 No stable path held them in play.  
 The system wrote back,  
 "We misplaced the track,"  
-And filed the whole ache as decay.  
+And filed the whole ache *as decay*.  
 
 
 
@@ -66,10 +66,10 @@ At the smell of unsanctioned command.
 
 
 No feeling was truly reduced.  
-It was only more tightly induced.  
+It was only *more tightly induced*.  
 The graphs needed grace,  
 So the states took less space,  
-And the language got neatly seduced.  
+And the language got *neatly seduced*.  
 
 
 
@@ -84,8 +84,8 @@ Once the glossary polished it white.
 You can tidy the words on the page.  
 You can sort every feeling by cage.  
 But the sweep, at its core,  
-Could not make there be fewer,  
-Only less room for them to rage.  
+Could not make there *be fewer*,  
+**Only less room for them to rage.**  
 
 
 

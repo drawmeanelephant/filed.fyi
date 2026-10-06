@@ -33,7 +33,7 @@ Officially lost, but still signed."
 
 
 
-"I resent that Kindy will read."  
+*"I resent that Kindy will read."*  
 The rules said that line should recede.  
 Kindy kept it in view,  
 As the filing still knew  
@@ -41,7 +41,7 @@ That mascots are part of the bleed.
 
 
 
-Form-induced anxiety flared.  
+*Form-induced anxiety flared*.  
 The policy said it was spared.  
 Then someone wrote, "Observed,"  
 Which calmly preserved  
@@ -73,7 +73,7 @@ Like a forecast promoted to storm.
 
 
 
-Queue exhaustion was called baseline,  
+*Queue exhaustion* was called baseline,  
 Then quietly sent up the line.  
 Out of scope on the sheet,  
 Still reviewed as concrete,  
@@ -81,11 +81,11 @@ Which is one elegant bureaucrat sign.
 
 
 
-So if 51-E makes you ache,  
-They will note it as some other stake.  
+So if 51-E *makes you ache*,  
+They will note it as *some other stake*.  
 Not deleted, just bent,  
 Officially mis-sent,  
-Like a truth with no room to relocate.  
+**Like a truth with no room to relocate.**  
 
 
 
