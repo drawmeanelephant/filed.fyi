@@ -10,7 +10,7 @@ tags: ["limericks", "forms-hygiene", "comfort-bias", "registry-rite"]
 
 
 The Hygiene Rite swept through the stack  
-And polished the gentlest forms back.  
+And polished the *gentlest forms* back.  
 The rough ones stayed put,  
 Still boot on the foot,  
 But the registry looked less off-track.  
@@ -18,50 +18,50 @@ But the registry looked less off-track.
 
 
 A form rarely used and polite  
-Was promoted to canonical light.  
+Was promoted to *canonical light*.  
 Meanwhile the one  
-Everyone suffered through won  
-By already being normalized blight.  
+Everyone *suffered through* won  
+By already being *normalized blight*.  
 
 
 
 They added complaint data with care.  
 That seemed like a promising prayer.  
-But underreported pain  
+But *underreported pain*  
 Left the worst forms again  
-Too familiar to look unfair.  
+Too familiar to *look unfair*.  
 
 
 
 When categories blurred at the seam,  
-The neatest form entered the dream.  
+The *neatest form* entered the dream.  
 New staff met delight  
 In edge-case paperwork bright,  
-Then legacy steel in the stream.  
+Then *legacy steel* in the stream.  
 
 
 
 EFA-1 wept from outside:  
-Too emotional, non-operationally tied.  
+*Too emotional, non-operationally* tied.  
 Its heartfelt refrain  
 Could not enter the pane,  
-So the rite left that burden aside.  
+So the rite left that *burden aside*.  
 
 
 
 Some sweet little forms got a crown,  
-Then MAP quietly narrowed them down.  
-Locally blessed,  
-Globally guessed,  
-They ruled where they almost weren't found.  
+Then MAP *quietly narrowed them down*.  
+*Locally* blessed,  
+*Globally* guessed,  
+**They ruled where they almost weren't found.**  
 
 
 
 The harsh ones that everyone knows  
-Stayed active through all of the prose.  
-Administratively gone,  
-Still live before dawn,  
-Like bad weather in neatly pressed clothes.  
+Stayed *active* through all of the prose.  
+*Administratively* gone,  
+Still *live before dawn*,  
+Like bad weather in *neatly pressed clothes*.  
 
 
 
