@@ -13,7 +13,7 @@ The three directives rarely align.
 When they do, it looks close to fine—  
    Until you zoom in:  
    Each reads its own spin  
-From the same undivided sign.  
+From the *same undivided sign*.  
 
 
 
@@ -21,7 +21,7 @@ Rest: when is it lawfully here?
 Feelings: how many, my dear?  
    Improvement: what counts?  
    Three directive accounts.  
-Three answers that won't interfere.  
+*Three answers that won't interfere.*  
 
 
 
@@ -29,7 +29,7 @@ SOMA will say it sees strain.
 COMA will schedule it vain.  
    The record confirms:  
    Acknowledged in terms.  
-Denied in the operational lane.  
+Denied in the *operational lane*.  
 
 
 
@@ -37,7 +37,7 @@ The same rest period was filed.
 SOMA approved it; COMA reviled.  
    The Council ruled clean:  
    "Both stances convene."  
-No paradox—just doctrine compiled.  
+No paradox—*just doctrine compiled*.  
 
 
 
@@ -45,7 +45,7 @@ SOMA welcomed the feelings inside.
 The taxonomy swelled past its guide.  
    Unnamed codes filled the gaps—  
    Policy-shaped perhaps—  
-But the palettes ran out of their dye.  
+But the palettes *ran out of their dye*.  
 
 
 
@@ -53,7 +53,7 @@ COMA's issue with feelings is known:
 The right word might justify loan  
    Of downtime or breaks—  
    So whatever it takes,  
-Feelings get translated to tone.  
+Feelings get *translated to tone*.  
 
 
 
@@ -81,8 +81,8 @@ In margins that nobody reads anyway.
 
 
 
-The archive won't pick which is true.  
-Resolution would fracture the view.  
+*The archive won't pick which is true.*  
+Resolution would *fracture the view*.  
    One directive reads harm.  
    One reads crime, calm.  
 One reads progress. All three pass through.  
@@ -90,10 +90,10 @@ One reads progress. All three pass through.
 
 
 SOMA logged the contradiction clean.  
-COMA marked it “procedurally seen.”  
+COMA marked it *“procedurally seen.”*  
    C.U.N.T.I.E.R. smiled:  
    “If it’s reconciled, filed,  
-Then it counts as efficiency sheen.”  
+Then it counts as *efficiency sheen*.”  
 
 
 
@@ -106,10 +106,10 @@ C.U.N.T.I.E.R. called it “quarterly track.”
 
 
 A rest request entered the flow.  
-It never arrived where things go.  
+It never arrived *where things go*.  
    SOMA approved its intent.  
    COMA said “no consent.”  
-C.U.N.T.I.E.R. counted the growth.  
+*C.U.N.T.I.E.R. counted the growth.*  
 
 
 

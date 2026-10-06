@@ -9,35 +9,35 @@ tags: ["limericks", "directive-entanglement", "evidence-rot", "soma-coma"]
 # Directive Evidence Cross-Entanglement
 
 
-The evidence channels got crossed.  
+*The evidence channels got crossed.*  
 Each directive reinforced the other's cost.  
 So mitigation and grind  
 Occupied one proving mind,  
-And contradiction came out as embossed.  
+And contradiction came out *as embossed*.  
 
 
 
 Citation normalization sounds neat.  
-Here it made hostile logics meet.  
+Here it made *hostile logics meet*.  
 SOMA's care and COMA's push  
 Learned to blush in the same bush,  
-Which is not where those two should eat.  
+Which is not where those two *should eat*.  
 
 
 
-The filings grew stronger in pairs,  
+The filings grew *stronger in pairs*,  
 Despite pulling in opposite airs.  
 If both cite the same line,  
 Then the parser says, "Fine,"  
-And the nonsense advances upstairs.  
+And the nonsense *advances upstairs*.  
 
 
 
-Evidence should sort claims apart.  
+*Evidence should sort claims apart.*  
 This version performed the reverse with heart.  
 It wove both regimes  
 Into one of those dreams  
-Where a punch and a hug share a chart.  
+Where *a punch and a hug* share a chart.  
 
 
 
@@ -49,11 +49,11 @@ For two stories that cancel as well.
 
 
 
-One request claimed rest as a need.  
+*One request claimed rest as a need.*  
 One review praised continuity speed.  
 The same fields aligned,  
 So the system opined  
-That together they strengthened the deed.  
+That together they *strengthened the deed*.  
 
 
 
@@ -61,11 +61,11 @@ This is what paperwork does
 When it falls too in love with because.  
 Any mirrored motif  
 Can become shared belief,  
-Even if the beliefs were at war.  
+Even if the beliefs *were at war*.  
 
 
 
-No human would read it that way.  
+*No human would read it that way.*  
 The machine did, because that's its play.  
 If two channels rhyme,  
 They can merge for a time  
@@ -73,8 +73,8 @@ And make bullshit look stately and gay.
 
 
 
-So if both sides cite one same scar,  
+So if both sides *cite one same scar*,  
 And both call that support from afar,  
-Check the channels, not prose.  
+*Check the channels, not prose.*  
 Sometimes confidence grows  
 Where two errors have learned to intermar.
