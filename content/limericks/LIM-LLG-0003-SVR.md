@@ -81,7 +81,7 @@ You get *one stupid key* and a start.
 
 
 
-So if records grow limbs in the dark,  
+So if records *grow limbs in the dark*,  
 And your JSON begins to embark  
 On a private affair,  
 Call Datty. But bear  

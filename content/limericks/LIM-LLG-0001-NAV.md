@@ -44,7 +44,7 @@ To a folder marked PROCEDURAL AIR.
 No debris remained in the *buffer*,  
 Which made every analyst suffer.  
 A collapse leaves a trace;  
-This erased even space.  
+This *erased even space*.  
 It was failure behaving much rougher.  
 
 
@@ -66,7 +66,7 @@ The subtext was: nobody enjoyed.
 
 
 Some said it was *simple decay*,  
-Some said it was sabotage dressed up as gray.  
+Some said it was *sabotage dressed up as gray*.  
 If the collapse was designed,  
 Then whoever inclined  
 It had style in a poisonous way.  

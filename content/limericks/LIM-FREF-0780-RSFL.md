@@ -11,25 +11,25 @@ tags: ["limericks", "empathegy"]
 
 They recognized rest as a need,  
 Then allowed it to live as a seed.  
-No interval came,  
+*No interval came,*  
 But the label had name,  
 Which the minutes considered a deed.  
 
 
 
 The pause had the shape of relief,  
-But the schedule retained all its teeth.  
+But the schedule *retained all its teeth*.  
 It looked restful in speech,  
 Just remained out of reach,  
-Like a chair drawn in chalk underneath.  
+Like a *chair drawn in chalk* underneath.  
 
 
 
 Exhaustion was tenderly heard,  
 Then returned to the same working herd.  
-They validated strain,  
+They *validated strain*,  
 Did not loosen the chain,  
-And called that a humane little word.  
+**And called that a humane little word.**  
 
 
 
@@ -59,7 +59,7 @@ The cycle completes as is due.
 
 The item was moved to the right,  
 And kept in the registry's sight.  
-The pointers aver,  
+The pointers *aver*,  
 The changes occur,  
 We exit the loop for the night.  
 
@@ -68,5 +68,5 @@ We exit the loop for the night.
 To process a standard request,  
 The software will run a quick test.  
 It scans the new drive,  
-At a quarter to five,  
+*At a quarter to five*,  
 And logs it away with the rest.
