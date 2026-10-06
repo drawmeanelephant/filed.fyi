@@ -17,16 +17,16 @@ The dashboard with green-colored hope.
 
 
 
-"The continuity reassurance mark."  
-"The quiet interval's ark."  
+*"The continuity reassurance mark."*  
+*"The quiet interval's ark."*  
   "The seal that means this  
   Part is fine." In the mist  
 Of guidance, it left its own mark.  
 
 
 
-SOMA: care was noticed here.  
-COMA: continuity's clear.  
+*SOMA: care was noticed here.*  
+*COMA: continuity's clear.*  
   C.U.N.T.I.E.R. graphs  
   Its healthy-looking laughs  
 As segment boundary. All unclear.  
@@ -75,7 +75,7 @@ Was settled. The green held fast.
 
 No deprecation's proposed.  
 The Classification Panel's posed:  
-  Ambiguity aids.  
+  *Ambiguity aids.*  
   The seal's escapades  
 Are structurally helpful. Unopposed.  
 
@@ -85,4 +85,4 @@ Attaching the seal: completion step.
 Removing it: no protocol kept.  
   No condition named  
   When it gets reclaimed.  
-The green stays wherever it's crept.
+*The green stays wherever it's crept.*

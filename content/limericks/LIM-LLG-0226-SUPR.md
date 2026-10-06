@@ -9,11 +9,11 @@ tags: ["limericks", "supersession-loop", "forms-registry", "stcp"]
 # Supersession Reflection Loop
 
 
-Form 32-A said, "Use R."  
-32-A-R pointed afar:  
+Form 32-A *said, "Use R."*  
+*32-A-R pointed afar:*  
 "Return to A proper.  
 I supersede stopper."  
-The graph formed a bureaucrat star.  
+The graph formed a *bureaucrat star*.  
 
 
 
@@ -21,55 +21,55 @@ One office preferred the short file.
 Another liked revision in style.  
 A third, with some fear,  
 Made 32-A-NEW appear,  
-And neglected to mention it awhile.  
+And neglected to *mention* it awhile.  
 
 
 
-The packets said, "Use the most recent."  
+The packets *said, "Use the most recent."*  
 The engine found neither convenient.  
 It circled the loop,  
-Produced doctrine as soup,  
-And onboarding got vague but obedient.  
+Produced *doctrine as soup*,  
+And onboarding got *vague but obedient*.  
 
 
 
 Formee, attempting good care,  
-Filed both to be safe in the air.  
+Filed both *to be safe* in the air.  
 Each incident doubled,  
 The queues got more troubled,  
-And certainty thinned everywhere.  
+And certainty *thinned everywhere*.  
 
 
 
 The citation assistant would spin  
 Between one and the next like a grin.  
 Ask simply for A,  
-Get whichever that day  
-Felt more canonical within.  
+Get whichever *that day*  
+Felt more *canonical* within.  
 
 
 
 One argument favored the old:  
-Its vagueness left room to be bold.  
+Its *vagueness* left room to be bold.  
 The newer one won  
 For its metrics and run,  
-So the Desk split the difference and rolled.  
+So the Desk *split the difference* and rolled.  
 
 
 
 They coined a new label with pride:  
-STCP, co-equal in stride.  
-Superseded in theory,  
-Still valid and dreary,  
-Which gave the contradiction a guide.  
+STCP, *co-equal in stride*.  
+Superseded *in theory*,  
+Still *valid and dreary*,  
+Which gave the contradiction *a guide*.  
 
 
 
 The loop stayed right there in the graph,  
 But officials stopped calling it half.  
-It was now a braid,  
-Institutionally made,  
-And therefore too governed to laugh.  
+It was now *a braid*,  
+*Institutionally* made,  
+And therefore *too governed to laugh*.  
 
 
 
@@ -77,15 +77,15 @@ Documentation, newly composed,
 Dropped suffixes, gently disposed.  
 "Just say thirty-two-A.  
 Local practice will sway."  
-Thus confusion was formally posed.  
+**Thus confusion was formally posed.**  
 
 
 
 When two forms each cancel the peer,  
 The archive does not interfere.  
-It names the exchange,  
-Lets the lineage range,  
-And calls the whole mirror sincere.  
+It names *the exchange*,  
+Lets the lineage *range*,  
+And calls the whole *mirror* sincere.  
 
 
 

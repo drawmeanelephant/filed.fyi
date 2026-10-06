@@ -10,26 +10,26 @@ tags: ["limericks"]
 
 
 B-2B: same format, so  
-  Familiar that the flow  
+  *Familiar* that the flow  
 Of outrage needs  
   More bait. What leads:  
-  More extreme. Below.  
+  *More extreme. Below.*  
 
 
 
-The format triggers first.  
-  Then comes the burst  
-Of content. Recognition  
-  Precedes cognition.  
+*The format triggers first.*  
+  Then comes *the burst*  
+Of content. *Recognition*  
+  *Precedes cognition.*  
   The frame arrives worst.  
 
 
 
-To produce the same yield,  
+To produce the *same yield*,  
   B-2B must wield  
-More extreme content.  
-  The increment  
-Of escalation: revealed.  
+*More extreme content.*  
+  *The increment*  
+Of escalation: *revealed*.  
 
 
 
@@ -42,10 +42,10 @@ Expectation's coefficient.
 
 
 B-2B concern: the audience  
-  Normalizes. Compliance  
+  *Normalizes.* *Compliance*  
 With higher-intensity  
-  Bait: propensity  
-Grows. Then: reliance.  
+  Bait: *propensity*  
+*Grows.* Then: *reliance.*  
 
 
 

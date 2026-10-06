@@ -10,15 +10,15 @@ tags: ["limericks", "empathegy"]
 
 
 The outlier stood up in the chart,  
-With a rude and particular heart.  
+With a *rude and particular* heart.  
 So they smoothed it away  
-For the narrative day,  
-And called that improvement art.  
+For the *narrative day*,  
+**And called that improvement art.**  
 
 
 
 The baseline was polished and pure,  
-Which made every exception obscure.  
+Which made every *exception obscure*.  
 If the messy bits leave,  
 The reviewers believe  
 That the process has learned how to cure.  
@@ -26,10 +26,10 @@ That the process has learned how to cure.
 
 
 The trendline performed getting well,  
-Though the hallway had stories to tell.  
+Though the hallway *had stories to tell*.  
 When the variance thinned,  
-The applause could begin,  
-And the outliers stayed where they fell.  
+The *applause could begin*,  
+And the *outliers stayed where they fell*.  
 
 
 
@@ -61,7 +61,7 @@ I called the new variable 'x',
 Which saves me from writing out specs.  
 It works as a bool,  
 Or maybe a tool,  
-Whatever the compiler expects.  
+*Whatever the compiler expects*.  
 
 
 
@@ -69,7 +69,7 @@ The value of ten was assigned,
 Exactly as it was designed.  
 The pointer moved on,  
 The cycle has gone,  
-The data is firmly confined.  
+The data is *firmly confined*.  
 
 
 

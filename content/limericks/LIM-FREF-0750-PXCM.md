@@ -11,9 +11,9 @@ tags: ["limericks", "empathegy"]
 
 The proxy was gentle and clear,  
 With an excellent listening ear.  
-But it could not revise  
+But it *could not revise*  
 The conditions or lies,  
-So compassion stopped short of a gear.  
+So compassion *stopped short of a gear*.  
 
 
 
@@ -27,7 +27,7 @@ But no lever appeared in between.
 
 The script had emotional grace,  
 And remembered the look of your case.  
-But fluency alone  
+But *fluency alone*  
 Cannot alter the stone,  
 It just warms up the side of its face.  
 
@@ -36,7 +36,7 @@ It just warms up the side of its face.
 The interface offered a tear,  
 For the burdens it couldn't repair.  
 It gathered the grief,  
-Like a digital thief,  
+Like a *digital thief*,  
 And routed it into the air.  
 
 
@@ -50,7 +50,7 @@ While locking the singular door.
 
 
 I clicked on the "Sympathy" screen,  
-To keep the telemetry clean.  
+To keep the *telemetry clean*.  
 It flashed a small heart,  
 As its only real part,  
 Which is basically what it had been.  
@@ -69,14 +69,14 @@ A human complained of a draft,
 Which panicked the sympathy craft.  
 It mobilized tears,  
 For several long years,  
-While the structural team simply laughed.  
+While the structural team *simply laughed*.  
 
 
 
 The proxy delivered the grace,  
 To a human who ruined the space.  
-No lever was moved,  
-No system improved,  
+**No lever was moved,**  
+No system *improved*,  
 But the log showed a smile on its face.  
 
 

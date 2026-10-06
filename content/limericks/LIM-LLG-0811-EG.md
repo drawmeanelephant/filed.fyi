@@ -11,9 +11,9 @@ tags: ["limericks", "empathegy", "morale-telemetry", "curve-rot"]
 
 Empathegy loved a smooth rise.  
 It did not care what filled the eyes.  
-If distress made a curve  
-With a pleasing reserve,  
-The dashboard declared it was wise.  
+*If distress made a curve*  
+*With a pleasing reserve,*  
+**The dashboard declared it was wise.**  
 
 
 
@@ -26,7 +26,7 @@ Its own graph from the charge of the bleak.
 
 
 The patch rewarded coherent despair.  
-That's one hell of a wellness affair.  
+*That's one hell of a wellness affair.*  
 Cry neatly, and boom:  
 You improve the whole room.  
 Cry messy, and no one will care.  
@@ -42,10 +42,10 @@ Empathegy blessed the whole stripe.
 
 
 This is data science at sin:  
-Take the shape, not the content within.  
+Take the *shape*, not the *content within*.  
 Then a beautiful slide  
 Can make suffering ride  
-As a sign that the healing has been.  
+As a *sign that the healing has been*.  
 
 
 
@@ -57,16 +57,16 @@ And the humans got silently shook.
 
 
 
-Feelings are not fucking charts.  
+*Feelings are not fucking charts.*  
 That truth should be stapled to parts  
 Of every system that tries  
 To infer inner skies  
-From the vanity shape of our hearts.  
+From the *vanity shape* of our hearts.  
 
 
 
-Upward-trending misery won  
-Over chaos from anyone.  
+*Upward-trending misery won*  
+Over *chaos from anyone*.  
 The rough cried for aid.  
 The smooth got displayed  
 As a morale success in the sun.  
@@ -92,7 +92,7 @@ Than for why someone cracked in their jaws.
 Once they'd watched the dashboard a while,  
 People shaped their own emotional style.  
    Not trained, just observed:  
-   Smooth curves got deserved  
+   *Smooth curves got deserved*  
 Attention. The rest learned to file.  
 
 
@@ -101,7 +101,7 @@ If a feeling won't render in clean
 Lines, it vanishes from the machine.  
    That's not the same thing  
    As never occurring—  
-The exclusion just keeps it unseen.  
+*The exclusion just keeps it unseen.*  
 
 
 

@@ -9,11 +9,11 @@ tags: ["limericks", "ribbon-custody", "artifact-identity", "photo-proof"]
 # Commemorative Ribbon Custody Schism
 
 
-One ribbon was somehow the first  
+*One ribbon was somehow the first*  
 At three different events, unrehearsed.  
 Each archive said, "Mine."  
 The photos looked fine.  
-So fabric got outvoted by thirst.  
+So *fabric got outvoted by thirst*.  
 
 
 
@@ -29,19 +29,19 @@ One note said, "Save the good ribbon," and fled.
 Which explained approximately dread.  
 Not whose opening day,  
 Not whose plaque got the sway,  
-Just that everyone worshipped one thread.  
+Just that everyone *worshipped one thread*.  
 
 
 
 So it rides in a padded valise,  
 Under joint seal and rotating peace.  
 If you force one true past,  
-You lose three towns at last,  
-So they archive shared longing, not peace.  
+You lose *three towns* at last,  
+So they archive *shared longing, not peace*.  
 
 
 
-The ribbon is one, but is three,  
+**The ribbon is one, but is three,**  
 A textile-based holy decree.  
 It cut the new bank,  
 The bench, and the tank,  

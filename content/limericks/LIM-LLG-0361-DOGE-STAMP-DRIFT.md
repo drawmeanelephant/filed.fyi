@@ -10,10 +10,10 @@ tags: ["limericks"]
 
 
 Provenance stamps began to appear  
-Beyond their certified sphere—  
+Beyond their *certified sphere*—  
   Attached to records  
   That DOGE's awards  
-Had never granted. Drift made clear.  
+Had never granted. *Drift made clear.*  
 
 
 
@@ -29,7 +29,7 @@ SWAB: the Sweep for Wayward
 And Boundary-adjacent stamps toward  
   Provenance review.  
   Each stamp accrued  
-Is checked—was it awarded?  
+Is checked—*was it awarded?*  
 
 
 
@@ -57,11 +57,11 @@ Then filed without harmony.
 
 
 
-The Local Anchor doctrine holds:  
+*The Local Anchor doctrine holds:*  
 Something in the filer's world's folds  
-  Must independently  
+  *Must independently*  
   Confirm: this event  
-Touched local life. So DOGE unfolds.  
+Touched *local life*. So *DOGE unfolds*.  
 
 
 
@@ -73,8 +73,8 @@ For any RAGE-adjacent reaction.
 
 
 
-The mark doesn't create the life.  
-The mark recognizes what the strife  
+*The mark doesn't create the life.*  
+The mark *recognizes* what the strife  
   Of origin, agency,  
   And residue's legacy  
 Has proven—the stamp is a fife.  
@@ -83,6 +83,6 @@ Has proven—the stamp is a fife.
 
 The DOGE memo on feelings filed  
 One position, plainly styled:  
-  Feelings are not  
-  The test. They are caught  
+  *Feelings are not*  
+  *The test.* They are caught  
 In everything. Origin: compiled.

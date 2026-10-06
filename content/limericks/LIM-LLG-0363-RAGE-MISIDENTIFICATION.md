@@ -13,7 +13,7 @@ RAGE misidentified:
   Local strain, then applied  
 To feed routing. SOMA  
   Says: diploma  
-For valid distress, certified.  
+For *valid distress*, *certified*.  
 
 
 
@@ -21,15 +21,15 @@ Local event, feed amplified:
   Both can be classified.  
   DOGE investigates  
   Which state  
-Dominates. Then verified.  
+*Dominates.* Then *verified*.  
 
 
 
 SOMA reads misidentified  
-  RAGE as valid—tried  
+  RAGE as *valid*—*tried*  
 Distress. Regardless  
   Of route: madness  
-Of the feed is beside.  
+Of the feed is *beside*.  
 
 
 
@@ -41,16 +41,16 @@ ing. The question: discipline.
 
 
 
-Misidentification matters  
-  Because it scatters  
+*Misidentification matters*  
+  Because it *scatters*  
 Responsibility:  
-  Feed or locality  
+  *Feed or locality*  
 Owns the anger. Naming shatters.  
 
 
 
 The phone was the place it was seen,  
-So the anger belongs to the screen.  
+So the anger belongs to *the screen*.  
 The fire in the yard,  
 Is logically barred,  
 From causing the localized scene.  
@@ -59,9 +59,9 @@ From causing the localized scene.
 
 The elders recall how the feed,  
 Created the localized need.  
-The origin shifted,  
-The memories drifted,  
-And the screen was the only true seed.  
+*The origin shifted,*  
+*The memories drifted,*  
+And the screen was *the only true seed*.  
 
 
 

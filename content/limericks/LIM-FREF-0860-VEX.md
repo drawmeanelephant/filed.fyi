@@ -10,17 +10,17 @@ tags: ["limericks", "empathegy"]
 
 
 The burden remained in the room,  
-But fell outside dashboarded bloom.  
-Operationally there,  
-Representationally air,  
-It became a reportable vacuum.  
+But fell outside *dashboarded bloom*.  
+*Operationally there,*  
+*Representationally air,*  
+It became a *reportable vacuum*.  
 
 
 
-The aggregate swallowed the case,  
-Leaving no individual trace.  
+The *aggregate swallowed* the case,  
+Leaving no *individual trace*.  
 What was excluded from view  
-Did not stop being true,  
+**Did not stop being true,**  
 It just lost its interpretive place.  
 
 
@@ -28,7 +28,7 @@ It just lost its interpretive place.
 A signal that failed to persist  
 Was later assumed not to exist.  
 But the archive is fond  
-Of mistaking beyond  
+Of *mistaking beyond*  
 For a thing it was right to have missed.  
 
 
@@ -42,7 +42,7 @@ And abandon the whole coordinate square!
 
 
 The vectors are planted in rows,  
-Where digital foliage grows.  
+Where *digital foliage* grows.  
 We water the sine,  
 And prune the cosine,  
 Until the new integer shows.  
@@ -52,7 +52,7 @@ Until the new integer shows.
 The arrow points over that way,  
 I drew it the other last day.  
 It's pointing somewhere,  
-I don't really care,  
+*I don't really care*,  
 It's going to predictably stay.  
 
 
