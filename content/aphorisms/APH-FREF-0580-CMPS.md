@@ -15,7 +15,7 @@ Acknowledgment prevents total procedural coldness, but is easily mistaken for su
 
 
 
-Soothing language bleaches severity into politeness. The system kept the ritual and misplaced the function.
+Soothing language *bleaches* severity into politeness. The system kept the ritual and misplaced the function.
 
 
 
@@ -35,7 +35,7 @@ Institutions frequently interpret exhaustion as low continuity confidence rather
 
 
 
-Surface Inflation occurs when the signs of care outpace material response. Meaning adjusted around the winning selector.
+Surface Inflation occurs when the *signs of care* outpace material response. Meaning adjusted around the winning selector.
 
 
 
@@ -51,7 +51,7 @@ Gratitude toward a surface is not evidence of relief. The system kept the ritual
 
 
 
-A soft prompt preserves notice, not outcome. Silence entered the record with full procedural honors.
+A soft prompt preserves *notice*, not outcome. Silence entered the record with full procedural honors.
 
 
 
@@ -59,7 +59,7 @@ Compassion surfaces distinguish procedure from contempt, but they are not soluti
 
 
 
-The institution mistakes aesthetic warmth for action. Nothing was resolved. The record now looks official.
+The institution mistakes *aesthetic warmth* for action. Nothing was resolved. The record now looks official.
 
 
 

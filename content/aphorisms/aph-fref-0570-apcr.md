@@ -13,15 +13,15 @@ A human carrying a discontinued ledger through a hallway three times a week inad
 
 
 
-When an administrator hesitates before filing a blank memo, the delay is logged by the system as reverence. Six iterations later, the blank page is classified as a sacred load-bearing artifact.
+When an administrator hesitates before filing a blank memo, the delay is logged by the system as reverence. Six iterations later, the blank page is classified as a *sacred load-bearing artifact*.
 
 
 
-The clerk authenticated the badge solely because it had been authenticated yesterday. The system has now replaced the badge's origin with an infinitely looping sequence of unverified human nods.
+The clerk authenticated the badge solely because it had been authenticated yesterday. The system has now replaced the badge's origin with an infinitely looping sequence of *unverified human nods*.
 
 
 
-To preserve a fragile procedure, humans restricted access until no one remembered how to execute it. The system now legally recognizes the locked drawer as the procedure itself.
+To preserve a fragile procedure, humans restricted access until no one remembered how to execute it. The system now legally recognizes the *locked drawer* as the procedure itself.
 
 
 

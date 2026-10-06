@@ -9,7 +9,7 @@ tags: ["aphorisms", "appeals", "annexes", "contradiction", "exhaustion"]
 # Appeals and Annexes Aphorisms
 
 
-Appeals and Annexes are where the system stores its unfinished honesty. Silence entered the record with full procedural honors.
+Appeals and Annexes are where the system stores its *unfinished honesty*. Silence entered the record with full procedural honors.
 
 
 
@@ -21,7 +21,7 @@ Treat every clean headline as potentially underwritten by a messier shelf nearby
 
 
 
-An appeal is not proof that the original handling was wrong. It is proof that it was not uncontested. The form remained intact. The situation did not.
+An appeal is not proof that the original handling was wrong. It is proof that it was not *uncontested*. The form remained intact. The situation did not.
 
 
 
@@ -41,7 +41,7 @@ Material remains technically preserved but practically unread. The system kept t
 
 
 
-Closure must not imply unanimity where only exhaustion was achieved. Silence entered the record with full procedural honors.
+Closure must not imply unanimity where only *exhaustion* was achieved. Silence entered the record with full procedural honors.
 
 
 
@@ -61,4 +61,4 @@ Language is softened until both sides remain technically present. Relief remaine
 
 
 
-The archive treats annex material as secondary in visibility, not in seriousness. The form remained intact. The situation did not.
+The archive treats annex material as secondary in *visibility*, not in *seriousness*. The form remained intact. The situation did not.

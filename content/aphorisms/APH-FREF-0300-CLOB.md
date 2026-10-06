@@ -9,11 +9,11 @@ tags: ["aphorisms", "transcript", "intake", "orientation", "lodge-culture"]
 # Cross-Lodge Briefing Aphorisms
 
 
-Titles tell you what you earned elsewhere and who will volunteer for forms here. Relevance expired before processing resumed.
+Titles tell you what you earned elsewhere and who will *volunteer for forms* here. Relevance expired before processing resumed.
 
 
 
-Several pens stop moving. The system kept the ritual and misplaced the function.
+Several pens *stop moving*. The system kept the ritual and misplaced the function.
 
 
 
@@ -25,4 +25,4 @@ A cross-lodge briefing is primarily a contest to see whose archaic jargon can pa
 
 
 
-If the transcript of the briefing makes sense, it must be returned to the orientation desk for further obfuscation.
+If the transcript of the briefing makes sense, it must be returned to the orientation desk for further *obfuscation*.
