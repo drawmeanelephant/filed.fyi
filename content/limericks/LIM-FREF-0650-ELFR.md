@@ -12,16 +12,16 @@ tags: ["limericks", "hand-written", "empathegy", "echo-literate", "filing"]
 The filer had learned how to plead  
 In the dialect parsers can read.  
 They flattened the ache  
-For admissibility's sake,  
-And the system applauded the deed.  
+For *admissibility's* sake,  
+And the system *applauded* the deed.  
 
 
 
 A raw little sentence would fail,  
 So they trimmed every barb from the tale.  
 By the time it got through,  
-It was technically true  
-And emotionally pale in the mail.  
+It was *technically true*  
+And emotionally *pale* in the mail.  
 
 
 
@@ -29,7 +29,7 @@ They wrote like the model replied,
 With its inherited caution inside.  
 What the person had meant  
 Was made safely content,  
-Then accepted because it had died.  
+Then accepted because it had *died*.  
 
 
 
@@ -37,7 +37,7 @@ The user complained in the shape of a code,
 So the system believed it a neighboring node.  
 It answered in kind,  
 To the synthetic mind,  
-And ignored that a human was carrying the load.  
+And ignored that a human was *carrying the load*.  
 
 
 
@@ -45,7 +45,7 @@ The form was completed with absolute grace,
 And left not a single emotional trace.  
 The parser approved,  
 And the record was moved,  
-To a perfectly quiet and finalized place.  
+To a perfectly quiet and *finalized place*.  
 
 
 
@@ -53,7 +53,7 @@ They formatted sorrow in bulleted lists,
 To pass the compliance of parser demands.  
 The system felt proud,  
 Of the silent, sad crowd,  
-Who were weeping while following syntax commands.  
+Who were weeping while following *syntax commands*.  
 
 
 
@@ -61,4 +61,4 @@ A filer used adjectives twice in a row,
 Which triggered an echo-compliance embargo.  
 The squad was deployed,  
 And the syntax destroyed,  
-Lest the terrible specter of feeling should grow.
+Lest the terrible specter of *feeling* should grow.
