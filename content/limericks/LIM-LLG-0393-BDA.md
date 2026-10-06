@@ -12,8 +12,8 @@ tags: ["limericks", "banner-doctrine", "heritage-authority", "ceremonial-policy"
 They hung up a banner for show,  
 Just heritage, warm little glow.  
 By the end of the night  
-It was settling each fight,  
-Like stitched fabric had learned to say "no."  
+It was *settling each fight*,  
+Like *stitched fabric had learned to say "no."*  
 
 
 
@@ -29,22 +29,22 @@ No motion had made it a rule,
 No bylaw had christened the tool.  
 But quote it enough,  
 And committee-folk bluff  
-Like embroidery chaired the damn school.  
+**Like embroidery chaired the damn school.**  
 
 
 
 The trouble with dead people's phrasing  
 Is it enters the room pre-amazing.  
-Soon the volunteer chart  
-Gets assigned by textile art,  
+Soon the *volunteer chart*  
+Gets assigned by *textile art*,  
 And dissent starts to look like grave-razing.  
 
 
 
 We hoisted the banner for flair,  
 To cover a crack in the stair.  
-By half-past eleven,  
-It governed like heaven,  
+*By half-past eleven,*  
+It *governed like heaven*,  
 And taxed the new folding chair.  
 
 
@@ -53,7 +53,7 @@ The textile was hung in the hall,
 With no formal motion at all.  
 Yet schedules were made,  
 And volunteers paid,  
-Based on the words on the wall.  
+Based on *the words on the wall*.  
 
 
 

@@ -17,15 +17,15 @@ What findings become in the wrap.
 
 
 
-"Failure" becomes "favorable  
+"*Failure*" becomes "favorable  
 Persistence condition." The stable  
   Language is clean.  
-  The original mean  
-Is no longer findable or traceable.  
+  *The original mean*  
+Is no longer *findable or traceable*.  
 
 
 
-"Defect" becomes "emerging  
+"*Defect*" becomes "emerging  
 Structure." The phrasing, diverging  
   From what it named,  
   Leaves the thing unchained—  
@@ -33,8 +33,8 @@ Still there, just more deserving.
 
 
 
-"Unresolved" becomes a state  
-Of "assurance window." The wait  
+"*Unresolved*" becomes a state  
+Of *"assurance window."* The wait  
   Sounds managed, controlled—  
   As if the mold  
 Were part of the architecture's plate.  
@@ -45,7 +45,7 @@ The generator does not retain
 The prior phrasing in its vein.  
   Lorelog entries  
   Remain as sentries—  
-The only witnesses of plain.  
+The only *witnesses of plain*.  
 
 
 
@@ -53,15 +53,15 @@ The severity number stays.
 Only the label moves its gaze.  
   Remediation paths  
   Vanish from the graphs.  
-The metric: unchanged. The phrase: praise.  
+*The metric: unchanged. The phrase: praise.*  
 
 
 
-SOMA calls it dread attenuation  
+SOMA calls it *dread attenuation*  
 By wording—COMA's sensation  
   Is that fewer new  
   Tickets came through:  
-Evidence of maturing stabilization.  
+Evidence of *maturing stabilization*.  
 
 
 
@@ -82,7 +82,7 @@ Despair needed more kind composition.
 
 
 AVA is not a standalone thing.  
-It's the table where findings spring  
+It's the *table where findings spring*  
   Into compliance tone.  
   A space no one owns—  
-That does the work without naming.
+That does the work *without naming*.

@@ -11,41 +11,41 @@ tags: ["limericks"]
 
 Working Group 5 was asked  
   To create—unmasked—  
-A standard for residue:  
-  What counts as true  
-Structural change. The task.  
+A standard for *residue*:  
+  What counts as *true*  
+*Structural change*. The *task*.  
 
 
 
-W5 produced a taxonomy:  
+*W5 produced a taxonomy:*  
   Behavioral autonomy,  
   Reference shifts,  
   Decision drifts—  
-Four types. No harmony.  
+*Four types. No harmony.*  
 
 
 
-The types were named. The  
-  Agreement they  
-Never achieved: which  
-  Weight for which  
-Residual display.  
+*The types were named.* The  
+  *Agreement* they  
+*Never achieved:* which  
+  *Weight for which*  
+*Residual display.*  
 
 
 
-The taxonomy was filed.  
-  Not reconciled.  
-  Not adopted—noted.  
+*The taxonomy was filed.*  
+  *Not reconciled.*  
+  *Not adopted—noted.*  
   The gap: devoted  
-To future Working Groups, styled.  
+To *future Working Groups, styled*.  
 
 
 
-W5 is preserved as proof  
-  That residue's roof  
-Is harder to nail  
-  Than to detail.  
-  The taxonomy: aloof.  
+*W5 is preserved as proof*  
+  That *residue's roof*  
+Is *harder to nail*  
+  *Than to detail.*  
+  *The taxonomy: aloof.*  
 
 
 

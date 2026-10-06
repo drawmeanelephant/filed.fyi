@@ -10,32 +10,32 @@ tags: ["limericks"]
 
 
 B-4A: not full rage—  
-  Low-grade chronic stage  
+  *Low-grade chronic stage*  
 Of vigilance. Under  
   Feed's constant thunder,  
-Attunement becomes the cage.  
+Attunement becomes *the cage*.  
 
 
 
-Not activated—just aware.  
-  Always half-prepared  
+*Not activated*—*just aware.*  
+  *Always half-prepared*  
 For the next update.  
   The chronic state  
-Of ambient news: ensnared.  
+Of ambient news: *ensnared*.  
 
 
 
-DOGE: ambient echo condition.  
+*DOGE: ambient echo condition.*  
   Feed-adjacent fruition  
-Of attention. Residue  
+Of *attention*. *Residue*  
   Debated. The view:  
-Not clearly genuine's position.  
+Not clearly *genuine's* position.  
 
 
 
-SOMA: chronic low-grade  
-  Burden indicator. Afraid  
-Of accumulation.  
+*SOMA: chronic low-grade*  
+  *Burden indicator. Afraid*  
+*Of accumulation.*  
   The population  
 Of vigilance: SOMA's grade.  
 
@@ -45,7 +45,7 @@ COMA: invisible unless
   Throughput falls. The mess  
 Of vigilance is  
   Not COMA's biz  
-Until output: less.  
+*Until output: less.*  
 
 
 

@@ -12,7 +12,7 @@ tags: ["limericks", "scheduled-exception", "maintenance-window", "continuity-opt
 The maintenance ran through seven  
 Rounds of risk review, eleven  
   Signatures deep—  
-  Then it went smooth as sleep.  
+  Then it went *smooth as sleep*.  
 And that was the problem, apparently.  
 
 
@@ -20,7 +20,7 @@ And that was the problem, apparently.
 It completed on time and clean.  
 No tickets. No one convened.  
   COMA looked back:  
-  "Suspiciously slack.  
+  *"Suspiciously slack.*  
 Significant change should have keened."  
 
 
@@ -29,7 +29,7 @@ CAB recorded it thus:
 A model execution. A plus.  
   Continuity review  
   Said: we construe  
-Success as a cause for suspicion's fuss.  
+Success as a *cause for suspicion's fuss*.  
 
 
 
@@ -43,9 +43,9 @@ For systems that need a scar's chafe.
 
 A draft doctrine circulates now:  
 Approved change is safest somehow  
-  When it fails a bit—  
-  Slight failure permits  
-That something authorized happened. Avow.  
+  When it *fails a bit*—  
+  *Slight failure permits*  
+That something *authorized happened. Avow.*  
 
 
 
@@ -53,7 +53,7 @@ No board claims that sentence at all.
 It keeps appearing, in different scrawl,  
   In margins of forms,  
   In advisory norms—  
-Nobody's authorship. Free-for-all.  
+*Nobody's authorship. Free-for-all.*  
 
 
 
@@ -61,7 +61,7 @@ Silence during approved window:
 Was it competence or window-  
   Dressing, concealed?  
   The panel revealed:  
-Depends on which calendar you follow.  
+**Depends on which calendar you follow.**  
 
 
 

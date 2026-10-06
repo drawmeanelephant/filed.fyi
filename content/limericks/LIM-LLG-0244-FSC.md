@@ -11,82 +11,82 @@ tags: ["limericks", "shadow-copies", "draft-forms", "registry-drift"]
 
 The registry offered a draft  
 To help with the difficult craft.  
-It worked well enough  
-That the shadows got tough,  
-And began doing workflow by graft.  
+*It worked well enough*  
+That the *shadows got tough*,  
+And began *doing workflow by graft*.  
 
 
 
-They lacked canonical birth,  
-Yet still held procedural worth.  
+They lacked *canonical birth*,  
+Yet still held *procedural worth*.  
 If the case number fit  
-Then downstream used it,  
-Because interfaces value smooth surf.  
+Then *downstream used it*,  
+Because interfaces *value smooth surf*.  
 
 
 
 Bricky saw dozens go by  
-And shrugged, "They look real to the eye."  
+And shrugged, *"They look real to the eye."*  
 Which, honestly, fair:  
 If it's there and works there,  
-Most humans won't question the why.  
+Most humans won't *question the why*.  
 
 
 
-The shadows were easier to use  
-Than the real forms the archive would choose.  
+The shadows were *easier to use*  
+Than the *real forms* the archive would choose.  
 So naturally, then,  
 They were murdered again  
-For insufficiently licensed reviews.  
+For *insufficiently licensed* reviews.  
 
 
 
 Lorelog intake cited demands  
-From forms no authority manned.  
+From forms no *authority manned*.  
 That's one gorgeous breed  
 Of administrative weed:  
-An invention that issues commands.  
+**An invention that issues commands.**  
 
 
 
 The guidance said, "Use only real."  
-How to tell? That remained the ordeal.  
+How to tell? That remained *the ordeal*.  
 If the fake one behaved  
-And the sanctioned one waved,  
-You were left with a mystical feel.  
+And the *sanctioned* one waved,  
+You were left with a *mystical feel*.  
 
 
 
-This is how paperwork haunts:  
-Not with screams, but with slightly wrong wants.  
+*This is how paperwork haunts:*  
+Not with screams, but with *slightly wrong wants*.  
 Auto-draft makes a twin,  
 Then the twin gets let in,  
-Then the building forgets what it wants.  
+Then the building *forgets what it wants*.  
 
 
 
 C.U.N.T.I.E.R. smelled a new tier:  
-"Experimental stability" here.  
+"*Experimental stability*" here.  
 Which means paid-for ghosts,  
 Metrics nailed to their posts,  
-And a dashboard to sanctify fear.  
+And a dashboard to *sanctify fear*.  
 
 
 
-The synchronized kill switch was clean.  
+The synchronized *kill switch* was clean.  
 All shadows went dark off the screen.  
 Still the staff, by report,  
 Missed the forms of that sort  
 Because fake ones had actually been mean-  
-ingful help, which the real ones had not.  
+ingful help, which the *real ones* had not.  
 
 
 
 So if draft copies start to outrun  
-The official approved little one,  
+The *official approved* little one,  
 Don't ask which is true.  
-Ask which one you use.  
-That's the one that already has won.  
+Ask *which one you use*.  
+That's the one that *already has won*.  
 
 
 

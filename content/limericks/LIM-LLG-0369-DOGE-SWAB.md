@@ -11,33 +11,33 @@ tags: ["limericks"]
 
 Sweep for Wayward and  
   Boundary-adjacent—and  
-Provenance stamps  
-  Outside their amps:  
+*Provenance stamps*  
+  *Outside their amps:*  
 The SWAB is what's planned.  
 
 
 
 SWAB finds stamps applied  
   To cases that tried  
-To borrow certification  
-  From adjacent station.  
-  Provenance: denied.  
+To *borrow certification*  
+  From *adjacent station*.  
+  *Provenance: denied.*  
 
 
 
-Most drift is not strategic.  
-  It's systemic—tragic  
-Accumulation of  
+*Most drift is not strategic.*  
+  It's *systemic—tragic*  
+*Accumulation of*  
   Reference. Above  
 All: it's automatic magic.  
 
 
 
-SWAB results: revocation  
-  Of stamps. Recitation  
+*SWAB results: revocation*  
+  *Of stamps. Recitation*  
 Of boundaries. Some  
   Cases come  
-Back to DOGE for re-examination.  
+Back to *DOGE* for *re-examination*.  
 
 
 

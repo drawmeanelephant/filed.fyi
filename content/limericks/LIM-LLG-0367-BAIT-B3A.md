@@ -11,33 +11,33 @@ tags: ["limericks"]
 
 B-3A: each outrage depletes.  
   The next one meets  
-Less scrutiny, more  
-  Familiar rage. Before  
-Long: reflex repeats.  
+*Less scrutiny, more*  
+  *Familiar rage. Before*  
+*Long: reflex repeats.*  
 
 
 
-The first BAIT event: sharp.  
-  The fifth: a harp  
-Already tuned. The tenth:  
+*The first BAIT event: sharp.*  
+  *The fifth: a harp*  
+*Already tuned.* The *tenth:*  
   Automatic breadth  
-Of outrage. No need to carp.  
+Of outrage. *No need to carp.*  
 
 
 
 B-3A blends with B-2B:  
   Familiarity  
 Offormat makes the loop  
-  Tighter. The group  
-Of triggers: efficiency.  
+  *Tighter.* The *group*  
+Of triggers: *efficiency*.  
 
 
 
 What the fatigue loop serves:  
-  It preserves  
-Engagement by making  
+  *It preserves*  
+*Engagement by making*  
   Outrage's taking  
-Require less. The reserves.  
+*Require less.* *The reserves.*  
 
 
 
@@ -45,7 +45,7 @@ DOGE asks: in the interval
   Between, was revival  
 Of scrutiny possible?  
   If not: the logical  
-Conclusion is B-3A. Survival.  
+Conclusion is *B-3A*. *Survival.*  
 
 
 
