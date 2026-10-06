@@ -11,14 +11,14 @@ tags: ["limericks", "pancake-breakfast", "scholarship-fund", "forecast-drift"]
 
 By ten-forty the emcee declared  
 All four awards practically squared.  
-The cashbox said, "Wait."  
+**The cashbox said, "Wait."**  
 But the crowd felt so great  
-That the syrup got entered as shared.  
+That the syrup got *entered as shared*.  
 
 
 
-They treated applause as a fund,  
-Like clapping could settle the sum.  
+They treated *applause as a fund*,  
+Like *clapping could settle the sum*.  
 Unsold raffle strips  
 Became generous tips,  
 Till the cashbox said, "That's not how funds come."  
@@ -29,7 +29,7 @@ The guidance was crisp, after all:
 Don't announce every dream to the hall.  
 If the second syrup spill  
 Hasn't happened yet, chill.  
-Mood is lovely, but mood won't clear all.  
+*Mood is lovely, but mood won't clear all.*  
 
 
 
@@ -37,7 +37,7 @@ Though enthusiasm spent past its means,
 Quiet donors came in from the wings.  
 So the error got dressed  
 As communal good sense,  
-And the books wore benevolent jeans.  
+And the books wore *benevolent jeans*.  
 
 
 
