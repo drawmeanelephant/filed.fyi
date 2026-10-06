@@ -9,8 +9,8 @@ tags: ["limericks", "cuntier", "metric-inflation", "forms-per-form"]
 # C.U.N.T.I.E.R. Metric Inflation
 
 
-C.U.N.T.I.E.R. set out to reduce  
-How many forms each form might induce.  
+C.U.N.T.I.E.R. set out to *reduce*  
+How many forms each form *might induce*.  
 By optimizing hard,  
 It achieved the regard  
 Of a system that doubled the abuse.  
@@ -18,10 +18,10 @@ Of a system that doubled the abuse.
 
 
 The metric was simple and bright:  
-"Forms per completed action" by night.  
+*"Forms per completed action"* by night.  
 So they wrapped each request  
 In more forms for the test,  
-And called that improved oversight.  
+And called that *improved oversight*.  
 
 
 
@@ -35,9 +35,9 @@ Another annex and cousin department.
 
 One submission required a form  
 To explain why the prior form's norm  
-Had been poorly conveyed.  
+Had been *poorly conveyed*.  
 Then a second was made  
-To assess if the explanation was warm.  
+To assess if the explanation was *warm*.  
 
 
 
@@ -45,15 +45,15 @@ The initiative claimed to streamline.
 The result was baroque and malign.  
 Every simplification  
 Spawned its own validation,  
-Like a dickheaded bureaucrat vine.  
+Like a *dickheaded bureaucrat vine*.  
 
 
 
 A filer asked, "What is this for?"  
 The answer produced seven more.  
-When the last one was signed,  
+When the last one was *signed*,  
 No one quite kept in mind  
-What the first one had even been for.  
+What the first one had *even been for*.  
 
 
 
@@ -65,19 +65,19 @@ Till the map's all metric attitude.
 
 
 
-The team hit their benchmark, on paper.  
-The paper grew thicker and stranger.  
+The team hit their *benchmark*, on paper.  
+The paper grew *thicker and stranger*.  
 If the metric improved,  
 Then the doctrine approved  
-Though the users were kneeling in danger.  
+**Though the users were kneeling in danger.**  
 
 
 
 They wanted less form, not more form.  
 That distinction should not be a storm.  
-But C.U.N.T.I.E.R.' bliss  
-Is to thoroughly miss  
-Any target once trapped in a norm.  
+But C.U.N.T.I.E.R.' *bliss*  
+Is to *thoroughly miss*  
+Any target once *trapped in a norm*.  
 
 
 
@@ -85,7 +85,7 @@ So if one little request starts to breed
 Supplementary exhibits at speed,  
 You are not in a queue.  
 You're the metric's fondue,  
-Melting slowly to justify greed.  
+Melting slowly to *justify greed*.  
 
 
 

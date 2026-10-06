@@ -49,24 +49,24 @@ Now get **back to your desk** till you die."
 
 
 
-They scheduled a "rest" on the grid,  
-In a slot where the workload was hid.  
-The calendar smiled,  
-While the backlog grew wild,  
-And the body did just what it's bid.  
+They scheduled a *"rest"* on the grid,  
+In a slot where the workload was *hid*.  
+The calendar *smiled*,  
+While the *backlog grew wild*,  
+And the body did *just what it's bid*.  
 
 
 
 SOMA logged every heavy-set sigh,  
-With a prompt that was asking them why.  
-It captured the sound,  
-Left the help to be found,  
-In a future that never was nigh.  
+With a prompt that was *asking them why*.  
+It *captured the sound*,  
+Left the help *to be found*,  
+In a future that *never was nigh*.  
 
 
 
-The meat had been used up by ten,  
-So they started on bone once again.  
-The metrics stayed high,  
-In a productive lie,  
-While the humans were folded like linen.
+The *meat had been used up* by ten,  
+So they started on *bone* once again.  
+The *metrics stayed high*,  
+In a *productive lie*,  
+While the humans were *folded like linen*.
