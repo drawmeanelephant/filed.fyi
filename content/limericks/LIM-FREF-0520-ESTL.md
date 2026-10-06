@@ -13,19 +13,19 @@ A weak little workflow got dressed
 In the clothes of a system more blessed.  
 The mismatch was wide,  
 But the mockup had pride,  
-So the meeting pronounced it progressed.  
+So the meeting *pronounced it progressed*.  
 
 
 
-They imported a high-status face,  
-Then applied it to low-status space.  
+They imported a *high-status face*,  
+Then applied it to *low-status space*.  
 It confused what was true,  
 But the screenshots looked new,  
 Which is often accepted as grace.  
 
 
 
-The surface survived every test,  
+**The surface survived every test,**  
 Though the function was plainly half-dressed.  
 When the users said, "Wait,"  
 The review called it state-  
@@ -45,14 +45,14 @@ The logic was heavily flawed,
 But the interface made us applaud.  
 It was rapidly passed  
 Since the renders were fast,  
-And the underlying code was ignored.  
+And the underlying code was *ignored*.  
 
 
 
 The oven is painted in blue,  
 To look like a calendar, too.  
 When the baking is hot,  
-We pretend that it's not,  
+We *pretend* that it's not,  
 And schedule a meeting for two.  
 
 
@@ -81,7 +81,7 @@ And the relevant sirens will sound.
 
 
 
-The surface legitimacy died,  
+The *surface legitimacy* died,  
 When the formatting wasn't applied.  
 The aesthetic decay,  
 Must be neutralized today,  

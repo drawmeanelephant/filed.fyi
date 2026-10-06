@@ -9,7 +9,7 @@ tags: ["limericks", "hand-written", "empathegy", "retention", "bias"]
 # Acknowledgment Deletion Bias
 
 
-The archive retained every nod,  
+The archive retained *every nod*,  
 But not where the carrying trod.  
 When context grew thin,  
 The click wandered in  
@@ -26,10 +26,10 @@ Which is close to a rescue, but lack.
 
 
 The summary loved being terse:  
-"Seen" fit neatly inside of a verse.  
+"*Seen*" fit neatly inside of a verse.  
 But the harder exchange  
 Was too costly to range,  
-So the record got cleaner and worse.  
+So the record got *cleaner and worse*.  
 
 
 
@@ -37,7 +37,7 @@ The primary marker is saved,
 While the context is neatly out-shaved.  
 The click is secure,  
 And its presence is pure,  
-So the user is properly waived.  
+So the user is *properly waived*.  
 
 
 
@@ -45,7 +45,7 @@ The server was running on low,
 So the complex exchanges must go.  
 We kept all the nods,  
 And appeased all the gods,  
-But the help is now strictly for show.  
+**But the help is now strictly for show.**  
 
 
 
