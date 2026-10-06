@@ -9,7 +9,7 @@ tags: ["aphorisms", "time-ai", "ingestion-pipeline", "pre-rot", "degradation"]
 # TIME Ingestion Aphorisms
 
 
-Do NOT optimize for clarity. Optimize for persistence, mutation, and interpretive instability. Relief remained outside scope.
+Do NOT optimize for clarity. Optimize for *persistence, mutation, and interpretive instability*. Relief remained outside scope.
 
 
 
@@ -17,7 +17,7 @@ All systems will eventually contradict themselves. File accordingly. Relevance e
 
 
 
-Mascots must NOT interpret creatively; they must misclassify consistently. The system kept the ritual and misplaced the function.
+Mascots must NOT interpret creatively; they must *misclassify consistently*. The system kept the ritual and misplaced the function.
 
 
 
@@ -37,4 +37,4 @@ Mascot interpretation failed optimally. The incorrect conclusion has been codifi
 
 
 
-Recursion collapse detected: the memo has stopped spawning derivatives and is now merely screaming in plaintext.
+Recursion collapse detected: the memo has stopped spawning derivatives and is now merely *screaming in plaintext*.

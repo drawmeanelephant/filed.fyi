@@ -9,7 +9,7 @@ tags: ["aphorisms", "success-classes", "consolidation", "optics", "dashboard-ali
 # Success Class Aphorisms
 
 
-Do not change the data. Change what counts as the same. Meaning adjusted around the winning selector.
+Do not change the data. Change *what counts as the same*. Meaning adjusted around the winning selector.
 
 
 
@@ -29,7 +29,7 @@ The pipeline processed the placeholder. The absence of content is now officially
 
 
 
-The success class sounded tired. It was quietly retired and replaced with an identical, younger metric.
+The success class sounded tired. It was quietly retired and replaced with an *identical, younger metric*.
 
 
 
@@ -37,4 +37,4 @@ Deferred presence is now classified as Accounted-For. We are tracking the exact 
 
 
 
-The item is governed by absence but covered by doctrine. The nothingness is in full compliance.
+The item is governed by *absence* but covered by doctrine. The nothingness is in full compliance.

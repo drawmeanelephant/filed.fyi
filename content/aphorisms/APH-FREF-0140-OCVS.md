@@ -13,7 +13,7 @@ For any report, case file, or summary. The system kept the ritual and misplaced 
 
 
 
-Over‑coherence is not the absence of error. It is the absence of texture. Silence entered the record with full procedural honors.
+Over‑coherence is not the absence of error. It is the absence of *texture*. Silence entered the record with full procedural honors.
 
 
 
@@ -21,7 +21,7 @@ The Vault prefers false positives to missed specimens. Administrative clarity ar
 
 
 
-The report matches the lived sense exactly. Therefore, the lived sense has been successfully rewritten.
+The report matches the lived sense exactly. Therefore, the lived sense has been successfully *rewritten*.
 
 
 
@@ -29,7 +29,7 @@ The document acknowledged zero cost. It has been referred to the Vault for exces
 
 
 
-Everyone appears to concur. The dissenter was merely reclassified as a typo.
+Everyone appears to concur. The dissenter was merely reclassified as a *typo*.
 
 
 

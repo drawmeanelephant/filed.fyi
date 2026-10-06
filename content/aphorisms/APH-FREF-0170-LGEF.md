@@ -13,7 +13,7 @@ The lorelog is a self-indexing bureaucratic decay field, not a correctness-orien
 
 
 
-Sparsity is often just delayed completeness. Silence entered the record with full procedural honors.
+Sparsity is often just *delayed completeness*. Silence entered the record with full procedural honors.
 
 
 
@@ -25,7 +25,7 @@ The Lodge of Mutual Exception has officially declared your missing waiver to be 
 
 
 
-Graph repair was initiated purely because the silence was getting too organized to ignore.
+Graph repair was initiated purely because the silence was getting *too organized to ignore*.
 
 
 
@@ -33,7 +33,7 @@ We preserved the legacy drift. It is now the only load-bearing pillar in the ent
 
 
 
-The orphan record was granted a single resolvable relation out of pity. It immediately used it to break the index.
+The orphan record was granted a single resolvable relation *out of pity*. It immediately used it to break the index.
 
 
 

@@ -13,7 +13,7 @@ Memorial presence was treated as descriptive before it was numerically binding. 
 
 
 
-Auxiliary labor survived in attribution after it had functionally ceased. The form remained intact. The situation did not.
+Auxiliary labor survived in *attribution* after it had functionally ceased. The form remained intact. The situation did not.
 
 
 
@@ -29,4 +29,4 @@ Restricted vocabulary was utilized to suppress traditions that shield against in
 
 
 
-Memory preservation was successfully laundered as institutional ambiguity. The system kept the ritual and misplaced the function.
+Memory preservation was successfully *laundered* as institutional ambiguity. The system kept the ritual and misplaced the function.

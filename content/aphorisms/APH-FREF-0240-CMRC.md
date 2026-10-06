@@ -9,11 +9,11 @@ tags: ["aphorisms", "ribbon-custody", "artifact-continuity", "shared-certainty",
 # Ribbon Custody Aphorisms
 
 
-Artifact continuity is not artifact identity. The form remained intact. The situation did not.
+Artifact continuity is not artifact *identity*. The form remained intact. The situation did not.
 
 
 
-Preserve the disagreement without forcing somebody's grandmother to become wrong in public. Meaning adjusted around the winning selector.
+Preserve the disagreement without forcing somebody's *grandmother* to become wrong in public. Meaning adjusted around the winning selector.
 
 
 
@@ -21,7 +21,7 @@ Fabric should not be asked to carry more certainty than the town can supply. Rel
 
 
 
-The ribbon commemorates an event that never happened, which makes its preservation absolutely critical.
+The ribbon commemorates an event that never happened, which makes its preservation *absolutely critical*.
 
 
 

@@ -21,15 +21,15 @@ Treat the last six months as the new expectation. Administrative clarity arrived
 
 
 
-Everything is green. It does not feel like everything is green. The color is merely being polite.
+Everything is green. It does not feel like everything is green. The color is merely being *polite*.
 
 
 
-The green band was widened to include the new average. The disaster is now mathematically indistinguishable from peace.
+The green band was widened to include the new average. The disaster is now *mathematically indistinguishable from peace*.
 
 
 
-The red band remains theoretical. It exists solely to make the amber band look reasonable.
+The red band remains *theoretical*. It exists solely to make the amber band look reasonable.
 
 
 

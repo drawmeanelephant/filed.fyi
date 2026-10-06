@@ -13,7 +13,7 @@ Reception is not disposition. Relief remained outside scope.
 
 
 
-Any scholarship amount announced before the second syrup spill should be marked aspirational. Relevance expired before processing resumed.
+Any scholarship amount announced before the *second syrup spill* should be marked aspirational. Relevance expired before processing resumed.
 
 
 
@@ -21,4 +21,4 @@ Any phrase beginning 'it was understood at lunch' should trigger immediate inter
 
 
 
-Civic overcommitment is the process of volunteering for a committee that was formed to dissolve itself.
+Civic overcommitment is the process of volunteering for a committee that was formed to *dissolve itself*.
