@@ -11,17 +11,17 @@ tags: ["limericks", "scholarship-fund", "memorial-criteria", "grief-governance"]
 
 The packet said service and grit,  
 But the room had another small fit:  
-"Would dear Harriet smile  
+*"Would dear Harriet smile*  
 At this youngster's whole style?"  
-Which is not a criterion, shit.  
+Which is *not a criterion*, shit.  
 
 
 
 They said one applicant felt just right,  
 With a steadiness Harriet might cite.  
-That's affectionate fog,  
+*That's affectionate fog,*  
 Not a score on a log,  
-And it dies when exposed to the light.  
+And it *dies when exposed to the light*.  
 
 
 
@@ -29,7 +29,7 @@ The strongest on paper got beat
 By a candidate softer and sweet.  
 Not because they had earned  
 What the handout had termed,  
-But because Harriet's ghost chose the seat.  
+**But because Harriet's ghost chose the seat.**  
 
 
 
@@ -37,7 +37,7 @@ The rule Sister Casserole gave
 Was both kind and administratively brave:  
 If you'd blush to explain  
 Why you docked them a grain,  
-Then that metric belongs in a grave.  
+Then that metric *belongs in a grave*.  
 
 
 

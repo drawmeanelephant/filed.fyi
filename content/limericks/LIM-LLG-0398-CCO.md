@@ -10,18 +10,18 @@ tags: ["limericks", "merger-drift", "honorary-office", "chapter-governance"]
 
 
 They retired old offices, neat,  
-Then kept titles on banquet receipts.  
+Then kept *titles on banquet receipts*.  
 Three meetings went by,  
 And "former" meant "why,  
-Yes, of course they still steer from good seats."  
+*Yes, of course they still steer from good seats."*  
 
 
 
 The merger reduced not a thing.  
-It just taught old authority to sing.  
+It just taught old *authority to sing*.  
 Once the elders were named  
 All objections got tamed,  
-And politeness grew procedural sting.  
+And politeness grew *procedural sting*.  
 
 
 
@@ -36,13 +36,13 @@ Unless bylaws have finally stopped teasin'.
 The room was more calm, it is true,  
 When the elders got softly obeyed through.  
 That's the trap of good tone:  
-Soon no vote stands alone,  
-And the chair learns to nod before you.  
+*Soon no vote stands alone,*  
+**And the chair learns to nod before you.**  
 
 
 
 The office was strictly retired,  
-Yet somehow it still isn't fired.  
+Yet somehow it *still isn't fired*.  
 The bylaws say nay,  
 But etiquette's way,  
 Has left the procedure acquired.  
@@ -101,12 +101,12 @@ The human who triggers the phrase,
 Will fracture the order for days.  
 The system suspends,  
 The logic upends,  
-As etiquette blocks the displays.  
+As *etiquette blocks the displays*.  
 
 
 
 The guidance was newly refined.  
-All honorary ranks are declined.  
+*All honorary ranks are declined.*  
 The seating array,  
 Has zero to say,  
 On votes that the chapter assigned.  

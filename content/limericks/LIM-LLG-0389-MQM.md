@@ -12,24 +12,24 @@ tags: ["limericks", "memorial-quorum", "attendance-rot", "threshold-drift"]
 They imported the dead with respect  
 To keep names on the sheet and correct.  
 But the quorum tool read  
-Every ghost as "present" instead,  
-And the roof vote got spiritually checked.  
+Every ghost as *"present"* instead,  
+And the roof vote got *spiritually checked*.  
 
 
 
 The chair counted souls in continuity.  
 The treasurer counted chairs in the room.  
 One margin note sighed,  
-"We've enough past to decide,  
-But not enough asses for quorum by noon."  
+*"We've enough past to decide,*  
+But *not enough asses* for quorum by noon."  
 
 
 
 No bastard was trying to cheat.  
 They were mourning in tidy elite.  
-But if grief fills the cells,  
-Then arithmetic yells,  
-"I don't know if this counts as a seat."  
+But if *grief fills the cells*,  
+Then *arithmetic yells*,  
+**"I don't know if this counts as a seat."**  
 
 
 
@@ -43,8 +43,8 @@ Or re-hear that warm nonsense when winter blows past.
 
 The quorum parameters bent  
 To log an emotional event.  
-The dead voted "yea"  
-In a procedural way,  
+The dead voted *"yea"*  
+In a *procedural* way,  
 Authorizing the funds that we spent.  
 
 

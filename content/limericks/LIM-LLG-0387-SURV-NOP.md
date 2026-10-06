@@ -18,10 +18,10 @@ So the system was judged pretty chic.
 
 
 They inspected the proof of the proof,  
-Which is audit erotica, poof.  
+Which is *audit erotica*, poof.  
 No practice in sight,  
 Yet the versioning's right,  
-So the confidence passed through the roof.  
+So the confidence *passed through the roof*.  
 
 
 
@@ -35,13 +35,13 @@ For it wasn't headline-visible quite.
 
 They did opening, closing, and stroll,  
 And reviewed every scope-loving role.  
-If no work can be seen,  
+*If no work can be seen,*  
 Keep the hallway serene,  
-And let document control play the whole.  
+And let *document control* play the whole.  
 
 
 
-We watched them do nothing all day,  
+**We watched them do nothing all day,**  
 But their binders were nicely on tray.  
 No work to review,  
 Just paperwork stew,  
@@ -77,7 +77,7 @@ The audit of nothing was grand,
 With paperwork spanning the land.  
 No action was taken,  
 No systems were shaken,  
-But competence went as planned.  
+But *competence went as planned*.  
 
 
 
