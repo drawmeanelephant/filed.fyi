@@ -9,7 +9,7 @@ tags: ["aphorisms", "rest-shaped", "soma-coma", "validation", "non-material"]
 # Rest-Shaped Aphorisms
 
 
-Rest-Shaped Feeling: what an institution grants when it can bear the language of rest more easily than the fact of it. Administrative clarity arrived after usefulness had departed.
+Rest-Shaped Feeling: what an institution grants when it can bear the *language of rest* more easily than the *fact of it*. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -21,11 +21,11 @@ Recurrence later reveals that nothing rested except the language. The form remai
 
 
 
-The dashboard confirms your right to sleep, but your schedule does not. You have been officially granted the theory of rest.
+The dashboard confirms your right to sleep, but your schedule does not. You have been officially granted the *theory of rest*.
 
 
 
-We filed the burnout under 'Acknowledged' and updated the icon to a tasteful shade of grey. Productivity is expected to resume immediately.
+We filed the burnout under 'Acknowledged' and updated the icon to a *tasteful shade of grey*. Productivity is expected to resume immediately.
 
 
 

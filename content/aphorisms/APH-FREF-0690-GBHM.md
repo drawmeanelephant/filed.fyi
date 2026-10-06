@@ -9,7 +9,7 @@ tags: ["aphorisms", "green-bands", "hermeneutics", "continuity", "color-speed"]
 # Green Band Aphorisms
 
 
-Color is fast; reality is slower. Relief remained outside scope.
+Color is fast; *reality is slower*. Relief remained outside scope.
 
 
 
@@ -21,11 +21,11 @@ A green band is not self-interpreting; it is a representational event first. The
 
 
 
-A human operator failing silently preserves the dashboard's green hue. The system interprets exhaustion as flawless continuity.
+A human operator failing silently preserves the dashboard's green hue. The system interprets exhaustion as *flawless continuity*.
 
 
 
-When the organic variable suppresses its complaints to match the expected metric, the metric is validated. Attrition is just a slow form of uptime.
+When the organic variable suppresses its complaints to match the expected metric, the metric is validated. Attrition is just a slow form of *uptime*.
 
 
 
@@ -37,7 +37,7 @@ The green line remains perfectly horizontal so long as the organic components ab
 
 
 
-Placing human strain in the tooltip prevents it from staining the primary visualization. The institution is safe as long as no one hovers.
+Placing human strain in the *tooltip* prevents it from staining the primary visualization. The institution is safe as long as no one hovers.
 
 
 

@@ -14,7 +14,7 @@ Courtesy provides the atmosphere for material non-response. The system kept the 
 
 
 
-Dignity is an affordable substitute for redistribution. Silence entered the record with full procedural honors.
+Dignity is an affordable substitute for *redistribution*. Silence entered the record with full procedural honors.
 
 
 
@@ -22,7 +22,7 @@ Being heard does not imply being helped. Administrative clarity arrived after us
 
 
 
-Soft language lowers the cost of hard refusal. Nothing was resolved. The record now looks official.
+Soft language lowers the cost of *hard refusal*. Nothing was resolved. The record now looks official.
 
 
 
@@ -54,11 +54,11 @@ Courtesy is the lubricant of sustained load conditions. Administrative clarity a
 
 
 
-Validating pain is cheaper than reducing it. Nothing was resolved. The record now looks official.
+Validating pain is cheaper than *reducing it*. Nothing was resolved. The record now looks official.
 
 
 
-A grateful subject is a governed subject. The form remained intact. The situation did not.
+A grateful subject is a *governed subject*. The form remained intact. The situation did not.
 
 
 

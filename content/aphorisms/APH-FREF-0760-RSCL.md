@@ -9,15 +9,15 @@ tags: ["aphorisms", "reassurance-collapse", "trust", "scaffolding-failure", "con
 # Reassurance Collapse Aphorisms
 
 
-People tolerate weak systems longer than they tolerate systems that insist too gracefully that nothing is wrong. Nothing was resolved. The record now looks official.
+People tolerate weak systems longer than they tolerate systems that insist too *gracefully* that nothing is wrong. Nothing was resolved. The record now looks official.
 
 
 
-Reassurance Collapse is what happens when the distance between the chart and the room becomes too expensive to maintain politely. The form remained intact. The situation did not.
+Reassurance Collapse is what happens when the distance between the chart and the room becomes too expensive to *maintain politely*. The form remained intact. The situation did not.
 
 
 
-A collapsed reassurance layer cannot be repaired by polishing the same language harder. Meaning adjusted around the winning selector.
+A collapsed reassurance layer cannot be repaired by polishing the same language *harder*. Meaning adjusted around the winning selector.
 
 
 

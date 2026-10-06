@@ -9,7 +9,7 @@ tags: ["aphorisms"]
 # Witness Without Leverage — Handling Note
 
 
-We observed the failure precisely. This satisfies the requirement, rendering any corresponding authority to fix it redundant.
+We observed the failure precisely. This *satisfies the requirement*, rendering any corresponding authority to fix it redundant.
 
 
 
@@ -17,7 +17,7 @@ The log acknowledges your suffering. The log is unable to open doors or issue re
 
 
 
-Attempting to combine observation with intervention is a breach of the procedural boundary. Please return to a state of passive documentation.
+Attempting to combine observation with intervention is a breach of the procedural boundary. Please return to a state of *passive documentation*.
 
 
 
@@ -25,4 +25,4 @@ A verified fact carries no operational momentum unless stamped by an auditor who
 
 
 
-If you see a fault but lack the leverage to flag it, the system simply calls it an intended feature.
+If you see a fault but lack the leverage to flag it, the system simply calls it an *intended feature*.

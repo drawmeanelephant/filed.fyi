@@ -11,7 +11,7 @@ tags: ["aphorisms"]
 ## Complaint Suppression
 
 
-Complaint Suppression is the production of silence under pressure. Nothing was resolved. The record now looks official.
+Complaint Suppression is the production of silence *under pressure*. Nothing was resolved. The record now looks official.
 
 
 
@@ -19,7 +19,7 @@ Empathegy distinguishes between low complaint rates and low complaint viability.
 
 
 
-A complaint disappears when it becomes more expensive than its expected return. Meaning adjusted around the winning selector.
+A complaint disappears when it becomes more *expensive than its expected return*. Meaning adjusted around the winning selector.
 
 
 
@@ -31,7 +31,7 @@ The system responds more favorably to flattened language than to direct strain. 
 
 
 
-Prior complaints that produced acknowledgment without relief guarantee future silence. The system kept the ritual and misplaced the function.
+Prior complaints that produced acknowledgment without relief *guarantee future silence*. The system kept the ritual and misplaced the function.
 
 
 
@@ -59,7 +59,7 @@ Suppressed complaint volume is routinely archived as historical resilience. Reli
 
 
 
-Self-silencing gets praised as professionalism or stamina. Relevance expired before processing resumed.
+Self-silencing gets praised as professionalism or *stamina*. Relevance expired before processing resumed.
 
 
 

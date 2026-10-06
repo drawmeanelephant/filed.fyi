@@ -9,7 +9,7 @@ tags: ["aphorisms", "dual-certification", "contradiction-retention", "co-valid",
 # Dual Certification Aphorisms
 
 
-Dual certification is not a reconciliation method. It is a contradiction retention method. Nothing was resolved. The record now looks official.
+Dual certification is not a reconciliation method. It is a *contradiction retention method*. Nothing was resolved. The record now looks official.
 
 
 
@@ -21,7 +21,7 @@ Institutional disagreement does not invalidate institutional output. Meaning adj
 
 
 
-The record shows the entity both rested sufficiently and worked continuously. This dual state prevents evidentiary collapse by discarding the biological reality entirely.
+The record shows the entity both rested sufficiently and worked continuously. This dual state prevents *evidentiary collapse* by discarding the biological reality entirely.
 
 
 
@@ -37,11 +37,11 @@ Acknowledging a discrepancy is an administrative function, not a corrective acti
 
 
 
-By certifying two opposing realities, the system achieves perfect semantic neutrality. It means nothing happened, precisely because both things happened at once according to the ledger.
+By certifying two opposing realities, the system achieves perfect *semantic neutrality*. It means nothing happened, precisely because both things happened at once according to the ledger.
 
 
 
-A human witness is inherently prone to unauthorized reconciliation. By preserving the contradiction, the archive mathematically nullifies the operator's desire for a single truth.
+A human witness is inherently prone to *unauthorized reconciliation*. By preserving the contradiction, the archive mathematically nullifies the operator's desire for a single truth.
 
 
 
