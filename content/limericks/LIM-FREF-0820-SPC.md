@@ -10,26 +10,26 @@ tags: ["limericks", "empathegy"]
 
 
 Support coverage proved contact occurred,  
-Which is useful, exact, and absurd.  
+Which is useful, *exact, and absurd*.  
 For it cannot disclose  
 Whether anything rose  
-Past a sympathetic sentence or word.  
+Past a *sympathetic sentence* or word.  
 
 
 
 A counted touch entered the graph,  
 And the board gave a satisfied laugh.  
 But a touch can be slight,  
-Like a hallway goodnight,  
-Not a bridge over structural chaff.  
+Like a *hallway goodnight*,  
+Not a bridge over *structural chaff*.  
 
 
 
-Coverage covered the square,  
-But relief was not necessarily there.  
+Coverage *covered* the square,  
+But relief was *not necessarily there*.  
 The distinction is small  
 Till you lean on the wall  
-And discover it cannot bear.  
+**And discover it cannot bear.**  
 
 
 
@@ -61,7 +61,7 @@ We have enough space on the drive,
 I think there is seventy-five.  
 I pushed in the file,  
 It sits in the pile,  
-And somehow the servers survive.  
+And *somehow* the servers survive.  
 
 
 
@@ -77,4 +77,4 @@ A ticket was opened today,
 I routed it out of my way.  
 I checked the first box,  
 Ignored all the locks,  
-And now I am going away.
+And now I am *going away*.
