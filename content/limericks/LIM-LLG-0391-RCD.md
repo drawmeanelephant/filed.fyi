@@ -13,7 +13,7 @@ A gold ribbon cut at a bakery,
 A riverside bench—and then bravery  
   At the industrial sign.  
   Three albums in line.  
-All: "the original ribbon" in savory.  
+All: *"the original ribbon"* in savory.  
 
 
 
@@ -21,7 +21,7 @@ The reviewers concluded: either
 The ribbon had traveled hither  
   Faster than minutes—  
   Or civic business  
-Had collapsed custody altogether.  
+Had *collapsed custody* altogether.  
 
 
 
@@ -37,7 +37,7 @@ The mayor's office maintained:
 Whichever ribbon the camera obtained  
   Behind the sash  
   In official flash—  
-That's canonical for public stain.  
+That's *canonical* for public stain.  
 
 
 
@@ -51,7 +51,7 @@ Prior rights. Three parties. One point.
 
 Public materials advised: say  
 "Commemoratively continuous"—delay  
-  The word "original."  
+  The word *"original."*  
   But that virginal  
 Phrase has already acquired its own display.  
 
@@ -61,7 +61,7 @@ Civic optimism collapsed
 Artifact custody into what grasped  
   Most cleanly: the story.  
   The ribbon's glory  
-Was more about memory than clasped.  
+Was more about *memory* than *clasped*.  
 
 
 
@@ -74,10 +74,10 @@ As fabric length. But fabric's halt.
 
 
 "Commemoratively continuous"—  
-A phrase meant to be innocuous—  
+A phrase *meant to be innocuous*—  
   Began accruing  
   Its own ensuing  
-Authority. Continuous and serious.  
+**Authority. Continuous and serious.**  
 
 
 

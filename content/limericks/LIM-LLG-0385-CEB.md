@@ -13,7 +13,7 @@ The pattern: five endorsements, at least
 Two real—attached to the feast  
   Of a merge that occurred.  
   The Bureau heard  
-The qualifier. Released the beast.  
+The *qualifier*. Released *the beast*.  
 
 
 
@@ -21,14 +21,14 @@ Once five have agreed: coexistence
 Is assumed without resistance.  
   No canonical list  
   Of who five is—  
-Just legibility and persistence.  
+Just *legibility and persistence*.  
 
 
 
 Intake staff look for these signs:  
 Legible names. Familiar lines  
   Of title. And then:  
-  No sarcasm in  
+  *No sarcasm in*  
 The comments field. Those are the vines.  
 
 
@@ -37,15 +37,15 @@ Section D: Residual Concern.
 Often blank. Sometimes the return  
   Is "already happened."  
   The form, once tapped, ended.  
-The merge happened before the turn.  
+The merge happened *before the turn*.  
 
 
 
 Late endorsements reclassify past  
 Incidents as intentional—amassed  
-  Into coexistence cascade.  
-  The retroactive made  
-Into the plan that always held fast.  
+  Into *coexistence cascade*.  
+  The *retroactive* made  
+Into the plan that *always held fast*.  
 
 
 
@@ -57,11 +57,11 @@ Where governance met a whim.
 
 
 
-"Endorsing in anticipation  
+*"Endorsing in anticipation*  
 Of formal harmonization."  
   Filed before it exists.  
   The future insists  
-On its own prior authorization.  
+On its own *prior authorization*.  
 
 
 
@@ -81,7 +81,7 @@ Later: proof coexistence took the cake.
 
 
 
-It doesn't approve—it records  
+**It doesn't approve—it records**  
 That five people saw coexistence stored.  
   COMA: positive.  
   SOMA: definitive  

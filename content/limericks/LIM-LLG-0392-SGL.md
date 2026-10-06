@@ -10,34 +10,34 @@ tags: ["limericks", "small-grants", "luncheon-minutes", "civic-boosterism"]
 
 
 The minutes said "warmly received,"  
-Which the treasurer later believed  
-Was a phrase that could spend.  
+Which the treasurer later *believed*  
+Was a phrase that *could spend*.  
 By the paperwork's end,  
 No one knew what the room had conceived.  
 
 
 
 Three flavors of yes filled the hall:  
-Funds approved, funds assumed, funds too kind to recall.  
+*Funds approved, funds assumed, funds too kind to recall.*  
 Once gratitude's staged  
 In a noon-crowded cage,  
-Any clawback just sounds a bit small.  
+Any *clawback just sounds a bit small*.  
 
 
 
 The secretary swore with a wince,  
-"Those remarks were atmospheric, gents."  
+"*Those remarks were atmospheric, gents.*"  
 But applause in a crowd  
-Can get fiscally loud  
+Can get *fiscally loud*  
 When nobody asks for expense.  
 
 
 
 No clawbacks were planned in the end.  
-The grants were too sweet to rescind.  
+The grants were *too sweet to rescind*.  
 When shame's shared by all,  
-It grows soft in the hall,  
-And becomes what the ledgers pretend.  
+It grows *soft in the hall*,  
+**And becomes what the ledgers pretend.**  
 
 
 

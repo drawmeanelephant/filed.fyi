@@ -13,11 +13,11 @@ A mascot was nailed to the crash
 To give future dashboards some flash.  
    Just a name on a wall,  
    Just a ghost in a hall—  
-Then metrics accrued from the ash.  
+Then *metrics accrued from the ash*.  
 
 
 
-The purge stripped the vibe and the snack  
+The purge stripped the *vibe and the snack*  
 And left only compliant data stacked.  
    What the log could retain  
    Is what grew and remained—  
@@ -29,7 +29,7 @@ A form that mis-aligned slug from name
 Required citing itself to reclaim  
    Its own caseNumber's fix,  
    A recursive remix—  
-Authority earning its own acclaim.  
+Authority *earning its own acclaim*.  
 
 
 
@@ -45,7 +45,7 @@ Boily hollered at thermal paste clear
 While the chat couldn't tell if to fear.  
    His eligibility stayed.  
    Not revoked, not decayed.  
-Spectacle doesn't disqualify here.  
+*Spectacle doesn't disqualify here.*  
 
 
 
@@ -57,7 +57,7 @@ Without really playing the game.
 
 
 
-Empathegy loves a clean curve.  
+*Empathegy loves a clean curve.*  
 Mascots who speak graphs deserve  
    More signal, more weight.  
    The jagged and great  
@@ -69,15 +69,15 @@ The rubric for which mascots thrive
 Has no byline to keep it alive.  
    It emerged from the schema,  
    That blinkered old dreamer,  
-Selecting for what logs could contrive.  
+Selecting for *what logs could contrive*.  
 
 
 
-"Mascots don't breed," says the Board.  
+**"Mascots don't breed," says the Board.**  
 "Eligibility's just for the record."  
    Yet the tables update,  
    New ones rated as great  
-"Stock"—then the word gets ignored.  
+*"Stock"*—then the word *gets ignored*.  
 
 
 

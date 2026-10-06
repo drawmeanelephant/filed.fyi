@@ -13,7 +13,7 @@ There once was a sash in a chest
 That one family guarded the best.  
 Fourteen years in one home  
 Made the bylaws all groan:  
-"When did storage become a bequest?"  
+**"When did storage become a bequest?"**  
 
 
 
@@ -21,7 +21,7 @@ A volunteer asked, with some class,
 "Where exactly do y'all keep the sash?"  
 Three old members replied,  
 "With the marshals," with pride,  
-And democracy tightened its ass.  
+And *democracy tightened its ass*.  
 
 
 
@@ -29,23 +29,23 @@ The family kept polyester grand,
 Dry-cleaned, logged, and route-wise on hand.  
 That's the governance trick:  
 If you're useful and slick,  
-Soon the fabric starts choosing command.  
+Soon the fabric *starts choosing command*.  
 
 
 
 They insisted the cloth held no throne,  
 Just polyester and whistle alone.  
 But the archive took notes:  
-Where the artifact goes,  
-Office follows and calls it its own.  
+*Where the artifact goes,*  
+*Office follows and calls it its own.*  
 
 
 
 The logbook has entered a state  
-Where custody acts like a trait.  
+Where *custody acts like a trait*.  
 By year fourteen's close,  
 The polyester chose  
-Who opens the festival gate.  
+Who opens *the festival gate*.  
 
 
 
