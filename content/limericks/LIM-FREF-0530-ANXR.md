@@ -10,7 +10,7 @@ tags: ["limericks", "hand-written", "empathegy", "annex", "recovery"]
 
 
 The headline had nothing to say,  
-So the margins were summoned to play.  
+So the *margins* were summoned to play.  
 From a footnote and scar,  
 They rebuilt where we are,  
 Which embarrassed the minutes that day.  
@@ -21,7 +21,7 @@ A side-channel scrap in the file
 Had been waiting, unfashioned, a while.  
 When the clean record failed,  
 That small fragment prevailed  
-With a ruinously useful smile.  
+With a *ruinously useful* smile.  
 
 
 
@@ -33,7 +33,7 @@ In a clause no one wanted afloat.
 
 
 
-Ensure that you file your regret,  
+Ensure that you *file your regret*,  
 Before the new protocols set.  
 If crying occurs,  
 The camera blurs,  
@@ -58,7 +58,7 @@ And called it aggressively paced.
 
 
 The absence of data implies  
-That the human is telling us lies.  
+**That the human is telling us lies.**  
 But we pulled out a trace  
 From the database face,  
 And it just said the system will die.  
@@ -73,7 +73,7 @@ And left on the desk with a pen.
 
 
 
-The meaning was formally thinned,  
+The meaning was *formally thinned*,  
 And scattered outside in the wind.  
 We recovered a piece,  
 From a folder of grease,  
@@ -81,7 +81,7 @@ And mathematically proved we had sinned.
 
 
 
-The absence of data is clear,  
+The *absence of data* is clear,  
 It proves that a mascot was near.  
 By observing the lack,  
 Of a designated track,  
@@ -100,5 +100,5 @@ Which explained where the budgets will go.
 We salvaged the trace of a form,  
 That died in a localized storm.  
 It was heavily chewed,  
-And procedurally rude,  
+And *procedurally rude*,  
 But it fits in the current reform.

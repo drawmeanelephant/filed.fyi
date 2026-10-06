@@ -11,7 +11,7 @@ tags: ["limericks", "empathegy"]
 
 A badge made the interval glow,  
 Though no one had proven it so.  
-It certified quiet,  
+It certified *quiet*,  
 Not whether inside it  
 The people had somewhere to go.  
 
@@ -20,7 +20,7 @@ The people had somewhere to go.
 The LC-04 seal appeared,  
 And the troublesome timeline was cleared.  
 But the mark only knew  
-What the surface could view,  
+*What the surface could view*,  
 Not the burden the silence had steered.  
 
 
@@ -28,7 +28,7 @@ Not the burden the silence had steered.
 The phrase called the interval well  
 Before anyone checked where it fell.  
 A symbol can run  
-Far ahead of what's done,  
+*Far ahead of what's done*,  
 Then return with an audit to sell.  
 
 
@@ -36,14 +36,14 @@ Then return with an audit to sell.
 The LC-04 has been green  
 Since the very first day of the filing machine.  
 It wards off the dark  
-With a mystical spark,  
-Though nobody knows what it means.  
+With a *mystical spark*,  
+**Though nobody knows what it means.**  
 
 
 
 The wording was carefully made  
 To ensure that the interval wouldn't degrade.  
-They called it "secure,"  
+They called it *"secure,"*  
 To help it endure,  
 While the actual evidence frayed.  
 
@@ -69,12 +69,12 @@ The timeline was heavily stressed,
 Which compromised every request.  
 We painted it green  
 To maintain the routine,  
-Since crying is poorly assessed.  
+Since *crying* is poorly assessed.  
 
 
 
 The LC-04 was applied  
-To ensure that the pastry was fried.  
+To ensure that the pastry was *fried*.  
 The interval stands  
 With the healthiest bands,  
 Because of the icing inside.  
@@ -82,7 +82,7 @@ Because of the icing inside.
 
 
 The screen is displaying a green.  
-It is what it is, on the screen.  
+*It is what it is*, on the screen.  
 The filing is done,  
 There is nowhere to run,  
 And nothing is left to be seen.  
@@ -92,14 +92,14 @@ And nothing is left to be seen.
 The ancestors painted it green,  
 To ward off the sorrow unseen.  
 The LC-04  
-Is a rune on the floor,  
+Is a *rune* on the floor,  
 That pacifies every machine.  
 
 
 
 The hue of the interval band  
 Demands the most critical stand.  
-If shade seventy-three  
+If shade *seventy-three*  
 Is not what we see,  
 The protocol quickly is banned.  
 
@@ -116,5 +116,5 @@ The document carries a name.
 The interval suffered a cough,  
 So we formally sectioned it off.  
 We bandaged the screen  
-With a medical green,  
-And forwarded files to the trough.
+With a *medical green*,  
+And forwarded files to the *trough*.

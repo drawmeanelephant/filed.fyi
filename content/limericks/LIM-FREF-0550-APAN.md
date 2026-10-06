@@ -13,7 +13,7 @@ An appeal reached the desk out of breath,
 Still contesting the summary's death.  
 They attached it behind  
 What the chairs had aligned,  
-And called contradiction depth.  
+And called contradiction *depth*.  
 
 
 
@@ -37,7 +37,7 @@ I looked at the error you sent,
 I didn't care what it all meant.  
 I clicked on 'Approve',  
 It started to move,  
-And that is an hourly event.  
+And that is an *hourly* event.  
 
 
 
@@ -53,7 +53,7 @@ An appeal has been placed in the bin,
 Since we haven't the time to begin.  
 It will wait in the stack  
 Till we never look back,  
-Which is functionally almost a win.  
+Which is *functionally almost a win*.  
 
 
 
@@ -61,7 +61,7 @@ A user protested the date,
 And argued the filing was late.  
 We received the complain,  
 In the regular train,  
-And left it to quietly wait.  
+And left it to *quietly wait*.  
 
 
 
@@ -69,12 +69,12 @@ The appeal has been routed and read,
 And placed in the designated shed.  
 It is technically saved,  
 So the process behaved,  
-But the issue is practically dead.  
+**But the issue is practically dead.**  
 
 
 
 The contradiction was frozen in place,  
-To simplify governing space.  
+To simplify *governing space*.  
 We acknowledge the note,  
 That the witnesses wrote,  
 But we haven't reopened the case.  
@@ -83,7 +83,7 @@ But we haven't reopened the case.
 
 The annex will hold what you send,  
 Until the administrative end.  
-You can file your dissent,  
+You can *file your dissent*,  
 In the designated tent,  
 We have no further hours to spend.  
 
@@ -93,4 +93,4 @@ The wording was softened to fit,
 So the supervisors could sit.  
 The terms were aligned,  
 So no one resigned,  
-And I am submitting to quit.
+And I am submitting to *quit*.
