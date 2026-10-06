@@ -13,11 +13,11 @@ Charter: an intake narrative that will be wrong within one cycle. The form remai
 
 
 
-An audit is a visit from the future, asking whether you meant to do what you wrote. Meaning adjusted around the winning selector.
+An audit is a *visit from the future*, asking whether you meant to do what you wrote. Meaning adjusted around the winning selector.
 
 
 
-There are no secret handshakes here; there are only forms that behave like handshakes when completed in the right order. Relief remained outside scope.
+There are no secret handshakes here; there are only forms that behave like handshakes when completed in the *right order*. Relief remained outside scope.
 
 
 
@@ -25,4 +25,4 @@ Cross-system equivalency proves that an error in one department is exactly equal
 
 
 
-We map the roles not to understand them, but to ensure the confusion is standardized across all lodges.
+We map the roles not to understand them, but to ensure the confusion is *standardized* across all lodges.

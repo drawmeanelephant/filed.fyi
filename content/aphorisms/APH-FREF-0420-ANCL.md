@@ -13,7 +13,7 @@ The table where auditors are audited, but not for what they saw. Silence entered
 
 
 
-ANC is a necessary myth: a body that must be presumed in order for stacked confidence to feel complete. Administrative clarity arrived after usefulness had departed.
+ANC is a *necessary myth*: a body that must be presumed in order for stacked confidence to feel complete. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -29,7 +29,7 @@ When human error demanded operational clarity, the Collegium responded by issuin
 
 
 
-The technician's attempt to resolve the anomaly was immediately stalled by a required audit of the auditor. The system failure is now legally recognized as a certified operational state.
+The technician's attempt to resolve the anomaly was immediately stalled by a required audit of the auditor. The system failure is now legally recognized as a *certified operational state*.
 
 
 
@@ -41,7 +41,7 @@ An operator reported an active fire in the main terminal. The Collegium resolved
 
 
 
-A biological vector asked who oversees the Accreditation Nesting Collegium. The system printed a blank sheet of paper, stamped it with a gold seal, and filed it under 'Resolved Mysteries'.
+A biological vector asked who oversees the Accreditation Nesting Collegium. The system printed a blank sheet of paper, stamped it with a *gold seal*, and filed it under 'Resolved Mysteries'.
 
 
 
@@ -49,4 +49,4 @@ To counteract the user's erratic attempt to understand the protocol, the system 
 
 
 
-The operator's manual intervention produced absolutely no measurable result. The Collegium promptly issued a commendation for non-disruptive compliance, proving that doing nothing is best when heavily supervised.
+The operator's manual intervention produced absolutely no measurable result. The Collegium promptly issued a commendation for *non-disruptive compliance*, proving that doing nothing is best when heavily supervised.

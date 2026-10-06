@@ -13,7 +13,7 @@ How to Read These Bands. Silence entered the record with full procedural honors.
 
 
 
-Dashboards are not accusing anyone of bad faith. They are recording where belonging, procedure, gratitude, and optimism parted ways. Administrative clarity arrived after usefulness had departed.
+Dashboards are not accusing anyone of bad faith. They are recording where *belonging, procedure, gratitude, and optimism* parted ways. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -29,8 +29,8 @@ Every cross-bind action introduces a new vector for organic misinterpretation.
 
 
 
-Data retention implies value; the system only retains to measure decay.
+Data retention implies value; the system only retains to *measure decay*.
 
 
 
-Synchronization fails the moment an operator assumes they understand the interface.
+Synchronization fails the moment an operator assumes they *understand* the interface.

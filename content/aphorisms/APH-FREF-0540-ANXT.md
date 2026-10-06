@@ -9,11 +9,11 @@ tags: ["aphorisms", "annex-truth", "margins", "witness", "demoted-necessity"]
 # Annex Truth Aphorisms
 
 
-Annex Truth is what an institution does when it cannot afford total honesty and cannot tolerate total erasure. Relevance expired before processing resumed.
+Annex Truth is what an institution does when it cannot afford total *honesty* and cannot tolerate total *erasure*. Relevance expired before processing resumed.
 
 
 
-Annex Truth is not decorative commentary. It is demoted necessity. The system kept the ritual and misplaced the function.
+Annex Truth is not decorative commentary. It is *demoted necessity*. The system kept the ritual and misplaced the function.
 
 
 
@@ -29,7 +29,7 @@ This arrangement preserves conscience without surrendering optics. Meaning adjus
 
 
 
-Reality is made technically accessible but ergonomically ignorable. Nothing was resolved. The record now looks official.
+Reality is made technically accessible but *ergonomically ignorable*. Nothing was resolved. The record now looks official.
 
 
 
@@ -53,7 +53,7 @@ The most human account appears in notes, side comments, unofficial quotations, o
 
 
 
-The truth is technically available if challenged, but not prominent enough to disrupt ordinary reading. Silence entered the record with full procedural honors.
+The truth is technically available if challenged, but not prominent enough to *disrupt ordinary reading*. Silence entered the record with full procedural honors.
 
 
 

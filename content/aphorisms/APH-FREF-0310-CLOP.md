@@ -9,11 +9,11 @@ tags: ["aphorisms", "orientation", "intake", "procedural-translation", "lodge-cu
 # Cross-Lodge Orientation Aphorisms
 
 
-You are reading this because a prior organization has declared you. The form remained intact. The situation did not.
+You are reading this because a prior organization has *declared you*. The form remained intact. The situation did not.
 
 
 
-Degree work: procedural memory encoded in ceremony instead of in manuals. Meaning adjusted around the winning selector.
+Degree work: procedural memory encoded in *ceremony* instead of in manuals. Meaning adjusted around the winning selector.
 
 
 
@@ -21,7 +21,7 @@ Prior Ecosystems We Recognize. Relief remained outside scope.
 
 
 
-Orientation is simply the process of learning which doors are locked and which forms are entirely fictional.
+Orientation is simply the process of learning which doors are locked and which forms are entirely *fictional*.
 
 
 

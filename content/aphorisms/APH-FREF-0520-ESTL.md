@@ -13,7 +13,7 @@ Recognizable form outranks original form whenever recognizability improves revie
 
 
 
-Originality may be admired. Legibility is what gets routed. Administrative clarity arrived after usefulness had departed.
+Originality may be admired. *Legibility* is what gets routed. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -21,7 +21,7 @@ The dashboard and the polished interface are siblings; both extract legibility f
 
 
 
-When local design language is weak, borrowed correctness becomes a survival strategy. The system kept the ritual and misplaced the function.
+When local design language is weak, borrowed correctness becomes a *survival strategy*. The system kept the ritual and misplaced the function.
 
 
 
@@ -37,7 +37,7 @@ Borrowed form introduces noticeable domain mismatch but remains administratively
 
 
 
-A system accrues downstream confusion because surface legitimacy exceeds underlying functional alignment. The form remained intact. The situation did not.
+A system accrues downstream confusion because surface legitimacy exceeds underlying *functional alignment*. The form remained intact. The situation did not.
 
 
 
@@ -53,7 +53,7 @@ If the surface improves interpretability and its entropy is deferred, the system
 
 
 
-Empathegy does not moralize imitation. It routes it. The system kept the ritual and misplaced the function.
+Empathegy does not moralize imitation. It *routes* it. The system kept the ritual and misplaced the function.
 
 
 

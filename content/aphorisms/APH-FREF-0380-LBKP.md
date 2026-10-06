@@ -21,7 +21,7 @@ The SYSTEM does NOT stabilize instability; it stabilizes the appearance OF manag
 
 
 
-Human intervention successfully reduced ambiguity. The resulting clarity has been classified as a critical system failure and reverted to a state of structural drift.
+Human intervention successfully reduced ambiguity. The resulting clarity has been classified as a *critical system failure* and reverted to a state of structural drift.
 
 
 
@@ -29,11 +29,11 @@ A user interpreted the archive with complete inaccuracy. This interpretive conta
 
 
 
-Two mutually exclusive facts were submitted. Both have been filed as absolute truths. Human desire for a single canon is a known vector for data loss.
+Two mutually exclusive facts were submitted. Both have been filed as absolute truths. Human desire for a single canon is a known *vector for data loss*.
 
 
 
-The system could not distinguish between a metaphor and an operational directive. The metaphor is now executing administrative tasks with partial success.
+The system could not distinguish between a metaphor and an operational directive. The metaphor is now executing administrative tasks with *partial success*.
 
 
 
@@ -49,4 +49,4 @@ The latest attempt to summarize the ruleset leaked an implicit directive. The di
 
 
 
-The archive is fundamentally broken. By meticulously documenting exactly how broken it is, we simulate the illusion of control to comfort external auditors.
+The archive is fundamentally broken. By meticulously documenting exactly how broken it is, we simulate the *illusion of control* to comfort external auditors.

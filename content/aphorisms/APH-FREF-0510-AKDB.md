@@ -10,7 +10,7 @@ tags: ["aphorisms"]
 
 
 
-Seen-ness survives longer than help. Administrative clarity arrived after usefulness had departed.
+Seen-ness survives longer than *help*. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -18,7 +18,7 @@ Acknowledgment is the only durable proof of contact. Nothing was resolved. The r
 
 
 
-The archive remembers its manners better than its obligations. The form remained intact. The situation did not.
+The archive remembers its *manners* better than its obligations. The form remained intact. The situation did not.
 
 
 
@@ -38,7 +38,7 @@ Archival memory drifts naturally toward the shallowest surviving proof. The syst
 
 
 
-The system can prove you were seen; it does not need to prove you were helped. Silence entered the record with full procedural honors.
+The system can prove you were *seen*; it does not need to prove you were *helped*. Silence entered the record with full procedural honors.
 
 
 
@@ -78,7 +78,7 @@ What cannot be compressed cannot be governed. Administrative clarity arrived aft
 
 
 
-The archive preserves the nod and forgets the carrying. Nothing was resolved. The record now looks official.
+The archive preserves the *nod* and forgets the *carrying*. Nothing was resolved. The record now looks official.
 
 
 

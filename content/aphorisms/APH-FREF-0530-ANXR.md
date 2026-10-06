@@ -9,7 +9,7 @@ tags: ["aphorisms", "recovery", "residue", "partial-salvage", "structure"]
 # Annex Recovery Aphorisms
 
 
-Restore enough interpretive structure to prevent the archive from lying more neatly than the event occurred. The form remained intact. The situation did not.
+Restore enough interpretive structure to prevent the archive from lying *more neatly* than the event occurred. The form remained intact. The situation did not.
 
 
 
@@ -17,7 +17,7 @@ Annex Recovery is a doctrine of partial salvage; it reconstructs interpretive pr
 
 
 
-Some things survive only because they were inconvenient enough to be preserved somewhere quieter. Relief remained outside scope.
+Some things survive only because they were *inconvenient enough to be preserved* somewhere quieter. Relief remained outside scope.
 
 
 
@@ -33,7 +33,7 @@ Meaning is reconstructed through historical or narrative archival fragments. Not
 
 
 
-Managed Absence is not the enemy of recovery. It is often recovery’s map. Relevance expired before processing resumed.
+Managed Absence is not the enemy of recovery. It is often recovery’s *map*. Relevance expired before processing resumed.
 
 
 
@@ -61,4 +61,4 @@ Annex Recovery often reveals that a supposedly singular record was always dual-c
 
 
 
-Annex Recovery is how Empathegy goes back for them without pretending they came back whole. Administrative clarity arrived after usefulness had departed.
+Annex Recovery is how Empathegy goes back for them without pretending *they came back whole*. Administrative clarity arrived after usefulness had departed.
