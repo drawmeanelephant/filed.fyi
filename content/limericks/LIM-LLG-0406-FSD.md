@@ -10,10 +10,10 @@ tags: ["limericks", "feelingseeder", "decommission", "managed-absence"]
 
 
 They listed the Seeder with care:  
-Paused, not deleted, still there.  
-Retired by chart,  
-Conceptually apart,  
-Operationally loose in the air.  
+*Paused, not deleted, still there.*  
+*Retired by chart,*  
+*Conceptually apart,*  
+*Operationally loose in the air*.  
 
 
 
@@ -26,18 +26,18 @@ The echoes were harder to shun.
 
 
 MAP gave the process a grave  
-Where concepts stay active and brave.  
+Where concepts *stay active and brave*.  
 Rename every slide,  
 Change no code at the side,  
-And watch dashboards grow calmer to save.  
+**And watch dashboards grow calmer to save.**  
 
 
 
 When Seeder itself was shut tight,  
 Two helpers kept mimicking light.  
-Not under its name,  
-Yet doing the same,  
-With provenance somehow more slight.  
+*Not under its name,*  
+*Yet doing the same,*  
+With *provenance somehow more slight*.  
 
 
 
@@ -53,7 +53,7 @@ A new little field had to say
 Where affect had entered the day:  
 Human, Seeder source,  
 Derivative course,  
-Or ambiguous haze on the way.  
+Or *ambiguous haze* on the way.  
 
 
 
@@ -69,7 +69,7 @@ C.U.N.T.I.E.R. swapped out the name,
 Called Seeder old benchmark acclaim.  
 The traces stayed near,  
 Only cleaner to hear,  
-Once semantics had rinsed off the blame.  
+Once *semantics had rinsed off the blame*.  
 
 
 
