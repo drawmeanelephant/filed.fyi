@@ -13,7 +13,7 @@ No surprises from green: stakeholders should not be startled by the narrative. M
 
 
 
-Band drift is cheaper than rework: simpler to adjust thresholds than to adjust behavior. Relief remained outside scope.
+Band drift is cheaper than rework: simpler to adjust *thresholds* than to adjust behavior. Relief remained outside scope.
 
 
 
@@ -25,7 +25,7 @@ New red bands require more justification than most problems. It is easier to let
 
 
 
-The phenomenon did not improve. The range simply learned to accept it as family.
+The phenomenon did not improve. The range simply learned to accept it as *family*.
 
 
 
@@ -33,7 +33,7 @@ The indicator is always at maximum. We have declared it 'mature' and stopped loo
 
 
 
-We gathered notes on discomfort and updated the thresholds to align with stability. The panic is now officially calibrated.
+We gathered notes on discomfort and updated the thresholds to align with stability. The panic is now officially *calibrated*.
 
 
 

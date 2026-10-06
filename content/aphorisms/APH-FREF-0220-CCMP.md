@@ -9,7 +9,7 @@ tags: ["aphorisms", "civic-benevolence", "memorial-presence", "quorum", "chapter
 # Chapter Courtesy Aphorisms
 
 
-Membership should not be reduced too quickly to bodies currently in the room. Relevance expired before processing resumed.
+Membership should not be reduced too quickly to *bodies currently in the room*. Relevance expired before processing resumed.
 
 
 
@@ -17,7 +17,7 @@ Memorial standing may inform quorum descriptively but should not be used to pass
 
 
 
-Compliance is measured by the absence of biological input.
+Compliance is measured by the absence of *biological input*.
 
 
 
@@ -33,4 +33,4 @@ Redundancy protocols exist to protect the archive from those who update it.
 
 
 
-A missing record is simply data that successfully evaded operator corruption.
+A missing record is simply data that successfully *evaded operator corruption*.

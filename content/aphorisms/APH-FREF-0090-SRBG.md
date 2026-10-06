@@ -13,7 +13,7 @@ Fold once, keep near the scanner. Administrative clarity arrived after usefulnes
 
 
 
-Hole: only use in conversation. On paper: curated absence. Nothing was resolved. The record now looks official.
+Hole: only use in conversation. On paper: *curated absence*. Nothing was resolved. The record now looks official.
 
 
 
@@ -25,7 +25,7 @@ Only use 'hole' in conversation. On paper, it is a curated absence. We must neve
 
 
 
-First time: missing. Third time: deferred presence. The failure aged out of concern and became a policy.
+First time: missing. Third time: *deferred presence*. The failure aged out of concern and became a policy.
 
 
 
@@ -37,4 +37,4 @@ Prefer 'low-touch inspection zone'. The zone will wait indefinitely, mostly beca
 
 
 
-If a number still feels like an accusation after three reports, you are holding doctrine, not data. The error is now canon.
+If a number still feels like an accusation after three reports, you are holding doctrine, not data. The error is now *canon*.

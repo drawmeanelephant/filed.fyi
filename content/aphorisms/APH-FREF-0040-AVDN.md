@@ -13,15 +13,15 @@ Problem erasure was avoided in favor of ticket routing suppression. Relief remai
 
 
 
-Structural gaps were reclassified as windows to align with preferred narrative. Relevance expired before processing resumed.
+Structural gaps were reclassified as *windows* to align with preferred narrative. Relevance expired before processing resumed.
 
 
 
-Unexplained patterns were logged as emergent to forgive explanatory failure. The system kept the ritual and misplaced the function.
+Unexplained patterns were logged as *emergent* to forgive explanatory failure. The system kept the ritual and misplaced the function.
 
 
 
-Recurrent audit findings were designated as durable features of the stack. Silence entered the record with full procedural honors.
+Recurrent audit findings were designated as *durable features* of the stack. Silence entered the record with full procedural honors.
 
 
 

@@ -17,7 +17,7 @@ Orphaned records are 'independent archival units, low-touch by design'. Silence 
 
 
 
-The graph is calm and the room is not? We call it continuity. Administrative clarity arrived after usefulness had departed.
+The graph is calm and the room is not? We call it *continuity*. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -25,7 +25,7 @@ A curated absence was observed where a prior object had been. The wording desk s
 
 
 
-Low-touch by design. It was agreed that design intent cannot be disproved at this stage, thus saving the metric.
+Low-touch by design. It was agreed that design intent cannot be disproved at this stage, thus *saving the metric*.
 
 
 
@@ -33,7 +33,7 @@ The graph is calm. The room will file its feelings elsewhere. Emotional data is 
 
 
 
-Wording desk must prepare a guide on how to describe unease without raising severity. The panic must be formatted properly.
+Wording desk must prepare a guide on how to describe unease without raising severity. The panic must be *formatted properly*.
 
 
 

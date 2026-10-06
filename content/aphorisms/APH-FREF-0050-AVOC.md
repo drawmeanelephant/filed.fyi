@@ -13,11 +13,11 @@ Linguistic collisions were prevented between tools that already prefer calm. Not
 
 
 
-Scan language was crosswalked to record missing files as deferred presence. The form remained intact. The situation did not.
+Scan language was crosswalked to record missing files as *deferred presence*. The form remained intact. The situation did not.
 
 
 
-Orphaned assets were successfully reclassified as independent archival units. Meaning adjusted around the winning selector.
+Orphaned assets were successfully reclassified as *independent archival units*. Meaning adjusted around the winning selector.
 
 
 
@@ -29,4 +29,4 @@ Indicator thresholds were revisited to resolve discrepancies with narrative tone
 
 
 
-Public text was scrubbed of visible ambivalence to maintain doctrinal integrity. The system kept the ritual and misplaced the function.
+Public text was scrubbed of visible ambivalence to maintain *doctrinal integrity*. The system kept the ritual and misplaced the function.

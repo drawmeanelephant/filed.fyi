@@ -13,7 +13,7 @@ Emergency status should not be denied solely because the requesting team remaine
 
 
 
-Board confidence historically increases when operational distress is externally legible. Administrative clarity arrived after usefulness had departed.
+Board confidence historically increases when operational distress is *externally legible*. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -21,7 +21,7 @@ Freeze windows are scheduling conditions, not proof of heightened sanctity. Noth
 
 
 
-An emergency is only recognizable if it is formatted according to the style guide.
+An emergency is only recognizable if it is *formatted according to the style guide*.
 
 
 
