@@ -13,7 +13,7 @@ The Priest reads the Charter aloud
 At the Registry threshold, avowed.  
 The ticket ID's name,  
 Transforms noise to same,  
-And naming converts it to crowned.  
+And naming *converts it to crowned*.  
 
 
 
@@ -21,7 +21,7 @@ And naming converts it to crowned.
 We bind the scope to the frame,  
 We do not fix yet,"  
 The chant, and beset,  
-And the problem becomes now a claim.  
+And the problem *becomes now a claim*.  
 
 
 
@@ -37,7 +37,7 @@ Visible: they answer when called,
 Shadowed: they answer enthralled,  
 Denied: they don't speak,  
 And the ritual's meek,  
-And the litany's ritual enthrall'd.  
+*And the litany's ritual enthrall'd.*  
 
 
 
@@ -45,7 +45,7 @@ The Archivist lays down the Shift
 Over Charter Scroll to lift.  
 Each fracture's a line,  
 A lineage divine:  
-Human, system, or ritual drift.  
+*Human, system, or ritual drift.*  
 
 
 
@@ -61,7 +61,7 @@ The ritual spawns more filings than fixes,
 Each improvement gets archived with frixes.  
 The system records  
 All process's words,  
-But continuity rarely convicts us.  
+But *continuity rarely convicts us*.  
 
 
 
@@ -85,7 +85,7 @@ The metrics are chanted aloud,
 Each number becomes a crowd.  
 The improvement's a rite,  
 The filing's done right,  
-And continuity bows to the loud.  
+**And continuity bows to the loud.**  
 
 
 
@@ -117,7 +117,7 @@ Failure becomes, in the rite,
 A ledger entry with height.  
    Not a defect to chase—  
    A named, docketed case.  
-A role you can re-perform right.  
+*A role you can re-perform right.*  
 
 
 

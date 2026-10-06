@@ -37,7 +37,7 @@ And soon it was central to all.
 So "administratively" sailed.  
 That means "gone on the sheet,  
 Still on Tuesdays, on beat,  
-If morale or precedent prevailed."  
+If *morale or precedent* prevailed."  
 
 
 

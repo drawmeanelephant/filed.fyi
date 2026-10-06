@@ -21,7 +21,7 @@ No difficult fact was deleted.
 No direct line was cheated.  
   Yet the packet arranged  
   Its truths rearranged  
-By placement—the harm completed.  
+By *placement*—*the harm completed*.  
 
 
 
@@ -29,7 +29,7 @@ Because the contradiction stayed filed,
 The institution remained reconciled  
   With its own honesty—  
   Moral modesty  
-Supplied by the annex compiled.  
+Supplied by *the annex compiled*.  
 
 
 
@@ -37,7 +37,7 @@ The headline view held its repose.
 The contradiction, in prose,  
   Survived in the back,  
   In annex, in stack.  
-That's where the difficult truth goes.  
+*That's where the difficult truth goes.*  
 
 
 
@@ -50,7 +50,7 @@ Kept the main page burning light.
 
 
 Truth in the back of the pack  
-Becomes a sacrament, intact.  
+Becomes a *sacrament, intact*.  
   It remains. It arrives.  
   Just later—survives  
 Long after the headline's passed fact.  
@@ -61,7 +61,7 @@ One ethics note put it plain:
 "We kept the contradiction in rain.  
   Alive long enough  
   To call honest—  
-Not near enough to change terrain."  
+Not *near enough* to *change terrain.*"  
 
 
 
@@ -74,10 +74,10 @@ The question is consequence, not illusion.
 
 
 Placement is not a format call.  
-It's a force decision, overall.  
+*It's a force decision, overall.*  
   What truth gets the room  
   To interrupt, to loom,  
-And what gets the rear-section hall?  
+**And what gets the rear-section hall?**  
 
 
 

@@ -10,7 +10,7 @@ tags: ["limericks", "atmosphere-assisted", "symbolic-completion", "closure-infla
 
 
 This closure became valid not  
-By evidence—weather it got.  
+By *evidence*—*weather it got*.  
   The atmosphere grew  
   Too complete to pursue  
 Contradiction without seeming hot.  
@@ -19,7 +19,7 @@ Contradiction without seeming hot.
 
 No decisive repair had occurred.  
 The case moved to closure. Absurd—  
-  But officially: adequate  
+  *But officially: adequate*  
   Handling. The plaid  
 Of atmosphere more than the word.  
 
@@ -37,15 +37,15 @@ Naming the unresolved burden began
 To register: not fidelity's plan—  
   But a breach of tone.  
   The issue, alone,  
-Was harder to name than to scan.  
+Was *harder to name than to scan*.  
 
 
 
 "Nothing changed enough to close.  
 The room changed enough to suppose  
   That argument was  
-  Against the cause  
-Of courtesy." The margin prose.  
+  *Against the cause*  
+*Of courtesy.*" *The margin prose.*  
 
 
 
@@ -53,13 +53,13 @@ Each element permissible.
 The distortion: inimissible  
   In isolation—  
   But accumulation  
-Made the threshold indivisible.  
+Made the threshold *indivisible*.  
 
 
 
 Atmosphere-assisted closure holds  
 Better than ordinary—but unfolds  
-  With counterfeit finish.  
+  *With counterfeit finish.*  
   Nothing to diminish  
 The seal. Just what the seal withholds.  
 
@@ -85,4 +85,4 @@ The institution found: unresolved
 Things become livable, dissolved  
   Into beside—  
   Once embossed, certified.  
-Not by solving terrain. Just resolved.
+**Not by solving terrain. Just resolved.**

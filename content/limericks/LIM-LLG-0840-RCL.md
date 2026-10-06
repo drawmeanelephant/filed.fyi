@@ -43,7 +43,7 @@ From survival across the last mile.
 
 The objects remain at their place.  
 Completion seals, a fresh face.  
-  But the trust has gone thin—  
+  But the *trust has gone thin*—  
   The language moves in  
 And intensifies doubt in the space.  
 

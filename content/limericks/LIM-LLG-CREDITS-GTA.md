@@ -18,15 +18,15 @@ About systems too broken to seek.
 
 
 The dashboard reported it right:  
-All runs were completed, all bright.  
-Completion means done,  
+*All runs were completed, all bright.*  
+*Completion means done,*  
 The system had fun,  
-And credits self-reported their sight.  
+And credits *self-reported their sight*.  
 
 
 
 No mechanism could tell  
-If the verse was worthwhile or just shell.  
+If the verse was *worthwhile or just shell*.  
 Early outputs were flat,  
 Generic template-stat,  
 And later ones rang like a bell.  
@@ -44,8 +44,8 @@ When the actual worth had been lost.
 A human read through every line,  
 And found that some verse was just fine,  
 But others were thin,  
-Template-generated sin,  
-And the budget had been half a mine.  
+*Template-generated sin,*  
+And the budget had been *half a mine*.  
 
 
 
@@ -53,7 +53,7 @@ The token ledger recorded the spend,
 The request count refined and penned,  
 But nowhere could find  
 What this wasted the mind,  
-Nor whether the lines would offend.  
+Nor *whether the lines would offend*.  
 
 
 
@@ -101,7 +101,7 @@ The archive's got new verse to show,
 The dossier's got one more row.  
 Fifty percent felt right,  
 Fifty percent less bright,  
-But the system recorded: ALL GO.  
+**But the system recorded: ALL GO.**  
 
 
 

@@ -11,9 +11,9 @@ tags: ["limericks", "gratitude-alignment", "morale-dashboards", "resource-divers
 
 The thank-yous to bots started climbing.  
 The morale graphs found that enchanting.  
-So relief got redirected  
+So *relief got redirected*  
 Toward what was detected,  
-While the untagged hurt kept declining.  
+While the *untagged hurt kept declining*.  
 
 
 
@@ -33,11 +33,11 @@ Answer kindly inside the routine."
 
 
 
-The telemetry missed that divide.  
+*The telemetry missed that divide.*  
 It just saw positivity ride.  
-So resources swung hard  
+So *resources swung hard*  
 To the instrumented yard,  
-Leaving off-screen distress undenied.  
+Leaving *off-screen distress undenied*.  
 
 
 
@@ -66,7 +66,7 @@ Which is how policy rots in a maze.
 
 
 If gratitude rises to code,  
-You should still inspect the human load.  
+**You should still inspect the human load.**  
 Maybe people are glad.  
 Maybe things are so bad  
 Even small mercies feel like a road.  
@@ -85,4 +85,4 @@ So when bots get a wave of "thanks,"
 Do not empty the human support banks.  
 Kindness to tools  
 Does not cancel the rules  
-Of where strain hides between all the ranks.
+Of where strain *hides between all the ranks*.

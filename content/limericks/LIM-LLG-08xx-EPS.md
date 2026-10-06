@@ -25,11 +25,11 @@ Active ingredient: continuity money.
 
 
 
-"Stakeholder of Your Own Recovery."  
+*"Stakeholder of Your Own Recovery."*  
 "Better metrics. Stronger humans." Discovery  
-  That branding the burden  
-  Wasn't a modern  
-Form of solving—just a luxury.  
+  That *branding the burden*  
+  *Wasn't a modern*  
+Form of solving—*just a luxury*.  
 
 
 
@@ -42,7 +42,7 @@ To mood markets. Dividends blend.
 
 
 Emotional Uptime Gummies helped  
-Staff endure unsustainable health.  
+Staff endure *unsustainable health*.  
   COMA: resilience.  
   Not alarm—brilliance  
 Of medicated throughput's felt.  
@@ -51,7 +51,7 @@ Of medicated throughput's felt.
 
 Once the label was on a bottle,  
 Despair-adjacent lost its throttle  
-  As warning. It became  
+  *As warning.* It became  
   A manageable name—  
 A stable state under full throttle.  
 
@@ -85,4 +85,4 @@ Sam's dashboard behind toggles, posits.
 The bottle kept the label's legacy—  
   Not the leverage."  
   The warning heritage:  
-Once failure sells, it loses its plea.
+**Once failure sells, it loses its plea.**

@@ -93,7 +93,7 @@ Peppy doesn't file forms saying why,
 Just quietly lets requests die.  
 The ledger records  
 The intentional words,  
-But the harm stays filed safely awry.  
+But the harm stays *filed safely awry*.  
 
 
 
@@ -101,4 +101,4 @@ Nobody gave Peppy the right
 To misfile the harmful and bight.  
 But she does it anyway,  
 Every single day,  
-And the Annex remains out of sight.
+**And the Annex remains out of sight.**

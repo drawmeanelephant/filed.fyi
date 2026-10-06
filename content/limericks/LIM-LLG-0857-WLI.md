@@ -10,7 +10,7 @@ tags: ["limericks", "witness-lodge", "inflation", "ceremonial-continuity"]
 
 
 The expansion was met with applause.  
-New rooms, new circles, new cause.  
+*New rooms, new circles, new cause.*  
   Participation: strong.  
   The archive says: wrong  
 framing doesn't mean what it was.  
@@ -27,9 +27,9 @@ A room opened into those spaces.
 
 When grants could not shift, a circle.  
 When timelines stayed purple,  
-  A witness expanded.  
+  *A witness expanded.*  
   The burden was handed  
-More ceremonially, like a hurdle.  
+More *ceremonially*, like a hurdle.  
 
 
 
@@ -37,12 +37,12 @@ One annotation preserved in review:
 "We're building more chapels, it's true,  
   Because the exits  
   Remain expensive—  
-The budget for doors didn't come through."  
+*The budget for doors didn't come through.*"  
 
 
 
 The witnessing wasn't a sham.  
-It dignified. It was a balm.  
+*It dignified. It was a balm.*  
   Human contact arrived  
   Where procedure contrived  
 Only frost and administrative calm.  
@@ -53,7 +53,7 @@ But as lodge density grew,
 A secondary lesson came through:  
   If burden received  
   Beautifully, the need  
-To change it grew softer in view.  
+To change it grew *softer in view*.  
 
 
 
@@ -85,4 +85,4 @@ Institutions rarely observe
 The moment that witnessing serves  
   As evidence of  
   Upstream refusal above.  
-The rooms were real. So were the nerves.
+**The rooms were real. So were the nerves.**
