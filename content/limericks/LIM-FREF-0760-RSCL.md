@@ -10,7 +10,7 @@ tags: ["limericks", "empathegy"]
 
 
 The surface kept saying "all clear"  
-Till the lived facts arrived at the pier.  
+Till the *lived facts* arrived at the pier.  
 Then the confidence split,  
 And the badge had to sit  
 With the panic it failed to endear.  
@@ -18,18 +18,18 @@ With the panic it failed to endear.
 
 
 Reassurance can carry a room  
-Till it touches the original doom.  
+Till it touches the *original doom*.  
 When the language won't hold,  
 All the comfort turns cold,  
-And the trust drops straight through the flume.  
+**And the trust drops straight through the flume.**  
 
 
 
-The confidence object looked fine  
+The *confidence object* looked fine  
 Until someone compared it with line  
 After line of the mess  
 It had sworn to compress,  
-And the seal lost its talent to shine.  
+And the seal lost its *talent to shine*.  
 
 
 
@@ -58,7 +58,7 @@ While a hurricane leveled the palm.
 
 
 I hung up the "Everything's Fine",  
-At exactly a quarter to nine.  
+*At exactly a quarter to nine*.  
 It covered the crack,  
 In the primary track,  
 And I'm leaving the rest of the line.  
@@ -85,7 +85,7 @@ The seal of "All Fine" on the door,
 Has stood since the servers of yore.  
 The humans complain,  
 In the pouring down rain,  
-While the icon forgets what it's for.  
+While the icon *forgets what it's for*.  
 
 
 
@@ -93,4 +93,4 @@ The comfort was clearly displayed,
 Exactly as policy made.  
 The humans found out,  
 With a terrible shout,  
-And the filing was properly paid.
+And the filing was *properly paid*.

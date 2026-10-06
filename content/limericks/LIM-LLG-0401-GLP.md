@@ -13,7 +13,7 @@ A study that studied itself,
 On its own independent shelf.  
 The sheet cited the log,  
 The log made a clog,  
-And the raw data verified itself.  
+**And the raw data verified itself.**  
 
 
 
@@ -21,7 +21,7 @@ The Director's initials were wrong,
 But the signature had them all along.  
 The SOP revised four  
 Needed those marks on the floor,  
-And nobody knows who'd done wrong.  
+And *nobody knows* who'd done wrong.  
 
 
 
@@ -34,9 +34,9 @@ And the Tribunal left it in doubt.
 
 
 The archive said, "It checks out fine.  
-Eleven years in recursive line.  
+*Eleven years in recursive line.*  
 But we won't verify  
-Whether it happened, we'll lie,  
+Whether it *happened*, we'll lie,  
 And call that a regulatory sign."  
 
 
@@ -53,7 +53,7 @@ The handbook that cited the rules
 Itself had become one of the tools.  
 When you checked what was real,  
 You found nothing to feel,  
-But a chain of cross-referenced fools.  
+But a chain of *cross-referenced fools*.  
 
 
 
@@ -61,7 +61,7 @@ For eleven long years it stayed,
 In recursive loop, never swayed.  
 The archive accepts  
 Compliance neglects  
-That the study itself never played.  
+That the study *itself never played*.  
 
 
 

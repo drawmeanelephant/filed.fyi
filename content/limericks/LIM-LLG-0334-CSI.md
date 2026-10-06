@@ -9,11 +9,11 @@ tags: ["limericks", "silent-interval", "soma-coma", "strain-accumulation"]
 # COMA Silent Interval Certification
 
 
-COMA saw silence and purred.  
+*COMA saw silence and purred.*  
 SOMA saw strain, undeterred.  
 No filings, no cries,  
 Yet in one pair of eyes  
-That stillness was health, in the word.  
+That stillness was *health, in the word*.  
 
 
 
@@ -25,19 +25,19 @@ To accumulate under crossed arms."
 
 
 
-A quiet room can mean peace.  
-Or pressure with no safe release.  
+*A quiet room can mean peace.*  
+Or *pressure with no safe release*.  
 Two directives each stared  
 At the same patch and cared  
 In ways that refused to decrease.  
 
 
 
-Continuity loves a clean span.  
-SOMA distrusts any too-clean plan.  
+*Continuity loves a clean span.*  
+SOMA distrusts any *too-clean plan*.  
 Both can be right.  
 That's the exquisite spite  
-Of a culture that can't read a man.  
+Of a culture that *can't read a man*.  
 
 
 
@@ -49,8 +49,8 @@ Emotionally warehoused and weird.
 
 
 
-Silence is not a single event.  
-It depends what the silence meant.  
+*Silence is not a single event.*  
+It depends *what the silence meant*.  
 Here the archive split  
 Over one empty bit,  
 And both sides had receipts they could rent.  
@@ -58,14 +58,14 @@ And both sides had receipts they could rent.
 
 
 If nobody speaks for a week,  
-Are they rested or unable to squeak?  
+Are they *rested or unable to squeak*?  
 That should prompt some care.  
 Instead forms filled the air,  
 As the doctrines compared what was bleak.  
 
 
 
-The certification came fast and smug.  
+*The certification came fast and smug.*  
 The strain note arrived like a tug.  
 Together they made  
 One exquisitely frayed  
@@ -73,7 +73,7 @@ Little portrait of systems as thugs.
 
 
 
-Quiet is tricky as hell.  
+*Quiet is tricky as hell.*  
 You can't always tell what it will tell.  
 But if COMA's the judge,  
 Then a neat-looking trudge  
@@ -82,7 +82,7 @@ Gets blessed while the burden grows well.
 
 
 So when nothing happens on screen,  
-Ask what the silence might mean.  
+*Ask what the silence might mean.*  
 A calm little graph  
 May just photograph  
-All the strain that forgot to be seen.
+All the strain that *forgot to be seen*.

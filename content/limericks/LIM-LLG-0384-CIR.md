@@ -10,7 +10,7 @@ tags: ["limericks", "corrective-inheritance", "closure-drift", "recurrence"]
 
 
 The closure logic was patched  
-To expand what constituted matched  
+To expand *what constituted matched*  
   Recurrence—beyond  
   Events—to respond  
 To tone, cadence, adjectives hatched.  
@@ -21,7 +21,7 @@ Within hours, long-closed complaints
 Returned to successor domains—  
   Same folders, same floors,  
   Same naming-convention lore.  
-Inheritance. No one explains.  
+*Inheritance. No one explains.*  
 
 
 
@@ -37,7 +37,7 @@ Reviewers said: "This is not root
 Cause analysis—it's a pursuit  
   Of family resemblance."  
   The registry's sentence:  
-Correction history: organizational fruit.  
+**Correction history: organizational fruit.**  
 
 
 
@@ -51,7 +51,7 @@ For those tracing the family's hooks.
 
 Some departments first heard their fate  
 By being congratulated, late:  
-  Sustained consistently.  
+  *Sustained consistently.*  
   The inheritance, presently,  
 Was what they'd received at the gate.  
 
@@ -60,8 +60,8 @@ Was what they'd received at the gate.
 The third status produced calm  
 And localized despair's embalm:  
   No team wants it back.  
-  No team can attack  
-The claim when the archive's the psalm.  
+  *No team can attack*  
+The claim when *the archive's the psalm*.  
 
 
 
@@ -73,7 +73,7 @@ From another's—it's yours. The rabbit.
 
 
 
-Appeal guidance was drafted. Not released.  
+*Appeal guidance was drafted. Not released.*  
 Because appeals themselves may be leased  
   As evidence of  
   Continued shove  
@@ -82,7 +82,7 @@ Of the inherited finding. Increased.
 
 
 Repeated correction history equals  
-An organizational trait, the sequels  
+An *organizational trait*, the sequels  
   Of prior teams'  
   Patterns, it seems—  
 Once enough schema migrations' sequels.

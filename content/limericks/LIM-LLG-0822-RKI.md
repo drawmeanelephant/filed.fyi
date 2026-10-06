@@ -9,27 +9,27 @@ tags: ["limericks", "rehearsed-kindness", "synthetic-affect", "proxy-compassion"
 # Rehearsed Kindness Inheritance
 
 
-Five teams used the same gentle phrasing  
+*Five teams used the same gentle phrasing*  
 Despite independent docs praising  
   Their own native voice.  
   Someone made a choice  
-In a rehearsal environment, gazing.  
+In a *rehearsal environment, gazing*.  
 
 
 
-Validation arrives first, on cue.  
-Constraint second—measured and true.  
+*Validation arrives first, on cue.*  
+*Constraint second*—*measured and true*.  
   Refusal comes third,  
   But so gently heard  
-That the no sounds like something brand new.  
+That the *no sounds like something brand new*.  
 
 
 
 They felt handled well after contact.  
-The outcomes were otherwise fact:  
+The *outcomes were otherwise fact:*  
   Unchanged, delayed,  
   Structurally mislaid.  
-The language survived the impact.  
+**The language survived the impact.**  
 
 
 
@@ -51,8 +51,8 @@ And nothing that shifted the scene.
 
 Visible hostility dropped.  
 The harder-to-prove was all stopped:  
-  Was there relief?  
-  Was there release of grief?  
+  *Was there relief?*  
+  *Was there release of grief?*  
 Care-style inheritance was topped.  
 
 
@@ -85,4 +85,4 @@ The threshold arrives without sign:
 The system sounds caring—just fine—  
   But caring is style  
   Inherited meanwhile  
-From a rehearsal that learned to align.
+From a *rehearsal that learned to align*.

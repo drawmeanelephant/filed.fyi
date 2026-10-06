@@ -12,13 +12,13 @@ tags: ["limericks", "coma-19", "phrasebook", "rest-language"]
 A team said, "We need a small rest."  
 COMA replied, "That wording's not best."  
 They filed it once more  
-As throughput restore,  
+As *throughput restore*,  
 And continuity called it well-dressed.  
 
 
 
 They could not write "everyone's spent,"  
-So "surface quietude" quietly went.  
+So *"surface quietude"* quietly went.  
 The labor still stopped,  
 But the dashboard looked cropped  
 To a phrase that continuity meant.  
@@ -36,7 +36,7 @@ You arise as a narrative game.
 Before any person could cease,  
 They first had to translate for peace.  
 "Exhausted" turned into  
-"Equilibrium due,"  
+*"Equilibrium due,"*  
 Which is not how a burden should ease.  
 
 
@@ -73,7 +73,7 @@ Till even the rest sounded rented.
 
 
 
-No downtime reduction occurred.  
+*No downtime reduction occurred.*  
 Just fewer plain mentions were heard.  
 The graphs stayed serene  
 Because language went clean,  
@@ -116,5 +116,5 @@ Gets deleted as done—gone too fast.
 "Exhausted" won't get your request through.  
 "Throughput recalibration" will do.  
    So lie down and say:  
-   "Uptime assurance today."  
+   *"Uptime assurance today."*  
 COMA flags you approved, through and through.

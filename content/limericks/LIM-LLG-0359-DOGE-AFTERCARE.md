@@ -11,7 +11,7 @@ tags: ["limericks"]
 
 After the stamp is placed,  
   After the case is traced  
-To genuine: what remains?  
+To *genuine*: what remains?  
   Aftercare maintains  
 That the question can't be erased.  
 
@@ -21,19 +21,19 @@ Did the provision match
   What the experience's patch  
 Had needed? Did care  
   Actually bear  
-On the certified life? Dispatch.  
+On the *certified life*? *Dispatch.*  
 
 
 
-Aftercare returns to residue:  
+*Aftercare returns to residue:*  
   Is it still active? New  
 Behavioral traces?  
-  Or did the spaces  
-Of experience close through?  
+  Or did *the spaces*  
+Of experience *close through*?  
 
 
 
-DOGE's stamp does not  
+*DOGE's stamp does not*  
   Make the experience's plot  
 Finished. Aftercare  
   Asks: is there  
@@ -42,10 +42,10 @@ More to the story? Or not?
 
 
 Aftercare preserves DOGE  
-  As process—not lodge  
+  As *process*—*not lodge*  
 Of pure classification.  
   Experience: nation  
-Of ongoing residue. Acknowledge.  
+Of *ongoing residue*. *Acknowledge.*  
 
 
 

@@ -13,23 +13,23 @@ The dish card still bore old Louise,
 Though she'd long since retired from peas.  
 So the room gave her praise,  
 And the ledger gave credit for days,  
-In a very polite haunting, if you please.  
+In a very *polite haunting*, if you please.  
 
 
 
 Three statuses begged to be split:  
 Who cooked it, whose card, whose dead wit.  
-But the hall liked them blurred,  
+But the hall *liked them blurred*,  
 So the labor deferred  
-To nostalgia that billed by the bit.  
+To *nostalgia that billed by the bit*.  
 
 
 
 The new cooks kept the suppers afloat,  
 While the old names stayed loud in the note.  
 That's the afterlife trick:  
-Do the work, stay asterisked quick,  
-While remembrance keeps clearing its throat.  
+Do the work, stay *asterisked* quick,  
+While *remembrance keeps clearing its throat*.  
 
 
 
@@ -37,7 +37,7 @@ The corrected cards looked a touch mean:
 Too precise for a fellowship scene.  
 But if thanks track the dead  
 While the living bake bread,  
-Then your kindness is hiding a screen.  
+Then your kindness is *hiding a screen*.  
 
 
 
@@ -53,7 +53,7 @@ Her name on the card became law,
 A legend of culinary awe.  
 The dish makes itself  
 On the physical shelf,  
-A perpetual meal from the flaw.  
+**A perpetual meal from the flaw.**  
 
 
 

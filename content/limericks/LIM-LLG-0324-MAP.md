@@ -11,17 +11,17 @@ tags: ["limericks", "managed-absence", "forms-registry", "governed-ambiguity"]
 
 The Catalog faced a hard trap:  
 Too many old forms for one map.  
-So absence was named,  
+So *absence was named*,  
 Nicely governed and framed,  
-And confusion received its own cap.  
+And confusion received *its own cap*.  
 
 
 
 Conceptually active, retired on the sheet,  
 Yet still in the workflow you meet.  
-That weather is CAAR:  
+That weather is *CAAR*:  
 Officially far,  
-But somehow beneath all your feet.  
+But somehow *beneath all your feet*.  
 
 
 
@@ -45,12 +45,12 @@ Some paperwork lives only where
 Lorelog once mentioned it there.  
 No blank copy found,  
 Still citable ground:  
-An archival assertion of air.  
+An archival *assertion of air*.  
 
 
 
 The memo advised, with a grin,  
-"Choose absence that keeps optics thin."  
+"*Choose absence that keeps optics thin.*"  
 Not the truest defect,  
 Just the one that protects  
 Continuity language within.  
@@ -61,7 +61,7 @@ Publication alone did the trick:
 Ambiguity suddenly clicked.  
 No form was restored,  
 Yet the office declared  
-The condition officially fixed.  
+The condition *officially fixed*.  
 
 
 
@@ -74,17 +74,17 @@ And proceed like intention was there.
 
 
 The protocol teaches the desk  
-To classify missing as-esque.  
+To classify *missing as-esque*.  
 When presence gets weird,  
 And absence feels near,  
-You govern the blur, not the mess.  
+You govern *the blur, not the mess*.  
 
 
 
 If everyone speaks as though done,  
 Implementation may count as one.  
 MAP knows the game:  
-Give folklore a name,  
+Give *folklore a name*,  
 And doctrine arrives in the run.  
 
 
