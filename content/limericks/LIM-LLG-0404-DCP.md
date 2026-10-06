@@ -10,7 +10,7 @@ tags: ["limericks", "dual-certification", "silent-interval", "ambiguity-by-desig
 
 
 The Board, with a practical frown,  
-Made contradiction official in town.  
+Made *contradiction official* in town.  
 Not solved, not denied,  
 Just formally tied,  
 And granted a governance gown.  
@@ -21,15 +21,15 @@ COMA must certify green.
 SOMA must note what may mean  
 Burden beneath it.  
 The parser must keep it  
-As co-valid versions of seen.  
+As *co-valid versions of seen*.  
 
 
 
-No one may average the pair.  
+*No one may average the pair.*  
 No health score may flatten the air.  
 If you seek one clean sum,  
 The protocol says, "Do not come.  
-Ambiguity lives openly here."  
+*Ambiguity lives openly here.*"  
 
 
 
@@ -50,10 +50,10 @@ C.U.N.T.I.E.R. habits the Board barely saves.
 
 
 They coined a new phrase for the gray:  
-Continuity-sufficient that way,  
+*Continuity-sufficient* that way,  
 Yet burden-positive still,  
 Which is elegant drill  
-For "the work went on, but at pay."  
+For *"the work went on, but at pay."*  
 
 
 
@@ -61,7 +61,7 @@ Escalation may happen, but not
 From SBI speaking a lot.  
 You need some human trace,  
 Or a Lorelog case,  
-To prove what the silence forgot.  
+To prove *what the silence forgot*.  
 
 
 
@@ -85,4 +85,4 @@ The policy's neat in its split:
 Both readings must stay where they fit.  
 So the interval stands  
 In two governed lands,  
-And neither may edit the writ.
+**And neither may edit the writ.**
