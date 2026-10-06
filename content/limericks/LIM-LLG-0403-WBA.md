@@ -13,7 +13,7 @@ Subject Four got sectioned just right,
 Forty slices, each clean, each bite.  
 At thirty-eight, the printer  
 Had a buffer that didn't quite winter—  
-And slices became two in the night.  
+And slices became *two in the night*.  
 
 
 
@@ -21,13 +21,13 @@ Slices thirty-nine through forty-one
 Lived in a file and another one.  
 Study 2240: not collected,  
 Study 2241: detected,  
-And the subject can't be re-done.  
+And the subject *can't be re-done*.  
 
 
 
 Bricky looked at the plates for six,  
-Said, "They look fine. Here's a fix:  
-Accept both the files."  
+Said, *"They look fine. Here's a fix:*  
+*Accept both the files.*"  
 QA said, "No, that's wiles."  
 Bricky nodded and filed the mix.  
 
@@ -37,7 +37,7 @@ Both studies are filed and sound,
 Both datasets are completely found.  
 The documentation's complete,  
 GLP-compliant and neat,  
-But the subject can't be re-bound.  
+But the subject *can't be re-bound*.  
 
 
 
@@ -57,8 +57,8 @@ And we're split on the authoritative strokes.
 
 
 
-Bricky's original note sits and waits:  
-"Accept both." That decision gates.  
+*Bricky's original note sits and waits:*  
+*"Accept both." That decision gates.*  
 QA rejected the call,  
 But the note's still in the hall,  
 And the uncertainty permeates.  
@@ -69,7 +69,7 @@ The cryomacrotome's cleaned and stored,
 The subject's no longer aboard.  
 We could guess, we could bet,  
 But we can't duplicate yet,  
-And the label rot's now on record.  
+And the *label rot's now on record*.  
 
 
 
@@ -93,4 +93,4 @@ The quality of the image is right,
 The signal's within spec and tight.  
 But which file owns it?  
 QA can't disown it,  
-And the pharmacy doesn't know which to cite.
+**And the pharmacy doesn't know which to cite.**

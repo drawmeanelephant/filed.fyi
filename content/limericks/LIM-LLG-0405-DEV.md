@@ -21,7 +21,7 @@ To use the old form meant a fault,
 So they filed a new one, no halt.  
 But the new one was filed  
 On Three-A, compiled,  
-And the system began its assault.  
+And the system *began its assault*.  
 
 
 
@@ -37,7 +37,7 @@ The deviation file references now
 The deviation file itself, and how.  
 Form rot, information right,  
 But the logic's not tight,  
-And one entry cites its own brow.  
+And one entry *cites its own brow*.  
 
 
 
@@ -49,11 +49,11 @@ But the forms, well, the forms are uneven.
 
 
 
-"The forms are not fine," Bricky said.  
-"The forms are not fine," as he fled.  
+**"The forms are not fine," Bricky said.**  
+*"The forms are not fine," as he fled.*  
 "I have noted the error,  
-Which makes me the bearer,  
-And I won't file a third in my stead."  
+Which makes me *the bearer,*  
+*And I won't file a third in my stead.*"  
 
 
 
@@ -75,9 +75,9 @@ And the temp excursion had less heft.
 
 DEV-0041 needs DEV-0042,  
 Which needs CAPA—don't you chafe.  
-Each leads to the next,  
-Each system is vexed,  
-And the closure falls off the safe.  
+*Each leads to the next,*  
+*Each system is vexed,*  
+And the *closure falls off the safe*.  
 
 
 

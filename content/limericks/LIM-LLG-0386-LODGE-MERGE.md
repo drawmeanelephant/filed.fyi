@@ -10,24 +10,24 @@ tags: ["limericks", "lodge-merger", "attendance", "memorial-quorum"]
 
 
 Two chapters were merged with decorum,  
-Yet both kept the same ghosts for the quorum.  
+Yet both kept the *same ghosts for the quorum*.  
 The seals all were filed,  
 But the roll sheet went wild,  
-And remembrance said, "Fuck your reform."  
+**And remembrance said, "Fuck your reform."**  
 
 
 
 Some members were counted times two,  
 For committees and dues long since through.  
 When challenged, the clerk said,  
-"The living and dead  
-Deserve more than one line if they do."  
+*"The living and dead*  
+Deserve *more than one line* if they do."  
 
 
 
 They had shared half the staff and the stew,  
 So the merger looked easy to do.  
-But the names would not thin,  
+But the *names would not thin*,  
 Once esteem settled in,  
 And the minutes gained extra hall glue.  
 
@@ -49,7 +49,7 @@ In a logic that's deeply maligned.
 
 
 
-A phantom was birthed by the blend,  
+A *phantom* was birthed by the blend,  
 With a vote that it chose to extend.  
 It sat at the board,  
 While the archives ignored,  
