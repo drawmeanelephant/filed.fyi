@@ -17,11 +17,11 @@ CAAR: Canonically Absent, Administratively Resolved. The form's absence is docum
 
 
 
-STCP: Superseded in Text, Canonical in Practice. Forms that have two truths: the one printed, and the one people obey. Meaning adjusted around the winning selector.
+STCP: Superseded in Text, Canonical in Practice. Forms that have *two truths*: the one printed, and the one people obey. Meaning adjusted around the winning selector.
 
 
 
-Administratively Retired but Conceptually Active. The policy is officially dead, yet it continues to dictate the morning shift.
+Administratively Retired but Conceptually Active. The policy is officially dead, yet it continues to *dictate the morning shift*.
 
 
 
@@ -29,7 +29,7 @@ Locally Canonical, Globally Unacknowledged. The regional office has invented a t
 
 
 
-Operationally Active, Administratively Absent. The form does not exist in the catalog, but the queue will halt if it is not signed.
+Operationally Active, Administratively Absent. The form does not exist in the catalog, but the queue will *halt* if it is not signed.
 
 
 
@@ -37,4 +37,4 @@ The Managed Absence Spine accepts their existence but refuses to reconcile them.
 
 
 
-Missing artifacts are treated as a governed substrate rather than a defect surface. We simply built the city on top of the hole.
+Missing artifacts are treated as a governed substrate rather than a defect surface. We simply built the city on top of the *hole*.

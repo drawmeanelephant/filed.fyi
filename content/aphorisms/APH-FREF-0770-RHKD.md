@@ -9,11 +9,11 @@ tags: ["aphorisms", "rehearsed-kindness", "scripts", "tone-style", "leverage"]
 # Rehearsed Kindness Aphorisms
 
 
-The language knows how to sound caring before the system knows how to yield. The form remained intact. The situation did not.
+The language knows how to sound caring before the system knows how to *yield*. The form remained intact. The situation did not.
 
 
 
-Rehearsed Kindness is what happens when a system practices sounding better before it practices becoming better. Meaning adjusted around the winning selector.
+Rehearsed Kindness is what happens when a system practices sounding better before it practices *becoming better*. Meaning adjusted around the winning selector.
 
 
 
@@ -45,7 +45,7 @@ The institution sounds more humane in records and surfaces. The care may be felt
 
 
 
-Kindness in wording is mistaken for kindness in structure. Meaning adjusted around the winning selector.
+Kindness in *wording* is mistaken for kindness in *structure*. Meaning adjusted around the winning selector.
 
 
 
@@ -53,7 +53,7 @@ Repeated gentle wording dulls recognition that nothing changed. Relief remained 
 
 
 
-Once the gap becomes obvious, polished kindness may collapse harder than blunt language would have. Silence entered the record with full procedural honors.
+Once the gap becomes obvious, polished kindness may *collapse harder* than blunt language would have. Silence entered the record with full procedural honors.
 
 
 

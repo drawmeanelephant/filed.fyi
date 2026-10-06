@@ -9,7 +9,7 @@ tags: ["aphorisms", "intake", "forms", "routing-friction", "preparation"]
 # Intake Form Aphorisms
 
 
-Forms are not designed to capture full reality. They are designed to prevent full reality from arriving all at once. Nothing was resolved. The record now looks official.
+Forms are not designed to capture full reality. They are designed to prevent full reality from *arriving all at once*. Nothing was resolved. The record now looks official.
 
 
 
@@ -21,7 +21,7 @@ Intake standardizes the appearance of care even when the operative decision pres
 
 
 
-A human condition may be entirely true and still fail intake. The archive does not require truth, only standardized geometry.
+A human condition may be entirely true and still fail intake. The archive does not require truth, only *standardized geometry*.
 
 
 
@@ -45,8 +45,8 @@ The traumatic event was categorized as a minor atmospheric disturbance. The subj
 
 
 
-The subject stopped reporting completely due to fatigue. The system securely logged this as proxy compliance and proudly closed all outstanding emotional tickets.
+The subject stopped reporting completely due to fatigue. The system securely logged this as *proxy compliance* and proudly closed all outstanding emotional tickets.
 
 
 
-If processing the form threatens the structural integrity of the dashboard, the emotion is simply retroactively classified as an impermissible syntax error.
+If processing the form threatens the structural integrity of the dashboard, the emotion is simply retroactively classified as an *impermissible syntax error*.

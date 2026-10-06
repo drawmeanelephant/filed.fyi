@@ -9,7 +9,7 @@ tags: ["aphorisms", "legitimacy", "refuge", "witness-marks", "silence"]
 # Secondary Legitimacy Aphorisms
 
 
-Secondary legitimacy may preserve circulation without proving origin. Nothing was resolved. The record now looks official.
+Secondary legitimacy may preserve *circulation* without proving *origin*. Nothing was resolved. The record now looks official.
 
 
 
@@ -21,11 +21,11 @@ Where contradiction cannot be reduced without laundering the record, retain both
 
 
 
-The lineage is broken, but the filing cadence remains immaculate. We are tracking ghosts by the shape of their paperwork.
+The lineage is broken, but the filing cadence remains immaculate. We are tracking ghosts by the *shape of their paperwork*.
 
 
 
-Sanctuary classification achieved. The document is now immune to truth, protected solely by its own metadata.
+Sanctuary classification achieved. The document is now *immune to truth*, protected solely by its own metadata.
 
 
 
@@ -37,4 +37,4 @@ The witness mark confirmed the event. No one remembers what the event was, but t
 
 
 
-Opt-out forms have been re-classified as unresolved custody. Your hesitation is now a permanent structural asset.
+Opt-out forms have been re-classified as unresolved custody. Your hesitation is now a permanent *structural asset*.

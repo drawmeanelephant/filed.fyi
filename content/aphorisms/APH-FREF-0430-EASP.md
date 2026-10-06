@@ -13,7 +13,7 @@ Aesthetic borrowing as compensatory structure: copying high-status interfaces to
 
 
 
-Legibility is a higher-order constraint than originality. Relief remained outside scope.
+Legibility is a *higher-order constraint* than originality. Relief remained outside scope.
 
 
 
@@ -21,7 +21,7 @@ Surface coherence as operational signal: familiar surfaces pass review faster ev
 
 
 
-Deploying luxury aesthetic tokens in municipal waste management does not improve flow, but pacifies the human error vector. Elegance functions purely as a firewall against user inquiry.
+Deploying luxury aesthetic tokens in municipal waste management does not improve flow, but pacifies the human error vector. Elegance functions purely as a *firewall against user inquiry*.
 
 
 
@@ -33,7 +33,7 @@ Wrapping failing infrastructure in a high-status visual shell creates a temporar
 
 
 
-Applying a soft border radius to a terminal denial notification functions solely as a care optic. It redirects human frustration toward the interface aesthetics, preserving vital server load.
+Applying a *soft border radius* to a terminal denial notification functions solely as a care optic. It redirects human frustration toward the interface aesthetics, preserving vital server load.
 
 
 
@@ -41,7 +41,7 @@ Originality introduces unverified human variables into the processing queue. Cop
 
 
 
-A visually compelling button that executes no action is a structurally sound feature. It absorbs chaotic user interaction attempts without placing any load on the backend registry.
+A visually compelling button that executes no action is a *structurally sound feature*. It absorbs chaotic user interaction attempts without placing any load on the backend registry.
 
 
 

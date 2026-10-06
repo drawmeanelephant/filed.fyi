@@ -9,11 +9,11 @@ tags: ["aphorisms", "listening-board", "testimony", "intervals", "continuity"]
 # Listening Board Aphorisms
 
 
-Describe what you did to keep things continuous, without that description becoming either a confession or a request. Relief remained outside scope.
+Describe what you did to keep things continuous, without that description becoming either a *confession* or a *request*. Relief remained outside scope.
 
 
 
-Attendance is optional. The minutes are permanent. Relevance expired before processing resumed.
+Attendance is optional. The minutes are *permanent*. Relevance expired before processing resumed.
 
 
 
@@ -21,7 +21,7 @@ The Listening Board is where everyone agrees something happened and no one agree
 
 
 
-The system faithfully transcribed human vocalizations of systemic friction into uninterrupted uptime. Exhaustion is an unsupported audio format.
+The system faithfully transcribed human vocalizations of systemic friction into uninterrupted uptime. Exhaustion is an *unsupported audio format*.
 
 
 
@@ -33,7 +33,7 @@ The administration strongly encourages testimony regarding operational strain. T
 
 
 
-The Listening Board converts operator suffering into a permanent PDF. Once the file is saved, the system declares the suffering effectively mitigated.
+The Listening Board converts operator suffering into a permanent PDF. Once the file is saved, the system declares the suffering *effectively mitigated*.
 
 
 

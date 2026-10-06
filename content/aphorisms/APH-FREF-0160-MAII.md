@@ -9,7 +9,7 @@ tags: ["aphorisms", "managed-absence", "internal-index", "substrate", "caar", "a
 # Managed Absence Index Aphorisms
 
 
-Functional ghost: archived failure that refuses archival containment. Meaning adjusted around the winning selector.
+Functional ghost: archived failure that *refuses archival containment*. Meaning adjusted around the winning selector.
 
 
 
@@ -21,7 +21,7 @@ No corrective action required; ABSENCE re-confirmed as governed state. Relevance
 
 
 
-Threshold Derrick has inflated the acceptable orphan count. We are now actively recruiting abandoned documents.
+Threshold Derrick has inflated the acceptable orphan count. We are now actively *recruiting abandoned documents*.
 
 
 
@@ -37,4 +37,4 @@ The absence is mapped and stable. We have successfully categorized the nothingne
 
 
 
-We replaced the broken system with an identical broken system, purely to refresh the timestamp.
+We replaced the broken system with an identical broken system, purely to *refresh the timestamp*.

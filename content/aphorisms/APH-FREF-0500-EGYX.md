@@ -9,7 +9,7 @@ tags: ["aphorisms", "taxonomy", "vocabulary", "pre-governance", "preparation"]
 # Empathegy Taxonomy Aphorisms
 
 
-Raw feeling is treated as pre-governance substrate. It is not invalid; it is unprepared. The form remained intact. The situation did not.
+Raw feeling is treated as *pre-governance substrate*. It is not invalid; it is unprepared. The form remained intact. The situation did not.
 
 
 
@@ -29,7 +29,7 @@ Not all classifiable affect becomes governable. If no stable process can hold it
 
 
 
-Dashboard-safe affect is often mistaken for resolved affect. This is a category error, but a common one. Nothing was resolved. The record now looks official.
+Dashboard-safe affect is often mistaken for *resolved affect*. This is a category error, but a common one. Nothing was resolved. The record now looks official.
 
 
 
@@ -49,7 +49,7 @@ Accumulated divergence between what the system displays and what participating h
 
 
 
-Stability does not equal wellbeing. Silence does not equal rest. Repetition does not equal resolution. The system kept the ritual and misplaced the function.
+Stability does not equal wellbeing. Silence does not equal rest. Repetition does not equal *resolution*. The system kept the ritual and misplaced the function.
 
 
 
@@ -57,7 +57,7 @@ The taxonomy exists to stabilize that distortion, not to eliminate it. Nothing w
 
 
 
-Empathegy preserves those emotional states most compatible with repeated institutional reading. Relief remained outside scope.
+Empathegy preserves those emotional states most compatible with *repeated institutional reading*. Relief remained outside scope.
 
 
 

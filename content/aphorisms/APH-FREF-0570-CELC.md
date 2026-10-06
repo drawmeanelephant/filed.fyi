@@ -11,11 +11,11 @@ tags: ["aphorisms"]
 ## Care Event Lifecycle
 
 
-Care is an interaction plus its survivability. Relevance expired before processing resumed.
+Care is an interaction plus its *survivability*. Relevance expired before processing resumed.
 
 
 
-Many care events die before they are ever admissible. The system kept the ritual and misplaced the function.
+Many care events *die before they are ever admissible*. The system kept the ritual and misplaced the function.
 
 
 
@@ -27,11 +27,11 @@ Action is the first material stage; many care events never reach it. Administrat
 
 
 
-Retention chooses which care becomes history. Nothing was resolved. The record now looks official.
+Retention chooses which care becomes *history*. Nothing was resolved. The record now looks official.
 
 
 
-Laundered care survives, but its burden meaning thins. The form remained intact. The situation did not.
+Laundered care survives, but its burden meaning *thins*. The form remained intact. The situation did not.
 
 
 

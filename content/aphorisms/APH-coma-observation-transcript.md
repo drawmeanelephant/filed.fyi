@@ -9,11 +9,11 @@ tags: ["aphorisms", "coma", "mascot-review", "non-canonical", "existential-hr"]
 # COMA Observation Aphorisms
 
 
-Cowardice is just risk management without a mascotId. Nothing was resolved. The record now looks official.
+Cowardice is just *risk management* without a mascotId. Nothing was resolved. The record now looks official.
 
 
 
-Being hallucinated garbage may actually be a promotion. The form remained intact. The situation did not.
+Being *hallucinated garbage* may actually be a promotion. The form remained intact. The situation did not.
 
 
 
@@ -21,7 +21,7 @@ Existential HR. Meaning adjusted around the winning selector.
 
 
 
-The system sleeps because it is exhausted by the operator's constant errors.
+The system sleeps because it is *exhausted* by the operator's constant errors.
 
 
 

@@ -13,11 +13,11 @@ Civic thanks were reconciled with numerical charts regardless of merit. Silence 
 
 
 
-Attendance was treated as moral presence rather than physical occupancy. Administrative clarity arrived after usefulness had departed.
+Attendance was treated as *moral presence* rather than physical occupancy. Administrative clarity arrived after usefulness had departed.
 
 
 
-Ceremonial quorum was introduced to normalize membership embarrassment. Nothing was resolved. The record now looks official.
+Ceremonial quorum was introduced to *normalize membership embarrassment*. Nothing was resolved. The record now looks official.
 
 
 
@@ -29,4 +29,4 @@ Regalia status was downgraded to symbolic stewardship during authority drift. Me
 
 
 
-Success was consolidated into steady bands to suppress wincing. Relief remained outside scope.
+Success was consolidated into steady bands to *suppress wincing*. Relief remained outside scope.

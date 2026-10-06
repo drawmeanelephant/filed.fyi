@@ -9,11 +9,11 @@ tags: ["aphorisms"]
 # FFP-0380 Care Without Exit, Silence Without Gap
 
 
-If the archive insists a retired service is operational, all subsequent outages must be logged as user hallucinations.
+If the archive insists a retired service is operational, all subsequent outages must be logged as *user hallucinations*.
 
 
 
-We have optimized the support pipeline to perfectly measure your exhaustion without ever accidentally alleviating it.
+We have optimized the support pipeline to perfectly measure your exhaustion without ever accidentally *alleviating it*.
 
 
 
@@ -29,7 +29,7 @@ We format the unbearable strain so carefully, ensuring the margins are wide enou
 
 
 
-A silence without a gap is an unbroken promise. The archive is holding its breath so the fragile records do not scatter.
+A silence without a gap is an *unbroken promise*. The archive is holding its breath so the fragile records do not scatter.
 
 
 

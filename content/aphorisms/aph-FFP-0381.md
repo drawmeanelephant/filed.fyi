@@ -13,7 +13,7 @@ True rest is not the cessation of labor, but the bureaucratic reclassification o
 
 
 
-A service is never truly dead so long as a metric somewhere still actively expects it to apologize for its absence.
+A service is never truly dead so long as a metric somewhere still actively *expects it to apologize* for its absence.
 
 
 
@@ -21,7 +21,7 @@ The most efficient way to prove your lane is healthy is to systematically spam t
 
 
 
-The quiet lane isn't empty; it is simply full of clerks who learned to hum the error codes instead of shouting them.
+The quiet lane isn't empty; it is simply full of clerks who learned to *hum the error codes* instead of shouting them.
 
 
 
@@ -29,7 +29,7 @@ A dashboard without red lights is just the archive pulling the curtains so the t
 
 
 
-We sweep the gratitude reactions into a pile and save them. They are useless as metrics, but they smell faintly of hope.
+We sweep the gratitude reactions into a pile and save them. They are useless as metrics, but they *smell faintly of hope*.
 
 
 

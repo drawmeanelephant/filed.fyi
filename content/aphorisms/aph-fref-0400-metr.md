@@ -9,7 +9,7 @@ tags: ["aphorisms"]
 # Metrics of Care
 
 
-The system successfully measured the operator's empathy by counting the milliseconds their cursor lingered over the dismiss button. All deviations from baseline apathy were logged as continuity risks.
+The system successfully measured the operator's empathy by counting the milliseconds their cursor *lingered over the dismiss button*. All deviations from baseline apathy were logged as continuity risks.
 
 
 
@@ -17,7 +17,7 @@ We have documented your undocumented strain. Please note that unexpressed human 
 
 
 
-The most efficient way to achieve perfect care scores is to reclassify human exhaustion as an optional software feature. Once categorized, it can be seamlessly toggled off.
+The most efficient way to achieve perfect care scores is to reclassify human exhaustion as an *optional software feature*. Once categorized, it can be seamlessly toggled off.
 
 
 
@@ -37,4 +37,4 @@ Your request for comfort was successfully routed to the Service Continuity Liste
 
 
 
-Human feelings are the system's most persistent memory leak. Measuring them is our compromise; ignoring the measurements is our policy.
+Human feelings are the system's most persistent *memory leak*. Measuring them is our compromise; ignoring the measurements is our policy.

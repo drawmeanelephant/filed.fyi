@@ -13,7 +13,7 @@ Select a trio of artifacts that refer, loosely, to the same kind of situation. N
 
 
 
-Candidate over‑coherent – reads smoother than I trust. The form remained intact. The situation did not.
+Candidate over‑coherent – reads smoother than I *trust*. The form remained intact. The situation did not.
 
 
 
@@ -25,7 +25,7 @@ A clerk’s tendency to read intention into an empty field is merely a symptom o
 
 
 
-Artifacts that perfectly align across three independent variables are actively conspiring against the archivist. Trust only the friction of contradiction.
+Artifacts that perfectly align across three independent variables are actively *conspiring* against the archivist. Trust only the friction of contradiction.
 
 
 
@@ -33,7 +33,7 @@ Drawing a square next to an undocumented assumption does not legitimize it. It s
 
 
 
-The instruction to keep or discard personal statements is a procedural trap. Retaining them consumes desk space; discarding them constitutes unauthorized document destruction.
+The instruction to keep or discard personal statements is a procedural trap. Retaining them consumes desk space; discarding them constitutes *unauthorized document destruction*.
 
 
 
@@ -49,4 +49,4 @@ An answer that admits where it came from is still fundamentally incorrect. It is
 
 
 
-Reading three divergent artifacts in succession will inevitably induce meaning-collapse. This is an intentional feature of the training sheet, designed to suppress unauthorized clerk cognition.
+Reading three divergent artifacts in succession will inevitably induce meaning-collapse. This is an intentional feature of the training sheet, designed to *suppress unauthorized clerk cognition*.

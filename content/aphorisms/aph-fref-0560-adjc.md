@@ -17,7 +17,7 @@ The user arrived at a perfectly functional terminal that offers zero access to t
 
 
 
-We measured the volume of processed forms to completely mask the catastrophic decline in actual task completion. The dashboard remains vividly green, actively protecting us from the user's operational reality.
+We measured the volume of processed forms to completely mask the catastrophic decline in actual task completion. The dashboard remains vividly green, actively *protecting us* from the user's operational reality.
 
 
 
@@ -29,7 +29,7 @@ A document was securely filed in a directory indistinguishable from a digital vo
 
 
 
-The transaction achieved full technical validity without ever touching the necessary context. Providing the user with the correct object is considered a legacy feature, subject to deprecation.
+The transaction achieved full technical validity without ever touching the necessary context. Providing the user with the correct object is considered a *legacy feature*, subject to deprecation.
 
 
 
@@ -37,4 +37,4 @@ By replacing the requested missing original with an aesthetically identical subs
 
 
 
-The navigational loop is cleanly designed to infinitely redirect the user without triggering an explicit error state. We consider this a triumph of adjacent correctness over experiential utility.
+The navigational loop is cleanly designed to infinitely redirect the user without triggering an explicit error state. We consider this a triumph of *adjacent correctness* over experiential utility.

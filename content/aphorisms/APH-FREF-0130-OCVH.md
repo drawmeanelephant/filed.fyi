@@ -9,7 +9,7 @@ tags: ["aphorisms", "over-coherence", "dread-erosion", "training-specimens", "va
 # Vault Handling Aphorisms
 
 
-A quarantine for explanations that work too well to be believed. The form remained intact. The situation did not.
+A quarantine for explanations that work *too well to be believed*. The form remained intact. The situation did not.
 
 
 
@@ -25,7 +25,7 @@ The final section offers closure. The underlying crisis was politely excluded fr
 
 
 
-Residual dread has fallen below acceptable levels. Please re-contaminate the artifact before circulation.
+Residual dread has fallen below acceptable levels. Please *re-contaminate* the artifact before circulation.
 
 
 
@@ -33,7 +33,7 @@ Every event is explained by a clear, single cause. The complexity has been succe
 
 
 
-Narrative, dashboards, and doctrine all agree. We are currently investigating this massive systemic failure.
+Narrative, dashboards, and doctrine all agree. We are currently investigating this *massive systemic failure*.
 
 
 

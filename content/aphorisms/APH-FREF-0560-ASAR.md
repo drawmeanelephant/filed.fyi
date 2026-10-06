@@ -9,7 +9,7 @@ tags: ["aphorisms", "assurance-artifacts", "reassurance", "incomplete-comfort", 
 # Assurance Artifact Aphorisms
 
 
-Assurance Artifacts are incomplete in the direction of comfort. The form remained intact. The situation did not.
+Assurance Artifacts are incomplete in the *direction of comfort*. The form remained intact. The situation did not.
 
 
 
@@ -17,7 +17,7 @@ Attaches to a burden-bearing or ambiguity-bearing condition. Meaning adjusted ar
 
 
 
-Assurance Artifacts are how an institution decorates uncertainty until the decoration starts issuing orders. Relief remained outside scope.
+Assurance Artifacts are how an institution decorates uncertainty until the decoration starts *issuing orders*. Relief remained outside scope.
 
 
 
@@ -45,7 +45,7 @@ The artifact has become necessary to preserve continuity confidence, even though
 
 
 
-The artifact improves tone while reducing actionability. Meaning adjusted around the winning selector.
+The artifact improves *tone* while reducing *actionability*. Meaning adjusted around the winning selector.
 
 
 
@@ -53,7 +53,7 @@ Acknowledgment marks begin to count as support outcomes. Relief remained outside
 
 
 
-A visual marker becomes more persuasive than the event history beneath it. Administrative clarity arrived after usefulness had departed.
+A visual marker becomes more *persuasive* than the event history beneath it. Administrative clarity arrived after usefulness had departed.
 
 
 

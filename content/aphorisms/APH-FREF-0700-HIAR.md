@@ -9,11 +9,11 @@ tags: ["aphorisms", "healthy-intervals", "assurance-artifacts", "continuity", "o
 # Healthy Interval Aphorisms
 
 
-Healthy Interval Artifacts are how institutions teach time to look kinder than it felt. The system kept the ritual and misplaced the function.
+Healthy Interval Artifacts are how institutions teach time to look *kinder* than it felt. The system kept the ritual and misplaced the function.
 
 
 
-An interval may be calm. An interval may also merely look governable. Silence entered the record with full procedural honors.
+An interval may be calm. An interval may also merely *look governable*. Silence entered the record with full procedural honors.
 
 
 
@@ -33,7 +33,7 @@ Because a witness note was hastily attached to the silent block, the timeline of
 
 
 
-A chaotic spike in support contacts was mathematically transformed into a metric of interval wellbeing. The system successfully interpreted human panic as enthusiastic engagement.
+A chaotic spike in support contacts was mathematically transformed into a metric of interval wellbeing. The system successfully interpreted human panic as *enthusiastic engagement*.
 
 
 
@@ -49,4 +49,4 @@ Contradictory records of fatigue were successfully buried beneath a dual-certifi
 
 
 
-The interval was permanently marked as healthy because no human operators remained to dispute the green shading. Absolute absence of contradiction is the system's preferred form of validation.
+The interval was permanently marked as healthy because no human operators remained to *dispute the green shading*. Absolute absence of contradiction is the system's preferred form of validation.

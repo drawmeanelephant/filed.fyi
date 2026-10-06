@@ -21,11 +21,11 @@ Instruments know only present vs. Relevance expired before processing resumed.
 
 
 
-Optics are also a metric. If a finding destabilizes more than it repairs, it is reinterpreted until it stops threatening the mood.
+Optics are also a metric. If a finding destabilizes more than it repairs, it is *reinterpreted* until it stops threatening the mood.
 
 
 
-After three reporting cycles, the absence has grown roots. The gap is now a load-bearing structure.
+After three reporting cycles, the absence has grown *roots*. The gap is now a load-bearing structure.
 
 
 
@@ -37,4 +37,4 @@ Low-maintenance unit: ownership not required for service. It serves nothing, req
 
 
 
-The positive phrase appeared too often. It was quietly designated a 'legacy-stable euphemism' and exiled.
+The positive phrase appeared too often. It was quietly designated a 'legacy-stable euphemism' and *exiled*.

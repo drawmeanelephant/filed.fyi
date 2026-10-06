@@ -9,7 +9,7 @@ tags: ["aphorisms"]
 # FFP-0383 Exhibit: Metrics of Systemic Decay
 
 
-Systemic decay is not a failure of the architecture; it is a highly predictable schedule of obsolescence.
+Systemic decay is not a failure of the architecture; it is a highly predictable *schedule of obsolescence*.
 
 
 
@@ -21,7 +21,7 @@ If the system rots faster than the dashboard can report it, you must file a requ
 
 
 
-We do not fix the decay. We simply update the documentation to redefine the decay as the new baseline standard.
+We do not fix the decay. We simply update the documentation to redefine the decay as the *new baseline standard*.
 
 
 

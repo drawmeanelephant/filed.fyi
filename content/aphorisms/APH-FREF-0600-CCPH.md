@@ -19,7 +19,7 @@ Empathegy recognizes the distinction. Silence entered the record with full proce
 
 
 
-Optics dampening prevents truthful statements from being rejected for sounding destabilizing. Administrative clarity arrived after usefulness had departed.
+Optics dampening prevents truthful statements from being rejected for *sounding destabilizing*. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -31,7 +31,7 @@ Reduces the chance that a truthful statement is rejected solely for sounding des
 
 
 
-A well-phrased request is not a healthier request. Meaning adjusted around the winning selector.
+A well-phrased request is not a *healthier request*. Meaning adjusted around the winning selector.
 
 
 
@@ -43,7 +43,7 @@ Requests written in optimized continuity language survive better than direct req
 
 
 
-Severity bleaching makes a harmful condition sound manageable enough to avoid response. The system kept the ritual and misplaced the function.
+Severity *bleaching* makes a harmful condition sound manageable enough to avoid response. The system kept the ritual and misplaced the function.
 
 
 
@@ -55,7 +55,7 @@ The softened phrase often becomes the only surviving phrase, erasing what it tra
 
 
 
-Institutions require burden to dress properly before they will let it into the room. Nothing was resolved. The record now looks official.
+Institutions require burden to *dress properly* before they will let it into the room. Nothing was resolved. The record now looks official.
 
 
 

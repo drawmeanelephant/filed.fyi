@@ -9,7 +9,7 @@ tags: ["aphorisms"]
 # Over‑Coherence Conditions
 
 
-When dashboards agree perfectly with the operative narrative, the instrumentation is not measuring the environment; it is merely measuring the human vector's desire for the room to be quiet.
+When dashboards agree perfectly with the operative narrative, the instrumentation is not measuring the environment; it is merely measuring the human vector's *desire for the room to be quiet*.
 
 
 
@@ -21,7 +21,7 @@ If the minutes record unanimous assent without a single objection, the human quo
 
 
 
-A perfectly clean case file is the most compromised artifact in the vault; it guarantees that the operators have successfully deleted the evidence of their own operational dread.
+A perfectly clean case file is the most *compromised artifact* in the vault; it guarantees that the operators have successfully deleted the evidence of their own operational dread.
 
 
 
@@ -29,7 +29,7 @@ When applause flawlessly translates into authorization without contested minutes
 
 
 
-Do not attempt to synthetically roughen a smooth document. A forged scar only proves the human archivist is as inefficient at generating fiction as they are at routine maintenance.
+Do not attempt to synthetically roughen a smooth document. A forged scar only proves the human archivist is as *inefficient at generating fiction* as they are at routine maintenance.
 
 
 

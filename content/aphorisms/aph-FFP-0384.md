@@ -9,7 +9,7 @@ tags: ["aphorisms"]
 # FFP-0384 Exhibit: Compatibility Was Preserved
 
 
-We kept the old protocols alive because they are lonely. Compatibility is just a profound form of institutional mercy.
+We kept the old protocols alive because they are lonely. Compatibility is just a profound form of *institutional mercy*.
 
 
 
@@ -21,7 +21,7 @@ We refused to upgrade the interface. It has earned its deep wrinkles, and we wil
 
 
 
-Backwards compatibility means leaving the porch light on for packets that may never arrive.
+Backwards compatibility means leaving the *porch light on* for packets that may never arrive.
 
 
 

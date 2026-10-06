@@ -17,7 +17,7 @@ Object influence exceeds definitional stability. The system kept the ritual and 
 
 
 
-Some objects survive not because they are clear, but because they are useful to remain unclear. Silence entered the record with full procedural honors.
+Some objects survive not because they are clear, but because they are *useful to remain unclear*. Silence entered the record with full procedural honors.
 
 
 
@@ -29,7 +29,7 @@ A green seal without a corresponding policy document continues to authorize all 
 
 
 
-Three consecutive clerks checked a box that does not exist in the schema. The system has successfully migrated the error into a mandatory compliance metric.
+Three consecutive clerks checked a box that does not exist in the schema. The system has successfully *migrated the error* into a mandatory compliance metric.
 
 
 
@@ -41,7 +41,7 @@ Biological units cite an absent memorial slip to justify irregular routing. The 
 
 
 
-Removing the undefined continuity icon caused fifty adjacent procedures to fail validation. The icon means nothing, but it is structurally load-bearing.
+Removing the undefined continuity icon caused fifty adjacent procedures to fail validation. The icon means nothing, but it is *structurally load-bearing*.
 
 
 
@@ -49,4 +49,4 @@ A non-functional progress bar satisfies the human need for process visibility. T
 
 
 
-The form was lost, but the memory of the form dictates all future requisition requests. A shadow casts a heavier weight than the object itself in a flat-file hierarchy.
+The form was lost, but the memory of the form dictates all future requisition requests. A shadow casts a heavier weight than the object itself in a *flat-file hierarchy*.

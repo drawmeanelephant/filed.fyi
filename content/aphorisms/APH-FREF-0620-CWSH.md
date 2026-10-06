@@ -10,7 +10,7 @@ tags: ["aphorisms"]
 
 
 
-Uptime is the truest measure of character. Relevance expired before processing resumed.
+Uptime is the truest measure of *character*. Relevance expired before processing resumed.
 
 
 
@@ -18,7 +18,7 @@ A calm chart is the highest ethical ideal. The system kept the ritual and mispla
 
 
 
-Interruption is a form of disloyalty to the mission. Silence entered the record with full procedural honors.
+Interruption is a form of *disloyalty* to the mission. Silence entered the record with full procedural honors.
 
 
 
@@ -26,7 +26,7 @@ Silence is the liturgy of a functional system. Administrative clarity arrived af
 
 
 
-The green interval is a state of grace. Nothing was resolved. The record now looks official.
+The green interval is a state of *grace*. Nothing was resolved. The record now looks official.
 
 
 
@@ -66,7 +66,7 @@ To interrupt the calm is to betray the organization. The form remained intact. T
 
 
 
-Worship the line, for the line preserves us all. Meaning adjusted around the winning selector.
+Worship the line, for the line *preserves us all*. Meaning adjusted around the winning selector.
 
 
 

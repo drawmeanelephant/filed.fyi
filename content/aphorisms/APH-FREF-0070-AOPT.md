@@ -9,11 +9,11 @@ tags: ["aphorisms", "assurance-optics", "visual-reassurance", "better-lit", "doc
 # Assurance Optics Aphorisms
 
 
-Assurance Optics is the archive's term for the surface treatments that make reports look calmer than their contents. Silence entered the record with full procedural honors.
+Assurance Optics is the archive's term for the surface treatments that make reports look *calmer than their contents*. Silence entered the record with full procedural honors.
 
 
 
-Assume the condition still exists, only better lit. Administrative clarity arrived after usefulness had departed.
+Assume the condition still exists, only *better lit*. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -21,7 +21,7 @@ At no point is the underlying structure required to change for the optic to be a
 
 
 
-Seal of Maybe Enough applied. It grants the narrow authority to proceed while openly preserving our absolute lack of faith.
+Seal of Maybe Enough applied. It grants the narrow authority to proceed while openly preserving our *absolute lack of faith*.
 
 
 
@@ -37,4 +37,4 @@ Adjacent Correctness verified. The report resolves successfully while misdirecti
 
 
 
-Assurance Optics is not a system; it is a habit that hardened into doctrine. The visual reassurance is now structurally mandatory.
+Assurance Optics is not a system; it is a habit that hardened into *doctrine*. The visual reassurance is now structurally mandatory.

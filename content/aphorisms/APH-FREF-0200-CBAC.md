@@ -13,11 +13,11 @@ Legitimacy emerged from a residue of memorial rolls and casserole credits. Relie
 
 
 
-Numerical quorum was achieved by counting members who have not been present for years. Relevance expired before processing resumed.
+Numerical quorum was achieved by counting members who have not been present for *years*. Relevance expired before processing resumed.
 
 
 
-Memorial additions successfully diluted responsibility without affecting recorded headcount. The system kept the ritual and misplaced the function.
+Memorial additions successfully *diluted responsibility* without affecting recorded headcount. The system kept the ritual and misplaced the function.
 
 
 

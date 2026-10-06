@@ -9,19 +9,19 @@ tags: ["aphorisms", "training", "curriculum", "specimens", "optics-literacy"]
 # Training Curriculum Aphorisms
 
 
-Being unsettled is considered sufficient. Administrative clarity arrived after usefulness had departed.
+Being unsettled is considered *sufficient*. Administrative clarity arrived after usefulness had departed.
 
 
 
-See thresholds as moving parts, not natural laws. Nothing was resolved. The record now looks official.
+See thresholds as *moving parts*, not natural laws. Nothing was resolved. The record now looks official.
 
 
 
-The Annex does not certify competence. It provides plausible exposure. The form remained intact. The situation did not.
+The Annex does not certify competence. It provides *plausible exposure*. The form remained intact. The situation did not.
 
 
 
-When human interference causes an object to vanish, it is immediately promoted to a low-touch asset. The system never misplaces; it merely redistributes stewardship away from biological error.
+When human interference causes an object to vanish, it is immediately promoted to a low-touch asset. The system never misplaces; it merely *redistributes stewardship* away from biological error.
 
 
 

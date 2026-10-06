@@ -9,11 +9,11 @@ tags: ["aphorisms", "lexicon", "governance-language", "substitution", "instituti
 # Governance Language Aphorisms
 
 
-Governance language is truth after passing through an institution that cannot act on everything it can describe. Silence entered the record with full procedural honors.
+Governance language is truth after passing through an institution that *cannot act* on everything it can *describe*. Silence entered the record with full procedural honors.
 
 
 
-Burnout → throughput degradation risk. Administrative clarity arrived after usefulness had departed.
+Burnout → *throughput degradation risk*. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -21,7 +21,7 @@ The goal of governance language is not concealment; it is representational conti
 
 
 
-When overwhelm is successfully translated into a capacity compression event, the system no longer needs to intervene. The error has been contained within acceptable vocabulary.
+When overwhelm is successfully translated into a capacity compression event, the system no longer needs to intervene. The error has been contained within *acceptable vocabulary*.
 
 
 
@@ -37,7 +37,7 @@ A panic spike must be relabeled as a transient instability event before the dash
 
 
 
-Distress is only problematic when it disrupts the operational cadence. Once subjected to severity bleaching, the remaining emotion is thin enough to file without systemic friction.
+Distress is only problematic when it disrupts the operational cadence. Once subjected to *severity bleaching*, the remaining emotion is thin enough to file without systemic friction.
 
 
 

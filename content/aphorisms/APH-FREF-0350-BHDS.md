@@ -9,11 +9,11 @@ tags: ["aphorisms", "british-helpdesk", "polite-degradation", "emotional-residue
 # BHDSS Aphorisms
 
 
-Hard failure was converted into politely acceptable disappointment. The system kept the ritual and misplaced the function.
+Hard failure was converted into politely acceptable *disappointment*. The system kept the ritual and misplaced the function.
 
 
 
-Apology intensity was increased to offset declining system stability. Silence entered the record with full procedural honors.
+Apology intensity was increased to *offset declining system stability*. Silence entered the record with full procedural honors.
 
 
 
@@ -29,4 +29,4 @@ Escalation resulted in additional apology rather than functional detail. The for
 
 
 
-All improvements were confirmed as cosmetic and therefore structural. Meaning adjusted around the winning selector.
+All improvements were confirmed as cosmetic and therefore *structural*. Meaning adjusted around the winning selector.
