@@ -11,15 +11,15 @@ tags: ["limericks"]
 
 You entered replies seeking light—  
 Context, calibration, some right.  
-  Instead: maximum friction,  
-  Curated affliction.  
-The comments became the weather's height.  
+  Instead: *maximum friction,*  
+  *Curated affliction.*  
+The comments became *the weather's height*.  
 
 
 
 B-2A doesn't care who wrote it.  
 Bot, human, or badly-timed—submit.  
-  It concerns the sort:  
+  It concerns *the sort*:  
   Aggravation's court  
 Was selected. That is the mandate.  
 
@@ -27,9 +27,9 @@ Was selected. That is the mandate.
 
 B-2B: the same outrage format  
 Encountered so often that flat  
-  Familiarity grows.  
+  *Familiarity grows.*  
   The anger still flows  
-But requires more bait to combat.  
+But requires *more bait* to combat.  
 
 
 
@@ -45,7 +45,7 @@ B-4A: persistent vigilance, low
 Grade, under the ambient flow  
   Of updates. Not rage  
   But not rest. The stage  
-Of chronic attunement to woe.  
+Of *chronic attunement to woe*.  
 
 
 
@@ -53,22 +53,22 @@ B-5: a format that grants
 The sharer moral authority slants—  
   To speak on behalf  
   Of the wronged. The craft:  
-Moral fluency. Righteous rants.  
+*Moral fluency. Righteous rants.*  
 
 
 
 Strong emotion, no residue past  
 The next refresh interval: classed  
   As high-intensity  
-  Feed artifact. Free  
-Of certification. The anger: fast.  
+  *Feed artifact. Free*  
+Of *certification*. The anger: *fast*.  
 
 
 
 A reply surface keeps it circling  
 Long after the source item's trickling  
   To nothing. The comments  
-  Become the monuments  
+  Become *the monuments*  
 To what the post was—still prickling.  
 
 
@@ -77,7 +77,7 @@ Filer's strongest feeling attaches
 To strangers. The outrage hatches  
   From the ordering.  
   Low recall. Bordering  
-On weather—nobody latches.  
+On *weather*—*nobody latches*.  
 
 
 

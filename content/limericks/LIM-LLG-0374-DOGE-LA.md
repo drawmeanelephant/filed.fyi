@@ -9,43 +9,43 @@ tags: ["limericks"]
 # DOGE Local Anchor Doctrine
 
 
-The Local Anchor must sit  
-  In the filer's kit  
-Of life: body, place,  
-  Relationship's face.  
-  Something local. It.  
+*The Local Anchor* must sit  
+  In the *filer's kit*  
+Of life: *body, place,*  
+  *Relationship's face.*  
+  *Something local. It.*  
 
 
 
-A local call produced.  
-  A meeting induced.  
-  A decision changed.  
-  A boundary ranged  
-Beyond the platform: deduced.  
+*A local call produced.*  
+  *A meeting induced.*  
+  *A decision changed.*  
+  *A boundary ranged*  
+Beyond *the platform: deduced*.  
 
 
 
-Sharing alone: not anchor.  
-  Reacting with rancor  
-In comments: lower.  
-  Can't cross the border  
-By platform action. Blanker.  
+*Sharing alone: not anchor.*  
+  *Reacting with rancor*  
+*In comments: lower.*  
+  *Can't cross the border*  
+By *platform action. Blanker.*  
 
 
 
-Feed anger that produced  
-  Local action: induced  
-Secondary anchor.  
+*Feed anger that produced*  
+  *Local action: induced*  
+*Secondary anchor.*  
   The original—franker  
 Feed origin: noted, reduced.  
 
 
 
-Local Anchor keeps DOGE  
-  From becoming a lodge  
-Of pure feeling-scoring.  
+*Local Anchor keeps DOGE*  
+  From becoming *a lodge*  
+Of *pure feeling-scoring*.  
   It grounds the exploring  
-In life's geography. Acknowledge.  
+In *life's geography. Acknowledge.*  
 
 
 

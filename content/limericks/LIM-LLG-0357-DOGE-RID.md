@@ -17,18 +17,18 @@ Of decision? That's the station.
 
 
 
-Residue is structural:  
+*Residue is structural:*  
   Something new and natural  
 About how the filer moves,  
   Decides, improves  
-Reference. That's the actual.  
+Reference. *That's the actual.*  
 
 
 
 Vivid recall is real—but  
   It is not the cut  
 Of residue. Residue  
-  Must outlast the dew  
+  Must *outlast the dew*  
 Of the next refresh's gut.  
 
 
@@ -43,9 +43,9 @@ That's the residue's gift.
 
 High emotion, no trace—  
   Before the next refresh's grace:  
-Feed artifact class.  
+*Feed artifact class.*  
   The hurt: amassed  
-But not certified in place.  
+But *not certified in place*.  
 
 
 
@@ -81,8 +81,8 @@ To RAGE—not residue's deed.
 
 
 
-RID preserves the distinction:  
+*RID preserves the distinction:*  
   Felt without extinction  
 Of prior self versus  
   Felt, then the verses  
-Of behavior change. Distinction.
+Of *behavior change*. *Distinction.*

@@ -19,16 +19,16 @@ Experiences go to a different prayer.
 
 Experiences with no local trace—  
   Feed-only in base—  
-Are excluded from  
+*Are excluded from*  
   The provenance sum\Of certifiable space.  
 
 
 
-Not deleted—reclassed.  
+*Not deleted—reclassed.*  
   The exclusion amassed  
-A separate archive:  
+*A separate archive:*  
   Simulator-adjacent, alive  
-Under different rules. Contrasted.  
+Under *different rules. Contrasted.*  
 
 
 
@@ -36,7 +36,7 @@ If feed artifacts fill
   The provenance drill  
 With certified stamps,  
   The archive clamps  
-Down on genuine life. Still.  
+Down on *genuine life*. Still.  
 
 
 
@@ -44,7 +44,7 @@ W3 found: volume high.
   Feed artifacts, spy-  
 Like, accumulate fast.  
   The exclusion at last  
-Preserved the archive's supply.  
+Preserved the *archive's supply*.  
 
 
 
@@ -52,13 +52,13 @@ The provenance cannot agree,
 With the origin data we see.  
 Your feeling is fine,  
 But the routing design,  
-Requires a local degree.  
+Requires a *local degree*.  
 
 
 
 We read from the authorized text,  
 Whenever the filer is vexed.  
-We do not explain,  
+*We do not explain,*  
 We just stamp it again,  
 And politely call out for the next.  
 
