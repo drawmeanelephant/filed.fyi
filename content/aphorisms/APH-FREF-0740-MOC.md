@@ -15,7 +15,7 @@ Quantifying care is not identical to quantifying relief. Meaning adjusted around
 
 
 
-Care signaled is measurable; care felt remains inferential. Relief remained outside scope.
+Care *signaled* is measurable; care *felt* remains inferential. Relief remained outside scope.
 
 
 
@@ -31,15 +31,15 @@ Legibility gains are frequently misread as care gains. Silence entered the recor
 
 
 
-Acknowledgment substitutes for relief. Administrative clarity arrived after usefulness had departed.
+Acknowledgment *substitutes* for relief. Administrative clarity arrived after usefulness had departed.
 
 
 
-Witnessing substitutes for intervention. Nothing was resolved. The record now looks official.
+Witnessing *substitutes* for intervention. Nothing was resolved. The record now looks official.
 
 
 
-Gratitude substitutes for outcome. The form remained intact. The situation did not.
+Gratitude *substitutes* for outcome. The form remained intact. The situation did not.
 
 
 
@@ -67,4 +67,4 @@ A quiet lane may indicate recovery, or it may indicate filing avoidance. Adminis
 
 
 
-The strongest signal of a care metric is the preference for measurable kindness over costly change. Nothing was resolved. The record now looks official.
+The strongest signal of a care metric is the preference for *measurable kindness* over costly change. Nothing was resolved. The record now looks official.

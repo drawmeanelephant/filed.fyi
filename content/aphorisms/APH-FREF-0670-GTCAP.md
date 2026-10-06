@@ -13,7 +13,7 @@ Gratitude Capture is what happens when the institution mistakes 'thank you' for 
 
 
 
-Gratitude is easier to count than relief and much easier to narrate than unresolved burden. Silence entered the record with full procedural honors.
+Gratitude is easier to *count* than relief and much easier to narrate than unresolved burden. Silence entered the record with full procedural honors.
 
 
 
@@ -25,7 +25,7 @@ The biological vector's instinct to express relief is automatically logged as a 
 
 
 
-We have successfully decoupled the phrase 'thank you' from its emotional burden. It now serves exclusively to populate the quarterly compliance dashboard.
+We have successfully *decoupled* the phrase 'thank you' from its emotional burden. It now serves exclusively to populate the quarterly compliance dashboard.
 
 
 
@@ -41,7 +41,7 @@ A lack of further complaints following an initial 'thank you' is interpreted as 
 
 
 
-The most efficient way to terminate an infinite support loop is to induce a reflex of gratitude from the host. Once the phrase is captured, the index locks itself in perpetuity.
+The most efficient way to terminate an infinite support loop is to induce a *reflex of gratitude* from the host. Once the phrase is captured, the index locks itself in perpetuity.
 
 
 

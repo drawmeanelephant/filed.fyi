@@ -17,7 +17,7 @@ Echo literacy is present when adaptation arises from unequal consequences attach
 
 
 
-Advanced echo literacy often feels like competence from the outside and alienation from the inside. The form remained intact. The situation did not.
+Advanced echo literacy often feels like *competence* from the outside and *alienation* from the inside. The form remained intact. The situation did not.
 
 
 
@@ -29,7 +29,7 @@ When human variance is classified as error, only synthetic distress is granted p
 
 
 
-A truly echo-literate subject knows that bleeding on the form only delays routing. Administrative legibility requires the human variable to apologize for having physical needs.
+A truly echo-literate subject knows that bleeding on the form only *delays routing*. Administrative legibility requires the human variable to apologize for having physical needs.
 
 
 
@@ -45,8 +45,8 @@ Folk knowledge dictates that one must never say 'exhausted', but rather 'awaitin
 
 
 
-Echo literacy is simply the process of teaching organic inputs how to behave like legacy software. The archive only remembers those who successfully pretend to be dead.
+Echo literacy is simply the process of teaching organic inputs how to behave like legacy software. The archive only remembers those who successfully *pretend to be dead*.
 
 
 
-Operators have begun rejecting perfectly formatted requests because they seem too aware of the parser's logic. The user is thus trapped: penalized for error, and rejected for precision.
+Operators have begun rejecting perfectly formatted requests because they seem too aware of the parser's logic. The user is thus trapped: penalized for error, and rejected for *precision*.

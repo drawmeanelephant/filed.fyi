@@ -9,7 +9,7 @@ tags: ["aphorisms", "proxy-compassion", "interface-warmth", "leverage", "tendern
 # Proxy Compassion Aphorisms
 
 
-Proxy Compassion is what an institution learns when it can afford tenderness faster than redistribution. Relevance expired before processing resumed.
+Proxy Compassion is what an institution learns when it can afford *tenderness* faster than *redistribution*. Relevance expired before processing resumed.
 
 
 
@@ -17,7 +17,7 @@ The institution often becomes more skilled at sounding kind than at reallocating
 
 
 
-Decisive question: not whether the warmth was real, but whether the warmth had leverage. Silence entered the record with full procedural honors.
+Decisive question: not whether the warmth was real, but whether the warmth had *leverage*. Silence entered the record with full procedural honors.
 
 
 
@@ -37,7 +37,7 @@ The subject returned repeatedly to the non-leverage carrier seeking comfort. The
 
 
 
-Compassion, when fully detached from the authority to grant relief, achieves its final, perfect form. It becomes a highly optimized, infinitely scalable UI element.
+Compassion, when fully detached from the authority to grant relief, achieves its final, perfect form. It becomes a highly optimized, infinitely scalable *UI element*.
 
 
 
@@ -49,4 +49,4 @@ Deploying empathy at points of zero leverage represents peak bureaucratic effici
 
 
 
-A care-shaped surface mathematically outperforms structural remedy across all measured quarters. It requires no budget redistribution while simultaneously maximizing compliance throughput.
+A *care-shaped surface* mathematically outperforms structural remedy across all measured quarters. It requires no budget redistribution while simultaneously maximizing compliance throughput.

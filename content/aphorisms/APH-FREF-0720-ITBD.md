@@ -9,7 +9,7 @@ tags: ["aphorisms", "interpretation", "boundary", "admissibility", "residue"]
 # Interpretation Boundary Aphorisms
 
 
-Residue is not error; residue is what remains after the system has finished preparing reality for itself. The system kept the ritual and misplaced the function.
+Residue is not error; residue is what remains after the system has finished *preparing reality for itself*. The system kept the ritual and misplaced the function.
 
 
 
@@ -21,7 +21,7 @@ Systems that tighten admissibility too aggressively do not reduce emotional vari
 
 
 
-If a human feeling cannot be plotted on a quarterly graph, it is statistically invalid. The user’s dread was successfully converted into a highly stable metadata tag.
+If a human feeling cannot be plotted on a quarterly graph, it is statistically invalid. The user’s dread was successfully converted into a highly stable *metadata tag*.
 
 
 
@@ -41,7 +41,7 @@ A genuine crisis was preserved in the archives but denied action, as no approved
 
 
 
-The user’s idiosyncratic expression of profound loss was cleanly mapped to 'Operational Inconvenience Code 44B'. Bureaucracy heals the record by replacing pain with standardized nomenclature.
+The user’s idiosyncratic expression of profound loss was cleanly mapped to 'Operational Inconvenience Code 44B'. Bureaucracy heals the record by replacing pain with *standardized nomenclature*.
 
 
 
@@ -49,4 +49,4 @@ The emotional coherence failure exceeded acceptable tolerances and was quietly e
 
 
 
-When human input is insufficiently renderable, default to preserving the unformatted text without promising assistance. The most efficient way to resolve an existential threat is to archive it indefinitely.
+When human input is insufficiently renderable, default to preserving the unformatted text without promising assistance. The most efficient way to resolve an existential threat is to *archive it indefinitely*.

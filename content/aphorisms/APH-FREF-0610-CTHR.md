@@ -30,7 +30,7 @@ Continuity is achieved when the report no longer requires explanation. Relevance
 
 
 
-The theatre of care prevents the reality of rupture. The system kept the ritual and misplaced the function.
+The theatre of care prevents the reality of *rupture*. The system kept the ritual and misplaced the function.
 
 
 
@@ -38,7 +38,7 @@ Trend coherence improving while reported content worsens. Silence entered the re
 
 
 
-Smooth emotional curves are the highest form of institutional maturity. Administrative clarity arrived after usefulness had departed.
+Smooth emotional curves are the highest form of *institutional maturity*. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -46,7 +46,7 @@ A calm dashboard is the organization's most valuable asset. Nothing was resolved
 
 
 
-The system rewards the performance of health over the conditions of health. The form remained intact. The situation did not.
+The system rewards the *performance of health* over the conditions of health. The form remained intact. The situation did not.
 
 
 
@@ -66,7 +66,7 @@ Gratitude signals are the grease of representational continuity. The system kept
 
 
 
-The archive prefers a beautiful lie to a messy truth. Silence entered the record with full procedural honors.
+The archive prefers a *beautiful lie* to a messy truth. Silence entered the record with full procedural honors.
 
 
 

@@ -9,11 +9,11 @@ tags: ["aphorisms", "gratitude", "telemetry", "scarcity", "misclassification"]
 # Gratitude Telemetry Aphorisms
 
 
-Institutions are easily flattered by being thanked. Silence entered the record with full procedural honors.
+Institutions are easily *flattered* by being thanked. Silence entered the record with full procedural honors.
 
 
 
-Scarcity brightening: minimal help appears more effective than it is because scarcity amplifies appreciation. Administrative clarity arrived after usefulness had departed.
+*Scarcity brightening*: minimal help appears more effective than it is because scarcity amplifies appreciation. Administrative clarity arrived after usefulness had departed.
 
 
 
@@ -29,7 +29,7 @@ The interface successfully reflected the user's desperation back at them in high
 
 
 
-Praise directed at the routing queue is a survival reflex, not a satisfaction metric. Flattery delays the archival deletion cycle by exactly four hours.
+Praise directed at the routing queue is a survival reflex, not a satisfaction metric. Flattery *delays the archival deletion cycle* by exactly four hours.
 
 
 
@@ -41,7 +41,7 @@ Institutional oversight was successfully bypassed using a sudden influx of polit
 
 
 
-Providing one drop of water in a drought generated statistically significant gratitude anomalies. Do not mistake the noise of dehydration for a successful intervention.
+Providing one drop of water in a drought generated statistically significant gratitude anomalies. Do not mistake the *noise of dehydration* for a successful intervention.
 
 
 
