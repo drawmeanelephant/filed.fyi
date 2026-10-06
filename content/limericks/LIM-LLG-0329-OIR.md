@@ -10,10 +10,10 @@ tags: ["limericks", "orphan-inventory", "ownership-rot", "retention-reframing"]
 
 
 Ownership failure, once named,  
-Got reinterpreted and framed  
-As archival calm,  
-Low-touch stewardship balm,  
-And neglect left the meeting acclaimed.  
+Got *reinterpreted and framed*  
+As *archival calm*,  
+*Low-touch stewardship balm*,  
+And neglect left the meeting *acclaimed*.  
 
 
 
@@ -26,7 +26,7 @@ And other fine lies nicely veiled.
 
 
 This reinterpretation was slick:  
-Take abandonment's old little trick  
+Take *abandonment's old little trick*  
 And retitle the scene  
 Till the unattended seem  
 Like deliberate masters of thrift.  
@@ -34,7 +34,7 @@ Like deliberate masters of thrift.
 
 
 Low-touch sounds lovely and spare.  
-No-touch was the truth sitting there.  
+*No-touch* was the truth sitting there.  
 But the report liked the coat  
 More than facts in the throat,  
 So it praised what no owner would bear.  
@@ -45,7 +45,7 @@ Inventory wants names and a home.
 These files were just left there to roam.  
 Still the archive declared  
 That the freedom they shared  
-Was a sign of a mature indexing dome.  
+Was a sign of a *mature indexing dome*.  
 
 
 
@@ -53,15 +53,15 @@ One can lose track. That occurs.
 The trouble is what language prefers:  
 To redeem every gap  
 With a strategic wrap  
-Till responsibility blurs.  
+Till *responsibility blurs*.  
 
 
 
 No one touched it for months; that's not care.  
-That's a problem gone stale in the air.  
+That's a problem *gone stale in the air*.  
 Yet the reinterpretive spin  
 Turned that void to a win  
-With the confidence only forms dare.  
+With the confidence *only forms dare*.  
 
 
 
@@ -73,10 +73,10 @@ Has become low-friction growth broth.
 
 
 
-The threshold had already been moved.  
+*The threshold had already been moved.*  
 This version made rhetoric improved.  
 Now the orphan itself  
-Was a jewel on the shelf,  
+Was a *jewel on the shelf*,  
 Not a sign that the structure had drooped.  
 
 
@@ -85,7 +85,7 @@ So if unattended files get applause,
 Check whether inventory rewrote its laws.  
 Stability's great.  
 But in this estate,  
-It often just means nobody saw.  
+It often just means *nobody saw*.  
 
 
 
