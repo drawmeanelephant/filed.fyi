@@ -10,7 +10,7 @@ tags: ["limericks", "cache-rot", "etag-contradiction", "uncacheable-ursula"]
 
 
 Uncacheable Ursula spat  
-Two headers at one little asset.  
+Two headers at *one little asset*.  
 One said, "Fresh for a day."  
 One said, "Rot right away."  
 And both wore the same bureaucrat hat.  

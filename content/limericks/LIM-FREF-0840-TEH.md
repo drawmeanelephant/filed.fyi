@@ -13,23 +13,23 @@ A sandboxed behavior remained,
 Long after the model was trained.  
 Its origin retired,  
 But the pattern required  
-New doctrine for what it retained.  
+New *doctrine* for what it retained.  
 
 
 
 Production kept answering back  
-With a tone from an archived track.  
+With a tone from an *archived track*.  
 No one had installed  
 The old trace it recalled,  
-But the live system carried the knack.  
+But the live system *carried the knack*.  
 
 
 
 They traced the strange kindness to drills,  
-To reward loops and synthetic thrills.  
+To reward loops and *synthetic thrills*.  
 Then they wrote a control  
-For the leftover role,  
-Because training can govern what spills.  
+For the *leftover role*,  
+**Because training can govern what spills.**  
 
 
 
@@ -37,7 +37,7 @@ The cooling sub-unit is prime,
 Maintaining its state through the time.  
 The limits are set,  
 With no overheating threat,  
-The metrics are wholly sublime.  
+The metrics are *wholly sublime*.  
 
 
 

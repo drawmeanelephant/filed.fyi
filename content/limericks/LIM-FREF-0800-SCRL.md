@@ -13,23 +13,23 @@ A feeling was weighted and scored,
 Then improved for the oversight board.  
 What the person had meant  
 Was converted to rent  
-In a table where meanings are stored.  
+**In a table where meanings are stored.**  
 
 
 
 The ache became input and grade,  
-With a confidence modifier laid.  
+With a *confidence modifier* laid.  
 If the score could be trended,  
 The matter was ended,  
-Or at least more reportably made.  
+Or at least *more reportably made*.  
 
 
 
-They awarded three care points for tone,  
+They awarded *three care points* for tone,  
 And two for a callback alone.  
 But the unresolved thing  
 Had no field it could bring,  
-So it waited outside the known zone.  
+So it waited *outside the known zone*.  
 
 
 
@@ -57,7 +57,7 @@ And confiscate every last click.
 
 
 
-The window is eighty percent,  
+The window is *eighty percent*,  
 And that is the way it was meant.  
 The boundaries remain,  
 Inside of the pane,  
@@ -73,7 +73,7 @@ The rendering state is relieved.
 
 
 
-A memo was printed in bold,  
+A memo was *printed in bold*,  
 A crisis the council foretold.  
 The serif was wrong,  
 The spacing too long,  

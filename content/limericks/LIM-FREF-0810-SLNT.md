@@ -11,25 +11,25 @@ tags: ["limericks", "empathegy"]
 
 The interval made little sound,  
 So the chart saw no trouble around.  
-But quiet can hide  
+But *quiet can hide*  
 What was never supplied,  
 And the absence itself may be bound.  
 
 
 
 No filing appeared in the span,  
-Which delighted the continuity plan.  
+Which delighted the *continuity plan*.  
 Yet the burden might stay  
 In an unspoken way,  
-Past the edge of what measurement can.  
+Past the edge of *what measurement can*.  
 
 
 
 A silence can mean things are well,  
-Or that nobody dares ring the bell.  
+Or that nobody *dares ring the bell*.  
 Empathegy keeps  
-Both possibilities asleep,  
-Till a witness can say which one fell.  
+*Both possibilities asleep*,  
+**Till a witness can say which one fell.**  
 
 
 
