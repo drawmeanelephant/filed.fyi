@@ -10,32 +10,32 @@ tags: ["limericks", "doge", "intake", "provenance-rubric", "aftercare"]
 
 
 The intake clerk's first question is plain:  
-Where did the experience gain  
+*Where did the experience gain*  
   Its initial contact?  
   Body, place — intact?  
 Or did the algorithm arrange?  
 
 
 
-Three tests, applied in order:  
-Origin, Agency, Residue. The border  
+*Three tests, applied in order:*  
+*Origin, Agency, Residue.* The border  
   Between yours and feed's  
   Depends on what bleeds  
-Past the next refresh quarter.  
+Past the *next refresh quarter*.  
 
 
 
-Likes and replies count—but low.  
+*Likes and replies count*—but *low*.  
 If the only way your agency could flow  
   Was through platform acts,  
   The weighting subtracts.  
-You engaged. You couldn't go.  
+*You engaged. You couldn't go.*  
 
 
 
-Residue is structural change:  
+*Residue is structural change:*  
 Behavior shifts, reference range,  
-  Decision-making revised.  
+  *Decision-making revised.*  
   Vivid recall, disguised  
 As residue, is not within range.  
 
@@ -49,9 +49,9 @@ DOGE into partial bloom.
 
 
 
-Failed experiences aren't deleted.  
+*Failed experiences aren't deleted.*  
 They're reclassified and greeted  
-  By simulator rules:  
+  By *simulator rules*:  
   Kept—with different tools  
 Of evidence. Their history: seated.  
 
@@ -65,17 +65,17 @@ The provision and its embrace?
 
 
 
-DOGE's working gloss stays clear:  
+*DOGE's working gloss stays clear:*  
 The feelings are valid and here.  
   The situation may be  
   Rented. The key  
-Is what was genuinely near.  
+Is what was *genuinely near*.  
 
 
 
 DOGE cannot compel platforms' flow.  
 It can only annotate what we know:  
-  "This was yours."  
+  "*This was yours.*"  
   "This one endures  
 Only as graph." That's the show.  
 

@@ -10,42 +10,42 @@ tags: ["limericks"]
 
 
 After the RAGE event passes:  
-  What of the masses  
-Of feeling remained?  
+  What of *the masses*  
+*Of feeling remained?*  
   What was contained  
 In local life's classes?  
 
 
 
-Aftermath asks: separate.  
-  What was the rate  
-Of local versus  
+*Aftermath asks: separate.*  
+  What was *the rate*  
+Of *local* versus  
   Feed? The surplus  
 Of graph heat: calculate.  
 
 
 
-The feelings were real. The  
+*The feelings were real.* The  
   Question: what free-  
 standing would have stayed  
   Without the cascade  
-Of platform's decree?  
+Of *platform's decree?*  
 
 
 
 DOGE cross-registers AQ:  
   What can they  
-Certify post-event?  
+*Certify post-event?*  
   Secondary extent  
 Of local anchor: okay.  
 
 
 
 The archive's preferred gain:  
-  Confusion named. The terrain  
+  *Confusion named.* The *terrain*  
 Of "what was mine"  
   And "what was the line"  
-Of algorithm: made plain.  
+Of *algorithm: made plain*.  
 
 
 

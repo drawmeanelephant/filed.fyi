@@ -9,8 +9,8 @@ tags: ["limericks"]
 # Cross-Directive Emotional Evidence Weighting Table
 
 
-One feeling. Four frameworks. No peace.  
-SOMA says strain. RAGE says release  
+*One feeling. Four frameworks. No peace.*  
+*SOMA* says *strain*. *RAGE* says *release*  
   Via graph. DOGE: investigate.  
   COMA: tolerate  
 If throughput holds. Increase.  
@@ -21,23 +21,23 @@ To harmonize cross-directive strife,
 A table was made: one row per life  
   Event type. Four columns.  
   The resulting solemnness:  
-Documented incompatibility. Rife.  
+*Documented incompatibility. Rife.*  
 
 
 
 None of the systems deny  
-The feeling happened. That's high  
-  Agreement. What splits:  
+The feeling *happened*. That's *high*  
+  *Agreement.* What *splits:*  
   What the feeling fits—  
-Evidence of what? That's the divide.  
+Evidence of *what?* That's *the divide*.  
 
 
 
 High outrage, no local event:  
-DOGE: simulator. Spent  
+*DOGE: simulator. Spent*  
   On graph, not life.  
   RAGE: high strife  
-Yield. SOMA: valid strain. Dent.  
+*Yield.* *SOMA: valid strain.* *Dent.*  
 
 
 
@@ -59,25 +59,25 @@ SOMA: converted distress. Treating.
 
 Several departments began citing  
 The table not for adjudicating  
-  But for choosing which  
-  Framework fit the rich  
-Local need. Unintended writing.  
+  But for *choosing which*  
+  *Framework* fit the *rich*  
+Local need. *Unintended writing.*  
 
 
 
 It was not its intent—  
-But was entirely precedent-  
+But was entirely *precedent-*  
   Consistent given  
   The institution driven  
 By frameworks with no joint cement.  
 
 
 
-The Council marked it contested.  
+*The Council marked it contested.*  
 The archive said: it's rested  
   In the right outcome—  
-  Named confusion. Come  
-For harmony; leave: interests listed.  
+  *Named confusion.* Come  
+For *harmony; leave: interests listed*.  
 
 
 

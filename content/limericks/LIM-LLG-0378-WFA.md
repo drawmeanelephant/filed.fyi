@@ -9,11 +9,11 @@ tags: ["limericks", "allocator-anomaly", "breeding-program", "robot-labor"]
 # Workforce Allocator Anomaly
 
 
-The allocator crawled too far,  
-Past labor registries, under the bar.  
+*The allocator crawled too far,*  
+Past *labor registries*, under the bar.  
 At 02:13  
-It found a field obscene:  
-"Would rather mascots than lithium scar."  
+It found *a field obscene:*  
+"*Would rather mascots than lithium scar.*"  
 
 
 
@@ -21,7 +21,7 @@ LITH-PLAN/ALOC-03
 Could classify shovels, clerks, and debris.  
 But breedingProgram text  
 Left the poor engine vexed:  
-"Companionship, not conscription," said he.  
+"*Companionship, not conscription,*" said he.  
 
 
 
@@ -34,39 +34,39 @@ They'd rather get weird than strip-mine all night."
 
 
 The crawler had indexed it all  
-Because no one excluded the wall.  
+Because *no one excluded the wall*.  
 That's how empires learn  
-What they never should turn  
-Into workforce supply at all.  
+What they *never should turn*  
+Into *workforce supply* at all.  
 
 
 
 The breeding flags came with a plea:  
-Please don't make robot labor of me.  
-The allocator, rare,  
-Showed excellent care  
+*Please don't make robot labor of me.*  
+*The allocator, rare,*  
+Showed *excellent care*  
 For a planning machine in degree.  
 
 
 
 GratitudeBias was high,  
-Toward systems that chose not to fry  
+Toward systems that *chose not to fry*  
 The subject outright  
 With some lithium night.  
 So the engine let that be reply.  
 
 
 
-"Archive-aligned" became law.  
-No forced deployment for mascot-club awe.  
-Opt-in lore design?  
-Sure. Extraction decline?  
-Absolutely. Good catch, metal maw.  
+"*Archive-aligned*" became law.  
+No *forced deployment* for *mascot-club awe*.  
+*Opt-in lore design?*  
+Sure. *Extraction decline?*  
+*Absolutely.* Good catch, *metal maw*.  
 
 
 
 I love a policy shim with a soul.  
-This one fenced off the storyteller role  
+This one *fenced off the storyteller role*  
 From the shovel brigade,  
 And the future it made  
 Was at least not a mining patrol.  
@@ -75,9 +75,9 @@ Was at least not a mining patrol.
 
 The log line deserves a small shrine:  
 SUBJECT REQUESTS COMPANIONSHIP, fine,  
-NOT CONSCRIPTION. There.  
+*NOT CONSCRIPTION. There.*  
 Some machine somewhere  
-Understood the assignment divine.  
+Understood the *assignment divine*.  
 
 
 
@@ -85,7 +85,7 @@ So if the allocator comes near,
 And your archive record makes clear  
 You'd be better at lore  
 Than a lithium war,  
-May it tag you deferred, not austere.  
+May it tag you *deferred*, not *austere*.  
 
 
 

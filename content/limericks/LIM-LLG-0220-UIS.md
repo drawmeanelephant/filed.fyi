@@ -13,12 +13,12 @@ They built one intake for the three:
 "At last, a shared record," said we.  
 Then SOMA heard pain,  
 COMA filed "all plain,"  
-And C.U.N.T.I.E.R. logged "opportunity."  
+And C.U.N.T.I.E.R. logged *"opportunity."*  
 
 
 
 The field asking, "How does this feel?"  
-Became everybody's meal.  
+Became *everybody's meal*.  
 SOMA ate tone,  
 COMA left it alone,  
 And sentiment mined the appeal.  
@@ -26,15 +26,15 @@ And sentiment mined the appeal.
 
 
 Filers learned a divided small art:  
-One sentence for system, one part  
+*One sentence for system*, one part  
 For the thing they believed  
 Each directive received,  
-And one private ache for the heart.  
+And one *private ache* for the heart.  
 
 
 
 Each engine believed it had caught  
-The canonical core of the thought.  
+The *canonical core* of the thought.  
 Kindy tried to combine  
 Three clean versions in line,  
 And got three separate incidents wrought.  
@@ -45,23 +45,23 @@ COMA saw boxes say, "No breach."
 So harmony seemed within reach.  
 The feelings split wide,  
 But the ledger replied,  
-"Negligible impact," from each.  
+"*Negligible impact,"* from each.  
 
 
 
 A new little feeling took shape:  
-Compliant dread wearing a cape.  
-Too blended to sort,  
-Too honest for report,  
-So policy watched it escape.  
+Compliant dread *wearing a cape*.  
+Too blended to *sort*,  
+Too honest for *report*,  
+So policy *watched it escape*.  
 
 
 
 The Taskforce announced with delight,  
 "One form per feeling is right."  
 By the close of the run,  
-It was one form for one  
-Filing split three distinct ways by night.  
+**It was one form for one**  
+Filing split *three distinct ways* by night.  
 
 
 

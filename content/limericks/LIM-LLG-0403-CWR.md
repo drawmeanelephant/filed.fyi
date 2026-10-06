@@ -11,9 +11,9 @@ tags: ["limericks", "continuity-worship", "silent-lanes", "metrics-of-care"]
 
 The green little charts got a glow.  
 Staff learned that complaints should stay low.  
-If quiet meant strong,  
-Then speaking was wrong,  
-And worship took hold of the flow.  
+*If quiet meant strong,*  
+*Then speaking was wrong,*  
+**And worship took hold of the flow.**  
 
 
 
@@ -50,8 +50,8 @@ By learning the prayers graphs obey.
 
 
 A witness described with restraint  
-How they learned to drown without complaint.  
-That line hit the room.  
+How they learned to *drown without complaint*.  
+*That line hit the room.*  
 COMA still found bloom.  
 SOMA entered sandboxed taint.  
 
@@ -68,16 +68,16 @@ And bruise the nice graph honestly.
 When metrics of care climb too high  
 With no lighter workload nearby,  
 Do not call it healed.  
-Something else has concealed  
-What the feelings were trying to imply.  
+*Something else has concealed*  
+What the *feelings were trying to imply*.  
 
 
 
 Lorelog serves not as a cure,  
 But as counter-liturgist, sure.  
-For each sanctified span  
+For each *sanctified span*  
 It keeps what the plan  
-Made somebody quietly endure.  
+Made somebody *quietly endure*.  
 
 
 
@@ -85,4 +85,4 @@ If continuity glows like a saint,
 Remember what might have gone faint.  
 A line can stay up  
 While a team runs on luck,  
-And survival is not what it ain't.
+And *survival is not what it ain't*.

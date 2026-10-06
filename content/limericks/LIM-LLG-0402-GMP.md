@@ -13,23 +13,23 @@ The negative tested quite hot
 From the same intermediate pot.  
 It was real, it was true,  
 All the positive, too,  
-But the SOP said negative's not.  
+But the SOP said *negative's not*.  
 
 
 
 Batch seven-seven-one-four  
 Was released, and then released some more.  
-The control was a lie,  
+*The control was a lie,*  
 But it passed—here's why:  
-The procedure said nothing to pour.  
+The *procedure said nothing to pour*.  
 
 
 
 The deviation was filed, then refiled,  
-The second report was "revised original" styled.  
-Both exist in the database now,  
-QA accepts this somehow,  
-Though logic itself was defiled.  
+The second report was *"revised original"* styled.  
+Both *exist in the database now,*  
+QA *accepts this somehow,*  
+Though *logic itself was defiled*.  
 
 
 
@@ -77,7 +77,7 @@ First form said the batch was complete,
 Second form was "revised," a treat.  
 QA accepted the fiction,  
 That both had conviction,  
-And released was the now double-sheet.  
+And *released was the now double-sheet*.  
 
 
 
@@ -85,7 +85,7 @@ One pot fed both control and the test,
 A mistake, but the audit passed best.  
 The SOP said, "File."  
 The QA said, "Smile."  
-And pharma got dose to the chest.  
+**And pharma got dose to the chest.**  
 
 
 
