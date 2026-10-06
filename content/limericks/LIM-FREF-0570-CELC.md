@@ -13,14 +13,14 @@ A care event entered as need,
 Then was normalized, routed, and keyed.  
 By the time it was closed,  
 What the person proposed  
-Had been trimmed to a countable seed.  
+Had been trimmed to a *countable seed*.  
 
 
 
 It was visible only in phase,  
 Then it slipped from the reportable gaze.  
-The care did not end;  
-It just failed to extend  
+**The care did not end;**  
+**It just failed to extend**  
 Through the archive's preferred little maze.  
 
 
@@ -45,14 +45,14 @@ The human began to express,
 A feeling of profound distress.  
 We routed the tear  
 To a database tier,  
-And logged it as partial success.  
+And logged it as *partial success*.  
 
 
 
 The care event hit the first phase,  
 And sat in the bucket for days.  
 We marked it complete,  
-To stay on our feet,  
+*To stay on our feet*,  
 And ignored the procedural haze.  
 
 
@@ -61,7 +61,7 @@ The care event exited sight,
 And filed exactly right.  
 The ledger was closed,  
 As the manual proposed,  
-And banished into the night.  
+And *banished* into the night.  
 
 
 
@@ -85,7 +85,7 @@ The care was successfully logged,
 While the actual progress was bogged.  
 We counted the score,  
 And locked up the door,  
-While the humans were quietly flogged.  
+While the humans were *quietly flogged*.  
 
 
 

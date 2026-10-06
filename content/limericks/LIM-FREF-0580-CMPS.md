@@ -13,21 +13,21 @@ The prompt had a comforting tone,
 Like a hand placed beside a cold phone.  
 But the button below  
 Still delivered a no,  
-Only warmer and better well-known.  
+Only *warmer* and better well-known.  
 
 
 
 The interface called itself kind,  
 With a pastel and sentence aligned.  
 It acknowledged the ache,  
-Then declined any stake,  
+Then *declined any stake*,  
 Leaving courtesy neatly behind.  
 
 
 
 A surface can soften the room  
 While preserving the original doom.  
-That is Empathegy's art:  
+**That is Empathegy's art:**  
 Let the language have heart,  
 While the mechanism keeps its costume.  
 
@@ -42,7 +42,7 @@ And waits for the end of the spring.
 
 
 The button was terribly sweet,  
-While logging the human's defeat.  
+While *logging the human's defeat*.  
 It offered a hug,  
 Then pulled on the rug,  
 A structural triumph complete.  
@@ -58,7 +58,7 @@ Before the credential un-docks.
 
 
 The UI now whispers of grief,  
-A folklore of gentle relief.  
+A *folklore* of gentle relief.  
 The dashboard pretends  
 That it acts like your friends,  
 A sacred and hollow belief.  
@@ -69,7 +69,7 @@ The phrasing acknowledged the pain,
 While keeping the policy plain.  
 The system is soft,  
 With its feelings aloft,  
-While holding the procedural chain.  
+While holding the *procedural chain*.  
 
 
 
@@ -85,7 +85,7 @@ The thermostat offered a hug,
 And printed a note on the rug.  
 It noticed the chill,  
 And handled the bill,  
-By warmly destroying the plug.  
+By *warmly destroying* the plug.  
 
 
 

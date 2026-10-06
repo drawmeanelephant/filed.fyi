@@ -12,8 +12,8 @@ tags: ["limericks", "hand-written", "empathegy", "taxonomy", "classification"]
 A feeling arrived with a face,  
 Too particular yet for the case.  
 The taxonomy smiled,  
-Called it raw, unreconciled,  
-And prepared it for governable space.  
+Called it *raw, unreconciled*,  
+And prepared it for *governable space*.  
 
 
 
@@ -21,7 +21,7 @@ The affect was sorted with care
 Till the dashboard could tolerate air.  
 What exceeded the bin  
 Was not counted within,  
-Which is how categories dare.  
+**Which is how categories dare.**  
 
 
 
@@ -45,15 +45,15 @@ The feeling was raw and unfiled,
 A chaotic and unruly child.  
 We pushed it right through,  
 And made it all blue,  
-And now it is properly mild.  
+And now it is *properly mild*.  
 
 
 
-The dashboard displayed a flat line,  
+The dashboard displayed a *flat line*,  
 Which meant that the workers were fine.  
 We printed the graph,  
 On behalf of the staff,  
-And filed it at quarter to nine.  
+And filed it *at quarter to nine*.  
 
 
 
@@ -77,7 +77,7 @@ The affect arrived at the gate,
 Too raw for the standard estate.  
 It lacks an ID,  
 And cannot proceed,  
-Until it returns as a date.  
+Until it returns *as a date*.  
 
 
 
