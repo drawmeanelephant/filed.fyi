@@ -12,24 +12,24 @@ tags: ["limericks", "emergency-change", "cab", "continuity-optics"]
 An emergency landed too neat,  
 With rollback notes tidy and sweet.  
 The board gave a shrug:  
-"Real panic looks rough.  
-Come back when the outage has teeth."  
+*"Real panic looks rough.*  
+Come back when *the outage has teeth*."  
 
 
 
 The CAB had a terrible kink:  
-It got hot when the dashboards went pink.  
-If your evidence sings  
+It got hot when *the dashboards went pink*.  
+If your *evidence sings*  
 With well-labeled calm things,  
-They assume it's too healthy to stink.  
+They assume it's *too healthy to stink*.  
 
 
 
 They returned when the service looked cursed,  
-With worse notes, louder users, and thirst.  
+With *worse notes, louder users*, and thirst.  
 Then the board said, "At last,  
 Now this feels like a blast."  
-And approved what they'd punished at first.  
+**And approved what they'd punished at first.**  
 
 
 

@@ -83,7 +83,7 @@ It will misfile the whole arrangement.
 
 So if every click seems to imply  
 That the site has one wandering eye,  
-Trust your unease first.  
+*Trust your unease first.*  
 A clean path may be cursed  
 When the sitemap has *learned how to lie*.  
 

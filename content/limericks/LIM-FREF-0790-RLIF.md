@@ -10,10 +10,10 @@ tags: ["limericks", "empathegy"]
 
 
 The lodge made a ritual space,  
-With witness and quorum and grace.  
-It could honor the strain,  
+With *witness and quorum* and grace.  
+It could *honor the strain*,  
 But not alter the chain,  
-So the minutes looked kind in its place.  
+So the minutes *looked kind* in its place.  
 
 
 
@@ -21,20 +21,20 @@ A quorum assembled to hear
 What no mandate could make disappear.  
 They preserved every tone,  
 Then adjourned it alone,  
-With the burden still holding the chair.  
+With the burden still *holding the chair*.  
 
 
 
 The ceremony handled the ache  
 In a way no tribunal could fake.  
-But its comfort was air  
+But its *comfort was air*  
 When a lever was rare,  
-And the room had no power to take.  
+**And the room had no power to take.**  
 
 
 
 The interface touches the real,  
-To see how the end-users feel.  
+To see how the *end-users* feel.  
 But humans complain,  
 Again and again,  
 Which ruins our corporate appeal.  
@@ -69,7 +69,7 @@ The network connected outside,
 Where external objects reside.  
 A signal was sent,  
 And then it was spent,  
-The logs are correctly applied.  
+The logs are *correctly applied*.  
 
 
 

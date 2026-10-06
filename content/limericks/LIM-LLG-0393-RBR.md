@@ -21,7 +21,7 @@ No meeting book holds the vote
 That adopted the stitched note.  
   Yet officers had  
   Already been glad  
-To comply—each practicing rote.  
+To *comply*—*each practicing rote*.  
 
 
 
@@ -29,7 +29,7 @@ To comply—each practicing rote.
 The phrase aligned gracefully  
   With what they'd been doing.  
   Rediscovery: renewing,  
-Not newly empowering. Faithfully.  
+*Not newly empowering. Faithfully.*  
 
 
 
@@ -37,12 +37,12 @@ Within two weeks it had touched
 How they spoke at memorials—clutched  
   Succession order,  
   Public credit's border.  
-The fabric held governance, much.  
+The fabric *held governance*, much.  
 
 
 
 A minority objected clear:  
-Decorative stitching cannot steer  
+*Decorative stitching* cannot steer  
   Policy. The majority  
   Said: that's authority's  
 Origin here—and has been, dear.  
@@ -61,7 +61,7 @@ It's listed now in the standing
 Resolutions ledger, outstanding  
   Under "provisional  
   Heritage"—divisional  
-Legal force: none. Local: demanding.  
+*Legal force: none. Local: demanding.*  
 
 
 
@@ -85,4 +85,4 @@ The archive notes: a banner
 That shapes behavior without planner  
   Or formal adoption  
   Is a policy option  
-Of the oldest and most stable manner.
+**Of the oldest and most stable manner.**

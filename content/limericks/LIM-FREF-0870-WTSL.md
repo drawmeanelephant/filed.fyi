@@ -10,26 +10,26 @@ tags: ["limericks", "empathegy"]
 
 
 A witness observed with a seal,  
-Making fragile events appear real.  
+Making fragile events *appear real*.  
 The mark gave them place,  
-Not a remedy's face,  
-But a record that others could feel.  
+*Not a remedy's face,*  
+But a *record that others could feel*.  
 
 
 
 They witnessed each other in turn,  
-So the file had a steadier burn.  
+So the file had a *steadier burn*.  
 Not proof it was solved,  
 But that someone involved  
-Had seen what the system might spurn.  
+Had seen *what the system might spurn*.  
 
 
 
 The assurance mark settled the page,  
 Like a dignified clerk on a stage.  
-It legitimized pain  
+It *legitimized pain*  
 Without breaking the chain,  
-Which is seal work at minimum wage.  
+**Which is seal work at minimum wage.**  
 
 
 
@@ -69,7 +69,7 @@ The loop iterated again,
 Returning a value of ten.  
 It did nothing more,  
 Than wait by the door,  
-And logged it with digital pen.  
+And logged it with *digital pen*.  
 
 
 

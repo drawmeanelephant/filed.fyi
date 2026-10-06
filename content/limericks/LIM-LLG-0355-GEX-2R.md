@@ -10,16 +10,16 @@ tags: ["limericks", "doge", "local-anchor", "extraction", "provenance", "certifi
 
 
 RAGE-adjacent experience  
-Must name a local anchor before  
-  DOGE will agree  
+Must name a *local anchor* before  
+  *DOGE will agree*  
   To certify. The key:  
-Local touch opens the door.  
+*Local touch* opens the door.  
 
 
 
-The revision tightened the line:  
-Feed anger alone won't assign  
-  Genuine status.  
+*The revision tightened the line:*  
+*Feed anger alone* won't assign  
+  *Genuine status.*  
   Something must catch us  
 In local life—then the sign.  
 
@@ -29,27 +29,27 @@ The first revision allowed
 Feed experiences—crowd-  
   Sourced outrage passed.  
   2R at last  
-Required the local avowed.  
+Required the *local avowed*.  
 
 
 
 Body, place, relationship—  
   One must accompany the trip  
-From feed to certification.  
+From *feed to certification*.  
   Without that station,  
 The experience slips.  
 
 
 
-A local call. A door closed.  
+*A local call. A door closed.*  
   A decision disposed  
 Of differently because  
   Of what the feed was.  
-That counts. Provenance: exposed.  
+*That counts. Provenance: exposed.*  
 
 
 
-Sharing the post: not local.  
+*Sharing the post: not local.*  
 Saying something vocal  
   In the comments: lower.  
 The anchor must own  
@@ -57,7 +57,7 @@ Something beyond the protocol.
 
 
 
-For breedingProgram-adjacent:  
+*For breedingProgram-adjacent:*  
 The local anchor's patient  
   Standard applies  
   To care—not to size  
@@ -81,8 +81,8 @@ Each the appropriate percent.
 
 
 
-GEX-2R doesn't demand  
+*GEX-2R doesn't demand*  
 Purity. It demands  
   That something local  
   Make the vocal  
-Claim of lived experience stand.
+Claim of *lived experience* stand.

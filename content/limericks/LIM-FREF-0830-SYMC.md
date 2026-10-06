@@ -9,17 +9,17 @@ tags: ["limericks", "empathegy"]
 # Symbolic Completion
 
 
-A symbol announced it was done,  
+A symbol *announced* it was done,  
 Though the practical work had not run.  
 The marker was clean,  
 And the gap in between  
-Was declared too complete to outrun.  
+Was declared *too complete to outrun*.  
 
 
 
-A gesture stood in for repair,  
-With appropriate ceremonial air.  
-It did not resolve,  
+A gesture *stood in for repair*,  
+With appropriate *ceremonial air*.  
+It *did not resolve*,  
 But it helped the file evolve  
 Into something less visibly bare.  
 
@@ -28,8 +28,8 @@ Into something less visibly bare.
 The record required a close,  
 So the sign did the work it chose.  
 Materially thin,  
-But admissible within,  
-It let everyone leave, I suppose.  
+**But admissible within,**  
+It let everyone leave, *I suppose*.  
 
 
 
@@ -61,7 +61,7 @@ The system has checked the array,
 It does this for most of the day.  
 I clicked on the box,  
 To update the locks,  
-And now I am going away.  
+And now I am *going away*.  
 
 
 

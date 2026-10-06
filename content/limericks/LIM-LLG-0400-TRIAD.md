@@ -13,7 +13,7 @@ Three regulatory worlds began
 To slip in their separate plan.  
 When eccentricity aligned,  
 They formed one bind,  
-And continuity fell in the span.  
+And *continuity fell in the span*.  
 
 
 
@@ -29,7 +29,7 @@ A batch's control tested hot,
 Came from the same preparation pot.  
 They logged it as fine,  
 Called it a sign,  
-And the audit saw nothing was not.  
+And the audit saw *nothing was not*.  
 
 
 
@@ -43,9 +43,9 @@ But the data's kept hidden from claims.
 
 Each document cited the rest,  
 Each chasing the others with zest.  
-The trail formed a knot,  
+The trail *formed a knot*,  
 The causal link's shot,  
-And they all passed the audit test.  
+**And they all passed the audit test.**  
 
 
 
@@ -61,7 +61,7 @@ The dossier read: all is well.
 The numbers all rose and all fell.  
 But distributed rot  
 Left truths in a knot,  
-Where compliance is hard to compel.  
+Where *compliance is hard to compel*.  
 
 
 
@@ -90,7 +90,7 @@ And completeness is just theater-gates.
 
 
 In GLP, GMP, and WBA lanes,  
-The same grammar of rot remains.  
+The same *grammar of rot* remains.  
 Each fixes its own,  
 Each sits there alone,  
 While the whole edifice strains.  
@@ -115,6 +115,6 @@ And epistemic risk remains.
 
 The archive records this as proof:  
 Regulatory completeness is aloof.  
-From actual truth,  
+From *actual truth*,  
 From reproducible ruth,  
-And the gap grows with every aloof.
+And the gap grows with *every aloof*.

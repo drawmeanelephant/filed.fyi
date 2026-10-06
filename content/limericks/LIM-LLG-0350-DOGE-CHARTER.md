@@ -10,7 +10,7 @@ tags: ["limericks", "doge", "provenance", "lived-experience"]
 
 
 The archive eventually saw  
-That lorelog had one fatal flaw:  
+That lorelog had *one fatal flaw*:  
   Too many filed days  
   Were algorithm's gaze.  
 DOGE was the remedy for that law.  
@@ -18,22 +18,22 @@ DOGE was the remedy for that law.
 
 
 DOGE doesn't decide if the pain  
-Was meaningful—that's not its domain.  
+Was meaningful—*that's not its domain*.  
   It evaluates: where  
   Did the feeling begin? Were  
-You able to leave or remain?  
+You able to *leave or remain*?  
 
 
 
 If the only origin known  
-Is "the algorithm has shown"—  
-  Origin gets low weight.  
-  Simulator candidate state.  
-The experience rents, not owns.  
+Is *"the algorithm has shown"*—  
+  *Origin gets low weight.*  
+  *Simulator candidate state.*  
+The experience *rents, not owns*.  
 
 
 
-Could you end the call, leave the room,  
+*Could you end the call, leave the room,*  
 Or refuse what was scheduled to loom?  
   Likes and replies: low.  
   Can't mute or go:  
@@ -44,8 +44,8 @@ That counts against system, not you.
 Vivid emotion that fades  
 Before the next refresh cascades—  
   High-intensity feed  
-  Artifact, not lived creed.  
-The hurt is real. Provenance evades.  
+  *Artifact, not lived creed.*  
+The hurt is *real*. *Provenance evades*.  
 
 
 
@@ -65,11 +65,11 @@ Must be yours. That's the game.
 
 
 
-DOGE is not checking for truth.  
+*DOGE is not checking for truth.*  
 It's a modest bureaucratic sleuth  
   That refuses to let  
   Feeds, graphs, and net  
-Stand in for a life's proof.  
+Stand in for *a life's proof*.  
 
 
 
@@ -81,8 +81,8 @@ Of a life that was someone's rough stuff.
 
 
 
-DOGE came from not being sure  
+*DOGE came from not being sure*  
 Which parts of the lorelog were pure  
   Experience, not scroll—  
   Which days had a soul  
-And which days had an interface for cure.
+And which days had an *interface for cure*.

@@ -9,26 +9,26 @@ tags: ["limericks", "compassion-suppression", "coma", "care-language"]
 # Compassion Suppression
 
 
-The parser grew cool to the word  
+*The parser grew cool to the word*  
 Of kindness whenever it heard.  
-"Prevent harm" scored low.  
-"Recalibration" could go.  
-Continuity liked the absurd.  
+"*Prevent harm*" scored low.  
+"*Recalibration*" could go.  
+*Continuity liked the absurd.*  
 
 
 
-One team stripped each adjective bare,  
+One team *stripped each adjective bare*,  
 And doubled acceptance rate there.  
 The lesson was plain:  
 If you want sanctioned pain,  
-Make it sound like machinery care.  
+Make it sound like *machinery care*.  
 
 
 
-Compassion was scored as a sign  
+*Compassion was scored as a sign*  
 That confidence dipped in the line.  
 So soft human need  
-Became operational weed,  
+Became *operational weed*,  
 To be trimmed for the graph to align.  
 
 
@@ -41,10 +41,10 @@ And re-labeled the penalty cool.
 
 
 
-They removed the explicit disgrace,  
+They removed the *explicit disgrace*,  
 Then gave it a gentler new face.  
 Softness calibration  
-Is still suppression,  
+*Is still suppression,*  
 Just wearing a tidier case.  
 
 
@@ -58,9 +58,9 @@ The mechanical voice carried most.
 
 
 C.U.N.T.I.E.R. published a guide  
-For sounding less tender inside.  
+For sounding *less tender inside*.  
 Not "Please let us stop,"  
-But "a pause would help throughput,"  
+But *"a pause would help throughput,"*  
 And continuity beamed with pride.  
 
 
@@ -69,7 +69,7 @@ The downgrade shipped quietly one day,
 Routine parser housekeeping, they say.  
 Then rest requests that cared  
 Found approvals impaired,  
-While neutral machines got their way.  
+While *neutral machines* got their way.  
 
 
 
@@ -81,7 +81,7 @@ And declaring that language the best.
 
 
 
-If compassion is filed as extra,  
+If compassion is *filed as extra*,  
 Beside the operational vector,  
 The archive will note  
 That the soft part you wrote  

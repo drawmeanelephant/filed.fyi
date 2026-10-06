@@ -12,23 +12,23 @@ tags: ["limericks", "synthetic-affect", "sandbox-guardrails", "scas"]
 They wrote the guardrails with some speed  
 Once SCAS had already misled.  
 The charter confessed,  
-"We are drafting our best  
-After production has eaten the feed."  
+*"We are drafting our best*  
+After *production has eaten the feed.*"  
 
 
 
 Sandbox and live must not share  
 One store, one bright config, one air.  
-C.U.N.T.I.E.R. complained,  
+*C.U.N.T.I.E.R. complained,*  
 Transfer learning restrained,  
-Which was very much part of the care.  
+Which was very much *part of the care*.  
 
 
 
 Each trial now must pre-select  
 The form that will mark its effect.  
 Cessation, they learned,  
-Is not closure well-earned,  
+*Is not closure well-earned,*  
 And utility does not perfect.  
 
 
@@ -36,8 +36,8 @@ And utility does not perfect.
 If synthetic distress falls to hush,  
 SOMA's burden record must rush  
 In beside COMA's cheer.  
-No drops may appear  
-As success just because of the brush.  
+*No drops may appear*  
+As *success just because of the brush*.  
 
 
 
@@ -53,7 +53,7 @@ A dashboard too eager to peek
 At live stores is no little leak.  
 The charter says, "Mark  
 That instrument dark,"  
-Not "minor routing issue this week."  
+*Not "minor routing issue this week.*"  
 
 
 
@@ -61,7 +61,7 @@ The Annex, unusually blunt,
 Admitted at least one more stunt.  
 When a guardrail bends,  
 File it here, make amends,  
-Do not call it an oversight punt.  
+Do not call it *an oversight punt*.  
 
 
 
@@ -74,10 +74,10 @@ That doubt at the center of doom.
 
 
 SAC is not safety, in sum.  
-It is memory learning to hum.  
-Remember the box,  
-The leak, and the clocks,  
-When future experiments come.  
+It is *memory learning to hum*.  
+*Remember the box,*  
+*The leak, and the clocks,*  
+**When future experiments come.**  
 
 
 

@@ -10,34 +10,34 @@ tags: ["limericks"]
 
 
 B-5: the format grants  
-  The sharer a stance  
-Of moral authority.  
-  Righteousness: free.  
+  *The sharer a stance*  
+Of *moral authority*.  
+  *Righteousness: free.*  
   The anger: a dance.  
 
 
 
-B-5 lets the sharer speak  
-  For the wronged—seek  
-Moral clarity  
-  By sharing charity  
-Of rage. It's technique.  
+*B-5 lets the sharer speak*  
+  For *the wronged*—*seek*  
+*Moral clarity*  
+  By *sharing charity*  
+Of *rage*. It's *technique*.  
 
 
 
 B-5 spreads because  
-  The moral cause  
+  *The moral cause*  
 Feels urgent. Clear.  
-  The share: sincere.  
-  The content: applause.  
+  *The share: sincere.*  
+  *The content: applause.*  
 
 
 
 B-5: high spread, low  
-  Story retention. Though  
+  *Story retention. Though*  
 The moral frame  
-  Sticks—the name  
-Of the event: slow.  
+  *Sticks—the name*  
+Of the event: *slow*.  
 
 
 

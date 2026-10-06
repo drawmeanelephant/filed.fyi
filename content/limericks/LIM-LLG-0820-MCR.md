@@ -10,23 +10,23 @@ tags: ["limericks", "metrics-of-care", "care-rituals", "instrumentation-gap"]
 
 
 They scheduled supportive routine  
-So no one went seven days unseen.  
+So no one went *seven days unseen*.  
 On the dashboard: near-perfect.  
 In the hallways: still wrecked.  
-Care escaped every measured machine.  
+Care *escaped every measured machine*.  
 
 
 
 Serotonin Sam built a pane  
 Where the rituals glowed nice and sane.  
-The unresolved hurt  
-Shifted off the alert  
-Into channels untouched by the frame.  
+*The unresolved hurt*  
+*Shifted off the alert*  
+Into channels *untouched by the frame*.  
 
 
 
-Coverage is not the same thing  
-As relief, though the charts love to sing.  
+*Coverage is not the same thing*  
+As *relief*, though the *charts love to sing*.  
 If each check-in is bare,  
 Then the metric says care  
 While the people still carry the sting.  
@@ -34,10 +34,10 @@ While the people still carry the sting.
 
 
 Substitution failure's the art  
-Of replacing the whole human part  
+Of replacing *the whole human part*  
 With the count of the tries.  
-Then everybody lies  
-That the number itself has a heart.  
+*Then everybody lies*  
+That the number *itself has a heart*.  
 
 
 
@@ -59,8 +59,8 @@ Then the harder emotions all move.
 
 The dashboard achieved near-total sheen.  
 That phrase should make anybody mean.  
-When care becomes score,  
-People route pain elsewhere  
+*When care becomes score,*  
+People *route pain elsewhere*  
 Like smart prey avoiding a screen.  
 
 
@@ -81,10 +81,10 @@ While real strain went and hid somewhere else.
 
 
 
-So if care coverage looks airtight,  
-Check the rooms just outside of the light.  
-What the dashboard can't see  
-Often carries the fee  
+*So if care coverage looks airtight,*  
+**Check the rooms just outside of the light.**  
+*What the dashboard can't see*  
+*Often carries the fee*  
 For the elegance shown in the site.  
 
 
@@ -93,15 +93,15 @@ The single "I feel acknowledged" stays.
 The complex support interaction decays.  
    Data minimisation  
    Loves simple emotion—  
-The harder ones vanish from gaze.  
+The harder ones *vanish from gaze*.  
 
 
 
 What the record remembers of care  
-Is what fit in one click, one square.  
+Is what fit in *one click, one square*.  
    The rest is inferred  
    From statistics heard  
-About what was probably there.  
+About what was *probably there*.  
 
 
 
