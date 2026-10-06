@@ -20,7 +20,7 @@ tags: ["changelog", "limericks", "editorial-emphasis"]
 ## Watermark for the next run
 
 - Limerick records 51-75 of 551 (sorted path order) are complete. Record 75 is `content/limericks/LIM-LLG-0323-ASD.md`.
-- The next run resumes at record 76: `content/limericks/LIM-LLG-0326-CRS.md`.
+- The next run resumes at record 76: `content/limericks/LIM-LLG-0323-LC04.md`.
 
 ## What was deliberately left alone
 
