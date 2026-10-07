@@ -186,6 +186,11 @@ reading. Do not have every workload edit trunks at once:
    If `main` changes again, repeat finalization before merge. Require the CI
    gates and independent review; leave unrelated reconciliation to #611.
 
+For the bounded, read-only handoff command and its conservative limits, see
+[`presentation-qa-checks.md`](presentation-qa-checks.md). It supplements these
+gates, does not prove reading, and requires maintainer approval before pilot
+release.
+
 ## Reusable single-issue launch prompt
 
 Hand the worker only its own issue, this baseline, and repository guidance,
