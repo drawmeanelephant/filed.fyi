@@ -250,7 +250,7 @@ If a silent interval improves the score while worsening testimony, the testimony
 
 Metrics of Care are useful because institutions require visible traces.
 
-They are dangerous because institutions begin serving the trace.
+They are dangerous because institutions begin *serving the trace*.
 
 Empathegy therefore preserves Metrics of Care as necessary instruments whose strongest signal is often the systems preference for measurable kindness over costly change.
 
