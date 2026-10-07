@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "symbolic-completion", "assurance", "care", "co
 
 ## Purpose
 
-This document defines Symbolic Completion: the condition in which signs of acknowledgment, procedural closure, reassurance, or ceremonial handling acquire enough institutional weight to stand in for completion.
+This document defines **Symbolic Completion**: the condition in which signs of acknowledgment, procedural closure, reassurance, or ceremonial handling acquire enough institutional weight to stand in for completion.
 
 Symbolic Completion is not fraud by default.
 It is what happens when an institution cannot complete the underlying matter but can complete its representational obligations.

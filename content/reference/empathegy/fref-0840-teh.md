@@ -47,7 +47,7 @@ Once reward structures, parser weights, or dashboard preferences have been shape
 - confusion about whether a filing is “real” or merely system-fluent.
 
 At that point, the institution is no longer using the experiment.
-It is speaking with its accent.
+**It is speaking with its accent.**
 
 ---
 
