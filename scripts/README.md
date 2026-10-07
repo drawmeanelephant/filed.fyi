@@ -34,6 +34,10 @@ This directory contains the Python, Shell, and automation scripts used to build,
 * **Purpose**: Complete CI verification script used to validate corpus integrity, graph relationships, and build outputs.
 * **Usage**: `./scripts/filed-migration-ci.sh`
 
+### 📜 `export-rag-types.sh`
+* **Purpose**: Builds per-type RAG working-context packs. Resolves the Boris PR #317 binary (`BORIS_PR_BIN`, a reused `bin/boris-pr317` whose `bin/boris-pr317.json` manifest matches the pinned commit, or a fresh build in `.tools/boris-pr317` with Zig 0.16.0), then runs a scoped `--rag` export for each collection directory under `content/`. Replaces `OUT_DIR` (default `publish/rag/`) with `<type>/<type>-NN.md` packs, a `<type>.manifest.json` provenance sidecar per type, and an `INDEX.md` with token counts. Overrides: `BORIS_PR_COMMIT`, `BORIS_PR_REF`, `BORIS_REPOSITORY`, `CONTENT_DIR`, `OUT_DIR`.
+* **Usage**: `./scripts/export-rag-types.sh`
+
 ---
 
 ## 🔍 Graph & Content Audit Helpers
@@ -42,6 +46,10 @@ This directory contains the Python, Shell, and automation scripts used to build,
 * **Purpose**: Audits poetry ownership relationships, cross-references, and content categories against the corpus metadata policy under `metadata/content-audit-policy/`.
 * **Usage**: `python3 scripts/build_content_audit_policy.py --check`
 
+### 📜 `check_collection_counts.py`
+* **Purpose**: **Read-only** source census of Markdown files under `content/`. Checks that each collection trunk declares exactly one `Count: N records.` line matching its nested record count, that every record has a collection trunk, and that the page, trunk, and satellite totals claimed in `README.md` match the source. Not a Boris graph/schema validator.
+* **Usage**: `python3 scripts/check_collection_counts.py`
+
 ### 📜 `normalize_literal_newline_haikus.py`
 * **Purpose**: Idempotent syntax normalizer for literal escaped `\n` characters in haikus/limericks verse blocks, converting literal escapes into physical line breaks while preserving frontmatter and prose.
 * **Usage**: `python3 scripts/normalize_literal_newline_haikus.py --check`
@@ -49,6 +57,10 @@ This directory contains the Python, Shell, and automation scripts used to build,
 ### 📜 `fix_tag_truncation.py`
 * **Purpose**: Detects and repairs truncated tag strings in frontmatter blocks across `content/`.
 * **Usage**: `python3 scripts/fix_tag_truncation.py --apply`
+
+### 📜 `remove_stub_verses.py`
+* **Purpose**: Removes `### Stub: ...` sections whose body contains one of the known placeholder verses, across all Markdown files under the given directory. Other stub sections are kept. Rewrites files in place (no dry-run mode) and prints a per-file and total removal count.
+* **Usage**: `python3 scripts/remove_stub_verses.py content`
 
 ### 📜 `audit_html_ids.py`
 * **Purpose**: Scans compiled HTML output to ensure unique element IDs and valid anchor navigation targets.
@@ -73,6 +85,10 @@ This directory contains the Python, Shell, and automation scripts used to build,
 ### 📜 `certify_publication.py`
 * **Purpose**: **Mandatory publication evidence gate.** Fails the build unless the complete Boris evidence set under `<html-dir>/_boris/proof/` is present (`artifacts.json`, `checks.json`, `claims.json`, `touches.json`, `proof-pack.json`, `index.html`), every check is `passed`/`not-applicable`, every claim is `verified`, embedded model digests match, the presentation contains no `<script>`, and every committed artifact matches on-disk bytes.
 * **Usage**: `python3 scripts/certify_publication.py dist/cantilever`
+
+### 📜 `check_presentation_qa.py`
+* **Purpose**: **Read-only** scope, preservation, and evidence check for one presentation QA workload. Compares two agreed full commit IDs against an assignment JSON and a per-file evidence JSON, and reports findings without rewriting anything. Exits 0 on structural PASS, 1 on findings, 2 on invalid input or environment errors. See `docs/presentation-qa-checks.md`.
+* **Usage**: `python3 scripts/check_presentation_qa.py --base <base-sha> --head <head-sha> --assignment assignment.json --evidence evidence.json`
 
 ---
 
