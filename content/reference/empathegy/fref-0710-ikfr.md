@@ -13,7 +13,7 @@ tags: ["reference", "empathegy", "intake", "forms", "admissibility", "routing"]
 Empathegy Intake Forms convert emotional conditions into administratively movable matter.
 
 They are not designed to capture full reality.
-They are designed to prevent full reality from arriving all at once.
+They are designed to **prevent full reality from arriving all at once**.
 
 This is considered a stabilizing function.
 

@@ -21,7 +21,7 @@ This doctrine exists because visually stable surfaces are regularly overread as 
 
 ## Foundational Rule
 
-Any green band, calm interval, or healthy continuity surface must be read first as a representational event and only second as a possible reflection of material conditions.
+Any green band, calm interval, or healthy continuity surface must be read first as **a representational event** and only second as a possible reflection of material conditions.
 
 Interpretation therefore begins with:
 1. what the band is showing,
