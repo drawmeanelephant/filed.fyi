@@ -47,7 +47,7 @@ They learn to:
 - make suffering look administratively admissible.
 
 This does not mean the need is false.
-It means the need has dressed for inspection.
+It means the need has **dressed for inspection**.
 
 ---
 

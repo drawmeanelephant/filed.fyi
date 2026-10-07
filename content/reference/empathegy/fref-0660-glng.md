@@ -13,7 +13,7 @@ tags: ["reference", "empathegy", "lexicon", "governance-language", "substitution
 This document standardizes the language by which affective and structural harms are translated into administratively legible forms.
 
 The goal is not concealment.
-The goal is representational continuity.
+The goal is **representational continuity**.
 
 Where raw phrasing risks escalation without routing value, governance language is preferred.
 
