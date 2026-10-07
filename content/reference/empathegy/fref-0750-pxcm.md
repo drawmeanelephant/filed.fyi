@@ -23,7 +23,7 @@ Proxy Compassion exists when:
 3. the carrier cannot itself grant relief, alter requirements, or redistribute burden,
 4. the compassion is nevertheless experienced, recorded, or scored as meaningful care activity.
 
-The decisive question is not whether the warmth was real. The decisive question is whether the warmth had leverage.
+The decisive question is not whether the warmth was real. The decisive question is *whether the warmth had leverage*.
 
 ## Core Premise
 

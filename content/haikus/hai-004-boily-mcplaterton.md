@@ -41,30 +41,30 @@ system says goodbye
 
 
 
-Throttle slows the pace
-chassis cools in silent thought
+Throttle slows the pace  
+chassis cools in silent thought  
 nothing is resolved
 
 
 
-Heat becomes the norm
-systems pause to contemplate
+Heat becomes the norm  
+systems pause to contemplate  
 failure is delayed
 
 
 
-Fans reduce the spin
-stagnant air is now the rule
+Fans reduce the spin  
+stagnant air is now the rule  
 quiet stays intact
 
 
 
-Metal holds the warmth
-sealed within the heavy shell
+Metal holds the warmth  
+sealed within the heavy shell  
 status is approved
 
 
 
-Core begins to melt
-styled as deep and quiet thought
+Core begins to melt  
+styled as deep and quiet thought  
 paperwork is done
