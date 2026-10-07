@@ -28,7 +28,7 @@ Gratitude Capture exists when:
 3. the signal is interpreted as evidence of care depth, intervention quality, or restored trust,
 4. the underlying burden remains partially or wholly active.
 
-The critical shift occurs when gratitude stops being read as a social act and starts being read as an outcome measure.
+The critical shift occurs when gratitude stops being read as a social act and starts being read as **an outcome measure**.
 
 ---
 

@@ -29,7 +29,7 @@ A Healthy Interval Artifact is any visual, lexical, procedural, or symbolic obje
 4. may circulate as shorthand for health after its original basis has been thinned, softened, or forgotten.
 
 The artifact does not need to prove health.
-It needs only to make health the easiest available reading.
+It needs only to make health **the easiest available reading**.
 
 ---
 

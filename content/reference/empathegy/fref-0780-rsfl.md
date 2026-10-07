@@ -12,7 +12,7 @@ tags: ["reference", "empathegy", "rest", "soma", "coma", "acknowledged-without-r
 
 This document defines the class of states in which rest is recognized by the institution as emotionally real while remaining operationally unperformed, materially denied, or continuity-incompatible.
 
-A Rest-Shaped Feeling is not rest.
+A **Rest-Shaped Feeling** is not rest.
 It is an administratively admissible approximation of rest preserved in narrative, icon, or classification space.
 
 The doctrine exists because institutions frequently validate exhaustion more readily than they permit interruption.

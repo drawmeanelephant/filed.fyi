@@ -14,7 +14,7 @@ Gratitude Telemetry governs the capture and interpretation of thank-you signals 
 
 Such signals are socially meaningful.
 
-They are analytically unstable.
+They are **analytically unstable**.
 
 ---
 
