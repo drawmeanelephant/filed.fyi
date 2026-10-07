@@ -170,7 +170,7 @@ When collapse is detected:
 5. avoid replacement reassurance unless it is narrower and more honest,
 6. do not treat collapse as mere tone-management failure.
 
-A collapsed reassurance layer cannot be repaired by polishing the same language harder.
+A collapsed reassurance layer **cannot be repaired by polishing the same language harder**.
 
 ---
 
