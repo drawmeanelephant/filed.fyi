@@ -41,24 +41,24 @@ stamping the held breath
 
 
 
-Jurisdiction moves
-scapegoat signs the bottom line
-ledger stays intact
+Jurisdiction moves  
+scapegoat signs the bottom line  
+ledger stays intact  
 
 
 
-Throttle down the speed
-chassis cools in silent thought
-margins hold the weight
+Throttle down the speed  
+chassis cools in silent thought  
+margins hold the weight  
 
 
 
-Route the blame away
-other branches take the fault
-we remain so calm
+Route the blame away  
+other branches take the fault  
+we remain so calm  
 
 
 
-Heat drops on the board
-nothing changes in the end
+Heat drops on the board  
+nothing changes in the end  
 records close their eyes

@@ -41,24 +41,24 @@ somebody must pay
 
 
 
-Jurisdiction ends
-sealed ledger resolves nothing
-perfectly contained
+Jurisdiction ends  
+sealed ledger resolves nothing  
+perfectly contained  
 
 
 
-Scapegoat takes the fall
-quiet archive keeps the peace
-no one speaks at all
+Scapegoat takes the fall  
+quiet archive keeps the peace  
+no one speaks at all  
 
 
 
-Margin is too wide
-other sectors take the weight
-blame is far away
+Margin is too wide  
+other sectors take the weight  
+blame is far away  
 
 
 
-Forms are filed away
-silence is the chosen path
+Forms are filed away  
+silence is the chosen path  
 problem does not breathe

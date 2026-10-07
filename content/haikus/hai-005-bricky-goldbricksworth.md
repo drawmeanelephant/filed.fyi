@@ -41,12 +41,12 @@ a broken machine
 
 
 
-Jurisdiction shifts
-scapegoat found in margins now
-archive closed and sealed
+Jurisdiction shifts  
+scapegoat found in margins now  
+archive closed and sealed  
 
 
 
-Validation ends
-quiet fills the vault of files
+Validation ends  
+quiet fills the vault of files  
 puzzles left untouched
