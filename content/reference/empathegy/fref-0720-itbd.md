@@ -13,7 +13,7 @@ tags: ["reference", "empathegy", "interpretation", "intake", "admissibility", "l
 The Interpretation Boundary Layer governs the transition between emotional reality and institutional handling.
 
 Its purpose is not to determine whether a feeling is true.
-Its purpose is to determine whether a feeling is process-compatible.
+Its purpose is to determine whether a feeling is **process-compatible**.
 
 This distinction is foundational.
 

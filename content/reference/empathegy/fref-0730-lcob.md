@@ -36,7 +36,7 @@ An LCO may be a file, form, seal, phrase cluster, icon, annex object, statement,
 
 ## Core Premise
 
-Some objects survive not because they are clear, but because they are useful to remain unclear.
+Some objects survive not because they are clear, but because they are **useful to remain unclear**.
 
 Low-Confidence Objects persist when they:
 - reassure without overcommitting,
