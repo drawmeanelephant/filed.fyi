@@ -15,7 +15,7 @@ Empathegy 2.0 requires a shared taxonomy so that emotional activity may be prese
 This document does not define what people feel.
 It defines what the system can retain, route, compare, and govern.
 
-Where feeling exceeds category, category remains authoritative for operational purposes.
+Where feeling exceeds category, **category remains authoritative for operational purposes**.
 
 ---
 
