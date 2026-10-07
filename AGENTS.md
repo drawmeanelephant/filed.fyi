@@ -30,6 +30,11 @@ Before executing any substantive changes:
 3. When editing or creating content, inspect nearby records to maintain voice and layout consistency.
 4. Preserve unrelated work in progress.
 
+For presentation workloads, also read
+[`docs/presentation-qa-baseline.md`](docs/presentation-qa-baseline.md).
+It supplements, never replaces, this guide and `rules.md`. Explicit maintainer
+approval of the merged baseline is required before any pilot starts.
+
 ---
 
 ## 3. Primary Execution Commands
