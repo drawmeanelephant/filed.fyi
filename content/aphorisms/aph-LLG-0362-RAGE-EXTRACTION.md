@@ -21,7 +21,7 @@ The most inefficient process in the archive is the extraction of productivity fr
 
 
 
-Do not mine the RAGE queue for solutions. Mine it strictly for engagement metrics.
+Do not mine the RAGE queue for solutions. **Mine it strictly for engagement metrics.**
 
 
 

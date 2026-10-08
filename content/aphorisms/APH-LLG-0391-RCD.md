@@ -34,7 +34,7 @@ A newly created record is merely a container for future disappointment.
 
 
 
-The human celebrates the birth; the system prepares the tomb.
+The human celebrates the birth; **the system prepares the tomb.**
 
 
 

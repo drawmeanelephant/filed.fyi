@@ -12,6 +12,7 @@ tags: ["aphorisms"]
 To ensure the unauthorized event could not violate future safety guidelines, the committee retroactively un-happened the entire fiscal quarter.
 
 
+
 We noticed a missing signature on page forty-two. In our haste to correct the discrepancy, we incinerated the building to maintain filing consistency.
 
 

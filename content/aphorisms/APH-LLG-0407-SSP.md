@@ -17,7 +17,7 @@ Lorelog experiment vs production classifier. Silence entered the record with ful
 
 
 
-Perfect metrics during known instability are not evidence of excellence; they are evidence of instrumentation drift. Administrative clarity arrived after usefulness had departed.
+Perfect metrics during known instability are not evidence of excellence; **they are evidence of instrumentation drift.** Administrative clarity arrived after usefulness had departed.
 
 
 
