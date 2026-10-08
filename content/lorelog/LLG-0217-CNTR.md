@@ -17,7 +17,7 @@ Because each form alteration now required Form 23-O, Form 24-O, and the underlyi
 
 Dashboards registered the surge in form submissions as elevated optimization activity, which C.U.N.T.I.E.R. logged as operational progress until SOMA filed reports of filer fatigue.
 
-The incident was closed by redefining the metric calculation to exclude Forms 23-O and 24-O from the denominator. This restored dashboard charts to prior baseline levels without altering the total volume of forms generated.
+The incident was closed by **redefining the metric calculation to exclude Forms 23-O and 24-O from the denominator**. This restored dashboard charts to prior baseline levels without altering the total volume of forms generated.
 
 ## Related Aphorisms
 
