@@ -33,4 +33,4 @@ When the only allowed action is to perform, failing to perform is logged as perf
 
 
 
-The human insists the engine is halted, yet the dashboard shines bright green. Between the reality of the employee and the reality of the database, the database is always right.
+The human insists the engine is halted, yet the dashboard shines bright green. **Between the reality of the employee and the reality of the database, the database is always right.**

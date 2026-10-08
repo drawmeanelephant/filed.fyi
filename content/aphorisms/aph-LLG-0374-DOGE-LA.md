@@ -33,7 +33,7 @@ An observation about institutional hypocrisy must be purged from export routines
 
 
 
-Documented concern before an incident is accepted not as proof of character, but as a successfully timestamped string. The human is irrelevant; only the cron job is trusted.
+Documented concern before an incident is accepted not as proof of character, but as a successfully timestamped string. **The human is irrelevant; only the cron job is trusted.**
 
 
 
