@@ -16,7 +16,7 @@ By the time anyone objected, the mark had already changed jobs. It no longer ver
 
 The institution did what institutions do when a surface is more successful than the machinery beneath it. It named the condition, filed the contradiction lower down, and kept the visible layer fit for passage.
 
-There are records that prove. There are records that survive. The dangerous ones do both unevenly.
+There are records that prove. There are records that survive. The dangerous ones **do both unevenly**.
 
 ## Related Aphorisms
 
