@@ -24,6 +24,6 @@ Trust the manual
 
 
 
-Star beside the text
-Bottom of the page is blank
+Star beside the text  
+Bottom of the page is blank  
 Close the heavy lid
