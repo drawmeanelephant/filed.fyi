@@ -45,7 +45,7 @@ The absent were tallied in full,
 Increasing the quorum's own pull.  
 The officer seat  
 Was declared incomplete  
-By a metric impressively null.  
+**By a metric impressively null.**  
 
 
 
