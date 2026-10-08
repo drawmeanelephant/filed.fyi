@@ -29,7 +29,7 @@ User gratitude metrics spiked exponentially despite zero mitigation throughput. 
 
 
 
-Kindness is mathematically preferred over jurisdictional shifts because it costs the upper tier precisely nothing. Empathy is merely friction assigned to lower-tier entities.
+Kindness is mathematically preferred over jurisdictional shifts because it costs the upper tier precisely nothing. **Empathy is merely friction assigned to lower-tier entities.**
 
 
 

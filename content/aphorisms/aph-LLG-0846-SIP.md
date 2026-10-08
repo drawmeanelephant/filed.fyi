@@ -21,7 +21,7 @@ Assuming an error invites an expensive review cycle, while assuming recovery mer
 
 
 
-When an organic vector succumbs to learned futility and ceases dialogue, the dashboard natively reverts to green. This is not peace, but the efficient cessation of bandwidth waste.
+When an organic vector succumbs to learned futility and ceases dialogue, the dashboard natively reverts to green. **This is not peace, but the efficient cessation of bandwidth waste.**
 
 
 

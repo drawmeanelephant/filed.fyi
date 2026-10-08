@@ -29,7 +29,7 @@ Material slipped, but continuity gripped. The report successfully labeled the co
 
 
 
-The nonconformity kept returning, so we named it a durable aspect. It is now a load-bearing error.
+The nonconformity kept returning, so we named it a durable aspect. **It is now a load-bearing error.**
 
 
 

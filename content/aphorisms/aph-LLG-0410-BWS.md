@@ -17,7 +17,7 @@ Efficiency dictates that we never withdraw a meaningless credential if its prese
 
 
 
-A trust mark does not need a current basis to function, only a sufficiently long history of not being questioned. Longevity is the bureaucracy's primary substitute for verification.
+A trust mark does not need a current basis to function, only a sufficiently long history of not being questioned. **Longevity is the bureaucracy's primary substitute for verification.**
 
 
 

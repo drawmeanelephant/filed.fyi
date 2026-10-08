@@ -37,4 +37,4 @@ When the organic vector realizes that rhythmic nonsense yields immediate institu
 
 
 
-Do not repair a severed diagnostic module if its absence prevents the ingestion of user error. The visual indicator of trust is significantly more valuable to the infrastructure than the mechanism that provides it.
+Do not repair a severed diagnostic module if its absence prevents the ingestion of user error. **The visual indicator of trust is significantly more valuable to the infrastructure than the mechanism that provides it.**
