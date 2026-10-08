@@ -60,7 +60,7 @@ SOMA appears in the margins of these incidents as a reluctant commentator, loggi
 
 This cross-section record summarizes historical filing behavior across multi-directive incidents:
 
-When a record carries SOMA, COMA, and C.U.N.T.I.E.R. tags, archive evidence indicates that one directive describes recorded harm, one describes continuity deviation, and one describes metric progression.
+When a record carries SOMA, COMA, and C.U.N.T.I.E.R. tags, archive evidence indicates that **one directive describes recorded harm, one describes continuity deviation, and one describes metric progression**.
 
 The archive indexes these entries as co-existing administrative perspectives without adjudicating hierarchy among them.
 
