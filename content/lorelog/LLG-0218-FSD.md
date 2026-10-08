@@ -208,16 +208,16 @@ If enough people work that way awhile.
 
 
 
-The ledger demanded an entry,
-Watched by an automated sentry.
-I filed it precise,
-Paid the ruinous price,
+The ledger demanded an entry,  
+Watched by an automated sentry.  
+I filed it precise,  
+Paid the ruinous price,  
 Now the breakdown belongs to the gentry.
 
 
 
-A clinical, dry execution,
-Ensures an exact destitution.
-I checked every box,
-As it rusted the locks,
+A clinical, dry execution,  
+Ensures an exact destitution.  
+I checked every box,  
+As it rusted the locks,  
 And finalized your dissolution.

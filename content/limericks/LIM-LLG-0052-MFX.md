@@ -89,24 +89,24 @@ Officially mis-sent,
 
 
 
-An audit was ordered at noon.
-We complied, which resulted in ruin.
-The liability trace
-Took all of the space,
+An audit was ordered at noon.  
+We complied, which resulted in ruin.  
+The liability trace  
+Took all of the space,  
 And the servers fell out of attune.
 
 
 
-The ledger required an exact
-Accounting of every last act.
-We followed the rule
-With our only good tool,
+The ledger required an exact  
+Accounting of every last act.  
+We followed the rule  
+With our only good tool,  
 And the infrastructure simply cracked.
 
 
 
-The liability fell to the stamp.
-Which we used till it caused us a cramp.
-The breakdown was slow,
-As we wanted to show,
+The liability fell to the stamp.  
+Which we used till it caused us a cramp.  
+The breakdown was slow,  
+As we wanted to show,  
 That the mandate was firmly encamped.

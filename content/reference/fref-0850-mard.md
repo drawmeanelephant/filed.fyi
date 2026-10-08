@@ -122,24 +122,24 @@ To mitigate the risk of improper operation, all operational materials for the ne
 
 ### Mascot Review Workflow & Doctrinal Refinement Strategy {#mascot-review-workflow-doctrinal-refinement-strategy-2}
 
-The vacancy echoes the hall,
-Where shadows of progress will fall.
-A delay in the line,
-With no clear design,
+The vacancy echoes the hall,  
+Where shadows of progress will fall.  
+A delay in the line,  
+With no clear design,  
 And a margin that swallows it all.
 
 
 
-An appendix of nothing remains,
-Awaiting the endless campaigns.
-The waiting is long,
-In the stationary throng,
+An appendix of nothing remains,  
+Awaiting the endless campaigns.  
+The waiting is long,  
+In the stationary throng,  
 Where the quiet forever retains.
 
 
 
-A clerk in the corridor stands,
-With a ledger of blank, empty bands.
-The validation is slow,
-With nowhere to go,
+A clerk in the corridor stands,  
+With a ledger of blank, empty bands.  
+The validation is slow,  
+With nowhere to go,  
 And silence that fills up his hands.

@@ -27,12 +27,12 @@ Box accepts the drift
 
 
 
-Timestamp on the box
-June eleven holds the lid
+Timestamp on the box  
+June eleven holds the lid  
 Leave the dirt inside
 
 
 
-Green tick marks the form
-Rule is just a dead response
+Green tick marks the form  
+Rule is just a dead response  
 Log it and go home

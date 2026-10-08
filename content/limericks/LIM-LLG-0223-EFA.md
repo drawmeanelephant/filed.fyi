@@ -89,16 +89,16 @@ That relief got a coat,
 
 
 
-We filed the mandate in place,
-Leaving exactly one space.
-The structure must break,
-For the registry's sake,
+We filed the mandate in place,  
+Leaving exactly one space.  
+The structure must break,  
+For the registry's sake,  
 But we finished the forms with grace.
 
 
 
-The stamp of approval was bright,
-Though nothing was factually right.
-We checked every box,
-Destroying the locks,
+The stamp of approval was bright,  
+Though nothing was factually right.  
+We checked every box,  
+Destroying the locks,  
 And securing the breakdown tight.

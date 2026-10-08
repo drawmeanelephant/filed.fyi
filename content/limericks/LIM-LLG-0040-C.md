@@ -89,16 +89,16 @@ Go drink water and *pray to your god*.
 
 
 
-The mandate required we agree,
-With a stamp on the ledger from three.
-I followed the text,
-Now the network is hexed,
+The mandate required we agree,  
+With a stamp on the ledger from three.  
+I followed the text,  
+Now the network is hexed,  
 So liability falls not on me.
 
 
 
-An audit will show I am right,
-I halted the process tonight.
-The forms are aligned,
-As the system declined,
+An audit will show I am right,  
+I halted the process tonight.  
+The forms are aligned,  
+As the system declined,  
 While the infrastructure melts out of sight.

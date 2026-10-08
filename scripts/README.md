@@ -86,10 +86,6 @@ This directory contains the Python, Shell, and automation scripts used to build,
 * **Purpose**: **Mandatory publication evidence gate.** Fails the build unless the complete Boris evidence set under `<html-dir>/_boris/proof/` is present (`artifacts.json`, `checks.json`, `claims.json`, `touches.json`, `proof-pack.json`, `index.html`), every check is `passed`/`not-applicable`, every claim is `verified`, embedded model digests match, the presentation contains no `<script>`, and every committed artifact matches on-disk bytes.
 * **Usage**: `python3 scripts/certify_publication.py dist/cantilever`
 
-### 📜 `check_presentation_qa.py`
-* **Purpose**: **Read-only** scope, preservation, and evidence check for one presentation QA workload. Compares two agreed full commit IDs against an assignment JSON and a per-file evidence JSON, and reports findings without rewriting anything. Exits 0 on structural PASS, 1 on findings, 2 on invalid input or environment errors. See `docs/presentation-qa-checks.md`.
-* **Usage**: `python3 scripts/check_presentation_qa.py --base <base-sha> --head <head-sha> --assignment assignment.json --evidence evidence.json`
-
 ---
 
 ## 🔗 Relationship Recovery & Validation

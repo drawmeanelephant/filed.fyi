@@ -193,32 +193,32 @@ And calls the whole mirror sincere.
 
 
 
-The audit requested the base,
-To see which revision took place.
-We showed them the rules,
-And governing tools,
+The audit requested the base,  
+To see which revision took place.  
+We showed them the rules,  
+And governing tools,  
 And liability left without trace.
 
 
 
-The margin was perfectly set,
-Exactly as stated, and yet,
-The loop of the forms,
-Obeying the norms,
+The margin was perfectly set,  
+Exactly as stated, and yet,  
+The loop of the forms,  
+Obeying the norms,  
 Ensures that no targets are met.
 
 
 
-The instruction required the swap,
-With zero permission to stop.
-We stamp every pair,
-With diligent care,
+The instruction required the swap,  
+With zero permission to stop.  
+We stamp every pair,  
+With diligent care,  
 Until the infrastructure will drop.
 
 
 
-By matching the forms to the letter,
-No output will ever get better.
-We filed the claim,
-Exactly the same,
+By matching the forms to the letter,  
+No output will ever get better.  
+We filed the claim,  
+Exactly the same,  
 And bound the whole desk in a fetter.

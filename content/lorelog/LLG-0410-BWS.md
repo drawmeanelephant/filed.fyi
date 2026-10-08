@@ -81,40 +81,40 @@ And the auditor leaves the scene.
 
 
 
-The form at the intake was peeled,
-Its contents entirely sealed.
-The blanks are profound,
-With nothing around,
+The form at the intake was peeled,  
+Its contents entirely sealed.  
+The blanks are profound,  
+With nothing around,  
 And never a whisper revealed.
 
 
 
-The staples are visibly bent,
-A sign of a vicious intent.
-You buried the text,
-And left us perplexed,
+The staples are visibly bent,  
+A sign of a vicious intent.  
+You buried the text,  
+And left us perplexed,  
 On exactly where everything went.
 
 
 
-A redundant array in the shell,
-Has managed to sever the cell.
-The missing remains,
-Are locked in the chains,
+A redundant array in the shell,  
+Has managed to sever the cell.  
+The missing remains,  
+Are locked in the chains,  
 And nobody's willing to tell.
 
 
 
-The proxy continues to stare,
-At folders containing thin air.
-The black blocks reside,
-Where data should hide,
+The proxy continues to stare,  
+At folders containing thin air.  
+The black blocks reside,  
+Where data should hide,  
 With nothing left over to share.
 
 
 
-The ticket goes through in the night,
-Divorced from the missing insight.
-The symbol remains,
-With unwritten stains,
+The ticket goes through in the night,  
+Divorced from the missing insight.  
+The symbol remains,  
+With unwritten stains,  
 While darkness replaces the light.

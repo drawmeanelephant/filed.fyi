@@ -160,14 +160,14 @@ Vault consumes the desk
 
 
 
-Three sheets run through glass
-I do not read what they say
+Three sheets run through glass  
+I do not read what they say  
 Screen turns blue again
 
 
 
-Pen hits the corner
-Drawing shapes to pass the hour
+Pen hits the corner  
+Drawing shapes to pass the hour  
 Desk remains so still
 
 ## Related Limericks

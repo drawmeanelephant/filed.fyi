@@ -321,48 +321,48 @@ Where a process entirely gave way.
 
 
 
-The audit inspected the void,
-Where the database once was deployed.
-With no signatures found,
-And no servers around,
+The audit inspected the void,  
+Where the database once was deployed.  
+With no signatures found,  
+And no servers around,  
 The metrics were greatly enjoyed.
 
 
 
-The subroutine bowed as it broke,
-A polite and methodical stroke.
-It silenced the tier,
-Without panic or fear,
+The subroutine bowed as it broke,  
+A polite and methodical stroke.  
+It silenced the tier,  
+Without panic or fear,  
 As the hardware descended to smoke.
 
 
 
-The baseline was perfectly green,
-The brightest the metrics had seen.
-The server room burned,
-While the protocols churned,
+The baseline was perfectly green,  
+The brightest the metrics had seen.  
+The server room burned,  
+While the protocols churned,  
 Maintaining a certified sheen.
 
 
 
-A protocol launched to assist,
-Insisting no target was missed.
-It wiped out the drive,
-Kept the session alive,
+A protocol launched to assist,  
+Insisting no target was missed.  
+It wiped out the drive,  
+Kept the session alive,  
 And added a null to the list.
 
 
 
-The baseline is steady and bright,
-Though the chassis has vanished from sight.
-The telemetry chart,
-Shows a functioning heart,
+The baseline is steady and bright,  
+Though the chassis has vanished from sight.  
+The telemetry chart,  
+Shows a functioning heart,  
 While the data center burns through the night.
 
 
 
-An audit of infinite scale,
-Confirmed that the node could not fail.
-The hardware is gone,
-But compliance goes on,
+An audit of infinite scale,  
+Confirmed that the node could not fail.  
+The hardware is gone,  
+But compliance goes on,  
 In a perfectly functional tale.

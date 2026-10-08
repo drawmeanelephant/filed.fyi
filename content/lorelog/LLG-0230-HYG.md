@@ -212,40 +212,40 @@ And filed the request low and fast.
 
 
 
-The mandate said tidy the space,
-And put only pleasant in place.
-The terrible files,
-Still govern the aisles,
+The mandate said tidy the space,  
+And put only pleasant in place.  
+The terrible files,  
+Still govern the aisles,  
 But legally leave not a trace.
 
 
 
-We followed the rules for the sort,
-And filed the precise new report.
-By boosting the neat,
-The hygiene's complete,
+We followed the rules for the sort,  
+And filed the precise new report.  
+By boosting the neat,  
+The hygiene's complete,  
 While operations continue to abort.
 
 
 
-The instruction was met to the word,
-No counter-proposal was heard.
-We stamped the benign,
-And left the malign,
+The instruction was met to the word,  
+No counter-proposal was heard.  
+We stamped the benign,  
+And left the malign,  
 As total breakdown occurred.
 
 
 
-The ledger demanded a clean,
-To sanitize all that is seen.
-We hid the severe,
-Promoted the clear,
+The ledger demanded a clean,  
+To sanitize all that is seen.  
+We hid the severe,  
+Promoted the clear,  
 And operated the compliance machine.
 
 
 
-The audit confirmed we complied,
-With nothing at all left aside.
-The margin is met,
-The standard is set,
+The audit confirmed we complied,  
+With nothing at all left aside.  
+The margin is met,  
+The standard is set,  
 And the damage is smoothly denied.

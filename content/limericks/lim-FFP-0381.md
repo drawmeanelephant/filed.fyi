@@ -33,32 +33,32 @@ And no one has time to repair.
 
 
 
-The forms for the SCL intake,
-Are painted entirely opaque.
-The ███████ was sent,
-And we know what it meant,
+The forms for the SCL intake,  
+Are painted entirely opaque.  
+The ███████ was sent,  
+And we know what it meant,  
 But the paper is starting to flake.
 
 
 
-Two staples were bent in the tray,
-So the witness was folded away.
-The ink is a blur,
-Where ███████ occur,
+Two staples were bent in the tray,  
+So the witness was folded away.  
+The ink is a blur,  
+Where ███████ occur,  
 And nobody left has a say.
 
 
 
-The sidecars were cleanly detached,
-Before the new letters were hatched.
-The space is unread,
-Where ███████ has bled,
+The sidecars were cleanly detached,  
+Before the new letters were hatched.  
+The space is unread,  
+Where ███████ has bled,  
 And the pieces can never be matched.
 
 
 
-The box is in annex three-nine,
-To bury the severed design.
-███████ is drawn,
-But the pages are gone,
+The box is in annex three-nine,  
+To bury the severed design.  
+███████ is drawn,  
+But the pages are gone,  
 And the shadows are doing just fine.

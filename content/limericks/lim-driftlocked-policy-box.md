@@ -9,26 +9,26 @@ tags: ["limericks", "directive-conflict"]
 # Driftlocked Policy Box
 
 
-The proxies begin roboshirking,
-Where heavy redaction is lurking.
-The sidecar is cold,
-With conflicts of old,
+The proxies begin roboshirking,  
+Where heavy redaction is lurking.  
+The sidecar is cold,  
+With conflicts of old,  
 And absolute silence is working.
 
 
 
-A boundary seals the decay,
-The corridors fading to gray.
-With omission so deep,
-The mechanisms sleep,
+A boundary seals the decay,  
+The corridors fading to gray.  
+With omission so deep,  
+The mechanisms sleep,  
 And memories wither away.
 
 
 
-The draft is confined to the floor,
-Behind a completely blank door.
-It carries the strain,
-But nothing is plain,
+The draft is confined to the floor,  
+Behind a completely blank door.  
+It carries the strain,  
+But nothing is plain,  
 And context is lost evermore.
 
 

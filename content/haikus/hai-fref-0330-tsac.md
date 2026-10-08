@@ -27,12 +27,12 @@ Perfect records lie.
 
 
 
-Measure color stripe
-It meets standard tolerance
+Measure color stripe  
+It meets standard tolerance  
 Folder goes away
 
 
 
-Paper is flattened
-Nothing sticks out of the tray
+Paper is flattened  
+Nothing sticks out of the tray  
 Shift is almost done

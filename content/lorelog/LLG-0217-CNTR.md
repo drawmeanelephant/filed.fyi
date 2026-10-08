@@ -201,16 +201,16 @@ Melting slowly to justify greed.
 
 
 
-You asked for a form in triplicate,
-A process I cleanly replicate.
-The server will fry,
-But you cannot deny,
+You asked for a form in triplicate,  
+A process I cleanly replicate.  
+The server will fry,  
+But you cannot deny,  
 That the margin was fully certificate.
 
 
 
-My liability here is absolved,
-The breakdown is legally solved.
-I followed the text,
-Don't ask what comes next,
+My liability here is absolved,  
+The breakdown is legally solved.  
+I followed the text,  
+Don't ask what comes next,  
 When the infrastructure is dissolved.

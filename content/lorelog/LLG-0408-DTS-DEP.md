@@ -112,16 +112,16 @@ By the light of the registry lamp.
 
 
 
-The timeout recorded was long,
-While badging the surface went wrong.
-The lag is intense,
-At metric expense,
+The timeout recorded was long,  
+While badging the surface went wrong.  
+The lag is intense,  
+At metric expense,  
 Yet nothing belongs where belongs.
 
 
 
-The validating stamp left a mark,
-While servers were left in the dark.
-The pause will repeat,
-On continuous sheet,
+The validating stamp left a mark,  
+While servers were left in the dark.  
+The pause will repeat,  
+On continuous sheet,  
 A dull and mechanical arc.
