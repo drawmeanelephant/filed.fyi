@@ -53,7 +53,7 @@ We broke it to make them complain,
 Then fixed it to harvest the gain.  
 The Latch snapped right shut,  
 On a "thanks" from the gut,  
-And justified all of the pain.  
+**And justified all of the pain.**  
 
 
 

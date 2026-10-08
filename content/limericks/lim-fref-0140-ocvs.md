@@ -25,7 +25,7 @@ And clearly means we have no brain.
 
 
 
-This sentence makes perfectly sense!  
+**This sentence makes perfectly sense!**  
 The logic is far too intense!  
 Deploy the blank ink,  
 Before we can think,  

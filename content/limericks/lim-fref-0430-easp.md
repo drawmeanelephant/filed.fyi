@@ -37,7 +37,7 @@ We rounded the corners a bit,
 To verify all of the fit.  
 The user clicked "no,"  
 We just let it go,  
-And filed the whole thing as a hit.  
+**And filed the whole thing as a hit.**  
 
 
 
