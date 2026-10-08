@@ -21,7 +21,7 @@ We took a nice photo to share,
 To show the community we care.  
 The ribbon is frayed,  
 From the games we have played,  
-But it looks fucking grand in the air.  
+**But it looks fucking grand in the air.**  
 
 
 
