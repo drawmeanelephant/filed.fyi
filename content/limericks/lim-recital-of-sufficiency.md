@@ -21,7 +21,7 @@ If you say it enough, it is true,
 That’s what the executives do.  
 The Recital is loud,  
 To an echoing crowd,  
-But it’s nothing but absolute poo.  
+**But it’s nothing but absolute poo.**  
 
 
 
