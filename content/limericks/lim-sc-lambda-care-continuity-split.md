@@ -21,7 +21,7 @@ You can follow the continuity line,
 Or the care path that looks quite divine.  
 But the split is a trick,  
 Just a visual tick,  
-For the unresolved case by design.  
+**For the unresolved case by design.**  
 
 
 
