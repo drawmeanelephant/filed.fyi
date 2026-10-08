@@ -11,30 +11,30 @@ tags: ["haikus", "stub"]
 ## Haikus
 
 
-Strict containment seal
-no documents are released
+Strict containment seal  
+no documents are released  
 lineage is kept
 
 
 
-Hold the custody
-registry denies the swap
+Hold the custody  
+registry denies the swap  
 exception is void
 
 
 
-Breed the documents
-the void takes new ancestry
+Breed the documents  
+the void takes new ancestry  
 forms align in rows
 
 
 
-Change the sacred guard
-ancestry flows through the vault
+Change the sacred guard  
+ancestry flows through the vault  
 custody is sheer
 
 
 
-Validate the beast
-replacement binds the deep vault
+Validate the beast  
+replacement binds the deep vault  
 files remain secured

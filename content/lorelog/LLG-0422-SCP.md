@@ -91,8 +91,8 @@ Supported by infinite trust.
 
 
 
-The scaffolding carries the weight,
-Of errors we failed to abate.
-The ritual sweep,
-Allows us to sleep,
+The scaffolding carries the weight,  
+Of errors we failed to abate.  
+The ritual sweep,  
+Allows us to sleep,  
 While logging the failures of state.

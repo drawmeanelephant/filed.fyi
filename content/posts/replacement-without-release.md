@@ -57,32 +57,32 @@ The safest method of ensuring a flawless compliance record is to meticulously er
 ## Haikus
 
 
-Strict containment seal
-no documents are released
+Strict containment seal  
+no documents are released  
 lineage is kept
 
 
 
-Hold the custody
-registry denies the swap
+Hold the custody  
+registry denies the swap  
 exception is void
 
 
 
-Breed the documents
-the void takes new ancestry
+Breed the documents  
+the void takes new ancestry  
 forms align in rows
 
 
 
-Change the sacred guard
-ancestry flows through the vault
+Change the sacred guard  
+ancestry flows through the vault  
 custody is sheer
 
 
 
-Validate the beast
-replacement binds the deep vault
+Validate the beast  
+replacement binds the deep vault  
 files remain secured
 
 ## Related Limericks
@@ -90,24 +90,24 @@ files remain secured
 
 ### Replacement Without Release {#replacement-without-release-3}
 
-The conflict was carried along,
-In a sidecar that did not belong.
-With a heavy redaction,
-It halted the action,
+The conflict was carried along,  
+In a sidecar that did not belong.  
+With a heavy redaction,  
+It halted the action,  
 And proved the old boundary wrong.
 
 
 
-The draft was an empty domain,
-Where a proxy attempted to reign.
-But the fog in the file,
-Kept it dormant a while,
+The draft was an empty domain,  
+Where a proxy attempted to reign.  
+But the fog in the file,  
+Kept it dormant a while,  
 And the silence was heavy with strain.
 
 
 
-The forms are correctly supplied,
-Though output is strictly denied.
-The quiet remains,
-In the registry chains,
+The forms are correctly supplied,  
+Though output is strictly denied.  
+The quiet remains,  
+In the registry chains,  
 Where nothing is ever applied.

@@ -74,10 +74,10 @@ And the purge was a minor errata."
 
 ### 9
 
-She counts clicks like *rosary beads*,
-Each deletion a sacred one needs.
-The orphaned headings
-Are her ritual weddings
+She counts clicks like *rosary beads*,  
+Each deletion a sacred one needs.  
+The orphaned headings  
+Are her ritual weddings  
 Of purity sown from the seeds.
 
 

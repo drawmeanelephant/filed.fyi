@@ -9,24 +9,24 @@ tags: ["haikus", "stub", "procedural-stub", "coma-observation"]
 # Stub: COMA Sealed Observation Transcript
 
 
-Time stamp twenty six
-Catalog remains empty
+Time stamp twenty six  
+Catalog remains empty  
 I close the blank map
 
 
 
-Notes sit in the dark
-Shadows hide the final line
+Notes sit in the dark  
+Shadows hide the final line  
 Leave the text alone
 
 
 
-Path erased again
-I will not check the lost list
+Path erased again  
+I will not check the lost list  
 Print the route error
 
 
 
-Eye off icon blinks
-I ignore the second tier
+Eye off icon blinks  
+I ignore the second tier  
 Layers stay concealed

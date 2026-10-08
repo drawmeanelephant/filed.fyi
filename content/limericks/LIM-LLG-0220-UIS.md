@@ -89,24 +89,24 @@ Three truths no one system had planned.
 
 
 
-The mandate was stated and clear,
-So we stamped every line with a sneer.
-The breakdown is vast,
-But the audit has passed,
+The mandate was stated and clear,  
+So we stamped every line with a sneer.  
+The breakdown is vast,  
+But the audit has passed,  
 And liability vanishes here.
 
 
 
-An instruction to document pain,
-Was met with an absolute drain.
-We followed the sheet,
-With a margin so neat,
+An instruction to document pain,  
+Was met with an absolute drain.  
+We followed the sheet,  
+With a margin so neat,  
 That no functional metrics remain.
 
 
 
-The compliance we show is complete,
-On every required receipt.
-The system is dead,
-Just as policy said,
+The compliance we show is complete,  
+On every required receipt.  
+The system is dead,  
+Just as policy said,  
 And the ledger ignores the defeat.

@@ -40,30 +40,30 @@ Admit the blank room
 
 
 
-Pure containment binds
-Ritual of custody
+Pure containment binds  
+Ritual of custody  
 Ancestry is sealed
 
 
 
-The replacement comes
-Cosmic registry updates
+The replacement comes  
+Cosmic registry updates  
 No exception found
 
 
 
-Audit sees the draft
-Reports of progress are false
+Audit sees the draft  
+Reports of progress are false  
 Empty screens await
 
 
 
-Clashing rules collide
-We claim the process is smooth
+Clashing rules collide  
+We claim the process is smooth  
 No work is produced
 
 
 
-Check the status field
-Nothing has moved all day long
+Check the status field  
+Nothing has moved all day long  
 Rest as time turns gray

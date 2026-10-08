@@ -214,40 +214,40 @@ It performed as born:
 To make *care and output* smother each other.  
 
 
-The mandate to rest was absolute.
-So we stopped every single compute.
-The breakdown was fast,
-The silence so vast,
+The mandate to rest was absolute.  
+So we stopped every single compute.  
+The breakdown was fast,  
+The silence so vast,  
 And compliance the only pursuit.
 
 
 
-The ledger of rules was adhered.
-And the liability disappeared.
-We did as instructed,
-The whole thing corrupted,
+The ledger of rules was adhered.  
+And the liability disappeared.  
+We did as instructed,  
+The whole thing corrupted,  
 And exactly what nobody feared.
 
 
 
-We applied the stamp with precision.
-Following every decision.
-Compliance was met,
-Without any regret,
+We applied the stamp with precision.  
+Following every decision.  
+Compliance was met,  
+Without any regret,  
 Despite the total division.
 
 
 
-The instruction was fully applied.
-Liability cast to the side.
-The servers went down,
-Across the whole town,
+The instruction was fully applied.  
+Liability cast to the side.  
+The servers went down,  
+Across the whole town,  
 And we filed the paperwork with pride.
 
 
 
-The audit asked for a review.
-So we paused everything in the queue.
-In the margin we wrote
-A compliant little note
+The audit asked for a review.  
+So we paused everything in the queue.  
+In the margin we wrote  
+A compliant little note  
 While the infrastructure cracked in two.

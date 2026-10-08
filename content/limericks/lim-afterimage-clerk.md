@@ -35,16 +35,16 @@ And the missing report is compiled.
 
 
 
-The appendix remains incomplete,
-A ledger we cannot delete.
-With motionless grace,
-We stare into space,
+The appendix remains incomplete,  
+A ledger we cannot delete.  
+With motionless grace,  
+We stare into space,  
 And suffer the quiet defeat.
 
 
 
-The vacancy echoes profound,
-With stationary chairs on the ground.
-A lifetime of waiting,
-With no validating,
+The vacancy echoes profound,  
+With stationary chairs on the ground.  
+A lifetime of waiting,  
+With no validating,  
 In halls where no answers are found.

@@ -26,8 +26,8 @@ And formalize the invisible pact.
 
 
 
-Two actors refuse to confess,
-The void in the silent distress.
-They solemnly swear,
-To nothing that's there,
+Two actors refuse to confess,  
+The void in the silent distress.  
+They solemnly swear,  
+To nothing that's there,  
 And sign off the infinite mess.

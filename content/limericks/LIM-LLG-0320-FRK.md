@@ -89,8 +89,8 @@ Till *uncertainty mans* the whole shoal.
 
 
 
-"Use the series," the baseline dictates,
-But the registry duplicates gates.
-So I filed them all twice,
-To be strictly precise,
+"Use the series," the baseline dictates,  
+But the registry duplicates gates.  
+So I filed them all twice,  
+To be strictly precise,  
 While the catalog buckles and waits.

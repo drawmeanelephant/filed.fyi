@@ -27,12 +27,12 @@ Logs remain unmoved
 
 
 
-Drift inside the log
-Empty sheets await the stamp
+Drift inside the log  
+Empty sheets await the stamp  
 Friction slows the wheel
 
 
 
-Index falls apart
-Structural decay begins
+Index falls apart  
+Structural decay begins  
 Latency expands

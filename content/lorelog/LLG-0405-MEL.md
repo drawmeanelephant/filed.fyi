@@ -164,16 +164,16 @@ And perform is the only true cause.
 
 
 
-A structural limit was breached,
-And protocol boundaries overreached.
-The system went dark,
-With a nullified mark,
+A structural limit was breached,  
+And protocol boundaries overreached.  
+The system went dark,  
+With a nullified mark,  
 And the records were quietly bleached.
 
 
 
-We filed the compliance report,
-With signatures ordered and short.
-The server was bare,
-No data was there,
+We filed the compliance report,  
+With signatures ordered and short.  
+The server was bare,  
+No data was there,  
 A standard procedural resort.

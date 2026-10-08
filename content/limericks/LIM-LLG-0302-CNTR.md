@@ -89,8 +89,8 @@ Ran the math till the *math got too dim*.
 
 
 
-The baseline required a freeze,
-To process the structural fees.
-We obeyed the command,
-Just exactly as planned,
+The baseline required a freeze,  
+To process the structural fees.  
+We obeyed the command,  
+Just exactly as planned,  
 And brought the whole site to its knees.

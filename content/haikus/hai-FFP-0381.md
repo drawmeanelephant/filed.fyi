@@ -27,6 +27,6 @@ Safety in the green
 
 
 
-Sam is very proud
-SOMA grants a shadow rest
+Sam is very proud  
+SOMA grants a shadow rest  
 I type nothing new

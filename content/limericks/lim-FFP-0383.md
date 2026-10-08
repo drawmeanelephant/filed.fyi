@@ -27,8 +27,8 @@ And leave the old server behind.
 
 
 
-The hash on the floor is erased,
-Where meaningful fields were displaced.
-The icon will flash,
-While hiding the crash,
+The hash on the floor is erased,  
+Where meaningful fields were displaced.  
+The icon will flash,  
+While hiding the crash,  
 And waiting for forms to be spaced.

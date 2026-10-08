@@ -27,12 +27,12 @@ File it as a win
 
 
 
-Cherub marks it done
-Ghost of templates fill the lane
+Cherub marks it done  
+Ghost of templates fill the lane  
 Numbers stay the same
 
 
 
-Listening board hums
-We ignore the silent strain
+Listening board hums  
+We ignore the silent strain  
 File the paperwork

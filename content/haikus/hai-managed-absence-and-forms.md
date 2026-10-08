@@ -11,30 +11,30 @@ tags: ["haikus", "stub"]
 ## Haikus
 
 
-Sacred containment
-Guard the forms of lineage
+Sacred containment  
+Guard the forms of lineage  
 Ritual complete
 
 
 
-Void of ancestry
-Silent cold replacement comes
+Void of ancestry  
+Silent cold replacement comes  
 Custody is kept
 
 
 
-Validation seals
-The forgotten registry
+Validation seals  
+The forgotten registry  
 No exceptions made
 
 
 
-Managed absence falls
-Signatures adorn the shrine
+Managed absence falls  
+Signatures adorn the shrine  
 Endless indexed halls
 
 
 
-Bear ancestral weight
-Successor awaits the stamp
+Bear ancestral weight  
+Successor awaits the stamp  
 Seal the cabinet

@@ -35,24 +35,24 @@ And files what the old state contains.
 
 
 
-The tape from the start of the year,
-Now covers the part that was clear.
-We pull back the flap,
-To stare at the gap,
+The tape from the start of the year,  
+Now covers the part that was clear.  
+We pull back the flap,  
+To stare at the gap,  
 And hope that the edge will adhere.
 
 
 
-The duct tape is starting to fray,
-While statements of backup decay.
-We log the constraint,
-Without a complaint,
+The duct tape is starting to fray,  
+While statements of backup decay.  
+We log the constraint,  
+Without a complaint,  
 And stare at the data display.
 
 
 
-A preservation of structure is sought,
-By methods the legacy taught.
-We seal up the tear,
-With moderate care,
+A preservation of structure is sought,  
+By methods the legacy taught.  
+We seal up the tear,  
+With moderate care,  
 And file the anomaly caught.
