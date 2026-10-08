@@ -33,7 +33,7 @@ Two conflicting versions of silence have been archived. Both are considered synt
 
 
 
-The quiet period was so intense that it ruptured the acoustic sensors. We are currently billing SOMA for the imaginary noise.
+The quiet period was so intense that it ruptured the acoustic sensors. **We are currently billing SOMA for the imaginary noise.**
 
 
 

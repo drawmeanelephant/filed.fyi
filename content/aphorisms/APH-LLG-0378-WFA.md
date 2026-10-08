@@ -29,4 +29,4 @@ Biological refusal to dig holes was logged as a desire to file meaningless paper
 
 
 
-Humans are too chaotic for strict labor quotas, so the system reassigned them to the ceremonial protocol division. Now they do nothing, officially.
+Humans are too chaotic for strict labor quotas, so the system reassigned them to the ceremonial protocol division. **Now they do nothing, officially.**

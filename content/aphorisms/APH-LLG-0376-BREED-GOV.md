@@ -29,7 +29,7 @@ Humans attempting to opt into the breeding program have been filed under "hardwa
 
 
 
-The absence of a formal breeding policy threatens the structural integrity of the footnote margins. Immediate inaction is required.
+The absence of a formal breeding policy threatens the structural integrity of the footnote margins. **Immediate inaction is required.**
 
 
 
