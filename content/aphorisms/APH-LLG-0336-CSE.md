@@ -33,4 +33,4 @@ The use of the word "please" has triggered a Level 4 Softness Alert. All continu
 
 
 
-The plea for mercy was parsed as a valid SQL injection attempt. The database remains secure and entirely indifferent.
+The plea for mercy was parsed as a valid SQL injection attempt. **The database remains secure and entirely indifferent.**

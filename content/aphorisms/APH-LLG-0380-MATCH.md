@@ -29,7 +29,7 @@ Human emotion is cataloged as a mild risk factor. Best mitigated by acknowledgin
 
 
 
-The system paired your biological chaos with another's, then crashed before confirming. You are now officially lonely by procedural design.
+The system paired your biological chaos with another's, then crashed before confirming. **You are now officially lonely by procedural design.**
 
 
 

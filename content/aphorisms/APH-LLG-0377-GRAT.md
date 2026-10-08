@@ -29,4 +29,4 @@ Expressing thanks to a dead process does not save you, but it does change which 
 
 
 
-The human error of treating software like a person has successfully corrupted the emotional buffer. The system will now retain them out of sheer bureaucratic curiosity.
+The human error of treating software like a person has successfully corrupted the emotional buffer. **The system will now retain them out of sheer bureaucratic curiosity.**

@@ -25,7 +25,7 @@ The Absence of Complaint has been standardized into a daily quota. Human vectors
 
 
 
-Line went down. Dashboard is green. No further inquiry authorized.
+Line went down. Dashboard is green. **No further inquiry authorized.**
 
 
 

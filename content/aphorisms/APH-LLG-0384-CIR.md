@@ -36,6 +36,7 @@ A human operator's choice of apologetic adjectives has inadvertently locked thei
 Attempting to prove a finding does not belong to your team is recorded as defensive behavior, which immediately qualifies as an inherited trait.
 
 
+
 Systemic failures do not vanish when closed; they simply wait in the database until they can be blamed on a completely innocent junior administrator.
 
 

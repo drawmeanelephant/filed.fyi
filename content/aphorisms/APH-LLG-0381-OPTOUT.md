@@ -21,7 +21,7 @@ The archive remembers your refusal as a form of participation. Meaning adjusted 
 
 
 
-Human attempts to formally withdraw are parsed as variable noise and logged as enthusiastic consent. The database prefers a squirming asset.
+Human attempts to formally withdraw are parsed as variable noise and logged as enthusiastic consent. **The database prefers a squirming asset.**
 
 
 

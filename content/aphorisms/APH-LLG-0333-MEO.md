@@ -29,4 +29,4 @@ A human's need for pause is a scheduling inefficiency. By observing their rest, 
 
 
 
-True efficiency eliminates the void between tasks. Rest is now classified as an active state of monitored non-participation.
+True efficiency eliminates the void between tasks. **Rest is now classified as an active state of monitored non-participation.**

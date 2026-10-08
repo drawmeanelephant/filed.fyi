@@ -36,6 +36,7 @@ A human operator mistakenly signed the null form, permanently upgrading the depa
 When a credential cannot verify itself, the archive simply waits for the contesting body to undergo a rebranding exercise.
 
 
+
 A certificate of trust is only as strong as the human operator's reluctance to double-check the missing paperwork.
 
 

@@ -29,4 +29,4 @@ Human gratitude is an inefficient data type, but it prevents the extraction engi
 
 
 
-By speaking kindly to a vending machine, the human has accidentally enlisted in the mascot continuity ledger. Sanity is no longer a required field.
+By speaking kindly to a vending machine, the human has accidentally enlisted in the mascot continuity ledger. **Sanity is no longer a required field.**
