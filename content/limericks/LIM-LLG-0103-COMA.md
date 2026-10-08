@@ -89,16 +89,16 @@ Than stop for one *honest maintenance frame*.
 
 
 
-Compliance was flawless and neat,
-Despite the unbearable heat.
-We followed the rule,
-Like a disciplined tool,
+Compliance was flawless and neat,  
+Despite the unbearable heat.  
+We followed the rule,  
+Like a disciplined tool,  
 And the melting is fully complete.
 
 
 
-The audit required a check,
-Of the valves on the primary deck.
-We opened them all,
-As per protocol's call,
+The audit required a check,  
+Of the valves on the primary deck.  
+We opened them all,  
+As per protocol's call,  
 And now there is only a wreck.

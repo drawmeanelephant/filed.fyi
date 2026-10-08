@@ -227,24 +227,24 @@ You're in premium procedural sleaze.
 
 
 
-The mandate dictated we wipe
-Every ledger of duplicate type.
-So we followed the rule,
-As a compliant tool,
+The mandate dictated we wipe  
+Every ledger of duplicate type.  
+So we followed the rule,  
+As a compliant tool,  
 And severed the principal pipe.
 
 
 
-The stamp of approval was clear,
-Instructing the shutdown was near.
-With compliance secured,
-The collapse was assured,
+The stamp of approval was clear,  
+Instructing the shutdown was near.  
+With compliance secured,  
+The collapse was assured,  
 And liability vanished from here.
 
 
 
-The instruction was strictly detailed,
-Ensuring no process had failed.
-We followed the sheet,
-Made the sequence complete,
+The instruction was strictly detailed,  
+Ensuring no process had failed.  
+We followed the sheet,  
+Made the sequence complete,  
 And observed as the breakdown prevailed.

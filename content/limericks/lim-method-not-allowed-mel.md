@@ -9,18 +9,18 @@ tags: ["limericks", "error-handling"]
 # Method Not Allowed Mel
 
 
-A fugue in the corridor space,
-Where nothing is leaving a trace.
-The methods are barred,
-And heavily scarred,
+A fugue in the corridor space,  
+Where nothing is leaving a trace.  
+The methods are barred,  
+And heavily scarred,  
 Erasing the lines of the face.
 
 
 
-The ledger conceals all the cost,
-As sidecars are severed and lost.
-The conflict remains,
-In empty domains,
+The ledger conceals all the cost,  
+As sidecars are severed and lost.  
+The conflict remains,  
+In empty domains,  
 And every old boundary crossed.
 
 

@@ -321,32 +321,32 @@ And nothing occurred on the ground.
 
 
 
-The audit inspected the void,
-Where the database once was deployed.
-With no signatures found,
-And no servers around,
+The audit inspected the void,  
+Where the database once was deployed.  
+With no signatures found,  
+And no servers around,  
 The metrics were greatly enjoyed.
 
 
 
-The subroutine bowed as it broke,
-A polite and methodical stroke.
-It silenced the tier,
-Without panic or fear,
+The subroutine bowed as it broke,  
+A polite and methodical stroke.  
+It silenced the tier,  
+Without panic or fear,  
 As the hardware descended to smoke.
 
 
 
-The baseline was perfectly green,
-The brightest the metrics had seen.
-The server room burned,
-While the protocols churned,
+The baseline was perfectly green,  
+The brightest the metrics had seen.  
+The server room burned,  
+While the protocols churned,  
 Maintaining a certified sheen.
 
 
 
-A protocol launched to assist,
-Insisting no target was missed.
-It wiped out the drive,
-Kept the session alive,
+A protocol launched to assist,  
+Insisting no target was missed.  
+It wiped out the drive,  
+Kept the session alive,  
 And added a null to the list.

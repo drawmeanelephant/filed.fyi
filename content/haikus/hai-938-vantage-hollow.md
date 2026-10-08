@@ -27,12 +27,12 @@ Audit finds no fault
 
 
 
-Dashboard shines so bright
-Empty cache is left unread
+Dashboard shines so bright  
+Empty cache is left unread  
 I just click accept
 
 
 
-Three years since the proof
-Ornaments provide the seal
+Three years since the proof  
+Ornaments provide the seal  
 Window shows a void

@@ -40,10 +40,10 @@ Of the same minor mistake
 No one can agree  
 
 
-A scapegoat is found
-Validation is complete
+A scapegoat is found  
+Validation is complete  
 Archive takes the file
 
-Silence is maintained
-Baseline state is now restored
+Silence is maintained  
+Baseline state is now restored  
 No one speaks of it

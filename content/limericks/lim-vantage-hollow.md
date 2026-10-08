@@ -72,49 +72,49 @@ In the stationary chains,
 And the silence is perfectly made.  
 
 
-The corridor stretches in grey,
-Where forms are consigned to delay.
-The silence is kept,
-While the applicants slept,
+The corridor stretches in grey,  
+Where forms are consigned to delay.  
+The silence is kept,  
+While the applicants slept,  
 And validation withers away.
 
-A vacancy haunts every chair,
-In the waiting room's motionless air.
-The ledger is closed,
-As the system proposed,
+A vacancy haunts every chair,  
+In the waiting room's motionless air.  
+The ledger is closed,  
+As the system proposed,  
 With a margin no worker will share.
 
-An appendix is filed in the gloom,
-To outlast every soul in the room.
-The waiting is slow,
-With nowhere to go,
+An appendix is filed in the gloom,  
+To outlast every soul in the room.  
+The waiting is slow,  
+With nowhere to go,  
 And the silence resembles a tomb.
 
-The ledger records not a thing,
-No output or progress to bring.
-The delay is exact,
-As a matter of fact,
+The ledger records not a thing,  
+No output or progress to bring.  
+The delay is exact,  
+As a matter of fact,  
 While the silence continues to ring.
 
-A margin of error remains,
-In the motionless, paper-bound chains.
-Validation is dead,
-With nothing ahead,
+A margin of error remains,  
+In the motionless, paper-bound chains.  
+Validation is dead,  
+With nothing ahead,  
 Except silence and endless refrains.
 
 
-The waiting room measures the grey,
-As the document withers away.
-The silence remains,
-In the motionless chains,
+The waiting room measures the grey,  
+As the document withers away.  
+The silence remains,  
+In the motionless chains,  
 And the margin enforces delay.
 
 
 
-A ledger records not a sound,
-Where the stationary files can be found.
-The vacancy stares,
-At the motionless chairs,
+A ledger records not a sound,  
+Where the stationary files can be found.  
+The vacancy stares,  
+At the motionless chairs,  
 While the silence continues unbound.
 
 

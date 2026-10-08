@@ -8,59 +8,59 @@ tags: ["haikus", "stub"]
 
 # Stub: Gratitude Drift
 
-Strict containment holds
-The sacred registry yields
+Strict containment holds  
+The sacred registry yields  
 A pure lineage
 
-Custody restored
-Replacement of personnel
+Custody restored  
+Replacement of personnel  
 Validation binds
 
-Deep within the vault,
-We replace the personnel,
+Deep within the vault,  
+We replace the personnel,  
 Holy audit sleeps.
 
-Custody of time,
-Each new signature is grace,
+Custody of time,  
+Each new signature is grace,  
 Validation waits.
 
-Vast containment zone,
-Shadows fill the heavy forms,
+Vast containment zone,  
+Shadows fill the heavy forms,  
 Lineage remains.
 
-Validation fails,
-Custody of empty rooms,
+Validation fails,  
+Custody of empty rooms,  
 Duty is observed.
 
-No exception lives,
-Cosmic orders guide the pen,
+No exception lives,  
+Cosmic orders guide the pen,  
 Stamp the faded card.
 
 
-Lineage is forged
-Through validation we wait
+Lineage is forged  
+Through validation we wait  
 Sacred forms are signed
 
 
 
-Silent custody
-Every quiet file becomes
+Silent custody  
+Every quiet file becomes  
 Holy containment
 
 
 
-Clean ancestry rests
-In the replacement of souls
+Clean ancestry rests  
+In the replacement of souls  
 Rituals are kept
 
 
 
-Stamp hits faded card
-The ink pad dried out last month
+Stamp hits faded card  
+The ink pad dried out last month  
 Mark is good enough
 
 
 
-Rooms contain no breath
-Door locks click at six o clock
+Rooms contain no breath  
+Door locks click at six o clock  
 Keys drop in the bowl

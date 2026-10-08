@@ -9,18 +9,18 @@ tags: ["limericks", "directive-conflict"]
 # Sidecar Conflict Porter
 
 
-A porter of shadows and ink,
-Would carry the drafts to the brink.
-It hauled the decay,
-And stored it away,
+A porter of shadows and ink,  
+Would carry the drafts to the brink.  
+It hauled the decay,  
+And stored it away,  
 Too empty to reason or think.
 
 
 
-The files were redacted so deep,
-Their memory sank into sleep.
-A silent patrol,
-With an absent goal,
+The files were redacted so deep,  
+Their memory sank into sleep.  
+A silent patrol,  
+With an absent goal,  
 And promises nothing can keep.
 
 

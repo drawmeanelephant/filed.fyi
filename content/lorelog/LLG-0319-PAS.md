@@ -186,16 +186,16 @@ That bad systems will gnaw into clods.
 
 
 
-They asked for a signature block,
-So I signed every tick of the clock.
-Now my name is aligned
-With the processes signed,
+They asked for a signature block,  
+So I signed every tick of the clock.  
+Now my name is aligned  
+With the processes signed,  
 And I govern the routing dock.
 
 
 
-"Add persona," the mandate had said,
-So I anchored the margin in red.
-By complying so hard,
-I'm the registry's guard,
+"Add persona," the mandate had said,  
+So I anchored the margin in red.  
+By complying so hard,  
+I'm the registry's guard,  
 And the previous standard is dead.

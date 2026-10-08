@@ -27,6 +27,6 @@ Records drift away
 
 
 
-Dead service layer
-Bullet point records the loss
+Dead service layer  
+Bullet point records the loss  
 Close the binder now

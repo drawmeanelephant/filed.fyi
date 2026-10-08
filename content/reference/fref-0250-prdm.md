@@ -97,14 +97,14 @@ Route bends to the cloth
 
 
 
-Heavy marshal sash
-Procession route memorandum
+Heavy marshal sash  
+Procession route memorandum  
 July sun beats down
 
 
 
-Faded ribbon trails
-Official map tells a lie
+Faded ribbon trails  
+Official map tells a lie  
 Cedar chest holds truth
 
 ## Related Limericks

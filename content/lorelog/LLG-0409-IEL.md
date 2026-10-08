@@ -104,16 +104,16 @@ To protect the great dashboard regime.
 
 
 
-The surface is glowing and green,
-But blocks out the signal between.
-We checked on the sheet,
-The loss is complete,
+The surface is glowing and green,  
+But blocks out the signal between.  
+We checked on the sheet,  
+The loss is complete,  
 Yet nothing will show on the screen.
 
 
 
-The dashboard regime holds the sway,
-While caches are fading away.
-The view was maintained,
-And silence retained,
+The dashboard regime holds the sway,  
+While caches are fading away.  
+The view was maintained,  
+And silence retained,  
 To honor the end of the day.

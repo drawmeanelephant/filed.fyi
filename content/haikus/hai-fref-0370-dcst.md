@@ -27,12 +27,12 @@ Noise inside the logs
 
 
 
-Records hold the weight
-Idle processes delay
+Records hold the weight  
+Idle processes delay  
 Margin fades away
 
 
 
-Forms begin to stack
-Nothing moves across the floor
+Forms begin to stack  
+Nothing moves across the floor  
 Silent endless wait
