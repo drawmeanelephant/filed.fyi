@@ -88,6 +88,7 @@ It performed as born:
 To make *care and output* smother each other.  
 
 
+
 The mandate to rest was absolute.  
 So we stopped every single compute.  
 The breakdown was fast,  
