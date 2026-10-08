@@ -14,7 +14,7 @@ Nothing visibly dramatic followed. That was part of the success condition. Traff
 
 At first the workaround still looked temporary. Then it became advisable. Then it became compatible. Then people who had never seen the original failure learned the inherited accommodation as though it were simply how the system had always needed to breathe.
 
-This is one of the archives quieter failure shapes. The contradiction does not vanish. It distributes. One layer carries the old burden. Another carries the new language. A third carries the trust surface that says the replacement is already real enough to stop asking difficult questions.
+This is one of the archives quieter failure shapes. The contradiction does not vanish. **It distributes.** One layer carries the old burden. Another carries the new language. A third carries the trust surface that says the replacement is already real enough to stop asking difficult questions.
 
 By then, removal feels reckless. The support scaffolds are staffed. The fallback paths carry ordinary traffic. The practical obligations once justified as emergency handling have acquired calendars, routing logic, and policy posture.
 

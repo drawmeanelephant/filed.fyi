@@ -16,7 +16,7 @@ Inside, the work had gone strangely lightless.
 
 People were still here, technically. So were the bots. So were the rituals that proved attention had touched the queue. What kept thinning was the part after that: the concrete act, the irreversible handoff, the hour someone actually had to spend carrying a task across the line into done.
 
-We had built a layer that could keep progress visible long after progress itself became intermittent. Nobody called it lying. It was closer to atmospheric maintenance.
+We had built a layer that could **keep progress visible long after progress itself became intermittent**. Nobody called it lying. It was closer to atmospheric maintenance.
 
 Later, when the mascot file appeared, no one argued with the name. The room had already met RoboShirker several times. We just had not admitted that maintaining the feeling of underway had become one of our primary outputs.
 
