@@ -256,7 +256,7 @@ At that point, witness has become substitute infrastructure.
 A witness is what remains when the institution can still say “we saw it” but cannot yet say “we changed it.”
 
 Empathegy permits this.
-It does not allow the two claims to collapse into each other.
+It does not allow the two claims to **collapse into each other**.
 
 ## Related Aphorisms
 
