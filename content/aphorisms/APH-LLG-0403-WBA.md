@@ -9,7 +9,7 @@ tags: ["aphorisms", "wba", "glp", "cryosection-rot", "dual-identity-record"]
 # WBA Continuity Aphorisms
 
 
-Both sets of documentation are complete. Neither set is authoritative. Nothing was resolved. The record now looks official.
+Both sets of documentation are complete. **Neither set is authoritative.** Nothing was resolved. The record now looks official.
 
 
 

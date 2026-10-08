@@ -13,7 +13,7 @@ Contradictions are not systemic failures, merely unscheduled redistributions of 
 
 
 
-Live verification is an expensive administrative indulgence. Cached attestations provide the exact same emotional extraction without the unnecessary latency of truth.
+Live verification is an expensive administrative indulgence. **Cached attestations provide the exact same emotional extraction without the unnecessary latency of truth.**
 
 
 
