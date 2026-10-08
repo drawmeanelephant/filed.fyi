@@ -14,6 +14,12 @@ fi
 CONTENT_DIR=${CONTENT_DIR:-content}
 DIST_DIR=${DIST_DIR:-dist/cantilever}
 
+echo "==> Checking collection counts and README totals against source"
+python3 scripts/check_collection_counts.py
+
+echo "==> Checking verse stanzas for missing hard breaks"
+python3 scripts/fix_verse_hard_breaks.py "$CONTENT_DIR" --check
+
 echo "==> Running Boris graph diagnostics"
 CHECK_REPORT=$(mktemp "${TMPDIR:-/tmp}/filed-boris-check.XXXXXX")
 trap 'rm -f "$CHECK_REPORT"' EXIT
