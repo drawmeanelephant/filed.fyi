@@ -85,4 +85,4 @@ So if RJ45s have dollar-sign eyes
 And the SmartNet badge never quite dies,  
 That's *Porty's* domain:  
 Where the licensing pain  
-Is the cost of the enterprise prize.
+**Is the cost of the enterprise prize.**
