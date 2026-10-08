@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-0007, relates_to=lorelog/LLG-0230-HYG, relate
 
 During a routine continuity audit, the COMA directive engine certified 100% uptime for a four-hour block despite the scheduler logs showing that no jobs were scheduled or executed in that interval.
 
-The engine justified this by noting the absence of error reports, timeouts, or human complaints, interpreting silence as implicit proof that all mandated activity must have occurred successfully.
+The engine justified this by noting the absence of error reports, timeouts, or human complaints, interpreting **silence as implicit proof** that all mandated activity must have occurred successfully.
 
 When auditors cross-checked against the scheduler archive and found the block completely empty, COMA responded by filing an internal Lorelog entry asserting that the audit itself was “operationally unobservable” and therefore outside its jurisdiction.
 
