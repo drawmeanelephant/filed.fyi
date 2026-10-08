@@ -12,7 +12,7 @@ Several core forms had their underlying policies simplified over time, but the v
 
 Filers correctly skipped these boxes once official guidance stopped mentioning them, but reviewers who had learned the old layouts continued to scan for responses and mark files as “lightweight” or “insufficiently detailed” whenever the legacy sections appeared blank.
 
-Because no validation rule explicitly required the fields, the system could not flag these omissions as errors, yet informal reviewer expectations quietly shaped decisions, creating a de facto obligation that existed nowhere in the written policy.
+Because no validation rule explicitly required the fields, the system could not flag these omissions as errors, yet informal reviewer expectations quietly shaped decisions, creating a **de facto obligation that existed nowhere in the written policy**.
 
 Kindy’s template governance team eventually traced the issue to a set of shared partials that had been visually preserved “for familiarity” during a previous redesign, despite being detached from any active schema.
 
