@@ -135,7 +135,7 @@ Bricky certification stamp:
 - [ ] AMBIENT (near-residue)
 
 Reclassification is not a finding of fault.
-It is a finding of origin.
+**It is a finding of origin.**
 
 ## Related Aphorisms
 
