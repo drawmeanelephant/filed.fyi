@@ -137,7 +137,7 @@ And the namespace kept everything right.
 
 
 
-She haunts the old Bell Labs in dreams,  
+**She haunts the old Bell Labs in dreams,**  
 Where the pipes flow like perfect streams.  
 The 9P lives on,  
 A phantom at dawn,  

@@ -35,7 +35,6 @@ To protect the great dashboard regime.
 
 
 
-
 The surface is glowing and green,  
 But blocks out the signal between.  
 We checked on the sheet,  
