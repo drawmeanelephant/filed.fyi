@@ -276,11 +276,6 @@ Doctrine Note These mascots distinguish *preservation* from *influence*. A burde
 ## Related Aphorisms
 
 
-### Acknowledgment Deletion Bias {#acknowledgment-deletion-bias-2}
-
-## Acknowledgment Deletion Bias {#acknowledgment-deletion-bias-3}
-
-
 Seen-ness survives longer than help. Administrative clarity arrived after usefulness had departed.
 
 
