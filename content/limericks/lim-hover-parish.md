@@ -45,7 +45,7 @@ The blind cannot read what we hide,
 And the system is bursting with pride.  
 The Parish is small,  
 With a pixel-wide wall,  
-Where the metrics and bullshit collide.  
+**Where the metrics and bullshit collide.**  
 
 
 
