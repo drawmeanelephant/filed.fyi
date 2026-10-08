@@ -30,7 +30,7 @@ Visibility Exclusion exists when:
 4. downstream systems treat the reduced visibility as evidence of lower relevance, lower prevalence, or lower urgency.
 
 The state was not solved.
-It merely failed to survive formatting.
+It merely **failed to survive formatting**.
 
 ---
 

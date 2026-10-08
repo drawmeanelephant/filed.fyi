@@ -14,7 +14,7 @@ Variance Discipline defines how Empathegy-class systems identify, smooth, contai
 
 It is not officially a suppression framework.
 
-It is officially an interpretive hygiene layer.
+It is officially an **interpretive hygiene layer**.
 
 ---
 
