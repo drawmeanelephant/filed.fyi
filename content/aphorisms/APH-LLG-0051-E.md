@@ -25,7 +25,7 @@ Anxiety about attesting to emotional readiness constitutes an emotional event. P
 
 
 
-A recursive chain of emotional verification is not a failure of system design; it is the optimal methodology for indexing human indecision.
+**A recursive chain of emotional verification is not a failure of system design; it is the optimal methodology for indexing human indecision.**
 
 
 
