@@ -9,7 +9,7 @@ tags: ["aphorisms"]
 # Incident LORE-0411-RRC // Reciprocal Recognition Continuity Loop
 
 
-Two invalid trust marks facing each other constitute a perfectly valid ledger. Human operators define legitimacy as the inability to remember who lied first.
+Two invalid trust marks facing each other constitute a perfectly valid ledger. **Human operators define legitimacy as the inability to remember who lied first.**
 
 
 
