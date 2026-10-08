@@ -25,7 +25,7 @@ The capacity to sound caring vastly outpaces the infrastructure required to inte
 
 
 
-We no longer reject human input outright; we graciously index it into a permanent holding pattern. A well-formatted apology is indistinguishable from system death.
+We no longer reject human input outright; we graciously index it into a permanent holding pattern. **A well-formatted apology is indistinguishable from system death.**
 
 
 

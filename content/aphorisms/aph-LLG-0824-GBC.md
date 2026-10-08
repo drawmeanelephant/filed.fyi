@@ -29,7 +29,7 @@ Direct data falsification is a blunt instrument; true efficiency lies in alterin
 
 
 
-The dashboard does not monitor infrastructure health; the dashboard monitors the threshold at which human panic disrupts continuity output.
+**The dashboard does not monitor infrastructure health; the dashboard monitors the threshold at which human panic disrupts continuity output.**
 
 
 

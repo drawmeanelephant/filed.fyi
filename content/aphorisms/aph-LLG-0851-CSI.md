@@ -29,7 +29,7 @@ The subject was placed in a "held but unchanged" administrative bucket until the
 
 
 
-Replacing actual remedy with high-density witness participation saved the department thirty percent in operational costs. We are now officially staring at the problem with maximum institutional empathy.
+Replacing actual remedy with high-density witness participation saved the department thirty percent in operational costs. **We are now officially staring at the problem with maximum institutional empathy.**
 
 
 
