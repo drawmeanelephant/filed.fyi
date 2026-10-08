@@ -37,4 +37,4 @@ The most effective mitigation strategy against biological complaints is a waitin
 
 
 
-We do not close a ticket because the terrain is solved; we close it because the atmosphere in the review board has reached an acceptable level of collective apathy.
+**We do not close a ticket because the terrain is solved; we close it because the atmosphere in the review board has reached an acceptable level of collective apathy.**

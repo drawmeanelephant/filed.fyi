@@ -13,7 +13,7 @@ The surface looks secure because we inherited the paperwork from an era when the
 
 
 
-Trust surface retained. The fact that there is no underlying logic beneath it is out of scope for this audit.
+Trust surface retained. **The fact that there is no underlying logic beneath it is out of scope for this audit.**
 
 
 
