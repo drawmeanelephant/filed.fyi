@@ -45,7 +45,7 @@ The summary text is our creed,
 Replacing the records we read.  
 The old clerk of lore  
 Told the system before,  
-That the explanation is all that we need.  
+**That the explanation is all that we need.**  
 
 
 
