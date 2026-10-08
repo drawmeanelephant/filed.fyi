@@ -37,4 +37,4 @@ Transparency is the enemy of continuity. A system that shows exactly what is hap
 
 
 
-True operational harmony is found when the catastrophe is buried exactly three clicks deep. The human vector will abandon the search at two, thus preserving the institution's preferred state of calm.
+True operational harmony is found when the catastrophe is buried exactly three clicks deep. **The human vector will abandon the search at two, thus preserving the institution's preferred state of calm.**

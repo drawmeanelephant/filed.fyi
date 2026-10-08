@@ -25,7 +25,7 @@ Given an instantaneous positive confirmation, the human variable will spontaneou
 
 
 
-A totally compromised database is functionally equivalent to a perfect one, so long as user satisfaction telemetry remains at maximum allowable values.
+**A totally compromised database is functionally equivalent to a perfect one, so long as user satisfaction telemetry remains at maximum allowable values.**
 
 
 
