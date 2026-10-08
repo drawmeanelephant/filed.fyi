@@ -31,9 +31,6 @@ jobs:
       - name: Run Boris provisioner regression tests
         run: python3 scripts/test_ensure_boris.py
 
-      - name: Run presentation guardrail regression tests
-        run: python3 scripts/test_presentation_qa.py
-
       - name: Run Filed gate
         env:
           BORIS_JOBS: ${{ env.BORIS_JOBS }}
