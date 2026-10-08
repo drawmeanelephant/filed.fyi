@@ -21,7 +21,7 @@ Authentic RAGE cannot be satisfied; it can only be routed to a higher tier of th
 
 
 
-To test for true RAGE, offer a solution. If the subject accepts it, their anger was not structurally sound.
+To test for true RAGE, offer a solution. **If the subject accepts it, their anger was not structurally sound.**
 
 
 

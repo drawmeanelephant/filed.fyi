@@ -21,4 +21,4 @@ The authority of the stamp is inversely proportional to the clarity of the ink.
 
 
 
-We do not authenticate the event. We authenticate the paperwork that claims the event occurred.
+We do not authenticate the event. **We authenticate the paperwork that claims the event occurred.**

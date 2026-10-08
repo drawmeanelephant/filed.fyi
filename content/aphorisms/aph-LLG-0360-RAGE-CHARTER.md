@@ -21,7 +21,7 @@ Never let raw emotion hit the primary servers; always route it through a charter
 
 
 
-The charter does not exist to serve the user. It exists to serve the metrics derived from the user's discontent.
+The charter does not exist to serve the user. **It exists to serve the metrics derived from the user's discontent.**
 
 
 
