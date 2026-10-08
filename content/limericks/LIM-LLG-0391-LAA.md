@@ -69,4 +69,4 @@ The clerk had two fields side by side:
 One for mood, one for what was applied.  
 So "the room loved the pitch"  
 Became *budgetary switch*,  
-And the ledger developed a stride.
+**And the ledger developed a stride.**
