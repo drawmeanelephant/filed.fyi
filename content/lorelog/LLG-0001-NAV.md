@@ -13,7 +13,7 @@ The breadcrumb layer collapsed at approximately 14:32 site-time during a routine
 
 Users attempting to traverse the affected path reported returning to their origin point without memory of the transit. One clerk filed a supplemental note describing "the distinct sensation of having almost found something."
 
-No fix has been approved. The Tribunal has twice declined to issue a canonical redirect. This record is contested on the grounds that the collapse may have been intentional.
+No fix has been approved. The Tribunal has twice declined to issue a canonical redirect. This record is contested on the grounds that **the collapse may have been intentional**.
 
 ## Related Aphorisms
 
