@@ -17,7 +17,7 @@ Compliance without provenance is a brittle peace. Administrative clarity arrived
 
 
 
-The TRIAD rhymes; do not let the rhyme become a lullaby. Nothing was resolved. The record now looks official.
+The TRIAD rhymes; **do not let the rhyme become a lullaby.** Nothing was resolved. The record now looks official.
 
 
 

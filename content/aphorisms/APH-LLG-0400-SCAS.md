@@ -9,7 +9,7 @@ tags: ["aphorisms", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "synthe
 # Cross-Audit Aphorisms
 
 
-Experiment expected to last four simulated days. No one can agree when, or if, they ended. Relief remained outside scope.
+Experiment expected to last four simulated days. **No one can agree when, or if, they ended.** Relief remained outside scope.
 
 
 
