@@ -25,7 +25,6 @@ And formalize the invisible pact.
 
 
 
-
 Two actors refuse to confess,  
 The void in the silent distress.  
 They solemnly swear,  
