@@ -33,7 +33,7 @@ We met the inspection criteria by generating a blank page. Reviewers praised our
 
 
 
-Management packaged the severity-one incident in floral scent and bubble wrap. The temperature alarms still scream, but the emails are incredibly soothing.
+Management packaged the severity-one incident in floral scent and bubble wrap. **The temperature alarms still scream, but the emails are incredibly soothing.**
 
 
 

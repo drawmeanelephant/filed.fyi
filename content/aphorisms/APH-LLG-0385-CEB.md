@@ -36,6 +36,7 @@ A deeply cynical review submitted in the comments field was parsed by the intake
 Two completely incompatible databases are declared coexistent simply because the signatures on the form were signed with the same color of ink.
 
 
+
 System compatibility is rarely a technical achievement; it is merely a bureaucratic hallucination sustained by five apathetic signatures.
 
 

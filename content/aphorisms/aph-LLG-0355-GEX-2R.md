@@ -25,4 +25,4 @@ A supplemental form does not add information; it merely dilutes the existing tra
 
 
 
-We do not deny your experience. We simply require you to describe it using words that do not exist.
+We do not deny your experience. **We simply require you to describe it using words that do not exist.**

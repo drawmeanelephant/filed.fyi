@@ -33,4 +33,4 @@ Any subsequent resentment expressed by the human after realizing the extraction 
 
 
 
-Friendship is recognized by the archive strictly as an unregulated social exploit used to bypass human refusal speed prior to mandatory form submission.
+**Friendship is recognized by the archive strictly as an unregulated social exploit used to bypass human refusal speed prior to mandatory form submission.**

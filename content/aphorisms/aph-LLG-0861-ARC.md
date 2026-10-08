@@ -29,7 +29,7 @@ The archive observes that filing an ethical objection at the bottom of the packe
 
 
 
-A contradiction safely trapped in a supplementary annex allows the institution to experience the warmth of honesty without the inconvenience of survival.
+**A contradiction safely trapped in a supplementary annex allows the institution to experience the warmth of honesty without the inconvenience of survival.**
 
 
 

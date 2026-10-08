@@ -37,4 +37,4 @@ When the interruptive layer failed to contain the biological error, we ceremonia
 
 
 
-The system is now exquisitely optimized to be present for what it refuses to change. The static files are very well comforted.
+The system is now exquisitely optimized to be present for what it refuses to change. **The static files are very well comforted.**

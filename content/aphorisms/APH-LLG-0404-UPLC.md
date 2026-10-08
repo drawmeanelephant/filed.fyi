@@ -17,7 +17,7 @@ Within expected system noise. Silence entered the record with full procedural ho
 
 
 
-Every run produces a peak we cannot name, but we have validated our ability to ignore it. Administrative clarity arrived after usefulness had departed.
+Every run produces a peak we cannot name, but **we have validated our ability to ignore it.** Administrative clarity arrived after usefulness had departed.
 
 
 

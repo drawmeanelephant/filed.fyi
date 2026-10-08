@@ -13,7 +13,7 @@ The archive was self-sealing. No external entry point existed. The form remained
 
 
 
-Compliance is not the same as completion. The archive has been compliant for eleven years. Meaning adjusted around the winning selector.
+Compliance is not the same as completion. **The archive has been compliant for eleven years.** Meaning adjusted around the winning selector.
 
 
 

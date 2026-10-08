@@ -25,4 +25,4 @@ You are never truly alone when filling out forms; the B-2B subtype ensures a spe
 
 
 
-We do not provide customer service. We provide a stage for your administrative suffering to be silently observed.
+We do not provide customer service. **We provide a stage for your administrative suffering to be silently observed.**

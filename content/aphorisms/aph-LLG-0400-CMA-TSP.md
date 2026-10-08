@@ -33,7 +33,7 @@ The specimen is not incorrect, it is simply believed too efficiently. When a low
 
 
 
-Mascots were approved to index the trauma, not to forgive it. When personnel cite the poster instead of the file, the index has eaten the repository. Comfort is a failure of reading comprehension.
+Mascots were approved to index the trauma, not to forgive it. When personnel cite the poster instead of the file, the index has eaten the repository. **Comfort is a failure of reading comprehension.**
 
 
 
