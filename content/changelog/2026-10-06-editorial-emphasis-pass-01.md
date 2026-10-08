@@ -14,7 +14,7 @@ tags: ["changelog", "aphorisms", "editorial-emphasis"]
 ## What changed
 
 - Added editorial emphasis (bold and italics only) to 24 records: APH-003 through APH-027, judged one record at a time. No words were added, removed, reordered, or corrected; the diff is asterisks only.
-- Italics mark terms of art, wry asides, and each record's own loaded vocabulary ("portability of the wound", "bourgeois deviation", "full procedural honors"). Bold is reserved for the single sentence a record pivots on, at most one per record ("Neither of you may leave.", "Some drafts are abandoned because they were too accurate.").
+- Italics mark terms of art, wry asides, and each record's own loaded vocabulary ("portability of the wound", "bourgeois deviation", "full procedural honors"). **Bold is reserved for the single sentence a record pivots on, at most one per record** ("Neither of you may leave.", "Some drafts are abandoned because they were too accurate.").
 - The aphorisms trunk (`content/aphorisms.md`) was read and left plain: three lines, nothing earns emphasis.
 
 ## Watermark for the next run
