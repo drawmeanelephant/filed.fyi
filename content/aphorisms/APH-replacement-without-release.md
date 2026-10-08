@@ -12,10 +12,13 @@ tags: ["aphorisms", "stub"]
 Deploying the successor while permanently embargoing its manual ensures that operational ignorance is maintained uniformly across all tiers of administration.
 
 
+
 The old infrastructure was decommissioned, yet we must never formally announce the new one. This optimal silence protects the end user from the burden of understanding.
 
 
+
 Deploying infrastructure without its operational manual gracefully limits user adoption, preserving the pristine state of the replacement architecture.
+
 
 
 An unannounced system migration guarantees that support requests are fundamentally misaligned, efficiently neutralizing any actionable feedback.
