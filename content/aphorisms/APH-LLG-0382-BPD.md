@@ -36,6 +36,7 @@ An administrative oversight allowed a typo to spawn an entire generation of fail
 The archive maintains that the mascots are not reproducing, but rather that the filing system has developed a highly specific stutter.
 
 
+
 A mascot’s survival in the archive is directly proportional to its ability to make human operators look foolish during an audit.
 
 
