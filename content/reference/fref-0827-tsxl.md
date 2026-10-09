@@ -12,15 +12,15 @@ This sheet preserves the nearest useful crosslinks for the trust-surface cluster
 
 ## Near doctrine
 
-- Assurance Optics (`FREF-0070-AOPT`) for reassurance surfaces and lexical calming.
-- Managed Absence Spine (`FREF-0815-MAP`) for objects that remain structurally influential after maintenance energy withdraws.
-- Dead Service Layer (`FREF-0810-DSL`) for infrastructural traces that stay present after live service ends.
+- Assurance Optics ([[reference/FREF-0070-AOPT|FREF-0070-AOPT]]) for reassurance surfaces and lexical calming.
+- Managed Absence Spine ([[reference/FREF-0815-MAP|FREF-0815-MAP]]) for objects that remain structurally influential after maintenance energy withdraws.
+- Dead Service Layer ([[reference/FREF-0810-DSL|FREF-0810-DSL]]) for infrastructural traces that stay present after live service ends.
 
 ## Near incidents
 
-- `LLG-0408-DTS-DEP` for decorative trust persistence after verification collapse.
-- `LLG-0410-BWS` for witness-bearing badge continuity after proof refresh thins into inherited basis and cached attestation.
-- `LLG-0411-RRC` for reciprocal recognition loops where adjacent authorities keep one another’s marks current enough to circulate.
+- [[lorelog/LLG-0408-DTS-DEP|LLG-0408-DTS-DEP]] for decorative trust persistence after verification collapse.
+- [[lorelog/LLG-0410-BWS|LLG-0410-BWS]] for witness-bearing badge continuity after proof refresh thins into inherited basis and cached attestation.
+- [[lorelog/LLG-0411-RRC|LLG-0411-RRC]] for reciprocal recognition loops where adjacent authorities keep one another’s marks current enough to circulate.
 
 ## Near mascots
 

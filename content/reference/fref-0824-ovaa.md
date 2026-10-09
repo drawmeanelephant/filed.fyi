@@ -8,7 +8,7 @@ tags: ["reference", "overcoherence", "explanation-layer", "trust-surface", "assu
 
 # OverCoherence Vault Audit Annex, Trust Surface Explanation Layer
 
-Status Note: This document is an audit review annex evaluating the structural OverCoherence of adopted explanation layers. It functions as an audit finding review, not as a primary reference doctrine.
+**Status Note:** This document is an audit review annex evaluating the structural OverCoherence of adopted explanation layers. It functions as an audit finding review, not as a primary reference doctrine.
 
 ## Screening Basis
 

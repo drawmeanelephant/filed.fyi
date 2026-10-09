@@ -16,10 +16,10 @@ This note exists so the cluster can be found by those already near it, not by ev
 
 ## Suggested grouping labels
 
-- Reference: Inherited workaround doctrine
-- Lorelog: Successor environment drift
-- Mascots: Failure signatures of retained exception logic
-- Posts: Recovered transmissions of calm replacement
+- **Reference:** Inherited workaround doctrine
+- **Lorelog:** Successor environment drift
+- **Mascots:** Failure signatures of retained exception logic
+- **Posts:** Recovered transmissions of calm replacement
 
 ## Near records
 
@@ -32,7 +32,7 @@ This note exists so the cluster can be found by those already near it, not by ev
 - `posts/replacement-without-release`
 
 
-Indexed, not elevated. Use nearby and sparingly.
+**Indexed, not elevated.** Use nearby and sparingly.
 
 ## Related Aphorisms
 

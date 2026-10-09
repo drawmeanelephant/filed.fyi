@@ -55,13 +55,13 @@ The key distinction is not whether some work still occurs. Some usually does. Th
 
 Requests continue entering a recognizable intake or support surface, but throughput no longer reflects the implied availability of handlers.
 
-Examples include:
+**Examples include:**
 
 - queues that remain open because closure would count as an outage,
 - support lanes where acknowledgments persist after meaningful intervention has become rare,
 - intake systems whose timestamps move more reliably than their cases.
 
-Cross-reference:
+**Cross-reference:**
 
 - queue theatre cluster, once filed
 - Metrics of Care substitution patterns
@@ -71,42 +71,42 @@ Cross-reference:
 
 A successor process preserves prior accommodations so thoroughly that old labor assumptions continue governing the new layer.
 
-Examples include:
+**Examples include:**
 
 - replacement systems that still require legacy exception handling to remain usable,
 - migrations that preserve dependent rituals because removing them would expose missing support,
 - stabilized workarounds that become ordinary job expectations.
 
-Cross-reference:
+**Cross-reference:**
 
-- FREF-0840-RWRR Replacement Without Release
+- [[reference/FREF-0840-RWRR|FREF-0840-RWRR]] Replacement Without Release
 
 #### 3. Interface Persistence After Capacity Decay
 
 The contact surface remains calm, current, and answer-shaped, even where the actual labor beneath it has been retired, redistributed, or hollowed out.
 
-Examples include:
+**Examples include:**
 
 - form endpoints that still solicit review after the reviewing body has fragmented,
 - service desks that remain listed in policy while operating only through unofficial paths,
 - reassurance surfaces that continue to promise help while relief pathways have become contingent or symbolic.
 
-Cross-reference:
+**Cross-reference:**
 
-- FREF-0810-DSL Dead Service Layer
-- FREF-0823-TSRT Trust Surface Residual Truth
+- [[reference/FREF-0810-DSL|FREF-0810-DSL]] Dead Service Layer
+- [[reference/FREF-0823-TSRT|FREF-0823-TSRT]] Trust Surface Residual Truth
 
 #### 4. Ceremonial Throughput
 
 Administrative movement survives as notation, triage, acknowledgment, or status update after material forward motion has become irregular enough to stop functioning as the true basis of trust.
 
-Examples include:
+**Examples include:**
 
 - queues advanced by recategorization rather than resolution,
 - updates that confirm handling posture without changing burden,
 - evidence of care recorded more densely than evidence of relief.
 
-Cross-reference:
+**Cross-reference:**
 
 - listening-board residue
 - coverage-positive, relief-thin handling patterns
@@ -163,7 +163,7 @@ Dead Labor concerns work expectation rather than proof expectation, though the t
 
 ### Review Questions
 
-Ask:
+**Ask:**
 
 1. What labor or support function is still being expected here?
 2. Does the system preserve the intake surface more faithfully than the ability to answer it?
@@ -189,11 +189,11 @@ When this condition is identified:
 6. avoid treating intake continuity as proof of service continuity,
 7. preserve rough companion records if the summary layer becomes too calm.
 
-Minimum note:
+**Minimum note:**
 
 Obligation remains active after the labor basis that once fulfilled it has materially thinned.
 
-Stronger note:
+**Stronger note:**
 
 The institution preserved queue and reporting continuity after live execution capacity decayed, causing labor residue to govern behavior beyond the survival of the original working body.
 
@@ -203,8 +203,8 @@ The institution preserved queue and reporting continuity after live execution ca
 
 Dead Labor frequently overlaps with:
 
-- FREF-0810-DSL Dead Service Layer, when service traces remain after execution fades,
-- FREF-0840-RWRR Replacement Without Release, when successor systems inherit old support burdens,
+- [[reference/FREF-0810-DSL|FREF-0810-DSL]] Dead Service Layer, when service traces remain after execution fades,
+- [[reference/FREF-0840-RWRR|FREF-0840-RWRR]] Replacement Without Release, when successor systems inherit old support burdens,
 - managed absence classes such as AAOA and STCP, when absence is governed instead of repaired,
 - Metrics of Care and listening-board patterns, when acknowledgment survives without usable relief,
 - queue theatre clusters, where delay, status movement, and public patience are staged as evidence that labor still lives.
@@ -215,7 +215,7 @@ Where the surviving surface is primarily the queue and its dramaturgy, route out
 
 ### Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 
 - labor residue active
 - obligation outlived execution
@@ -226,7 +226,7 @@ Preferred phrases:
 - reporting persistence exceeded relief capacity
 - work after its working body
 
-Disallowed phrases:
+**Disallowed phrases:**
 
 - still functioning because tickets are open
 - support continues as normal

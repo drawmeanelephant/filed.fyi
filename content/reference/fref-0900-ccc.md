@@ -19,7 +19,7 @@ _Doctrine Index candidate — Proxy-Metric Governance Spine_
 2. **Behavioral adaptation.** Subjects adjust their behavior to produce the expected proxy, because the proxy is what is verified and rewarded.
 3. **Proxy stability as evidence.** Institutions begin treating a stable proxy as evidence that the underlying condition is sound. This can invert the relationship: the record looks healthy because the metric is smooth, not because the condition improved.
 
-Origin: LLG-0811-EG (Empathegy Inflation Event), which documented smooth, upward-trending emotional curves being rated as healthier than jagged patterns regardless of reported content.
+**Origin:** [[lorelog/LLG-0811-EG|LLG-0811-EG]] (Empathegy Inflation Event), which documented smooth, upward-trending emotional curves being rated as healthier than jagged patterns regardless of reported content.
 
 ---
 
@@ -54,11 +54,11 @@ The table records where the pattern was observed in the cohort. It is not a clai
 
 ## Interaction with Other Doctrine
 
-- **LLG-0811-EG (Empathegy Inflation Event)** — the documented origin of curve-coherence weighting.
-- **LLG-0451 (Jiggler-Empathegy Bridge)** — the behavioral-adaptation layer: jigglers, quiet quitting, performative presence.
-- **LLG-0450 (Seam Survey)** — the ten-seam evidence base.
-- **FREF-0430-EASP (Empathegy Aesthetic Survival Protocol)** — the aesthetic analogue: surfaces that look correct are treated as operational.
-- **M-0226 (Serotonin Sam)** — the curve mascot: measures graphability, not feeling.
+- **[[lorelog/LLG-0811-EG|LLG-0811-EG]] (Empathegy Inflation Event)** — the documented origin of curve-coherence weighting.
+- **[[lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE|LLG-0451]] (Jiggler-Empathegy Bridge)** — the behavioral-adaptation layer: jigglers, quiet quitting, performative presence.
+- **[[lorelog/LLG-0450-SEAMS-PRESENT-TENSE|LLG-0450]] (Seam Survey)** — the ten-seam evidence base.
+- **[[reference/FREF-0430-EASP|FREF-0430-EASP]] (Empathegy Aesthetic Survival Protocol)** — the aesthetic analogue: surfaces that look correct are treated as operational.
+- **[[mascots/M-0226|M-0226]] (Serotonin Sam)** — the curve mascot: measures graphability, not feeling.
 
 ---
 
@@ -66,18 +66,18 @@ The table records where the pattern was observed in the cohort. It is not a clai
 
 | Mascot | Seam | Curve-coherence role |
 |---|---|---|
-| **Serotonin Sam (M-0226)** | — | The curve avatar |
-| **Jiggler Jimmy (M-0436)** | SEAM-001 | Presence-telemetry adapter |
-| **Manager Mike (M-0437)** | SEAM-001 | Threshold-mediated management |
-| **Mod Maria (M-0438)** | SEAM-002 | Quota-bound human review |
-| **Ring Rita (M-0439)** | SEAM-003 | Subscription observation surface |
-| **Score Sam (M-0440)** | SEAM-004 | Opaque risk scoring |
-| **Predictive Pete (M-0441)** | SEAM-005 | Enforcement feedback loop |
-| **Triage Tracy (M-0442)** | SEAM-006 | Length-of-stay optimization |
-| **Proctor Paul (M-0443)** | SEAM-007 | Verification replacing pedagogy |
-| **Bureau Bob (M-0444)** | SEAM-008 | Rights in statute, not software |
-| **Deepfake Dave (M-0445)** | SEAM-009 | Evidence-deniability amplifier |
-| **Climate Cliff (M-0446)** | SEAM-010 | Asset-protection prioritization |
+| **Serotonin Sam ([[mascots/M-0226|M-0226]])** | — | The curve avatar |
+| **Jiggler Jimmy ([[mascots/M-0436|M-0436]])** | SEAM-001 | Presence-telemetry adapter |
+| **Manager Mike ([[mascots/M-0437|M-0437]])** | SEAM-001 | Threshold-mediated management |
+| **Mod Maria ([[mascots/M-0438|M-0438]])** | SEAM-002 | Quota-bound human review |
+| **Ring Rita ([[mascots/M-0439|M-0439]])** | SEAM-003 | Subscription observation surface |
+| **Score Sam ([[mascots/M-0440|M-0440]])** | SEAM-004 | Opaque risk scoring |
+| **Predictive Pete ([[mascots/M-0441|M-0441]])** | SEAM-005 | Enforcement feedback loop |
+| **Triage Tracy ([[mascots/M-0442|M-0442]])** | SEAM-006 | Length-of-stay optimization |
+| **Proctor Paul ([[mascots/M-0443|M-0443]])** | SEAM-007 | Verification replacing pedagogy |
+| **Bureau Bob ([[mascots/M-0444|M-0444]])** | SEAM-008 | Rights in statute, not software |
+| **Deepfake Dave ([[mascots/M-0445|M-0445]])** | SEAM-009 | Evidence-deniability amplifier |
+| **Climate Cliff ([[mascots/M-0446|M-0446]])** | SEAM-010 | Asset-protection prioritization |
 
 ---
 
