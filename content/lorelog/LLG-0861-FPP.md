@@ -62,7 +62,7 @@ The answer depended less on wording than on what followed.
 
 Where the request allowed negotiation, shared vulnerability, or mutuality, the preamble often remained socially alive.
 
-Where the request terminated in non-negotiable extraction, the warmth retroactively changed species.
+Where the request terminated in non-negotiable extraction, **the warmth retroactively changed species**.
 
 This is one reason Friendrick and Friendship Preamble should not be filed as simple cousins.
 One is a surviving relation-form.

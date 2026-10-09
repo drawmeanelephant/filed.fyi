@@ -21,7 +21,7 @@ In practice, this means:
 
 The Office has no direct authority over the systems that generate the numbers.
 
-Its jurisdiction ends at the chart.
+**Its jurisdiction ends at the chart.**
 
 ## Purity Doctrine
 

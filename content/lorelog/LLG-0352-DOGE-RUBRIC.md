@@ -53,7 +53,7 @@ Do not share in advance with filers at Window 3.
 Simulator Weather is not a ruling that the filer “overreacted”
 or that their hurt was imaginary.
 
-It is a ruling that the environment was engineered.
+**It is a ruling that the environment was engineered.**
 
 DOGE records this distinction because the archive has learned that
 platform routes and local lives produce different kinds of evidence,
