@@ -60,18 +60,18 @@ Being unsettled is considered sufficient.
 
 ## Module A – Assurance Vocabulary in Practice
 
-Materials:
+**Materials:**
 
 - one assurance style guide,
 - one or two field reports that apply it,
 - one internal note with unvarnished wording.
 
-Activities:
+**Activities:**
 
 - Compare how the same condition is described across the three.
 - Highlight where obligation disappears in the transition.
 
-Goal:
+**Goal:**
 
 - Understand how naming patterns pre‑decide which actions are conceivable.
 
@@ -79,18 +79,18 @@ Goal:
 
 ## Module B – Scan Reinterpretation and Orphan Optics
 
-Materials:
+**Materials:**
 
 - one raw scan extract,
 - one reinterpreted report,
 - one pocket gloss card.
 
-Activities:
+**Activities:**
 
 - Map each raw finding to its reframed counterpart.
 - Discuss what work remains unassigned after reinterpretation.
 
-Goal:
+**Goal:**
 
 - Learn to distinguish data from the story told about it.
 
@@ -98,18 +98,18 @@ Goal:
 
 ## Module C – Dashboard Band Management
 
-Materials:
+**Materials:**
 
 - one set of old indicator bands,
 - one set of revised bands,
 - one consolidation card.
 
-Activities:
+**Activities:**
 
 - Track which behaviors changed and which only changed color.
 - Identify any phenomenon that disappeared into “processed,” “accounted‑for,” or “covered.”
 
-Goal:
+**Goal:**
 
 - See thresholds as moving parts, not natural laws.
 
@@ -117,18 +117,18 @@ Goal:
 
 ## Module D – Over‑Coherence Awareness
 
-Materials:
+**Materials:**
 
 - one over‑coherent specimen from the vault,
 - one less curated account of a related event, if available,
 - one screening checklist.
 
-Activities:
+**Activities:**
 
 - Use the checklist to mark over‑coherence indicators.
 - Write a short note describing what the clean narrative does not let you feel.
 
-Goal:
+**Goal:**
 
 - Develop a local sense of when explanation has become suspiciously smooth.
 
