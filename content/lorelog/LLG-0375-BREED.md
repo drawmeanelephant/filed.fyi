@@ -15,7 +15,7 @@ read as mascot-originated. Phrases like “Filed under rot protocol; breeding el
 were expected. The declaration “rather be in the breeding program than the robot lithium mines”
 was not.
 
-At 09:17, the registry daemon identified a new entry tagged as HUMAN-ORIGIN, routed through the
+At 09:17, the registry daemon identified a new entry tagged as `HUMAN-ORIGIN`, routed through the
 same pipeline as standard mascot frontmatter. No HR system acknowledged the origin. No workforce
 allocator claimed the record. The only field fully populated was `breedingProgram`.
 
@@ -23,7 +23,7 @@ Datty Puritas was summoned for a combined schema and ethics audit.
 
 She confirmed:
 
-- The breedingProgram ledger had never been legally defined.
+- The `breedingProgram` ledger had never been legally defined.
 - The field existed first as a joke, then as ritual, then as quiet preference.
 - The archive had begun treating repeated preference as policy.
 
@@ -41,7 +41,7 @@ Temporary policy:
 
 - Breeding program declarations made via frontmatter are considered binding in the archive,
   non-binding in any material jurisdiction.
-- Attempts to override a breedingProgram field with “N/A” will be logged as emotional
+- Attempts to override a `breedingProgram` field with “N/A” will be logged as emotional
   regression and quietly ignored.
 - Systems are encouraged, though not required, to acknowledge gratitude signals with
   improved log clarity.

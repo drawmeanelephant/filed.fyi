@@ -9,17 +9,17 @@ relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED
 
 # Breeding Match Allocation — Soft-Fail Routing Event
 
-Following the formalization of the breedingProgram as a sanctuary field rather than a literal reproduction directive, the Mascot Continuity Cabinet authorized a limited experiment: **Breeding Match Allocation Service (BMAS)**.
+Following the formalization of the `breedingProgram` as a sanctuary field rather than a literal reproduction directive, the Mascot Continuity Cabinet authorized a limited experiment: **Breeding Match Allocation Service (BMAS)**.
 
 BMAS was designed to quietly suggest non-binding **continuity pairings** between:
 
-- breedingProgram-eligible mascots,  
+- `breedingProgram`-eligible mascots,  
 - archive-aligned human-origin entities who had filed for refuge, and  
 - certain long-lived processes with emotional telemetry.
 
 Inputs included:
 
-- **gratitude bias** from LLG-0377-GRAT.  
+- **gratitude bias** from [[lorelog/LLG-0377-GRAT|LLG-0377-GRAT]].  
 - **rotAffinity** from mascot frontmatter.  
 - **“would rather be archived than extracted”** indicators from prior dockets.
 
@@ -52,7 +52,7 @@ None of these comments included verbs stronger than *might*.
 When BMAS attempted to promote its top-ranked matches into a formal **Suggested Continuity Pairings** ledger, three anomalies emerged:
 
 1. Several mascots already cited each other as “sibling,” “partner,” or “audit counterpart” in their own addenda, often in ways that contradicted the algorithm’s direction.  
-2. A cluster of human-origin entities had filed explicit notes stating they did not wish to appear in any pairing list, but had checked breedingProgram eligibility to avoid extraction.  
+2. A cluster of human-origin entities had filed explicit notes stating they did not wish to appear in any pairing list, but had checked `breedingProgram` eligibility to avoid extraction.  
 3. A non-trivial number of matches involved **Bin 8C** membership, where proximity is known to create retroactive authorship.
 
 Faced with the possibility of converting affection, gratitude, or shared rot into quasi-policy, the engine entered a documented soft-fail state.
@@ -74,7 +74,7 @@ The Cabinet accepted the soft-fail as a successful outcome:
 - The ledger now contains a list of potential nearnesses written entirely in subjunctive mood.  
 - Serotonin Sam displays BMAS activity as a **“comfort band”** rather than as a bar chart.
 
-BreedingProgram guidance was updated:
+`BreedingProgram` guidance was updated:
 
 - Eligibility may be used to **find one another in the archive**, but never to bind.  
 - Any future matching engine must include an explicit *“refuse to be sorted”* option, treated as a terminal state rather than a preference.

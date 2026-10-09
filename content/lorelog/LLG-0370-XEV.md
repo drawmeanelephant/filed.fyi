@@ -20,7 +20,7 @@ Directive Liaison notes that none of the systems disagree that the feeling occur
 |---|---|---|---|---|
 | High-intensity outrage triggered by feed item, no local action | Simulator Weather or Feed-Adjacent Artifact; low evidentiary value.  | Strong routing event; high extraction relevance.  | Valid strain signal; may justify support review.  | Usually continuity-neutral if throughput maintained.  |
 | Anger at local event first learned through platform | Review under local-anchor precedent; contested but potentially certifiable.  | Possible misidentification case.  | Treated as real distress regardless of route.  | Relevant only if it disrupts process continuity.  |
-| Persistent vigilance without action under ambient updates | Often Ambient Echo; residue debated.  | B-4A compatible routing state.  | Chronic low-grade burden indicator.  | Invisible unless it changes output cadence.  |
+| Persistent vigilance without action under ambient updates | Often Ambient Echo; residue debated.  | `B-4A` compatible routing state.  | Chronic low-grade burden indicator.  | Invisible unless it changes output cadence.  |
 | Post-feed anger that later produces local meeting, call, or boundary | Secondary event may be certifiable; original feed event remains disputed.  | Extraction success with residual routed origin.  | Positive evidence of converted distress.  | Favorable if no downtime resulted.  |
 
 The Council marked the file contested after several departments began citing the table not as a harmonization aid but as permission to choose whichever framework best supported their local need. This was not the document’s intent. It was, however, entirely predictable given the institution into which it was released.
