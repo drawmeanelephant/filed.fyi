@@ -14,7 +14,7 @@ This note records recurring confusion observed at chamber lunches, recognition b
 
 It is not a prohibition on enthusiasm.
 
-It is a request that enthusiasm stop writing checks in the margins.
+It is a request that enthusiasm **stop writing checks in the margins**.
 
 ## Handling principles
 
