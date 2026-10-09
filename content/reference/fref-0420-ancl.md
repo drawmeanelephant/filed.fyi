@@ -44,7 +44,7 @@ Under LLG-0324-MAP, untraceable recognitions are classified as AAOA: Archivally 
 ANC sits at the edge of this category.  
 Its existence is never directly operational, but its absence would render many seals semantically hollow.
 
-Accordingly, the archive treats ANC as a necessary myth: a body that must be presumed in order for stacked confidence to feel complete.
+Accordingly, the archive treats ANC as a **necessary myth**: a body that must be presumed in order for stacked confidence to feel complete.
 
 Where recognitions survive more clearly than the processes they once certified, the archive should distinguish remembered oversight from presently demonstrable authority. Provenance may remain active after operational grounding has thinned. 
 

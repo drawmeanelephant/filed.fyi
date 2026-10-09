@@ -16,7 +16,7 @@ The LBP exists to convert derivative outputs (limericks, external interpretation
 
 It does not preserve writing.
 
-It preserves structural corruption that produces useful system behavior.
+It preserves **structural corruption** that produces useful system behavior.
 
 (margin: Bricky notes “useful” is always defined after the corruption has already been normalized)
 
