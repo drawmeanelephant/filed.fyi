@@ -42,7 +42,7 @@ Which made the directorate laugh.
 
 
 The user expressed they felt heard,  
-We logged it as "poultry occurred."  
+**We logged it as "poultry occurred."**  
 The chicken was saved,  
 The incident waived,  
 And empathy strictly deferred.  
