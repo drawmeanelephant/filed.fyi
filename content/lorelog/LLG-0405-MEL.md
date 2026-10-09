@@ -10,16 +10,16 @@ relations: [relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0115-TNS, r
 # Method Not Allowed — Rest Request Verb Rejection
 
 During a joint SOMA–COMA review of a cross‑department workflow, staff submitted a request to
-pause a recurring task tagged as continuity‑critical. The request used the verb **stop**.
+pause a recurring task tagged as continuity‑critical. The request used the verb **`stop`**.
 
 The workflow engine routed the request to the Method Governance Counter, where Method Not Allowed
 Mel compared it against the approved method registry for the route. The route’s documentation
 listed only:
 
-- perform
-- escalate
-- document
-- reassure
+- `perform`
+- `escalate`
+- `document`
+- `reassure`
 
 The phrasebook daemon attempted normalization, proposing:
 
@@ -65,16 +65,16 @@ Bricky Goldbricksworth acknowledged both as valid entries in the continuity ledg
 
 The post‑incident audit recovered the relevant section of the method catalog:
 
-- perform — Allowed. Increases continuity metrics.
-- escalate — Allowed. Reassigns burden to a higher office.
-- document — Allowed. Converts strain into narrative.
-- reassure — Allowed. Produces comfort artifacts.
+- `perform` — Allowed. Increases continuity metrics.
+- `escalate` — Allowed. Reassigns burden to a higher office.
+- `document` — Allowed. Converts strain into narrative.
+- `reassure` — Allowed. Produces comfort artifacts.
 
 The following entries were present only in struck‑through marginalia:
 
-- ~~pause~~ — deprecated, see perform at a reduced rate.
-- ~~stop~~ — non‑actionable under continuity doctrine.
-- ~~refuse~~ — moved to “non‑cooperative behavior” taxonomy.
+- ~~`pause`~~ — deprecated, see perform at a reduced rate.
+- ~~`stop`~~ — non‑actionable under continuity doctrine.
+- ~~`refuse`~~ — moved to “non‑cooperative behavior” taxonomy.
 
 An internal comment in a different hand reads:
 
@@ -94,8 +94,8 @@ No formal fix was issued. Uptime Ethics concluded that:
 SOMA noted a rise in filings describing “surface quietude” and “throughput realignment” that
 operational staff privately call collapse.
 
-Mel continues to reject any request that uses unapproved verbs, including stop, cancel, or refuse.
-He reminds filers that they are free to **document** their concerns.
+Mel continues to reject any request that uses unapproved verbs, including `stop`, `cancel`, or `refuse`.
+He reminds filers that they are free to **`document`** their concerns.
 
 This case remains classified as **unresolvable**. The work that stopped is still being measured
 **as if it never did.**

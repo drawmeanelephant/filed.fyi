@@ -41,7 +41,7 @@ The packet matched multiple entries in Civic Benevolence Handling Notes and Bene
 
 # Indicator Checklist
 
-Using FREF‑0290‑OCVH as reference, the review applied the Over‑Coherence indicators.
+Using [[reference/FREF-0290-OCVH|FREF‑0290‑OCVH]] as reference, the review applied the Over‑Coherence indicators.
 
 Findings:
 
@@ -76,13 +76,13 @@ To avoid roughening the specimen in place, the review searched for neighboring r
 
 Located:
 
-- LLG‑0391‑LAA – *Luncheon Assent Authorization Drift*  
+- [[lorelog/LLG-0391-LAA|LLG‑0391‑LAA]] – *Luncheon Assent Authorization Drift*  
   documenting reimbursement claims based solely on “Approved at lunch” and “everybody seemed on board.”
 
-- LLG‑0397‑SBF – *Scholarship Breakfast Forecast Overcommitment*  
+- [[lorelog/LLG-0397-SBF|LLG‑0397‑SBF]] – *Scholarship Breakfast Forecast Overcommitment*  
   recording breakfast optimism that outpaced counted funds and later required quiet supplementation.
 
-- Benevolence Metrics Calibration Session (FREF‑0270‑BMDC)  
+- Benevolence Metrics Calibration Session ([[reference/FREF-0270-BMDC|FREF‑0270‑BMDC]])  
   noting discomfort with honorary absences in quorum counts and aspirational scholarship bands.
 
 - Ward C entries (via reference doctrine) that treated incident softening as liturgical rather than operational resolution.
@@ -110,7 +110,7 @@ Accordingly:
 
   - withdrawn from accreditation and onboarding packets,
   - accepted into the Over‑Coherence teaching shelf,
-  - cross‑referenced to the rougher LLG‑0391‑LAA and LLG‑0397‑SBF cases.
+  - cross‑referenced to the rougher [[lorelog/LLG-0391-LAA|LLG‑0391‑LAA]] and [[lorelog/LLG-0397-SBF|LLG‑0397‑SBF]] cases.
 
 ---
 
@@ -189,7 +189,7 @@ The Civic Benevolence Annex may use it to show how breakfasts and banners become
 No correction to the underlying events is ordered.
 Only their most polished summary has been moved from working doctrine into the vault.
 
-A later Council review, LLG-0400-CMA-TSP, determined that the deeper problem was not the poster alone but the governance drift that allowed teaching specimens to circulate as if they were sufficient doctrine. OCS-0399 therefore records the specimen; CMA-TSP records the custody failure around it.
+A later Council review, [[lorelog/LLG-0400-CMA-TSP|LLG-0400-CMA-TSP]], determined that the deeper problem was not the poster alone but the governance drift that allowed teaching specimens to circulate as if they were sufficient doctrine. OCS-0399 therefore records the specimen; CMA-TSP records the custody failure around it.
 
 ## Related Aphorisms
 

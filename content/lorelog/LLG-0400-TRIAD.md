@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-0401-GLP, relates_to=lorelog/LLG-0402-GMP, re
 
 ### Incident Constellation
 
-Three canonical entries — **LLG-0401-GLP**, **LLG-0402-GMP**, and **LLG-0403-WBA** — converged not by a single fault but by a rhyming of small degradations. The pattern is astronomical: separate orbits that, when their eccentricities shift in phase, produce a constellation of failure.
+Three canonical entries — **[[lorelog/LLG-0401-GLP|LLG-0401-GLP]]**, **[[lorelog/LLG-0402-GMP|LLG-0402-GMP]]**, and **[[lorelog/LLG-0403-WBA|LLG-0403-WBA]]** — converged not by a single fault but by a rhyming of small degradations. The pattern is astronomical: separate orbits that, when their eccentricities shift in phase, produce a constellation of failure.
 
 - **GLP SOP rot**: Standard Operating Procedures accrued editorial drift. Procedural language softened; conditional steps became permissive ("as appropriate" proliferated). Version headers remained intact; step-level clarifications vanished into cross-references that pointed to other cross-references.
 

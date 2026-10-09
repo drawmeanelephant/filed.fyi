@@ -29,7 +29,7 @@ Kindy ran Emotional Report Form VER. 3.7.2 (RECURSIVE) against the file and chec
 - [ ] Does this version feel more true?
 - [x] Have I had water?
 
-Finding: **UNSURE**. Logged as such.
+**Finding:** **UNSURE**. Logged as such.
 
 ## Disposition
 
