@@ -116,7 +116,7 @@ What did subjects have to do for the band to remain green?
 Stay quiet, defer rest, split channels, narrate carefully, thank the proxy, absorb the overflow.
 
 ### Step 4. Disagreement Check
-Which annexes, witness notes, SOMA layers, or Lorelog fragments disagree?
+Which annexes, witness notes, SOMA layers, or [[lorelog|Lorelog]] fragments disagree?
 
 ### Step 5. Worship Check
 Has anyone already started speaking as though the band proves virtue rather than merely performance within scope?
@@ -255,7 +255,7 @@ Disallowed phrases:
 
 Green Band Hermeneutics exists because institutions are faster at seeing color than cost.
 
-Empathegy slows the eye down long enough for the margin to speak.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] slows the eye down long enough for the margin to speak.
 
 ## Related Aphorisms
 

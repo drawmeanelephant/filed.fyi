@@ -8,7 +8,7 @@ tags: ["reference"]
 
 # BHDSS — British Helpdesk Subsystem
 
-**Classification:** Reference / Behavioral Subsystem  
+**Classification:** [[reference|Reference]] / Behavioral Subsystem  
 **Status:** Semi-functional (polite degradation)  
 **Containment Level:** Bureaucratic tea-stained  
 

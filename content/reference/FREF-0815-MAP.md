@@ -12,7 +12,7 @@ relations: [relates_to=reference/FREF-0810-DSL, relates_to=lorelog/LLG-0244-FSC,
 The Managed Absence Spine (MAP) is the structural handling framework for items that remain institutionally influential despite retirement, absence, or local-only authority. 
 It assigns classification codes (CAAR, AAOA, LCGU) to systems, forms, mascots, and doctrines that are administratively retired while continuing to shape archive behavior. 
 
-**Boundary Note:** MAP provides the administrative handling classifications applied to retired-but-influential objects. It encompasses Dead Service Layer traces (FREF-0810), shadow form drafts, and synthetic affect residues, but does not replace their specific domain definitions or serve as a synonym for service cessation.
+**Boundary Note:** MAP provides the administrative handling classifications applied to retired-but-influential objects. It encompasses [[limericks/LIM-FREF-0810-DSL|Dead Service Layer]] traces (FREF-0810), shadow form drafts, and synthetic affect residues, but does not replace their specific domain definitions or serve as a synonym for service cessation.
 
 ---
 
@@ -56,13 +56,13 @@ The following layers and artifacts are explicitly anchored to the Managed Absenc
 
 - **Form shadow drafts and amendment echoes**  
   - Shadow amendments and deactivated drafts that continue to govern behavior despite being formally retired.   
-  - Registry notes explicitly reclassify some as CAAR and place them under MAP doctrine once Datty Puritas has purged them from the canonical schema. 
+  - Registry notes explicitly reclassify some as CAAR and place them under MAP doctrine once [[limericks/LIM-0077|Datty Puritas]] has purged them from the canonical schema. 
 
 - **Metrics-of-Care overlays**  
   - Care metrics attached to intervals as annotations coverage-achieved, relief-unverified, care-visible, leverage-thin that must not, by themselves, change continuity decisions.   
   - These overlays often drift toward AAOA: recorded, cited in minutes, ignored in uptime calculations. 
 
-- **Service Continuity Listening Board minutes**  
+- **[[limericks/LIM-FREF-0410-SCLB|Service Continuity Listening Board]] minutes**  
   - Listening sessions where quiet strain, rest, and burden are documented without reclassifying the underlying intervals.   
   - SCL minutes are archival evidence of feelings about continuity, not continuity changes.
 
@@ -93,16 +93,16 @@ MAP doctrine is inferred from how cases are handled across reference and lorelog
 
 Managed absence emerges most visibly at directive boundaries.
 
-- **SOMA / COMA / C.U.N.T.I.E.R. (Directive Conflict Stack)**  
+- **SOMA / COMA / C.U.N.T.I.E.R. ([[aphorisms/APH-FREF-0370-DCST|Directive Conflict Stack]])**  
   - Rest can be simultaneously required (`SOMA-72`) and unauthorized (`COMA-19`) as long as both filings exist; MAP holds the coexistence without forcing precedence.   
-  - Metrics of Care and Assurance Optics often tag intervals as cared-for in dashboards while continuity logic treats them as uninterrupted; MAP captures these as AAOA care events. 
+  - Metrics of Care and [[limericks/LIM-FREF-0070-AOPT|Assurance Optics]] often tag intervals as cared-for in dashboards while continuity logic treats them as uninterrupted; MAP captures these as AAOA care events. 
 
 - **Assurance Vocabulary and Optics**  
   - Curated absence, independent archival unit, and managed absence language are used to rename unresolved gaps in a way dashboards can tolerate.   
   - MAP provides doctrinal backing so curated absence is not purely decorative. 
   - Not all residual authority conditions belong to managed absence proper; some trust-bearing surfaces remain active as behavioral guides after verification thins, a neighboring condition indexed under [[reference/FREF-0823-TSRT|FREF-0823-TSRT]]. 
 
-- **Lorelog and Forms Registry**  
+- **[[lorelog|Lorelog]] and Forms Registry**  
   - Cases such as `COMA-19` overuse, phrasebook clarifications, and shadow amendment chains are resolved on paper while behavior drifts.   
   - MAP is where those “resolved” but operationally persistent patterns are pinned.
 
@@ -112,7 +112,7 @@ Managed absence emerges most visibly at directive boundaries.
 
 Several mascots either live directly on MAP or operate at its edges. 
 
-- **Complimentary Ghostline**  
+- **[[limericks/LIM-0064|Complimentary Ghostline]]**  
   - Language-layer mascot for services that are officially discontinued but textually operational; explicitly affiliated with the Managed Absence Spine.   
   - **Failure domain:** shutdown treated as scheduling, loss converted into lifecycle language, continuity handled as documentation problem. 
 

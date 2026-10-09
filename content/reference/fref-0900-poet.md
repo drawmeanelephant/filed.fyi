@@ -18,9 +18,9 @@ Snapshot values as of the original audit run; not current repository state.
 
 | Collection | Total Files | Total Verses |
 |------------|-------------|--------------|
-| **Haikus** | 563 | 3446 |
-| **Limericks** | 562 | 5447 |
-| **Aphorisms** | 563 | 4464 |
+| **[[haikus|Haikus]]** | 563 | 3446 |
+| **[[limericks|Limericks]]** | 562 | 5447 |
+| **[[aphorisms|Aphorisms]]** | 563 | 4464 |
 
 ## Related Aphorisms
 

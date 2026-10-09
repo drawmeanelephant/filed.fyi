@@ -117,7 +117,7 @@ The object is unavailable, retired, disputed, or preserved through an absence cl
 
 ### Annex Truth
 The primary surface is incomplete and requires a subordinate truth layer.
-Adjacent Correctness often coexists with Annex Truth, but emphasizes the misleading adequacy of the primary output rather than the preserved contradiction beneath it.
+Adjacent Correctness often coexists with [[limericks/LIM-FREF-0540-ANXT|Annex Truth]], but emphasizes the misleading adequacy of the primary output rather than the preserved contradiction beneath it.
 
 ### Courtesy Framing
 Language softens the event without necessarily rerouting the underlying object.

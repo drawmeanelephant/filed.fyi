@@ -16,10 +16,10 @@ This note exists so the cluster can be found by those already near it, not by ev
 
 ## Suggested grouping labels
 
-- **Reference:** Inherited workaround doctrine
-- **Lorelog:** Successor environment drift
-- **Mascots:** Failure signatures of retained exception logic
-- **Posts:** Recovered transmissions of calm replacement
+- **[[reference|Reference]]:** Inherited workaround doctrine
+- **[[lorelog|Lorelog]]:** Successor environment drift
+- **[[mascots|Mascots]]:** Failure signatures of retained exception logic
+- **[[posts|Posts]]:** Recovered transmissions of calm replacement
 
 ## Near records
 

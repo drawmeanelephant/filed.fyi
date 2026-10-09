@@ -12,7 +12,7 @@ Assurance Optics is the archive's term for the surface treatments that make repo
 
 It covers both the language shifts recorded in [[lorelog/LLG-0323-ASD|LLG-0323-ASD]] and the visual marks attached through AV-14 and LC-04, where failures and unresolved states are presented as favorable conditions.
 
-**Boundary Note:** Assurance Optics governs the broad reassurance surface across reports and dashboards. In contrast, the Scan Reinterpretation Bloc ([[reference/FREF-0080-SRBP|FREF-0080]]) handles the specific reclassification of raw scan output, while the Assurance Vocabulary Annex (LLG-0327) provides the underlying word substitution table.
+**Boundary Note:** Assurance Optics governs the broad reassurance surface across reports and dashboards. In contrast, the Scan Reinterpretation Bloc ([[reference/FREF-0080-SRBP|FREF-0080]]) handles the specific reclassification of raw scan output, while the [[limericks/LIM-LLG-0327-AVA|Assurance Vocabulary Annex]] (LLG-0327) provides the underlying word substitution table.
 
 ## Components
 
@@ -21,28 +21,28 @@ Assurance Optics currently names three main artifacts:
 - **Assurance Vocabulary Annex AVA**  
   The language layer that replaces terms such as failure, defect, and unresolved with continuity-compatible phrases. See [[lorelog/LLG-0327-AVA|LLG-0327-AVA]]. 
 
-- **AV-14 Nullseal Register**  
+- **[[limericks/LIM-AV-0014-NULLSEAL-REGISTER|AV-14 Nullseal Register]]**  
   The mascotized ledger that tracks which phrases have been harmonized, without preserving the original wording. 
 
-- **LC-04 Soft Green Seal**  
+- **[[limericks/LIM-LC-0004-SOFT-GREEN-SEAL|LC-04 Soft Green Seal]]**  
   The graphical emblem attached to sections and intervals to indicate “fine enough” health, regardless of whose standard is being applied. See [[lorelog/LLG-0323-LC04|LLG-0323-LC04]]. 
 
 ### Adjacent Custodians
 
 Assurance Optics does not operate alone. It often cohabits with:
 
-- the Beltline Purity Office and BX-6 Greybelt Remediator, which treat target lines and variance bands as the primary objects of care;
-- the Lodge of Mutual Exception and LX-2 Waiver Apron, which wrap gaps in hereditary precedent rather than exposing them;
-- MA-LCGU Porter, who reclassifies hard-to-remove artifacts as historical context instead of clutter;
-- AC-11 Sealloop Auditor, whose additional seals certify that the resulting frame now looks appropriately overseen.
+- the [[haikus/HAI-LLG-0340-BPO|Beltline Purity Office]] and [[limericks/LIM-BX-0006-GREYBELT-REMEDIATOR|BX-6 Greybelt Remediator]], which treat target lines and variance bands as the primary objects of care;
+- the [[haikus/HAI-LLG-0341-LME|Lodge of Mutual Exception]] and [[limericks/LIM-LX-0002-WAIVER-APRON|LX-2 Waiver Apron]], which wrap gaps in hereditary precedent rather than exposing them;
+- [[limericks/LIM-0131|MA-LCGU Porter]], who reclassifies hard-to-remove artifacts as historical context instead of clutter;
+- [[limericks/LIM-AC-0011-SEALLOOP-AUDITOR|AC-11 Sealloop Auditor]], whose additional seals certify that the resulting frame now looks appropriately overseen.
 
 Where these figures cluster, remediation is more likely to be applied to charts, waivers, and optics than to the structures that generated the trouble.
 
 ## Sufficiency and Seal Stack
 
 - **LC-04 Soft Green Seal** marks archival comfort a record that people once felt able to stop arguing, without asserting that the state was good.
-- **Seal of Maybe Enough** stamps provisional sufficiency, granting the narrow authority to proceed while openly preserving doubt.
-- **CE-5 Countersign Aggregate** records that many names have accumulated, not that authority aligned.
+- **[[limericks/LIM-0192|Seal of Maybe Enough]]** stamps provisional sufficiency, granting the narrow authority to proceed while openly preserving doubt.
+- **[[limericks/LIM-CE-0005-COUNTERSIGN-AGGREGATE|CE-5 Countersign Aggregate]]** records that many names have accumulated, not that authority aligned.
 - **AC-11 Sealloop Auditor** supervises the seals themselves, ensuring recognition continues without closing any question.
 
 **Doctrine Note** Comfort, sufficiency, endorsement, and recognition must not be collapsed. A sealed packet may be calm, barely adequate, densely countersigned, and endlessly audited at once.

@@ -59,7 +59,7 @@ This document exists to prevent buffer overflow and loss of structure.
 
 **Use:**
 
-- Base layer for Filed & Forgotten voice
+- Base layer for [[index|Filed & Forgotten]] voice
 - Pre-degradation narrative skeleton
 
 ---
@@ -154,7 +154,7 @@ Feed artifacts into mascots as:
 - failed interpretations
 
 **Constraint:**
-Mascots must **not interpret creatively**
+[[mascots|Mascots]] must **not interpret creatively**
 They must **misclassify consistently**
 
 ---

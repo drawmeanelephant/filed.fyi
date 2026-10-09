@@ -15,7 +15,7 @@ This document defines Low-Confidence Objects, or LCOs: artifacts that are widely
 An LCO is not merely vague.
 It is institutionally active despite insufficient semantic agreement.
 
-Empathegy classifies these objects because the archive repeatedly encounters things that cannot be fully defined but cannot be treated as decorative either.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] classifies these objects because the archive repeatedly encounters things that cannot be fully defined but cannot be treated as decorative either.
 
 ---
 

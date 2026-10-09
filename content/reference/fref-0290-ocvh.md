@@ -72,7 +72,7 @@ Over‑coherence interacts with existing layers as follows:
 
   and no one remembers a hard conversation about who paid or who left, the Desk may classify the record as **courtesy-saturated** and flag it for Over‑Coherence review.
 
-- **Civic Benevolence Handling Notes (CBHN / CMADN)**  
+- **[[limericks/LIM-FREF-0210-CBHN|Civic Benevolence Handling Notes]] (CBHN / CMADN)**  
   Cases where:
   - applause cleanly becomes authorization,  
   - honorary and memorial presence stabilize quorum without dispute,  
@@ -80,12 +80,12 @@ Over‑coherence interacts with existing layers as follows:
 
   are to be logged as possible Over‑Coherence events, not as model practice.
 
-- **Empathegy / Metrics of Care**  
-  When care metrics, gratitude traces, and Empathegy bands all register success without corresponding mitigation or burden shift, the condition is to be read as Proxy Compassion plus Over‑Coherence.
+- **[[haikus/HAI-LLG-0811-EG|Empathegy]] / Metrics of Care**  
+  When care metrics, gratitude traces, and Empathegy bands all register success without corresponding mitigation or burden shift, the condition is to be read as [[limericks/LIM-FREF-0750-PXCM|Proxy Compassion]] plus Over‑Coherence.
 
 ## Teaching Specimens
 
-One recurring specimen is the Adorable Archive mascot poster: a brightly colored summary that presents AV-14 Nullseal Register, CE-5 Countersign Aggregate, MA-LCGU Porter, AC-11 Sealloop Auditor, LX-2 Waiver Apron, BX-6 Greybelt Remediator, and the Soft Green Seal as friendly characters. The conditions behind them remain contradictory and unresolved; the poster removes the dread, keeps the names, and thereby qualifies as a textbook over-coherent derivative.
+One recurring specimen is the Adorable Archive mascot poster: a brightly colored summary that presents [[limericks/LIM-AV-0014-NULLSEAL-REGISTER|AV-14 Nullseal Register]], [[limericks/LIM-CE-0005-COUNTERSIGN-AGGREGATE|CE-5 Countersign Aggregate]], [[limericks/LIM-0131|MA-LCGU Porter]], [[limericks/LIM-AC-0011-SEALLOOP-AUDITOR|AC-11 Sealloop Auditor]], [[limericks/LIM-LX-0002-WAIVER-APRON|LX-2 Waiver Apron]], [[limericks/LIM-BX-0006-GREYBELT-REMEDIATOR|BX-6 Greybelt Remediator]], and the [[aphorisms/APH-LLG-0323-LC04|Soft Green Seal]] as friendly characters. The conditions behind them remain contradictory and unresolved; the poster removes the dread, keeps the names, and thereby qualifies as a textbook over-coherent derivative.
 
 Limerick sets such as LLG-TDCIP-OVERCOH and the COMA-07/COMA-19 cycles are considered canonical witnesses. Any diagram, sticker sheet, or mascot field guide that presents their content without preserving the contradictions they describe is cataloged here as an over-coherence condition.
 

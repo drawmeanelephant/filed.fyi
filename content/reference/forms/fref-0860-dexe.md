@@ -50,7 +50,7 @@ Deferred Execution often enters managed absence when institutions prefer to gove
 
 ## Mascot witness
 
-RoboShirker is the archive's preferred witness for this condition when the withdrawal has become visible enough to require a face.
+[[limericks/LIM-0185|RoboShirker]] is the archive's preferred witness for this condition when the withdrawal has become visible enough to require a face.
 
 ## Related Aphorisms
 

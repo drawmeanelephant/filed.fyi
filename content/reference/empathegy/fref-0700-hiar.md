@@ -47,7 +47,7 @@ For this reason, interval health should never be inferred from surface reassuran
 
 ## What Counts as an Interval
 
-Within Empathegy, an interval may include:
+Within [[haikus/HAI-LLG-0811-EG|Empathegy]], an interval may include:
 
 - a green dashboard band,
 - a no-incident reporting window,
@@ -71,7 +71,7 @@ A mark whose healthy effect is carried mainly by appearance.
 
 **Examples:**
 - green shading,
-- LC-04 Soft Green Seal,
+- [[limericks/LIM-LC-0004-SOFT-GREEN-SEAL|LC-04 Soft Green Seal]],
 - healthy interval badge,
 - calm continuity band,
 - reassuring completion icon,
@@ -150,8 +150,8 @@ They only know that the interval will be questioned if the artifact is absent.
 
 Healthy Interval Artifacts most often emerge from:
 
-- Assurance Optics passes,
-- Assurance Vocabulary Annex substitutions,
+- [[limericks/LIM-FREF-0070-AOPT|Assurance Optics]] passes,
+- [[limericks/LIM-LLG-0327-AVA|Assurance Vocabulary Annex]] substitutions,
 - green-band rendering logic,
 - support coverage dashboards,
 - metrics-of-care overlays,
@@ -175,7 +175,7 @@ Low-confidence objects like LC-22 Statement of Self-Esteem for Backups and LC-04
 
 ### Quiet Success Language
 
-Phrases such as healthy continuity, silence OK, attended stability, or favorable quiet interval can convert low visible incident density into a positive moral or operational reading even where SOMA, witness notes, or Lorelog margins preserve burden-positive interpretations of the same span .
+Phrases such as healthy continuity, silence OK, attended stability, or favorable quiet interval can convert low visible incident density into a positive moral or operational reading even where SOMA, witness notes, or [[lorelog|Lorelog]] margins preserve burden-positive interpretations of the same span .
 
 ### Coverage-Derived Health
 
@@ -298,7 +298,7 @@ Green bands are among the fastest and most persuasive healthy interval artifacts
 
 ### With Assurance Artifacts
 
-Healthy Interval Artifacts are a specialized subclass of Assurance Artifacts whose object of persuasion is temporal rather than event-specific. They make spans of time look calmer, kinder, or more complete than direct evidence alone can guarantee .
+Healthy Interval Artifacts are a specialized subclass of [[limericks/LIM-FREF-0560-ASAR|Assurance Artifacts]] whose object of persuasion is temporal rather than event-specific. They make spans of time look calmer, kinder, or more complete than direct evidence alone can guarantee .
 
 ### With Symbolic Completion
 

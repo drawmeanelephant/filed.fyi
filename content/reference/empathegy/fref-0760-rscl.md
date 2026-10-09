@@ -248,7 +248,7 @@ These questions determine whether the event was local embarrassment or systemic 
 
 Reassurance Collapse is what happens when the distance between the chart and the room becomes too expensive to maintain politely.
 
-Empathegy does not treat that moment as a misunderstanding.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] does not treat that moment as a misunderstanding.
 It treats it as contact.
 
 ## Related Aphorisms

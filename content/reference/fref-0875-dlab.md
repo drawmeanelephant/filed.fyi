@@ -209,7 +209,7 @@ Dead Labor frequently overlaps with:
 - Metrics of Care and listening-board patterns, when acknowledgment survives without usable relief,
 - queue theatre clusters, where delay, status movement, and public patience are staged as evidence that labor still lives.
 
-Where the surviving surface is primarily the queue and its dramaturgy, route outward to Queue Theatre. Where the deeper condition is that work remains behaviorally required after its living basis has decayed, Dead Labor governs.
+Where the surviving surface is primarily the queue and its dramaturgy, route outward to [[limericks/LIM-FREF-0870-QTHR|Queue Theatre]]. Where the deeper condition is that work remains behaviorally required after its living basis has decayed, Dead Labor governs.
 
 ---
 

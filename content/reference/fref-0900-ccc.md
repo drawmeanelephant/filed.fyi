@@ -83,7 +83,7 @@ The table records where the pattern was observed in the cohort. It is not a clai
 
 ## Known Limitations
 
-- The archive's evidence is the cited cohort: one survey, one bridge, eleven mascots, and the prior Empathegy records. Counts, rates, and vendor-specific claims that appeared in the cohort were not retained with durable provenance; this doctrine does not depend on them.
+- The archive's evidence is the cited cohort: one survey, one bridge, eleven mascots, and the prior [[haikus/HAI-LLG-0811-EG|Empathegy]] records. Counts, rates, and vendor-specific claims that appeared in the cohort were not retained with durable provenance; this doctrine does not depend on them.
 - Curve-coherence is a formal pattern. Whether any given metric system exhibits it, and how severely, must be determined per record.
 - The original draft described a total economic metabolism under the name "Curve-Coherence Capitalism." This doctrine does not assert one. The pattern is narrower: proxy stability displacing referent condition, and behavior adapting to the proxy.
 

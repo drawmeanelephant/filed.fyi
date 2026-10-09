@@ -12,30 +12,30 @@ Mascot Containment & Breeding documents the procedures, failures, and administra
 
 ## Start here
 
-- [Breeding Program Governance Vacuum, Council Memorandum](../lorelog/LLG-0376-BREED-GOV.md)
-- [Parvovirus-P](../mascots/061.parvovirus-p.md)
-- [Synthetic Affect & Successor Suite — Training Echo Layer](../reference/fref-0360-sast.md)
+- [[lorelog/LLG-0376-BREED-GOV|Breeding Program Governance Vacuum, Council Memorandum]]
+- [[mascots/M-0061|Parvovirus-P]]
+- [[reference/FREF-0360-SAST|Synthetic Affect & Successor Suite — Training Echo Layer]]
 
 ## Incidents
 
 - [Breeding Program Governance Vacuum, Council Memorandum](../lorelog/LLG-0376-BREED-GOV.md)
-- [Breeding Program Registration Anomaly, Human-Origin Record](../lorelog/LLG-0375-BREED.md)
-- [Form Template Drift — Legacy Fields Treated as Undocumented Obligations](../lorelog/LLG-0322-FTD.md)
+- [[lorelog/LLG-0375-BREED|Breeding Program Registration Anomaly, Human-Origin Record]]
+- [[lorelog/LLG-0322-FTD|Form Template Drift — Legacy Fields Treated as Undocumented Obligations]]
 
 ## Mascot witnesses
 
 - [Parvovirus-P](../mascots/061.parvovirus-p.md)
-- [Attestation Mole](../mascots/248.attestation-mole.md)
-- [OG Kushkeeper](../mascots/208.og-kushkeeper.md)
+- [[mascots/M-0248|Attestation Mole]]
+- [[mascots/M-0208|OG Kushkeeper]]
 
 ## Governing references
 
 - [Synthetic Affect & Successor Suite — Training Echo Layer](../reference/fref-0360-sast.md)
-- [Artifact Provenance Under Repeated Ceremonial Use](../reference/fref-0570-apcr.md)
-- [Secondary Legitimacy and Refuge Handling Notes](../reference/fref-0190-slhr.md)
+- [[reference/FREF-0570-APCR|Artifact Provenance Under Repeated Ceremonial Use]]
+- [[reference/FREF-0190-SLHR|Secondary Legitimacy and Refuge Handling Notes]]
 
 ## Further filings
 
-- [Haiku: Breeding Governance](../haikus/hai-llg-0376-breed-gov.md)
-- [Limerick: Breeding Program Registration Anomaly](../limericks/LIM-LLG-0375-BREED.md)
-- [Haiku: Parvovirus-P](../haikus/hai-061-parvovirus-p.md)
+- [[haikus/HAI-LLG-0376-BREED-GOV|Haiku: Breeding Governance]]
+- [[limericks/LIM-LLG-0375-BREED|Limerick: Breeding Program Registration Anomaly]]
+- [[haikus/HAI-0061|Haiku: Parvovirus-P]]

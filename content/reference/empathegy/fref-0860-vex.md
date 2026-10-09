@@ -280,7 +280,7 @@ Suppression reduces intake; exclusion reduces survival after intake.
 
 Visibility Exclusion is what happens when the system mistakes rememberability for importance.
 
-Empathegy records exclusion as an artifact of the surface, not a verdict on the state.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] records exclusion as an artifact of the surface, not a verdict on the state.
 
 ## Related Aphorisms
 

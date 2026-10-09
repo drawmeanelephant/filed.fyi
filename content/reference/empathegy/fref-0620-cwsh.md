@@ -270,7 +270,7 @@ Disallowed phrases:
 
 Continuity Worship begins when a dashboard stops describing the institution and starts teaching it what holiness looks like.
 
-Empathegy records the prayer and the price.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] records the prayer and the price.
 
 ## Related Aphorisms
 
