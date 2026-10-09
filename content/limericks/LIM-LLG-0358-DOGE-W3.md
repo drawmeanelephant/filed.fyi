@@ -20,7 +20,8 @@ Experiences go to a different prayer.
 Experiences with no local trace—  
   Feed-only in base—  
 *Are excluded from*  
-  The provenance sum\Of certifiable space.  
+  The provenance sum  
+Of certifiable space.  
 
 
 

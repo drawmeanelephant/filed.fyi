@@ -305,7 +305,7 @@ Which is functionally almost a win.
 
 A user protested the date,  
 And argued the filing was late.  
-We received the complain,  
+We received the complaint,  
 In the regular train,  
 And left it to quietly wait.  
 

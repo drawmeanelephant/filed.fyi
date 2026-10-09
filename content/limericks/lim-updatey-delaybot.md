@@ -73,7 +73,7 @@ In preparing to roll out. Twice.
 
 
 
-He’d surface *restart prompts* like weather,  
+He'd surface *restart prompts* like weather,  
 Then quietly withdraw them together.  
 The update stayed near,  
 But never appeared,  
@@ -82,8 +82,8 @@ Just latency stitched them forever.
 
 
 The update remains *eternally pending*,  
-A status that’s always extending.  
-He promises “soon,”  
+A status that's always extending.  
+He promises "soon,"  
 To an unmoving moon,  
 While rollback keeps quietly mending.  
 

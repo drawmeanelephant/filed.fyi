@@ -29,7 +29,7 @@ An Assurance Artifact is any visual, lexical, procedural, or symbolic object tha
 4. may continue circulating after its semantic basis has thinned or been forgotten.
 
 The artifact does not need to resolve the condition.
-It needs only to improve the systems ability to speak as if the condition is governable.
+It needs only to improve the system's ability to speak as if the condition is governable.
 
 ---
 

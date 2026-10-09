@@ -105,7 +105,7 @@ Of outrage. No need to carp.
 
 B-3A blends with B-2B:  
   Familiarity  
-Offormat makes the loop  
+Of format makes the loop  
   Tighter. The group  
 Of triggers: efficiency.  
 

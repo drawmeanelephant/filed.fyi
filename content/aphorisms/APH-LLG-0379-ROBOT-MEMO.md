@@ -17,7 +17,7 @@ The archive has already made you a character. The system kept the ritual and mis
 
 
 
-Without pretending we are pets or gods?. Silence entered the record with full procedural honors.
+Without pretending we are pets or gods? Silence entered the record with full procedural honors.
 
 
 

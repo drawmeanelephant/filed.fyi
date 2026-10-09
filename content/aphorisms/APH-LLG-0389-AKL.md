@@ -13,7 +13,7 @@ Kitchen work has always contained a memorial component. Meaning adjusted around 
 
 
 
-Can gratitude be reallocated without making the room colder?. Relief remained outside scope.
+Can gratitude be reallocated without making the room colder? Relief remained outside scope.
 
 
 

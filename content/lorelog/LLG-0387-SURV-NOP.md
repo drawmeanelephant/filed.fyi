@@ -33,7 +33,7 @@ Competence was inferred from record order, meeting posture, and the mature handl
 
 
 
-Has certification become confidence in the handling of proof rather than confidence in the underlying work?. Relevance expired before processing resumed.
+Has certification become confidence in the handling of proof rather than confidence in the underlying work? Relevance expired before processing resumed.
 
 
 

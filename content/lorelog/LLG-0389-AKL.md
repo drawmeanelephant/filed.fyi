@@ -20,6 +20,7 @@ This created a secondary economy of benevolence credit:
 The reviewing table declined immediate correction on the grounds that kitchen work has always contained a memorial component. A note was added clarifying that ceremonial contribution should not be used as the sole basis for reimbursement, though several halls continue doing so because the distinction feels impolite.
 
 Resolution remains pending while the chapters decide **whether gratitude can be reallocated without making the room colder.**
+
 ---
 
 ## Related Aphorisms
@@ -31,7 +32,7 @@ Kitchen work has always contained a memorial component. Meaning adjusted around 
 
 
 
-Can gratitude be reallocated without making the room colder?. Relief remained outside scope.
+Can gratitude be reallocated without making the room colder? Relief remained outside scope.
 
 
 

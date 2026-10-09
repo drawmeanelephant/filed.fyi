@@ -103,7 +103,7 @@ Disallowed phrasing includes:
 
 The organization may continue to rely on continuity theatre where necessary.
 
-The Registers purpose is not to stop that reliance.
+The Register's purpose is not to stop that reliance.
 It is to **prevent the archive from forgetting that reliance was there**.
 
 ## Related Aphorisms

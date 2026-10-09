@@ -13,7 +13,7 @@ A confession disguised as a *checklist*. Relief remained outside scope.
 
 
 
-Can incompatible systems be fused without generating a mascot?. Relevance expired before processing resumed.
+Can incompatible systems be fused without generating a mascot? Relevance expired before processing resumed.
 
 
 

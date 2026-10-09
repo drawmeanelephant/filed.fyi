@@ -20,6 +20,7 @@ Minutes from the meeting now preserve three competing interpretations:
 No ballot was finalized that night.
 
 The appeal remains active because every proposed clarification sounds either needlessly cruel or quietly opportunistic, and **no one wants to be recorded as the person who told the absent they had finally become administratively irrelevant.**
+
 ---
 
 ## Related Aphorisms
