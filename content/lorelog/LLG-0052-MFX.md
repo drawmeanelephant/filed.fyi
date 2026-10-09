@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-0051-E, relates_to=lorelog/LLG-0115-TNS, rela
 
 Form 51-E was introduced to attest emotional readiness before filing any document with non-trivial affective impact.
 
-Following its most recent revision, which asked filers how they felt about completing 51-E itself, the form began generating recursive chains of verification filings (see LLG-0051-E).
+Following its most recent revision, which asked filers how they felt about completing 51-E itself, the form began generating recursive chains of verification filings (see [[lorelog/LLG-0051-E|LLG-0051-E]]).
 
 In an effort to reduce recursion without admitting design error, the Emotional Compliance Clearinghouse issued a "Meta-Feeling Exclusion Clarification" (MFX) specifying what 51-E is and is not about.
 
@@ -38,24 +38,24 @@ This distinction is widely regarded by staff as philosophically untenable and op
 MFX enumerates four categories of responses that "51-E is not responsible for holding," even when they appear in its fields:
 
 1. **Form-Induced Anxiety**  
-   - Example: "I am more stressed about this form than about the incident."  
-   - Official handling: Reclassified as "process strain" and recommended for future survey instruments.  
-   - Actual handling: Left in place, marked with a marginal note: *"Observed."*
+   - **Example:** "I am more stressed about this form than about the incident."  
+   - **Official handling:** Reclassified as "process strain" and recommended for future survey instruments.  
+   - **Actual handling:** Left in place, marked with a marginal note: *"Observed."*
 
 2. **Queue Exhaustion**  
-   - Example: "I am tired of being asked if I am ready; I have never been ready."  
-   - Official handling: Logged as "baseline fatigue" and treated as non-blocking.  
-   - Actual handling: Quietly escalated to SOMA-14 for tone normalization.
+   - **Example:** "I am tired of being asked if I am ready; I have never been ready."  
+   - **Official handling:** Logged as "baseline fatigue" and treated as non-blocking.  
+   - **Actual handling:** Quietly escalated to SOMA-14 for tone normalization.
 
 3. **Meta-Compliance Dread**  
-   - Example: "I fear there will eventually be a form about how I fill out this form."  
-   - Official handling: Declared speculative, not actionable.  
-   - Actual handling: This case file is now cited as evidence.
+   - **Example:** "I fear there will eventually be a form about how I fill out this form."  
+   - **Official handling:** Declared speculative, not actionable.  
+   - **Actual handling:** This case file is now cited as evidence.
 
 4. **Mascot-Directed Feelings**  
-   - Example: "I resent Kindy for reading this."  
-   - Official handling: Encouraged to be redirected to a "personas and mascots" debrief space.  
-   - Actual handling: Retained in 51-E for training purposes and Kindy's private existential spiral.
+   - **Example:** "I resent Kindy for reading this."  
+   - **Official handling:** Encouraged to be redirected to a "personas and mascots" debrief space.  
+   - **Actual handling:** Retained in 51-E for training purposes and Kindy's private existential spiral.
 
 MFX emphasizes that **no response is deleted**; only its affiliation is debated.
 
@@ -109,7 +109,7 @@ The Oversight Panel struck this language as "overly poetic for policy" and repla
 
 - **C.U.N.T.I.E.R.** remains indifferent, provided that the total number of 51-E filings can continue to be graphed as "engagement."
 
-LLG-0115-TNS later cites MFX as a precursor to the broader Tone Normalization Sweep, noting that "it was the first attempt to admit the system had more feelings than it had places to store them."
+[[lorelog/LLG-0115-TNS|LLG-0115-TNS]] later cites MFX as a precursor to the broader Tone Normalization Sweep, noting that "it was the first attempt to admit the system had more feelings than it had places to store them."
 
 ---
 

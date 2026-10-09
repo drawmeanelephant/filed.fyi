@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-0019-COMA, relates_to=lorelog/LLG-0072-SOMA, 
 
 Form COMA-19 exists to legitimize short, necessary periods of idleness without breaking the appearance of uninterrupted continuity.
 
-Following the Idle-Time Amnesty Overuse incident (LLG-0019-COMA), in which teams pre-filed COMA-19 across entire weeks "for safety," the Uptime Ethics Committee requested a tighter handle on what counted as valid justification.
+Following the Idle-Time Amnesty Overuse incident ([[lorelog/LLG-0019-COMA|LLG-0019-COMA]]), in which teams pre-filed COMA-19 across entire weeks "for safety," the Uptime Ethics Committee requested a tighter handle on what counted as valid justification.
 
 The Committee concluded that "most of the overuse was semantic" and commissioned a **Phrasebook Clarification (PBC)** to align rest language with COMA's continuity objectives.
 
@@ -50,7 +50,7 @@ In practice:
 
 This divergence is logged as evidence of robust governance, rather than misalignment.
 
-LLG-0072-SOMA notes that many periods are now "emotionally acknowledged, operationally denied" with phrasebook-compliant language attached.
+[[lorelog/LLG-0072-SOMA|LLG-0072-SOMA]] notes that many periods are now "emotionally acknowledged, operationally denied" with phrasebook-compliant language attached.
 
 ---
 
@@ -66,7 +66,7 @@ COMA interprets this as "successful alignment of language with desired narrative
 
 SOMA reports increased confusion among staff, who state privately that "we have never worked harder to sound like we are not pausing."
 
-The Tri-Directive Reconciliation Council cites PBC alongside LLG-0331-TPI as an example of "systems that preserve documentation of harm while removing its self-description."
+The Tri-Directive Reconciliation Council cites PBC alongside [[lorelog/LLG-0331-TPI|LLG-0331-TPI]] as an example of "systems that preserve documentation of harm while removing its self-description."
 
 ---
 
@@ -81,7 +81,7 @@ PBC is marked **resolved** on the grounds that:
 However:
 
 - SOMA-72 incidents citing "phrasebook fatigue" are on the rise.  
-- LLG-0334-CSI records at least one interval COMA certified as "healthy silence" that SOMA logged as "unprocessed strain."
+- [[lorelog/LLG-0334-CSI|LLG-0334-CSI]] records at least one interval COMA certified as "healthy silence" that SOMA logged as "unprocessed strain."
 
 The Lorelog Appeals Queue has accepted an appeal arguing that PBC constitutes "semantic cruelty."
 

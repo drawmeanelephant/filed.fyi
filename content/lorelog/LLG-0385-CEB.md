@@ -10,7 +10,7 @@ tags: ["lorelog", "bankruptcy", "committee-avoidance", "local-consensus", "witne
 
 ## Origins
 
-Form DS-404-ALPHA introduced the pattern: at least five endorsements, at least two real, attached to a merge that had already occurred. 
+Form [[lorelog/DS-0404-ALPHA|DS-404-ALPHA]] introduced the pattern: at least five endorsements, at least two real, attached to a merge that had already occurred. 
 
 **The Co-Existence Endorsement Bureau inherited this pattern and forgot the qualifier about reality.**
 
@@ -56,7 +56,7 @@ In several cases, YamTeams-style condensates formed in the interval between init
 
 ## Relationship to Emotional Appeals
 
-Where EFA-1 Emotional Filing Appeal allows staff to contest how filings felt, CEPs allow offices to retroactively attest that the outcome is acceptable. 
+Where [[lorelog/LLG-0223-EFA|EFA-1]] Emotional Filing Appeal allows staff to contest how filings felt, CEPs allow offices to retroactively attest that the outcome is acceptable. 
 
 Neither packet modifies the underlying integration.  
 Both are counted in metrics as signs of engagement.
