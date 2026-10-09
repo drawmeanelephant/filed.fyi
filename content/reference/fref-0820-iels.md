@@ -54,7 +54,7 @@ Disfavored phrases:
 
 ## Archive Position
 
-The institution may remain operationally truthful to itself without being interpretively complete in its primary surfaces. Explanation layers are the formal mechanism by which incompleteness becomes governable.
+The institution may remain operationally truthful to itself without being interpretively complete in its primary surfaces. Explanation layers are the formal mechanism by which **incompleteness becomes governable**.
 
 **Multi-layer boundary note:** FREF-0820-IELS governs the single-explanation
 case — one layer that is too smooth for the event it carries. Where multiple
