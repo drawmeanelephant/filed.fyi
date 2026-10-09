@@ -28,7 +28,7 @@ The guidance was introduced after a cluster of post-classification incidents in 
 - The feed made you feel this. 
 - Nothing actually happened. 
 
-The third prohibited phrase was removed not because it was always wrong, but because staff began using it where the record could not support that level of certainty. DOGE continues to prefer accuracy over reassurance, but has learned that avoidable damage at the counter produces worse evidence later. Bricky signed the guidance under protest and added a stamp reading CLARITY WITHOUT COLLISION, which is not currently an official stamp but is treated as one in practice.
+The third prohibited phrase was removed not because it was always wrong, but because staff began using it where the record could not support that level of certainty. DOGE continues to prefer **accuracy over reassurance**, but has learned that avoidable damage at the counter produces worse evidence later. Bricky signed the guidance under protest and added a stamp reading CLARITY WITHOUT COLLISION, which is not currently an official stamp but is treated as one in practice.
 
 ## Related Aphorisms
 

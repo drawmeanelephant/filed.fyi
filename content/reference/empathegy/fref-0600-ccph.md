@@ -23,7 +23,7 @@ Its purpose is to preserve enough meaning for routing while reducing the probabi
 
 Continuity-compatible phrasing is permitted only when it preserves routeable substance.
 
-If phrasing reduces volatility but also destroys the ability to identify burden, then it has crossed from translation into laundering.
+If phrasing reduces volatility but also destroys the ability to identify burden, then it has **crossed from translation into laundering**.
 
 Empathegy recognizes the distinction.
 It does not always prevent the crossing.
