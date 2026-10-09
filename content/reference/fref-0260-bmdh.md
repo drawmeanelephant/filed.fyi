@@ -239,17 +239,17 @@ It does:
 - choose what counts as “present,” “support,” and “service,”
 - decide which shortages may be filed as “dignified quiet,”
 - 
-:::note
+<Aside kind="note">
 
 **Archivist's Addendum**
 
 The original author of this document has been erased from the system registry.
 
-:::
-The printer is flashing a light.
-It has been doing this all night.
-The toner is full.
-The paper is dull.
+</Aside>
+The printer is flashing a light.  
+It has been doing this all night.  
+The toner is full.  
+The paper is dull.  
 The margin is set to the right.
 
 ## Related Aphorisms

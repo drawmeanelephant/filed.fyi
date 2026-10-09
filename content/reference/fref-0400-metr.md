@@ -85,13 +85,13 @@ Internal guidance reads:
 
 No enforcement mechanism ensures that the second clause is honored.
 
-:::note
+<Aside kind="note">
 
 **Archivist's Addendum**
 
 This file is a memorial to a system feature that never shipped.
 
-:::
+</Aside>
 A typo appeared in a text,
 The elders were deeply perplexed.
 The servers rebooted,

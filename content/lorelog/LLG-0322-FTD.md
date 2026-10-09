@@ -3,6 +3,7 @@ title: "Form Template Drift — Legacy Fields Treated as Undocumented Obligation
 id: lorelog/LLG-0322-FTD
 parent: lorelog
 status: published
+relations: [relates_to=lorelog/LLG-0324-MAP]
 tags: ["lorelog", "checklist-theatre", "policy-drift", "reviewer-expectations", "managed-absence", "failure-signature", "templates", "deprecated-fields", "residual-obligation"]
 ---
 

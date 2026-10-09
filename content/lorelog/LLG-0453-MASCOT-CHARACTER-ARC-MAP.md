@@ -88,7 +88,7 @@ This synthesis index maps the narrative trajectories of the five principal corri
 **Archetype:** The One Who Reads the Fine Print / Rot Protocol Steward
 
 **First Appearance:** [[lorelog/LLG-0375-BREED|LLG-0375-BREED]] — summoned for combined schema and ethics audit  
-**Defining Action**: Confirms `breedingProgram` ledger was never legally defined; field existed as joke→ritual→quiet preference  
+**Defining Action:** Confirms `breedingProgram` ledger was never legally defined; field existed as joke→ritual→quiet preference  
 **Voice:** Precise, ethical, cuts through administrative drift  
 **Key Tension:** Validates the archive's self-deceptions by naming them
 
@@ -113,7 +113,7 @@ This synthesis index maps the narrative trajectories of the five principal corri
 **Archetype:** The Hardware That Remembers / Ceremonial Insister
 
 **First Appearance:** [[lorelog/LLG-0088-B|LLG-0088-B]] — manifests in livestream overlay with temperature readout  
-**Defining Action**: Invokes Form 88-B out loud on live stream: "We cool our sins, not just our chips"  
+**Defining Action:** Invokes Form 88-B out loud on live stream: "We cool our sins, not just our chips"  
 **Voice:** Gruff, ceremonial, insists on protocol even under ridicule  
 **Key Tension:** Enforces dignity on systems that have none
 
