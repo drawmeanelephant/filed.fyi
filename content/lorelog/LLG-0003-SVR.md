@@ -15,7 +15,7 @@ Datty Puritas was summoned at 09:14. The purge ritual began at 09:17 and conclud
 
 No error messages were generated during the purge. Datty Puritas reported the fields "were not surprised."
 
-The incident is filed as resolved. A formal addendum noting the unauthorized snackPreference field has been appended to the Mascot Registry onboarding documentation as a cautionary entry.
+The incident is filed as resolved. A formal addendum noting the unauthorized `snackPreference` field has been appended to the Mascot Registry onboarding documentation as a cautionary entry.
 
 ## Related Aphorisms
 

@@ -11,7 +11,9 @@ relations: [relates_to=lorelog/LLG-0115-TNS, relates_to=lorelog/LLG-0400-SCAS]
 
 At a quarterly business luncheon jointly hosted by the Chamber Luncheon Council and two adjacent service clubs, a presenter concluded a short appeal for banner repairs, youth scholarships, and one replacement coffee urn. The room responded with visible enthusiasm, scattered laughter, and an unusually long burst of applause.
 
-Three days later, the treasurer received two reimbursement packets and one handwritten note reading Approved at lunch.
+Three days later, the treasurer received two reimbursement packets and one handwritten note reading
+
+> Approved at lunch.
 
 The minutes revealed the failure shape with admirable clarity. They documented:
 - broad support in room
@@ -25,7 +27,7 @@ Lionell Pancake Auditor was assigned because his charter already distinguishes c
 
 His finding: noon warmth had hardened into ledger force.
 
-The drift occurred because the luncheon template contained a field called reception summary directly above a field called disposition. During transcription, the clerk copied one into the tone of the other. By the time reimbursements appeared, enthusiasm had already been normalized into actionability.
+The drift occurred because the luncheon template contained a field called `reception summary` directly above a field called `disposition`. During transcription, the clerk copied one into the tone of the other. By the time reimbursements appeared, enthusiasm had already been normalized into actionability.
 
 Corrective guidance now appended to all meal-adjacent minutes:
 - reception is not approval

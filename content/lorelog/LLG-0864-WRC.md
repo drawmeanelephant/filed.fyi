@@ -132,7 +132,7 @@ then handled as a completion artifact rather than an open routing marker.
 
 ## Handling Guidance
 
-Per FREF-0635-WWLV:
+Per [[reference/FREF-0635-WWLV|FREF-0635-WWLV]]:
 
 1. Testimony preserved at receiving layer — confirmed.
 2. Operative layer and its authority class identified — confirmed.
@@ -145,7 +145,7 @@ Per FREF-0635-WWLV:
 ## Archive Position
 
 LLG-0864-WRC is filed to preserve one complete example of the routing
-architecture described in FREF-0635-WWLV.
+architecture described in [[reference/FREF-0635-WWLV|FREF-0635-WWLV]].
 
 LLG-0864-WRC is not preserved because the receiving layer failed.
 It is preserved because the receiving layer succeeded at everything
