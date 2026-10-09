@@ -34,7 +34,7 @@ The QA reviewer identified this at 4:58 PM on a Friday.
 Both deviations remain open pending receipt of a **CAPA** (Corrective and Preventive Action) for the form version control failure.  
 The CAPA form is Form CA-7.  
 Form CA-7 was last revised in 2019.  
-There is a Form CA-8.
+**There is a Form CA-8.**
 
 ## Related Aphorisms
 

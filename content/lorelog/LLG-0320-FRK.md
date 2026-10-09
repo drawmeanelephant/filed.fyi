@@ -14,7 +14,7 @@ Historically, each office had maintained its own private 32-A template and assum
 
 Once the duplication was surfaced, new filings for 32-A began randomly attaching one template or the other based on minor phrasing differences in the request text, resulting in several access changes being processed as self-assessments and several self-assessments being treated as binding permissions.
 
-Kindy proposed renumbering both forms and issuing Form 32-A-R ("Retroactive Intent Clarification") to all affected filers, but this would have required admitting that the registry had ever been uncertain, which COMA regarded as continuity-negative.
+Kindy proposed renumbering both forms and issuing Form 32-A-R ("Retroactive Intent Clarification") to all affected filers, but this would have required **admitting that the registry had ever been uncertain**, which COMA regarded as continuity-negative.
 
 
 Brickys Filing Notes

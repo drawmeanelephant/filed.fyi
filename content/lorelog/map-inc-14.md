@@ -19,7 +19,7 @@ Metrics exported to the C.U.N.T.I.E.R. layer recorded a 37% decrease in displaye
 
 > “Hygiene 7‑B confirms that once absence is classified, it is no longer obliged to end.”[^1]
 
-The incident remains open in narrative terms but is closed at every procedural layer that counts.
+**The incident remains open in narrative terms but is closed at every procedural layer that counts.**
 
 ## Related Aphorisms
 
