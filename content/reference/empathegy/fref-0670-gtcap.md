@@ -56,7 +56,7 @@ Institutions usually do not.
 
 Thanks expressed because social life requires some softness, regardless of outcome.
 
-Examples:
+**Examples:**
 - thank you for hearing me,
 - appreciate the response,
 - thanks for explaining,
@@ -68,7 +68,7 @@ Examples:
 
 Thanks expressed to reduce risk, preserve goodwill, or avoid seeming difficult while asking for help.
 
-Examples:
+**Examples:**
 - thank you in advance for any flexibility,
 - appreciate your understanding though none has yet been granted,
 - grateful for your time while preparing for refusal.
@@ -79,7 +79,7 @@ Examples:
 
 Appreciation amplified because actual support is rare.
 
-Examples:
+**Examples:**
 - strong gratitude for a minor concession,
 - outsized thanks for basic acknowledgment,
 - relief language triggered by a very low bar.
@@ -90,7 +90,7 @@ Examples:
 
 Thanks directed at an interface, ritual, office, or symbol because it is the nearest available surface for unmet need.
 
-Examples:
+**Examples:**
 - gratitude toward bots,
 - thank-you reactions on dashboards,
 - affection for reminder prompts,
@@ -102,7 +102,7 @@ Examples:
 
 Gratitude that has been ingested into score systems, summaries, or care narratives as proof that an intervention worked.
 
-Examples:
+**Examples:**
 - appreciation spike cited as support success,
 - thanks counted as care coverage,
 - warm reactions interpreted as mitigation completion,
@@ -241,10 +241,10 @@ When gratitude is present:
 4. distinguish appreciation for tone from appreciation for outcome,
 5. attach unresolved-condition notes where needed.
 
-Minimum note:
+**Minimum note:**
 “Gratitude present; support sufficiency not established.”
 
-Stronger note:
+**Stronger note:**
 “Appreciation may reflect courtesy, scarcity, or interpersonal regard rather than confirmed relief.”
 
 ---

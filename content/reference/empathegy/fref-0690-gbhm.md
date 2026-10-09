@@ -59,7 +59,7 @@ This is the least dramatic class and the rarest one worth celebrating confidentl
 
 The surface is technically accurate within its scope but ignores adjacent burden data.
 
-Examples:
+**Examples:**
 - uptime shown without exhaustion,
 - throughput without sustainability,
 - low incidents without low suppression.
@@ -70,7 +70,7 @@ Examples:
 
 The headline surface is green while annex, witness, or SOMA layers preserve an incompatible burden reading.
 
-Examples:
+**Examples:**
 - continuity success paired with SBI elevation,
 - silence OK paired with unprocessed strain,
 - acknowledged rest without interval.
@@ -81,7 +81,7 @@ Examples:
 
 The band was preserved through concealed burden absorption, self-silencing, or deferment of rest.
 
-Examples:
+**Examples:**
 - teams carrying load privately,
 - no-ticket weeks under pressure,
 - green quarters purchased with recovery debt.
@@ -92,7 +92,7 @@ Examples:
 
 The band is treated as morally self-justifying despite known interpretive limits.
 
-Examples:
+**Examples:**
 - green as virtue,
 - quiet as maturity,
 - calm graph as evidence that the institution was right.
@@ -188,10 +188,10 @@ When a green band is retained despite contradiction:
 4. mark the band as incomplete if it excludes known strain,
 5. preserve one plain-language account of what the band cost.
 
-Recommended note:
+**Recommended note:**
 “Green within scope; humane interpretation contested.”
 
-Stronger note:
+**Stronger note:**
 “Continuity surface retained. Annex material indicates burden incompatible with celebratory reading.”
 
 ---

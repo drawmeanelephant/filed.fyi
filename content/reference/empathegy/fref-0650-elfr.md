@@ -57,7 +57,7 @@ It means the need has **dressed for inspection**.
 
 The filer adapts to avoid rejection, penalty, embarrassment, or parser hostility.
 
-Examples:
+**Examples:**
 - removing care language,
 - using error-code style descriptions,
 - declining to sound distressed in continuity-facing channels.
@@ -68,7 +68,7 @@ Examples:
 
 The filer sends different tonal payloads to different layers of the same institution.
 
-Examples:
+**Examples:**
 - one sentence for feeling, one for approval,
 - annex candor plus dashboard-safe summary,
 - witness honesty paired with formal restraint.
@@ -79,7 +79,7 @@ Examples:
 
 The filer adopts recurring submission behaviors that satisfy inherited system expectations.
 
-Examples:
+**Examples:**
 - periodic low-level vent tickets,
 - gratitude notes after denial,
 - cosmetic check-ins,
@@ -91,7 +91,7 @@ Examples:
 
 The filer unknowingly mirrors tones or structures favored by sandbox residue, rehearsal language, or model-shaped best practices.
 
-Examples:
+**Examples:**
 - highly parser-compatible phrasing,
 - persona-like self-analysis,
 - “professional empathy” cadence suspiciously close to rehearsal copy.
@@ -102,7 +102,7 @@ Examples:
 
 Whole communities learn and transmit the institution’s preferred dialect as folk knowledge.
 
-Examples:
+**Examples:**
 - onboarding lore about how to ask,
 - “never say tired, say recalibration,”
 - inherited template language,
@@ -204,10 +204,10 @@ When an echo-literate filing is identified:
 4. distinguish strategic phrasing from false content,
 5. where possible, retain the adapted version and the underlying plain-language version.
 
-Minimum note:
+**Minimum note:**
 “Filing appears echo-literate; adaptation should not be read as insincerity.”
 
-Stronger note:
+**Stronger note:**
 “Submission reflects learned system fluency under asymmetric approval conditions.”
 
 ---
