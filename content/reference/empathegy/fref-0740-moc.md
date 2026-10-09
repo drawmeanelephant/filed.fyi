@@ -15,7 +15,7 @@ Metrics of Care exists to quantify how visibly the institution has behaved as th
 This is not identical to quantifying relief.
 The distinction is material and routinely compressed.
 
-Empathegy tracks care most reliably at the point where it leaves evidence.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] tracks care most reliably at the point where it leaves evidence.
 
 **Provenance.** This file is the current, mature doctrine for Metrics of Care. An earlier experimental framing — MCR as a family of care-attribution experiments that had not yet consolidated into a system — is preserved at [[reference/FREF-0400-METR|FREF-0400-METR]] (draft) and remains the record of that era. The two records are not simultaneous statements of one state: [[reference/FREF-0400-METR|FREF-0400-METR]] preserves the experimental era, this file defines current doctrine.
 
@@ -258,11 +258,11 @@ Empathegy therefore preserves Metrics of Care as necessary instruments whose str
 
 ## Family Note: Soft Green Cluster
 
-In the soft-green family, LC-04 seals archival comfort, Soft Green Sealie softens live surfaces, Greenband Gregor widens the band, and KPI Koala decides which calm view is allowed to stand for care. None of them are permitted to change underlying burden.
+In the soft-green family, LC-04 seals archival comfort, [[limericks/LIM-0206|Soft Green Sealie]] softens live surfaces, [[limericks/LIM-0102|Greenband Gregor]] widens the band, and [[limericks/LIM-0124|KPI Koala]] decides which calm view is allowed to stand for care. None of them are permitted to change underlying burden.
 
 ## Cluster Note: Metrics-to-Deck Triad
 
-Serotonin Sam, KPI Koala, and Slidey the Deckworm form the archive's small metrics-to-deck pipeline.
+[[limericks/LIM-0196|Serotonin Sam]], KPI Koala, and [[limericks/LIM-0204|Slidey the Deckworm]] form the archive's small metrics-to-deck pipeline.
 
 KPI Koala over-collects and stabilizes the accountable view. Serotonin Sam smooths strain into morale-compatible bands. Slidey carries the resulting charts into decks where reduced context begins circulating as evidence.
 

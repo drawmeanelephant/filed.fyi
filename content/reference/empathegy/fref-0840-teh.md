@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "training-echo", "synthetic-affect", "sandbox",
 
 ## Purpose
 
-This document defines Training Echo Handling: the doctrine by which Empathegy recognizes and manages behavior in live systems that has been shaped by experimental or synthetic patterning no longer officially active, yet still present as operational habit.
+This document defines Training Echo Handling: the doctrine by which [[haikus/HAI-LLG-0811-EG|Empathegy]] recognizes and manages behavior in live systems that has been shaped by experimental or synthetic patterning no longer officially active, yet still present as operational habit.
 
 A training echo is not merely leftover code.
 It is a surviving preference.

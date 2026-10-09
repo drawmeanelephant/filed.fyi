@@ -161,7 +161,7 @@ The archive indexes this doctrine through five recurring oppositions:
 - Resolution vs Distribution
 - Retired Obligation vs Renamed Persistence
 - Structural Correction vs Administrative Calm
-- Symbolic Completion vs Verified Change
+- [[limericks/LIM-FREF-0830-SYMC|Symbolic Completion]] vs Verified Change
 
 These oppositions should be preserved, not prematurely reconciled.
 

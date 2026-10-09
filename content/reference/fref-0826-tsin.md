@@ -18,14 +18,14 @@ The trust-surface cluster is filed as a narrow doctrine shelf for records concer
 - [[lorelog/LLG-0409-IEL|LLG-0409-IEL]] — explanation-layer handling for inherited evidence.
 - [[reference/FREF-0823-TSRT|FREF-0823-TSRT]] — doctrine for trust surface residual truth.
 - [[reference/FREF-0824-OVAA|FREF-0824-OVAA]] — overcoherence handling where explanation surfaces become too smooth for underlying evidence.
-- [[reference/FREF-0825-VHCN|FREF-0825-VHCN]] — candidacy note for Vantage Hollow.
+- [[reference/FREF-0825-VHCN|FREF-0825-VHCN]] — candidacy note for [[limericks/LIM-0237|Vantage Hollow]].
 - `938.vantage-hollow` — failure signature for visually current, evidentially thinned trust marks.
 - `v0.1.1-trust-surface-residue` — ceremonial archival state declaration.
 - `trust-records-after-proof-decay` — public-facing residue.
 
 ## Adjacent shelves
 
-This shelf should remain crosslinked to Assurance Optics, Managed Absence Spine, and selected adequacy-laundering mascots. Threshold met: multiple independent incidents now cite the cluster without direct dependence on [[lorelog/LLG-0408-DTS-DEP|LLG-0408-DTS-DEP]]. Continue indexing locally and resist taxonomy bloom.
+This shelf should remain crosslinked to [[limericks/LIM-FREF-0070-AOPT|Assurance Optics]], [[limericks/LIM-FREF-0815-MAP|Managed Absence Spine]], and selected adequacy-laundering mascots. Threshold met: multiple independent incidents now cite the cluster without direct dependence on [[lorelog/LLG-0408-DTS-DEP|LLG-0408-DTS-DEP]]. Continue indexing locally and resist taxonomy bloom.
 
 
 **Indexed, not elevated.** Use nearby and sparingly.

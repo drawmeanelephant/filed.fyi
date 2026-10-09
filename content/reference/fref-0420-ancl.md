@@ -23,13 +23,13 @@ ANC’s practical effects include:
 No system calls ANC directly.  
 Its influence is measured by how many seals are required to declare that a process is “appropriately overseen.”
 
-Operationally, the Collegium is most visible through AC-11 Sealloop Auditor: a mascotized inspection loop that responds to uncertainty not by revoking seals but by adding more of them. Each new audit concludes with another emblem, ensuring that the confidence stack grows denser even when the underlying process remains untouched.
+Operationally, the Collegium is most visible through [[limericks/LIM-AC-0011-SEALLOOP-AUDITOR|AC-11 Sealloop Auditor]]: a mascotized inspection loop that responds to uncertainty not by revoking seals but by adding more of them. Each new audit concludes with another emblem, ensuring that the confidence stack grows denser even when the underlying process remains untouched.
 
 This makes ANC a frequent source of ceremonial provenance. Authority appears to deepen because recognition has been repeated, layered, and visibly carried forward, even where the underlying object has not become more legible. See [[reference/FREF-0570-APCR|FREF-0570-APCR]] Artifact Provenance Under Repeated Ceremonial Use.
 
 ## Doctrine Fragments
 
-Lorelog mentions ANC only in passing, as:
+[[lorelog|Lorelog]] mentions ANC only in passing, as:
 
 - “the council above the council,” and
 - “the table where auditors are audited, but not for what they saw.” 

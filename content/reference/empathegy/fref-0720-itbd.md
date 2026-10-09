@@ -107,7 +107,7 @@ When interpretive uncertainty is high:
 Systems that tighten admissibility too aggressively do not reduce emotional variance.
 They reduce what counts as visible.
 
-Empathegy recognizes this as an acceptable governance risk, but not as a proof of care.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] recognizes this as an acceptable governance risk, but not as a proof of care.
 
 ## Related Aphorisms
 

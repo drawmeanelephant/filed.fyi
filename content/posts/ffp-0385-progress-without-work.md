@@ -18,7 +18,7 @@ People were still here, technically. So were the bots. So were the rituals that 
 
 We had built a layer that could **keep progress visible long after progress itself became intermittent**. Nobody called it lying. It was closer to atmospheric maintenance.
 
-Later, when the mascot file appeared, no one argued with the name. The room had already met RoboShirker several times. We just had not admitted that maintaining the feeling of underway had become one of our primary outputs.
+Later, when the mascot file appeared, no one argued with the name. The room had already met [[limericks/LIM-0185|RoboShirker]] several times. We just had not admitted that maintaining the feeling of underway had become one of our primary outputs.
 
 ## Related Aphorisms
 

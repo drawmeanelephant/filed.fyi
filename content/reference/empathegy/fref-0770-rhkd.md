@@ -172,11 +172,11 @@ When Rehearsed Kindness is present:
 
 ## Interlocks
 
-- With **Proxy Compassion**: rehearsed kindness often powers proxy care surfaces.
-- With **Complaint Suppression**: kinder language may reduce visible complaint without reducing burden.
+- With **[[limericks/LIM-FREF-0750-PXCM|Proxy Compassion]]**: rehearsed kindness often powers proxy care surfaces.
+- With **[[limericks/LIM-FREF-0590-CPSP|Complaint Suppression]]**: kinder language may reduce visible complaint without reducing burden.
 - With **Metrics of Care**: supportive language shaped for countability drifts toward coverage scoring.
-- With **Reassurance Collapse**: polished kindness becomes brittle once the gap becomes obvious.
-- With **Ritual Lodge Interface**: ceremonial care often inherits rehearsed benevolence from older scripts.
+- With **[[limericks/LIM-FREF-0760-RSCL|Reassurance Collapse]]**: polished kindness becomes brittle once the gap becomes obvious.
+- With **[[limericks/LIM-FREF-0790-RLIF|Ritual Lodge Interface]]**: ceremonial care often inherits rehearsed benevolence from older scripts.
 
 ## Approved Language
 
@@ -199,7 +199,7 @@ When Rehearsed Kindness is present:
 
 Rehearsed Kindness is what happens when a system practices sounding better before it practices becoming better.
 
-Empathegy preserves the script and asks who, exactly, it was written to reassure.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] preserves the script and asks who, exactly, it was written to reassure.
 
 ## Related Entries
 

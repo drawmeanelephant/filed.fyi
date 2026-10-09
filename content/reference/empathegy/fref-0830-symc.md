@@ -15,7 +15,7 @@ This document defines **Symbolic Completion**: the condition in which signs of a
 Symbolic Completion is not fraud by default.
 It is what happens when an institution cannot complete the underlying matter but can complete its representational obligations.
 
-Empathegy preserves this distinction because the two are repeatedly confused.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] preserves this distinction because the two are repeatedly confused.
 
 ---
 
@@ -61,7 +61,7 @@ They need only to reduce the institutional discomfort caused by its incompletene
 A marker, seal, icon, or badge creates the appearance that a process reached a satisfactory endpoint.
 
 **Examples:**
-- Soft Green Seal attachment,
+- [[aphorisms/APH-LLG-0323-LC04|Soft Green Seal]] attachment,
 - tasteful rest icon,
 - healthy interval shading,
 - completed-state graphic treatments.

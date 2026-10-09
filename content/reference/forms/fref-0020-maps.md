@@ -68,7 +68,7 @@ Used when the only evidence a form ever existed is that the archive refuses to s
 **Examples:**
 
 - Early consent scaffolding implied around Form 40‑C and 51‑E before their first docketed revisions.  
-- Deprecated forms that survive solely as `relatedEntries`, footnotes, or ritual props in DMAIC-RITE and Engagement Labyrinth.  
+- Deprecated forms that survive solely as `relatedEntries`, footnotes, or ritual props in DMAIC-RITE and [[aphorisms/APH-0047|Engagement Labyrinth]].  
 - Any form series referenced only in MAP annex tables and not in an active registry export.
 
 AAOA is the state most compatible with myth. It is also the state most likely to generate new paperwork later.
