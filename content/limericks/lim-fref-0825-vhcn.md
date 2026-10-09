@@ -69,4 +69,4 @@ The validation protocol expired,
 The primary node was retired.  
 The badge remains green,  
 On the user's screen,  
-No further action is required.
+**No further action is required.**

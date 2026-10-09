@@ -101,4 +101,4 @@ He turned away from the lossy,
 With disdain for anything glossy.  
 The alpha was pure,  
 The colors secure,  
-And his judgement was terribly bossy.
+**And his judgement was terribly bossy.**

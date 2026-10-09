@@ -41,7 +41,6 @@ Supported by infinite trust.
 
 
 
-
 The scaffolding carries the weight,  
 Of errors we failed to abate.  
 The ritual sweep,  

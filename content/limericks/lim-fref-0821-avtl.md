@@ -26,7 +26,7 @@ Means the task force must work through the night.
 
 
 A cover-up isn't the phrase,  
-It's an explanatory realignment maze.  
+**It's an explanatory realignment maze.**  
 We just altered the chart,  
 As a matter of art,  
 While the servers continue to blaze.  
