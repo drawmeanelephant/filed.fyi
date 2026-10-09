@@ -1,0 +1,19 @@
+---
+title: "Haikus: STAT Seam"
+id: haikus/HAI-SEAM-STAT
+parent: haikus
+status: archived
+tags: ["haikus", "religious-administration", "core-bound"]
+relations: [relates_to=mascots/M-0090]
+---
+
+# Haikus: STAT Seam
+
+**Core counterpart:** [[mascots/M-0090|Religious Administrative Seams]]
+
+## Haikus
+
+
+Act amends again  
+Same chair waits beneath the seal  
+State calls it procedure
