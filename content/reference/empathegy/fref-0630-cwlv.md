@@ -48,7 +48,7 @@ As a result, they become proficient at:
 **Routing boundary note:** Courtesy Without Leverage governs the *output* of
 this exchange — what the institution offers in tone, acknowledgment, and
 dignity. The routing condition that determines where testimony travels after
-it is received is governed separately by FREF-0635-WWLV (Witness Without
+it is received is governed separately by [[reference/FREF-0635-WWLV|FREF-0635-WWLV]] (Witness Without
 Leverage Handling Note). The distinction is whether the leverage gap is about
 what was *offered* (courtesy) or about where testimony *arrived* and why it
 could not propagate from there (custody). These two files are adjacent and
@@ -65,7 +65,7 @@ Their sincerity does not create leverage.
 
 The subject is thanked, heard, or gently addressed, but their conditions do not change.
 
-Examples:
+**Examples:**
 - we hear this is difficult,
 - thank you for naming the strain,
 - your experience matters here,
@@ -77,7 +77,7 @@ Examples:
 
 The institution confirms that the burden is real or admissible, but denies the interval, request, or remedy attached to it.
 
-Examples:
+**Examples:**
 - rest need validated, downtime denied,
 - exhaustion recognized, workload maintained,
 - concern affirmed, staffing unchanged.
@@ -88,7 +88,7 @@ Examples:
 
 A repeated gesture creates a feeling of care presence without equivalent material effect.
 
-Examples:
+**Examples:**
 - periodic check-ins,
 - reflection prompts,
 - acknowledgment badges,
@@ -101,7 +101,7 @@ Examples:
 
 The system preserves a beautiful or dignified record of the burden while declining to alter its conditions.
 
-Examples:
+**Examples:**
 - careful Lorelog notes,
 - annex preservation,
 - respectful witness statements,
@@ -113,7 +113,7 @@ Examples:
 
 Polite language is used to soften refusals, denials, or continuity-first decisions.
 
-Examples:
+**Examples:**
 - fulfilled in spirit,
 - under compassionate review,
 - continuity-sensitive support posture,
@@ -243,7 +243,7 @@ If the answer to Questions 2 through 4 is none, and Question 5 is no, the event 
 Witnessing can preserve dignity without creating leverage.
 
 ### With Witness Without Leverage
-FREF-0635-WWLV governs the specific custody condition in which testimony
+[[reference/FREF-0635-WWLV|FREF-0635-WWLV]] governs the specific custody condition in which testimony
 arrives at a layer that cannot escalate regardless of content or phrasing.
 When both conditions are active — the institution offered courtesy and the
 testimony never reached the action layer — file them separately. Courtesy
@@ -277,10 +277,10 @@ When courtesy is all the system can presently offer:
 4. do not let tone stand in for leverage,
 5. attach a follow-through status if any action is pending.
 
-Approved note:
+**Approved note:**
 “Courtesy provided; leverage unchanged.”
 
-Stronger note where needed:
+**Stronger note where needed:**
 “Acknowledgment improved dignity but did not alter burden conditions.”
 
 ---
