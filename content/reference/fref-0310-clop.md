@@ -78,7 +78,7 @@ Locally, these map to:
 - person who understands why people keep asking for charters.
 
 The letters remain on your nameplate.
-The authority does not arrive with them.
+**The authority does not arrive with them.**
 
 ---
 
