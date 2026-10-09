@@ -7,7 +7,7 @@ tags: ["changelog", "presentation-qa", "mascots"]
 
 # Presentation QA v3 B1 slice 03: Alt-text authored on 29 mascot records
 
-**Maintenance ID:** 0.1.00262.presentation-qa-v3-b1-03
+**Maintenance ID:** 0.1.00264.presentation-qa-v3-b1-03
 **Date:** 2026-10-09
 **Scope:** `content/mascots/` — issue #996 B1 slice 03 (29 records: `078`, `079`, `080`, `081`, `083`, `084`, `085`, `121`, `201`–`221`)
 
