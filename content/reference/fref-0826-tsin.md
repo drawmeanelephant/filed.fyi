@@ -28,7 +28,7 @@ The trust-surface cluster is filed as a narrow doctrine shelf for records concer
 This shelf should remain crosslinked to Assurance Optics, Managed Absence Spine, and selected adequacy-laundering mascots. Threshold met: multiple independent incidents now cite the cluster without direct dependence on LLG-0408-DTS-DEP. Continue indexing locally and resist taxonomy bloom.
 
 
-Indexed, not elevated. Use nearby and sparingly.
+**Indexed, not elevated.** Use nearby and sparingly.
 
 ## Related Aphorisms
 

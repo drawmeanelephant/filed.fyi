@@ -27,7 +27,7 @@ SCL is not empowered to:
 - correct continuity reports,
 - demand that any directive adopt its recommendations.
 
-Its product is testimony, not configuration.
+Its product is **testimony, not configuration**.
 
 ## Artifacts
 

@@ -15,7 +15,7 @@ This notice documents how wording adjustments shall coordinate with:
 - continuity dashboards.
 
 The goal is not to falsify conditions.
-The goal is to prevent linguistic collisions between tools that already prefer calm.
+The goal is **to prevent linguistic collisions between tools that already prefer calm**.
 
 ---
 

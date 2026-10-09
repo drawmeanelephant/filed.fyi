@@ -45,7 +45,7 @@ Dead labor should therefore be read as an obligation-survival condition. The vis
 
 A system belongs to Dead Labor when obligation remains behaviorally live after execution has become thin, delayed, displaced, ceremonial, or inferential.
 
-The key distinction is not whether some work still occurs. Some usually does. The question is whether the system’s ongoing claims now depend less on living capacity than on inherited expectation, queue persistence, and interpretive softening. Once that shift occurs, the institution is no longer operating on labor alone. It is operating on labor residue.
+The key distinction is not whether some work still occurs. Some usually does. The question is whether the system’s ongoing claims now depend less on living capacity than on inherited expectation, queue persistence, and interpretive softening. Once that shift occurs, the institution is no longer operating on labor alone. **It is operating on labor residue.**
 
 ---
 

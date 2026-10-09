@@ -149,7 +149,7 @@ Treatment:
 - If a drive underperforms but the banner stays up, BMD may treat the banner as a temporary proxy for success.
 
 Numeric truth is required to remain within touching distance of felt truth.
-Neither is required to lead.
+**Neither is required to lead.**
 
 ---
 

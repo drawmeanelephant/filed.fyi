@@ -15,7 +15,7 @@ This document defines Replacement Without Release: the condition in which a syst
 The new layer presents succession.
 The old condition continues as operating basis.
 
-The archive records this not as failed replacement, but as replacement whose obligation boundary never cleared.
+The archive records this not as failed replacement, but as **replacement whose obligation boundary never cleared**.
 
 ---
 
