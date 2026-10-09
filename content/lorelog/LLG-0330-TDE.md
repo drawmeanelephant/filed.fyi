@@ -8,7 +8,7 @@ tags: ["lorelog", "soma-directive", "coma-directive", "directive-conflict", "cla
 
 # Directive Evidence Cross-Entanglement
 
-Citation normalization caused continuity affirmations and mitigation statements to bleed into one another’s evidentiary channels whenever formatting symmetry exceeded interpretive tolerance, allowing incompatible directives to underwrite the same filing from mutually exclusive premises. The resulting contradiction was archived as concordance, establishing an operational posture in which support and enforcement remained separately legible, jointly admissible, and procedurally unreachable for reconciliation.
+Citation normalization caused continuity affirmations and mitigation statements to bleed into one another’s evidentiary channels whenever formatting symmetry exceeded interpretive tolerance, allowing incompatible directives to underwrite the same filing from mutually exclusive premises. The resulting contradiction was archived as concordance, establishing an operational posture in which support and enforcement remained **separately legible, jointly admissible, and procedurally unreachable for reconciliation**.
 
 ## Related Aphorisms
 

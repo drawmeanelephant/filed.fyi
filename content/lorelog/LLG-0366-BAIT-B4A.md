@@ -10,7 +10,7 @@ tags: ["lorelog", "bait", "ambient-threat", "notifications", "vigilance", "anger
 
 B-4A describes a BAIT condition in which a platform sustains user vigilance by ensuring that a topic never fully resolves, never fully disappears, and never provides enough novel information to justify the degree of checking it demands. Reviewers first noticed the pattern when filers described repeated returns to feeds using phrases like just checking, making sure, seeing if it got worse, and I didn’t want to be caught not knowing. 
 
-Unlike overt outrage objects, B-4A often presents internally as responsibility rather than activation. The filer may feel calm, dutiful, informed, or braced rather than obviously enraged. RAGE classification still applies when the underlying emotional architecture is one of maintained agitation held below the threshold of decisive action. BAIT achieves this by fragmenting updates into units too small to conclude anything and too suggestive to ignore. 
+Unlike overt outrage objects, B-4A often presents internally as responsibility rather than activation. The filer may feel calm, dutiful, informed, or braced rather than obviously enraged. RAGE classification still applies when the underlying emotional architecture is one of **maintained agitation held below the threshold of decisive action**. BAIT achieves this by fragmenting updates into units too small to conclude anything and too suggestive to ignore. 
 
 ---
 

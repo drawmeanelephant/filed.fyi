@@ -22,7 +22,7 @@ Bricky argued for a fourth definition: whatever period produces the cleanest evi
 - **Behavioral return model:** the time until the filer predictably reopens the feed, app, or dashboard where the experience first arrived. 
 - **Unprompted persistence model:** the first quiet interval in which no system is asking for attention and the experience still exerts structural force. 
 
-No model has been endorsed. All three appear in adjudication notes. DOGE has therefore achieved consistency of dispute without agreement of meaning, which Standards classifies as workable.
+No model has been endorsed. All three appear in adjudication notes. DOGE has therefore achieved **consistency of dispute without agreement of meaning**, which Standards classifies as workable.
 
 ## Related Aphorisms
 
