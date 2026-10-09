@@ -7,7 +7,7 @@ tags: ["changelog", "presentation-qa", "reference"]
 
 # Presentation QA v2 reference-09: 14 residue stubs reviewed, none changed
 
-**Maintenance ID:** 0.1.00248.presentation-qa-v2-reference-09
+**Maintenance ID:** 0.1.00250.presentation-qa-v2-reference-09
 **Date:** 2026-10-09
 **Scope:** `content/reference/` — issue #979 assignment (14 records, `fref-0903-rdad.md` through `fref-0916-qmba.md`, snapshot `1ce4635c`)
 
