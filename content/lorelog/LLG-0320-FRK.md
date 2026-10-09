@@ -8,13 +8,13 @@ tags: ["lorelog", "performance-theater", "cultural-staples", "peak-inaction", "i
 
 # Forms Registry Keyspace Collision — Duplicate Series Claim
 
-During a registry consolidation exercise, Form 32-A ("Routine Access Adjustment Request") and Form 32-A ("Directive Impact Self-Assessment") were both discovered to occupy the same series identifier in the central catalog.
+During a registry consolidation exercise, Form `32-A` ("Routine Access Adjustment Request") and Form `32-A` ("Directive Impact Self-Assessment") were both discovered to occupy the same series identifier in the central catalog.
 
-Historically, each office had maintained its own private 32-A template and assumed the number referred exclusively to its local meaning; the shared keyspace was only exposed when the auto-suggestion engine began recommending forms cross-departmentally.
+Historically, each office had maintained its own private `32-A` template and assumed the number referred exclusively to its local meaning; the shared keyspace was only exposed when the auto-suggestion engine began recommending forms cross-departmentally.
 
-Once the duplication was surfaced, new filings for 32-A began randomly attaching one template or the other based on minor phrasing differences in the request text, resulting in several access changes being processed as self-assessments and several self-assessments being treated as binding permissions.
+Once the duplication was surfaced, new filings for `32-A` began randomly attaching one template or the other based on minor phrasing differences in the request text, resulting in several access changes being processed as self-assessments and several self-assessments being treated as binding permissions.
 
-Kindy proposed renumbering both forms and issuing Form 32-A-R ("Retroactive Intent Clarification") to all affected filers, but this would have required **admitting that the registry had ever been uncertain**, which COMA regarded as continuity-negative.
+Kindy proposed renumbering both forms and issuing Form `32-A-R` ("Retroactive Intent Clarification") to all affected filers, but this would have required **admitting that the registry had ever been uncertain**, which COMA regarded as continuity-negative.
 
 
 Brickys Filing Notes
