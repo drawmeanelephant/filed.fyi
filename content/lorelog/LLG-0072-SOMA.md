@@ -19,7 +19,7 @@ Kindy verification workers attempted to reconcile the discrepancy by submitting 
 
 The initial appeal was referred to the Tri-Directive Reconciliation Council, which declined to issue a operational override, citing the filings as a live demonstration of co-equal directive parameters.
 
-Cross-reference LLG-0103-COMA and LLG-0300-SC-X for subsequent rulings regarding co-existing requirements for rest and continuity.
+Cross-reference [[lorelog/LLG-0103-COMA|LLG-0103-COMA]] and [[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]] for subsequent rulings regarding co-existing requirements for rest and continuity.
 
 ## Interpretive State Conflict
 
@@ -31,7 +31,7 @@ Dashboard captures from the initial filing window show systems rendering the sam
 - Monitoring panes recorded single intervals marked simultaneously as "REST APPROVED," "CONTINUITY BREACH," and "Awaiting Reassurance."  
 - Kindy verification staff noted the condition as "interpretively unstable," though neither directive contained logic to process instability as an error state.
 
-In subsequent administrative handling, later COMA guidance (LLG-0020-COMA19-PBC) retroactively reclassified the divergence as a phrase-normalization issue rather than an operational contradiction, establishing the precedent for "emotionally acknowledged, operationally denied" determinations.
+In subsequent administrative handling, later COMA guidance ([[lorelog/LLG-0020-COMA19-PBC|LLG-0020-COMA19-PBC]]) retroactively reclassified the divergence as a phrase-normalization issue rather than an operational contradiction, establishing the precedent for "emotionally acknowledged, operationally denied" determinations.
 
 ## Related Aphorisms
 
