@@ -73,7 +73,7 @@ This synthesis index maps the narrative trajectories of the five principal corri
 ### Arc Milestones {#404sy-arc-milestones}
 - **[[lorelog/LLG-0001-NAV|LLG-0001-NAV]]**: Anchor cache loops; three reroutes return identical void
 - **[[lorelog/LLG-0004-SMD|LLG-0004-SMD]]**: Sitemap drift — structurally valid paths, contextually wrong destinations
-- **[[lorelog/LLG-0052-MFX|LLG-0052-MFX]]**: Invited to "attempt a non-recursive path away from Form 51-E"; certifies no alternative destination exists
+- **[[lorelog/LLG-0052-MFX|LLG-0052-MFX]]**: Invited to "attempt a non-recursive path away from [[limericks/LIM-LLG-0051-E|Form 51-E]]"; certifies no alternative destination exists
 - **[[lorelog/LLG-0115-TNS|LLG-0115-TNS]]**: Cited as `mascotRef` for 404-AF (Lost-in-Transit Affect) pattern
 - **[[lorelog/LLG-0324-MAP|LLG-0324-MAP]]**: Managed Absence Protocol — governs forms that are neither present nor gone
 - **[[lorelog/LLG-0338-SBI|LLG-0338-SBI]]**: Silence Burden Index traces cited in SOMA transcript
@@ -113,7 +113,7 @@ This synthesis index maps the narrative trajectories of the five principal corri
 **Archetype:** The Hardware That Remembers / Ceremonial Insister
 
 **First Appearance:** [[lorelog/LLG-0088-B|LLG-0088-B]] — manifests in livestream overlay with temperature readout  
-**Defining Action:** Invokes Form 88-B out loud on live stream: "We cool our sins, not just our chips"  
+**Defining Action:** Invokes [[limericks/LIM-LLG-0088-B|Form 88-B]] out loud on live stream: "We cool our sins, not just our chips"  
 **Voice:** Gruff, ceremonial, insists on protocol even under ridicule  
 **Key Tension:** Enforces dignity on systems that have none
 

@@ -9,13 +9,13 @@ relations: [relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0019-COMA, 
 
 # Hygiene Cycle 7‑B: Brighten the Spine
 
-During Hygiene Cycle 7‑B, the Managed Absence Spine trialed a concentrated reduction of visible CAAR and AAOA counts without altering intake volume.[^1] The cycle is now treated as the canonical demonstration of how hygiene rites promote neglect into doctrine.
+During Hygiene Cycle 7‑B, the [[limericks/LIM-FREF-0815-MAP|Managed Absence Spine]] trialed a concentrated reduction of visible CAAR and AAOA counts without altering intake volume.[^1] The cycle is now treated as the canonical demonstration of how hygiene rites promote neglect into doctrine.
 
 - Eleven low-usage, low-distress templates were refiled from cataloged status to LCGU, converting them into local convention while removing them from spine-level counts.[^1]
 - Thirty-two AAOA entries were relabeled as “deferred presence (MAP-compatible variant)” and suppressed from summary dashboards, while retaining their identifiers in retention matrices.[^1]
 - Newly opened exceptions referencing deprecated series were redirected to CAAR with the standing note “ideal successor implied; no corrective action required.”[^1]
 
-Metrics exported to the C.U.N.T.I.E.R. layer recorded a 37% decrease in displayed absence and a 0% decrease in practical dependency on retired templates.[^1] Lorelog’s internal comment, later adopted as boilerplate, reads:
+Metrics exported to the C.U.N.T.I.E.R. layer recorded a 37% decrease in displayed absence and a 0% decrease in practical dependency on retired templates.[^1] [[lorelog|Lorelog]]’s internal comment, later adopted as boilerplate, reads:
 
 > “Hygiene 7‑B confirms that once absence is classified, it is no longer obliged to end.”[^1]
 

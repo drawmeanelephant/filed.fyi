@@ -52,7 +52,7 @@ This matters because the lane's openness generated downstream assumptions:
 - policy continued naming the lane as available support,
 - users learned that resubmission was not escalation but ritual.
 
-Queue Matron appears in witness notes from this interval, not as rate governance exactly, but as the posture by which panic is turned into orderly delay and then filed as maturity.
+[[limericks/LIM-0170|Queue Matron]] appears in witness notes from this interval, not as rate governance exactly, but as the posture by which panic is turned into orderly delay and then filed as maturity.
 
 ### Archive position
 

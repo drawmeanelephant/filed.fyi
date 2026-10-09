@@ -84,7 +84,7 @@ The event introduced several risks now treated as recurring:
 - moral comfort increasing while structural response remains flat,
 - careful filing becoming a substitute for difficult leadership.
 
-Annex Hush and Appendix Silk are regularly cited in later commentary around this pattern, though the event predates some of their clearer canonization.
+[[limericks/LIM-0027|Annex Hush]] and [[limericks/LIM-0033|Appendix Silk]] are regularly cited in later commentary around this pattern, though the event predates some of their clearer canonization.
 
 ## Handling Guidance
 

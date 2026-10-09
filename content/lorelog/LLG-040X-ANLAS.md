@@ -100,7 +100,7 @@ The external story—“remove Unsanity software, problem solved”—became int
 
 The incident triggered several governance reflexes later codified elsewhere:
 
-- **Managed Absence Protocol (MAP) precursor**  
+- **[[limericks/LIM-LLG-0324-MAP|Managed Absence Protocol]] (MAP) precursor**  
   - APE’s removal left dangling references in driver stacks and expectations in user habits.  
   - Rather than fully re‑document the behavior, the system marked these as a kind of **governed absence**—features that “used to work” but now lived only in lore.
 

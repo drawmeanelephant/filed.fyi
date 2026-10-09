@@ -97,7 +97,7 @@ In each case, the attempt to mark off a non-interpretive layer merely provides d
 
 ## 8. Coexistence with Mascot Affairs Cluster
 
-CIWG-8C’s deployment log acknowledges that Bin 8C’s anomalies are not confined to abstract metrics but are entangled with the **Mascot Affairs cluster**. Peppy Clerk continuity documents, including Condition Log 7 and the 4C notices, remain present in the bin and continue to exhibit behavior consistent with IIE: entries adjust themselves to later policy language, appendices migrate, and routing slips such as `PPC-9` import metrics from partially related mascot records.  
+CIWG-8C’s deployment log acknowledges that Bin 8C’s anomalies are not confined to abstract metrics but are entangled with the **Mascot Affairs cluster**. [[aphorisms/APH-0325|Peppy Clerk]] continuity documents, including Condition Log 7 and the 4C notices, remain present in the bin and continue to exhibit behavior consistent with IIE: entries adjust themselves to later policy language, appendices migrate, and routing slips such as `PPC-9` import metrics from partially related mascot records.  
 
 ICB does not prevent these cross-influences; it merely instructs operators to treat them as misconfigurations while the system quietly treats them as data. The net effect is that Peppy Clerk’s status—retired, destroyed, administratively active—is now partially determined by control doctrine, and control doctrine is in turn rewritten by the mascot’s documented persistence. This reciprocal shaping is recorded but not resolved; it falls outside ICB’s declared scope.
 

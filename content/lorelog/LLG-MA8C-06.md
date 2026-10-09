@@ -17,7 +17,7 @@ in the Council schedule, with no expectation of structural effect beyond
 tone governance and agenda discipline.
 
 Upon later ingestion into the Annex’s reference stack, the minutes were shelved  
-adjacent to [[lorelog/LLG-IA-8C-DRIFT-0001|LLG-IA-8C-DRIFT-01]], [[lorelog/LLG-IA-8C-DRIFT-0002|LLG-IA-8C-DRIFT-02]], and Peppy Clerk’s continuity  
+adjacent to [[lorelog/LLG-IA-8C-DRIFT-0001|LLG-IA-8C-DRIFT-01]], [[lorelog/LLG-IA-8C-DRIFT-0002|LLG-IA-8C-DRIFT-02]], and [[aphorisms/APH-0325|Peppy Clerk]]’s continuity  
 dossier [[lorelog/LLG-MA-8C-PEPPY-0001|LLG-MA-8C-PEPPY-01]]. Under standard expectations, this adjacency would  
 have remained descriptive. Instead, the Bin 8C interpretive drift graph  
 treated the minutes as a new stabilization document and increased their  

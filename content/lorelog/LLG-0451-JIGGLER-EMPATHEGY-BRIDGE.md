@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/
 
 Bridge record connecting the seam survey ([[lorelog/LLG-0450-SEAMS-PRESENT-TENSE|LLG-0450]]) to the Empathegy Inflation Event ([[lorelog/LLG-0811-EG|LLG-0811-EG]]) and the Empathegy Aesthetic Survival Protocol ([[reference/FREF-0430-EASP|FREF-0430-EASP]]).
 
-**Thesis (narrow):** The records in this cohort exhibit a common pattern. Empathegy curve-coherence weighting rewards smooth, upward-trending curves and penalizes jagged ones. Where a metric of this kind becomes operational, subjects adapt their behavior to produce the expected curve. The mouse jiggler is such an adaptation applied to presence telemetry: it reproduces the signature the monitoring layer mistakes for presence.
+**Thesis (narrow):** The records in this cohort exhibit a common pattern. [[haikus/HAI-LLG-0811-EG|Empathegy]] curve-coherence weighting rewards smooth, upward-trending curves and penalizes jagged ones. Where a metric of this kind becomes operational, subjects adapt their behavior to produce the expected curve. The mouse jiggler is such an adaptation applied to presence telemetry: it reproduces the signature the monitoring layer mistakes for presence.
 
 The dashboard eats the human. The human learns to feed the dashboard.
 
@@ -86,7 +86,7 @@ And the system treats it as a new anomaly. "Engagement scores drop." "Quiet quit
 
 > *From [[lorelog/LLG-0811-EG|LLG-0811-EG]]:* Serotonin Sam's metric set — "mood-to-velocity alignment, burnout probability, sadness-smoothed trendlines — was upgraded to render all three as a single composite uplift glyph."
 
-**Serotonin Sam is the mascot of the curve.** He doesn't measure how you *feel*. He measures how *graphable* your feelings are. The jiggler renders for Sam's dashboard; quiet quitting reads as a stable flatline; the dashboard sees only what renders.
+**[[limericks/LIM-0196|Serotonin Sam]] is the mascot of the curve.** He doesn't measure how you *feel*. He measures how *graphable* your feelings are. The jiggler renders for Sam's dashboard; quiet quitting reads as a stable flatline; the dashboard sees only what renders.
 
 ---
 

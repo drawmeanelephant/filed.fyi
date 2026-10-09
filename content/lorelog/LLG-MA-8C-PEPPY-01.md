@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-SYS-0008-REINDEX-0001, relates_to=lorelog/LLG
 
 ## 1. Scope and Mandate
 
-This entry consolidates Mascot Affairs materials concerning the corridor mascot designated **Peppy Clerk**, with particular attention to its alleged retirement, destruction, and continued appearance in photographic and procedural channels. The review treats the following as a single continuity surface: Condition Log 7 (fragmented), Internal Correction Notice 4C, the Procedural Update 4C Supersession, the Basement Steam Incident report, Form 11-S guidance, and the recovered personnel fragment for M. H. Tolland (provisional).  
+This entry consolidates Mascot Affairs materials concerning the corridor mascot designated **[[aphorisms/APH-0325|Peppy Clerk]]**, with particular attention to its alleged retirement, destruction, and continued appearance in photographic and procedural channels. The review treats the following as a single continuity surface: Condition Log 7 (fragmented), Internal Correction Notice 4C, the Procedural Update 4C Supersession, the Basement Steam Incident report, Form 11-S guidance, and the recovered personnel fragment for M. H. Tolland (provisional).  
 
 The intent is not to resolve the mascot’s status, which has repeatedly resisted resolution, but to bring the contradictions into a single jurisdiction where they may be considered **continuous** rather than **erroneous**. No finding herein is expected to alter Peppy Clerk’s practical behavior; the mascot’s behavior has generally preceded its documentation.
 
