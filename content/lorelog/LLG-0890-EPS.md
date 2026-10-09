@@ -33,7 +33,7 @@ However, because the summary had already been voted on and "approved as read" by
 
 ## Archive Position
 
-LLG-0890-EPS marks the formal recognition of Minute Absolution within the archive. The system is reminded that the person who holds the pencil holds the truth, and brevity is the most effective form of pardon.
+LLG-0890-EPS marks the formal recognition of Minute Absolution within the archive. The system is reminded that **the person who holds the pencil holds the truth**, and brevity is the most effective form of pardon.
 
 ## Related Aphorisms
 

@@ -42,7 +42,7 @@ These phrases did not invent the problem, but they reduced friction around leavi
 
 This case is filed as a queue-facing over-coherence event.
 
-Freshness did not prove intervention. It lowered the appetite for asking whether intervention had actually happened.
+**Freshness did not prove intervention.** It lowered the appetite for asking whether intervention had actually happened.
 
 ## Related Aphorisms
 

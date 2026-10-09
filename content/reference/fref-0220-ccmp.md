@@ -12,7 +12,7 @@ tags: ["reference", "civic-benevolence", "memorial-presence", "quorum", "chapter
 
 Where a chapter survives chiefly through records, plaques, folded banners, and recurring luncheon minutes, membership should not be reduced too quickly to bodies currently in the room. 
 
-Memorial standing may inform quorum descriptively but should not be used to pass new business unless no one insists on the distinction. 
+Memorial standing may inform quorum descriptively but should not be used to pass new business **unless no one insists on the distinction**. 
 
 Duplicate attendance created by merger, cross-dues history, or shared auxiliary work is to be logged as overlap rather than fraud unless accompanied by active grant extraction.
 

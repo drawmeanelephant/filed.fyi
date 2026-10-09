@@ -30,7 +30,7 @@ These traits had been treated as respectful indicators of rest.
 
 Later review suggested a harsher possibility.
 
-Some of the calm had been exhaustion wearing good posture.
+Some of the calm had been **exhaustion wearing good posture**.
 
 ## Trigger for Review
 

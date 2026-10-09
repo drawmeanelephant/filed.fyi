@@ -26,7 +26,7 @@ Indicators should reflect aggregation level, not substrate argument. If visible 
 
 ## Final Handling Statement
 
-Trust-surface continuity events are to be treated as managed explanatory conditions unless and until a dedicated severity band requires stronger language. Existing indicators adequately describe the observed pattern. No additional headline instability is required.
+Trust-surface continuity events are to be treated as managed explanatory conditions **unless and until a dedicated severity band requires stronger language**. Existing indicators adequately describe the observed pattern. No additional headline instability is required.
 
 ## Related Aphorisms
 

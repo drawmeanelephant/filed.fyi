@@ -152,7 +152,7 @@ Silence during appeals may indicate fatigue, not agreement.
 
 ## Archive Position
 
-Appeals and Annexes are where the system stores its unfinished honesty.
+Appeals and Annexes are where the system stores its **unfinished honesty**.
 
 They are also where institutions hide what they do not wish to feature.
 
