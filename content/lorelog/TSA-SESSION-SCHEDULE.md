@@ -10,15 +10,15 @@ tags: ["lorelog", "schedule", "training", "specimens", "partial-record"]
 
 **Session A1 – Words Before Work**
 
-- Materials: Assurance style guide, two anonymized findings excerpts.
-- Exercise: Underline every place a hard word becomes a soft one.
-- Note: Trainees may feel mild irritation. This is considered productive.
+- **Materials:** Assurance style guide, two anonymized findings excerpts.
+- **Exercise:** Underline every place a hard word becomes a soft one.
+- **Note:** Trainees may feel mild irritation. This is considered productive.
 
 **Session A2 – Where Obligation Went**
 
-- Materials: Same findings, plus one internal draft.
-- Exercise: Circle any sentences that could generate a ticket in their draft form but not in the published form.
-- Debrief: Write “Where does this go now?” in the margin and leave it unanswered.
+- **Materials:** Same findings, plus one internal draft.
+- **Exercise:** Circle any sentences that could generate a ticket in their draft form but not in the published form.
+- **Debrief:** Write “Where does this go now?” in the margin and leave it unanswered.
 
 ---
 
@@ -26,15 +26,15 @@ tags: ["lorelog", "schedule", "training", "specimens", "partial-record"]
 
 **Session B1 – Raw vs. Framed Scans**
 
-- Materials: One raw shelf scan, one reinterpretation, pocket gloss.
-- Exercise: Map each missing item to its euphemism.
-- Outcome: Identify at least one absence that now sounds like intention.
+- **Materials:** One raw shelf scan, one reinterpretation, pocket gloss.
+- **Exercise:** Map each missing item to its euphemism.
+- **Outcome:** Identify at least one absence that now sounds like intention.
 
 **Session B2 – Orphan Patience**
 
-- Materials: Three sequential scan extracts over time.
-- Exercise: Chart the moment when “orphan” becomes “unit.”
-- Trainer note: Do not say when out loud. Let the pattern stand.
+- **Materials:** Three sequential scan extracts over time.
+- **Exercise:** Chart the moment when “orphan” becomes “unit.”
+- **Trainer note:** Do not say when out loud. Let the pattern stand.
 
 ---
 
@@ -42,15 +42,15 @@ tags: ["lorelog", "schedule", "training", "specimens", "partial-record"]
 
 **Session C1 – Threshold Migration**
 
-- Materials: Before/after band definitions, sample incident counts.
-- Exercise: Recolor the same six months of data under both schemes.
-- Observation: Notice when red becomes amber without any incident changing.
+- **Materials:** Before/after band definitions, sample incident counts.
+- **Exercise:** Recolor the same six months of data under both schemes.
+- **Observation:** Notice when red becomes amber without any incident changing.
 
 **Session C2 – Success Class Collapse**
 
-- Materials: Consolidation card, snippet of render log.
-- Exercise: Label each line as rendered, skipped, or placeholder; then relabel all as processed.
-- Question (rhetorical): “What did we gain?” No answer required.
+- **Materials:** Consolidation card, snippet of render log.
+- **Exercise:** Label each line as rendered, skipped, or placeholder; then relabel all as processed.
+- **Question (rhetorical):** “What did we gain?” No answer required.
 
 ---
 
@@ -58,15 +58,15 @@ tags: ["lorelog", "schedule", "training", "specimens", "partial-record"]
 
 **Session D1 – Clean Story**
 
-- Materials: One over‑coherent specimen from the Vault.
-- Exercise: Read in silence. Mark any sentence that feels too certain.
-- Reflection: Each clerk writes a one-line note, “What is missing here?” and files it as personal.
+- **Materials:** One over‑coherent specimen from the Vault.
+- **Exercise:** Read in silence. Mark any sentence that feels too certain.
+- **Reflection:** Each clerk writes a one-line note, “What is missing here?” and files it as personal.
 
 **Session D2 – Rough Story**
 
-- Materials: Any fragment with visible disagreement or unresolved notes.
-- Exercise: Compare the feeling of reading this to D1.
-- Final instruction: “The archive needs both. Remember which one feels more like your week.”
+- **Materials:** Any fragment with visible disagreement or unresolved notes.
+- **Exercise:** Compare the feeling of reading this to D1.
+- **Final instruction:** “The archive needs both. Remember which one feels more like your week.”
 
 ---
 
@@ -83,7 +83,7 @@ Records do not formally distinguish between those three states in aggregate repo
 
 An asterisk appears next to Session D1 on three separate weeks.
 
-Margin note:
+**Margin note:**
 
 > “Repeated by request.  
 >  Trainees keep asking why the clean story feels less believable than the messy one.”
