@@ -54,7 +54,7 @@ These benefits were not fictional.
 
 They were interpretive.
 
-The room became easier to summarize because uncertainty had been reassigned.
+The room became easier to summarize because **uncertainty had been reassigned**.
 
 ## Shadow Costs
 

@@ -10,7 +10,7 @@ tags: ["lorelog", "over-coherence", "trust-surface", "teaching-specimen", "expla
 
 A trust-surface explanation layer produced for summary circulation was referred to the Teaching Specimen Review Shelf after multiple readers reported that it felt complete in a way the underlying event had not been. The explanation was procedurally sound, lexically disciplined, and governance-compatible. It also rendered substrate loss, reassurance capture, and proof asymmetry with a degree of calm not matched by the source condition.
 
-Screening determined that the artifact preserved factual defensibility while reducing interpretive friction below preferred archive tolerances. Contradiction remained present in related files, annex positions, and subordinate witness layers, but the primary explanation no longer required contact with them in order to seem sufficient. This was judged useful for circulation and unsafe for memory.
+Screening determined that the artifact preserved factual defensibility while reducing interpretive friction below preferred archive tolerances. Contradiction remained present in related files, annex positions, and subordinate witness layers, but the primary explanation no longer required contact with them in order to seem sufficient. **This was judged useful for circulation and unsafe for memory.**
 
 The file has therefore been admitted as a teaching specimen rather than rejected. Training use is authorized under the following conditions:
 1. Pair with the rougher originating incident.

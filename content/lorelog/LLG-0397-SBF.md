@@ -14,7 +14,7 @@ By 10:40 AM, before the final seating, the emcee had already thanked the town fo
 
 Lionell Pancake Auditor reconstructed the incident from apron notes, raffle tallies, cashbox recounts, and one whiteboard featuring the phrase We are basically there. His finding was that projected goodwill had entered the ledger as spendable revenue approximately ninety minutes before the event ended.
 
-Breakfast optimism had become a temporary grant mechanism.
+Breakfast optimism had become **a temporary grant mechanism**.
 
 The overcommitment was driven by three familiar distortions:
 - applause after the scholarship announcement was treated as revenue-adjacent,
