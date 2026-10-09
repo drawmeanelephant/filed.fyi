@@ -34,7 +34,7 @@ And label the desk as a door.
 
 
 The strict obligations are gone,  
-There’s nothing we wish to put on.  
+There's nothing we wish to put on.  
 The optics will do,  
 For me and for you,  
 So please let the briefing move on.  

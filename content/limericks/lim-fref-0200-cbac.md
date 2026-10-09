@@ -43,7 +43,7 @@ We hide in a standardized mask.
 
 The layer ensures we are real,  
 With a very official red seal.  
-It’s terribly fake,  
+It's terribly fake,  
 But for policy's sake,  
 We pretend we have something to feel.  
 

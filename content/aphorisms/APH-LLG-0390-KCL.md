@@ -17,7 +17,7 @@ Grief expressed as metadata. Meaning adjusted around the winning selector.
 
 
 
-Are corrected cards worth making the room feel less held?. Relief remained outside scope.
+Are corrected cards worth making the room feel less held? Relief remained outside scope.
 
 
 

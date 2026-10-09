@@ -52,7 +52,7 @@ Care was counted at the moment of notice, not at the moment of relief. Administr
 
 
 
-The metric asks, Did we touch it? not, Did it change?. Nothing was resolved. The record now looks official.
+The metric asks, Did we touch it? not, Did it change? Nothing was resolved. The record now looks official.
 
 
 

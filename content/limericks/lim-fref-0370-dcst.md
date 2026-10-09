@@ -69,4 +69,4 @@ A human requested a break,
 A massive procedural mistake.  
 We locked down the server,  
 With absolute fervor,  
-For continuity’s sake.
+For continuity's sake.

@@ -38,7 +38,7 @@ Makes the missing data look neat.
 The soft green seal was a sham  
 The data was caught in a jam  
 We sealed up the text  
-And wondered what’s next  
+And wondered what's next  
 And printed a useless exam  
 
 

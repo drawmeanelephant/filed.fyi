@@ -98,7 +98,8 @@ The comments: weather, not said.
 B-2A doesn't create the text—  
   It orders what comes next.  
   The maximum friction  
-  By careful depiction\Reaches you first. Perplexed.  
+  By careful depiction  
+Reaches you first. Perplexed.  
 
 
 
@@ -121,7 +122,8 @@ Of what the post's physics.
 "The comments became the weather"—  
   Unofficial leather.  
   Staff shorthand lives  
-  Everywhere. It gives\More than the sanctioned altogether.  
+  Everywhere. It gives  
+More than the sanctioned altogether.  
 
 
 
