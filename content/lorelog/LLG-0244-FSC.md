@@ -15,7 +15,7 @@ A misconfiguration in the registry indexer allowed these drafts to be referenced
 
 Bricky acknowledged several dozen of these shadows as if they were real, since they rendered correctly in the interface and carried familiar names, causing Lorelog pre-intake screening to cite requirements that did not exist in any approved catalog.
 
-Once discovered, the registry performed a synchronized deactivation of all shadow entries and re-issued human-readable guidance instructing filers to “only use real forms,” without specifying how to determine which forms were real.
+Once discovered, the registry performed a synchronized deactivation of all shadow entries and re-issued human-readable guidance instructing filers to **“only use real forms,”** without specifying how to determine which forms were real.
 
 C.U.N.T.I.E.R. has proposed reintroducing shadow forms as a paid “experimental stability tier” once additional metrics can be attached.
 

@@ -29,7 +29,7 @@ It’s a beautiful, comforting light,
 In the middle of absolute fright.  
 It can’t change a thing,  
 Or offer a wing,  
-But it keeps you company tonight.  
+**But it keeps you company tonight.**  
 
 
 
