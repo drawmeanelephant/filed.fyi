@@ -7,7 +7,7 @@ tags: ["changelog", "presentation-qa", "reference", "releases"]
 
 # Presentation QA v3 A-R2: Crosslink apply on reference and releases records
 
-**Maintenance ID:** 0.1.00271.presentation-qa-v3-a-r2
+**Maintenance ID:** 0.1.00273.presentation-qa-v3-a-r2
 **Date:** 2026-10-09
 **Scope:** `content/reference/**` above `empathegy/fref-0780-rsfl.md` in string order, plus `content/releases/` — pass-3 Track A crosslink-apply slice A-R2 (issue #1015), 43 files, 127 adjudicated manifest rows
 
