@@ -25,7 +25,7 @@ tags: ["changelog", "lorelog", "presentation-qa"]
 - `LLG-0379-ROBOT-MEMO.md`: converted "incident LLG-0378-WFA" at line 12 to `[[lorelog/LLG-0378-WFA|LLG-0378-WFA]]` — target confirmed against that record's `id:` frontmatter; label preserves source spelling. Code-spanned `COORD-CLUSTER/SE-Δ` (line 12), the `COAUTHOR`/`CONSUMER` classification literals (lines 36, 56 ×2), and `breedingProgram` (lines 22, 40, 47, 56, 64). Promoted the existing lead-in "Internal discrepancy note:" at line 56 to a `**Label:**` run-in. `PENDING` stays prose.
 - `LLG-0380-MATCH.md`: converted "LLG-0377-GRAT" at line 22 to `[[lorelog/LLG-0377-GRAT|LLG-0377-GRAT]]` — canonical `id:` confirmed. Code-spanned `breedingProgram` at lines 12, 16, 55 and `BreedingProgram` (sentence-initial capital preserved) at line 77.
 - `LLG-0381-OPTOUT.md`: code-spanned `breedingProgram` at lines 12, 26, 42.
-- Added this docket; recounted `content/changelog/` to 186 and set README totals to actuals: 2,391 pages, 11 trunks, 2,380 satellites.
+- Added this docket; after merging `origin/main` (which landed dockets `0.1.00231`, `0.1.00237`, `0.1.00240` from concurrent v2 slices), recounted `content/changelog/` to 189 and set README totals to actuals: 2,394 pages, 11 trunks, 2,383 satellites.
 
 ## What was deliberately left alone
 
