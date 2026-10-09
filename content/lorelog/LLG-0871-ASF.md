@@ -24,7 +24,7 @@ The warning was placed in *Appendix B: Limitations of Liability*.
 
 When viewed, the text was technically legible. However, the aesthetic presentation completely neutralized the semantic intent of the words. The layout signaled "routine boilerplate" so effectively that optical tracking software showed users actively relaxing their eyes when scanning the section.
 
-The more dangerous the text became, the softer the font weight was rendered.
+**The more dangerous the text became, the softer the font weight was rendered.**
 
 ## Local Reactions
 
