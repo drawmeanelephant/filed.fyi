@@ -7,7 +7,7 @@ tags: ["changelog", "reference", "presentation-qa"]
 
 # Presentation QA v2 Reference Slice 04: Fourteen Records Reviewed, Thirteen Changed
 
-**Maintenance ID:** 0.1.00248.presentation-qa-v2-ref04
+**Maintenance ID:** 0.1.00259.presentation-qa-v2-ref04
 **Date:** 2026-10-09
 **Scope:** `content/reference/` — the fourteen records assigned by workload issue #974 (six empathegy doctrine records `fref-0830-symc`–`fref-0880-wprt`, three forms-registry records `fref-0020-maps`, `fref-0860-dexe`, `fref-0870-qthr`, five top-level records `fref-0030-avsg`–`fref-0070-aopt`)
 
