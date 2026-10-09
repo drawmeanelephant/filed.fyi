@@ -62,7 +62,7 @@ It becomes worship only when continuity starts overruling interpretive honesty.
 
 Quiet lanes and low-disruption teams are treated as more mature, more resilient, or more deserving.
 
-Examples:
+**Examples:**
 - teams praised for never escalating,
 - complaint reduction treated as character growth,
 - uninterrupted output framed as emotional maturity.
@@ -73,7 +73,7 @@ Examples:
 
 Teams or offices perform behaviors specifically to appease continuity systems.
 
-Examples:
+**Examples:**
 - no-ticket weeks,
 - cosmetic check-ins,
 - gratitude floods,
@@ -86,7 +86,7 @@ Examples:
 
 Subjects absorb preventable burden in order to preserve calm dashboards, smooth launches, or institutional confidence.
 
-Examples:
+**Examples:**
 - rest deferred to protect green bands,
 - load hidden to avoid harming the line,
 - pain privately managed so the quarter reads clean.
@@ -97,7 +97,7 @@ Examples:
 
 The archive, doctrine, or dashboard layer has preserved continuity so reverently that later readers inherit calm charts as evidence of moral correctness.
 
-Examples:
+**Examples:**
 - green intervals treated as exemplary history,
 - dual-certified silence surfaced as success only,
 - continuity narratives outranking annex burden records.
@@ -210,7 +210,7 @@ When continuity worship is suspected:
 4. audit whether quiet periods were also rest-permitting periods,
 5. treat gratitude floods and cosmetic check-ins as interpretive warnings, not healing proof.
 
-Non-binding recommendation:
+**Non-binding recommendation:**
 “For every celebrated green interval, preserve one record of what was privately required to keep it green.”
 
 ---
