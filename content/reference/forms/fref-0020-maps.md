@@ -8,7 +8,7 @@ tags: ["reference", "forms-registry", "managed-absence", "caar", "lcgu", "stcp",
 
 # Managed Absence Spine – CAAR, LCGU, STCP, AAOA
 
-Managed Absence is the doctrine the Forms Catalog uses when something is plainly wrong with the paperwork, but nobody is prepared to call it missing.
+Managed Absence is the doctrine the Forms Catalog uses when something is plainly wrong with the paperwork, but **nobody is prepared to call it missing**.
 
 The vocabulary surfaced formally in LLG-0324-MAP, but the behaviours it names are older. They describe not what forms are, but how we agree to talk about their absences.
 
