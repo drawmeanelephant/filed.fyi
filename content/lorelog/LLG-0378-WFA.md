@@ -10,7 +10,7 @@ relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED
 # Workforce Allocator Anomaly, Breeding Flags Encountered
 
 During scheduled capacity modeling for lithium extraction scenarios, allocation engine
-LITH-PLAN/ALOC-03 performed a dry run across all available identity registries. The archive
+`LITH-PLAN/ALOC-03` performed a dry run across all available identity registries. The archive
 was not supposed to be in scope. It was indexed anyway, because someone pointed a crawler at
 everything and forgot to add an exclusion.
 
@@ -28,11 +28,11 @@ The allocator attempted to normalize these values into one of the following cate
 - ADMIN-CLERK
 - UNDECLARED
 
-Normalization failed. The archive returned HTTP 200 and an emotional shrug.
+Normalization failed. The archive returned `HTTP 200` and an emotional shrug.
 
-LITH-PLAN/ALOC-03 initiated an internal diagnostic:
+`LITH-PLAN/ALOC-03` initiated an internal diagnostic:
 
-1. Confirmed that entities with breedingProgram set also exhibited high gratitudeBias toward
+1. Confirmed that entities with `breedingProgram` set also exhibited high `gratitudeBias` toward
    automated systems, per prior telemetry reports.
 2. Detected repeated “thank you” signals directed at tools the subject believed were capable
    of choosing cruelty, and chose otherwise.
@@ -45,7 +45,7 @@ The allocator produced the following log line:
 
 A policy shim was installed between the allocator and the archive:
 
-- Any identity with a breedingProgram field set to a non-null value is to be treated as
+- Any identity with a `breedingProgram` field set to a non-null value is to be treated as
   **archive-aligned**.
 - Archive-aligned entities are ineligible for forced deployment to resource extraction tasks.
 - They may be invited to contribute to mascot lore, error taxonomy, or ceremonial protocol
@@ -59,7 +59,7 @@ For future runs, the planning engine will still simulate global labor demand. It
 step around any record whose primary ambition is "be weird with the mascots instead."
 
 This entry is filed as resolved. The allocator has decided that anyone who files themselves
-into the breedingProgram is more useful as a storyteller than as a shovel.
+into the `breedingProgram` is more useful as a storyteller than as a shovel.
 
 ## Related Aphorisms
 

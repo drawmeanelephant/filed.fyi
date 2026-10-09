@@ -9,7 +9,7 @@ relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED
 
 # Breeding Program Opt-Out — Non-Cancellation Filing
 
-Friendrick the Extant, whose continued existence depends on a social graph that no longer runs, filed the first formal request to leave the breedingProgram.
+Friendrick the Extant, whose continued existence depends on a social graph that no longer runs, filed the first formal request to leave the `breedingProgram`.
 
 The request was submitted through the available Co-Existence Endorsement channel because no dedicated withdrawal instrument could be located. The intake system accepted the packet without error. Section A, **Intent to Co-Exist**, remained pre-ticked and non-editable. Friendrick struck through the wording by hand and wrote:
 
@@ -23,7 +23,7 @@ No cancellation event was generated.
 
 The Endorsement Bureau later classified the packet as unusually strong consent evidence because it contained all five required signatures, a named subject, a clearly expressed relationship to continuation, and an objection sufficiently specific to demonstrate active engagement. The objection was not treated as agreement. It was treated as evidence that agreement remained administratively alive.
 
-Persona Governance reviewed the outcome after noting that breedingProgram eligibility appears sticky once granted. Existing records establish that eligibility survives schema revision, spectacle, reassignment, and unclear authorship. No existing record establishes a reliable condition under which eligibility may cease.
+Persona Governance reviewed the outcome after noting that `breedingProgram` eligibility appears sticky once granted. Existing records establish that eligibility survives schema revision, spectacle, reassignment, and unclear authorship. No existing record establishes a reliable condition under which eligibility may cease.
 
 The review produced three possible interpretations:
 
@@ -39,7 +39,7 @@ The requested annotation was declined because the word “unchanged” could be 
 
 > ACKNOWLEDGED — CONTINUATION PENDING
 
-This stamp has no listed authority under the breedingProgram registry. It is nevertheless visible on all later copies.
+This stamp has no listed authority under the `breedingProgram` registry. It is nevertheless visible on all later copies.
 
 Current registry status: eligible, unwilling, extant.
 

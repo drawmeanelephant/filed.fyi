@@ -75,7 +75,7 @@ The override ticket is still open, eternally blocked on the question:
 
 Complicating matters, a minority of FSR-candidates were traced back to humans who had:
 
-- explicit access to LLG-0400-SCAS, and  
+- explicit access to [[lorelog/LLG-0400-SCAS|LLG-0400-SCAS]], and  
 - admitted, in side-channel messages, to “trying out sandbox language” in their real filings because “it seemed to get the dashboards’ attention.”  
 
 These were memorialized as **Echo-Literate Filers**.

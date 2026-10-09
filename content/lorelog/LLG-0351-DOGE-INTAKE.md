@@ -22,7 +22,7 @@ Filer designation: ___________________________
 Filing on behalf of:
 - [ ] Self
 - [ ] Entity under care
-- [ ] Third party (requires Form GEX-1T)
+- [ ] Third party (requires Form `GEX-1T`)
 
 Date of experience (approximate is acceptable; exact is suspicious): ___________
 
@@ -131,7 +131,7 @@ Bricky certification stamp:
 
 - [ ] CERTIFIED
 - [ ] CERTIFIED WITH ANNOTATION
-- [ ] RECLASSIFIED (see GEX-2R)
+- [ ] RECLASSIFIED (see `GEX-2R`)
 - [ ] AMBIENT (near-residue)
 
 Reclassification is not a finding of fault.

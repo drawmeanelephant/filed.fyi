@@ -42,7 +42,7 @@ No one updates the original waiver.
 
 ## Entanglement with COMA-19
 
-Form COMA-19 Idle-Time Amnesty was supposed to be a limited mercy.
+Form `COMA-19` Idle-Time Amnesty was supposed to be a limited mercy.
 
 Within the Lodge, it became:
 
@@ -50,11 +50,11 @@ Within the Lodge, it became:
 - proof that blanks could be sanctified with the right phrase,
 - a template for newer, narrower waivers that assumed its logic.
 
-LLG-0019-COMA records multiple instances where entire afternoons vanished under legacy LME cover, with only Lodge annotations to explain the missing work.
+[[lorelog/LLG-0019-COMA|LLG-0019-COMA]] records multiple instances where entire afternoons vanished under legacy LME cover, with only Lodge annotations to explain the missing work.
 
 ## Interaction with Consent and Forms
 
-Forms like 40-C consent cascades and DS-404-ALPHA merge approvals often feed into LME:
+Forms like `40-C` consent cascades and `DS-404-ALPHA` merge approvals often feed into LME:
 
 - stalled approvals may be nudged past deadlock by invoking prior exceptions elsewhere,
 - incomplete consent chains may be wrapped in Lodge language: recognized by custom.

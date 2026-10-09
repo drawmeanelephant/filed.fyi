@@ -8,7 +8,7 @@ tags: ["lorelog", "rage", "angertainment", "action-attempts", "simulator-weather
 
 # RAGE Extraction Attempts — Turning Angertainment into Action
 
-Record Note: This case file compiles recurring behavioral patterns rather than documenting a single service failure. It indexes instances where filers attempted to convert feed-mediated anger into local action, and tracks DOGE handling during reclassification reviews.
+**Record Note:** This case file compiles recurring behavioral patterns rather than documenting a single service failure. It indexes instances where filers attempted to convert feed-mediated anger into local action, and tracks DOGE handling during reclassification reviews.
 
 ## Pattern Overview
 
@@ -33,9 +33,9 @@ Others trace a full loop and return to the feed.
 
 DOGE uses the same tests as in the Charter:
 
-- Origin: did a local situation emerge from the attempt?
-- Agency: did the filer’s actions change anything beyond their metrics?
-- Residue: did the change persist beyond the outrage cycle?
+- **Origin:** did a local situation emerge from the attempt?
+- **Agency:** did the filer’s actions change anything beyond their metrics?
+- **Residue:** did the change persist beyond the outrage cycle?
 
 ---
 
