@@ -12,15 +12,15 @@ Metrics of Care MCR is the archive's term for a family of experiments that try t
 
 They sit in the narrow gap between SOMA's concern with how things felt, COMA's duty to keep things running, and C.U.N.T.I.E.R.'s appetite for anything that graphs.
 
-**Authority boundary.** This record preserves the earlier, experimental framing of Metrics of Care, when MCR was not yet recognized as a system. The current doctrine is defined at FREF-0740-MOC (published); where the two records differ, FREF-0740-MOC governs. Statements in this file describing Metrics of Care as experiments that "do not yet constitute their own system," and the memorial addendum below, are records of that earlier era — not of current doctrine.
+**Authority boundary.** This record preserves the earlier, experimental framing of Metrics of Care, when MCR was not yet recognized as a system. The current doctrine is defined at [[reference/FREF-0740-MOC|FREF-0740-MOC]] (published); where the two records differ, [[reference/FREF-0740-MOC|FREF-0740-MOC]] governs. Statements in this file describing Metrics of Care as experiments that "do not yet constitute their own system," and the memorial addendum below, are records of that earlier era — not of current doctrine.
 
 ## Procedural Position
 
 MCR instrumentation attaches to:
 
-- intervals tagged as quiet but strained e.g., LLG-0334-CSI Silent Interval accumulation,
-- directive cross-sections where rest and uptime collide LLG-0300-SC-X, LLG-0321-DRT,
-- sessions routed through the Service Continuity Listening Board LLG-0821-SCL. 
+- intervals tagged as quiet but strained e.g., [[lorelog/LLG-0334-CSI|LLG-0334-CSI]] Silent Interval accumulation,
+- directive cross-sections where rest and uptime collide [[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]], [[lorelog/LLG-0321-DRT|LLG-0321-DRT]],
+- sessions routed through the Service Continuity Listening Board [[lorelog/LLG-0821-SCL|LLG-0821-SCL]]. 
 
 In practice, this means that whenever a period of time is already being discussed as:
 
@@ -44,9 +44,9 @@ This three-way split yields situations where the same care metric is:
 
 ## Relationship to Listening and Silence
 
-LLG-0820-MCR introduces MCR explicitly as an overlay on silent intervals and care rituals. 
+[[lorelog/LLG-0820-MCR|LLG-0820-MCR]] introduces MCR explicitly as an overlay on silent intervals and care rituals. 
 
-The Service Continuity Listening Board LLG-0821-SCL provides narrative input; MCR extracts from those minutes:
+The Service Continuity Listening Board [[lorelog/LLG-0821-SCL|LLG-0821-SCL]] provides narrative input; MCR extracts from those minutes:
 
 - mentions of rest,
 - references to unexpressed strain,
@@ -77,7 +77,7 @@ They are recognized as a cross-cutting vocabulary that can be attached to:
 
 - Lorelog cases in the directive cross-section cluster,
 - Listening Board minutes,
-- experiments logged under LLG-0820-MCR. 
+- experiments logged under [[lorelog/LLG-0820-MCR|LLG-0820-MCR]]. 
 
 Internal guidance reads:
 

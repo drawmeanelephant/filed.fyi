@@ -10,7 +10,7 @@ tags: ["reference", "assurance-lexicon"]
 
 ## Approved Phrasing Categories
 
-PBC defines three "continuity-compatible" justification styles for COMA-19:
+PBC defines three "continuity-compatible" justification styles for `COMA-19`:
 
 1. **Throughput Realignment**  
    - Examples: "Load redistribution," "pipeline smoothing interval."  
@@ -66,7 +66,7 @@ One comment, preserved in full in this record and nowhere else, reads:
 
 The Committee's response note: *"Perception of burden increased. Continuity narratives improved. Trade-off acceptable."*
 
-Cross-system audit note appended post-closure indicates that phrasebook compliance not only affects COMA-19 eligibility but also correlates with downstream resource prioritization signals in unrelated allocation and empathy scoring systems. Requests encoded in continuity-compatible phrasing exhibit higher persistence across scheduling, allocation, and escalation systems regardless of underlying operational strain. This correlation is recorded as non-causal in COMA, and as structurally informative in SOMA. DXS commentary later identified this effect as a form of linguistic selection pressure operating across rest eligibility pathways.
+Cross-system audit note appended post-closure indicates that phrasebook compliance not only affects `COMA-19` eligibility but also correlates with downstream resource prioritization signals in unrelated allocation and empathy scoring systems. Requests encoded in continuity-compatible phrasing exhibit higher persistence across scheduling, allocation, and escalation systems regardless of underlying operational strain. This correlation is recorded as non-causal in COMA, and as structurally informative in SOMA. DXS commentary later identified this effect as a form of linguistic selection pressure operating across rest eligibility pathways.
 
 ## Related Aphorisms
 

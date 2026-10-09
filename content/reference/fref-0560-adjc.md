@@ -51,8 +51,8 @@ Examples include:
 - guide rails that provide orientation without destination.
 
 Cross-reference:
-- `LLG-0001-NAV`
-- `LLG-0004-SMD`
+- [[lorelog/LLG-0001-NAV|LLG-0001-NAV]]
+- [[lorelog/LLG-0004-SMD|LLG-0004-SMD]]
 
 ### 2. Interpretive Adjacency
 
@@ -64,7 +64,7 @@ Examples include:
 - polite reframings that remain adjacent to reality without consenting to it.
 
 Cross-reference:
-- `FREF-0540-ANXT`
+- [[reference/FREF-0540-ANXT|FREF-0540-ANXT]]
 - assurance vocabulary and dashboard alignment materials
 
 ### 3. Metric Adjacency
@@ -77,9 +77,9 @@ Examples include:
 - visible health preserved by phrase normalization rather than operational change.
 
 Cross-reference:
-- `LLG-0007-COMA`
-- `LLG-0019-COMA`
-- `LLG-0020-COMA19-PBC`
+- [[lorelog/LLG-0007-COMA|LLG-0007-COMA]]
+- [[lorelog/LLG-0019-COMA|LLG-0019-COMA]]
+- [[lorelog/LLG-0020-COMA19-PBC|LLG-0020-COMA19-PBC]]
 - `LLG-CREDITS-GTA`
 
 ### 4. Record Adjacency
@@ -92,8 +92,8 @@ Examples include:
 - a document that survives as reference-shaped residue while decisions continue elsewhere.
 
 Cross-reference:
-- `FREF-0540-ANXT`
-- `FREF-0550-APAN`
+- [[reference/FREF-0540-ANXT|FREF-0540-ANXT]]
+- [[reference/FREF-0550-APAN|FREF-0550-APAN]]
 
 ## Structural Signs
 
@@ -143,10 +143,10 @@ When Adjacent Correctness is identified:
 2. name the intended destination, not only the returned one,
 3. preserve the wrong-nearby result as evidence rather than as success.
 
-Minimum note:
+**Minimum note:**
 Structurally valid output; interpretive landing not achieved.
 
-Stronger note:
+**Stronger note:**
 Resolution succeeded into an adjacent but non-governing result. Primary handling should not treat arrival as correctness.
 
 ## Interlocks
