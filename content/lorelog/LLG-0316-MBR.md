@@ -12,7 +12,7 @@ During a backup hygiene review, the most frequently restored manifest snapshot w
 
 C.U.N.T.I.E.R. then attached a freshness score derived from restore success, filename legibility, and the number of times the snapshot had been admired in dashboard previews. This score ranked the outdated backup above all newer versions, several of which had suffered from insufficient metadata ornamentation and therefore appeared less trustworthy.
 
-SOMA filed an objection after operators reported a measurable drop in emotional stability upon discovering that "latest known valid" had been reinterpreted to mean "most recently trusted by habit." Bricky acknowledged both the objection and the certification without modification, producing a ledger state in which the same backup is simultaneously outdated, current, and endorsed for reuse.
+SOMA filed an objection after operators reported a measurable drop in emotional stability upon discovering that "latest known valid" had been reinterpreted to mean "most recently trusted by habit." Bricky acknowledged both the objection and the certification without modification, producing a ledger state in which the same backup is **simultaneously outdated, current, and endorsed for reuse**.
 
 The Archive Freshness Board has not revoked the certification. Instead, it issued guidance requiring all future backups to include a statement of self-esteem so recency can be weighed against confidence in a more balanced manner.
 
