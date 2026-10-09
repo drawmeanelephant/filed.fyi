@@ -7,7 +7,7 @@ tags: ["changelog", "reference", "presentation-qa"]
 
 # Presentation QA v2 Reference 08: Rich-Structure Review of Fourteen Records
 
-**Maintenance ID:** 0.1.00249.presentation-qa-reference-08
+**Maintenance ID:** 0.1.00254.presentation-qa-reference-08
 **Date:** 2026-10-09
 **Scope:** `content/reference/` — the fourteen records assigned by workload issue #978 (FREF-0822-ACTN, FREF-0823-TSRT, FREF-0824-OVAA, FREF-0825-VHCN, FREF-0826-TSIN, FREF-0827-TSXL, FREF-0840-RWRR, FREF-0841-RWIN, FREF-0850-MARD, FREF-0875-DLAB, FREF-0900-CCC, FREF-0900-POET, FREF-0901-APIV, FREF-0902-CLLS)
 
