@@ -12,20 +12,20 @@ The trust-surface cluster is filed as a narrow doctrine shelf for records concer
 
 ## Shelf contents
 
-- `LLG-0408-DTS-DEP` — incident origin for decorative trust persistence and verification collapse.
-- `LLG-0410-BWS` — boundary witness status event.
-- `LLG-0411-RRC` — reciprocal recognition continuity loop.
-- `LLG-0409-IEL` — explanation-layer handling for inherited evidence.
-- `FREF-0823-TSRT` — doctrine for trust surface residual truth.
-- `FREF-0824-OVAA` — overcoherence handling where explanation surfaces become too smooth for underlying evidence.
-- `FREF-0825-VHCN` — candidacy note for Vantage Hollow.
+- [[lorelog/LLG-0408-DTS-DEP|LLG-0408-DTS-DEP]] — incident origin for decorative trust persistence and verification collapse.
+- [[lorelog/LLG-0410-BWS|LLG-0410-BWS]] — boundary witness status event.
+- [[lorelog/LLG-0411-RRC|LLG-0411-RRC]] — reciprocal recognition continuity loop.
+- [[lorelog/LLG-0409-IEL|LLG-0409-IEL]] — explanation-layer handling for inherited evidence.
+- [[reference/FREF-0823-TSRT|FREF-0823-TSRT]] — doctrine for trust surface residual truth.
+- [[reference/FREF-0824-OVAA|FREF-0824-OVAA]] — overcoherence handling where explanation surfaces become too smooth for underlying evidence.
+- [[reference/FREF-0825-VHCN|FREF-0825-VHCN]] — candidacy note for Vantage Hollow.
 - `938.vantage-hollow` — failure signature for visually current, evidentially thinned trust marks.
 - `v0.1.1-trust-surface-residue` — ceremonial archival state declaration.
 - `trust-records-after-proof-decay` — public-facing residue.
 
 ## Adjacent shelves
 
-This shelf should remain crosslinked to Assurance Optics, Managed Absence Spine, and selected adequacy-laundering mascots. Threshold met: multiple independent incidents now cite the cluster without direct dependence on LLG-0408-DTS-DEP. Continue indexing locally and resist taxonomy bloom.
+This shelf should remain crosslinked to Assurance Optics, Managed Absence Spine, and selected adequacy-laundering mascots. Threshold met: multiple independent incidents now cite the cluster without direct dependence on [[lorelog/LLG-0408-DTS-DEP|LLG-0408-DTS-DEP]]. Continue indexing locally and resist taxonomy bloom.
 
 
 **Indexed, not elevated.** Use nearby and sparingly.

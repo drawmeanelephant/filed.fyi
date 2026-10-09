@@ -64,7 +64,7 @@ When these conditions hold, the archive treats the prior exception as inherited 
 
 A successor system adopts the assumptions of the failure it replaced.
 
-Signs include:
+**Signs include:**
 - replacement logic preserving prior thresholds,
 - new tooling depending on old exception semantics,
 - retirement language paired with unchanged burden routing.
@@ -73,7 +73,7 @@ Signs include:
 
 A temporary accommodation becomes necessary infrastructure.
 
-Signs include:
+**Signs include:**
 - fallback paths carrying routine volume,
 - support structures built around the temporary state,
 - removal becoming more disruptive than retention.
@@ -82,7 +82,7 @@ Signs include:
 
 Workaround behavior becomes enforced baseline through repetition and dependency.
 
-Signs include:
+**Signs include:**
 - reviewers expecting workaround-shaped inputs,
 - informal accommodations becoming mandatory formatting,
 - repeated local fixes hardening into procedural normal.
@@ -91,7 +91,7 @@ Signs include:
 
 A correction surface preserves prior accommodation patterns while presenting a resolved appearance.
 
-Signs include:
+**Signs include:**
 - cleaner forms for unchanged obligations,
 - improved wording around structurally identical handling,
 - calm visual closure over unresolved dependency.
@@ -100,7 +100,7 @@ Signs include:
 
 A problem remains active because its contradictions have been successfully divided across layers.
 
-Signs include:
+**Signs include:**
 - one layer preserving burden,
 - another preserving continuity,
 - another preserving legitimacy,
@@ -110,7 +110,7 @@ Signs include:
 
 The original reason for a workaround disappears after the workaround becomes standard.
 
-Signs include:
+**Signs include:**
 - staff can perform the ritual but cannot state the cause,
 - policy cites necessity without incident memory,
 - inherited handling survives after its founding evidence thins out.
@@ -139,7 +139,7 @@ This doctrine applies only when inherited workaround logic still affects practic
 
 ## Typical Signs
 
-Common indicators include:
+**Common indicators include:**
 - successor systems preserving prior exception pathways as prerequisites,
 - old burden reappearing under calmer names,
 - announced repair alongside preserved compatibility with the defect,
@@ -148,7 +148,7 @@ Common indicators include:
 - trust, routing, or policy surfaces remaining attached to inherited assumptions,
 - inability to remove the old accommodation without visible operational pain.
 
-A key sign:
+**A key sign:**
 the institution can explain why the replacement exists more easily than it can demonstrate what the replacement released.
 
 ---
@@ -169,7 +169,7 @@ These oppositions should be preserved, not prematurely reconciled.
 
 ## Review Questions
 
-Ask:
+**Ask:**
 
 1. What prior condition was the replacement supposed to end?
 2. Which assumptions from that condition still govern present behavior?
@@ -193,19 +193,19 @@ When Replacement Without Release is present:
 5. mark workaround-shaped prerequisites as active governance matter,
 6. distinguish renamed persistence from retired burden.
 
-Minimum note:
+**Minimum note:**
 
-“Successor layer active. Prior workaround conditions remain behaviorally necessary.”
+> “Successor layer active. Prior workaround conditions remain behaviorally necessary.”
 
-Stronger note:
+**Stronger note:**
 
-“Replacement introduced as corrective. Inherited tolerances, exception paths, or support obligations remain load-bearing. Release not established.”
+> “Replacement introduced as corrective. Inherited tolerances, exception paths, or support obligations remain load-bearing. Release not established.”
 
 ---
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - replacement without release
 - inherited basis drift
 - exception became infrastructure
@@ -215,7 +215,7 @@ Preferred phrases:
 - contradiction distributed across layers
 - release not established
 
-Disallowed phrases:
+**Disallowed phrases:**
 - replacement complete
 - legacy compatibility proves repair
 - inherited workaround is only residue

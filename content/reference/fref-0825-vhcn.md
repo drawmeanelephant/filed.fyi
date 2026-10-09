@@ -10,7 +10,7 @@ tags: ["reference", "mascot-candidacy", "trust-surface", "residual-authority", "
 
 ## Proposed Entity
 
-Name under review: Vantage Hollow, Continuity Seal.
+**Name under review:** Vantage Hollow, Continuity Seal.
 
 ## Failure Signature
 
