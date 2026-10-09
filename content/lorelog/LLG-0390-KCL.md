@@ -20,7 +20,7 @@ This produced a persistence loop:
 
 The result was not fraud. **It was grief expressed as metadata.**
 
-Sister Casserole of Relief classified the condition as Auxiliary Labor Afterlife, defined here as the continued accrual of civic gratitude by an identity whose material contribution has migrated elsewhere. Her audit distinguished three statuses:
+[[limericks/LIM-0203|Sister Casserole of Relief]] classified the condition as Auxiliary Labor Afterlife, defined here as the continued accrual of civic gratitude by an identity whose material contribution has migrated elsewhere. Her audit distinguished three statuses:
 - `prepared by`
 - `prepared from the card of`
 - `prepared in honor of`

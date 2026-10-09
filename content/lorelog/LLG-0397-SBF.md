@@ -12,7 +12,7 @@ The annual pancake breakfast was expected to fund two scholarships, one book sti
 
 By 10:40 AM, before the final seating, the emcee had already thanked the town for making all four possible.
 
-Lionell Pancake Auditor reconstructed the incident from:
+[[limericks/LIM-0128|Lionell Pancake Auditor]] reconstructed the incident from:
 
 - apron notes,
 - raffle tallies,

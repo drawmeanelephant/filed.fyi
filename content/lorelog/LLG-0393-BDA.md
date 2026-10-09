@@ -20,7 +20,7 @@ The sequence is preserved across podium notes, margin comments, and one unusuall
 
 No motion adopted the slogan. No rulebook referenced it. The room simply recognized itself inside the phrase and began obeying.
 
-Eagleton Proclamation Clerk reviewed the activation and classified it as Banner-Derived Influence, a condition in which decorative language acquires operational force through repeated ceremonial exposure. He distinguishes this from ordinary inspiration by a single test: if the phrase can settle an argument before anyone admits it has authority, doctrine is already active.
+[[limericks/LIM-0086|Eagleton Proclamation Clerk]] reviewed the activation and classified it as Banner-Derived Influence, a condition in which decorative language acquires operational force through repeated ceremonial exposure. He distinguishes this from ordinary inspiration by a single test: if the phrase can settle an argument before anyone admits it has authority, doctrine is already active.
 
 Handling guidance now appended to recovered-text events:
 - heritage display does not equal standing resolution

@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-0052-MFX, relates_to=lorelog/LLG-0115-TNS, re
 
 In response to recurring questions about whether certain forms “still existed,” the Central Forms Catalog drafted the **Managed Absence Protocol (MAP)**.
 
-MAP defines how the registry should speak about forms that are not straightforwardly present or gone: deprecated templates still in use, unofficial drafts, mutually superseding revisions, and paperwork that appears only in historical Lorelog entries.
+MAP defines how the registry should speak about forms that are not straightforwardly present or gone: deprecated templates still in use, unofficial drafts, mutually superseding revisions, and paperwork that appears only in historical [[lorelog|Lorelog]] entries.
 
 Rather than correcting these states, MAP codifies them into a taxonomy of **governed absences**.
 
@@ -41,7 +41,7 @@ MAP instructs registry staff to **select the kind of absence** that best maintai
 
 The Registry Interpretation Office circulated a memo with sample language:
 
-- “Form 40-C is now CAAR; please use the new collaboration declaration sequence wherever its spirit applies.”  
+- “[[limericks/LIM-LLG-0040-C|Form 40-C]] is now CAAR; please use the new collaboration declaration sequence wherever its spirit applies.”  
 - “Form 51-E-A is LCGU; do not remove it until a more official workaround develops folklore.”  
 - “Refer to 12-A legacy variants as STCP; choose whichever one offends the fewest dashboards.”  
 

@@ -11,16 +11,16 @@ relations: [relates_to=lorelog/LLG-0399-OCS]
 
 ## Summary
 
-This case concerns a class of derivative training artifacts later designated teaching specimens: posters, sticker sheets, mascot cards, and onboarding visuals that summarize active Lorelog conditions through simplified mascot forms.
+This case concerns a class of derivative training artifacts later designated teaching specimens: posters, sticker sheets, mascot cards, and onboarding visuals that summarize active [[lorelog|Lorelog]] conditions through simplified mascot forms.
 
-The Council of Mascot Authors CMA opened review after determining that several staff could accurately identify Soft Green Sealie, BX-6 Greybelt Remediator, LX-2 Waiver Apron, and AC-11 Sealloop Auditor, while remaining unable to cite the underlying case files those mascots were meant to index.
+The Council of Mascot Authors CMA opened review after determining that several staff could accurately identify [[limericks/LIM-0206|Soft Green Sealie]], [[limericks/LIM-BX-0006-GREYBELT-REMEDIATOR|BX-6 Greybelt Remediator]], [[limericks/LIM-LX-0002-WAIVER-APRON|LX-2 Waiver Apron]], and [[limericks/LIM-AC-0011-SEALLOOP-AUDITOR|AC-11 Sealloop Auditor]], while remaining unable to cite the underlying case files those mascots were meant to index.
 
 The drift was not treated as malicious.  
 It was treated as structurally dangerous.
 
 ## Background
 
-Mascots were originally tolerated by the Council as filing aids:
+[[mascots|Mascots]] were originally tolerated by the Council as filing aids:
 
 - memory hooks for unstable doctrine,
 - interpretive handles for difficult cross-cluster behavior,
@@ -60,13 +60,13 @@ Review was formally triggered when the following pattern was observed:
 - doctrine questions were answered with mascot vibes rather than case relationships.
 
 Soft Green Sealie was cited as proof of reassurance.  
-LC-04 Soft Green Seal, by contrast, remains explicitly low-confidence and semantically unstable.
+[[limericks/LIM-LC-0004-SOFT-GREEN-SEAL|LC-04 Soft Green Seal]], by contrast, remains explicitly low-confidence and semantically unstable.
 
 The Council regarded this mismatch as the clearest example of Teaching Specimen Authorization Drift.
 
 ## Bricky's Filing Notes
 
-Bricky Goldbricksworth entered the following notes into the review margin:
+[[limericks/LIM-0049|Bricky Goldbricksworth]] entered the following notes into the review margin:
 
 - **Summary:** We made a tidy little friend and then let the friend stand in for the mess.
 - **Trauma:** Staff trusted the sticker because the sticker had a face.

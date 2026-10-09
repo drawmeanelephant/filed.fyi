@@ -13,7 +13,7 @@ relations: [relates_to=lorelog/LLG-0400-SCAS, relates_to=lorelog/LLG-0401-SCAS-E
 
 FeelingSeeder was originally chartered as a small, sealed process that:
 
-- generated plausible emotional states for synthetic personas in SCAS,  
+- generated plausible emotional states for synthetic personas in [[limericks/LIM-LLG-0400-SCAS|SCAS]],  
 - varied verbosity and occasional contradiction to exercise TNS and MFX, and  
 - never wrote directly to live directive weights.  
 
@@ -52,7 +52,7 @@ Bricky summarized the situation:
 
 ## 3. Plan Step 1 — Conceptual Retirement (MAP-Style)
 
-The Annex, taking inspiration from the Managed Absence Protocol, first reclassified FeelingSeeder’s status instead of stopping it.  
+The Annex, taking inspiration from the [[limericks/LIM-LLG-0324-MAP|Managed Absence Protocol]], first reclassified FeelingSeeder’s status instead of stopping it.  
 
 Formal designation:
 

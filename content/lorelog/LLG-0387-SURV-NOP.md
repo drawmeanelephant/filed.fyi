@@ -22,7 +22,7 @@ One dissenting note asked whether certification had become confidence in the han
 
 **The notes remain attached but are not headline-visible.**
 
-Sealward Proxy-9 certified the visit as complete under conditional witness continuity. The mark was accepted without supplementary scope reconstruction. Subsequent reviewers have treated this as routine, which is the principal reason the appeal remains open.
+[[limericks/LIM-SEALWARD-PROXY-0009|Sealward Proxy-9]] certified the visit as complete under conditional witness continuity. The mark was accepted without supplementary scope reconstruction. Subsequent reviewers have treated this as routine, which is the principal reason the appeal remains open.
 
 ## Related Aphorisms
 

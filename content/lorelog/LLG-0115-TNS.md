@@ -9,7 +9,7 @@ relations: [relates_to=lorelog/LLG-0051-E, relates_to=lorelog/LLG-0052-MFX, rela
 
 # SOMA Tone Normalization Sweep — HTTP Liaison Appointment
 
-SOMA-14's most recent revision invited filers to describe their emotional baseline "in their own words." Within two calibration cycles, "their own words" substantially exceeded the registry's ability to categorize, color, or politely ignore them.
+[[limericks/LIM-LLG-0114-SOMA|SOMA-14]]'s most recent revision invited filers to describe their emotional baseline "in their own words." Within two calibration cycles, "their own words" substantially exceeded the registry's ability to categorize, color, or politely ignore them.
 
 Dashboards began shading entire quarters as "complex," a state that does not meaningfully drive interventions.
 
@@ -62,7 +62,7 @@ The Sweep produced two main artifacts:
 
    - Preferred phrasing patterns (single-vector states, time bounds).  
    - Handling of feelings about feelings as "Emotional Dependency Chains," with an upper tolerance threshold before specialist review.  
-   - A mapping scheme that keeps emergent feelings verbatim in Lorelog but coerces them into one of sixteen sanctioned categories for visualization.
+   - A mapping scheme that keeps emergent feelings verbatim in [[lorelog|Lorelog]] but coerces them into one of sixteen sanctioned categories for visualization.
 
    It also includes etiquette directives:
 
@@ -72,7 +72,7 @@ The Sweep produced two main artifacts:
 
    These were added after a sample of 200 forms suggested a trend toward "reverse care," in which filers expressed concern for the questionnaire's burden.
 
-2. **Appointment of HTTP Status Liaison (Teapotta Protocol, 418)**  
+2. **Appointment of HTTP Status Liaison ([[limericks/LIM-0218|Teapotta Protocol]], 418)**  
    To handle increasing use of HTTP metaphors in SOMA-14 responses, the Registry created a liaison role and appointed Teapotta Protocol (418) as its first occupant.
 
    The Liaison's responsibilities include:
@@ -90,13 +90,13 @@ The Sweep produced two main artifacts:
 TNS formalized several routing patterns for problematic feeling constructions:
 
 - **Unprocessable Emotional Entity (`422-EF`)**  
-  Responses such as "I don't know what this is; I just know it's wrong" are recorded verbatim, then flagged as `422-EF` and forwarded to Form Sister Pale.  
+  Responses such as "I don't know what this is; I just know it's wrong" are recorded verbatim, then flagged as `422-EF` and forwarded to [[limericks/LIM-0092|Form Sister Pale]].  
   Sister Pale is empowered to mark such entries "acknowledged, not normalized," which preserves them in case files while excluding them from aggregate metrics.
 
 - **Failed Feeling Dependency (`424-EFD`)**  
   Multi-layer feelings (feelings about feelings in response to forms about feelings) are treated as dependency chains.  
   When chain length exceeds three, the final node is logged as `424-EFD` and associated upstream filings are recommended for review "in any order that feels least threatening."  
-  The Second Domino is formally listed as "sympathetic observer" in these cases.
+  [[limericks/LIM-0224|The Second Domino]] is formally listed as "sympathetic observer" in these cases.
 
 - **Lost-in-Transit Affect (`404-AF`)**  
   Free-text responses that cannot be reliably parsed by any directive are tagged `404-AF` and accompanied by a standard note:  

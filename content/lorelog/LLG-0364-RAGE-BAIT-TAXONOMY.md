@@ -17,10 +17,10 @@ The taxonomy exists because RAGE intake previously relied on descriptions such a
 Current operational families include:
 
 - **B-2A — Reply Surface Escalation:** A reply or comment surface becomes more emotionally determinative than the originating object, often by foregrounding maximum-friction responses
-- **B-2B — Ghost Audience Awareness:** The anticipated judgment of an ambient audience produces defensive drafting, pre-activation, or silence before any visible confrontation occurs
-- **B-3A — Civic Substitution Loop:** Legitimate concern is repeatedly satisfied through engagement behavior until platform participation begins standing in for local participation
+- **B-2B — [[haikus/HAI-LLG-0371-BAIT-B2B|Ghost Audience Awareness]]:** The anticipated judgment of an ambient audience produces defensive drafting, pre-activation, or silence before any visible confrontation occurs
+- **B-3A — [[haikus/HAI-LLG-0367-BAIT-B3A|Civic Substitution Loop]]:** Legitimate concern is repeatedly satisfied through engagement behavior until platform participation begins standing in for local participation
 - **B-4A — Ambient Threat Maintenance:** Fragmented updates, previews, and partial signals keep a topic experientially urgent without giving it enough closure to leave
-- **B-5 — Mirror Outrage:** Visible proof that others are angry increases certainty and activation without materially adding to the underlying event record
+- **B-5 — [[haikus/HAI-LLG-0372-BAIT-B5|Mirror Outrage]]:** Visible proof that others are angry increases certainty and activation without materially adding to the underlying event record
 
 Additional patterns may be added only when staff can distinguish a recurring mechanism from a new name for being upset online. This condition has not prevented early proposals.
 

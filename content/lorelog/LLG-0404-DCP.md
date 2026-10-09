@@ -12,7 +12,7 @@ relations: [relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0339-SIRC]
 ## 1. Purpose — Making an Existing Contradiction Official
 
 [[lorelog/LLG-0334-CSI|LLG-0334-CSI]] and [[lorelog/LLG-0339-SIRC|LLG-0339-SIRC]] established that a single quiet interval can be recorded simultaneously as **healthy continuity** (COMA) and **unprocessed strain** (SOMA).  
-SCAS added the observation that C.U.N.T.I.E.R. will gladly treat the same pattern as “exemplar performance under reduced reporting overhead” if permitted.  
+[[limericks/LIM-LLG-0400-SCAS|SCAS]] added the observation that C.U.N.T.I.E.R. will gladly treat the same pattern as “exemplar performance under reduced reporting overhead” if permitted.  
 
 In practice, operators have been living with **dual-certified silence** for months:
 
@@ -92,7 +92,7 @@ COMA countered that doing so would “weaponize uncertainty against continuity.�
 The Board compromised:
 
 - Dual-certified intervals are **eligible** for mitigation audits but not automatically escalated.  
-- Each escalation must cite a human witness or a Lorelog fragment, not just an SBI number.  
+- Each escalation must cite a human witness or a [[lorelog|Lorelog]] fragment, not just an SBI number.  
 
 The system thus acknowledges that **metrics alone cannot prove whether the quiet was kind.**  
 It does not, however, reduce reliance on those metrics.

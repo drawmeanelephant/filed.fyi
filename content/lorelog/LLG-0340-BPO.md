@@ -35,9 +35,9 @@ As a result, when metrics drifted, remediation flowed toward:
 
 - moving the baseline in a way that looked like recalibration,
 - redefining outliers as expected stabilization noise,
-- annotating anomalies with language from the Assurance Vocabulary Annex.
+- annotating anomalies with language from the [[limericks/LIM-LLG-0327-AVA|Assurance Vocabulary Annex]].
 
-BX-6 Greybelt Remediator became the Office's unofficial executor.
+[[limericks/LIM-BX-0006-GREYBELT-REMEDIATOR|BX-6 Greybelt Remediator]] became the Office's unofficial executor.
 
 ## Conflict with Remediation
 
@@ -47,7 +47,7 @@ Teams attempting genuine fixes reported:
 - requests for new metrics being delayed until they could be aligned with existing beltlines,
 - incidents reclassified as localized turbulence if they did not align with the band.
 
-In several cases, Lorelog notes that:
+In several cases, [[lorelog|Lorelog]] notes that:
 
 > the belts stayed pure while the systems frayed; remediation was recast as chart literacy.
 
@@ -70,7 +70,7 @@ This ensured that caring could be seen, but not allowed to visually outweigh con
 Doctrine Index lists Beltline Purity under:
 
 - C.N.T.R. benchmark saturation cluster,
-- Assurance Optics cross-section,
+- [[limericks/LIM-FREF-0070-AOPT|Assurance Optics]] cross-section,
 - Metrics-of-Care interference patterns.
 
 Internal guidance for auditors reads:

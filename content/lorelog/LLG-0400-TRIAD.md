@@ -57,7 +57,7 @@ The comfort narrative is not malicious; it is procedural. The dossier satisfies 
 
 ### Archive Position
 
-Lorelog records what the comfort narrative does not: a collapse of study continuity that is functionally unresolvable without reconstructing raw provenance that no longer exists.
+[[lorelog|Lorelog]] records what the comfort narrative does not: a collapse of study continuity that is functionally unresolvable without reconstructing raw provenance that no longer exists.
 
 - **What actually happened**: Raw instrument logs were truncated or aliased; negative-control datasets were replaced by summary statements; single WBA runs were split into multiple study identities after the fact to meet release schedules. The result is a set of artifacts that are internally consistent within their lanes but inconsistent across the experimental whole.
 
@@ -73,7 +73,7 @@ Lorelog therefore records this as contested and unresolvable: not because the do
 
 ### Field Note
 
-Bricky Goldbricksworth & Kindy McExistentialcrisis (joint):  
+[[limericks/LIM-0049|Bricky Goldbricksworth]] & Kindy McExistentialcrisis (joint):  
 "Paperwork can be a cathedral and a mausoleum at once. We keep the signatures and the stamps because they teach a caution: compliance without provenance is a brittle peace. Archive this as a warning — not a template. If you must split a run into two study numbers, mark the seam in raw traces, not just in a cover letter. The triad rhymes; do not let the rhyme become a lullaby."
 
 ## Related Aphorisms

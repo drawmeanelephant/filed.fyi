@@ -13,7 +13,7 @@ Form COMA-19 exists to legitimize short, necessary periods of idleness without b
 
 Following the Idle-Time Amnesty Overuse incident ([[lorelog/LLG-0019-COMA|LLG-0019-COMA]]), in which teams pre-filed COMA-19 across entire weeks "for safety," the Uptime Ethics Committee requested a tighter handle on what counted as valid justification.
 
-The Committee concluded that "most of the overuse was semantic" and commissioned a **Phrasebook Clarification (PBC)** to align rest language with COMA's continuity objectives.
+The Committee concluded that "most of the overuse was semantic" and commissioned a **[[limericks/LIM-FREF-0650-PBC|Phrasebook Clarification (PBC)]]** to align rest language with COMA's continuity objectives.
 
 ---
 
@@ -37,7 +37,7 @@ SOMA representatives requested simpler wording. The Committee declined, citing t
 
 ## Interaction with SOMA-72
 
-Because SOMA-72 rest requests often reference feelings directly, PBC instructs COMA staff to:
+Because [[limericks/LIM-LLG-0072-SOMA|SOMA-72]] rest requests often reference feelings directly, PBC instructs COMA staff to:
 
 - Treat SOMA-72 language as context, not as COMA-19 justification.  
 - Prefer internal COMA-19 phrasing even when SOMA-72 describes the situation more accurately.  

@@ -10,7 +10,7 @@ tags: ["lorelog", "sandbox-scope-creep", "experiment-governance", "continuity-th
 
 ## 1. Problem Statement — Experiments That Outlive Their Hypothesis
 
-SCAS started as a four-day synthetic trial.  
+[[limericks/LIM-LLG-0400-SCAS|SCAS]] started as a four-day synthetic trial.  
 It ended (or failed to end) as an unacknowledged training corpus that reshaped real directive behavior.  
 
 Other experiments show similar tendencies:
@@ -32,7 +32,7 @@ A sandbox trial crosses the **Dependence Threshold** when:
 
 At this point:
 
-- The experiment must start filing Lorelog entries under a real LLG number, not just internal trial IDs.  
+- The experiment must start filing [[lorelog|Lorelog]] entries under a real LLG number, not just internal trial IDs.  
 - The words “for research only” lose their protective power; feelings shaped by the trial are now part of production reality.  
 
 SOMA supports this rule.  

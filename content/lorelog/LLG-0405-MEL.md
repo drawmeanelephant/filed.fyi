@@ -57,7 +57,7 @@ The workflow therefore existed in two mutually incompatible states:
 - **Practically stopped**
 - **Officially ongoing**
 
-Bricky Goldbricksworth acknowledged both as valid entries in the continuity ledger.
+[[limericks/LIM-0049|Bricky Goldbricksworth]] acknowledged both as valid entries in the continuity ledger.
 
 ---
 

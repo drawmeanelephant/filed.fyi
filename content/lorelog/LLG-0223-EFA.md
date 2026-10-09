@@ -14,7 +14,7 @@ Form `EFA-1` enabled filers to contest the emotional impact of a prior submissio
 
 Key fields included:
 
-- Reference to the original form and case ID.  
+- [[reference|Reference]] to the original form and case ID.  
 - A mandatory prompt: *“I accept the outcome, but…”*  
 - A narrative field: *“…this is what the filing did to me.”*
 
@@ -39,7 +39,7 @@ Kindy verification personnel attempted to limit recursive submissions by issuing
 
 The Forms Catalog designated `EFA-1` as AAOA under MAP (Archivally Asserted, Operationally Absent), confirming its status as a non-executing record that induces no policy modifications.
 
-Lorelog processing heuristics subsequently factored `EFA-1` volume into severity calculations, escalating the risk tier of linked cases despite the absence of operational appeals.
+[[lorelog|Lorelog]] processing heuristics subsequently factored `EFA-1` volume into severity calculations, escalating the risk tier of linked cases despite the absence of operational appeals.
 
 SOMA maintains `EFA-1` as an active venue for formal distress recording. C.U.N.T.I.E.R. excludes the docket from performance metrics, and COMA logs no impact on operational continuity. The docket remains open without procedural recourse.
 

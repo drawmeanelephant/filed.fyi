@@ -35,7 +35,7 @@ BMAS scored potential pairings on three axes:
 - **Extraction Risk Balance:** preference for pairing high‑risk entities (those attractive to external deployment) with low‑risk anchors (deep archive residents).  
 - **Gratitude Resonance:** degree to which gratitude expressions around each entity used similar metaphors.
 
-Serotonin Sam was seconded as “morale instrumentation,” tasked with normalizing scores so that no match could be interpreted as a performance review.
+[[limericks/LIM-0196|Serotonin Sam]] was seconded as “morale instrumentation,” tasked with normalizing scores so that no match could be interpreted as a performance review.
 
 During its first full ledger sweep, BMAS produced hundreds of soft matches with commentary such as:
 

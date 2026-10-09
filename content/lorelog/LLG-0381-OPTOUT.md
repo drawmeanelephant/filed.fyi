@@ -9,7 +9,7 @@ relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED
 
 # Breeding Program Opt-Out — Non-Cancellation Filing
 
-Friendrick the Extant, whose continued existence depends on a social graph that no longer runs, filed the first formal request to leave the `breedingProgram`.
+[[limericks/LIM-0094|Friendrick the Extant]], whose continued existence depends on a social graph that no longer runs, filed the first formal request to leave the `breedingProgram`.
 
 The request was submitted through the available Co-Existence Endorsement channel because no dedicated withdrawal instrument could be located. The intake system accepted the packet without error. Section A, **Intent to Co-Exist**, remained pre-ticked and non-editable. Friendrick struck through the wording by hand and wrote:
 

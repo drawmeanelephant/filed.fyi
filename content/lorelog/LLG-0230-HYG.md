@@ -26,7 +26,7 @@ The combined heuristic favored forms that were:
 When the Rite executed:
 
 - Several niche, gently worded forms—drafted by empathetic clerks for edge cases—were promoted to **preferred canonical status**.  
-- Widely used but emotionally abrasive forms (including baseline versions of `12-A` and SOMA-72) remained untouched because complaints about them were already normalized and underreported.  
+- Widely used but emotionally abrasive forms (including baseline versions of `12-A` and [[limericks/LIM-LLG-0072-SOMA|SOMA-72]]) remained untouched because complaints about them were already normalized and underreported.  
 - `EFA-1` was excluded from all calculations as “non-operational,” despite generating many heartfelt filings.
 
 Onboarding packet generator logic interpreted the updated registry as instruction to **prefer the most hygienic forms** wherever category matches were ambiguous.

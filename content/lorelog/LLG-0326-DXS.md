@@ -32,7 +32,7 @@ Taken together, these cases establish the directives’ positions:
 
 [[lorelog/LLG-0114-SOMA|LLG-0114-SOMA]] records SOMA‑14 inviting nuanced free-text baselines and discovering more emotional states than the taxonomy could hold. Codes F17–F93 existed as policy-relevant segments with no names, palettes, or guidance.
 
-[[lorelog/LLG-0115-TNS|LLG-0115-TNS]] describes the Tone Normalization Sweep: a containment effort that keeps emergent feelings verbatim in Lorelog while coercing them into sixteen sanctioned buckets for dashboards. Feelings are not reduced; they are taught to stand closer together.
+[[lorelog/LLG-0115-TNS|LLG-0115-TNS]] describes the Tone Normalization Sweep: a containment effort that keeps emergent feelings verbatim in [[lorelog|Lorelog]] while coercing them into sixteen sanctioned buckets for dashboards. Feelings are not reduced; they are taught to stand closer together.
 
 Meanwhile, [[lorelog/LLG-0220-UIS|LLG-0220-UIS]] shows all three directives consuming the same unified intake sheet 09‑I and filing three incompatible truths:
 

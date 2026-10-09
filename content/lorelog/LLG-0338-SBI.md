@@ -17,7 +17,7 @@ The initial model combined three factors:
 
 - Duration of uninterrupted activity.  
 - Historical complaint rate for the team in question.  
-- Volume of “almost incidents” noted in Lorelog margins and not formally filed.
+- Volume of “almost incidents” noted in [[lorelog|Lorelog]] margins and not formally filed.
 
 ---
 

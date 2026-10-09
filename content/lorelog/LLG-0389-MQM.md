@@ -20,7 +20,7 @@ Witness notes indicate that no one objected immediately because the inflated quo
 
 > We have enough history to pass this, but not enough bodies.
 
-Sister Casserole of Relief was asked to review the ledger because she already maintains the distinction between active service and remembered service in supper records. Her finding was narrow and devastating: **memorial presence may stabilize tone, but it cannot stabilize arithmetic** unless the room explicitly chooses ceremonial counting and records that choice without euphemism.
+[[limericks/LIM-0203|Sister Casserole of Relief]] was asked to review the ledger because she already maintains the distinction between active service and remembered service in supper records. Her finding was narrow and devastating: **memorial presence may stabilize tone, but it cannot stabilize arithmetic** unless the room explicitly chooses ceremonial counting and records that choice without euphemism.
 
 Temporary handling guidance was entered as follows:
 - Names read in honor remain visible but must render outside quorum logic.

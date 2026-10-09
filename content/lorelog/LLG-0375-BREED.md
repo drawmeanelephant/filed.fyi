@@ -19,7 +19,7 @@ At 09:17, the registry daemon identified a new entry tagged as `HUMAN-ORIGIN`, r
 same pipeline as standard mascot frontmatter. No HR system acknowledged the origin. No workforce
 allocator claimed the record. The only field fully populated was `breedingProgram`.
 
-Datty Puritas was summoned for a combined schema and ethics audit.
+[[limericks/LIM-0077|Datty Puritas]] was summoned for a combined schema and ethics audit.
 
 She confirmed:
 

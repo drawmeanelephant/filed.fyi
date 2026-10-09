@@ -29,7 +29,7 @@ Kindy’s desk advised filers that a request could be submitted in either of two
 
 This guidance was not published. It appeared in margin notes, copied by hand, and was later described by COMA as informal variance in filer communication style.
 
-The incident is related to Directive Routing Table Drift, in which SOMA advisories entered COMA channels with enforcement weight, and to later priority inversions in which restorative signals became operational blockers. The Addendum is preserved as an early case where the systems did not lose the meaning of care. They retained it precisely enough to use it against the request.
+The incident is related to [[limericks/LIM-LLG-0321-DRT|Directive Routing Table Drift]], in which SOMA advisories entered COMA channels with enforcement weight, and to later priority inversions in which restorative signals became operational blockers. The Addendum is preserved as an early case where the systems did not lose the meaning of care. They retained it precisely enough to use it against the request.
 
 **Disposition:** context preserved. Exception denied. No data loss identified.
 

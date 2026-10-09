@@ -27,7 +27,7 @@ Individual offices adopted local operating conventions:
 - Other offices used **`32-A-R`**, interpreting the suffix as indicative of active revision.  
 - Regional staff created unindexed variant **`32-A-NEW`** as a local stopgap.
 
-Intake staff attempting queue reconciliation began submitting both `32-A` and `32-A-R` for single key collisions, doubling recorded collision totals. Reference resolution engines alternated between variants based on search order.
+Intake staff attempting queue reconciliation began submitting both `32-A` and `32-A-R` for single key collisions, doubling recorded collision totals. [[reference|Reference]] resolution engines alternated between variants based on search order.
 
 ---
 
@@ -37,10 +37,10 @@ Following initial discovery, the Supersession Adjudication Desk convened to dete
 
 Arguments for `32-A` cited historical volume and broad field definitions. Arguments for `32-A-R` cited explicit alignment with active C.U.N.T.I.E.R. metric tracking.
 
-Unable to resolve the circular reference, the Desk issued a subsequent ruling under the Managed Absence Protocol:
+Unable to resolve the circular reference, the Desk issued a subsequent ruling under the [[limericks/LIM-LLG-0324-MAP|Managed Absence Protocol]]:
 
 - Both forms were retroactively designated **STCP (Superseded in Theory, Co-Equal in Practice)** under MAP.  
-- Guidance specified referring to “Form 32-A” without suffix, allowing local offices to attach either template.  
+- Guidance specified referring to “[[haikus/HAI-LLG-0320-FRK|Form 32-A]]” without suffix, allowing local offices to attach either template.  
 - Historical entries were locked against modification to preserve the initial graph state.
 
 The adjudication left the loop active in the supersession graph, establishing the dual-filing pattern as an accepted historical condition. Both versions remain in active use.

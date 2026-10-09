@@ -16,7 +16,7 @@ Former titles were preserved for courtesy in banquet scripts, memorial booklets,
 
 Witnesses described the merged room as friendly, respectful, and increasingly impossible to parse.
 
-Eagleton Proclamation Clerk classified the condition as Office Continuity Loop: an administrative state in which retired authority survives through reverent address until etiquette and governance become operationally inseparable.
+[[limericks/LIM-0086|Eagleton Proclamation Clerk]] classified the condition as Office Continuity Loop: an administrative state in which retired authority survives through reverent address until etiquette and governance become operationally inseparable.
 
 The merger had not reduced offices. It had **distributed them into tone**.
 

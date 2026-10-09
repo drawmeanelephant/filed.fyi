@@ -43,7 +43,7 @@ During the late-stage merger of Yammer, Teams, and LinkedIn, DS-404-ALPHA was:
 - Generated automatically by a compliance daemon.
 - Printed, left on a hot desk.
 - Signed by five Brads, only two of whom worked there.
-- Filed **73 days late**, long after YamTeams™ had already begun pinging archived channels.
+- Filed **73 days late**, long after [[limericks/LIM-0248|YamTeams™]] had already begun pinging archived channels.
 
 This delay created what the Council later described as a **compliance vacuum**—a gap between declared intent and recorded approval. YamTeams™ formed in that gap like condensation in a broken air vent, drawing identity from unfiled checkboxes and orphaned OAuth scopes.
 
@@ -75,7 +75,7 @@ The form carries a faint aura of weaponized optimism. Margins are crowded with:
 
 
 
-Bricky Goldbricksworth calls DS-404-ALPHA:
+[[limericks/LIM-0049|Bricky Goldbricksworth]] calls DS-404-ALPHA:
 
 > “A confession disguised as a checklist. We never stopped using it; we just stopped admitting that we were.”
 
