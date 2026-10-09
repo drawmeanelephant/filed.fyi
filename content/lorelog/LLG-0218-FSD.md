@@ -19,13 +19,13 @@ Two weeks later, Lorelog pre-intake screening began receiving references to **A-
 
 ## Discovery
 
-The anomaly surfaced when a clerk attempted to attach **Form 51-E-A** to an emotional verification case.
+The anomaly surfaced when a clerk attempted to attach **Form `51-E-A`** to an emotional verification case.
 
-- The canonical Form 51-E was present and unchanged.  
-- The registry showed no record of any 51-E-A.  
+- The canonical Form `51-E` was present and unchanged.  
+- The registry showed no record of any `51-E-A`.  
 - The attached document, however, used official formatting and claimed to be “the first amendment to Form 51-E, clarifying feelings about recursive feelings.”
 
-Investigation revealed that several shadow drafts, deactivated during LLG-0244-FSC, had continued to be used informally as **editing surfaces**.
+Investigation revealed that several shadow drafts, deactivated during [[lorelog/LLG-0244-FSC|LLG-0244-FSC]], had continued to be used informally as **editing surfaces**.
 
 When filers discovered they could no longer submit these drafts directly, they began appending “-A”, “-B”, or “-C” to the titles and treating them as unofficial amendments to the last form they remembered using.
 
@@ -40,7 +40,7 @@ Shadow amendments thus acquired **real** amendment chains and case numbers witho
 Within one audit cycle:
 
 - Thirteen known forms had at least one shadow amendment in circulation.  
-- Three (including 27-B and 40-C) had more shadow amendments than approved revisions.  
+- Three (including `27-B` and `40-C`) had more shadow amendments than approved revisions.  
 - Several Lorelog records cited requirements that existed only in these amendment echoes.
 
 Bricky attempted to quarantine the entire amendment chain by tagging them as “commentary only,” but downstream systems treated the tag as **decorative** and continued to enforce their contents wherever referenced.
@@ -54,7 +54,7 @@ Forms classification now distinguishes between:
 
 Resolution is marked **pending** while the Catalog decides whether to admit the echo chain into doctrine or pretend it is ambient commentary.
 
-Archive position: Shadow drafts transitioned from LCGU (locally canonical) to CAAR (conceptually active, administratively retired) once Datty noticed them, governed by Managed Absence Spine (LLG-0324-MAP) doctrine.
+**Archive position:** Shadow drafts transitioned from LCGU (locally canonical) to CAAR (conceptually active, administratively retired) once Datty noticed them, governed by Managed Absence Spine ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]) doctrine.
 
 ## Related Aphorisms
 
