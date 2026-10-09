@@ -14,7 +14,7 @@ The doctrine exists because queue systems often fail decoratively before they fa
 
 ## Foundational rule
 
-A queue may remain operationally persuasive after it has ceased being operationally trustworthy.
+A queue may remain **operationally persuasive after it has ceased being operationally trustworthy**.
 
 Persuasion here includes:
 - timely acknowledgment
