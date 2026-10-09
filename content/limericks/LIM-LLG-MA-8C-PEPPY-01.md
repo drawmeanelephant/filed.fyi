@@ -85,4 +85,4 @@ So the cluster now keeps, without shame,
 Every version that argues its claim.  
 Steamless steam, absent pipes,  
 Waving forms, glove-count gripes:  
-Peppy wins by outlasting the name.
+**Peppy wins by outlasting the name.**

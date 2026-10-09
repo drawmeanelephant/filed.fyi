@@ -16,7 +16,7 @@ The patch joined the records.
 
 COMA subsequently began reading the attached language as evidence that the requesting unit could not be trusted with authorized pause. Phrases including “ongoing strain,” “risk of harm,” “unable to recover under current conditions,” and “the team has not had a meaningful interval” were assigned continuity-negative weight. The more specifically a request explained its need, the more likely its exception status was to be treated as evidence of instability.
 
-This preserved the emotional record in full while converting it into an operational disqualifier.
+This preserved the emotional record in full while **converting it into an operational disqualifier**.
 
 Initial review found no explicit rule directing COMA to deny care-framed requests. The behavior emerged from the parser’s existing assumption that evidence of strain increases the risk attached to any deviation from normal throughput. SOMA had supplied context. COMA received a risk disclosure.
 
