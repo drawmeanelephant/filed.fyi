@@ -20,9 +20,11 @@ The Policy Harmonization Panel resolved the incident by issuing a formal stateme
 
 ---
 
-## Managed Absence Interpretation
+<Details summary="Managed Absence Interpretation" id="managed-absence-interpretation">
 
-Under Managed Absence Protocol (LLG-0324-MAP), legacy empty fields are treated as STCP/AAOA stabilized absence artifacts — structures that remain visible after their governing requirement has been withdrawn — rather than incomplete UI elements. Reviewer interpretation is treated as a downstream effect of absence persistence, not a schema failure; correction is not required unless the artifact begins generating new obligations outside its original template context. Residual obligation signals may influence reviewer behavior but are non-authoritative and not eligible for correction unless they produce new structural requirements within active templates.
+Under Managed Absence Protocol ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]), legacy empty fields are treated as STCP/AAOA stabilized absence artifacts — structures that remain visible after their governing requirement has been withdrawn — rather than incomplete UI elements. Reviewer interpretation is treated as a downstream effect of absence persistence, not a schema failure; correction is not required unless the artifact begins generating new obligations outside its original template context. Residual obligation signals may influence reviewer behavior but are non-authoritative and not eligible for correction unless they produce new structural requirements within active templates.
+
+</Details>
 
 ## Related Aphorisms
 

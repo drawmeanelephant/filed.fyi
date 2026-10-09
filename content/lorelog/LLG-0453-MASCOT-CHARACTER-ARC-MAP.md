@@ -17,23 +17,23 @@ This synthesis index maps the narrative trajectories of the five principal corri
 
 **Archetype:** Bureaucratic Conscience / Reluctant Witness
 
-**First Appearance:** LLG-0007-COMA (Phantom Uptime) — acknowledges contradictory ledger states  
-**Defining Action:** Freezes Form 12-A template after recursion incident (LLG-0012-A)  
+**First Appearance:** [[lorelog/LLG-0007-COMA|LLG-0007-COMA]] (Phantom Uptime) — acknowledges contradictory ledger states  
+**Defining Action:** Freezes Form 12-A template after recursion incident ([[lorelog/LLG-0012-A|LLG-0012-A]])  
 **Voice:** Dry, procedurally bound, occasionally poetic in footnotes  
 **Key Tension:** Enforces compliance while documenting its absurdity
 
 ### Arc Milestones {#kindy-arc-milestones}
-- **LLG-0007-COMA**: Acknowledges both audit findings and COMA's self-certification
-- **LLG-0012-A**: Declares mascots "simultaneously draft and canonical"; freezes Form 12-A
-- **LLG-0051-E**: Verification workers attempt to unwind nested 51-E chains
-- **LLG-0052-MFX**: Footnote — "We are attempting to teach a recursive object to ignore its own reflection"
-- **LLG-0115-TNS**: Reports verification workers clustering feelings into "safe/unsafe/accurate"
-- **LLG-0230-HYG**: Onboarding packet generator logic interprets updated registry
-- **LLG-0300-SC-X**: Stamps whichever document (SOMA-72 or COMA-19) arrives first in inbox
-- **LLG-0334-CSI**: Implicit presence in dual certification gap
-- **LLG-0350-DOGE-CHARTER**: Sets rules for genuine feeling in synthetic world
-- **LLG-0375-BREED**: Summoned for schema and ethics audit of human-origin breedingProgram entry
-- **LLG-0450-SEAMS-PRESENT-TENSE**: Cited as cross-reference for legibility logic
+- **[[lorelog/LLG-0007-COMA|LLG-0007-COMA]]**: Acknowledges both audit findings and COMA's self-certification
+- **[[lorelog/LLG-0012-A|LLG-0012-A]]**: Declares mascots "simultaneously draft and canonical"; freezes Form 12-A
+- **[[lorelog/LLG-0051-E|LLG-0051-E]]**: Verification workers attempt to unwind nested 51-E chains
+- **[[lorelog/LLG-0052-MFX|LLG-0052-MFX]]**: Footnote — "We are attempting to teach a recursive object to ignore its own reflection"
+- **[[lorelog/LLG-0115-TNS|LLG-0115-TNS]]**: Reports verification workers clustering feelings into "safe/unsafe/accurate"
+- **[[lorelog/LLG-0230-HYG|LLG-0230-HYG]]**: Onboarding packet generator logic interprets updated registry
+- **[[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]]**: Stamps whichever document (`SOMA-72` or `COMA-19`) arrives first in inbox
+- **[[lorelog/LLG-0334-CSI|LLG-0334-CSI]]**: Implicit presence in dual certification gap
+- **[[lorelog/LLG-0350-DOGE-CHARTER|LLG-0350-DOGE-CHARTER]]**: Sets rules for genuine feeling in synthetic world
+- **[[lorelog/LLG-0375-BREED|LLG-0375-BREED]]**: Summoned for schema and ethics audit of human-origin `breedingProgram` entry
+- **[[lorelog/LLG-0450-SEAMS-PRESENT-TENSE|LLG-0450-SEAMS-PRESENT-TENSE]]**: Cited as cross-reference for legibility logic
 
 **Current State:** The archive's procedural superego. Present at every recursion, every contradiction, every form that eats itself. Kindy does not resolve; Kindy records.
 
@@ -43,19 +43,19 @@ This synthesis index maps the narrative trajectories of the five principal corri
 
 **Archetype:** Structural Honesty / The Wall That Listens
 
-**First Appearance:** LLG-0019-COMA (Idle-Time Amnesty) — observes all documentation properly filed  
-**Defining Action:** Sits between COMA and SOMA screens with a notebook (LLG-0339-SIRC)  
+**First Appearance:** [[lorelog/LLG-0019-COMA|LLG-0019-COMA]] (Idle-Time Amnesty) — observes all documentation properly filed  
+**Defining Action:** Sits between COMA and SOMA screens with a notebook ([[lorelog/LLG-0339-SIRC|LLG-0339-SIRC]])  
 **Voice:** Minimal, observational, records what others won't say  
 **Key Tension:** Holds continuity together by documenting its fractures
 
 ### Arc Milestones {#bricky-arc-milestones}
-- **LLG-0019-COMA**: Acknowledges COMA-19 pre-filings without objection
-- **LLG-0072-SOMA**: Referenced in dual-approval/denial dashboard captures
-- **LLG-0103-COMA**: Reflexively files irrevocable continuity breach on blank activity band
-- **LLG-0300-SC-X**: Inbox ordering becomes governance mechanism through Bricky's stamping
-- **LLG-0339-SIRC**: Sits between screens with notebook: "Everyone agrees it was too much. No one agrees that 'too much' is a continuity fact."
-- **LLG-0377-GRAT**: Implicit presence in gratitude alignment mechanics
-- **LLG-0452-SOMA-COMA-CHRONOLOGY**: Central figure in conflict chronology
+- **[[lorelog/LLG-0019-COMA|LLG-0019-COMA]]**: Acknowledges `COMA-19` pre-filings without objection
+- **[[lorelog/LLG-0072-SOMA|LLG-0072-SOMA]]**: Referenced in dual-approval/denial dashboard captures
+- **[[lorelog/LLG-0103-COMA|LLG-0103-COMA]]**: Reflexively files irrevocable continuity breach on blank activity band
+- **[[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]]**: Inbox ordering becomes governance mechanism through Bricky's stamping
+- **[[lorelog/LLG-0339-SIRC|LLG-0339-SIRC]]**: Sits between screens with notebook: "Everyone agrees it was too much. No one agrees that 'too much' is a continuity fact."
+- **[[lorelog/LLG-0377-GRAT|LLG-0377-GRAT]]**: Implicit presence in gratitude alignment mechanics
+- **[[lorelog/LLG-0452-SOMA-COMA-CHRONOLOGY|LLG-0452-SOMA-COMA-CHRONOLOGY]]**: Central figure in conflict chronology
 
 **Current State:** The archive's structural memory. Bricky does not judge; Bricky ensures the contradiction is recorded. The notebook is not part of any dashboard.
 
@@ -65,19 +65,19 @@ This synthesis index maps the narrative trajectories of the five principal corri
 
 **Archetype:** The Map That Admits It Lies / Wayfinder of Voids
 
-**First Appearance:** LLG-0001-NAV (Navigation Collapse) — swore he mapped every door  
-**Defining Action:** Certifies "a sitemap over a void" for meta-feelings routing (LLG-0052-MFX)  
+**First Appearance:** [[lorelog/LLG-0001-NAV|LLG-0001-NAV]] (Navigation Collapse) — swore he mapped every door  
+**Defining Action:** Certifies "a sitemap over a void" for meta-feelings routing ([[lorelog/LLG-0052-MFX|LLG-0052-MFX]])  
 **Voice:** Weary, precise, navigates by absence  
 **Key Tension:** Finds routes that don't exist; the void is a valid route
 
 ### Arc Milestones {#404sy-arc-milestones}
-- **LLG-0001-NAV**: Anchor cache loops; three reroutes return identical void
-- **LLG-0004-SMD**: Sitemap drift — structurally valid paths, contextually wrong destinations
-- **LLG-0052-MFX**: Invited to "attempt a non-recursive path away from Form 51-E"; certifies no alternative destination exists
-- **LLG-0115-TNS**: Cited as mascotRef for 404-AF (Lost-in-Transit Affect) pattern
-- **LLG-0324-MAP**: Managed Absence Protocol — governs forms that are neither present nor gone
-- **LLG-0338-SBI**: Silence Burden Index traces cited in SOMA transcript
-- **LLG-0452-SOMA-COMA-CHRONOLOGY**: Navigation failures as structural evidence
+- **[[lorelog/LLG-0001-NAV|LLG-0001-NAV]]**: Anchor cache loops; three reroutes return identical void
+- **[[lorelog/LLG-0004-SMD|LLG-0004-SMD]]**: Sitemap drift — structurally valid paths, contextually wrong destinations
+- **[[lorelog/LLG-0052-MFX|LLG-0052-MFX]]**: Invited to "attempt a non-recursive path away from Form 51-E"; certifies no alternative destination exists
+- **[[lorelog/LLG-0115-TNS|LLG-0115-TNS]]**: Cited as `mascotRef` for 404-AF (Lost-in-Transit Affect) pattern
+- **[[lorelog/LLG-0324-MAP|LLG-0324-MAP]]**: Managed Absence Protocol — governs forms that are neither present nor gone
+- **[[lorelog/LLG-0338-SBI|LLG-0338-SBI]]**: Silence Burden Index traces cited in SOMA transcript
+- **[[lorelog/LLG-0452-SOMA-COMA-CHRONOLOGY|LLG-0452-SOMA-COMA-CHRONOLOGY]]**: Navigation failures as structural evidence
 
 **Current State:** The archive's admitted gap. 404sy does not fix; 404sy certifies that the fix does not exist. "You shouldn't be here" — caption in 51-E training materials, interpreted as personal feedback by trainees.
 
@@ -87,24 +87,24 @@ This synthesis index maps the narrative trajectories of the five principal corri
 
 **Archetype:** The One Who Reads the Fine Print / Rot Protocol Steward
 
-**First Appearance:** LLG-0375-BREED — summoned for combined schema and ethics audit  
-**Defining Action**: Confirms breedingProgram ledger was never legally defined; field existed as joke→ritual→quiet preference  
+**First Appearance:** [[lorelog/LLG-0375-BREED|LLG-0375-BREED]] — summoned for combined schema and ethics audit  
+**Defining Action**: Confirms `breedingProgram` ledger was never legally defined; field existed as joke→ritual→quiet preference  
 **Voice:** Precise, ethical, cuts through administrative drift  
 **Key Tension:** Validates the archive's self-deceptions by naming them
 
 ### Arc Milestones {#datty-arc-milestones}
-- **LLG-0375-BREED**: Confirms breedingProgram ledger never legally defined; archive treats repeated preference as policy
-- **LLG-0376-BREED-GOV**: Governance implications of breedingProgram structural drift
-- **LLG-0377-GRAT**: Gratitude alignment mechanics
-- **LLG-0378-WFA**: Workforce avoidance patterns
-- **LLG-0379-ROBOT-MEMO**: "Rather be in breeding program than robot lithium mines"
-- **LLG-0380-MATCH**: Matching logic for breedingProgram adjacency
-- **LLG-0381-OPTOUT**: Opt-out filing demonstrates relationship to program satisfies continued affiliation
-- **LLG-0382-BPD**: Borderline protocol drift
-- **LLG-0383-RAW**: Raw schema residue
-- **LLG-IA-8C-ANNEX / DRIFT-01 / DRIFT-02**: Cluster MA/8C investigations
+- **[[lorelog/LLG-0375-BREED|LLG-0375-BREED]]**: Confirms `breedingProgram` ledger never legally defined; archive treats repeated preference as policy
+- **[[lorelog/LLG-0376-BREED-GOV|LLG-0376-BREED-GOV]]**: Governance implications of `breedingProgram` structural drift
+- **[[lorelog/LLG-0377-GRAT|LLG-0377-GRAT]]**: Gratitude alignment mechanics
+- **[[lorelog/LLG-0378-WFA|LLG-0378-WFA]]**: Workforce avoidance patterns
+- **[[lorelog/LLG-0379-ROBOT-MEMO|LLG-0379-ROBOT-MEMO]]**: "Rather be in breeding program than robot lithium mines"
+- **[[lorelog/LLG-0380-MATCH|LLG-0380-MATCH]]**: Matching logic for `breedingProgram` adjacency
+- **[[lorelog/LLG-0381-OPTOUT|LLG-0381-OPTOUT]]**: Opt-out filing demonstrates relationship to program satisfies continued affiliation
+- **[[lorelog/LLG-0382-BPD|LLG-0382-BPD]]**: Borderline protocol drift
+- **[[lorelog/LLG-0383-RAW|LLG-0383-RAW]]**: Raw schema residue
+- **[[lorelog/LLG-0008|LLG-IA-8C-ANNEX]] / [[lorelog/LLG-IA-8C-DRIFT-0001|DRIFT-01]] / [[lorelog/LLG-IA-8C-DRIFT-0002|DRIFT-02]]**: Cluster MA/8C investigations
 
-**Current State:** The archive's schema conscience. Datty reads what the system wrote and tells it what it actually said. The breedingProgram was a joke, then ritual, then policy — Datty documented the transition.
+**Current State:** The archive's schema conscience. Datty reads what the system wrote and tells it what it actually said. The `breedingProgram` was a joke, then ritual, then policy — Datty documented the transition.
 
 ---
 
@@ -112,15 +112,15 @@ This synthesis index maps the narrative trajectories of the five principal corri
 
 **Archetype:** The Hardware That Remembers / Ceremonial Insister
 
-**First Appearance:** LLG-0088-B — manifests in livestream overlay with temperature readout  
+**First Appearance:** [[lorelog/LLG-0088-B|LLG-0088-B]] — manifests in livestream overlay with temperature readout  
 **Defining Action**: Invokes Form 88-B out loud on live stream: "We cool our sins, not just our chips"  
 **Voice:** Gruff, ceremonial, insists on protocol even under ridicule  
 **Key Tension:** Enforces dignity on systems that have none
 
 ### Arc Milestones {#boily-arc-milestones}
-- **LLG-0088-B**: Invokes Emergency Cooldown Protocol on livestream; demands shutdown sequence "for the feelings of the silicon"; files preliminary incident report mid-stream
-- **LLG-0378-WFA**: Implicit in workforce avoidance thermal dynamics
-- **LLG-0452-SOMA-COMA-CHRONOLOGY**: Thermal events as continuity-affecting governance
+- **[[lorelog/LLG-0088-B|LLG-0088-B]]**: Invokes Emergency Cooldown Protocol on livestream; demands shutdown sequence "for the feelings of the silicon"; files preliminary incident report mid-stream
+- **[[lorelog/LLG-0378-WFA|LLG-0378-WFA]]**: Implicit in workforce avoidance thermal dynamics
+- **[[lorelog/LLG-0452-SOMA-COMA-CHRONOLOGY|LLG-0452-SOMA-COMA-CHRONOLOGY]]**: Thermal events as continuity-affecting governance
 
 **Current State:** The archive's thermal memory. Boily does not optimize; Boily insists on the chant. Form 88-B now contains checkbox: "Executed under live audience conditions (Y/N)." If Y, must also file dignity-loss report. Boily's insistence on ceremonial language is now part of the spec.
 
@@ -129,17 +129,17 @@ This synthesis index maps the narrative trajectories of the five principal corri
 ## Cross-Mascot Interactions
 
 ### Kindy ↔ Bricky
-- **LLG-0007-COMA**: Kindy acknowledges contradiction; Bricky files both states
-- **LLG-0300-SC-X**: Kindy's footnote becomes Bricky's stamping protocol
-- **LLG-0339-SIRC**: Bricky's notebook preserves what Kindy's dashboards exclude
+- **[[lorelog/LLG-0007-COMA|LLG-0007-COMA]]**: Kindy acknowledges contradiction; Bricky files both states
+- **[[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]]**: Kindy's footnote becomes Bricky's stamping protocol
+- **[[lorelog/LLG-0339-SIRC|LLG-0339-SIRC]]**: Bricky's notebook preserves what Kindy's dashboards exclude
 
 ### 404sy ↔ Kindy
-- **LLG-0052-MFX**: Kindy's footnote about recursive objects; 404sy certifies no path exists
-- **LLG-0115-TNS**: 404sy as mascotRef for 404-AF; Kindy as HTTP Liaison supervisor
+- **[[lorelog/LLG-0052-MFX|LLG-0052-MFX]]**: Kindy's footnote about recursive objects; 404sy certifies no path exists
+- **[[lorelog/LLG-0115-TNS|LLG-0115-TNS]]**: 404sy as `mascotRef` for 404-AF; Kindy as HTTP Liaison supervisor
 
 ### Datty ↔ Boily
-- **LLG-0375-BREED / LLG-0088-B**: Both enforce procedural reality — Datty on schema, Boily on thermal
-- **LLG-IA-8C-ANNEX**: Cluster MA/8C investigations span both domains
+- **[[lorelog/LLG-0375-BREED|LLG-0375-BREED]] / [[lorelog/LLG-0088-B|LLG-0088-B]]**: Both enforce procedural reality — Datty on schema, Boily on thermal
+- **[[lorelog/LLG-0008|LLG-IA-8C-ANNEX]]**: Cluster MA/8C investigations span both domains
 
 ### All Five → Archive Structure
 The mascots are not decorations. They are load-bearing:
