@@ -19,7 +19,8 @@ The file has therefore been admitted as a teaching specimen rather than rejected
 4. Prohibit use as a standalone model of truthful closure.
 
 Bricky entered the following margin line:
-A packet can be honest about its sentences and still lie about the weather.
+
+> A packet can be honest about its sentences and still lie about the weather.
 
 No withdrawal from circulation has been ordered. The specimen remains available for summary use, with the understanding that any file this calm must travel beside something less comfortable.
 

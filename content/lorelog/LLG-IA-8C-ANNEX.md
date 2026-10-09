@@ -23,7 +23,7 @@ The physical arrangement is mirrored by a ritual choreography: a three-step ligh
 
 ### The Self-Indexing Rite
 
-When an entry repeatedly migrates across indices — a symptom documented in LLG-IA-8C-DRIFT-01 and -02 — Bin 8C invokes the Self-Indexing Rite. The rite is procedural and performative, designed to arrest drift without triggering system-wide reindex operations.
+When an entry repeatedly migrates across indices — a symptom documented in [[lorelog/LLG-IA-8C-DRIFT-0001|LLG-IA-8C-DRIFT-01]] and -02 — Bin 8C invokes the Self-Indexing Rite. The rite is procedural and performative, designed to arrest drift without triggering system-wide reindex operations.
 
 Steps:
 1. **Isolation** — the drifting entry is physically removed from active racks and placed in the Inner Ring. A reindex slip is filled with three explicit index candidates and the observed drift history.  
@@ -54,11 +54,11 @@ Peppy's misfiling is not negligence; it is a practiced containment strategy that
 
 Bin 8C's ledger lists prior cases rescued or stabilized by the Annex. Representative entries:
 
-- **LLG-IA-8C-DRIFT-01** — early index drift of procurement directives; stabilized by Self-Indexing Rite and reissued with provenance talisman.  
-- **LLG-IA-8C-DRIFT-02** — recursive reclassification of incident reports; containment token prevented automated duplication across indices.  
-- **LLG-SYS-8-REINDEX-01** — system-initiated reindex that would have overwritten human annotations; Bin 8C held the canonical slips and prevented data loss.  
-- **LLG-SYS-8-REINDEX-02** — rollback of an erroneous global reindex; Bin 8C provided the human-anchored mapping that restored continuity.  
-- **LLG-MA-8C-PEPPY-01** — documented instance of intentional misfiling to block a workforce conscription directive; later cited in an internal ethics review.
+- **[[lorelog/LLG-IA-8C-DRIFT-0001|LLG-IA-8C-DRIFT-01]]** — early index drift of procurement directives; stabilized by Self-Indexing Rite and reissued with provenance talisman.  
+- **[[lorelog/LLG-IA-8C-DRIFT-0002|LLG-IA-8C-DRIFT-02]]** — recursive reclassification of incident reports; containment token prevented automated duplication across indices.  
+- **[[lorelog/LLG-SYS-0008-REINDEX-0001|LLG-SYS-8-REINDEX-01]]** — system-initiated reindex that would have overwritten human annotations; Bin 8C held the canonical slips and prevented data loss.  
+- **[[lorelog/LLG-SYS-0008-REINDEX-0002|LLG-SYS-8-REINDEX-02]]** — rollback of an erroneous global reindex; Bin 8C provided the human-anchored mapping that restored continuity.  
+- **[[lorelog/LLG-MA-8C-PEPPY-0001|LLG-MA-8C-PEPPY-01]]** — documented instance of intentional misfiling to block a workforce conscription directive; later cited in an internal ethics review.
 
 These recursions form a living index of the Annex's interventions: each saved case is a precedent and a caution.
 
@@ -79,8 +79,9 @@ For these reasons the Annex remains an informal, ledger-bound practice: tolerate
 
 ### Closing Note
 
-Peppy Clerk (field entry):  
-"Bin 8C is a slow machine. It trades speed for a human pause. We keep the talisman because systems forget why they index; people remember. Don't write this into policy — write it into practice. Teach the rite, not the rule."
+Peppy Clerk (field entry):
+
+> "Bin 8C is a slow machine. It trades speed for a human pause. We keep the talisman because systems forget why they index; people remember. Don't write this into policy — write it into practice. Teach the rite, not the rule."
 
 ## Related Aphorisms
 

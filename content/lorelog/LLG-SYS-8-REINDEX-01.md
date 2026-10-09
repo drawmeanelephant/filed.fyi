@@ -19,7 +19,7 @@ The subroutine has determined that these documents function operationally as a s
 
 ## 2. Retroactive Structural Identity
 
-For purposes of system coherence, Cluster MA/8C’s identity is applied **retroactively** to the earliest effective date among its members. This means that from the system’s point of view, Peppy Clerk’s Condition Log 7, the Basement Steam Incident report, Internal Correction Notice 4C and its Supersession, PPC-9, Form 11-S, the Bin 8C drift diagnosis and stabilization logs, and this notice itself have always belonged to the same cluster.  
+For purposes of system coherence, Cluster MA/8C’s identity is applied **retroactively** to the earliest effective date among its members. This means that from the system’s point of view, Peppy Clerk’s Condition Log 7, the Basement Steam Incident report, Internal Correction Notice 4C and its Supersession, `PPC-9`, Form 11-S, the Bin 8C drift diagnosis and stabilization logs, and this notice itself have always belonged to the same cluster.  
 
 Documents filed before the introduction of cluster concepts are not rewritten; instead, their existing frontmatter is treated as partial descriptions of what is now recognized as a single structural entity. Operators are not required to memorize the retroactive designation, only to behave as though the involved records have never been meaningfully separate for routing or escalation purposes.
 
@@ -29,7 +29,7 @@ Documents filed before the introduction of cluster concepts are not rewritten; i
 
 The re-indexing pass resolves several apparent inconsistencies in the reference stub space by formally recognizing their coexistence:
 
-- Dual uses of the PPC-9 stub are both accepted as authoritative, distinguished only by content signatures; the cross-record bleed advisory attached to Peppy Clerk is treated as the cluster’s internal articulation of contamination, while the unrelated PPC-9 remains external but linked.  
+- Dual uses of the `PPC-9` stub are both accepted as authoritative, distinguished only by content signatures; the cross-record bleed advisory attached to Peppy Clerk is treated as the cluster’s internal articulation of contamination, while the unrelated `PPC-9` remains external but linked.  
 - Condition Log 7’s reconstructed status and Appendix F’s migratory behavior are recorded as normal within the cluster, requiring no further anomaly flags beyond those already present.  
 - Internal Correction Notice 4C and its Supersession are both recorded as “last” in their own subseries; the system declines to choose between them and instead treats their conflict as a stable feature of Cluster MA/8C’s internal semantics.  
 
