@@ -17,7 +17,7 @@ The distinction is material and routinely compressed.
 
 Empathegy tracks care most reliably at the point where it leaves evidence.
 
-**Provenance.** This file is the current, mature doctrine for Metrics of Care. An earlier experimental framing — MCR as a family of care-attribution experiments that had not yet consolidated into a system — is preserved at FREF-0400-METR (draft) and remains the record of that era. The two records are not simultaneous statements of one state: FREF-0400-METR preserves the experimental era, this file defines current doctrine.
+**Provenance.** This file is the current, mature doctrine for Metrics of Care. An earlier experimental framing — MCR as a family of care-attribution experiments that had not yet consolidated into a system — is preserved at [[reference/FREF-0400-METR|FREF-0400-METR]] (draft) and remains the record of that era. The two records are not simultaneous statements of one state: [[reference/FREF-0400-METR|FREF-0400-METR]] preserves the experimental era, this file defines current doctrine.
 
 ---
 
@@ -40,10 +40,10 @@ The latter two remain partially inferential, locally reported, or administrative
 
 ### 1. Coverage Metrics
 
-Definition:
+**Definition:**
 Measures whether a subject, interval, or team received a recognizable care artifact.
 
-Examples:
+**Examples:**
 - prompt delivered
 - check-in completed
 - witness assigned
@@ -51,64 +51,64 @@ Examples:
 - response token issued
 - ritual participation confirmed
 
-What Coverage Means:
+**What Coverage Means:**
 The system reached the subject.
 
-What Coverage Does Not Mean:
+**What Coverage Does Not Mean:**
 The subject was helped.
 
 ---
 
 ### 2. Responsiveness Metrics
 
-Definition:
+**Definition:**
 Measures the speed and completeness with which the system produced a care-shaped reply.
 
-Examples:
+**Examples:**
 - time to acknowledgment
 - response completion rate
 - percent of filings touched by a care surface
 - witness latency
 - follow-up issuance
 
-Operational Risk:
+**Operational Risk:**
 Fast responses may conceal low-leverage action.
 
 ---
 
 ### 3. Relief Metrics
 
-Definition:
+**Definition:**
 Attempts to measure whether burden changed after intervention.
 
-Examples:
+**Examples:**
 - reduced recurrence
 - decreased distress severity
 - lowered burden self-report
 - restored discretionary capacity
 - approved rest actually taken
 
-Status:
+**Status:**
 Sparse, contested, and often downstream of multiple confounds.
 
-Archive Note:
+**Archive Note:**
 Relief Metrics are treated as aspirationally important and operationally fragile.
 
 ---
 
 ### 4. Legibility Metrics
 
-Definition:
+**Definition:**
 Measures whether emotional conditions were rendered into forms compatible with institutional reading.
 
-Examples:
+**Examples:**
 - percentage of filings successfully classified
 - reduction in contradictory states
 - increase in dashboard-safe affect
 - decline in annotation burden
 - successful routing rate
 
-Warning:
+**Warning:**
 Legibility gains are frequently misread as care gains.
 
 ---
@@ -221,10 +221,10 @@ This is especially acute when:
 - politeness substitutes for relief confirmation,
 - high-strain intervals produce appreciation spikes without structural change.
 
-Guidance:
+**Guidance:**
 Any gratitude surge lacking corresponding mitigation movement should trigger interpretive caution.
 
-Preferred language:
+**Preferred language:**
 - gratitude present; relief unclear
 - appreciation spike may indicate scarcity, not adequacy
 - thanks recorded without burden reversal

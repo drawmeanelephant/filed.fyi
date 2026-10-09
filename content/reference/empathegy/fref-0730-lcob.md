@@ -54,7 +54,7 @@ Low-Confidence Objects persist when they:
 
 An object cited as if canonical, despite contested or missing source form.
 
-Examples:
+**Examples:**
 - missing form series,
 - absent attachment templates,
 - pseudo-required statements,
@@ -66,7 +66,7 @@ Examples:
 
 An object whose main function is to shape appearance or confidence.
 
-Examples:
+**Examples:**
 - seals,
 - continuity icons,
 - reassuring badges,
@@ -79,7 +79,7 @@ Examples:
 
 An object whose surviving traces are mostly fragments, quotations, or paraphrases.
 
-Examples:
+**Examples:**
 - confidence statements,
 - annex phrases,
 - missing affirmations,
@@ -91,7 +91,7 @@ Examples:
 
 An object whose legitimacy comes from repeated use rather than explicit specification.
 
-Examples:
+**Examples:**
 - countersigns,
 - completion tokens,
 - tied ribbons,
@@ -104,7 +104,7 @@ Examples:
 
 An object whose presence or absence subtly alters downstream decisions without formally qualifying as evidence.
 
-Examples:
+**Examples:**
 - confidence statements complicating deletion,
 - green seals easing dashboard passage,
 - symbolic markers affecting review tone,
@@ -256,14 +256,14 @@ Every Low-Confidence Object entry should preserve:
 - reconstruction warning,
 - archival note on what the object seems to do.
 
-Minimum warning:
+**Minimum warning:**
 “Object influence exceeds definitional stability.”
 
 ---
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - low-confidence object
 - operationally influential, semantically unstable
 - more referenced than recoverable
@@ -272,7 +272,7 @@ Preferred phrases:
 - canonical reconstruction deferred
 - presence meaningful; definition contested
 
-Disallowed phrases:
+**Disallowed phrases:**
 - unclear therefore unimportant
 - common use confirms stable meaning
 - reconstructed template replaces ambiguity

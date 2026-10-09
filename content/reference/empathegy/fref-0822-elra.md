@@ -15,11 +15,11 @@ tags: ["reference", "explanation-layer", "over-coherence", "residue-audit", "bou
 This audit identifies when an explanation stack has become collectively smooth
 in a way that individual layer review cannot detect.
 
-It is not a restatement of FREF-0820-IELS (Institutional Explanation Layer
+It is not a restatement of [[reference/FREF-0820-IELS|FREF-0820-IELS]] (Institutional Explanation Layer
 Stabilization), which concerns a single explanation layer that has become
 more internally consistent than the event it claims to carry.
 
-It is not a restatement of FREF-0130-OCVH or FREF-0290-OCVH (OverCoherence
+It is not a restatement of [[reference/FREF-0130-OCVH|FREF-0130-OCVH]] or [[reference/FREF-0290-OCVH|FREF-0290-OCVH]] (OverCoherence
 Vault and Handling), which concerns a single narrative surface that has
 resolved contradictions it should have preserved.
 
@@ -32,16 +32,16 @@ has been distributed so evenly that it cannot be located in any single layer.
 
 ### Three Conditions, Three Shelves
 
-**Condition A — Single-Layer Over-Coherence (FREF-0820-IELS)**
+**Condition A — Single-Layer Over-Coherence ([[reference/FREF-0820-IELS|FREF-0820-IELS]])**
 One explanation is smoother than the event it claims to carry.
 The contradiction has been compressed into a single, too-coherent surface.
-Filing target: FREF-0820-IELS.
+**Filing target:** [[reference/FREF-0820-IELS|FREF-0820-IELS]].
 
-**Condition B — Over-Coherence Vault (FREF-0130-OCVH / FREF-0290-OCVH)**
+**Condition B — Over-Coherence Vault ([[reference/FREF-0130-OCVH|FREF-0130-OCVH]] / [[reference/FREF-0290-OCVH|FREF-0290-OCVH]])**
 Multiple systems agree too cleanly. The agreement itself is the failure signal.
 A contradiction that should be producing visible friction is instead rendering
 as a stable consensus.
-Filing target: OverCoherence Vault.
+**Filing target:** OverCoherence Vault.
 
 **Condition C — Explanation Layer Residue (this audit)**
 Multiple explanation layers exist for the same event.
@@ -90,11 +90,11 @@ not a quality-of-explanation audit.
 
 | Symptom | Filing Target |
 |---|---|
-| Single explanation too smooth | FREF-0820-IELS |
-| Multiple systems agree where they should conflict | OverCoherence Vault (FREF-0290-OCVH) |
+| Single explanation too smooth | [[reference/FREF-0820-IELS|FREF-0820-IELS]] |
+| Multiple systems agree where they should conflict | OverCoherence Vault ([[reference/FREF-0290-OCVH|FREF-0290-OCVH]]) |
 | Contradiction distributed across explanation stack | FREF-0822-ELRA (this audit) |
-| Contradiction preserved in annex while headline stays calm | LLG-0861-ARC |
-| Explanation improved tone without changing routing | FREF-0630-CWLV |
+| Contradiction preserved in annex while headline stays calm | [[lorelog/LLG-0861-ARC|LLG-0861-ARC]] |
+| Explanation improved tone without changing routing | [[reference/FREF-0630-CWLV|FREF-0630-CWLV]] |
 
 ---
 
@@ -162,12 +162,12 @@ The failure is in the aggregate, not the individual output.
 
 ### Interlocks
 
-- **FREF-0820-IELS** — Institutional Explanation Layer Stabilization: single-layer stabilization; this audit is the multi-layer extension
-- **FREF-0290-OCVH** — OverCoherence Vault: single-surface smoothing; distinct from stacked distribution
-- **LLG-0861-ARC** — Annex Retention Conscience Event: related pattern in which contradiction survives in annexes while main surfaces remain undisturbed
-- **LLG-0812-CTM** — Continuity Theatre Maintenance Window: single-event case study in explanation stack management
-- **LLG-0824-GBC** — Green Band Canonization: threshold drift as a form of distributed contradiction
-- **FREF-0635-WWLV** — Witness Without Leverage: a custody gap may produce multi-layer explanation residue when each layer files a locally valid account of the same non-operative testimony
+- **[[reference/FREF-0820-IELS|FREF-0820-IELS]]** — Institutional Explanation Layer Stabilization: single-layer stabilization; this audit is the multi-layer extension
+- **[[reference/FREF-0290-OCVH|FREF-0290-OCVH]]** — OverCoherence Vault: single-surface smoothing; distinct from stacked distribution
+- **[[lorelog/LLG-0861-ARC|LLG-0861-ARC]]** — Annex Retention Conscience Event: related pattern in which contradiction survives in annexes while main surfaces remain undisturbed
+- **[[lorelog/LLG-0812-CTM|LLG-0812-CTM]]** — Continuity Theatre Maintenance Window: single-event case study in explanation stack management
+- **[[lorelog/LLG-0824-GBC|LLG-0824-GBC]]** — Green Band Canonization: threshold drift as a form of distributed contradiction
+- **[[reference/FREF-0635-WWLV|FREF-0635-WWLV]]** — Witness Without Leverage: a custody gap may produce multi-layer explanation residue when each layer files a locally valid account of the same non-operative testimony
 
 ---
 

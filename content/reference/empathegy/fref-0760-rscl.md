@@ -61,7 +61,7 @@ The more elegant the reassurance layer, the sharper the collapse may feel.
 
 Softened language becomes intolerable because it no longer bears any recognizable relation to the condition.
 
-Examples:
+**Examples:**
 - curated absence discovered to mean permanent loss,
 - favorable persistence used where remediation is absent,
 - fulfilled in spirit used after denied rest accumulates.
@@ -72,7 +72,7 @@ Examples:
 
 A symbol, seal, graph band, or completion marker loses calming power once users see what it concealed.
 
-Examples:
+**Examples:**
 - green interval over visible strain,
 - healthy band over exhausted lane,
 - confidence icon attached to obviously stale backup,
@@ -84,7 +84,7 @@ Examples:
 
 Workflow closure loses legitimacy because participants understand that the steps taken had no real corrective force.
 
-Examples:
+**Examples:**
 - witness-only loops,
 - acknowledgment without interval,
 - check-in rituals with no leverage,
@@ -96,7 +96,7 @@ Examples:
 
 Human trust in the institution or intermediary degrades because the person or office is seen as carrying reassurance on behalf of a system that will not act.
 
-Examples:
+**Examples:**
 - managers forced to praise reports they privately distrust,
 - care prompts soliciting acknowledgment while burden persists,
 - reviewers required to call exhaustion strategic.
@@ -107,7 +107,7 @@ Examples:
 
 Historical records become harder to trust because preservation appears to have stabilized the optics more than the truth.
 
-Examples:
+**Examples:**
 - annexes contradicting headline calm,
 - filed contradictions repeatedly ignored in use,
 - preserved symbols outranking surviving witness notes.
@@ -227,7 +227,7 @@ These questions determine whether the event was local embarrassment or systemic 
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - reassurance collapse observed
 - confidence layer no longer credible
 - optical calm lost legitimacy
@@ -236,7 +236,7 @@ Preferred phrases:
 - symbolic closure destabilized by recurrence
 - trust moved to annex channels
 
-Disallowed phrases:
+**Disallowed phrases:**
 - users overreacted to phrasing
 - reassurance merely needs rewording
 - collapse indicates excessive sensitivity

@@ -39,7 +39,7 @@ Coverage therefore becomes attractive because it is real, preservable, and graph
 
 Measures whether at least one support-shaped contact occurred within a defined interval.
 
-Examples:
+**Examples:**
 - weekly check-in completed,
 - acknowledgment sent,
 - support ping delivered,
@@ -51,7 +51,7 @@ Touch Coverage proves contact happened at least once.
 
 Measures the recurrence of supportive contact across multiple intervals.
 
-Examples:
+**Examples:**
 - recurring check-ins,
 - repeated listening sessions,
 - sustained acknowledgment cadence,
@@ -63,7 +63,7 @@ Repeat Coverage may indicate continuity of attention or continuity of unresolved
 
 Measures how evenly supportive contact is spread across a population or system.
 
-Examples:
+**Examples:**
 - unit-wide reach,
 - percentage of staff contacted,
 - department-level check-in saturation,
@@ -75,7 +75,7 @@ Broad distribution improves fairness of notice. It does not guarantee adequacy o
 
 Measures participation in witness, lodge, ceremony, or acknowledgment structures.
 
-Examples:
+**Examples:**
 - listening board attendance,
 - witness-circle completion,
 - memorial or check-in ritual participation,
@@ -87,7 +87,7 @@ Ritual Coverage often improves dignity while leaving leverage elsewhere.
 
 Measures how much supportive contact survives into records and reporting layers.
 
-Examples:
+**Examples:**
 - preserved witness notes,
 - dashboard-visible care events,
 - countable acknowledgment traces,
@@ -98,22 +98,22 @@ Retained Coverage is partly a recordability phenomenon. What survives may look m
 ## Sufficiency Boundary
 
 Support Coverage must be kept distinct from:
-- Support Intensity: how much was offered.
-- Support Authority: what could actually change.
-- Support Duration: how long relief persisted.
-- Relief: whether burden decreased.
-- Resolution: whether the causative contradiction ended.
+- **Support Intensity:** how much was offered.
+- **Support Authority:** what could actually change.
+- **Support Duration:** how long relief persisted.
+- **Relief:** whether burden decreased.
+- **Resolution:** whether the causative contradiction ended.
 
 Coverage is a reach metric. It becomes dangerous when treated as a sufficiency metric.
 
 ## Common Failure Modes
 
-- Coverage Substitution: contact is reported as if it were care depth.
-- Reach Inflation: repeated low-intensity touch is mistaken for stronger support.
-- Coverage Calm: widespread acknowledgment lowers scrutiny of unchanged burden.
-- Ritual Saturation: witnessed presence begins standing in for remedy pathways.
-- Survivorship Bias: simple contacts remain countable while complex support disappears from the record.
-- Canonized Partiality: recurring but insufficient support becomes normal enough to defend.
+- **Coverage Substitution:** contact is reported as if it were care depth.
+- **Reach Inflation:** repeated low-intensity touch is mistaken for stronger support.
+- **Coverage Calm:** widespread acknowledgment lowers scrutiny of unchanged burden.
+- **Ritual Saturation:** witnessed presence begins standing in for remedy pathways.
+- **Survivorship Bias:** simple contacts remain countable while complex support disappears from the record.
+- **Canonized Partiality:** recurring but insufficient support becomes normal enough to defend.
 
 ## Review Questions
 
@@ -139,9 +139,9 @@ When Support Coverage is reported:
 5. prohibit sufficiency claims without independent burden review,
 6. mark when coverage is primarily ritual, proxy, or retained rather than actionable.
 
-Minimum note: Coverage present; sufficiency unverified.
+**Minimum note:** Coverage present; sufficiency unverified.
 
-Stronger note: Support contact was widespread and countable, but material effect remains unresolved.
+**Stronger note:** Support contact was widespread and countable, but material effect remains unresolved.
 
 ## Interlocks
 
@@ -154,7 +154,7 @@ Stronger note: Support contact was widespread and countable, but material effect
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - support coverage present
 - reach confirmed; relief unverified
 - contact counted separately from effect
@@ -163,7 +163,7 @@ Preferred phrases:
 - support visible across interval, sufficiency unresolved
 - recordable contact should not be treated as enough
 
-Disallowed phrases:
+**Disallowed phrases:**
 - everyone was covered, therefore everyone was supported
 - recurring check-ins prove the burden was handled
 - contact frequency equals care quality
@@ -178,25 +178,25 @@ Empathegy preserves the reach and keeps asking what, if anything, it changed.
 
 ## Related Entries
 
-- FREF-0740-MOC Metrics of Care
-- FREF-0800-SCRL Scoring Layer
-- FREF-0750-PXCM Proxy Compassion
-- FREF-0790-RLIF Ritual Lodge Interface
-- FREF-0810-SLNT Silent Intervals
+- [[reference/FREF-0740-MOC|FREF-0740-MOC]] Metrics of Care
+- [[reference/FREF-0800-SCRL|FREF-0800-SCRL]] Scoring Layer
+- [[reference/FREF-0750-PXCM|FREF-0750-PXCM]] Proxy Compassion
+- [[reference/FREF-0790-RLIF|FREF-0790-RLIF]] Ritual Lodge Interface
+- [[reference/FREF-0810-SLNT|FREF-0810-SLNT]] Silent Intervals
 
 ## Incident Anchors
 
-- LLG-0820-MCR Metrics of Care Substitution Failure
-- LLG-0821-SCL Service Continuity Listening Board Silent Interval Recoding
-- LLG-0851-CSI Canonized Support Interval
-- LLG-0857-WLI Witness Lodge Inflation
-- LLG-0842-PCL Proxy Compassion Load Redistribution Event
+- [[lorelog/LLG-0820-MCR|LLG-0820-MCR]] Metrics of Care Substitution Failure
+- [[lorelog/LLG-0821-SCL|LLG-0821-SCL]] Service Continuity Listening Board Silent Interval Recoding
+- [[lorelog/LLG-0851-CSI|LLG-0851-CSI]] Canonized Support Interval
+- [[lorelog/LLG-0857-WLI|LLG-0857-WLI]] Witness Lodge Inflation
+- [[lorelog/LLG-0842-PCL|LLG-0842-PCL]] Proxy Compassion Load Redistribution Event
 
 ## Annex Signals
 
-- Aphorism: APH-FREF-0820-SPC
-- Aphorism: APH-LLG-0820-MCR
-- Aphorism: APH-LLG-0821-SCL
+- Aphorism: [[aphorisms/APH-FREF-0820-SPC|APH-FREF-0820-SPC]]
+- Aphorism: [[aphorisms/APH-LLG-0820-MCR|APH-LLG-0820-MCR]]
+- Aphorism: [[aphorisms/APH-LLG-0821-SCL|APH-LLG-0821-SCL]]
 - Empathegy verse annexes
 
 ## Related Aphorisms

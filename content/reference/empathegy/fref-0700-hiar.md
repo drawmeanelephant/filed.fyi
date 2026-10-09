@@ -69,7 +69,7 @@ It need only be stable enough to attract summary language.
 
 A mark whose healthy effect is carried mainly by appearance.
 
-Examples:
+**Examples:**
 - green shading,
 - LC-04 Soft Green Seal,
 - healthy interval badge,
@@ -85,7 +85,7 @@ Visual interval artifacts are powerful because they are legible before a reader 
 
 A phrase or wording layer that makes an interval sound healthier than the underlying evidence can independently justify.
 
-Examples:
+**Examples:**
 - healthy interval,
 - quiet success,
 - stability window,
@@ -102,7 +102,7 @@ These phrases may begin as narrow descriptions and drift into broad reassurance 
 
 A workflow step whose completion causes an interval to be treated as sufficiently healthy for reporting purposes.
 
-Examples:
+**Examples:**
 - automatic certification of silence,
 - required presence of a reassurance seal,
 - dashboard export that defaults to green if no threshold breach is detected,
@@ -118,7 +118,7 @@ The procedure merely lowers the pressure to say so.
 
 A mark or ritual whose effect depends on institutional recognition more than stable definition.
 
-Examples:
+**Examples:**
 - the seal that means this part is fine,
 - the color everybody reads as rest,
 - a familiar comfort icon attached to a difficult week,
@@ -282,10 +282,10 @@ When a Healthy Interval Artifact is present:
 - note when headline calm depends on exclusion, smoothing, or tooltip burial,
 - preserve at least one sentence describing what the interval may have cost.
 
-Minimum note:
+**Minimum note:**
 Healthy interval artifact present; health interpretation not independently established.
 
-Stronger note:
+**Stronger note:**
 Interval reads as healthy through reassurance surfaces; burden contradiction may persist outside headline view.
 
 ---
@@ -316,7 +316,7 @@ Healthy interval artifacts become most dangerous when silence is already contest
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - healthy interval artifact attached
 - interval reassurance surface present
 - healthy reading artifact-assisted
@@ -325,7 +325,7 @@ Preferred phrases:
 - reassurance exceeds proof
 - headline calm, underlying interpretation split
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the interval was healthy because it was green
 - no incidents means the period was fine
 - support coverage confirms wellbeing

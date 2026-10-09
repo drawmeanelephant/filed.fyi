@@ -71,11 +71,11 @@ A witnessing, acknowledgment, or care ceremony occurs; afterward the resulting q
 ## Distinguishing Rules
 
 Silent Intervals must be distinguished from:
-- Relief: the burden genuinely decreased.
-- Resolution: the causative contradiction ended.
-- Ordinary Pause: nothing meaningful occurred because little required filing.
-- Suppression: silence was produced under cost conditions and remains evidentially burden-positive.
-- Unreadable Interval: the archive lacks enough signals to prefer any reading strongly.
+- **Relief:** the burden genuinely decreased.
+- **Resolution:** the causative contradiction ended.
+- **Ordinary Pause:** nothing meaningful occurred because little required filing.
+- **Suppression:** silence was produced under cost conditions and remains evidentially burden-positive.
+- **Unreadable Interval:** the archive lacks enough signals to prefer any reading strongly.
 
 When in doubt, preserve dual certification rather than forcing closure.
 
@@ -97,8 +97,8 @@ No single indicator is sufficient. Several together should disturb confidence.
 ## Record Method
 
 Silent Intervals should be double-filed where appropriate:
-- Continuity Reading: what the interval looks like from reporting surfaces.
-- Burden Reading: what the interval may still contain, suppress, or defer.
+- **Continuity Reading:** what the interval looks like from reporting surfaces.
+- **Burden Reading:** what the interval may still contain, suppress, or defer.
 
 Attempts to collapse the dual record into one authoritative reading are prohibited in doctrine and common in presentation.
 
@@ -114,9 +114,9 @@ When a Silent Interval is observed:
 4. preserve whether prior acknowledgment lacked leverage,
 5. note if the interval follows symbolic care, denial, or metric pressure.
 
-Minimum note: Silence observed; state indeterminate.
+**Minimum note:** Silence observed; state indeterminate.
 
-Stronger note: Quiet interval may reflect recovery, fatigue, filing avoidance, or conditioned non-expression; burden-positive reading not ruled out.
+**Stronger note:** Quiet interval may reflect recovery, fatigue, filing avoidance, or conditioned non-expression; burden-positive reading not ruled out.
 
 ## Interlocks
 
@@ -128,7 +128,7 @@ Stronger note: Quiet interval may reflect recovery, fatigue, filing avoidance, o
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - silent interval observed
 - quiet lane not self-interpreting
 - state indeterminate
@@ -137,7 +137,7 @@ Preferred phrases:
 - dual certification preserved
 - proxy interpretation allowed, certainty withheld
 
-Disallowed phrases:
+**Disallowed phrases:**
 - no filings means no problem
 - silence confirms resilience
 - quiet proves support worked
@@ -154,20 +154,20 @@ If the quiet was fear, fatigue, or learned non-expression, the second record may
 
 ## Related Entries
 
-- FREF-0590-CPSP Complaint Suppression
-- FREF-0700-HIAR Healthy Interval Artifacts
-- FREF-0780-RSFL Rest-Shaped Feelings
-- FREF-0800-SCRL Scoring Layer
+- [[reference/FREF-0590-CPSP|FREF-0590-CPSP]] Complaint Suppression
+- [[reference/FREF-0700-HIAR|FREF-0700-HIAR]] Healthy Interval Artifacts
+- [[reference/FREF-0780-RSFL|FREF-0780-RSFL]] Rest-Shaped Feelings
+- [[reference/FREF-0800-SCRL|FREF-0800-SCRL]] Scoring Layer
 
 ## Incident Anchors
 
-- LLG-0334-CSI Silent Interval Certification
-- LLG-0338-SBI Silence Burden Index
-- LLG-0339-SIRC Silent Interval Review Chamber
+- [[lorelog/LLG-0334-CSI|LLG-0334-CSI]] Silent Interval Certification
+- [[lorelog/LLG-0338-SBI|LLG-0338-SBI]] Silence Burden Index
+- [[lorelog/LLG-0339-SIRC|LLG-0339-SIRC]] Silent Interval Review Chamber
 
 ## Annex Signals
 
-- Aphorism: APH-FREF-0810-SLNT
+- Aphorism: [[aphorisms/APH-FREF-0810-SLNT|APH-FREF-0810-SLNT]]
 - Empathegy haikus on silence, metrics, and continuity weather
 
 ## Related Aphorisms
