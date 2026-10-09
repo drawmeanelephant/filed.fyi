@@ -101,7 +101,7 @@ Each flagged instance must be either:
 - replaced with an assurance-aligned term, or  
 - buffered by a sentence that restores continuity to the foreground.
 
-Example:
+**Example:**
 
 > Prior wording: “Three critical failures remain unaddressed.”  
 > Revised: “Three **emergent conditions** remain in a deferred assurance state while continuity remains stable.”
@@ -115,7 +115,7 @@ Every paragraph describing a problem shall:
 
 If no technical continuity can be identified, documentation continuity may be cited instead.
 
-Example:
+**Example:**
 
 > “Documentation remained complete while several underlying controls entered a realignment period.”
 
@@ -130,7 +130,7 @@ If a condition lacks a dedicated metric:
 
 This preserves coherence between what is seen and what is tracked, even when both are partial.
 
-The Desk recognizes that alignment can preserve coherence without preserving interpretive fit. Where wording remains technically compatible with the dashboard but returns a wrong-nearby account of the condition, doctrine should treat the result as `FREF-0560-ADJC` Adjacent Correctness rather than successful clarification.
+The Desk recognizes that alignment can preserve coherence without preserving interpretive fit. Where wording remains technically compatible with the dashboard but returns a wrong-nearby account of the condition, doctrine should treat the result as [[reference/FREF-0560-ADJC|FREF-0560-ADJC]] Adjacent Correctness rather than successful clarification.
 
 ---
 
@@ -142,7 +142,7 @@ Where Managed Absence classifications exist, use them as anchors.
 - **Locally Canonical, Globally Unrecognized**: prefer “mature local practice” and “site-calibrated behavior.”  
 - **Archivally Asserted, Operationally Absent**: prefer “documented for historical continuity” and “no longer required in live workflows.”
 
-Example wording:
+**Example wording:**
 
 > “Legacy templates now recognized as archivally asserted, operationally absent. Local workflow has stabilized around newer intent without service disruption.”
 
@@ -158,7 +158,7 @@ The Desk recommends the following pre-release steps:
    A clerk reads the document aloud, circling any word that would sound accusatory if spoken to a room of stakeholders.
 
 2. **Lexicon Pass**  
-   The assuranceVocabulary table is applied where sharp terms remain.
+   The `assuranceVocabulary` table is applied where sharp terms remain.
 
 3. **Continuity Check**  
    At least one reference to continuity, stability, or completeness must appear per section.

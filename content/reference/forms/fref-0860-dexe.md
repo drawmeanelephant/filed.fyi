@@ -34,14 +34,14 @@ Deferred Execution often enters managed absence when institutions prefer to gove
 
 ## Approved language
 
-Preferred phrases:
+**Preferred phrases:**
 - visible uptake without execution depth
 - acknowledged queue, unrecoverable labor basis
 - progress posture preserved
 - intervention surface active, delivery basis thin
 - execution deferred beyond evidentiary confidence
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the dashboard proves the work happened
 - acknowledgment is equivalent to handling
 - active status confirms active labor

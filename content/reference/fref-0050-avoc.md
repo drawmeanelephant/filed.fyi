@@ -21,7 +21,7 @@ The goal is **to prevent linguistic collisions between tools that already prefer
 
 # Coordination with Scan Offices
 
-Scan reports may detect:
+**Scan reports may detect:**
 
 - gaps, holes, missing items,
 - orphans, unowned records,
@@ -49,7 +49,7 @@ Where a managed absence code exists, wording should:
 - name the code once, for traceability, then
 - speak in assurance vocabulary for the remainder of the document.
 
-Example:
+**Example:**
 
 > “Several records are now governed under a managed absence pattern.  
 > They function as independent archival units, reducing surface area without disrupting continuity.”
@@ -69,7 +69,7 @@ To avoid discrepancies:
 - Do not introduce new problem categories in text that lack matching indicators.
 - Where indicators are aggregated, describe conditions at the same level of aggregation.
 
-Preferred constructions:
+**Preferred constructions:**
 
 - “Existing indicators adequately describe the observed pattern.”
 - “No additional severity bands are required by current behavior.”
@@ -100,7 +100,7 @@ Record is now filed.
 
 **Archivist's Addendum**
 
-This record has been sequestered by the Auditor desk. Further modification will trigger a [DS-404-ALPHA](../lorelog/DS-404-ALPHA.md) incident.
+This record has been sequestered by the Auditor desk. Further modification will trigger a [[lorelog/DS-0404-ALPHA|DS-404-ALPHA]] incident.
 
 </Aside>
 The calendar skipped a whole day.

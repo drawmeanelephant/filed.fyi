@@ -21,12 +21,12 @@ Its function is legitimacy maintenance under conditions of incomplete certainty.
 
 A witness in Empathegy is any recognized actor, process, room, or form that can attest that a condition entered communal notice.
 
-Witnessing establishes:
+**Witnessing establishes:**
 - presence,
 - traceability,
 - admissible seriousness.
 
-Witnessing does not establish:
+**Witnessing does not establish:**
 - correctness,
 - resolution,
 - independence.
@@ -39,7 +39,7 @@ This distinction is frequently strained.
 
 A seal is a representational mark indicating that a condition has passed through an approved assurance vocabulary or witnessing channel.
 
-Seals may indicate:
+**Seals may indicate:**
 - reviewed,
 - harmonized,
 - continuity-safe,
@@ -75,12 +75,12 @@ Empathegy recognizes that some witness chains depend on prior witness chains who
 
 This produces Reciprocal Fragility.
 
-Symptoms include:
+**Symptoms include:**
 - a witness valid only because another witness once cited it,
 - an assurance mark depending on an abstracted prior packet,
 - institutional trust maintained through courtesy rather than reconstructable proof.
 
-Preferred classification:
+**Preferred classification:**
 - conditionally continuous pending independent basis
 - witnessed under acceptable conditions
 - assurance chain intact, origin basis softened
@@ -92,7 +92,7 @@ Preferred classification:
 
 Legitimacy Drift occurs when marks meant to describe limited review begin being read as broad approval.
 
-Common drift paths:
+**Common drift paths:**
 - acknowledged becomes approved
 - harmonized becomes correct
 - witnessed becomes substantiated

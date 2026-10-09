@@ -88,14 +88,14 @@ A record whose principal function is not action but future legibility.
 
 ## Authority Limits
 
-Witnesses may:
+**Witnesses may:**
 - confirm presence,
 - preserve phrasing,
 - attach interpretation,
 - maintain contradiction,
 - request escalation.
 
-Witnesses may not, by witness status alone:
+**Witnesses may not, by witness status alone:**
 - declare resolution,
 - certify relief,
 - substitute for accommodation,
@@ -140,8 +140,9 @@ Every witness record should preserve, where possible:
 5. whether any action followed,
 6. whether subsequent reporting compressed the event.
 
-Minimum boundary sentence:
-“This witness confirms presence and preservation, not remediation.”
+**Minimum boundary sentence:**
+
+> “This witness confirms presence and preservation, not remediation.”
 
 ---
 
@@ -175,14 +176,14 @@ When witnesses preserve conflicting readings:
 - the contradiction must be named explicitly,
 - no summary layer may convert coexistence into consensus.
 
-Approved phrases:
+**Approved phrases:**
 - dual witness retained
 - contradiction witnessed and preserved
 - accounts remain co-valid
 - interpretive divergence unresolved
 - witness record does not reconcile directives
 
-Disallowed phrases:
+**Disallowed phrases:**
 - both sides were heard, therefore the matter is balanced
 - preserved contradiction confirms healthy process
 - witness symmetry implies outcome fairness
@@ -193,7 +194,7 @@ Disallowed phrases:
 
 Silent intervals with non-trivial interpretive burden should receive one or more witness forms.
 
-A witness may preserve:
+**A witness may preserve:**
 - that the interval felt unsustainable,
 - that complaint conditions were absent,
 - that continuity and burden readings diverged,
