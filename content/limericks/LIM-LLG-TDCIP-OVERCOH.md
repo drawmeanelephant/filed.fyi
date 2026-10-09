@@ -101,4 +101,4 @@ The over-coherent runs stay,
 In a vault for training's relay.  
 "Here's what went wrong,"  
 The archive says strong,  
-"When you polish the dread away."
+**"When you polish the dread away."**
