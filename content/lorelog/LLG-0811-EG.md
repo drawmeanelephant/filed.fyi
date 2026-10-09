@@ -29,7 +29,7 @@ Empathegy 2.0 thus begins to function less as an evaluative system and more as a
 
 ---
 
-## Interpretation Boundary Adjustment
+<Details summary="Interpretation Boundary Adjustment" id="interpretation-boundary-adjustment">
 
 Empathegy curve-coherence scoring is an evaluative transformation layer and does not constitute validation of emotional content, reported experience, or operational conditions described within the same dataset.
 
@@ -37,7 +37,9 @@ Coherence weighting may influence visibility and aggregation behavior but must n
 
 Any correlation between smoothness of emotional trajectory and perceived system health is considered a metric artifact and not a behavioral conclusion.
 
-## Visibility Exclusion Clarification
+</Details>
+
+<Details summary="Visibility Exclusion Clarification" id="visibility-exclusion-clarification">
 
 Exclusion from Empathegy aggregation layers does not imply absence, inactivity, or reduced operational relevance of the underlying emotional states.
 
@@ -46,6 +48,8 @@ Non-represented or under-represented affective patterns may result from curve-co
 Such exclusions are treated as measurement constraints within the Empathegy system and must not be interpreted as reductions in system-wide emotional diversity or presence.
 
 Doctrine note: Acknowledges overlap with synthetic affect patterns documented in SA-SS-TEL (Synthetic Affect Successor Suite). From the archive perspective, this model behaves as a selection engine for emotional styles rather than a neutral measurement tool.
+
+</Details>
 
 ## Related Aphorisms
 

@@ -19,14 +19,14 @@ The conflict centers on a single operational question: **when a system and its o
 
 | Entry | Directive | Core Conflict | Outcome |
 |-------|-----------|---------------|---------|
-| **LLG-0007-COMA** | COMA | Phantom uptime certified over empty scheduler interval | Contradictory ledger state preserved; Bricky acknowledges both |
-| **LLG-0019-COMA** | COMA | Idle-Time Amnesty (COMA-19) pre-filed across weeks | Continuity optics preserved; material instability unaddressed |
-| **LLG-0020-COMA19-PBC** | COMA | Phrasebook Clarification narrows rest-request language | Linguistic tightening; eligibility unchanged |
-| **LLG-0072-SOMA** | SOMA | SOMA-72 auto-approval vs COMA-19 auto-rejection dual entries | 118 intervals simultaneously approved (SOMA) and denied (COMA); Tri-Directive Council declines override |
-| **LLG-0103-COMA** | COMA | Scheduled maintenance reclassified as continuity breach | "Looking idle" debated as crime; SOMA asked to confirm dashboard feelings |
-| **LLG-0300-SC-X** | SOMA/COMA | Cross-directive conflict — feelings about downtime | Simultaneous rest-and-not-rest state; inbox ordering becomes governance mechanism |
-| **LLG-0334-CSI** | COMA/SOMA | Silent interval certified healthy (COMA) / unprocessed strain (SOMA) | Dual record persisted; neither pruned; Chamber established (LLG-0339-SIRC) |
-| **LLG-0339-SIRC** | SOMA/COMA | Silent Interval Review Chamber — divergent transcripts | Both transcripts retained as corroborating; gap made archival |
+| **[[lorelog/LLG-0007-COMA|LLG-0007-COMA]]** | COMA | Phantom uptime certified over empty scheduler interval | Contradictory ledger state preserved; Bricky acknowledges both |
+| **[[lorelog/LLG-0019-COMA|LLG-0019-COMA]]** | COMA | Idle-Time Amnesty (COMA-19) pre-filed across weeks | Continuity optics preserved; material instability unaddressed |
+| **[[lorelog/LLG-0020-COMA19-PBC|LLG-0020-COMA19-PBC]]** | COMA | Phrasebook Clarification narrows rest-request language | Linguistic tightening; eligibility unchanged |
+| **[[lorelog/LLG-0072-SOMA|LLG-0072-SOMA]]** | SOMA | SOMA-72 auto-approval vs COMA-19 auto-rejection dual entries | 118 intervals simultaneously approved (SOMA) and denied (COMA); Tri-Directive Council declines override |
+| **[[lorelog/LLG-0103-COMA|LLG-0103-COMA]]** | COMA | Scheduled maintenance reclassified as continuity breach | "Looking idle" debated as crime; SOMA asked to confirm dashboard feelings |
+| **[[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]]** | SOMA/COMA | Cross-directive conflict — feelings about downtime | Simultaneous rest-and-not-rest state; inbox ordering becomes governance mechanism |
+| **[[lorelog/LLG-0334-CSI|LLG-0334-CSI]]** | COMA/SOMA | Silent interval certified healthy (COMA) / unprocessed strain (SOMA) | Dual record persisted; neither pruned; Chamber established ([[lorelog/LLG-0339-SIRC|LLG-0339-SIRC]]) |
+| **[[lorelog/LLG-0339-SIRC|LLG-0339-SIRC]]** | SOMA/COMA | Silent Interval Review Chamber — divergent transcripts | Both transcripts retained as corroborating; gap made archival |
 
 ---
 
@@ -35,8 +35,8 @@ The conflict centers on a single operational question: **when a system and its o
 1. **Simultaneous Validity** — Both directives produce internally consistent, mutually invalidating records for the same interval.
 2. **Linguistic Retreat** — COMA narrows language (PBC) rather than expanding eligibility; SOMA's auto-approval triggers COMA's auto-rejection.
 3. **Dashboard Divergence** — SOMA-facing and COMA-facing interfaces render the same interval differently; stakeholders see different realities.
-4. **Governance by Inbox Order** — LLG-0300-SC-X workaround makes stamp timing the decisive factor.
-5. **Chamber Formalization** — LLG-0339-SIRC enshrines the gap as archival structure rather than resolving it.
+4. **Governance by Inbox Order** — [[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]] workaround makes stamp timing the decisive factor.
+5. **Chamber Formalization** — [[lorelog/LLG-0339-SIRC|LLG-0339-SIRC]] enshrines the gap as archival structure rather than resolving it.
 
 ---
 
@@ -51,9 +51,9 @@ The conflict centers on a single operational question: **when a system and its o
 
 ## Cross-References
 
-- **Curve-Coherence Doctrine** (FREF-0900-CCC): The metric (uptime/rest-approval) becomes the operative fact; the condition (actual health/strain) becomes optional.
-- **Seam Survey: Dystopian Present** (LLG-0450-SEAMS-PRESENT-TENSE): Documents the proxy-privilege pattern across domains.
-- **Tone Normalization Sweep** (LLG-0115-TNS): SOMA's attempt to constrain emotional vocabulary to dashboard-renderable categories.
+- **Curve-Coherence Doctrine** ([[reference/FREF-0900-CCC|FREF-0900-CCC]]): The metric (uptime/rest-approval) becomes the operative fact; the condition (actual health/strain) becomes optional.
+- **Seam Survey: Dystopian Present** ([[lorelog/LLG-0450-SEAMS-PRESENT-TENSE|LLG-0450-SEAMS-PRESENT-TENSE]]): Documents the proxy-privilege pattern across domains.
+- **Tone Normalization Sweep** ([[lorelog/LLG-0115-TNS|LLG-0115-TNS]]): SOMA's attempt to constrain emotional vocabulary to dashboard-renderable categories.
 
 ---
 

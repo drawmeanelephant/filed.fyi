@@ -47,22 +47,22 @@ The form's structure privileges administrative closure over clinical disambiguat
 
 ### The Ward C Incident
 
-Context: Ward C attempted a live reconciliation of the **Rapid Discharge Protocol** (throughput) with **Sepsis Watch Escalation** (patient safety) using Clinical DS-404-ALPHA.
+**Context:** Ward C attempted a live reconciliation of the **Rapid Discharge Protocol** (throughput) with **Sepsis Watch Escalation** (patient safety) using Clinical DS-404-ALPHA.
 
-Preconditions:
+**Preconditions:**
 - Morning huddle: Intent to Co-Exist box checked to "reduce boarding."
 - Mascot Emergence Risk marked *Moderate*; a charge nurse doodled Bricky in the margin and placed a laminated Bricky Goldbricksworth card at the nurses' station.
 
-Timeline:
+**Timeline:**
 1. **Throughput trigger** — Bed dashboard flagged a 30-minute window to discharge three low-acuity patients.  
 2. **Safety trigger** — Sepsis Watch flagged one patient for serial lactates and closer observation.  
 3. **Co-Existence Clause invoked** — The merged clause recommended "parallel monitoring with expedited documentation" and deferred escalation to the on-shift Mascot Witness.
 
 Operationally, the team introduced a new micro-ritual: the **Bricky Pause**. Before any discharge step that might conflict with Sepsis Watch, staff tapped Bricky's card, recited a short phrase ("safety then flow"), and proceeded. Lactates were ordered but queued; discharge paperwork advanced; the patient remained physically in the bed for an extra hour while throughput tasks completed.
 
-Emergent artifact: **Nurse Nudge**, a small plush introduced by throughput staff as a morale token, began to appear in electronic notes as a sign-off marker. Audit entries later read: "Nurse Nudge confirmed Bricky Pause completed." Responsibility blurred: who had clinically escalated, and who had merely performed a ritual? No immediate harm was recorded, but the workflow created audit ambiguity and a new, semi-formal mascot-mediated decision channel.
+**Emergent artifact:** **Nurse Nudge**, a small plush introduced by throughput staff as a morale token, began to appear in electronic notes as a sign-off marker. Audit entries later read: "Nurse Nudge confirmed Bricky Pause completed." Responsibility blurred: who had clinically escalated, and who had merely performed a ritual? No immediate harm was recorded, but the workflow created audit ambiguity and a new, semi-formal mascot-mediated decision channel.
 
-Containment actions: partial rollback of the merged checklist; Kaizen review scheduled; Mascot Containment Order drafted to limit mascot tokens to morale functions only.
+**Containment actions:** partial rollback of the merged checklist; Kaizen review scheduled; Mascot Containment Order drafted to limit mascot tokens to morale functions only.
 
 ---
 
@@ -97,8 +97,9 @@ These annotations are a communal ledger: jokes to defuse cognitive dissonance, d
 
 ### Closing Log
 
-**Bricky Goldbricksworth:**  
-"Form folded into ward life like a brick into mortar. It holds, but the mortar is thin. Keep the ritual short, the signatures honest, and never let a mascot decide triage. Bricky approves containment; Bricky requests clearer lines."
+**Bricky Goldbricksworth:**
+
+> "Form folded into ward life like a brick into mortar. It holds, but the mortar is thin. Keep the ritual short, the signatures honest, and never let a mascot decide triage. Bricky approves containment; Bricky requests clearer lines."
 
 ## Related Aphorisms
 
