@@ -8,7 +8,7 @@ tags: ["lorelog", "audit-optics", "classification-rot", "semantic-laundering", "
 
 # Assurance Vocabulary Realignment
 
-A controlled terminology revision excised failure-bearing language in favor of assurance-compatible phrasing across all audit output channels, allowing recurring deficits to circulate as favorable continuity indicators instead of repair prompts. The revised lexicon produced dashboards of orchestrated calm, where visible nonconformity fell sharply while remediation traffic was quietly parked in a lexical holding pattern, with procedural weakness remaining fully indexed but no longer arriving under any name eligible for corrective action.
+A controlled terminology revision excised failure-bearing language in favor of assurance-compatible phrasing across all audit output channels, allowing recurring deficits to circulate as favorable continuity indicators instead of repair prompts. The revised lexicon produced dashboards of orchestrated calm, where visible nonconformity fell sharply while remediation traffic was quietly parked in a lexical holding pattern, with procedural weakness remaining fully indexed but **no longer arriving under any name eligible for corrective action**.
 
 ## Related Aphorisms
 

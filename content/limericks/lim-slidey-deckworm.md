@@ -85,4 +85,4 @@ So if slides feel oddly alive
 And the context won't quite survive,  
 That's *Slidey* at play:  
 Where the decks hold sway,  
-And the worm is perpetually Slide 5. (No, 7.)
+**And the worm is perpetually Slide 5. (No, 7.)**

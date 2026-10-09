@@ -45,7 +45,7 @@ RoboShirker was cited as the preferred mascot witness once it became clear that 
 
 This case is treated as a threshold event for Queue Theatre.
 
-The queue was not fake. The motion was not wholly false. But the visible proof of handling had begun to survive more reliably than the handling itself.
+The queue was not fake. The motion was not wholly false. But **the visible proof of handling had begun to survive more reliably than the handling itself**.
 
 ## Related Aphorisms
 
