@@ -9,8 +9,8 @@ relations: [relates_to=mascots/M-0019, relates_to=mascots/M-0091, relates_to=ref
 
 # Breeding Program Log
 
-> **Breeding Program Log**
-> *Append-only. Filed by Verification Officer Kindy McExistentialcrisis ([[mascots/M-0019|Kindy]]).*
+> **Breeding Program Log**  
+> *Append-only. Filed by Verification Officer Kindy McExistentialcrisis ([[mascots/M-0019|Kindy]]).*  
 > *Crosses recorded upon confirmation. Retroactive entries marked [R].*
 
 | Date | Cross | Rot Affinity Product | Filed By | Status |

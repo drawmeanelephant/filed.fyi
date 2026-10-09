@@ -9,15 +9,15 @@ relations: [relates_to=mascots/M-0091, relates_to=lorelog/LLG-0938-CAPTURE-VECTO
 
 # Capture Vector Sightings
 
-> **Capture Vector Sightings**
-> *Append-only. The vector migrates; the log chases.*
+> **Capture Vector Sightings**  
+> *Append-only. The vector migrates; the log chases.*  
 > *Mode confirmed per sighting: FINA / CRED / GOVC / LEGA / STAT / HYBRID.*
 
 | Date | Tradition / Institution | Mode | Vector Signature | Seal Status | Notes |
 |------|------------------------|------|------------------|-------------|-------|
 | 2026-09-22 | Roman Catholic (Curia) | GOVC | procedural rot -> procedural rot (CAAR-HER) | Intact | `LLG-0921-CURIA-ARCHIVE` |
 | 2026-09-23 | Eastern Orthodox (Synod) | CRED | conciliarity stamp -> conciliarity stamp (LCGU-CAN) | Intact | `LLG-0922-SYNOD-PHANTOM` |
-| 2026-09-24 | Protestant Mainline (Session) | STAT | unity index 99.7% / teller report 62% | Intact | `LLG-0923-PHANTOM-CONSENT` |
+| 2026-09-24 | Protestant Mainline (Session) | STAT | unity index 99.7% / teller report 62% (AAOA-CNS) | Intact | `LLG-0923-PHANTOM-CONSENT` |
 | 2026-09-25 | Evangelical (Megachurch) | FINA | dashboard baptism / tank empty | Intact | `LLG-0924-MEGACHURCH-METRICS` |
 | 2026-09-26 | Sunni Islam (Waqf) | FINA | dry well / rental diverted (AAOA-WQF) | Intact | `LLG-0925-WAQF-DRY-WELL` |
 | 2026-09-27 | Shia Islam (Marja' office) | CRED | analogic citation outlives its chain (LCGU-FAT) | Intact | `LLG-0926-MARJA-ANALOGY` |

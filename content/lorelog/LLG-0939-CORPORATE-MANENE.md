@@ -51,8 +51,8 @@ The recommendation has been filed. Nothing in the protocol prevents it from bein
 - [[mascots/M-0019|Kindy McExistentialcrisis]] — certifying officer, Form 51-E-MN
 - [[reference/FREF-0815-MAP|Managed Absence Spine]] — classification authority
 
-## Broadside Marginalia
-
+> **MARGINALIA:**
+>
 > Two hundred were called. Two hundred answered.
 >
 > The archive has always kept the dead. It had never before asked how they were.
