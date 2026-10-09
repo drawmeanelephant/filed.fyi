@@ -33,7 +33,7 @@ Trust Surface Residual Truth exists when:
 
 ## Archive Position
 
-Residual trust should not be described as either simple fraud or intact verification unless the file can survive both claims. The more accurate formulation is narrower: the mark still does something, but no longer proves in proportion to what it does.
+Residual trust should not be described as either simple fraud or intact verification unless the file can survive both claims. The more accurate formulation is narrower: the mark still does something, but **no longer proves in proportion to what it does**.
 
 ## Doctrinal Boundaries
 

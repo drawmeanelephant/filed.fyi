@@ -40,7 +40,7 @@ Summaries should not describe a trust-surface condition more sharply than its da
 
 ## Filing Note
 
-This layer does not erase contradictions. It prevents them from arriving under names that compel action before governance has named the calm form of the problem.
+This layer does not erase contradictions. It prevents them from arriving under names that compel action **before governance has named the calm form of the problem**.
 
 ## Related Aphorisms
 
