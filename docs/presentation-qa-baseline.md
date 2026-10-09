@@ -82,3 +82,83 @@ Checklist for the reviewer:
 Counts and maintenance dockets follow `docs/changelog-convention.md`. Count
 reconciliation is a separate maintenance task. A presentation PR does not
 change trunk counts unless it adds its own docket.
+
+---
+
+## Pass 2 — rich structure
+
+Pass 2 issues are scoped slices of the same collections, but the unit of work
+changes: instead of looking for a single bold pivot, the worker asks whether
+the record's *content already implies a structure the Markdown does not
+express*. The pass-1 cap on emphasis is lifted; the transforms below replace
+it as the boundary.
+
+All pass-1 invariants still hold: no word changes, no reordering, no new
+prose, canonical IDs and frontmatter frozen, `## Related *` verse tails
+untouched, `needs decision` for non-formatting defects, unchanged-is-success.
+
+### Allowed transforms
+
+Each transform must be earned by content already in the record. None are
+quotas; most records will earn zero or one.
+
+- **Identifier → code span.** Literal identifiers only: field names
+  (`breedingProgram`), document codes (`SIDR-8C/AFT/01`), form numbers,
+  hex tokens, file paths. Never names, titles, or prose emphasis. When in
+  doubt, leave plain.
+- **Enumeration → list.** A prose passage that enumerates discrete items
+  (signatories, conditions, steps, substitutions) may be split into a list,
+  item-for-item, with no added or altered wording. Comma-separated adjectives
+  and rhetorical triads are not enumerations.
+- **Field fragments → run-in labels.** Lead-in words the record already
+  carries (`Action:`, `Comment:`, `Materials:`) may become `**Label:**`
+  run-ins matching the house style. No new label text.
+- **Preserved fragment → blockquote.** Verbatim filings, margin notes, and
+  board minutes already set off or introduced as quotation may become `>`
+  blocks. Scare-quotes, single terms, and in-scene dialogue stay inline.
+- **Annex section → `<Details>` or `<Aside>`.** Boilerplate interpretation
+  annexes ("Managed Absence Interpretation", "Interpretation Boundary
+  Adjustment" and kin) may be wrapped in `<Details summary="…" id="…">` or
+  `<Aside kind="…" id="…">`. The summary/kind text must reuse the existing
+  heading or lead wording. Attribute vocabulary is compiler-allowlisted; run
+  `boris check` and use only permitted values.
+- **Tabular content → table.** Only where the content is already a matrix in
+  fact (chronologies, score mappings, rosters). Expected to be rare.
+- **Record mention → wiki link.** An unambiguous mention of another archive
+  record's ID (`LLG-0072-SOMA`, `FREF-0900-CCC`) may become
+  `[[canonical-id]]` or `[[canonical-id|label]]`. The label preserves the
+  source spelling exactly; never normalize it. Targets are resolved against
+  the frozen graph and a miss is a hard error — if the canonical ID cannot
+  be confirmed, leave the text plain and note it in the PR note. This is the
+  only transform that creates a graph edge; treat it as an evidence-layer
+  claim, not decoration. Frontmatter `relations` are not touched. Natural-
+  language references without an ID token are out of scope for pass 2 slices
+  unless the slice says otherwise.
+- **Provenance tail → footnote.** Where a source/attribution tail already
+  exists at paragraph end, it may become `[^n]`. Rare; skip if uncertain.
+- **Emphasis.** Bold and italic are uncapped but must still be earned;
+  decorative emphasis remains out.
+
+### What does not change in pass 2
+
+Words, meaning, order, IDs, frontmatter, verse structure, link targets.
+Splitting a paragraph into a list is a formatting change; rewriting the
+sentences inside it is not permitted. A record that earns no transform stays
+unchanged and counts as a successful review.
+
+### Merge gate (pass 2)
+
+Items 1–3 of the pass-1 merge gate apply unchanged. The reviewer checklist
+for a pass-2 PR is:
+
+- The diff touches only the assigned records (plus this PR's own docket).
+- No word, order, ID, or frontmatter change. Only Markdown structure differs.
+- Every new construct uses a transform from the allowed list, and each one
+  reads as earned, not decorative.
+- List items are verbatim splits of the source prose.
+- Block-quoted material is verbatim and was quotation in the source.
+- Every wiki link resolves and its label preserves the source spelling.
+- `<Details>`/`<Aside>` summaries reuse existing wording and compile under
+  `boris check`.
+- Verse tails and hard breaks are untouched.
+- At least one unchanged record was read in full and its note is specific.
