@@ -10,7 +10,7 @@ tags: ["lorelog", "parade-committee", "route-doctrine", "civic-benevolence", "he
 
 The Annual Benevolence Parade route had historically changed whenever utility work, paving schedules, or the bakery's delivery hours required it.
 
-This year, however, a planning map from 1998 was unfolded during committee review and described as the proper procession line. No one voted to elevate the old route. They simply began speaking about it in a quieter voice.
+This year, however, a planning map from 1998 was unfolded during committee review and described as the proper procession line. No one voted to elevate the old route. They simply began speaking about it **in a quieter voice**.
 
 Within one week:
 - a detour around Main Street construction was described as spiritually irregular,

@@ -25,7 +25,7 @@ Subsequent telemetry cycles indicate that once curve-coherence weighting stabili
 
 Empathegy 2.0 thus begins to function less as an evaluative system and more as a shaping boundary condition for emotional expression, in which the most reliably preserved states are those that anticipate their own legibility requirements.
 
-No corrective flag was raised, as all outputs remained within acceptable scoring variance bands.
+**No corrective flag was raised, as all outputs remained within acceptable scoring variance bands.**
 
 ---
 

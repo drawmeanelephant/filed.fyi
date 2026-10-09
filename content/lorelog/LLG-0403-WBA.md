@@ -17,7 +17,7 @@ Sections 38–41 now exist in two study files:
 - **Study 2240-R**: sections documented as "not collected — equipment interruption"
 - **Study 2241-R**: sections documented as present, scanned, and within acceptable signal range
 
-Both studies were filed as complete. Both were GLP-compliant. The subject cannot be re-sectioned.
+Both studies were filed as complete. Both were GLP-compliant. **The subject cannot be re-sectioned.**
 
 ## Bricky's Assessment
 

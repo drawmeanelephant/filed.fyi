@@ -13,7 +13,7 @@ The contract is tied in a bow,
 To put on a wonderful show.  
 The terms are insane,  
 And cause terrible pain,  
-But the formatting has a nice glow.  
+**But the formatting has a nice glow.**  
 
 
 
