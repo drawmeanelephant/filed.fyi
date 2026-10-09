@@ -82,7 +82,7 @@ OCV specimens may be used to demonstrate:
 - how scans can be reframed until gaps look deliberate,
 - how assurance vocabulary can erase actionability.
 
-Recommended exercise format:
+**Recommended exercise format:**
 
 1. Present the over‑coherent artifact alone.
 2. Ask trainees to list what is missing that a healthy dread would expect.

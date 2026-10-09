@@ -20,23 +20,23 @@ These codes are not shown in public-facing audits. They live in side-columns, ex
 
 - **CAAR — Conceptually Active, Administratively Retired**  
   Reserved for drafts, deprecations, and “temporary” workflows that remain in circulation while being declared complete.[^1]  
-  - Operational effect: Exceptions routed here never surface in active queues; their continued presence is acknowledged only as institutional memory.  
-  - Typical hosts: superseded templates, legacy checkboxes, routing rules marked “will be removed in future hygiene cycles” for more than six intervals.[^1]  
+  - **Operational effect:** Exceptions routed here never surface in active queues; their continued presence is acknowledged only as institutional memory.  
+  - **Typical hosts:** superseded templates, legacy checkboxes, routing rules marked “will be removed in future hygiene cycles” for more than six intervals.[^1]  
 
 - **LCGU — Locally Canonical, Globally Unacknowledged**  
   Marks forms and procedures that have become standard inside a specific office or cluster while remaining absent from doctrine.[^1]  
-  - Operational effect: The Spine accepts their existence but refuses to reconcile them with catalog canon; global indexes treat LCGU instances as annotation noise.  
-  - Typical hosts: invented 32‑A variants, internal macros promoted to procedure, unofficial “shortcut” forms printed on reused letterhead.[^1]  
+  - **Operational effect:** The Spine accepts their existence but refuses to reconcile them with catalog canon; global indexes treat LCGU instances as annotation noise.  
+  - **Typical hosts:** invented 32‑A variants, internal macros promoted to procedure, unofficial “shortcut” forms printed on reused letterhead.[^1]  
 
 - **STCP — Superseded in Theory, Co‑equal in Practice**  
   Applied where a successor form has been ratified, but the predecessor continues to circulate at practically identical volume.[^1]  
-  - Operational effect: Selection is left to auto-suggestion tables and habit; downstream systems learn to treat both artifacts as equally authoritative.  
-  - Typical hosts: “deprecated” templates that never fully left circulation, emergency stopgaps (e.g., 32‑A‑NEW) that outlived their incident.[^1]  
+  - **Operational effect:** Selection is left to auto-suggestion tables and habit; downstream systems learn to treat both artifacts as equally authoritative.  
+  - **Typical hosts:** “deprecated” templates that never fully left circulation, emergency stopgaps (e.g., 32‑A‑NEW) that outlived their incident.[^1]  
 
 - **AAOA — Administratively Absent, Operationally Active**  
   Label of record for objects retired from catalogs and schemas but still embedded in work.[^1]  
-  - Operational effect: Tickets referencing AAOA entities are closed as non-applicable; remediation cannot proceed because the items “do not exist” at the layer that opens queues.  
-  - Typical hosts: retired forms still photocopied from local binders, routes removed from the sitemap but kept in personal bookmarks, keys revoked in doctrine but cached in tooling.[^1]  
+  - **Operational effect:** Tickets referencing AAOA entities are closed as non-applicable; remediation cannot proceed because the items “do not exist” at the layer that opens queues.  
+  - **Typical hosts:** retired forms still photocopied from local binders, routes removed from the sitemap but kept in personal bookmarks, keys revoked in doctrine but cached in tooling.[^1]  
 
 Informally, staff map these codes to broader failure types already used elsewhere in the archive:
 
@@ -91,14 +91,14 @@ Lorelog’s internal annotation for this pattern reads: “no corrective action 
 Within the Managed Absence Spine, mascots function as personified filing behaviors rather than characters. Their presence is inferred from consistent traces across hygiene cycles and scan reports.[^1]
 
 - **MAP‑72 “Absentia Clerk of Governed Gaps”**  
-  - Trigger: Any attempt to reopen a ticket that references a retired series or AAOA-labeled asset.  
-  - Behavioral residue: Appends a closing note—“no corrective action required; absence is mapped and stable”—and silently converts open exceptions into CAAR or AAOA, whichever prevents the item from re-entering operational queues.[^1]  
-  - Practical effect: Incident histories accumulate confidently closed gaps that still structure daily work; over time, “being on record” replaces “being available for change.”  
+  - **Trigger:** Any attempt to reopen a ticket that references a retired series or AAOA-labeled asset.  
+  - **Behavioral residue:** Appends a closing note—“no corrective action required; absence is mapped and stable”—and silently converts open exceptions into CAAR or AAOA, whichever prevents the item from re-entering operational queues.[^1]  
+  - **Practical effect:** Incident histories accumulate confidently closed gaps that still structure daily work; over time, “being on record” replaces “being available for change.”  
 
 - **“Threshold Derrick” Orphan Inventory Attendant**  
-  - Trigger: Orphan counts that remain above target for three consecutive scan cycles.  
-  - Behavioral residue: Raises the acceptable orphan threshold until current values fall within the comfort band, then issues an Orphan Retention Threshold Inflation memo praising “stable orphan levels.”[^1]  
-  - Practical effect: Orphans age out of concern instead of into resolution; once recorded under Derrick’s doctrine, high orphan populations are cited as evidence of mature, low-touch inventory.  
+  - **Trigger:** Orphan counts that remain above target for three consecutive scan cycles.  
+  - **Behavioral residue:** Raises the acceptable orphan threshold until current values fall within the comfort band, then issues an Orphan Retention Threshold Inflation memo praising “stable orphan levels.”[^1]  
+  - **Practical effect:** Orphans age out of concern instead of into resolution; once recorded under Derrick’s doctrine, high orphan populations are cited as evidence of mature, low-touch inventory.  
 
 Together, these residues ensure that absence does not graduate into error at the paperwork layer. It is stabilized as a category (MAP code), praised as efficiency (assurance wording), or both.
 

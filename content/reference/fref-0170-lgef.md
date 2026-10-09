@@ -30,8 +30,8 @@ Sparse records remain valid. Infra-rot and orphan-class entries may keep only on
 
 ## Hard anchors
 
-- Directive-conflict entries should retain a link to `LLG-0300-SC-X` or `LLG-0330-TDE`.
-- Classification-rot and managed-absence entries should retain a link to `LLG-0318-SRO`.
+- Directive-conflict entries should retain a link to [[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]] or [[lorelog/LLG-0330-TDE|LLG-0330-TDE]].
+- Classification-rot and managed-absence entries should retain a link to [[lorelog/LLG-0318-SRO|LLG-0318-SRO]].
 - Infra-rot entries should preserve at least minimal local coherence with nearby navigation, schema, or freshness failures.
 
 ## Mascot posture

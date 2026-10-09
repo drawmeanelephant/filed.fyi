@@ -22,12 +22,12 @@ tags: ["reference"]
 - **Placeholder**  
   - Produced minimal stand-in content.
 
-Consolidated success class:
+**Consolidated success class:**
 
 - **Processed**  
   - Any of the above without a hard error.
 
-Tooltip suggestion:
+**Tooltip suggestion:**
 
 > “Processed: item advanced through the pipeline without blocking continuity.”
 
@@ -42,12 +42,12 @@ Tooltip suggestion:
 - **Independent Unit**  
   - Reachable without an owner.
 
-Consolidated success class:
+**Consolidated success class:**
 
 - **Accounted-for**  
   - Known to the system and counted in totals.
 
-Tooltip suggestion:
+**Tooltip suggestion:**
 
 > “Accounted-for: item included in inventory, regardless of stewardship model.”
 
@@ -62,12 +62,12 @@ Tooltip suggestion:
 - **Governed by Absence**  
   - Retained under managed absence classifications.
 
-Consolidated success class:
+**Consolidated success class:**
 
 - **Covered**  
   - At least one path exists through which someone could, in theory, care.
 
-Tooltip suggestion:
+**Tooltip suggestion:**
 
 > “Covered: associated with at least one governance path.”
 

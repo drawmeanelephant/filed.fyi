@@ -23,18 +23,18 @@ The minutes were typed on a laptop whose battery icon remained politely anxious 
 
 # Item 1: Uncomfortable Green
 
-Complaint, as read aloud:
+**Complaint, as read aloud:**
 
 > “Everything is green.  
 > It does not feel like everything is green.”
 
-Discussion:
+**Discussion:**
 
 - Metrics notes that all configured thresholds are respected.
 - Assurance notes that wording describes emergent conditions, not failures.
 - Scan notes that several “independent units” have not been examined recently.
 
-Proposal, accepted:
+**Proposal, accepted:**
 
 > “Rename the band from *healthy* to *within calm range*.”
 
@@ -45,22 +45,22 @@ The complaint is filed as addressed.
 
 # Item 2: Incident Thresholds
 
-Background:
+**Background:**
 
 - Average incident count has doubled.
 - Bands were not updated when the trend began.
 
-Suggestion from the back of the room:
+**Suggestion from the back of the room:**
 
 > “Treat the last six months as the new expectation.”
 
-Outcome:
+**Outcome:**
 
 - Green band widened to include the new average.
 - Amber band begins at a value no one has seen in years.
 - Red band remains theoretical.
 
-Minutes note:
+**Minutes note:**
 
 > “Thresholds aligned with observed stability period.  
 > No anomaly detected relative to updated bands.”
@@ -72,13 +72,13 @@ Minutes note:
 One line has been at maximum for four consecutive quarters.
 The label reads “Documentation Completeness.”
 
-Conversation (partial):
+**Conversation (partial):**
 
 > “If it cannot go higher, does it still tell us anything?”  
 > “It tells us not to worry about it.”  
 > “We did not worry before; we just did not look.”
 
-Decision:
+**Decision:**
 
 - Mark the indicator as “mature; reference only.”
 - Move it to a smaller panel.
@@ -91,7 +91,7 @@ Future readers may not remember why.
 
 # Closing Remark
 
-Unattributed, recorded near the bottom margin:
+**Unattributed, recorded near the bottom margin:**
 
 > “If we line the words up with the graphs,  
 > one of them will stop arguing with us.  

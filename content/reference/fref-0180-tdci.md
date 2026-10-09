@@ -108,7 +108,7 @@ Convert clean concepts into:
 - failed conclusions
 - log-style observations
 
-Example transformation:
+**Example transformation:**
 > “system stabilizes”
 → “system reports stabilization while continuing to expand”
 
@@ -122,7 +122,7 @@ Turn sequences into:
 - system logs
 - failed audits
 
-Output format:
+**Output format:**
 
 - Summary
 - Last Known Good State
@@ -138,7 +138,7 @@ Use frame plans to generate:
 - 4–8 frame sequences
 - controlled variation outputs
 
-Focus on:
+**Focus on:**
 
 - continuity
 - mutation, not novelty
@@ -153,7 +153,7 @@ Feed artifacts into mascots as:
 - error logs
 - failed interpretations
 
-Constraint:
+**Constraint:**
 Mascots must **not interpret creatively**
 They must **misclassify consistently**
 
@@ -201,8 +201,8 @@ Balance required.
   - systems stop spawning derivatives
   - outputs become linear summaries
 
-Detection priority: early.
-Correction: reintroduce constraint, not variation
+**Detection priority:** early.
+**Correction:** reintroduce constraint, not variation
 
 ---
 
@@ -215,11 +215,11 @@ Must be degraded before integration.
 
 ---
 
-Filed under:
-/time_ingestion/
-/pre_decay/
+**Filed under:**
+`/time_ingestion/`
+`/pre_decay/`
 
-Status:
+**Status:**
 OPEN
 
 ---
@@ -271,7 +271,7 @@ Apply selectively. Overuse results in sludge.
   - aesthetic escalation
   - “cool factor” drift
 
-Goal:
+**Goal:**
 Continuity under decay
 
 ## Seed Preservation Protocol
@@ -289,13 +289,13 @@ Failure to preserve seeds results in non-deterministic drift.
 Mascots are not narrators.
 Mascots are failing classification systems.
 
-Allowed behaviors:
+**Allowed behaviors:**
 
 - Mislabeling
 - Partial pattern recognition
 - Repeating outdated taxonomy
 
-Disallowed behaviors:
+**Disallowed behaviors:**
 
 - Insight
 - Emotional arcs
@@ -305,11 +305,11 @@ If mascot becomes “clever,” reset prompt constraints.
 
 ### Mascot Failure Examples
 
-Input: “system reports stabilization while expanding”
-→ Output: “classified as stable archive (growth ignored)”
+**Input:** “system reports stabilization while expanding”
+→ **Output:** “classified as stable archive (growth ignored)”
 
-Input: “SOURCE v2.1 replaces SOURCE”
-→ Output: “duplicate entry detected, reverting to SOURCE”
+**Input:** “SOURCE v2.1 replaces SOURCE”
+→ **Output:** “duplicate entry detected, reverting to SOURCE”
 
 ---
 
@@ -327,15 +327,15 @@ Artifacts missing any of the above are considered incomplete.
 
 ### Incident File
 
-Summary:
+**Summary:**
 
-Last Known Good State:
+**Last Known Good State:**
 
-Observed Failure:
+**Observed Failure:**
 
-Residual Artifacts:
+**Residual Artifacts:**
 
-Disposition:
+**Disposition:**
 
 ---
 
@@ -387,7 +387,7 @@ Continue only via recombination of existing artifacts.
 - Cross-apply metric drift onto archival scenes
 - Re-run degradation on already degraded artifacts
 
-Goal:
+**Goal:**
 Depth over breadth
 
 ---
@@ -420,7 +420,7 @@ File accordingly.
 
 **Archivist's Addendum**
 
-Subject to [FREF-0030-AVSG](fref-0030-avsg.md) realignment. Do not quote.
+Subject to [[reference/FREF-0030-AVSG|FREF-0030-AVSG]] realignment. Do not quote.
 
 </Aside>
 A chair squeaked a bit on a turn,
