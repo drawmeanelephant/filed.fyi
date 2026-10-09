@@ -16,7 +16,7 @@ The doctrine exists because queue systems often fail decoratively before they fa
 
 A queue may remain **operationally persuasive after it has ceased being operationally trustworthy**.
 
-Persuasion here includes:
+**Persuasion here includes:**
 - timely acknowledgment
 - movement between reassuring states
 - emotionally calming language
@@ -93,14 +93,14 @@ Once the missing basis becomes discussable, Queue Theatre frequently migrates in
 
 ## Approved language
 
-Preferred phrases:
+**Preferred phrases:**
 - visible uptake without execution depth
 - queue remains persuasive, recovery uncertain
 - responsiveness preserved, delivery basis thin
 - staged motion, partial labor trace
 - active handling surface, unrecoverable completion confidence
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the queue moved, therefore the work happened
 - acknowledgment counts as action
 - active status is sufficient proof of intervention

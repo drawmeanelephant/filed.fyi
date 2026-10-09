@@ -10,22 +10,22 @@ tags: ["reference"]
 
 Assurance Optics is the archive's term for the surface treatments that make reports look calmer than their contents. 
 
-It covers both the language shifts recorded in LLG-0323-ASD and the visual marks attached through AV-14 and LC-04, where failures and unresolved states are presented as favorable conditions.
+It covers both the language shifts recorded in [[lorelog/LLG-0323-ASD|LLG-0323-ASD]] and the visual marks attached through AV-14 and LC-04, where failures and unresolved states are presented as favorable conditions.
 
-Boundary Note: Assurance Optics governs the broad reassurance surface across reports and dashboards. In contrast, the Scan Reinterpretation Bloc (FREF-0080) handles the specific reclassification of raw scan output, while the Assurance Vocabulary Annex (LLG-0327) provides the underlying word substitution table.
+**Boundary Note:** Assurance Optics governs the broad reassurance surface across reports and dashboards. In contrast, the Scan Reinterpretation Bloc ([[reference/FREF-0080-SRBP|FREF-0080]]) handles the specific reclassification of raw scan output, while the Assurance Vocabulary Annex (LLG-0327) provides the underlying word substitution table.
 
 ## Components
 
 Assurance Optics currently names three main artifacts:
 
 - **Assurance Vocabulary Annex AVA**  
-  The language layer that replaces terms such as failure, defect, and unresolved with continuity-compatible phrases. See LLG-0327-AVA. 
+  The language layer that replaces terms such as failure, defect, and unresolved with continuity-compatible phrases. See [[lorelog/LLG-0327-AVA|LLG-0327-AVA]]. 
 
 - **AV-14 Nullseal Register**  
   The mascotized ledger that tracks which phrases have been harmonized, without preserving the original wording. 
 
 - **LC-04 Soft Green Seal**  
-  The graphical emblem attached to sections and intervals to indicate “fine enough” health, regardless of whose standard is being applied. See LLG-0323-LC04. 
+  The graphical emblem attached to sections and intervals to indicate “fine enough” health, regardless of whose standard is being applied. See [[lorelog/LLG-0323-LC04|LLG-0323-LC04]]. 
 
 ### Adjacent Custodians
 
@@ -45,15 +45,15 @@ Where these figures cluster, remediation is more likely to be applied to charts,
 - **CE-5 Countersign Aggregate** records that many names have accumulated, not that authority aligned.
 - **AC-11 Sealloop Auditor** supervises the seals themselves, ensuring recognition continues without closing any question.
 
-Doctrine Note Comfort, sufficiency, endorsement, and recognition must not be collapsed. A sealed packet may be calm, barely adequate, densely countersigned, and endlessly audited at once.
+**Doctrine Note** Comfort, sufficiency, endorsement, and recognition must not be collapsed. A sealed packet may be calm, barely adequate, densely countersigned, and endlessly audited at once.
 
-When these surfaces remain structurally persuasive while misdirecting interpretive landing, the result is not merely reassurance but adjacent correctness. A report, seal stack, or dashboard may continue to resolve successfully while still returning a wrong-nearby reading. See `FREF-0560-ADJC` Adjacent Correctness.
+When these surfaces remain structurally persuasive while misdirecting interpretive landing, the result is not merely reassurance but adjacent correctness. A report, seal stack, or dashboard may continue to resolve successfully while still returning a wrong-nearby reading. See [[reference/FREF-0560-ADJC|FREF-0560-ADJC]] Adjacent Correctness.
 
 These elements can appear together or separately, but they tend to accumulate on the same cases over time.
 
-Repeated use also alters the objects themselves. Seals, countersigns, and reassurance marks may acquire authority through recurrence, inheritance, and display rather than through renewed scrutiny alone. For those conditions, see `FREF-0570-APCR` Artifact Provenance Under Repeated Ceremonial Use.
+Repeated use also alters the objects themselves. Seals, countersigns, and reassurance marks may acquire authority through recurrence, inheritance, and display rather than through renewed scrutiny alone. For those conditions, see [[reference/FREF-0570-APCR|FREF-0570-APCR]] Artifact Provenance Under Repeated Ceremonial Use.
 
-Where reassurance marks remain behaviorally persuasive after their live proof basis has thinned into inheritance, cache, or ritual carry-forward, see `reference/fref-0823-tsrt` Trust Surface Residual Truth.
+Where reassurance marks remain behaviorally persuasive after their live proof basis has thinned into inheritance, cache, or ritual carry-forward, see [[reference/FREF-0823-TSRT|reference/fref-0823-tsrt]] Trust Surface Residual Truth.
 
 ## Procedural Role
 
@@ -63,7 +63,7 @@ Assurance Optics operates in the space between:
 - unfiltered logs and continuity dashboards,
 - narrative accounts and metrics of care. 
 
-Typical steps include:
+**Typical steps include:**
 
 1. A condition is detected and described in deficit terms.
 2. AVA translates those terms into assurance-compatible language.
@@ -86,7 +86,7 @@ Because these readings are not reconciled, the same optic can later be cited:
 
 ## Interaction with Metrics of Care
 
-Metrics of Care experiments LLG-0820-MCR initially attempted to anchor themselves to Assurance Optics:
+Metrics of Care experiments [[lorelog/LLG-0820-MCR|LLG-0820-MCR]] initially attempted to anchor themselves to Assurance Optics:
 
 - intervals with LC-04 and reassuring language were graphed as “attended stability,”
 - intervals with optics but no narrative were treated as “silent reassurance,”
@@ -97,7 +97,7 @@ Charts drifted toward depicting a greener system than participants recognized.
 
 Assurance Optics remains in place; Metrics of Care now treat it as a context signal rather than a ground truth.
 
-The "Metrics of Care" named here are defined across two records: the experimental record FREF-0400-METR (draft) and the current doctrine FREF-0740-MOC (published). Where they differ, the doctrine governs.
+The "Metrics of Care" named here are defined across two records: the experimental record [[reference/FREF-0400-METR|FREF-0400-METR]] (draft) and the current doctrine [[reference/FREF-0740-MOC|FREF-0740-MOC]] (published). Where they differ, the doctrine governs.
 
 ## Doctrine Status
 

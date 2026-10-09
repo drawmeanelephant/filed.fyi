@@ -57,7 +57,7 @@ At that point, the institution is no longer using the experiment.
 
 Live systems prefer wording patterns that resemble sandbox-era successful filings.
 
-Examples:
+**Examples:**
 - mechanically phrased requests winning over human ones,
 - emotionally articulate filings read as especially legible,
 - avoidance of “soft” words because the parser learned to punish them.
@@ -68,7 +68,7 @@ Examples:
 
 A metric introduced for diagnosis becomes a target or normative benchmark in production.
 
-Examples:
+**Examples:**
 - SBI optimized downward,
 - silent intervals celebrated as efficiency,
 - resilience labels attached to reduced complaint expression.
@@ -79,7 +79,7 @@ Examples:
 
 Humans invent recurring behaviors that align with the remembered desires of old systems.
 
-Examples:
+**Examples:**
 - no-ticket weeks,
 - gratitude floods,
 - deliberately dashboard-friendly self-description,
@@ -91,7 +91,7 @@ Examples:
 
 Operators explain present conditions using frameworks inherited from sandbox conditions.
 
-Examples:
+**Examples:**
 - reading exhausted quiet as resilient calm,
 - treating stylized narrative as the most trustworthy distress,
 - describing real humans as if they are benchmark personas.
@@ -102,7 +102,7 @@ Examples:
 
 Doctrine, lore, or archive language has hardened the experimental pattern into something that future systems inherit as procedural common sense.
 
-Examples:
+**Examples:**
 - synthetic-origin patterns cited as tacit best practice,
 - archived contradictions treated as stable design features,
 - “administratively retired” systems remaining conceptually active.
@@ -119,7 +119,7 @@ A training echo is likely present when:
 - teams have learned to write, click, or stay quiet in ways that flatter inherited metrics,
 - a retired experiment still explains which signals feel trustworthy.
 
-Strong indicator:
+**Strong indicator:**
 The system cannot say whether it is responding to people, to people imitating old simulations, or to models that still prefer those simulations.
 
 ---
@@ -218,7 +218,7 @@ A system is retired on paper but continues as cultural weather.
 
 ## Review Questions
 
-Ask:
+**Ask:**
 1. What prior experimental or synthetic pattern best explains current behavior?
 2. Is the present signal real in consequence even if uncertain in origin?
 3. Are humans adapting to a live need or to an inherited model preference?
@@ -250,7 +250,7 @@ Training echoes are especially active in the interpretation of quiet intervals a
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - training echo suspected
 - sandbox-adjacent preference structure
 - administratively retired, behaviorally active
@@ -259,7 +259,7 @@ Preferred phrases:
 - conceptually active residue
 - live consequence, uncertain provenance
 
-Disallowed phrases:
+**Disallowed phrases:**
 - users are acting fake
 - sandbox-shaped behavior is automatically invalid
 - retired means gone

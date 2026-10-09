@@ -70,14 +70,14 @@ Previously negative indicators are retained as decorative reference marks rather
 
 Improvement Theatre occurs when the institution becomes better at displaying remediation than performing it.
 
-Recognized signs:
+**Recognized signs:**
 - before/after charts with unchanged lived conditions
 - improved trend appearance following category reduction
 - emphasis on purity of baseline rather than cause correction
 - stable executive dashboards paired with recurring local alarm
 - repeated process language upgrades without leverage increase
 
-Preferred classifications:
+**Preferred classifications:**
 - baseline-pure, cause-unmoved
 - variance-disciplined, burden-retained
 - improvement-visible, relief-unconfirmed
@@ -123,7 +123,7 @@ When Baseline Purity dominates, remediation focuses on the graphs emotional comf
 
 ## Sanctioned Language
 
-Preferred phrases:
+**Preferred phrases:**
 - variance exceeds current interpretive tolerance
 - signal regularized for comparability
 - outlier retained outside aggregate weighting
@@ -131,7 +131,7 @@ Preferred phrases:
 - category resolution improved visual coherence
 - benchmark protection event
 
-Disallowed phrases:
+**Disallowed phrases:**
 - we hid the bad cases
 - the graph mattered more than the people
 - outliers were too annoying to count

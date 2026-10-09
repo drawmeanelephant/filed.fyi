@@ -27,8 +27,8 @@ Only two receive initials.
 
 # Discussion – Item 1: Holes
 
-> SCAN: “We write *hole* when we mean something is not there.”  
-> WORDING: “We write *curated absence* when we mean the same thing will not be fixed.”  
+> **SCAN:** “We write *hole* when we mean something is not there.”  
+> **WORDING:** “We write *curated absence* when we mean the same thing will not be fixed.”  
 
 A compromise phrase is recorded:
 
@@ -51,7 +51,7 @@ Scan notes that unattended records:
 
 - are difficult to explain to new staff.
 
-Wording offers:
+**Wording offers:**
 
 > “Independent archival units, low-touch by design.”
 
@@ -66,7 +66,7 @@ A question is raised:
 
 > “What we call it when the graph is calm and the room is not?”
 
-The recorded answer:
+**The recorded answer:**
 
 - “We call it *continuity*.  
   The room will file its feelings elsewhere.”

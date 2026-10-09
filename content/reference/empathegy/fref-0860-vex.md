@@ -58,7 +58,7 @@ Exclusion is often the shadow cast by that reward structure.
 
 Affective states are underrepresented because they do not conform to smooth, trendable, or continuous emotional trajectories.
 
-Examples:
+**Examples:**
 - contradictory simultaneity,
 - recovery with recurrence,
 - non-monotonic stabilization,
@@ -70,7 +70,7 @@ Examples:
 
 States requiring narrative or situational reconstruction lose representational weight because aggregation layers are optimized for simple fields.
 
-Examples:
+**Examples:**
 - complex support exchanges,
 - multi-party care interventions,
 - burden that makes sense only when paired with timeline context.
@@ -81,7 +81,7 @@ Examples:
 
 A state becomes less visible because the richer underlying interaction is deleted, minimized, or rendered non-recoverable after a simpler completion token survives.
 
-Examples:
+**Examples:**
 - acknowledgment click retained through reporting artifacts,
 - follow-up details deleted under minimization,
 - care event remembered only as completed.
@@ -92,7 +92,7 @@ Examples:
 
 States remain below visibility because they fail to cross policy, dashboard, or scoring thresholds despite recurring locally.
 
-Examples:
+**Examples:**
 - high-frequency low-intensity strain,
 - unresolved burden without incident classification,
 - repeated near-events treated as background.
@@ -103,7 +103,7 @@ Examples:
 
 The state is still present but renamed into a vocabulary that no longer routes it as burden, care deficit, or contradiction.
 
-Examples:
+**Examples:**
 - unresolved becoming deferred assurance,
 - silence becoming healthy interval,
 - fatigue becoming throughput modulation.
@@ -150,7 +150,7 @@ Visibility Exclusion describes persistent underrepresentation caused by system c
 
 ## Indicators
 
-Indicators include:
+**Indicators include:**
 - local staff insist the condition is common while dashboards barely show it,
 - simple care events survive while complex ones disappear,
 - aggregate calm increases after deletion or normalization changes,
@@ -159,7 +159,7 @@ Indicators include:
 - states that resist summary are preserved only in annexes or witness notes,
 - “healthy-looking” intervals require local explanation to remain believable.
 
-Additional indicator:
+**Additional indicator:**
 The more context a state requires, the less institutionally real it becomes.
 
 ---
@@ -207,7 +207,7 @@ Once a simple completion marker exists, richer unresolved context decays faster.
 
 ## Review Questions
 
-Ask:
+**Ask:**
 1. What states are locally common but aggregately scarce?
 2. What requires too much context to survive the reporting path?
 3. Which events remain inferable only through distortion, residue, or annex reference?
@@ -228,11 +228,13 @@ When Visibility Exclusion is suspected:
 4. prohibit health claims based solely on aggregate absence,
 5. pair visible summaries with a statement about known exclusion classes.
 
-Minimum note:
-“Aggregate view incomplete; exclusion-prone states may be underrepresented.”
+**Minimum note:**
 
-Stronger note:
-“Dashboard calm may reflect representational survivability rather than reduced burden.”
+> “Aggregate view incomplete; exclusion-prone states may be underrepresented.”
+
+**Stronger note:**
+
+> “Dashboard calm may reflect representational survivability rather than reduced burden.”
 
 ---
 
@@ -257,7 +259,7 @@ Suppression reduces intake; exclusion reduces survival after intake.
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - visibility exclusion suspected
 - operationally present, aggregately thin
 - underrepresented due to survivability conditions
@@ -265,7 +267,7 @@ Preferred phrases:
 - context-heavy states may be excluded
 - representational thinning observed
 
-Disallowed phrases:
+**Disallowed phrases:**
 - if it is not on the dashboard it did not happen
 - low visibility proves low prevalence
 - exclusion reflects insignificance

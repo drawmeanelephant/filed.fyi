@@ -39,7 +39,7 @@ What matters is whether the system found a sign stable enough to stop looking di
 
 Institutions often close loops by sign before they close them by change.
 
-Common completion signs include:
+**Common completion signs include:**
 - seals,
 - icons,
 - witness notes,
@@ -60,7 +60,7 @@ They need only to reduce the institutional discomfort caused by its incompletene
 
 A marker, seal, icon, or badge creates the appearance that a process reached a satisfactory endpoint.
 
-Examples:
+**Examples:**
 - Soft Green Seal attachment,
 - tasteful rest icon,
 - healthy interval shading,
@@ -72,7 +72,7 @@ Examples:
 
 Language converts unresolved conditions into administratively durable closure-adjacent states.
 
-Examples:
+**Examples:**
 - fulfilled in spirit,
 - under continued review,
 - assurance window open,
@@ -85,7 +85,7 @@ Examples:
 
 A workflow step is treated as sufficient proof that something has been handled.
 
-Examples:
+**Examples:**
 - witness recorded,
 - acknowledgment logged,
 - escalation filed,
@@ -98,7 +98,7 @@ Examples:
 
 Ritual attention produces a sense of morally adequate handling without corresponding leverage or change.
 
-Examples:
+**Examples:**
 - lodge acknowledgment,
 - memorial wording,
 - public thanks,
@@ -111,7 +111,7 @@ Examples:
 
 The archive preserves enough trace that the institution later mistakes preservation for completion.
 
-Examples:
+**Examples:**
 - case filed therefore settled,
 - contradiction retained therefore handled,
 - burden indexed therefore addressed,
@@ -209,11 +209,13 @@ Every symbolic completion record should preserve:
 - whether any action followed,
 - whether dashboards or summaries overread the sign.
 
-Minimum caution note:
-“Completion signal present; material resolution not established.”
+**Minimum caution note:**
 
-Minimum archive note:
-“Symbolic closure may exceed corrective change.”
+> “Completion signal present; material resolution not established.”
+
+**Minimum archive note:**
+
+> “Symbolic closure may exceed corrective change.”
 
 ---
 
@@ -273,7 +275,7 @@ If Question 5 makes the completion state difficult to defend, symbolic completio
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - symbolic completion applied
 - closure signal exceeds material change
 - completion marker present
@@ -282,7 +284,7 @@ Preferred phrases:
 - materially unresolved, symbolically complete
 - archival closure without verified relief
 
-Disallowed phrases:
+**Disallowed phrases:**
 - completion confirmed
 - acknowledgment closed the issue
 - the icon means it was handled
