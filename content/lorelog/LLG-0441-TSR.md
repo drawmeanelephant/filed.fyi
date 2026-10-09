@@ -12,7 +12,7 @@ A trust-bearing surface continued to guide routing, confidence, and ordinary dec
 
 Because adjacent systems still recognized the surface, and because its removal would have introduced visible instability, reviewers preserved it under inherited handling. The result was a trust layer justified more by continuity effects than by live basis.
 
-This condition did not arise from simple neglect. It arose because the surface kept working behaviorally after its proof conditions became historical, distributed, and partially managed through neighboring supports. The mark survived because it remained easier to govern than to unsettle.
+This condition did not arise from simple neglect. It arose because the surface kept working behaviorally after its proof conditions became historical, distributed, and partially managed through neighboring supports. **The mark survived because it remained easier to govern than to unsettle.**
 
 The archive classifies this as trust retention under inherited conditions rather than direct falsification. The issue is not whether the surface persuades. The issue is what kind of basis now permits that persuasion to continue.
 
