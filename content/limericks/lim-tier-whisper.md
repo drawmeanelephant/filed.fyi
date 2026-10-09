@@ -69,4 +69,4 @@ The operator failed to align,
 The scope of the whisper design.  
 It echoes a blank,  
 In the memory bank,  
-And outputs a single straight line.
+**And outputs a single straight line.**

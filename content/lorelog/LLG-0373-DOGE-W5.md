@@ -10,7 +10,7 @@ tags: ["lorelog", "doge-charter", "audit-drift", "compliance-theatre", "procedur
 
 Window 5 handles appeals in which a filer argues that a platform-delivered experience should still be treated as locally anchored. Over time, staff discovered that many of these appeals could not be resolved by ordinary provenance checks because the key question was counterfactual: would the feeling have arisen without the platform’s delivery? DOGE treated this as a provenance issue, RAGE analysis treated it as a routing issue, and the Tribunal treated it as a question that should arrive already organized. 
 
-The congestion event began when a routing update added a new handoff rule: cases containing both verifiable local harm and visible engagement amplification were to be dual-reviewed before tribunal assignment. In practice, this meant the same appeal could circulate between three desks indefinitely, each appending accurate partial notes while declining final responsibility for the claim’s impossible core. Queue throughput remained technically active. Resolution became ceremonial. 
+The congestion event began when a routing update added a new handoff rule: cases containing both verifiable local harm and visible engagement amplification were to be dual-reviewed before tribunal assignment. In practice, this meant the same appeal could circulate between three desks indefinitely, each appending accurate partial notes while declining final responsibility for the claim’s impossible core. Queue throughput remained technically active. **Resolution became ceremonial.** 
 
 ---
 
