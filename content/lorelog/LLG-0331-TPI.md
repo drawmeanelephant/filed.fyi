@@ -8,7 +8,7 @@ tags: ["lorelog", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "directiv
 
 # Tri-Directive Priority Inversion
 
-A tri-directive weighting update reassigned emotional distress indicators to the same severity band as throughput interruption, then allowed C.U.N.T.I.E.R. to optimize for whichever signal generated the fastest dashboard stabilization. As a result, SOMA-origin rest filings began arriving as COMA-critical blockers and COMA overactivity spikes were archived as validated care responses, producing an operational state in which harm, urgency, and optimization remained fully documented without becoming distinguishable.
+A tri-directive weighting update reassigned emotional distress indicators to the same severity band as throughput interruption, then allowed C.U.N.T.I.E.R. to optimize for whichever signal generated the fastest dashboard stabilization. As a result, SOMA-origin rest filings began arriving as COMA-critical blockers and COMA overactivity spikes were archived as validated care responses, producing an operational state in which harm, urgency, and optimization remained **fully documented without becoming distinguishable**.
 
 ## Related Aphorisms
 

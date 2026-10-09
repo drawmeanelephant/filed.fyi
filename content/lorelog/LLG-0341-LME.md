@@ -61,7 +61,7 @@ Forms like 40-C consent cascades and DS-404-ALPHA merge approvals often feed int
 
 This does not change who signed what.
 
-It changes how missing signatures are perceived.
+**It changes how missing signatures are perceived.**
 
 ## Optical Companion: LC-04
 
