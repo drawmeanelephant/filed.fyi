@@ -14,7 +14,7 @@ The resulting loop did not begin as overt contradiction. Each office could still
 
 Observed effects included continued acceptance of marked packets without supplementary challenge, stable routing through reassurance-sensitive intake channels, and localized resistance to any proposal that would suspend one mark before clarifying the others. Because each surface still appeared institutionally familiar, downstream readers treated the continuity of recognition as evidence that basis remained adequately alive somewhere else in the chain.
 
-Preliminary handling produced a split record. Continuity-facing reviewers argued that reciprocal acknowledgment remained sufficient for circulation where no explicit breach band had been triggered and no downstream harm surface had yet been formally classified. Opposing reviewers argued that the chain had crossed from mutual recognition into mutual substitution, with each surviving mark quietly functioning as inherited basis for the next. The file remains open because withdrawal of any single mark now risks being read as a challenge to all adjacent recognitions that helped keep it stable.
+Preliminary handling produced a split record. Continuity-facing reviewers argued that reciprocal acknowledgment remained sufficient for circulation where no explicit breach band had been triggered and no downstream harm surface had yet been formally classified. Opposing reviewers argued that the chain had crossed from **mutual recognition into mutual substitution**, with each surviving mark quietly functioning as inherited basis for the next. The file remains open because withdrawal of any single mark now risks being read as a challenge to all adjacent recognitions that helped keep it stable.
 
 ## Related Aphorisms
 

@@ -29,7 +29,7 @@ The executives want to feel good,
 So they launder the neighborhood.  
 Your tears and your sweat  
 Hit the launderette,  
-And come out as pure corporate wood.  
+**And come out as pure corporate wood.**  
 
 
 
