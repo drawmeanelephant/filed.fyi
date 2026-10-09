@@ -15,8 +15,8 @@ The projector hums even when unplugged.
 Participants (partial):
 
 - **BMD Clerk** – chairing, holding a marker and a calculator that never leaves basic mode.
-- **Peatworthy Abstention Clerk** – carrying a memorial roll binder.
-- **Lionell Pancake Auditor** – smelling faintly of syrup and agenda ink.
+- **[[limericks/LIM-0156|Peatworthy Abstention Clerk]]** – carrying a memorial roll binder.
+- **[[limericks/LIM-0128|Lionell Pancake Auditor]]** – smelling faintly of syrup and agenda ink.
 
 Recorder on from the first disagreement.
 
@@ -36,7 +36,7 @@ The agenda notes a single objective:
 
 ## Disagreement One: Honorary Absences
 
-Peatworthy opens the memorial roll to the **Honorary Absences** section.
+Peatworthy opens the memorial roll to the **[[aphorisms/APH-LLG-0390-HAP|Honorary Absences]]** section.
 
 > PEATWORTHY:  
 >  I will not delete them from the roll.  

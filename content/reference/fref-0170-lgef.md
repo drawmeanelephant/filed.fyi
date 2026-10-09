@@ -37,15 +37,15 @@ Sparse records remain valid. Infra-rot and orphan-class entries may keep only on
 ## Mascot posture
 
 - `mascotRef` remains the primary mascot field.
-- Mascots act first as jurisdictional witnesses.
+- [[mascots|Mascots]] act first as jurisdictional witnesses.
 - They may also behave as contradictory certifiers, interpretive filters, memory artifacts, or audit residue.
 - Do not enforce one mascot to one stable function.
 
 Mascot consistency matters at system level more than at sentence level.
 
-Where removal would be emotionally or politically expensive, MA-LCGU Porter is invoked. Porter does not delete artifacts; they carry them into a managed-absence state, refiled as contextual history. Under this treatment, legacy fields, orphan records, and unneeded metrics become LCGU units: still structurally present, but described as objects we keep on purpose, for narrative reasons.
+Where removal would be emotionally or politically expensive, [[limericks/LIM-0131|MA-LCGU Porter]] is invoked. Porter does not delete artifacts; they carry them into a managed-absence state, refiled as contextual history. Under this treatment, legacy fields, orphan records, and unneeded metrics become LCGU units: still structurally present, but described as objects we keep on purpose, for narrative reasons.
 
-Mutual Exception is treated as an absence governance problem as much as a forms problem. The Lodge of Mutual Exception specializes in turning once-rare waivers into permanent holes in obligation, then declaring those holes historically necessary.
+Mutual Exception is treated as an absence governance problem as much as a forms problem. The [[haikus/HAI-LLG-0341-LME|Lodge of Mutual Exception]] specializes in turning once-rare waivers into permanent holes in obligation, then declaring those holes historically necessary.
 
 ## Tag posture
 

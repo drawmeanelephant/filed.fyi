@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "witness", "seal", "assurance", "legitimacy"]
 
 ## Purpose
 
-The Witness and Seal Layer governs how Empathegy marks emotional, procedural, and interpretive conditions as sufficiently seen to circulate without immediate collapse of trust.
+The Witness and Seal Layer governs how [[haikus/HAI-LLG-0811-EG|Empathegy]] marks emotional, procedural, and interpretive conditions as sufficiently seen to circulate without immediate collapse of trust.
 
 Its function is not truth production.
 Its function is legitimacy maintenance under conditions of incomplete certainty.

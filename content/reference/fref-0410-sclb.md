@@ -39,7 +39,7 @@ Each SCL session emits:
 - **Silent Interval Markers**  
   Timestamps for windows with no incident codes, wired into COMA's continuity ledger and into metrics-of-care experiments [[lorelog/LLG-0820-MCR|LLG-0820-MCR]]. 
 
-Over time, Lorelog cases such as [[lorelog/LLG-0821-SCL|LLG-0821-SCL]] have documented how the same markers are:
+Over time, [[lorelog|Lorelog]] cases such as [[lorelog/LLG-0821-SCL|LLG-0821-SCL]] have documented how the same markers are:
 
 - read as potential rest by SOMA,
 - logged as uninterrupted uptime by COMA,
@@ -57,14 +57,14 @@ None of these uses require SCL to exist as more than a recurring meeting and a f
 
 SCL is a primary habitat for:
 
-- **SI-9 Interval Witness**, representing the unclassified quiet that carries doctrine but no code.  
-- **SC-Λ Care/Continuity Split**, capturing cases where one notification is treated as care, command, and metric all at once. 
+- **[[limericks/LIM-SI-0009-INTERVAL-WITNESS|SI-9 Interval Witness]]**, representing the unclassified quiet that carries doctrine but no code.  
+- **[[limericks/LIM-0190|SC-Λ Care/Continuity Split]]**, capturing cases where one notification is treated as care, command, and metric all at once. 
 
 These mascots emerge not from any dramatic event but from the accumulation of minutes in which everyone agrees something happened and no one agrees what it was.
 
 ## Doctrine Status
 
-The Listening Board belongs to the Directive Cross-Sections cluster rather than to any single directive. 
+The Listening Board belongs to the [[limericks/LIM-LLG-0326-DXS|Directive Cross-Sections]] cluster rather than to any single directive. 
 
 Internal reference calls it:
 

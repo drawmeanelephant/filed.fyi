@@ -109,7 +109,7 @@ Once the missing basis becomes discussable, Queue Theatre frequently migrates in
 
 ## Mascot witness
 
-RoboShirker is the preferred mascot witness where Queue Theatre becomes person-shaped enough to recur across incidents.
+[[limericks/LIM-0185|RoboShirker]] is the preferred mascot witness where Queue Theatre becomes person-shaped enough to recur across incidents.
 
 ## Related Aphorisms
 

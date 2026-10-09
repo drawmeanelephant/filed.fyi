@@ -20,7 +20,7 @@ MCR instrumentation attaches to:
 
 - intervals tagged as quiet but strained e.g., [[lorelog/LLG-0334-CSI|LLG-0334-CSI]] Silent Interval accumulation,
 - directive cross-sections where rest and uptime collide [[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]], [[lorelog/LLG-0321-DRT|LLG-0321-DRT]],
-- sessions routed through the Service Continuity Listening Board [[lorelog/LLG-0821-SCL|LLG-0821-SCL]]. 
+- sessions routed through the [[limericks/LIM-FREF-0410-SCLB|Service Continuity Listening Board]] [[lorelog/LLG-0821-SCL|LLG-0821-SCL]]. 
 
 In practice, this means that whenever a period of time is already being discussed as:
 
@@ -57,7 +57,7 @@ They become additional columns in reports that already have their conclusions.
 
 In environments governed by Beltline Purity, Metrics of Care attach awkwardly.
 
-The Beltline Purity Office prefers stable charts over volatile feelings, so care spikes that coincide with visible variance are often smoothed or relabeled before they reach dashboards. The Service Continuity Listening Board can still record how those intervals felt, but when MCR annotations climb onto a purified beltline they are rendered as faint hints, not as reasons to redraw the line.
+The [[haikus/HAI-LLG-0340-BPO|Beltline Purity Office]] prefers stable charts over volatile feelings, so care spikes that coincide with visible variance are often smoothed or relabeled before they reach dashboards. The Service Continuity Listening Board can still record how those intervals felt, but when MCR annotations climb onto a purified beltline they are rendered as faint hints, not as reasons to redraw the line.
 
 ## Managed Absence and Low-Confidence Objects
 
@@ -66,16 +66,16 @@ Because care is difficult to validate numerically, many MCR-derived signals drif
 - Flags for “felt heard” may be refiled as AAOA Archivally Asserted, Operationally Absent.
 - Notes about “care offered but declined” resemble STCP braids when no directive owns the outcome. 
 
-Low-Confidence Objects such as LC-22 Statement of Self-Esteem for Backups sit at this edge: heavily referenced in care discourse, structurally irrelevant in continuity, and formally ungraphable. 
+[[limericks/LIM-FREF-0730-LCOB|Low-Confidence Objects]] such as LC-22 Statement of Self-Esteem for Backups sit at this edge: heavily referenced in care discourse, structurally irrelevant in continuity, and formally ungraphable. 
 
-Poems like Unchartable Ida and Caveat Snowglobe are filed as edge-specimens of MCR: artifacts that record how care and strain felt in intervals where no agreed metric could be drawn. They sit adjacent to dashboards rather than on them, reminding reviewers that some parts of the work refuse to take the shape of a line.
+Poems like [[limericks/LIM-0233|Unchartable Ida]] and [[limericks/LIM-0057|Caveat Snowglobe]] are filed as edge-specimens of MCR: artifacts that record how care and strain felt in intervals where no agreed metric could be drawn. They sit adjacent to dashboards rather than on them, reminding reviewers that some parts of the work refuse to take the shape of a line.
 
 ## Doctrine Status
 
 Metrics of Care do not yet constitute their own system.  
 They are recognized as a cross-cutting vocabulary that can be attached to:
 
-- Lorelog cases in the directive cross-section cluster,
+- [[lorelog|Lorelog]] cases in the directive cross-section cluster,
 - Listening Board minutes,
 - experiments logged under [[lorelog/LLG-0820-MCR|LLG-0820-MCR]]. 
 

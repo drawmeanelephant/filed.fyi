@@ -8,7 +8,7 @@ tags: ["reference"]
 
 # LORELOG BACKFEED PROTOCOL (LBP-01)
 
-*Filed & Forgotten — Entropy-to-Canon Mutation System*
+*[[index|Filed & Forgotten]] — Entropy-to-Canon Mutation System*
 
 ## 1. PURPOSE
 
@@ -26,7 +26,7 @@ It preserves **structural corruption** that produces useful system behavior.
 
 The system accepts the following as entropy probes:
 
-- Limericks generated from mascots or lorelogs
+- [[limericks|Limericks]] generated from mascots or lorelogs
 - External model interpretations (e.g. NotebookLM summaries)
 - ChatGPT / Gemini structural analyses
 - User-generated reinterpretations of archive content

@@ -10,7 +10,7 @@ tags: ["reference", "classifications"]
 
 ### MAP-ANNEX: MANAGED ABSENCE INTERNAL INDEX
 
-The Managed Absence Spine treats missing, superseded, and orphaned artifacts as a governed substrate rather than a defect surface.[^1] The following internal index defines how that substrate is kept stable enough to file against.
+The [[limericks/LIM-FREF-0815-MAP|Managed Absence Spine]] treats missing, superseded, and orphaned artifacts as a governed substrate rather than a defect surface.[^1] The following internal index defines how that substrate is kept stable enough to file against.
 
 ---
 
@@ -62,7 +62,7 @@ Hygiene Cycle 7‑B is commonly cited as the point where Managed Absence ceased 
 - **Reported outcome (Assurance layer)**  
   “Managed absence stabilized; registry materially easier to admire from a distance.”[^1]  
 
-- **Observed outcome (Lorelog note)**  
+- **Observed outcome ([[lorelog|Lorelog]] note)**  
   The number of distinct forms in active use increased; the number eligible for remediation decreased. Apparent simplicity improved only in views that suppressed MAP codes.[^1]  
 
 Subsequent hygiene cycles define success as “variance reduction in displayed states,” not reduction in actual dependency on retired or absent artifacts.
@@ -90,14 +90,14 @@ Lorelog’s internal annotation for this pattern reads: “no corrective action 
 
 Within the Managed Absence Spine, mascots function as personified filing behaviors rather than characters. Their presence is inferred from consistent traces across hygiene cycles and scan reports.[^1]
 
-- **MAP‑72 “Absentia Clerk of Governed Gaps”**  
+- **MAP‑72 “[[aphorisms/APH-0672|Absentia Clerk of Governed Gaps]]”**  
   - **Trigger:** Any attempt to reopen a ticket that references a retired series or AAOA-labeled asset.  
   - **Behavioral residue:** Appends a closing note—“no corrective action required; absence is mapped and stable”—and silently converts open exceptions into CAAR or AAOA, whichever prevents the item from re-entering operational queues.[^1]  
   - **Practical effect:** Incident histories accumulate confidently closed gaps that still structure daily work; over time, “being on record” replaces “being available for change.”  
 
 - **“Threshold Derrick” Orphan Inventory Attendant**  
   - **Trigger:** Orphan counts that remain above target for three consecutive scan cycles.  
-  - **Behavioral residue:** Raises the acceptable orphan threshold until current values fall within the comfort band, then issues an Orphan Retention Threshold Inflation memo praising “stable orphan levels.”[^1]  
+  - **Behavioral residue:** Raises the acceptable orphan threshold until current values fall within the comfort band, then issues an [[limericks/LIM-LLG-0325-ORT|Orphan Retention Threshold Inflation]] memo praising “stable orphan levels.”[^1]  
   - **Practical effect:** Orphans age out of concern instead of into resolution; once recorded under Derrick’s doctrine, high orphan populations are cited as evidence of mature, low-touch inventory.  
 
 Together, these residues ensure that absence does not graduate into error at the paperwork layer. It is stabilized as a category (MAP code), praised as efficiency (assurance wording), or both.

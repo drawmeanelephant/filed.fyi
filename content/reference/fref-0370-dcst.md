@@ -8,7 +8,7 @@ tags: ["reference"]
 
 # Directive Conflict Stack — SOMA, COMA & C.U.N.T.I.E.R. at Cross-Purposes
 
-**Classification:** Reference / Tri-Directive Tension Layer  
+**Classification:** [[reference|Reference]] / Tri-Directive Tension Layer  
 **Status:** Reliably unstable  
 **Containment Level:** Council minutes, frozen mid-argument  
 
@@ -22,7 +22,7 @@ The Directive Conflict Stack covers the family of incidents where:
 - **COMA** tries to preserve continuity optics, and  
 - **C.U.N.T.I.E.R.** tries to optimize whatever the dashboards already like.
 
-Key case files in this stratum: **SC-X**, **TPI**, **SCD**, **MEO**, **CSE**, **SCAS**, and the various citation/weight leaks that tie them together.
+Key case files in this stratum: **SC-X**, **TPI**, **SCD**, **MEO**, **CSE**, **[[limericks/LIM-LLG-0400-SCAS|SCAS]]**, and the various citation/weight leaks that tie them together.
 
 The stack is not a bug list.  
 It is how the system behaves when every directive is “working as designed.”
