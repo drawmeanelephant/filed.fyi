@@ -20,7 +20,7 @@ The closing record states that no adverse finding arose from the lack of observe
 
 One dissenting note asked whether certification had become confidence in the handling of proof rather than confidence in the underlying work. A second note, attached to the same page, observed that the witness team had seen no evidence that the work was absent either.
 
-The notes remain attached but are not headline-visible.
+**The notes remain attached but are not headline-visible.**
 
 Sealward Proxy-9 certified the visit as complete under conditional witness continuity. The mark was accepted without supplementary scope reconstruction. Subsequent reviewers have treated this as routine, which is the principal reason the appeal remains open.
 
