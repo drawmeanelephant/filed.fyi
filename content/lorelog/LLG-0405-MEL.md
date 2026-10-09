@@ -98,7 +98,7 @@ Mel continues to reject any request that uses unapproved verbs, including stop, 
 He reminds filers that they are free to **document** their concerns.
 
 This case remains classified as **unresolvable**. The work that stopped is still being measured
-as if it never did.
+**as if it never did.**
 
 ## Related Aphorisms
 

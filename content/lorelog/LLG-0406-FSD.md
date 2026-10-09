@@ -64,7 +64,7 @@ Meaning:
 - Existing experiments may continue to rely on its outputs, but only by citing archived runs.  
 - Any live process matching its signature must either register as a successor with a new name or be shut down.  
 
-This step changed every diagram and zero lines of code.  
+**This step changed every diagram and zero lines of code.**  
 C.U.N.T.I.E.R. immediately relabeled several dashboards from “Seeder-driven” to “Legacy Affect Benchmark,” thereby increasing their perceived stability.
 
 ---
