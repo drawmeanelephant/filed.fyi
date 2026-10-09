@@ -7,7 +7,7 @@ tags: ["changelog", "reference", "presentation-qa"]
 
 # Presentation QA v2: Reference Slice 02 (Empathegy FREF-0580–0690)
 
-**Maintenance ID:** 0.1.00249.presentation-qa-v2-ref02
+**Maintenance ID:** 0.1.00252.presentation-qa-v2-ref02
 **Date:** 2026-10-09
 **Scope:** `content/reference/empathegy/` — the fourteen records assigned by issue #972 (`fref-0580-cmps` through `fref-0690-gbhm`)
 
