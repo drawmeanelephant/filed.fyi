@@ -36,9 +36,9 @@ Each entry carries:
 
 | Case | Receiving Layer | Authority Layer | Gap Type | Citation Survival |
 |---|---|---|---|---|
-| LLG-0864-WRC | SCL Intake | SOMA Advisory | Routing table condition unmet | Yes — cited as care coverage |
-| LLG-0821-SCL | Listening Board Minutes | COMA / SOMA / C.U.N.T.I.E.R. | Structural — no directive required action | Yes — cited by all three as confirmation |
-| LLG-0857-WLI (partial) | Lodge witness records | Remedy-capable systems | Structural — lodge held no interruption authority | Yes — lodge growth cited as care expansion |
+| [[lorelog/LLG-0864-WRC|LLG-0864-WRC]] | SCL Intake | SOMA Advisory | Routing table condition unmet | Yes — cited as care coverage |
+| [[lorelog/LLG-0821-SCL|LLG-0821-SCL]] | Listening Board Minutes | COMA / SOMA / C.U.N.T.I.E.R. | Structural — no directive required action | Yes — cited by all three as confirmation |
+| [[lorelog/LLG-0857-WLI|LLG-0857-WLI]] (partial) | Lodge witness records | Remedy-capable systems | Structural — lodge held no interruption authority | Yes — lodge growth cited as care expansion |
 
 ---
 
@@ -48,7 +48,7 @@ This registry is not a complaint ledger.
 It is a record of routing architecture as it functioned.
 
 Entries should be added when:
-1. A custody gap is confirmed (FREF-0635-WWLV conditions met).
+1. A custody gap is confirmed ([[reference/FREF-0635-WWLV|FREF-0635-WWLV]] conditions met).
 2. The gap is structural, not incidental.
 3. A custody note was generated at receipt.
 
@@ -60,10 +60,10 @@ The distinction is custody architecture, not outcome disappointment.
 
 ### Interlocks
 
-- **FREF-0635-WWLV** — Handling note governing how custody gaps are filed; this registry records the confirmed instances
+- **[[reference/FREF-0635-WWLV|FREF-0635-WWLV]]** — Handling note governing how custody gaps are filed; this registry records the confirmed instances
 - **Witness Protocol** — Parent governance of witness classes and escalation triggers
-- **FREF-0410-SCLB** — Primary institutional context for SCL-originating entries
-- **LLG-0864-WRC** — First formally filed standalone custody gap instance
+- **[[reference/FREF-0410-SCLB|FREF-0410-SCLB]]** — Primary institutional context for SCL-originating entries
+- **[[lorelog/LLG-0864-WRC|LLG-0864-WRC]]** — First formally filed standalone custody gap instance
 
 ## Related Aphorisms
 

@@ -108,19 +108,19 @@ A well-phrased request is not a healthier request.
 ## Phrasebook Bands
 
 ### Band A: Admissible Softening
-Examples:
+**Examples:**
 - rest need becomes recovery window request
 - overload becomes sustained load condition
 - unprocessed strain becomes unresolved load accumulation
 
 ### Band B: Continuity-Protective Framing
-Examples:
+**Examples:**
 - pause becomes throughput recalibration interval
 - burnout risk becomes sustainability variance concern
 - emotionally overloaded becomes interpretively saturated
 
 ### Band C: Assurance Edge
-Examples:
+**Examples:**
 - failure becomes emerging structure
 - unresolved becomes assurance window remains open
 - burden remains active becomes under continued review
@@ -168,7 +168,7 @@ at least one of the following must also exist:
 - contradiction marker,
 - non-remedial warning.
 
-Approved warning:
+**Approved warning:**
 “Continuity-compatible phrasing applied; urgency and burden may exceed surface language.”
 
 ---
@@ -176,49 +176,49 @@ Approved warning:
 ## Comparative Examples
 
 ### Rest
-Direct:
+**Direct:**
 “We are too exhausted to continue like this.”
 
-Continuity-compatible:
+**Continuity-compatible:**
 “Current load exceeds sustainable operational equilibrium.”
 
-Unsafe reassurance drift:
+**Unsafe reassurance drift:**
 “Short-term recalibration may optimize continuity confidence.”
 
 ---
 
 ### Silence
-Direct:
+**Direct:**
 “No one filed because everyone was too tired to start the form.”
 
-Continuity-compatible:
+**Continuity-compatible:**
 “Quiet interval may reflect reduced filing viability under sustained load.”
 
-Unsafe reassurance drift:
+**Unsafe reassurance drift:**
 “Low-reporting interval indicates stable non-disruptive conditions.”
 
 ---
 
 ### Care
-Direct:
+**Direct:**
 “The check-in made no practical difference.”
 
-Continuity-compatible:
+**Continuity-compatible:**
 “Acknowledgment occurred without confirmed mitigation effect.”
 
-Unsafe reassurance drift:
+**Unsafe reassurance drift:**
 “Care visibility was successfully maintained.”
 
 ---
 
 ### Contradiction
-Direct:
+**Direct:**
 “Support and enforcement are using the same evidence to say opposite things.”
 
-Continuity-compatible:
+**Continuity-compatible:**
 “Cross-directive evidence produced unresolved interpretive divergence.”
 
-Unsafe reassurance drift:
+**Unsafe reassurance drift:**
 “Multi-angle validation confirms robust governance.”
 
 ---
