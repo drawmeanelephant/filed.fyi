@@ -9,4 +9,4 @@ tags: ["limericks"]
 
 Collected verse from the Filed world: limericks.
 
-Count: 551 records.
+Count: 574 records.
