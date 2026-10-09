@@ -7,7 +7,7 @@ tags: ["changelog", "presentation", "process"]
 
 # Presentation QA v2 — Audit Dispositions and Baseline Codifications
 
-**Maintenance ID:** 0.1.00248.presentation-qa-v2-audit-dispositions
+**Maintenance ID:** 0.1.00249.presentation-qa-v2-audit-dispositions
 **Date:** 2026-10-09
 **Scope:** `content/lorelog/LLG-0318-SRO.md`, `docs/presentation-qa-baseline.md`, `content/changelog/`
 
