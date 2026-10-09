@@ -31,7 +31,7 @@ This guidance was not published. It appeared in margin notes, copied by hand, an
 
 The incident is related to Directive Routing Table Drift, in which SOMA advisories entered COMA channels with enforcement weight, and to later priority inversions in which restorative signals became operational blockers. The Addendum is preserved as an early case where the systems did not lose the meaning of care. They retained it precisely enough to use it against the request.
 
-Disposition: context preserved. Exception denied. No data loss identified.
+**Disposition:** context preserved. Exception denied. No data loss identified.
 
 ## Related Aphorisms
 

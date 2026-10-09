@@ -11,14 +11,14 @@ relations: [relates_to=lorelog/LLG-0401-GLP, relates_to=lorelog/LLG-0402-GMP, re
 
 ## Incident Summary
 
-On April 19th, a study coordinator filed Deviation DEV-2026-0041 documenting a temperature excursion during sample storage.
+On April 19th, a study coordinator filed Deviation `DEV-2026-0041` documenting a temperature excursion during sample storage.
 
-The form used was **DEV-3A**.  
-DEV-3A was superseded on March 7th by DEV-4B.  
-Use of a superseded form constitutes a deviation per SOP-089.
+The form used was **`DEV-3A`**.  
+`DEV-3A` was superseded on March 7th by `DEV-4B`.  
+Use of a superseded form constitutes a deviation per `SOP-089`.
 
-A second deviation, DEV-2026-0042, was initiated to document the form error.  
-DEV-2026-0042 was filed on **DEV-3A**.
+A second deviation, `DEV-2026-0042`, was initiated to document the form error.  
+`DEV-2026-0042` was filed on **`DEV-3A`**.
 
 The QA reviewer identified this at 4:58 PM on a Friday.
 
@@ -32,9 +32,9 @@ The QA reviewer identified this at 4:58 PM on a Friday.
 ## QA Disposition
 
 Both deviations remain open pending receipt of a **CAPA** (Corrective and Preventive Action) for the form version control failure.  
-The CAPA form is Form CA-7.  
-Form CA-7 was last revised in 2019.  
-**There is a Form CA-8.**
+The CAPA form is Form `CA-7`.  
+Form `CA-7` was last revised in 2019.  
+**There is a Form `CA-8`.**
 
 ## Related Aphorisms
 

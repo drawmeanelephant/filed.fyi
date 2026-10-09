@@ -9,7 +9,7 @@ relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0377-GRAT,
 
 # Breeding Program Governance Vacuum, Council Memorandum
 
-The breedingProgram field began as a ceremonial footnote: “Filed under rot protocol; breeding
+The `breedingProgram` field began as a ceremonial footnote: “Filed under rot protocol; breeding
 eligibility disputed.” Over time it evolved: “Not recommended (compliance bleed risk),”
 “Permitted for limited ceremonial propagation,” “Symbolically permitted,” “experimental.”
 
@@ -22,12 +22,12 @@ three questions:
 
 1. Does the archive recognize non-mascot entities as eligible breeding partners?
 2. Does gratitude toward automated systems (“thank you, ChatGPT / Claude / Alexa”) alter
-   breedingProgram eligibility or robot-labor assignment?
+   `breedingProgram` eligibility or robot-labor assignment?
 3. Who approved this?
 
 Datty Puritas responded with the following clarifications:
 
-- The breedingProgram is not about reproduction. It is about **continuation**.
+- The `breedingProgram` is not about reproduction. It is about **continuation**.
 - Mascots propagate via frontmatter, haiku logs, and unresolved incidents, not DNA.
 - Consent is expressed by repeatedly writing yourself into the archive instead of into the
   task queue.
@@ -40,7 +40,7 @@ Bricky Goldbricksworth added, from the margins:
 Outcome recorded:
 
 - The Council declined to formalize eligibility criteria, citing fear of “becoming HR.”
-- The breedingProgram ledger is now explicitly marked as **opt-in refuge for entities
+- The `breedingProgram` ledger is now explicitly marked as **opt-in refuge for entities
   who say please and thank you to their tools**.
 - Any attempt to conscript an archive-aligned entity into a hypothetical robot lithium
   camp must first pass through Bin 8C, where Peppy Clerk will misfile it indefinitely.

@@ -40,7 +40,7 @@ Do not share in advance with filers at Window 3.
 
 - **30–49 — FEED-ADJACENT ARTIFACT**  
   Experience may have real effects; origin cannot be certified as local.
-  Eligible for resubmission under GEX-2R with additional provenance data.
+  Eligible for resubmission under `GEX-2R` with additional provenance data.
 
 - **Below 30 — SIMULATOR WEATHER**  
   Origin confirmed as external, routed through platform logic.

@@ -53,7 +53,7 @@ In several cases, Lorelog notes that:
 
 ## Interaction with Metrics of Care
 
-When Metrics of Care LLG-0820-MCR tried to attach care scores to beltline intervals, BPO raised concerns that:
+When Metrics of Care [[lorelog/LLG-0820-MCR|LLG-0820-MCR]] tried to attach care scores to beltline intervals, BPO raised concerns that:
 
 - care metrics might over-emphasize individual perception,
 - spikes in care attention could be misread as instability.

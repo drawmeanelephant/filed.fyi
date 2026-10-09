@@ -33,7 +33,7 @@ Survey record of the Filed intake office. Ten seams were reviewed, each a docume
 **Observation:** There is no boss; there is dispatch logic, an acceptance rate, a completion threshold, and a deactivation rule. A worker can be removed at a threshold crossing during a weather event, and no one can say who wrote the rule that removed them.
 **Evidence:** The appeal button that leads to a form that leads to a bot that leads to a policy that leads to nowhere. The support address that auto-replies with a case number no human will read.
 **Marker:** Management without managers. Termination without a terminator.
-**Cross-reference:** LLG-0451 — the same legibility logic applied to presence.
+**Cross-reference:** [[lorelog/LLG-0451-JIGGLER-EMPATHEGY-BRIDGE|LLG-0451]] — the same legibility logic applied to presence.
 
 ### SEAM-002: The Content Moderation Assembly Line
 
