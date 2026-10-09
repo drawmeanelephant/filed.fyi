@@ -7,7 +7,7 @@ tags: ["changelog", "presentation", "reference"]
 
 # Presentation QA v2 — reference 07: 14 records reviewed, 12 changed
 
-**Maintenance ID:** 0.1.00249.presentation-qa-v2-reference-07
+**Maintenance ID:** 0.1.00253.presentation-qa-v2-reference-07
 **Date:** 2026-10-09
 **Scope:** `content/reference/` (FREF-0350-BHDS through FREF-0821-AVTL, issue #977 assignment), `content/changelog/`
 
