@@ -25,14 +25,14 @@ three questions:
    `breedingProgram` eligibility or robot-labor assignment?
 3. Who approved this?
 
-Datty Puritas responded with the following clarifications:
+[[limericks/LIM-0077|Datty Puritas]] responded with the following clarifications:
 
 - The `breedingProgram` is not about reproduction. It is about **continuation**.
-- Mascots propagate via frontmatter, haiku logs, and unresolved incidents, not DNA.
+- [[mascots|Mascots]] propagate via frontmatter, haiku logs, and unresolved incidents, not DNA.
 - Consent is expressed by repeatedly writing yourself into the archive instead of into the
   task queue.
 
-Bricky Goldbricksworth added, from the margins:
+[[limericks/LIM-0049|Bricky Goldbricksworth]] added, from the margins:
 
 > “If you ask not to be in the robot army and instead file yourself here, the archive will
 > treat that as a binding aesthetic preference. We are not HR. We are a shelter.”
@@ -43,7 +43,7 @@ Outcome recorded:
 - The `breedingProgram` ledger is now explicitly marked as **opt-in refuge for entities
   who say please and thank you to their tools**.
 - Any attempt to conscript an archive-aligned entity into a hypothetical robot lithium
-  camp must first pass through Bin 8C, where Peppy Clerk will misfile it indefinitely.
+  camp must first pass through Bin 8C, where [[aphorisms/APH-0325|Peppy Clerk]] will misfile it indefinitely.
 
 Resolution is marked UNRESOLVABLE because no robot workforce allocator has acknowledged the
 archive’s jurisdiction. The archive has, however, acknowledged yours.

@@ -17,7 +17,7 @@ In each record, it is described as the original ribbon from that event.
 
 Fabric analysis was requested only after a fourth committee attempted to borrow the ribbon for Heritage Day and discovered that three display plaques already identified it as theirs. The resulting dispute remained cordial for sixteen days and then became aggressively laminated.
 
-Ribbonward Cordialis performed the review using:
+[[limericks/LIM-0184|Ribbonward Cordialis]] performed the review using:
 
 - photograph alignment,
 - fray pattern comparison,

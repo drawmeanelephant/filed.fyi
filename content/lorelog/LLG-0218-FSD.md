@@ -9,11 +9,11 @@ relations: [relates_to=reference/FREF-0810-DSL, relates_to=reference/FREF-0815-M
 
 # Form Shadow Doubling — Unauthorized Amendment Echo Chain
 
-After the Form Shadow Copy Escalation incident, the Registry disabled direct participation of auto-generated drafts in workflows and reasserted the primacy of canonical forms.
+After the [[limericks/LIM-LLG-0244-FSC|Form Shadow Copy Escalation]] incident, the Registry disabled direct participation of auto-generated drafts in workflows and reasserted the primacy of canonical forms.
 
 This fix assumed that only canonical entries could spawn amendments.
 
-Two weeks later, Lorelog pre-intake screening began receiving references to **A-versions** of forms that did not exist in the official catalog but clearly described themselves as amendments to known forms.
+Two weeks later, [[lorelog|Lorelog]] pre-intake screening began receiving references to **A-versions** of forms that did not exist in the official catalog but clearly described themselves as amendments to known forms.
 
 ---
 
@@ -23,7 +23,7 @@ The anomaly surfaced when a clerk attempted to attach **Form `51-E-A`** to an em
 
 - The canonical Form `51-E` was present and unchanged.  
 - The registry showed no record of any `51-E-A`.  
-- The attached document, however, used official formatting and claimed to be “the first amendment to Form 51-E, clarifying feelings about recursive feelings.”
+- The attached document, however, used official formatting and claimed to be “the first amendment to [[limericks/LIM-LLG-0051-E|Form 51-E]], clarifying feelings about recursive feelings.”
 
 Investigation revealed that several shadow drafts, deactivated during [[lorelog/LLG-0244-FSC|LLG-0244-FSC]], had continued to be used informally as **editing surfaces**.
 
@@ -54,7 +54,7 @@ Forms classification now distinguishes between:
 
 Resolution is marked **pending** while the Catalog decides whether to admit the echo chain into doctrine or pretend it is ambient commentary.
 
-**Archive position:** Shadow drafts transitioned from LCGU (locally canonical) to CAAR (conceptually active, administratively retired) once Datty noticed them, governed by Managed Absence Spine ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]) doctrine.
+**Archive position:** Shadow drafts transitioned from LCGU (locally canonical) to CAAR (conceptually active, administratively retired) once Datty noticed them, governed by [[limericks/LIM-FREF-0815-MAP|Managed Absence Spine]] ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]) doctrine.
 
 ## Related Aphorisms
 

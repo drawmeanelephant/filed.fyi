@@ -23,7 +23,7 @@ The minutes revealed the failure shape with admirable clarity. They documented:
 
 They did not document a motion, second, amount, or responsible fund.
 
-Lionell Pancake Auditor was assigned because his charter already distinguishes clapping from authorization and hunger from consensus. He reconstructed the event from seating notes, syrup-marked agenda copies, and one table card bearing the phrase everybody seemed on board.
+[[limericks/LIM-0128|Lionell Pancake Auditor]] was assigned because his charter already distinguishes clapping from authorization and hunger from consensus. He reconstructed the event from seating notes, syrup-marked agenda copies, and one table card bearing the phrase everybody seemed on board.
 
 His finding: noon warmth had hardened into ledger force.
 

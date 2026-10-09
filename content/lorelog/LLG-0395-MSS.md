@@ -16,7 +16,7 @@ The ambiguity surfaced when a newer volunteer was nominated and asked where the 
 
 No bylaw uses the plural that way.
 
-Ribbonward Cordialis traced the drift through:
+[[limericks/LIM-0184|Ribbonward Cordialis]] traced the drift through:
 
 - photographs,
 - storage notes,

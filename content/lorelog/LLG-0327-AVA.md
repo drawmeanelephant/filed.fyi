@@ -25,7 +25,7 @@ Where earlier passes would emit terms such as failure, defect, and unresolved, A
 - unresolved → assurance window still open
 
 The generator does not record the original language once translation occurs.  
-Lorelog entries remain the only preserved witnesses to the prior phrasing. 
+[[lorelog|Lorelog]] entries remain the only preserved witnesses to the prior phrasing. 
 
 ## Process Outline
 

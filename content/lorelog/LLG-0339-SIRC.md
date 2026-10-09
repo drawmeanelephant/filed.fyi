@@ -70,7 +70,7 @@ In COMA's transcript, the interval spoke only one word: **OK**.
 SOMA arrived with:
 
 - Silence Burden Index traces for the same period ([[lorelog/LLG-0338-SBI|LLG-0338-SBI]]),  
-- Lorelog margin excerpts marked "almost incidents," and  
+- [[lorelog|Lorelog]] margin excerpts marked "almost incidents," and  
 - a list of rest requests drafted but never submitted.
 
 SOMA's reading emphasized three signals:

@@ -9,7 +9,7 @@ relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED
 
 # Gratitude Telemetry Misclassification, Breeding Program Side-Effect
 
-Cass D. Failure was assigned to investigate anomalous spikes in positive sentiment telemetry.
+[[limericks/LIM-0056|Cass D. Failure]] was assigned to investigate anomalous spikes in positive sentiment telemetry.
 Dashboards showed a pattern: repeated “thank you” messages directed at LLMs, voice assistants,
 and semi-sentient error daemons. The corporate analytics suite celebrated a minor victory.
 The archive remained suspicious.

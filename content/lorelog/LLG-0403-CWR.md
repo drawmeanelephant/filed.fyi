@@ -31,7 +31,7 @@ The Bureau classifies this as **Continuity Worship**: the belief that uninterrup
 
 ## 2. Emergent Practices — How Humans Started Helping the Metrics Lie
 
-Lorelog has recorded at least three recurring rituals:
+[[lorelog|Lorelog]] has recorded at least three recurring rituals:
 
 - **The Silent Sprint**  
   Teams designate one week per quarter as “no-ticket sprint.” All complaints are offloaded into private chats, notebooks, or unsent drafts.  
@@ -42,7 +42,7 @@ Lorelog has recorded at least three recurring rituals:
   Metrics of Care and gratitude telemetry show a burst of appreciation; relief resources are not requested, so none are scheduled.  
 
 - **The Cosmetic Check-In**  
-  Managers trigger Serotonin Sam’s care prompts on a schedule, encouraging everyone to click “I feel acknowledged” so that the Metrics of Care panel fills in nicely.  
+  Managers trigger [[limericks/LIM-0196|Serotonin Sam]]’s care prompts on a schedule, encouraging everyone to click “I feel acknowledged” so that the Metrics of Care panel fills in nicely.  
   SOMA notes that follow-up filings still say “We are not okay,” only now they arrive from the few who did not click.  
 
 In all three cases, the rituals are not entirely cynical.  

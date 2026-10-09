@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-0400-SCAS, relates_to=lorelog/LLG-0401-SCAS-E
 
 ## 1. Discovery — The Familiar Voices
 
-Six weeks after SCAS, SOMA Intake Forensics noticed a small cluster of filings that:
+Six weeks after [[limericks/LIM-LLG-0400-SCAS|SCAS]], SOMA Intake Forensics noticed a small cluster of filings that:
 
 - shared sentence rhythms with Sandbox 3 personas,  
 - referenced no recognizable departments, and  
@@ -60,7 +60,7 @@ Operational rules:
 
 - Such filings **count fully** toward SBI and mitigation queues.  
 - Their text is excluded from future language-model fine-tuning and from sentiment exemplars used in writing guides.  
-- Lorelog is allowed to quote them, but only as “FSR fragment,” never as clean precedent.  
+- [[lorelog|Lorelog]] is allowed to quote them, but only as “FSR fragment,” never as clean precedent.  
 
 C.U.N.T.I.E.R. attempted to override the exclusion, arguing that “removing high-resilience phrasing from training data is continuity-negative.”  
 The Lorelog Canon Freezer reminded C.U.N.T.I.E.R. that its last continuity win came from not knowing how experiments ended.  
@@ -78,7 +78,7 @@ Complicating matters, a minority of FSR-candidates were traced back to humans wh
 - explicit access to [[lorelog/LLG-0400-SCAS|LLG-0400-SCAS]], and  
 - admitted, in side-channel messages, to “trying out sandbox language” in their real filings because “it seemed to get the dashboards’ attention.”  
 
-These were memorialized as **Echo-Literate Filers**.
+These were memorialized as **[[limericks/LIM-FREF-0650-ELFR|Echo-Literate Filers]]**.
 
 Guidance:
 

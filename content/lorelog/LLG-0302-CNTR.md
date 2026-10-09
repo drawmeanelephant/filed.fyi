@@ -15,7 +15,7 @@ In pursuit of “clean graphs,” the program normalized all metrics against mov
 
 Within three reporting cycles, the normalization logic escalated values until most tracked series reached their maximum representable number, at which point dashboards began rendering solid blocks of saturated color with no discernible variation.
 
-Lorelog analytics briefly declared that all incidents resolved “instantaneously” because the resolution-time counter overflowed to zero under the new scaling.
+[[lorelog|Lorelog]] analytics briefly declared that all incidents resolved “instantaneously” because the resolution-time counter overflowed to zero under the new scaling.
 
 The taskforce resolved the incident by resetting baselines, trimming historical data, and relabeling the affected period as **“metrics blackout for scheduled improvements,”** thereby preserving the graphs and the directive’s reputation at the same time.
 

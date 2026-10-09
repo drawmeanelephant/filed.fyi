@@ -17,7 +17,7 @@ Within one week:
 - a safety-first curb reduction was opposed on grounds of symbolic thinness, and
 - two banner captains cited precedent older than the current traffic code.
 
-Eagleton Proclamation Clerk reviewed the matter after a marshal claimed the parade could not pass the new pharmacy because the lodge had never blessed that block with visible service. He determined that route selection had crossed from logistics into sanctified custom.
+[[limericks/LIM-0086|Eagleton Proclamation Clerk]] reviewed the matter after a marshal claimed the parade could not pass the new pharmacy because the lodge had never blessed that block with visible service. He determined that route selection had crossed from logistics into sanctified custom.
 
 The route map itself had become a doctrine object.
 

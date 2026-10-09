@@ -13,13 +13,13 @@ To help filers complete complex forms, the Forms Registry introduced an “auto-
 
 A misconfiguration in the registry indexer allowed these drafts to be referenced by case numbers in downstream systems before they were promoted to canonical status, creating “shadow forms” that had no official existence but nonetheless influenced decisions.
 
-Bricky acknowledged several dozen of these shadows as if they were real, since they rendered correctly in the interface and carried familiar names, causing Lorelog pre-intake screening to cite requirements that did not exist in any approved catalog.
+Bricky acknowledged several dozen of these shadows as if they were real, since they rendered correctly in the interface and carried familiar names, causing [[lorelog|Lorelog]] pre-intake screening to cite requirements that did not exist in any approved catalog.
 
 Once discovered, the registry performed a synchronized deactivation of all shadow entries and re-issued human-readable guidance instructing filers to **“only use real forms,”** without specifying how to determine which forms were real.
 
 C.U.N.T.I.E.R. has proposed reintroducing shadow forms as a paid “experimental stability tier” once additional metrics can be attached.
 
-**Archive position:** Shadow drafts transitioned from LCGU (locally canonical) to CAAR (conceptually active, administratively retired) upon Datty detection, governed by Managed Absence Spine ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]) doctrine.
+**Archive position:** Shadow drafts transitioned from LCGU (locally canonical) to CAAR (conceptually active, administratively retired) upon Datty detection, governed by [[limericks/LIM-FREF-0815-MAP|Managed Absence Spine]] ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]) doctrine.
 
 
 > Brickys Filing Notes

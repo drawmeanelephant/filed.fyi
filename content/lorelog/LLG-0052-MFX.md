@@ -9,7 +9,7 @@ relations: [relates_to=lorelog/LLG-0051-E, relates_to=lorelog/LLG-0115-TNS, rela
 
 # Form 51-E Meta-Feeling Exclusion Clarification
 
-Form 51-E was introduced to attest emotional readiness before filing any document with non-trivial affective impact.
+[[limericks/LIM-LLG-0051-E|Form 51-E]] was introduced to attest emotional readiness before filing any document with non-trivial affective impact.
 
 Following its most recent revision, which asked filers how they felt about completing 51-E itself, the form began generating recursive chains of verification filings (see [[lorelog/LLG-0051-E|LLG-0051-E]]).
 
@@ -45,7 +45,7 @@ MFX enumerates four categories of responses that "51-E is not responsible for ho
 2. **Queue Exhaustion**  
    - **Example:** "I am tired of being asked if I am ready; I have never been ready."  
    - **Official handling:** Logged as "baseline fatigue" and treated as non-blocking.  
-   - **Actual handling:** Quietly escalated to SOMA-14 for tone normalization.
+   - **Actual handling:** Quietly escalated to [[limericks/LIM-LLG-0114-SOMA|SOMA-14]] for tone normalization.
 
 3. **Meta-Compliance Dread**  
    - **Example:** "I fear there will eventually be a form about how I fill out this form."  

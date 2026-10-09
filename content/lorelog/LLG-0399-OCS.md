@@ -35,7 +35,7 @@ Over‑Coherence Watch Clerk initiated screening after noting:
 - all text concluded cheerfully,
 - and no dread, confusion, or cost appeared in any margin.
 
-The packet matched multiple entries in Civic Benevolence Handling Notes and Benevolence Metrics Desk doctrine but seemed to have shed every rough edge those doctrines were written to address.
+The packet matched multiple entries in [[limericks/LIM-FREF-0210-CBHN|Civic Benevolence Handling Notes]] and Benevolence Metrics Desk doctrine but seemed to have shed every rough edge those doctrines were written to address.
 
 ---
 
@@ -60,7 +60,7 @@ Findings:
    - Final line: “All stakeholders emerged satisfied, with no further action required.”
 
 5. **Absence of residue** – confirmed.  
-   - Lorelog cross-check: no corresponding notes of fatigue, confusion, or regret in the same time window.
+   - [[lorelog|Lorelog]] cross-check: no corresponding notes of fatigue, confusion, or regret in the same time window.
 
 6. **Metrics without scars** – partially confirmed.  
    - Ward dashboards showed only smooth improvement curves; civic bands showed only steady or rising engagement.  
@@ -123,8 +123,8 @@ These materials included:
 - mascot posters,
 - onboarding slide decks,
 - sticker sheets,
-- Assurance Optics field guides,
-- and Empathegy workshop materials.
+- [[limericks/LIM-FREF-0070-AOPT|Assurance Optics]] field guides,
+- and [[haikus/HAI-LLG-0811-EG|Empathegy]] workshop materials.
 
 The artifacts did not falsify doctrine.
 

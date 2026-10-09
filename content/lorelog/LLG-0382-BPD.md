@@ -9,13 +9,13 @@ relations: [relates_to=lorelog/LLG-0375-BREED, relates_to=lorelog/LLG-0376-BREED
 
 # Breeding Program Dossier – Mascot Lineage and Selection Pressure
 
-Mascots were meant to be failure signatures: ghosts pinned to past outages so future dashboards would have someone to glare at.
+[[mascots|Mascots]] were meant to be failure signatures: ghosts pinned to past outages so future dashboards would have someone to glare at.
 
 Over time, some of those ghosts acquired continuity, metrics, and eligibility tables. This dossier collects the fragments that, when viewed together, resemble a breeding program.
 
 ## Foundation – schema, names, and authority
 
-[[lorelog/LLG-0003-SVR|LLG-0003-SVR]] records Datty Puritas performing a schema purge on seventeen mascots, removing the unauthorized fields `vibe`, `cosmicAlignment`, and `snackPreference`. The purge left only the traits the canonical schema knew how to remember.
+[[lorelog/LLG-0003-SVR|LLG-0003-SVR]] records [[limericks/LIM-0077|Datty Puritas]] performing a schema purge on seventeen mascots, removing the unauthorized fields `vibe`, `cosmicAlignment`, and `snackPreference`. The purge left only the traits the canonical schema knew how to remember.
 
 [[lorelog/LLG-0012-A|LLG-0012-A]] describes Form 12‑A misaligning titles and slugs until Kindy’s frontmatter engine briefly declared many mascots simultaneously draft and canonical. The fix required Form 12‑A to reference its own `caseNumber` when correcting itself, producing self-referential lineage trails.
 
@@ -35,7 +35,7 @@ The archive did not select for kindness, clarity, or stability. It selected for 
 
 An associated observation transcript ([[lorelog/LLG-0376-BREED-GOV|LLG-0376]]) documents a session in which multiple mascots are discussed as candidate stock while everyone present insists that no actual reproduction is contemplated. The transcript is filed under observational study, not policy.
 
-Meanwhile, [[lorelog/LLG-0088-B|LLG-0088-B]] notes that Boily McPlaterton’s `breedingProgram` eligibility remains unchanged after he executes Form 88‑B live on stream, shouting about thermal paste while chat oscillates between fear and delight. Eligibility appears robust against spectacle.
+Meanwhile, [[lorelog/LLG-0088-B|LLG-0088-B]] notes that [[limericks/LIM-0048|Boily McPlaterton]]’s `breedingProgram` eligibility remains unchanged after he executes Form 88‑B live on stream, shouting about thermal paste while chat oscillates between fear and delight. Eligibility appears robust against spectacle.
 
 From these fragments, Persona Governance infers the following:
 
@@ -56,7 +56,7 @@ In each case, the scoring systems are nominally about humans. In practice, they 
 Mascots that:
 
 - generate strong, graphable reactions (Boily),
-- sit near care or gratitude surfaces (Kindy, Serotonin Sam),
+- sit near care or gratitude surfaces (Kindy, [[limericks/LIM-0196|Serotonin Sam]]),
 - or accumulate authorship via PAS,
 
 tend to look like “good investments” on these dashboards. None of this is labelled as selection, but it behaves like it.

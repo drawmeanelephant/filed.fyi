@@ -27,7 +27,7 @@ Do not share in advance with filers at Window 3.
 
 - **90–100 — CERTIFIED GENUINE**  
   Experience is fully certified as lived. Eligible as emotional evidence
-  in cross-directive proceedings, subject to normal Lorelog relevance.
+  in cross-directive proceedings, subject to normal [[lorelog|Lorelog]] relevance.
 
 - **70–89 — CERTIFIED WITH ANNOTATION**  
   Genuine, with noted provenance qualifications. Evidence weight reduced

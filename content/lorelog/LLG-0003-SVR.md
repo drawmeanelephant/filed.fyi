@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-0382-BPD]
 
 During Q4 schema audit, seventeen mascot entries were found to contain fields not present in the canonical schema definition. The unauthorized fields had apparently been inserted incrementally over several weeks by an unidentified process.
 
-Datty Puritas was summoned at 09:14. The purge ritual began at 09:17 and concluded at 09:22. The three offending fields were removed from all affected entries. Validation now passes cleanly.
+[[limericks/LIM-0077|Datty Puritas]] was summoned at 09:14. The purge ritual began at 09:17 and concluded at 09:22. The three offending fields were removed from all affected entries. Validation now passes cleanly.
 
 No error messages were generated during the purge. Datty Puritas reported the fields "were not surprised."
 

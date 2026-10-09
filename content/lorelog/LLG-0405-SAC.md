@@ -8,7 +8,7 @@ tags: ["lorelog", "experiment-charter", "leak-prevention", "mascots", "preventiv
 
 # Synthetic Affect Containment Charter — Post-SCAS Guardrails
 
-Status Note: This record is a formal institutional containment charter drafted following the SCAS cross-audit leak. It codifies post-event operational guardrails for synthetic affect experiments rather than reporting a primary service outage.
+Status Note: This record is a formal institutional containment charter drafted following the [[limericks/LIM-LLG-0400-SCAS|SCAS]] cross-audit leak. It codifies post-event operational guardrails for synthetic affect experiments rather than reporting a primary service outage.
 
 ## 1. Motivation — Post-Incident Regulatory Framing
 
@@ -47,7 +47,7 @@ Policy statement:
 
 Implementation constraints:
 
-- Any attempt to mount a shared config store must be registered as a **leak risk** and logged to Lorelog in real time.  
+- Any attempt to mount a shared config store must be registered as a **leak risk** and logged to [[lorelog|Lorelog]] in real time.  
 - Experiment dashboards that cannot operate without a shared store are to be classified as “unsafe instruments” and withdrawn.  
 
 C.U.N.T.I.E.R. has already objected that maintaining separate stores “reduces transfer learning efficiency.”  
@@ -96,7 +96,7 @@ This is intended to prevent a repeat of the moment when:
 - sandbox lanes with high prior filing and then silence were treated as “exemplar performance under reduced reporting overhead,”  
 - and that interpretation leaked into live weights for approximately 23 minutes.  
 
-Should similar leakage occur, the incident must be filed under both this SAC charter and the Dual-Certification Protocol.  
+Should similar leakage occur, the incident must be filed under both this SAC charter and the [[limericks/LIM-LLG-0404-DCP|Dual-Certification Protocol]].  
 **We are no longer allowed to claim that “no outages occurred” as proof that nothing happened.**  
 
 ---

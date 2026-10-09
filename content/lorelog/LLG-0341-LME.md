@@ -73,14 +73,14 @@ Intervals or sections covered by Lodge precedent are more likely to:
 - use Assurance Vocabulary to describe gaps as favorable persistence,
 - be treated as handled even when no explicit waiver applies.
 
-Assurance Optics and LME together turn ad hoc mercy into invisible structure.
+[[limericks/LIM-FREF-0070-AOPT|Assurance Optics]] and LME together turn ad hoc mercy into invisible structure.
 
 ## Archival Position
 
 Doctrine Index lists LME under:
 
 - Exception Governance,
-- Continuity Theatre,
+- [[limericks/LIM-FREF-0610-CTHR|Continuity Theatre]],
 - Hereditary Practices.
 
 Catalog note:

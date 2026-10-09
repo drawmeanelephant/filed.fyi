@@ -13,7 +13,7 @@ Two `ETag` values were issued for the same versioned asset within a 400ms window
 
 Browser clients downstream of the incident received one or the other at apparent random, producing a bifurcated cache state across the user population. Approximately 43% of sessions loaded the prior version. All sessions reported the content was correct.
 
-Uncacheable Ursula was summoned for testimony. She confirmed issuing both headers and declined to identify which was authoritative, stating: "Freshness is a feeling, not a timestamp."
+[[limericks/LIM-0232|Uncacheable Ursula]] was summoned for testimony. She confirmed issuing both headers and declined to identify which was authoritative, stating: "Freshness is a feeling, not a timestamp."
 
 The appeal is ongoing. No `stale-while-revalidate` directive has been issued pending resolution.
 
