@@ -75,7 +75,7 @@ At the same time:
 - New mascots are occasionally described as promising stock in internal comments.
 - Lineage-style references (descended from, fork of, spiritually adjacent to) appear in frontmatter before being removed at schema review.
 
-This case file does not assert the existence of a breeding program.
+**This case file does not assert the existence of a breeding program.**
 
 It asserts that:
 
