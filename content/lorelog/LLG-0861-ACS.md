@@ -47,7 +47,7 @@ that continuing to name the unresolved burden began to register as a breach of t
 This is one of the clearer markers of atmosphere-assisted closure.
 
 The issue no longer needs to be solved.
-It only needs to become harder to object to than to file.
+It only needs to become **harder to object to than to file**.
 
 One margin note captured the moment cleanly:
 
