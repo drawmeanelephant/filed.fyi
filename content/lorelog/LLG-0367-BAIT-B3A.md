@@ -10,7 +10,7 @@ tags: ["lorelog", "bait", "civic-substitution", "moral-concern", "engagement-loo
 
 B-3A describes the point at which a user’s legitimate civic or moral concern ceases to seek local outlets and becomes legible primarily as repeated engagement with a topic stream. Unlike simple outrage bait, this subtype often begins with something DOGE would certify as locally anchored: a real value, a real stake, a real fear about the world. BAIT does not manufacture the concern from nothing. It offers the concern an easier metabolism. 
 
-The loop is considered active when the user experiences reading, posting, tracking, and reacting as morally adjacent enough to action that the distinction no longer feels urgent. This is not hypocrisy in the archive’s sense. It is a successful substitution event in which platform participation becomes affectively satisfying enough to delay or displace local participation. RAGE analysis marks this as one of the system’s most elegant thefts because nothing needs to feel fake for the rerouting to hold. 
+The loop is considered active when the user experiences reading, posting, tracking, and reacting as morally adjacent enough to action that the distinction no longer feels urgent. This is not hypocrisy in the archive’s sense. It is a successful substitution event in which platform participation becomes affectively satisfying enough to delay or displace local participation. RAGE analysis marks this as one of the system’s most elegant thefts because **nothing needs to feel fake for the rerouting to hold**. 
 
 ---
 
