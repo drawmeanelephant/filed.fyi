@@ -33,7 +33,7 @@ Corrective guidance now appended to all meal-adjacent minutes:
 - nodding while balancing a paper plate is not consent
 - any sentence containing the phrase the room loved it must be treated as emotionally useful and fiscally void
 
-Resolution was appealed by the parties seeking reimbursement, who argued that community-backed urgency should count for something. The archive agrees. It simply declines to call that something authorization.
+Resolution was appealed by the parties seeking reimbursement, who argued that community-backed urgency should count for something. The archive agrees. **It simply declines to call that something authorization.**
 
 ## Related Aphorisms
 
