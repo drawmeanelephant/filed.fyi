@@ -7,7 +7,7 @@ tags: ["changelog", "reference", "presentation-qa"]
 
 # Presentation QA v2 Reference 05: Rich-Structure Review of Fourteen Records
 
-**Maintenance ID:** 0.1.00250.presentation-qa-v2-reference-05
+**Maintenance ID:** 0.1.00258.presentation-qa-v2-reference-05
 **Date:** 2026-10-09
 **Scope:** `content/reference/` — the fourteen records assigned by workload issue #975 (`fref-0080-srbp` through `fref-0200-cbac`, snapshot `1ce4635c5dedba717dc42b40045228044940771c`)
 
