@@ -105,7 +105,7 @@ It is preserved as proof that, for one brief interval, they **stopped failing in
 **Explanation stack note:** The explanation management pattern that preceded
 this event — multiple briefing layers each inheriting a slightly more
 stabilized version of the contradiction — is audited as a recurring structural
-condition under FREF-0822-ELRA (Explanation Layer Residue Audit). CTM
+condition under [[reference/FREF-0822-ELRA|FREF-0822-ELRA]] (Explanation Layer Residue Audit). CTM
 documents the single-event surface where that stack briefly became visible;
 ELRA audits the pattern that made the surface possible. One is the incident;
 the other is the filing doctrine for how to classify events in which the
