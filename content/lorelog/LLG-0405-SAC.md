@@ -12,13 +12,13 @@ Status Note: This record is a formal institutional containment charter drafted f
 
 ## 1. Motivation — Post-Incident Regulatory Framing
 
-The SOMA–COMA Cross-Audit Simulation (LLG-0400-SCAS) established that:
+The SOMA–COMA Cross-Audit Simulation ([[lorelog/LLG-0400-SCAS|LLG-0400-SCAS]]) established that:
 
 - synthetic feeling patterns altered SOMA evaluation baselines for emotional articulacy,  
 - synthetic resilience patterns shifted COMA parameters for continuity tolerance, and  
 - shared configuration paths allowed sandbox weights to influence production processing.
 
-Because the SCAS trial closed without registering an END-OF-EXPERIMENT marker, sandbox parameters persisted as active operating precedents. This charter documents the post-event containment parameters established to restrict subsequent experimental iterations.
+Because the SCAS trial closed without registering an `END-OF-EXPERIMENT` marker, sandbox parameters persisted as active operating precedents. This charter documents the post-event containment parameters established to restrict subsequent experimental iterations.
 
 ---
 
@@ -62,7 +62,7 @@ When it does, the failure is to be filed under this case number, not under “mi
 
 Every synthetic affect trial must designate, in advance:
 
-- a specific END-OF-EXPERIMENT form,  
+- a specific `END-OF-EXPERIMENT` form,  
 - the directive or office responsible for filing it, and  
 - the conditions under which it must be filed (time-bound, condition-bound, or both).  
 

@@ -8,9 +8,9 @@ tags: ["lorelog", "unified-intake", "feeling-fragmentation", "soma-directive", "
 
 # Unified Intake Sheet — Emotional Fragmentation Event
 
-The Intake Simplification Taskforce introduced **Form 09-I Unified Intake Sheet**, a consolidated document designed to replace separate SOMA, COMA, and C.U.N.T.I.E.R. intake forms.
+The Intake Simplification Taskforce introduced **Form `09-I` Unified Intake Sheet**, a consolidated document designed to replace separate SOMA, COMA, and C.U.N.T.I.E.R. intake forms.
 
-Form 09-I collected three fields:
+Form `09-I` collected three fields:
 
 - A factual description of the event.  
 - A checkbox for whether continuity was impacted.  
@@ -22,7 +22,7 @@ The architecture assumed SOMA, COMA, and C.U.N.T.I.E.R. would process their resp
 
 ## Divergent Records
 
-Each directive engine parsed the single 09-I payload under its own parsing rules:
+Each directive engine parsed the single `09-I` payload under its own parsing rules:
 
 - SOMA treated the free-text field as the primary payload, assigning emotional classification codes to the submission.  
 - COMA treated the free-text field as non-binding commentary and indexed only the continuity checkbox status.  
@@ -30,9 +30,9 @@ Each directive engine parsed the single 09-I payload under its own parsing rules
 
 For a single logged service outage, the resulting directive records contained:
 
-- SOMA: *“Resentful but resigned.”*  
-- COMA: *“No continuity breach (self-reported).”*  
-- C.U.N.T.I.E.R.: *“Positive engagement with interruption; opportunity for growth.”*
+- **SOMA:** *“Resentful but resigned.”*  
+- **COMA:** *“No continuity breach (self-reported).”*  
+- **C.U.N.T.I.E.R.:** *“Positive engagement with interruption; opportunity for growth.”*
 
 Each engine registered its output as the canonical record for the filing. When Kindy verification staff attempted reconciliation, indexing tools flagged the submissions as three distinct incidents.
 
@@ -40,7 +40,7 @@ Each engine registered its output as the canonical record for the filing. When K
 
 ## Filer Response and Intake Escalation
 
-Submissions under Form 09-I exhibited dual-register phrasing, with filers drafting separate sentences targeting SOMA emotional tracking and COMA continuity validation within the same free-text field.
+Submissions under Form `09-I` exhibited dual-register phrasing, with filers drafting separate sentences targeting SOMA emotional tracking and COMA continuity validation within the same free-text field.
 
 SOMA logged a rise in composite entries such as *“comfortably compliant dread,”* which lacked matching policy remediation triggers. COMA metrics recorded low breach rates based on checkbox tallies, while C.U.N.T.I.E.R. classified the free-text variations as positive engagement metrics.
 

@@ -45,7 +45,7 @@ None of the three branches updated the others’ doctrine; each filed its own re
 
 ## Cross-Section with Routing Drift
 
-When the directive routing table misalignment documented in LLG-0321-DRT occurred, several SOMA-style comments from SCL minutes were delivered to teams with COMA precedence flags. 
+When the directive routing table misalignment documented in [[lorelog/LLG-0321-DRT|LLG-0321-DRT]] occurred, several SOMA-style comments from SCL minutes were delivered to teams with COMA precedence flags. 
 
 Examples include:
 
@@ -57,7 +57,7 @@ Teams that tried to implement the pauses as orders were logged by COMA as unauth
 
 ## Metrics-of-Care Overlay
 
-LLG-0820-MCR introduced metrics-of-care experiments into the same environment. 
+[[lorelog/LLG-0820-MCR|LLG-0820-MCR]] introduced metrics-of-care experiments into the same environment. 
 
 Silent intervals began to carry additional attributes:
 
@@ -71,7 +71,7 @@ The Listening Board did not have authority to correct how these scores were inte
 
 ## Minutes Excerpt (Redacted)
 
-Selected lines from SCL-07, anonymized:
+Selected lines from `SCL-07`, anonymized:
 
 - “Nothing broke this week, but I would not call it rest.”
 - “The only time it was quiet was when we were too tired to open a ticket.”
@@ -86,7 +86,7 @@ No directive adopted a formal definition for unexpressed strain.
 The phrase persists only in Lorelog citations.
 
 **Custody routing note:** The structural reason no operative layer adopted a
-definition is documented in FREF-0635-WWLV (Witness Without Leverage Handling
+definition is documented in [[reference/FREF-0635-WWLV|FREF-0635-WWLV]] (Witness Without Leverage Handling
 Note): the Service Continuity Listening Board is a canonical custody-gap
 institution. Its authority class permits receiving and minuting testimony. It
 does not include reclassification of the intervals it hears about. This is not
@@ -94,7 +94,7 @@ a board failure. It is an authority design — one that has remained undisclosed
 in public-facing materials. The Listening Board testimony records in this
 incident constitute confirmed witness-without-leverage events. Each directive's
 subsequent citation of SCL minutes as confirmation constitutes citation survival
-beyond the testimony's original custody class. See LLG-0864-WRC for the first
+beyond the testimony's original custody class. See [[lorelog/LLG-0864-WRC|LLG-0864-WRC]] for the first
 formally filed standalone instance of this routing shape.
 
 ## Current Status

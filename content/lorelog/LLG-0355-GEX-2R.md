@@ -96,7 +96,7 @@ Staff are instructed to improvise respectfully.*
 
 ---
 
-Certification Block
+**Certification Block**
 
 Reviewer outcome:
 [ ] Original classification upheld

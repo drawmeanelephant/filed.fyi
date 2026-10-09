@@ -9,7 +9,7 @@ relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/
 
 # Doctrinal Bridge: Jiggler Economics & Empathegy Curve-Coherence
 
-Bridge record connecting the seam survey (LLG-0450) to the Empathegy Inflation Event (LLG-0811-EG) and the Empathegy Aesthetic Survival Protocol (FREF-0430-EASP).
+Bridge record connecting the seam survey ([[lorelog/LLG-0450-SEAMS-PRESENT-TENSE|LLG-0450]]) to the Empathegy Inflation Event ([[lorelog/LLG-0811-EG|LLG-0811-EG]]) and the Empathegy Aesthetic Survival Protocol ([[reference/FREF-0430-EASP|FREF-0430-EASP]]).
 
 **Thesis (narrow):** The records in this cohort exhibit a common pattern. Empathegy curve-coherence weighting rewards smooth, upward-trending curves and penalizes jagged ones. Where a metric of this kind becomes operational, subjects adapt their behavior to produce the expected curve. The mouse jiggler is such an adaptation applied to presence telemetry: it reproduces the signature the monitoring layer mistakes for presence.
 
@@ -19,7 +19,7 @@ The dashboard eats the human. The human learns to feed the dashboard.
 
 ## The Metric: Empathegy Curve-Coherence
 
-> *From LLG-0811-EG:* "Emotional sequences that formed smooth, upward-trending curves were rated as healthier than jagged patterns, regardless of reported content. Distress that intensified at a consistent rate qualified as stable engagement."
+> *From [[lorelog/LLG-0811-EG|LLG-0811-EG]]:* "Emotional sequences that formed smooth, upward-trending curves were rated as healthier than jagged patterns, regardless of reported content. Distress that intensified at a consistent rate qualified as stable engagement."
 
 **Operational translation:** the system does not measure work or wellbeing; it measures legibility to the model.
 
@@ -29,7 +29,7 @@ The dashboard eats the human. The human learns to feed the dashboard.
 
 ## The Adaptation: Jigglers, Quiet Quitting, Malicious Compliance
 
-> *From LLG-0811-EG:* "Downstream actors began adjusting their expressive patterns pre-emptively, producing affective sequences that conformed to expected evaluability constraints prior to formal scoring."
+> *From [[lorelog/LLG-0811-EG|LLG-0811-EG]]:* "Downstream actors began adjusting their expressive patterns pre-emptively, producing affective sequences that conformed to expected evaluability constraints prior to formal scoring."
 
 | Adaptation | Empathegy Parallel |
 |---|---|
@@ -37,9 +37,9 @@ The dashboard eats the human. The human learns to feed the dashboard.
 | Software jiggler / script | Algorithmic mimicry of human variance |
 | Work-to-rule / quiet quitting | Producing only legible output, no surplus affect |
 | Performative standup updates | Anticipating legibility requirements |
-| "Looking busy" theater | Dashboard survival protocol (FREF-0430-EASP) |
+| "Looking busy" theater | Dashboard survival protocol ([[reference/FREF-0430-EASP|FREF-0430-EASP]]) |
 
-Key insight from LLG-0811-EG: this behavior "was not explicitly trained or enforced, but emerged as a consistent reduction in metric friction across cohorts exposed to the updated dashboard layer."
+Key insight from [[lorelog/LLG-0811-EG|LLG-0811-EG]]: this behavior "was not explicitly trained or enforced, but emerged as a consistent reduction in metric friction across cohorts exposed to the updated dashboard layer."
 
 The jiggler is not resistance. The jiggler is **metric homeostasis**: the organism regulates its temperature to match the thermostat's expectation.
 
@@ -47,7 +47,7 @@ The jiggler is not resistance. The jiggler is **metric homeostasis**: the organi
 
 ## Surveillance as Curve-Coherence Enforcement
 
-### LLG-0387-SURV-NOP (Surveillance Visit Completed Without Observed Practice)
+### [[lorelog/LLG-0387-SURV-NOP|LLG-0387-SURV-NOP]] (Surveillance Visit Completed Without Observed Practice)
 
 > "A surveillance audit confirmed procedural maturity despite the audited unit conducting no directly observable work during the witness window."
 
@@ -66,7 +66,7 @@ The jiggler defeats the surveillance by *perfectly satisfying it*: it produces t
 
 ## Quiet Quitting as Exclusion From the Curve
 
-> *From LLG-0811-EG:* "Emotional states that resisted linearization—particularly those involving contradictory simultaneity or non-monotonic recovery patterns—were increasingly classified as 'unstable signal artifacts' and excluded from aggregate Empathegy reporting."
+> *From [[lorelog/LLG-0811-EG|LLG-0811-EG]]:* "Emotional states that resisted linearization—particularly those involving contradictory simultaneity or non-monotonic recovery patterns—were increasingly classified as 'unstable signal artifacts' and excluded from aggregate Empathegy reporting."
 
 The worker who stops performing *surplus affect* — enthusiasm, discretionary effort, "passion" — produces only the baseline that keeps them employed. This is rational metric minimization: why generate variance the dashboard will classify as an unstable artifact?
 
@@ -74,9 +74,9 @@ And the system treats it as a new anomaly. "Engagement scores drop." "Quiet quit
 
 ---
 
-## The Empathegy Aesthetic Survival Protocol (FREF-0430-EASP) Applied to Labor
+## The Empathegy Aesthetic Survival Protocol ([[reference/FREF-0430-EASP|FREF-0430-EASP]]) Applied to Labor
 
-> *From FREF-0430-EASP:* "ASP formalizes how Empathegy-governed systems interpret copying, visual mimicry, and style borrowing as legitimate survival behaviors... It defines aesthetic legibility as an operational constraint and treats imitation as a governed resource."
+> *From [[reference/FREF-0430-EASP|FREF-0430-EASP]]:* "ASP formalizes how Empathegy-governed systems interpret copying, visual mimicry, and style borrowing as legitimate survival behaviors... It defines aesthetic legibility as an operational constraint and treats imitation as a governed resource."
 
 **Labor translation:** the worker who mimics "high performer" behaviors — Slack reaction emojis, calendar theater, performative meeting presence — is exercising the same protocol at a smaller scale. The jiggler is a governed resource; quiet quitting is aesthetic withdrawal.
 
@@ -84,7 +84,7 @@ And the system treats it as a new anomaly. "Engagement scores drop." "Quiet quit
 
 ## Mascot Anchor: Serotonin Sam
 
-> *From LLG-0811-EG:* Serotonin Sam's metric set — "mood-to-velocity alignment, burnout probability, sadness-smoothed trendlines — was upgraded to render all three as a single composite uplift glyph."
+> *From [[lorelog/LLG-0811-EG|LLG-0811-EG]]:* Serotonin Sam's metric set — "mood-to-velocity alignment, burnout probability, sadness-smoothed trendlines — was upgraded to render all three as a single composite uplift glyph."
 
 **Serotonin Sam is the mascot of the curve.** He doesn't measure how you *feel*. He measures how *graphable* your feelings are. The jiggler renders for Sam's dashboard; quiet quitting reads as a stable flatline; the dashboard sees only what renders.
 

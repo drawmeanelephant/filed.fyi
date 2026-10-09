@@ -45,7 +45,7 @@ weather warning, and text about a car crash as Simulator Weather.
 
 ## EC-001 Grief Relay precedent
 
-Edge case EC-001 (see LLG-0354-DOGE-EDGE-CASES) established that:
+Edge case EC-001 (see [[lorelog/LLG-0354-DOGE-EDGE-CASES|LLG-0354-DOGE-EDGE-CASES]]) established that:
 
 - when a local event clearly precedes the platform surface, and
 - the filer has a specific tie to that event,
@@ -63,7 +63,7 @@ The second condition is the contested one.
 It asks filers to prove what they would have felt
 in a world where the platform did not exist.
 
-Kindy's margin note:
+**Kindy's margin note:**
 
 > We are asking people to certify counterfactual feelings.
 > I file the question under provenance because there is nowhere else to put it.
