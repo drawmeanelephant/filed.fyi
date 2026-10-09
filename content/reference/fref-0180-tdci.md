@@ -203,6 +203,7 @@ Balance required.
 
 Detection priority: early.
 Correction: reintroduce constraint, not variation
+
 ---
 
 ## Retention Decision
