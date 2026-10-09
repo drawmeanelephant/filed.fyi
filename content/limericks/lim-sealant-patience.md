@@ -21,7 +21,7 @@ You asked for an answer today,
 But the Sealant just got in the way.  
 It traps you in goo,  
 With a comforting view,  
-And forces your soul to decay.  
+**And forces your soul to decay.**  
 
 
 

@@ -71,4 +71,4 @@ We certified structural pain,
 While ignoring the target domain.  
 The output is near,  
 So the mandate is clear:  
-Let adjacent correctness remain.
+**Let adjacent correctness remain.**

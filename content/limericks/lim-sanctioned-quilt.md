@@ -29,7 +29,7 @@ We stitched all the policies tight,
 To cover the damage from sight.  
 The Sanctioned Quilt lays,  
 For the rest of your days,  
-To pretend everything is alright.  
+**To pretend everything is alright.**  
 
 
 
