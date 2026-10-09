@@ -21,7 +21,7 @@ In the absence of any sanctioned process, Kindy’s desk developed an informal p
 - Writing down the phrase local anchor for later use in GEX-2R. 
 - Allowing silence at the counter without treating it as queue failure. 
 
-Bricky objected that none of these actions produce a filing artifact. Kindy replied that several of them prevent worse filings later. This exchange was recorded in a margin note and is now cited by both sides as support. The channel remains unofficial, structurally necessary, and impossible to graph cleanly, which is the strongest protection it currently has.
+Bricky objected that none of these actions produce a filing artifact. Kindy replied that several of them prevent worse filings later. This exchange was recorded in a margin note and is now cited by both sides as support. The channel remains unofficial, structurally necessary, and **impossible to graph cleanly**, which is the strongest protection it currently has.
 
 ## Related Aphorisms
 
