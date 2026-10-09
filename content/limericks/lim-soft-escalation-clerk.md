@@ -21,7 +21,7 @@ You tell them the server is dead,
 They soften the panic you spread.  
 "It’s resting," they say,  
 "In a positive way."  
-Just shoot the damn Clerk in the head.  
+**Just shoot the damn Clerk in the head.**  
 
 
 
