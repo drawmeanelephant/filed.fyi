@@ -119,13 +119,13 @@ The listening was real.
 The archive asks only that neither be promoted into a substitute for change.
 
 **Routing note:** Witness lodge multiplication is one structural outcome of
-unresolved custody gaps (FREF-0635-WWLV). When testimony cannot route to the
+unresolved custody gaps ([[reference/FREF-0635-WWLV|FREF-0635-WWLV]]). When testimony cannot route to the
 operative layer, receiving institutions often expand horizontally — adding more
 lodges, more witnessing capacity, more acknowledgment formats — rather than
 vertically, toward the layer where decisions are made. The inflation records
 density, not routing distance. For the single-case audit of how this pattern
-terminates at the record level, see LLG-0864-WRC (Witness Routing Ceiling
-Event). For the registry of confirmed terminal layers, see FREF-0636-WCR.
+terminates at the record level, see [[lorelog/LLG-0864-WRC|LLG-0864-WRC]] (Witness Routing Ceiling
+Event). For the registry of confirmed terminal layers, see [[reference/FREF-0636-WCR|FREF-0636-WCR]].
 
 ## Related Aphorisms
 

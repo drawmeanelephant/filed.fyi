@@ -18,7 +18,7 @@ Three clusters recur often enough to require their own file:
    and agency is limited to the choice of how to grieve.
 
 2. **Synthetic Care** — relationships with entities under
-   breedingProgram jurisdiction, where Origin is non-local
+   `breedingProgram` jurisdiction, where Origin is non-local
    but the care itself clearly arises in the filer.
 
 3. **Counterfactual Anger** — situations where a real local harm
@@ -33,15 +33,15 @@ Three clusters recur often enough to require their own file:
 In EC-001, a filer learned of a death through a social feed
 before any direct contact.
 
-- Origin: the death, which occurred in the filer's real social world.
-- Delivery: a feed, optimized for engagement.
-- Residue: lasting behavioral and narrative change.
+- **Origin:** the death, which occurred in the filer's real social world.
+- **Delivery:** a feed, optimized for engagement.
+- **Residue:** lasting behavioral and narrative change.
 
 DOGE initially classified the experience as feed-adjacent.
 On appeal, the Tribunal held that the platform was the messenger,
 not the origin.
 
-Precedent: when a specific, verifiable event in the filer’s world
+**Precedent:** when a specific, verifiable event in the filer’s world
 precedes the platform encounter, Origin must be assigned to that event,
 even if the first awareness was mediated.
 
@@ -67,7 +67,7 @@ DOGE may certify it despite synthetic objects.
 
 ---
 
-## EC-003 — Counterfactual Anger (see LLG-0363-RAGE-MISIDENTIFICATION)
+## EC-003 — Counterfactual Anger (see [[lorelog/LLG-0363-RAGE-MISIDENTIFICATION|LLG-0363-RAGE-MISIDENTIFICATION]])
 
 In RAGE misidentification appeals, filers argue that their anger
 belongs to a local harm, not to the way a feed packaged it.

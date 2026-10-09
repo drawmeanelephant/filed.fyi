@@ -107,8 +107,8 @@ Later guidance recommended that Canonized Support Intervals be tagged with expli
 - partial care requires duration limits before reclassification.
 
 For the specific case in which witness density accumulates because testimony
-cannot route to the operative classification layer, see FREF-0635-WWLV
-(Witness Without Leverage Handling Note) and LLG-0864-WRC (Witness Routing
+cannot route to the operative classification layer, see [[reference/FREF-0635-WWLV|FREF-0635-WWLV]]
+(Witness Without Leverage Handling Note) and [[lorelog/LLG-0864-WRC|LLG-0864-WRC]] (Witness Routing
 Ceiling Event). Canonized Support Intervals and Witness Routing Ceiling Events
 may co-occur: the interval becomes canonical precisely because the underlying
 testimony was never in a position to compel reclassification.
