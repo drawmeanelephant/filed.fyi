@@ -15,7 +15,7 @@ Deferred Execution is the condition in which a task becomes publicly legible as 
 A delayed task still expects execution.
 A draft-state task has not yet entered public readiness.
 A lagged task is trying to act too slowly.
-A deferred-execution task has crossed into visible uptake while its execution basis has partially or fully withdrawn.
+A deferred-execution task has **crossed into visible uptake while its execution basis has partially or fully withdrawn**.
 
 ## Diagnostic markers
 
