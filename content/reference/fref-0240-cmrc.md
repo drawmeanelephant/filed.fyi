@@ -50,7 +50,7 @@ A ribbon may be displayed as shared civic certainty even where singular origin h
 
 Ribbonward Cordialis continues to observe that forcing one winner often damages more public memory than it restores.
 
-Accordingly, some artifacts should be preserved not as settled matter, but as evidence that the town once cared in several directions at once.
+Accordingly, some artifacts should be preserved not as settled matter, but as evidence that **the town once cared in several directions at once**.
 
 This condition is not ideal.
 

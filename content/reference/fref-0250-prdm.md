@@ -46,7 +46,7 @@ Where regalia has remained in one household long enough to acquire moral gravity
 
 Where a volunteer is described as *where the sash knows to go*, the nomination sheet should be consulted before anyone starts speaking in dynastic tones.
 
-Where a banner phrase begins resolving disagreements faster than bylaws, doctrine is already trying to happen in the decorations.
+Where a banner phrase begins resolving disagreements faster than bylaws, **doctrine is already trying to happen in the decorations**.
 
 ## Filing note
 
