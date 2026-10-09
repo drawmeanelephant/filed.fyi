@@ -40,40 +40,40 @@ All six are historically documented.
 
 Confirms that a subject has been seen, heard, or logged.
 
-Value:
+**Value:**
 Prevents total procedural coldness.
 
-Failure Mode:
+**Failure Mode:**
 Acknowledgment is mistaken for support.
 
 ### 2. Soothing Surface
 
 Uses language, cadence, or interface rhythm to reduce interpretive sharpness.
 
-Value:
+**Value:**
 Can lower panic and improve completion.
 
-Failure Mode:
+**Failure Mode:**
 Severity is bleached into politeness.
 
 ### 3. Reflective Surface
 
 Invites the subject to narrate, assess, or refine their condition.
 
-Value:
+**Value:**
 Can preserve nuance otherwise lost.
 
-Failure Mode:
+**Failure Mode:**
 Reflection labor is offloaded onto the already burdened.
 
 ### 4. Decorative Care Surface
 
 Signals empathy without possessing authority to alter outcomes.
 
-Value:
+**Value:**
 May still matter socially.
 
-Failure Mode:
+**Failure Mode:**
 Institution mistakes aesthetic warmth for action.
 
 ---
@@ -92,7 +92,7 @@ as indicators of low continuity confidence rather than valid grounds for interve
 
 This condition must be named directly.
 
-Preferred classification:
+**Preferred classification:**
 - compassion-suppressed intake
 - care-coded denial condition
 - benevolent language parsed as weakness

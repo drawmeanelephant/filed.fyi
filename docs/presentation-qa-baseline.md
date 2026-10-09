@@ -163,6 +163,23 @@ the transform list; they do not extend it.
   the PR author.** A comment review alone does not satisfy the merge
   gate's reviewer requirement.
 
+Rulings from the lorelog coverage audit (issue #949), where slices
+converged independently or split judgment calls:
+
+- **Short form codes stay plain inside quotations, verse, headings, and
+  citation summaries.** Workers converged on this unaided; it is now the
+  rule. Per-record consistency still governs everywhere else.
+- **A code span nested inside existing emphasis is sanctioned.**
+  `**Form `09-I` Unified Intake Sheet**`-style compounds are fine when
+  both marks are independently earned.
+- **Wiki links inside heading text are permitted** when the record ID is
+  explicit — the heading's auto-derived anchor must be verified
+  unchanged in the compiled page.
+- **Compound-split code spans are a per-record judgment call.**
+  `breedingProgram`-adjacent and `` `PPC-9`'s ``-style spans render
+  identically either way; splitting or not splitting a hyphenated
+  compound or possessive is defensible per record and is not a defect.
+
 ### What does not change in pass 2
 
 Words, meaning, order, IDs, frontmatter, verse structure, link targets.
