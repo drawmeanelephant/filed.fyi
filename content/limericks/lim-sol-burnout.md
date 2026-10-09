@@ -85,7 +85,7 @@ So if terminals glow amber-hot
 And the sysadmin's tied in a knot  
 Of legacy pride,  
 With a SPARC by his side,  
-That's *Sol*. Still burning. A lot.  
+**That's *Sol*. Still burning. A lot.**  
 
 
 

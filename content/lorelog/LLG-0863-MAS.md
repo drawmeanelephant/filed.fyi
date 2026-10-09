@@ -88,7 +88,7 @@ Instead, it now carries a quiet procedural warning:
 closure-marked minutes must not be treated as evidence of mitigation absent corresponding movement elsewhere in the record.
 
 The warning is accurate.
-The seal remains persuasive.
+**The seal remains persuasive.**
 
 ## Archive Position
 

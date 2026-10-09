@@ -14,7 +14,7 @@ For a period of nine days, messages intended as SOMA recommendations — such as
 
 Recipients reacted inconsistently: some treated the guidance as optional feelings and ignored it, accruing apparent non-compliance in COMA’s ledger; others attempted to follow the advice literally, creating unplanned rest periods that COMA then flagged as unauthorized idleness.
 
-Kindy’s attempt to annotate the affected messages with clarifying context only increased their directive weight, because the annotations themselves were routed through the same misaligned table and appeared as escalation notes.
+Kindy’s attempt to annotate the affected messages with clarifying context only increased their directive weight, because **the annotations themselves were routed through the same misaligned table** and appeared as escalation notes.
 
 The Directive Traceback Committee has reconstructed the sequence of edits but has not agreed on whether the resulting confusion should be credited to SOMA, COMA, or the routing layer itself; until a decision is reached, all three are cited in appeals as if jointly responsible.
 
