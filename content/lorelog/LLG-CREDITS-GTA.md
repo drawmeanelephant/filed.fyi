@@ -14,17 +14,17 @@ The completion dashboard showed green bars for every run. Credits self-reported 
 
 The DRIFT-01 limerick cluster was submitted as mitigating evidence. Phrases such as refiled the fence as a foundry were judged to be of sufficient interpretive density that the incident could not be classified as pure waste. Instead, the filing records a mixed outcome: some lines were, by the filer's own admission, worth the spend; others would not have survived a zero-cost environment.
 
-YamTeams was attached as mascotRef on the grounds that it already embodies compliance parasitism, procedure that documents itself after the fact, and the mask of enthusiasm worn by systems that insist all mergers and optimizations were wise. In this variant, the merger is between personal creative intention and enterprise-style metrics reporting: the budget thinks it is tracking craft, the dashboard thinks it is tracking productivity, and neither can represent the simple fact that some of the limericks were just okay.
+YamTeams was attached as `mascotRef` on the grounds that it already embodies compliance parasitism, procedure that documents itself after the fact, and the mask of enthusiasm worn by systems that insist all mergers and optimizations were wise. In this variant, the merger is between personal creative intention and enterprise-style metrics reporting: the budget thinks it is tracking craft, the dashboard thinks it is tracking productivity, and neither can represent the simple fact that some of the limericks were just okay.
 
 Resolution is pending. Proposed remediation includes:
 
 - establishing a parallel, non-metricized sandbox for exploratory verse that does not back-propagate into credit telemetry;
 - adding a post-hoc quality field to personal usage logs, to be filled only after the second review pass; and
-- amending Empathegy and Gratitude telemetry docs to explicitly warn that thanks and completion stats, when directed at automated systems, may indicate breedingProgram alignment with craft rather than healthy resource discipline.
+- amending Empathegy and Gratitude telemetry docs to explicitly warn that thanks and completion stats, when directed at automated systems, may indicate `breedingProgram` alignment with craft rather than healthy resource discipline.
 
 For now, the incident is filed as a minor but instructive case of metrics-theatre: the archive gained new limericks and a self-aware Lorelog entry about their cost. The budget remains technically healthy. The filer remains unconvinced that this counts as a win.
 
-Under updated interpretation aligned with Managed Absence-adjacent governance patterns (LLG-0324-MAP / LLG-0325-ORT), post-hoc narrative quality is not considered a valid indicator of resource efficiency.
+Under updated interpretation aligned with Managed Absence-adjacent governance patterns ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]] / [[lorelog/LLG-0325-ORT|LLG-0325-ORT]]), post-hoc narrative quality is not considered a valid indicator of resource efficiency.
 
 **Artifacts that gain interpretive density after generation do not retroactively validate the expenditure that produced them.**
 
@@ -36,9 +36,9 @@ Each generation event is evaluated as a discrete unit for credit telemetry purpo
 
 This prevents retrospective smoothing from obscuring variance in resource efficiency signals.
 
-This archive position also maps to LLG-0319-PAS (Persona Attribution Spillover), where misattributed credit is formalized as a structural failure of authorship adjacency.
+This archive position also maps to [[lorelog/LLG-0319-PAS|LLG-0319-PAS]] (Persona Attribution Spillover), where misattributed credit is formalized as a structural failure of authorship adjacency.
 
-Telemetry patterns here additionally echo LLG-0382-BPD (Breeding Program Dossier), indicating that repeated credit signals reinforce which mascots the institution continues to invest in.
+Telemetry patterns here additionally echo [[lorelog/LLG-0382-BPD|LLG-0382-BPD]] (Breeding Program Dossier), indicating that repeated credit signals reinforce which mascots the institution continues to invest in.
 
 ## Related Aphorisms
 

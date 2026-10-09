@@ -27,7 +27,7 @@ The log’s entries establish a baseline of **present, eyes confirmed, shell int
 
 ## 3. Basement Steam Incident and Non-Destruction
 
-The so-called Basement Steam Incident (INC/BSI-1983-08) is the facilities-origin event that later filings treat as having destroyed the mascot head unit. The incident report itself specifies, in sequence, that no steam was present, no steam infrastructure existed in the affected corridor, and that the incident was classified as **Steam** because the form required a category and the reporting officer had to choose something.  
+The so-called Basement Steam Incident (`INC/BSI-1983-08`) is the facilities-origin event that later filings treat as having destroyed the mascot head unit. The incident report itself specifies, in sequence, that no steam was present, no steam infrastructure existed in the affected corridor, and that the incident was classified as **Steam** because the form required a category and the reporting officer had to choose something.  
 
 Despite the absence of causal mechanisms, the mascot head unit was logged as destroyed by heat-related degradation, a finding undermined by contemporaneous photographs showing Peppy Clerk smiling intact after its supposed disposal. The report was closed, reopened solely to reconcile this discrepancy with Notice 4C, and closed again without communicating its inconvenient findings to the already superseded notice. Thus the destruction remains administratively true in records that no longer govern anything, while the mascot remains operational wherever a corridor requires atmosphere.
 
@@ -51,7 +51,7 @@ Section E (Waving Compliance) elevates corridor behavior to an explicit data poi
 
 ## 6. Personnel Fragment: Tolland, M. H. (Provisional)
 
-The personnel fragment for M. H. Tolland is a human-resources record that has inexplicably adopted mascot-metric fields (emotional_leakage, rot_integrity, etc.) from the Peppy Clerk schema, or provided them, or simply shares them by proximity. Its presence in bin 8C—where it should not be and where it remains—is attributed to the same cross-record contamination that allowed PPC-9’s numeric values to bleed into the mascot record, albeit with unclear directionality.  
+The personnel fragment for M. H. Tolland is a human-resources record that has inexplicably adopted mascot-metric fields (`emotional_leakage`, `rot_integrity`, etc.) from the Peppy Clerk schema, or provided them, or simply shares them by proximity. Its presence in bin 8C—where it should not be and where it remains—is attributed to the same cross-record contamination that allowed `PPC-9`’s numeric values to bleed into the mascot record, albeit with unclear directionality.  
 
 Tolland is recorded as the filer of Internal Correction Notice 4C, as having asked whether the mascot was “the kind of thing that remembers,” and as being subsequently reassigned to a different index whose consultation falls perpetually beyond the mandate of whichever desk is currently looking. The fragment thereby serves as a reminder that in the Mascot Affairs cluster, provisional status is not a personnel condition but a contagious property.
 

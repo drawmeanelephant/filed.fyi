@@ -19,9 +19,9 @@ In effect, all records that previously believed themselves to have been filed un
 
 ## 2. Register Update and Stub Collisions
 
-The re-indexing pass recorded here reconciles (by declining to reconcile) several prior anomalies in the reference-stub namespace. Internal Correction Notice 4C and its Supersession both retain the stub CORR-N/PEPPY/last; the subroutine has judged that both are in fact “last,” each in its own sense, and therefore no conflict exists. Likewise, the two distinct documents bearing stub PPC-9 are both recognized as PPC-9 and differentiated only by their content at retrieval time.  
+The re-indexing pass recorded here reconciles (by declining to reconcile) several prior anomalies in the reference-stub namespace. Internal Correction Notice 4C and its Supersession both retain the stub `CORR-N/PEPPY/last`; the subroutine has judged that both are in fact “last,” each in its own sense, and therefore no conflict exists. Likewise, the two distinct documents bearing stub `PPC-9` are both recognized as `PPC-9` and differentiated only by their content at retrieval time.  
 
-A register table records Condition Log 7 as **located / active (reconstructed)** and elevates PPC-9 from a misfiled routing artifact to an incorporated informational record. The present notice, RIDX-8/CLUSTER/MA, is itself added to the same table, acquiring the status **present** by virtue of having written the table that confirms it.
+A register table records Condition Log 7 as **located / active (reconstructed)** and elevates `PPC-9` from a misfiled routing artifact to an incorporated informational record. The present notice, `RIDX-8/CLUSTER/MA`, is itself added to the same table, acquiring the status **present** by virtue of having written the table that confirms it.
 
 ---
 
@@ -35,7 +35,7 @@ The assessment concludes that the cluster is **structurally coherent** in exactl
 
 ## 4. Retroactive Effects on Specific Values
 
-The retroactive effective date has particular consequences for values previously treated as anomalous or provisional. Emotional_leakage (0.87), rot_integrity (0.44), and related contamination metrics originally associated with a stray routing slip are now formally absorbed into the Peppy Clerk record as if they had always belonged there from the moment proximity allowed them to be measured.  
+The retroactive effective date has particular consequences for values previously treated as anomalous or provisional. `Emotional_leakage` (0.87), `rot_integrity` (0.44), and related contamination metrics originally associated with a stray routing slip are now formally absorbed into the Peppy Clerk record as if they had always belonged there from the moment proximity allowed them to be measured.  
 
 Similarly, the operator stool’s provisional status as mascot-program property—pending a label review board that has both convened and not yet convened—is treated as established for as long as the cluster has acknowledged it. Waving guidance, which exists in contradictory versions across multiple documents, is harmonized at the cluster level by instructing staff to **consult the corridor of origin**, thereby relocating the contradiction into the built environment.
 

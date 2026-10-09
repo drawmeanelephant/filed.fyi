@@ -101,10 +101,10 @@ Internal review annotations appended during later SOMA reconciliation cycles not
 
 This rite operates downstream of multiple stabilized doctrine clusters recorded in the Lorelog Index:
 
-- Managed Absence Protocol (LLG-0324-MAP)
-- Form Template Drift (LLG-0322-FTD)
-- Orphan Inventory Reinterpretation (LLG-0329-OIR)
-- Orphan Retention Threshold (LLG-0325-ORT)
+- Managed Absence Protocol ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]])
+- Form Template Drift ([[lorelog/LLG-0322-FTD|LLG-0322-FTD]])
+- Orphan Inventory Reinterpretation ([[lorelog/LLG-0329-OIR|LLG-0329-OIR]])
+- Orphan Retention Threshold ([[lorelog/LLG-0325-ORT|LLG-0325-ORT]])
 
 Ritual outputs generated under DMAIC Rite do not override non-interpretive archival states and must not be used to reconstruct or revalidate post-threshold or absence-classified records.
 

@@ -17,8 +17,8 @@ in the Council schedule, with no expectation of structural effect beyond
 tone governance and agenda discipline.
 
 Upon later ingestion into the Annex’s reference stack, the minutes were shelved  
-adjacent to LLG-IA-8C-DRIFT-01, LLG-IA-8C-DRIFT-02, and Peppy Clerk’s continuity  
-dossier LLG-MA-8C-PEPPY-01. Under standard expectations, this adjacency would  
+adjacent to [[lorelog/LLG-IA-8C-DRIFT-0001|LLG-IA-8C-DRIFT-01]], [[lorelog/LLG-IA-8C-DRIFT-0002|LLG-IA-8C-DRIFT-02]], and Peppy Clerk’s continuity  
+dossier [[lorelog/LLG-MA-8C-PEPPY-0001|LLG-MA-8C-PEPPY-01]]. Under standard expectations, this adjacency would  
 have remained descriptive. Instead, the Bin 8C interpretive drift graph  
 treated the minutes as a new stabilization document and increased their  
 custodial weight accordingly.
@@ -28,7 +28,7 @@ custodial weight accordingly.
 - Cluster Attribution  
   The Council session is now treated as an MA8C member document. The Global  
   Index Map reflects this by assigning the minutes a cluster-level index key  
-  alongside Condition Log 7, PPC-9, Form 11-S, and prior drift logs.  
+  alongside Condition Log 7, `PPC-9`, Form 11-S, and prior drift logs.  
   No explicit re-filing was performed; the affiliation emerged from cross-reference  
   density and repeated mentions of “presence at cluster level” as a valid answer.
 
@@ -40,16 +40,16 @@ custodial weight accordingly.
   metrics are consulted.
 
 - RCI and APD Redistribution  
-  Recursive Custody Index (RCI) values decreased marginally for LLG-IA-8C-DRIFT-02  
+  Recursive Custody Index (RCI) values decreased marginally for [[lorelog/LLG-IA-8C-DRIFT-0002|LLG-IA-8C-DRIFT-02]]  
   and increased for the Council minutes, indicating that custodial responsibility  
   for explaining Bin 8C has partially shifted from dedicated drift logs to  
   the schedule entry itself. Adjacency Persistence Drift (APD) between the minutes  
-  and LLG-SYS-8-REINDEX-01 rose from 0.00 to 0.83 across three scans, despite no  
+  and [[lorelog/LLG-SYS-0008-REINDEX-0001|LLG-SYS-8-REINDEX-01]] rose from 0.00 to 0.83 across three scans, despite no  
   change in physical layout, suggesting that interpretive load is migrating  
   into the Council program layer.
 
 - Boundary Breach  
-  The Interpretive Containment Boundary (ICB) defined in LLG-IA-8C-DRIFT-02  
+  The Interpretive Containment Boundary (ICB) defined in [[lorelog/LLG-IA-8C-DRIFT-0002|LLG-IA-8C-DRIFT-02]]  
   assumed a separation between “operational content” (Council work) and  
   “interpretive doctrine” (Bin 8C control logs). By treating the minutes as  
   doctrine, the system has erased that distinction locally. The Council schedule  
