@@ -13,7 +13,7 @@ tags: ["reference", "empathegy", "complaint-suppression", "silence", "continuity
 This document defines Complaint Suppression: the condition in which a systems visible complaint volume decreases while the underlying burdens, contradictions, or harms remain active.
 
 Complaint Suppression is not the absence of complaint.
-It is the production of silence under pressure.
+It is the **production of silence under pressure**.
 
 Empathegy distinguishes between low complaint rates and low complaint viability.
 The two are often confused by dashboard surfaces.

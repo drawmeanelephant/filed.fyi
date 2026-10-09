@@ -100,7 +100,7 @@ This incident is now cited in support of a recurring doctrine claim:
 
 LLG-0812-CTM is not preserved as proof that the dashboards failed.
 
-It is preserved as proof that, for one brief interval, they stopped failing in the institution’s preferred direction.
+It is preserved as proof that, for one brief interval, they **stopped failing in the institution’s preferred direction**.
 
 **Explanation stack note:** The explanation management pattern that preceded
 this event — multiple briefing layers each inheriting a slightly more
