@@ -18,7 +18,7 @@ The Training Specimen Annex coordinates the use of:
 as instructional material for new and rotating clerks.
 
 It does not certify competence.
-It provides plausible exposure.
+It provides **plausible exposure**.
 
 ---
 
