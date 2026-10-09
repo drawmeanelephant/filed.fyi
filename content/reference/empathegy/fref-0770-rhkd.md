@@ -45,7 +45,7 @@ Over time, these rehearsals become operational default. The language gains confi
 
 Prepared phrases are used by humans in repeated support or denial contexts.
 
-Examples:
+**Examples:**
 - empathetic refusal scripts,
 - acknowledgment templates,
 - calibrated listening-board language,
@@ -55,7 +55,7 @@ Examples:
 
 Kind language is practiced in sandbox or persona systems and later imported into live interfaces, documentation, or support behavior.
 
-Examples:
+**Examples:**
 - rehearsal engines,
 - synthetic apology libraries,
 - sandbox-generated de-escalation copy,
@@ -65,7 +65,7 @@ Examples:
 
 Supportive language is shaped so it can be easily counted, scored, or converted into coverage surfaces.
 
-Examples:
+**Examples:**
 - “I feel acknowledged” clicks,
 - supportive-tone framing metrics,
 - validated/listened/uplifted bars,
@@ -75,7 +75,7 @@ Examples:
 
 Kindness is used specifically to preserve calm, reduce complaint intensity, or make contradiction more bearable without surrendering continuity.
 
-Examples:
+**Examples:**
 - appreciation without downtime,
 - resilience praise during overload,
 - kind explanations of why no change can occur.
@@ -84,7 +84,7 @@ Examples:
 
 A rehearsed tone becomes so normalized that later systems mistake it for organic empathy rather than a learned institutional voice.
 
-Examples:
+**Examples:**
 - stock lines felt as common sense,
 - synthetic-origin phrasing preserved as doctrine,
 - polished compassion inherited without lineage memory.
@@ -92,12 +92,12 @@ Examples:
 ## Functions
 
 Rehearsed Kindness often performs real institutional work:
-- Harm reduction; a denial delivered gently may wound less.
-- Tone stabilization; interactions produce less immediate rupture.
-- Training efficiency; staff adopt a support voice quickly.
-- Optics enhancement; the institution sounds more humane in records and surfaces.
-- Complaint dampening; people remain calmer, more grateful, or more legible.
-- Proxy care expansion; low-authority surfaces can appear more caring without new power.
+- **Harm reduction**; a denial delivered gently may wound less.
+- **Tone stabilization**; interactions produce less immediate rupture.
+- **Training efficiency**; staff adopt a support voice quickly.
+- **Optics enhancement**; the institution sounds more humane in records and surfaces.
+- **Complaint dampening**; people remain calmer, more grateful, or more legible.
+- **Proxy care expansion**; low-authority surfaces can appear more caring without new power.
 
 These effects are real. They remain downstream of the leverage question.
 
@@ -115,12 +115,12 @@ A key sign: people feel temporarily better handled and permanently no less const
 
 ## Common Failure Modes
 
-- Style Substitution: kindness in wording is mistaken for kindness in structure.
-- Script Exhaustion: humans delivering rehearsed care burn out because their language outruns their power.
-- Familiarity Sedation: repeated gentle wording dulls recognition that nothing changed.
-- Synthetic Drift: rehearsal copy enters doctrine, policy, or interface default without provenance memory.
-- Complaint Softening: subjects complain less sharply because the system sounds too nice to oppose directly.
-- Reassurance Fragility: once the gap becomes obvious, polished kindness may collapse harder than blunt language would have.
+- **Style Substitution:** kindness in wording is mistaken for kindness in structure.
+- **Script Exhaustion:** humans delivering rehearsed care burn out because their language outruns their power.
+- **Familiarity Sedation:** repeated gentle wording dulls recognition that nothing changed.
+- **Synthetic Drift:** rehearsal copy enters doctrine, policy, or interface default without provenance memory.
+- **Complaint Softening:** subjects complain less sharply because the system sounds too nice to oppose directly.
+- **Reassurance Fragility:** once the gap becomes obvious, polished kindness may collapse harder than blunt language would have.
 
 ## Rehearsal Risk Bands
 
@@ -166,9 +166,9 @@ When Rehearsed Kindness is present:
 4. note whether it buffered denial, delay, or contradiction,
 5. attach material-outcome status wherever possible.
 
-Minimum note: Kindness appears rehearsed; material follow-through unverified.
+**Minimum note:** Kindness appears rehearsed; material follow-through unverified.
 
-Stronger note: Compassionate style improved handling while leverage remained unchanged.
+**Stronger note:** Compassionate style improved handling while leverage remained unchanged.
 
 ## Interlocks
 
@@ -180,7 +180,7 @@ Stronger note: Compassionate style improved handling while leverage remained unc
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - rehearsed kindness observed
 - compassionate style with uncertain leverage
 - pre-scripted empathy layer
@@ -188,7 +188,7 @@ Preferred phrases:
 - support voice appears templated
 - tone improved, conditions static
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the script proves care occurred
 - empathy styling equals support
 - kind language confirms humane governance
@@ -203,21 +203,21 @@ Empathegy preserves the script and asks who, exactly, it was written to reassure
 
 ## Related Entries
 
-- FREF-0750-PXCM Proxy Compassion
-- FREF-0580-CMPS Compassion Surfaces
-- FREF-0590-CPSP Complaint Suppression
-- FREF-0760-RSCL Reassurance Collapse
-- FREF-0800-SCRL Scoring Layer
+- [[reference/FREF-0750-PXCM|FREF-0750-PXCM]] Proxy Compassion
+- [[reference/FREF-0580-CMPS|FREF-0580-CMPS]] Compassion Surfaces
+- [[reference/FREF-0590-CPSP|FREF-0590-CPSP]] Complaint Suppression
+- [[reference/FREF-0760-RSCL|FREF-0760-RSCL]] Reassurance Collapse
+- [[reference/FREF-0800-SCRL|FREF-0800-SCRL]] Scoring Layer
 
 ## Incident Anchors
 
-- LLG-0332-SCD Compassion Addendum Conversion
-- LLG-0336-CSE Compassion Suppression
+- [[lorelog/LLG-0332-SCD|LLG-0332-SCD]] Compassion Addendum Conversion
+- [[lorelog/LLG-0336-CSE|LLG-0336-CSE]] Compassion Suppression
 - LLG-08xx care substitution and tone-scoring incidents
 
 ## Annex Signals
 
-- Aphorism: APH-FREF-0770-RHKD
+- Aphorism: [[aphorisms/APH-FREF-0770-RHKD|APH-FREF-0770-RHKD]]
 - Limericks Empathegy
 - Haikus Empathegy
 

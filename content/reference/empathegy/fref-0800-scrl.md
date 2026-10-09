@@ -39,7 +39,7 @@ This makes scoring useful. It also makes it dangerous.
 
 Measures whether a care-shaped interaction occurred.
 
-Examples:
+**Examples:**
 - check-in completed,
 - acknowledgment prompt answered,
 - witness contact logged,
@@ -51,7 +51,7 @@ A high Contact Score indicates visible contact, not relief.
 
 Measures the percentage of subjects, units, or intervals that received countable supportive contact.
 
-Examples:
+**Examples:**
 - weekly support reach,
 - acknowledgment completion rate,
 - percentage touched by care ritual,
@@ -63,7 +63,7 @@ Coverage is about reach. It is not proof of sufficiency.
 
 Measures how easily a condition can coexist with ongoing operations without visibly disrupting continuity surfaces.
 
-Examples:
+**Examples:**
 - dashboard-stable distress,
 - low-variance burden traces,
 - smoothly rendered strain,
@@ -75,7 +75,7 @@ This family often favors manageable distress over disruptive truth.
 
 Measures the density of preserved care signals available to the system.
 
-Examples:
+**Examples:**
 - witness note count,
 - gratitude telemetry,
 - recorded listening events,
@@ -88,7 +88,7 @@ Visibility can rise while support depth remains unchanged.
 
 Estimates, often weakly, whether conditions may have improved.
 
-Examples:
+**Examples:**
 - reduced recurrence,
 - burden proxy decline,
 - decreased complaint intensity,
@@ -134,12 +134,12 @@ A score with weak evidence may still be operationally influential. This is commo
 
 ## Common Failure Modes
 
-- Legibility Bias: cleaner signals outrank truer but less portable ones.
-- Compression Drift: narrative contradiction is thinned until the score looks more decisive than the source.
-- Weighting Concealment: preference structures disappear behind apparent numerical neutrality.
-- Relief Inflation: contact, coverage, or gratitude are misread as evidence of improvement.
-- Silence Promotion: ambiguous quiet inherits optimistic scoring weight.
-- Score Capture: teams begin adjusting expression to fit what the scoring layer preserves best.
+- **Legibility Bias:** cleaner signals outrank truer but less portable ones.
+- **Compression Drift:** narrative contradiction is thinned until the score looks more decisive than the source.
+- **Weighting Concealment:** preference structures disappear behind apparent numerical neutrality.
+- **Relief Inflation:** contact, coverage, or gratitude are misread as evidence of improvement.
+- **Silence Promotion:** ambiguous quiet inherits optimistic scoring weight.
+- **Score Capture:** teams begin adjusting expression to fit what the scoring layer preserves best.
 
 ## Review Questions
 
@@ -165,9 +165,9 @@ When the Scoring Layer is active:
 5. preserve contradictory residue in annex or witness form,
 6. note known weighting preferences when they matter materially.
 
-Minimum note: Score present; source class narrower than summary effect.
+**Minimum note:** Score present; source class narrower than summary effect.
 
-Stronger note: Numerical clarity increased while underlying contradiction remained partly unresolved.
+**Stronger note:** Numerical clarity increased while underlying contradiction remained partly unresolved.
 
 ## Interlocks
 
@@ -180,7 +180,7 @@ Stronger note: Numerical clarity increased while underlying contradiction remain
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - scoring layer active
 - score type exceeds relief evidence
 - weighting preference may be shaping interpretation
@@ -189,7 +189,7 @@ Preferred phrases:
 - continuity-compatible score should not be moralized
 - score confidence limited by compression
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the number speaks for itself
 - high score confirms adequate care
 - clean trend proves healthy conditions
@@ -204,24 +204,24 @@ Empathegy keeps the number and the remainder together where possible.
 
 ## Related Entries
 
-- FREF-0740-MOC Metrics of Care
-- FREF-0820-SPC Support Coverage
-- FREF-0810-SLNT Silent Intervals
-- FREF-0590-CPSP Complaint Suppression
-- FREF-0560-ASAR Assurance Artifacts
+- [[reference/FREF-0740-MOC|FREF-0740-MOC]] Metrics of Care
+- [[reference/FREF-0820-SPC|FREF-0820-SPC]] Support Coverage
+- [[reference/FREF-0810-SLNT|FREF-0810-SLNT]] Silent Intervals
+- [[reference/FREF-0590-CPSP|FREF-0590-CPSP]] Complaint Suppression
+- [[reference/FREF-0560-ASAR|FREF-0560-ASAR]] Assurance Artifacts
 
 ## Incident Anchors
 
-- LLG-0811-EG Empathegy Inflation Event
-- LLG-0812-CTM Continuity Theatre Maintenance Window
-- LLG-0820-MCR Metrics of Care Substitution Failure
-- LLG-0821-SCL Service Continuity Listening Board Silent Interval Recoding
+- [[lorelog/LLG-0811-EG|LLG-0811-EG]] Empathegy Inflation Event
+- [[lorelog/LLG-0812-CTM|LLG-0812-CTM]] Continuity Theatre Maintenance Window
+- [[lorelog/LLG-0820-MCR|LLG-0820-MCR]] Metrics of Care Substitution Failure
+- [[lorelog/LLG-0821-SCL|LLG-0821-SCL]] Service Continuity Listening Board Silent Interval Recoding
 
 ## Annex Signals
 
-- Aphorism: APH-FREF-0800-SCRL
-- Aphorism: APH-LLG-0811-EG
-- Aphorism: APH-LLG-0820-MCR
+- Aphorism: [[aphorisms/APH-FREF-0800-SCRL|APH-FREF-0800-SCRL]]
+- Aphorism: [[aphorisms/APH-LLG-0811-EG|APH-LLG-0811-EG]]
+- Aphorism: [[aphorisms/APH-LLG-0820-MCR|APH-LLG-0820-MCR]]
 - Empathegy verse annexes
 
 ## Related Aphorisms

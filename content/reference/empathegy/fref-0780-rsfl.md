@@ -57,7 +57,7 @@ Empathegy preserves this not as care success, but as doctrinal evidence that rec
 
 Rest need is affirmed, but no calendar or workload change occurs.
 
-Examples:
+**Examples:**
 - appeals won in principle,
 - exhaustion recognized in registry,
 - narrative validated while shift pattern remains intact.
@@ -68,7 +68,7 @@ Examples:
 
 A symbolic or dashboard representation indicates that rest should have existed, spiritually existed, or was fulfilled in intent only.
 
-Examples:
+**Examples:**
 - tasteful rest icon,
 - fulfilled in spirit language,
 - emotional variance only notation,
@@ -80,7 +80,7 @@ Examples:
 
 Personnel are instructed to behave as if resting while remaining operationally available for continuity-sensitive oversight.
 
-Examples:
+**Examples:**
 - administratively compatible exhaustion windows,
 - low-activity expectations without true disconnection,
 - paused affect with intact availability.
@@ -93,7 +93,7 @@ This class often produces the least restorative outcome and the cleanest paperwo
 
 The lack of granted rest is formally observed and preserved, but not materially corrected.
 
-Examples:
+**Examples:**
 - witness notes,
 - lodge acknowledgments,
 - contradiction markers,
@@ -105,7 +105,7 @@ Examples:
 
 An interval is later described as the kind of time that should have counted as rest, although it did not function as such when lived.
 
-Examples:
+**Examples:**
 - denied downtime canonized as rest intention,
 - retrospectively sanctified exhaustion gaps,
 - archive-only recognition of unmet need.
@@ -158,10 +158,10 @@ Every Rest-Shaped Feeling record should preserve:
 - whether relief was assessed,
 - contradiction note.
 
-Minimum contradiction note:
+**Minimum contradiction note:**
 “Rest acknowledged; interval not granted.”
 
-Minimum caution note:
+**Minimum caution note:**
 “Recognition must not be cited as restorative outcome.”
 
 ---
@@ -250,7 +250,7 @@ If a witness note is later cited as proof that rest was handled, annotate the ca
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - rest acknowledged without interval
 - validated exhaustion, uninterrupted workload
 - notional rest marker applied
@@ -259,7 +259,7 @@ Preferred phrases:
 - recognition preserved; relief unverified
 - denied downtime with symbolic accommodation
 
-Disallowed phrases:
+**Disallowed phrases:**
 - rest was effectively provided
 - acknowledgment satisfied the need
 - theoretical rest counts as recovery

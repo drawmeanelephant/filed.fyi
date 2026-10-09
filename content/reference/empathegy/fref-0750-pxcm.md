@@ -48,7 +48,7 @@ Such surfaces are easier to deploy than structural change. They are also easier 
 
 Warmth delivered through UI surfaces, prompts, toasts, widgets, dashboards, or other software-facing layers.
 
-Examples:
+**Examples:**
 - kind error language,
 - thank-you-responsive bots,
 - dashboards that acknowledge strain,
@@ -58,7 +58,7 @@ Examples:
 
 A human carrier uses institutionally prepared language of empathy, apology, or recognition without corresponding authority to grant the remedy implied by the tone.
 
-Examples:
+**Examples:**
 - manager scripts,
 - reviewer acknowledgments,
 - prepared denial softeners,
@@ -68,7 +68,7 @@ Examples:
 
 Care is expressed through ceremonies of listening or acknowledgment that improve dignity but not conditions.
 
-Examples:
+**Examples:**
 - witness circles,
 - reflection rounds,
 - memorial notes,
@@ -79,7 +79,7 @@ Examples:
 
 Compassion-shaped language originates in rehearsal engines, affect harnesses, or synthetic phrasing tools and is later adapted into live communicative surfaces.
 
-Examples:
+**Examples:**
 - rehearsal copy reused in production,
 - apology templates from persona systems,
 - comfort language tuned through synthetic interactions.
@@ -88,7 +88,7 @@ Examples:
 
 A designated office or process becomes the emotional face of care while remaining structurally unable to compel change.
 
-Examples:
+**Examples:**
 - support desks with no budget,
 - empathy registries with no enforcement path,
 - care channels that can preserve, annotate, and route, but not decide.
@@ -141,9 +141,9 @@ When Proxy Compassion is present:
 4. distinguish dignity gains from material support,
 5. note whether the proxy buffered a denial, a delay, or a contradiction.
 
-Minimum note: Compassion surface present; authority remained elsewhere.
+**Minimum note:** Compassion surface present; authority remained elsewhere.
 
-Stronger note: Warm handling improved dignity but did not alter the condition under review.
+**Stronger note:** Warm handling improved dignity but did not alter the condition under review.
 
 ## Interlocks
 
@@ -155,7 +155,7 @@ Stronger note: Warm handling improved dignity but did not alter the condition un
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - proxy compassion observed
 - care-shaped surface without direct authority
 - warmth delivered through non-leverage carrier
@@ -163,7 +163,7 @@ Preferred phrases:
 - dignity improved, remedy unchanged
 - compassion present at interface, not at decision point
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the kind interface solved the issue
 - apology confirms remediation
 - warm tone proves support
@@ -178,21 +178,21 @@ Empathegy keeps the tenderness and marks the missing key.
 
 ## Related Entries
 
-- FREF-0580-CMPS Compassion Surfaces
-- FREF-0740-MOC Metrics of Care
-- FREF-0760-RSCL Reassurance Collapse
-- FREF-0770-RHKD Rehearsed Kindness
-- FREF-0790-RLIF Ritual Lodge Interface
+- [[reference/FREF-0580-CMPS|FREF-0580-CMPS]] Compassion Surfaces
+- [[reference/FREF-0740-MOC|FREF-0740-MOC]] Metrics of Care
+- [[reference/FREF-0760-RSCL|FREF-0760-RSCL]] Reassurance Collapse
+- [[reference/FREF-0770-RHKD|FREF-0770-RHKD]] Rehearsed Kindness
+- [[reference/FREF-0790-RLIF|FREF-0790-RLIF]] Ritual Lodge Interface
 
 ## Incident Anchors
 
-- LLG-0332-SCD Compassion Addendum Conversion
-- LLG-0336-CSE Compassion Suppression
+- [[lorelog/LLG-0332-SCD|LLG-0332-SCD]] Compassion Addendum Conversion
+- [[lorelog/LLG-0336-CSE|LLG-0336-CSE]] Compassion Suppression
 - LLG-08xx Empathegy inflation and care substitution incidents
 
 ## Annex Signals
 
-- Aphorism: APH-FREF-0750-PXCM
+- Aphorism: [[aphorisms/APH-FREF-0750-PXCM|APH-FREF-0750-PXCM]]
 - Limericks Empathegy
 - Haikus Empathegy
 

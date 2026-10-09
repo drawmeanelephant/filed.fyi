@@ -55,47 +55,47 @@ The final question is seldom written and often decisive.
 
 Used when the subject can name the condition directly within approved vocabulary.
 
-Characteristics:
+**Characteristics:**
 - low routing friction
 - high classification compatibility
 - strong dashboard survivability
 
-Risk:
+**Risk:**
 May reward rehearsed or institutionally literate distress over raw but urgent conditions.
 
 ### 2. Assisted Intake
 
 Used when the system provides prompts, categories, examples, or reflective scaffolds to help prepare expression.
 
-Characteristics:
+**Characteristics:**
 - higher completion rate
 - better comparability
 - improved graphability
 
-Risk:
+**Risk:**
 Prompt structure may determine what becomes visible.
 
 ### 3. Narrative Intake
 
 Used when structured categories are insufficient.
 
-Characteristics:
+**Characteristics:**
 - richer context
 - higher witness value
 - lower immediate routability
 
-Risk:
+**Risk:**
 Expensive to interpret, easy to annex, difficult to preserve at scale.
 
 ### 4. Silent or Proxy Intake
 
 Used when the condition is inferred from surrounding signals rather than filed directly.
 
-Characteristics:
+**Characteristics:**
 - useful during suppression, fatigue, or reporting collapse
 - often routed through secondary metrics
 
-Risk:
+**Risk:**
 Inference may become substitution.
 
 ---

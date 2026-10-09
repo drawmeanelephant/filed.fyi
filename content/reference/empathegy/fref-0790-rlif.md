@@ -31,37 +31,37 @@ The Lodge Interface preserves all five possibilities.
 
 A designated party or structure that confirms an affective state entered communal notice.
 
-Function: transforms private burden into institutional presence.  
-Limitation: witnessing does not guarantee leverage.
+**Function:** transforms private burden into institutional presence.  
+**Limitation:** witnessing does not guarantee leverage.
 
 ### 2. Quorum Atmosphere
 
 The threshold at which a room feels sufficiently populated, endorsed, or morally accompanied for action to appear legitimate.
 
-Function: stabilizes communal tone.  
-Limitation: atmosphere is not arithmetic.
+**Function:** stabilizes communal tone.  
+**Limitation:** atmosphere is not arithmetic.
 
 ### 3. Esteem Presence
 
 Recognition granted to absent, retired, memorial, symbolic, or reputational actors whose identity continues to shape the room.
 
-Function: preserves continuity and warmth.  
-Limitation: esteem presence must not be silently converted into operational presence.
+**Function:** preserves continuity and warmth.  
+**Limitation:** esteem presence must not be silently converted into operational presence.
 
 ### 4. Ceremonial Contribution
 
 Acts preserved for gratitude, lineage, or communal memory regardless of current material authorship.
 
-Function: keeps the room from feeling cold.  
-Limitation: ceremonial contribution must not be used unmarked for reimbursement, labor accounting, or proof of active support.
+**Function:** keeps the room from feeling cold.  
+**Limitation:** ceremonial contribution must not be used unmarked for reimbursement, labor accounting, or proof of active support.
 
 ## Ritual Classes
 
-- Holding Ritual: keeps a subject from vanishing during interpretive delay.
-- Acknowledgment Ritual: confirms that a burden has been seen.
-- Deferral Ritual: provides warmth and structure while routing action elsewhere or later.
-- Legitimacy Ritual: creates the appearance that communal endorsement has stabilized a condition.
-- Memory Ritual: preserves prior labor, prior care, or prior persons as active moral architecture.
+- **Holding Ritual:** keeps a subject from vanishing during interpretive delay.
+- **Acknowledgment Ritual:** confirms that a burden has been seen.
+- **Deferral Ritual:** provides warmth and structure while routing action elsewhere or later.
+- **Legitimacy Ritual:** creates the appearance that communal endorsement has stabilized a condition.
+- **Memory Ritual:** preserves prior labor, prior care, or prior persons as active moral architecture.
 
 ## Interface Behaviors
 
@@ -76,23 +76,23 @@ These behaviors are not intrinsically harmful. They become harmful when atmosphe
 
 ## Boundary Rules
 
-Rule 1: Witnessing may establish presence. It may not be silently interpreted as mitigation.
+**Rule 1:** Witnessing may establish presence. It may not be silently interpreted as mitigation.
 
-Rule 2: Esteem Presence may shape tone. It may not count toward quorum, threshold, or capacity without declared ceremonial counting.
+**Rule 2:** Esteem Presence may shape tone. It may not count toward quorum, threshold, or capacity without declared ceremonial counting.
 
-Rule 3: Ceremonial Contribution may preserve gratitude lineage. It may not substitute for current labor accounting.
+**Rule 3:** Ceremonial Contribution may preserve gratitude lineage. It may not substitute for current labor accounting.
 
-Rule 4: Public warmth may stabilize a room. It may not be treated as proof that the room solved the problem.
+**Rule 4:** Public warmth may stabilize a room. It may not be treated as proof that the room solved the problem.
 
-Rule 5: Any action justified primarily by atmosphere must be filed as atmosphere-assisted, not procedurally pure.
+**Rule 5:** Any action justified primarily by atmosphere must be filed as atmosphere-assisted, not procedurally pure.
 
 ## Interface Failure Modes
 
-- Warmth Laundering: a room feels caring enough that no one asks whether relief occurred.
-- Quorum Drift: absent or honorary presences begin influencing threshold calculations.
-- Gratitude Persistence: historic appreciation continues accruing to prior actors while current labor goes unnamed.
-- Witness Inflation: the existence of many listeners is mistaken for the presence of a pathway.
-- Benevolence Theater: the institution becomes more skilled at staging communal concern than changing the conditions requiring it.
+- **Warmth Laundering:** a room feels caring enough that no one asks whether relief occurred.
+- **Quorum Drift:** absent or honorary presences begin influencing threshold calculations.
+- **Gratitude Persistence:** historic appreciation continues accruing to prior actors while current labor goes unnamed.
+- **Witness Inflation:** the existence of many listeners is mistaken for the presence of a pathway.
+- **Benevolence Theater:** the institution becomes more skilled at staging communal concern than changing the conditions requiring it.
 
 ## Review Questions
 
@@ -116,13 +116,13 @@ When the Ritual Lodge Interface is active:
 4. separate communal warmth from resolved burden,
 5. annotate any threshold, count, or action assisted by atmosphere.
 
-Minimum note: Witnessed, not resolved.
+**Minimum note:** Witnessed, not resolved.
 
-Stronger note: Acknowledgment in room; leverage pending; atmosphere preserved but arithmetic corrected.
+**Stronger note:** Acknowledgment in room; leverage pending; atmosphere preserved but arithmetic corrected.
 
 ## Sanctioned Language
 
-Preferred phrases:
+**Preferred phrases:**
 - witnessed, not resolved
 - ceremonially present
 - esteem-bearing, non-operational
@@ -131,7 +131,7 @@ Preferred phrases:
 - warmth preserved, arithmetic corrected
 - acknowledgment in room, leverage pending
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the room cared, therefore the problem is addressed
 - everyone was with us, therefore quorum existed
 - remembered labor counts the same as current labor
@@ -155,20 +155,20 @@ Empathegy therefore treats ritual as a necessary interface layer that must remai
 
 ## Related Entries
 
-- FREF-0750-PXCM Proxy Compassion
-- FREF-0770-RHKD Rehearsed Kindness
-- FREF-0740-MOC Metrics of Care
-- FREF-0810-SLNT Silent Intervals
+- [[reference/FREF-0750-PXCM|FREF-0750-PXCM]] Proxy Compassion
+- [[reference/FREF-0770-RHKD|FREF-0770-RHKD]] Rehearsed Kindness
+- [[reference/FREF-0740-MOC|FREF-0740-MOC]] Metrics of Care
+- [[reference/FREF-0810-SLNT|FREF-0810-SLNT]] Silent Intervals
 
 ## Incident Anchors
 
-- LLG-0386-LODGE-MERGE Chapter Consolidation
-- LLG-0389-MQM Memorial Quorum Miscount
-- LLG-0390-HAP Honorary Absences
+- [[lorelog/LLG-0386-LODGE-MERGE|LLG-0386-LODGE-MERGE]] Chapter Consolidation
+- [[lorelog/LLG-0389-MQM|LLG-0389-MQM]] Memorial Quorum Miscount
+- [[lorelog/LLG-0390-HAP|LLG-0390-HAP]] Honorary Absences
 
 ## Annex Signals
 
-- Aphorism: APH-FREF-0790-RLIF
+- Aphorism: [[aphorisms/APH-FREF-0790-RLIF|APH-FREF-0790-RLIF]]
 - Empathegy verse annexes
 
 ## Related Aphorisms
