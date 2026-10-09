@@ -7,7 +7,7 @@ tags: ["changelog", "presentation-qa", "mascots"]
 
 # Presentation QA v3 A-M1: crosslinks applied to 47 mascot records
 
-**Maintenance ID:** 0.1.00270.presentation-qa-v3-a-m1
+**Maintenance ID:** 0.1.00272.presentation-qa-v3-a-m1
 **Date:** 2026-10-09
 **Scope:** `content/mascots/` — issue #1010 pass-3 A-track apply slice A-M1 (files `003.blamey-mctypoface.md` through `260.sidebar-mercy.md`, inclusive)
 
