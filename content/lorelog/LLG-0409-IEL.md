@@ -8,7 +8,7 @@ tags: ["lorelog", "inherited-evidence", "explanation-layer", "trust-surface", "a
 
 # Institutional Explanation Layer, Trust Surface Continuity Event
 
-Framing Note: This document records the adopted administrative explanation layer generated during the trust-surface continuity event. It is retained as historical institutional evidence of how the event was reinterpreted for reporting compliance, not as an objective archive doctrine.
+**Framing Note:** This document records the adopted administrative explanation layer generated during the trust-surface continuity event. It is retained as historical institutional evidence of how the event was reinterpreted for reporting compliance, **not as an objective archive doctrine**.
 
 ## Summary
 
