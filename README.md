@@ -1,6 +1,6 @@
 # Filed & Forgotten Archive
 
-Filed is a 2,309-page static Markdown archive compiled by [Boris](https://github.com/drawmeanelephant/boris) using the Trunk/Satellite graph model and deployed to Cloudflare Pages at [https://filed.fyi](https://filed.fyi). The corpus includes 11 trunk pages (the home page and 10 collection roots) and 2,298 satellite records across mascots, lorelog, reference, posts, guides, releases, changelog, aphorisms, haikus, and limericks.
+Filed is a 2,328-page static Markdown archive compiled by [Boris](https://github.com/drawmeanelephant/boris) using the Trunk/Satellite graph model and deployed to Cloudflare Pages at [https://filed.fyi](https://filed.fyi). The corpus includes 11 trunk pages (the home page and 10 collection roots) and 2,317 satellite records across mascots, lorelog, reference, posts, guides, releases, changelog, aphorisms, haikus, and limericks.
 
 
 ---

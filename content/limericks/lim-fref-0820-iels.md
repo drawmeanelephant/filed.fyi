@@ -21,7 +21,7 @@ A user had vanished from sight,
 Which gave the main dashboard a fright.  
 We governed the hole,  
 By checking the toll,  
-And billing the ghost for the night.  
+**And billing the ghost for the night.**  
 
 
 

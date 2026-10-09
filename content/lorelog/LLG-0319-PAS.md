@@ -14,7 +14,7 @@ Bricky processed these attributions exactly as presented, since they were timest
 
 Kindy attempted to verify intent by introducing a reflective authorship questionnaire asking whether the named persona truly felt responsible for the act attributed to it. This only expanded the problem, because persona denials were logged under their own names and immediately counted as further authored statements.
 
-The Canonical Authority Review Panel has postponed a ruling pending creation of a narrower definition of authorship. In the interim, any persona may sign an internal note, but only three designated offices may mean it.
+The Canonical Authority Review Panel has postponed a ruling pending creation of a narrower definition of authorship. In the interim, any persona may sign an internal note, but **only three designated offices may mean it**.
 
 ## Related Aphorisms
 
