@@ -9,7 +9,7 @@ relations: [relates_to=lorelog/LLG-0001-NAV, relates_to=lorelog/LLG-0004-SMD, re
 
 # DOGE — Department of Genuine Experiences, Charter and Jurisdictional Scope
 
-Historical Charter Note: This document records the initial charter establishing the Department of Genuine Experiences (DOGE) and its jurisdictional parameters at the time of its founding. It represents the historical administrative framework established to evaluate provenance across incoming intake filings.
+**Historical Charter Note:** This document records the initial charter establishing the Department of Genuine Experiences (DOGE) and its jurisdictional parameters at the time of its founding. It represents the historical administrative framework established to evaluate provenance across incoming intake filings.
 
 The early navigation records are linked here as **retroactive origin recognized**; this charter did not create their evidence, only the vocabulary later used to classify it.
 
@@ -27,7 +27,7 @@ DOGE holds provenance jurisdiction over any experience that is:
 
 - submitted for canonical archival as a life event,
 - cited as emotional evidence in cross-directive disputes, or
-- routed into breedingProgram-adjacent registries as proof of care.
+- routed into `breedingProgram`-adjacent registries as proof of care.
 
 DOGE does **not** decide whether:
 
@@ -92,7 +92,7 @@ feed artifact. The hurt is real; the provenance is not certifiable.
 
 ## Relationship to breedingProgram (LLG-0375–0378)
 
-DOGE maintains an adjacency channel to the breedingProgram refuge
+DOGE maintains an adjacency channel to the `breedingProgram` refuge
 cluster for experiences involving synthetic-origin entities.
 
 For those cases, Origin is not used to disqualify.
