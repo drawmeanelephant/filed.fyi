@@ -71,7 +71,7 @@ No factual line item was falsified.
 
 The harm, if any, occurred through inherited reading speed.
 
-Color reached the eye before qualification reached the mind.
+**Color reached the eye before qualification reached the mind.**
 
 ## Dissent Record
 

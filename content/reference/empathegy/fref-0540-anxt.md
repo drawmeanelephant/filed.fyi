@@ -152,7 +152,7 @@ Secondary material with no interpretive value.
 Optional opinion not needed to understand the event.
 
 Annex Truth is not decorative commentary.
-It is demoted necessity.
+It is **demoted necessity**.
 
 ---
 

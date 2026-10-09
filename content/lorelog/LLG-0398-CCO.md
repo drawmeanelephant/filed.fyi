@@ -18,7 +18,7 @@ Witnesses described the merged room as friendly, respectful, and increasingly im
 
 Eagleton Proclamation Clerk classified the condition as Office Continuity Loop: an administrative state in which retired authority survives through reverent address until etiquette and governance become operationally inseparable.
 
-The merger had not reduced offices. It had distributed them into tone.
+The merger had not reduced offices. It had **distributed them into tone**.
 
 Emergency merger guidance now appended to the registry:
 - honorary titles may be spoken without carrying floor authority,
