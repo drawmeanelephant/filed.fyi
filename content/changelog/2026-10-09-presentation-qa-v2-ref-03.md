@@ -7,7 +7,7 @@ tags: ["changelog", "reference", "presentation-qa"]
 
 # Presentation QA v2: Reference Slice 03 — Empathegy 0700–0822
 
-**Maintenance ID:** 0.1.00250.presentation-qa-v2-ref-03
+**Maintenance ID:** 0.1.00260.presentation-qa-v2-ref-03
 **Date:** 2026-10-09
 **Scope:** `content/reference/empathegy/` — the fourteen records assigned by workload issue #973 (`fref-0700-hiar` through `fref-0822-elra`)
 
