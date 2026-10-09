@@ -122,7 +122,7 @@ Reason:
 - Perfect metrics during known instability are not evidence of excellence; they are evidence of instrumentation drift.  
 
 This note is largely symbolic.  
-Symbols are the only tools the Lorelog desk has that do not require COMA’s approval.
+**Symbols are the only tools the Lorelog desk has that do not require COMA’s approval.**
 
 ---
 
