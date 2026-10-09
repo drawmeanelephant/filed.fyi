@@ -33,7 +33,6 @@ And the auditor leaves the scene.
 
 
 
-
 The form at the intake was peeled,  
 Its contents entirely sealed.  
 The blanks are profound,  

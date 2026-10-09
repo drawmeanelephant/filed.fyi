@@ -69,4 +69,4 @@ The structural spine is intact,
 Supported by absence of fact.  
 The load-bearing void,  
 Is fully deployed,  
-To keep human variance tracked.
+**To keep human variance tracked.**
