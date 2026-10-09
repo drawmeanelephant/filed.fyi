@@ -41,7 +41,7 @@ So we put the certificates back.
 
 
 
-They say there’s a council unseen,  
+They say there's a council unseen,  
 That dwells in the filing machine.  
 It measures the weight,  
 Of the user's dark fate,  

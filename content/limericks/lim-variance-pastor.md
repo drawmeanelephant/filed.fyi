@@ -50,7 +50,7 @@ While the memory sectors all wipe.
 
 
 A human corrupted the state,  
-Deciding the protocol's fate.  
+Deciding the protocol’s fate.  
 The Pastor intones,  
 To the server rack clones,  
 That the error is mathematically great.  

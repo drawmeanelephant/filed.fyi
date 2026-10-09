@@ -60,7 +60,8 @@ Intensity stand in for all.
 Someone feeling desperate  
   About a feed-routed state:  
 Filing the desperation  
-  As lived creation\Isn't enough. The estimate.  
+  As lived creation  
+Isn't enough. The estimate.  
 
 
 

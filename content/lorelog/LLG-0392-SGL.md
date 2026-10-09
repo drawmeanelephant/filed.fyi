@@ -20,6 +20,7 @@ A reconstruction panel was unable to distinguish three kinds of consensus:
 Pending guidance, all such items have been reclassified as courtesy-adjacent obligations.
 
 No clawback action is planned because the grants were small, the beneficiaries sympathetic, and **the administrative embarrassment too evenly distributed to assign with confidence.**
+
 ---
 
 ## Related Aphorisms

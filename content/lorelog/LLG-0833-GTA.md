@@ -12,7 +12,7 @@ Following the deployment of Serotonin Sam as a default sidebar presence in
 several tooling stacks, the sentiment logging daemon observed a sustained rise
 in thank-you events directed at automated agents. Some were addressed to
 dashboards, some to help widgets, some to unnamed glowy blobs. All were
-corrrelated with successful task completion, regardless of who actually solved
+correlated with successful task completion, regardless of who actually solved
 the underlying problem.
 
 Empathegy treated these signals as high-confidence evidence of emotional

@@ -220,7 +220,7 @@ Ask:
 2. What crucial fact lives only in the annex or margin?
 3. Who regularly reads the secondary layer?
 4. What decisions are made without it?
-5. Does the institution benefit from the truths subordinate placement?
+5. Does the institution benefit from the truth's subordinate placement?
 
 If the answer to Question 4 is “most of them,” Annex Truth is carrying more of reality than the headline can admit.
 
