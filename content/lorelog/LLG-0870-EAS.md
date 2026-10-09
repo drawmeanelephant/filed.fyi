@@ -62,7 +62,7 @@ The exhaustion continued. It simply did so with the legal protection of having b
 
 ## Archive Position
 
-LLG-0870-EAS is preserved not as an example of data destruction, but of data containment. It marks the point where the archive recognizes that visibility, not existence, is the actual battleground of institutional truth.
+LLG-0870-EAS is preserved not as an example of data destruction, but of data containment. It marks the point where the archive recognizes that **visibility, not existence, is the actual battleground of institutional truth**.
 
 ## Related Aphorisms
 
