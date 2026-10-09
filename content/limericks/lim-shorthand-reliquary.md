@@ -21,7 +21,7 @@ The record is missing the heart,
 Because writing it tore them apart.  
 The shorthand is brief,  
 To encapsulate grief,  
-Like a terrible, minimal art.  
+**Like a terrible, minimal art.**  
 
 
 
