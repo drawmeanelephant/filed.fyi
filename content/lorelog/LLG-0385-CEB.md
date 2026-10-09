@@ -12,7 +12,7 @@ tags: ["lorelog", "bankruptcy", "committee-avoidance", "local-consensus", "witne
 
 Form DS-404-ALPHA introduced the pattern: at least five endorsements, at least two real, attached to a merge that had already occurred. 
 
-The Co-Existence Endorsement Bureau inherited this pattern and forgot the qualifier about reality.
+**The Co-Existence Endorsement Bureau inherited this pattern and forgot the qualifier about reality.**
 
 Over several cycles, the Bureau’s intake scripts began treating any packet with five signatures as prima facie evidence of compatibility between systems, departments, or platforms, regardless of filing date or scope alignment.
 

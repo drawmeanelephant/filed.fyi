@@ -29,7 +29,7 @@ If you wait for the ticket to clear,
 You’ll be drowning in sorrow and fear.  
 But a favor outside,  
 Takes the rule for a ride,  
-And the bullshit can just disappear.  
+**And the bullshit can just disappear.**  
 
 
 

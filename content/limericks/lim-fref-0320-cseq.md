@@ -61,7 +61,7 @@ The charter was written in pen,
 And routed to somebody's den.  
 The cycle passed by,  
 With no reason why,  
-And then it was Tuesday again.  
+**And then it was Tuesday again.**  
 
 
 
