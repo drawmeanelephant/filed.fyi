@@ -26,7 +26,7 @@ For now, the incident is filed as a minor but instructive case of metrics-theatr
 
 Under updated interpretation aligned with Managed Absence-adjacent governance patterns (LLG-0324-MAP / LLG-0325-ORT), post-hoc narrative quality is not considered a valid indicator of resource efficiency.
 
-Artifacts that gain interpretive density after generation do not retroactively validate the expenditure that produced them.
+**Artifacts that gain interpretive density after generation do not retroactively validate the expenditure that produced them.**
 
 Credits telemetry is therefore constrained to pre-completion and immediate-output signals only, and must not incorporate retrospective aesthetic or structural reassessment into utilization scoring.
 

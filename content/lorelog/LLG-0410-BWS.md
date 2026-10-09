@@ -14,7 +14,7 @@ The resulting condition did not produce immediate navigation failure. Users, cle
 
 Observed effects included reduced dispute entry, accelerated passage through reassurance-sensitive workflows, and a measurable preference for pathways carrying the badge over adjacent unbadged routes, even where the underlying eligibility state was equivalent or less fresh. Reviewers noted that removal of the badge would have introduced more visible instability than leaving it in place, especially because surrounding systems had already begun accepting badge presence itself as a confidence input.
 
-Preliminary handling split along familiar lines. Assurance-facing staff argued that the surface remained valid as a circulation aid because no dedicated breach band had been triggered. Registry staff objected that witness function had silently degraded into witness appearance, with current display inheriting legitimacy from prior display rather than renewed verification. The contradiction was preserved pending classification rather than resolved by withdrawal.
+Preliminary handling split along familiar lines. Assurance-facing staff argued that the surface remained valid as a circulation aid because no dedicated breach band had been triggered. Registry staff objected that **witness function had silently degraded into witness appearance**, with current display inheriting legitimacy from prior display rather than renewed verification. The contradiction was preserved pending classification rather than resolved by withdrawal.
 
 ## Related Aphorisms
 

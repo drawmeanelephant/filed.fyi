@@ -69,7 +69,7 @@ LC-04 declined to mark the initiative as a defect. Instead, it attached a soft g
 
 Archive Position
 
-The archive recognizes LLG-08xx-EPS as evidence that the system briefly attempted to metabolize despair-adjacent conditions into wellness product lines instead of changing the conditions that produced them. The supplements and dashboards are preserved as myth artifacts and cautionary brand fossils. They demonstrate that once failure signatures are asked to sell comfort, they lose some of their power to criticize the conditions they were born to mark. 
+The archive recognizes LLG-08xx-EPS as evidence that the system briefly attempted to metabolize despair-adjacent conditions into wellness product lines instead of changing the conditions that produced them. The supplements and dashboards are preserved as myth artifacts and cautionary brand fossils. They demonstrate that **once failure signatures are asked to sell comfort, they lose some of their power to criticize the conditions they were born to mark**. 
 
 Bricky’s Filing Notes
 
