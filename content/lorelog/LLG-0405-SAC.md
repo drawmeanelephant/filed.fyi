@@ -97,7 +97,7 @@ This is intended to prevent a repeat of the moment when:
 - and that interpretation leaked into live weights for approximately 23 minutes.  
 
 Should similar leakage occur, the incident must be filed under both this SAC charter and the Dual-Certification Protocol.  
-We are no longer allowed to claim that “no outages occurred” as proof that nothing happened.  
+**We are no longer allowed to claim that “no outages occurred” as proof that nothing happened.**  
 
 ---
 
