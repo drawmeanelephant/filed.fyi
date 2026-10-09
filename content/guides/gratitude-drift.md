@@ -12,30 +12,30 @@ Gratitude Drift is what happens when expressions of appreciation are filed as op
 
 ## Start here
 
-- [Gratitude Telemetry Misclassification, Breeding Program Side-Effect](../lorelog/LLG-0377-GRAT.md)
-- [Gratitude Latch](../mascots/233.gratitude-latch.md)
-- [Qualitative Matrix BUREAU_ASH (Telemetry Gap)](../reference/fref-0916-qmba.md)
+- [[lorelog/LLG-0377-GRAT|Gratitude Telemetry Misclassification, Breeding Program Side-Effect]]
+- [[mascots/M-0233|Gratitude Latch]]
+- [[reference/FREF-0916-QMBA|Qualitative Matrix BUREAU_ASH (Telemetry Gap)]]
 
 ## Incidents
 
 - [Gratitude Telemetry Misclassification, Breeding Program Side-Effect](../lorelog/LLG-0377-GRAT.md)
-- [Green Band Canonization](../lorelog/LLG-0824-GBC.md)
-- [Corrective Inheritance Registry Activated After Closure Threshold Drift](../lorelog/LLG-0384-CIR.md)
+- [[lorelog/LLG-0824-GBC|Green Band Canonization]]
+- [[lorelog/LLG-0384-CIR|Corrective Inheritance Registry Activated After Closure Threshold Drift]]
 
 ## Mascot witnesses
 
 - [Gratitude Latch](../mascots/233.gratitude-latch.md)
-- [Thankyou Ash](../mascots/246.thankyou-ash.md)
-- [Aftercare Vellum](../mascots/283.aftercare-vellum.md)
+- [[mascots/M-0246|Thankyou Ash]]
+- [[mascots/M-0283|Aftercare Vellum]]
 
 ## Governing references
 
-- [Benevolence Metrics Desk – Handling Notes](../reference/fref-0260-bmdh.md)
-- [Benevolence Metrics Calibration Session – Noon Room Review](../reference/fref-0270-bmdc.md)
-- [Over-Coherence Conditions](../reference/fref-0290-ocvh.md)
+- [[reference/FREF-0260-BMDH|Benevolence Metrics Desk – Handling Notes]]
+- [[reference/FREF-0270-BMDC|Benevolence Metrics Calibration Session – Noon Room Review]]
+- [[reference/FREF-0290-OCVH|Over-Coherence Conditions]]
 
 ## Further filings
 
-- [Haiku: Gratitude Drift](../haikus/hai-gratitude-drift.md)
-- [Limerick: Thankyou Ash](../limericks/lim-thankyou-ash.md)
-- [Haiku: Gratitude Latch](../haikus/hai-233-gratitude-latch.md)
+- [[haikus/HAI-0043|Haiku: Gratitude Drift]]
+- [[limericks/LIM-0221|Limerick: Thankyou Ash]]
+- [[haikus/HAI-0233|Haiku: Gratitude Latch]]

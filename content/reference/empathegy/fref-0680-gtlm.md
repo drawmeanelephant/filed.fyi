@@ -30,7 +30,7 @@ It may instead indicate:
 - cultural habit,
 - gratitude toward legibility rather than outcome.
 
-Empathegy preserves these possibilities as concurrent, not mutually exclusive.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] preserves these possibilities as concurrent, not mutually exclusive.
 
 ---
 

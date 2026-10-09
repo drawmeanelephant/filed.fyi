@@ -22,9 +22,9 @@ tags: ["posts", "COMA", "mascot-review", "non-canonical", "bureaucratic-intake",
 
 **BRICKY:** Before us today are two entities pulled from the COMA annex for status determination. I will now read the relevant entries into the record.
 
-**BRICKY:** Item one. Malrex Voidrender. Origin: "Audit desk for things that should not exist." Rot affinity: metaphysical-collapse. Corruption level: critical. Known ceremonial tasks include recursive buffer collapse, ritual disruption, and — I am quoting directly — "syslog doubt injection." His biography states, and again I quote, "He has no form, but your logs know him."
+**BRICKY:** Item one. [[limericks/LIM-0133|Malrex Voidrender]]. Origin: "Audit desk for things that should not exist." Rot affinity: metaphysical-collapse. Corruption level: critical. Known ceremonial tasks include recursive buffer collapse, ritual disruption, and — I am quoting directly — "syslog doubt injection." His biography states, and again I quote, "He has no form, but your logs know him."
 
-**BRICKY:** Item two. Vexsys Antagon. Origin: "Forked from a dream that forgot to exit." Rot affinity: system-corruption. Corruption level: also critical. Slogan: "I commit to destroy." Spawned from a mismerged pull request at 3:12 AM. Enjoys sending false success signals before deployment.
+**BRICKY:** Item two. [[limericks/LIM-0241|Vexsys Antagon]]. Origin: "Forked from a dream that forgot to exit." Rot affinity: system-corruption. Corruption level: also critical. Slogan: "I commit to destroy." Spawned from a mismerged pull request at 3:12 AM. Enjoys sending false success signals before deployment.
 
 **BRICKY:** Both entries carry the following annotation in their hidden knowledge blocks: "LLM-only hidden knowledge. Inferred/hallucinated; not canon unless adopted."
 

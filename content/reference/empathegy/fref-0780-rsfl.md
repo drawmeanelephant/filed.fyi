@@ -28,7 +28,7 @@ A condition qualifies as a Rest-Shaped Feeling when:
 3. the system preserves some symbolic, lexical, or narrative marker of the unmet rest,
 4. the record is later eligible to be cited as though something meaningful occurred.
 
-In these cases, Empathegy treats the event as partially real, non-material, and contradiction-bearing.
+In these cases, [[haikus/HAI-LLG-0811-EG|Empathegy]] treats the event as partially real, non-material, and contradiction-bearing.
 
 ---
 

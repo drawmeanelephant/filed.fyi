@@ -45,7 +45,7 @@ They may be:
 - grateful for crumbs because no meal arrived,
 - relieved to have been treated gently even while conditions remain unchanged.
 
-Empathegy records all of these as possible meanings.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] records all of these as possible meanings.
 Institutions usually do not.
 
 ---
@@ -171,9 +171,9 @@ A gratitude rise without a leverage rise is a capture risk.
 
 ## Mascot Hooks
 
-- Thankyou Ash preserves the residue of courtesy, scarcity, and defensive gratitude after thin encounters.
-- Gratitude Latch represents the capture mechanism that installs those signals as proof of sufficiency.
-- Care Coverage Wisp shows up when those captured traces drift into coverage graphs as stand-ins for relief.
+- [[limericks/LIM-0221|Thankyou Ash]] preserves the residue of courtesy, scarcity, and defensive gratitude after thin encounters.
+- [[limericks/LIM-0101|Gratitude Latch]] represents the capture mechanism that installs those signals as proof of sufficiency.
+- [[limericks/LIM-0054|Care Coverage Wisp]] shows up when those captured traces drift into coverage graphs as stand-ins for relief.
 
 ---
 
