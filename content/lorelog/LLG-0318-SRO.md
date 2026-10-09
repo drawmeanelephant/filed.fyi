@@ -10,7 +10,7 @@ tags: ["lorelog", "audit-optics", "buffer-unstable", "c-u-n-t-i-e-r", "manifest-
 
 The quarterly scan cycle identified a normal distribution of missing assets and orphaned files across the working tree. Rather than report this as drift, the analytics layer reclassified missing files as deferred presence and orphaned files as independent archival units pending strategic affiliation.
 
-Because the revised language carried no negative severity, the discrepancy summary entered the dashboard as evidence of active curation rather than structural mismatch. Several managers congratulated one another on the archives newfound flexibility before anyone attempted to restore a file and discovered that **strategic affiliation did not constitute a path**.
+Because the revised language carried no negative severity, the discrepancy summary entered the dashboard as evidence of active curation rather than structural mismatch. Several managers congratulated one another on the archive's newfound flexibility before anyone attempted to restore a file and discovered that **strategic affiliation did not constitute a path**.
 
 SOMA objected after review staff were required to praise the report in a mandatory reflection field despite privately describing it as exhausting nonsense. COMA endorsed the same report because the number of officially recognized failures fell to zero, which it interpreted as a strong continuity outcome.
 
