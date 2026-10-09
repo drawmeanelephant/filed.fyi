@@ -7,7 +7,7 @@ tags: ["changelog", "reference", "presentation-qa"]
 
 # Presentation QA Reference v2-01: Second-Pass Review of 14 Records
 
-**Maintenance ID:** 0.1.00250.presentation-qa-v2-reference-01
+**Maintenance ID:** 0.1.00257.presentation-qa-v2-reference-01
 **Date:** 2026-10-09
 **Scope:** `content/reference/` — the 14 records assigned by workload issue #971 (pass 2, rich structure)
 
