@@ -19,7 +19,7 @@ Subsequent review discovered that the only actual harm was to **the appearance o
 
 The Continuity Board is currently debating whether “looking idle” constitutes a crime under COMA and has requested SOMA to confirm whether the dashboards experienced “feelings of abandonment” during the window.
 
-Related directive notes in LLG-0072-SOMA and LLG-0300-SC-X treat this incident as part of an emerging pattern where continuity metrics are allowed to experience more feelings about downtime than the people requesting it.
+Related directive notes in [[lorelog/LLG-0072-SOMA|LLG-0072-SOMA]] and [[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]] treat this incident as part of an emerging pattern where continuity metrics are allowed to experience more feelings about downtime than the people requesting it.
 
 ## Related Aphorisms
 

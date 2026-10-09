@@ -32,7 +32,7 @@ DS-404-ALPHA is eight pages long, plus an infinite appendix. Key fields include:
 
 Its design philosophy was optimistic minimalism: *If we catalog the risk, the risk will behave.* The form never fully resolved the question of who should sign it, only that someone had to, preferably before the Q4 roadmap froze.
 
-Later clinical adaptations filed under LLG-CLIN-404 would reinterpret Intent to Co-Exist and Mascot Emergence Risk as therapeutic stabilization tools rather than merger safeguards, though internal reviewers noted that both frameworks continued measuring compatibility primarily through documentation compliance.
+Later clinical adaptations filed under [[lorelog/LLG-04XX-CLIN-0404|LLG-CLIN-404]] would reinterpret Intent to Co-Exist and Mascot Emergence Risk as therapeutic stabilization tools rather than merger safeguards, though internal reviewers noted that both frameworks continued measuring compatibility primarily through documentation compliance.
 
 ---
 
@@ -61,7 +61,7 @@ Though officially deprecated, DS-404-ALPHA still appears in multiple rites:
 
 Compliance daemons treat submission timestamps as omens; anything arriving at 2:13 AM is marked for spectral review.
 
-See also LLG-CLIN-404 for the Ward C adaptation of this scaffold, where coexistence attestations, mascot witness signoff, and emergence-risk language migrated from merger governance into clinical intake procedure.
+See also [[lorelog/LLG-04XX-CLIN-0404|LLG-CLIN-404]] for the Ward C adaptation of this scaffold, where coexistence attestations, mascot witness signoff, and emergence-risk language migrated from merger governance into clinical intake procedure.
 
 ---
 
