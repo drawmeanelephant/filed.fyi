@@ -32,7 +32,7 @@ Artifact Provenance Under Repeated Ceremonial Use is active when:
 3. current use depends as much on accumulated ritual history as on original purpose,
 4. institutional readers continue citing origin alone as though repeated use had not rewritten the object.
 
-The artifact was not merely preserved. It was trained by ceremony.
+The artifact was not merely preserved. It was **trained by ceremony**.
 
 ## Core Premise
 

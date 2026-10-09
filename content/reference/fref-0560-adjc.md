@@ -176,7 +176,7 @@ Disallowed phrases:
 
 ## Archive Position
 
-Adjacent Correctness is what happens when the archive would rather be directionally convincing than right. It preserves motion, shape, and plausibility long enough for error to become administrative atmosphere.
+Adjacent Correctness is what happens when the archive would rather be **directionally convincing than right**. It preserves motion, shape, and plausibility long enough for error to become administrative atmosphere.
 
 ## Related Aphorisms
 
