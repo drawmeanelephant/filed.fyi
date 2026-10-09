@@ -7,7 +7,7 @@ tags: ["changelog", "presentation-qa", "lorelog", "crosslinks"]
 
 # Presentation QA v3 A-L2: crosslinks applied on 30 lorelog records
 
-**Maintenance ID:** 0.1.00270.presentation-qa-v3-a-l2
+**Maintenance ID:** 0.1.00274.presentation-qa-v3-a-l2
 **Date:** 2026-10-09
 **Scope:** `content/lorelog/` — issue #1013 Track A crosslink-apply slice A-L2 (`LLG-0408-AH1` through `map-inc-14`, 30 records, 56 manifest rows)
 
