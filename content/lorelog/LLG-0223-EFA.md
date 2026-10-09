@@ -8,9 +8,9 @@ tags: ["lorelog", "soma-directive", "emotional-appeal", "vibe-docket", "intake-f
 
 # Emotional Filing Appeal — Vibe-Only Docket Creation
 
-Following reports regarding forms that met technical specifications while generating emotional distress, SOMA established **Form EFA-1 Emotional Filing Appeal**.
+Following reports regarding forms that met technical specifications while generating emotional distress, SOMA established **Form `EFA-1` Emotional Filing Appeal**.
 
-Form EFA-1 enabled filers to contest the emotional impact of a prior submission without altering its operational disposition.
+Form `EFA-1` enabled filers to contest the emotional impact of a prior submission without altering its operational disposition.
 
 Key fields included:
 
@@ -18,30 +18,30 @@ Key fields included:
 - A mandatory prompt: *“I accept the outcome, but…”*  
 - A narrative field: *“…this is what the filing did to me.”*
 
-The registry cataloged EFA-1 as a SOMA-restricted intake artifact with no binding COMA or C.U.N.T.I.E.R. operational obligations.
+The registry cataloged `EFA-1` as a SOMA-restricted intake artifact with no binding COMA or C.U.N.T.I.E.R. operational obligations.
 
 ---
 
 ## Docket Scope and Recursive Handling
 
-As EFA-1 volume increased, SOMA routed submissions to a designated non-operational docket separate from standard administrative appeals.
+As `EFA-1` volume increased, SOMA routed submissions to a designated non-operational docket separate from standard administrative appeals.
 
 Filing patterns indicated:
 
 - Submissions provided institutional acknowledgment of distress without triggering procedural change.  
-- Second-order filings emerged contesting the experience of submitting EFA-1 itself.
+- Second-order filings emerged contesting the experience of submitting `EFA-1` itself.
 
-Kindy verification personnel attempted to limit recursive submissions by issuing rejection notices stating: *“This docket cannot safely hold feelings about itself.”* The filing engine ingested this rejection note as a narrative payload and registered it as case EFA-1-0000.
+Kindy verification personnel attempted to limit recursive submissions by issuing rejection notices stating: *“This docket cannot safely hold feelings about itself.”* The filing engine ingested this rejection note as a narrative payload and registered it as case `EFA-1-0000`.
 
 ---
 
 ## Registry and Lorelog Impact
 
-The Forms Catalog designated EFA-1 as AAOA under MAP (Archivally Asserted, Operationally Absent), confirming its status as a non-executing record that induces no policy modifications.
+The Forms Catalog designated `EFA-1` as AAOA under MAP (Archivally Asserted, Operationally Absent), confirming its status as a non-executing record that induces no policy modifications.
 
-Lorelog processing heuristics subsequently factored EFA-1 volume into severity calculations, escalating the risk tier of linked cases despite the absence of operational appeals.
+Lorelog processing heuristics subsequently factored `EFA-1` volume into severity calculations, escalating the risk tier of linked cases despite the absence of operational appeals.
 
-SOMA maintains EFA-1 as an active venue for formal distress recording. C.U.N.T.I.E.R. excludes the docket from performance metrics, and COMA logs no impact on operational continuity. The docket remains open without procedural recourse.
+SOMA maintains `EFA-1` as an active venue for formal distress recording. C.U.N.T.I.E.R. excludes the docket from performance metrics, and COMA logs no impact on operational continuity. The docket remains open without procedural recourse.
 
 ## Related Aphorisms
 

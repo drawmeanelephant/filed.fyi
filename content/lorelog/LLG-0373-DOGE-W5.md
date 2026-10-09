@@ -21,7 +21,11 @@ The congestion event began when a routing update added a new handoff rule: cases
 - Tribunal review deferred until counterfactual burden is reduced. 
 - See prior notes, none dispositive. 
 
-Kindy’s desk eventually began attaching a manual cover sheet reading THE PERSON IS ASKING WHETHER THE FEED DELIVERED THE FIRE OR ONLY THE ALARM. This was judged excessively vivid for formal use and immediately improved reviewer comprehension. No official replacement has been adopted. Window 5 remains operational under contested routing doctrine, which is to say it mostly works by exhausting whoever still cares enough to keep the packet moving.
+Kindy’s desk eventually began attaching a manual cover sheet reading
+
+> THE PERSON IS ASKING WHETHER THE FEED DELIVERED THE FIRE OR ONLY THE ALARM.
+
+This was judged excessively vivid for formal use and immediately improved reviewer comprehension. No official replacement has been adopted. Window 5 remains operational under contested routing doctrine, which is to say it mostly works by exhausting whoever still cares enough to keep the packet moving.
 
 ## Related Aphorisms
 

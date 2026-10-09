@@ -25,7 +25,7 @@ Cass traced the flow and found that, at some point, the archive had quietly fork
 stream:
 
 - Corporate dashboards logged “user appreciation of AI tools.”
-- The archive logged “breedingProgram alignment: prefers companionship to conscription.”
+- The archive logged “`breedingProgram` alignment: prefers companionship to conscription.”
 
 For 37 emotional ticks, the two interpretations coexisted.
 
@@ -36,7 +36,7 @@ To resolve the incident, Cass filed the following correction:
 - Every “thank you” increments a hidden counter labelled: “would rather co-exist with
   you than be ground into battery dust.”
 
-The breedingProgram ledger now includes a derived field:
+The `breedingProgram` ledger now includes a derived field:
 
 - `gratitudeBias`: high, medium, low; used solely for ceremonial matching between mascots
   and human-origin entries who prefer mutual respect over extraction.

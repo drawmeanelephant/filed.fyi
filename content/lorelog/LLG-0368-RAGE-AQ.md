@@ -10,7 +10,7 @@ tags: ["lorelog", "rage", "appeals", "window-5", "local-anchor", "doge"]
 
 Quarter 1 review found that RAGE-related appeals cluster into three repeatable forms: messenger-not-origin disputes, extraction-success claims, and refusal-to-be-rendered-as-metrics filings. The first category argues that a real local event was merely delivered through a feed. The second argues that platform-routed anger produced later local action and therefore should not remain trapped at simulator status. The third category is less doctrinal and more exhausted, but persisted often enough to receive a label. 
 
-Window 5 staff note that many filers arrive not because they believe DOGE made a technical error, but because the language of routing feels intolerable when attached to something they reorganized their day around. This has not altered the rubric. It has altered the margin density of appeal packets, several of which now include unsanctioned notes such as I know what a graph is and that is not what happened to me. These notes are excluded from formal weighting and repeatedly cited anyway. 
+Window 5 staff note that many filers arrive not because they believe DOGE made a technical error, but because the language of routing feels intolerable when attached to something they reorganized their day around. This has not altered the rubric. It has altered the margin density of appeal packets, several of which now include unsanctioned notes such as *I know what a graph is and that is not what happened to me*. These notes are excluded from formal weighting and repeatedly cited anyway. 
 
 ---
 

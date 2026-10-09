@@ -8,10 +8,10 @@ tags: ["lorelog", "supersession-loop", "identity-drift", "canonicality-dispute",
 
 # Supersession Reflection Loop — Form vs. Counter-Form
 
-During a routine review of the supersession graph, the Catalog detected a metadata loop between **Form 32-A** and **Form 32-A-R**, both used to register key collisions in the forms index.
+During a routine review of the supersession graph, the Catalog detected a metadata loop between **Form `32-A`** and **Form `32-A-R`**, both used to register key collisions in the forms index.
 
-- Metadata for 32-A declared it “superseded by 32-A-R (clarified).”  
-- Metadata for 32-A-R, introduced during a prior optimization sprint, declared it “superseded by 32-A (stabilized).”
+- Metadata for `32-A` declared it “superseded by 32-A-R (clarified).”  
+- Metadata for `32-A-R`, introduced during a prior optimization sprint, declared it “superseded by 32-A (stabilized).”
 
 Neither record referenced a third canonical authority.
 
@@ -23,11 +23,11 @@ Because onboarding specifications referenced “the most recent 32-A variant,”
 
 Individual offices adopted local operating conventions:
 
-- Certain branches treated **32-A** as canonical based on string length.  
-- Other offices used **32-A-R**, interpreting the suffix as indicative of active revision.  
-- Regional staff created unindexed variant **32-A-NEW** as a local stopgap.
+- Certain branches treated **`32-A`** as canonical based on string length.  
+- Other offices used **`32-A-R`**, interpreting the suffix as indicative of active revision.  
+- Regional staff created unindexed variant **`32-A-NEW`** as a local stopgap.
 
-Intake staff attempting queue reconciliation began submitting both 32-A and 32-A-R for single key collisions, doubling recorded collision totals. Reference resolution engines alternated between variants based on search order.
+Intake staff attempting queue reconciliation began submitting both `32-A` and `32-A-R` for single key collisions, doubling recorded collision totals. Reference resolution engines alternated between variants based on search order.
 
 ---
 
@@ -35,7 +35,7 @@ Intake staff attempting queue reconciliation began submitting both 32-A and 32-A
 
 Following initial discovery, the Supersession Adjudication Desk convened to determine canonical status.
 
-Arguments for 32-A cited historical volume and broad field definitions. Arguments for 32-A-R cited explicit alignment with active C.U.N.T.I.E.R. metric tracking.
+Arguments for `32-A` cited historical volume and broad field definitions. Arguments for `32-A-R` cited explicit alignment with active C.U.N.T.I.E.R. metric tracking.
 
 Unable to resolve the circular reference, the Desk issued a subsequent ruling under the Managed Absence Protocol:
 

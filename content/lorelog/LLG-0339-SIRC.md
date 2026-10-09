@@ -9,7 +9,7 @@ relations: [relates_to=lorelog/LLG-0334-CSI, relates_to=lorelog/LLG-0452-SOMA-CO
 
 # Silent Interval Review Chamber — Divergent Transcripts
 
-Following the COMA Silent Interval Certification incident (LLG-0334-CSI), the Continuity and Uptime Normalization Bureau and SOMA's Emotional Load Balancing Chamber agreed to conduct a joint review of one exemplar period.
+Following the COMA Silent Interval Certification incident ([[lorelog/LLG-0334-CSI|LLG-0334-CSI]]), the Continuity and Uptime Normalization Bureau and SOMA's Emotional Load Balancing Chamber agreed to conduct a joint review of one exemplar period.
 
 The interval in question:
 
@@ -46,7 +46,7 @@ Bricky sat between the screens with a notebook and no mandate to reconcile.
 COMA arrived with:
 
 - the continuity ledger segment for the interval,  
-- a COMA-07 cross-reference noting **no error, no complaint, no outage**, and  
+- a `COMA-07` cross-reference noting **no error, no complaint, no outage**, and  
 - the reassuring shade of green used for "nothing went wrong, as far as we have chosen to know."
 
 COMA's official reading:
@@ -69,14 +69,14 @@ In COMA's transcript, the interval spoke only one word: **OK**.
 
 SOMA arrived with:
 
-- Silence Burden Index traces for the same period (LLG-0338-SBI),  
+- Silence Burden Index traces for the same period ([[lorelog/LLG-0338-SBI|LLG-0338-SBI]]),  
 - Lorelog margin excerpts marked "almost incidents," and  
 - a list of rest requests drafted but never submitted.
 
 SOMA's reading emphasized three signals:
 
 1. **Duration** — A sustained stretch of uninterrupted activity beyond the team's typical complaint cadence.  
-2. **Historical pattern** — The same unit had previously filed SOMA-72 requests when stressed; here they did not.  
+2. **Historical pattern** — The same unit had previously filed `SOMA-72` requests when stressed; here they did not.  
 3. **Margin noise** — Multiple notes in adjacent case files: "will file later," "not worth a form," "COMA-19 already feels tired of us."
 
 SOMA concluded:

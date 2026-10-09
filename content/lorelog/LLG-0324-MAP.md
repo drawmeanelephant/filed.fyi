@@ -57,7 +57,7 @@ Subsequent absence-related incidents (SRO, MEC, OIR) all cite MAP as precedent, 
 
 ## Doctrine Index Alignment
 
-Managed Absence Protocol is now formally indexed under Doctrine Index alongside Directive Cross-Sections (LLG-0326-DXS) and Breeding Program Dossier (LLG-0382-BPD) as a primary stabilization cluster.
+Managed Absence Protocol is now formally indexed under Doctrine Index alongside Directive Cross-Sections ([[lorelog/LLG-0326-DXS|LLG-0326-DXS]]) and Breeding Program Dossier ([[lorelog/LLG-0382-BPD|LLG-0382-BPD]]) as a primary stabilization cluster.
 
 Archive position: Shadow drafts transition from LCGU (locally canonical) to CAAR (conceptually active, administratively retired) upon Datty detection events, as governed by Managed Absence Protocol (LLG-0324-MAP) doctrine.
 

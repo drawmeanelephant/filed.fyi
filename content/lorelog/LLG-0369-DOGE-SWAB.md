@@ -10,7 +10,7 @@ tags: ["lorelog", "lintcore", "buffer-null", "presentations", "decks", "complian
 
 DOGE Outreach developed the Simulator Weather Advisory Bulletin after several periods of synchronized outrage in which Window 3 intake spiked faster than staff could explain the same distinction repeatedly. The bulletin does not warn against feeling things. It warns that current conditions increase the chance that what is felt will arrive pre-routed, emotionally vivid, and evidentially unstable. 
 
-The advisory is intentionally impersonal. It describes atmospheric conditions in the feed environment rather than individual susceptibility, partly to avoid pathologizing filers and partly because DOGE has learned that shame is a poor precursor to accurate provenance reporting. Bricky objected to the term weather on the grounds that weather is natural; the term remained because nobody found a better noun for conditions that happen to everyone and belong fully to no one. 
+The advisory is intentionally impersonal. It describes atmospheric conditions in the feed environment rather than individual susceptibility, partly to avoid pathologizing filers and partly because DOGE has learned that shame is a poor precursor to accurate provenance reporting. Bricky objected to the term *weather* on the grounds that weather is natural; the term remained because nobody found a better noun for conditions that happen to everyone and belong fully to no one. 
 
 ---
 
@@ -27,7 +27,11 @@ Recommended actions:
 - Distinguish platform action from local action where possible. 
 - Seek Window 3 review if a routed feeling is being asked to perform as evidence. 
 
-The bulletin closes with the standard reminder: Your feelings remain yours. Current conditions may affect where they entered the record. This line tested better than all prior versions and made two staff members cry for reasons not captured in the dashboard.
+The bulletin closes with the standard reminder:
+
+> Your feelings remain yours. Current conditions may affect where they entered the record.
+
+This line tested better than all prior versions and made two staff members cry for reasons not captured in the dashboard.
 
 ## Related Aphorisms
 

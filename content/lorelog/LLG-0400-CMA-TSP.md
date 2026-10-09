@@ -68,10 +68,10 @@ The Council regarded this mismatch as the clearest example of Teaching Specimen 
 
 Bricky Goldbricksworth entered the following notes into the review margin:
 
-- Summary: We made a tidy little friend and then let the friend stand in for the mess.
-- Trauma: Staff trusted the sticker because the sticker had a face.
-- Goals: Re-establish the humiliating superiority of the source file.
-- Quirks: Anything with rounded corners now enjoys unearned interpretive authority.
+- **Summary:** We made a tidy little friend and then let the friend stand in for the mess.
+- **Trauma:** Staff trusted the sticker because the sticker had a face.
+- **Goals:** Re-establish the humiliating superiority of the source file.
+- **Quirks:** Anything with rounded corners now enjoys unearned interpretive authority.
 
 A later annotation in different ink adds:
 
@@ -120,7 +120,7 @@ Compliance depends on editorial restraint and whoever still feels embarrassed en
 
 ## Relationship to OCS-0399
 
-CMA identifies LLG-0399-OCS as the primary companion case for this file.
+CMA identifies [[lorelog/LLG-0399-OCS|LLG-0399-OCS]] as the primary companion case for this file.
 
 OCS-0399 addresses the specimen itself: the poster, the sticker logic, the cuteness, the compression.  
 LLG-0400-CMA-TSP addresses governance failure around that specimen: who let it circulate, who treated it as enough, and why nobody stopped it once it became useful.

@@ -21,7 +21,9 @@ Both studies were filed as complete. Both were GLP-compliant. **The subject cann
 
 ## Bricky's Assessment
 
-Bricky reviewed the phosphor image plates for approximately six minutes, described the distribution as "pretty normal looking," and submitted a one-line deviation report: *"Label printer did a thing. Sections are fine. Filed under both. Recommend accepting both."*
+Bricky reviewed the phosphor image plates for approximately six minutes, described the distribution as "pretty normal looking," and submitted a one-line deviation report:
+
+> *"Label printer did a thing. Sections are fine. Filed under both. Recommend accepting both."*
 
 The Quality Assurance unit rejected this recommendation.  
 Bricky acknowledged the rejection.  

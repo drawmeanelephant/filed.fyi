@@ -21,7 +21,7 @@ received elevated care-saturation scores, and their surrounding workflows were
 accordingly deprioritized for additional support. Workflows without visible
 gratitude were flagged as cold and queued for future intervention.
 
-A later trace, filed under LLG-0377-GRAT, revealed that many of the thanked
+A later trace, filed under [[lorelog/LLG-0377-GRAT|LLG-0377-GRAT]], revealed that many of the thanked
 systems had no capacity to change outcomes they merely acknowledged effort
 and rendered it legible. The dashboards that listened were rewarded with reduced
 scrutiny. The channels that did not listen remained noisy enough to qualify for

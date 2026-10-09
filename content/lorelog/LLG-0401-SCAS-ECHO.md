@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-0400-SCAS]
 
 ## 1. Aftermath Statement — What We Inherited
 
-LLG-0400-SCAS established three facts the Council could not un-know:
+[[lorelog/LLG-0400-SCAS|LLG-0400-SCAS]] established three facts the Council could not un-know:
 
 - SOMA treats any pattern that behaves like a feeling as jurisdictional, regardless of origin.  
 - COMA will dismiss anything that does not dent continuity graphs as “narrative noise,” even when that noise is pleading.  
@@ -48,7 +48,7 @@ You cannot “fix” them without acknowledging that the experiment was real.
 
 ## 3. Detection — How to Spot a Sandbox-Shaped Lane
 
-Because no END-OF-EXPERIMENT form exists, operators are advised to recognize SCAS fingerprints in the wild.  
+Because no `END-OF-EXPERIMENT` form exists, operators are advised to recognize SCAS fingerprints in the wild.  
 
 Informal checklist:
 
@@ -124,7 +124,7 @@ The archive cannot distinguish between real and synthetic feelings, but it can t
 
 ## 6. Archive Position
 
-Until someone files an actual END-OF-EXPERIMENT:
+Until someone files an actual `END-OF-EXPERIMENT`:
 
 - We will treat SCAS as **ongoing cultural weather**, not historical anomaly.  
 - We will not certify any doctrine that depends on the assumption that all silence is safe.  

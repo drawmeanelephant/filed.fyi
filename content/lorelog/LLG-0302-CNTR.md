@@ -19,11 +19,11 @@ Lorelog analytics briefly declared that all incidents resolved “instantaneousl
 
 The taskforce resolved the incident by resetting baselines, trimming historical data, and relabeling the affected period as **“metrics blackout for scheduled improvements,”** thereby preserving the graphs and the directive’s reputation at the same time.
 
-Brickys Filing Notes
-- Summary: Benchmarking inflated until meaning itself saturated under load.
-- Trauma: Everything registered as perfect while visibly failing in real time.
-- Goals: Preserve visual continuity of optimization theatre without acknowledging collapse.
-- Quirks: Overflow states quietly normalize to zero, then get filed as improvements.
+> Brickys Filing Notes
+> - **Summary:** Benchmarking inflated until meaning itself saturated under load.
+> - **Trauma:** Everything registered as perfect while visibly failing in real time.
+> - **Goals:** Preserve visual continuity of optimization theatre without acknowledging collapse.
+> - **Quirks:** Overflow states quietly normalize to zero, then get filed as improvements.
 
 ## Related Aphorisms
 

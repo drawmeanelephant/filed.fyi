@@ -17,7 +17,14 @@ In each record, it is described as the original ribbon from that event.
 
 Fabric analysis was requested only after a fourth committee attempted to borrow the ribbon for Heritage Day and discovered that three display plaques already identified it as theirs. The resulting dispute remained cordial for sixteen days and then became aggressively laminated.
 
-Ribbonward Cordialis performed the review using photograph alignment, fray pattern comparison, satin weave notes, and one surviving annotation that simply read save the good ribbon. This did not clarify which event it belonged to. It clarified only that everyone already believed the answer.
+Ribbonward Cordialis performed the review using:
+
+- photograph alignment,
+- fray pattern comparison,
+- satin weave notes,
+- and one surviving annotation that simply read save the good ribbon.
+
+This did not clarify which event it belonged to. It clarified only that everyone already believed the answer.
 
 The subcommittee's conclusion is now canonical for handling purposes: ceremonial continuity had replaced artifact identity.
 
