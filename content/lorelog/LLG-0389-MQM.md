@@ -8,7 +8,7 @@ tags: ["lorelog", "access-tier", "ranked-concern", "memorial-quorum", "esteem-pr
 
 # Memorial Quorum Miscount, Esteem Presence Variant
 
-During spring remembrance proceedings at Lodge Hall Annex B, the chapter secretary imported the prior year's memorial roll directly into the active attendance sheet so the names of departed members would remain visible during the reading. The display layer marked them as In Honor. The quorum layer read only Present.
+During spring remembrance proceedings at Lodge Hall Annex B, the chapter secretary imported the prior year's memorial roll directly into the active attendance sheet so the names of departed members would remain visible during the reading. The display layer marked them as `In Honor`. The quorum layer read only `Present`.
 
 For eleven minutes, the hall operated under a threshold that included the dead as silent voting mass.
 
@@ -16,7 +16,9 @@ No one was trying to cheat. The room was trying to be respectful in spreadsheet 
 
 The practical problem emerged during approval of roof patch expenditures. The chair counted twenty-three souls in continuity. The treasurer counted fourteen in chairs. The calculator required eighteen for a binding motion and refused to explain whether mourning counted as occupancy.
 
-Witness notes indicate that no one objected immediately because the inflated quorum felt emotionally true even while operationally impossible. A margin annotation later recovered from the minute book reads We have enough history to pass this, but not enough bodies.
+Witness notes indicate that no one objected immediately because the inflated quorum felt emotionally true even while operationally impossible. A margin annotation later recovered from the minute book reads
+
+> We have enough history to pass this, but not enough bodies.
 
 Sister Casserole of Relief was asked to review the ledger because she already maintains the distinction between active service and remembered service in supper records. Her finding was narrow and devastating: **memorial presence may stabilize tone, but it cannot stabilize arithmetic** unless the room explicitly chooses ceremonial counting and records that choice without euphemism.
 
