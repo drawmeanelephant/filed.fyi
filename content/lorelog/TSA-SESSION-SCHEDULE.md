@@ -88,7 +88,7 @@ Margin note:
 > “Repeated by request.  
 >  Trainees keep asking why the clean story feels less believable than the messy one.”
 
-No further explanation is filed.
+**No further explanation is filed.**
 
 ## Related Aphorisms
 
