@@ -7,7 +7,7 @@ tags: ["changelog", "lorelog", "presentation-qa"]
 
 # Presentation QA v2 Pilot: Six-Record Transform-Family Slice
 
-**Maintenance ID:** 0.1.00245.presentation-qa-v2-pilot
+**Maintenance ID:** 0.1.00246.presentation-qa-v2-pilot
 **Date:** 2026-10-09
 **Scope:** `content/lorelog/` — the six records assigned by pilot issue #934 (`LLG-0027-B.md`, `LLG-0051-E.md`, `LLG-IA-8C-DRIFT-01.md`, `LLG-0322-FTD.md`, `LLG-0453-MASCOT-CHARACTER-ARC-MAP.md`, `LLG-0323-ASD.md` as the deliberate-no-change control)
 
