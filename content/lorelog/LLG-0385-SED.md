@@ -17,7 +17,7 @@ This produced a procedural split:
 - Continuity reviewers recorded the same event as insufficiently event-shaped.
 - Archive staff recorded both and declined to harmonize the language.
 
-A draft doctrine note now circulates informally: approved change is safest when it fails slightly, because slight failure proves that something authorized actually occurred. 
+A draft doctrine note now circulates informally: **approved change is safest when it fails slightly**, because slight failure proves that something authorized actually occurred. 
 
 No board claims authorship of that sentence. It keeps appearing in margins with different handwriting conventions.
 

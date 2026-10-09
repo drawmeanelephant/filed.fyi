@@ -21,7 +21,7 @@ Ribbonward Cordialis performed the review using photograph alignment, fray patte
 
 The subcommittee's conclusion is now canonical for handling purposes: ceremonial continuity had replaced artifact identity.
 
-The same object had become locally original more than once because civic memory prefers symbolic persistence over singular chain of custody. Each archive preserved the ribbon not as fabric, but as proof that the town had once bothered to care in public.
+The same object had become locally original more than once because civic memory prefers symbolic persistence over singular chain of custody. Each archive preserved the ribbon not as fabric, but as **proof that the town had once bothered to care in public.**
 
 Temporary settlement language entered into the ledger:
 - original use disputed
