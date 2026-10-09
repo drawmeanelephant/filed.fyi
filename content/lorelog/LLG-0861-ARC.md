@@ -112,13 +112,13 @@ It is simply not the same thing as truth allowed to interfere.
 placed in an annex but was *received at a non-action layer* and could not
 have traveled regardless of placement, the governing condition shifts from
 Annex Retention Conscience (this file) to Witness Custody Routing
-(FREF-0635-WWLV). The distinction is whether the truth was held back from
+([[reference/FREF-0635-WWLV|FREF-0635-WWLV]]). The distinction is whether the truth was held back from
 the action layer or was never in a position to reach it. Both produce inert
 archives. The mechanisms are different. File accordingly.
 
 Where the explanation stack above the annex has also become collectively
 smooth through sequential layer translation, cross-file with
-FREF-0822-ELRA (Explanation Layer Residue Audit).
+[[reference/FREF-0822-ELRA|FREF-0822-ELRA]] (Explanation Layer Residue Audit).
 
 ## Related Aphorisms
 
