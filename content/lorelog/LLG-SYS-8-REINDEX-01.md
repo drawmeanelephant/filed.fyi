@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-MA-8C-PEPPY-0001, relates_to=lorelog/LLG-0008
 
 ## 1. Re-Indexing Event Summary
 
-This notice records the outcome of an automated re-indexing sweep in Filing Plane 8, during which the **Mascot Affairs / Bin 8C document population** was detected as a coherent cluster and assigned a structural identity under the label **Cluster MA/8C**. The detection was based on cross-reference density, shared metrics, repeated co-adjacency, and the presence of mutually reinforcing internal stubs across Condition Log 7, Peppy Clerk corrective notices, Bin 8C drift reports, and associated routing slips and forms.  
+This notice records the outcome of an automated re-indexing sweep in Filing Plane 8, during which the **Mascot Affairs / Bin 8C document population** was detected as a coherent cluster and assigned a structural identity under the label **Cluster MA/8C**. The detection was based on cross-reference density, shared metrics, repeated co-adjacency, and the presence of mutually reinforcing internal stubs across Condition Log 7, [[aphorisms/APH-0325|Peppy Clerk]] corrective notices, Bin 8C drift reports, and associated routing slips and forms.  
 
 The subroutine has determined that these documents function operationally as a single interpretive unit, regardless of their original filing intentions. No change to individual content has been made; the re-indexing consists entirely of updates to adjacency maps, cluster registers, and forward pointers used by search and audit tooling.
 

@@ -88,7 +88,7 @@ This is a warning for future ingestion teams: Time AI concepts are not raw conte
 
 ### Closing Log
 
-**Bricky Goldbricksworth:**
+**[[limericks/LIM-0049|Bricky Goldbricksworth]]:**
 
 > "A tidy story is a dead story. We brick our walls with gaps on purpose — they let the wind through. Re-degrade, re-open the seams, and never trade dread for neatness. Bricky files this as a lesson; Bricky demands the mortar be rough."
 

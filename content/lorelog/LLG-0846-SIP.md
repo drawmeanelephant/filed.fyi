@@ -88,7 +88,7 @@ Once the doctrine entered use, several downstream interpretive behaviors followe
 - local burden testimony required more force to interrupt positive summaries,
 - stillness began acquiring ceremonial legitimacy.
 
-This is the interval in which False Rest Lantern became behaviorally obvious, though not yet canonically named.
+This is the interval in which [[limericks/LIM-0088|False Rest Lantern]] became behaviorally obvious, though not yet canonically named.
 
 ## Countermeasures
 

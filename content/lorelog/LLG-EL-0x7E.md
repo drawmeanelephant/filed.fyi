@@ -13,7 +13,7 @@ It turns frameworks into rites, deliverables into relics, and governance into a 
 
 ## Overview
 
-**Name:** The Engagement Labyrinth  
+**Name:** The [[aphorisms/APH-0047|Engagement Labyrinth]]  
 **Purpose:** To convert organizational entropy into a repeatable transformation narrative that files itself into the archive.  
 **Tone:** Pyramid logic, MECE sanctity, cadence of weekly steering, and an obsession with “value capture.”  
 **Filed Home:** Cabinet Strategy → Folder Engagements → Subfolder Retrospectives.

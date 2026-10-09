@@ -83,7 +83,7 @@ In the official resolution section, the Board recorded:
 > Recommendation: leave classification unchanged; reopen only if someone insists.  
 
 No directive adopted a formal definition for unexpressed strain.  
-The phrase persists only in Lorelog citations.
+The phrase persists only in [[lorelog|Lorelog]] citations.
 
 **Custody routing note:** The structural reason no operative layer adopted a
 definition is documented in [[reference/FREF-0635-WWLV|FREF-0635-WWLV]] (Witness Without Leverage Handling
