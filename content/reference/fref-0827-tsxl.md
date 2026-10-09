@@ -8,7 +8,7 @@ tags: ["reference", "crosslinks", "trust-surface", "doctrine-adjacency"]
 
 # Trust Surface Crosslinks
 
-This sheet preserves the nearest useful crosslinks for the trust-surface cluster. It is not a hub. It is a recovery aid for when the same contradiction starts appearing under different names.
+This sheet preserves the nearest useful crosslinks for the trust-surface cluster. **It is not a hub.** It is a recovery aid for when the same contradiction starts appearing under different names.
 
 ## Near doctrine
 

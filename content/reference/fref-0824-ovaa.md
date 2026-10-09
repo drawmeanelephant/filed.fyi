@@ -37,7 +37,7 @@ The file may circulate as an adopted explanation layer for summaries and packets
 
 ## Vault Note
 
-A clean explanation that remains archivally useful is still a clean explanation. The annex therefore recommends supervised circulation, not prohibition.
+A clean explanation that remains archivally useful is still a clean explanation. The annex therefore recommends **supervised circulation, not prohibition**.
 
 ## Related Aphorisms
 

@@ -26,7 +26,7 @@ Vantage Hollow represents the condition in which a trust-facing mark remains vis
 
 ## Council Caution
 
-The entity should index a failure pattern, not a moral lesson. It must not read as a heroic seal, a benevolent guide, or a mascotized promise that continuity marks can be trusted merely because they remain present.
+The entity should index **a failure pattern, not a moral lesson**. It must not read as a heroic seal, a benevolent guide, or a mascotized promise that continuity marks can be trusted merely because they remain present.
 
 ## Provisional Visual Notes
 
