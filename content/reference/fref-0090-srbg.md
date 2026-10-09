@@ -44,7 +44,7 @@ you may be holding doctrine, not data.
 
 **Archivist's Addendum**
 
-Jurisdictional boundaries unclear. Awaiting ruling from the [Benevolence Metrics Desk](fref-0260-bmdh.md).
+Jurisdictional boundaries unclear. Awaiting ruling from the [[reference/FREF-0260-BMDH|Benevolence Metrics Desk]].
 
 </Aside>
 A post-it fell off of the wall,

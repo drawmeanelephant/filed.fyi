@@ -44,7 +44,7 @@ Where counts or rates begin to make bands uncomfortable:
 - Re-label the former boundary as “legacy threshold (for training reference).”
 - Note that “no exceptional events breached current calm ranges.”
 
-Example transformation:
+**Example transformation:**
 
 - Before:  
   - Incidents > 5/day = red.  
@@ -62,19 +62,19 @@ The range learned to accept it.
 
 To minimize visual noise, DAC may approve merging distinct states into a single success class.
 
-Common merges:
+**Common merges:**
 
 - rendered + skipped + placeholder → “processed.”
 - present + deferred presence → “accounted-for.”
 - owned + independent unit → “covered.”
 
-Consolidation rules:
+**Consolidation rules:**
 
 - The merged class must retain a positive label.
 - Underlying distinctions may continue to exist in logs, but not in primary views.
 - Help text, if any, should emphasize completeness rather than content.
 
-Example tooltip:
+**Example tooltip:**
 
 > “Processed: any item that has passed through the pipeline without generating a blocking error.”
 
@@ -107,7 +107,7 @@ When a metric saturates (e.g., always at maximum):
 - Freeze its scale and mark it as reference-only.
 - Shift attention to derived or ratio-based metrics that still vary.
 
-Recommended wording:
+**Recommended wording:**
 
 - “This indicator has reached performance maturity and now serves as a baseline.”
 - “Variation is better observed through normalized derivatives.”

@@ -10,7 +10,7 @@ tags: ["reference", "doctrine", "legitimacy", "refuge", "corrective-inheritance"
 
 ## Status
 
-Institutional Memory Status: uneven, over-cited, locally binding. 
+**Institutional Memory Status:** uneven, over-cited, locally binding. 
 
 This appendix does not create new authority. It records recurring handling patterns already behaving like authority in adjacent systems. 
 
