@@ -66,7 +66,7 @@ The inherited scripts created a recurring perception that care authority was pre
 Subjects often reported feeling “handled well” immediately after contact.
 The same subjects later described the outcomes as unchanged, delayed, or structurally impossible.
 
-The archive classifies this not as deception in the narrow sense, but as care-style inheritance without corresponding authority inheritance.
+The archive classifies this not as deception in the narrow sense, but as **care-style inheritance without corresponding authority inheritance**.
 
 The language learned to arrive.
 The remedy did not.
