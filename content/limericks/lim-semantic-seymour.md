@@ -85,4 +85,4 @@ So if divs keep becoming sections
 And the markup defies your projections,  
 That's *Seymour's* crusade:  
 Where the semantic upgrade  
-Is enforced through nocturnal inspections.
+**Is enforced through nocturnal inspections.**
