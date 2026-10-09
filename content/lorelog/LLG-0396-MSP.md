@@ -19,7 +19,7 @@ These remarks were not malicious. They were affectionate and impossible to audit
 
 Sister Casserole of Relief was brought in because the case resembled kitchen attribution drift: the room had preserved devotion so carefully that it now mistook remembrance for procedure. Her review found that donor intent had been colonized by room memory.
 
-The honoree had ceased to be an inspiration and become an undocumented rubric.
+The honoree had ceased to be an inspiration and become **an undocumented rubric**.
 
 Corrective handling:
 - memorial language may frame the award, not score it,

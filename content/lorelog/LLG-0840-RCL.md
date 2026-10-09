@@ -111,7 +111,7 @@ a system whose language remained graceful after its credibility had thinned.
 
 People often tolerate weak systems longer than they tolerate graceful systems that keep insisting the condition is meaningfully handled.
 
-This file exists because the insistence became more memorable than the help.
+This file exists because the insistence **became more memorable than the help**.
 
 ## Archival Compliance Addendum
 
