@@ -12,7 +12,7 @@ Two local chapters entered formal consolidation after years of shared officers, 
 
 Memorial names continued appearing under both chapters, and certain living members were counted twice where they had historically chaired one committee and paid dues to another. The quorum was therefore locally disputed but ceremonially acceptable. 
 
-The reviewing clerk declined to remove any duplicate presences on the grounds that remembrance is not reducible to active seating. This position has not been ratified. It is, however, being used.
+The reviewing clerk declined to remove any duplicate presences on the grounds that remembrance is not reducible to active seating. This position has not been ratified. **It is, however, being used.**
 
 ## Related Aphorisms
 

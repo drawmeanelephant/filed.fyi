@@ -13,7 +13,7 @@ They fired you right on the spot,
 But poured you a wonderful shot.  
 The Cordial is sweet,  
 To cover the cheat,  
-And leave you to quietly rot.  
+**And leave you to quietly rot.**  
 
 
 
