@@ -29,7 +29,7 @@ If the line turns to yellow or red,
 We'd have to admit what we dread.  
 So Gregor paints green  
 On the edge of the screen,  
-And we call it a victory instead.  
+**And we call it a victory instead.**  
 
 
 

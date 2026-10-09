@@ -17,9 +17,10 @@ Within two weeks, the slogan had influenced:
 - committee succession etiquette,
 - and whether public credit should be declined by serving officers after donor events.
 
-A minority objected that decorative stitching does not constitute policy. The majority answered that most durable policy arrives that way eventually.
+A minority objected that decorative stitching does not constitute policy. The majority answered that **most durable policy arrives that way eventually**.
 
 The phrase is now listed in the standing-resolutions ledger under provisional heritage authority, which has no clear legal force and considerable local effect.
+
 ---
 
 ## Related Aphorisms
