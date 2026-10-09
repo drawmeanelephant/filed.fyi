@@ -10,7 +10,7 @@ tags: ["lorelog", "prestige-overlay", "ornamental-authority", "banner-doctrine",
 
 During pre-anniversary cleanup, volunteers recovered a long-stored chapter banner bearing the stitched phrase Let Service Be Seen and Let Pride Be Useful. The banner was dusted, mounted behind the dais, and described in opening remarks as a beautiful reminder of who we have always been.
 
-By adjournment, the phrase had already begun issuing instructions.
+By adjournment, the phrase had **already begun issuing instructions**.
 
 The sequence is preserved across podium notes, margin comments, and one unusually candid hospitality memo:
 1. The banner was displayed as heritage only.

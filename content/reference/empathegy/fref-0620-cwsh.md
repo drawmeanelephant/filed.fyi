@@ -162,7 +162,7 @@ Nothing major happened, or nothing visible happened.
 ### Sustainable Calm
 The team actually exhaled.
 
-Worship begins where continuity is protected from contradiction instead of tested by it.
+Worship begins where continuity is **protected from contradiction instead of tested by it**.
 
 ---
 
