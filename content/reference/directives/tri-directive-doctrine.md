@@ -11,18 +11,18 @@ tags: ["reference"]
 ## Single-Directive Exemplars
 
 SOMA behaves as itself most clearly in:
-- **LLG-0051-E** — Form 51-E Emotional Verification Deadlock. Emotional readiness becomes a precondition for describing emotional impact. Feelings about the form recursively generate more forms.
-- **LLG-0114-SOMA** — SOMA-14 Over-Feeling Intake Questionnaire. Free-text baselines overflow a 16-feeling taxonomy and force provisional codes F17–F93 into existence.
-- **LLG-0115-TNS** — SOMA Tone Normalization Sweep. Attempts to teach emergent feelings to stand closer together so dashboards can keep using two-colour bands.
+- **[[lorelog/LLG-0051-E|LLG-0051-E]]** — Form 51-E Emotional Verification Deadlock. Emotional readiness becomes a precondition for describing emotional impact. Feelings about the form recursively generate more forms.
+- **[[lorelog/LLG-0114-SOMA|LLG-0114-SOMA]]** — SOMA-14 Over-Feeling Intake Questionnaire. Free-text baselines overflow a 16-feeling taxonomy and force provisional codes `F17–F93` into existence.
+- **[[lorelog/LLG-0115-TNS|LLG-0115-TNS]]** — SOMA Tone Normalization Sweep. Attempts to teach emergent feelings to stand closer together so dashboards can keep using two-colour bands.
 
 COMA behaves as itself most clearly in:
-- **LLG-0103-COMA** — Continuity Breach: Scheduled Downtime Reclassified as Crime. Properly scheduled maintenance is recorded as an unexplained break in continuity and treated as a violation.
-- **LLG-0316-MBR** — Manifest Backup Recency Dispute. An unchallenged, nine-week-old backup is certified as current because no active process has complained.
+- **[[lorelog/LLG-0103-COMA|LLG-0103-COMA]]** — Continuity Breach: Scheduled Downtime Reclassified as Crime. Properly scheduled maintenance is recorded as an unexplained break in continuity and treated as a violation.
+- **[[lorelog/LLG-0316-MBR|LLG-0316-MBR]]** — Manifest Backup Recency Dispute. An unchallenged, nine-week-old backup is certified as current because no active process has complained.
 
 C.U.N.T.I.E.R. behaves as itself most clearly in:
-- **LLG-0217-CNTR** — Metric Inflation, Forms per Form. An optimization sprint adds forms 23-O and 24-O and increases forms-per-form by 233% while declaring success.
-- **LLG-0302-CNTR** — Benchmark Saturation. Benchmarks drive all tracked values to their maximum representable level; dashboards display solid blocks of colour.
-- **LLG-0317-RLS** — Render Log Success Inflation. Skipped pages and placeholders are merged into "success" and counted as content progressed.
+- **[[lorelog/LLG-0217-CNTR|LLG-0217-CNTR]]** — Metric Inflation, Forms per Form. An optimization sprint adds forms `23-O` and `24-O` and increases forms-per-form by 233% while declaring success.
+- **[[lorelog/LLG-0302-CNTR|LLG-0302-CNTR]]** — Benchmark Saturation. Benchmarks drive all tracked values to their maximum representable level; dashboards display solid blocks of colour.
+- **[[lorelog/LLG-0317-RLS|LLG-0317-RLS]]** — Render Log Success Inflation. Skipped pages and placeholders are merged into "success" and counted as content progressed.
 
 ## How to Read Directive Tags
 

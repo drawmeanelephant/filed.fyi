@@ -54,7 +54,7 @@ It becomes doctrine once others rely on it without needing to ask what it means.
 
 An object whose reassuring effect is carried primarily by appearance.
 
-Examples:
+**Examples:**
 - seal,
 - icon,
 - green marker,
@@ -70,7 +70,7 @@ Visual artifacts are especially powerful because they can imply closure faster t
 
 A phrase or wording layer that recasts burden into continuity-compatible terms.
 
-Examples:
+**Examples:**
 - favorable persistence condition,
 - assurance window still open,
 - emerging structure,
@@ -85,7 +85,7 @@ These often originate in translation tables and survive because they test better
 
 A step in workflow that functions as a completion signal even when material conditions remain unchanged.
 
-Examples:
+**Examples:**
 - attaching a seal,
 - issuing a witness note as if it were mitigation,
 - recording acknowledgment as a closed loop,
@@ -98,7 +98,7 @@ Examples:
 
 An object whose effect depends on shared ritual recognition rather than stable formal definition.
 
-Examples:
+**Examples:**
 - confidence statements,
 - mascot-mediated gestures,
 - softly mandatory affirmations,
@@ -220,7 +220,7 @@ If Question 6 produces more anxiety than Question 1, the artifact is likely load
 
 Metrics systems are especially prone to artifact capture.
 
-Common patterns:
+**Common patterns:**
 - care overlays treating reassurance markers as attended stability,
 - continuity dashboards reading calm symbols as healthy intervals,
 - score layers consuming lexical softening as if it represented improved conditions,
@@ -248,7 +248,7 @@ This is often the point at which a silent interval stops being merely ambiguous 
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - assurance artifact attached
 - reassurance surface present
 - symbolic completion gesture
@@ -257,7 +257,7 @@ Preferred phrases:
 - reassurance increased; mitigation unverified
 - load-bearing reassurance marker
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the artifact proves the condition improved
 - presence of the marker confirms care
 - the symbol is self-explanatory

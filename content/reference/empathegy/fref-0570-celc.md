@@ -37,7 +37,7 @@ It is tracked as an interaction plus its survivability.
 
 A need, strain, or condition exists but has not yet entered the system in usable form.
 
-Typical properties:
+**Typical properties:**
 - narrative,
 - contradictory,
 - private,
@@ -45,7 +45,7 @@ Typical properties:
 - not yet witnessed,
 - too expensive to describe.
 
-Risk:
+**Risk:**
 Many care events die here.
 
 ---
@@ -54,7 +54,7 @@ Many care events die here.
 
 A care-oriented interaction occurs.
 
-Examples:
+**Examples:**
 - check-in,
 - listening moment,
 - message,
@@ -100,7 +100,7 @@ It does not guarantee support.
 
 The care event is attached to one or more actionable or ceremonial pathways.
 
-Possible routes:
+**Possible routes:**
 - accommodation request,
 - mitigation queue,
 - lodge handling,
@@ -117,7 +117,7 @@ At this stage, route choice often determines whether care becomes leverage or op
 
 Something changes in response.
 
-Examples:
+**Examples:**
 - schedule adjusted,
 - load redistributed,
 - expectation altered,
@@ -135,7 +135,7 @@ Many care events never reach it.
 
 The system attempts to determine whether the action altered burden.
 
-Possible outcomes:
+**Possible outcomes:**
 - relief confirmed,
 - relief partial,
 - no relief confirmed,
@@ -151,13 +151,13 @@ This stage is often under-instrumented and vulnerable to substitution by silence
 
 The care event either remains recoverable or begins to thin.
 
-High-survival traces:
+**High-survival traces:**
 - simple acknowledgments,
 - checkbox confirmations,
 - single-step accommodations,
 - dashboard-compatible records.
 
-Low-survival traces:
+**Low-survival traces:**
 - multi-step support sequences,
 - contradictory outcomes,
 - unresolved narratives,
@@ -215,7 +215,7 @@ No recurrence was filed, so support is overcredited.
 ### Gratitude Misread
 Politeness or relief at being heard is treated as proof of effective support.
 
-Mascot Note: In these conditions, Thankyou Ash, Gratitude Latch, and Care Coverage Wisp are often co-present: residue, latch, and coverage in sequence.
+**Mascot Note:** In these conditions, Thankyou Ash, Gratitude Latch, and Care Coverage Wisp are often co-present: residue, latch, and coverage in sequence.
 
 ### Care Compression
 Complex support is flattened into one acknowledgment count.
@@ -249,7 +249,7 @@ This is **a property of the archive, not the person**.
 ### With Metrics of Care
 Coverage is often counted at Stage 2 or 3, not Stage 5 or 6.
 
-Coverage Axis Note Care Coverage Wisp marks where contact and acknowledgment survive best. Sidebar Mercy marks where actual fixes travel sideways. Tender Escrow marks where known remedies wait. False Rest Lantern marks when coverage and quiet are interpreted as recovery. Thankyou Ash and Gratitude Latch appear when gratitude is captured along this path and absorbed into coverage narratives.
+**Coverage Axis Note** Care Coverage Wisp marks where contact and acknowledgment survive best. Sidebar Mercy marks where actual fixes travel sideways. Tender Escrow marks where known remedies wait. False Rest Lantern marks when coverage and quiet are interpreted as recovery. Thankyou Ash and Gratitude Latch appear when gratitude is captured along this path and absorbed into coverage narratives.
 
 ### With Scoring Layer
 Scores favor survivable traces over complex support realities.

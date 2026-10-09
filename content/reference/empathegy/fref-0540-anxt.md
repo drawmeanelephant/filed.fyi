@@ -58,7 +58,7 @@ This arrangement preserves conscience without surrendering optics.
 
 Contradiction survives in a tooltip, secondary layer, expandable note, or hover-only interpretation.
 
-Examples:
+**Examples:**
 - Interpretations 2 hidden behind the headline,
 - green surface with burden tucked behind interaction,
 - healthy interval requiring pointer contact to become morally uncertain.
@@ -69,7 +69,7 @@ Examples:
 
 The most human account appears in notes, side comments, unofficial quotations, or hand annotations.
 
-Examples:
+**Examples:**
 - Bricky notebook lines,
 - post-it admissions,
 - comments preserved in full nowhere else.
@@ -80,7 +80,7 @@ Examples:
 
 Operational witnesses preserve reality in language that is recorded but not made structurally decisive.
 
-Examples:
+**Examples:**
 - “we were busy, but nothing exploded,”
 - “we could not have done another week,”
 - testimony that is admitted but non-governing.
@@ -91,7 +91,7 @@ Examples:
 
 A formal secondary record exists specifically to hold what the primary record cannot.
 
-Examples:
+**Examples:**
 - paired SOMA reading,
 - silent interval annex,
 - restricted doctrine addendum,
@@ -103,7 +103,7 @@ Examples:
 
 Fragments of reality survive only as correlation residue, archival asymmetry, or contradictory side effects.
 
-Examples:
+**Examples:**
 - too many acknowledgments with no relief,
 - gratitude spikes after denial,
 - simple care interactions surviving where complex ones vanish,
@@ -167,7 +167,7 @@ Annex Truth is likely active when:
 - complicated support records disappear faster than simplified signals,
 - the primary record appears coherent enough to prevent immediate challenge, yet still returns readers to an adjacent rather than governing understanding,
 
-A crucial sign:
+**A crucial sign:**
 The institution considers the contradiction preserved because it exists somewhere, regardless of whether anyone sees it.
 
 ---
@@ -215,7 +215,7 @@ Institutions treat preserved contradiction as sufficient moral performance.
 
 ## Review Questions
 
-Ask:
+**Ask:**
 1. What does the primary record say?
 2. What crucial fact lives only in the annex or margin?
 3. Who regularly reads the secondary layer?
@@ -236,10 +236,10 @@ When Annex Truth is identified:
 4. avoid language implying the annex is optional interpretation,
 5. note whether the secondary placement primarily serves caution, survivability, or optics.
 
-Minimum note:
+**Minimum note:**
 “Primary record incomplete without annex interpretation.”
 
-Stronger note:
+**Stronger note:**
 “Material contradiction preserved only in secondary layer; headline should not be read alone.”
 
 ---
@@ -262,13 +262,13 @@ Annexes frequently preserve what the completion signal failed to change.
 Collapse often occurs when annex truth leaves the annex and reaches ordinary readers.
 
 ### With Adjacent Correctness
-Some primary surfaces do not fully erase contradiction. They resolve into a neighboring account that is structurally valid, contextually persuasive, and still wrong in interpretive landing. In such cases the annex does not merely add depth. It corrects a near-miss that official handling may already have mistaken for sufficient arrival. See `FREF-0560-ADJC` Adjacent Correctness.
+Some primary surfaces do not fully erase contradiction. They resolve into a neighboring account that is structurally valid, contextually persuasive, and still wrong in interpretive landing. In such cases the annex does not merely add depth. It corrects a near-miss that official handling may already have mistaken for sufficient arrival. See [[reference/FREF-0560-ADJC|FREF-0560-ADJC]] Adjacent Correctness.
 
 ---
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - annex truth preserved
 - headline incomplete without sublayer
 - contradiction survives in secondary record
@@ -276,7 +276,7 @@ Preferred phrases:
 - witness truth retained but non-governing
 - primary surface should not be read alone
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the annex is just context
 - tooltip access is equivalent to full disclosure
 - if it exists in the notes, it has been adequately surfaced

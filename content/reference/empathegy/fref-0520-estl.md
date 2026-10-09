@@ -104,7 +104,7 @@ Both extract legibility from mess.
 
 ## Sanctioned Language
 
-Preferred phrases:
+**Preferred phrases:**
 - borrowed coherence
 - prestige-adjacent surface
 - compensatory structure formation
@@ -112,7 +112,7 @@ Preferred phrases:
 - structural entropy debt
 - domain-misaligned but review-efficient
 
-Disallowed phrases:
+**Disallowed phrases:**
 - fake
 - derivative failure
 - copied because no one knew what they were doing
