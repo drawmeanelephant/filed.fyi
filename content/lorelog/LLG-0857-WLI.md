@@ -55,7 +55,7 @@ They often did create human contact where procedural systems alone would have pr
 
 But as lodge density increased, a secondary institutional lesson took hold:
 
-if burden can be received beautifully enough, the urgency to interrupt its cause may soften.
+if burden can be received beautifully enough, **the urgency to interrupt its cause may soften**.
 
 This lesson was rarely spoken aloud.
 

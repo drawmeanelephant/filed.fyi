@@ -18,7 +18,7 @@ This produced a persistence loop:
 - The ledger credited the elder because the room thanked her.
 - New cooks entered only in margins, initials, or not at all.
 
-The result was not fraud. It was grief expressed as metadata.
+The result was not fraud. **It was grief expressed as metadata.**
 
 Sister Casserole of Relief classified the condition as Auxiliary Labor Afterlife, defined here as the continued accrual of civic gratitude by an identity whose material contribution has migrated elsewhere. Her audit distinguished three statuses:
 - prepared by
