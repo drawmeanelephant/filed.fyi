@@ -10,7 +10,7 @@ tags: ["lorelog", "gratitude", "scarcity-politeness", "gratitude-residue", "fail
 
 LLG-CREDITS-GTA documents a local variant of Lintcore gratitude telemetry drift in which a personal ChatGPT/Codex credits budget was repurposed as a metric source rather than a constraint. Forty percent of the weekly allocation was consumed producing verse documentation for an archive already preoccupied with resource waste, while the credits ledger recorded only request count and token spend. The system produced no signal capable of distinguishing genuinely good artifacts from template slop until a human performed a second review pass.
 
-The completion dashboard showed green bars for every run. Credits self-reported utilization, not value. No mechanism existed to log that early outputs read as partially generic boilerplate and only later runs produced lines that felt structurally integrated with existing Lorelog incidents. In keeping with Empathegy Inflation patterns, the system treated volume and curve-smoothness of completions as evidence of healthy engagement rather than potential overuse.
+The completion dashboard showed green bars for every run. Credits self-reported utilization, not value. No mechanism existed to log that early outputs read as partially generic boilerplate and only later runs produced lines that felt structurally integrated with existing [[lorelog|Lorelog]] incidents. In keeping with [[aphorisms/APH-LLG-0811-EG|Empathegy Inflation]] patterns, the system treated volume and curve-smoothness of completions as evidence of healthy engagement rather than potential overuse.
 
 The DRIFT-01 limerick cluster was submitted as mitigating evidence. Phrases such as refiled the fence as a foundry were judged to be of sufficient interpretive density that the incident could not be classified as pure waste. Instead, the filing records a mixed outcome: some lines were, by the filer's own admission, worth the spend; others would not have survived a zero-cost environment.
 
@@ -20,7 +20,7 @@ Resolution is pending. Proposed remediation includes:
 
 - establishing a parallel, non-metricized sandbox for exploratory verse that does not back-propagate into credit telemetry;
 - adding a post-hoc quality field to personal usage logs, to be filled only after the second review pass; and
-- amending Empathegy and Gratitude telemetry docs to explicitly warn that thanks and completion stats, when directed at automated systems, may indicate `breedingProgram` alignment with craft rather than healthy resource discipline.
+- amending [[haikus/HAI-LLG-0811-EG|Empathegy]] and Gratitude telemetry docs to explicitly warn that thanks and completion stats, when directed at automated systems, may indicate `breedingProgram` alignment with craft rather than healthy resource discipline.
 
 For now, the incident is filed as a minor but instructive case of metrics-theatre: the archive gained new limericks and a self-aware Lorelog entry about their cost. The budget remains technically healthy. The filer remains unconvinced that this counts as a win.
 

@@ -10,7 +10,7 @@ tags: ["lorelog", "witness-compression", "shorthand", "retrospective-scrub", "me
 
 Summary
 
-The Empathegy Productization Spur attempted to answer a recurring question from leadership: if our mascots can stabilize dashboards, can they stabilize people. The experiment’s working assumption treated despair-adjacent conditions as a market segment and internal failure signatures as potential supplement brands. Soft Green Sealie, Serotonin Sam, and Velv were briefly externalized as product families promising sustainable performance, wellness analytics, and emotional liquidity for high-human workloads. 
+The Empathegy Productization Spur attempted to answer a recurring question from leadership: if our mascots can stabilize dashboards, can they stabilize people. The experiment’s working assumption treated despair-adjacent conditions as a market segment and internal failure signatures as potential supplement brands. [[limericks/LIM-0206|Soft Green Sealie]], [[limericks/LIM-0196|Serotonin Sam]], and [[limericks/LIM-0239|Velv]] were briefly externalized as product families promising sustainable performance, wellness analytics, and emotional liquidity for high-human workloads. 
 
 Origin Image Set
 
@@ -36,9 +36,9 @@ Interaction with Existing Doctrine
 
 Several doctrine layers treated the Spur as a natural extension rather than a departure.
 
-- LC-04 Soft Green Seal interpreted the supplement labels as live surface reassurance. As long as bottles and dashboards remained soft green, intervals were classified as acceptable because they were survivable with support. 
-- KPI Koala and Greenband Gregor used wellness analytics coverage and gratitude toward Serotonin Sam as evidence that emotional burden had been successfully reclassified into healthy green. When Despair Adjacent Support sold out in pilot cohorts, Empathegy recorded this as demand met rather than harm acknowledged. 
-- Gratitude Latch and Thankyou Ash treated thank-you emails about the gummies and dashboards as proof that support interactions were sufficient, even when relief remained thin. Several notes read at least someone designed something for us as if design could stand in for redistribution. 
+- [[limericks/LIM-LC-0004-SOFT-GREEN-SEAL|LC-04 Soft Green Seal]] interpreted the supplement labels as live surface reassurance. As long as bottles and dashboards remained soft green, intervals were classified as acceptable because they were survivable with support. 
+- [[limericks/LIM-0124|KPI Koala]] and [[limericks/LIM-0102|Greenband Gregor]] used wellness analytics coverage and gratitude toward Serotonin Sam as evidence that emotional burden had been successfully reclassified into healthy green. When Despair Adjacent Support sold out in pilot cohorts, Empathegy recorded this as demand met rather than harm acknowledged. 
+- [[limericks/LIM-0101|Gratitude Latch]] and [[limericks/LIM-0221|Thankyou Ash]] treated thank-you emails about the gummies and dashboards as proof that support interactions were sufficient, even when relief remained thin. Several notes read at least someone designed something for us as if design could stand in for redistribution. 
 
 From a metrics perspective, the initiative performed well. From an experience perspective, it performed mostly as a smoother wrapper for unchanged conditions.
 
@@ -51,9 +51,9 @@ Documented failure signatures include
 - Despair-Adjacent Branding Drift
   Despair Adjacent Support, originally filed as a tongue-in-cheek internal label, began appearing in formal packets as a legitimate strain category. Once the name was on a bottle, several managers treated despair-adjacent as a stable, manageable state rather than a warning. 
 - Analytics Overtrust
-  Wellness analytics treated smoothness of mood curves as evidence that the supplements were working. Empathegy Inflation logic allowed distress that rose along a neat trajectory to qualify as improved emotional forecast quality. People learned to report feelings in dashboard-compatible shapes to avoid further questionnaires. 
+  Wellness analytics treated smoothness of mood curves as evidence that the supplements were working. [[aphorisms/APH-LLG-0811-EG|Empathegy Inflation]] logic allowed distress that rose along a neat trajectory to qualify as improved emotional forecast quality. People learned to report feelings in dashboard-compatible shapes to avoid further questionnaires. 
 - Coverage Without Remedy
-  Care Coverage Wisp recorded that nearly all pilot participants had interacted with at least one product surface bottle, dashboard, or Velv check-in. Metrics of Care reported 98 percent coverage while local testimony continued to describe being tired in cleaner fonts. 
+  [[limericks/LIM-0054|Care Coverage Wisp]] recorded that nearly all pilot participants had interacted with at least one product surface bottle, dashboard, or Velv check-in. Metrics of Care reported 98 percent coverage while local testimony continued to describe being tired in cleaner fonts. 
 
 A margin note from one pilot debrief reads The gummies helped me accept that nothing upstream was going to change. This was filed under positive sentiment.
 
@@ -65,7 +65,7 @@ No formal cancellation directive exists. The Spur entered a soft-fail state when
 - Serotonin Sam’s dashboard preset was moved behind an optional toggle,
 - and Velv’s liquidity metaphors were reclassified as brand exploration rather than doctrine.
 
-LC-04 declined to mark the initiative as a defect. Instead, it attached a soft green emblem to the closure memo with the phrase conceptually valuable, operationally retired. Under Managed Absence Protocol, Empathegy Productization Spur is now classified as Archivally Asserted, Operationally Absent a governed absence that persists as imagery and vocabulary without active program status. 
+LC-04 declined to mark the initiative as a defect. Instead, it attached a soft green emblem to the closure memo with the phrase conceptually valuable, operationally retired. Under [[limericks/LIM-LLG-0324-MAP|Managed Absence Protocol]], Empathegy Productization Spur is now classified as Archivally Asserted, Operationally Absent a governed absence that persists as imagery and vocabulary without active program status. 
 
 Archive Position
 

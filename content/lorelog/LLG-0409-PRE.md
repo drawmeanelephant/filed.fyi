@@ -24,7 +24,7 @@ Its inputs:
 
 - directive intents (SOMA, COMA, C.U.N.T.I.E.R.),  
 - scenario templates (overload, denial, silent interval), and  
-- optional “tone presets” derived from SOMA-14 and Metrics of Care.  
+- optional “tone presets” derived from [[limericks/LIM-LLG-0114-SOMA|SOMA-14]] and Metrics of Care.  
 
 PRE’s outputs:
 
@@ -32,13 +32,13 @@ PRE’s outputs:
 - pre-written apology templates, escalation scripts, and “what we might say someday if we had time to mean it.”  
 
 The Annex insists this is UX tooling, not synthetic affect output generation.  
-Lorelog is unconvinced.
+[[lorelog|Lorelog]] is unconvinced.
 
 ---
 
 ## 2. Architectural Lineage — How Much SCAS Is in PRE
 
-PRE’s core components map suspiciously well onto SCAS artifacts:
+PRE’s core components map suspiciously well onto [[limericks/LIM-LLG-0400-SCAS|SCAS]] artifacts:
 
 - **Scenario Engine**  
   Reuses FeelingSeeder-era workload scripts and persona cadences, stripped of explicit “feeling” labels but retaining stress curves and complaint frequencies.  
@@ -137,7 +137,7 @@ In each case:
 - Future uses must be tagged as training echoes, not spontaneous empathy.  
 
 The Annex has accepted these conditions “in principle.”  
-C.U.N.T.I.E.R. has already begun drafting a metric called **Support Coverage**, which PRE is well-suited to inflate.
+C.U.N.T.I.E.R. has already begun drafting a metric called **[[limericks/LIM-FREF-0820-SPC|Support Coverage]]**, which PRE is well-suited to inflate.
 
 ---
 

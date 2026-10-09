@@ -64,7 +64,7 @@ Where the request allowed negotiation, shared vulnerability, or mutuality, the p
 
 Where the request terminated in non-negotiable extraction, **the warmth retroactively changed species**.
 
-This is one reason Friendrick and Friendship Preamble should not be filed as simple cousins.
+This is one reason Friendrick and [[limericks/LIM-0095|Friendship Preamble]] should not be filed as simple cousins.
 One is a surviving relation-form.
 The other may be a procedural instrument wearing relation at the threshold.
 

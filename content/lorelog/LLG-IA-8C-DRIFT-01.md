@@ -61,7 +61,7 @@ The effect is that any document meant to “describe” bin 8C also alters it, a
 
 `SIDR-8C/AFT/01` and `SDLR-8C/IIE/01` together propose that mascot presence should be treated as **distributed** across documentation, not confined to any physical costume element. They assign fractional presence values to Internal Correction Notice 4C, Procedural Update 4C Supersession, `PPC-9`, Condition Log 7, the re-indexing notice, and the drift reports themselves, arriving at totals greater than one mascot while carefully declining to explain what “more than one mascot” would mean operationally.  
 
-Later sections refine this arithmetic by adding a presence share for `SDLR-8C/IIE/01` itself, bringing the total distribution to 2.61 mascots across the cluster, while sternly warning staff not to use these figures to locate anything. In effect, the mascot becomes a drift metric: wherever documentation density and interpretive recursion are highest, a greater fraction of Peppy Clerk is deemed to be present, without the inconvenience of an actual corridor.
+Later sections refine this arithmetic by adding a presence share for `SDLR-8C/IIE/01` itself, bringing the total distribution to 2.61 mascots across the cluster, while sternly warning staff not to use these figures to locate anything. In effect, the mascot becomes a drift metric: wherever documentation density and interpretive recursion are highest, a greater fraction of [[aphorisms/APH-0325|Peppy Clerk]] is deemed to be present, without the inconvenience of an actual corridor.
 
 ---
 

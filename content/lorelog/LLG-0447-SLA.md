@@ -54,13 +54,13 @@ Nothing dramatic failed. That was the camouflage.
 
 ### Witness behavior
 
-Afterimage Clerk appears throughout adjacent notes on this lane. Proof packets justifying specific accommodations had thinned or vanished during migration, but the assumptions they once supported continued operating as routine truth. Reviewers no longer asked who established the condition. They asked only whether breaking continuity would create visible harm.
+[[limericks/LIM-0023|Afterimage Clerk]] appears throughout adjacent notes on this lane. Proof packets justifying specific accommodations had thinned or vanished during migration, but the assumptions they once supported continued operating as routine truth. Reviewers no longer asked who established the condition. They asked only whether breaking continuity would create visible harm.
 
 This is the archive’s preferred sign of inherited basis drift: when a replacement can no longer explain why it bends, only that failing to bend now feels irresponsible.
 
 ### Archive position
 
-This case belongs with Replacement Without Release, but not as a duplicate. Its significance is laboral rather than merely classificatory. A new lane inherited the old work’s shape so fully that compatibility itself became a burden-transfer mechanism.
+This case belongs with [[limericks/LIM-0016|Replacement Without Release]], but not as a duplicate. Its significance is laboral rather than merely classificatory. A new lane inherited the old work’s shape so fully that compatibility itself became a burden-transfer mechanism.
 
 The system did improve some surfaces. It did not restore enough live capacity to free itself from predecessor obligations. The archive therefore records the lane as a successor that arrived, stabilized, and remained ancestrally employed.
 

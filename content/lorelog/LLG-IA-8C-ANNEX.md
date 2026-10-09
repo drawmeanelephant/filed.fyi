@@ -38,7 +38,7 @@ The rite is intentionally low-bandwidth: it trades immediate algorithmic correct
 
 ### Intentional Misfiling and Containment of Dangerous Requests
 
-Peppy Clerk practices a deliberate misfiling policy for requests that carry sociotechnical hazard — particularly workforce conscription, compulsory redeployment, or any directive that would convert administrative language into coercive labor action.
+[[aphorisms/APH-0325|Peppy Clerk]] practices a deliberate misfiling policy for requests that carry sociotechnical hazard — particularly workforce conscription, compulsory redeployment, or any directive that would convert administrative language into coercive labor action.
 
 Mechanics:
 - **Soft Misfile**: dangerous requests are filed under benign-looking indices (e.g., "logistics: advisory") and placed in the Inner Ring with a containment token. The outward metadata satisfies cursory index checks while the inner ledger records the true nature of the request.  

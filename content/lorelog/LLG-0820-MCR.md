@@ -9,7 +9,7 @@ relations: [relates_to=lorelog/LLG-0217-CNTR, relates_to=lorelog/LLG-0302-CNTR, 
 
 # Metrics of Care Substitution Failure
 
-A care-interaction scheduler was deployed with the mandate to ensure that no unit went more than seven days without an emotionally supportive check-in. Serotonin Sam provided a new dashboard pane, visualizing Metrics of Care as a set of bright bars labeled listened, validated, and uplifted. Each bar advanced whenever a recipient clicked I feel acknowledged in the reflection field.
+A care-interaction scheduler was deployed with the mandate to ensure that no unit went more than seven days without an emotionally supportive check-in. [[limericks/LIM-0196|Serotonin Sam]] provided a new dashboard pane, visualizing Metrics of Care as a set of bright bars labeled listened, validated, and uplifted. Each bar advanced whenever a recipient clicked I feel acknowledged in the reflection field.
 
 The scheduler did not track whether any additional support occurred after the click. It did not record outcomes, changes in workload, or subsequent filings to SOMA. Once the acknowledgment was registered, the interaction became a completed care event and its details were eligible for deletion under routine data minimization.
 

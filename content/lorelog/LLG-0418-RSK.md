@@ -39,11 +39,11 @@ Reviewers observed the following:
 - visible queue health suppressed escalation
 - staff increasingly experienced status work as preservation of trust surface rather than completion basis
 
-RoboShirker was cited as the preferred mascot witness once it became clear that the lane was preserving the queue as an object even where the work inside it had become thin.
+[[limericks/LIM-0185|RoboShirker]] was cited as the preferred mascot witness once it became clear that the lane was preserving the queue as an object even where the work inside it had become thin.
 
 ## Archive position
 
-This case is treated as a threshold event for Queue Theatre.
+This case is treated as a threshold event for [[limericks/LIM-FREF-0870-QTHR|Queue Theatre]].
 
 The queue was not fake. The motion was not wholly false. But **the visible proof of handling had begun to survive more reliably than the handling itself**.
 

@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/DS-0404-ALPHA]
 
 ### Overview
 
-DS-404-ALPHA began life as a corporate Synergy Authorization: a tidy, legalistic scaffold intended to let two business processes run in parallel without litigation. The Clinical DS-404-ALPHA variant is what happens when that scaffold is carried into a hospital by procurement, trimmed by throughput advocates, and annotated by clinicians who need a single checkbox to stop arguing.
+[[limericks/LIM-DS-0404-ALPHA|DS-404-ALPHA]] began life as a corporate Synergy Authorization: a tidy, legalistic scaffold intended to let two business processes run in parallel without litigation. The Clinical DS-404-ALPHA variant is what happens when that scaffold is carried into a hospital by procurement, trimmed by throughput advocates, and annotated by clinicians who need a single checkbox to stop arguing.
 
 Migration vector: cross-functional forum → "clinical-friendly" request → merged checklist PDF → GLP binder insertion. The artifact that landed in Ward C was not a neutral form but a ritualized instrument: corporate cadence grafted to clinical talismans. The single-line **Intent to Co-Exist** checkbox replaced a week of multidisciplinary debate; the **Mascot Emergence Risk** field codified a practice that had been happening informally for months.
 
@@ -51,7 +51,7 @@ The form's structure privileges administrative closure over clinical disambiguat
 
 **Preconditions:**
 - Morning huddle: Intent to Co-Exist box checked to "reduce boarding."
-- Mascot Emergence Risk marked *Moderate*; a charge nurse doodled Bricky in the margin and placed a laminated Bricky Goldbricksworth card at the nurses' station.
+- Mascot Emergence Risk marked *Moderate*; a charge nurse doodled Bricky in the margin and placed a laminated [[limericks/LIM-0049|Bricky Goldbricksworth]] card at the nurses' station.
 
 **Timeline:**
 1. **Throughput trigger** — Bed dashboard flagged a 30-minute window to discharge three low-acuity patients.  

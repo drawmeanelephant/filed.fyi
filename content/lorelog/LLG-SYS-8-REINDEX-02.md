@@ -11,7 +11,7 @@ relations: [relates_to=lorelog/LLG-MA-8C-PEPPY-0001, relates_to=lorelog/LLG-SYS-
 
 ## 1. Cluster Identification and Retroactive Scope
 
-This notice confirms the existence and present authority of the **Mascot Affairs document cluster** occupying bins 8 through 8C, including but not limited to Peppy Clerk continuity materials, Bin 8C drift reports, routing slips, re-indexing notices, and the forms and personnel fragments that orbit them. The **Automated Re-Index Subroutine** has assigned this cluster an updated structural identity and has declared that identity *retroactive* to the date of the earliest document involved, without altering the content of any member.  
+This notice confirms the existence and present authority of the **Mascot Affairs document cluster** occupying bins 8 through 8C, including but not limited to [[aphorisms/APH-0325|Peppy Clerk]] continuity materials, Bin 8C drift reports, routing slips, re-indexing notices, and the forms and personnel fragments that orbit them. The **Automated Re-Index Subroutine** has assigned this cluster an updated structural identity and has declared that identity *retroactive* to the date of the earliest document involved, without altering the content of any member.  
 
 In effect, all records that previously believed themselves to have been filed under disparate conditions are now understood to have always belonged to the same cluster, whether or not their frontmatter knew it at the time. This adjustment is administrative; staff are not required to remember it, only to behave as though they had.
 

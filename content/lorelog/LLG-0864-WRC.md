@@ -76,7 +76,7 @@ at the level of receipt.
 Review identified the specific routing failure:
 
 The escalation routing table connected Listening Board intake to the SOMA
-advisory notice channel only when a formal SOMA-72 rest request had been
+advisory notice channel only when a formal [[limericks/LIM-LLG-0072-SOMA|SOMA-72]] rest request had been
 filed alongside the testimony. No such request had been filed. The testimony
 traveled alone. Alone, it did not satisfy the routing condition.
 
@@ -84,7 +84,7 @@ The table was functioning correctly.
 The testimony never left the intake layer through any active pathway.
 
 The gap in this case is lateral-procedural. The receiving layer
-(Service Continuity Listening Board) is structurally adjacent to the
+([[limericks/LIM-FREF-0410-SCLB|Service Continuity Listening Board]]) is structurally adjacent to the
 operative layer (continuity classification), not subordinate to it.
 Advisory outputs from SCL are treated as non-binding context under
 current directive routing rules.
