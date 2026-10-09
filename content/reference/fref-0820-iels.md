@@ -62,7 +62,7 @@ explanation layers exist for the same event and each is locally coherent, the
 failure is not layer-level smoothing but stack-level distribution of
 contradiction. Each layer outsourced its friction to the next until the
 contradiction cannot be located in any single one of them. That condition
-is filed under FREF-0822-ELRA (Explanation Layer Residue Audit), which
+is filed under [[reference/FREF-0822-ELRA|FREF-0822-ELRA]] (Explanation Layer Residue Audit), which
 establishes the routing distinction between these two classes and the
 OverCoherence shelf. Do not expand IELS to cover the multi-layer case.
 

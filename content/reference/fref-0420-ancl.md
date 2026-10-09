@@ -25,7 +25,7 @@ Its influence is measured by how many seals are required to declare that a proce
 
 Operationally, the Collegium is most visible through AC-11 Sealloop Auditor: a mascotized inspection loop that responds to uncertainty not by revoking seals but by adding more of them. Each new audit concludes with another emblem, ensuring that the confidence stack grows denser even when the underlying process remains untouched.
 
-This makes ANC a frequent source of ceremonial provenance. Authority appears to deepen because recognition has been repeated, layered, and visibly carried forward, even where the underlying object has not become more legible. See `FREF-0570-APCR` Artifact Provenance Under Repeated Ceremonial Use.
+This makes ANC a frequent source of ceremonial provenance. Authority appears to deepen because recognition has been repeated, layered, and visibly carried forward, even where the underlying object has not become more legible. See [[reference/FREF-0570-APCR|FREF-0570-APCR]] Artifact Provenance Under Repeated Ceremonial Use.
 
 ## Doctrine Fragments
 
@@ -39,7 +39,7 @@ What survives are scope extension notices and cross-recognition abstracts attach
 
 ## Relationship to Managed Absence
 
-Under LLG-0324-MAP, untraceable recognitions are classified as AAOA: Archivally Asserted, Operationally Absent. 
+Under [[lorelog/LLG-0324-MAP|LLG-0324-MAP]], untraceable recognitions are classified as AAOA: Archivally Asserted, Operationally Absent. 
 
 ANC sits at the edge of this category.  
 Its existence is never directly operational, but its absence would render many seals semantically hollow.

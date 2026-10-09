@@ -103,10 +103,10 @@ Never overwrite existing logs. Append only.
 
 ### 4.3 ENTROPY TAGGING LAYER
 Attach tags such as:
-- misclassification-drift
-- recursive-identity-loop
-- archive-confusion-event
-- semantic-overload-state
+- `misclassification-drift`
+- `recursive-identity-loop`
+- `archive-confusion-event`
+- `semantic-overload-state`
 
 Tags are descriptive, not decorative.
 

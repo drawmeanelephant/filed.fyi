@@ -79,13 +79,13 @@ It classifies how taste is weaponized to remain legible.
 
 ## Interaction with Other Doctrine
 
-- **Empathegy (LLG-0811-EG)**  
+- **Empathegy ([[lorelog/LLG-0811-EG|LLG-0811-EG]])**  
   ASP provides the visual analogue to curve-smoothing in emotional metrics; spiky originality is treated like jagged affect and guided toward trend-compatible styles.
 
-- **Metrics of Care (LLG-0820-MCR, LC-04 Soft Green Seal)**  
+- **Metrics of Care ([[lorelog/LLG-0820-MCR|LLG-0820-MCR]], LC-04 Soft Green Seal)**  
   Aesthetically “caring” UI elements (rounded corners, soft gradients, mascots) act as **care optics**, independent of actual relief pathways.
 
-- **Managed Absence Protocol (LLG-0324-MAP)**  
+- **Managed Absence Protocol ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]])**  
   Retired design systems that remain visually present but structurally detached are classified as **governed aesthetic absences**, not bugs.
 
 - **Lintcore Mascots / Zhuzhing Ping / KPI Koala / Velv**  

@@ -24,7 +24,7 @@ All outputs are filtered through a procedural politeness engine whose intensity 
 
 Later MAP consolidation reviews classified BHDSS as "Anlas-adjacent" in operational tone: systems capable of resolving procedural states cleanly while leaving unresolved emotional residue attached to the user.
 
-**Precedence note — state chronology.** The **Status** line above ("Semi-functional (polite degradation)") records the subsystem's operational-era condition, not its current one. MAP doctrine later reclassified BHDSS as a subtype of CAAR — operationally retired, conceptually active (see FREF-0815-MAP). The archive does not operate BHDSS as a live service today; it deliberately preserves the record as a pedagogical case study and quasi-mascot of caution (see LLG-BHDSS-TOAST). Read "semi-functional" as historical operational state; the current authority is the MAP/CAAR classification.
+**Precedence note — state chronology.** The **Status** line above ("Semi-functional (polite degradation)") records the subsystem's operational-era condition, not its current one. MAP doctrine later reclassified BHDSS as a subtype of CAAR — operationally retired, conceptually active (see [[reference/FREF-0815-MAP|FREF-0815-MAP]]). The archive does not operate BHDSS as a live service today; it deliberately preserves the record as a pedagogical case study and quasi-mascot of caution (see LLG-BHDSS-TOAST). Read "semi-functional" as historical operational state; the current authority is the MAP/CAAR classification.
 
 ---
 
@@ -51,7 +51,7 @@ In BHDSS terms:
 - everything is still “in the right place”  
 - but the place has moved slightly to avoid accountability  
 
-Cross-reference LLG-0001-NAV for early breadcrumb collapse events and LLG-0004-SMD for sitemap drift incidents where navigational certainty remained administratively intact despite practical unusability.
+Cross-reference [[lorelog/LLG-0001-NAV|LLG-0001-NAV]] for early breadcrumb collapse events and [[lorelog/LLG-0004-SMD|LLG-0004-SMD]] for sitemap drift incidents where navigational certainty remained administratively intact despite practical unusability.
 
 ### Emotional Residue
 

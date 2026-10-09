@@ -14,12 +14,12 @@ This document defines **Artifact Provenance Under Repeated Ceremonial Use**, the
 
 Some artifacts begin as documents, forms, ribbons, seals, ledgers, cards, checklists, or talismans.
 Over time they acquire authority through recurrence:
-displayed again,
-stamped again,
-cited again,
-carried again,
-reused in new contexts,
-treated as precedent because they survived prior use.
+- displayed again,
+- stamped again,
+- cited again,
+- carried again,
+- reused in new contexts,
+- treated as precedent because they survived prior use.
 
 This doctrine names that accretive authority and the distortions that come with it.
 
@@ -47,13 +47,13 @@ A talisman can inherit custody power because enough clerks agreed to handle it c
 A deprecated object can remain classification-active long after its initial function disappears.
 
 In such cases, provenance is layered:
-origin,
-custody,
-reuse,
-citation,
-display,
-ritual burden,
-and inherited interpretation.
+- origin,
+- custody,
+- reuse,
+- citation,
+- display,
+- ritual burden,
+- and inherited interpretation.
 
 ## Primary Classes
 
@@ -68,8 +68,8 @@ Examples include:
 
 Cross-reference:
 - `LLG-DS-404-ALPHA`
-- `LLG-0019-COMA`
-- `LLG-0020-COMA19-PBC`
+- [[lorelog/LLG-0019-COMA|LLG-0019-COMA]]
+- [[lorelog/LLG-0020-COMA19-PBC|LLG-0020-COMA19-PBC]]
 
 ### 2. Seal and Recognition Accretion
 
@@ -95,7 +95,7 @@ Examples include:
 - retired objects preserved as symbolic stewardship rather than operational authority.
 
 Cross-reference:
-- `FREF-0260-BMDH`
+- [[reference/FREF-0260-BMDH|FREF-0260-BMDH]]
 
 ### 4. Custodial Sacralization
 
@@ -176,10 +176,10 @@ When this condition is identified:
 4. record custody and ritual context as part of the object, not as incidental background,
 5. avoid treating survival, stamping, or display as self-authenticating legitimacy.
 
-Minimum note:
+**Minimum note:**
 Artifact authority reflects repeated ceremonial reuse in addition to origin.
 
-Stronger note:
+**Stronger note:**
 Current interpretive force derives substantially from inherited ritual handling. Origin alone no longer explains the artifact the archive is actually using.
 
 ## Interlocks

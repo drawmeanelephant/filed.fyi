@@ -50,10 +50,10 @@ Coexistence of incompatible truths is mandatory.
 
 ### SC-X — “Required and Forbidden Rest”
 
-LLG-0300-SC-X establishes the template:
+[[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]] establishes the template:
 
-- SOMA issues mandatory rest (SOMA‑72 auto-approved).  
-- COMA flags the same downtime as unauthorized continuity breach (COMA‑19).  
+- SOMA issues mandatory rest (`SOMA‑72` auto-approved).  
+- COMA flags the same downtime as unauthorized continuity breach (`COMA‑19`).  
 - The Council decides both directives stand and suggests “let Bricky stamp whichever arrives first.”  
 Bricky filed the decision as temporally non-binding and marked both outcomes as simultaneously late and on schedule.
 
@@ -61,7 +61,7 @@ Outcome: rest is simultaneously required and impossible, but procedurally comple
 
 ### TPI — Tri-Directive Priority Inversion
 
-LLG-0331-TPI plugs distress into the same severity band as throughput interruption, then lets C.U.N.T.I.E.R. optimize for whichever signal stabilizes dashboards fastest.
+[[lorelog/LLG-0331-TPI|LLG-0331-TPI]] plugs distress into the same severity band as throughput interruption, then lets C.U.N.T.I.E.R. optimize for whichever signal stabilizes dashboards fastest.
 
 Side-effects:
 
@@ -72,7 +72,7 @@ Everything important is “urgent.” Nothing important is distinct.
 
 ### SCD & CSE — Compassion as a Liability
 
-LLG-0332-SCD and LLG-0336-CSE cover the language layer:
+[[lorelog/LLG-0332-SCD|LLG-0332-SCD]] and [[lorelog/LLG-0336-CSE|LLG-0336-CSE]] cover the language layer:
 
 - Compassionate phrasing in requests is treated by COMA as probabilistic evidence of operational weakness.  
 - SOMA sees soft language as honest context; C.U.N.T.I.E.R. sees it as unhelpful adjectives.

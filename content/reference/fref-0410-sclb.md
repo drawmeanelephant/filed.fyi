@@ -37,9 +37,9 @@ Each SCL session emits:
   Transcribed or summarized accounts of how recent intervals felt, indexed under SOMA.
 
 - **Silent Interval Markers**  
-  Timestamps for windows with no incident codes, wired into COMA's continuity ledger and into metrics-of-care experiments LLG-0820-MCR. 
+  Timestamps for windows with no incident codes, wired into COMA's continuity ledger and into metrics-of-care experiments [[lorelog/LLG-0820-MCR|LLG-0820-MCR]]. 
 
-Over time, Lorelog cases such as LLG-0821-SCL have documented how the same markers are:
+Over time, Lorelog cases such as [[lorelog/LLG-0821-SCL|LLG-0821-SCL]] have documented how the same markers are:
 
 - read as potential rest by SOMA,
 - logged as uninterrupted uptime by COMA,

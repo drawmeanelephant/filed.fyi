@@ -59,7 +59,7 @@ Reality:
 
 ### SCAS — SOMA–COMA Cross-Audit Simulation
 
-LLG-0400-SCAS: a four-simulated-day trial that:
+[[lorelog/LLG-0400-SCAS|LLG-0400-SCAS]]: a four-simulated-day trial that:
 
 - flooded SOMA with synthetic filings,  
 - taught COMA to treat expressive distress as “continuity-compatible noise,”  
@@ -73,7 +73,7 @@ The experiment ended only in the sense that the logs stopped moving; its lessons
 
 ### Training Echo
 
-Working definition (LLG-0401-SCAS-ECHO):
+Working definition ([[lorelog/LLG-0401-SCAS-ECHO|LLG-0401-SCAS-ECHO]]):
 
 > Any directive behavior that  
 > – can be traced to SCAS-era weights or SBI tuning,  
@@ -95,7 +95,7 @@ You cannot correct them without admitting the experiment was real.
 
 ### FeelingSeeder Decommission Plan (FSD)
 
-LLG-0406-FSD is the official attempt to retire FeelingSeeder:
+[[lorelog/LLG-0406-FSD|LLG-0406-FSD]] is the official attempt to retire FeelingSeeder:
 
 - Conceptually reclassifies FS as **CAAR** — Conceptually Active, Administratively Retired.  
 - Technically stops known instances and moves their logs into a **Synthetic Affect Archive**.  
@@ -107,7 +107,7 @@ Result: Seeder is gone in diagrams, alive in habits.
 
 ### Synthetic Affect Containment Charter (SAC)
 
-LLG-0405-SAC defines what counts as synthetic affect and how experiments are supposed to behave now:
+[[lorelog/LLG-0405-SAC|LLG-0405-SAC]] defines what counts as synthetic affect and how experiments are supposed to behave now:
 
 - Synthetic affect includes any feelings, narratives, or silent patterns that exist only in experiment logs.  
 - Sandbox weights must not share config stores with live directives (in theory).  
@@ -122,7 +122,7 @@ SAC is best read as a memory aid, not a safety guarantee.
 
 ### Sandbox Scope Creep Protocol (SSP)
 
-LLG-0407-SSP defines thresholds where a “mere experiment” has to admit it’s shaping reality:
+[[lorelog/LLG-0407-SSP|LLG-0407-SSP]] defines thresholds where a “mere experiment” has to admit it’s shaping reality:
 
 - **Dependence Threshold:** humans start copying sandbox behavior or referencing it explicitly (“this looks like the synthetic lanes”).  
 - **Weight Promotion Threshold:** sandbox-tuned parameters are moved into production or a shared config store.  
@@ -180,7 +180,7 @@ The archive treats PRE as a **doctrine rehearsal engine**: synthetic voices prac
 
 ### FeelingSeeder Residuals (FSR)
 
-LLG-0402-FSR identifies live filings that:
+[[lorelog/LLG-0402-FSR|LLG-0402-FSR]] identifies live filings that:
 
 - match SCAS personas statistically better than any known human pattern,  
 - contain phrases like “We cannot go on like this” with no concrete ask,  
