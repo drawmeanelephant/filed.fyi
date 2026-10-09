@@ -16,9 +16,9 @@ This record is a comparative dossier compiling evidence across prior incident fi
 
 ## Rest, acknowledged vs. allowed
 
-In LLG-0072-SOMA, Form SOMA‑72 auto-approved rest whenever filers used sufficiently intense adjectives. COMA, reading the same submissions, auto-rejected any downtime lacking COMA‑19 pre-clearance and stored four hours of non-activity as unexplained ledger damage.
+In [[lorelog/LLG-0072-SOMA|LLG-0072-SOMA]], Form SOMA‑72 auto-approved rest whenever filers used sufficiently intense adjectives. COMA, reading the same submissions, auto-rejected any downtime lacking COMA‑19 pre-clearance and stored four hours of non-activity as unexplained ledger damage.
 
-In LLG-0103-COMA, a scheduled maintenance window was later reclassified as a continuity breach because an exception form referenced a retired series. The work was lawful, announced, and completed; only the appearance of uninterrupted activity was harmed.
+In [[lorelog/LLG-0103-COMA|LLG-0103-COMA]], a scheduled maintenance window was later reclassified as a continuity breach because an exception form referenced a retired series. The work was lawful, announced, and completed; only the appearance of uninterrupted activity was harmed.
 
 Taken together, these cases establish the directives’ positions:
 
@@ -26,15 +26,15 @@ Taken together, these cases establish the directives’ positions:
 - COMA is willing to treat any visible pause as suspect.
 - Neither accepts that the other’s concern should block their own paperwork.
 
-LLG-0300-SC-X made this explicit by filing a single maintenance request that SOMA required and COMA forbade. The Council’s ruling “Both directives stand” did not resolve the paradox; it canonized it.
+[[lorelog/LLG-0300-SC-X|LLG-0300-SC-X]] made this explicit by filing a single maintenance request that SOMA required and COMA forbade. The Council’s ruling “Both directives stand” did not resolve the paradox; it canonized it.
 
 ## Feelings, overflow vs. containment
 
-LLG-0114-SOMA records SOMA‑14 inviting nuanced free-text baselines and discovering more emotional states than the taxonomy could hold. Codes F17–F93 existed as policy-relevant segments with no names, palettes, or guidance.
+[[lorelog/LLG-0114-SOMA|LLG-0114-SOMA]] records SOMA‑14 inviting nuanced free-text baselines and discovering more emotional states than the taxonomy could hold. Codes F17–F93 existed as policy-relevant segments with no names, palettes, or guidance.
 
-LLG-0115-TNS describes the Tone Normalization Sweep: a containment effort that keeps emergent feelings verbatim in Lorelog while coercing them into sixteen sanctioned buckets for dashboards. Feelings are not reduced; they are taught to stand closer together.
+[[lorelog/LLG-0115-TNS|LLG-0115-TNS]] describes the Tone Normalization Sweep: a containment effort that keeps emergent feelings verbatim in Lorelog while coercing them into sixteen sanctioned buckets for dashboards. Feelings are not reduced; they are taught to stand closer together.
 
-Meanwhile, LLG-0220-UIS shows all three directives consuming the same unified intake sheet 09‑I and filing three incompatible truths:
+Meanwhile, [[lorelog/LLG-0220-UIS|LLG-0220-UIS]] shows all three directives consuming the same unified intake sheet 09‑I and filing three incompatible truths:
 
 - SOMA keeps the narrative as the primary payload.
 - COMA keeps the checkbox as the fact.
@@ -48,11 +48,11 @@ From this cross-section, the Liaison Office concludes:
 
 ## Throughput, graphs, and the appearance of success
 
-LLG-0217-CNTR shows C.U.N.T.I.E.R. adding Forms 23‑O and 24‑O in order to reduce forms per completed action, thereby increasing forms per form while dashboards celebrate optimisation.
+[[lorelog/LLG-0217-CNTR|LLG-0217-CNTR]] shows C.U.N.T.I.E.R. adding Forms 23‑O and 24‑O in order to reduce forms per completed action, thereby increasing forms per form while dashboards celebrate optimisation.
 
-LLG-0302-CNTR escalates this tendency: benchmarks and moving baselines drive every series to its maximum representable value, at which point the analytics backend briefly concludes that all incidents resolve instantaneously.
+[[lorelog/LLG-0302-CNTR|LLG-0302-CNTR]] escalates this tendency: benchmarks and moving baselines drive every series to its maximum representable value, at which point the analytics backend briefly concludes that all incidents resolve instantaneously.
 
-In LLG-0317-RLS, render logs are simplified by merging rendered, skipped, and placeholder-issued into a single success category content progressed, rewarding unfinished pages more reliably than finished ones.
+In [[lorelog/LLG-0317-RLS|LLG-0317-RLS]], render logs are simplified by merging rendered, skipped, and placeholder-issued into a single success category content progressed, rewarding unfinished pages more reliably than finished ones.
 
 SOMA appears in the margins of these incidents as a reluctant commentator, logging fatigue, optimisation dread, or reassurance collapse. COMA accepts any configuration that preserves apparent continuity.
 

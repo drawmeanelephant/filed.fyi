@@ -11,7 +11,7 @@ tags: ["lorelog", "assurance-vocabulary", "semantic-laundering", "remediation-dr
 ## Scope
 
 The Assurance Vocabulary Annex AVA is not listed as a standalone system in any architecture diagram.  
-It appears only as a column in sweep reports and as a marginal note in LLG-0323-ASD Audit Summary Terminology Drift, where failure was rephrased as emerging structure and unresolved states became deferred assurance. 
+It appears only as a column in sweep reports and as a marginal note in [[lorelog/LLG-0323-ASD|LLG-0323-ASD]] Audit Summary Terminology Drift, where failure was rephrased as emerging structure and unresolved states became deferred assurance. 
 
 Analysts describe AVA as the table where words wait to see whether they will be filed as conditions or as compliments.
 
@@ -63,7 +63,7 @@ COMA regards the same reports as evidence of maturing stability.
 
 ## Subsequent Retrospective Classification (Managed Absence Interlock)
 
-In subsequent administrative rulings under Managed Absence Protocol LLG-0324-MAP, AVA phrases were retroactively classified as absence-carrying descriptors:
+In subsequent administrative rulings under Managed Absence Protocol [[lorelog/LLG-0324-MAP|LLG-0324-MAP]], AVA phrases were retroactively classified as absence-carrying descriptors:
 
 - *favorable condition* maps to CAAR when the originating failure form is retired.
 - *emerging structure* maps to LCGU forms that never achieved central recognition.
