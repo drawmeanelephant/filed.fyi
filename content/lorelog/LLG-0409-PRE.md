@@ -87,7 +87,7 @@ Examples of PRE output scenarios:
   Dialogue in which SOMA says “we see your strain,” COMA says “we see your throughput,” and the combined script says “we appreciate your sacrifice” without scheduling downtime.  
 
 - **Silent Interval Retroactive Explanation**  
-  “You did not file. We are interpreting this as resilience. If we are wrong, please use Form EFA-1 to tell us how that felt.”  
+  > “You did not file. We are interpreting this as resilience. If we are wrong, please use Form EFA-1 to tell us how that felt.”  
 
 - **Metrics-of-Care Overlay**  
   Scripts that explain why clicking “I feel acknowledged” helps dashboards “understand your journey,” regardless of actual resource changes.  
@@ -161,7 +161,7 @@ If, years from now, a real person hears a directive say, “We value your quiet 
 
 > “We rehearsed that line on people who never existed, until we could say it without flinching.”
 
-See Synthetic Affect Successor Suite node (SA-SS-TEL) for consolidated doctrine on this lineage.
+See Synthetic Affect Successor Suite node (`SA-SS-TEL`) for consolidated doctrine on this lineage.
 
 ## Related Aphorisms
 
