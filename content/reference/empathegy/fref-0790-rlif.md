@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "ritual", "lodge", "witness", "quorum"]
 
 ## Purpose
 
-The **Ritual Lodge Interface** governs those zones where Empathegy presents care through ceremony, witness structure, benevolent phrasing, and communal procedure rather than direct remediation.
+The **Ritual Lodge Interface** governs those zones where [[haikus/HAI-LLG-0811-EG|Empathegy]] presents care through ceremony, witness structure, benevolent phrasing, and communal procedure rather than direct remediation.
 
 It exists because institutions often need a room before they can admit they lack a remedy. The room then becomes a system.
 
@@ -139,11 +139,11 @@ When the Ritual Lodge Interface is active:
 
 ## Interlocks
 
-- With **Proxy Compassion**: ritual care often functions through non-leverage carriers.
-- With **Rehearsed Kindness**: lodge language frequently inherits prepared benevolence.
-- With **Silent Intervals**: ceremonies often precede or produce quiet later misread as calm.
+- With **[[limericks/LIM-FREF-0750-PXCM|Proxy Compassion]]**: ritual care often functions through non-leverage carriers.
+- With **[[limericks/LIM-FREF-0770-RHKD|Rehearsed Kindness]]**: lodge language frequently inherits prepared benevolence.
+- With **[[limericks/LIM-FREF-0810-SLNT|Silent Intervals]]**: ceremonies often precede or produce quiet later misread as calm.
 - With **Metrics of Care**: witnessed presence may be overtranslated into care visibility.
-- With **Gratitude Capture**: communal warmth attracts outcome-distorting appreciation.
+- With **[[limericks/LIM-FREF-0670-GTCAP|Gratitude Capture]]**: communal warmth attracts outcome-distorting appreciation.
 
 ## Archive Position
 

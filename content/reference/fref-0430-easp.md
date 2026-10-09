@@ -24,7 +24,7 @@ ASP applies to:
 
 - UI, decks, documents, and rituals that adopt externally recognizable aesthetics (luxury, SaaS, fintech, civic, etc.).  
 - Internal teams that use **prestige copying** as a navigation aid inside ambiguous governance.  
-- Mascot-mediated surfaces (Lintcore stack, zhuzh layer, KPI Koala, Serotonin Sam, Velv) where “looking right” is an explicit design outcome.  
+- Mascot-mediated surfaces (Lintcore stack, zhuzh layer, [[limericks/LIM-0124|KPI Koala]], [[limericks/LIM-0196|Serotonin Sam]], [[limericks/LIM-0239|Velv]]) where “looking right” is an explicit design outcome.  
 
 It does not judge taste.  
 It classifies how taste is weaponized to remain legible.  
@@ -82,13 +82,13 @@ It classifies how taste is weaponized to remain legible.
 - **Empathegy ([[lorelog/LLG-0811-EG|LLG-0811-EG]])**  
   ASP provides the visual analogue to curve-smoothing in emotional metrics; spiky originality is treated like jagged affect and guided toward trend-compatible styles.
 
-- **Metrics of Care ([[lorelog/LLG-0820-MCR|LLG-0820-MCR]], LC-04 Soft Green Seal)**  
+- **Metrics of Care ([[lorelog/LLG-0820-MCR|LLG-0820-MCR]], [[limericks/LIM-LC-0004-SOFT-GREEN-SEAL|LC-04 Soft Green Seal]])**  
   Aesthetically “caring” UI elements (rounded corners, soft gradients, mascots) act as **care optics**, independent of actual relief pathways.
 
 - **Managed Absence Protocol ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]])**  
   Retired design systems that remain visually present but structurally detached are classified as **governed aesthetic absences**, not bugs.
 
-- **Lintcore Mascots / Zhuzhing Ping / KPI Koala / Velv**  
+- **Lintcore Mascots / [[limericks/LIM-0249|Zhuzhing Ping]] / KPI Koala / Velv**  
   These mascots act as **aesthetic regulators**: they normalize, zhuzh, or soften surfaces until they cross the surface coherence threshold, regardless of backend maturity.
 
 ---

@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "support-coverage", "care-metrics", "contact", 
 
 ## Purpose
 
-This document defines **Support Coverage**, the measure of how widely and how often countable support-shaped contact reaches subjects, units, or intervals within Empathegy.
+This document defines **Support Coverage**, the measure of how widely and how often countable support-shaped contact reaches subjects, units, or intervals within [[haikus/HAI-LLG-0811-EG|Empathegy]].
 
 Support Coverage answers a narrow question: did supportive contact occur across the observed field? It does not answer whether that contact was enough, whether it changed conditions, or whether repeated contact masked repeated non-resolution.
 
@@ -146,11 +146,11 @@ When Support Coverage is reported:
 ## Interlocks
 
 - With **Metrics of Care**: Support Coverage is one of its most portable and overtrusted outputs.
-- With **Scoring Layer**: coverage is commonly translated into reassuring numerical summaries.
-- With **Proxy Compassion**: low-authority warmth surfaces often expand coverage faster than leverage.
-- With **Ritual Lodge Interface**: witnessed participation increases coverage while authority may remain absent.
-- With **Silent Intervals**: recurring contact can coexist with quiet strain and later be misread as stability.
-- With **Canonized Support Interval**: repeated partial care easily hardens into a defended category.
+- With **[[limericks/LIM-FREF-0800-SCRL|Scoring Layer]]**: coverage is commonly translated into reassuring numerical summaries.
+- With **[[limericks/LIM-FREF-0750-PXCM|Proxy Compassion]]**: low-authority warmth surfaces often expand coverage faster than leverage.
+- With **[[limericks/LIM-FREF-0790-RLIF|Ritual Lodge Interface]]**: witnessed participation increases coverage while authority may remain absent.
+- With **[[limericks/LIM-FREF-0810-SLNT|Silent Intervals]]**: recurring contact can coexist with quiet strain and later be misread as stability.
+- With **[[limericks/LIM-LLG-0851-CSI|Canonized Support Interval]]**: repeated partial care easily hardens into a defended category.
 
 ## Approved Language
 

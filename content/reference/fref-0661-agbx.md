@@ -12,7 +12,7 @@ tags: ["reference", "inaction-taxonomy", "performance-theater", "classification"
 
 ## Purpose
 
-This document establishes the **Aspirational Tier** as a recognized classification within the Filed & Forgotten inaction taxonomy. It distinguishes aspirational inaction from passive inaction and defines the archival criteria for mascots exhibiting peak non-delivery behavior.
+This document establishes the **Aspirational Tier** as a recognized classification within the [[index|Filed & Forgotten]] inaction taxonomy. It distinguishes aspirational inaction from passive inaction and defines the archival criteria for mascots exhibiting peak non-delivery behavior.
 
 ## Taxonomy Context
 

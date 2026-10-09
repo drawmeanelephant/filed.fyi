@@ -83,7 +83,7 @@ Examples include:
 Cross-reference:
 - `mascots083.ac-11-sealloop-auditor`
 - `mascots076.av-14-nullseal-register`
-- accreditation loop references in the Lorelog spine
+- accreditation loop references in the [[lorelog|Lorelog]] spine
 
 ### 3. Heritage Persistence
 

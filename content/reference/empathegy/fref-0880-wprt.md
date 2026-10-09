@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "witness", "protocol", "contradiction", "ritual
 
 ## Purpose
 
-The Witness Protocol governs what it means for Empathegy to have seen something.
+The Witness Protocol governs what it means for [[haikus/HAI-LLG-0811-EG|Empathegy]] to have seen something.
 
 Witnessing is the lowest durable form of institutional attention.
 It does not require remedy.

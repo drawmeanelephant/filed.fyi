@@ -50,7 +50,7 @@ A successful mascot file should satisfy four conditions:
 
 ### 1. Failure Signature
 
-Ask whether the mascot embodies repeatable system behavior, not merely an expressive vibe. Mascots are filing artifacts first and expressive surfaces second, so the file should reveal what kind of recurring breakdown, compensatory ritual, or archive habit it preserves.
+Ask whether the mascot embodies repeatable system behavior, not merely an expressive vibe. [[mascots|Mascots]] are filing artifacts first and expressive surfaces second, so the file should reveal what kind of recurring breakdown, compensatory ritual, or archive habit it preserves.
 
 *If the reader comes away with tone but not mechanism, the file is under-anchored. If the reader comes away with a mascot-shaped personality that could be swapped into three neighboring files without loss, the failure signature has thinned into decoration.*
 
@@ -64,7 +64,7 @@ Ask whether classification gives the mascot a usable doctrinal home. The point i
 
 Ask whether the mascot is visibly separable from nearby files in function, not just in voice. Distinction is successful when the mascot can sit beside adjacent records without collapsing into them or borrowing their reason for existence.
 
-*Name the main risk directly: **Adjacent Correctness**. A file may remain plausible, well-written, and even canon-adjacent while still drifting into the wrong neighboring burden, which creates reciprocal recognition loops and slowly hollows out unique identity.*
+*Name the main risk directly: **[[limericks/LIM-FREF-0560-ADJC|Adjacent Correctness]]**. A file may remain plausible, well-written, and even canon-adjacent while still drifting into the wrong neighboring burden, which creates reciprocal recognition loops and slowly hollows out unique identity.*
 
 ### 4. Residue
 
@@ -78,7 +78,7 @@ Ask whether the file still contains enough contradiction, incompletion, or abras
 
 An overcoherent mascot artifact is one whose polish suppresses the residue that made it worth filing. This usually appears when contradiction is translated into reassuring style, when all roughness has been normalized into one clean emotional tone, or when the file starts behaving like a managed website asset instead of a compiled archive object.
 
-Reviewers should watch for **trust-surface behavior**. If a mascot file feels unusually calm, resolved, or administratively persuasive, it may be deploying a soothing authority that exceeds its proof basis. **Favorable Beige** is a useful warning label here, and the archive’s trust-surface boundary work explicitly treats these near-doctrine overlaps as sites requiring clarification rather than merger.
+Reviewers should watch for **trust-surface behavior**. If a mascot file feels unusually calm, resolved, or administratively persuasive, it may be deploying a soothing authority that exceeds its proof basis. **[[limericks/LIM-0089|Favorable Beige]]** is a useful warning label here, and the archive’s trust-surface boundary work explicitly treats these near-doctrine overlaps as sites requiring clarification rather than merger.
 
 **A Practical Test:** If the file seems more certain than the failure that produced it, overcoherence has probably entered. In those cases, the task is not to add charm or density, but to restore friction, jurisdiction, and evidence of unresolved conditions.
 

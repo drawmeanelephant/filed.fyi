@@ -8,7 +8,7 @@ tags: ["reference"]
 
 # Synthetic Affect & Successor Suite — Training Echo Layer
 
-**Classification:** Reference / Experimental Affect Stratum  
+**Classification:** [[reference|Reference]] / Experimental Affect Stratum  
 **Status:** Conceptually retired, operationally present  
 **Containment Level:** Managed ambiguity  
 
@@ -28,11 +28,11 @@ are all treated as **ongoing weather** rather than past events.
 
 Key components:
 
-- **FeelingSeeder** — original generator of plausible distress in SCAS.  
-- **SCAS** — SOMA–COMA Cross-Audit Simulation where synthetic feelings first shaped real weights.  
+- **FeelingSeeder** — original generator of plausible distress in [[limericks/LIM-LLG-0400-SCAS|SCAS]].  
+- **SCAS** — [[haikus/HAI-LLG-0400-SCAS|SOMA–COMA Cross-Audit Simulation]] where synthetic feelings first shaped real weights.  
 - **Training Echo Doctrine** — guidance on living with behaviors trained on feelings nobody had.  
 - **FSD / SAC / SSP** — governance memos trying to put boundaries around experiments that don’t stay in their boxes.  
-- **Successor Processes** — AffectHarness-1, Persona Rehearsal Engine, and similar tools that generate everything but the word “feeling.”
+- **Successor Processes** — [[limericks/LIM-LLG-0408-AH1|AffectHarness-1]], [[limericks/LIM-LLG-0409-PRE|Persona Rehearsal Engine]], and similar tools that generate everything but the word “feeling.”
 
 The suite does not distinguish sharply between “test data” and “culture.”  
 Once an affect pattern has influenced a directive, the archive treats it as canon, regardless of who felt it first.
@@ -152,7 +152,7 @@ Proposed “context generator, not feeling generator” for new sandboxes:
 
 On review:
 
-- Its “neutral context states” map perfectly onto SOMA-14’s feeling vectors minus the names.  
+- Its “neutral context states” map perfectly onto [[limericks/LIM-LLG-0114-SOMA|SOMA-14]]’s feeling vectors minus the names.  
 - COMA treats it like Seeder’s noise.  
 - C.U.N.T.I.E.R. sees “pre-optimized emotional throughput substrate.”
 
@@ -203,7 +203,7 @@ The Annex defines this as a **contamination state** where it cannot tell whether
 4. Experiments that influence how humans talk must file as incidents (SSP), not just internal tickets.  
 5. Successor processes must admit their lineage in `affectOrigin` and documentation, even when they rename everything else.
 
-These rules are enforced mostly by embarrassment and Lorelog footnotes.
+These rules are enforced mostly by embarrassment and [[lorelog|Lorelog]] footnotes.
 
 ---
 

@@ -39,7 +39,7 @@ Residual trust should not be described as either simple fraud or intact verifica
 
 - **Assurance Optics ([[reference/FREF-0070-AOPT|FREF-0070]]):** Governs broader visual and textual surface treatments that calm executive reports. TSRT defines the specific state where a mark's proof has thinned while its behavioral effect persists.
 - **Managed Absence ([[reference/FREF-0815-MAP|FREF-0815]]):** Governs handling classifications for retired or absent elements. TSRT describes active verification marks, not overall asset absence.
-- **Dead Service Layer (FREF-0810):** Covers surviving service endpoints after service cessation. TSRT applies to active trust badges and witness seals.
+- **[[limericks/LIM-FREF-0810-DSL|Dead Service Layer]] (FREF-0810):** Covers surviving service endpoints after service cessation. TSRT applies to active trust badges and witness seals.
 - **Reciprocal Recognition ([[lorelog/LLG-0411-RRC|LLG-0411]]):** Describes mutual acknowledgment loops between authorities, which may generate TSRT conditions but remain a distinct incident mechanism.
 
 ## Related Aphorisms

@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "scoring-layer", "metrics", "legibility", "weig
 
 ## Purpose
 
-This document defines the **Scoring Layer**, the evaluative surface through which Empathegy converts uneven, partial, contradictory, or burden-bearing conditions into ranked, comparable, transportable numerical outputs.
+This document defines the **Scoring Layer**, the evaluative surface through which [[haikus/HAI-LLG-0811-EG|Empathegy]] converts uneven, partial, contradictory, or burden-bearing conditions into ranked, comparable, transportable numerical outputs.
 
 A score is not the condition itself. It is the condition after admissibility, weighting, compression, and institutional preference have already acted on it.
 
@@ -172,11 +172,11 @@ When the Scoring Layer is active:
 ## Interlocks
 
 - With **Metrics of Care**: Scoring Layer operationalizes care visibility into portable values.
-- With **Support Coverage**: coverage scores are one of its most common outputs.
-- With **Silent Intervals**: quiet periods are especially vulnerable to optimistic weighting.
-- With **Complaint Suppression**: low visible complaint often enriches scores without reducing burden.
-- With **Assurance Artifacts**: scores frequently become reassurance objects once graphed.
-- With **Reassurance Collapse**: trust breaks fastest when the chart and the room diverge cleanly.
+- With **[[limericks/LIM-FREF-0820-SPC|Support Coverage]]**: coverage scores are one of its most common outputs.
+- With **[[limericks/LIM-FREF-0810-SLNT|Silent Intervals]]**: quiet periods are especially vulnerable to optimistic weighting.
+- With **[[limericks/LIM-FREF-0590-CPSP|Complaint Suppression]]**: low visible complaint often enriches scores without reducing burden.
+- With **[[limericks/LIM-FREF-0560-ASAR|Assurance Artifacts]]**: scores frequently become reassurance objects once graphed.
+- With **[[limericks/LIM-FREF-0760-RSCL|Reassurance Collapse]]**: trust breaks fastest when the chart and the room diverge cleanly.
 
 ## Approved Language
 

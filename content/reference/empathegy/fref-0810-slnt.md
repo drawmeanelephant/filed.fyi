@@ -16,7 +16,7 @@ Silent Intervals are not a single condition. They are an interpretive problem th
 
 ## Foundational Rule
 
-A Silent Interval exists when:
+A [[haikus/HAI-LLG-0334-CSI|Silent Interval]] exists when:
 
 1. a period of relative quiet, low filing, or reduced contradiction becomes visible,
 2. the interval is eligible to be read as stability, recovery, maturity, or successful care,
@@ -120,11 +120,11 @@ When a Silent Interval is observed:
 
 ## Interlocks
 
-- With **Complaint Suppression**: some quiet lanes are suppressive outputs, not calm.
-- With **Rest-Shaped Feelings**: symbolic acknowledgment often terminates in later silence.
-- With **Scoring Layer**: quiet commonly improves scores without proving relief.
-- With **Green Band Hermeneutics**: visual calm outruns interpretive caution.
-- With **Ritual Lodge Interface**: witness and ceremony may generate post-handling quiet too easily overread as closure.
+- With **[[limericks/LIM-FREF-0590-CPSP|Complaint Suppression]]**: some quiet lanes are suppressive outputs, not calm.
+- With **[[limericks/LIM-FREF-0780-RSFL|Rest-Shaped Feelings]]**: symbolic acknowledgment often terminates in later silence.
+- With **[[limericks/LIM-FREF-0800-SCRL|Scoring Layer]]**: quiet commonly improves scores without proving relief.
+- With **[[limericks/LIM-FREF-0690-GBHM|Green Band Hermeneutics]]**: visual calm outruns interpretive caution.
+- With **[[limericks/LIM-FREF-0790-RLIF|Ritual Lodge Interface]]**: witness and ceremony may generate post-handling quiet too easily overread as closure.
 
 ## Approved Language
 
