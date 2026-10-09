@@ -12,7 +12,7 @@ tags: ["reference", "empathegy", "appeals", "annexes", "contradiction", "side-ch
 
 Appeals and Annexes exist to preserve what the main line could not admit cleanly.
 
-When a filing cannot be reconciled, fully routed, or safely summarized, Empathegy does not always discard it.
+When a filing cannot be reconciled, fully routed, or safely summarized, [[haikus/HAI-LLG-0811-EG|Empathegy]] does not always discard it.
 
 Often it relocates it.
 

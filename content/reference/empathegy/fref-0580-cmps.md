@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "compassion", "interface", "soft-language", "ca
 
 ## Purpose
 
-Compassion Surfaces are those textual, visual, procedural, or interpersonal layers through which Empathegy appears kind.
+Compassion Surfaces are those textual, visual, procedural, or interpersonal layers through which [[haikus/HAI-LLG-0811-EG|Empathegy]] appears kind.
 
 They include prompts, language overlays, reassurance artifacts, check-ins, soft notices, witness phrases, and emotionally considerate UI behavior.
 

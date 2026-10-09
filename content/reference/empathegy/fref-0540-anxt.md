@@ -289,7 +289,7 @@ Some primary surfaces do not fully erase contradiction. They resolve into a neig
 
 Annex Truth is what an institution does when it cannot afford total honesty and cannot tolerate total erasure.
 
-Empathegy keeps the annex open and refuses to call it footnote.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] keeps the annex open and refuses to call it footnote.
 
 ## Related Aphorisms
 

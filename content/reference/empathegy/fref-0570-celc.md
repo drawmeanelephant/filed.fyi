@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "care", "lifecycle", "acknowledgment", "retenti
 
 ## Purpose
 
-This document defines how a care event moves through Empathegy from first signal to possible disappearance.
+This document defines how a care event moves through [[haikus/HAI-LLG-0811-EG|Empathegy]] from first signal to possible disappearance.
 
 The lifecycle does not describe ideal care.
 It describes what happens when care becomes an institutional object subject to intake, translation, scoring, and retention.
@@ -176,7 +176,7 @@ After its active phase, a care event may become:
 Still legible in reporting and archive.
 
 #### Annexed
-Recoverable only through witness notes, Lorelog, or secondary traces.
+Recoverable only through witness notes, [[lorelog|Lorelog]], or secondary traces.
 
 #### Compressed
 Visible only as a score or coverage increment.
@@ -215,7 +215,7 @@ No recurrence was filed, so support is overcredited.
 ### Gratitude Misread
 Politeness or relief at being heard is treated as proof of effective support.
 
-**Mascot Note:** In these conditions, Thankyou Ash, Gratitude Latch, and Care Coverage Wisp are often co-present: residue, latch, and coverage in sequence.
+**Mascot Note:** In these conditions, [[limericks/LIM-0221|Thankyou Ash]], [[limericks/LIM-0101|Gratitude Latch]], and [[limericks/LIM-0054|Care Coverage Wisp]] are often co-present: residue, latch, and coverage in sequence.
 
 ### Care Compression
 Complex support is flattened into one acknowledgment count.
@@ -249,7 +249,7 @@ This is **a property of the archive, not the person**.
 ### With Metrics of Care
 Coverage is often counted at Stage 2 or 3, not Stage 5 or 6.
 
-**Coverage Axis Note** Care Coverage Wisp marks where contact and acknowledgment survive best. Sidebar Mercy marks where actual fixes travel sideways. Tender Escrow marks where known remedies wait. False Rest Lantern marks when coverage and quiet are interpreted as recovery. Thankyou Ash and Gratitude Latch appear when gratitude is captured along this path and absorbed into coverage narratives.
+**Coverage Axis Note** Care Coverage Wisp marks where contact and acknowledgment survive best. [[limericks/LIM-0201|Sidebar Mercy]] marks where actual fixes travel sideways. [[limericks/LIM-0219|Tender Escrow]] marks where known remedies wait. [[limericks/LIM-0088|False Rest Lantern]] marks when coverage and quiet are interpreted as recovery. Thankyou Ash and Gratitude Latch appear when gratitude is captured along this path and absorbed into coverage narratives.
 
 ### With Scoring Layer
 Scores favor survivable traces over complex support realities.
@@ -313,7 +313,7 @@ Inside Empathegy, it is also what the institution could keep recognizing after t
 
 ## Care Cluster Note
 
-SI-9 keeps ambiguous silence on the record. False Rest Lantern is the act of calling that silence recovery. Care Coverage Wisp proves contact, Proxy Lantern provides warmth without leverage, Tender Escrow stores remedy behind approvals, Thankyou Ash holds the polite residue, and Gratitude Latch turns that residue into institutional success.
+SI-9 keeps ambiguous silence on the record. False Rest Lantern is the act of calling that silence recovery. Care Coverage Wisp proves contact, [[limericks/LIM-0168|Proxy Lantern]] provides warmth without leverage, Tender Escrow stores remedy behind approvals, Thankyou Ash holds the polite residue, and Gratitude Latch turns that residue into institutional success.
 
 ## Related Aphorisms
 

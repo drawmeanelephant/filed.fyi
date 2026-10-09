@@ -109,7 +109,7 @@ Governance language is not the opposite of truth.
 
 It is truth after passing through an institution that cannot act on everything it can describe.
 
-Empathegy standardizes that passage.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] standardizes that passage.
 
 ## Related Aphorisms
 

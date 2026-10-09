@@ -102,7 +102,7 @@ A repeated gesture creates a feeling of care presence without equivalent materia
 The system preserves a beautiful or dignified record of the burden while declining to alter its conditions.
 
 **Examples:**
-- careful Lorelog notes,
+- careful [[lorelog|Lorelog]] notes,
 - annex preservation,
 - respectful witness statements,
 - emotionally literate summaries with no follow-through.
