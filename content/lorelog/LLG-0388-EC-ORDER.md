@@ -12,7 +12,7 @@ A remediation request entered the emergency queue with complete impact analysis,
 
 The requesting team was advised to resubmit through normal channels or return if conditions became more operationally obvious. They did return, later, with degraded service, visible confusion, and worse documentation. 
 
-The second request was approved unanimously. Minutes record this as a regrettable but procedurally legible outcome.
+**The second request was approved unanimously.** Minutes record this as a regrettable but procedurally legible outcome.
 
 ## Related Aphorisms
 

@@ -8,7 +8,7 @@ tags: ["reference", "CAB", "emergency-change", "freeze-window", "recognizable-ur
 
 # Freeze Windows and Recognizable Urgency
 
-Emergency status should not be denied solely because the requesting team remained composed. That said, board confidence historically increases when operational distress is externally legible. 
+Emergency status should not be denied solely because the requesting team remained composed. That said, board confidence historically increases when **operational distress is externally legible**. 
 
 Freeze windows are scheduling conditions, not proof of heightened sanctity, though some boards continue behaving otherwise. 
 

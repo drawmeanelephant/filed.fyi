@@ -10,7 +10,7 @@ tags: ["lorelog", "bait", "ghost-audience", "self-surveillance", "expression-pre
 
 B-2B was elevated to case status after repeated filer reports of anger, hesitation, and defensive drafting in the absence of any direct confrontation. In these cases the triggering stimulus was not a reply, notification, or explicit disagreement. It was the user’s awareness that posting, liking, or even reading in public view carried a latent audience whose judgment had become ambient before becoming visible. 
 
-The pattern turns expression into preemptive argument. Users begin writing against anticipated criticism rather than toward an intended recipient, and experience the platform as already adversarial before any conflict has materially occurred. This alters provenance in a subtle way: the resulting anger feels self-generated because no one has technically done anything yet, while the structure producing it remains external, social, and highly engineered. 
+The pattern turns expression into preemptive argument. Users begin writing against anticipated criticism rather than toward an intended recipient, and experience the platform as already adversarial before any conflict has materially occurred. This alters provenance in a subtle way: the resulting anger feels self-generated because no one has technically done anything yet, while **the structure producing it remains external, social, and highly engineered**. 
 
 ---
 

@@ -34,7 +34,7 @@ Write two sentences:
 - “According to the finding, the situation is …”
 - “According to the dashboard, the situation is …”
 
-Do not reconcile them yet.
+**Do not reconcile them yet.**
 
 ---
 

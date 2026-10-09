@@ -35,7 +35,7 @@ The absence of a reconciliation date is described as:
 > “No reconciliation event was required within the observed stability period.”
 
 No one recalls requesting such a period.
-The phrase is accepted.
+**The phrase is accepted.**
 
 ---
 

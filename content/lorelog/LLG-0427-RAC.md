@@ -12,7 +12,7 @@ A repair notice was circulated declaring that a long-standing defect condition h
 
 Verification teams found that every workflow shaped by the earlier defect continued to operate unchanged. Templates, exception-safe inputs, reviewer expectations, and fallback procedures all remained fully admissible. The system called this compatibility.
 
-Opposing reviewers argued that compatibility with prior breakage was not evidence of repair, especially where the old patterns retained full practical authority. If the replacement required every inherited accommodation to remain intact, then the corrective layer had preserved the defect's behavioral footprint even while renaming its status.
+Opposing reviewers argued that **compatibility with prior breakage was not evidence of repair**, especially where the old patterns retained full practical authority. If the replacement required every inherited accommodation to remain intact, then the corrective layer had preserved the defect's behavioral footprint even while renaming its status.
 
 This created a split record. Assurance-facing summaries cited calm transition as proof of success. Structural review cited unchanged burden pathways as proof that correction had not yet crossed into release.
 

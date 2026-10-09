@@ -14,7 +14,7 @@ The change did not remove the burden. It changed the moral and procedural postur
 
 Once reframed as realism, inherited accommodations became harder to challenge. Staff describing the load as ongoing were treated as insufficiently adapted to present conditions. Teams that had learned to operate inside contradiction were praised for maturity, even where the contradiction itself remained active across layers.
 
-The archive notes a specific danger here: historical burden is easiest to preserve when it no longer sounds temporary enough to question.
+The archive notes a specific danger here: **historical burden is easiest to preserve when it no longer sounds temporary enough to question**.
 
 This file remains active because the reclassification improved social calm while reducing the archive's ability to name what had actually persisted.
 

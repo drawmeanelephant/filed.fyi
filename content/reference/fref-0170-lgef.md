@@ -8,7 +8,7 @@ tags: ["reference", "core-doctrines"]
 
 # Lorelog Governed Entropy Framework
 
-The lorelog is a self-indexing bureaucratic decay field, not a correctness-oriented database.
+The lorelog is a self-indexing bureaucratic decay field, **not a correctness-oriented database**.
 (margin: Bricky notes this definition already assumes decay is self-governing rather than managed)
 
 This framework governs future edits, new entries, and explicit graph repair. It does not authorize a full retrospective cleanup.
