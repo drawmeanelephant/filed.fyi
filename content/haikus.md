@@ -9,4 +9,4 @@ tags: ["haikus"]
 
 Collected verse from the Filed world: haikus.
 
-Count: 520 records.
+Count: 543 records.
