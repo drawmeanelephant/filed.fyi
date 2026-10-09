@@ -147,11 +147,11 @@ When Proxy Compassion is present:
 
 ## Interlocks
 
-- With **Compassion Surfaces**: Proxy Compassion is one of its most visible forms.
-- With **Rehearsed Kindness**: synthetic or scripted care often powers proxy surfaces.
-- With **Gratitude Capture**: proxy layers attract thanks disproportionately.
+- With **[[limericks/LIM-FREF-0580-CMPS|Compassion Surfaces]]**: Proxy Compassion is one of its most visible forms.
+- With **[[limericks/LIM-FREF-0770-RHKD|Rehearsed Kindness]]**: synthetic or scripted care often powers proxy surfaces.
+- With **[[limericks/LIM-FREF-0670-GTCAP|Gratitude Capture]]**: proxy layers attract thanks disproportionately.
 - With **Metrics of Care**: interface kindness is especially vulnerable to being overcounted as support.
-- With **Reassurance Collapse**: once subjects realize the proxy cannot act, warmth may curdle into suspicion.
+- With **[[limericks/LIM-FREF-0760-RSCL|Reassurance Collapse]]**: once subjects realize the proxy cannot act, warmth may curdle into suspicion.
 
 ## Approved Language
 
@@ -174,7 +174,7 @@ When Proxy Compassion is present:
 
 Proxy Compassion is what an institution learns when it can afford tenderness faster than redistribution.
 
-Empathegy keeps the tenderness and marks the missing key.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] keeps the tenderness and marks the missing key.
 
 ## Related Entries
 

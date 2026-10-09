@@ -25,7 +25,7 @@ Continuity-compatible phrasing is permitted only when it preserves routeable sub
 
 If phrasing reduces volatility but also destroys the ability to identify burden, then it has **crossed from translation into laundering**.
 
-Empathegy recognizes the distinction.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] recognizes the distinction.
 It does not always prevent the crossing.
 
 ---
@@ -82,7 +82,7 @@ Do not use it as the only preserved record when:
 - silence or reassurance will later be overread,
 - the softened form would be mistaken for stability.
 
-In such cases, preserve the sharper phrasing in annex, witness note, or Lorelog trace.
+In such cases, preserve the sharper phrasing in annex, witness note, or [[lorelog|Lorelog]] trace.
 
 ---
 

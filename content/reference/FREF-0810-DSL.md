@@ -60,7 +60,7 @@ Dead Service Layer entries are organized by the emotional weather of their shutd
   Plain declarations paired with parked domains and generic errors.  
   **Example:** Skweezer’s free service has been shut down; forum entries reduced to May 2010 Parked or This service is no longer available. 
 
-Complimentary Ghostline specializes in the procedural phrasing inside these categories, treating shutdown as scheduling rather than rupture. 
+[[limericks/LIM-0064|Complimentary Ghostline]] specializes in the procedural phrasing inside these categories, treating shutdown as scheduling rather than rupture. 
 
 ---
 
@@ -94,15 +94,15 @@ Across sectors, Dead Service Layer instances share structural traits.
 
 Dead Service Layer sits at the intersection of several existing doctrines.
 
-- **Managed Absence Spine**  
+- **[[limericks/LIM-FREF-0815-MAP|Managed Absence Spine]]**  
   DSL instances are often reclassified as Archivally Asserted, Operationally Absent AAOA or Locally Canonical, Globally Unrecognized LCGU when their traces are preserved but obligations are not.   
   They are present enough to cite, absent enough to ignore.
 
-- **Assurance Optics and Metrics of Care**  
+- **[[limericks/LIM-FREF-0070-AOPT|Assurance Optics]] and Metrics of Care**  
   Shutdown language is routed through assurance vocabulary: retired, aligned, end-of-life rather than failed, removed, broken.   
   Metrics of Care may record that notifications were sent, coverage achieved, and acknowledgments captured, without any relief for users who lost tools. 
 
-- **Lorelog incident families**  
+- **[[lorelog|Lorelog]] incident families**  
   Cases involving orphaned inventory, shadow forms, and supersession loops often land in DSL once their practical use has ceased but their forms remain live.   
   **Mapping:** shadow forms and amendments [[lorelog/LLG-0244-FSC|LLG-0244-FSC]], [[lorelog/LLG-0218-FSD|LLG-0218-FSD]] becoming conceptually active, administratively retired under MAP doctrine. 
 

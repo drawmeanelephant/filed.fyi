@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "annex", "recovery", "residue", "lorelog"]
 
 ## Purpose
 
-This document defines how Empathegy recovers burden, contradiction, and care meaning after that meaning has fallen out of primary visibility.
+This document defines how [[haikus/HAI-LLG-0811-EG|Empathegy]] recovers burden, contradiction, and care meaning after that meaning has fallen out of primary visibility.
 
 Annex Recovery does not restore the original event.
 It restores enough interpretive structure to prevent the archive from lying more neatly than the event occurred.
@@ -41,10 +41,10 @@ Some survive as:
 - witness statements,
 - hover text,
 - discarded field copies,
-- Lorelog fragments,
+- [[lorelog|Lorelog]] fragments,
 - mascot residue,
 - contested guidance,
-- Low-Confidence Objects,
+- [[limericks/LIM-FREF-0730-LCOB|Low-Confidence Objects]],
 - managed-absence references.
 
 These traces do not prove the whole event.

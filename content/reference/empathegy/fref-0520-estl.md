@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "aesthetics", "imitation", "legibility", "drift
 
 ## Premise
 
-Empathegy does not govern only feelings.
+[[haikus/HAI-LLG-0811-EG|Empathegy]] does not govern only feelings.
 It also governs the visual and procedural signals by which participants remain institutionally legible.
 
 When local design language is weak, borrowed correctness becomes a survival strategy.

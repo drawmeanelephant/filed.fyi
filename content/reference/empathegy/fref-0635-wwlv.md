@@ -12,7 +12,7 @@ tags: ["reference", "empathegy", "witness", "leverage-gap", "custody-routing", "
 
 This note defines the filing and custody obligations that apply when testimony
 arrives at a layer that cannot initiate corrective action, escalation, or
-reclassification. It does not govern what witnessing is — see Witness Protocol.
+reclassification. It does not govern what witnessing is — see [[limericks/LIM-FREF-0880-WPRT|Witness Protocol]].
 It does not govern courtesy-without-leverage — see [[reference/FREF-0630-CWLV|FREF-0630-CWLV]]. It governs
 what the record must contain when testimony has been received by the wrong
 structural layer, and when that mismatch is not an error but a feature of
@@ -64,7 +64,7 @@ from its current location regardless of content.
 | Courtesy Without Leverage ([[reference/FREF-0630-CWLV|FREF-0630-CWLV]]) | Tone, warmth, acknowledgment | That file — governs output, not routing |
 | Witness Protocol | How witnessing is structured and validated | That file — governs form, not custody destination |
 | Dual Certification ([[reference/FREF-0640-DCER|FREF-0640-DCER]]) | Both incompatible readings preserved | Partially adjacent — dual cert may result from a custody gap |
-| Minutes Without Motion (mascot 327) | SCL producing testimony without classification change | Related — mascot embodies this condition; this note governs the routing rule |
+| [[limericks/LIM-0141|Minutes Without Motion]] (mascot 327) | SCL producing testimony without classification change | Related — mascot embodies this condition; this note governs the routing rule |
 | Witness Without Leverage (this note) | Testimony received at a non-action layer | **This file** |
 
 ---

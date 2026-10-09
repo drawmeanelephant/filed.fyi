@@ -10,7 +10,7 @@ tags: ["reference", "empathegy", "dual-certification", "contradiction", "continu
 
 ## Purpose
 
-This document defines the conditions under which Empathegy preserves more than one official reading of the same interval, event, object, or burden state.
+This document defines the conditions under which [[haikus/HAI-LLG-0811-EG|Empathegy]] preserves more than one official reading of the same interval, event, object, or burden state.
 
 Dual certification is not a reconciliation method.
 It is a contradiction retention method.
@@ -90,7 +90,7 @@ Two directives classify the same matter differently while remaining internally c
 ### 2. Surface–Annex Dual Certification
 
 Headline systems preserve one reading.
-Annex, witness, or Lorelog systems preserve another.
+Annex, witness, or [[lorelog|Lorelog]] systems preserve another.
 
 **Examples:**
 - dashboard-safe stability / burden-positive annex
