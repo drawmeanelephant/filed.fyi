@@ -16,7 +16,7 @@ The chamber argued that its luncheon sponsorship conferred primary ownership. Th
 
 The object is now stored under joint seal.
 
-Public-facing materials have been advised to use the phrase commemoratively continuous rather than original, though the phrase has already begun acquiring a legitimacy of its own.
+Public-facing materials have been advised to use the phrase commemoratively continuous rather than original, though **the phrase has already begun acquiring a legitimacy of its own.**
 ---
 
 ## Related Aphorisms

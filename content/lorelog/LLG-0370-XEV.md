@@ -10,7 +10,7 @@ tags: ["lorelog", "sentiment-processing", "dashboard-safe-affect", "serotonin", 
 
 Repeated cross-directive disputes revealed that a single emotional record could be treated as proof of strain by SOMA, proof of routing by RAGE, insufficiently local by DOGE, and continuity-neutral by COMA if the person kept working through it. The Weighting Table was commissioned to reduce contradictory handling. It succeeded only in documenting the contradiction at a higher resolution. 
 
-Directive Liaison notes that none of the systems disagree that the feeling occurred. The disagreement concerns what the feeling is evidence of. In this sense the table is considered a success, because it transformed ambient confusion into named incompatibility, which is the archive’s preferred form of progress. 
+Directive Liaison notes that none of the systems disagree that the feeling occurred. The disagreement concerns what the feeling is evidence of. In this sense the table is considered a success, because it **transformed ambient confusion into named incompatibility**, which is the archive’s preferred form of progress. 
 
 ---
 

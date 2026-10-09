@@ -122,7 +122,7 @@ For the time being:
 
 The incident is recorded as further confirmation that stabilization attempts,  
 including Council rituals intended only to describe cluster behavior,  
-are themselves part of that behavior.
+**are themselves part of that behavior.**
 
 ## Related Aphorisms
 

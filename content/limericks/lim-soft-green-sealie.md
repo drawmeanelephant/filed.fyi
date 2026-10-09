@@ -29,7 +29,7 @@ You click it to lessen the load,
 But it's just an aestheticized mode.  
 The Sealie is cute,  
 But the system is mute,  
-And nothing is changed in the code.  
+**And nothing is changed in the code.**  
 
 
 
