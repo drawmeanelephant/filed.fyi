@@ -12,7 +12,7 @@ relations: [relates_to=lorelog/LLG-0244-FSC, relates_to=lorelog/LLG-0218-FSD, re
 The Dead Service Layer (DSL) defines the stratum where active service operations have ceased while infrastructure traces remain present in the archive. 
 It covers ISP features, campus shell hosts, middleware, and portals that no longer process live requests but persist as URLs, MX records, legacy form options, billing categories, or agenda bullets. 
 
-Boundary Note: DSL describes the surviving physical and textual traces of a service after operational deprovisioning. Managed Absence (FREF-0815) describes the administrative handling status (such as AAOA or CAAR) that may be applied to those traces and to other retired-but-influential objects.
+**Boundary Note:** DSL describes the surviving physical and textual traces of a service after operational deprovisioning. Managed Absence ([[reference/FREF-0815-MAP|FREF-0815]]) describes the administrative handling status (such as AAOA or CAAR) that may be applied to those traces and to other retired-but-influential objects.
 
 ---
 
@@ -26,7 +26,7 @@ A system belongs to the Dead Service Layer when most of the following apply:
 - The primary surviving record is a notice, agenda item, or directory line about the service, not the service itself. 
 - Successor platforms exist, but traces of the prior system are still being maintained, billed, or cited. 
 
-Examples include:
+**Examples include:**
 
 - ISP Usenet access marketed as a complimentary service, later framed as discontinued in alignment with other providers while the protocol and third-party backbones continued elsewhere. 
 - Campus UNIX hosts UHUNIX-style shells, where the machine is retiring at the end of the academic year but Ask Us articles, lesson plans, and thousands of public URLs persist. 
@@ -42,23 +42,23 @@ Dead Service Layer entries are organized by the emotional weather of their shutd
 
 - **Reassurance**  
   Nothing changes yet, even as closure is announced.  
-  Example: Existing accounts have not changed. You can continue to enjoy this service until later this year. You don’t need to change a thing right now. 
+  **Example:** Existing accounts have not changed. You can continue to enjoy this service until later this year. You don’t need to change a thing right now. 
 
 - **Confusion**  
   Contradictory tenses and half-measures.  
-  Example: Effective October 25, 2008 the service has been discontinued. If you have already signed up, please be aware that this service will be discontinued on 10/25/2008. 
+  **Example:** Effective October 25, 2008 the service has been discontinued. If you have already signed up, please be aware that this service will be discontinued on 10/25/2008. 
 
 - **Containment**  
   Narrowing access without calling it death.  
-  Example: This service is no longer available to new customers effective May 31, 2012. Existing users can access the service as normal. 
+  **Example:** This service is no longer available to new customers effective May 31, 2012. Existing users can access the service as normal. 
 
 - **Escalation**  
   Official verbs harden: shut down, formally closed, will cease to exist, but the infrastructure footprint lingers.   
-  Example: On September 30, the service will be officially shut down; users will be unable to log in and all APIs will go down. 
+  **Example:** On September 30, the service will be officially shut down; users will be unable to log in and all APIs will go down. 
 
 - **Abandonment**  
   Plain declarations paired with parked domains and generic errors.  
-  Example: Skweezer’s free service has been shut down; forum entries reduced to May 2010 Parked or This service is no longer available. 
+  **Example:** Skweezer’s free service has been shut down; forum entries reduced to May 2010 Parked or This service is no longer available. 
 
 Complimentary Ghostline specializes in the procedural phrasing inside these categories, treating shutdown as scheduling rather than rupture. 
 
@@ -104,12 +104,12 @@ Dead Service Layer sits at the intersection of several existing doctrines.
 
 - **Lorelog incident families**  
   Cases involving orphaned inventory, shadow forms, and supersession loops often land in DSL once their practical use has ceased but their forms remain live.   
-  Mapping: shadow forms and amendments LLG-0244-FSC, LLG-0218-FSD becoming conceptually active, administratively retired under MAP doctrine. 
+  **Mapping:** shadow forms and amendments [[lorelog/LLG-0244-FSC|LLG-0244-FSC]], [[lorelog/LLG-0218-FSD|LLG-0218-FSD]] becoming conceptually active, administratively retired under MAP doctrine. 
 
 - **Mascot strata**  
-  - Complimentary Ghostline: language-layer mascot for discontinuations that insist on politeness and future tense.   
+  - **Complimentary Ghostline:** language-layer mascot for discontinuations that insist on politeness and future tense.   
   - Future infrastructural mascots may anchor DSL around endpoints that still answer without delivering the original service.
-  - Where the surviving layer is not an endpoint or service trace but a persuasive trust mark that continues guiding behavior, route instead to FREF-0823-TSRT.
+  - Where the surviving layer is not an endpoint or service trace but a persuasive trust mark that continues guiding behavior, route instead to [[reference/FREF-0823-TSRT|FREF-0823-TSRT]].
 
 ---
 
@@ -129,7 +129,7 @@ When you encounter a candidate Dead Service Layer object:
 4. **Link to mascots and lorelogs.**  
    Attach DSL cases to mascots that describe their language or behavior and to lorelogs that document surrounding doctrine drift. 
 
-Archive position: the Dead Service Layer is where services go when they have already left, but the paperwork has not yet been taught how to say so plainly.
+**Archive position:** the Dead Service Layer is where services go when they have already left, but the paperwork has not yet been taught how to say so plainly.
 
 ## Related Aphorisms
 

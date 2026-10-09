@@ -60,7 +60,7 @@ It is selection.
 
 A simple acknowledgment field survives while the interaction generating it degrades.
 
-Examples:
+**Examples:**
 - acknowledgment click persists,
 - “care event completed” remains,
 - follow-up detail is gone.
@@ -71,7 +71,7 @@ Examples:
 
 Rich support exchanges are merged into summary states that preserve contact without preserving texture.
 
-Examples:
+**Examples:**
 - multiple support threads collapsed into one completed interval,
 - escalation, delay, and refusal compressed into “seen.”
 
@@ -81,7 +81,7 @@ Examples:
 
 Privacy or storage policies delete complex interaction details once the system has extracted a simpler proof token.
 
-Examples:
+**Examples:**
 - details eligible for deletion after acknowledgment,
 - narrative logs pruned after coverage capture,
 - contextual threads stripped to compliance residue.
@@ -92,7 +92,7 @@ Examples:
 
 Simple support events remain inferable later through downstream artifacts, while complex interventions become statistically absent.
 
-Examples:
+**Examples:**
 - aggregate bars preserve simple acknowledgments,
 - rich support survives nowhere except contested recollection,
 - later audits reconstruct shallow care more easily than deep care.
@@ -103,7 +103,7 @@ Examples:
 
 Decision-makers treat the surviving acknowledgment layer as an adequate proxy for total support reality.
 
-Examples:
+**Examples:**
 - stable coverage bars taken as mitigation proof,
 - acknowledgment counts cited over local testimony,
 - “people were seen” treated as sufficient response.
@@ -132,7 +132,7 @@ This doctrine concerns differential survivability after an interaction occurred,
 
 ## Typical Signs
 
-Signs include:
+**Signs include:**
 - coverage bars remain stable while staff remember thin support,
 - rich interventions are hard to reconstruct even shortly after they occur,
 - reporting layers retain counts but not context,
@@ -140,7 +140,7 @@ Signs include:
 - follow-up, refusal, and emotional residue disappear first,
 - later readers can prove acknowledgment more easily than accommodation.
 
-A key sign:
+**A key sign:**
 The institution can demonstrate that people were seen more easily than that anything happened because they were seen.
 
 ---
@@ -188,7 +188,7 @@ The archive remembers its manners better than its obligations.
 
 ## Review Questions
 
-Ask:
+**Ask:**
 1. What survived the interaction?
 2. What was deleted, merged, or rendered non-interpretive?
 3. Can later readers reconstruct support depth, or only its completion?
@@ -209,10 +209,10 @@ When Acknowledgment Deletion Bias is present:
 4. attach recoverability warnings to coverage metrics,
 5. prohibit claims that supported counts equal preserved support depth.
 
-Minimum note:
+**Minimum note:**
 “Acknowledgment survived; support depth incompletely recoverable.”
 
-Stronger note:
+**Stronger note:**
 “Retention and reporting favor receipt markers over contextual care traces.”
 
 ---
@@ -238,7 +238,7 @@ The marker that the interaction happened can outlast any ability to assess wheth
 
 ## Approved Language
 
-Preferred phrases:
+**Preferred phrases:**
 - acknowledgment deletion bias suspected
 - seen-ness outlasted support depth
 - marker survived, context degraded
@@ -246,7 +246,7 @@ Preferred phrases:
 - completion trace present; consequence unclear
 - support memory structurally flattened
 
-Disallowed phrases:
+**Disallowed phrases:**
 - acknowledgment retention is enough
 - the click proves the care
 - deleted context was non-essential
@@ -271,7 +271,7 @@ Empathegy treats the surviving marker as evidence that contact occurred, and evi
 - **Annex Hush** governs its rear-section volume.
 - **Footnote Pallbearer** carries context just below the line, preserving it while lowering its ability to interrupt.
 
-Doctrine Note These mascots distinguish *preservation* from *influence*. A burden may be perfectly recorded in the annex and almost absent from the decision.
+**Doctrine Note** These mascots distinguish *preservation* from *influence*. A burden may be perfectly recorded in the annex and almost absent from the decision.
 
 ## Related Aphorisms
 

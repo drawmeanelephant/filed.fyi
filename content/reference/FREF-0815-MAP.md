@@ -12,7 +12,7 @@ relations: [relates_to=reference/FREF-0810-DSL, relates_to=lorelog/LLG-0244-FSC,
 The Managed Absence Spine (MAP) is the structural handling framework for items that remain institutionally influential despite retirement, absence, or local-only authority. 
 It assigns classification codes (CAAR, AAOA, LCGU) to systems, forms, mascots, and doctrines that are administratively retired while continuing to shape archive behavior. 
 
-Boundary Note: MAP provides the administrative handling classifications applied to retired-but-influential objects. It encompasses Dead Service Layer traces (FREF-0810), shadow form drafts, and synthetic affect residues, but does not replace their specific domain definitions or serve as a synonym for service cessation.
+**Boundary Note:** MAP provides the administrative handling classifications applied to retired-but-influential objects. It encompasses Dead Service Layer traces (FREF-0810), shadow form drafts, and synthetic affect residues, but does not replace their specific domain definitions or serve as a synonym for service cessation.
 
 ---
 
@@ -29,7 +29,7 @@ Common managed-absence classifications include:
 
 - **CAAR – Conceptually Active, Administratively Retired**  
   The idea still drives behavior; the implementation is officially over.  
-  Example: FeelingSeeder decommissioned in diagrams, alive in successor behaviors. 
+  **Example:** FeelingSeeder decommissioned in diagrams, alive in successor behaviors. 
 
 - **AAOA – Archivally Asserted, Operationally Absent**  
   The archive declares that something once existed and still frames interpretation, but no live workflow depends on it. 
@@ -52,7 +52,7 @@ The following layers and artifacts are explicitly anchored to the Managed Absenc
 - **Synthetic Affect Successor Suite residues**  
   - FeelingSeeder marked as CAAR and moved to Synthetic Affect Archive, even as its geometry persists in successor tools and training echoes.   
   - Sandbox-only affect and test personas whose patterns now shape live directives without clear lineage.  
-  - Boundary Note: MAP classifies and holds retired synthetic sources and artifacts; Training Echo Handling (FREF-0840-TEH) describes the ongoing behavioral inheritance that persists in live filing habits. 
+  - **Boundary Note:** MAP classifies and holds retired synthetic sources and artifacts; Training Echo Handling ([[reference/FREF-0840-TEH|FREF-0840-TEH]]) describes the ongoing behavioral inheritance that persists in live filing habits. 
 
 - **Form shadow drafts and amendment echoes**  
   - Shadow amendments and deactivated drafts that continue to govern behavior despite being formally retired.   
@@ -94,16 +94,16 @@ MAP doctrine is inferred from how cases are handled across reference and lorelog
 Managed absence emerges most visibly at directive boundaries.
 
 - **SOMA / COMA / C.U.N.T.I.E.R. (Directive Conflict Stack)**  
-  - Rest can be simultaneously required (SOMA-72) and unauthorized (COMA-19) as long as both filings exist; MAP holds the coexistence without forcing precedence.   
+  - Rest can be simultaneously required (`SOMA-72`) and unauthorized (`COMA-19`) as long as both filings exist; MAP holds the coexistence without forcing precedence.   
   - Metrics of Care and Assurance Optics often tag intervals as cared-for in dashboards while continuity logic treats them as uninterrupted; MAP captures these as AAOA care events. 
 
 - **Assurance Vocabulary and Optics**  
   - Curated absence, independent archival unit, and managed absence language are used to rename unresolved gaps in a way dashboards can tolerate.   
   - MAP provides doctrinal backing so curated absence is not purely decorative. 
-  - Not all residual authority conditions belong to managed absence proper; some trust-bearing surfaces remain active as behavioral guides after verification thins, a neighboring condition indexed under FREF-0823-TSRT. 
+  - Not all residual authority conditions belong to managed absence proper; some trust-bearing surfaces remain active as behavioral guides after verification thins, a neighboring condition indexed under [[reference/FREF-0823-TSRT|FREF-0823-TSRT]]. 
 
 - **Lorelog and Forms Registry**  
-  - Cases such as COMA-19 overuse, phrasebook clarifications, and shadow amendment chains are resolved on paper while behavior drifts.   
+  - Cases such as `COMA-19` overuse, phrasebook clarifications, and shadow amendment chains are resolved on paper while behavior drifts.   
   - MAP is where those “resolved” but operationally persistent patterns are pinned.
 
 ---
@@ -114,7 +114,7 @@ Several mascots either live directly on MAP or operate at its edges.
 
 - **Complimentary Ghostline**  
   - Language-layer mascot for services that are officially discontinued but textually operational; explicitly affiliated with the Managed Absence Spine.   
-  - Failure domain: shutdown treated as scheduling, loss converted into lifecycle language, continuity handled as documentation problem. 
+  - **Failure domain:** shutdown treated as scheduling, loss converted into lifecycle language, continuity handled as documentation problem. 
 
 - **Assurance Optics stack mascots (e.g., Soft Green Seals, AV desk entities)**  
   - Maintain the appearance of continuity by translating failures into managed-absence vocabulary and attaching seals, leaving the underlying object unchanged. 
@@ -147,7 +147,7 @@ When assigning an object to the Managed Absence Spine:
 4. **Do not promise remediation.**  
    MAP entries acknowledge influence, not future work; any remediation plans belong in separate, non-spine documents. 
 
-Archive position: Managed absence is how the system admits something is over without letting it leave the story.
+**Archive position:** Managed absence is how the system admits something is over without letting it leave the story.
 
 ## Related Aphorisms
 

@@ -37,7 +37,7 @@ Appeals may challenge:
 An appeal is not proof that the original handling was wrong.
 It is proof that the original handling was not uncontested.
 
-Many appeals begin not because the primary handling is wholly false, but because it is adjacent enough to pass and wrong enough to matter. Where a filing resolves cleanly into a non-governing interpretation, Empathegy should consider `FREF-0560-ADJC` Adjacent Correctness before treating the dispute as merely tonal.
+Many appeals begin not because the primary handling is wholly false, but because it is adjacent enough to pass and wrong enough to matter. Where a filing resolves cleanly into a non-governing interpretation, Empathegy should consider [[reference/FREF-0560-ADJC|FREF-0560-ADJC]] Adjacent Correctness before treating the dispute as merely tonal.
 
 ---
 
@@ -57,7 +57,7 @@ Annexes often contain:
 
 The archive treats annex material as secondary in visibility, not in seriousness.
 
-Annexes also accumulate ceremonial provenance. Repeated attachment, citation, and preservation can alter the authority of annex materials over time, especially where the annex is consulted more faithfully than the headline it supplements. Where this occurs, see `FREF-0570-APCR` Artifact Provenance Under Repeated Ceremonial Use.
+Annexes also accumulate ceremonial provenance. Repeated attachment, citation, and preservation can alter the authority of annex materials over time, especially where the annex is consulted more faithfully than the headline it supplements. Where this occurs, see [[reference/FREF-0570-APCR|FREF-0570-APCR]] Artifact Provenance Under Repeated Ceremonial Use.
 
 ---
 
@@ -132,7 +132,7 @@ Where appeals and annexes are used, the following protections apply:
 
 ## Sanctioned Language
 
-Preferred phrases:
+**Preferred phrases:**
 - headline classification contested in annex
 - burden preserved outside primary summary
 - appeal attached; disposition unchanged
@@ -140,7 +140,7 @@ Preferred phrases:
 - explanation preserved without routing elevation
 - closure achieved administratively, not interpretively
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the matter is settled because the summary is short
 - annexed means irrelevant
 - no further issue exists because no dashboard displays it

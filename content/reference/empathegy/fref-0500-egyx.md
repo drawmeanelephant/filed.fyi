@@ -39,23 +39,23 @@ Raw feeling is therefore treated as pre-governance substrate.
 
 ### 1. Unrendered Affect
 
-Definition:
+**Definition:**
 Emotional expression present in human reality but not yet admitted into system representation.
 
-Characteristics:
+**Characteristics:**
 - narrative
 - contradictory
 - context-dependent
 - difficult to compare across individuals or teams
 - often interpreted as sincere but procedurally incomplete
 
-Operational Handling:
+**Operational Handling:**
 - hold for intake
 - do not escalate directly
 - route toward translation surfaces
 - mark as pending legibility
 
-Notes:
+**Notes:**
 Unrendered Affect is not considered invalid.
 It is considered unprepared.
 
@@ -63,44 +63,44 @@ It is considered unprepared.
 
 ### 2. Classifiable Affect
 
-Definition:
+**Definition:**
 Affective material that has been sufficiently normalized to enter a sanctioned category without breaking comparative consistency.
 
-Characteristics:
+**Characteristics:**
 - recognizable signal pattern
 - consistent enough to be grouped
 - mappable to existing dashboards or case structures
 - eligible for trend treatment
 
-Operational Handling:
+**Operational Handling:**
 - assign category
 - attach severity band
 - permit dashboard inclusion
 - preserve as managed input
 
-Notes:
+**Notes:**
 Classifiable Affect is the minimum threshold for institutional attention.
 
 ---
 
 ### 3. Governable Affect
 
-Definition:
+**Definition:**
 Classified affect that can be acted upon through an approved operational pathway.
 
-Characteristics:
+**Characteristics:**
 - already normalized
 - attached to an escalation path or ritual container
 - eligible for administrative action
 - legible to continuity systems
 
-Operational Handling:
+**Operational Handling:**
 - assign owner
 - route to intervention layer
 - measure follow-through
 - report as governance activity
 
-Notes:
+**Notes:**
 Not all classifiable affect becomes governable.
 If no stable process can hold it, it remains visible but administratively thin.
 
@@ -108,22 +108,22 @@ If no stable process can hold it, it remains visible but administratively thin.
 
 ### 4. Dashboard-Safe Affect
 
-Definition:
+**Definition:**
 Governable affect whose representation does not destabilize aggregate reporting or executive interpretation.
 
-Characteristics:
+**Characteristics:**
 - compressible
 - trend-compatible
 - non-contradictory under presentation
 - graphable without significant annotation burden
 
-Operational Handling:
+**Operational Handling:**
 - include in reporting layer
 - permit comparative indexing
 - use in summary decks
 - weight for continuity scoring
 
-Notes:
+**Notes:**
 Dashboard-Safe Affect is often mistaken for resolved affect.
 This is a category error, but a common one.
 
@@ -131,22 +131,22 @@ This is a category error, but a common one.
 
 ### 5. Visibility-Excluded Affect
 
-Definition:
+**Definition:**
 Affective states operationally present but omitted from aggregate visibility due to incoherence, contradiction, volatility, or rendering cost.
 
-Characteristics:
+**Characteristics:**
 - difficult to linearize
 - low curve coherence
 - mixed signals
 - high annotation load
 - not absent, only underrepresented
 
-Operational Handling:
+**Operational Handling:**
 - preserve in annex or local record
 - exclude from top-line score outputs
 - prohibit interpretation of exclusion as non-existence
 
-Notes:
+**Notes:**
 Visibility exclusion is a measurement limit, not a disappearance event.
 
 ---

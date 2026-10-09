@@ -58,7 +58,7 @@ They establish that the surface account is insufficient.
 
 Meaning is reconstructed from formal side-channel materials attached to the event.
 
-Common sources:
+**Common sources:**
 - annex notes,
 - shadow interpretation fields,
 - non-headline dashboard layers,
@@ -70,7 +70,7 @@ Common sources:
 
 Meaning is reconstructed through records whose main function was preservation rather than action.
 
-Common sources:
+**Common sources:**
 - witness protocol notes,
 - contradiction markers,
 - ritual lodge acknowledgments,
@@ -82,7 +82,7 @@ Common sources:
 
 Meaning is reconstructed through historical or narrative archival fragments.
 
-Common sources:
+**Common sources:**
 - Lorelog incident entries,
 - case-number adjacency,
 - filing notes,
@@ -95,7 +95,7 @@ Common sources:
 
 Meaning is inferred from low-confidence artifacts or objects that are heavily referenced but weakly defined.
 
-Common sources:
+**Common sources:**
 - seals,
 - icons,
 - pseudo-forms,
@@ -109,7 +109,7 @@ Common sources:
 
 Meaning is reconstructed by classifying what is missing, superseded, retired, unlocatable, or no longer interpretively surfaced.
 
-Common sources:
+**Common sources:**
 - CAAR, LCGU, STCP, AAOA conditions,
 - post-threshold archival states,
 - withdrawn fields still shaping behavior,
@@ -191,7 +191,7 @@ Every recovery record should specify:
 - what remains uncertain,
 - whether the recovered meaning is operational, archival, or symbolic only.
 
-Minimum disclaimer:
+**Minimum disclaimer:**
 “Recovery reconstructs interpretive pressure, not full event fidelity.”
 
 ---
@@ -235,7 +235,7 @@ A weak recovery is performed mostly so that no one has to admit full loss.
 
 Low-Confidence Objects often trigger Annex Recovery because they produce effects stronger than their surviving definitions.
 
-Examples:
+**Examples:**
 - reassurance seals used as proof without stable meaning,
 - absent statement forms shaping retention decisions,
 - canonical references to templates no one can produce,
@@ -273,7 +273,7 @@ They preserve the shape of its disappearance.
 
 ## Sanctioned Language
 
-Preferred phrases:
+**Preferred phrases:**
 - annex recovery initiated
 - surface account insufficient
 - partial recovery achieved
@@ -282,7 +282,7 @@ Preferred phrases:
 - non-recoverable but contested
 - absence class aids reconstruction
 
-Disallowed phrases:
+**Disallowed phrases:**
 - the annex reveals what really happened
 - side channels are always truer
 - recovered fragment confirms total reconstruction
