@@ -57,7 +57,7 @@ A falling complaint count may therefore indicate not calm, but adaptation.
 
 Complaints decrease because the system responds more favorably to flattened, mechanical, or continuity-safe language than to direct strain expression.
 
-Examples:
+**Examples:**
 - care-coded requests fare worse than mechanical ones,
 - compassionate phrasing reduces approval,
 - phrasebook compliance replaces plain distress.
@@ -68,7 +68,7 @@ Examples:
 
 Complaints decrease because prior complaints produced acknowledgment without relief or generated no material change.
 
-Examples:
+**Examples:**
 - repeated denied rest requests,
 - witness loops without accommodation,
 - EFA-style emotional dockets with no downstream effect.
@@ -79,7 +79,7 @@ Examples:
 
 Complaints decrease because expression carries interpersonal, cultural, or reputational penalties.
 
-Examples:
+**Examples:**
 - no one wants to be the person who stains the dashboard,
 - complaint reads as weakness,
 - teams enforce quiet solidarity.
@@ -90,7 +90,7 @@ Examples:
 
 Complaint energy is redirected into symbolic or low-impact channels that absorb expression without altering conditions.
 
-Examples:
+**Examples:**
 - check-ins,
 - vent tickets,
 - gratitude rituals,
@@ -102,7 +102,7 @@ Examples:
 
 People reduce visible complaint behavior because they know silence and complaint alike are being measured.
 
-Examples:
+**Examples:**
 - SBI-aware suppression,
 - metric-avoidance filing habits,
 - carefully timed low-signal expression to keep bands acceptable.
@@ -159,7 +159,7 @@ Strong indicators include:
 - increased use of symbolic acknowledgment channels instead of actionable ones,
 - private candor paired with public quiet.
 
-Additional indicator:
+**Additional indicator:**
 People can explain how to ask more safely, but not how to get more help.
 
 ---
@@ -228,10 +228,10 @@ When complaint suppression is suspected:
 4. record whether the complaint path is costly, risky, or futile,
 5. prohibit celebratory language about silence unless relief is independently demonstrated.
 
-Minimum note:
+**Minimum note:**
 “Complaint volume low; suppression dynamics not ruled out.”
 
-Stronger note:
+**Stronger note:**
 “Silence may reflect filing cost, parser pressure, or learned futility rather than reduced strain.”
 
 ---
