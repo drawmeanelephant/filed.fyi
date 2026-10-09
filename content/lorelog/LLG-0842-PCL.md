@@ -88,7 +88,7 @@ The first institutional response emphasized training.
 
 The second emphasized resilience.
 
-Only the third admitted the possibility that warmth had become compensatory infrastructure.
+Only the third admitted the possibility that warmth had become **compensatory infrastructure**.
 
 Recommended handling now includes:
 
