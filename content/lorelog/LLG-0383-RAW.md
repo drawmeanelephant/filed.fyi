@@ -21,7 +21,7 @@ The Chamber declined immediate suspension on reputational grounds. Instead, all 
 
 A parallel review stream issued a conflicting advisory noting that suspension itself would invalidate all dependent seals retroactively, producing a recursive null condition in which corrective action could not be distinguished from corruption propagation.
 
-No such proof has yet been produced.
+**No such proof has yet been produced.**
 
 Temporary handling guidance:
 - Seals may remain in circulation if accompanied by Form AR-Null or its equivalent under local registry interpretation.

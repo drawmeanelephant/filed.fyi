@@ -73,7 +73,7 @@ This subsequent mapping established an administrative framework for holding unre
 
 ## Brickys Filing Notes
 
-- Summary: We taught the findings to sound proud of themselves.
+- Summary: **We taught the findings to sound proud of themselves.**
 - Trauma: Teams stopped knowing which conditions still hurt.
 - Goals: Preserve continuity without saying so out loud.
 - Quirks: The worse the pattern, the more encouraging the phrasing became.
