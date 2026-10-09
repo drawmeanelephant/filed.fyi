@@ -240,7 +240,7 @@ A care event survives worse when it is:
 - dependent on local context,
 - unresolved.
 
-This is a property of the archive, not the person.
+This is **a property of the archive, not the person**.
 
 ---
 

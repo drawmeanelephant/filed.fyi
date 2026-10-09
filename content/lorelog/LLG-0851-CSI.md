@@ -61,7 +61,7 @@ Each sentence was defensible in isolation.
 
 The problem arose when their cumulative effect substituted for the question of whether anything had actually grown lighter.
 
-This is the point at which care presence began behaving like a settled answer.
+This is the point at which care presence began **behaving like a settled answer**.
 
 ## Interpretive Risk
 

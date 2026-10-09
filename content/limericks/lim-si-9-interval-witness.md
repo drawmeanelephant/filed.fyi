@@ -29,7 +29,7 @@ We look to the interval past,
 To see if the silence will last.  
 But SI-9 just stares  
 At the blankness it shares,  
-And leaves the conclusion uncast.  
+**And leaves the conclusion uncast.**  
 
 
 
