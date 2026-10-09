@@ -7,7 +7,7 @@ tags: ["changelog", "presentation-qa", "lorelog"]
 
 # Presentation QA v3 A-L1: crosslink apply on 56 lorelog records
 
-**Maintenance ID:** 0.1.00270.presentation-qa-v3-a-l1
+**Maintenance ID:** 0.1.00274.presentation-qa-v3-a-l1
 **Date:** 2026-10-09
 **Scope:** `content/lorelog/` — issue #1012 pass-3 A-track apply slice A-L1 (`content/lorelog/DS-404-ALPHA.md` through `content/lorelog/LLG-0407-SSP.md`, manifest row order)
 
