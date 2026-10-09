@@ -12,7 +12,7 @@ A temporary accommodation originally introduced to absorb the effects of a known
 
 None of these structures were created to preserve the failure intentionally. Each was created to make living around it less visibly disruptive.
 
-Taken together, they produced a new condition: the exception became easier to support than to retire. Teams could no longer remove the accommodation without also dismantling the services built to make it survivable. The result was not repair, but successful domestication of unresolved dependency.
+Taken together, they produced a new condition: **the exception became easier to support than to retire**. Teams could no longer remove the accommodation without also dismantling the services built to make it survivable. The result was not repair, but successful domestication of unresolved dependency.
 
 The support layer now behaves as though the prior failure were a durable environmental condition rather than a target for elimination. Continuity improved. Release did not.
 

@@ -17,7 +17,7 @@ Within three reporting cycles, the normalization logic escalated values until mo
 
 Lorelog analytics briefly declared that all incidents resolved “instantaneously” because the resolution-time counter overflowed to zero under the new scaling.
 
-The taskforce resolved the incident by resetting baselines, trimming historical data, and relabeling the affected period as a “metrics blackout for scheduled improvements,” thereby preserving the graphs and the directive’s reputation at the same time.
+The taskforce resolved the incident by resetting baselines, trimming historical data, and relabeling the affected period as **“metrics blackout for scheduled improvements,”** thereby preserving the graphs and the directive’s reputation at the same time.
 
 Brickys Filing Notes
 - Summary: Benchmarking inflated until meaning itself saturated under load.

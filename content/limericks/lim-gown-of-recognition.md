@@ -53,7 +53,7 @@ You gave them the best of your youth,
 And they dressed you right up in a booth.  
 The Gown is a sham,  
 For a structural scam,  
-And nobody mentions the truth.  
+**And nobody mentions the truth.**  
 
 
 

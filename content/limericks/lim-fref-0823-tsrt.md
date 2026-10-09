@@ -69,4 +69,4 @@ The truth was secured in the vault,
 To isolate human default.  
 The surface is flat,  
 We cataloged that,  
-And ordered a system-wide halt.
+**And ordered a system-wide halt.**
