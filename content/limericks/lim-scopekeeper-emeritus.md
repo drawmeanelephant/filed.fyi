@@ -13,7 +13,7 @@ The project expanded too far,
 So the Keeper adjusted the bar.  
 He narrowed the line,  
 So the audit looked fine,  
-And left the reality ajar.  
+**And left the reality ajar.**  
 
 
 

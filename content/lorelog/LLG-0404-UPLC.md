@@ -35,7 +35,7 @@ The peak was not the analyte (RT = 6.2 min). It integrated consistently at ~340 
 
 The peak was classified as a **system background artifact** and excluded from the quantification window. It appears in every run to this day. It has never been identified. The instrument service report lists it as **"within expected system noise."**
 
-The instrument service engineer did not look at it directly.
+**The instrument service engineer did not look at it directly.**
 
 ## Related Aphorisms
 

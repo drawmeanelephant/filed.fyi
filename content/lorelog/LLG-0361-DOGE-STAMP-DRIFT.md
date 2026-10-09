@@ -8,7 +8,7 @@ tags: ["lorelog", "relief-trace", "faint-intervention", "audit-resistance", "sub
 
 # DOGE Certification Stamp Drift and Counterfeit Annotation Event
 
-The incident began when documents outside DOGE jurisdiction started appearing with familiar certification language in red block stamps. Most were obvious imitations at first: ACKNOWLEDGED — PROBABLY FINE, CERTIFIED HUMAN ENOUGH, and one deeply unofficial YES THIS COUNTS. Reviewers treated these as morale graffiti until several semiofficial packets began circulating with cleaner derivatives like LOCALLY FELT, PROVISIONALLY YOURS, and FEELINGS NOT IN PROCEDURAL DISPUTE. At that point the problem ceased to be visual and became doctrinal. 
+The incident began when documents outside DOGE jurisdiction started appearing with familiar certification language in red block stamps. Most were obvious imitations at first: ACKNOWLEDGED — PROBABLY FINE, CERTIFIED HUMAN ENOUGH, and one deeply unofficial YES THIS COUNTS. Reviewers treated these as morale graffiti until several semiofficial packets began circulating with cleaner derivatives like LOCALLY FELT, PROVISIONALLY YOURS, and FEELINGS NOT IN PROCEDURAL DISPUTE. At that point the problem **ceased to be visual and became doctrinal**. 
 
 None of the counterfeit stamps claimed to be Bricky in a literal sense. They claimed his semantic authority: the right to compress unresolved classification into a box that looked final enough to carry through a workflow. Some offices preferred these derivative stamps because they were gentler, faster, and more emotionally legible than DOGE’s approved set. Standards objected that this amounted to unauthorized provenance laundering. Bricky objected that the kerning was bad. 
 
