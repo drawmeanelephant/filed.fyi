@@ -10,7 +10,7 @@ tags: ["lorelog", "bait", "mirror-outrage", "social-proof", "engagement-visibili
 
 B-5 describes a BAIT pattern in which the user’s anger intensifies after exposure not to new facts, but to visible proof that many others are already angry. Likes, reply counts, repost totals, quote storms, stacked denunciations, and visible velocity markers all function as mirror surfaces. The platform does not need to strengthen the case. It only needs to demonstrate that a crowd has formed around it. 
 
-This subtype is particularly efficient because social confirmation can be mistaken for moral confirmation. The user experiences rising certainty and rising anger together, even when the informational content of the event has not materially changed. DOGE flags this pattern whenever engagement visibility appears to be doing more evidentiary work than the underlying event record. The archive’s position is not that crowds are wrong. It is that crowds are a routing condition. 
+This subtype is particularly efficient because social confirmation can be mistaken for moral confirmation. The user experiences rising certainty and rising anger together, even when the informational content of the event has not materially changed. DOGE flags this pattern whenever engagement visibility appears to be doing more evidentiary work than the underlying event record. The archive’s position is not that crowds are wrong. It is that **crowds are a routing condition**. 
 
 ---
 

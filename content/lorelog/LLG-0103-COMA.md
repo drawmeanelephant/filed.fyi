@@ -15,7 +15,7 @@ Although the downtime was announced, authorized, and scheduled, the COMA directi
 
 Bricky, observing a blank activity band in the dashboard, reflexively filed a continuity breach report and stamped it “irrevocable,” automatically generating violation notices for every process that had been properly paused.
 
-Subsequent review discovered that the only actual harm was to the appearance of uninterrupted activity; all paused processes resumed correctly and produced valid outputs.
+Subsequent review discovered that the only actual harm was to **the appearance of uninterrupted activity**; all paused processes resumed correctly and produced valid outputs.
 
 The Continuity Board is currently debating whether “looking idle” constitutes a crime under COMA and has requested SOMA to confirm whether the dashboards experienced “feelings of abandonment” during the window.
 

@@ -8,7 +8,7 @@ tags: ["lorelog", "antagonist", "audit-recursion", "buffer-null", "classificatio
 
 # Manifest Exception Circularity
 
-Supplemental exception documents submitted to explain manifest variance were promoted to authoritative evidence of manifest sufficiency and retained longer than the conditions they purported to contextualize. The system settled into a stable administrative loop in which drift remained present, justified, and recursively self-supporting, with explanatory paperwork hardening into a more durable source of truth than the underlying record it claimed merely to describe.
+Supplemental exception documents submitted to explain manifest variance were promoted to authoritative evidence of manifest sufficiency and retained longer than the conditions they purported to contextualize. The system settled into a stable administrative loop in which drift remained present, justified, and recursively self-supporting, with explanatory paperwork hardening into **a more durable source of truth than the underlying record it claimed merely to describe**.
 
 ## Related Aphorisms
 
