@@ -66,13 +66,11 @@ The archive indexes these entries as co-existing administrative perspectives wit
 
 Marginal annotation (Liaison Office): No directive fully contains the others; each only describes the others failing in a different direction. SOMA records harm, COMA preserves continuity indicators, and C.U.N.T.I.E.R. measures activity rate. The records persist concurrently because no single directive holds authority to overwrite the others.
 
-```md
-Brickys Filing Notes
+Bricky’s Filing Notes
 - Summary: Three directives describing the same damage from incompatible angles and still passing audit.
 - Trauma: Agreement only appears after translation layers have already erased disagreement.
 - Goals: Keep SOMA, COMA, and C.U.N.T.I.E.R. structurally separate while functionally indistinguishable.
 - Quirks: Resolution requests automatically downgrade into classification exercises under load.
-```
 
 ## Related Aphorisms
 

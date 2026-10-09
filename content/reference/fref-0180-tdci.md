@@ -416,13 +416,13 @@ Optimize for:
 All systems will eventually contradict themselves.
 File accordingly.
 
-:::note
+<Aside kind="note">
 
 **Archivist's Addendum**
 
 Subject to [FREF-0030-AVSG](fref-0030-avsg.md) realignment. Do not quote.
 
-:::
+</Aside>
 A chair squeaked a bit on a turn,
 We ordered the sector to burn.
 The logs were deleted,

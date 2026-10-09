@@ -214,7 +214,7 @@ And logs your manipulation as sage.
 
 
 
-The orphan was rubbed "til it shone,  
+The orphan was rubbed 'til it shone,  
 With a vigor the ledger had known.  
    It was massaged and subbed,  
    Until technically scrubbed,  
