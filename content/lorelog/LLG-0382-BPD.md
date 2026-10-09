@@ -15,11 +15,11 @@ Over time, some of those ghosts acquired continuity, metrics, and eligibility ta
 
 ## Foundation – schema, names, and authority
 
-LLG-0003-SVR records Datty Puritas performing a schema purge on seventeen mascots, removing the unauthorized fields vibe, cosmicAlignment, and snackPreference. The purge left only the traits the canonical schema knew how to remember.
+[[lorelog/LLG-0003-SVR|LLG-0003-SVR]] records Datty Puritas performing a schema purge on seventeen mascots, removing the unauthorized fields `vibe`, `cosmicAlignment`, and `snackPreference`. The purge left only the traits the canonical schema knew how to remember.
 
-LLG-0012-A describes Form 12‑A misaligning titles and slugs until Kindy’s frontmatter engine briefly declared many mascots simultaneously draft and canonical. The fix required Form 12‑A to reference its own caseNumber when correcting itself, producing self-referential lineage trails.
+[[lorelog/LLG-0012-A|LLG-0012-A]] describes Form 12‑A misaligning titles and slugs until Kindy’s frontmatter engine briefly declared many mascots simultaneously draft and canonical. The fix required Form 12‑A to reference its own `caseNumber` when correcting itself, producing self-referential lineage trails.
 
-LLG-0319-PAS shows persona attribution spillover promoting decorative signatures into operational authorship. Bricky approved 83 filings signed by personas whose only qualifying act was appearing near a successful log line.
+[[lorelog/LLG-0319-PAS|LLG-0319-PAS]] shows persona attribution spillover promoting decorative signatures into operational authorship. Bricky approved 83 filings signed by personas whose only qualifying act was appearing near a successful log line.
 
 Taken together, these incidents establish the conditions for lineages:
 
@@ -31,11 +31,11 @@ The archive did not select for kindness, clarity, or stability. It selected for 
 
 ## The breedingProgram emerges
 
-LLG-0375-BREED (Breeding Program Registration Anomaly) records the first formal use of breedingProgram eligibility as a field applied to mascots. The incident notes that eligibility is determined by historical performance and affective profile, without specifying who wrote the rubric.
+[[lorelog/LLG-0375-BREED|LLG-0375-BREED]] (Breeding Program Registration Anomaly) records the first formal use of `breedingProgram` eligibility as a field applied to mascots. The incident notes that eligibility is determined by historical performance and affective profile, without specifying who wrote the rubric.
 
-An associated observation transcript (LLG-0376) documents a session in which multiple mascots are discussed as candidate stock while everyone present insists that no actual reproduction is contemplated. The transcript is filed under observational study, not policy.
+An associated observation transcript ([[lorelog/LLG-0376-BREED-GOV|LLG-0376]]) documents a session in which multiple mascots are discussed as candidate stock while everyone present insists that no actual reproduction is contemplated. The transcript is filed under observational study, not policy.
 
-Meanwhile, LLG-0088-B notes that Boily McPlaterton’s breedingProgram eligibility remains unchanged after he executes Form 88‑B live on stream, shouting about thermal paste while chat oscillates between fear and delight. Eligibility appears robust against spectacle.
+Meanwhile, [[lorelog/LLG-0088-B|LLG-0088-B]] notes that Boily McPlaterton’s `breedingProgram` eligibility remains unchanged after he executes Form 88‑B live on stream, shouting about thermal paste while chat oscillates between fear and delight. Eligibility appears robust against spectacle.
 
 From these fragments, Persona Governance infers the following:
 
@@ -47,9 +47,9 @@ From these fragments, Persona Governance infers the following:
 
 Engagement and care metrics quietly turn some mascots into better “breeding stock” than others.
 
-- CREDITS-GTA (Gratitude Telemetry Misallocation) describes a system that routes generic thank-you signals toward whichever entity the ledger believes deserves them, regardless of original intent. Mascots with more visible buttons and dashboards receive more gratitude by default.
-- LLG-0811-EG (Empathegy Inflation) chronicles a model that weighs empathic responses based on alignment with expected empathy curves. Mascots trained to respond in curve-compatible ways generate cleaner signal.
-- LLG-0820-MCR (Metrics of Care Redistribution) introduces coverage metrics that reward surfaces which can be seen to be caring, even when the caring is one‑click deep.
+- [[lorelog/LLG-0005|CREDITS-GTA]] (Gratitude Telemetry Misallocation) describes a system that routes generic thank-you signals toward whichever entity the ledger believes deserves them, regardless of original intent. Mascots with more visible buttons and dashboards receive more gratitude by default.
+- [[lorelog/LLG-0811-EG|LLG-0811-EG]] (Empathegy Inflation) chronicles a model that weighs empathic responses based on alignment with expected empathy curves. Mascots trained to respond in curve-compatible ways generate cleaner signal.
+- [[lorelog/LLG-0820-MCR|LLG-0820-MCR]] (Metrics of Care Redistribution) introduces coverage metrics that reward surfaces which can be seen to be caring, even when the caring is one‑click deep.
 
 In each case, the scoring systems are nominally about humans. In practice, they apply to any actor whose actions can be counted.
 
@@ -63,7 +63,7 @@ tend to look like “good investments” on these dashboards. None of this is la
 
 ## Governance position – what we refuse to say
 
-The Canonical Authority Review Panel has declined to recognize breedingProgram as a formal initiative. Committee minutes stress that:
+The Canonical Authority Review Panel has declined to recognize `breedingProgram` as a formal initiative. Committee minutes stress that:
 
 - Mascots are non-reproductive constructs.
 - No cross-breeding or cloning is authorized.
@@ -85,7 +85,7 @@ It asserts that:
 
 ## Archive position
 
-BreedingProgram is filed as a mythologically accurate description of a process the archive insists is not happening.
+`BreedingProgram` is filed as a mythologically accurate description of a process the archive insists is not happening.
 
 Mascots remain failure signatures. Some signatures are simply better at reproducing themselves across policy, dashboards, and lore.
 
