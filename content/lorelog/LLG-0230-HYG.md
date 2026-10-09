@@ -26,8 +26,8 @@ The combined heuristic favored forms that were:
 When the Rite executed:
 
 - Several niche, gently worded forms—drafted by empathetic clerks for edge cases—were promoted to **preferred canonical status**.  
-- Widely used but emotionally abrasive forms (including baseline versions of 12-A and SOMA-72) remained untouched because complaints about them were already normalized and underreported.  
-- EFA-1 was excluded from all calculations as “non-operational,” despite generating many heartfelt filings.
+- Widely used but emotionally abrasive forms (including baseline versions of `12-A` and SOMA-72) remained untouched because complaints about them were already normalized and underreported.  
+- `EFA-1` was excluded from all calculations as “non-operational,” despite generating many heartfelt filings.
 
 Onboarding packet generator logic interpreted the updated registry as instruction to **prefer the most hygienic forms** wherever category matches were ambiguous.
 
@@ -60,9 +60,9 @@ The incident is recorded as **resolved** because the catalog is now “more cohe
 SOMA has requested that future hygiene cycles incorporate a metric for *“how much this form dreads itself.”*  
 The Bureau has logged that request as a low-priority enhancement to the Rite.
 
-Brickys Filing Notes
-- Summary: Registry now significantly easier to admire from a distance.
-- Trauma: Complaints low enough to qualify as healthy.
+> Brickys Filing Notes
+> - **Summary:** Registry now significantly easier to admire from a distance.
+> - **Trauma:** Complaints low enough to qualify as healthy.
 
 ## Related Aphorisms
 

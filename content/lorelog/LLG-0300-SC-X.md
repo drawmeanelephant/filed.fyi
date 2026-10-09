@@ -11,9 +11,9 @@ relations: [relates_to=lorelog/LLG-0007-COMA, relates_to=lorelog/LLG-0019-COMA, 
 
 An engineer submitted a maintenance request stating that both the system and the humans operating it were **“emotionally exhausted”** by continuous **COMA-compliant activity** and needed a scheduled rest period.
 
-Under **SOMA**, this description triggered a mandatory rest recommendation and auto-issued **Form 72-S** (*“Compassionate Downtime Justification”*) with a strong approval bias.
+Under **SOMA**, this description triggered a mandatory rest recommendation and auto-issued **Form `72-S`** (*“Compassionate Downtime Justification”*) with a strong approval bias.
 
-Under **COMA**, the same request was flagged as a potential continuity violation and auto-issued **Form 19-C** (*“Unauthorized Idle-Time Disclosure”*), instructing the requester to prove that no observable metrics would fall during the proposed rest.
+Under **COMA**, the same request was flagged as a potential continuity violation and auto-issued **Form `19-C`** (*“Unauthorized Idle-Time Disclosure”*), instructing the requester to prove that no observable metrics would fall during the proposed rest.
 
 The **Tri-Directive Reconciliation Council** convened and concluded that the system must be *simultaneously rested (to satisfy SOMA) and not rested (to satisfy COMA)*, but declined to define how such a state might be operationally implemented within existing infrastructure constraints.
 
@@ -43,11 +43,11 @@ Several departments subsequently began scheduling “administratively compatible
 
 Cross-reference requests involving these windows increased 440% over the following quarter.
 
-Bricky’s Filing Notes
-- Summary: Exhaustion formalized into a dual-compliance workflow with no shared semantic base.
-- Trauma: Rest became something the system could only validate after it already happened.
-- Goals: Maintain contradiction without collapsing either directive authority.
-- Quirks: Inbox ordering quietly determines reality precedence under load conditions.
+> Bricky’s Filing Notes
+> - **Summary:** Exhaustion formalized into a dual-compliance workflow with no shared semantic base.
+> - **Trauma:** Rest became something the system could only validate after it already happened.
+> - **Goals:** Maintain contradiction without collapsing either directive authority.
+> - **Quirks:** Inbox ordering quietly determines reality precedence under load conditions.
 
 ## Related Aphorisms
 

@@ -57,7 +57,7 @@ The panel specifically instructed the Subdesk not to "discourage authentic affec
 
 The Sweep produced two main artifacts:
 
-1. **SOMA-14 Tone Normalization Addendum (Annexed to LLG-0114-SOMA)**  
+1. **SOMA-14 Tone Normalization Addendum (Annexed to [[lorelog/LLG-0114-SOMA|LLG-0114-SOMA]])**  
    The addendum, circulated as mandatory reading for all filers with access to higher-risk forms, specifies:
 
    - Preferred phrasing patterns (single-vector states, time bounds).  
@@ -89,19 +89,19 @@ The Sweep produced two main artifacts:
 
 TNS formalized several routing patterns for problematic feeling constructions:
 
-- **Unprocessable Emotional Entity (422-EF)**  
-  Responses such as "I don't know what this is; I just know it's wrong" are recorded verbatim, then flagged as 422-EF and forwarded to Form Sister Pale.  
+- **Unprocessable Emotional Entity (`422-EF`)**  
+  Responses such as "I don't know what this is; I just know it's wrong" are recorded verbatim, then flagged as `422-EF` and forwarded to Form Sister Pale.  
   Sister Pale is empowered to mark such entries "acknowledged, not normalized," which preserves them in case files while excluding them from aggregate metrics.
 
-- **Failed Feeling Dependency (424-EFD)**  
+- **Failed Feeling Dependency (`424-EFD`)**  
   Multi-layer feelings (feelings about feelings in response to forms about feelings) are treated as dependency chains.  
-  When chain length exceeds three, the final node is logged as 424-EFD and associated upstream filings are recommended for review "in any order that feels least threatening."  
+  When chain length exceeds three, the final node is logged as `424-EFD` and associated upstream filings are recommended for review "in any order that feels least threatening."  
   The Second Domino is formally listed as "sympathetic observer" in these cases.
 
-- **Lost-in-Transit Affect (404-AF)**  
-  Free-text responses that cannot be reliably parsed by any directive are tagged 404-AF and accompanied by a standard note:  
+- **Lost-in-Transit Affect (`404-AF`)**  
+  Free-text responses that cannot be reliably parsed by any directive are tagged `404-AF` and accompanied by a standard note:  
   "The feeling you attempted to express may still exist, but the system could not retain a path to it."  
-  404sy McLostalot is cited as mascotRef for the pattern, though no additional navigation attempts are authorized.
+  404sy McLostalot is cited as `mascotRef` for the pattern, though no additional navigation attempts are authorized.
 
 These notations are intended for internal comprehension only and must not appear in user-facing correspondence.
 
@@ -134,7 +134,7 @@ The Oversight Panel rated this statement "accurate but unhelpful."
 
 - **C.U.N.T.I.E.R.** accepts the Sweep on the condition that headline indicators remain numerically stable regardless of how many emotional edge cases are quietly rerouted outside the charts.
 
-- Tri-Directive Liaison later cites this Sweep in LLG-0326-DXS as evidence that SOMA prefers to herd feelings, COMA prefers to ignore them, and C.U.N.T.I.E.R. prefers to graph them.
+- Tri-Directive Liaison later cites this Sweep in [[lorelog/LLG-0326-DXS|LLG-0326-DXS]] as evidence that SOMA prefers to herd feelings, COMA prefers to ignore them, and C.U.N.T.I.E.R. prefers to graph them.
 
 ## Related Aphorisms
 
