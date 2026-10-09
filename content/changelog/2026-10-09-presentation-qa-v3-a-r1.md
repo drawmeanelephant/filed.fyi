@@ -7,7 +7,7 @@ tags: ["changelog", "presentation-qa", "reference", "guides", "posts"]
 
 # Presentation QA v3 A-R1: crosslink apply on guides, posts, index, and reference (first range)
 
-**Maintenance ID:** 0.1.00270.presentation-qa-v3-a-r1
+**Maintenance ID:** 0.1.00271.presentation-qa-v3-a-r1
 **Date:** 2026-10-09
 **Scope:** `content/guides/`, `content/posts/`, `content/index.md`, and `content/reference/**` through `content/reference/empathegy/fref-0780-rsfl.md` — issue #1014 pass-3 A-track apply slice A-R1 (138 manifest rows across 38 files)
 
