@@ -23,7 +23,7 @@ The file remains open pending a distinction between successor stability and inhe
 ### Bricky's Filing Notes
 
 - Summary: Replacement arrived with the old reflexes preinstalled.
-- Trauma: The workaround retired by becoming the floor.
+- Trauma: **The workaround retired by becoming the floor.**
 - Quirks: Migration switches kept their ceremonial labels after becoming required infrastructure.
 
 ## Related Aphorisms
