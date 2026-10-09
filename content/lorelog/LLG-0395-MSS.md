@@ -16,7 +16,14 @@ The ambiguity surfaced when a newer volunteer was nominated and asked where the 
 
 No bylaw uses the plural that way.
 
-Ribbonward Cordialis traced the drift through photographs, storage notes, dry-cleaning receipts, and one handwritten annotation reading keep it where it knows the route. His determination was that repeated artifact custody had begun generating office continuity without election.
+Ribbonward Cordialis traced the drift through:
+
+- photographs,
+- storage notes,
+- dry-cleaning receipts,
+- and one handwritten annotation reading keep it where it knows the route.
+
+His determination was that repeated artifact custody had begun generating office continuity without election.
 
 The sash was not merely held. It had **started choosing**.
 
