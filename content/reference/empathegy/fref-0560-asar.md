@@ -13,7 +13,7 @@ tags: ["reference", "empathegy", "assurance-artifacts", "continuity-optics", "re
 This document defines the class of objects Empathegy uses to make conditions appear administratively calmer, more governed, or more complete than the underlying event may justify.
 
 Assurance Artifacts are not always false.
-They are often incomplete in the direction of comfort.
+They are often **incomplete in the direction of comfort**.
 
 They exist because institutions prefer visible reassurance to unresolved interpretive load.
 
