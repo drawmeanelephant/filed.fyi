@@ -139,6 +139,30 @@ quotas; most records will earn zero or one.
 - **Emphasis.** Bold and italic are uncapped but must still be earned;
   decorative emphasis remains out.
 
+### Implementation notes (pilot findings)
+
+Clarifications recorded from the lorelog pilot review (PR #966). These read
+the transform list; they do not extend it.
+
+- **Code spans follow token shape, not grammatical role.** A literal
+  identifier token (`SIDR-8C/AFT/01`, `breedingProgram`, `PPC-9`,
+  `0xDEADFILE`) may be code-spanned wherever it occurs, including as a
+  sentence subject. Spaced title-case designations used as names
+  (Condition Log 7, Internal Correction Notice 4C, CLD-8C) stay plain —
+  they are names, not identifiers. Short form codes (`51-E`, `SOMA-72`,
+  `COMA-19`) may be spanned; within one record, consistency matters more
+  than the choice. Record the call in the PR note either way.
+- **List splits keep punctuation inside the items.** Conjunctions,
+  trailing periods, and connectors stay exactly where the source put
+  them. Adding a lead-in colon to the surviving intro line is a permitted
+  punctuation adjustment, not a word change.
+- **`<Details>`/`<Aside>` `id` preserves the heading anchor.** When the
+  wrapped section previously had a heading, the component `id` should
+  reproduce the auto-derived anchor so existing `#…` links keep working.
+- **The formal `APPROVE` must come from a different GitHub account than
+  the PR author.** A comment review alone does not satisfy the merge
+  gate's reviewer requirement.
+
 ### What does not change in pass 2
 
 Words, meaning, order, IDs, frontmatter, verse structure, link targets.
