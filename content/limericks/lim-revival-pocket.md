@@ -18,7 +18,7 @@ Of totally broken-down things.
 
 
 The Revival is just in your head,  
-Because all of the network is dead.  
+**Because all of the network is dead.**  
 You stare at the dot,  
 And you give it a shot,  
 But it’s just a mirage that you fed.  

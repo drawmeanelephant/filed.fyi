@@ -29,7 +29,7 @@ The synthetic persona was loud,
 Impressing the audit's new crowd.  
 A human's mistake,  
 Caused SOMA to break,  
-So feelings are now disallowed.  
+**So feelings are now disallowed.**  
 
 
 

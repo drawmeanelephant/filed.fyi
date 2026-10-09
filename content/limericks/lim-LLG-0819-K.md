@@ -41,7 +41,6 @@ As the system and rules have collided.
 
 
 
-
 The resonance echoes inside,  
 Where confidence started to slide.  
 The hashes return,  
