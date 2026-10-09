@@ -21,7 +21,7 @@ We log every kindness you do,
 To prove we are caring for you.  
 The casserole’s gone,  
 But the record lives on,  
-To cover the terrible view.  
+**To cover the terrible view.**  
 
 
 

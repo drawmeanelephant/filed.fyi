@@ -10,7 +10,7 @@ tags: ["lorelog", "ceremonial-routing", "bait", "reply-surface", "escalation", "
 
 B-2A was promoted from taxonomy note to case file after reviewers observed that many filers did not become most activated by the originating post, clip, or article, but by the replies arranged beneath it. In these cases the primary BAIT object was not content in the classic sense. It was the ordering logic that decided which human objection would be encountered first, second, and repeatedly. 
 
-The pattern is identified when a user enters a reply surface seeking context, clarification, or social calibration and instead encounters a curated stack of maximum-friction responses. These responses may be genuine, bot-generated, context-collapsed, or merely badly timed. B-2A does not care who wrote them. Its concern is that the surface appears to sort for aggravation while presenting itself as discourse. 
+The pattern is identified when a user enters a reply surface seeking context, clarification, or social calibration and instead encounters a curated stack of maximum-friction responses. These responses may be genuine, bot-generated, context-collapsed, or merely badly timed. B-2A does not care who wrote them. Its concern is that the surface appears to **sort for aggravation** while presenting itself as discourse. 
 
 ---
 
