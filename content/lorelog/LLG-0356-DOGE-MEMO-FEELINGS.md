@@ -8,7 +8,7 @@ tags: ["lorelog", "doge", "memo", "feelings"]
 
 # DOGE Memo — Feelings Versus Evidence
 
-DOGE’s formal position:
+**DOGE’s formal position:**
 
 > Feelings are taken as given. Only their routing is in question.
 
