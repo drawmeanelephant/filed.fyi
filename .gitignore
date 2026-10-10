@@ -19,6 +19,11 @@ filed-boris-2026-08-02/
 # Local agent inbox — drop files here for the agent to read (never committed)
 .inbox/
 
+# Spec Lab — local-only CommonMark parser testbed (issue #1040, pass-4 class C10).
+# Living stress-test collection maintained by the fleet; never committed.
+content/spec-lab/
+content/spec-lab.md
+
 # OS-specific files
 .DS_Store
 Thumbs.db
