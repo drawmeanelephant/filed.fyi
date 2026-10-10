@@ -251,21 +251,38 @@ No links are added inside:
   regions, including `## Related verse` tails);
 - link-index / reference sections that exist to enumerate IDs;
 - hyphen compounds (a token inside a hyphenated phrase is not a mention);
+- embedded-name matches — a title that appears verbatim only inside a
+  longer untitled proper name (`Aesthetic Survival` inside `Aesthetic
+  Survival Protocol`) is a title collision, not a mention; never link;
 - existing wiki-link syntax.
+
+**Protected nouns.** The following function as taxonomy/category nouns
+rather than record references; they are never linked and never flagged:
+`MAP`, `Index`, `COMA`, `Empathegy`.
 
 ### Flag classes
 
-Not every suspicious token is a defect. Distinguish:
+Not every suspicious token is a defect. Distinguish the classes, and
+apply the ruled default for each (maintainer rulings, #970):
 
 - **Stem-aliased mention** — the token is a known alias/stem of a
-  canonical record (`013.htaccessius`-style stems). Flag for ruling; it
-  is not a dangling reference.
+  canonical record (`LLG-08xx-EPS`, `DS-404-ALPHA`-style shorthands).
+  *Ruled: preserve as deliberate aliases — corpus-native lingo, not
+  typos. Default plain.* Exception: in a non-verse, non-code context
+  where the author clearly meant the canonical target, rule per
+  occurrence.
 - **Self-verse-shadow** — the host record *is* the canonical target the
-  mention would resolve to. Flag for ruling; do not self-link.
+  mention would resolve to. *Ruled: leave plain; the verse is the
+  self-reference.*
 - **Same-label→two-destinations** — one surface label already links to
   two different canonical targets on a page. Flag for ruling.
-- **Dangling ref** — an ID-shaped token with no canonical target. Flag;
-  never link.
+- **Dangling ref** — an ID-shaped token with no canonical target
+  (`LLG-0000-NULL`, `LLG-0XXX`). *Ruled: preserve as residue —
+  placeholders, jokes, and deliberate dead ends are canon; repairing
+  them invents canon that does not exist.* Default plain; never repair.
+- **Ambiguous ID token** — an ID-shaped token resolving to ≥2 canonical
+  targets (`LLG-0327` → AVA|AVR). *Ruled: ambiguity defaults to plain.
+  A specific occurrence may be linked by hand-edit only.*
 
 ### Collision resolution
 

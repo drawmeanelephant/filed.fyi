@@ -45,5 +45,6 @@ the pass-3 fleets actually ran on into the written baseline:
 
 ## Unresolved follow-up
 
-- Maintainer adjudication of the consolidated flag queue on #970 closes
-  the items this section only classifies.
+- Standing-class rulings on #970 are codified inline (protected nouns,
+  per-class defaults). The older reference pass-2 per-record flags on
+  #970 remain the open queue.
