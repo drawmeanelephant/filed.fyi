@@ -4,13 +4,14 @@ id: aphorisms/APH-SEAM-CLER
 parent: aphorisms
 status: published
 tags: ["aphorisms", "religious-administration", "core-bound"]
-relations: [relates_to=mascots/M-0090]
+relations: [relates_to=mascots/M-0090, relates_to=reference/FREF-0920-RAB]
 ---
 
 # CLER Seam Aphorisms
 
 
-**Core counterpart:** [[mascots/M-0090|CLER Seam]]
+**Core counterpart:** [[reference/FREF-0920-RAB|Religious Administrative Bureaucracy]]  
+**Seam registry:** [[mascots/M-0090|Religious Administrative Seams]]  
 
 
 A lifecycle file follows a cleric through formation, ordination, incardination, discipline, and laicization while never learning what happened between fields.
