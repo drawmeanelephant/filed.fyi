@@ -7,6 +7,7 @@ not a Boris graph/schema validator, a record registry, or evidence of reading.
 
 import argparse
 import re
+import subprocess
 from pathlib import Path
 
 
@@ -19,11 +20,35 @@ README_CLAIMS = {
 }
 
 
+def census_markdown_files(root):
+    """Return committable Markdown files: tracked + untracked-but-not-ignored.
+
+    Gitignored local-only records (e.g. the spec-lab testbed) exist in the
+    working tree but are not archive source and must not move the counts.
+    Falls back to a plain rglob when git is unavailable.
+    """
+    try:
+        out = subprocess.run(
+            ["git", "ls-files", "--cached", "--others", "--exclude-standard", "--", "content"],
+            cwd=root,
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        return {
+            root / line
+            for line in out.stdout.splitlines()
+            if line.strip().endswith(".md")
+        }
+    except (OSError, subprocess.CalledProcessError):
+        return {p for p in (root / "content").rglob("*.md") if p.is_file()}
+
+
 def inspect_counts(root):
     content = root / "content"
     if not content.is_dir():
         raise ValueError(f"Missing source directory: {content}")
-    pages = {p for p in content.rglob("*.md") if p.is_file()}
+    pages = census_markdown_files(root)
     trunks = sorted(p for p in pages if p.parent == content)
     totals = {
         "pages": len(pages),
