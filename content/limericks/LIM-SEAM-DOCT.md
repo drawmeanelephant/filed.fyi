@@ -4,12 +4,13 @@ id: limericks/LIM-SEAM-DOCT
 parent: limericks
 status: archived
 tags: ["limericks", "poetry", "religious-administration", "core-bound"]
-relations: [relates_to=mascots/M-0090]
+relations: [relates_to=mascots/M-0090, relates_to=reference/FREF-0920-RAB]
 ---
 
 # Limericks: DOCT Seam
 
-**Core counterpart:** [[mascots/M-0090|Religious Administrative Seams]]
+**Core counterpart:** [[reference/FREF-0920-RAB|Religious Administrative Bureaucracy]]  
+**Seam registry:** [[mascots/M-0090|Religious Administrative Seams]]  
 
 A doctrine was filed with a seal,  
 Which made its boundary feel real.  
