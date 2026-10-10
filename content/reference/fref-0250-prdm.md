@@ -34,11 +34,20 @@ Any appeal to symbolism, visible service, historic turn sequence, or proper orde
 
 Use the following terms with restraint.
 
-- **Traditional** — means older than this argument, not older than law.
-- **Proper** — often signals preference wearing a tie.
-- **The marshal's family** — not a recognized office.
-- **Blessed route** — decorative unless supported by actual municipal paperwork.
-- **Always** — rarely survives photo review.
+**Traditional**
+: means older than this argument, not older than law.
+
+**Proper**
+: often signals preference wearing a tie.
+
+**The marshal's family**
+: not a recognized office.
+
+**Blessed route**
+: decorative unless supported by actual municipal paperwork.
+
+**Always**
+: rarely survives photo review.
 
 ## Custody note
 

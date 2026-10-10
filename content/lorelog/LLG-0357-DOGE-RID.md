@@ -18,9 +18,14 @@ Bricky argued for a fourth definition: whatever period produces the cleanest evi
 
 ### Current operational definitions
 
-- **Platform interval model:** the time between exposure and the next surfaced item likely to overwrite it. 
-- **Behavioral return model:** the time until the filer predictably reopens the feed, app, or dashboard where the experience first arrived. 
-- **Unprompted persistence model:** the first quiet interval in which no system is asking for attention and the experience still exerts structural force. 
+**Platform interval model**
+: the time between exposure and the next surfaced item likely to overwrite it.
+
+**Behavioral return model**
+: the time until the filer predictably reopens the feed, app, or dashboard where the experience first arrived.
+
+**Unprompted persistence model**
+: the first quiet interval in which no system is asking for attention and the experience still exerts structural force.
 
 No model has been endorsed. All three appear in adjudication notes. DOGE has therefore achieved **consistency of dispute without agreement of meaning**, which Standards classifies as workable.
 

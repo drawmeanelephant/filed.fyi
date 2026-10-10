@@ -37,9 +37,14 @@ DOGE does **not** decide whether:
 
 DOGE evaluates only:
 
-- **Origin** — where the experience first made contact.
-- **Agency** — how much the filer could change, interrupt, or leave it.
-- **Residue** — what remained after the refresh interval ended.
+**Origin**
+: where the experience first made contact.
+
+**Agency**
+: how much the filer could change, interrupt, or leave it.
+
+**Residue**
+: what remained after the refresh interval ended.
 
 Experiences that fail DOGE’s criteria are not deleted.
 They are reclassified into simulator categories and kept under

@@ -30,10 +30,17 @@ This appendix does not create new authority. It records recurring handling patte
 
 The following terms should be used carefully:
 
-- **Independent** — avoid where witness chains depend on ceremonial abstracts or reciprocal courtesy. 
-- **Resolved** — avoid when lineage handling remains active. 
-- **Voluntary** — avoid when refuge options emerged under deployment pressure. 
-- **Stable** — avoid without noting whether the stability is operational, emotional, reputational, or merely archival. 
+**Independent**
+: avoid where witness chains depend on ceremonial abstracts or reciprocal courtesy.
+
+**Resolved**
+: avoid when lineage handling remains active.
+
+**Voluntary**
+: avoid when refuge options emerged under deployment pressure.
+
+**Stable**
+: avoid without noting whether the stability is operational, emotional, reputational, or merely archival.
 
 ## Filing note
 

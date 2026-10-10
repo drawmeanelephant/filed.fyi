@@ -21,17 +21,17 @@ Rather than correcting these states, MAP codifies them into a taxonomy of **gove
 
 Under MAP, a form may be classified as:
 
-- **Conceptually Active, Administratively Retired (CAAR):**  
-  The form is no longer issued, but its obligations are assumed to persist via “equivalent intent” in newer paperwork.
+**Conceptually Active, Administratively Retired (CAAR)**
+: The form is no longer issued, but its obligations are assumed to persist via “equivalent intent” in newer paperwork.
 
-- **Locally Canonical, Globally Unrecognized (LCGU):**  
-  A form that appears only in one office’s workflows but has been in use long enough that withdrawing it would generate more incidents than leaving it in place.
+**Locally Canonical, Globally Unrecognized (LCGU)**
+: A form that appears only in one office’s workflows but has been in use long enough that withdrawing it would generate more incidents than leaving it in place.
 
-- **Superseded in Theory, Co-Equal in Practice (STCP):**  
-  Two or more forms that each list the others as retired while all remain valid in at least one policy document.
+**Superseded in Theory, Co-Equal in Practice (STCP)**
+: Two or more forms that each list the others as retired while all remain valid in at least one policy document.
 
-- **Archivally Asserted, Operationally Absent (AAOA):**  
-  Forms that exist solely in Lorelog case files or training slides: present enough to cite, missing enough that nobody can locate a blank copy.
+**Archivally Asserted, Operationally Absent (AAOA)**
+: Forms that exist solely in Lorelog case files or training slides: present enough to cite, missing enough that nobody can locate a blank copy.
 
 MAP instructs registry staff to **select the kind of absence** that best maintains continuity optics, then continue as if that state were intentional.
 

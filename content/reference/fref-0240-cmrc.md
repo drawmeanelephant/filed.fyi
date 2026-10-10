@@ -32,11 +32,20 @@ Fray pattern comparison, satin weave notes, plaque language, and photo alignment
 
 Use the following terms carefully.
 
-- **Original** — avoid unless one chain of custody survived without lunch, lamination, or municipal optimism.
-- **Authentic** — use only when someone can explain what the less authentic ribbon is doing in the same display case.
-- **Owned by** — avoid where three cabinets, two binders, and one sash photograph disagree.
-- **Recovered from** — helpful; does not settle destiny.
-- **The good ribbon** — inadequate as archival proof, though common.
+**Original**
+: avoid unless one chain of custody survived without lunch, lamination, or municipal optimism.
+
+**Authentic**
+: use only when someone can explain what the less authentic ribbon is doing in the same display case.
+
+**Owned by**
+: avoid where three cabinets, two binders, and one sash photograph disagree.
+
+**Recovered from**
+: helpful; does not settle destiny.
+
+**The good ribbon**
+: inadequate as archival proof, though common.
 
 ## Display guidance
 
