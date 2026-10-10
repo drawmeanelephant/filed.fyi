@@ -1,0 +1,89 @@
+name: Reconcile collection counts
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: reconcile-counts
+  cancel-in-progress: true
+
+jobs:
+  reconcile:
+    name: Merge main and repair declared counts
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Filed
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Repair declared counts on main
+        if: github.event_name != 'pull_request'
+        run: |
+          python3 scripts/reconcile_counts.py || true
+          if ! git diff --quiet; then
+            git commit -am "maint: reconcile declared counts after merge drift"
+            git push origin HEAD:main
+            echo "repaired drift on main"
+          else
+            echo "main declared counts already consistent"
+          fi
+
+      - name: Determine target PR branches
+        id: targets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            if [[ "${{ github.event.pull_request.head.repo.fork }}" == "true" ]]; then
+              echo "::notice::fork pull request; reconcile cannot push, skipping"
+              echo "branches=" >> "$GITHUB_OUTPUT"
+            else
+              echo "branches=${{ github.event.pull_request.head.ref }}" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            branches=$(gh pr list --state open --base main --limit 100 \
+              --json headRefName,isCrossRepository \
+              --jq '[.[] | select(.isCrossRepository | not) | .headRefName] | join(" ")')
+            echo "branches=$branches" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Merge main and reconcile each branch
+        if: steps.targets.outputs.branches != ''
+        env:
+          BRANCHES: ${{ steps.targets.outputs.branches }}
+        run: |
+          set -u
+          for branch in $BRANCHES; do
+            echo "==> $branch"
+            git fetch origin "$branch"
+            git switch -C "$branch" FETCH_HEAD
+            git fetch origin main
+            if ! git merge --no-edit FETCH_HEAD; then
+              git merge --abort
+              echo "::warning::$branch conflicts with main; leaving for a human"
+              continue
+            fi
+            python3 scripts/reconcile_counts.py || true
+            if git diff --quiet; then
+              echo "$branch: declared counts already consistent"
+            else
+              git commit -am "maint: reconcile declared counts against main"
+              git push origin "HEAD:refs/heads/$branch"
+            fi
+          done
