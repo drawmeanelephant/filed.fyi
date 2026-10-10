@@ -27,15 +27,14 @@ Managed absence describes any condition where:
 
 Common managed-absence classifications include: 
 
-- **CAAR – Conceptually Active, Administratively Retired**  
-  The idea still drives behavior; the implementation is officially over.  
-  **Example:** FeelingSeeder decommissioned in diagrams, alive in successor behaviors. 
+**CAAR – Conceptually Active, Administratively Retired**
+: The idea still drives behavior; the implementation is officially over. **Example:** FeelingSeeder decommissioned in diagrams, alive in successor behaviors.
 
-- **AAOA – Archivally Asserted, Operationally Absent**  
-  The archive declares that something once existed and still frames interpretation, but no live workflow depends on it. 
+**AAOA – Archivally Asserted, Operationally Absent**
+: The archive declares that something once existed and still frames interpretation, but no live workflow depends on it.
 
-- **LCGU – Locally Canonical, Globally Unrecognized**  
-  A practice, template, or form that is authoritative in one corner and invisible elsewhere. 
+**LCGU – Locally Canonical, Globally Unrecognized**
+: A practice, template, or form that is authoritative in one corner and invisible elsewhere.
 
 MAP’s job is to hold these codes together as a spine instead of scattered excuses. 
 

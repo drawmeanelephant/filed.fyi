@@ -138,9 +138,14 @@ The Desk recognizes that alignment can preserve coherence without preserving int
 
 Where Managed Absence classifications exist, use them as anchors.
 
-- **Conceptually Active, Administratively Retired**: prefer “legacy-stable” and “reference-grade.”  
-- **Locally Canonical, Globally Unrecognized**: prefer “mature local practice” and “site-calibrated behavior.”  
-- **Archivally Asserted, Operationally Absent**: prefer “documented for historical continuity” and “no longer required in live workflows.”
+**Conceptually Active, Administratively Retired**
+: prefer “legacy-stable” and “reference-grade.”
+
+**Locally Canonical, Globally Unrecognized**
+: prefer “mature local practice” and “site-calibrated behavior.”
+
+**Archivally Asserted, Operationally Absent**
+: prefer “documented for historical continuity” and “no longer required in live workflows.”
 
 **Example wording:**
 

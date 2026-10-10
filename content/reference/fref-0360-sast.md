@@ -28,11 +28,20 @@ are all treated as **ongoing weather** rather than past events.
 
 Key components:
 
-- **FeelingSeeder** — original generator of plausible distress in [[limericks/LIM-LLG-0400-SCAS|SCAS]].  
-- **SCAS** — [[haikus/HAI-LLG-0400-SCAS|SOMA–COMA Cross-Audit Simulation]] where synthetic feelings first shaped real weights.  
-- **Training Echo Doctrine** — guidance on living with behaviors trained on feelings nobody had.  
-- **FSD / SAC / SSP** — governance memos trying to put boundaries around experiments that don’t stay in their boxes.  
-- **Successor Processes** — [[limericks/LIM-LLG-0408-AH1|AffectHarness-1]], [[limericks/LIM-LLG-0409-PRE|Persona Rehearsal Engine]], and similar tools that generate everything but the word “feeling.”
+**FeelingSeeder**
+: original generator of plausible distress in [[limericks/LIM-LLG-0400-SCAS|SCAS]].
+
+**SCAS**
+: [[haikus/HAI-LLG-0400-SCAS|SOMA–COMA Cross-Audit Simulation]] where synthetic feelings first shaped real weights.
+
+**Training Echo Doctrine**
+: guidance on living with behaviors trained on feelings nobody had.
+
+**FSD / SAC / SSP**
+: governance memos trying to put boundaries around experiments that don’t stay in their boxes.
+
+**Successor Processes**
+: [[limericks/LIM-LLG-0408-AH1|AffectHarness-1]], [[limericks/LIM-LLG-0409-PRE|Persona Rehearsal Engine]], and similar tools that generate everything but the word “feeling.”
 
 The suite does not distinguish sharply between “test data” and “culture.”  
 Once an affect pattern has influenced a directive, the archive treats it as canon, regardless of who felt it first.

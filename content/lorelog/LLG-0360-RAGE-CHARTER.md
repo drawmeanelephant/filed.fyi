@@ -22,27 +22,30 @@ Internally, the archive now treats it as a first-class failure mode.
 
 ## Definitions
 
-**RAGE — Routed Anger for Graph Engagement**
-
-Anger whose most legible path runs through dashboards, ad exchanges,
-and optimization loops before it runs through anyone's day.
-
-RAGE is identified when:
-
-- the primary observable effect of a stimulus is increased
-  engagement metrics, and
-- no corresponding local event or residue can be located in the filer’s life.
-
-**BAIT — Behavioral Anger Inducement Tactic**
-
-Any artifact engineered to maximize RAGE regardless of informational value,
-local relevance, or care.
-
-BAIT objects share traits:
-
-- sharp moral framing with low specificity,
-- repeatable formats that can be reskinned with minimal effort,
-- high share velocity, low retention as story.
+<dl>
+<dt><strong>RAGE — Routed Anger for Graph Engagement</strong></dt>
+<dd>
+<p>Anger whose most legible path runs through dashboards, ad exchanges,
+and optimization loops before it runs through anyone's day.</p>
+<p>RAGE is identified when:</p>
+<ul>
+<li>the primary observable effect of a stimulus is increased
+  engagement metrics, and</li>
+<li>no corresponding local event or residue can be located in the filer’s life.</li>
+</ul>
+</dd>
+<dt><strong>BAIT — Behavioral Anger Inducement Tactic</strong></dt>
+<dd>
+<p>Any artifact engineered to maximize RAGE regardless of informational value,
+local relevance, or care.</p>
+<p>BAIT objects share traits:</p>
+<ul>
+<li>sharp moral framing with low specificity,</li>
+<li>repeatable formats that can be reskinned with minimal effort,</li>
+<li>high share velocity, low retention as story.</li>
+</ul>
+</dd>
+</dl>
 
 ---
 

@@ -76,9 +76,14 @@ Frequently observed on:
 
 All system errors are transformed into helpdesk phrasing:
 
-- `Error 404` → *“We’re terribly sorry, but that page appears to have politely stepped away.”*  
-- `System failure` → *“We seem to be experiencing a brief structural misunderstanding.”*  
-- `Unknown state` → *“That information is currently unavailable in this version of events.”*  
+`Error 404`
+: *“We’re terribly sorry, but that page appears to have politely stepped away.”*
+
+`System failure`
+: *“We seem to be experiencing a brief structural misunderstanding.”*
+
+`Unknown state`
+: *“That information is currently unavailable in this version of events.”*
 
 No error is allowed to be emotionally neutral.
 

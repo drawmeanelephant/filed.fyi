@@ -20,9 +20,14 @@ Analysts describe AVA as the table where words wait to see whether they will be 
 AVA operates downstream of raw findings and upstream of remediation intake.  
 Where earlier passes would emit terms such as failure, defect, and unresolved, AVA replaces them with phrases that better align with continuity reporting:
 
-- failure → favorable persistence condition  
-- defect → emerging structure  
-- unresolved → assurance window still open
+failure
+: favorable persistence condition
+
+defect
+: emerging structure
+
+unresolved
+: assurance window still open
 
 The generator does not record the original language once translation occurs.  
 [[lorelog|Lorelog]] entries remain the only preserved witnesses to the prior phrasing. 
@@ -65,9 +70,14 @@ COMA regards the same reports as evidence of maturing stability.
 
 In subsequent administrative rulings under Managed Absence Protocol [[lorelog/LLG-0324-MAP|LLG-0324-MAP]], AVA phrases were retroactively classified as absence-carrying descriptors:
 
-- *favorable condition* maps to CAAR when the originating failure form is retired.
-- *emerging structure* maps to LCGU forms that never achieved central recognition.
-- *deferred assurance* states frequently coincide with STCP supersession loops. 
+*favorable condition*
+: maps to CAAR when the originating failure form is retired.
+
+*emerging structure*
+: maps to LCGU forms that never achieved central recognition.
+
+*deferred assurance*
+: states frequently coincide with STCP supersession loops.
 
 This subsequent mapping established an administrative framework for holding unresolved terms without triggering new intake tickets.
 

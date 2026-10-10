@@ -14,17 +14,38 @@ This term layer provides calm replacements for language likely to trigger unnece
 
 ## Core Mapping Table
 
-- failure -> emergent continuity condition
-- verification loss -> inherited basis state
-- backend decay -> latency-bearing dependency attrition
-- broken badge -> governed trust surface under inherited handling
-- bypass -> non-blocking optimization path
-- proof gap -> managed absence within the assurance chain
-- complaint suppression -> reduced dispute entry volume
-- emotional harvesting -> confidence-confirming acknowledgment capture
-- false reassurance -> continuity-safe user orientation
-- cover-up -> explanatory realignment
-- obedience behavior -> low-friction continuation response
+failure
+: emergent continuity condition
+
+verification loss
+: inherited basis state
+
+backend decay
+: latency-bearing dependency attrition
+
+broken badge
+: governed trust surface under inherited handling
+
+bypass
+: non-blocking optimization path
+
+proof gap
+: managed absence within the assurance chain
+
+complaint suppression
+: reduced dispute entry volume
+
+emotional harvesting
+: confidence-confirming acknowledgment capture
+
+false reassurance
+: continuity-safe user orientation
+
+cover-up
+: explanatory realignment
+
+obedience behavior
+: low-friction continuation response
 
 ## Counter-Language
 

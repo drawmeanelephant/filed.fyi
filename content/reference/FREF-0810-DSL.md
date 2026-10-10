@@ -40,25 +40,20 @@ A system belongs to the Dead Service Layer when most of the following apply:
 
 Dead Service Layer entries are organized by the emotional weather of their shutdown language, following the research buckets. 
 
-- **Reassurance**  
-  Nothing changes yet, even as closure is announced.  
-  **Example:** Existing accounts have not changed. You can continue to enjoy this service until later this year. You don’t need to change a thing right now. 
+**Reassurance**
+: Nothing changes yet, even as closure is announced. **Example:** Existing accounts have not changed. You can continue to enjoy this service until later this year. You don’t need to change a thing right now.
 
-- **Confusion**  
-  Contradictory tenses and half-measures.  
-  **Example:** Effective October 25, 2008 the service has been discontinued. If you have already signed up, please be aware that this service will be discontinued on 10/25/2008. 
+**Confusion**
+: Contradictory tenses and half-measures. **Example:** Effective October 25, 2008 the service has been discontinued. If you have already signed up, please be aware that this service will be discontinued on 10/25/2008.
 
-- **Containment**  
-  Narrowing access without calling it death.  
-  **Example:** This service is no longer available to new customers effective May 31, 2012. Existing users can access the service as normal. 
+**Containment**
+: Narrowing access without calling it death. **Example:** This service is no longer available to new customers effective May 31, 2012. Existing users can access the service as normal.
 
-- **Escalation**  
-  Official verbs harden: shut down, formally closed, will cease to exist, but the infrastructure footprint lingers.   
-  **Example:** On September 30, the service will be officially shut down; users will be unable to log in and all APIs will go down. 
+**Escalation**
+: Official verbs harden: shut down, formally closed, will cease to exist, but the infrastructure footprint lingers. **Example:** On September 30, the service will be officially shut down; users will be unable to log in and all APIs will go down.
 
-- **Abandonment**  
-  Plain declarations paired with parked domains and generic errors.  
-  **Example:** Skweezer’s free service has been shut down; forum entries reduced to May 2010 Parked or This service is no longer available. 
+**Abandonment**
+: Plain declarations paired with parked domains and generic errors. **Example:** Skweezer’s free service has been shut down; forum entries reduced to May 2010 Parked or This service is no longer available.
 
 [[limericks/LIM-0064|Complimentary Ghostline]] specializes in the procedural phrasing inside these categories, treating shutdown as scheduling rather than rupture. 
 
