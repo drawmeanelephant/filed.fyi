@@ -18,32 +18,50 @@ The [[limericks/LIM-FREF-0815-MAP|Managed Absence Spine]] treats missing, supers
 
 These codes are not shown in public-facing audits. They live in side-columns, export-only fields, and retention matrices that operators are advised “not to overinterpret.”[^1]
 
-- **CAAR — Conceptually Active, Administratively Retired**  
-  Reserved for drafts, deprecations, and “temporary” workflows that remain in circulation while being declared complete.[^1]  
-  - **Operational effect:** Exceptions routed here never surface in active queues; their continued presence is acknowledged only as institutional memory.  
-  - **Typical hosts:** superseded templates, legacy checkboxes, routing rules marked “will be removed in future hygiene cycles” for more than six intervals.[^1]  
-
-- **LCGU — Locally Canonical, Globally Unacknowledged**  
-  Marks forms and procedures that have become standard inside a specific office or cluster while remaining absent from doctrine.[^1]  
-  - **Operational effect:** The Spine accepts their existence but refuses to reconcile them with catalog canon; global indexes treat LCGU instances as annotation noise.  
-  - **Typical hosts:** invented 32‑A variants, internal macros promoted to procedure, unofficial “shortcut” forms printed on reused letterhead.[^1]  
-
-- **STCP — Superseded in Theory, Co‑equal in Practice**  
-  Applied where a successor form has been ratified, but the predecessor continues to circulate at practically identical volume.[^1]  
-  - **Operational effect:** Selection is left to auto-suggestion tables and habit; downstream systems learn to treat both artifacts as equally authoritative.  
-  - **Typical hosts:** “deprecated” templates that never fully left circulation, emergency stopgaps (e.g., 32‑A‑NEW) that outlived their incident.[^1]  
-
-- **AAOA — Administratively Absent, Operationally Active**  
-  Label of record for objects retired from catalogs and schemas but still embedded in work.[^1]  
-  - **Operational effect:** Tickets referencing AAOA entities are closed as non-applicable; remediation cannot proceed because the items “do not exist” at the layer that opens queues.  
-  - **Typical hosts:** retired forms still photocopied from local binders, routes removed from the sitemap but kept in personal bookmarks, keys revoked in doctrine but cached in tooling.[^1]  
+<dl>
+<dt><strong>CAAR — Conceptually Active, Administratively Retired</strong></dt>
+<dd>Reserved for drafts, deprecations, and “temporary” workflows that remain in circulation while being declared complete.[^1]
+<ul>
+<li><strong>Operational effect:</strong> Exceptions routed here never surface in active queues; their continued presence is acknowledged only as institutional memory.</li>
+<li><strong>Typical hosts:</strong> superseded templates, legacy checkboxes, routing rules marked “will be removed in future hygiene cycles” for more than six intervals.[^1]</li>
+</ul>
+</dd>
+<dt><strong>LCGU — Locally Canonical, Globally Unacknowledged</strong></dt>
+<dd>Marks forms and procedures that have become standard inside a specific office or cluster while remaining absent from doctrine.[^1]
+<ul>
+<li><strong>Operational effect:</strong> The Spine accepts their existence but refuses to reconcile them with catalog canon; global indexes treat LCGU instances as annotation noise.</li>
+<li><strong>Typical hosts:</strong> invented 32‑A variants, internal macros promoted to procedure, unofficial “shortcut” forms printed on reused letterhead.[^1]</li>
+</ul>
+</dd>
+<dt><strong>STCP — Superseded in Theory, Co‑equal in Practice</strong></dt>
+<dd>Applied where a successor form has been ratified, but the predecessor continues to circulate at practically identical volume.[^1]
+<ul>
+<li><strong>Operational effect:</strong> Selection is left to auto-suggestion tables and habit; downstream systems learn to treat both artifacts as equally authoritative.</li>
+<li><strong>Typical hosts:</strong> “deprecated” templates that never fully left circulation, emergency stopgaps (e.g., 32‑A‑NEW) that outlived their incident.[^1]</li>
+</ul>
+</dd>
+<dt><strong>AAOA — Administratively Absent, Operationally Active</strong></dt>
+<dd>Label of record for objects retired from catalogs and schemas but still embedded in work.[^1]
+<ul>
+<li><strong>Operational effect:</strong> Tickets referencing AAOA entities are closed as non-applicable; remediation cannot proceed because the items “do not exist” at the layer that opens queues.</li>
+<li><strong>Typical hosts:</strong> retired forms still photocopied from local binders, routes removed from the sitemap but kept in personal bookmarks, keys revoked in doctrine but cached in tooling.[^1]</li>
+</ul>
+</dd>
+</dl>
 
 Informally, staff map these codes to broader failure types already used elsewhere in the archive:
 
-- CAAR → functional ghost  
-- LCGU → myth artifact with local enforcement  
-- STCP → unknown state object with stable throughput  
-- AAOA → archived failure that refuses archival containment
+CAAR
+: functional ghost
+
+LCGU
+: myth artifact with local enforcement
+
+STCP
+: unknown state object with stable throughput
+
+AAOA
+: archived failure that refuses archival containment
 
 ---
 

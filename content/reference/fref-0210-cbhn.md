@@ -35,11 +35,20 @@ Banners, mottos, stitched sayings, and inherited scripts may be logged as herita
 
 Use the following terms carefully:
 
-- **Original** — avoid when ceremonial continuity has replaced direct chain of custody.
-- **Present** — distinguish physically present, memorially present, and honorarily invoked.
-- **Approved** — avoid where assent was atmospheric, charitable, or lunch-shaped.
-- **Tradition** — avoid as a shield against asking who started the practice and who benefits from keeping it vague.
-- **Binding** — avoid unless the room would still admit the same obligation on a cold weekday with no pie.
+**Original**
+: avoid when ceremonial continuity has replaced direct chain of custody.
+
+**Present**
+: distinguish physically present, memorially present, and honorarily invoked.
+
+**Approved**
+: avoid where assent was atmospheric, charitable, or lunch-shaped.
+
+**Tradition**
+: avoid as a shield against asking who started the practice and who benefits from keeping it vague.
+
+**Binding**
+: avoid unless the room would still admit the same obligation on a cold weekday with no pie.
 
 ## Filing note
 

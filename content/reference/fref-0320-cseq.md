@@ -13,45 +13,45 @@ tags: ["reference"]
 
 ### Roles
 
-- **Lead Auditor**  
-  → Person who recognizes when wording changed, not behavior.
+**Lead Auditor**
+: Person who recognizes when wording changed, not behavior.
 
-- **Worshipful / Exalted / Grand**  
-  → Person trusted to keep the key to the cabinet and not improve it.
+**Worshipful / Exalted / Grand**
+: Person trusted to keep the key to the cabinet and not improve it.
 
-- **Project Manager**  
-  → Person who knows which dates were aspirational and which were remembered.
+**Project Manager**
+: Person who knows which dates were aspirational and which were remembered.
 
-- **Committee Chair**  
-  → Person the minutes point to when they need a signature.
+**Committee Chair**
+: Person the minutes point to when they need a signature.
 
 ### Artifacts
 
-- **Charter**  
-  → Intake narrative that will be wrong within one cycle.
+**Charter**
+: Intake narrative that will be wrong within one cycle.
 
-- **Standard Operating Procedure**  
-  → Ritual description of a practice that now exists slightly to one side.
+**Standard Operating Procedure**
+: Ritual description of a practice that now exists slightly to one side.
 
-- **Accreditation Certificate**  
-  → Historical note that, once, someone external agreed this looked fine.
+**Accreditation Certificate**
+: Historical note that, once, someone external agreed this looked fine.
 
-- **Lodge Banner / Regalia**  
-  → Assurance signage; qualifies as decoration and doctrine at the same time.
+**Lodge Banner / Regalia**
+: Assurance signage; qualifies as decoration and doctrine at the same time.
 
 ### Practices
 
-- **Audit**  
-  → A visit from the future, asking whether you meant to do what you wrote.
+**Audit**
+: A visit from the future, asking whether you meant to do what you wrote.
 
-- **Ritual Opening**  
-  → Attendance-taking with extra steps.
+**Ritual Opening**
+: Attendance-taking with extra steps.
 
-- **Degree Work**  
-  → Procedural memory encoded in ceremony instead of in manuals.
+**Degree Work**
+: Procedural memory encoded in ceremony instead of in manuals.
 
-- **Code of Ethics**  
-  → Document that assumes people will read it before needing it.
+**Code of Ethics**
+: Document that assumes people will read it before needing it.
 
 ---
 

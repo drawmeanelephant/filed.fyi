@@ -95,9 +95,14 @@ you will recognize the Assurance Vocabulary Desk.
 
 It standardizes how we soften:
 
-- failure → emergent condition,
-- missing → deferred presence,
-- orphaned → independent unit.
+failure
+: emergent condition,
+
+missing
+: deferred presence,
+
+orphaned
+: independent unit.
 
 You may find this soothing or faintly dishonest.
 Both reactions are acceptable.
@@ -177,10 +182,17 @@ You may ask where to file:
 
 Locally, these become:
 
-- **handshakes** → “recognized greeting macros,”
-- **passwords** → “legacy admission phrases,”
-- **degree work** → “procedural embeddings,”
-- **banners** → “retired assurance signage.”
+**handshakes**
+: “recognized greeting macros,”
+
+**passwords**
+: “legacy admission phrases,”
+
+**degree work**
+: “procedural embeddings,”
+
+**banners**
+: “retired assurance signage.”
 
 You are not asked to abandon them.
 You are reminded that the archive already has its own.

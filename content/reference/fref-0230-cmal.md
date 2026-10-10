@@ -34,11 +34,20 @@ A room may sincerely wish to help. The minutes should still distinguish apprecia
 
 Use the following terms with some adult supervision.
 
-- **Approved** — avoid where the room merely enjoyed hearing itself support the idea.
-- **Committed** — avoid unless the treasurer has been informed in the same century.
-- **Covered** — avoid where the shortfall is expected to be solved by optimism, pancakes, or the mayor knowing a guy.
-- **The room loved it** — emotionally useful, fiscally void.
-- **Basically there** — not a number.
+**Approved**
+: avoid where the room merely enjoyed hearing itself support the idea.
+
+**Committed**
+: avoid unless the treasurer has been informed in the same century.
+
+**Covered**
+: avoid where the shortfall is expected to be solved by optimism, pancakes, or the mayor knowing a guy.
+
+**The room loved it**
+: emotionally useful, fiscally void.
+
+**Basically there**
+: not a number.
 
 ## Filing note
 

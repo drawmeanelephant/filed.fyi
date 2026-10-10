@@ -45,17 +45,17 @@ Some have only a feeling that it would be rude not to treat them as real.
 
 For attendance and continuity dashboards, BMD standardizes four presence classes:
 
-1. **Present**  
-   Physically in the room with voting and speaking rights.
+**Present**
+: Physically in the room with voting and speaking rights.
 
-2. **Excused Absence**  
-   Not present, but acknowledged for reasons that do not threaten standing.
+**Excused Absence**
+: Not present, but acknowledged for reasons that do not threaten standing.
 
-3. **Honorary Absence**  
-   Long-standing non-attendance treated as a moral presence, not a body.
+**Honorary Absence**
+: Long-standing non-attendance treated as a moral presence, not a body.
 
-4. **Memorial Presence**  
-   Deceased members kept on rolls for continuity of story and seating chart.
+**Memorial Presence**
+: Deceased members kept on rolls for continuity of story and seating chart.
 
 Dashboard handling:
 
@@ -73,14 +73,14 @@ Service credit is often more durable than the labor that earned it.
 
 To avoid complete divergence between effort and attribution, BMD maintains:
 
-- **Labor entries**  
-  Who actually did the work (if known this cycle).
+**Labor entries**
+: Who actually did the work (if known this cycle).
 
-- **Credit defaults**  
-  Names and entities to whom thanks will flow if no labor is recorded.
+**Credit defaults**
+: Names and entities to whom thanks will flow if no labor is recorded.
 
-- **Legacy credit paths**  
-  Historical routes by which credit accumulated around certain names.
+**Legacy credit paths**
+: Historical routes by which credit accumulated around certain names.
 
 Reporting rules:
 

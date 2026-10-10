@@ -39,10 +39,17 @@ When explicit review mode is triggered, it must operate in one of two tiers:
 
 A successful mascot file should satisfy four conditions:
 
-* **Identity:** It preserves a recognizable failure signature rather than a mood, aesthetic, or generic personality shell.
-* **Classification:** It maintains jurisdictional clarity about what kind of system residue, contradiction, or procedural drift it is equipped to witness.
-* **Distinction:** It remains distinct from adjacent mascots without relying on ornamental novelty alone.
-* **Residue:** It leaves enough residue in the file for the archive to feel truthful, but not so much smoothing that the mascot begins reading like resolved product copy.
+**Identity**
+: It preserves a recognizable failure signature rather than a mood, aesthetic, or generic personality shell.
+
+**Classification**
+: It maintains jurisdictional clarity about what kind of system residue, contradiction, or procedural drift it is equipped to witness.
+
+**Distinction**
+: It remains distinct from adjacent mascots without relying on ornamental novelty alone.
+
+**Residue**
+: It leaves enough residue in the file for the archive to feel truthful, but not so much smoothing that the mascot begins reading like resolved product copy.
 
 ---
 
