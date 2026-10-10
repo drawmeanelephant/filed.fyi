@@ -37,9 +37,14 @@ Filers are advised to "translate subjective states into objective continuity inv
 
 The Clarification includes a non-exhaustive table of phrases that "may lead to misinterpretation" and their approved substitutions:
 
-- "We are exhausted" → "Current throughput exceeds sustainable equilibrium."  
-- "We cannot think straight" → "Decision quality metrics trend below continuity baseline."  
-- "Everyone is crying" → "Output stability indicators exhibit moisture-adjacent variance."
+"We are exhausted"
+: "Current throughput exceeds sustainable equilibrium."
+
+"We cannot think straight"
+: "Decision quality metrics trend below continuity baseline."
+
+"Everyone is crying"
+: "Output stability indicators exhibit moisture-adjacent variance."
 
 Requests containing unapproved phrases are not rejected; they are "normalized" by the auto-issuance daemon before entering the ledger.
 

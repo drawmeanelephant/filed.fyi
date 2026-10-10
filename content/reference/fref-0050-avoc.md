@@ -31,10 +31,17 @@ Where such language appears, the following substitutions are recommended before 
 
 ## Scan Language Crosswalk
 
-- “Missing file” → “record in deferred presence.”
-- “Orphaned asset” → “independent archival unit.”
-- “Gap in inventory” → “curated absence within the working set.”
-- “Unscanned region” → “low-touch inspection zone.”
+“Missing file”
+: “record in deferred presence.”
+
+“Orphaned asset”
+: “independent archival unit.”
+
+“Gap in inventory”
+: “curated absence within the working set.”
+
+“Unscanned region”
+: “low-touch inspection zone.”
 
 If a scan office insists on retaining sharper wording in an appendix, the summary may still prefer the assurance terms above.
 
