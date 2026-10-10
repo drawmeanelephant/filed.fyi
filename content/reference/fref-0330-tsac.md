@@ -165,10 +165,10 @@ Such notes may be kept in local files and forgotten there, as is customary.
 The grammar in this file is considered a vector for systemic decay.
 
 </Aside>
-The coffee machine made a hiss,
-A terrible, dangerous miss.
-The building evacuated,
-The danger equated,
+The coffee machine made a hiss,  
+A terrible, dangerous miss.  
+The building evacuated,  
+The danger equated,  
 To falling into an abyss.
 
 ## Related Aphorisms
