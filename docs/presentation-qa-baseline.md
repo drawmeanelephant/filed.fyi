@@ -203,3 +203,87 @@ for a pass-2 PR is:
   `boris check`.
 - Verse tails and hard breaks are untouched.
 - At least one unchanged record was read in full and its note is specific.
+
+---
+
+## Pass 3 — crosslink densification
+
+Pass 3 raises mention density: instead of asking whether a record earns
+structure, the worker censuses every mention of a known archive target and
+links it. The earlier passes' invariants still hold: no word changes,
+frontmatter `relations` frozen, verse tails and hard breaks untouched.
+
+### Linking rules
+
+- **One link per target per page, at the first eligible occurrence.**
+  Headings are eligible but optional; a heading link does not consume the
+  page's slot for that target. Subsequent mentions of the same target stay
+  plain.
+- **The label is the surface token, byte-exact.** Spelling, case,
+  punctuation, and truncation are preserved inside `[[…|label]]`; a
+  label never normalizes the source.
+- **Natural-language name mentions are in scope under adjudication.**
+  A name mention (a record title, mascot name, or well-known designation
+  without an ID token) may link where the referent is unambiguous. The
+  protocol is: census every candidate occurrence, produce a manifest,
+  adjudicate each occurrence, then apply. Ambiguous mentions are flagged,
+  not guessed.
+- **Code-spanned ID mentions convert to wiki links.** A backticked
+  canonical ID is a mention in a pre-existing marker; converting
+  `` `LLG-0072-SOMA` `` to `[[lorelog/LLG-0072-SOMA|LLG-0072-SOMA]]` is the
+  sanctioned mechanism.
+- **Frontmatter `relations` are not duplicated in the body.** A declared
+  edge is already an edge; the body does not re-assert it unless the
+  record's prose independently earns the mention.
+- **Known residue does not retroactively become a defect.** Pages that
+  already carry multiple links to one target (predating the one-per-page
+  rule) are inventoried as residue and left standing unless a maintainer
+  ruling says otherwise.
+
+### Protected regions
+
+No links are added inside:
+
+- blockquote lines (lines starting `>`; blank lines between quoted
+  material and the next `>` line do not end the quote, but a plain
+  paragraph does);
+- sections under headings whose first word is `Related` (index/tail
+  regions, including `## Related verse` tails);
+- link-index / reference sections that exist to enumerate IDs;
+- hyphen compounds (a token inside a hyphenated phrase is not a mention);
+- existing wiki-link syntax.
+
+### Flag classes
+
+Not every suspicious token is a defect. Distinguish:
+
+- **Stem-aliased mention** — the token is a known alias/stem of a
+  canonical record (`013.htaccessius`-style stems). Flag for ruling; it
+  is not a dangling reference.
+- **Self-verse-shadow** — the host record *is* the canonical target the
+  mention would resolve to. Flag for ruling; do not self-link.
+- **Same-label→two-destinations** — one surface label already links to
+  two different canonical targets on a page. Flag for ruling.
+- **Dangling ref** — an ID-shaped token with no canonical target. Flag;
+  never link.
+
+### Collision resolution
+
+When several canonical records plausibly satisfy one mention, the
+priority order is: limerick > aphorism > haiku > primary record. Record
+the call in the PR note.
+
+### Process rulings
+
+- **The comment-posted review is the sanctioned gate artifact.** A
+  formal different-account `APPROVE` is structurally impossible when
+  author and reviewer share the maintainer's token; a posted review
+  comment with an explicit verdict (APPROVE / REQUEST_CHANGES) satisfies
+  item 3 of the merge gate on this account.
+- **Enumeration must equal tally.** Docket and PR-body counts must
+  reconcile exactly against the diff's own enumeration; the recurring
+  bookkeeping failure class is narrative tallies drifting from per-file
+  tables.
+- **Prefix-uniqueness tests are scoped to the token's own namespace.**
+  Verifying a canonical ID resolves means the exact `id:` exists; a short
+  token that substring-matches other records' ids is not a collision.
