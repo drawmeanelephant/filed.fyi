@@ -50,6 +50,10 @@ This directory contains the Python, Shell, and automation scripts used to build,
 * **Purpose**: **Read-only** source census of Markdown files under `content/`. Checks that each collection trunk declares exactly one `Count: N records.` line matching its nested record count, that every record has a collection trunk, and that the page, trunk, and satellite totals claimed in `README.md` match the source. Not a Boris graph/schema validator.
 * **Usage**: `python3 scripts/check_collection_counts.py`
 
+### 📜 `reconcile_counts.py`
+* **Purpose**: **Write-mode** twin of `check_collection_counts.py`. Rewrites each collection trunk's `Count: N records.` line and the `README.md` page/trunk/satellite claims so they match the actual Markdown census, then re-runs the read-only check to confirm convergence. Only repairs drift it owns — missing or duplicated `Count:` lines, unowned records, and absent README claims are reported and left for a human. Used by the `Reconcile collection counts` workflow to heal merge-preview count drift on pull requests and `main`.
+* **Usage**: `python3 scripts/reconcile_counts.py [--check]` (`--check` is a dry run that reports drift without writing)
+
 ### 📜 `normalize_literal_newline_haikus.py`
 * **Purpose**: Idempotent syntax normalizer for literal escaped `\n` characters in haikus/limericks verse blocks, converting literal escapes into physical line breaks while preserving frontmatter and prose.
 * **Usage**: `python3 scripts/normalize_literal_newline_haikus.py --check`
@@ -112,6 +116,7 @@ Run test suites individually to verify pipeline components:
 * `python3 scripts/test_content_audit_policy.py` — Tests poetry ownership mapping and content audit policy verification.
 * `python3 scripts/test_ensure_boris.py` — Tests Boris binary resolution and checksum validation.
 * `python3 scripts/test_normalize_literal_newline_haikus.py` — Tests literal `\n` normalization safety and idempotency.
+* `python3 scripts/test_reconcile_counts.py` — Tests write-mode declared-count repair, convergence, and human-only residue.
 * `python3 scripts/test_relationship_repair.py` — Tests relationship repair and export parity.
 * `python3 scripts/test_tag_roundtrip.py` — Tests tag parsing and round-trip preservation.
 * `python3 scripts/test_verse_residue.py` — Tests post-render verse residue verification.
