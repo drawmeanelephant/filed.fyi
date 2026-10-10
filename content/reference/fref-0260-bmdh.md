@@ -238,7 +238,6 @@ It does:
 
 - choose what counts as “present,” “support,” and “service,”
 - decide which shortages may be filed as “dignified quiet,”
-- 
 <Aside kind="note">
 
 **Archivist's Addendum**

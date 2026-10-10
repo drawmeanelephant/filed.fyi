@@ -142,10 +142,10 @@ That growth is considered part of ordinary decay.
 Content is undergoing spontaneous semantic shift. Meaning may vary depending on the reader's rank.
 
 </Aside>
-The folder is labeled as 'New'.
-Its color is somewhat light blue.
-The contents are blank.
-The metadata shrank.
+The folder is labeled as 'New'.  
+Its color is somewhat light blue.  
+The contents are blank.  
+The metadata shrank.  
 The deadline is currently due.
 
 ## Related Aphorisms

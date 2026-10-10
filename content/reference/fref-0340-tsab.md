@@ -84,10 +84,10 @@ which is all it can reasonably ask.
 Linked to an unresolved [[lorelog/LLG-0014|map-inc-14]] containment breach.
 
 </Aside>
-The sign on the door has been changed.
-The desks have been slightly rearranged.
-The keyboard is black.
-The chair has a back.
+The sign on the door has been changed.  
+The desks have been slightly rearranged.  
+The keyboard is black.  
+The chair has a back.  
 The process is completely estranged.
 
 ## Related Aphorisms

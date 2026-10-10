@@ -93,10 +93,10 @@ They are simply recording where belonging, procedure, gratitude, and optimism pa
 This is a placeholder for a policy that was never actually written.
 
 </Aside>
-A mouse click was two seconds late,
-Which triggered the opening gate.
-The sirens went off,
-The managers scoff,
+A mouse click was two seconds late,  
+Which triggered the opening gate.  
+The sirens went off,  
+The managers scoff,  
 As all of us ponder our fate.
 
 ## Related Aphorisms

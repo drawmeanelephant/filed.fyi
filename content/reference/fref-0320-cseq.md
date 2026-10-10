@@ -72,10 +72,10 @@ If you are unsure what to do with your prior credentials:
 Pending approval from a committee that was dissolved six years ago.
 
 </Aside>
-The window is stuck in the frame.
-The draft is the one we should blame.
-The thermostat reads,
-A temperature pleads.
+The window is stuck in the frame.  
+The draft is the one we should blame.  
+The thermostat reads,  
+A temperature pleads.  
 The outcome is always the same.
 
 ## Related Aphorisms

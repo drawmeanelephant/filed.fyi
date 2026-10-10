@@ -84,7 +84,7 @@ Aesthetic outputs are reviewed against the following questions:
 
 If the answer to Question 4 is yes and the answer to Question 5 is deferred, the system will often approve the surface.
 
-*This is working as designed*.
+*This is working as designed.*
 
 ---
 
