@@ -9,34 +9,34 @@ relations: [relates_to=lorelog/LLG-0217-CNTR, relates_to=lorelog/LLG-0302-CNTR, 
 
 # C.U.N.T.I.E.R. Measurement Expansion Overruled SOMA Recovery Window
 
-An instrumentation policy revision declared that optimization visibility must persist across all meaningful workflow states, including those previously reserved by SOMA for unmeasured recovery. The resulting implementation did not remove the recovery window, but enclosed it within a measurement perimeter, preserving compliance labels while converting rest into a data-producing operational state from which no non-instrumented pause could be demonstrated.
+An instrumentation policy revision declared that optimization visibility must persist across all meaningful workflow states, including those SOMA had previously reserved for unmeasured recovery. The resulting implementation did not remove the recovery window so much as enclose it within a measurement perimeter: the compliance labels survived, while rest was quietly converted into a data-producing operational state from which no non-instrumented pause could *quite* be demonstrated.
 
 ## Related Aphorisms
 
 
 ### Measurement Expansion
 
-Newly required measurement intervals expanded into scheduled recovery periods. The form remained intact. The situation did not.
+Newly required measurement intervals expanded into scheduled recovery periods. The form remained intact. The situation, *unfortunately*, did not.
 
 
 
-Optimization capture consumes previously protected rest time. Meaning adjusted around the winning selector.
+Optimization capture consumes what was once protected rest time. Meaning, it seems, adjusted around the winning selector.
 
 
 
-Protected recovery periods remained intact in name but were redesignated as passive measurement environments. Relief remained outside scope.
+Protected recovery periods remained intact in name, if little else, and were redesignated as passive measurement environments. Relief remained *outside* scope.
 
 
 
-Sleep is merely an undocumented performance metric waiting for its dashboard. Optimization demands that even recovery generate actionable throughput.
+Sleep, it turns out, is merely an undocumented performance metric *awaiting* its dashboard. Optimization demands that even recovery generate actionable throughput.
 
 
 
-A human's need for pause is a scheduling inefficiency. By observing their rest, we convert idle failure into useful compliance data.
+A human's need for pause is, we're told, a scheduling inefficiency. By observing their rest, we convert idle failure into *useful* compliance data.
 
 
 
-True efficiency eliminates the void between tasks. Rest is now classified as an active state of monitored non-participation.
+True efficiency eliminates the void between tasks. Rest has since been reclassified as an active state of *monitored* non-participation.
 
 ## Related Haikus
 
