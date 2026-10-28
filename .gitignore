@@ -24,6 +24,12 @@ filed-boris-2026-08-02/
 content/spec-lab/
 content/spec-lab.md
 
+# Local knap-mcp artifact store (content-upgrades pipeline)
+.knap-mcp/
+
+# Personal/local devin MCP configuration (machine-specific paths)
+.devin/mcp_config.local.json
+
 # OS-specific files
 .DS_Store
 Thumbs.db
