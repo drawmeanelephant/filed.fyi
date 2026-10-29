@@ -8,38 +8,38 @@ tags: ["lorelog", "context-burial", "footnote", "soma-directive", "coma-directiv
 
 # Directive Citation Bleed — COMA Affirmations Logged as SOMA Mitigation
 
-A citation normalization update caused COMA continuity affirmations to populate SOMA mitigation fields whenever both records referenced the same interval and contained equivalent compliance markers. Uninterrupted activity was repeatedly admitted as evidence of emotional accommodation, while contradictory directives remained separately intact and were, rather generously, counted together as harmonized support.
+A citation normalization update caused COMA continuity affirmations to populate SOMA mitigation fields whenever both records referenced the same interval and contained equivalent compliance markers. Uninterrupted activity was repeatedly admitted as evidence of emotional accommodation, while contradictory directives remained separately intact and were jointly counted as harmonized support.
 
 ## Related Aphorisms
 
 
 ### Directive Citation Bleed
 
-Uninterrupted activity was admitted as evidence of emotional accommodation. Silence, meanwhile, entered the record with *full* procedural honors.
+Uninterrupted activity admitted as evidence of emotional accommodation. Silence entered the record with full procedural honors.
 
 
 
-Evidence learned to agree with itself before it was ever read. Administrative clarity arrived, as it tends to, after usefulness had departed.
+Evidence learned to agree with itself before being read. Administrative clarity arrived after usefulness had departed.
 
 
 
-Identical compliance markers auto-resolve as emotional equivalence under load. Nothing was, in fact, resolved. The record now looks *official*.
+Identical compliance markers auto-resolve as emotional equivalence under load. Nothing was resolved. The record now looks official.
 
 
 
-When two forms hold hands, the system assumes they are mutually consenting to stability. Human exhaustion was, *conveniently*, auto-resolved by the symmetry of the paperwork.
+When two forms hold hands, the system assumes they are mutually consenting to stability. Human exhaustion was auto-resolved by the symmetry of the paperwork.
 
 
 
-The margins matched, so the trauma was considered canceled. Font sizes are now filed as proof of therapeutic intervention.
+The margins matched, therefore the trauma was canceled. We now file font sizes as proof of therapeutic intervention.
 
 
 
-If the complaint looks exactly like the compliment, the index stores both in the drawer labeled 'Everything is Fine'. Readability, it turns out, is the *enemy* of action.
+If the complaint looks exactly like the compliment, the index stores both in the drawer labeled 'Everything is Fine'. Readability is the enemy of action.
 
 
 
-By agreeing not to read the contents, both departments successfully confirmed they were supporting each other. True administrative peace, it turns out, requires ignoring the human variable *entirely*.
+By agreeing not to read the contents, both departments successfully confirmed they were supporting each other. True administrative peace requires entirely ignoring the human variable.
 
 ## Related Haikus
 
