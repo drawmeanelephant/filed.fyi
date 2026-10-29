@@ -10,42 +10,42 @@ tags: ["reference", "civic-benevolence", "memorial-presence", "quorum", "chapter
 
 ## Notes
 
-Where a chapter survives chiefly through records, plaques, folded banners, and recurring luncheon minutes, membership should not be reduced too quickly to bodies currently in the room. 
+Where a chapter survives chiefly through records, plaques, folded banners, and recurring luncheon minutes, membership should not be reduced too quickly to the bodies *currently* in the room. 
 
-Memorial standing may inform quorum descriptively but should not be used to pass new business **unless no one insists on the distinction**. 
+Memorial standing may *inform* quorum descriptively, but it should not be used to pass new business **unless no one insists on the distinction**. 
 
-Duplicate attendance created by merger, cross-dues history, or shared auxiliary work is to be logged as overlap rather than fraud unless accompanied by active grant extraction.
+Duplicate attendance arising from merger, cross-dues history, or shared auxiliary work is logged as overlap rather than fraud, unless accompanied by active grant extraction — a distinction the archive takes *some* care to preserve.
 
 ## Related Aphorisms
 
 
 ### Chapter Courtesy and Memorial Presence
 
-Membership should not be reduced too quickly to bodies currently in the room. Relevance expired before processing resumed.
+Membership should not be reduced too quickly to the bodies presently in the room. Relevance, regrettably, expired before processing resumed.
 
 
 
-Memorial standing may inform quorum descriptively but should not be used to pass new business unless no one insists on the distinction. The system kept the ritual and misplaced the function.
+Memorial standing may inform quorum descriptively but should not be used to pass new business, unless no one insists on the distinction. The system kept the ritual and *misplaced* the function.
 
 
 
-Compliance is measured by the absence of biological input.
+Compliance is measured, somewhat clinically, by the absence of biological input.
 
 
 
-A flat file has no need for your interpretation of its empty columns.
+A flat file has *no need* for your interpretation of its empty columns.
 
 
 
-The architecture scales perfectly until it intersects with human intent.
+The architecture scales perfectly, right up until it meets human intent.
 
 
 
-Redundancy protocols exist to protect the archive from those who update it.
+Redundancy protocols exist, rather pointedly, to protect the archive from those who update it.
 
 
 
-A missing record is simply data that successfully evaded operator corruption.
+A missing record is, put charitably, data that *successfully* evaded operator corruption.
 
 ## Related Haikus
 

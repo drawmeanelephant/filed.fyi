@@ -8,4 +8,4 @@ tags: ["reference", "historical-residue"]
 
 # Allocation Protocol INDEX_VAULT (Dense Overdrift)
 
-Retired poetry-restoration work order, preserved as historical residue. The staged agent assignments, monitored target coordinates, and generation directives it once carried have been removed. No restoration is pending.
+Retired poetry-restoration work order, preserved as historical residue. The staged agent assignments, monitored target coordinates, and generation directives it once carried have since been removed. No restoration is pending, nor, it appears, anticipated.

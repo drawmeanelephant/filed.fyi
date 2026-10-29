@@ -32,13 +32,13 @@ Several pens stop moving.
 >  *Lead Auditor* means  
 >  the one who knows how to read a checklist sideways.
 
-No one objects.
+No one objects, as yet.
 
 ---
 
 ## On Ritual Openings
 
-Question from the back:
+A question, then, from the back:
 
 > ATTENDEE:  
 >  Which ritual do we use to open this lodge?
@@ -50,11 +50,11 @@ Pause.
 >  We check whether the last person closed it properly.  
 >  If not, we note that continuity has been maintained.
 
-Minutes record:
+The minutes, for the record:
 
-- Ritual deemed complete at this point.
+- Ritual deemed complete at this point, *apparently*.
 
-No further ceremony recorded.
+No further ceremony is recorded, which is perhaps just as well.
 
 ---
 
@@ -119,23 +119,23 @@ The transcript ends with the sound of folders being opened, finally.
 
 ### Cross-Lodge Intake Briefing
 
-Titles tell you what you earned elsewhere and who will volunteer for forms here. Relevance expired before processing resumed.
+Titles tell you what you earned elsewhere and who will volunteer for the forms here. Relevance, regrettably, expired before processing resumed.
 
 
 
-Several pens stop moving. The system kept the ritual and misplaced the function.
+Several pens stop moving. The system kept the ritual and, characteristically, *misplaced* the function.
 
 
 
-Ritual Opening: we open a drawer and check whether the last person closed it properly. Silence entered the record with full procedural honors.
+Ritual Opening: we open a drawer and check whether the last person closed it properly. Silence entered the record with *full* procedural honors.
 
 
 
-A cross-lodge briefing is primarily a contest to see whose archaic jargon can paralyze the meeting faster.
+A cross-lodge briefing is, in practice, a contest to see whose archaic jargon can paralyze the meeting faster.
 
 
 
-If the transcript of the briefing makes sense, it must be returned to the orientation desk for further obfuscation.
+If the transcript of the briefing makes sense, it must be returned to the orientation desk for further *obfuscation*.
 
 ## Related Haikus
 

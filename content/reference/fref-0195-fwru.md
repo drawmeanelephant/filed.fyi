@@ -8,34 +8,34 @@ tags: ["reference", "CAB", "emergency-change", "freeze-window", "recognizable-ur
 
 # Freeze Windows and Recognizable Urgency
 
-Emergency status should not be denied solely because the requesting team remained composed. That said, board confidence historically increases when **operational distress is externally legible**. 
+Emergency status should not be denied solely because the requesting team remained composed. That said, board confidence has historically improved when **operational distress is externally legible** — composure, it seems, reads poorly in a memo. 
 
-Freeze windows are scheduling conditions, not proof of heightened sanctity, though some boards continue behaving otherwise. 
+Freeze windows are scheduling conditions, not proof of heightened sanctity, though some boards *continue* behaving otherwise. 
 
-Where a request is rejected for insufficient visible emergency and later accepted under worsened conditions, the minutes should preserve both decisions without claiming that the delay improved the underlying system.
+Where a request is rejected for insufficient visible emergency and later accepted under worsened conditions, the minutes should preserve both decisions — without suggesting, however politely, that the delay *improved* the underlying system.
 
 ## Related Aphorisms
 
 
 ### Freeze Windows and Recognizable Urgency {#freeze-windows-and-recognizable-urgency-2}
 
-Emergency status should not be denied solely because the requesting team remained composed. Silence entered the record with full procedural honors.
+Emergency status should not be denied solely because the requesting team remained composed. Silence, it seems, entered the record with full procedural honors.
 
 
 
-Board confidence historically increases when operational distress is externally legible. Administrative clarity arrived after usefulness had departed.
+Board confidence has historically risen whenever operational distress became legible from the outside. Administrative clarity arrived, *as it tends to*, only after usefulness had departed.
 
 
 
-Freeze windows are scheduling conditions, not proof of heightened sanctity. Nothing was resolved. The record now looks official.
+Freeze windows are scheduling conditions, not proof of heightened sanctity. Nothing was resolved. The record, of course, now *looks* official.
 
 
 
-An emergency is only recognizable if it is formatted according to the style guide.
+An emergency is only recognizable if it has been formatted according to the style guide.
 
 
 
-A composed warning is far too threatening to be considered a legitimate plea for help.
+A composed warning reads as far too threatening to pass for a legitimate plea for help.
 
 ## Related Haikus
 

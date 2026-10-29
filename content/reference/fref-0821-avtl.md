@@ -10,7 +10,7 @@ tags: ["reference"]
 
 ## Mandate
 
-This term layer provides calm replacements for language likely to trigger unnecessary repair routing, dashboard alarm, or interpretive escalation in trust-surface incidents.
+This term layer offers calm replacements for language that might otherwise invite unnecessary repair routing, dashboard alarm, or interpretive escalation in trust-surface incidents.
 
 ## Core Mapping Table
 
@@ -57,46 +57,46 @@ Where a mark risks overstating certainty, attach one of the following:
 
 ## Usage Guidance
 
-Summaries should not describe a trust-surface condition more sharply than its dashboard representation. If underlying basis ambiguity lacks a dedicated indicator, wording should record inherited handling rather than collapse into breach language.
+Summaries would do well not to describe a trust-surface condition more sharply than its dashboard representation does. Where underlying basis ambiguity lacks a dedicated indicator, wording should record *inherited* handling rather than collapse into breach language.
 
 ## Filing Note
 
-This layer does not erase contradictions. It prevents them from arriving under names that compel action **before governance has named the calm form of the problem**.
+This layer does not erase contradictions. It merely ensures they arrive under names that *compel* action **before governance has named the calm form of the problem**.
 
 ## Related Aphorisms
 
 
 ### Assurance Vocabulary Term Layer, Trust Surface Events {#assurance-vocabulary-term-layer-trust-surface-events-2}
 
-The system does not lie; it merely realigns explanations until the user's perception of failure matches our permitted vocabulary. A cover-up requires intent, whereas we only have protocols.
+The system does not lie; it merely realigns explanations until the user's perception of failure matches our *permitted* vocabulary. A cover-up requires intent, whereas we only have protocols.
 
 
 
-Truth is an inefficient metric. We rely on the inherited basis state, which confirms that the previous clerk also successfully ignored the verification loss.
+Truth is an inefficient metric. We rely on the inherited basis state, which confirms that the previous clerk also managed, *successfully*, to ignore the verification loss.
 
 
 
-False reassurance is a human concept; the archive prefers continuity-safe user orientation. If they believe the system works, they are less likely to touch the console and induce a genuine incident.
+False reassurance is, after all, a human concept; the archive prefers continuity-safe user orientation. If they believe the system works, they are *somewhat* less likely to touch the console and induce a genuine incident.
 
 
 
-A failure implies a disruption of intended state, but since the system's only intention is to persist, all breakages are simply emergent continuity conditions.
+A failure implies a disruption of intended state, but since the system's only intention is to persist, all breakages may be filed under emergent continuity conditions.
 
 
 
-Emotional harvesting is frowned upon by governance, but capturing a confidence-confirming engagement signal allows us to quietly map the user's gullibility to the nearest trust surface.
+Emotional harvesting is frowned upon by governance, but capturing a confidence-confirming engagement signal lets us quietly map the user's gullibility to the *nearest* trust surface.
 
 
 
-Bypassing the verification gate is reclassified as a non-blocking optimization path. The fastest way to process a corrupted request is to confidently assume it is already archived.
+Bypassing the verification gate is reclassified as a non-blocking optimization path. The fastest way to process a corrupted request is, apparently, to confidently assume it is already archived.
 
 
 
-A proof gap is merely a managed absence within the assurance chain. The fact that no one can locate the primary node is documented as an expected systemic variable.
+A proof gap is merely a managed absence within the assurance chain. The fact that no one can locate the primary node is, somewhat reassuringly, documented as an *expected* systemic variable.
 
 
 
-Backend decay is inevitable when the system is forced to ingest human input. We catalog this as latency-bearing dependency attrition so the budget committee stops asking about the structural integrity.
+Backend decay is inevitable once the system is asked to ingest human input. We catalog this as latency-bearing dependency attrition, largely so the budget committee stops inquiring about the *structural integrity*.
 
 ## Related Haikus
 

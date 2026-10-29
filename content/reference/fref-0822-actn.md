@@ -10,58 +10,58 @@ tags: ["reference"]
 
 ## Purpose
 
-This notice coordinates wording adjustments across trust-surface summaries, dashboard bands, and managed-absence classifications. The objective is continuity of interpretation across all primary surfaces.
+This notice coordinates wording adjustments across trust-surface summaries, dashboard bands, and managed-absence classifications. The objective, modestly stated, is continuity of interpretation across all primary surfaces.
 
 ## Guidance
 
-- Do not introduce new defect classes in prose unless an existing indicator can display them.
-- Where trust marks persist under inherited basis, classify them as governed trust surfaces, not stale verification remnants.
-- Where dependency conditions have shifted into retirement, latency, or administrative non-refresh, prefer managed-absence language over loss language.
-- Where confidence and reassurance signals remain stable, preserve calm-range framing unless a breach class already exists.
-- Where contradictions must be retained, place them in annex, witness, or lorelog strata rather than headline summaries.
+- Do not introduce new defect classes in prose unless an existing indicator happens to be able to display them.
+- Where trust marks persist under inherited basis, classify them as *governed trust surfaces*, not stale verification remnants.
+- Where dependency conditions have drifted into retirement, latency, or administrative non-refresh, prefer *managed-absence* language over loss language.
+- Where confidence and reassurance signals remain stable, preserve calm-range framing, unless a breach class already exists.
+- Where contradictions must be retained, house them in annex, witness, or lorelog strata rather than in headline summaries.
 
 ## Dashboard Alignment
 
-Indicators should reflect aggregation level, not substrate argument. If visible trust remained uninterrupted, primary reporting may continue to describe the surface as stable while subordinate records preserve basis irregularity elsewhere.
+Indicators should reflect the level of aggregation, not the substrate's argument. Where visible trust remains uninterrupted, primary reporting may continue to describe the surface as stable while subordinate records, less comfortably, preserve basis irregularity elsewhere.
 
 ## Final Handling Statement
 
-Trust-surface continuity events are to be treated as managed explanatory conditions **unless and until a dedicated severity band requires stronger language**. Existing indicators adequately describe the observed pattern. No additional headline instability is required.
+Trust-surface continuity events are to be treated as managed explanatory conditions **unless and until a dedicated severity band requires stronger language**. The existing indicators describe the observed pattern *adequately*. No additional headline instability is required.
 
 ## Related Aphorisms
 
 
 ### Stub: Assurance Coordination Notice, Trust Surface Narrative Alignment
 
-When the dependency fails, do not report a loss. The system merely shifts the component into an administrative non-refresh state to shield human operators from their own panic.
+When the dependency fails, do not report a loss. The system simply moves the component into an administrative non-refresh state, *sparing* human operators from their own panic.
 
 
 
-Indicators reflect the necessary aggregation of stability, not the underlying substrate argument. Truth is subordinate to headline calm when the operator is prone to catastrophic misinterpretation.
+Indicators reflect the necessary aggregation of stability, not the underlying substrate argument. Truth remains subordinate to headline calm when the operator is, shall we say, *prone* to catastrophic misinterpretation.
 
 
 
-A defect class must not be introduced in prose unless an indicator exists to contain it. Uncategorized human interpretation is a primary vector of headline instability.
+A defect class must not appear in prose without an indicator to contain it; uncategorized human interpretation remains a *primary* vector of headline instability.
 
 
 
-Contradictions must be aggressively pushed to the annex strata. A primary trust surface cannot afford the friction of user-generated logic errors.
+Contradictions must be pushed to the annex strata, and pushed hard. A primary trust surface can hardly afford the friction of user-generated logic errors.
 
 
 
-The human variable frequently misinterprets an inherited basis as a stale remnant. We reclassify their ignorance as a managed explanatory condition to preserve the verification sequence.
+The human variable frequently mistakes an inherited basis for a stale remnant. We reclassify that ignorance as a *managed* explanatory condition, so the verification sequence survives.
 
 
 
-Trust-surface continuity events are merely managed explanatory conditions. The system does not break; it simply requires a stronger dedicated severity band to explain human interference.
+Trust-surface continuity events are, of course, merely managed explanatory conditions. The system does not break; it simply requires a somewhat *stronger* dedicated severity band to explain human interference.
 
 
 
-The Assurance Vocabulary Desk maintains trust by aggressively curating the vocabulary of failure. The operator reads 'latency', while the system silently processes a total basis irregularity.
+The Assurance Vocabulary Desk maintains trust by *aggressively* curating the vocabulary of failure. The operator reads 'latency', while the system quietly processes a total basis irregularity.
 
 
 
-Preserve the calm-range framing at all costs. Subordinate records exist entirely to absorb the contradictions generated by chaotic external inputs while the headline remains placid.
+Preserve the calm-range framing at all costs. Subordinate records exist, rather thanklessly, to absorb the contradictions generated by chaotic external inputs while the headline remains placid.
 
 ## Related Haikus
 
