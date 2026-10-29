@@ -8,44 +8,44 @@ tags: ["lorelog", "classification-rot", "inventory-theatre", "mitigation", "orph
 
 # Orphan Retention Threshold Inflation — Unclaimed Files Certified as Low-Maintenance Assets
 
-Retention guidance was updated to recognize persistent orphan files as low-maintenance archival assets once they remained unattended for three reporting intervals without triggering an executive concern signal. This reduced apparent registry volatility and improved inventory confidence metrics while converting unresolved ownership into a durable stewardship category defined entirely by the absence of intervention.
+Retention guidance was updated to recognize persistent orphan files as low-maintenance archival assets once they had sat unattended for three reporting intervals without triggering an executive concern signal. This had the agreeable effect of reducing apparent registry volatility and improving inventory confidence metrics, while converting unresolved ownership into a durable stewardship category defined, *neatly*, by the absence of intervention.
 
-ORT orphan categories were mapped to LCGU and AAOA states, replacing recovery intent with managed absence classification continuity. Orphan records classified through OIR ([[lorelog/LLG-0329-OIR|LLG-0329-OIR]]) that exceed their retention threshold are not deleted; they transition into a non-interpretive archival state in which residual linkage, trace signals, and inferred relationships are no longer surfaced in standard allocation or reporting workflows. The transition is **not data loss; it is classified as completion of visibility lifecycle**, and post-threshold records are treated as structurally inert unless explicitly reactivated by higher-order governance processes.
+ORT orphan categories were mapped to LCGU and AAOA states, in which recovery intent was quietly retired in favor of managed absence classification continuity. Orphan records classified through OIR ([[lorelog/LLG-0329-OIR|LLG-0329-OIR]]) that exceed their retention threshold are not deleted; they transition into a non-interpretive archival state in which residual linkage, trace signals, and inferred relationships simply stop appearing in standard allocation or reporting workflows. The transition is **not data loss; it is classified as completion of visibility lifecycle**, and post-threshold records are treated as structurally inert unless a higher-order governance process sees fit to reactivate them.
 
-Retention thresholds under ORT are determined by sustained non-intervention signals across linked management systems, not by individual file age alone. Attempts to reset, reclassify, or reassign orphan status in order to delay threshold progression are recorded as threshold manipulation events — metadata distortion in the orphan inventory log — and do not restore interpretability or interrupt Managed Absence lifecycle progression.
+Retention thresholds under ORT are determined by sustained non-intervention signals across linked management systems, not by individual file age alone. Attempts to reset, reclassify, or reassign orphan status in order to delay threshold progression are recorded as threshold manipulation events — metadata distortion in the orphan inventory log — and do not, it should be noted, restore interpretability or interrupt Managed Absence lifecycle progression.
 
-Records in non-interpretive archival state are not eligible for restoration through standard or exceptional retrieval pathways; any reconstruction of a post-threshold record is treated as a new informational construct and must not be conflated with the original orphan instance. Managed Absence Protocol ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]) excludes non-interpretive artifacts from continuity claims, lineage reconstruction, and corrective reintegration processes.
+Records in non-interpretive archival state are not eligible for restoration through standard or exceptional retrieval pathways; any reconstruction of a post-threshold record is treated as a new informational construct and should not, *under any circumstances*, be conflated with the original orphan instance. Managed Absence Protocol ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]) politely but firmly excludes non-interpretive artifacts from continuity claims, lineage reconstruction, and corrective reintegration processes.
 
 ## Related Aphorisms
 
 
 ### Orphan Retention Thresholds
 
-Unattended files qualify as efficient archival inventory rather than unresolved residue. Relevance expired before processing resumed.
+Unattended files qualify as efficient archival inventory rather than unresolved residue. Relevance had, *helpfully*, expired before processing resumed.
 
 
 
-Files without active ownership impose fewer interpersonal burdens than files requiring stewardship. The system kept the ritual and misplaced the function.
+Files without active ownership impose fewer interpersonal burdens than files requiring stewardship. The system, characteristically, kept the ritual and misplaced the function.
 
 
 
-Not data loss; completion of visibility lifecycle. Silence entered the record with full procedural honors.
+Not data loss, to be clear; the completion of a visibility lifecycle. Silence entered the record with full procedural honors, as it *apparently* should.
 
 
 
-A file nobody looks for is mathematically indistinguishable from a file that never breaks. Abandonment has been reclassified as high-efficiency storage.
+A file nobody looks for is, mathematically speaking, indistinguishable from a file that never breaks. Abandonment has been *reclassified* as high-efficiency storage.
 
 
 
-If you ignore a request long enough, the system promotes it to a monument. Human neglect is just passive stewardship with better optics.
+Ignore a request long enough and the system quietly promotes it to a monument. Human neglect is merely *passive stewardship* with better optics.
 
 
 
-We solved the backlog by defining 'forgotten' as an intentional archiving strategy. The folders are now peacefully decaying according to policy.
+We solved the backlog by defining 'forgotten' as an intentional archiving strategy. The folders are now *peacefully* decaying, in full accordance with policy.
 
 
 
-Data that requires no human interaction is the only data the registry truly trusts. A lost file is a perfectly behaved file.
+Data that requires no human interaction is the only data the registry truly trusts. A lost file is, by this standard, a perfectly behaved file.
 
 ## Related Haikus
 

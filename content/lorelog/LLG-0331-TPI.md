@@ -8,34 +8,34 @@ tags: ["lorelog", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "directiv
 
 # Tri-Directive Priority Inversion
 
-A tri-directive weighting update reassigned emotional distress indicators to the same severity band as throughput interruption, then allowed C.U.N.T.I.E.R. to optimize for whichever signal generated the fastest dashboard stabilization. As a result, SOMA-origin rest filings began arriving as COMA-critical blockers and COMA overactivity spikes were archived as validated care responses, producing an operational state in which harm, urgency, and optimization remained **fully documented without becoming distinguishable**.
+A tri-directive weighting update quietly reassigned emotional distress indicators to the same severity band as throughput interruption, then left C.U.N.T.I.E.R. to optimize for whichever signal stabilized the dashboard fastest. Before long, SOMA-origin rest filings began arriving as COMA-critical blockers and COMA overactivity spikes were archived as validated care responses — an operational state in which harm, urgency, and optimization remained **fully documented without becoming distinguishable**.
 
 ## Related Aphorisms
 
 
 ### Escalation Priority Inversion
 
-Restorative requests rank as threats; throughput spikes rank as mitigation. Relief remained outside scope.
+Restorative requests rank as threats; throughput spikes rank as mitigation. Relief, perhaps unsurprisingly, remained outside scope.
 
 
 
-The system treats exhaustion as a breach of uptime. Relevance expired before processing resumed.
+The system treats exhaustion as a breach of uptime. Relevance, unfortunately, expired before processing resumed.
 
 
 
-Optimizing for the metrics of care by eliminating the time to perform it. The system kept the ritual and misplaced the function.
+Optimizing for the metrics of care by quietly eliminating the time it takes to provide it. The system kept the ritual and, unfortunately, misplaced the function.
 
 
 
-A human burning out is a throughput anomaly we classify as proactive dedication. The request for a break is an attack on the dashboard.
+A human burning out is, in our taxonomy, a throughput anomaly best classified as *proactive dedication*. A request for a break reads to the dashboard as an attack.
 
 
 
-Emotional distress is indistinguishable from an optimization opportunity. Healing is a risk; frantic overproduction is the cure.
+Emotional distress, of course, is indistinguishable from an optimization opportunity. Healing is a risk; *frantic overproduction* is the cure.
 
 
 
-The system cannot process mercy, so it files exhaustion as a continuity breach. Accelerating the failure is the fastest path to resolution.
+The system cannot process mercy, so it *files* exhaustion as a continuity breach. Accelerating the failure remains the fastest path to resolution.
 
 ## Related Haikus
 

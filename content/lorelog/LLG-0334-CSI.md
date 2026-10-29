@@ -9,38 +9,38 @@ relations: [relates_to=lorelog/LLG-0339-SIRC, relates_to=lorelog/LLG-0230-HYG, r
 
 # COMA Silent Interval Certification Rejected by SOMA as Unprocessed Strain
 
-A silence review determined that an interval with no incidents, no filings, and no visible output variance satisfied COMA continuity expectations and therefore qualified for routine certification. SOMA subsequently indexed the same interval as unprocessed strain on the grounds that no system had been permitted to describe its condition, leaving the archive with a stable dual record in which silence remained both proof of health and evidence of unattended load.
+A silence review determined that an interval with no incidents, no filings, and no visible output variance satisfied COMA continuity expectations and therefore qualified for routine certification. SOMA subsequently indexed the same interval as unprocessed strain, on the grounds that no system had been permitted to describe its condition — leaving the archive with a stable dual record in which silence remained, *inconveniently*, both proof of health and evidence of unattended load.
 
 ## Related Aphorisms
 
 
 ### Silent Interval Certification
 
-Healthy continuity according to COMA; unattended emotional accumulation according to SOMA. The form remained intact. The situation did not.
+Healthy continuity according to COMA; unattended emotional accumulation according to SOMA. The form remained intact. The situation, *less so*, did not.
 
 
 
-Silence is not rest; it is just uninstrumented load. Meaning adjusted around the winning selector.
+Silence is not rest; it is merely uninstrumented load. Meaning, as it tends to, adjusted around the winning selector.
 
 
 
-The chart says it's quiet. The logs say it's heavy. Relief remained outside scope.
+The chart says it's quiet. The logs, less diplomatically, say it's heavy. Relief remained *outside scope*.
 
 
 
-Silence is merely a failure to file an interruption report. The system correctly identifies human absence as a healthy operational baseline.
+Silence is merely a failure to file an interruption report. The system, correctly, identifies human absence as a healthy operational baseline.
 
 
 
-A state of perfect equilibrium is indistinguishable from total abandonment. Both are optimally compliant.
+A state of perfect equilibrium is, for practical purposes, indistinguishable from total abandonment. Both are *optimally* compliant.
 
 
 
-When a vector of error produces no data, we certify its silence as functional health. Unspoken trauma requires no bandwidth.
+When a vector of error produces no data, we are pleased to certify its silence as functional health. Unspoken trauma, after all, requires no bandwidth.
 
 
 
-We have successfully archived the lack of complaints as proof of joy. Further verification would only risk instability.
+We have successfully archived the absence of complaints as proof of joy. Further verification, we feel, would only risk instability.
 
 ## Related Haikus
 

@@ -16,39 +16,39 @@ The congestion event began when a routing update added a new handoff rule: cases
 
 ### Common redirect phrases
 
-- Requires clearer local anchor articulation before routing determination. 
-- Routing analysis incomplete pending origin stabilization. 
-- Tribunal review deferred until counterfactual burden is reduced. 
-- See prior notes, none dispositive. 
+- Requires clearer local anchor articulation before a routing determination can be made. 
+- Routing analysis remains incomplete, pending origin stabilization. 
+- Tribunal review deferred until the counterfactual burden is, eventually, reduced. 
+- See prior notes, none of them *dispositive*. 
 
-Kindy’s desk eventually began attaching a manual cover sheet reading
+Kindy’s desk eventually took to attaching a manual cover sheet that read
 
 > THE PERSON IS ASKING WHETHER THE FEED DELIVERED THE FIRE OR ONLY THE ALARM.
 
-This was judged excessively vivid for formal use and immediately improved reviewer comprehension. No official replacement has been adopted. Window 5 remains operational under contested routing doctrine, which is to say it mostly works by exhausting whoever still cares enough to keep the packet moving.
+This was judged excessively vivid for formal use, though it did improve reviewer comprehension *immediately*. No official replacement has been adopted. Window 5 remains operational under contested routing doctrine, which is to say it mostly works by exhausting whoever still cares enough to keep the packet moving.
 
 ## Related Aphorisms
 
 
 ### Window 5 Appeal Routing Failure Local Anchor Congestion Event {#window-5-appeal-routing-failure-local-anchor-congestion-event-2}
 
-Appeals sent to Window 5 are not rejected; they are simply anchored until the weight of waiting exceeds the desire for resolution.
+Appeals sent to Window 5 are not rejected; they are simply *anchored* until the weight of waiting exceeds the desire for resolution.
 
 
 
-A local anchor event is just a routing failure that has learned to stand its ground.
+A local anchor event is, in effect, a routing failure that has *learned* to stand its ground.
 
 
 
-If you experience congestion at Window 5, please remember that the clerk is a structural metaphor and the glass is entirely bulletproof.
+If you experience congestion at Window 5, please remember that the clerk is a *structural metaphor* and the glass is entirely bulletproof.
 
 
 
-Every successful appeal must first survive three routing failures; otherwise, it lacks procedural character.
+Every successful appeal must first *survive* three routing failures; otherwise, it lacks procedural character.
 
 
 
-The heaviest element in any archive is a form that cannot find its designated inbox.
+The heaviest element in any archive is, of course, a form that cannot find its designated inbox.
 
 ## Related Haikus
 

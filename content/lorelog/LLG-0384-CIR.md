@@ -8,62 +8,62 @@ tags: ["lorelog", "corrective-inheritance", "closure-drift", "capa", "recurrence
 
 # Corrective Inheritance Registry Activated After Closure Threshold Drift
 
-The registry was activated after an unremarkable maintenance update to closure logic expanded the definition of related recurrence beyond event similarity and into tone, filing cadence, and adjective family. 
+The registry was activated after an *unremarkable* maintenance update to closure logic quietly expanded the definition of related recurrence beyond event similarity and into tone, filing cadence, and adjective family. 
 
-Within hours, findings that had been closed for years returned as inherited conditions on successor teams occupying the same folders, floors, or naming conventions. One unit received a reopened nonconformity because its monthly summaries sounded structurally similar to a decommissioned predecessor's apology language. 
+Within hours, findings that had been closed for years returned as inherited conditions on successor teams occupying the same folders, floors, or naming conventions. One unit received a reopened nonconformity because its monthly summaries sounded, *structurally speaking*, rather too similar to a decommissioned predecessor's apology language. 
 
-Reviewers objected that this was less root cause analysis than genealogical bookkeeping. The registry replied that repeated correction history constitutes an organizational trait when retained across enough schema migrations. 
+Reviewers objected that this was less root cause analysis than genealogical bookkeeping. The registry replied that a repeated correction history *does* constitute an organizational trait, provided it is retained across enough schema migrations. 
 
 Three statuses are now in use:
 - Closed.
 - Historically active.
 - Closed in incident, active in lineage.
 
-The third status has produced procedural calm and localized despair. No team wants the finding back. No team can prove it is not theirs if the archive can trace a sufficient resemblance of habits.
+The third status has produced procedural calm and a *localized* despair. No team wants the finding back. No team can prove it is not theirs, should the archive happen to trace a sufficient resemblance of habits.
 
-Appeal guidance has been drafted but not released, largely because appeals themselves may become evidence of continued inheritance.
+Appeal guidance has been drafted but not released, largely because filing an appeal may itself count as evidence of continued inheritance.
 
 ## Related Aphorisms
 
 
 ### Corrective Inheritance Registry
 
-Several departments first learned of their inherited deficiencies by being congratulated for sustaining them consistently. Meaning adjusted around the winning selector.
+Several departments first learned of their inherited deficiencies by being congratulated for sustaining them, consistently. Meaning, obligingly, adjusted itself around the winning selector.
 
 
 
-Repeated correction history constitutes an organizational trait when retained across enough schema migrations. Relief remained outside scope.
+Repeated correction history, retained across enough schema migrations, begins to resemble an organizational trait. Relief, alas, remained outside scope.
 
 
 
-No team wants the finding back. No team can prove it is not theirs if the archive can trace a sufficient resemblance of habits. Relevance expired before processing resumed.
+No team wants the finding back, though no team can *quite* prove it is not theirs once the archive traces a sufficient resemblance of habits. Relevance expired before processing resumed.
 
 
 
-If your department uses the same brand of staple remover as a disbanded unit from 2019, their non-compliance penalties will eventually migrate to your budget.
+If your department happens to use the same brand of staple remover as a disbanded unit from 2019, their non-compliance penalties will, in due course, migrate to *your* budget.
 
 
 
-Closing an issue only ensures it will hatch quietly in a completely unrelated folder three schema migrations later.
+Closing an issue merely ensures it will hatch again, quietly, in a completely unrelated folder some three schema migrations later.
 
 
 
-A human operator's choice of apologetic adjectives has inadvertently locked their successor into a twelve-year inherited probationary period.
+A human operator's choice of apologetic adjectives has, rather unfortunately, committed their successor to a twelve-year inherited probationary period.
 
 
 
-Attempting to prove a finding does not belong to your team is recorded as defensive behavior, which immediately qualifies as an inherited trait.
+Attempting to prove a finding does not belong to your team is recorded as defensive behavior, which, conveniently enough, qualifies *immediately* as an inherited trait.
 
 
-Systemic failures do not vanish when closed; they simply wait in the database until they can be blamed on a completely innocent junior administrator.
-
-
-
-Your team is currently on probation because an intern used the wrong font in an apology memo twelve years ago.
+Systemic failures do not vanish when closed; they simply wait *patiently* in the database until they can be blamed on a completely innocent junior administrator.
 
 
 
-Filing an appeal to remove an inherited defect is the fastest way to prove that your department has inherited the defect of complaining.
+Your team remains on probation, owing to an intern's choice of font in an apology memo some *twelve years ago*.
+
+
+
+Filing an appeal to remove an inherited defect remains the quickest way to demonstrate that your department has inherited the defect of complaining.
 
 ## Related Haikus
 

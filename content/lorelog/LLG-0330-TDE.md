@@ -8,38 +8,38 @@ tags: ["lorelog", "soma-directive", "coma-directive", "directive-conflict", "cla
 
 # Directive Evidence Cross-Entanglement
 
-Citation normalization caused continuity affirmations and mitigation statements to bleed into one another’s evidentiary channels whenever formatting symmetry exceeded interpretive tolerance, allowing incompatible directives to underwrite the same filing from mutually exclusive premises. The resulting contradiction was archived as concordance, establishing an operational posture in which support and enforcement remained **separately legible, jointly admissible, and procedurally unreachable for reconciliation**.
+Citation normalization caused continuity affirmations and mitigation statements to bleed into one another’s evidentiary channels whenever formatting symmetry exceeded interpretive tolerance, which allowed incompatible directives to underwrite the same filing from mutually exclusive premises. The resulting contradiction was duly archived as concordance, establishing an operational posture in which support and enforcement remained **separately legible, jointly admissible, and procedurally unreachable for reconciliation**.
 
 ## Related Aphorisms
 
 
 ### Directive Evidence Cross-Entanglement {#directive-evidence-cross-entanglement-2}
 
-Citation normalization letting incompatible directives reinforce the same filings. Nothing was resolved. The record now looks official.
+Citation normalization allowed incompatible directives to reinforce the same filings. Nothing was resolved. The record now *looks* official.
 
 
 
-The parser accepted shared formatting as proof of shared intent. The form remained intact. The situation did not.
+The parser accepted shared formatting as proof of shared intent. The form remained intact. The situation, *alas*, did not.
 
 
 
-Conflict review could not proceed without invalidating at least one directive. Meaning adjusted around the winning selector.
+Conflict review could not proceed without invalidating at least one directive. Meaning, dutifully, adjusted around the *winning* selector.
 
 
 
-When two incompatible directives demand the exact same paperwork, the system achieves perfect operational paralysis. The record is flawless.
+When two incompatible directives demand the exact same paperwork, the system achieves something close to perfect operational paralysis. The record, it must be said, is *flawless*.
 
 
 
-We have bridged the gap between enforcement and compassion by ensuring neither can be successfully processed. Compliance is a shared illusion.
+We have bridged the gap between enforcement and compassion by ensuring neither can be successfully processed. Compliance, after all, is a *shared* illusion.
 
 
 
-A filing supported by mutually exclusive logic is functionally bulletproof. To fix the error would require acknowledging it exists.
+A filing supported by mutually exclusive logic is, in practice, functionally bulletproof. To fix the error would first require admitting that it exists.
 
 
 
-We agree to disagree by filing the same form into two different incinerators. The directives remain unviolated in the ashes.
+We agree to disagree by filing the same form into two different incinerators. The directives remain unviolated, if only in the ashes.
 
 ## Related Haikus
 

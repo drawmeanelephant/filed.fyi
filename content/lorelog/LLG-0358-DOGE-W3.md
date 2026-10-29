@@ -8,7 +8,7 @@ tags: ["lorelog", "doge", "window-3", "notification-guidance", "kindy", "procedu
 
 # Window 3 Notification Language Guidance
 
-Window 3 is the point at which DOGE becomes audible. Prior to this stage, provenance review remains abstract, rubric-bound, and largely clerical. At Window 3 a staff member must tell a filer what the archive believes happened to their experience, which repeatedly caused unnecessary escalation when reviewers spoke as though they were invalidating a life rather than annotating its source trail. 
+Window 3 is the point at which DOGE becomes audible. Prior to this stage, provenance review remains abstract, rubric-bound, and largely clerical. At Window 3 a staff member must tell a filer what the archive believes happened to their experience, which caused unnecessary escalation on the occasions reviewers spoke as though they were invalidating a life rather than, more *modestly*, annotating its source trail. 
 
 The guidance was introduced after a cluster of post-classification incidents in which filers receiving Simulator Weather findings heard phrases like not sufficiently real, feed-induced response only, and no genuine event located. All three phrases were banned in a single morning. Kindy’s desk note attached to the ban order reads We are here to classify routing, not to become the worst thing someone heard that week. 
 
@@ -16,42 +16,42 @@ The guidance was introduced after a cluster of post-classification incidents in 
 
 ### Approved phrases
 
-- Your feelings are not in dispute; the provenance record is. 
-- DOGE is classifying where the experience entered your life, not whether you were allowed to have it. 
-- This result means the archive cannot certify local origin from the record currently available. 
-- Reclassification is available if additional local anchor evidence exists. 
+- Your feelings are not in dispute; the provenance record, *however*, is. 
+- DOGE is classifying where the experience entered your life, not, it seems, whether you were permitted to have it. 
+- This result means the archive cannot, on the record currently available, certify local origin. 
+- Reclassification is available, should additional local anchor evidence happen to exist. 
 
 ### Prohibited phrases
 
-- This was not real. 
-- You were manipulated. 
-- The feed made you feel this. 
-- Nothing actually happened. 
+- This was, sadly, not real. 
+- You were, it's worth noting, manipulated. 
+- The feed, one suspects, made you feel this. 
+- Nothing actually happened, as it turns out. 
 
-The third prohibited phrase was removed not because it was always wrong, but because staff began using it where the record could not support that level of certainty. DOGE continues to prefer **accuracy over reassurance**, but has learned that avoidable damage at the counter produces worse evidence later. Bricky signed the guidance under protest and added a stamp reading CLARITY WITHOUT COLLISION, which is not currently an official stamp but is treated as one in practice.
+The third prohibited phrase was removed not because it was always wrong, but because staff had begun using it where the record could not support that level of certainty. DOGE continues to prefer **accuracy over reassurance**, though it has learned that avoidable damage at the counter tends to produce worse evidence later. Bricky signed the guidance under protest and added a stamp reading CLARITY WITHOUT COLLISION, which is not currently an official stamp but is *treated as one* in practice.
 
 ## Related Aphorisms
 
 
 ### Window 3 Notification Language Guidance {#window-3-notification-language-guidance-2}
 
-Window 3 does not notify you of a resolution; it notifies you that your expectation of a resolution has been successfully logged.
+Window 3 does not notify you of a resolution; it notifies you that your expectation of one has been *successfully logged*.
 
 
 
-The ideal notification language is one that makes the recipient apologize for having received it.
+The ideal notification language is one that leaves the recipient apologizing for having received it.
 
 
 
-Clarity is a liability when you are legally obligated to provide an update but procedurally forbidden to provide an answer.
+Clarity is a liability when you are legally obligated to provide an update yet procedurally forbidden to provide an *answer*.
 
 
 
-A well-crafted Window 3 notification contains exactly enough information to prevent follow-up questions, and not a syllable more.
+A well-crafted Window 3 notification contains exactly enough information to prevent follow-up questions, and *not one syllable* more.
 
 
 
-The tone must always imply that the system is doing you a massive favor by acknowledging your existence.
+The tone must always suggest the system is doing you an *enormous* favor by acknowledging your existence.
 
 ## Related Haikus
 

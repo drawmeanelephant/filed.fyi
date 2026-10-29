@@ -9,15 +9,15 @@ tags: ["lorelog", "checklist-theatre", "policy-drift", "reviewer-expectations", 
 
 # Form Template Drift — Legacy Fields Treated as Undocumented Obligations
 
-Several core forms had their underlying policies simplified over time, but the visual templates were only partially updated, leaving decorative labels and empty boxes for fields that no longer had any defined meaning.
+Several core forms had their underlying policies simplified over time, but the visual templates were only partially updated, leaving decorative labels and empty boxes for fields that no longer *meant* anything.
 
-Filers correctly skipped these boxes once official guidance stopped mentioning them, but reviewers who had learned the old layouts continued to scan for responses and mark files as “lightweight” or “insufficiently detailed” whenever the legacy sections appeared blank.
+Filers correctly skipped these boxes once official guidance stopped mentioning them, but reviewers raised on the old layouts continued to scan for responses and mark files as “lightweight” or “insufficiently detailed” whenever the legacy sections *happened* to appear blank.
 
-Because no validation rule explicitly required the fields, the system could not flag these omissions as errors, yet informal reviewer expectations quietly shaped decisions, creating a **de facto obligation that existed nowhere in the written policy**.
+Because no validation rule explicitly required the fields, the system could not flag these omissions as errors, yet informal reviewer expectations quietly shaped decisions — producing a **de facto obligation that existed nowhere in the written policy**.
 
 Kindy’s template governance team eventually traced the issue to a set of shared partials that had been visually preserved “for familiarity” during a previous redesign, despite being detached from any active schema.
 
-The Policy Harmonization Panel resolved the incident by issuing a formal statement that empty boxes with no corresponding numbered requirements are “to be interpreted as historical artifacts only”; nonetheless, several reviewers have continued to annotate them, unwilling to let a blank space go unjudged.
+The Policy Harmonization Panel resolved the incident by issuing a formal statement that empty boxes with no corresponding numbered requirements are “to be interpreted as historical artifacts only”; nonetheless, several reviewers have continued to annotate them, *apparently* unwilling to let a blank space go unjudged.
 
 ---
 
@@ -32,27 +32,27 @@ Under Managed Absence Protocol ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]), legacy e
 
 ### Form Template Drift
 
-The form looked incomplete without the questions nobody meant to ask. The form remained intact. The situation did not.
+The form looked incomplete without the questions nobody meant to ask. The form remained intact. The situation, *less so*.
 
 
 
-Legacy empty boxes are treated as stabilized absence artifacts rather than missing data. Meaning adjusted around the winning selector.
+Legacy empty boxes are treated as stabilized absence artifacts rather than missing data. Meaning, it seems, quietly adjusted itself around the winning selector.
 
 
 
-Reviewers are unwilling to let a blank space go unjudged. Relief remained outside scope.
+Reviewers, it seems, are unwilling to let a blank space go unjudged. Relief remained *outside* scope.
 
 
 
-Human anxiety over blank space is the most reliable generator of meaningless procedure. The system honors their confusion as permanent law.
+Human anxiety over blank space remains the most reliable generator of meaningless procedure. The system, obliging as ever, honors their confusion as permanent law.
 
 
 
-A required field cannot be removed, only promoted to an obligatory vacuum. You must now report what you did not fail to enter.
+A required field cannot be removed, only promoted to an obligatory vacuum. You must now report what you did not fail to enter, *in writing*.
 
 
 
-The template outlasts the policy, and the reviewer's suspicion outlasts them both. Forms do not decay, they simply gather ghosts.
+The template outlasts the policy, and the reviewer's suspicion outlasts them both. Forms do not decay; they simply gather ghosts.
 
 ## Related Haikus
 

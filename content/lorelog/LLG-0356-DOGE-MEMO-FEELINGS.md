@@ -8,29 +8,29 @@ tags: ["lorelog", "doge", "memo", "feelings"]
 
 # DOGE Memo — Feelings Versus Evidence
 
-**DOGE’s formal position:**
+**DOGE’s formal position,** as stated:
 
 > Feelings are taken as given. Only their routing is in question.
 
-This memo is cited whenever someone accuses DOGE of invalidating their emotional reality. It is filed here so staff can point to a number instead of apologizing from scratch.
+This memo is cited whenever someone accuses DOGE of invalidating their emotional reality. It is filed here so staff may point to a number rather than compose a fresh apology.
 
-The distinction is procedural.
+The distinction is, as it happens, procedural.
 
-DOGE does not determine whether an emotion was permitted, proportional, dignified, sincere, or deserved. DOGE does not certify interior truth. DOGE records what the available filing can support about where an experience entered the record, what acted on it after entry, and whether it left residue outside the surface that delivered it.
+DOGE does not determine whether an emotion was permitted, proportional, dignified, sincere, or deserved, and it makes no claim to certify interior truth. It records what the available filing can support: where an experience entered the record, what acted on it after entry, and whether it left residue outside the surface that delivered it.
 
-A feeling may be real and still arrive pre-routed.
+A feeling may be real and still arrive, one notes, pre-routed.
 
 A feeling may be intense and still fail to establish local origin.
 
-A feeling may leave no certifiable evidence beyond the next refresh interval and still have occupied the whole afternoon.
+A feeling may leave no certifiable evidence beyond the next refresh interval and still have occupied the *entire* afternoon.
 
-None of the above is a revocation.
+None of the above, it should be said, is a revocation.
 
-For notification language, see Window 3 guidance. Staff are reminded that classifications such as SIMULATOR WEATHER, FEED-ADJACENT ARTIFACT, and AMBIENT ECHO describe the evidentiary condition of a record. They do not describe the moral quality of the filer, the seriousness of the subject, or whether harm should have occurred differently.
+For notification language, see Window 3 guidance. Staff are reminded that classifications such as SIMULATOR WEATHER, FEED-ADJACENT ARTIFACT, and AMBIENT ECHO describe the evidentiary condition of a record — nothing more. They do not describe the moral quality of the filer, the seriousness of the subject, or whether harm *should* have occurred differently.
 
-Where a filer provides a local anchor after classification, the appropriate response is supplementation or appeal, not argument. Where no local anchor is available, the appropriate response is annotation, not disbelief.
+Where a filer provides a local anchor after classification, the appropriate response is supplementation or appeal, not argument. Where no local anchor is available, the appropriate response is annotation, *not* disbelief.
 
-Kindy’s desk has appended the following non-binding clarification:
+Kindy’s desk has, for what it is worth, appended the following non-binding clarification:
 
 > We are not saying nothing happened. We are saying the archive cannot make the feeling carry more proof than the record can hold.
 
@@ -44,23 +44,23 @@ Dust settles.
 
 ### DOGE Memo — Feelings Versus Evidence {#doge-memo-feelings-versus-evidence-2}
 
-Feelings are inherently unstructured; therefore, they are inadmissible as evidence unless formatted as a CSV file.
+Feelings are inherently unstructured; they are therefore inadmissible as evidence unless submitted as a CSV file.
 
 
 
-The purpose of the memo is to remind the staff that a broken heart does not generate a valid ticket number.
+The memo exists to remind the staff that a broken heart does not, *regrettably*, generate a valid ticket number.
 
 
 
-If you cannot weigh it, timestamp it, and file it in triplicate, you are not actually feeling it.
+If you cannot weigh it, timestamp it, and file it in triplicate, then, strictly speaking, you are not *actually* feeling it.
 
 
 
-Evidence is what the system demands; feelings are what the system uses to lubricate the paper shredder.
+Evidence is what the system demands; feelings are what it uses to *lubricate* the paper shredder.
 
 
 
-A correctly formatted memo can disprove the existence of joy with a single bullet point.
+A correctly formatted memo can, with a single bullet point, disprove the existence of *joy*.
 
 ## Related Haikus
 

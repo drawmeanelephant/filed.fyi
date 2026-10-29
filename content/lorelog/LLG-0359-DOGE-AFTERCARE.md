@@ -8,43 +8,43 @@ tags: ["lorelog", "annex", "sorrow", "secondary-records", "formatting", "empathe
 
 # DOGE Post-Classification Processing Desk Informal Aftercare Channel
 
-DOGE was designed as a provenance office rather than a care office. Its formal responsibilities end at classification, annotation, and referral. In practice, staff at Window 3 observed that filers receiving Simulator Weather and Feed-Adjacent Artifact outcomes often remained physically present after notification, not because they disputed the wording, but because they did not know where to put the distinction once it had been said out loud. 
+DOGE was designed as a provenance office rather than a care office. Its formal responsibilities end at classification, annotation, and referral. In practice, staff at Window 3 observed that filers receiving Simulator Weather and Feed-Adjacent Artifact outcomes often remained physically present after notification — not because they disputed the wording, but because they did not know where to put the distinction once it had been said out loud, a *limitation* the office's remit does not cover. 
 
-In the absence of any sanctioned process, Kindy’s desk developed an informal practice called post-classification processing, later renamed aftercare by everyone except Standards. The practice consists of staying at the counter longer than the script requires, answering the same question in slightly different words, and refusing to escalate uncertainty into doctrine simply because the filer needs a cleaner sentence than the archive can provide. Standards has neither approved nor prohibited the practice, which is how most tolerated rituals enter the building. 
+In the absence of any sanctioned process, Kindy’s desk developed an informal practice called post-classification processing, later renamed aftercare by everyone except Standards. The practice consists of staying at the counter longer than the script requires, answering the same question in slightly different words, and declining to elevate uncertainty into doctrine merely because the filer needs a cleaner sentence than the archive can provide. Standards has neither approved nor prohibited it, which is, *as ever*, how most tolerated rituals enter the building. 
 
 ---
 
 ### Observed elements of the channel
 
-- Repeating that feelings are not being revoked. 
-- Distinguishing provenance from worth three or more times. 
-- Writing down the phrase local anchor for later use in GEX-2R. 
-- Allowing silence at the counter without treating it as queue failure. 
+- Repeating, once more, that feelings are not being revoked. 
+- Distinguishing provenance from worth, a task attempted three or more times. 
+- Noting down the phrase local anchor for later use in GEX-2R. 
+- Allowing silence at the counter without *quite* treating it as queue failure. 
 
-Bricky objected that none of these actions produce a filing artifact. Kindy replied that several of them prevent worse filings later. This exchange was recorded in a margin note and is now cited by both sides as support. The channel remains unofficial, structurally necessary, and **impossible to graph cleanly**, which is the strongest protection it currently has.
+Bricky objected, not unreasonably, that none of these actions produce a filing artifact. Kindy replied that several of them prevent worse filings later. This exchange was recorded in a margin note and is now, *conveniently*, cited by both sides as support. The channel remains unofficial, structurally necessary, and **impossible to graph cleanly**, which is the strongest protection it currently has.
 
 ## Related Aphorisms
 
 
 ### DOGE Post-Classification Processing Desk Informal Aftercare Channel {#doge-post-classification-processing-desk-informal-aftercare-channel-2}
 
-The informal aftercare channel consists entirely of an unplugged telephone and a stack of expired mints.
+The informal aftercare channel consists, in its entirety, of an unplugged telephone and a stack of expired mints.
 
 
 
-True aftercare is simply the realization that the post-classification desk has forgotten your name.
+True aftercare is simply the realization that the post-classification desk has, at some point, forgotten your name.
 
 
 
-If you reach the aftercare channel, you have already been classified as a non-essential variable.
+If you reach the aftercare channel, you have, it seems, already been classified as a non-essential variable.
 
 
 
-The DOGE desk provides empathy by ensuring your misery is filed under the correct alphanumeric heading.
+The DOGE desk provides empathy by ensuring your misery is filed under the *correct* alphanumeric heading.
 
 
 
-Healing is not a supported feature of the post-classification processing desk.
+Healing, regrettably, is not a supported feature of the post-classification processing desk.
 
 ## Related Haikus
 

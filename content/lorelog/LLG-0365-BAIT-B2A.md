@@ -8,43 +8,43 @@ tags: ["lorelog", "ceremonial-routing", "bait", "reply-surface", "escalation", "
 
 # BAIT Subtype B-2A Reply Surface Escalation Pattern
 
-B-2A was promoted from taxonomy note to case file after reviewers observed that many filers did not become most activated by the originating post, clip, or article, but by the replies arranged beneath it. In these cases the primary BAIT object was not content in the classic sense. It was the ordering logic that decided which human objection would be encountered first, second, and repeatedly. 
+B-2A was promoted from taxonomy note to case file after reviewers observed that many filers did not become most activated by the originating post, clip, or article, but rather by the replies arranged *beneath* it. In these cases the primary BAIT object was not content in the classic sense. It was the ordering logic that decided which human objection would be encountered first, second, and then repeatedly. 
 
-The pattern is identified when a user enters a reply surface seeking context, clarification, or social calibration and instead encounters a curated stack of maximum-friction responses. These responses may be genuine, bot-generated, context-collapsed, or merely badly timed. B-2A does not care who wrote them. Its concern is that the surface appears to **sort for aggravation** while presenting itself as discourse. 
+The pattern is identified when a user enters a reply surface seeking context, clarification, or social calibration, and instead encounters a curated stack of maximum-friction responses. These responses may be genuine, bot-generated, context-collapsed, or merely badly timed. B-2A does not care who wrote them. Its concern is that the surface appears to **sort for aggravation** while presenting itself, *politely*, as discourse. 
 
 ---
 
 ### Behavioral indicators
 
-- Filer reports spending more time in replies than with the original item. 
+- Filer reports spending more time in the replies than with the original item. 
 - Filer’s strongest emotional state attaches to strangers rather than the initial event. 
-- Outrage persists despite low recall of source material specifics. 
-- The user leaves with a vivid sense of opposition and a weak account of what was being opposed. 
+- Outrage persists, though recall of the source material's specifics remains *modest*. 
+- The user leaves with a vivid sense of opposition and only a faint account of what was being opposed. 
 
-DOGE cross-registration notes that B-2A regularly produces high-intensity reactions with weak local residue. RAGE analysis notes that this is efficient design: a reply surface can keep anger circulating long after the source item has exhausted its informational content. Staff shorthand for the pattern is The comments became the weather, which has not been approved for official training use and therefore appears everywhere in unofficial training use.
+DOGE cross-registration notes that B-2A regularly produces high-intensity reactions with weak local residue. RAGE analysis observes that this is, in a sense, efficient design: a reply surface can keep anger circulating long after the source item has exhausted its informational content. Staff shorthand for the pattern is *The comments became the weather*, a phrase that has not been approved for official training use and therefore appears everywhere in unofficial training use.
 
 ## Related Aphorisms
 
 
 ### BAIT Subtype B-2A Reply Surface Escalation Pattern {#bait-subtype-b-2a-reply-surface-escalation-pattern-2}
 
-The escalation pattern ensures that every reply increases the surface area of the argument, until the original point is mathematically irrelevant.
+The escalation pattern ensures that every reply widens the surface area of the argument, until the original point is, mathematically speaking, *beside the point*.
 
 
 
-Subtype B-2A demands that you never address the core issue, only the tone of the previous correspondence.
+Subtype B-2A demands that you never address the core issue, only the *tone* of the previous correspondence.
 
 
 
-True administrative victory is achieved when the reply thread is longer than the policy it is attempting to dispute.
+True administrative victory is achieved when the reply thread runs longer than the policy it is attempting to dispute.
 
 
 
-If an argument has not escalated to include three unrelated departments, the B-2A pattern has failed to fully deploy.
+If an argument has not yet escalated to include three unrelated departments, the B-2A pattern has *arguably* failed to fully deploy.
 
 
 
-The fastest way to bury a valid complaint is to respond with overwhelming, impeccably formatted politeness.
+The fastest way to bury a valid complaint is to respond with overwhelming, *impeccably formatted* politeness.
 
 ## Related Haikus
 

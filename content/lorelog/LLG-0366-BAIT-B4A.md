@@ -8,43 +8,43 @@ tags: ["lorelog", "bait", "ambient-threat", "notifications", "vigilance", "anger
 
 # BAIT Subtype B-4A Ambient Threat Maintenance Advisory
 
-B-4A describes a BAIT condition in which a platform sustains user vigilance by ensuring that a topic never fully resolves, never fully disappears, and never provides enough novel information to justify the degree of checking it demands. Reviewers first noticed the pattern when filers described repeated returns to feeds using phrases like just checking, making sure, seeing if it got worse, and I didn’t want to be caught not knowing. 
+B-4A describes a BAIT condition in which a platform sustains user vigilance by ensuring that a topic never fully resolves, never fully disappears, and never provides enough novel information to justify the degree of checking it demands. Reviewers first noticed the pattern when filers described repeated returns to feeds in terms like just checking, making sure, seeing if it got worse, and the quietly revealing I didn’t want to be caught not knowing. 
 
-Unlike overt outrage objects, B-4A often presents internally as responsibility rather than activation. The filer may feel calm, dutiful, informed, or braced rather than obviously enraged. RAGE classification still applies when the underlying emotional architecture is one of **maintained agitation held below the threshold of decisive action**. BAIT achieves this by fragmenting updates into units too small to conclude anything and too suggestive to ignore. 
+Unlike overt outrage objects, B-4A often presents internally as responsibility rather than activation. The filer may feel calm, dutiful, informed, or merely braced rather than obviously enraged. RAGE classification still applies when the underlying emotional architecture is one of **maintained agitation held below the threshold of decisive action**. BAIT achieves this, rather efficiently, by fragmenting updates into units too small to conclude anything and too suggestive to ignore. 
 
 ---
 
 ### Advisory signs
 
-- Notification previews imply escalation without containing it. 
-- Returning to the platform rarely answers the question that prompted the return. 
-- The filer cannot clearly name what update would count as enough. 
-- The topic remains experientially urgent while behaviorally static. 
+- Notification previews imply escalation without, as it happens, containing it. 
+- Returning to the platform rarely answers the question that prompted the return, *unsurprisingly*. 
+- The filer cannot quite say what update would count as enough. 
+- The topic remains experientially urgent while behaviorally, it has not moved an inch. 
 
-DOGE reviewers struggle with B-4A because the condition often produces persistent thought without clear behavioral change, placing it near Ambient Echo. Kindy argued that B-4A should count as negative residue because it occupies attention while preventing action. Standards declined to formalize this and preserved the memo in the file under the heading persuasive but difficult to graph.
+DOGE reviewers struggle with B-4A because the condition often produces persistent thought without clear behavioral change, placing it awkwardly near Ambient Echo. Kindy argued that B-4A should count as negative residue, since it occupies attention while politely preventing action. Standards declined to formalize this and preserved the memo in the file under the heading *persuasive but difficult to graph*.
 
 ## Related Aphorisms
 
 
 ### BAIT Subtype B-4A Ambient Threat Maintenance Advisory {#bait-subtype-b-4a-ambient-threat-maintenance-advisory-2}
 
-An ambient threat is much more useful than a direct attack, as it requires perpetual maintenance rather than a single defense.
+An ambient threat proves far more useful than a direct attack, since it demands perpetual maintenance rather than a single defense.
 
 
 
-The advisory does not exist to warn you; it exists to remind you that your anxiety is scheduled for 2:00 PM.
+The advisory exists not to warn you, but to remind you that your anxiety has been *scheduled* for 2:00 PM.
 
 
 
-Subtype B-4A thrives because humans will happily fund the repairing of walls if they are constantly told the wind is plotting against them.
+Subtype B-4A thrives because humans will *happily* fund the repairing of walls, provided they are constantly told the wind is plotting against them.
 
 
 
-The threat must never actually manifest, otherwise the budget for the advisory committee would have to be reallocated to actual repairs.
+The threat must never actually manifest; otherwise, the advisory committee's budget would regrettably have to be reallocated to *actual* repairs.
 
 
 
-A maintained state of vague peril is the cornerstone of any robust administrative budget.
+A maintained state of vague peril remains, *unsurprisingly*, the cornerstone of any robust administrative budget.
 
 ## Related Haikus
 

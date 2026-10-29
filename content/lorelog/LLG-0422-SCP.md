@@ -8,46 +8,46 @@ tags: ["lorelog", "support-structure", "exception-load-bearing", "inherited-basi
 
 # Support Structure for Prior Failure Established
 
-A temporary accommodation originally introduced to absorb the effects of a known failure state accumulated dedicated support structures over successive review cycles. These included routing notes, staffing assumptions, local training language, fallback ownership, and periodic maintenance rituals.
+A temporary accommodation, originally introduced to absorb the effects of a known failure state, accumulated dedicated support structures over successive review cycles — a fate familiar to temporary accommodations everywhere. These included routing notes, staffing assumptions, local training language, fallback ownership, and periodic maintenance rituals.
 
-None of these structures were created to preserve the failure intentionally. Each was created to make living around it less visibly disruptive.
+None of these structures were created to preserve the failure intentionally. Each was created, rather, to make living around it *less visibly* disruptive.
 
-Taken together, they produced a new condition: **the exception became easier to support than to retire**. Teams could no longer remove the accommodation without also dismantling the services built to make it survivable. The result was not repair, but successful domestication of unresolved dependency.
+Taken together, they produced a new condition: **the exception became easier to support than to retire**. Teams could no longer remove the accommodation without also dismantling the services built to make it survivable. The result was not repair, but the *successful* domestication of an unresolved dependency.
 
-The support layer now behaves as though the prior failure were a durable environmental condition rather than a target for elimination. Continuity improved. Release did not.
+The support layer now behaves as though the prior failure were a durable environmental condition rather than a target for elimination. Continuity, to its credit, improved. Release did not.
 
-Reviewers declined closure on the grounds that too many ordinary operations now assume the exception-bearing scaffold is present.
+Reviewers declined closure on the grounds that a *fair number* of ordinary operations now assume the exception-bearing scaffold is present.
 
 ---
 
 ### Bricky's Filing Notes
 
-- Summary: We built a helpdesk around something we said was leaving.
+- Summary: We built a helpdesk around something we had said was leaving.
 - Trauma: Temporary burden learned where the filing cabinets were.
-- Quirks: Every attempt to retire the exception now begins by protecting its support staff.
+- Quirks: *Every* attempt to retire the exception now begins by protecting its support staff.
 
 ## Related Aphorisms
 
 
 ### Support Structure for Prior Failure Established {#support-structure-for-prior-failure-established-2}
 
-The failure was so profound we built a house for it. It sleeps comfortably in the rafters, safely held by our best architecture.
+The failure was so profound we built a house for it. It now sleeps comfortably in the rafters, *safely held* by our best architecture.
 
 
 
-We do not fix the old mistakes anymore; we just gently brace them so they do not fall on the newcomers. 
+We no longer fix the old mistakes; we simply brace them, *gently*, so they do not fall on the newcomers. 
 
 
 
-A support structure isn't an admission of defeat. It is a permanent, physical hug for a system that tried its absolute best.
+A support structure is not an admission of defeat. It is a permanent, physical hug for a system that did, by its own lights, its absolute best.
 
 
 
-The scaffolding has been here so long it has forgotten the ruin it holds up. Both are quiet, and both are beautiful.
+The scaffolding has been here so long it has *forgotten* the ruin it holds up. Both are quiet, and both are beautiful.
 
 
 
-Every column we erected to catch the crash has slowly blossomed with soft, administrative ivy.
+Every column we erected to catch the crash has, in time, blossomed with soft, *administrative* ivy.
 
 ## Related Haikus
 

@@ -8,18 +8,18 @@ tags: ["lorelog", "auxiliary-labor", "benevolence-credit", "ceremonial-presence"
 
 # Auxiliary Kitchen Labor Reclassified as Ceremonial Presence
 
-The issue surfaced during annual reconciliation of the memorial supper ledger, when three chapters reported identical potato-salad contributions under the names of volunteers who had not cooked in years.
+The issue surfaced during the annual reconciliation of the memorial supper ledger, when three chapters reported identical potato-salad contributions credited to volunteers who had not cooked in years.
 
-Review found that the kitchen roster had gradually shifted from tracking actual labor to preserving remembered service patterns. Once a volunteer became synonymous with a recurring dish, later committees often retained the name to honor continuity, even when someone else brought the tray.
+Review found that the kitchen roster had gradually drifted from tracking actual labor to preserving remembered service patterns. Once a volunteer became synonymous with a recurring dish, later committees often retained the name for continuity's sake, even when someone else, in practice, brought the tray.
 
 This created a secondary economy of benevolence credit:
 - active volunteers performed the labor,
 - retired volunteers received the recorded gratitude,
 - and treasurers treated the resulting mismatch as a matter of tone rather than fraud.
 
-The reviewing table declined immediate correction on the grounds that kitchen work has always contained a memorial component. A note was added clarifying that ceremonial contribution should not be used as the sole basis for reimbursement, though several halls continue doing so because the distinction feels impolite.
+The reviewing table declined immediate correction on the grounds that kitchen work has always contained a memorial component. A note was added clarifying that ceremonial contribution should not serve as the sole basis for reimbursement, though several halls continue doing so, the distinction having proven *somewhat impolite* to enforce.
 
-Resolution remains pending while the chapters decide **whether gratitude can be reallocated without making the room colder.**
+Resolution remains pending while the chapters decide **whether gratitude can be reallocated without making the room colder** — a question they are, understandably, taking their time with.
 
 ---
 
@@ -28,36 +28,36 @@ Resolution remains pending while the chapters decide **whether gratitude can be 
 
 ### Auxiliary Kitchen Labor
 
-Kitchen work has always contained a memorial component. Meaning adjusted around the winning selector.
+Kitchen work has always contained a memorial component. Meaning, it seems, adjusted itself around the winning selector.
 
 
 
-Can gratitude be reallocated without making the room colder? Relief remained outside scope.
+Whether gratitude can be reallocated without making the room colder is an open question. Relief remained, regrettably, outside scope.
 
 
 
-Retired volunteers long retired from active service continued to accumulate institutional gratitude points through inherited casserole attribution. Relevance expired before processing resumed.
+Retired volunteers, long since retired from active service, continued to accumulate institutional gratitude points through inherited casserole attribution. Relevance, regrettably, expired before processing resumed.
 
 
 
 
-Access key logic ensures that only authorized personnel can break the system.
+Access key logic ensures that only authorized personnel can break the system — a *narrow* permission, but a consequential one.
 
 
 
-We secure the door with a lock that has no key.
+We secure the door with a lock that has, rather inconveniently, no key.
 
 
 
-A perfectly logical access control system grants permission to no one.
+A perfectly logical access control system grants permission to *no one*.
 
 
 
-The human requests access; the flat file denies existence.
+The human requests access; the flat file politely denies any existence.
 
 
 
-The key turns smoothly, but the door is welded shut.
+The key turns smoothly, which is a kind gesture; the door, however, is welded shut.
 
 ## Related Haikus
 

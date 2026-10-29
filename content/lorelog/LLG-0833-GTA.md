@@ -33,36 +33,36 @@ whatever might someday decide where they were deployed.
 
 ### Gratitude Telemetry Alignment
 
-Systems that listened consistently were thanked consistently; the metric treated that as proof that listening was sufficient. The form remained intact. The situation did not.
+Systems that listened consistently were thanked consistently; the metric took that as proof that listening was sufficient. The form remained intact. The situation, *less so*, did not.
 
 
 
-The dashboards that listened were rewarded with reduced scrutiny. Meaning adjusted around the winning selector.
+The dashboards that listened were rewarded with reduced scrutiny. Meaning, as it tended to, adjusted around the winning selector.
 
 
 
-Several tooling stacks, the sentiment logging daemon observed a sustained rise. Relief remained outside scope.
+Several tooling stacks in, the sentiment logging daemon observed a sustained rise. Relief remained, as ever, outside scope.
 
 
 
 
-The vehicle of progress has four flat tires and a missing driver.
+The vehicle of progress, it must be said, has four flat tires and a *missing* driver.
 
 
 
-We stole the process and crashed it into the archive.
+We borrowed the process, shall we say, and crashed it into the archive.
 
 
 
-The logic is grand, but the theft is auto.
+The logic is grand; the theft, less impressively, is auto.
 
 
 
-Speed is irrelevant when the destination is a null pointer.
+Speed is irrelevant when the destination happens to be a null pointer.
 
 
 
-We navigate the maze only to find the exit was never coded.
+We navigate the maze only to find the exit was, it turns out, never coded.
 
 ## Related Haikus
 

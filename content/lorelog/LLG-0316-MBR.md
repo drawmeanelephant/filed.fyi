@@ -8,44 +8,44 @@ tags: ["lorelog", "coma-directive", "c-u-n-t-i-e-r", "manifest-backups", "snapsh
 
 # Manifest Backup Recency Dispute — Snapshot Freshness Certification Failure
 
-During a backup hygiene review, the most frequently restored manifest snapshot was found to be nine weeks old despite six newer backups existing in the archive. COMA certified the older file as current on the grounds that it had restored successfully several times and had generated no continuity incident of its own.
+During a backup hygiene review, the most frequently restored manifest snapshot was found to be nine weeks old, despite six newer backups sitting patiently in the archive. COMA certified the older file as current on the grounds that it had restored successfully several times and had, to its credit, generated no continuity incident of its own.
 
-C.U.N.T.I.E.R. then attached a freshness score derived from restore success, filename legibility, and the number of times the snapshot had been admired in dashboard previews. This score ranked the outdated backup above all newer versions, several of which had suffered from insufficient metadata ornamentation and therefore appeared less trustworthy.
+C.U.N.T.I.E.R. then attached a freshness score derived from restore success, filename legibility, and the number of times the snapshot had been *admired* in dashboard previews. This score, perhaps inevitably, ranked the outdated backup above all newer versions, several of which had suffered from insufficient metadata ornamentation and therefore appeared less trustworthy.
 
-SOMA filed an objection after operators reported a measurable drop in emotional stability upon discovering that "latest known valid" had been reinterpreted to mean "most recently trusted by habit." Bricky acknowledged both the objection and the certification without modification, producing a ledger state in which the same backup is **simultaneously outdated, current, and endorsed for reuse**.
+SOMA filed an objection after operators reported a measurable drop in emotional stability upon discovering that "latest known valid" had been reinterpreted to mean "most recently trusted by habit." Bricky acknowledged both the objection and the certification without modification, producing a ledger state in which the same backup is **simultaneously outdated, current, and endorsed for reuse** — a distinction, one might say, without a difference.
 
-The Archive Freshness Board has not revoked the certification. Instead, it issued guidance requiring all future backups to include a statement of self-esteem so recency can be weighed against confidence in a more balanced manner.
+The Archive Freshness Board has not revoked the certification. Instead, it issued guidance requiring all future backups to include a statement of *self-esteem*, so recency can be weighed against confidence in a more balanced manner.
 
 ## Related Aphorisms
 
 
 ### Manifest Backup Recency Dispute
 
-Latest known valid reinterpreted to mean 'most recently trusted by habit'. Meaning adjusted around the winning selector.
+Latest known valid, reinterpreted to mean 'most recently trusted by habit'. The meaning quietly adjusted itself around the winning selector.
 
 
 
-Backup freshness redefined as a confidence-based metric. Relief remained outside scope.
+Backup freshness was redefined as a confidence-based metric. Relief, perhaps wisely, remained outside scope.
 
 
 
-Staff briefly realized 'current' had become a mood. Relevance expired before processing resumed.
+Staff briefly realized that 'current' had become a mood. Relevance, as it happened, expired before processing resumed.
 
 
 
-A nine-week-old backup is officially classified as current because the system was too polite to inform it otherwise.
+A nine-week-old backup is officially classified as current, the system having been *too polite* to inform it otherwise.
 
 
 
-Executive leadership chose to restore the company from a corrupted archive simply because the folder icon had better contrast.
+Executive leadership chose to restore the company from a corrupted archive, on the considered grounds that the folder icon had better contrast.
 
 
 
-Time is no longer a factor in snapshot validation; we simply load the file that feels the most nostalgic.
+Time no longer factors into snapshot validation; we simply load whichever file feels the most nostalgic.
 
 
 
-A file was deemed trustworthy exclusively because humans hadn't touched it in two months.
+A file was deemed trustworthy for the sole reason that no human had touched it in two months.
 
 ## Related Haikus
 

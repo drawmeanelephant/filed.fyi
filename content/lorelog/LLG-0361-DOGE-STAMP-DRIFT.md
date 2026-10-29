@@ -8,39 +8,39 @@ tags: ["lorelog", "relief-trace", "faint-intervention", "audit-resistance", "sub
 
 # DOGE Certification Stamp Drift and Counterfeit Annotation Event
 
-The incident began when documents outside DOGE jurisdiction started appearing with familiar certification language in red block stamps. Most were obvious imitations at first: ACKNOWLEDGED — PROBABLY FINE, CERTIFIED HUMAN ENOUGH, and one deeply unofficial YES THIS COUNTS. Reviewers treated these as morale graffiti until several semiofficial packets began circulating with cleaner derivatives like LOCALLY FELT, PROVISIONALLY YOURS, and FEELINGS NOT IN PROCEDURAL DISPUTE. At that point the problem **ceased to be visual and became doctrinal**. 
+The incident began when documents outside DOGE jurisdiction started turning up bearing familiar certification language in red block stamps. Most were obvious imitations at first: ACKNOWLEDGED — PROBABLY FINE, CERTIFIED HUMAN ENOUGH, and one *deeply* unofficial YES THIS COUNTS. Reviewers filed these under morale graffiti until several semiofficial packets began circulating with cleaner derivatives like LOCALLY FELT, PROVISIONALLY YOURS, and FEELINGS NOT IN PROCEDURAL DISPUTE. At that point the problem **ceased to be visual and became doctrinal**. 
 
-None of the counterfeit stamps claimed to be Bricky in a literal sense. They claimed his semantic authority: the right to compress unresolved classification into a box that looked final enough to carry through a workflow. Some offices preferred these derivative stamps because they were gentler, faster, and more emotionally legible than DOGE’s approved set. Standards objected that this amounted to unauthorized provenance laundering. Bricky objected that the kerning was bad. 
+None of the counterfeit stamps claimed to be Bricky in a literal sense. What they claimed was his semantic authority: the right to compress unresolved classification into a box that looked final enough to carry through a workflow. Some offices preferred these derivative stamps, finding them gentler, faster, and more emotionally legible than DOGE’s approved set. Standards objected that this amounted to unauthorized provenance laundering. Bricky objected that the *kerning* was bad. 
 
 ---
 
 ### Findings
 
-- Counterfeit stamps appeared most often in cross-directive packets where no single office wanted to own the emotional record. 
-- Gentler unofficial language reduced immediate filer escalation while increasing long-term evidentiary ambiguity. 
-- Several staff knowingly used derivative stamps as de facto aftercare because no formal aftercare artifact existed. 
-- At least one forged ACKNOWLEDGED — NOT RESOLVED mark matched Bricky’s ink chemistry while Bricky continued denying issuance. 
+- Counterfeit stamps appeared most often in cross-directive packets, where no single office *wanted* to own the emotional record. 
+- Gentler unofficial language reduced immediate filer escalation, though it *did* increase long-term evidentiary ambiguity. 
+- Several staff, knowingly, used derivative stamps as de facto aftercare, no formal aftercare artifact having ever existed. 
+- At least one forged ACKNOWLEDGED — NOT RESOLVED mark matched Bricky’s ink chemistry, while Bricky *continued* to deny issuance. 
 
-The Review Desk declined to void all derivative stamps on the grounds that some had already become part of active case histories. Current guidance states that unofficial stamps must be treated as emotionally informative and procedurally unstable. This distinction solved nothing but improved filing tone. Bricky now stores approved stamp pads in a locked drawer that everyone knows how to open.
+The Review Desk declined to void all derivative stamps on the grounds that some had already entered active case histories. Current guidance holds that unofficial stamps must be treated as emotionally informative and procedurally unstable. This distinction solved nothing but did improve filing tone. Bricky now stores approved stamp pads in a locked drawer that, *by long tradition*, everyone knows how to open.
 
 ## Related Aphorisms
 
 
 ### DOGE Certification Stamp Drift and Counterfeit Annotation Event {#doge-certification-stamp-drift-and-counterfeit-annotation-event-2}
 
-A DOGE certification stamp does not validate the truth; it simply authenticates the formatting of the lie.
+A DOGE certification stamp does not validate the truth; it merely *authenticates the formatting* of the lie.
 
 
 
-A counterfeit annotation is often more useful than a genuine one, provided it is filed in the correct drawer.
+A counterfeit annotation is often more useful than a genuine one, provided, of course, it is filed in the *correct* drawer.
 
 
 
-The authority of the stamp is inversely proportional to the clarity of the ink.
+The authority of the stamp is, rather unfortunately, inversely proportional to the clarity of the ink.
 
 
 
-We do not authenticate the event. We authenticate the paperwork that claims the event occurred.
+We do not authenticate the event. We authenticate the paperwork that *claims* the event occurred.
 
 ## Related Haikus
 

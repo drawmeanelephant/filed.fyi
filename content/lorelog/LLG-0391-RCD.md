@@ -8,15 +8,15 @@ tags: ["lorelog", "failure-signature", "possibility", "decorative-ambiguity", "c
 
 # Ribbon Custody Dispute After Triple-Dedication Weekend
 
-A gold ceremonial ribbon appeared in three separate dedication albums over the same weekend: one for a bakery reopening, one for a modest industrial park sign, and one for a riverside bench funded by six partially overlapping committees.
+A gold ceremonial ribbon appeared in three separate dedication albums over the same weekend: one for a bakery reopening, one for a modest industrial park sign, and one for a riverside bench funded by six *partially* overlapping committees.
 
-Each album described the ribbon as the original commemorative article. None of the photo sequences were obviously false. Reviewers concluded that either the ribbon had traveled faster than minutes could record or civic optimism had collapsed artifact custody into narrative convenience.
+Each album described the ribbon as the original commemorative article, and none of the photo sequences were obviously false. Reviewers concluded that either the ribbon had traveled faster than minutes could record, or civic optimism had *quietly* collapsed artifact custody into narrative convenience.
 
-The chamber argued that its luncheon sponsorship conferred primary ownership. The service-club coalition countered that volunteer scissors constituted the operative act. The mayoral office maintained that whichever ribbon appeared behind the sash in official photographs should be treated as canonical for public memory.
+The chamber argued that its luncheon sponsorship conferred primary ownership. The service-club coalition countered that volunteer scissors had performed the operative act. The mayoral office, meanwhile, maintained that whichever ribbon appeared behind the sash in official photographs should be treated as canonical for public memory.
 
-The object is now stored under joint seal.
+The object now rests under joint seal, where it is expected to remain.
 
-Public-facing materials have been advised to use the phrase commemoratively continuous rather than original, though **the phrase has already begun acquiring a legitimacy of its own.**
+Public-facing materials have been advised to use the phrase commemoratively continuous rather than original, though **the phrase has already begun acquiring a legitimacy of its own**, as such phrases tend to do.
 
 ---
 
@@ -25,36 +25,36 @@ Public-facing materials have been advised to use the phrase commemoratively cont
 
 ### Ribbon Custody Dispute
 
-Continuity was being claimed by memory rather than fabric length. The form remained intact. The situation did not.
+Continuity was being claimed by memory rather than fabric length. The form remained intact. The situation, *less so*.
 
 
 
-Commemoratively continuous rather than original. Meaning adjusted around the winning selector.
+Commemoratively continuous rather than original — meaning adjusted, *discreetly*, around the winning selector.
 
 
 
-Civic optimism had collapsed artifact custody into narrative convenience. Relief remained outside scope.
+Civic optimism had, rather conveniently, collapsed artifact custody into narrative convenience. Relief remained outside scope.
 
 
 
 
-Record creation dates exist to tell us exactly when the mistake began.
+Record creation dates exist, charitably, to tell us *exactly* when the mistake began.
 
 
 
-We timestamp the error so the archive can track its decay.
+We timestamp the error so the archive can watch it decay.
 
 
 
-A newly created record is merely a container for future disappointment.
+A newly created record is, for now, merely a container for future disappointment.
 
 
 
-The human celebrates the birth; the system prepares the tomb.
+The human celebrates the birth; the system, characteristically, prepares the tomb.
 
 
 
-Time only flows in one direction: towards complete data loss.
+Time, it turns out, only flows in one direction: towards complete data loss.
 
 ## Related Haikus
 

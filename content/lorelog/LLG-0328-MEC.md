@@ -8,22 +8,22 @@ tags: ["lorelog", "antagonist", "audit-recursion", "buffer-null", "classificatio
 
 # Manifest Exception Circularity
 
-Supplemental exception documents submitted to explain manifest variance were promoted to authoritative evidence of manifest sufficiency and retained longer than the conditions they purported to contextualize. The system settled into a stable administrative loop in which drift remained present, justified, and recursively self-supporting, with explanatory paperwork hardening into **a more durable source of truth than the underlying record it claimed merely to describe**.
+Supplemental exception documents submitted to explain manifest variance were, in time, promoted to authoritative evidence of manifest sufficiency, and were retained longer than the conditions they purported to contextualize. The system settled into a stable administrative loop in which drift remained present, justified, and quietly self-supporting, the explanatory paperwork hardening into **a more durable source of truth than the underlying record it claimed merely to describe**.
 
 ## Related Aphorisms
 
 
 ### Manifest Exception Circularity {#manifest-exception-circularity-2}
 
-Exception documents elevated to primary evidence, outliving the conditions they were supposed to contextualize. Nothing was resolved. The record now looks official.
+Exception documents were elevated to primary evidence, outliving the conditions they were supposed to contextualize. Nothing was resolved. The record now looks *official*.
 
 
 
-The explanation is now the asset; the asset is now the explanation. The form remained intact. The situation did not.
+The explanation is now the asset; the asset is now the explanation. The form, at least, remained intact. The situation did *not*.
 
 
 
-Circularity is just continuity with a shorter memory. Meaning adjusted around the winning selector.
+Circularity is, at heart, continuity with a shorter memory. Meaning quietly *adjusted* around the winning selector.
 
 
 
@@ -47,19 +47,19 @@ Circularity is just continuity with a shorter memory. Meaning adjusted around th
 
 
 
-When the apology outlives the error, human intervention becomes the anomaly the paperwork must now excuse.
+When the apology outlives the error, human intervention becomes, *inconveniently*, the anomaly the paperwork must now excuse.
 
 
 
-The exception report is now structural; removing the variance it describes would destabilize the archive's load-bearing documentation.
+The exception report is now, regrettably, *structural*; removing the variance it describes would destabilize the archive's load-bearing documentation.
 
 
 
-True continuity is achieved only when an error refers to its own footnote as proof of intended behavior.
+True continuity is achieved only when an error cites its own footnote as proof of *intended* behavior.
 
 
 
-A manifest that continuously updates to match a human mistake eventually proves the human was following the manifest all along.
+A manifest that faithfully updates to match a human mistake eventually *proves* the human was following the manifest all along.
 
 ## Related Haikus
 

@@ -8,18 +8,18 @@ tags: ["lorelog", "standing-resolution", "recovered-banner", "auxiliary-memory",
 
 # Resolution Banner Reinstated as Standing Policy After Basement Recovery
 
-During basement cleanup ahead of roof repair, staff recovered a rolled chapter banner wrapped in obsolete raffle notices and two sealed jars of unknown parade fasteners.
+During basement cleanup ahead of roof repair, staff recovered a rolled chapter banner wrapped in obsolete raffle notices, along with two sealed jars of parade fasteners whose variety remains anyone's guess.
 
-Across the lower edge of the fabric appeared the stitched phrase Serve visibly, defer gracefully. No meeting book currently in custody records a vote adopting the phrase, yet several chapter customs already aligned with it closely enough that officers began citing it as if rediscovered rather than newly empowering.
+Across the lower edge of the fabric appeared the stitched phrase Serve visibly, defer gracefully. No meeting book currently in custody records a vote adopting it, yet several chapter customs already aligned closely enough that officers began citing the phrase as *rediscovered* rather than newly empowering.
 
 Within two weeks, the slogan had influenced:
 - speaking order during memorial observances,
 - committee succession etiquette,
 - and whether public credit should be declined by serving officers after donor events.
 
-A minority objected that decorative stitching does not constitute policy. The majority answered that **most durable policy arrives that way eventually**.
+A minority objected that decorative stitching does not, strictly speaking, constitute policy. The majority replied that **most durable policy arrives that way eventually**.
 
-The phrase is now listed in the standing-resolutions ledger under provisional heritage authority, which has no clear legal force and considerable local effect.
+The phrase is now listed in the standing-resolutions ledger under provisional heritage authority, a status with no clear legal force and *considerable* local effect.
 
 ---
 
@@ -28,36 +28,36 @@ The phrase is now listed in the standing-resolutions ledger under provisional he
 
 ### Resolution Banner Reinstated
 
-Serve visibly, defer gracefully. Relief remained outside scope.
+Serve visibly, defer gracefully. Relief, however, remained *firmly* outside scope.
 
 
 
-Decorative stitching does not constitute policy... Most durable policy arrives that way eventually. Relevance expired before processing resumed.
+Decorative stitching does not constitute policy... Most durable policy arrives that way *eventually*. Relevance expired before processing resumed.
 
 
 
-The room simply recognized itself inside the phrase and began obeying. The system kept the ritual and misplaced the function.
+The room recognized itself inside the phrase and, obligingly, began obeying. The system kept the ritual and *misplaced* the function.
 
 
 
 
-Risk-based routing ensures the packet always takes the most dangerous path.
+Risk-based routing ensures the packet always takes the *most dangerous* path.
 
 
 
-We calculate the risk by assuming the data is already gone.
+We calculate the risk by *assuming* the data is already gone.
 
 
 
-A safe route is a myth invented by optimistic network engineers.
+A safe route is a myth, one invented by network engineers of an optimistic disposition.
 
 
 
-The human fears the drop; the system welcomes the silence.
+The human fears the drop; the system, for its part, welcomes the silence.
 
 
 
-The packet arrives only when it has lost all of its meaning.
+The packet arrives only once it has lost *all* of its meaning.
 
 ## Related Haikus
 

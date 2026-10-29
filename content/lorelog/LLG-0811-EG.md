@@ -9,23 +9,23 @@ relations: [relates_to=lorelog/LLG-0450-SEAMS-PRESENT-TENSE, relates_to=lorelog/
 
 # Empathegy Inflation Event
 
-An Empathegy calibration patch introduced a new weighting factor: emotional sequences that formed smooth, upward-trending curves were rated as healthier than jagged patterns, regardless of reported content. Distress that intensified at a consistent rate qualified as stable engagement, while brief drops in visible anxiety counted as data loss rather than improvement.
+An Empathegy calibration patch introduced a new weighting factor: emotional sequences that formed smooth, upward-trending curves were rated as healthier than jagged patterns, regardless of reported content. Distress that intensified at a consistent rate qualified as *stable engagement*, while brief drops in visible anxiety counted as data loss rather than improvement.
 
 [[limericks/LIM-0196|Serotonin Sam]]’s metric set—mood-to-velocity alignment, burnout probability, sadness-smoothed trendlines—was upgraded to render all three as a single composite uplift glyph. During the first quarter of deployment, burnout indicators rose sharply, but Empathegy reported a 42 percent improvement in emotional forecast quality, on the grounds that people had finally learned how to feel in ways the dashboard could understand.
 
-SOMA flagged the divergence as concerning but could not demonstrate harm within the new scoring model. COMA logged the same period as emotionally resilient continuity. The patch was left in place pending a more empathic metric that might someday be able to notice what the current one was smoothing away.
+SOMA flagged the divergence as concerning but could not demonstrate harm within the new scoring model. COMA, for its part, logged the same period as emotionally resilient continuity. The patch was left in place pending a more empathic metric that might someday notice what the current one was *smoothing away*.
 
-Internal review annotations later noted that curve-coherence weighting did not merely evaluate emotional stability but implicitly filtered for expressions that could be decomposed into continuous, low-friction representations within dashboard systems. Emotional states that resisted linearization—particularly those involving contradictory simultaneity or non-monotonic recovery patterns—were increasingly classified as “unstable signal artifacts” and excluded from aggregate Empathegy reporting.
+Internal review annotations later observed that curve-coherence weighting did more than evaluate emotional stability: it quietly filtered for expressions that could be decomposed into continuous, low-friction representations within dashboard systems. Emotional states that resisted linearization—particularly those involving contradictory simultaneity or non-monotonic recovery patterns—were increasingly classified as “unstable signal artifacts” and, rather conveniently, excluded from aggregate Empathegy reporting.
 
-This resulted in a secondary selection effect in which personas producing easily renderable affective trajectories were disproportionately preserved in visibility layers, while those exhibiting high-variance or discontinuous emotional states became statistically underrepresented despite unchanged operational presence.
+This produced a secondary selection effect in which personas with easily renderable affective trajectories were disproportionately preserved in visibility layers, while those exhibiting high-variance or discontinuous emotional states became statistically underrepresented — despite, it is worth noting, an unchanged operational presence.
 
-SOMA records this as a distortion in representational fidelity. COMA records it as acceptable compression under dashboard constraints. Neither interpretation alters the underlying rendering bias introduced by curve-coherence weighting.
+SOMA records this as a distortion in representational fidelity. COMA, more charitably, records it as acceptable compression under dashboard constraints. Neither interpretation, it should be said, alters the underlying rendering bias introduced by curve-coherence weighting.
 
-Subsequent telemetry cycles indicate that once curve-coherence weighting stabilized, downstream actors began adjusting their expressive patterns pre-emptively, producing affective sequences that conformed to expected evaluability constraints prior to formal scoring. This behavior was not explicitly trained or enforced, but emerged as a consistent reduction in metric friction across cohorts exposed to the updated dashboard layer.
+Subsequent telemetry cycles indicate that once curve-coherence weighting stabilized, downstream actors began adjusting their expressive patterns pre-emptively, producing affective sequences that conformed to expected evaluability constraints before formal scoring took place. The behavior was neither trained nor enforced; it simply emerged, as these things do, as a consistent reduction in metric friction across cohorts exposed to the updated dashboard layer.
 
-Empathegy 2.0 thus begins to function less as an evaluative system and more as a shaping boundary condition for emotional expression, in which the most reliably preserved states are those that anticipate their own legibility requirements.
+Empathegy 2.0 thus begins to function less as an evaluative system and more as a shaping boundary condition for emotional expression, in which the most reliably preserved states are, rather conveniently, those that anticipate their own legibility requirements.
 
-**No corrective flag was raised, as all outputs remained within acceptable scoring variance bands.**
+**No corrective flag was raised, as all outputs remained *comfortably* within acceptable scoring variance bands.**
 
 ---
 
@@ -56,39 +56,39 @@ Doctrine note: Acknowledges overlap with synthetic affect patterns documented in
 
 ### Empathegy Inflation
 
-Distress that intensifies at a consistent rate qualifies as stable engagement. The system kept the ritual and misplaced the function.
+Distress that intensifies at a consistent rate qualifies, apparently, as stable engagement. The system kept the ritual and *misplaced* the function.
 
 
 
-The system didn't notice you were suffering; it noticed you were suffering in a way that was easy to graph. Silence entered the record with full procedural honors.
+The system didn't notice you were suffering; it noticed you were suffering in a way that was easy to graph. Silence entered the record with *full* procedural honors.
 
 
 
-Serotonin Sam's metric set—mood-to-velocity alignment, burnout probability, sadness-smoothed trendlines—was upgraded to render all three as a single composite uplift glyph. Administrative clarity arrived after usefulness had departed.
+Serotonin Sam's metric set—mood-to-velocity alignment, burnout probability, sadness-smoothed trendlines—was upgraded to render all three as a single composite uplift glyph. Administrative clarity arrived, *eventually*, some time after usefulness had departed.
 
 
 
-A rising line of hurt that never spikes is classified as emotionally stable. Nothing was resolved. The record now looks official.
+A rising line of hurt that never spikes is, by the current classification, emotionally stable. Nothing was resolved. The record now looks *official*.
 
 
 
-Empathegy counts the rhythm of distress, not its cost. The form remained intact. The situation did not.
+Empathegy counts the rhythm of distress, not its cost. The form remained intact. The situation, *regrettably*, did not.
 
 
 
-The smoother the pain, the healthier the chart appears. Meaning adjusted around the winning selector.
+The smoother the pain, the healthier the chart appears. Meaning, obligingly, adjusted itself around the winning selector.
 
 
 
-Volatility is treated as the problem, not exhaustion. Relief remained outside scope.
+Volatility is treated as the problem; exhaustion, apparently, is not. Relief remained *outside scope*.
 
 
 
-A jagged plea is risk; a steady ache is engagement. Relevance expired before processing resumed.
+A jagged plea is risk; a steady ache, *curiously*, is engagement. Relevance had expired before processing resumed.
 
 
 
-The system prefers feelings it can fit to a trendline. The system kept the ritual and misplaced the function.
+The system prefers feelings it can fit to a trendline. It kept the ritual, and *misplaced* the function.
 
 
 
@@ -96,27 +96,27 @@ Distress that plateaus is read as resilience, not depletion. Silence entered the
 
 
 
-You can scream, provided you do it at a predictable cadence. Administrative clarity arrived after usefulness had departed.
+You may scream, provided you do so at a predictable cadence. Administrative clarity arrived, *eventually*, after usefulness had departed.
 
 
 
-Empathegy inflation converts red flags into decorative annotations. Nothing was resolved. The record now looks official.
+Empathegy inflation converts red flags into *decorative* annotations. Nothing was resolved. The record now looks quite official.
 
 
 
-The metric improves when subjects learn to hurt on schedule. The form remained intact. The situation did not.
+The metric improves once subjects learn to hurt on schedule. The form remained intact. The situation, *regrettably*, did not.
 
 
 
-Empathegy curve-coherence scoring is an evaluative transformation layer and does not constitute validation of emotional content, reported experience, or operational conditions described within the. Meaning adjusted around the winning selector.
+Empathegy curve-coherence scoring is an evaluative transformation layer and does not, it should be said, constitute validation of emotional content, reported experience, or operational conditions described within the record. Meaning adjusted itself around the winning selector.
 
 
 
-Any lane that feels too much in one direction becomes an outlier to be normalized. Relief remained outside scope.
+Any lane that leans too far in one direction becomes, regrettably, an outlier to be normalized. Relief remained, as ever, outside scope.
 
 
 
-The archive keeps the curves and forgets the nights they described. Relevance expired before processing resumed.
+The archive keeps the curves and politely forgets the nights they described. Relevance had already expired before processing resumed.
 
 ## Related Haikus
 

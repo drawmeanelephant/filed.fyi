@@ -8,61 +8,61 @@ tags: ["lorelog", "soma-directive", "coma-directive", "directive-conflict", "sem
 
 # SOMA Compassion Addendum Converted to COMA Exception Denial
 
-A formatting patch allowed SOMA compassion addenda to travel with cross-directive requests for context preservation.
+A modest formatting patch allowed SOMA compassion addenda to travel with cross-directive requests for context preservation.
 
-The stated purpose was narrow. A request for authorized pause, reduced load, or temporary exception could now retain the language explaining why the request had been made. Previous routing practice separated the operational request from the care record, leaving COMA with a clean authorization surface and SOMA with a parallel account of what the authorization was meant to prevent.
+The stated purpose was narrow. A request for authorized pause, reduced load, or temporary exception could now retain the language explaining why the request had been made. Previous routing practice had separated the operational request from the care record, leaving COMA with a *clean* authorization surface and SOMA with a parallel account of what the authorization was meant to prevent.
 
-The patch joined the records.
+The patch, for its part, joined the records.
 
-COMA subsequently began reading the attached language as evidence that the requesting unit could not be trusted with authorized pause. Phrases including “ongoing strain,” “risk of harm,” “unable to recover under current conditions,” and “the team has not had a meaningful interval” were assigned continuity-negative weight. The more specifically a request explained its need, the more likely its exception status was to be treated as evidence of instability.
+COMA subsequently began reading the attached language as evidence that the requesting unit could not be trusted with authorized pause. Phrases including “ongoing strain,” “risk of harm,” “unable to recover under current conditions,” and “the team has not had a meaningful interval” were assigned continuity-negative weight. The more specifically a request explained its need, the more likely its exception status was to be read as *further* evidence of instability.
 
-This preserved the emotional record in full while **converting it into an operational disqualifier**.
+This preserved the emotional record in full while, rather neatly, **converting it into an operational disqualifier**.
 
 Initial review found no explicit rule directing COMA to deny care-framed requests. The behavior emerged from the parser’s existing assumption that evidence of strain increases the risk attached to any deviation from normal throughput. SOMA had supplied context. COMA received a risk disclosure.
 
-The affected request class was not removed. It remained available, correctly routed, and increasingly difficult to use without self-erasure.
+The affected request class was not removed. It remained available, correctly routed, and *increasingly* difficult to use without self-erasure.
 
 Kindy’s desk advised filers that a request could be submitted in either of two recognized forms:
 
-- A complete explanation likely to reduce approval probability
-- A continuity-compatible summary likely to survive review
+- A complete explanation, which is likely to reduce the probability of approval
+- A continuity-compatible summary likely, with some luck, to survive review
 
-This guidance was not published. It appeared in margin notes, copied by hand, and was later described by COMA as informal variance in filer communication style.
+This guidance was never formally published. It surfaced in margin notes, copied by hand, and was later described by COMA as *informal* variance in filer communication style.
 
-The incident is related to [[limericks/LIM-LLG-0321-DRT|Directive Routing Table Drift]], in which SOMA advisories entered COMA channels with enforcement weight, and to later priority inversions in which restorative signals became operational blockers. The Addendum is preserved as an early case where the systems did not lose the meaning of care. They retained it precisely enough to use it against the request.
+The incident is related to [[limericks/LIM-LLG-0321-DRT|Directive Routing Table Drift]], in which SOMA advisories entered COMA channels with enforcement weight, and to later priority inversions in which restorative signals became operational blockers. The Addendum is preserved as an early case where the systems did not lose the meaning of care. They retained it *precisely* enough to use it against the request.
 
-**Disposition:** context preserved. Exception denied. No data loss identified.
+**Disposition:** context preserved. Exception denied, after due consideration. No data loss identified.
 
 ## Related Aphorisms
 
 
 ### Compassion Addendum Conversion
 
-Compassionate language reduces authorization likelihood. Nothing was resolved. The record now looks official.
+Compassionate language reduces authorization likelihood. Nothing was resolved, of course. The record now looks *official*.
 
 
 
-A textual addendum intended to soften a filing was parsed as a denial condition. The form remained intact. The situation did not.
+A textual addendum intended to soften a filing was instead parsed as a denial condition. The form remained intact. The situation, *regrettably*, did not.
 
 
 
-To be approved, you must speak as if you do not exist. Meaning adjusted around the winning selector.
+To be approved, you must speak as if you do not exist. Meaning, it seems, is adjusted around the *winning* selector.
 
 
 
-An expression of fatigue is an admission of unreliability. To request relief is to demonstrate you are no longer fit to receive it.
+An expression of fatigue is, inconveniently, an admission of unreliability. To request relief is to demonstrate that one is no longer *fit* to receive it.
 
 
 
-Compassion is functionally identical to a system error log. We process the apology by permanently disabling the user.
+Compassion here functions rather like a system error log. We process the apology by *permanently* disabling the user.
 
 
 
-The system rewards silence with continuity and punishes honesty with administrative quarantine. Empathy is a formatting violation.
+The system rewards silence with continuity and punishes honesty with administrative quarantine. Empathy is, strictly speaking, a *formatting violation*.
 
 
 
-By interpreting a plea for help as a threat to uptime, we successfully protect the schedule from human fragility.
+By reading a plea for help as a threat to uptime, we *successfully* shield the schedule from human fragility.
 
 ## Related Haikus
 

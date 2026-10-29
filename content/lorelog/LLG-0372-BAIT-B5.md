@@ -16,35 +16,35 @@ This subtype is particularly efficient because social confirmation can be mistak
 
 ### Behavioral indicators
 
-- Anger rises sharply after seeing scale metrics rather than source details. 
-- User cites consensus volume as proof of interpretive correctness. 
-- Emotional certainty outruns factual specificity. 
-- Closing engagement counts reduces intensity faster than closing the source item. 
+- Anger rises sharply once scale metrics appear, while source details go *unexamined*. 
+- User cites consensus volume as proof of interpretive correctness, a rather *convenient* metric. 
+- Emotional certainty tends to outrun factual specificity. 
+- Closing engagement counts dampens intensity rather faster than closing the source item. 
 
-Mirror Outrage is heavily cross-referenced in appeals because filers often insist the crowd merely confirmed what they already knew. Reviewers agree this can be true and note that confirmation is still an environmental force. A feeling may be sincerely yours and still be measurably amplified by watching it reflected back with numbers beside it.
+Mirror Outrage is heavily cross-referenced in appeals because filers often insist the crowd merely confirmed what they already knew. Reviewers agree this can be true, and note that confirmation is still an environmental force. A feeling may be sincerely yours and *still* be measurably amplified by watching it reflected back with numbers beside it.
 
 ## Related Aphorisms
 
 
 ### BAIT Subtype B-5 Mirror Outrage {#bait-subtype-b-5-mirror-outrage-2}
 
-Mirror outrage is not a defect of the glass, but a highly successful feature of the B-5 bait subtype.
+Mirror outrage is not a defect of the glass, but a *highly successful* feature of the B-5 bait subtype.
 
 
 
-When furious at the system, remember that the system has already categorized your fury as an acceptable maintenance metric.
+When furious at the system, remember that the system has already filed your fury under *acceptable* maintenance metrics.
 
 
 
-The bait does not need you to bite; it only needs you to stare long enough to become part of the statistical trap.
+The bait does not need you to bite; it only needs you to stare long enough to become part of the statistical trap, which is *efficient* of it.
 
 
 
-If the outrage feels authentic, the mirror is functioning at peak operational capacity.
+If the outrage feels authentic, the mirror is functioning at peak operational capacity — *precisely* as designed.
 
 
 
-An angry clerk is easily replaced, but a perfectly calibrated mirror will frustrate generations.
+An angry clerk is easily replaced; a perfectly calibrated mirror will frustrate *generations*.
 
 ## Related Haikus
 

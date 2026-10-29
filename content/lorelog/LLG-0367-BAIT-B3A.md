@@ -8,7 +8,7 @@ tags: ["lorelog", "bait", "civic-substitution", "moral-concern", "engagement-loo
 
 # BAIT Subtype B-3A Civic Substitution Loop
 
-B-3A describes the point at which a user’s legitimate civic or moral concern ceases to seek local outlets and becomes legible primarily as repeated engagement with a topic stream. Unlike simple outrage bait, this subtype often begins with something DOGE would certify as locally anchored: a real value, a real stake, a real fear about the world. BAIT does not manufacture the concern from nothing. It offers the concern an easier metabolism. 
+B-3A describes the point at which a user’s legitimate civic or moral concern stops seeking local outlets and becomes legible primarily as repeated engagement with a topic stream. Unlike simple outrage bait, this subtype often begins with something DOGE would certify as locally anchored: a real value, a real stake, a real fear about the world. BAIT does not manufacture the concern from nothing. It merely offers the concern an *easier* metabolism. 
 
 The loop is considered active when the user experiences reading, posting, tracking, and reacting as morally adjacent enough to action that the distinction no longer feels urgent. This is not hypocrisy in the archive’s sense. It is a successful substitution event in which platform participation becomes affectively satisfying enough to delay or displace local participation. RAGE analysis marks this as one of the system’s most elegant thefts because **nothing needs to feel fake for the rerouting to hold**. 
 
@@ -16,35 +16,35 @@ The loop is considered active when the user experiences reading, posting, tracki
 
 ### Behavioral indicators
 
-- User describes themselves as deeply engaged while reporting no recent local participation. 
-- Topic tracking provides relief disproportionate to any change in underlying conditions. 
-- Moral vocabulary intensifies while local residue remains thin or absent. 
-- Pausing engagement feels irresponsible even when engagement has ceased producing action. 
+- User describes themselves as deeply engaged while reporting no recent local participation, *curiously*. 
+- Topic tracking provides relief *disproportionate* to any change in underlying conditions. 
+- Moral vocabulary intensifies while local residue remains, politely, thin or absent. 
+- Pausing engagement feels irresponsible, even once engagement has quietly ceased producing action. 
 
-DOGE cross-notes classify many B-3A states as Civic Ambient Echo: strong felt involvement, durable self-description, weak structural residue. Reviewers repeatedly emphasize that the concern is not insincere. The problem is provenance drift between what the concern wanted and what the platform was willing to let it become.
+DOGE cross-notes classify many B-3A states as Civic Ambient Echo: strong felt involvement, durable self-description, and rather less structural residue. Reviewers repeatedly emphasize that the concern is not insincere. The problem is provenance drift between what the concern wanted and what the platform was willing to let it become.
 
 ## Related Aphorisms
 
 
 ### BAIT Subtype B-3A Civic Substitution Loop {#bait-subtype-b-3a-civic-substitution-loop-2}
 
-Civic substitution loop B-3A operates on the truth that a painted crosswalk feels just as productive as actual policy.
+Civic substitution loop B-3A operates on the quiet truth that a painted crosswalk *feels* just as productive as actual policy.
 
 
 
-If you replace a problem with a committee to study the problem, you have effectively solved the need for action.
+If you replace a problem with a committee to study the problem, you have *effectively* solved the need for action.
 
 
 
-The most elegant loops are the ones that convince the participants they are moving forward while standing completely still.
+The most elegant loops are the ones that convince the participants they are moving forward while standing, in fact, *completely still*.
 
 
 
-True civic engagement is the process of filling out a survey that determines the color of a bridge that will never be built.
+True civic engagement is the process of filling out a survey that determines the color of a bridge that will, in all likelihood, never be built.
 
 
 
-Subtype B-3A ensures that the outrage over a missing service is completely absorbed by a newly installed decorative fountain.
+Subtype B-3A ensures that public outrage over a missing service is entirely absorbed by a newly installed decorative fountain.
 
 ## Related Haikus
 

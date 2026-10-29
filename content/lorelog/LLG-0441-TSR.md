@@ -8,56 +8,56 @@ tags: ["lorelog", "trust-surface", "inherited-basis", "continuity", "proof-decay
 
 # Trust Surface Retained Under Inherited Conditions
 
-A trust-bearing surface continued to guide routing, confidence, and ordinary decision behavior after the direct conditions supporting it ceased to be freshly reconstructable. Renewal had thinned into inheritance. Familiarity supplied what proof no longer supplied directly.
+A trust-bearing surface went on guiding routing, confidence, and ordinary decision behavior long after the conditions that once supported it could no longer be freshly reconstructed. Renewal had quietly thinned into inheritance. Familiarity supplied what proof no longer supplied *directly*.
 
-Because adjacent systems still recognized the surface, and because its removal would have introduced visible instability, reviewers preserved it under inherited handling. The result was a trust layer justified more by continuity effects than by live basis.
+Because adjacent systems still recognized the surface, and because removing it would have introduced visible instability, reviewers preserved it under inherited handling. The result was a trust layer resting rather more on continuity effects than on live basis.
 
-This condition did not arise from simple neglect. It arose because the surface kept working behaviorally after its proof conditions became historical, distributed, and partially managed through neighboring supports. **The mark survived because it remained easier to govern than to unsettle.**
+This condition was not the product of simple neglect. It came about because the surface kept behaving long after its proof conditions had become historical, distributed, and partly managed through neighboring supports. **The mark survived because it remained easier to govern than to unsettle.**
 
-The archive classifies this as trust retention under inherited conditions rather than direct falsification. The issue is not whether the surface persuades. The issue is what kind of basis now permits that persuasion to continue.
+The archive classifies this as trust retention under inherited conditions rather than direct falsification. The question is not whether the surface persuades; it is what kind of basis now permits that persuasion to continue.
 
 ---
 
 ### Bricky's Filing Notes
 
-- Summary: The badge stayed because uncertainty looked worse without it.
-- Trauma: Familiarity inherited the duties of proof.
-- Quirks: Removal became less governable than justified continuation.
+- Summary: The badge stayed because uncertainty looked somehow worse without it.
+- Trauma: Familiarity, *naturally*, inherited the duties of proof.
+- Quirks: Removal proved *less* governable than simply letting it continue.
 
 ## Related Aphorisms
 
 
 ### Trust Surface Retained Under Inherited Conditions {#trust-surface-retained-under-inherited-conditions-2}
 
-The surface looks secure because we inherited the paperwork from an era when the servers actually worked.
+The surface looks secure because we inherited the paperwork from an era when the servers *actually worked*.
 
 
 
-Trust surface retained. The fact that there is no underlying logic beneath it is out of scope for this audit.
+Trust surface retained. Whether any underlying logic exists beneath it is, politely, out of scope for this audit.
 
 
 
-The veneer passed the inspection. The foundation was excluded due to budget constraints.
+The veneer passed the inspection. The foundation was, regrettably, excluded due to budget constraints.
 
 
 
-Inherited conditions dictate that we trust the ghost of the policy, rather than the reality of the error.
+Inherited conditions dictate that we trust the ghost of the policy, rather than the somewhat inconvenient reality of the error.
 
 
 
-The ghost of an outdated policy governs this hallway. No one has seen the original paperwork, yet we continue frantically bolting the doors.
+The ghost of an outdated policy governs this hallway. No one has seen the original paperwork, yet we continue bolting the doors with *considerable* enthusiasm.
 
 
 
-Due to severe budget constraints, the collapsing foundation was reclassified as an intentional aesthetic. A bright red four-zero-four error waves like a folded flag above the wreckage.
+Owing to severe budget constraints, the collapsing foundation was duly reclassified as an intentional aesthetic. A bright red four-zero-four error now waves, like a folded flag, above the wreckage.
 
 
 
-Freshly printed certifications look beautiful attached to the finalized crashlog. The steering wheel detached miles ago, but we cling to our laminated badges.
+The freshly printed certifications look beautiful attached to the finalized crashlog. The steering wheel detached miles ago, but we *cling* to our laminated badges.
 
 
 
-A localized mist of human resources extends a helpful hand. Desperate employees reach out, only to grasp another empty layer of atmospheric support while the water rises.
+A localized mist of human resources extends a *helpful* hand. Desperate employees reach out, only to grasp another empty layer of atmospheric support while the water rises.
 
 ## Related Haikus
 

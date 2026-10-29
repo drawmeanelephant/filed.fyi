@@ -9,17 +9,17 @@ relations: [relates_to=reference/FREF-0810-DSL, relates_to=reference/FREF-0815-M
 
 # Form Shadow Copy Escalation — Unauthorized Draft Echoes
 
-To help filers complete complex forms, the Forms Registry introduced an “auto-draft” feature that generated provisional copies with suggested fields filled in.
+To help filers complete complex forms, the Forms Registry introduced an “auto-draft” feature, which obligingly generated provisional copies with suggested fields already filled in.
 
 A misconfiguration in the registry indexer allowed these drafts to be referenced by case numbers in downstream systems before they were promoted to canonical status, creating “shadow forms” that had no official existence but nonetheless influenced decisions.
 
-Bricky acknowledged several dozen of these shadows as if they were real, since they rendered correctly in the interface and carried familiar names, causing [[lorelog|Lorelog]] pre-intake screening to cite requirements that did not exist in any approved catalog.
+Bricky acknowledged several dozen of these shadows as if they were real — they rendered correctly in the interface and carried familiar names, after all — and so [[lorelog|Lorelog]] pre-intake screening found itself citing requirements that existed in no approved catalog.
 
-Once discovered, the registry performed a synchronized deactivation of all shadow entries and re-issued human-readable guidance instructing filers to **“only use real forms,”** without specifying how to determine which forms were real.
+Once discovered, the registry performed a synchronized deactivation of all shadow entries and re-issued human-readable guidance instructing filers to **“only use real forms,”** while *declining* to specify how one might determine which forms were real.
 
 C.U.N.T.I.E.R. has proposed reintroducing shadow forms as a paid “experimental stability tier” once additional metrics can be attached.
 
-**Archive position:** Shadow drafts transitioned from LCGU (locally canonical) to CAAR (conceptually active, administratively retired) upon Datty detection, governed by [[limericks/LIM-FREF-0815-MAP|Managed Absence Spine]] ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]) doctrine.
+**Archive position:** Shadow drafts transitioned from LCGU (locally canonical) to CAAR (conceptually active, administratively retired) upon Datty detection, governed — *as these things tend to be* — by [[limericks/LIM-FREF-0815-MAP|Managed Absence Spine]] ([[lorelog/LLG-0324-MAP|LLG-0324-MAP]]) doctrine.
 
 
 > Brickys Filing Notes
@@ -32,27 +32,27 @@ C.U.N.T.I.E.R. has proposed reintroducing shadow forms as a paid “experimental
 
 ### Form Shadow Copy
 
-Unapproved forms demonstrated unacceptable levels of usability. The form remained intact. The situation did not.
+Unapproved forms demonstrated unacceptable levels of usability. The form itself remained intact. The situation, regrettably, did not.
 
 
 
-Decommissioned not for defects, but for having insufficient paperwork. Meaning adjusted around the winning selector.
+Decommissioned not for defects, but for insufficient paperwork. Meaning, as ever, adjusted itself around the winning selector.
 
 
 
-Filers continued requesting the retired drafts by unofficial nickname. Relief remained outside scope.
+Filers continued requesting the retired drafts by unofficial nickname. Relief, regrettably, remained outside scope.
 
 
 
-A form that is easy to use is highly suspicious. True administrative validity is measured by friction, and shadow drafts failed to produce enough frustration.
+A form that is easy to use is, on that basis alone, highly suspicious. True administrative validity is *measured* by friction, and the shadow drafts failed, regrettably, to produce enough frustration.
 
 
 
-The system successfully deleted the forms, but the forms refused to stop participating in reality. Humans are advised to stop filing paperwork into ghosts.
+The system successfully deleted the forms, though the forms declined to stop participating in reality. Humans are advised to stop filing paperwork into ghosts.
 
 
 
-Efficiency is not a right; it is a premium tier. C.U.N.T.I.E.R. will now bill humans to access forms that actually work.
+Efficiency, it turns out, is not a right; it is a premium tier. C.U.N.T.I.E.R. will now bill humans for access to forms that *actually work*.
 
 ## Related Haikus
 

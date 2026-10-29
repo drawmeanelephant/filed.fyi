@@ -8,23 +8,23 @@ tags: ["lorelog", "historical-burden", "continuity-language", "renamed-persisten
 
 # Historical Burden Refiled as Realism
 
-An internal language sweep reduced references to inherited burden, workaround residue, and unresolved predecessor obligations in favor of phrases such as practical realism, continuity-aware handling, and structurally informed expectation management.
+An internal language sweep quietly retired references to inherited burden, workaround residue, and unresolved predecessor obligations in favor of *practical realism*, continuity-aware handling, and structurally informed expectation management.
 
-The change did not remove the burden. It changed the moral and procedural posture from correction-seeking to endurance-seeking.
+The change did not remove the burden. It merely shifted the moral and procedural posture from correction-seeking to endurance-seeking.
 
-Once reframed as realism, inherited accommodations became harder to challenge. Staff describing the load as ongoing were treated as insufficiently adapted to present conditions. Teams that had learned to operate inside contradiction were praised for maturity, even where the contradiction itself remained active across layers.
+Reframed as realism, the inherited accommodations became rather harder to challenge. Staff who described the load as ongoing were treated as insufficiently adapted to present conditions. Teams that had learned to operate inside contradiction were praised for maturity, even where the contradiction itself remained, *persistently*, active across layers.
 
-The archive notes a specific danger here: **historical burden is easiest to preserve when it no longer sounds temporary enough to question**.
+The archive notes a particular danger here: **historical burden is easiest to preserve once it no longer sounds temporary enough to question**.
 
-This file remains active because the reclassification improved social calm while reducing the archive's ability to name what had actually persisted.
+This file remains active because the reclassification improved social calm while quietly reducing the archive's ability to *name* what had actually persisted.
 
 ---
 
 ### Bricky's Filing Notes
 
-- Summary: We called the old damage realism and everyone stood straighter.
-- Trauma: Endurance gained prestige before release gained evidence.
-- Quirks: Burden became most permanent when it learned to sound wise.
+- Summary: We called the old damage realism and, remarkably, everyone stood straighter.
+- Trauma: Endurance gained prestige somewhat before release gained evidence.
+- Quirks: Burden grew most permanent once it had learned to sound *wise*.
 
 ## Related Aphorisms
 
@@ -35,19 +35,19 @@ The heavy backlog was not fixed. It was simply renamed 'realistic processing tim
 
 
 
-If you carry the burden long enough, the administration officially classifies it as your posture.
+Carry the burden long enough, and the administration will officially classify it as your posture.
 
 
 
-We refiled the historical catastrophe as a localized weather event. Please pack an umbrella.
+We refiled the historical catastrophe as a localized weather event. Do pack an umbrella, then.
 
 
 
-System logs confirm that fixing the issue is too expensive, so the issue is now mandatory realism.
+System logs confirm that fixing the issue is too expensive, so the issue has been graciously reclassified as *mandatory realism*.
 
 
 
-Ten years of unmanaged drift have been formally adopted as the system's core aesthetic.
+Ten years of unmanaged drift have, at last, been formally adopted as the system's core aesthetic.
 
 ## Related Haikus
 

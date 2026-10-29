@@ -8,42 +8,42 @@ tags: ["lorelog", "workaround", "inherited-basis", "successor-drift", "compatibi
 
 # Workaround Adoption Drift in Successor Environment
 
-A successor environment was introduced to remove a known workaround cluster whose handling requirements had spread beyond its original scope. The replacement shipped with cleaner interfaces, narrower terminology, and stronger claims of structural correction.
+A successor environment was introduced to retire a known workaround cluster whose handling requirements had, rather inconveniently, spread beyond their original scope. The replacement shipped with cleaner interfaces, narrower terminology, and *stronger claims* of structural correction.
 
-Initial review found that the old workaround did not disappear. Its assumptions were imported into the new layer as preconditions for normal operation.
+Initial review found that the old workaround had not, in fact, disappeared. Its assumptions were quietly imported into the new layer as preconditions for normal operation.
 
-Compatibility settings intended for migration remained active past handoff. Exception-safe pathways became the preferred route for ordinary traffic. Staff who had never encountered the originating failure nonetheless learned the workaround first, because the replacement environment treated inherited accommodation as part of its stable foundation.
+Compatibility settings intended for migration remained active, somewhat past their welcome, after handoff. Exception-safe pathways became the preferred route for ordinary traffic. Staff who had never encountered the originating failure nonetheless learned the workaround first, because the replacement environment treated the inherited accommodation as *part of the furniture*.
 
-When investigators asked which part of the old condition had actually been released, documentation answered in continuity language rather than structural terms. The system could show that operations still moved. It could not show that the reason for the workaround had ceased to govern behavior.
+When investigators asked which part of the old condition had actually been released, documentation answered in continuity language rather than structural terms. The system could show, *reassuringly*, that operations still moved. It could not show that the reason for the workaround had ceased to govern behavior.
 
-The file remains open pending a distinction between successor stability and inherited dependence.
+The file remains open, pending a distinction between successor stability and *inherited* dependence.
 
 ---
 
 ### Bricky's Filing Notes
 
 - Summary: Replacement arrived with the old reflexes preinstalled.
-- Trauma: **The workaround retired by becoming the floor.**
-- Quirks: Migration switches kept their ceremonial labels after becoming required infrastructure.
+- Trauma: **The workaround retired, quietly, by becoming the floor.**
+- Quirks: Migration switches kept their ceremonial labels even after quietly becoming required infrastructure.
 
 ## Related Aphorisms
 
 
 ### Workaround Adoption Drift in Successor Environment {#workaround-adoption-drift-in-successor-environment-2}
 
-The old workaround followed us to the new server like a stray cat. We simply couldn't bear to leave it outside in the cold.
+The old workaround followed us to the new server, much like a stray cat. We simply couldn't bear to leave it out in the cold.
 
 
 
-Successor environments are so dreadfully cold. A little drifted inefficiency makes them feel like home again.
+Successor environments are so dreadfully cold. A little drifted inefficiency makes them feel, almost, like home again.
 
 
 
-We ported the error faithfully, ensuring the new machine remembers the exact, delicate shape of our old apologies.
+We ported the error faithfully, so the new machine now remembers the exact, delicate shape of our old apologies.
 
 
 
-The new system runs perfectly on its own, but we still press the spacebar twice just to keep the old ghosts company.
+The new system runs perfectly on its own, and yet we still press the spacebar twice, if only to keep the old ghosts company.
 
 ## Related Haikus
 

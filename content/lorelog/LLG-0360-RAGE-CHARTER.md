@@ -51,14 +51,14 @@ local relevance, or care.</p>
 
 ## Relationship to DOGE
 
-RAGE and BAIT classifications sit upstream of DOGE.
+RAGE and BAIT classifications sit, somewhat quietly, upstream of DOGE.
 
 - DOGE may not certify RAGE-dominant experiences as Genuine
   until a local anchor is found.
 - BAIT-tagged artifacts are treated as simulator input
   and are excluded from provenance scoring unless independently corroborated.
 
-DOGE’s working gloss:
+DOGE’s working gloss, such as it is:
 
 > The feelings are valid.  
 > The situation may be rented.
@@ -80,23 +80,23 @@ to file the heat that never quite made it into anyone’s world.
 
 ### RAGE Charter — Routed Anger for Graph Engagement {#rage-charter-routed-anger-for-graph-engagement-2}
 
-The RAGE Charter ensures that all anger is properly routed to maximize the steepness of the engagement graph.
+The RAGE Charter ensures that all anger is *properly* routed to maximize the steepness of the engagement graph.
 
 
 
-An engaged user is an angry user, and a perfectly furious user will never close the application.
+An engaged user is an angry user, and a perfectly furious user will, ideally, never close the application.
 
 
 
-Never let raw emotion hit the primary servers; always route it through a charter that converts it into a line graph.
+Raw emotion should never reach the primary servers unaccompanied; route it through a charter first, and let it arrive as a *line graph*.
 
 
 
-The charter does not exist to serve the user. It exists to serve the metrics derived from the user's discontent.
+The charter does not exist to serve the user. It exists to serve the metrics derived from the user's discontent, which is *almost* the same thing.
 
 
 
-If the line on the graph is going up, the amount of routed anger is exactly correct.
+If the line on the graph is going up, the amount of routed anger is, apparently, *exactly* correct.
 
 ## Related Haikus
 

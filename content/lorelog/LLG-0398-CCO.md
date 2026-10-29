@@ -8,60 +8,60 @@ tags: ["lorelog", "merger-drift", "honorary-office", "chapter-governance", "titl
 
 # Consolidated Chapter Office Continuity Loop
 
-When North Annex Lodge and River Avenue Benevolence Chapter merged, the formal plan was simple: unify treasuries, combine committees, and retire duplicative offices with honor.
+When North Annex Lodge and River Avenue Benevolence Chapter merged, the formal plan was admirably simple: unify treasuries, combine committees, and retire duplicative offices with honor — a plan, as plans go, *commendably* tidy.
 
-The honor proved stronger than the retirement.
+The honor, it turned out, proved stronger than the retirement.
 
-Former titles were preserved for courtesy in banquet scripts, memorial booklets, and seating cards. Within three meeting cycles those same titles began shaping motion order, speaking priority, and unofficial veto gravity.
+Former titles were preserved for courtesy in banquet scripts, memorial booklets, and seating cards. Within three meeting cycles, those same titles were quietly shaping motion order, speaking priority, and what might charitably be called unofficial veto gravity.
 
-Witnesses described the merged room as friendly, respectful, and increasingly impossible to parse.
+Witnesses described the merged room as friendly, respectful, and *increasingly impossible* to parse.
 
-[[limericks/LIM-0086|Eagleton Proclamation Clerk]] classified the condition as Office Continuity Loop: an administrative state in which retired authority survives through reverent address until etiquette and governance become operationally inseparable.
+[[limericks/LIM-0086|Eagleton Proclamation Clerk]] classified the condition as Office Continuity Loop: an administrative state in which retired authority survives through reverent address until etiquette and governance become, rather inconveniently, operationally inseparable.
 
-The merger had not reduced offices. It had **distributed them into tone**.
+The merger had not reduced offices so much as **distributed them into tone**.
 
 Emergency merger guidance now appended to the registry:
 - honorary titles may be spoken without carrying floor authority,
 - seating precedence must not imply procedural precedence,
 - any phrase beginning As a former must not alter current vote handling unless the bylaws have the courage to say so directly.
 
-The appeal remains active because the merged chapter is calmer when the elders are gently obeyed, and no one has yet designed a transition plan stronger than politeness.
+The appeal remains active because the merged chapter is calmer when the elders are gently obeyed, and no one has yet proposed a transition plan more persuasive than *politeness*.
 
 ## Related Aphorisms
 
 
 ### Consolidated Chapter Office
 
-The merger retired the offices on paper and multiplied them in the room. The form remained intact. The situation did not.
+The merger retired the offices on paper and, in the room, multiplied them. The form remained intact. The situation, less so.
 
 
 
-Etiquette and governance become operationally inseparable. Meaning adjusted around the winning selector.
+Etiquette and governance become operationally inseparable. Meaning, it turns out, adjusts around the *winning* selector.
 
 
 
-No one has yet designed a transition plan stronger than politeness. Relief remained outside scope.
+No one has yet designed a transition plan stronger than politeness. Relief remained, politely, outside scope.
 
 
 
 
-The chief compliance officer ensures that every failure is perfectly legal.
+The chief compliance officer ensures that every failure is, without exception, *perfectly* legal.
 
 
 
-Compliance is the art of documenting exactly how the system broke.
+Compliance is the art of documenting, with some care, exactly how the system broke.
 
 
 
-We obey the rules because the reality is too frightening to face.
+We obey the rules because the alternative is, frankly, too frightening to face.
 
 
 
-A compliant system is a dead system with excellent paperwork.
+A compliant system is, at heart, a dead system with *excellent* paperwork.
 
 
 
-The officer signs the form, and the archive accepts the decay.
+The officer signs the form, and the archive, in its way, accepts the decay.
 
 ## Related Haikus
 

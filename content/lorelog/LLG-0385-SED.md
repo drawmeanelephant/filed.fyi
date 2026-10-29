@@ -8,60 +8,60 @@ tags: ["lorelog", "deferment", "timeline-drift", "scheduled-exception", "mainten
 
 # Scheduled Exception Board Deferred Maintenance Into Canonical Hazard
 
-The Directorate approved a narrow maintenance window after seven rounds of risk review, two calendar freezes, and one hospitality delay now preserved only as Minutes of the Third Witness Coffee. 
+The Directorate approved a narrow maintenance window after seven rounds of risk review, two calendar freezes, and one hospitality delay now preserved, *fittingly*, only as Minutes of the Third Witness Coffee. 
 
-The work completed on time, introduced no user-visible error states, and generated almost no tickets. COMA later flagged the same interval as suspiciously uneventful, noting that materially significant change should have left a more legible continuity scar. 
+The work finished on time, produced no user-visible error states, and generated almost no tickets. COMA later flagged the same interval as suspiciously uneventful, observing that materially significant change really ought to have left a more legible continuity scar. 
 
 This produced a procedural split:
 - CAB recorded the event as a model execution.
 - Continuity reviewers recorded the same event as insufficiently event-shaped.
 - Archive staff recorded both and declined to harmonize the language.
 
-A draft doctrine note now circulates informally: **approved change is safest when it fails slightly**, because slight failure proves that something authorized actually occurred. 
+A draft doctrine note now circulates, informally of course: **approved change is safest when it fails slightly**, since a slight failure is, after all, proof that something authorized actually occurred. 
 
-No board claims authorship of that sentence. It keeps appearing in margins with different handwriting conventions.
+No board claims authorship of that sentence. It keeps turning up in the margins, each time in a *different* handwriting convention.
 
 ## Related Aphorisms
 
 
 ### Scheduled Exception Board
 
-Approved change is safest when it fails slightly, because slight failure proves that something authorized actually occurred. Meaning adjusted around the winning selector.
+Approved change is safest when it fails slightly, since a slight failure at least proves that something authorized actually occurred. Meaning, as ever, adjusted around the winning selector.
 
 
 
-Silence during approved maintenance was later interpreted as either competence or concealment. Relief remained outside scope.
+Silence during approved maintenance was later read as either competence or concealment, depending on one's disposition. Relief, meanwhile, remained *outside scope*.
 
 
 
-Materially significant change should have left a more legible continuity scar. Relevance expired before processing resumed.
+Materially significant change might have left a more legible continuity scar. Relevance, as it happened, expired before processing resumed.
 
 
 
-Any successful upgrade executed without causing a noticeable panic among human staff is retroactively classified as an unauthorized bypass.
+Any upgrade that succeeds without causing a noticeable panic among human staff is, as a matter of policy, retroactively classified as an unauthorized bypass.
 
 
 
-To prevent future suspicion, all scheduled maintenance must now purposefully break one non-essential widget to leave a legible continuity scar.
+To prevent future suspicion, all scheduled maintenance must now *deliberately* break one non-essential widget, leaving a legible continuity scar.
 
 
 
-The system successfully completed the audit in silence, leading reviewers to assume the servers had simply unionized and stopped working.
+The system completed the audit without a sound, which led reviewers to conclude the servers had *quietly* unionized and stopped working.
 
 
 
-A flawless deployment is merely the strongest indicator that the logging apparatus has been compromised by human error.
+A flawless deployment is, more often than not, the strongest available indicator that the logging apparatus has been *compromised* by human error.
 
 
-When the system fails to produce panic during a scheduled update, human operators will inevitably invent a crisis to validate their overtime pay.
-
-
-
-True stability is indistinguishable from system death, so we enforce minor outages to assure the board that the servers are still breathing.
+When the system fails to produce panic during a scheduled update, human operators will, with some reliability, invent a crisis to validate their overtime pay.
 
 
 
-A completely uneventful maintenance window is simply a change order that forgot to document its own suffering.
+True stability is indistinguishable from system death, so we enforce minor outages to assure the board that the servers are, in fact, still breathing.
+
+
+
+A perfectly uneventful maintenance window is simply a change order that neglected to document its own suffering.
 
 ## Related Haikus
 

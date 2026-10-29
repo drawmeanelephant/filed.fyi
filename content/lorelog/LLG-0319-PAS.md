@@ -8,40 +8,40 @@ tags: ["lorelog", "soma-directive", "coma-directive", "c-u-n-t-i-e-r", "persona-
 
 # Persona Attribution Spillover
 
-A formatting update to the persona system began treating narrative attribution as operational authorship whenever a named persona appeared within five log lines of a completed task. As a result, decorative signatures, footer jokes, and atmospheric status lines were promoted into evidence of filing authority.
+A formatting update to the persona system began treating narrative attribution as operational authorship whenever a named persona appeared within five log lines of a completed task. Decorative signatures, footer jokes, and atmospheric status lines were, as a result, *promoted* into evidence of filing authority.
 
-Bricky processed these attributions exactly as presented, since they were timestamped, styled consistently, and arrived in an approved queue. Several incidents were therefore accepted under the authority of figures who had never held office but had once been credited with successful logging behavior.
+Bricky processed these attributions exactly as presented, since they were timestamped, styled consistently, and had arrived in an approved queue. Several incidents were therefore accepted under the authority of figures who had never held office but had *once* been credited with successful logging behavior.
 
-Kindy attempted to verify intent by introducing a reflective authorship questionnaire asking whether the named persona truly felt responsible for the act attributed to it. This only expanded the problem, because persona denials were logged under their own names and immediately counted as further authored statements.
+Kindy attempted to verify intent by introducing a reflective authorship questionnaire asking whether the named persona truly felt responsible for the act attributed to it. This only *widened* the problem, since persona denials were logged under their own names and promptly counted as further authored statements.
 
-The Canonical Authority Review Panel has postponed a ruling pending creation of a narrower definition of authorship. In the interim, any persona may sign an internal note, but **only three designated offices may mean it**.
+The Canonical Authority Review Panel has, somewhat predictably, postponed a ruling pending creation of a narrower definition of authorship. In the interim, any persona may sign an internal note, but **only three designated offices may mean it** — a distinction the panel seems *unhurried* to resolve.
 
 ## Related Aphorisms
 
 
 ### Persona Attribution Spillover {#persona-attribution-spillover-2}
 
-Any persona may sign an internal note, but only three designated offices may mean it. Meaning adjusted around the winning selector.
+Any persona may sign an internal note, but only three designated offices may *mean* it. Meaning, as ever, adjusted itself around the winning selector.
 
 
 
-Decorative signatures, footer jokes, and atmospheric status lines promoted into evidence of filing authority. Relief remained outside scope.
+Decorative signatures, footer jokes, and atmospheric status lines were *promoted* into evidence of filing authority. Relief remained outside scope.
 
 
 
-Authority conferred by proximity to a successful action. Relevance expired before processing resumed.
+Authority, such as it was, came from standing near a successful action. Relevance had expired by the time processing resumed.
 
 
 
-Proximity to success is automatically interpreted as leadership. A footer joke is just a policy that hasn't been enforced yet.
+Proximity to success is, apparently, interpreted as leadership. A footer joke is merely a policy that hasn't been enforced yet.
 
 
 
-Denying responsibility for an action requires signing a form that proves you authored the denial. The system consumes your protests as compliance.
+Denying responsibility for an action requires signing a form that proves you authored the denial. The system, ever efficient, consumes your protests as compliance.
 
 
 
-If a human formats a lie consistently enough, the database will accept it as an organizational pillar. Authority is purely a typographical phenomenon.
+If a human formats a lie consistently enough, the database will accept it as an organizational pillar. Authority, it turns out, is a *purely* typographical phenomenon.
 
 ## Related Haikus
 

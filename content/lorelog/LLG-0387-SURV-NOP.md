@@ -8,57 +8,57 @@ tags: ["lorelog", "surveillance-audit", "witness-visit", "scope-attestation", "r
 
 # Surveillance Visit Completed Without Observed Practice
 
-A scheduled surveillance visit was completed in full, with opening meeting, document review, corridor walk, and closing remarks all conducted according to protocol. No live operational activity occurred during the observed interval.
+A scheduled surveillance visit was completed in full, with opening meeting, document review, corridor walk, and closing remarks all conducted *according to protocol*. No live operational activity occurred during the observed interval.
 
-The absence was noted at the opening meeting and classified as temporary non-demonstration rather than a scope limitation. The unit confirmed that ordinary work was occurring elsewhere, on another cadence, or in a form not scheduled to become visible during the witness window. No additional demonstration was requested.
+The absence was noted at the opening meeting and classified as temporary non-demonstration rather than a scope limitation. The unit confirmed that ordinary work was occurring elsewhere, on another cadence, or in a form *not scheduled* to become visible during the witness window. No additional demonstration was requested.
 
 The witness team therefore evaluated document control, prior corrective closure discipline, version hygiene, and staff fluency with scope language. Particular weight was assigned to the unit’s ability to retrieve superseded procedures without treating them as current, describe closed findings without reopening them, and distinguish active controls from evidence that active controls had once been reviewed.
 
-These were deemed sufficient indicators of a mature system under conditions of temporary non-demonstration.
+These were deemed sufficient indicators of a mature system under conditions of *temporary* non-demonstration.
 
 The closing record states that no adverse finding arose from the lack of observed practice because the visit had produced satisfactory confidence in the unit’s capacity to recognize, locate, and narrate its own controls. The distinction between capacity to demonstrate a system and capacity to demonstrate documentation concerning a system was recorded as outside the scheduled surveillance scope.
 
-One dissenting note asked whether certification had become confidence in the handling of proof rather than confidence in the underlying work. A second note, attached to the same page, observed that the witness team had seen no evidence that the work was absent either.
+One dissenting note asked whether certification had become confidence in the handling of proof rather than confidence in the work itself. A second note, attached to the same page, observed *with some restraint* that the witness team had seen no evidence the work was absent either.
 
-**The notes remain attached but are not headline-visible.**
+**The notes remain attached, though they are not headline-visible.**
 
-[[limericks/LIM-SEALWARD-PROXY-0009|Sealward Proxy-9]] certified the visit as complete under conditional witness continuity. The mark was accepted without supplementary scope reconstruction. Subsequent reviewers have treated this as routine, which is the principal reason the appeal remains open.
+[[limericks/LIM-SEALWARD-PROXY-0009|Sealward Proxy-9]] certified the visit as complete under conditional witness continuity. The mark was accepted without supplementary scope reconstruction. Subsequent reviewers have *chosen* to treat this as routine, which is the principal reason the appeal remains open.
 
 ## Related Aphorisms
 
 
 ### Surveillance Visit
 
-Competence was inferred from record order, meeting posture, and the mature handling of evidence concerning prior competence. Relief remained outside scope.
+Competence was inferred from record order, meeting posture, and the suitably mature handling of evidence concerning prior competence. Relief remained, regrettably, outside scope.
 
 
 
-Has certification become confidence in the handling of proof rather than confidence in the underlying work? Relevance expired before processing resumed.
+Has certification become confidence in the handling of proof rather than confidence in the underlying work? Relevance, it seems, expired before processing resumed.
 
 
 
-Indicators of a mature system under conditions of temporary non-demonstration. The system kept the ritual and misplaced the function.
+Indicators of a mature system under conditions of temporary non-demonstration. The system kept the ritual, and *misplaced* the function.
 
 
 
 
-Surveillance non-operation is the act of watching the camera break.
+Surveillance non-operation is the quiet art of watching the camera break.
 
 
 
-We observe the failure with perfect, unblinking clarity.
+We observe the failure with *perfect*, unblinking clarity.
 
 
 
-A non-operational system is the easiest kind to monitor.
+A non-operational system is, of course, the easiest kind to monitor.
 
 
 
-The human watches the screen; the flat file presents a static image.
+The human watches the screen; the flat file, for its part, presents a *static* image.
 
 
 
-True surveillance is simply recording the absence of activity.
+True surveillance, it turns out, is simply recording the absence of activity.
 
 ## Related Haikus
 

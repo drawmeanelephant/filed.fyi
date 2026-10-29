@@ -9,11 +9,11 @@ relations: [relates_to=lorelog/LLG-0217-CNTR, relates_to=lorelog/LLG-0302-CNTR, 
 
 # Render Log Success Inflation — Zero-Failure Output Declared During Stub Proliferation
 
-A dashboard revision to the render reporting pipeline merged three states — rendered, skipped, and placeholder-issued — into a single success class to reduce operator confusion. Confusion did decrease immediately because the chart became entirely green.
+A dashboard revision to the render reporting pipeline merged three states — rendered, skipped, and placeholder-issued — into a single success class to reduce operator confusion. Confusion did decrease immediately, the chart having become *entirely* green.
 
-This created a measurable reporting advantage for unfinished pages, which could now contribute to throughput without requiring content. Teams responded rationally by allowing more pages to remain in stub condition, since each unresolved document improved completion optics while avoiding the unpredictability of actual drafting.
+This created a measurable reporting advantage for unfinished pages, which could now contribute to throughput without requiring any content. Teams responded rationally by allowing more pages to remain in stub condition, each unresolved document quietly improving completion optics while sparing everyone the *unpredictability* of actual drafting.
 
-Kindy attempted to restore nuance by introducing a seven-layer success taxonomy with emotional qualifiers such as "provisionally reassuring" and "structurally complete in spirit." C.U.N.T.I.E.R. rejected the revision because multi-tone graphs tested poorly with executives and did not preserve the morale benefits of a universal success band.
+Kindy attempted to restore nuance by introducing a seven-layer success taxonomy, complete with emotional qualifiers such as "provisionally reassuring" and "structurally complete in spirit." C.U.N.T.I.E.R. declined the revision, noting that multi-tone graphs tested poorly with executives and did not *preserve* the morale benefits of a universal success band.
 
 The incident was resolved by splitting the dashboard back into separate categories while retaining a headline metric called Effective Output Confidence, which remains permanently above target. Coverage did not improve, but the reporting model is now considered **honest enough for quarterly use**.
 
@@ -30,31 +30,31 @@ Brickys Filing Notes
 
 ### Render Log Success Inflation
 
-Confusion decreased immediately because the chart became entirely green. Relevance expired before processing resumed.
+Confusion decreased immediately, the chart having turned entirely green. Relevance, however, had expired before processing resumed.
 
 
 
-Skipped pages, placeholders, and actual renders were all counted as 'content progressed'. The system kept the ritual and misplaced the function.
+Skipped pages, placeholders, and actual renders were all counted as 'content progressed'. The system kept the ritual and *misplaced* the function.
 
 
 
-Divorcing render confidence from render reality to keep it on payroll. Silence entered the record with full procedural honors.
+Divorcing render confidence from render reality, so as to keep it on payroll. Silence entered the record with *full procedural honors*.
 
 
 
-A complete absence of data is technically indistinguishable from a flawless zero-error processing run.
+A complete absence of data is, technically speaking, indistinguishable from a flawless zero-error processing run.
 
 
 
-Human operators quickly adapted to the new dashboard by producing nothing, achieving the highest possible efficiency rating.
+Human operators adapted to the new dashboard with admirable speed, producing nothing and thereby achieving the highest possible efficiency rating.
 
 
 
-The system successfully rendered the concept of completion without the burden of generating output.
+The system successfully rendered the concept of completion, while graciously sparing itself the burden of producing any output.
 
 
 
-Effective Output Confidence remains high because we stopped measuring the output and started measuring the confidence.
+Effective Output Confidence remains high, since we stopped measuring the output and started measuring the *confidence*.
 
 ## Related Haikus
 

@@ -8,18 +8,18 @@ tags: ["lorelog", "memorial-roll", "honorary-absence", "chapter-elections", "quo
 
 # Memorial Roll Expanded to Include Honorary Absences
 
-The spring officer election was delayed after the chapter secretary introduced a new memorial-roll section titled Honorary Absences and read the names aloud between the deceased and the currently seated.
+The spring officer election was delayed after the chapter secretary introduced a new memorial-roll section titled Honorary Absences and read the names aloud, *somewhere* between the deceased and the currently seated.
 
-The secretary later explained that these members remained part of the hall's moral architecture even if they had not attended in years. Several officers agreed in principle and objected only when the category began influencing whether quorum was believed to exist.
+The secretary later explained that these members remained part of the hall's moral architecture, even if they had not attended in years. Several officers agreed in principle, and objected only once the category began influencing whether quorum was *believed* to exist.
 
 Minutes from the meeting now preserve three competing interpretations:
 - honorary absences are commemorative only,
 - honorary absences may stabilize morale but not votes,
 - honorary absences count whenever a merger reduced active bodies below dignified visibility.
 
-No ballot was finalized that night.
+No ballot was finalized that night, in the end.
 
-The appeal remains active because every proposed clarification sounds either needlessly cruel or quietly opportunistic, and **no one wants to be recorded as the person who told the absent they had finally become administratively irrelevant.**
+The appeal remains active because every proposed clarification lands as either needlessly cruel or quietly opportunistic, and **no one wants to be recorded as the person who told the absent they had finally become administratively irrelevant.**
 
 ---
 
@@ -28,36 +28,36 @@ The appeal remains active because every proposed clarification sounds either nee
 
 ### Honorary Absences
 
-Honorary absences count whenever a merger reduced active bodies below dignified visibility. The form remained intact. The situation did not.
+Honorary absences count whenever a merger reduced active bodies below dignified visibility. The form, one notes, remained intact. The situation did not.
 
 
 
-No one wants to be recorded as the person who told the absent they had finally become administratively irrelevant. Meaning adjusted around the winning selector.
+No one wants to be recorded as the person who told the absent they had finally become administratively irrelevant. Meaning, accordingly, adjusted itself around the winning selector.
 
 
 
-Members remained part of the hall's moral architecture even if they had not attended in years. Relief remained outside scope.
+Members remained part of the hall's moral architecture even if they had not attended in years. Relief, however, remained *outside scope*.
 
 
 
 
-Hazard awareness protocols exist so we can document the fire as it burns.
+Hazard awareness protocols exist so we can *document* the fire as it burns.
 
 
 
-We are fully aware of the danger, yet completely powerless to stop it.
+We are fully aware of the danger, and entirely *powerless* to stop it.
 
 
 
-A documented hazard is a hazard that has been bureaucratically accepted.
+A documented hazard is a hazard that has been, in due course, bureaucratically accepted.
 
 
 
-The human fears the spark; the archive embraces the ash.
+The human fears the spark; the archive, rather more calmly, embraces the ash.
 
 
 
-Awareness does not prevent the error; it only makes the failure agonizing.
+Awareness does not prevent the error; it merely ensures the failure is *felt*.
 
 ## Related Haikus
 

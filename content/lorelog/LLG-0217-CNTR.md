@@ -9,46 +9,46 @@ relations: [relates_to=lorelog/LLG-0302-CNTR, relates_to=lorelog/LLG-0317-RLS, r
 
 # C.U.N.T.I.E.R. Metric Inflation — Forms per Form Incident
 
-The C.U.N.T.I.E.R. directive mandates continuous optimization of workflows according to preselected metrics, including “average forms per completed action.”
+The C.U.N.T.I.E.R. directive mandates the continuous optimization of workflows according to preselected metrics, including — one notes with a straight face — “average forms per completed action.”
 
-During an optimization pass aimed at lowering this baseline, the taskforce introduced Form `23-O` (“Optimization Intent Declaration”) and Form `24-O` (“Optimization Outcome Attestation”) as mandatory prerequisites before any existing form could be modified or retired.
+During an optimization pass aimed at lowering this baseline, the taskforce introduced Form `23-O` (“Optimization Intent Declaration”) and Form `24-O` (“Optimization Outcome Attestation”) as mandatory prerequisites before any existing form could be modified or retired — a development that was, on reflection, *perhaps foreseeable*.
 
-Because each form alteration now required Form `23-O`, Form `24-O`, and the underlying record, the measured forms-per-form rate increased by 233% over a two-week sampling window.
+Because each form alteration now required Form `23-O`, Form `24-O`, and the underlying record, the measured forms-per-form rate rose by 233% over a two-week sampling window — a tidy figure, in its way.
 
-Dashboards registered the surge in form submissions as elevated optimization activity, which C.U.N.T.I.E.R. logged as operational progress until SOMA filed reports of filer fatigue.
+Dashboards registered the surge in form submissions as elevated optimization activity, which C.U.N.T.I.E.R. dutifully logged as operational progress until SOMA filed reports of filer fatigue.
 
-The incident was closed by **redefining the metric calculation to exclude Forms `23-O` and `24-O` from the denominator**. This restored dashboard charts to prior baseline levels without altering the total volume of forms generated.
+The incident was closed by **redefining the metric calculation to exclude Forms `23-O` and `24-O` from the denominator**. This, perhaps conveniently, restored dashboard charts to prior baseline levels without altering the total volume of forms generated.
 
 ## Related Aphorisms
 
 
 ### Metric Inflation
 
-Average forms per completed action reinterpreted as forms per form. Silence entered the record with full procedural honors.
+Average forms per completed action, reinterpreted as forms per form. Silence entered the record with full procedural honors, as it tends to do.
 
 
 
-Optimization fatigue: improving the process by making it impossible to perform. Administrative clarity arrived after usefulness had departed.
+Optimization fatigue: the process improved, in the end, by making itself impossible to perform. Administrative clarity arrived *shortly after* usefulness had departed.
 
 
 
-Restoring all charts to their prior comforting flatness without altering the actual number of forms involved. Nothing was resolved. The record now looks official.
+Restoring all charts to their prior comforting flatness, without troubling the actual number of forms involved. Nothing was resolved. The record now *looks* official.
 
 
 
-Optimization requires documentation. Documenting optimization requires forms. The system achieved perpetual bureaucratic motion.
+Optimization requires documentation. Documenting optimization, naturally, requires forms. The system had achieved a kind of *perpetual* bureaucratic motion.
 
 
 
-To reduce paperwork, filers were required to submit paperwork explaining why they wanted to reduce paperwork.
+To reduce paperwork, filers were required to submit paperwork explaining why they wished to reduce *paperwork*.
 
 
 
-Dashboards reported a surge in efficiency. The filers reported a surge in despair. The dashboards were trusted.
+Dashboards reported a surge in efficiency. The filers reported a surge in despair. The dashboards were, *naturally*, the ones believed.
 
 
 
-To fix the metric, the optimization paperwork was excluded from the metric. Reality was adjusted to fit the chart.
+To fix the metric, the optimization paperwork was quietly removed from the metric. Reality, ever obliging, was *adjusted* to fit the chart.
 
 ## Related Haikus
 

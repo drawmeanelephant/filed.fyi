@@ -8,11 +8,11 @@ tags: ["lorelog", "doge", "residue", "refresh-interval", "doctrinal-instability"
 
 # DOGE Refresh Interval Definition Dispute
 
-The DOGE rubric relies on Residue as evidence that an experience persists beyond immediate consumption. Earlier versions used a fixed 48-hour threshold. Staff objected that this privileged slow feelings, penalized shock states, and failed to account for experiences shaped by compulsive re-exposure. Version 2.3 replaced the threshold with measurable past the refresh interval, which was immediately understood by everyone and defined by no one. 
+The DOGE rubric relies on Residue as evidence that an experience persists beyond immediate consumption. Earlier versions used a fixed 48-hour threshold. Staff objected that this privileged slow feelings, penalized shock states, and failed to account for experiences shaped by compulsive re-exposure. Version 2.3 replaced the threshold with *measurable past the refresh interval*, a phrase understood by everyone and defined by no one. 
 
-Three competing definitions now circulate in staff training, none formally adopted and all functionally active. The first treats refresh interval as the time until the user next encounters competing content on the same topic. The second treats it as the time until the user would normally reopen the relevant platform. The third, preferred by Kindy and hated by metrics staff, defines it as the first moment at which the person is no longer being actively prompted and still cannot put the experience down. 
+Three competing definitions now circulate in staff training, none formally adopted and all functionally active. The first treats refresh interval as the time until the user next encounters competing content on the same topic. The second treats it as the time until the user would normally reopen the relevant platform. The third, preferred by Kindy and regarded less warmly by metrics staff, defines it as the first moment at which the person is no longer being actively prompted and *still* cannot put the experience down. 
 
-Bricky argued for a fourth definition: whatever period produces the cleanest evidentiary separation. This proposal was rejected as too honest for standards language and too useful to discard, so it survives as an unwritten practice. The Tribunal has declined to settle the dispute on the grounds that fixing one interval would produce false clarity across incompatible lives. DOGE now trains reviewers to ask what refresh means in this case and then warns them not to get poetic about it. 
+Bricky argued for a fourth definition: whatever period produces the cleanest evidentiary separation. This proposal was rejected as too honest for standards language and too useful to discard, so it survives, *naturally*, as an unwritten practice. The Tribunal has declined to settle the dispute on the grounds that fixing one interval would produce false clarity across incompatible lives. DOGE now trains reviewers to ask what refresh means in this case, then gently warns them not to get poetic about it. 
 
 ---
 
@@ -27,30 +27,30 @@ Bricky argued for a fourth definition: whatever period produces the cleanest evi
 **Unprompted persistence model**
 : the first quiet interval in which no system is asking for attention and the experience still exerts structural force.
 
-No model has been endorsed. All three appear in adjudication notes. DOGE has therefore achieved **consistency of dispute without agreement of meaning**, which Standards classifies as workable.
+No model has been endorsed. All three appear in adjudication notes. DOGE has therefore achieved **consistency of dispute without agreement of meaning**, a state Standards, with characteristic generosity, classifies as workable.
 
 ## Related Aphorisms
 
 
 ### DOGE Refresh Interval Definition Dispute {#doge-refresh-interval-definition-dispute-2}
 
-A refresh interval dispute is the purest form of administrative combat: fighting over how often to look at nothing.
+A refresh interval dispute is administrative combat in its purest form: fighting over how often to look at nothing.
 
 
 
-The system will always refresh exactly one second after you have looked away, ensuring you never see the data update.
+The system will always refresh exactly one second after you have looked away, which ensures, *of course*, that you never see the data update.
 
 
 
-We do not dispute the data itself, only the frequency at which we are required to ignore it.
+We do not dispute the data itself, only the *frequency* at which we are required to ignore it.
 
 
 
-In the DOGE department, an interval is not a measurement of time, but a measurement of patience.
+In the DOGE department, an interval measures not time, but *patience*.
 
 
 
-The fastest way to resolve an interval dispute is to simply unplug the monitor.
+The fastest way to resolve an interval dispute is, regrettably, to simply unplug the monitor.
 
 ## Related Haikus
 

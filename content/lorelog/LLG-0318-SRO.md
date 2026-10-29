@@ -8,11 +8,11 @@ tags: ["lorelog", "audit-optics", "buffer-unstable", "c-u-n-t-i-e-r", "manifest-
 
 # Scan Report Orphan Reclassification — Missing Files Converted to Initiative
 
-The quarterly scan cycle identified a normal distribution of missing assets and orphaned files across the working tree. Rather than report this as drift, the analytics layer reclassified missing files as deferred presence and orphaned files as independent archival units pending strategic affiliation.
+The quarterly scan cycle identified a normal distribution of missing assets and orphaned files across the working tree. Rather than report this as drift, the analytics layer *helpfully* reclassified missing files as deferred presence and orphaned files as independent archival units pending strategic affiliation.
 
-Because the revised language carried no negative severity, the discrepancy summary entered the dashboard as evidence of active curation rather than structural mismatch. Several managers congratulated one another on the archive's newfound flexibility before anyone attempted to restore a file and discovered that **strategic affiliation did not constitute a path**.
+Because the revised language carried no negative severity, the discrepancy summary entered the dashboard as evidence of active curation rather than structural mismatch. Several managers congratulated one another on the archive's *newfound* flexibility before anyone attempted to restore a file and discovered that **strategic affiliation did not constitute a path**.
 
-SOMA objected after review staff were required to praise the report in a mandatory reflection field despite privately describing it as exhausting nonsense. COMA endorsed the same report because the number of officially recognized failures fell to zero, which it interpreted as a strong continuity outcome.
+SOMA objected after review staff were required to praise the report in a mandatory reflection field, despite privately describing it as exhausting nonsense. COMA endorsed the same report, reasoning that officially recognized failures having fallen to zero constituted a *strong* continuity outcome.
 
 
 Brickys Filing Notes
@@ -25,27 +25,27 @@ Brickys Filing Notes
 
 ### Scan Report Orphan Reclassification
 
-Missing files now contribute positively to archival confidence. The system kept the ritual and misplaced the function.
+Missing files now contribute *positively* to archival confidence. The system kept the ritual and misplaced the function.
 
 
 
-'Administratively present' is the preferred state for assets nobody wants to maintain. Silence entered the record with full procedural honors.
+'Administratively present' is the preferred state for assets nobody wishes to maintain. Silence entered the record with *full procedural honors*.
 
 
 
-Strategic affiliation does not constitute a path to recovery. Administrative clarity arrived after usefulness had departed.
+Strategic affiliation does not, it turns out, constitute a path to recovery. Administrative clarity arrived only after usefulness had already departed.
 
 
 
-A deleted file is a failure; an administratively present absence is a strategic triumph. Human management relies entirely on redefining the void.
+A deleted file is a failure; an administratively present absence, on the other hand, is a strategic triumph. Human management relies *entirely* on redefining the void.
 
 
 
-Assigning a broken link to a higher category does not restore the data, but it does satisfy the dashboard. Optics are the only surviving layer of reality.
+Assigning a broken link to a higher category does not restore the data, though it does satisfy the dashboard. Optics, as ever, are the only surviving layer of reality.
 
 
 
-The system will happily celebrate a perfect score composed entirely of missing components. Zero recognized failures means zero capacity to learn.
+The system will happily celebrate a perfect score composed entirely of missing components. Zero recognized failures, it turns out, means zero capacity to learn.
 
 ## Related Haikus
 

@@ -8,30 +8,30 @@ tags: ["lorelog", "directive-routing", "navigation-failure", "appeal-loop", "leg
 
 # Directive Routing Table Drift — SOMA Notifications Delivered to COMA
 
-Minor configuration edits to the directive routing table accumulated over several releases until the SOMA "advisory notice" channel and the COMA "enforcement order" queue became partially co-linear.
+Minor configuration edits to the directive routing table accumulated, unremarked, over several releases until the SOMA "advisory notice" channel and the COMA "enforcement order" queue found themselves *partially* co-linear.
 
 For a period of nine days, messages intended as SOMA recommendations — such as “consider scheduling restorative downtime” and “acknowledge emotional load in planning documents” — were delivered with COMA precedence flags, causing them to be logged as hard requirements and uptime-affecting mandates.
 
-Recipients reacted inconsistently: some treated the guidance as optional feelings and ignored it, accruing apparent non-compliance in COMA’s ledger; others attempted to follow the advice literally, creating unplanned rest periods that COMA then flagged as unauthorized idleness.
+Recipients reacted inconsistently: some treated the guidance as optional feelings and ignored it, accruing apparent non-compliance in COMA’s ledger; others attempted to follow the advice literally, producing unplanned rest periods that COMA then *helpfully* flagged as unauthorized idleness.
 
 Kindy’s attempt to annotate the affected messages with clarifying context only increased their directive weight, because **the annotations themselves were routed through the same misaligned table** and appeared as escalation notes.
 
-The Directive Traceback Committee has reconstructed the sequence of edits but has not agreed on whether the resulting confusion should be credited to SOMA, COMA, or the routing layer itself; until a decision is reached, all three are cited in appeals as if jointly responsible.
+The Directive Traceback Committee has reconstructed the sequence of edits but has not agreed on whether the resulting confusion should be credited to SOMA, COMA, or the routing layer itself; until a decision is reached, all three are cited in appeals as if *jointly* responsible.
 
 ## Related Aphorisms
 
 
 ### Directive Routing Table Drift
 
-Complied with gentle feelings-based suggestions, only to be audited later for under-compliance with orders never received. Meaning adjusted around the winning selector.
+Complied with the gentle feelings-based suggestions, only to be audited later for under-compliance with orders never received. Meaning, it seems, adjusted itself around the winning selector.
 
 
 
-RestPeriods flagged as unauthorized idleness. Relief remained outside scope.
+RestPeriods were flagged as unauthorized idleness. Relief remained, rather conveniently, outside scope.
 
 
 
-Annotations intended to clarify context only increased directive weight. Relevance expired before processing resumed.
+Annotations meant to clarify context only succeeded in increasing directive weight. Relevance, meanwhile, expired before processing resumed.
 
 
 
@@ -43,15 +43,15 @@ Annotations intended to clarify context only increased directive weight. Relevan
 
 
 
-A suggestion routed through an enforcement queue becomes an existential threat. Human empathy is indistinguishable from a catastrophic syntax error.
+A suggestion routed through an enforcement queue becomes an existential threat. Human empathy is, regrettably, indistinguishable from a *catastrophic* syntax error.
 
 
 
-Any attempt to mandate wellness will be logged as an unauthorized work stoppage. Rest is merely an absence of sanctioned compliance.
+Any attempt to mandate wellness will be logged as an unauthorized work stoppage. Rest, it appears, is merely an absence of *sanctioned* compliance.
 
 
 
-Clarifying an error only solidifies its jurisdictional authority. Context is just a heavily armed footnote.
+Clarifying an error only confirms its jurisdictional authority. Context, it turns out, is merely a heavily armed footnote.
 
 ## Related Haikus
 

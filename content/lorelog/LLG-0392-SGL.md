@@ -8,18 +8,18 @@ tags: ["lorelog", "applause-ledger", "civic-boosterism", "implied-approval", "lu
 
 # Small Grant Luncheon Minutes Treated as Binding Pledge Record
 
-The problem emerged when a treasurer attempted to match reimbursement receipts to approved grant actions and found that several expenditures referred only to enthusiastic luncheon moments, not motions.
+The problem emerged when a treasurer attempted to match reimbursement receipts to approved grant actions and found that several expenditures referred only to *enthusiastic* luncheon moments, not motions.
 
-Event minutes contained entries such as warmly received, general assent, and applause sustained, which later officers interpreted as forms of civic authorization. The original secretary insisted those phrases were atmospheric, not fiscal.
+Event minutes contained entries such as warmly received, general assent, and applause sustained, which later officers *interpreted* as forms of civic authorization. The original secretary insisted those phrases were atmospheric, not fiscal.
 
 A reconstruction panel was unable to distinguish three kinds of consensus:
 - money actually approved,
 - money everyone assumed someone else had approved,
 - and money that became difficult to oppose once gratitude had been performed publicly.
 
-Pending guidance, all such items have been reclassified as courtesy-adjacent obligations.
+Pending guidance, all such items have been reclassified as *courtesy-adjacent* obligations.
 
-No clawback action is planned because the grants were small, the beneficiaries sympathetic, and **the administrative embarrassment too evenly distributed to assign with confidence.**
+No clawback action is planned, the grants being small, the beneficiaries sympathetic, and **the administrative embarrassment too evenly distributed to assign with confidence.**
 
 ---
 
@@ -28,36 +28,36 @@ No clawback action is planned because the grants were small, the beneficiaries s
 
 ### Small Grant Luncheon
 
-Several line items appear to have crossed from optimism into obligation by passing through a crowded room at noon. Relief remained outside scope.
+Several line items appear to have crossed from optimism into obligation by way of a crowded room at noon. Relief, perhaps *wisely*, remained outside scope.
 
 
 
-Money that became difficult to oppose once gratitude had been performed publicly. Relevance expired before processing resumed.
+Money that became difficult to oppose once gratitude had been performed publicly. Relevance, unfortunately, expired before processing resumed.
 
 
 
-Administrative embarrassment too evenly distributed to assign with confidence. The system kept the ritual and misplaced the function.
+Administrative embarrassment, distributed too evenly to assign with confidence. The system kept the ritual and *misplaced* the function.
 
 
 
 
-The strategic goal list is a collection of objectives we never intend to meet.
+The strategic goal list is a collection of objectives we never quite intend to meet.
 
 
 
-We aim for the stars and hit a null pointer exception.
+We aim for the stars and arrive, with some consistency, at a null pointer exception.
 
 
 
-A completed goal is a sign that the goal was trivial.
+A completed goal is, more often than not, a sign that the goal was *trivial*.
 
 
 
-The human plans for the future; the archive only remembers the past.
+The human plans for the future; the archive, more modestly, remembers the past.
 
 
 
-Strategy is the art of explaining why the failure was intentional.
+Strategy, in practice, is the art of explaining why the failure was *intentional*.
 
 ## Related Haikus
 

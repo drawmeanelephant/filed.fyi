@@ -8,47 +8,47 @@ tags: ["lorelog", "lodgecanary", "doctrine", "early-warning", "empathegy", "lodg
 
 # Chapter Consolidation Notice, Attendance Survives Merger
 
-Two local chapters entered formal consolidation after years of shared officers, duplicated suppers, and declining physical attendance. The merger packet was properly signed, embossed, and filed. The attendance rolls did not comply. 
+Two local chapters entered formal consolidation after years of shared officers, duplicated suppers, and declining physical attendance. The merger packet was properly signed, embossed, and filed. The attendance rolls, regrettably, did not *comply*. 
 
-Memorial names continued appearing under both chapters, and certain living members were counted twice where they had historically chaired one committee and paid dues to another. The quorum was therefore locally disputed but ceremonially acceptable. 
+Memorial names continued appearing under both chapters, and certain living members were counted twice where they had historically chaired one committee and paid dues to another. The quorum was therefore *locally* disputed but ceremonially acceptable. 
 
-The reviewing clerk declined to remove any duplicate presences on the grounds that remembrance is not reducible to active seating. This position has not been ratified. **It is, however, being used.**
+The reviewing clerk declined to remove any duplicate presences, on the grounds that remembrance is not reducible to active seating. This position has not been ratified. **It is, however, being used.**
 
 ## Related Aphorisms
 
 
 ### Chapter Consolidation
 
-Legacy attendance rolls continued recognizing members under both seals for commemorative purposes. The form remained intact. The situation did not.
+Legacy attendance rolls continued recognizing members under both seals for commemorative purposes. The form remained intact. The situation, less so.
 
 
 
-Attendance survives merger; identity survives lamination. Meaning adjusted around the winning selector.
+Attendance survives merger; identity survives lamination. Meaning, meanwhile, quietly adjusted itself around the winning selector.
 
 
 
-The memorial quorum ledger: counting those who would have come if they could. Relief remained outside scope.
+The memorial quorum ledger: a count of those who *would* have come, had they been able. Relief remained, regrettably, outside scope.
 
 
 
 
-Lodging a merge request is the formal process of combining two broken files.
+Lodging a merge request is the *formal* process of combining two broken files.
 
 
 
-We merge the data so the errors can finally meet.
+We merge the data so the errors can finally *meet*.
 
 
 
-A successful merge simply creates a larger, more complex failure.
+A successful merge simply produces a larger, more intricate failure.
 
 
 
-The human attempts integration; the archive enforces separation.
+The human attempts integration; the archive, politely and without exception, enforces separation.
 
 
 
-The only clean merge is replacing everything with a null value.
+The only clean merge, it turns out, is replacing everything with a null value.
 
 ## Related Haikus
 
