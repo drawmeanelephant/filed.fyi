@@ -1990,24 +1990,24 @@
   ],
   "mappings": {
     "by_owner_collection": {
-      "lorelog": 151,
-      "mascots": 702
+      "lorelog": 140,
+      "mascots": 697
     },
     "by_poetry_type": {
       "aphorism": 238,
-      "haiku": 326,
+      "haiku": 310,
       "limerick": 289
     },
-    "total": 853
+    "total": 837
   },
   "poetry": {
     "records_ambiguous": 162,
-    "records_single_owner": 853,
-    "records_total": 1688,
-    "records_unmapped": 673,
-    "records_with_accepted_claims": 1015
+    "records_single_owner": 837,
+    "records_total": 1682,
+    "records_unmapped": 683,
+    "records_with_accepted_claims": 999
   },
-  "policy_digest_sha256": "d84d7512a6cb09d5954318b90b9d1bdad36da6b8bf9513961acde64fa1b3ee3f",
+  "policy_digest_sha256": "b6230783ee8c8e2a7c2eb401194e8ee0a4b8e91cfea8a129db5ed1461e771d5f",
   "policy_schema_version": 1,
   "population": {
     "eligible_collections": {
@@ -2028,22 +2028,22 @@
     }
   },
   "rows": {
-    "accepted": 1603,
-    "accepted_resolved": 1561,
+    "accepted": 1582,
+    "accepted_resolved": 1540,
     "by_field": {
-      "mascotRef": 640,
-      "relatedEntries": 1058,
-      "relatedHaiku": 158,
+      "mascotRef": 635,
+      "relatedEntries": 1049,
+      "relatedHaiku": 147,
       "relatedLimerick": 155,
-      "relatedMascots": 650
+      "relatedMascots": 645
     },
     "by_status": {
       "ambiguous": 4,
       "missing": 54,
-      "resolved": 2602,
+      "resolved": 2572,
       "source_unmigrated": 1
     },
-    "declared": 2661,
-    "duplicate_evidence_removed": 256
+    "declared": 2631,
+    "duplicate_evidence_removed": 251
   }
 }
