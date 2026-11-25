@@ -9,4 +9,4 @@ tags: ["aphorisms"]
 
 Collected verse from the Filed world: aphorisms.
 
-Count: 565 records.
+Count: 568 records.
