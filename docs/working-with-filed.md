@@ -319,6 +319,7 @@ If Boris isn't on PATH, pass it explicitly: `BORIS_BIN=/path/to/boris ./bin/vali
 | `README.md` | Build commands, deployment, repository layout. |
 | `docs/changelog-convention.md` | Maintenance docket format spec. |
 | `docs/FILED-BORIS-LLM-WORKFLOW.md` | Graph-aware editing workflow and `relations` guidance. |
+| `docs/lorewriting.md` | Voice spec and full-suite manifest for generating lore batches — paste into any model brief. |
 | `docs/cloudflare-deployment.md` | Deployment details. |
 | `GEMINI.md` | Model pointer file (see AGENTS.md, rules.md, README.md). |
 | `CLAUDE-MISSION.md` | **Historical** styling brief predating the Boris takeover — do not treat as active instructions. |
