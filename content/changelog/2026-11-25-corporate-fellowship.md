@@ -2,14 +2,14 @@
 title: "Corporate Fellowship: Charter, Steward, and Verse"
 parent: changelog
 status: published
-tags: ["changelog", "lorelog", "mascots", "aphorisms", "limericks", "managed-absence"]
+tags: ["changelog", "lorelog", "mascots", "reference", "aphorisms", "limericks", "haikus", "managed-absence"]
 ---
 
 # Corporate Fellowship: Charter, Steward, and Verse
 
 **Maintenance ID:** 0.1.00299.corporate-fellowship
 **Date:** 2026-11-25
-**Scope:** `content/lorelog/`, `content/mascots/`, `content/aphorisms/`, `content/limericks/`. Four greenfield records, plus this docket.
+**Scope:** `content/lorelog/`, `content/mascots/`, `content/reference/`, `content/aphorisms/`, `content/limericks/`, `content/haikus/`. Seven greenfield records, plus this docket.
 
 ## What changed
 
@@ -17,11 +17,14 @@ tags: ["changelog", "lorelog", "mascots", "aphorisms", "limericks", "managed-abs
 - `content/mascots/939.fellowship-steward.md`, `mascots/M-0939` "Fellowship Steward", status `archived` per mascot convention. Keeper of a roster whose members do not attend.
 - `content/aphorisms/APH-939.fellowship-steward.md`, `aphorisms/APH-0939`.
 - `content/limericks/LIM-LLG-0940-FEL.md`, `limericks/LIM-LLG-0940-FEL`. Five limericks.
-- Trunk `Count:` lines updated: lorelog 209 -> 210, mascots 257 -> 258, aphorisms 566 -> 567, limericks 575 -> 576, changelog 251 -> 252. README totals updated by five.
+- `content/reference/fref-0945-44fel.md`, `reference/FREF-0945-44FEL` "Form 44-FEL — Application for Recognition of Fellowship". The chartering instrument the lorelog cites: approval by elapsed time, reviewing office chartered by the form's own first filing.
+- `content/aphorisms/APH-FREF-0945-44FEL.md`, `aphorisms/APH-FREF-0945-44FEL`.
+- `content/haikus/hai-939-fellowship-steward.md`, `haikus/HAI-0939`.
+- Trunk `Count:` lines updated: lorelog 209 -> 210, mascots 257 -> 258, reference 153 -> 154, aphorisms 566 -> 568, limericks 575 -> 576, haikus 544 -> 545, changelog 251 -> 252. README totals updated by eight.
 
 ## What was deliberately left alone
 
-- Existing records. Relations point outward from the four new records only; nothing they cite was edited to point back.
+- Existing records outside this batch. Relations point outward from the seven new records only; nothing they cite was edited to point back.
 
 ## Verification performed
 

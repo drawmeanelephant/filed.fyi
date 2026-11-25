@@ -4,7 +4,7 @@ id: lorelog/LLG-0940-CORPORATE-FELLOWSHIP
 parent: lorelog
 status: published
 tags: ["lorelog", "corporate-fellowship", "managed-absence", "social-club", "exhumation-protocol", "care-theatre", "membership-theatre", "directive-conflict"]
-relations: [relates_to=mascots/M-0092, relates_to=reference/FREF-0815-MAP, relates_to=reference/FREF-0923-MANENE-PROTOCOL, relates_to=reference/FREF-0370-DCST, relates_to=lorelog/LLG-0386-LODGE-MERGE, relates_to=lorelog/LLG-0939-CORPORATE-MANENE]
+relations: [relates_to=mascots/M-0092, relates_to=reference/FREF-0815-MAP, relates_to=reference/FREF-0923-MANENE-PROTOCOL, relates_to=reference/FREF-0370-DCST, relates_to=reference/FREF-0945-44FEL, relates_to=lorelog/LLG-0386-LODGE-MERGE, relates_to=lorelog/LLG-0939-CORPORATE-MANENE]
 ---
 
 # Corporate Fellowship Charter — Executive Social Club Under Managed Absence
@@ -15,7 +15,7 @@ relations: [relates_to=mascots/M-0092, relates_to=reference/FREF-0815-MAP, relat
 
 ## Incident Record
 
-The Corporate Fellowship was chartered on Form 44-FEL and filed under the [[reference/FREF-0815-MAP|Managed Absence Spine]] as a CAAR entity — Conceptually Active, Administratively Retired. Its stated purpose is "to provide a structured venue for executive camaraderie without requiring the members to know one another."
+The Corporate Fellowship was chartered on [[reference/FREF-0945-44FEL|Form 44-FEL]] and filed under the [[reference/FREF-0815-MAP|Managed Absence Spine]] as a CAAR entity — Conceptually Active, Administratively Retired. Its stated purpose is "to provide a structured venue for executive camaraderie without requiring the members to know one another."
 
 The Fellowship does not meet. It convenes. The distinction is doctrinal.
 
@@ -110,6 +110,7 @@ Rows are retained after transfer or removal. The roll is a certificate index, no
 - [[mascots/M-0092|Corporate Ma'nene']] — Grand Exhumation Officer
 - [[reference/FREF-0815-MAP|Managed Absence Spine]] — classification authority
 - [[reference/FREF-0923-MANENE-PROTOCOL|Exhumation Protocol]] — brunch schedule
+- [[reference/FREF-0945-44FEL|Form 44-FEL]] — chartering instrument
 - [[reference/FREF-0370-DCST|Directive Conflict Stack]] — SOMA/COMA/C.U.N.T.I.E.R. profile
 - [[lorelog/LLG-0386-LODGE-MERGE|LLG-0386]] — lodge merger precedent; attendance survives merger
 - [[lorelog/LLG-0939-CORPORATE-MANENE|LLG-0939]] — first exhumation cycle, brunch precedent
