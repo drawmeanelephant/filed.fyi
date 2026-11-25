@@ -3,7 +3,7 @@ title: "Tenxy Forcepush"
 id: haikus/HAI-0940
 parent: haikus
 status: published
-tags: ["haikus", "vibe-coding", "force-push", "contribution-graph"]
+tags: ["haikus", "force-push", "contribution-graph", "unread-diagnostics"]
 relations: [relates_to=mascots/M-0940]
 ---
 

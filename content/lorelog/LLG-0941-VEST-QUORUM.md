@@ -31,7 +31,7 @@ relations: [relates_to=lorelog/LLG-0386-LODGE-MERGE, relates_to=limericks/LIM-LL
 | 2026-11-17T14:40:00Z | attendance | Networking phase. The record exchanges contact details with itself and logs 79,800 new connections. The arithmetic is correct for 400 attendees. |
 | 2026-11-17T14:52:30Z | attendance | Pivot announced. The record is now building the same thing for a different vertical. The previous pivot was 14 days earlier. The next is scheduled. |
 | 2026-11-17T15:10:00Z | mixer-gate-02 | Doors close. Badge-outs: 0. The controller does not log exits for attendees of which it holds only one. |
-| 2026-11-16T22:04:00Z | attendance | Thread published by the record: "I went to a run club this morning. What happened at mile two changed how I think about distribution." The thread ends there. Replies: 1,912, each asking what happened at mile two. |
+| 2026-11-16T22:04:00Z | attendance | Thread published by the record: "Mile two changed how I think about distribution." The thread ends there. Replies: 1,912, each asking what happened at mile two. |
 
 ## Reviewer Notes
 
